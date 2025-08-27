@@ -1,4 +1,7 @@
-from classHandler.campus import Campus
+#from classHandler.semester import Semester
+#from classHandler.subject import Subject    
+from classHandler.clas import Section
+#from classHandler.campus import Campus
 import time
 import json
 from bs4 import BeautifulSoup
@@ -87,6 +90,7 @@ class Scraper:
             html = driver.page_source
             soup = BeautifulSoup(html, 'html.parser').find("pre")
             classes = json.loads(soup.text)["sections"]  # Get the json data that contains the classes
+            classes = cls.formatClasses(classes)  # Format the classes into Section objects
             
             with open("Output.txt", "w", encoding="utf-8") as file:
                  for c in classes:
@@ -148,6 +152,23 @@ class Scraper:
             subject_title = subject.find("td", class_="zebratabletitle").text.strip()
             subjects.append((subject_name, subject_title, subject))
         return subjects
+    
+    @classmethod
+    def formatClasses(cls, classData: list) -> list:
+        reducedClasses = []
+        for c in classData:
+            code = c["sln"]
+            name = c["title"]
+            credits = c["credits"]
+            section = c["sectionNumber"]
+            t = c["dayTime"]
+            location = c["location"]
+            instructor = c["instructor"]
+            seats_taken = c["enrollment"]
+            seats_total = c["enrollmentLimit"]
+
+            reducedClasses.append(Section(code, name, credits, section, t, location, instructor, seats_taken, seats_total))
+        return reducedClasses
 
 
         
