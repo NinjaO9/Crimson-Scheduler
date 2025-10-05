@@ -1,4 +1,4 @@
-from dataHandler.scraper import Scraper as s
+from scrapeLogic.dataHandler.scraper import Scraper as s
 
 def main():
     url = "https://schedules.wsu.edu"
