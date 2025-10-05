@@ -1,7 +1,7 @@
 #from classHandler.semester import Semester
 #from classHandler.subject import Subject    
-from classHandler.clas import Section
-from classHandler.campus import Campus
+from scrapeLogic.classHandler.clas import Section
+from scrapeLogic.classHandler.campus import Campus
 import os
 import time
 import json
