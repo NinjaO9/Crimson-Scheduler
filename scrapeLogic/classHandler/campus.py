@@ -1,8 +1,8 @@
 
-import scrapeLogic.classHandler.semester as semester
+from scrapeLogic.classHandler.semester import Semester
 class Campus:
 
-    def __init__(self, name: str, semesters: list):
+    def __init__(self, name: str, semesters: list[Semester]):
         self.name = name
         self.semesters = semesters
 

@@ -1,10 +1,11 @@
-#from classHandler.semester import Semester
-#from classHandler.subject import Subject    
+from scrapeLogic.classHandler.semester import Semester
+from scrapeLogic.classHandler.subject import Subject    
 from scrapeLogic.classHandler.clas import Section
 from scrapeLogic.classHandler.campus import Campus
 import os
 import time
 import json
+import copy
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -39,8 +40,9 @@ class Scraper:
     @classmethod
     def fetch_data(cls, url) -> list: 
         college_info = []
+        campus_info = []
         semester_info = []
-        subject_info = []
+        count = 0
         try:
             driver = webdriver.Chrome(service=cls._service, options=cls._options)
             action = ActionChains(driver)
@@ -69,6 +71,8 @@ class Scraper:
 
 
                 for semester in semesters:
+                    if (count == 1):
+                        break
                     print(f"Semester selected: {semester}")
 
                     WebDriverWait(driver, 10).until(
@@ -76,7 +80,10 @@ class Scraper:
                     )
 
                     buttonToClick = driver.find_element(By.CSS_SELECTOR, f"a.nav-main[aria-label=\"{campus_name + semester.replace(" ", "")}\"]")
-                    buttonToClick.click()  # Click on the semester to load the subjects
+                    try:
+                        buttonToClick.click()
+                    except Exception as e: #Button not clickable
+                        continue
                     WebDriverWait(driver, 10).until(
                         EC.presence_of_element_located((By.CSS_SELECTOR, "table.wsu-c-table.wsu-c-table--striped.soc-table tbody tr"))  # Wait for the table that contains the subjects to load
                     )
@@ -123,7 +130,7 @@ class Scraper:
                         soup = BeautifulSoup(html, "html.parser").find("pre")
                         classes = json.loads(soup.text)["sections"]  # Get the json data that contains the classes
                         classes_l = cls.formatClasses(classes)  # Format the classes into Section objects
-                        subject_info.append(classes_l)
+                        semester_info.append(Subject(name, copy.deepcopy(classes_l)))
 
                         driver.back()
                         driver.back() # go back to subject selection page
@@ -133,19 +140,25 @@ class Scraper:
 
                         html = driver.page_source
                         soup = BeautifulSoup(html, 'html.parser').find("tbody", class_=["wsu-c-table", "wsu-c-table--striped"])  # Get the table that contains the subjects
-                        semester_info.append(subject_info)
+
                     driver.back()  # Go back to the campus/semester selection page
-                    college_info.append(Campus(campus_name, semester_info))
+                    campus_info.append(Semester(semester.strip(), copy.deepcopy(semester_info)))
                     semester_info.clear()
-                    subject_info.clear()
+                    count = 1
+                college_info.append(Campus(campus_name, copy.deepcopy(campus_info)))
+                campus_info.clear()
+                break
+                
+                
 
             print("Data fetching complete.")
             time.sleep(10)
             driver.quit()
         except Exception as e:
             print(f"An error occurred in the data fetching process: {e}")
-        with open("Output.txt", "w", encoding="utf-8") as file:
-            file.write(str(college_info))
+        with open("Output.txt", "w") as file:
+            for college in college_info:
+                file.write(str(college))
         return college_info
         
         
@@ -179,20 +192,33 @@ class Scraper:
         return subjects
     
     @classmethod
-    def formatClasses(cls, classData: list) -> list:
+    def formatClasses(cls, classData: list) -> list[list[Section]]:
         reducedClasses = []
-        for clas in classData:
-            code = clas["sln"]
-            name = clas["title"]
-            credits = clas["credits"]
-            section = clas["sectionNumber"]
-            t = clas["dayTime"]
-            location = clas["location"]
-            instructor = clas["instructor"]
-            seats_taken = clas["enrollment"]
-            seats_total = clas["enrollmentLimit"]
+        sameCourse = []
+        prevCNumber = ""
+        for course in classData:
+            code = (course or {}).get("sln", "N/A")
+            subject = (course or {}).get("subject", "N/A")
+            number = (course or {}).get("courseNumber", "N/A")
+            name = (course or {}).get("title", "N/A")
+            credits = (course or {}).get("credits", "N/A")
+            section = (course or {}).get("sectionNumber", "N/A")
+            t = (course or {}).get("dayTime", "N/A")
+            location = (course or {}).get("location", "N/A")
+            instructor = (course or {}).get("instructor", "N/A")
+            seats_taken = (course or {}).get("enrollment", "N/A")
+            seats_total = (course or {}).get("enrollmentLimit", "N/A")
 
-            reducedClasses.append(Section(code, name, credits, section, t, location, instructor, seats_taken, seats_total))
+            if (prevCNumber == ""):
+                prevCNumber = number
+                sameCourse.append(Section(code, subject, number, name, credits, section, t, location, instructor, seats_taken, seats_total))
+            elif (prevCNumber == number): # Grouping the same course numbers together
+                sameCourse.append(Section(code, subject, number, name, credits, section, t, location, instructor, seats_taken, seats_total))
+            else:
+                reducedClasses.append(copy.deepcopy(sameCourse))
+                sameCourse.clear()
+                sameCourse.append(Section(code, subject, number, name, credits, section, t, location, instructor, seats_taken, seats_total))
+        reducedClasses.append(copy.deepcopy(sameCourse))
         return reducedClasses
 
 
