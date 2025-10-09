@@ -195,7 +195,7 @@ class Scraper:
     def formatClasses(cls, classData: list) -> list[list[Section]]:
         reducedClasses = []
         sameCourse = []
-        prevCNumber = ""
+        prevCNum = -1
         for course in classData:
             code = (course or {}).get("sln", "N/A")
             subject = (course or {}).get("subject", "N/A")
@@ -209,15 +209,18 @@ class Scraper:
             seats_taken = (course or {}).get("enrollment", "N/A")
             seats_total = (course or {}).get("enrollmentLimit", "N/A")
 
-            if (prevCNumber == ""):
-                prevCNumber = number
+            if (number == 131):
+                print("")
+            if (prevCNum == -1):
+                prevCNum = number
                 sameCourse.append(Section(code, subject, number, name, credits, section, t, location, instructor, seats_taken, seats_total))
-            elif (prevCNumber == number): # Grouping the same course numbers together
+            elif (prevCNum == number): # Grouping the same course numbers together
                 sameCourse.append(Section(code, subject, number, name, credits, section, t, location, instructor, seats_taken, seats_total))
             else:
                 reducedClasses.append(copy.deepcopy(sameCourse))
                 sameCourse.clear()
                 sameCourse.append(Section(code, subject, number, name, credits, section, t, location, instructor, seats_taken, seats_total))
+                prevCNum = number
         reducedClasses.append(copy.deepcopy(sameCourse))
         return reducedClasses
 

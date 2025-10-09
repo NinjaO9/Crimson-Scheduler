@@ -18,6 +18,7 @@ class Section:
         self.seats_total = seats_total
 
     def __repr__(self):
+        return f"{self.name}-{self.cNumber}"
         return f"""Section(
                 code={self.code}, 
                 name={self.name}, 
@@ -31,6 +32,7 @@ class Section:
                 """
     
     def __str__(self):
+        return f"{self.name}-{self.cNumber}"
         return f"""Section(
             code={self.code}, 
             name={self.name}, 
