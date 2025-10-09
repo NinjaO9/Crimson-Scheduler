@@ -7,7 +7,7 @@ class Campus(models.Model):
     name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):
-        return f"{self.name}\n"
+        return f"{self.name}"
 
 class Semester(models.Model):
     name = models.CharField(max_length=50)
@@ -17,18 +17,18 @@ class Semester(models.Model):
         unique_together = ('name', 'campus')
     
     def __str__(self):
-        return f"{self.name} - {Campus.name}\n"
+        return f"{self.name} - {self.campus.name}\n"
 
 class Topics(models.Model):
     name = models.CharField(max_length=50)
 
-    semester = models.ForeignKey(Semester, on_delete=models.CASCADE, related_name='topic')
+    semester = models.ForeignKey(Semester, on_delete=models.CASCADE, related_name='topics')
 
     class Meta:
         unique_together = ('name', 'semester')
 
     def __str__(self):
-        return f"{self.name} - {self.semester}\n"
+        return f"{self.name} - {self.semester.name}\n"
     
 class Course(models.Model):
     code = models.IntegerField(null=True)
@@ -44,7 +44,7 @@ class Course(models.Model):
     seats_taken = models.IntegerField(null=True)
     seats_total = models.IntegerField(null=True)
 
-    topic = models.ForeignKey(Topics, on_delete=models.CASCADE, related_name='course')
+    topic = models.ForeignKey(Topics, on_delete=models.CASCADE, related_name='courses')
 
     class Meta:
         unique_together = ('name', 'topic')
