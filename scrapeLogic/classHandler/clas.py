@@ -2,12 +2,12 @@ import re
 
 
 class Section:
-    def __init__(self, code: int, subject : str, number : int, name: str, credits: str, section: int, time: str, location: str, instructor: str, seats_taken: int, seats_total: int):
+    def __init__(self, code: int, subject : str, number : int, name: str, credits: int, section: int, time: str, location: str, instructor: str, seats_taken: int, seats_total: int):
         self.code = code
         self.subject = subject.strip()
         self.cNumber = number
         self.name = name.strip()
-        self.credits = credits.strip()
+        self.credits = credits
         self.section = section
         self.days = ""
         self.time = ""
@@ -48,11 +48,10 @@ class Section:
     
     def formatTime(self, time) -> None:
 
+        time = time.strip()
         try:
-            match = re.match(r"([A-Z,]+)(\d.*)", time)
+            self.days, self.time = re.match(r"([A-Z,]+)(\d.*)", time)
             # format time from (example) "TU,THU12.30-13.30" to something like "(Tuesday, Thursday), "12:30 PM - 1:30 PM""
-            self.days = match[0].strip()
-            self.time = match[1].replace(".", ":").strip()
         except Exception as e:
             self.time = "N/A"
             self.days = "N/A"

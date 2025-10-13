@@ -38,11 +38,10 @@ class Scraper:
             self.initialized = True
 
     @classmethod
-    def fetch_data(cls, url) -> list: 
+    def fetch_data(cls, url) -> list[Campus]: 
         college_info = []
         campus_info = []
         semester_info = []
-        count = 0
         try:
             driver = webdriver.Chrome(service=cls._service, options=cls._options)
             action = ActionChains(driver)
@@ -58,7 +57,6 @@ class Scraper:
             campuses = cls.getCampuses(soup)
 
 
-
             for campus in campuses:
                 campus_name = campus.find("h4", class_="City").text.strip()
 
@@ -71,8 +69,6 @@ class Scraper:
 
 
                 for semester in semesters:
-                    if (count == 1):
-                        break
                     print(f"Semester selected: {semester}")
 
                     WebDriverWait(driver, 10).until(
@@ -144,21 +140,19 @@ class Scraper:
                     driver.back()  # Go back to the campus/semester selection page
                     campus_info.append(Semester(semester.strip(), copy.deepcopy(semester_info)))
                     semester_info.clear()
-                    count = 1
                 college_info.append(Campus(campus_name, copy.deepcopy(campus_info)))
                 campus_info.clear()
-                break
-                
-                
 
             print("Data fetching complete.")
             time.sleep(10)
             driver.quit()
         except Exception as e:
             print(f"An error occurred in the data fetching process: {e}")
+        """
         with open("Output.txt", "w") as file:
             for college in college_info:
                 file.write(str(college))
+        """
         return college_info
         
         
