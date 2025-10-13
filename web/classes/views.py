@@ -7,8 +7,10 @@ def test(response):
     return HttpResponse("<h1>Hello World!</h1>")
 
 def viewCampus(response, campusid):
-    temp = Campus.objects.get(id=campusid)
-    semesters = temp.semesters.get(id=1)
+    campus = Campus.objects.get(id=campusid)
 
-    return HttpResponse("<h1>%s</h1><br></br><p>%s</p>" %(temp.name, semesters.name))
+    return render(response, "classes/showcase.html", {"campus":campus})
+
+def home(response):
+    return render(response, "classes/home.html", {})
 

@@ -1,2 +1,31 @@
 {% extends 'classes/base.html' %}
 
+{% block title %}Class viewer{% endblock %}
+{% block content %}
+<h1>{{campus.name}} - classes</h1>
+<ul>
+    {% for semester in campus.semesters.all %}
+        <li>{{ semester.name }}</li>
+        <ul>
+            {% for topic in semester.topics.all %}
+                <li>{{ topic.name }}</li>
+                <ul>
+                    {% for course in topic.courses.all %}
+                        <li>{{ course.name }}</li>
+                        <ul>
+                            {% for section in course.sections.all %}
+                                <li>{{ section.section }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+
+
+
+

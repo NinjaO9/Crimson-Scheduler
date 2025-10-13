@@ -31,23 +31,31 @@ class Topics(models.Model):
         return f"{self.name} - {self.semester.name}\n"
     
 class Course(models.Model):
-    code = models.IntegerField(null=True)
-    subject = models.CharField(max_length=10, default="N/A")
+    subject = models.CharField(max_length=30, default="N/A")
     course_number = models.IntegerField(null=True)
     name = models.CharField(max_length=100, default="N/A")
-    credits = models.IntegerField(null=True)
+    credits = models.CharField(max_length=2, default="V")
+
+    topic = models.ForeignKey(Topics, on_delete=models.CASCADE, related_name='courses')
+    
+    def __str__(self):
+        return f"{self.name} - {self.topic}\n"
+    
+
+class Section(models.Model):
+    code = models.IntegerField(null=True)
     section = models.IntegerField(null=True)
-    days = models.CharField(max_length=15, default="N/A")
-    time = models.CharField(max_length=15, default="N/A")
+    days = models.CharField(max_length=30, default="N/A")
+    time = models.CharField(max_length=30, default="N/A")
     location = models.CharField(max_length=20, default="N/A")
     instructor = models.CharField(max_length=50, default="N/A")
     seats_taken = models.IntegerField(null=True)
     seats_total = models.IntegerField(null=True)
 
-    topic = models.ForeignKey(Topics, on_delete=models.CASCADE, related_name='courses')
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name="sections")
 
     class Meta:
-        unique_together = ('name', 'topic')
-    
+        unique_together = ('code', 'course')
+
     def __str__(self):
-        return f"{self.name} - {self.topic}\n"
+        return f"{self.course} - Section {self.section}"
