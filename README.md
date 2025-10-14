@@ -15,13 +15,13 @@ A website to help build schedules for WSU students.
 
 ## Roadmap
 
-- Build scrapper to get class information [We are here, nearly complete!] 
+- Build scrapper to get class information [complete!] 
 
-- Link PostgreSQL or SQLite Database to save scrapped data
+- Link PostgreSQL or SQLite Database to save scrapped data [complete, but needs some tweaking]
 
-- Implement backend API to call database and retrieve scrapped class information
+- Implement backend API to call database and retrieve scrapped class information [complete!]
 
-- Create frontend that interacts with API to allow users to build schedules
+- Create frontend that interacts with API to allow users to build schedules [In progress!]
 
 
 ## License
