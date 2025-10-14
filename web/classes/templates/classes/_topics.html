@@ -1,0 +1,12 @@
+<h3>Select a Topic</h3>
+<div class="list-group">
+  {% for topic in topics %}
+    <button
+      class="list-group-item list-group-item-action"
+      hx-get="{% url 'load_courses' topic.id %}"
+      hx-target="#content"
+      hx-swap="innerHTML">
+      {{ topic.name }}
+    </button>
+  {% endfor %}
+</div>

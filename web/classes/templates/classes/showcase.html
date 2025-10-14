@@ -12,11 +12,16 @@
                 <ul>
                     {% for course in topic.courses.all %}
                         <li>{{ course.name }}</li>
-                        <ul>
+                        <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Test
+                                </button>
+                                <ul class="dropdown-menu">
                             {% for section in course.sections.all %}
-                                <li>{{ section.section }}</li>
+                                <li><a class="dropdown-item" href="#">Section {{ section.section }}: Instructor - {{section.instructor}}</a></li>
                             {% endfor %}
-                        </ul>
+                                </ul>
+                        </div>
                     {% endfor %}
                 </ul>
             {% endfor %}
