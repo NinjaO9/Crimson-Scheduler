@@ -1,0 +1,140 @@
+{% extends 'classes/base.html' %}
+
+{% block title %}Schedule Builder{% endblock %}
+
+{% block style %}
+<style>
+    .search-container {
+        padding: 20px;
+        width: 40%;
+        float: left;
+    }
+    .schedule-container {
+        padding: 20px;
+        width: 60%;
+        float: right;
+        border-left: 1px solid #dee2e6;
+        min-height: 90vh;
+    }
+    .search-results {
+        margin-top: 20px;
+    }
+    .course-item {
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .course-item:hover {
+        background-color: #f8f9fa;
+    }
+    .selected-course {
+        background-color: #e2e6ea;
+        margin-bottom: 10px;
+    }
+    .search-help {
+        font-size: 0.9em;
+        color: #6c757d;
+        margin-top: 10px;
+    }
+    .section-item {
+        border-bottom: 1px solid #dee2e6;
+        padding: 8px 0;
+    }
+    .section-item:last-child {
+        border-bottom: none;
+    }
+    .section-item .btn {
+        min-width: 100px;
+    }
+    .remove-section-btn {
+        margin-left: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="search-container">
+    <div class="input-group mb-3">
+        <input type="text" 
+               class="form-control" 
+               placeholder="Search for classes... (Example: campus:Pullman CPTS)" 
+               id="searchInput"
+               name="q"
+               hx-get="{% url 'search_courses' %}"
+               hx-trigger="keyup delay:500ms"
+               hx-target="#searchResults"
+               hx-indicator="#search-indicator">
+    </div>
+    
+    <div class="search-help">
+        <strong>Search Filters:</strong><br>
+        campus:[name] - Filter by campus (e.g., campus:Pullman)<br>
+        semester:[term] - Filter by semester (e.g., semester:Fall)<br>
+        subject:[code] - Filter by subject (e.g., subject:CPT_S)<br>
+        number:[num] - Filter by course number (e.g., number:121)
+    </div>
+
+    <div id="search-indicator" class="htmx-indicator">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div id="searchResults" class="search-results">
+        <!-- Search results will be loaded here -->
+    </div>
+</div>
+
+<div class="schedule-container">
+    <h3>My Schedule</h3>
+    <div id="selectedCourses">
+        <!-- Selected courses will appear here -->
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('htmx:afterRequest', function(event) {
+        // Remove existing event listeners to prevent duplication
+        document.querySelectorAll('.course-item').forEach(item => {
+            item.removeEventListener('click', addToSchedule);
+        });
+
+        // Re-apply event listeners to newly loaded course items
+        document.querySelectorAll('.course-item').forEach(item => {
+            item.addEventListener('click', addToSchedule);
+        });
+    });
+
+    function addToSchedule(event) {
+        const courseId = this.getAttribute('data-course-id');
+        const url = "{% url 'add_course_to_schedule' %}" + "?course_id=" + courseId;
+
+        fetch(url, {
+            method: 'GET',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'Content-Type': 'application/json'
+            },
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Course was successfully added to the schedule
+                const selectedCoursesDiv = document.getElementById('selectedCourses');
+                selectedCoursesDiv.innerHTML = data.schedule_html;
+            } else {
+                // Handle error (e.g., course already in schedule)
+                alert(data.message || 'Error adding course to schedule.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while adding the course to the schedule.');
+        });
+    }
+</script>
+{% endblock %}
