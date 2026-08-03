@@ -1,9 +1,5 @@
-from web.classes.models import Campus as d_Campus, Semester as d_Semester, Topics as d_Topic, Course as d_Course, Section as d_Section
+from classes.models import Campus as d_Campus, Semester as d_Semester, Topics as d_Topic, Course as d_Course, Section as d_Section
 from scrapeLogic.classHandler.campus import Campus as s_Campus
-from scrapeLogic.classHandler.semester import Semester as s_Semeseter
-from scrapeLogic.classHandler.subject import Subject as s_Topic
-from scrapeLogic.classHandler.clas import Section as s_Course
-
 
 
 
@@ -39,7 +35,7 @@ class StorageHandler:
 
                     for course_list in subject.courses:
                         if (len(course_list) != 0):
-                            new_course, _ = new_topic.courses.update_or_create(course_number=course_list[0].cNumber, defaults={"subject" : course_list[0].subject, "name" : course_list[0].name, "credits" : course_list[0].credits})
+                            new_course, _ = new_topic.courses.update_or_create(course_number=course_list[0].number, defaults={"subject" : course_list[0].subject, "name" : course_list[0].name, "credits" : course_list[0].credits})
                         for course in course_list:
                             #print(f"Now storing - {course.name} - Section: {course.section}")
                             new_course.sections.update_or_create(
@@ -54,5 +50,3 @@ class StorageHandler:
                                     "seats_total" : course.seats_total,
                                 })
     
-
-
