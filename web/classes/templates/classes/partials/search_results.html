@@ -1,10 +1,10 @@
 {% for course in courses %}
 <div class="course-item">
     <div class="course-header">
-        <strong>{{ course.subject }} {{ course.course_number }}</strong>
-        <div>{{ course.name }}</div>
-        <small class="text-muted">{{ course.topic.semester.campus.name }} - {{ course.topic.semester.name }}</small>
-        <button class="btn btn-sm btn-outline-primary mt-2" 
+        <strong style="font-size: 0.98rem;">{{ course.subject }} {{ course.course_number }}</strong>
+        <div style="font-size: 0.9rem;">{{ course.name }}</div>
+        <small style="color:#9aa3b2;">{{ course.topic.semester.campus.name }} - {{ course.topic.semester.name }}</small>
+        <button class="btn btn-sm btn-outline-info mt-2"
                 type="button" 
                 data-bs-toggle="collapse" 
                 data-bs-target="#sections{{ course.id }}" 
@@ -13,7 +13,7 @@
         </button>
     </div>
     <div class="collapse mt-2" id="sections{{ course.id }}">
-        <div class="card card-body p-2">
+        <div class="card card-body p-2" style="background:#1f232b;border-color:#3a414d;">
             {% for section in course.sections.all %}
             <div class="section-item mb-2">
                 <div class="d-flex justify-content-between align-items-center">
@@ -21,23 +21,29 @@
                         <strong>Section {{ section.section }}</strong>
                         <div>{{ section.days }} {{ section.time }}</div>
                         <div>{{ section.instructor }} - {{ section.location }}</div>
-                        <small class="text-muted">Seats: {{ section.seats_taken }}/{{ section.seats_total }}</small>
+                        <small style="color:#9aa3b2;">Seats: {{ section.seats_taken }}/{{ section.seats_total }}</small>
                     </div>
-                    <button class="btn btn-sm btn-success add-section-btn"
-                            hx-post="{% url 'add_to_schedule' section.id %}"
-                            hx-target="#selectedCourses"
-                            hx-swap="beforeend"
-                            hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+                    <button class="btn btn-sm btn-info add-section-btn"
+                            type="button"
+                            data-section-id="{{ section.id }}"
+                            data-course-code="{{ course.subject }} {{ course.course_number }}"
+                            data-course-name="{{ course.name }}"
+                            data-section-num="{{ section.section }}"
+                            data-instructor="{{ section.instructor }}"
+                            data-location="{{ section.location }}"
+                            data-days="{{ section.days }}"
+                            data-time="{{ section.time }}"
+                            data-seats="{{ section.seats_taken }}/{{ section.seats_total }}">
                         Add Section
                     </button>
                 </div>
             </div>
             {% empty %}
-            <div class="text-muted">No sections available</div>
+            <div style="color:#9aa3b2;">No sections available</div>
             {% endfor %}
         </div>
     </div>
 </div>
 {% empty %}
-<div class="text-muted">No courses found</div>
+<div style="color:#9aa3b2;">No courses found</div>
 {% endfor %}
