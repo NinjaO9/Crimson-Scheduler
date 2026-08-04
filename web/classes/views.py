@@ -15,64 +15,69 @@ def home(response):
     return render(response, "classes/home.html")
 
 def schedule_view(request):
-    # Get or create a schedule for the current session
     session_id = request.session.session_key
     if not session_id:
         request.session.create()
         session_id = request.session.session_key
-    
+
+    campuses = Campus.objects.order_by('name')
+
+    semester_names = Semester.objects.values_list('name', flat=True).distinct()
+    semesters = sorted(semester_names, key=semester_sort_key, reverse=True)
+
     return render(request, 'classes/schedule_build.html', {
-        'session_id': session_id
+        'session_id': session_id,
+        'campuses': campuses,
+        'semesters': semesters,
     })
+
+
+SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2}
+
+
+def semester_sort_key(name):
+    """Sorts 'Fall 2026' style names chronologically (year, then season
+    within that year) rather than alphabetically, since alphabetical order
+    would put Fall before Spring before Summer regardless of year."""
+    parts = name.split()
+    season = parts[0] if parts else ''
+    year = int(parts[1]) if len(parts) > 1 and parts[1].isdigit() else 0
+    return (year, SEASON_ORDER.get(season, 99))
 
 def search_courses(request):
     query = request.GET.get('q', '').strip()
-    filters = {}
-    
-    # Parse filters from query
-    parts = query.split()
-    search_terms = []
-    
-    for part in parts:
-        if ':' in part:
-            filter_type, value = part.split(':', 1)
-            filters[filter_type.lower()] = value.lower()
-        else:
-            search_terms.append(part)
-    
-    # Base query
+    campus_id = request.GET.get('campus', '').strip()
+    semester_name = request.GET.get('semester', '').strip()
+    subject = request.GET.get('subject', '').strip()
+    number = request.GET.get('number', '').strip()
+
     courses = Course.objects.all()
-    
-    # Apply filters
-    if 'campus' in filters:
-        courses = courses.filter(topic__semester__campus__name__icontains=filters['campus'])
-    
-    if 'semester' in filters:
-        courses = courses.filter(topic__semester__name__icontains=filters['semester'])
-    
-    if 'subject' in filters:
-        courses = courses.filter(subject__icontains=filters['subject'])
-    
-    if 'number' in filters:
-        courses = courses.filter(course_number__icontains=filters['number'])
-    
-    # Apply general search terms
-    if search_terms:
-        search_query = ' '.join(search_terms)
-        if len(search_query) >= 2:  # Only search if at least 2 characters
-            courses = courses.filter(
-                Q(name__icontains=search_query) |
-                Q(subject__icontains=search_query) |
-                Q(course_number__icontains=search_query)
-            )
-    
-    # Update select_related to include sections
+
+    if campus_id:
+        courses = courses.filter(topic__semester__campus_id=campus_id)
+
+    if semester_name:
+        courses = courses.filter(topic__semester__name__iexact=semester_name)
+
+    if subject:
+        courses = courses.filter(subject__iexact=subject)
+
+    if number:
+        courses = courses.filter(course_number__icontains=number)
+
+    if query and len(query) >= 2:
+        courses = courses.filter(
+            Q(name__icontains=query) |
+            Q(subject__icontains=query) |
+            Q(course_number__icontains=query)
+        )
+
     courses = courses.prefetch_related('sections').select_related(
         'topic',
         'topic__semester',
         'topic__semester__campus'
     )[:10]
-    
+
     return render(request, 'classes/partials/search_results.html', {'courses': courses})
 
 def add_to_schedule(request, section_id):

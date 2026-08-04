@@ -30,8 +30,12 @@
 
     .schedule-layout {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) 340px;
+        grid-template-columns: 340px minmax(0, 1fr);
         gap: 20px;
+    }
+
+    .sidebar {
+        order: -1;
     }
 
     .toolbar {
@@ -237,6 +241,35 @@
     .legend-color.conflict {
         background: #ff9f1c;
     }
+    .search-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12px;
+    }
+
+    .filter-row {
+        display: flex;
+        gap: 8px;
+    }
+
+    .filter-select,
+    .filter-input {
+        flex: 1;
+        min-width: 0;
+        background: #1f232b;
+        border: 1px solid var(--panel-border);
+        color: var(--text);
+        border-radius: 6px;
+        padding: 6px 8px;
+        font-size: 0.88rem;
+    }
+
+    .filter-select:focus,
+    .filter-input:focus {
+        outline: none;
+        border-color: var(--accent);
+    }
 
     @media (max-width: 1200px) {
         .schedule-layout {
@@ -269,27 +302,74 @@
 
         <aside class="sidebar">
             <div class="sidebar-top">
-                <h2 class="sidebar-title">+ Add Class</h2>
-                <div class="input-group">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="Search by subject, number, course name..."
-                           id="searchInput"
-                           name="q"
-                           hx-get="{% url 'search_courses' %}"
-                           hx-trigger="keyup delay:400ms"
-                           hx-target="#searchResults"
-                           hx-indicator="#search-indicator">
-                    <span id="search-indicator" class="search-indicator htmx-indicator">
-                        <div class="spinner-border spinner-border-sm text-info" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </span>
-                </div>
-                <div class="search-help">
-                    campus:Pullman | semester:Fall | subject:CPT_S | number:121
-                </div>
+    <h2 class="sidebar-title">+ Add Class</h2>
+
+    <form id="courseSearchForm" class="search-filters">
+        <div class="filter-row">
+            <select name="campus" id="campusFilter" class="filter-select"
+                    hx-get="{% url 'search_courses' %}"
+                    hx-trigger="change"
+                    hx-target="#searchResults"
+                    hx-include="#courseSearchForm">
+                <option value="">Any Campus</option>
+                {% for campus in campuses %}
+                    <option value="{{ campus.id }}">{{ campus.name }}</option>
+                {% endfor %}
+            </select>
+
+            <select name="semester" id="semesterFilter" class="filter-select"
+                    hx-get="{% url 'search_courses' %}"
+                    hx-trigger="change"
+                    hx-target="#searchResults"
+                    hx-include="#courseSearchForm">
+                <option value="">Any Semester</option>
+                {% for semester in semesters %}
+                    <option value="{{ semester }}">{{ semester }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="filter-row">
+            <input type="text"
+                   name="subject"
+                   id="subjectFilter"
+                   class="filter-input"
+                   placeholder="Subject (e.g. CPT_S)"
+                   list="subjectOptions"
+                   hx-get="{% url 'search_courses' %}"
+                   hx-trigger="keyup delay:300ms changed, change"
+                   hx-target="#searchResults"
+                   hx-include="#courseSearchForm">
+
+            <input type="text"
+                   name="number"
+                   id="numberFilter"
+                   class="filter-input"
+                   placeholder="Course #"
+                   hx-get="{% url 'search_courses' %}"
+                   hx-trigger="keyup delay:300ms changed"
+                   hx-target="#searchResults"
+                   hx-include="#courseSearchForm">
             </div>
+
+            <div class="input-group">
+                <input type="text"
+                    class="form-control"
+                    placeholder="Search by course name..."
+                    id="searchInput"
+                    name="q"
+                    hx-get="{% url 'search_courses' %}"
+                    hx-trigger="keyup delay:400ms changed"
+                    hx-target="#searchResults"
+                    hx-include="#courseSearchForm">
+                <span id="search-indicator" class="search-indicator htmx-indicator">
+                    <div class="spinner-border spinner-border-sm text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </span>
+            </div>
+        </form>
+    </div>
 
             <div id="searchResults" class="search-results">
                 <div class="text-muted">Search courses to begin building your schedule.</div>
