@@ -5,275 +5,482 @@
 {% block style %}
 <style>
     :root {
-        --bg: #1e2127;
-        --panel: #252932;
-        --panel-border: #3a414d;
-        --text: #e4e8ef;
-        --muted: #9aa3b2;
-        --accent: #18a0fb;
-        --slot-line: #3a414d;
-        --course: #a7cd7c;
-        --course-text: #1f2a1f;
-        --overlap: rgba(255, 107, 107, 0.7);
+        --crimson: #981e32;
+        --crimson-dark: #7f1425;
+        --line: #e5e7eb;
+        --line-strong: #d7dce3;
+        --text-muted: #5f6877;
+        --soft-red: #fff1f3;
+        --soft-red-border: #e9a9b4;
+        --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
     }
 
-    body {
-        background: var(--bg);
-        color: var(--text);
+    .app-navbar {
+        background: linear-gradient(180deg, var(--crimson) 0%, var(--crimson-dark) 100%);
+        min-height: 74px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.18) inset;
+    }
+
+    .app-brand-title {
+        color: #fff;
+        font-size: 1.72rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        text-transform: uppercase;
+    }
+
+    .app-nav-actions {
+        align-items: center;
+        display: flex;
+        gap: 18px;
+    }
+
+    .nav-action {
+        align-items: center;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        display: inline-flex;
+        font-weight: 700;
+        gap: 8px;
+        padding: 8px 0;
     }
 
     .schedule-app {
-        min-height: 100vh;
-        padding: 20px 24px;
-        background: var(--bg);
+        background: #fff;
+        height: calc(100vh - 74px);
+        overflow: hidden;
+        padding: 0 20px;
     }
 
-    .schedule-layout {
+    .schedule-shell {
         display: grid;
-        grid-template-columns: 340px minmax(0, 1fr);
-        gap: 20px;
+        grid-template-columns: minmax(360px, 40%) minmax(620px, 1fr);
+        margin: 0 auto;
+        max-width: 1880px;
+        height: calc(100vh - 74px);
     }
 
-    .sidebar {
-        order: -1;
+    .search-pane {
+        border-left: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        padding: 22px 22px 18px;
+    }
+
+    .schedule-pane {
+        border-right: 1px solid var(--line);
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        padding: 14px 28px;
+    }
+
+    .field-grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .field-grid.three {
+        align-items: end;
+        grid-template-columns: 1fr 0.85fr auto 1.85fr;
+        margin-top: 14px;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .field label {
+        color: #111827;
+        font-size: 0.86rem;
+        font-weight: 800;
+    }
+
+    .form-control,
+    .form-select {
+        border-color: #d7dce3;
+        border-radius: 6px;
+        color: #111827;
+        min-height: 43px;
+    }
+
+    .field-or {
+        color: #111827;
+        padding-bottom: 11px;
+    }
+
+    .search-actions {
+        align-items: center;
+        display: grid;
+        gap: 18px;
+        grid-template-columns: minmax(180px, 45%) 1fr;
+        margin: 14px 0 18px;
+    }
+
+    .primary-btn,
+    .danger-btn,
+    .export-btn {
+        align-items: center;
+        background: linear-gradient(180deg, var(--crimson) 0%, #870f21 100%);
+        border: 0;
+        border-radius: 6px;
+        color: #fff;
+        display: inline-flex;
+        font-weight: 800;
+        gap: 10px;
+        justify-content: center;
+        min-height: 36px;
+        padding: 0 18px;
+        text-decoration: none;
+    }
+
+    .reset-btn {
+        background: transparent;
+        border: 0;
+        color: #2f3642;
+        justify-self: end;
+        padding: 8px 4px;
+    }
+
+    .filter-bar {
+        border-top: 1px solid var(--line);
+        padding: 14px 0 16px;
+    }
+
+    .filter-header,
+    .filter-options {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filter-header {
+        margin-bottom: 12px;
+    }
+
+    .filter-title {
+        font-weight: 800;
+    }
+
+    .check-options {
+        display: flex;
+        gap: 32px;
+    }
+
+    .form-check-label {
+        color: #111827;
+        font-size: 0.94rem;
+    }
+
+    .more-filters {
+        background: transparent;
+        border: 0;
+        color: #111827;
+        font-weight: 600;
+    }
+
+    .search-results {
+        display: grid;
+        gap: 10px;
+        flex: 1;
+        min-height: 0;
+        overflow-y: auto;
+        padding: 0 2px 8px 0;
+    }
+
+    .pane-topbar {
+        align-items: center;
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+        flex: 0 0 auto;
+        margin-bottom: 12px;
+    }
+
+    .schedule-title {
+        align-items: baseline;
+        display: flex;
+        gap: 12px;
+    }
+
+    .schedule-title h1 {
+        font-size: 1.42rem;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .credits-label {
+        color: #111827;
+        font-size: 1.05rem;
     }
 
     .toolbar {
-        display: flex;
         align-items: center;
-        gap: 10px;
-        margin-bottom: 14px;
+        display: flex;
+        gap: 14px;
     }
 
-    .toolbar-action {
-        border: 1px solid var(--panel-border);
-        background: transparent;
-        color: var(--muted);
-        border-radius: 8px;
-        padding: 7px 10px;
-        font-size: 0.92rem;
+    .saved-state {
+        align-items: center;
+        color: #111827;
+        display: inline-flex;
+        font-weight: 700;
+        gap: 8px;
     }
 
-    .toolbar-action.clear {
-        border-color: #7a3e3e;
-        color: #ff8f8f;
+    .danger-btn,
+    .export-btn {
+        min-height: 44px;
     }
 
     .calendar-wrap {
-        border: 1px solid var(--panel-border);
-        border-radius: 12px;
-        overflow: hidden;
-        background: var(--panel);
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow: visible;
     }
 
     .calendar-header {
         display: grid;
-        grid-template-columns: 70px repeat(5, minmax(120px, 1fr));
-        border-bottom: 1px solid var(--panel-border);
+        grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
     }
 
-    .calendar-header-time {
-        color: transparent;
-        border-right: 1px solid var(--panel-border);
+    .calendar-header-time,
+    .calendar-header-day {
+        align-items: center;
+        border-bottom: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+        display: flex;
+        justify-content: center;
+        min-height: 42px;
     }
 
     .calendar-header-day {
-        text-align: center;
-        padding: 14px 8px;
-        color: var(--text);
-        font-size: 1.05rem;
-        font-weight: 500;
+        flex-direction: column;
+        font-weight: 800;
+        line-height: 1.2;
     }
 
     .calendar-grid {
         display: grid;
-        grid-template-columns: 70px repeat(5, minmax(120px, 1fr));
-        background: var(--panel);
+        grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
     }
 
     .calendar-time-slot {
-        border-right: 1px solid var(--panel-border);
-        border-bottom: 1px solid var(--slot-line);
-        color: var(--muted);
-        font-size: 1rem;
-        padding: 8px 8px 0 12px;
-        min-height: 70px;
+        border-bottom: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+        color: #111827;
+        font-size: 0.84rem;
+        min-height: 36px;
+        padding: 7px 9px 0 0;
+        text-align: right;
     }
 
     .calendar-cell {
-        border-bottom: 1px solid var(--slot-line);
-        border-right: 1px solid rgba(58, 65, 77, 0.45);
-        min-height: 70px;
-        position: relative;
+        border-bottom: 1px solid var(--line);
+        border-right: 1px solid var(--line);
+        min-height: 36px;
         overflow: visible;
+        position: relative;
     }
 
     .course-block {
-        position: absolute;
-        left: 4px;
-        right: 4px;
+        background: linear-gradient(180deg, #fff7f8 0%, #fde8ec 100%);
+        border: 1px solid var(--soft-red-border);
         border-radius: 6px;
-        padding: 7px 8px;
-        background: var(--course);
-        color: var(--course-text);
-        font-size: 0.8rem;
-        line-height: 1.15;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
-        z-index: 10;
+        color: #111827;
         cursor: pointer;
+        font-size: 0.62rem;
+        font-weight: 700;
+        left: 5px;
+        line-height: 1.2;
         overflow: hidden;
+        padding: 4px 5px;
+        position: absolute;
+        right: 5px;
+        text-align: center;
+        z-index: 10;
     }
 
     .course-block.conflict {
-        outline: 2px solid #ff9f1c;
+        background: repeating-linear-gradient(135deg, #fff 0 7px, #fff 7px 12px, #d20f2a 12px 14px);
+        border-color: #d20f2a;
     }
 
     .course-block-line {
         display: block;
     }
 
-    .course-block-line.code {
-        font-weight: 700;
-    }
-
-    .overlap-segment {
-        position: absolute;
-        left: 0;
-        right: 0;
-        background-color: var(--overlap);
-        pointer-events: none;
-        z-index: 1;
-    }
-
     .course-block-tooltip {
-        display: none;
-        position: absolute;
-        top: calc(100% + 4px);
-        left: 0;
-        min-width: 210px;
-        background: #101419;
-        color: var(--text);
-        border: 1px solid var(--panel-border);
+        background: #fff;
+        border: 1px solid #cfd5df;
         border-radius: 6px;
-        padding: 8px;
-        z-index: 20;
-        font-size: 0.78rem;
-        line-height: 1.25;
+        box-shadow: var(--shadow);
+        color: #111827;
+        display: none;
+        font-size: 0.8rem;
+        left: 50%;
+        line-height: 1.45;
+        min-width: 245px;
+        padding: 10px 12px;
+        position: absolute;
+        text-align: left;
+        top: calc(100% + 7px);
+        transform: translateX(-50%);
+        z-index: 30;
     }
 
     .course-block:hover .course-block-tooltip {
         display: block;
     }
 
-    .sidebar {
-        border: 1px solid var(--panel-border);
-        border-radius: 12px;
-        background: var(--panel);
-        overflow: hidden;
-        height: fit-content;
+    .overlap-segment {
+        display: none;
     }
 
-    .sidebar-top {
-        border-bottom: 1px solid var(--panel-border);
-        padding: 14px;
-    }
-
-    .sidebar-title {
-        color: var(--text);
-        margin: 0 0 10px 0;
-        font-size: 1rem;
-        font-weight: 600;
-    }
-
-    #searchInput {
-        background: #1f232b;
-        border: 1px solid var(--panel-border);
-        color: var(--text);
-    }
-
-    #searchInput::placeholder {
-        color: var(--muted);
-    }
-
-    .search-help {
+    .misc-panel {
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        flex: 0 0 auto;
         margin-top: 10px;
-        color: var(--muted);
-        font-size: 0.82rem;
-        line-height: 1.3;
+        padding: 10px 14px 8px;
     }
 
-    .search-results {
-        max-height: 55vh;
-        overflow-y: auto;
-        padding: 12px;
+    .misc-header {
+        align-items: start;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
     }
 
-    .search-indicator {
-        display: inline-flex;
-        align-items: center;
-        margin-left: 8px;
+    .misc-title {
+        font-size: 1.05rem;
+        font-weight: 800;
     }
 
-    .legend {
-        border-top: 1px solid var(--panel-border);
-        padding: 12px 14px;
-        color: var(--muted);
+    .misc-subtitle,
+    .misc-note {
+        color: var(--text-muted);
         font-size: 0.86rem;
     }
 
-    .legend-item {
-        display: flex;
+    .misc-note {
         align-items: center;
+        display: inline-flex;
         gap: 8px;
-        margin-top: 6px;
     }
 
-    .legend-color {
-        width: 14px;
-        height: 14px;
-        border-radius: 3px;
+    .not-calendar-dot {
+        border: 1px dashed #d20f2a;
+        border-radius: 4px;
+        height: 18px;
+        width: 18px;
     }
 
-    .legend-color.no-conflict {
-        background: var(--course);
+    .misc-list {
+        display: grid;
+        gap: 0;
     }
 
-    .legend-color.conflict {
-        background: #ff9f1c;
-    }
-    .search-filters {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 12px;
+    .misc-item {
+        align-items: center;
+        border: 1px solid var(--line);
+        display: grid;
+        gap: 12px;
+        grid-template-columns: 1fr auto;
+        padding: 10px 12px;
     }
 
-    .filter-row {
+    .misc-item + .misc-item {
+        border-top: 0;
+    }
+
+    .misc-course-title {
+        font-weight: 800;
+    }
+
+    .misc-meta {
+        color: #111827;
         display: flex;
-        gap: 8px;
+        flex-wrap: wrap;
+        font-size: 0.86rem;
+        gap: 18px;
+        margin-top: 4px;
     }
 
-    .filter-select,
-    .filter-input {
-        flex: 1;
-        min-width: 0;
-        background: #1f232b;
-        border: 1px solid var(--panel-border);
-        color: var(--text);
+    .manage-btn {
+        background: #fff;
+        border: 1px solid var(--line);
         border-radius: 6px;
-        padding: 6px 8px;
-        font-size: 0.88rem;
-    }
-
-    .filter-select:focus,
-    .filter-input:focus {
-        outline: none;
-        border-color: var(--accent);
+        color: var(--crimson);
+        font-weight: 800;
+        min-height: 34px;
+        padding: 0 14px;
     }
 
     @media (max-width: 1200px) {
-        .schedule-layout {
+        .schedule-shell {
             grid-template-columns: 1fr;
+            height: auto;
+        }
+
+        .schedule-app {
+            height: auto;
+            overflow: visible;
+        }
+
+        .search-pane,
+        .schedule-pane {
+            border-left: 1px solid var(--line);
+        }
+
+        .search-results {
+            max-height: none;
+        }
+    }
+
+    @media (max-width: 760px) {
+        .schedule-app {
+            padding: 0 12px 18px;
+        }
+
+        .app-brand-title {
+            font-size: 1.1rem;
+        }
+
+        .app-nav-actions {
+            display: none;
+        }
+
+        .field-grid,
+        .field-grid.three,
+        .search-actions,
+        .pane-topbar,
+        .toolbar {
+            align-items: stretch;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .field-or {
+            padding: 0;
+        }
+
+        .calendar-wrap {
+            overflow-x: auto;
+            overflow-y: visible;
+        }
+
+        .calendar-header,
+        .calendar-grid {
+            min-width: 900px;
         }
     }
 </style>
@@ -281,163 +488,175 @@
 
 {% block content %}
 <div class="schedule-app">
-    <div class="schedule-layout">
-        <section>
-            <div class="toolbar">
-                <button type="button" class="toolbar-action clear" id="clearScheduleBtn">Clear Schedule</button>
+    <div class="schedule-shell">
+        <aside class="search-pane">
+            <form id="courseSearchForm">
+                <div class="field-grid">
+                    <div class="field">
+                        <label for="campusFilter">Campus</label>
+                        <select name="campus" id="campusFilter" class="form-select"
+                                hx-get="{% url 'search_courses' %}"
+                                hx-trigger="change"
+                                hx-target="#searchResults"
+                                hx-include="#courseSearchForm">
+                            {% for campus in campuses %}
+                                <option value="{{ campus.id }}">{{ campus.name }}</option>
+                            {% empty %}
+                                <option value="">Any Campus</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="semesterFilter">Term</label>
+                        <select name="semester" id="semesterFilter" class="form-select"
+                                hx-get="{% url 'search_courses' %}"
+                                hx-trigger="change"
+                                hx-target="#searchResults"
+                                hx-include="#courseSearchForm">
+                            {% for semester in semesters %}
+                                <option value="{{ semester }}">{{ semester }}</option>
+                            {% empty %}
+                                <option value="">Any Semester</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="field-grid three">
+                    <div class="field">
+                        <label for="subjectFilter">Subject</label>
+                        <input type="text" name="subject" id="subjectFilter" class="form-control" placeholder="CPT_S"
+                               hx-get="{% url 'search_courses' %}"
+                               hx-trigger="keyup delay:300ms changed, change"
+                               hx-target="#searchResults"
+                               hx-include="#courseSearchForm">
+                    </div>
+                    <div class="field">
+                        <label for="numberFilter">Number</label>
+                        <input type="text" name="number" id="numberFilter" class="form-control" placeholder="327"
+                               hx-get="{% url 'search_courses' %}"
+                               hx-trigger="keyup delay:300ms changed"
+                               hx-target="#searchResults"
+                               hx-include="#courseSearchForm">
+                    </div>
+                    <div class="field-or">or</div>
+                    <div class="field">
+                        <label for="searchInput">Course Title</label>
+                        <input type="text" name="q" id="searchInput" class="form-control" placeholder="e.g. Data Structures"
+                               hx-get="{% url 'search_courses' %}"
+                               hx-trigger="keyup delay:400ms changed"
+                               hx-target="#searchResults"
+                               hx-include="#courseSearchForm">
+                    </div>
+                </div>
+
+                <div class="search-actions">
+                    <button type="button" class="primary-btn"
+                            hx-get="{% url 'search_courses' %}"
+                            hx-target="#searchResults"
+                            hx-include="#courseSearchForm">
+                        Search Courses
+                    </button>
+                    <button type="reset" class="reset-btn" id="resetFiltersBtn">Reset Filters</button>
+                </div>
+
+                <div class="filter-bar">
+                    <div class="filter-header">
+                        <div class="filter-title">Filter Results</div>
+                        <span id="search-indicator" class="search-indicator htmx-indicator">
+                            <span class="spinner-border spinner-border-sm text-danger" role="status" aria-hidden="true"></span>
+                        </span>
+                    </div>
+                    <div class="filter-options">
+                        <div class="check-options">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="openOnlyFilter" disabled>
+                                <label class="form-check-label" for="openOnlyFilter">Open Sections Only</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="onlineOnlyFilter" disabled>
+                                <label class="form-check-label" for="onlineOnlyFilter">Online Only</label>
+                            </div>
+                        </div>
+                        <button type="button" class="more-filters">More Filters v</button>
+                    </div>
+                </div>
+            </form>
+
+            <div id="searchResults" class="search-results">
+                <div class="empty-search">Choose a term, then search courses to begin building your schedule.</div>
+            </div>
+        </aside>
+
+        <main class="schedule-pane">
+            <div class="pane-topbar">
+                <div class="schedule-title">
+                    <h1>My Schedule</h1>
+                    <span class="credits-label">(<span id="creditCount">0</span> Credits)</span>
+                </div>
+                <div class="toolbar">
+                    <span class="saved-state">Saved</span>
+                    <button type="button" class="danger-btn" id="clearScheduleBtn">Clear Schedule</button>
+                    <button type="button" class="export-btn" id="exportScheduleBtn">Export v</button>
+                </div>
             </div>
 
             <div class="calendar-wrap">
-                <div class="calendar-header">
-                    <div class="calendar-header-time"></div>
-                    <div class="calendar-header-day">Monday</div>
-                    <div class="calendar-header-day">Tuesday</div>
-                    <div class="calendar-header-day">Wednesday</div>
-                    <div class="calendar-header-day">Thursday</div>
-                    <div class="calendar-header-day">Friday</div>
-                </div>
+                <div class="calendar-header" id="calendarHeader"></div>
                 <div class="calendar-grid" id="calendarGrid"></div>
             </div>
-        </section>
 
-        <aside class="sidebar">
-            <div class="sidebar-top">
-    <h2 class="sidebar-title">+ Add Class</h2>
-
-    <form id="courseSearchForm" class="search-filters">
-        <div class="filter-row">
-            <select name="campus" id="campusFilter" class="filter-select"
-                    hx-get="{% url 'search_courses' %}"
-                    hx-trigger="change"
-                    hx-target="#searchResults"
-                    hx-include="#courseSearchForm">
-                <option value="">Any Campus</option>
-                {% for campus in campuses %}
-                    <option value="{{ campus.id }}">{{ campus.name }}</option>
-                {% endfor %}
-            </select>
-
-            <select name="semester" id="semesterFilter" class="filter-select"
-                    hx-get="{% url 'search_courses' %}"
-                    hx-trigger="change"
-                    hx-target="#searchResults"
-                    hx-include="#courseSearchForm">
-                <option value="">Any Semester</option>
-                {% for semester in semesters %}
-                    <option value="{{ semester }}">{{ semester }}</option>
-                {% endfor %}
-            </select>
-        </div>
-
-        <div class="filter-row">
-            <input type="text"
-                   name="subject"
-                   id="subjectFilter"
-                   class="filter-input"
-                   placeholder="Subject (e.g. CPT_S)"
-                   list="subjectOptions"
-                   hx-get="{% url 'search_courses' %}"
-                   hx-trigger="keyup delay:300ms changed, change"
-                   hx-target="#searchResults"
-                   hx-include="#courseSearchForm">
-
-            <input type="text"
-                   name="number"
-                   id="numberFilter"
-                   class="filter-input"
-                   placeholder="Course #"
-                   hx-get="{% url 'search_courses' %}"
-                   hx-trigger="keyup delay:300ms changed"
-                   hx-target="#searchResults"
-                   hx-include="#courseSearchForm">
-            </div>
-
-            <div class="input-group">
-                <input type="text"
-                    class="form-control"
-                    placeholder="Search by course name..."
-                    id="searchInput"
-                    name="q"
-                    hx-get="{% url 'search_courses' %}"
-                    hx-trigger="keyup delay:400ms changed"
-                    hx-target="#searchResults"
-                    hx-include="#courseSearchForm">
-                <span id="search-indicator" class="search-indicator htmx-indicator">
-                    <div class="spinner-border spinner-border-sm text-info" role="status">
-                        <span class="visually-hidden">Loading...</span>
+            <section class="misc-panel">
+                <div class="misc-header">
+                    <div>
+                        <div class="misc-title">Non-Scheduled / Misc Classes <span id="miscCount">(0)</span></div>
+                        <div class="misc-subtitle">These classes do not have a set meeting time.</div>
                     </div>
-                </span>
-            </div>
-        </form>
-    </div>
-
-            <div id="searchResults" class="search-results">
-                <div class="text-muted">Search courses to begin building your schedule.</div>
-            </div>
-
-            <div class="legend">
-                <div><strong>Legend</strong></div>
-                <div class="legend-item"><span class="legend-color no-conflict"></span> Scheduled class</div>
-                <div class="legend-item"><span class="legend-color conflict"></span> Conflict outline + red overlap area</div>
-            </div>
-        </aside>
+                    <div class="misc-note"><span class="not-calendar-dot"></span>Not on calendar</div>
+                </div>
+                <div class="misc-list" id="miscList"></div>
+            </section>
+        </main>
     </div>
 </div>
 {% endblock %}
 
 {% block scripts %}
 <script>
-    // ---------------------------------------------------------------------
-    // Configuration
-    // ---------------------------------------------------------------------
-    const DAYS_OF_WEEK = ['M', 'T', 'W', 'R', 'F'];
+    const DAYS_OF_WEEK = [
+        { key: 'M', label: 'Monday' },
+        { key: 'T', label: 'Tuesday' },
+        { key: 'W', label: 'Wednesday' },
+        { key: 'R', label: 'Thursday' },
+        { key: 'F', label: 'Friday' },
+        { key: 'S', label: 'Saturday' },
+        { key: 'U', label: 'Sunday' }
+    ];
     const START_HOUR = 7;
-    const END_HOUR = 18;
-    const SLOT_HEIGHT = 70;
-    const DEBUG_SCHEDULE = true;
+    const END_HOUR = 19;
+    const SLOT_HEIGHT = 36;
     const SCHEDULE_COOKIE_NAME = 'wsu_schedule_builder_schedule';
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
-
-    // Ordered list of (pattern, canonical letter) pairs used to normalize day
-    // strings like "Tues", "TU", "Thursday" down to the single-letter codes
-    // used in DAYS_OF_WEEK. Order matters: longer/more specific tokens (e.g.
-    // "TUES") must be matched before shorter ones (e.g. "TU") so they aren't
-    // partially consumed first.
+    const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
         [/TUESDAY|TUES|TUE|TU/g, 'T'],
         [/WEDNESDAY|WED|WE/g, 'W'],
         [/THURSDAY|THURS|THU|TH/g, 'R'],
-        [/FRIDAY|FRI|FR/g, 'F']
+        [/FRIDAY|FRI|FR/g, 'F'],
+        [/SATURDAY|SAT|SA/g, 'S'],
+        [/SUNDAY|SUN|SU/g, 'U']
     ];
 
-    // Fields required for a stored schedule entry to be considered valid
-    // when reloading from the cookie.
-    const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
-
-    // ---------------------------------------------------------------------
-    // State
-    // ---------------------------------------------------------------------
     let currentSchedule = [];
     let renderedBlocksByDay = {};
 
-    // ---------------------------------------------------------------------
-    // Bootstrapping
-    // ---------------------------------------------------------------------
     function initializeSchedulePage() {
+        buildCalendarHeader();
         initializeCalendar();
         setupInteractionHandlers();
         currentSchedule = loadScheduleFromCookie();
         updateScheduleDisplay(currentSchedule);
-    }
-
-    function debugSchedule(message, payload) {
-        if (!DEBUG_SCHEDULE) return;
-        if (typeof payload === 'undefined') {
-            console.log(`[schedule-debug] ${message}`);
-            return;
-        }
-        console.log(`[schedule-debug] ${message}`, payload);
     }
 
     function setupInteractionHandlers() {
@@ -448,13 +667,30 @@
                 return;
             }
 
-            const clearButton = event.target.closest('#clearScheduleBtn');
-            if (clearButton) {
+            if (event.target.closest('#clearScheduleBtn')) {
                 event.preventDefault();
                 currentSchedule = [];
                 persistScheduleToCookie(currentSchedule);
                 updateScheduleDisplay(currentSchedule);
+                return;
             }
+
+            const removeMiscButton = event.target.closest('.remove-misc-btn');
+            if (removeMiscButton) {
+                removeFromSchedule(removeMiscButton.getAttribute('data-section-id'));
+                return;
+            }
+
+            if (event.target.closest('#exportScheduleBtn')) {
+                exportSchedule();
+            }
+        });
+
+        document.getElementById('resetFiltersBtn').addEventListener('click', function() {
+            window.setTimeout(() => {
+                const params = new URLSearchParams(new FormData(document.getElementById('courseSearchForm')));
+                htmx.ajax('GET', `{% url 'search_courses' %}?${params.toString()}`, '#searchResults');
+            }, 0);
         });
     }
 
@@ -470,39 +706,43 @@
             location: button.getAttribute('data-location'),
             days: button.getAttribute('data-days'),
             time: button.getAttribute('data-time'),
-            seats: button.getAttribute('data-seats')
+            seats: button.getAttribute('data-seats'),
+            credits: button.getAttribute('data-credits') || '0',
+            is_lab: button.getAttribute('data-is-lab') === 'true',
+            component: button.getAttribute('data-component') || 'lecture'
         };
-        const alreadySelected = currentSchedule.some(entry => String(entry.section_id) === String(sectionId));
-        if (alreadySelected) {
-            debugSchedule('Skipped add: section already selected', { sectionId });
-            return;
-        }
 
+        if (currentSchedule.some(entry => String(entry.section_id) === String(sectionId))) return;
         currentSchedule.push(courseData);
-        debugSchedule('Added section to local schedule', courseData);
         persistScheduleToCookie(currentSchedule);
         updateScheduleDisplay(currentSchedule);
     }
 
-    // ---------------------------------------------------------------------
-    // Calendar grid construction
-    // ---------------------------------------------------------------------
+    function buildCalendarHeader() {
+        const header = document.getElementById('calendarHeader');
+        header.innerHTML = '<div class="calendar-header-time">Time</div>';
+        DAYS_OF_WEEK.forEach((day) => {
+            const dayEl = document.createElement('div');
+            dayEl.className = 'calendar-header-day';
+            dayEl.textContent = day.label;
+            header.appendChild(dayEl);
+        });
+    }
+
     function initializeCalendar() {
         const calendarGrid = document.getElementById('calendarGrid');
         calendarGrid.innerHTML = '';
-
         for (let hour = START_HOUR; hour < END_HOUR; hour++) {
             const timeSlot = document.createElement('div');
             timeSlot.className = 'calendar-time-slot';
             timeSlot.textContent = formatHourLabel(hour);
             calendarGrid.appendChild(timeSlot);
-
-            for (let day = 0; day < DAYS_OF_WEEK.length; day++) {
+            DAYS_OF_WEEK.forEach((_, dayIndex) => {
                 const cell = document.createElement('div');
                 cell.className = 'calendar-cell';
-                cell.id = `cell-${day}-${hour}`;
+                cell.id = `cell-${dayIndex}-${hour}`;
                 calendarGrid.appendChild(cell);
-            }
+            });
         }
     }
 
@@ -512,179 +752,118 @@
         return `${displayHour}:00 ${ampm}`;
     }
 
-    // ---------------------------------------------------------------------
-    // Time parsing
-    //
-    // Upstream course data arrives in a handful of inconsistent shapes, e.g.:
-    //   "17-20"              (bare 24-hour hours)
-    //   "12.05-13.20"        (dotted 24-hour, HH.MM)
-    //   "15.10-16"            (dotted start, bare-hour end)
-    //   "10.10-13;9.10-12"   (semicolon-delimited, one range per day)
-    // timeToMinutes() normalizes a single time token to minutes-since-midnight;
-    // parseTimeRange() splits a "start-end" token into a {start, end} pair.
-    // ---------------------------------------------------------------------
     function timeToMinutes(timeStr) {
         if (!timeStr) return null;
         const normalized = timeStr.trim();
-
         const match12hr = normalized.match(/(\d+)(?::(\d+))?\s*(AM|PM)/i);
         if (match12hr) {
             let hours = parseInt(match12hr[1], 10);
             const minutes = match12hr[2] ? parseInt(match12hr[2], 10) : 0;
             const period = match12hr[3].toUpperCase();
-
             if (period === 'PM' && hours !== 12) hours += 12;
             if (period === 'AM' && hours === 12) hours = 0;
             return hours * 60 + minutes;
         }
 
-        const match24hr = normalized.match(/(\d+)\.(\d+)/);
-        if (match24hr) {
-            return (parseInt(match24hr[1], 10) * 60) + parseInt(match24hr[2], 10);
-        }
+        const match24hr = normalized.match(/(\d+)[.:](\d+)/);
+        if (match24hr) return (parseInt(match24hr[1], 10) * 60) + parseInt(match24hr[2], 10);
 
-        const matchColon = normalized.match(/(\d+):(\d+)/);
-        if (matchColon) {
-            return (parseInt(matchColon[1], 10) * 60) + parseInt(matchColon[2], 10);
-        }
-
-        // Compact 24-hour format: "0910", "910", "1430"
         const matchCompact = normalized.match(/^(\d{3,4})$/);
         if (matchCompact) {
-            const raw = matchCompact[1];
-            const padded = raw.length === 3 ? `0${raw}` : raw;
-            const hours = parseInt(padded.slice(0, 2), 10);
-            const minutes = parseInt(padded.slice(2, 4), 10);
-            if (hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59) {
-                return (hours * 60) + minutes;
-            }
+            const padded = matchCompact[1].length === 3 ? `0${matchCompact[1]}` : matchCompact[1];
+            return (parseInt(padded.slice(0, 2), 10) * 60) + parseInt(padded.slice(2, 4), 10);
         }
 
-        // Bare hour, 24-hour format: "17", "9", "20" (on-the-hour, no minutes)
         const matchBareHour = normalized.match(/^(\d{1,2})$/);
-        if (matchBareHour) {
-            const hours = parseInt(matchBareHour[1], 10);
-            if (hours >= 0 && hours <= 23) {
-                return hours * 60;
-            }
-        }
-
+        if (matchBareHour) return parseInt(matchBareHour[1], 10) * 60;
         return null;
     }
 
     function parseTimeRange(timeStr) {
         if (!timeStr || timeStr === 'N/A') return null;
-
-        const normalizedStr = timeStr
-            .replace(/[–—]/g, '-')
-            .replace(/\bto\b/gi, '-')
-            .replace(/\./g, ':');
+        const normalizedStr = timeStr.replace(/[\u2013\u2014]/g, '-').replace(/\bto\b/gi, '-');
         let parts = normalizedStr.split(/\s*-\s*/);
-
         if (parts.length !== 2) {
-            // Fallback for formats like "9:10AM10:25AM" or "0910 1025"
             const matchedTimes = normalizedStr.match(/\d{1,2}(?::\d{2})?\s*(?:AM|PM)|\b\d{3,4}\b/gi);
-            if (matchedTimes && matchedTimes.length >= 2) {
-                parts = [matchedTimes[0], matchedTimes[1]];
-                debugSchedule('parseTimeRange recovered using token fallback', { original: timeStr, normalized: normalizedStr, parts });
-            } else {
-                debugSchedule('parseTimeRange failed: expected two time parts', { original: timeStr, normalized: normalizedStr, parts });
-                return null;
-            }
+            if (!matchedTimes || matchedTimes.length < 2) return null;
+            parts = [matchedTimes[0], matchedTimes[1]];
         }
 
         let startPart = parts[0].trim();
         let endPart = parts[1].trim();
-
         const startHasMeridiem = /(AM|PM)/i.test(startPart);
         const endHasMeridiem = /(AM|PM)/i.test(endPart);
+        if (!startHasMeridiem && endHasMeridiem) startPart = `${startPart} ${(endPart.match(/(AM|PM)/i) || [''])[0]}`;
+        if (startHasMeridiem && !endHasMeridiem) endPart = `${endPart} ${(startPart.match(/(AM|PM)/i) || [''])[0]}`;
 
-        // Handle formats like "1:10-2:00PM" or "11:10AM-12:00"
-        if (!startHasMeridiem && endHasMeridiem) {
-            const endMeridiem = (endPart.match(/(AM|PM)/i) || [])[0];
-            if (endMeridiem) {
-                startPart = `${startPart} ${endMeridiem}`;
-            }
-        } else if (startHasMeridiem && !endHasMeridiem) {
-            const startMeridiem = (startPart.match(/(AM|PM)/i) || [])[0];
-            if (startMeridiem) {
-                endPart = `${endPart} ${startMeridiem}`;
-            }
-        }
-
-        const startMinutes = timeToMinutes(startPart);
-        const endMinutes = timeToMinutes(endPart);
-        if (startMinutes === null || endMinutes === null || endMinutes <= startMinutes) {
-            debugSchedule('parseTimeRange failed: invalid start/end minutes', {
-                original: timeStr,
-                startPart,
-                endPart,
-                startMinutes,
-                endMinutes
-            });
-            return null;
-        }
-
-        return { start: startMinutes, end: endMinutes };
+        const start = timeToMinutes(startPart);
+        const end = timeToMinutes(endPart);
+        if (start === null || end === null || end <= start) return null;
+        return { start, end };
     }
 
-    // ---------------------------------------------------------------------
-    // Day parsing
-    // ---------------------------------------------------------------------
     function parseDaysToIndexes(daysStr) {
         if (!daysStr) return [];
-
         const upper = daysStr.toUpperCase().trim();
         if (!upper || upper === 'N/A' || upper.includes('TBA') || upper.includes('ARR')) return [];
-        if (/\d/.test(upper)) return [];
-        if (/(AM|PM)/.test(upper) && !/(MON|TUE|WED|THU|FRI|MO|TU|WE|TH|FR)/.test(upper)) return [];
-
         let normalized = upper.replace(/\s/g, '');
         DAY_TOKEN_MAP.forEach(([pattern, letter]) => {
             normalized = normalized.replace(pattern, letter);
         });
-
-        normalized = normalized.replace(/[^MTWRF,\/-]/g, '');
-        const dayChars = normalized.replace(/[,\-\/]/g, '').split('');
+        normalized = normalized.replace(/[^MTWRFSU,/-]/g, '');
         const indexes = [];
-
-        dayChars.forEach(dayChar => {
-            const dayIndex = DAYS_OF_WEEK.indexOf(dayChar);
-            if (dayIndex !== -1 && !indexes.includes(dayIndex)) {
-                indexes.push(dayIndex);
-            }
+        normalized.replace(/[,/-]/g, '').split('').forEach(dayChar => {
+            const dayIndex = DAYS_OF_WEEK.findIndex(day => day.key === dayChar);
+            if (dayIndex !== -1 && !indexes.includes(dayIndex)) indexes.push(dayIndex);
         });
-
         return indexes;
     }
 
-    // ---------------------------------------------------------------------
-    // Rendering
-    // ---------------------------------------------------------------------
+    function tryParsePairedDayTimeLists(courseData) {
+        const rawDayTokens = (courseData.days || '').split(',').map(s => s.trim()).filter(Boolean);
+        const rawTimeTokens = (courseData.time || '').split(';').map(s => s.trim()).filter(Boolean);
+        if (!(rawDayTokens.length > 1 && rawTimeTokens.length > 1 && rawDayTokens.length === rawTimeTokens.length)) return null;
+        const pairs = [];
+        for (let i = 0; i < rawDayTokens.length; i++) {
+            const dayIndexes = parseDaysToIndexes(rawDayTokens[i]);
+            const timeRange = parseTimeRange(rawTimeTokens[i]);
+            if (!dayIndexes.length || !timeRange) return null;
+            pairs.push({ dayIndexes, timeRange });
+        }
+        return pairs;
+    }
 
-    /**
-     * Renders a single course block into the grid cell for the given day and
-     * start hour, and registers it in renderedBlocksByDay for overlap
-     * detection. Returns true if the block was placed, false if the target
-     * cell doesn't exist (e.g. the time falls outside START_HOUR/END_HOUR).
-     */
+    function resolveScheduleGroups(courseData) {
+        const pairedGroups = tryParsePairedDayTimeLists(courseData);
+        if (pairedGroups) return pairedGroups;
+
+        let dayIndexes = parseDaysToIndexes(courseData.days);
+        let timeRange = parseTimeRange(courseData.time);
+        if (!dayIndexes.length || !timeRange) {
+            const swappedDayIndexes = parseDaysToIndexes(courseData.time);
+            const swappedTimeRange = parseTimeRange(courseData.days);
+            if (swappedDayIndexes.length && swappedTimeRange) {
+                dayIndexes = swappedDayIndexes;
+                timeRange = swappedTimeRange;
+            }
+        }
+        if (!dayIndexes.length || !timeRange) return [];
+        return [{ dayIndexes, timeRange }];
+    }
+
     function renderCourseBlock(dayIndex, timeRange, courseData) {
         const startHour = Math.floor(timeRange.start / 60);
         const startMinute = timeRange.start % 60;
         const durationHours = (timeRange.end - timeRange.start) / 60;
-
         const cell = document.getElementById(`cell-${dayIndex}-${startHour}`);
-        if (!cell) {
-            debugSchedule('Skipping day render: calendar cell not found', { dayIndex, startHour, course: courseData.course_code });
-            return false;
-        }
+        if (!cell) return false;
 
         const block = document.createElement('div');
         block.className = 'course-block no-conflict';
         block.style.height = Math.max((durationHours * SLOT_HEIGHT), 30) + 'px';
         block.style.top = (startMinute / 60 * SLOT_HEIGHT) + 'px';
         block.innerHTML = `
-            <span class="course-block-line code">${courseData.course_code} - ${courseData.section_num}</span>
+            <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
             <span class="course-block-line">${courseData.time}</span>
             <span class="course-block-line">${courseData.location}</span>
         `;
@@ -694,198 +873,122 @@
 
         const tooltip = document.createElement('div');
         tooltip.className = 'course-block-tooltip';
-        tooltip.innerHTML = `
-            <div><strong>${courseData.course_code}</strong></div>
-            <div>Section ${courseData.section_num}</div>
-            <div>${courseData.days} ${courseData.time}</div>
-            <div>${courseData.instructor}</div>
-            <div>${courseData.location}</div>
-            <div>Click block to remove</div>
-        `;
+        tooltip.innerHTML = buildCourseTooltip(courseData);
         block.appendChild(tooltip);
-
         block.addEventListener('click', function(e) {
             e.stopPropagation();
             removeFromSchedule(courseData.section_id);
         });
-
         cell.appendChild(block);
 
-        if (!renderedBlocksByDay[dayIndex]) {
-            renderedBlocksByDay[dayIndex] = [];
-        }
-        renderedBlocksByDay[dayIndex].push({
-            element: block,
-            start: timeRange.start,
-            end: timeRange.end
-        });
-
+        if (!renderedBlocksByDay[dayIndex]) renderedBlocksByDay[dayIndex] = [];
+        renderedBlocksByDay[dayIndex].push({ element: block, start: timeRange.start, end: timeRange.end, course: courseData });
         return true;
     }
 
-    /**
-     * Attempts to parse courseData.days/time as parallel lists (e.g.
-     * days="TU,TH" time="10.10-13;9.10-12" meaning Tue gets the first range
-     * and Thu gets the second). Only applies when both sides split into more
-     * than one token AND the token counts match — a single day with a single
-     * range, or several days sharing one range, both fall through to the
-     * caller's simple/shared-range handling instead.
-     *
-     * Note: pairing is positional (day token i <-> time token i). If the
-     * upstream data source can emit these out of order relative to each
-     * other, this will mis-assign; a structured {day, start, end} format
-     * from the backend would remove that risk entirely.
-     *
-     * Returns an array of { dayIndexes, timeRange } pairs, or null if the
-     * paired shape doesn't apply or fails to parse.
-     */
-    function tryParsePairedDayTimeLists(courseData) {
-        const rawDayTokens = (courseData.days || '').split(',').map(s => s.trim()).filter(Boolean);
-        const rawTimeTokens = (courseData.time || '').split(';').map(s => s.trim()).filter(Boolean);
-
-        const looksPaired = rawDayTokens.length > 1
-            && rawTimeTokens.length > 1
-            && rawDayTokens.length === rawTimeTokens.length;
-
-        if (!looksPaired) return null;
-
-        const pairs = [];
-        for (let i = 0; i < rawDayTokens.length; i++) {
-            const dayIndexes = parseDaysToIndexes(rawDayTokens[i]);
-            const timeRange = parseTimeRange(rawTimeTokens[i]);
-            if (dayIndexes.length === 0 || !timeRange) {
-                debugSchedule('Paired day/time parsing failed on token', {
-                    dayToken: rawDayTokens[i],
-                    timeToken: rawTimeTokens[i],
-                    course: courseData.course_code
-                });
-                return null;
-            }
-            pairs.push({ dayIndexes, timeRange });
-        }
-
-        return pairs;
+    function getCourseLabel(courseData) {
+        return `${courseData.course_code} - ${courseData.section_num} (${courseData.time})`;
     }
 
-    /**
-     * Resolves courseData.days/time down to a list of { dayIndexes, timeRange }
-     * groups to render, trying (in order):
-     *   1. Paired parallel lists ("TU,TH" / "10-13;9-12")
-     *   2. A single shared time range applied to every parsed day
-     *   3. A swapped-field recovery pass, for upstream data where days/time
-     *      landed in the wrong columns
-     * Returns [] if nothing could be parsed.
-     */
-    function resolveScheduleGroups(courseData) {
-        const pairedGroups = tryParsePairedDayTimeLists(courseData);
-        if (pairedGroups) {
-            debugSchedule('Resolved course using paired day/time lists', { course: courseData.course_code, pairedGroups });
-            return pairedGroups;
-        }
+    function buildCourseTooltip(courseData) {
+        return `
+            <strong>${courseData.course_code} - ${courseData.section_num}</strong>
+            <div>${courseData.course_name || ''}</div>
+            <div>${courseData.days} ${courseData.time}</div>
+            <div>${courseData.instructor || 'Instructor: N/A'}</div>
+            <div>${courseData.location || 'Location: N/A'}</div>
+            <div>Click to remove from schedule</div>
+        `;
+    }
 
-        let dayIndexes = parseDaysToIndexes(courseData.days);
-        let timeRange = parseTimeRange(courseData.time);
-
-        if (dayIndexes.length === 0 || !timeRange) {
-            const swappedDayIndexes = parseDaysToIndexes(courseData.time);
-            const swappedTimeRange = parseTimeRange(courseData.days);
-            if (swappedDayIndexes.length > 0 && swappedTimeRange) {
-                dayIndexes = swappedDayIndexes;
-                timeRange = swappedTimeRange;
-                debugSchedule('Recovered render using swapped day/time fields', {
-                    originalDays: courseData.days,
-                    originalTime: courseData.time,
-                    recoveredDays: courseData.time,
-                    recoveredTime: courseData.days,
-                    course: courseData.course_code
-                });
-            }
-        }
-
-        if (dayIndexes.length === 0) {
-            debugSchedule('Skipping render: no valid weekday indexes', { days: courseData.days, time: courseData.time, course: courseData.course_code });
-            return [];
-        }
-
-        if (!timeRange) {
-            debugSchedule('Skipping render: could not parse time range', { time: courseData.time, days: courseData.days, course: courseData.course_code });
-            return [];
-        }
-
-        return [{ dayIndexes, timeRange }];
+    function buildConflictTooltip(courseData, conflicts) {
+        const conflictRows = conflicts.map(conflict => `<div>${getCourseLabel(conflict)}</div>`).join('');
+        return `
+            <strong>Time Conflict</strong>
+            <div>${getCourseLabel(courseData)}</div>
+            <div>overlaps with</div>
+            ${conflictRows}
+            <div>Click to remove from schedule</div>
+        `;
     }
 
     function addCourseToCalendar(courseData) {
-        debugSchedule('Attempting calendar placement for course', courseData);
-
-        const groups = resolveScheduleGroups(courseData);
         let renderedCount = 0;
-
-        groups.forEach(({ dayIndexes, timeRange }) => {
+        resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) => {
             dayIndexes.forEach(dayIndex => {
-                if (renderCourseBlock(dayIndex, timeRange, courseData)) {
-                    renderedCount += 1;
-                }
+                if (renderCourseBlock(dayIndex, timeRange, courseData)) renderedCount += 1;
             });
         });
-
-        if (renderedCount > 0) {
-            debugSchedule('Rendered course blocks successfully', { course: courseData.course_code, renderedCount, groups });
-        } else {
-            debugSchedule('Rendered 0 blocks for course', { course: courseData.course_code, groups });
-        }
-    }
-
-    // ---------------------------------------------------------------------
-    // Overlap / conflict highlighting
-    // ---------------------------------------------------------------------
-    function addOverlapSegment(block, overlapStart, overlapEnd) {
-        const start = parseInt(block.getAttribute('data-start-minutes'), 10);
-        if (Number.isNaN(start)) return;
-
-        const segment = document.createElement('div');
-        segment.className = 'overlap-segment';
-        segment.style.top = ((overlapStart - start) / 60 * SLOT_HEIGHT) + 'px';
-        segment.style.height = Math.max(((overlapEnd - overlapStart) / 60 * SLOT_HEIGHT), 4) + 'px';
-        block.appendChild(segment);
+        return renderedCount;
     }
 
     function applyOverlapHighlighting() {
         Object.keys(renderedBlocksByDay).forEach(dayKey => {
             const dayBlocks = renderedBlocksByDay[dayKey];
             if (!dayBlocks || dayBlocks.length < 2) return;
-
+            const conflictsByElement = new Map();
             for (let i = 0; i < dayBlocks.length; i++) {
                 for (let j = i + 1; j < dayBlocks.length; j++) {
-                    const first = dayBlocks[i];
-                    const second = dayBlocks[j];
-                    const overlapStart = Math.max(first.start, second.start);
-                    const overlapEnd = Math.min(first.end, second.end);
-
-                    if (overlapStart < overlapEnd) {
-                        addOverlapSegment(first.element, overlapStart, overlapEnd);
-                        addOverlapSegment(second.element, overlapStart, overlapEnd);
-                        first.element.classList.add('conflict');
-                        second.element.classList.add('conflict');
+                    if (Math.max(dayBlocks[i].start, dayBlocks[j].start) < Math.min(dayBlocks[i].end, dayBlocks[j].end)) {
+                        dayBlocks[i].element.classList.add('conflict');
+                        dayBlocks[j].element.classList.add('conflict');
+                        if (!conflictsByElement.has(dayBlocks[i].element)) conflictsByElement.set(dayBlocks[i].element, []);
+                        if (!conflictsByElement.has(dayBlocks[j].element)) conflictsByElement.set(dayBlocks[j].element, []);
+                        conflictsByElement.get(dayBlocks[i].element).push(dayBlocks[j].course);
+                        conflictsByElement.get(dayBlocks[j].element).push(dayBlocks[i].course);
                     }
                 }
             }
+            dayBlocks.forEach(dayBlock => {
+                const conflicts = conflictsByElement.get(dayBlock.element);
+                if (!conflicts || !conflicts.length) return;
+                const tooltip = dayBlock.element.querySelector('.course-block-tooltip');
+                if (tooltip) tooltip.innerHTML = buildConflictTooltip(dayBlock.course, conflicts);
+            });
         });
     }
 
-    // ---------------------------------------------------------------------
-    // Schedule state <-> display / persistence
-    // ---------------------------------------------------------------------
     function updateScheduleDisplay(scheduleData) {
         currentSchedule = scheduleData;
         renderedBlocksByDay = {};
         initializeCalendar();
-        debugSchedule('Refreshing schedule display', { scheduleCount: scheduleData.length });
-
-        if (scheduleData.length === 0) return;
-
-        scheduleData.forEach(course => addCourseToCalendar(course));
+        const miscItems = [];
+        scheduleData.forEach(course => {
+            if (addCourseToCalendar(course) === 0) miscItems.push(course);
+        });
         applyOverlapHighlighting();
+        updateCreditCount(scheduleData);
+        renderMiscList(miscItems);
+    }
+
+    function updateCreditCount(scheduleData) {
+        const total = scheduleData.reduce((sum, item) => {
+            const credits = parseFloat(String(item.credits || '0').replace(/[^\d.]/g, ''));
+            return sum + (Number.isFinite(credits) ? credits : 0);
+        }, 0);
+        document.getElementById('creditCount').textContent = Number.isInteger(total) ? total : total.toFixed(1);
+    }
+
+    function renderMiscList(items) {
+        const miscList = document.getElementById('miscList');
+        document.getElementById('miscCount').textContent = `(${items.length})`;
+        if (!items.length) {
+            miscList.innerHTML = '<div class="misc-subtitle">No unscheduled classes added.</div>';
+            return;
+        }
+        miscList.innerHTML = items.map(item => `
+            <div class="misc-item">
+                <div>
+                    <div class="misc-course-title">${item.course_code} - ${item.course_name || 'Class'}</div>
+                    <div class="misc-meta">
+                        <span>${item.credits || 0} Credits</span>
+                        <span>Section ${item.section_num}</span>
+                        <span>Instructor: ${item.instructor || 'N/A'}</span>
+                    </div>
+                </div>
+                <button type="button" class="manage-btn remove-misc-btn" data-section-id="${item.section_id}">Remove</button>
+            </div>
+        `).join('');
     }
 
     function removeFromSchedule(sectionId) {
@@ -895,8 +998,7 @@
     }
 
     function persistScheduleToCookie(scheduleData) {
-        const safeJson = encodeURIComponent(JSON.stringify(scheduleData));
-        document.cookie = `${SCHEDULE_COOKIE_NAME}=${safeJson}; path=/; max-age=${SCHEDULE_COOKIE_MAX_AGE_SECONDS}; samesite=lax`;
+        document.cookie = `${SCHEDULE_COOKIE_NAME}=${encodeURIComponent(JSON.stringify(scheduleData))}; path=/; max-age=${SCHEDULE_COOKIE_MAX_AGE_SECONDS}; samesite=lax`;
     }
 
     function isValidCourseEntry(item) {
@@ -906,27 +1008,29 @@
     function loadScheduleFromCookie() {
         const cookies = document.cookie ? document.cookie.split(';') : [];
         const prefix = `${SCHEDULE_COOKIE_NAME}=`;
-
         for (let i = 0; i < cookies.length; i++) {
             const cookie = cookies[i].trim();
             if (!cookie.startsWith(prefix)) continue;
-
             try {
-                const value = decodeURIComponent(cookie.substring(prefix.length));
-                const parsed = JSON.parse(value);
-                if (!Array.isArray(parsed)) return [];
-                return parsed.filter(isValidCourseEntry);
+                const parsed = JSON.parse(decodeURIComponent(cookie.substring(prefix.length)));
+                return Array.isArray(parsed) ? parsed.filter(isValidCourseEntry) : [];
             } catch (error) {
-                console.error('Failed to parse schedule cookie', error);
                 return [];
             }
         }
         return [];
     }
 
-    // ---------------------------------------------------------------------
-    // Init
-    // ---------------------------------------------------------------------
+    function exportSchedule() {
+        const blob = new Blob([JSON.stringify(currentSchedule, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'wsu-schedule.json';
+        link.click();
+        URL.revokeObjectURL(url);
+    }
+
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initializeSchedulePage);
     } else {

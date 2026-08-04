@@ -1,29 +1,47 @@
+<div class="course-results-accordion" id="courseResultsAccordion">
 {% for course in courses %}
-<div class="course-item">
-    <div class="course-header">
-        <strong style="font-size: 0.98rem;">{{ course.subject }} {{ course.course_number }}</strong>
-        <div style="font-size: 0.9rem;">{{ course.name }}</div>
-        <small style="color:#9aa3b2;">{{ course.topic.semester.campus.name }} - {{ course.topic.semester.name }}</small>
-        <button class="btn btn-sm btn-outline-info mt-2"
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#sections{{ course.id }}" 
-                aria-expanded="false">
-            View Sections
-        </button>
-    </div>
-    <div class="collapse mt-2" id="sections{{ course.id }}">
-        <div class="card card-body p-2" style="background:#1f232b;border-color:#3a414d;">
-            {% for section in course.sections.all %}
-            <div class="section-item mb-2">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                        <strong>Section {{ section.section }}</strong>
-                        <div>{{ section.days }} {{ section.time }}</div>
-                        <div>{{ section.instructor }} - {{ section.location }}</div>
-                        <small style="color:#9aa3b2;">Seats: {{ section.seats_taken }}/{{ section.seats_total }}</small>
+<article class="result-card">
+    <button class="result-summary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#sections{{ course.id }}"
+            data-bs-parent="#courseResultsAccordion"
+            aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}">
+        <span>
+            <span class="result-title">{{ course.subject }} {{ course.course_number }} - {{ course.name }}</span>
+            <span class="result-meta">
+                <span>{{ course.credits }} Credits</span>
+                <span>Lecture</span>
+                <span>Prereq: None</span>
+            </span>
+        </span>
+        <span class="result-chevron" aria-hidden="true"></span>
+    </button>
+
+    <div class="collapse {% if forloop.first %}show{% endif %}" id="sections{{ course.id }}" data-bs-parent="#courseResultsAccordion">
+        <div class="result-body">
+            <p class="course-description">
+                {{ course.topic.semester.campus.name }} - {{ course.topic.semester.name }}
+            </p>
+            <div class="section-group-title">
+                {% if course.lab_sections %}Select a Lecture{% else %}Select a Section{% endif %}
+            </div>
+            <div class="section-list">
+                {% for section in course.lecture_sections %}
+                <div class="section-row">
+                    <div class="section-number">
+                        <span class="section-label">Section</span>
+                        <strong>{{ section.section }}</strong>
                     </div>
-                    <button class="btn btn-sm btn-info add-section-btn"
+                    <div class="section-main">
+                        <div class="section-time">{{ section.time }}</div>
+                        <div class="section-details">
+                            <span>{{ section.days }}</span>
+                            <span>{{ section.location }}</span>
+                            <span>{{ section.instructor }}</span>
+                        </div>
+                    </div>
+                    <button class="add-section-btn"
                             type="button"
                             data-section-id="{{ section.id }}"
                             data-course-code="{{ course.subject }} {{ course.course_number }}"
@@ -33,17 +51,202 @@
                             data-location="{{ section.location }}"
                             data-days="{{ section.days }}"
                             data-time="{{ section.time }}"
-                            data-seats="{{ section.seats_taken }}/{{ section.seats_total }}">
-                        Add Section
+                            data-seats="{{ section.seats_taken }}/{{ section.seats_total }}"
+                            data-credits="{{ course.credits }}"
+                            data-is-lab="{{ section.is_lab|yesno:'true,false' }}"
+                            data-component="{{ section.component }}">
+                        Add
                     </button>
                 </div>
+                {% empty %}
+                <div class="muted-cell">No sections available</div>
+                {% endfor %}
             </div>
-            {% empty %}
-            <div style="color:#9aa3b2;">No sections available</div>
-            {% endfor %}
+
+            {% if course.lab_sections %}
+            <div class="section-group-title lab-title">Select a Lab</div>
+            <div class="section-list">
+                {% for section in course.lab_sections %}
+                <div class="section-row">
+                    <div class="section-number">
+                        <span class="section-label">Lab</span>
+                        <strong>{{ section.section }}</strong>
+                    </div>
+                    <div class="section-main">
+                        <div class="section-time">{{ section.time }}</div>
+                        <div class="section-details">
+                            <span>{{ section.days }}</span>
+                            <span>{{ section.location }}</span>
+                            <span>{{ section.instructor }}</span>
+                        </div>
+                    </div>
+                    <button class="add-section-btn"
+                            type="button"
+                            data-section-id="{{ section.id }}"
+                            data-course-code="{{ course.subject }} {{ course.course_number }}"
+                            data-course-name="{{ course.name }}"
+                            data-section-num="{{ section.section }}"
+                            data-instructor="{{ section.instructor }}"
+                            data-location="{{ section.location }}"
+                            data-days="{{ section.days }}"
+                            data-time="{{ section.time }}"
+                            data-seats="{{ section.seats_taken }}/{{ section.seats_total }}"
+                            data-credits="{{ section.course.credits }}"
+                            data-is-lab="{{ section.is_lab|yesno:'true,false' }}"
+                            data-component="{{ section.component }}">
+                        Add
+                    </button>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
     </div>
-</div>
+</article>
 {% empty %}
-<div style="color:#9aa3b2;">No courses found</div>
+<div class="empty-search">No courses found.</div>
 {% endfor %}
+</div>
+
+<style>
+    .course-results-accordion {
+        display: grid;
+        gap: 10px;
+    }
+
+    .result-card {
+        border: 1px solid #dfe4eb;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .result-summary {
+        align-items: center;
+        background: #fff;
+        border: 0;
+        color: #111827;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 18px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .result-summary[aria-expanded="true"] .result-chevron {
+        transform: rotate(180deg);
+    }
+
+    .result-title {
+        display: block;
+        font-size: 1.05rem;
+        font-weight: 800;
+    }
+
+    .result-meta {
+        color: #4b5563;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.86rem;
+        gap: 18px;
+        margin-top: 9px;
+    }
+
+    .result-chevron {
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 6px solid #111827;
+        flex: 0 0 auto;
+        height: 0;
+        transition: transform 160ms ease;
+        width: 0;
+    }
+
+    .result-body {
+        border-top: 1px solid #eef1f5;
+        padding: 0 18px 14px;
+    }
+
+    .course-description {
+        color: #111827;
+        font-size: 0.94rem;
+        line-height: 1.5;
+        margin: 14px 0 18px;
+    }
+
+    .section-group-title {
+        font-size: 1rem;
+        font-weight: 800;
+        margin: 0 0 8px;
+    }
+
+    .section-group-title.lab-title {
+        margin-top: 16px;
+    }
+
+    .section-list {
+        display: grid;
+        gap: 0;
+    }
+
+    .section-row {
+        align-items: center;
+        border-bottom: 1px solid #edf0f4;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 70px minmax(0, 1fr) auto;
+        min-width: 0;
+        padding: 9px 0;
+    }
+
+    .section-label {
+        color: #5f6877;
+        display: block;
+        font-size: 0.72rem;
+        font-weight: 700;
+    }
+
+    .section-main {
+        min-width: 0;
+    }
+
+    .section-time {
+        font-size: 0.9rem;
+        font-weight: 800;
+        overflow-wrap: anywhere;
+    }
+
+    .section-details {
+        color: #4b5563;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.82rem;
+        gap: 6px 12px;
+        margin-top: 3px;
+    }
+
+    .add-section-btn {
+        background: #981e32;
+        border: 0;
+        border-radius: 6px;
+        color: #fff;
+        font-weight: 800;
+        min-height: 34px;
+        padding: 0 14px;
+    }
+
+    @media (max-width: 520px) {
+        .section-row {
+            grid-template-columns: 1fr auto;
+        }
+
+        .section-number {
+            grid-column: 1 / 3;
+        }
+    }
+
+    .muted-cell,
+    .empty-search {
+        color: #5f6877;
+        padding: 12px;
+    }
+</style>
