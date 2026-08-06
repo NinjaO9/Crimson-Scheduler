@@ -35,7 +35,16 @@ class StorageHandler:
 
                     for course_list in subject.courses:
                         if (len(course_list) != 0):
-                            new_course, _ = new_topic.courses.update_or_create(course_number=course_list[0].number, defaults={"subject" : course_list[0].subject, "name" : course_list[0].name, "credits" : course_list[0].credits})
+                            primary_course = next((course for course in course_list if not course.is_lab), course_list[0])
+                            new_course, _ = new_topic.courses.update_or_create(
+                                course_number=primary_course.number,
+                                defaults={
+                                    "subject" : primary_course.subject,
+                                    "name" : primary_course.name,
+                                    "credits" : primary_course.credits,
+                                    "has_required_lab" : primary_course.has_required_lab,
+                                }
+                            )
                         for course in course_list:
                             #print(f"Now storing - {course.name} - Section: {course.section}")
                             new_course.sections.update_or_create(
@@ -48,5 +57,7 @@ class StorageHandler:
                                     "instructor" : course.instructor,
                                     "seats_taken" : course.seats_taken,
                                     "seats_total" : course.seats_total,
+                                    "is_lab" : course.is_lab,
+                                    "component" : course.component,
                                 })
     

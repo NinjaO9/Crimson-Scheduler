@@ -11,8 +11,8 @@
             <span class="result-title">{{ course.subject }} {{ course.course_number }} - {{ course.name }}</span>
             <span class="result-meta">
                 <span>{{ course.credits }} Credits</span>
-                <span>Lecture</span>
-                <span>Prereq: None</span>
+                <span>{% if course.has_required_lab %}Lecture + Lab{% else %}Lecture{% endif %}</span>
+                <!-- <span>Prereq: None</span>  <- This is something that would be cool; but I might need to develop some way to get prereqs... For some reason WSU doesn't use their prerequisite field in the API responses :cry:-->
             </span>
         </span>
         <span class="result-chevron" aria-hidden="true"></span>

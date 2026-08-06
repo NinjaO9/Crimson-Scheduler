@@ -78,6 +78,11 @@ def search_courses(request):
         'topic__semester__campus'
     )[:10]
 
+    for course in courses:
+        sections = list(course.sections.all())
+        course.lab_sections = [section for section in sections if section.is_lab]
+        course.lecture_sections = [section for section in sections if not section.is_lab]
+
     return render(request, 'classes/partials/search_results.html', {'courses': courses})
 
 def add_to_schedule(request, section_id):
@@ -197,7 +202,10 @@ def get_schedule_calendar(request, user_schedule):
             'days': section.days,
             'time': section.time,
             'has_conflict': ss.has_conflict,
-            'seats': f"{section.seats_taken}/{section.seats_total}"
+            'seats': f"{section.seats_taken}/{section.seats_total}",
+            'is_lab': section.is_lab,
+            'component': section.component,
+            'has_required_lab': section.course.has_required_lab,
         })
     
     return JsonResponse({
@@ -246,7 +254,10 @@ def get_schedule_data(request):
                 'days': section.days,
                 'time': section.time,
                 'has_conflict': ss.has_conflict,
-                'seats': f"{section.seats_taken}/{section.seats_total}"
+                'seats': f"{section.seats_taken}/{section.seats_total}",
+                'is_lab': section.is_lab,
+                'component': section.component,
+                'has_required_lab': section.course.has_required_lab,
             })
         
         return JsonResponse({'schedule': calendar_data})

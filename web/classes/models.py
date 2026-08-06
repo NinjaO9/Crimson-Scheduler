@@ -35,6 +35,7 @@ class Course(models.Model):
     course_number = models.IntegerField(null=True)
     name = models.CharField(max_length=100, default="N/A")
     credits = models.CharField(max_length=2, default="V")
+    has_required_lab = models.BooleanField(default=False)
 
     topic = models.ForeignKey(Topics, on_delete=models.CASCADE, related_name='courses')
     
@@ -51,6 +52,8 @@ class Section(models.Model):
     instructor = models.CharField(max_length=50, default="N/A")
     seats_taken = models.IntegerField(null=True)
     seats_total = models.IntegerField(null=True)
+    is_lab = models.BooleanField(default=False)
+    component = models.CharField(max_length=30, default="Lecture")
 
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name="sections")
 

@@ -85,18 +85,36 @@ class DataHandler:
             section = cls.getSectionData(sectionmd)
             grouped_classes[section.number].append(section)
 
+        for course_sections in grouped_classes.values():
+            cls._mark_required_lab(course_sections)
+
         classes = [grouped_classes[course_number] for course_number in sorted(grouped_classes)]
 
         return Subject(subject, classes)
 
     @staticmethod
+    def _course_title_key(section: Section) -> str:
+        return section.name.strip().lower()
+
+    @classmethod
+    def _mark_required_lab(cls, course_sections: list[Section]) -> None:
+        lecture_names = {
+            cls._course_title_key(section)
+            for section in course_sections
+            if not section.is_lab
+        }
+        lab_names = {
+            cls._course_title_key(section)
+            for section in course_sections
+            if section.is_lab
+        }
+        has_required_lab = bool(lecture_names & lab_names)
+
+        for section in course_sections:
+            section.has_required_lab = has_required_lab
+
+    @staticmethod
     def _to_int(value, default: int = 0) -> int:
-        """
-        WSU's JSON is inconsistent about types - numbers sometimes arrive as
-        actual ints, sometimes as numeric strings (e.g. credits: "4"), and
-        sometimes as None or empty strings. This coerces safely instead of
-        letting int(...) throw and take down the whole scrape.
-        """
         if value is None:
             return default
         try:
@@ -106,7 +124,6 @@ class DataHandler:
 
     @staticmethod
     def _to_str(value, default: str = "") -> str:
-        """Coerce to a stripped string, guarding against None."""
         if value is None:
             return default
         return str(value).strip()
@@ -116,8 +133,7 @@ class DataHandler:
         course = metadata or {}
 
         name = cls._to_str(course.get("title"))
-        if course.get("isLab"):
-            name = f"{name} (Lab)" if name else "(Lab)"
+        is_lab = bool(course.get("isLab"))
 
         return Section(
             code=cls._to_int(course.get("sln")),
@@ -131,6 +147,7 @@ class DataHandler:
             instructor=cls._to_str(course.get("instructor")),
             seats_taken=cls._to_int(course.get("enrollment")),
             seats_total=cls._to_int(course.get("enrollmentLimit")),
+            is_lab=is_lab,
+            component=cls._to_str(course.get("component")),
         )
 
-    

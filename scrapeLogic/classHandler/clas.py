@@ -3,13 +3,17 @@ import re
 
 class Section:
     def __init__(self, code: int, subject: str, number: int, name: str, credits: int, section: int,
-                 time: str, location: str, instructor: str, seats_taken: int, seats_total: int):
+                 time: str, location: str, instructor: str, seats_taken: int, seats_total: int,
+                 is_lab: bool = False, component: str = "", has_required_lab: bool = False):
         self.code = code
         self.subject = subject.strip()
         self.number = number
         self.name = name.strip()
         self.credits = credits
         self.section = section
+        self.is_lab = is_lab
+        self.component = component.strip() or ("LAB" if is_lab else "Lecture")
+        self.has_required_lab = has_required_lab
         self.days = ""
         self.time = ""
         self.formatTime(time)
