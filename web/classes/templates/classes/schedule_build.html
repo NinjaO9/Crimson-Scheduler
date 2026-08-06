@@ -10,7 +10,7 @@
         --line: #e5e7eb;
         --line-strong: #d7dce3;
         --text-muted: #5f6877;
-        --soft-red: #fff1f3;
+        --soft-red: #f1fff3;
         --soft-red-border: #e9a9b4;
         --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
     }
@@ -186,6 +186,8 @@
     }
 
     .search-results {
+        align-content: start;
+        align-items: start;
         display: grid;
         gap: 10px;
         flex: 1;
@@ -242,6 +244,8 @@
     .calendar-wrap {
         border: 1px solid var(--line-strong);
         border-radius: 6px;
+        display: flex;
+        flex-direction: column;
         flex: 1 1 auto;
         min-height: 0;
         overflow: visible;
@@ -271,6 +275,8 @@
     .calendar-grid {
         display: grid;
         grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
+        flex: 1 1 auto;
+        min-height: 0;
     }
 
     .calendar-time-slot {
@@ -278,7 +284,7 @@
         border-right: 1px solid var(--line);
         color: #111827;
         font-size: 0.84rem;
-        min-height: 36px;
+        min-height: 0;
         padding: 7px 9px 0 0;
         text-align: right;
     }
@@ -286,25 +292,26 @@
     .calendar-cell {
         border-bottom: 1px solid var(--line);
         border-right: 1px solid var(--line);
-        min-height: 36px;
+        min-height: 0;
         overflow: visible;
         position: relative;
     }
 
     .course-block {
-        background: linear-gradient(180deg, #fff7f8 0%, #fde8ec 100%);
+        background: linear-gradient(180deg, #b1f0ab 0%, #b1f0ab 100%);
         border: 1px solid var(--soft-red-border);
         border-radius: 6px;
+        box-sizing: border-box;
         color: #111827;
         cursor: pointer;
         font-size: 0.62rem;
         font-weight: 700;
-        left: 5px;
+        left: 0px;
         line-height: 1.2;
         overflow: hidden;
         padding: 4px 5px;
         position: absolute;
-        right: 5px;
+        right: 0px;
         text-align: center;
         z-index: 10;
     }
@@ -490,33 +497,29 @@
 <div class="schedule-app">
     <div class="schedule-shell">
         <aside class="search-pane">
-            <form id="courseSearchForm">
+            <form id="courseSearchForm"
+                  hx-get="{% url 'search_courses' %}"
+                  hx-target="#searchResults">
                 <div class="field-grid">
                     <div class="field">
                         <label for="campusFilter">Campus</label>
-                        <select name="campus" id="campusFilter" class="form-select"
-                                hx-get="{% url 'search_courses' %}"
-                                hx-trigger="change"
-                                hx-target="#searchResults"
-                                hx-include="#courseSearchForm">
+                        <select name="campus" id="campusFilter" class="form-select">
+                            <option value="" selected disabled>-- Select Campus --</option>
                             {% for campus in campuses %}
                                 <option value="{{ campus.id }}">{{ campus.name }}</option>
                             {% empty %}
-                                <option value="">Any Campus</option>
+                                <option value="" disabled>No campuses available</option>
                             {% endfor %}
                         </select>
                     </div>
                     <div class="field">
                         <label for="semesterFilter">Term</label>
-                        <select name="semester" id="semesterFilter" class="form-select"
-                                hx-get="{% url 'search_courses' %}"
-                                hx-trigger="change"
-                                hx-target="#searchResults"
-                                hx-include="#courseSearchForm">
+                        <select name="semester" id="semesterFilter" class="form-select">
+                            <option value="" selected disabled>-- Select Semester --</option>
                             {% for semester in semesters %}
                                 <option value="{{ semester }}">{{ semester }}</option>
                             {% empty %}
-                                <option value="">Any Semester</option>
+                                <option value="" disabled>No semesters available</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -525,42 +528,26 @@
                 <div class="field-grid three">
                     <div class="field">
                         <label for="subjectFilter">Subject</label>
-                        <input type="text" name="subject" id="subjectFilter" class="form-control" placeholder="CPT_S"
-                               hx-get="{% url 'search_courses' %}"
-                               hx-trigger="keyup delay:300ms changed, change"
-                               hx-target="#searchResults"
-                               hx-include="#courseSearchForm">
+                        <input type="text" name="subject" id="subjectFilter" class="form-control" placeholder="e.g. CPT_S">
                     </div>
                     <div class="field">
                         <label for="numberFilter">Number</label>
-                        <input type="text" name="number" id="numberFilter" class="form-control" placeholder="327"
-                               hx-get="{% url 'search_courses' %}"
-                               hx-trigger="keyup delay:300ms changed"
-                               hx-target="#searchResults"
-                               hx-include="#courseSearchForm">
+                        <input type="text" name="number" id="numberFilter" class="form-control" placeholder="e.g. 121">
                     </div>
                     <div class="field-or">or</div>
                     <div class="field">
                         <label for="searchInput">Course Title</label>
-                        <input type="text" name="q" id="searchInput" class="form-control" placeholder="e.g. Data Structures"
-                               hx-get="{% url 'search_courses' %}"
-                               hx-trigger="keyup delay:400ms changed"
-                               hx-target="#searchResults"
-                               hx-include="#courseSearchForm">
+                        <input type="text" name="q" id="searchInput" class="form-control" placeholder="e.g. Data Structures">
                     </div>
                 </div>
 
                 <div class="search-actions">
-                    <button type="button" class="primary-btn"
-                            hx-get="{% url 'search_courses' %}"
-                            hx-target="#searchResults"
-                            hx-include="#courseSearchForm">
+                    <button type="submit" class="primary-btn">
                         Search Courses
                     </button>
                     <button type="reset" class="reset-btn" id="resetFiltersBtn">Reset Filters</button>
                 </div>
-
-                <div class="filter-bar">
+                <!-- <div class="filter-bar">
                     <div class="filter-header">
                         <div class="filter-title">Filter Results</div>
                         <span id="search-indicator" class="search-indicator htmx-indicator">
@@ -580,11 +567,12 @@
                         </div>
                         <button type="button" class="more-filters">More Filters v</button>
                     </div>
-                </div>
+                </div> -->
+                <!-- Turns out I'm not really using filters... so -->
             </form>
 
             <div id="searchResults" class="search-results">
-                <div class="empty-search">Choose a term, then search courses to begin building your schedule.</div>
+                <div class="empty-search">Choose a campus + term, then search courses to begin building your schedule.</div>
             </div>
         </aside>
 
@@ -595,9 +583,8 @@
                     <span class="credits-label">(<span id="creditCount">0</span> Credits)</span>
                 </div>
                 <div class="toolbar">
-                    <span class="saved-state">Saved</span>
                     <button type="button" class="danger-btn" id="clearScheduleBtn">Clear Schedule</button>
-                    <button type="button" class="export-btn" id="exportScheduleBtn">Export v</button>
+                    <button type="button" class="export-btn" id="exportScheduleBtn">Export</button>
                 </div>
             </div>
 
@@ -633,10 +620,10 @@
         { key: 'U', label: 'Sunday' }
     ];
     const START_HOUR = 7;
-    const END_HOUR = 19;
-    const SLOT_HEIGHT = 36;
+    const END_HOUR = 18;
     const SCHEDULE_COOKIE_NAME = 'wsu_schedule_builder_schedule';
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
+    const TIME_FORMAT_STORAGE_KEY = 'wsu_schedule_builder_24_hour_time';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -655,15 +642,17 @@
         buildCalendarHeader();
         initializeCalendar();
         setupInteractionHandlers();
+        initializeTimeFormatPreference();
         currentSchedule = loadScheduleFromCookie();
         updateScheduleDisplay(currentSchedule);
+        updateSearchResultTimeDisplays();
     }
 
     function setupInteractionHandlers() {
         document.addEventListener('click', function(event) {
-            const addButton = event.target.closest('.add-section-btn');
+            const addButton = event.target.closest('.add-course-selection-btn');
             if (addButton) {
-                handleAddSection(addButton, event);
+                handleAddCourseSelection(addButton, event);
                 return;
             }
 
@@ -686,34 +675,132 @@
             }
         });
 
+        document.addEventListener('change', function(event) {
+            const sectionChoice = event.target.closest('.section-choice');
+            if (sectionChoice) {
+                updateCourseAddButton(sectionChoice.getAttribute('data-course-id'));
+                return;
+            }
+
+            if (event.target.closest('#timeFormatToggle')) {
+                saveTimeFormatPreference();
+                updateScheduleDisplay(currentSchedule);
+                updateSearchResultTimeDisplays();
+            }
+        });
+
+        document.body.addEventListener('htmx:afterSwap', function(event) {
+            if (event.target && event.target.id === 'searchResults') updateSearchResultTimeDisplays();
+        });
+
         document.getElementById('resetFiltersBtn').addEventListener('click', function() {
             window.setTimeout(() => {
-                const params = new URLSearchParams(new FormData(document.getElementById('courseSearchForm')));
-                htmx.ajax('GET', `{% url 'search_courses' %}?${params.toString()}`, '#searchResults');
+                document.getElementById('searchResults').innerHTML = '<div class="empty-search">Choose a campus + term, then search courses to begin building your schedule.</div>';
             }, 0);
         });
     }
 
-    function handleAddSection(button, event) {
-        event.preventDefault();
-        const sectionId = button.getAttribute('data-section-id');
-        const courseData = {
-            section_id: sectionId,
-            course_code: button.getAttribute('data-course-code'),
-            course_name: button.getAttribute('data-course-name'),
-            section_num: button.getAttribute('data-section-num'),
-            instructor: button.getAttribute('data-instructor'),
-            location: button.getAttribute('data-location'),
-            days: button.getAttribute('data-days'),
-            time: button.getAttribute('data-time'),
-            seats: button.getAttribute('data-seats'),
-            credits: button.getAttribute('data-credits') || '0',
-            is_lab: button.getAttribute('data-is-lab') === 'true',
-            component: button.getAttribute('data-component') || 'lecture'
-        };
+    function findSelectedCourseChoice(courseId, choiceType) {
+        return document.querySelector(`.section-choice[data-course-id="${courseId}"][data-choice-type="${choiceType}"]:checked`);
+    }
 
-        if (currentSchedule.some(entry => String(entry.section_id) === String(sectionId))) return;
-        currentSchedule.push(courseData);
+    function updateCourseAddButton(courseId) {
+        const addButton = document.querySelector(`.add-course-selection-btn[data-course-id="${courseId}"]`);
+        if (!addButton) return;
+        const requiresLab = addButton.getAttribute('data-requires-lab') === 'true';
+        const hasLecture = !!findSelectedCourseChoice(courseId, 'lecture');
+        const hasLab = !!findSelectedCourseChoice(courseId, 'lab');
+        addButton.disabled = !(hasLecture && (!requiresLab || hasLab));
+    }
+
+    function buildCourseDataFromChoice(choice, scheduleGroupId) {
+        return {
+            section_id: choice.getAttribute('data-section-id'),
+            schedule_group_id: scheduleGroupId,
+            course_code: choice.getAttribute('data-course-code'),
+            course_name: choice.getAttribute('data-course-name'),
+            section_num: choice.getAttribute('data-section-num'),
+            instructor: choice.getAttribute('data-instructor'),
+            location: choice.getAttribute('data-location'),
+            days: choice.getAttribute('data-days'),
+            time: choice.getAttribute('data-time'),
+            seats: choice.getAttribute('data-seats'),
+            credits: choice.getAttribute('data-credits') || '0',
+            is_lab: choice.getAttribute('data-is-lab') === 'true',
+            component: choice.getAttribute('data-component') || 'lecture'
+        };
+    }
+
+    function uses24HourTime() {
+        const toggle = document.getElementById('timeFormatToggle');
+        return !!toggle && toggle.checked;
+    }
+
+    function initializeTimeFormatPreference() {
+        const toggle = document.getElementById('timeFormatToggle');
+        if (!toggle) return;
+        toggle.checked = localStorage.getItem(TIME_FORMAT_STORAGE_KEY) === 'true';
+    }
+
+    function saveTimeFormatPreference() {
+        localStorage.setItem(TIME_FORMAT_STORAGE_KEY, String(uses24HourTime()));
+    }
+
+    function formatTimeTokenForDisplay(token) {
+        const normalized = (token || '').trim();
+        const minutes = timeToMinutes(normalized);
+        if (minutes === null) return normalized;
+        const hours = Math.floor(minutes / 60);
+        const mins = minutes % 60;
+        if (uses24HourTime()) return `${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}`;
+        return formatMinutesAs12Hour(minutes);
+    }
+
+    function formatMinutesAs12Hour(minutes) {
+        const hours = Math.floor(minutes / 60);
+        const mins = minutes % 60;
+        const period = hours >= 12 ? 'PM' : 'AM';
+        const displayHour = hours % 12 || 12;
+        return `${displayHour}:${String(mins).padStart(2, '0')} ${period}`;
+    }
+
+    function formatTimeRangeForDisplay(timeRange) {
+        const normalized = (timeRange || '').trim();
+        if (!normalized || normalized === 'ARR' || normalized === 'N/A') return normalized;
+        const parts = normalized.split(/\s*-\s*/);
+        if (parts.length !== 2) return formatTimeTokenForDisplay(normalized);
+        return `${formatTimeTokenForDisplay(parts[0])} - ${formatTimeTokenForDisplay(parts[1])}`;
+    }
+
+    function formatMeetingListForDisplay(timeValue) {
+        return (timeValue || '')
+            .split(';')
+            .map(timeRange => formatTimeRangeForDisplay(timeRange))
+            .join(';');
+    }
+
+    function updateSearchResultTimeDisplays() {
+        document.querySelectorAll('.time-display[data-time]').forEach(element => {
+            element.textContent = formatMeetingListForDisplay(element.getAttribute('data-time'));
+        });
+    }
+
+    function handleAddCourseSelection(button, event) {
+        event.preventDefault();
+        const courseId = button.getAttribute('data-course-id');
+        const requiresLab = button.getAttribute('data-requires-lab') === 'true';
+        const lectureChoice = findSelectedCourseChoice(courseId, 'lecture');
+        const labChoice = findSelectedCourseChoice(courseId, 'lab');
+        if (!lectureChoice || (requiresLab && !labChoice)) return;
+
+        const choices = [lectureChoice, labChoice].filter(Boolean);
+        const scheduleGroupId = choices.map(choice => choice.getAttribute('data-section-id')).join('-');
+        const selectedCourses = choices
+            .map(choice => buildCourseDataFromChoice(choice, scheduleGroupId))
+            .filter(courseData => !currentSchedule.some(entry => String(entry.section_id) === String(courseData.section_id)));
+
+        if (!selectedCourses.length) return;
+        currentSchedule.push(...selectedCourses);
         persistScheduleToCookie(currentSchedule);
         updateScheduleDisplay(currentSchedule);
     }
@@ -732,10 +819,13 @@
     function initializeCalendar() {
         const calendarGrid = document.getElementById('calendarGrid');
         calendarGrid.innerHTML = '';
+        calendarGrid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, minmax(36px, 1fr))`;
         for (let hour = START_HOUR; hour < END_HOUR; hour++) {
-            const timeSlot = document.createElement('div');
+        const timeSlot = document.createElement('div');
             timeSlot.className = 'calendar-time-slot';
-            timeSlot.textContent = formatHourLabel(hour);
+            timeSlot.textContent = uses24HourTime()
+                ? `${String(hour).padStart(2, '0')}:00`
+                : formatHourLabel(hour);
             calendarGrid.appendChild(timeSlot);
             DAYS_OF_WEEK.forEach((_, dayIndex) => {
                 const cell = document.createElement('div');
@@ -860,11 +950,12 @@
 
         const block = document.createElement('div');
         block.className = 'course-block no-conflict';
-        block.style.height = Math.max((durationHours * SLOT_HEIGHT), 30) + 'px';
-        block.style.top = (startMinute / 60 * SLOT_HEIGHT) + 'px';
+        block.style.height = Math.max((durationHours * 100), 0) + '%';
+        block.style.minHeight = '30px';
+        block.style.top = (startMinute / 60 * 100) + '%';
         block.innerHTML = `
             <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
-            <span class="course-block-line">${courseData.time}</span>
+            <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
             <span class="course-block-line">${courseData.location}</span>
         `;
         block.setAttribute('data-section-id', courseData.section_id);
@@ -887,14 +978,14 @@
     }
 
     function getCourseLabel(courseData) {
-        return `${courseData.course_code} - ${courseData.section_num} (${courseData.time})`;
+        return `${courseData.course_code} - ${courseData.section_num} (${formatMeetingListForDisplay(courseData.time)})`;
     }
 
     function buildCourseTooltip(courseData) {
         return `
             <strong>${courseData.course_code} - ${courseData.section_num}</strong>
             <div>${courseData.course_name || ''}</div>
-            <div>${courseData.days} ${courseData.time}</div>
+            <div>${courseData.days} ${formatMeetingListForDisplay(courseData.time)}</div>
             <div>${courseData.instructor || 'Instructor: N/A'}</div>
             <div>${courseData.location || 'Location: N/A'}</div>
             <div>Click to remove from schedule</div>
@@ -992,7 +1083,13 @@
     }
 
     function removeFromSchedule(sectionId) {
-        currentSchedule = currentSchedule.filter(entry => String(entry.section_id) !== String(sectionId));
+        const matchedEntry = currentSchedule.find(entry => String(entry.section_id) === String(sectionId));
+        if (!matchedEntry) return;
+        const scheduleGroupId = matchedEntry.schedule_group_id;
+        currentSchedule = currentSchedule.filter(entry => {
+            if (scheduleGroupId) return entry.schedule_group_id !== scheduleGroupId;
+            return String(entry.section_id) !== String(sectionId);
+        });
         persistScheduleToCookie(currentSchedule);
         updateScheduleDisplay(currentSchedule);
     }

@@ -32,7 +32,7 @@ def schedule_view(request):
     })
 
 
-SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2}
+SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3}
 
 
 def semester_sort_key(name):
@@ -50,6 +50,9 @@ def search_courses(request):
     semester_name = request.GET.get('semester', '').strip()
     subject = request.GET.get('subject', '').strip()
     number = request.GET.get('number', '').strip()
+
+    if not campus_id or not semester_name:
+        return render(request, 'classes/partials/search_results.html', {'courses': []})
 
     courses = Course.objects.all()
 
