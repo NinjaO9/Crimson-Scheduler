@@ -46,8 +46,8 @@ class Course(models.Model):
 class Section(models.Model):
     code = models.IntegerField(null=True)
     section = models.IntegerField(null=True)
-    days = models.CharField(max_length=30, default="N/A")
-    time = models.CharField(max_length=30, default="N/A")
+    days = models.CharField(max_length=50, default="N/A")
+    time = models.CharField(max_length=100, default="N/A")
     location = models.CharField(max_length=20, default="N/A")
     instructor = models.CharField(max_length=50, default="N/A")
     seats_taken = models.IntegerField(null=True)

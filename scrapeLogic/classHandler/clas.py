@@ -28,6 +28,26 @@ class Section:
     def __str__(self):
         return f"{self.name}-{self.number}"
 
+    @staticmethod
+    def _format_time_token_24h(token: str) -> str:
+        token = (token or "").strip()
+        match = re.match(r"^(\d{1,2})(?:[.:](\d{1,2}))?$", token)
+        if match is None:
+            return token
+
+        hours = int(match.group(1))
+        minutes = int(match.group(2) or 0)
+        return f"{hours:02d}:{minutes:02d}"
+
+    @classmethod
+    def _format_time_range(cls, time_range: str) -> str:
+        parts = [part.strip() for part in (time_range or "").split("-", 1)]
+        if len(parts) != 2:
+            return cls._format_time_token_24h(time_range)
+
+        start, end = parts
+        return f"{cls._format_time_token_24h(start)} - {cls._format_time_token_24h(end)}"
+
     def formatTime(self, time) -> None:
         """
         WSU has a really interesting way 
@@ -51,7 +71,7 @@ class Section:
                 meetings.append(("ARR", seg))
                 continue
             days = match.group(1).strip(",")
-            seg_time = match.group(2).strip()
+            seg_time = self._format_time_range(match.group(2).strip())
             meetings.append((days, seg_time))
 
         if not meetings:
