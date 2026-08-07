@@ -326,6 +326,14 @@
         border-color: #d20f2a;
     }
 
+    .course-block.ghost {
+        background: rgba(152, 30, 50, 0.16);
+        border: 1px dashed var(--crimson);
+        color: #111827;
+        pointer-events: none;
+        z-index: 18;
+    }
+
     .course-block-line {
         display: block;
     }
@@ -701,8 +709,34 @@
             }
         });
 
+        document.addEventListener('mouseover', function(event) {
+            const row = event.target.closest('.section-choice-row');
+            if (!row || row.contains(event.relatedTarget)) return;
+            showSectionGhost(row);
+        });
+
+        document.addEventListener('mouseout', function(event) {
+            const row = event.target.closest('.section-choice-row');
+            if (!row || row.contains(event.relatedTarget)) return;
+            clearSectionGhosts();
+        });
+
+        document.addEventListener('focusin', function(event) {
+            const row = event.target.closest('.section-choice-row');
+            if (row) showSectionGhost(row);
+        });
+
+        document.addEventListener('focusout', function(event) {
+            const row = event.target.closest('.section-choice-row');
+            if (!row || row.contains(event.relatedTarget)) return;
+            clearSectionGhosts();
+        });
+
         document.body.addEventListener('htmx:afterSwap', function(event) {
-            if (event.target && event.target.id === 'searchResults') updateSearchResultTimeDisplays();
+            if (event.target && event.target.id === 'searchResults') {
+                clearSectionGhosts();
+                updateSearchResultTimeDisplays();
+            }
         });
 
         document.getElementById('resetFiltersBtn').addEventListener('click', function() {
@@ -741,6 +775,17 @@
             is_lab: choice.getAttribute('data-is-lab') === 'true',
             component: choice.getAttribute('data-component') || 'lecture'
         };
+    }
+
+    function showSectionGhost(row) {
+        const choice = row.querySelector('.section-choice');
+        if (!choice) return;
+        clearSectionGhosts();
+        renderSectionGhost(buildCourseDataFromChoice(choice, 'preview'));
+    }
+
+    function clearSectionGhosts() {
+        document.querySelectorAll('.course-block.ghost').forEach(block => block.remove());
     }
 
     function uses24HourTime() {
@@ -1010,6 +1055,33 @@
         return true;
     }
 
+    function renderSectionGhost(courseData) {
+        resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) => {
+            dayIndexes.forEach(dayIndex => renderGhostBlock(dayIndex, timeRange, courseData));
+        });
+    }
+
+    function renderGhostBlock(dayIndex, timeRange, courseData) {
+        const startHour = Math.floor(timeRange.start / 60);
+        const startMinute = timeRange.start % 60;
+        const durationHours = (timeRange.end - timeRange.start) / 60;
+        const cell = document.getElementById(`cell-${dayIndex}-${startHour}`);
+        if (!cell) return false;
+
+        const block = document.createElement('div');
+        block.className = 'course-block ghost';
+        block.style.height = Math.max((durationHours * 100), 0) + '%';
+        block.style.minHeight = '30px';
+        block.style.top = (startMinute / 60 * 100) + '%';
+        block.innerHTML = `
+            <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
+            <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
+            <span class="course-block-line">${courseData.location}</span>
+        `;
+        cell.appendChild(block);
+        return true;
+    }
+
     function getCourseLabel(courseData) {
         return `${courseData.course_code} - ${courseData.section_num} (${formatMeetingListForDisplay(courseData.time)})`;
     }
@@ -1074,6 +1146,7 @@
 
     function updateScheduleDisplay(scheduleData) {
         currentSchedule = scheduleData;
+        clearSectionGhosts();
         renderedBlocksByDay = {};
         buildCalendarHeader();
         initializeCalendar();
