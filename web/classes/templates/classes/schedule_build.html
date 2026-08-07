@@ -248,12 +248,17 @@
         flex-direction: column;
         flex: 1 1 auto;
         min-height: 0;
-        overflow: visible;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     .calendar-header {
+        background: #fff;
         display: grid;
         grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
+        position: sticky;
+        top: 0;
+        z-index: 20;
     }
 
     .calendar-header-time,
@@ -275,7 +280,7 @@
     .calendar-grid {
         display: grid;
         grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
-        flex: 1 1 auto;
+        flex: 0 0 auto;
         min-height: 0;
     }
 
@@ -284,7 +289,7 @@
         border-right: 1px solid var(--line);
         color: #111827;
         font-size: 0.84rem;
-        min-height: 0;
+        min-height: 58px;
         padding: 7px 9px 0 0;
         text-align: right;
     }
@@ -292,7 +297,7 @@
     .calendar-cell {
         border-bottom: 1px solid var(--line);
         border-right: 1px solid var(--line);
-        min-height: 0;
+        min-height: 58px;
         overflow: visible;
         position: relative;
     }
@@ -481,8 +486,7 @@
         }
 
         .calendar-wrap {
-            overflow-x: auto;
-            overflow-y: visible;
+            overflow: auto;
         }
 
         .calendar-header,
@@ -620,10 +624,12 @@
         { key: 'U', label: 'Sunday' }
     ];
     const START_HOUR = 7;
-    const END_HOUR = 18;
+    const END_HOUR = 23;
+    const HOUR_ROW_HEIGHT = 58;
     const SCHEDULE_COOKIE_NAME = 'wsu_schedule_builder_schedule';
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
     const TIME_FORMAT_STORAGE_KEY = 'wsu_schedule_builder_24_hour_time';
+    const HIDE_WEEKENDS_STORAGE_KEY = 'wsu_schedule_builder_hide_weekends';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -639,10 +645,10 @@
     let renderedBlocksByDay = {};
 
     function initializeSchedulePage() {
+        initializeScheduleOptions();
         buildCalendarHeader();
         initializeCalendar();
         setupInteractionHandlers();
-        initializeTimeFormatPreference();
         currentSchedule = loadScheduleFromCookie();
         updateScheduleDisplay(currentSchedule);
         updateSearchResultTimeDisplays();
@@ -683,9 +689,15 @@
             }
 
             if (event.target.closest('#timeFormatToggle')) {
-                saveTimeFormatPreference();
+                saveScheduleOptions();
                 updateScheduleDisplay(currentSchedule);
                 updateSearchResultTimeDisplays();
+                return;
+            }
+
+            if (event.target.closest('#hideWeekendsToggle')) {
+                saveScheduleOptions();
+                updateScheduleDisplay(currentSchedule);
             }
         });
 
@@ -736,14 +748,32 @@
         return !!toggle && toggle.checked;
     }
 
-    function initializeTimeFormatPreference() {
-        const toggle = document.getElementById('timeFormatToggle');
-        if (!toggle) return;
-        toggle.checked = localStorage.getItem(TIME_FORMAT_STORAGE_KEY) === 'true';
+    function hidesWeekends() {
+        const toggle = document.getElementById('hideWeekendsToggle');
+        return !!toggle && toggle.checked;
     }
 
-    function saveTimeFormatPreference() {
+    function getVisibleDays() {
+        return hidesWeekends()
+            ? DAYS_OF_WEEK.filter(day => day.key !== 'S' && day.key !== 'U')
+            : DAYS_OF_WEEK;
+    }
+
+    function getCalendarColumnTemplate() {
+        return `82px repeat(${getVisibleDays().length}, minmax(96px, 1fr))`;
+    }
+
+    function initializeScheduleOptions() {
+        const timeToggle = document.getElementById('timeFormatToggle');
+        if (timeToggle) timeToggle.checked = localStorage.getItem(TIME_FORMAT_STORAGE_KEY) === 'true';
+
+        const weekendToggle = document.getElementById('hideWeekendsToggle');
+        if (weekendToggle) weekendToggle.checked = localStorage.getItem(HIDE_WEEKENDS_STORAGE_KEY) === 'true';
+    }
+
+    function saveScheduleOptions() {
         localStorage.setItem(TIME_FORMAT_STORAGE_KEY, String(uses24HourTime()));
+        localStorage.setItem(HIDE_WEEKENDS_STORAGE_KEY, String(hidesWeekends()));
     }
 
     function formatTimeTokenForDisplay(token) {
@@ -807,8 +837,9 @@
 
     function buildCalendarHeader() {
         const header = document.getElementById('calendarHeader');
+        header.style.gridTemplateColumns = getCalendarColumnTemplate();
         header.innerHTML = '<div class="calendar-header-time">Time</div>';
-        DAYS_OF_WEEK.forEach((day) => {
+        getVisibleDays().forEach((day) => {
             const dayEl = document.createElement('div');
             dayEl.className = 'calendar-header-day';
             dayEl.textContent = day.label;
@@ -819,15 +850,17 @@
     function initializeCalendar() {
         const calendarGrid = document.getElementById('calendarGrid');
         calendarGrid.innerHTML = '';
-        calendarGrid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, minmax(36px, 1fr))`;
+        calendarGrid.style.gridTemplateColumns = getCalendarColumnTemplate();
+        calendarGrid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, ${HOUR_ROW_HEIGHT}px)`;
         for (let hour = START_HOUR; hour < END_HOUR; hour++) {
-        const timeSlot = document.createElement('div');
+            const timeSlot = document.createElement('div');
             timeSlot.className = 'calendar-time-slot';
             timeSlot.textContent = uses24HourTime()
                 ? `${String(hour).padStart(2, '0')}:00`
                 : formatHourLabel(hour);
             calendarGrid.appendChild(timeSlot);
-            DAYS_OF_WEEK.forEach((_, dayIndex) => {
+            getVisibleDays().forEach((day) => {
+                const dayIndex = DAYS_OF_WEEK.findIndex(dayOfWeek => dayOfWeek.key === day.key);
                 const cell = document.createElement('div');
                 cell.className = 'calendar-cell';
                 cell.id = `cell-${dayIndex}-${hour}`;
@@ -1042,6 +1075,7 @@
     function updateScheduleDisplay(scheduleData) {
         currentSchedule = scheduleData;
         renderedBlocksByDay = {};
+        buildCalendarHeader();
         initializeCalendar();
         const miscItems = [];
         scheduleData.forEach(course => {
