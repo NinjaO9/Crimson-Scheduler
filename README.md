@@ -1,5 +1,5 @@
 
-# WSU Schedule Builder
+# Crimson Scheduler
 
 A website to help build schedules for WSU students. 
 
@@ -8,18 +8,18 @@ A website to help build schedules for WSU students.
 ## Projected Features
 
 - Selection of courses across all Washington State University campuses and available semesters. 
-- Periodic webscraping (updating class selections)
+- Periodic ~~webscraping~~ database updates (updating class selections)
 - Interactable block scheduling
 - More ???
 
 
 ## Roadmap
 
-- Build scrapper to get class information [complete!] 
+- ~~Build scrapper to get class information~~ The scrapper has been scrapped (lol). Instead I opted to be smart and just read from WSU's API endpoints instead (please don't kill me). This improves the speed of which I am updating information within the Postgres DB. [complete!] 
 
-- Link PostgreSQL or SQLite Database to save scrapped data [complete, but needs some tweaking]
+- Link PostgreSQL or SQLite Database to save data [complete!]
 
-- Implement backend API to call database and retrieve scrapped class information [complete!]
+- Implement backend API to call database and retrieve class information [complete!]
 
 - Create frontend that interacts with API to allow users to build schedules [In progress!]
 
@@ -27,4 +27,3 @@ A website to help build schedules for WSU students.
 ## License
 
 [GPL](https://choosealicense.com/licenses/gpl-3.0)
-
