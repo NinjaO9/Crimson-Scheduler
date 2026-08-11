@@ -10,10 +10,11 @@ const DAYS_OF_WEEK = [
     const START_HOUR = 7;
     const END_HOUR = 23;
     const HOUR_ROW_HEIGHT = 58;
-    const SCHEDULE_COOKIE_NAME = 'wsu_schedule_builder_schedule';
+    const SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
-    const TIME_FORMAT_STORAGE_KEY = 'wsu_schedule_builder_24_hour_time';
-    const HIDE_WEEKENDS_STORAGE_KEY = 'wsu_schedule_builder_hide_weekends';
+    const TIME_FORMAT_STORAGE_KEY = 'crimson_scheduler_24_hour_time';
+    const HIDE_WEEKENDS_STORAGE_KEY = 'crimson_scheduler_hide_weekends';
+    const SHOW_INSTRUCTORS_STORAGE_KEY = 'crimson_scheduler_show_instructors'
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -80,6 +81,11 @@ const DAYS_OF_WEEK = [
             }
 
             if (event.target.closest('#hideWeekendsToggle')) {
+                saveScheduleOptions();
+                updateScheduleDisplay(currentSchedule);
+            }
+
+            if (event.target.closest('#showInstructorToggle')) {
                 saveScheduleOptions();
                 updateScheduleDisplay(currentSchedule);
             }
@@ -174,6 +180,11 @@ const DAYS_OF_WEEK = [
         return !!toggle && toggle.checked;
     }
 
+    function showInstructors() {
+        const toggle = document.getElementById('showInstructorToggle');
+        return !!toggle && toggle.checked;
+    }
+
     function getVisibleDays() {
         return hidesWeekends()
             ? DAYS_OF_WEEK.filter(day => day.key !== 'S' && day.key !== 'U')
@@ -190,11 +201,15 @@ const DAYS_OF_WEEK = [
 
         const weekendToggle = document.getElementById('hideWeekendsToggle');
         if (weekendToggle) weekendToggle.checked = localStorage.getItem(HIDE_WEEKENDS_STORAGE_KEY) === 'true';
+
+        const instructorToggle = document.getElementById('showInstructorToggle');
+        if (instructorToggle) instructorToggle.checked = localStorage.getItem(SHOW_INSTRUCTORS_STORAGE_KEY) === 'true';
     }
 
     function saveScheduleOptions() {
         localStorage.setItem(TIME_FORMAT_STORAGE_KEY, String(uses24HourTime()));
         localStorage.setItem(HIDE_WEEKENDS_STORAGE_KEY, String(hidesWeekends()));
+        localStorage.setItem(SHOW_INSTRUCTORS_STORAGE_KEY, String(showInstructors()));
     }
 
     function formatTimeTokenForDisplay(token) {
@@ -395,7 +410,7 @@ const DAYS_OF_WEEK = [
         return [{ dayIndexes, timeRange }];
     }
 
-    function renderCourseBlock(dayIndex, timeRange, courseData) {
+    function renderCourseBlock(dayIndex, timeRange, courseData, showInstruct) {
         const startHour = Math.floor(timeRange.start / 60);
         const startMinute = timeRange.start % 60;
         const durationHours = (timeRange.end - timeRange.start) / 60;
@@ -411,6 +426,7 @@ const DAYS_OF_WEEK = [
             <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
             <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
             <span class="course-block-line">${courseData.location}</span>
+            ${ showInstruct ? `<span class="course-block-line">${courseData.instructor}</span>` : ``}
         `;
         block.setAttribute('data-section-id', courseData.section_id);
         block.setAttribute('data-start-minutes', String(timeRange.start));
@@ -486,9 +502,10 @@ const DAYS_OF_WEEK = [
 
     function addCourseToCalendar(courseData) {
         let renderedCount = 0;
+        let showInstruct = showInstructors();
         resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) => {
             dayIndexes.forEach(dayIndex => {
-                if (renderCourseBlock(dayIndex, timeRange, courseData)) renderedCount += 1;
+                if (renderCourseBlock(dayIndex, timeRange, courseData, showInstruct)) renderedCount += 1;
             });
         });
         return renderedCount;
