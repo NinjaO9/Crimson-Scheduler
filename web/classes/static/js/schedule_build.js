@@ -14,7 +14,8 @@ const DAYS_OF_WEEK = [
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
     const TIME_FORMAT_STORAGE_KEY = 'crimson_scheduler_24_hour_time';
     const HIDE_WEEKENDS_STORAGE_KEY = 'crimson_scheduler_hide_weekends';
-    const SHOW_INSTRUCTORS_STORAGE_KEY = 'crimson_scheduler_show_instructors'
+    const SHOW_INSTRUCTORS_STORAGE_KEY = 'crimson_scheduler_show_instructors';
+    const SHOW_COURSE_SECTION_STORAGE_KEY = 'crimson_scheduler_show_course_section';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -86,6 +87,11 @@ const DAYS_OF_WEEK = [
             }
 
             if (event.target.closest('#showInstructorToggle')) {
+                saveScheduleOptions();
+                updateScheduleDisplay(currentSchedule);
+            }
+
+            if (event.target.closest('#showSectionToggle')) {
                 saveScheduleOptions();
                 updateScheduleDisplay(currentSchedule);
             }
@@ -185,6 +191,11 @@ const DAYS_OF_WEEK = [
         return !!toggle && toggle.checked;
     }
 
+    function showSections() {
+        const toggle = document.getElementById('showSectionToggle');
+        return !!toggle && toggle.checked;
+    }
+
     function getVisibleDays() {
         return hidesWeekends()
             ? DAYS_OF_WEEK.filter(day => day.key !== 'S' && day.key !== 'U')
@@ -204,12 +215,16 @@ const DAYS_OF_WEEK = [
 
         const instructorToggle = document.getElementById('showInstructorToggle');
         if (instructorToggle) instructorToggle.checked = localStorage.getItem(SHOW_INSTRUCTORS_STORAGE_KEY) === 'true';
+
+        const sectionToggle = document.getElementById('showSectionToggle');
+        if (sectionToggle) sectionToggle.checked = localStorage.getItem(SHOW_COURSE_SECTION_STORAGE_KEY) !== 'false';
     }
 
     function saveScheduleOptions() {
         localStorage.setItem(TIME_FORMAT_STORAGE_KEY, String(uses24HourTime()));
         localStorage.setItem(HIDE_WEEKENDS_STORAGE_KEY, String(hidesWeekends()));
         localStorage.setItem(SHOW_INSTRUCTORS_STORAGE_KEY, String(showInstructors()));
+        localStorage.setItem(SHOW_COURSE_SECTION_STORAGE_KEY, String(showSections()));
     }
 
     function formatTimeTokenForDisplay(token) {
@@ -410,11 +425,13 @@ const DAYS_OF_WEEK = [
         return [{ dayIndexes, timeRange }];
     }
 
-    function renderCourseBlock(dayIndex, timeRange, courseData, showInstruct) {
+    function renderCourseBlock(dayIndex, timeRange, courseData) {
         const startHour = Math.floor(timeRange.start / 60);
         const startMinute = timeRange.start % 60;
         const durationHours = (timeRange.end - timeRange.start) / 60;
         const cell = document.getElementById(`cell-${dayIndex}-${startHour}`);
+        const showInstruct = showInstructors();
+        const showSection = showSections();
         if (!cell) return false;
 
         const block = document.createElement('div');
@@ -423,7 +440,7 @@ const DAYS_OF_WEEK = [
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
         block.innerHTML = `
-            <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
+            <span class="course-block-line">${courseData.course_code}${ showSection ? ` - ${courseData.section_num}` : ``}</span>
             <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
             <span class="course-block-line">${courseData.location}</span>
             ${ showInstruct ? `<span class="course-block-line">${courseData.instructor}</span>` : ``}
@@ -466,7 +483,7 @@ const DAYS_OF_WEEK = [
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
         block.innerHTML = `
-            <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
+            <span class="course-block-line">${courseData.course_code}</span>
             <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
             <span class="course-block-line">${courseData.location}</span>
         `;
@@ -475,7 +492,7 @@ const DAYS_OF_WEEK = [
     }
 
     function getCourseLabel(courseData) {
-        return `${courseData.course_code} - ${courseData.section_num} (${formatMeetingListForDisplay(courseData.time)})`;
+        return `${courseData.course_code} (${formatMeetingListForDisplay(courseData.time)})`;
     }
 
     function buildCourseTooltip(courseData) {
@@ -502,10 +519,9 @@ const DAYS_OF_WEEK = [
 
     function addCourseToCalendar(courseData) {
         let renderedCount = 0;
-        let showInstruct = showInstructors();
         resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) => {
             dayIndexes.forEach(dayIndex => {
-                if (renderCourseBlock(dayIndex, timeRange, courseData, showInstruct)) renderedCount += 1;
+                if (renderCourseBlock(dayIndex, timeRange, courseData)) renderedCount += 1;
             });
         });
         return renderedCount;

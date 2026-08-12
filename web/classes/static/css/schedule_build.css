@@ -285,8 +285,10 @@
 }
 
 .course-block.conflict {
-    background: repeating-linear-gradient(135deg, #fff 0 7px, #fff 7px 12px, #d20f2a 12px 14px);
+    /* background: repeating-linear-gradient(135deg, #fff 0 7px, #fff 7px 12px, #d20f2a 12px 14px); */
+    background: linear-gradient(180deg, #f0abab 0%, #f0abab 90%);
     border-color: #d20f2a;
+    z-index: 35;
 }
 
 .course-block.ghost {
@@ -294,7 +296,12 @@
     border: 1px dashed var(--crimson);
     color: #111827;
     pointer-events: none;
-    z-index: 18;
+    z-index: 36;
+}
+
+.course-block:hover {
+    overflow: visible;
+    z-index: 50;
 }
 
 .course-block-line {
