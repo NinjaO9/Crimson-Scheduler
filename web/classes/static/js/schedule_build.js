@@ -418,7 +418,7 @@ const DAYS_OF_WEEK = [
         if (!cell) return false;
 
         const block = document.createElement('div');
-        block.className = 'course-block no-conflict';
+        block.className = `course-block no-conflict${showInstruct ? ' with-instructor' : ''}`;
         block.style.height = Math.max((durationHours * 100), 0) + '%';
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';

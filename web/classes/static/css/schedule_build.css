@@ -301,6 +301,12 @@
     display: block;
 }
 
+.course-block.with-instructor .course-block-line,
+body:has(#showInstructorToggle:checked) .course-block-line {
+    font-size: 0.6rem;
+    line-height: 1.05;
+}
+
 .course-block-tooltip {
     background: #fff;
     border: 1px solid #cfd5df;
