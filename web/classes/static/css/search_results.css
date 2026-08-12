@@ -153,13 +153,46 @@
 }
 
 @media (max-width: 520px) {
+    .result-summary {
+        padding: 14px 12px;
+    }
+
+    .result-title {
+        font-size: 1rem;
+    }
+
+    .result-body {
+        padding: 0 12px 14px;
+    }
+
+    .section-table {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .section-table-head,
+    .section-choice-row {
+        gap: 8px;
+        grid-template-columns: 48px minmax(78px, 1fr) 36px 56px 70px;
+        min-width: 326px;
+    }
+
     .section-table-head {
+        display: grid;
+        font-size: 0.66rem;
+    }
+
+    .section-table-head span:nth-child(2),
+    .section-choice-row > span:nth-child(2) {
         display: none;
     }
 
     .section-choice-row {
-        grid-template-columns: 1fr;
-        gap: 5px;
+        font-size: 0.76rem;
+    }
+
+    .section-select {
+        gap: 7px;
     }
 
     .course-action-row {

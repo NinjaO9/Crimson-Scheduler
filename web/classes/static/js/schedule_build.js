@@ -10,6 +10,7 @@ const DAYS_OF_WEEK = [
     const START_HOUR = 7;
     const END_HOUR = 23;
     const HOUR_ROW_HEIGHT = 58;
+    const MOBILE_BREAKPOINT = 760;
     const SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
     const TIME_FORMAT_STORAGE_KEY = 'crimson_scheduler_24_hour_time';
@@ -32,6 +33,7 @@ const DAYS_OF_WEEK = [
 
     function initializeSchedulePage() {
         initializeScheduleOptions();
+        initializeMobileLayout();
         buildCalendarHeader();
         initializeCalendar();
         setupInteractionHandlers();
@@ -64,6 +66,12 @@ const DAYS_OF_WEEK = [
 
             if (event.target.closest('#exportScheduleBtn')) {
                 exportSchedule();
+                return;
+            }
+
+            const mobileNavButton = event.target.closest('.mobile-nav-btn');
+            if (mobileNavButton) {
+                handleMobileNavigation(mobileNavButton);
             }
         });
 
@@ -132,6 +140,44 @@ const DAYS_OF_WEEK = [
                 document.getElementById('searchResults').innerHTML = '<div class="empty-search">Choose a campus + term, then search courses to begin building your schedule.</div>';
             }, 0);
         });
+
+        window.addEventListener('resize', debounce(function() {
+            updateScheduleDisplay(currentSchedule);
+        }, 150));
+    }
+
+    function isMobileViewport() {
+        return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
+    }
+
+    function initializeMobileLayout() {
+        setMobilePane('search');
+    }
+
+    function handleMobileNavigation(button) {
+        const targetPane = button.getAttribute('data-mobile-nav');
+        setMobilePane(targetPane);
+    }
+
+    function setMobilePane(targetPane) {
+        document.querySelectorAll('[data-mobile-pane]').forEach(pane => {
+            pane.classList.toggle('is-active', pane.getAttribute('data-mobile-pane') === targetPane);
+        });
+        document.querySelectorAll('.mobile-nav-btn').forEach(button => {
+            const isActive = button.getAttribute('data-mobile-nav') === targetPane;
+            button.classList.toggle('is-active', isActive);
+            button.setAttribute('aria-pressed', String(isActive));
+        });
+        const shell = document.querySelector('.schedule-shell');
+        if (shell) shell.setAttribute('data-active-mobile-pane', targetPane);
+    }
+
+    function debounce(callback, delay) {
+        let timerId;
+        return function(...args) {
+            window.clearTimeout(timerId);
+            timerId = window.setTimeout(() => callback.apply(this, args), delay);
+        };
     }
 
     function findSelectedCourseChoice(courseId, choiceType) {
@@ -197,13 +243,15 @@ const DAYS_OF_WEEK = [
     }
 
     function getVisibleDays() {
-        return hidesWeekends()
+        return (isMobileViewport() || hidesWeekends()) /* Forcing mobile to have only 5 DOW cause im evil >:) */
             ? DAYS_OF_WEEK.filter(day => day.key !== 'S' && day.key !== 'U')
             : DAYS_OF_WEEK;
     }
 
     function getCalendarColumnTemplate() {
-        return `82px repeat(${getVisibleDays().length}, minmax(96px, 1fr))`;
+        const timeColumnWidth = isMobileViewport() ? '56px' : '82px';
+        const dayColumnWidth = isMobileViewport() ? 'minmax(64px, 1fr)' : 'minmax(96px, 1fr)';
+        return `${timeColumnWidth} repeat(${getVisibleDays().length}, ${dayColumnWidth})`;
     }
 
     function initializeScheduleOptions() {
@@ -284,6 +332,7 @@ const DAYS_OF_WEEK = [
         currentSchedule.push(...selectedCourses);
         persistScheduleToCookie(currentSchedule);
         updateScheduleDisplay(currentSchedule);
+        if (isMobileViewport()) setMobilePane('schedule');
     }
 
     function buildCalendarHeader() {
@@ -293,7 +342,7 @@ const DAYS_OF_WEEK = [
         getVisibleDays().forEach((day) => {
             const dayEl = document.createElement('div');
             dayEl.className = 'calendar-header-day';
-            dayEl.textContent = day.label;
+            dayEl.textContent = isMobileViewport() ? day.label.slice(0, 3) : day.label;
             header.appendChild(dayEl);
         });
     }
