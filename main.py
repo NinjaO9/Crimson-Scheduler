@@ -22,8 +22,8 @@ def initialize_django() -> None:
 def main():
     initialize_django()
 
-    from scrapeLogic.dataHandler.data import DataHandler as dh
-    from scrapeLogic.dataHandler.storage import StorageHandler as st
+    from dataCollection.dataHandler.data import DataHandler as dh
+    from dataCollection.dataHandler.storage import StorageHandler as st
 
     url = "https://schedules.wsu.edu/api/Data/GetHomePageDTO/"
     st.insertToDatabase(dh.getCollegeData(url))

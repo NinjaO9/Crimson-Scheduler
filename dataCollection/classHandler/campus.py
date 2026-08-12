@@ -1,5 +1,5 @@
 
-from scrapeLogic.classHandler.semester import Semester
+from dataCollection.classHandler.semester import Semester
 class Campus:
 
     def __init__(self, name: str, semesters: list[Semester]):

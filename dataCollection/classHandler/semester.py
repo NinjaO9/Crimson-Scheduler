@@ -1,5 +1,5 @@
 
-from scrapeLogic.classHandler.subject import Subject
+from dataCollection.classHandler.subject import Subject
 class Semester:
     def __init__(self, name: str, subjects: list[Subject]):
         self.name = name.strip()

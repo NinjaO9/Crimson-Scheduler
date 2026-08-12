@@ -1,5 +1,5 @@
 from classes.models import Campus as d_Campus, Semester as d_Semester, Topics as d_Topic, Course as d_Course, Section as d_Section
-from scrapeLogic.classHandler.campus import Campus as s_Campus
+from dataCollection.classHandler.campus import Campus as s_Campus
 
 
 
