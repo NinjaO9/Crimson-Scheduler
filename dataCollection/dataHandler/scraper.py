@@ -17,6 +17,22 @@ from selenium.webdriver.common.action_chains import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager   
 
 
+"""
+
+NOTE TO THOSE READING:
+
+The origins of the webapp relied on webscrapping WSU's schedule of courses site to obtain information.
+The current state of the webapp no longer scrapes the site, and instead relies on API calls (as seen in data.py)
+The logic for scrapping the website is kept for the sake of bookkeeping, and does not represent the actual logic used today.
+
+For the more up-to-date method of data collection, please refer to dataCollection/dataHandler/data.py
+Then, you can read ../storage.py to see how I upload data to Postgres.
+
+If you have any questions about this code (hopefully I didn't forget) or code in the other dataCollection files, feel free to ask :)
+
+"""
+
+
 class Scraper:
     
     _instance = None
