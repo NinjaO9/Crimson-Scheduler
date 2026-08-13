@@ -52,6 +52,7 @@ const DAYS_OF_WEEK = [
 
             if (event.target.closest('#clearScheduleBtn')) {
                 event.preventDefault();
+                if (!window.confirm('Clear your entire schedule? This cannot be undone.')) return;
                 currentSchedule = [];
                 persistScheduleToCookie(currentSchedule);
                 updateScheduleDisplay(currentSchedule);
