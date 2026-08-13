@@ -638,7 +638,7 @@ const DAYS_OF_WEEK = [
                     <div class="misc-course-title">${item.course_code} - ${item.course_name || 'Class'}</div>
                     <div class="misc-meta">
                         <span>${item.credits || 0} Credits</span>
-                        <span>Section ${item.section_num}</span>
+                        <span>Section ${item.section_num} (${item.is_lab ? `Lab` : `Lecture`})</span>
                         <span>Instructor: ${item.instructor || 'N/A'}</span>
                     </div>
                 </div>
