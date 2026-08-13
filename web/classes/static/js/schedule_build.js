@@ -17,6 +17,8 @@ const DAYS_OF_WEEK = [
     const HIDE_WEEKENDS_STORAGE_KEY = 'crimson_scheduler_hide_weekends';
     const SHOW_INSTRUCTORS_STORAGE_KEY = 'crimson_scheduler_show_instructors';
     const SHOW_COURSE_SECTION_STORAGE_KEY = 'crimson_scheduler_show_course_section';
+    const SCHEDULE_NAME_STORAGE_KEY = 'crimson_scheduler_schedule_name';
+    const DEFAULT_SCHEDULE_NAME = 'My Schedule';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -32,6 +34,7 @@ const DAYS_OF_WEEK = [
     let renderedBlocksByDay = {};
 
     function initializeSchedulePage() {
+        initializeScheduleName();
         initializeScheduleOptions();
         initializeMobileLayout();
         buildCalendarHeader();
@@ -105,6 +108,18 @@ const DAYS_OF_WEEK = [
                 updateScheduleDisplay(currentSchedule);
             }
         });
+
+        document.addEventListener('input', function(event) {
+            if (event.target.closest('#scheduleNameInput')) {
+                saveScheduleName();
+            }
+        });
+
+        document.addEventListener('blur', function(event) {
+            if (event.target.closest('#scheduleNameInput')) {
+                normalizeScheduleNameInput();
+            }
+        }, true);
 
         document.addEventListener('mouseover', function(event) {
             const row = event.target.closest('.section-choice-row');
@@ -267,6 +282,41 @@ const DAYS_OF_WEEK = [
 
         const sectionToggle = document.getElementById('showSectionToggle');
         if (sectionToggle) sectionToggle.checked = localStorage.getItem(SHOW_COURSE_SECTION_STORAGE_KEY) !== 'false';
+    }
+
+    function initializeScheduleName() {
+        const input = document.getElementById('scheduleNameInput');
+        if (!input) return;
+        input.value = getStoredScheduleName();
+    }
+
+    function getScheduleName() {
+        const input = document.getElementById('scheduleNameInput');
+        const name = input ? input.value.trim() : '';
+        return name || DEFAULT_SCHEDULE_NAME;
+    }
+
+    function getStoredScheduleName() {
+        return (localStorage.getItem(SCHEDULE_NAME_STORAGE_KEY) || DEFAULT_SCHEDULE_NAME).trim() || DEFAULT_SCHEDULE_NAME;
+    }
+
+    function saveScheduleName() {
+        localStorage.setItem(SCHEDULE_NAME_STORAGE_KEY, getScheduleName());
+    }
+
+    function normalizeScheduleNameInput() {
+        const input = document.getElementById('scheduleNameInput');
+        if (!input) return;
+        input.value = getScheduleName();
+        saveScheduleName();
+    }
+
+    function slugifyScheduleName(name) {
+        const slug = (name || DEFAULT_SCHEDULE_NAME)
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+        return slug || 'schedule';
     }
 
     function saveScheduleOptions() {
@@ -684,14 +734,82 @@ const DAYS_OF_WEEK = [
         return [];
     }
 
-    function exportSchedule() {
-        const blob = new Blob([JSON.stringify(currentSchedule, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = 'wsu-schedule.json';
-        link.click();
-        URL.revokeObjectURL(url);
+    function nextAnimationFrame() {
+        return new Promise(resolve => window.requestAnimationFrame(() => resolve()));
+    }
+
+    function buildScheduleExportFilename() {
+        const today = new Date();
+        const dateToken = [
+            today.getFullYear(),
+            String(today.getMonth() + 1).padStart(2, '0'),
+            String(today.getDate()).padStart(2, '0')
+        ].join('-');
+        return `${slugifyScheduleName(getScheduleName())}-${dateToken}.png`;
+    }
+
+    function downloadCanvasImage(canvas) {
+        canvas.toBlob(function(blob) {
+            if (!blob) {
+                window.alert('Sorry, the schedule image could not be created.');
+                return;
+            }
+
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = buildScheduleExportFilename();
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }, 'image/png');
+    }
+
+    async function exportSchedule() {
+        if (typeof window.html2canvas !== 'function') {
+            window.alert('The image export tool is still loading. Please try again in a moment.');
+            return;
+        }
+
+        const schedulePane = document.querySelector('.schedule-pane');
+        const exportButton = document.getElementById('exportScheduleBtn');
+        if (!schedulePane || !exportButton) return;
+
+        normalizeScheduleNameInput();
+        const confirmed = window.confirm(`Create and download a PNG image of "${getScheduleName()}"?`);
+        if (!confirmed) return;
+
+        const originalButtonText = exportButton.textContent;
+        exportButton.disabled = true;
+        exportButton.textContent = 'Exporting...';
+        exportButton.setAttribute('aria-busy', 'true');
+        clearSectionGhosts();
+
+        document.body.classList.add('schedule-export-active');
+        schedulePane.classList.add('is-exporting');
+
+        try {
+            await nextAnimationFrame();
+            const canvas = await window.html2canvas(schedulePane, {
+                backgroundColor: '#ffffff',
+                scale: Math.min(window.devicePixelRatio || 1, 2),
+                useCORS: true,
+                width: schedulePane.scrollWidth,
+                height: schedulePane.scrollHeight,
+                windowWidth: Math.max(document.documentElement.clientWidth, schedulePane.scrollWidth),
+                windowHeight: Math.max(document.documentElement.clientHeight, schedulePane.scrollHeight)
+            });
+            downloadCanvasImage(canvas);
+        } catch (error) {
+            window.alert('Sorry, the schedule image could not be created.');
+        } finally {
+            schedulePane.classList.remove('is-exporting');
+            document.body.classList.remove('schedule-export-active');
+            exportButton.disabled = false;
+            exportButton.textContent = originalButtonText;
+            exportButton.removeAttribute('aria-busy');
+        }
     }
 
     if (document.readyState === 'loading') {

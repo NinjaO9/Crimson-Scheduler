@@ -177,12 +177,32 @@
     align-items: baseline;
     display: flex;
     gap: 12px;
+    min-width: 0;
 }
 
-.schedule-title h1 {
+.schedule-name-input {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #111827;
     font-size: 1.42rem;
     font-weight: 800;
-    margin: 0;
+    line-height: 1.25;
+    max-width: min(460px, 44vw);
+    min-width: 170px;
+    padding: 3px 6px;
+    text-overflow: ellipsis;
+}
+
+.schedule-name-input:hover {
+    border-color: var(--line-strong);
+}
+
+.schedule-name-input:focus {
+    background: #fff;
+    border-color: var(--crimson);
+    box-shadow: 0 0 0 3px rgba(152, 30, 50, 0.12);
+    outline: 0;
 }
 
 .credits-label {
@@ -218,6 +238,33 @@
     min-height: 0;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+.schedule-pane.is-exporting {
+    background: #fff;
+    height: auto;
+    overflow: visible;
+}
+
+.schedule-pane.is-exporting .toolbar,
+.schedule-pane.is-exporting .manage-btn,
+.schedule-export-active .course-block-tooltip {
+    display: none !important;
+}
+
+.schedule-pane.is-exporting .schedule-name-input {
+    border-color: transparent;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+.schedule-pane.is-exporting .calendar-wrap {
+    flex: 0 0 auto;
+    overflow: visible;
+}
+
+.schedule-pane.is-exporting .calendar-header {
+    position: static;
 }
 
 .calendar-header {
@@ -545,8 +592,12 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         min-width: 0;
     }
 
-    .schedule-title h1 {
+    .schedule-name-input {
         font-size: 1.12rem;
+        max-width: 30vw;
+        min-width: 118px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
     .credits-label {
