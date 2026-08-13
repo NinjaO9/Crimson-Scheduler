@@ -10,11 +10,13 @@ const DAYS_OF_WEEK = [
     const START_HOUR = 7;
     const END_HOUR = 23;
     const HOUR_ROW_HEIGHT = 58;
+    const MOBILE_BREAKPOINT = 760;
     const SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
     const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
     const TIME_FORMAT_STORAGE_KEY = 'crimson_scheduler_24_hour_time';
     const HIDE_WEEKENDS_STORAGE_KEY = 'crimson_scheduler_hide_weekends';
-    const SHOW_INSTRUCTORS_STORAGE_KEY = 'crimson_scheduler_show_instructors'
+    const SHOW_INSTRUCTORS_STORAGE_KEY = 'crimson_scheduler_show_instructors';
+    const SHOW_COURSE_SECTION_STORAGE_KEY = 'crimson_scheduler_show_course_section';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -31,6 +33,7 @@ const DAYS_OF_WEEK = [
 
     function initializeSchedulePage() {
         initializeScheduleOptions();
+        initializeMobileLayout();
         buildCalendarHeader();
         initializeCalendar();
         setupInteractionHandlers();
@@ -49,6 +52,7 @@ const DAYS_OF_WEEK = [
 
             if (event.target.closest('#clearScheduleBtn')) {
                 event.preventDefault();
+                if (!window.confirm('Clear your entire schedule? This cannot be undone.')) return;
                 currentSchedule = [];
                 persistScheduleToCookie(currentSchedule);
                 updateScheduleDisplay(currentSchedule);
@@ -63,6 +67,12 @@ const DAYS_OF_WEEK = [
 
             if (event.target.closest('#exportScheduleBtn')) {
                 exportSchedule();
+                return;
+            }
+
+            const mobileNavButton = event.target.closest('.mobile-nav-btn');
+            if (mobileNavButton) {
+                handleMobileNavigation(mobileNavButton);
             }
         });
 
@@ -86,6 +96,11 @@ const DAYS_OF_WEEK = [
             }
 
             if (event.target.closest('#showInstructorToggle')) {
+                saveScheduleOptions();
+                updateScheduleDisplay(currentSchedule);
+            }
+
+            if (event.target.closest('#showSectionToggle')) {
                 saveScheduleOptions();
                 updateScheduleDisplay(currentSchedule);
             }
@@ -126,6 +141,44 @@ const DAYS_OF_WEEK = [
                 document.getElementById('searchResults').innerHTML = '<div class="empty-search">Choose a campus + term, then search courses to begin building your schedule.</div>';
             }, 0);
         });
+
+        window.addEventListener('resize', debounce(function() {
+            updateScheduleDisplay(currentSchedule);
+        }, 150));
+    }
+
+    function isMobileViewport() {
+        return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
+    }
+
+    function initializeMobileLayout() {
+        setMobilePane('search');
+    }
+
+    function handleMobileNavigation(button) {
+        const targetPane = button.getAttribute('data-mobile-nav');
+        setMobilePane(targetPane);
+    }
+
+    function setMobilePane(targetPane) {
+        document.querySelectorAll('[data-mobile-pane]').forEach(pane => {
+            pane.classList.toggle('is-active', pane.getAttribute('data-mobile-pane') === targetPane);
+        });
+        document.querySelectorAll('.mobile-nav-btn').forEach(button => {
+            const isActive = button.getAttribute('data-mobile-nav') === targetPane;
+            button.classList.toggle('is-active', isActive);
+            button.setAttribute('aria-pressed', String(isActive));
+        });
+        const shell = document.querySelector('.schedule-shell');
+        if (shell) shell.setAttribute('data-active-mobile-pane', targetPane);
+    }
+
+    function debounce(callback, delay) {
+        let timerId;
+        return function(...args) {
+            window.clearTimeout(timerId);
+            timerId = window.setTimeout(() => callback.apply(this, args), delay);
+        };
     }
 
     function findSelectedCourseChoice(courseId, choiceType) {
@@ -185,14 +238,21 @@ const DAYS_OF_WEEK = [
         return !!toggle && toggle.checked;
     }
 
+    function showSections() {
+        const toggle = document.getElementById('showSectionToggle');
+        return !!toggle && toggle.checked;
+    }
+
     function getVisibleDays() {
-        return hidesWeekends()
+        return (isMobileViewport() || hidesWeekends()) /* Forcing mobile to have only 5 DOW cause im evil >:) */
             ? DAYS_OF_WEEK.filter(day => day.key !== 'S' && day.key !== 'U')
             : DAYS_OF_WEEK;
     }
 
     function getCalendarColumnTemplate() {
-        return `82px repeat(${getVisibleDays().length}, minmax(96px, 1fr))`;
+        const timeColumnWidth = isMobileViewport() ? '56px' : '82px';
+        const dayColumnWidth = isMobileViewport() ? 'minmax(64px, 1fr)' : 'minmax(96px, 1fr)';
+        return `${timeColumnWidth} repeat(${getVisibleDays().length}, ${dayColumnWidth})`;
     }
 
     function initializeScheduleOptions() {
@@ -204,12 +264,16 @@ const DAYS_OF_WEEK = [
 
         const instructorToggle = document.getElementById('showInstructorToggle');
         if (instructorToggle) instructorToggle.checked = localStorage.getItem(SHOW_INSTRUCTORS_STORAGE_KEY) === 'true';
+
+        const sectionToggle = document.getElementById('showSectionToggle');
+        if (sectionToggle) sectionToggle.checked = localStorage.getItem(SHOW_COURSE_SECTION_STORAGE_KEY) !== 'false';
     }
 
     function saveScheduleOptions() {
         localStorage.setItem(TIME_FORMAT_STORAGE_KEY, String(uses24HourTime()));
         localStorage.setItem(HIDE_WEEKENDS_STORAGE_KEY, String(hidesWeekends()));
         localStorage.setItem(SHOW_INSTRUCTORS_STORAGE_KEY, String(showInstructors()));
+        localStorage.setItem(SHOW_COURSE_SECTION_STORAGE_KEY, String(showSections()));
     }
 
     function formatTimeTokenForDisplay(token) {
@@ -269,6 +333,7 @@ const DAYS_OF_WEEK = [
         currentSchedule.push(...selectedCourses);
         persistScheduleToCookie(currentSchedule);
         updateScheduleDisplay(currentSchedule);
+        if (isMobileViewport()) setMobilePane('schedule');
     }
 
     function buildCalendarHeader() {
@@ -278,7 +343,7 @@ const DAYS_OF_WEEK = [
         getVisibleDays().forEach((day) => {
             const dayEl = document.createElement('div');
             dayEl.className = 'calendar-header-day';
-            dayEl.textContent = day.label;
+            dayEl.textContent = isMobileViewport() ? day.label.slice(0, 3) : day.label;
             header.appendChild(dayEl);
         });
     }
@@ -410,11 +475,13 @@ const DAYS_OF_WEEK = [
         return [{ dayIndexes, timeRange }];
     }
 
-    function renderCourseBlock(dayIndex, timeRange, courseData, showInstruct) {
+    function renderCourseBlock(dayIndex, timeRange, courseData) {
         const startHour = Math.floor(timeRange.start / 60);
         const startMinute = timeRange.start % 60;
         const durationHours = (timeRange.end - timeRange.start) / 60;
         const cell = document.getElementById(`cell-${dayIndex}-${startHour}`);
+        const showInstruct = showInstructors();
+        const showSection = showSections();
         if (!cell) return false;
 
         const block = document.createElement('div');
@@ -423,7 +490,7 @@ const DAYS_OF_WEEK = [
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
         block.innerHTML = `
-            <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
+            <span class="course-block-line">${courseData.course_code}${ showSection ? ` - ${courseData.section_num}` : ``}</span>
             <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
             <span class="course-block-line">${courseData.location}</span>
             ${ showInstruct ? `<span class="course-block-line">${courseData.instructor}</span>` : ``}
@@ -466,7 +533,7 @@ const DAYS_OF_WEEK = [
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
         block.innerHTML = `
-            <span class="course-block-line">${courseData.course_code} - ${courseData.section_num}</span>
+            <span class="course-block-line">${courseData.course_code}</span>
             <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
             <span class="course-block-line">${courseData.location}</span>
         `;
@@ -475,7 +542,7 @@ const DAYS_OF_WEEK = [
     }
 
     function getCourseLabel(courseData) {
-        return `${courseData.course_code} - ${courseData.section_num} (${formatMeetingListForDisplay(courseData.time)})`;
+        return `${courseData.course_code} (${formatMeetingListForDisplay(courseData.time)})`;
     }
 
     function buildCourseTooltip(courseData) {
@@ -502,10 +569,9 @@ const DAYS_OF_WEEK = [
 
     function addCourseToCalendar(courseData) {
         let renderedCount = 0;
-        let showInstruct = showInstructors();
         resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) => {
             dayIndexes.forEach(dayIndex => {
-                if (renderCourseBlock(dayIndex, timeRange, courseData, showInstruct)) renderedCount += 1;
+                if (renderCourseBlock(dayIndex, timeRange, courseData)) renderedCount += 1;
             });
         });
         return renderedCount;
@@ -573,7 +639,7 @@ const DAYS_OF_WEEK = [
                     <div class="misc-course-title">${item.course_code} - ${item.course_name || 'Class'}</div>
                     <div class="misc-meta">
                         <span>${item.credits || 0} Credits</span>
-                        <span>Section ${item.section_num}</span>
+                        <span>Section ${item.section_num} (${item.is_lab ? `Lab` : `Lecture`})</span>
                         <span>Instructor: ${item.instructor || 'N/A'}</span>
                     </div>
                 </div>

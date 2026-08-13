@@ -10,8 +10,8 @@
 
 {% block content %}
 <div class="schedule-app">
-    <div class="schedule-shell">
-        <aside class="search-pane">
+    <div class="schedule-shell" data-active-mobile-pane="search">
+        <aside class="search-pane mobile-pane is-active" data-mobile-pane="search">
             <form id="courseSearchForm"
                   hx-get="{% url 'search_courses' %}"
                   hx-target="#searchResults">
@@ -87,18 +87,21 @@
             </form>
 
             <div id="searchResults" class="search-results">
-                <div class="empty-search">Choose a campus + term, then search courses to begin building your schedule.</div>
+                <div class="empty-search">Choose a campus + term, then search courses to begin building your schedule!</div>
             </div>
         </aside>
 
-        <main class="schedule-pane">
+        <main class="schedule-pane mobile-pane" data-mobile-pane="schedule">
             <div class="pane-topbar">
                 <div class="schedule-title">
                     <h1>My Schedule</h1>
                     <span class="credits-label">(<span id="creditCount">0</span> Credits)</span>
                 </div>
                 <div class="toolbar">
-                    <button type="button" class="danger-btn" id="clearScheduleBtn">Clear Schedule</button>
+                    <button type="button" class="danger-btn" id="clearScheduleBtn">
+                        <span class="desktop-action-label">Clear Schedule</span>
+                        <span class="mobile-action-label">Clear</span>
+                    </button>
                     <button type="button" class="export-btn" id="exportScheduleBtn">Export</button>
                 </div>
             </div>
@@ -120,6 +123,17 @@
             </section>
         </main>
     </div>
+
+    <nav class="mobile-bottom-nav" aria-label="Schedule sections">
+        <button type="button" class="mobile-nav-btn is-active" data-mobile-nav="search" aria-pressed="true">
+            <img src="{% static 'svgs/search.svg' %}" alt="Search Icon" width="30" height="30">
+            <span>Search</span>
+        </button>
+        <button type="button" class="mobile-nav-btn" data-mobile-nav="schedule" aria-pressed="false">
+            <img src="{% static 'svgs/calendar.svg' %}" alt="Calendar Icon" width="30" height="30">
+            <span>Schedule</span>
+        </button>
+    </nav>
 </div>
 {% endblock %}
 

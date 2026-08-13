@@ -4,7 +4,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="theme-color" content="#981e32">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <title>{% block title %}Default Title{% endblock %}</title>
         {% csrf_token %}  <!-- Add this line -->
         <link rel="icon" href="/favicon.ico?v=3" type="image/x-icon">
@@ -45,13 +47,17 @@
                             <input class="form-check-input" type="checkbox" id="timeFormatToggle">
                             <label class="form-check-label" for="timeFormatToggle">24-Hour Time</label>
                         </div>
-                        <div class="form-check mt-2">
+                        <div class="form-check mt-2 weekend-option">
                             <input class="form-check-input" type="checkbox" id="hideWeekendsToggle">
                             <label class="form-check-label" for="hideWeekendsToggle">Hide Weekends</label>
                         </div>
                         <div class="form-check mt-2">
                             <input class="form-check-input" type="checkbox" id="showInstructorToggle">
                             <label class="form-check-label" for="showInstructorToggle">Show Instructors</label>
+                        </div>
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" id="showSectionToggle">
+                            <label class="form-check-label" for="showSectionToggle">Show Section</label>
                         </div>
                     </div>
                 </div>
