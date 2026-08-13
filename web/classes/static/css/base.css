@@ -43,6 +43,9 @@ body {
     gap: 8px;
     padding: 8px 0;
 }
+.nav-action.dropdown-toggle::after {
+    display: none;
+}
 .options-menu {
     --bs-dropdown-bg: #fff;
     --bs-dropdown-color: #111827;
@@ -117,10 +120,6 @@ body {
     .app-brand-icon {
         height: 50px;
         width: 50px;
-    }
-
-    .nav-action.dropdown-toggle::after {
-        display: none;
     }
 
     .app-nav-actions {
