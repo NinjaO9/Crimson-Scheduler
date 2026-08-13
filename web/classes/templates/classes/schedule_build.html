@@ -94,7 +94,13 @@
         <main class="schedule-pane mobile-pane" data-mobile-pane="schedule">
             <div class="pane-topbar">
                 <div class="schedule-title">
-                    <h1>My Schedule</h1>
+                    <label class="visually-hidden" for="scheduleNameInput">Schedule name</label>
+                    <input type="text"
+                           id="scheduleNameInput"
+                           class="schedule-name-input"
+                           maxlength="80"
+                           value="My Schedule"
+                           aria-label="Schedule name">
                     <span class="credits-label">(<span id="creditCount">0</span> Credits)</span>
                 </div>
                 <div class="toolbar">
@@ -138,5 +144,6 @@
 {% endblock %}
 
 {% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 <script src="{% static 'js/schedule_build.js' %}"></script>
 {% endblock %}
