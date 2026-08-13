@@ -157,7 +157,7 @@ The core scheduling experience is complete. Future work is focused on deployment
 
 
 
-### Disclaimers
+## Disclaimers
 
 Crimson Scheduler is an independent, third-party project and is not affiliated with, endorsed by, sponsored by, or otherwise officially associated with Washington State University (WSU).
 
