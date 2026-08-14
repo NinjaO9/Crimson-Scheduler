@@ -108,9 +108,20 @@
                         <span class="desktop-action-label">Clear Schedule</span>
                         <span class="mobile-action-label">Clear</span>
                     </button>
-                    <button type="button" class="share-btn" id="shareScheduleBtn">Share</button>
-                    <button type="button" class="import-btn" id="importShareCodeBtn">Import</button>
-                    <button type="button" class="export-btn" id="exportScheduleBtn">Export</button>
+                    <div class="dropdown actions-dropdown">
+                        <button type="button"
+                                class="actions-btn dropdown-toggle"
+                                id="scheduleActionsMenuButton"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            Actions
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end actions-menu" aria-labelledby="scheduleActionsMenuButton">
+                            <button type="button" class="dropdown-item action-menu-item" id="shareScheduleBtn">Share Code</button>
+                            <button type="button" class="dropdown-item action-menu-item" id="importShareCodeBtn">Import Code</button>
+                            <button type="button" class="dropdown-item action-menu-item" id="exportScheduleBtn">Export Image</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
