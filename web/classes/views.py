@@ -4,6 +4,7 @@ from classes.models import Campus, Semester, Topics, Course, Section, UserSchedu
 from django.db.models import Q
 from django.shortcuts import render
 from .models import Campus
+from django.views.decorators.csrf import ensure_csrf_cookie
 import json
 
 def viewCampus(response, campusid):
@@ -14,6 +15,7 @@ def viewCampus(response, campusid):
 def home(response):
     return render(response, "classes/home.html")
 
+@ensure_csrf_cookie
 def schedule_view(request):
     session_id = request.session.session_key
     if not session_id:
@@ -215,6 +217,82 @@ def get_schedule_calendar(request, user_schedule):
         'success': True,
         'schedule': calendar_data
     })
+
+
+def serialize_section_for_schedule(section, schedule_group_id=None):
+    return {
+        'section_id': section.id,
+        'schedule_group_id': schedule_group_id,
+        'course_code': f"{section.course.subject} {section.course.course_number}",
+        'course_name': section.course.name,
+        'section_num': section.section,
+        'instructor': section.instructor,
+        'location': section.location,
+        'days': section.days,
+        'time': section.time,
+        'seats': f"{section.seats_taken}/{section.seats_total}",
+        'credits': '0' if section.is_lab else section.course.credits,
+        'is_lab': section.is_lab,
+        'component': section.component,
+        'has_required_lab': section.course.has_required_lab,
+    }
+
+
+def get_sections_by_ids(request):
+    if request.method != 'POST':
+        return JsonResponse({'error': 'POST required'}, status=405)
+
+    try:
+        payload = json.loads(request.body.decode('utf-8'))
+        raw_section_ids = payload.get('section_ids', [])
+        if not isinstance(raw_section_ids, list):
+            return JsonResponse({'error': 'section_ids must be a list'}, status=400)
+
+        section_ids = []
+        for section_id in raw_section_ids[:30]:
+            try:
+                normalized_id = int(section_id)
+            except (TypeError, ValueError):
+                continue
+            if normalized_id not in section_ids:
+                section_ids.append(normalized_id)
+
+        sections = Section.objects.filter(id__in=section_ids).select_related(
+            'course',
+            'course__topic',
+            'course__topic__semester',
+            'course__topic__semester__campus'
+        )
+        sections_by_id = {section.id: section for section in sections}
+
+        course_counts = {}
+        for section in sections_by_id.values():
+            course_counts[section.course_id] = course_counts.get(section.course_id, 0) + 1
+
+        schedule = []
+        missing_section_ids = []
+        for section_id in section_ids:
+            section = sections_by_id.get(section_id)
+            if not section:
+                missing_section_ids.append(section_id)
+                continue
+            grouped_section_ids = [
+                str(candidate_id)
+                for candidate_id in section_ids
+                if candidate_id in sections_by_id and sections_by_id[candidate_id].course_id == section.course_id
+            ]
+            schedule_group_id = '-'.join(grouped_section_ids) if course_counts.get(section.course_id, 0) > 1 else None
+            schedule.append(serialize_section_for_schedule(section, schedule_group_id))
+
+        return JsonResponse({
+            'success': True,
+            'schedule': schedule,
+            'missing_section_ids': missing_section_ids,
+        })
+    except json.JSONDecodeError:
+        return JsonResponse({'error': 'Invalid JSON'}, status=400)
+    except Exception as e:
+        return JsonResponse({'error': str(e)}, status=500)
 
 def get_schedule_data(request):
     """API endpoint to get current schedule data"""

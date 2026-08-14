@@ -19,6 +19,10 @@ const DAYS_OF_WEEK = [
     const SHOW_COURSE_SECTION_STORAGE_KEY = 'crimson_scheduler_show_course_section';
     const SCHEDULE_NAME_STORAGE_KEY = 'crimson_scheduler_schedule_name';
     const DEFAULT_SCHEDULE_NAME = 'My Schedule';
+    const SCHEDULE_NAME_MAX_LENGTH = 20;
+    const MAX_SCHEDULE_SECTIONS = 15;
+    const SHARE_CODE_PREFIX = 'CS1.';
+    const SECTIONS_BY_IDS_URL = '/api/sections-by-ids/';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
@@ -70,6 +74,16 @@ const DAYS_OF_WEEK = [
 
             if (event.target.closest('#exportScheduleBtn')) {
                 exportSchedule();
+                return;
+            }
+
+            if (event.target.closest('#shareScheduleBtn')) {
+                shareScheduleCode();
+                return;
+            }
+
+            if (event.target.closest('#importShareCodeBtn')) {
+                importScheduleFromShareCode();
                 return;
             }
 
@@ -293,11 +307,12 @@ const DAYS_OF_WEEK = [
     function getScheduleName() {
         const input = document.getElementById('scheduleNameInput');
         const name = input ? input.value.trim() : '';
-        return name || DEFAULT_SCHEDULE_NAME;
+        return (name || DEFAULT_SCHEDULE_NAME).slice(0, SCHEDULE_NAME_MAX_LENGTH);
     }
 
     function getStoredScheduleName() {
-        return (localStorage.getItem(SCHEDULE_NAME_STORAGE_KEY) || DEFAULT_SCHEDULE_NAME).trim() || DEFAULT_SCHEDULE_NAME;
+        return ((localStorage.getItem(SCHEDULE_NAME_STORAGE_KEY) || DEFAULT_SCHEDULE_NAME).trim() || DEFAULT_SCHEDULE_NAME)
+            .slice(0, SCHEDULE_NAME_MAX_LENGTH);
     }
 
     function saveScheduleName() {
@@ -732,6 +747,148 @@ const DAYS_OF_WEEK = [
             }
         }
         return [];
+    }
+
+    function getCookie(name) {
+        const cookies = document.cookie ? document.cookie.split(';') : [];
+        const prefix = `${name}=`;
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.startsWith(prefix)) return decodeURIComponent(cookie.substring(prefix.length));
+        }
+        return '';
+    }
+
+    function encodeBase64Url(value) {
+        const bytes = new TextEncoder().encode(value);
+        let binary = '';
+        bytes.forEach(byte => {
+            binary += String.fromCharCode(byte);
+        });
+        return btoa(binary)
+            .replace(/\+/g, '-')
+            .replace(/\//g, '_')
+            .replace(/=+$/g, '');
+    }
+
+    function decodeBase64Url(value) {
+        const normalized = value.replace(/-/g, '+').replace(/_/g, '/');
+        const padded = normalized.padEnd(Math.ceil(normalized.length / 4) * 4, '=');
+        const binary = atob(padded);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) {
+            bytes[i] = binary.charCodeAt(i);
+        }
+        return new TextDecoder().decode(bytes);
+    }
+
+    function getCurrentScheduleSectionIds() {
+        const sectionIds = [];
+        currentSchedule.forEach(item => {
+            const sectionId = parseInt(item.section_id, 10);
+            if (Number.isInteger(sectionId) && !sectionIds.includes(sectionId)) sectionIds.push(sectionId);
+        });
+        return sectionIds;
+    }
+
+    function buildShareCode() {
+        return `${SHARE_CODE_PREFIX}${encodeBase64Url(JSON.stringify({
+            n: getScheduleName(),
+            s: getCurrentScheduleSectionIds()
+        }))}`;
+    }
+
+    function parseShareCode(code) {
+        const normalizedCode = (code || '').trim();
+        if (!normalizedCode.startsWith(SHARE_CODE_PREFIX)) {
+            throw new Error('That does not look like a Crimson Scheduler share code.');
+        }
+
+        const payload = JSON.parse(decodeBase64Url(normalizedCode.slice(SHARE_CODE_PREFIX.length)));
+        const name = String(payload.n || DEFAULT_SCHEDULE_NAME).trim().slice(0, SCHEDULE_NAME_MAX_LENGTH) || DEFAULT_SCHEDULE_NAME;
+        const sectionIds = Array.isArray(payload.s)
+            ? payload.s.map(sectionId => parseInt(sectionId, 10)).filter(Number.isInteger)
+            : [];
+        if (!sectionIds.length) throw new Error('This share code does not contain any sections.');
+
+        return {
+            name,
+            sectionIds: Array.from(new Set(sectionIds)).slice(0, MAX_SCHEDULE_SECTIONS)
+        };
+    }
+
+    async function copyTextToClipboard(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(text);
+            return true;
+        }
+        return false;
+    }
+
+    async function shareScheduleCode() {
+        normalizeScheduleNameInput();
+        if (!getCurrentScheduleSectionIds().length) {
+            window.alert('Add at least one class before creating a share code.');
+            return;
+        }
+
+        const shareCode = buildShareCode();
+        try {
+            if (await copyTextToClipboard(shareCode)) {
+                window.alert('Share code copied to your clipboard.');
+                return;
+            }
+        } catch (error) {
+            // Fall through to the prompt fallback below.
+        }
+        window.prompt('Copy this share code:', shareCode);
+    }
+
+    async function fetchScheduleForSectionIds(sectionIds) {
+        const response = await fetch(SECTIONS_BY_IDS_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': getCookie('csrftoken')
+            },
+            body: JSON.stringify({ section_ids: sectionIds })
+        });
+        const data = await response.json();
+        if (!response.ok || !data.success) {
+            throw new Error(data.error || 'The schedule could not be rebuilt from that share code.');
+        }
+        return data;
+    }
+
+    async function importScheduleFromShareCode() {
+        const code = window.prompt('Paste a Crimson Scheduler share code:');
+        if (!code) return;
+
+        try {
+            const parsedCode = parseShareCode(code);
+            const confirmed = window.confirm(`Import "${parsedCode.name}" and replace your current schedule?`);
+            if (!confirmed) return;
+
+            const data = await fetchScheduleForSectionIds(parsedCode.sectionIds);
+            if (!data.schedule.length) {
+                window.alert('No matching sections were found for that share code.');
+                return;
+            }
+
+            const nameInput = document.getElementById('scheduleNameInput');
+            if (nameInput) nameInput.value = parsedCode.name;
+            saveScheduleName();
+            currentSchedule = data.schedule;
+            persistScheduleToCookie(currentSchedule);
+            updateScheduleDisplay(currentSchedule);
+            if (isMobileViewport()) setMobilePane('schedule');
+
+            if (data.missing_section_ids && data.missing_section_ids.length) {
+                window.alert(`Imported ${data.schedule.length} section(s). ${data.missing_section_ids.length} section(s) could not be found.`);
+            }
+        } catch (error) {
+            window.alert(error.message || 'That share code could not be imported.');
+        }
     }
 
     function nextAnimationFrame() {
