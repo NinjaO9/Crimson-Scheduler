@@ -302,6 +302,7 @@ const DAYS_OF_WEEK = [
         const input = document.getElementById('scheduleNameInput');
         if (!input) return;
         input.value = getStoredScheduleName();
+        resizeScheduleNameInput();
     }
 
     function getScheduleName() {
@@ -317,6 +318,7 @@ const DAYS_OF_WEEK = [
 
     function saveScheduleName() {
         localStorage.setItem(SCHEDULE_NAME_STORAGE_KEY, getScheduleName());
+        resizeScheduleNameInput();
     }
 
     function normalizeScheduleNameInput() {
@@ -324,6 +326,18 @@ const DAYS_OF_WEEK = [
         if (!input) return;
         input.value = getScheduleName();
         saveScheduleName();
+    }
+
+    function resizeScheduleNameInput() {
+        const input = document.getElementById('scheduleNameInput');
+        if (!input) return;
+        const styles = window.getComputedStyle(input);
+        const canvas = resizeScheduleNameInput.canvas || document.createElement('canvas');
+        resizeScheduleNameInput.canvas = canvas;
+        const context = canvas.getContext('2d');
+        context.font = `${styles.fontStyle} ${styles.fontVariant} ${styles.fontWeight} ${styles.fontSize} ${styles.fontFamily}`;
+        const textWidth = context.measureText(input.value || DEFAULT_SCHEDULE_NAME).width;
+        input.style.width = `${Math.ceil(textWidth + 10)}px`;
     }
 
     function slugifyScheduleName(name) {

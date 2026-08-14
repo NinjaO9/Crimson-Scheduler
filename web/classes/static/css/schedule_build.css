@@ -88,9 +88,7 @@
 
 .primary-btn,
 .danger-btn,
-.share-btn,
-.import-btn,
-.export-btn {
+.actions-btn {
     align-items: center;
     background: linear-gradient(180deg, var(--crimson) 0%, #870f21 100%);
     border: 0;
@@ -191,9 +189,10 @@
     font-weight: 800;
     line-height: 1.25;
     max-width: min(460px, 44vw);
-    min-width: 170px;
-    padding: 3px 6px;
+    min-width: 2ch;
+    padding: 3px 1px;
     text-overflow: ellipsis;
+    width: auto;
 }
 
 .schedule-name-input:hover {
@@ -227,10 +226,28 @@
 }
 
 .danger-btn,
-.share-btn,
-.import-btn,
-.export-btn {
+.actions-btn {
     min-height: 44px;
+}
+
+.actions-menu {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    min-width: 168px;
+    padding: 6px;
+}
+
+.action-menu-item {
+    border-radius: 4px;
+    color: #111827;
+    font-weight: 700;
+    min-height: 38px;
+}
+
+.action-menu-item:active {
+    background: var(--crimson);
+    color: #fff;
 }
 
 .calendar-wrap {
@@ -599,7 +616,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .schedule-name-input {
         font-size: 1.12rem;
         max-width: 30vw;
-        min-width: 118px;
+        min-width: 4.5ch;
         padding-left: 2px;
         padding-right: 2px;
     }
@@ -616,9 +633,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .danger-btn,
-    .share-btn,
-    .import-btn,
-    .export-btn {
+    .actions-btn {
         background: #fff;
         border: 1px solid #dc5c70;
         color: var(--crimson);
