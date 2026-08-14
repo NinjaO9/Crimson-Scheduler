@@ -88,6 +88,8 @@
 
 .primary-btn,
 .danger-btn,
+.share-btn,
+.import-btn,
 .export-btn {
     align-items: center;
     background: linear-gradient(180deg, var(--crimson) 0%, #870f21 100%);
@@ -225,6 +227,8 @@
 }
 
 .danger-btn,
+.share-btn,
+.import-btn,
 .export-btn {
     min-height: 44px;
 }
@@ -606,18 +610,21 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .toolbar {
         display: flex;
-        gap: 8px;
+        gap: 6px;
         flex: 0 0 auto;
         justify-content: flex-end;
     }
 
     .danger-btn,
+    .share-btn,
+    .import-btn,
     .export-btn {
         background: #fff;
         border: 1px solid #dc5c70;
         color: var(--crimson);
+        font-size: 0.82rem;
         min-height: 42px;
-        padding: 0 13px;
+        padding: 0 8px;
     }
 
     .desktop-action-label {

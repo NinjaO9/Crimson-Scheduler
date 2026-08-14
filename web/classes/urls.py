@@ -8,4 +8,5 @@ urlpatterns = [
     path('add-to-schedule/<int:section_id>/', views.add_to_schedule, name='add_to_schedule'),
     path('remove-from-schedule/<int:section_id>/', views.remove_from_schedule, name='remove_from_schedule'),
     path('api/schedule-data/', views.get_schedule_data, name='get_schedule_data'),
+    path('api/sections-by-ids/', views.get_sections_by_ids, name='get_sections_by_ids'),
 ]
