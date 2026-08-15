@@ -2,4 +2,70 @@
 
 {% block title %}Privacy Policy{% endblock %}
 
-{% block content %}{% endblock %}
+{% block content %}
+<main class="legal-page">
+    <section class="legal-shell">
+        <h1>Privacy Policy</h1>
+        <p class="legal-updated">Effective date: August 14, 2026</p>
+        <p>
+            This Privacy Policy explains how Crimson Scheduler handles information when you use this website. Crimson Scheduler is designed to work without user accounts and without collecting names, student IDs, passwords, or other account-based personal information.
+        </p>
+
+        <h2>Information We Collect</h2>
+        <p>
+            Crimson Scheduler does not ask users to create an account or submit personal information to build a schedule. When you use the schedule builder, the site may store your selected course sections, schedule name, and display preferences so the schedule can continue working while you use the site.
+        </p>
+        <p>
+            If you contact the project by email or through GitHub, the information you choose to include in that message will be received through that service.
+        </p>
+
+        <h2>How We Use Information</h2>
+        <p>
+            Schedule and preference information is used to provide the schedule-building features, restore your current schedule, import or export schedule data, and display the site according to your selected options. Contact information is used only to respond to the message or issue you sent.
+        </p>
+
+        <h2>Cookies, Sessions, and Local Storage</h2>
+        <p>
+            Crimson Scheduler uses browser storage for site functionality. The schedule builder stores selected course sections in a cookie named <code>crimson_scheduler_schedule</code>, which is set to expire after 30 days. The site also uses local storage for display preferences such as 24-hour time, hiding weekends, showing instructors, showing section numbers, and the schedule name.
+        </p>
+        <p>
+            The Django application may also use session and CSRF cookies to keep the site working securely. These technical cookies are not intended to personally identify users.
+        </p>
+
+        <h2>Analytics and Third-Party Services</h2>
+        <p>
+            Crimson Scheduler does not currently use advertising trackers or analytics services. The site does load some front-end libraries from third-party CDNs, including Bootstrap, HTMX, and html2canvas. Those third-party services may receive standard technical information from your browser, such as your IP address and user agent, when those files are requested.
+        </p>
+
+        <h2>Data Sharing</h2>
+        <p>
+            Crimson Scheduler does not sell, rent, or share user information for advertising. Schedule data is used to operate the schedule builder. If you contact the project through email or GitHub, your message is handled through that service.
+        </p>
+
+        <h2>Data Retention</h2>
+        <p>
+            Browser cookies expire based on their configured lifetime, and local storage remains in your browser until you clear it. Server-side session data and schedule records tied to a session may remain until routine database or session cleanup occurs. Email and GitHub messages may be retained according to the practices of those services and the project maintainer's normal workflow.
+        </p>
+
+        <h2>Your Choices</h2>
+        <p>
+            You can clear your browser cookies and site data to remove locally stored schedule and preference information. You can also avoid sending personal information in GitHub issues or emails unless it is needed to explain your request.
+        </p>
+
+        <h2>Children's Privacy</h2>
+        <p>
+            Crimson Scheduler is intended for students and other users looking at course schedule information. It is not directed to children under 13, and it does not knowingly collect personal information from children under 13.
+        </p>
+
+        <h2>Changes to This Policy</h2>
+        <p>
+            This Privacy Policy may be updated from time to time. When it changes, the effective date at the top of this page will be updated.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+            Privacy questions can be sent to <a href="mailto:d.montes-vilanova@wsu.edu">d.montes-vilanova@wsu.edu</a>. For general contact guidance, please view the Contact page.
+        </p>
+    </section>
+</main>
+{% endblock %}

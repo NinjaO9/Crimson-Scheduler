@@ -85,8 +85,7 @@ body {
 }
 
 .site-footer {
-    border-top: 1px solid rgba(17, 24, 39, 0.08);
-    background: rgba(247, 248, 250, 0.96);
+    background: #f7f8fa;
     backdrop-filter: blur(12px);
 }
 
@@ -97,14 +96,20 @@ body {
     gap: 14px 18px;
     justify-content: center;
     min-height: 64px;
-    padding-bottom: 18px;
+    padding-bottom: 5px;
     padding-top: 18px;
 }
 
-.site-footer-copy {
+.site-footer-txt {
     color: #4b5563;
     font-size: 0.95rem;
     font-weight: 600;
+}
+
+.affiliation-disclaimer {
+    flex-basis: 100%;
+    font-size: 0.82rem;
+    text-align: center;
 }
 
 .site-footer-link {
@@ -117,6 +122,67 @@ body {
 .site-footer-link:hover,
 .site-footer-link:focus-visible {
     text-decoration: underline;
+}
+
+.legal-page {
+    background: #f7f8fa;
+    padding: 48px 20px 64px;
+}
+
+.legal-shell {
+    margin: 0 auto;
+    max-width: 860px;
+}
+
+.legal-kicker {
+    color: var(--wsu-crimson);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+}
+
+.legal-shell h1 {
+    color: #111827;
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    margin: 0 0 8px;
+}
+
+.legal-updated {
+    color: #5f6877;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.legal-shell h2 {
+    border-top: 1px solid #d7dce3;
+    color: #111827;
+    font-size: 1.18rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    margin: 28px 0 10px;
+    padding-top: 20px;
+}
+
+.legal-shell p {
+    color: #2f3642;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 0 16px;
+}
+
+.legal-shell ul {
+    color: #2f3642;
+    line-height: 1.7;
+    margin: 0 0 16px;
+    padding-left: 22px;
+}
+
+.legal-shell li + li {
+    margin-top: 6px;
 }
 
 @media (max-width: 760px) {
@@ -182,6 +248,14 @@ body {
         gap: 10px 14px;
         padding-left: 16px !important;
         padding-right: 16px !important;
+    }
+
+    .legal-page {
+        padding: 36px 18px 48px;
+    }
+
+    .legal-shell h1 {
+        font-size: 1.8rem;
     }
 
 }
