@@ -149,7 +149,7 @@ WSU schedule data is cached locally in PostgreSQL so normal user searches do not
 The core scheduling experience is complete. Future work is focused on deployment, additional course metadata, export options, and stretch-goals based on potential user feedback.
 
 - [ ] Deploy Crimson Scheduler to a public domain for broader access.
-- [ ] Improve export options beyond JSON.
+- [x] Improve export options beyond JSON.
 - [ ] Explore professor ratings by either linking instructor names to their RMP profiles, where available, or developing a user-submitted rating system.
 - [ ] Allow webapp to be updated on a frequency that allows users to view seating counts.
 - [ ] Add prerequisite or course-description metadata if reliable WSU data becomes available OR construct a dependency graph that helps visualize how courses relate to each other.

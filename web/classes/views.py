@@ -15,6 +15,18 @@ def viewCampus(response, campusid):
 def home(response):
     return render(response, "classes/home.html")
 
+
+def privacy_policy(request):
+    return render(request, "classes/privacy_policy.html")
+
+
+def terms_of_use(request):
+    return render(request, "classes/terms_of_use.html")
+
+
+def contact(request):
+    return render(request, "classes/contact.html")
+
 @ensure_csrf_cookie
 def schedule_view(request):
     session_id = request.session.session_key

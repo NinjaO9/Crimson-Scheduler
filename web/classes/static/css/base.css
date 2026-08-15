@@ -11,6 +11,9 @@ body {
     background: #f7f8fa;
     color: #111827;
 }
+#content {
+    padding-bottom: 28px;
+}
 .app-navbar {
     background: linear-gradient(180deg, var(--wsu-crimson) 0%, var(--wsu-crimson-dark) 100%);
     min-height: 74px;
@@ -81,9 +84,45 @@ body {
     display: block;
 }
 
+.site-footer {
+    border-top: 1px solid rgba(17, 24, 39, 0.08);
+    background: rgba(247, 248, 250, 0.96);
+    backdrop-filter: blur(12px);
+}
+
+.site-footer-inner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 18px;
+    justify-content: center;
+    min-height: 64px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.site-footer-copy {
+    color: #4b5563;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.site-footer-link {
+    color: var(--wsu-crimson-dark);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.site-footer-link:hover,
+.site-footer-link:focus-visible {
+    text-decoration: underline;
+}
+
 @media (max-width: 760px) {
     body {
         background: var(--wsu-crimson);
+        padding-bottom: calc(92px + env(safe-area-inset-bottom));
     }
 
     #content {
@@ -137,6 +176,12 @@ body {
 
     .weekend-option {
         display: none;
+    }
+
+    .site-footer-inner {
+        gap: 10px 14px;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
     }
 
 }
