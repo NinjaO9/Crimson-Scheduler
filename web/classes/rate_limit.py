@@ -32,17 +32,22 @@ def get_rate_limit_script():
 
 def get_client_ip(request):
     if TRUST_X_FORWARDED_FOR:
-        forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR', '')
+        forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR', None)
         if forwarded_for:
             return forwarded_for.split(',')[0].strip()
-    return request.META.get('REMOTE_ADDR', '127.0.0.1')
+    return request.META.get('REMOTE_ADDR')
 
 
 def get_rate_limit_identity(request):
     session_key = getattr(getattr(request, 'session', None), 'session_key', None)
     if session_key:
         return f'session:{session_key}'
-    return f'ip:{get_client_ip(request)}'
+
+    ip_address = get_client_ip(request)
+    if ip_address:
+        return f'ip:{ip_address}'
+
+    return None
 
 
 def _rate_limit_key(identity, scope='global'):
@@ -50,6 +55,13 @@ def _rate_limit_key(identity, scope='global'):
 
 
 def _consume_token(identity, scope='global'):
+    if not identity:
+        return {
+                'allowed': False,
+                'remaining': 0.0,
+                'retry_after': 1.0,
+                'key': None,
+            }
     key = _rate_limit_key(identity, scope=scope)
     now = time.time()
     try:
@@ -87,7 +99,7 @@ def _consume_token(identity, scope='global'):
 def check_session_token_limit(sessionid, scope='global'):
     if not sessionid:
         return {
-            'allowed': True,
+            'allowed': False,
             'remaining': float(MAX_TOKENS),
             'retry_after': 0.0,
             'key': None,
@@ -96,9 +108,9 @@ def check_session_token_limit(sessionid, scope='global'):
 
 
 def check_anon_token_limit(ip_address, scope='global'):
-    if not ip_address:
-        ip_address = '127.0.0.1'
-    return _consume_token(f'ip:{ip_address}', scope=scope)
+    if ip_address:
+        return _consume_token(f'ip:{ip_address}', scope=scope)    
+    return _consume_token(None, scope=scope)
 
 
 def check_for_token_limit(request=None, sessionid='', scope='global'):
@@ -107,7 +119,7 @@ def check_for_token_limit(request=None, sessionid='', scope='global'):
         return _consume_token(identity, scope=scope)
     if sessionid:
         return check_session_token_limit(sessionid, scope=scope)
-    return check_anon_token_limit('127.0.0.1', scope=scope)
+    return check_anon_token_limit(None, scope=scope)
 
 
 def token_limit_response(result, as_html=False):
