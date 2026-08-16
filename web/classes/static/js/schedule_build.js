@@ -24,6 +24,7 @@ const DAYS_OF_WEEK = [
     const SHARE_CODE_PREFIX = 'CS1.';
     const SECTIONS_BY_IDS_URL = '/api/sections-by-ids/';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
+    const RATE_LIMIT_TOAST_ID = 'rateLimitToast';
     const DAY_TOKEN_MAP = [
         [/MONDAY|MON|MO/g, 'M'],
         [/TUESDAY|TUES|TUE|TU/g, 'T'],
@@ -36,6 +37,53 @@ const DAYS_OF_WEEK = [
 
     let currentSchedule = [];
     let renderedBlocksByDay = {};
+
+    function ensureRateLimitToast() {
+        let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
+        if (toast) return toast;
+
+        toast = document.createElement('div');
+        toast.id = RATE_LIMIT_TOAST_ID;
+        toast.className = 'rate-limit-toast';
+        toast.setAttribute('role', 'status');
+        toast.setAttribute('aria-live', 'polite');
+        document.body.appendChild(toast);
+        return toast;
+    }
+
+    function showRateLimitToast(message) {
+        const toast = ensureRateLimitToast();
+        toast.textContent = message || 'You are sending requests too quickly. Please wait a moment.';
+        toast.classList.add('is-visible');
+
+        if (toast.hideTimer) {
+            window.clearTimeout(toast.hideTimer);
+        }
+
+        toast.hideTimer = window.setTimeout(() => {
+            toast.classList.remove('is-visible');
+        }, 3500);
+    }
+
+    function getRateLimitMessageFromResponse(xhr, fallbackMessage) {
+        if (!xhr) return fallbackMessage;
+        const headerMessage = xhr.getResponseHeader && xhr.getResponseHeader('X-Rate-Limit-Message');
+        if (headerMessage) return headerMessage;
+
+        if (xhr.responseText) {
+            try {
+                const parsed = JSON.parse(xhr.responseText);
+                if (parsed && parsed.message) return parsed.message;
+            } catch (error) {
+                const temp = document.createElement('div');
+                temp.innerHTML = xhr.responseText;
+                const text = temp.textContent && temp.textContent.trim();
+                if (text) return text;
+            }
+        }
+
+        return fallbackMessage;
+    }
 
     function initializeSchedulePage() {
         initializeScheduleName();
@@ -163,6 +211,12 @@ const DAYS_OF_WEEK = [
                 clearSectionGhosts();
                 updateSearchResultTimeDisplays();
             }
+        });
+
+        document.body.addEventListener('htmx:responseError', function(event) {
+            const xhr = event.detail && event.detail.xhr;
+            if (!xhr || xhr.status !== 429) return;
+            showRateLimitToast(getRateLimitMessageFromResponse(xhr));
         });
 
         document.getElementById('resetFiltersBtn').addEventListener('click', function() {
@@ -867,6 +921,21 @@ const DAYS_OF_WEEK = [
             },
             body: JSON.stringify({ section_ids: sectionIds })
         });
+        if (response.status === 429) {
+            let message = response.headers.get('X-Rate-Limit-Message');
+            if (!message) {
+                try {
+                    const errorData = await response.json();
+                    message = errorData.message;
+                } catch (error) {
+                    message = 'You are sending requests too quickly. Please wait a moment.';
+                }
+            }
+            showRateLimitToast(message);
+            const error = new Error(message || 'You are sending requests too quickly. Please wait a moment.');
+            error.rateLimited = true;
+            throw error;
+        }
         const data = await response.json();
         if (!response.ok || !data.success) {
             throw new Error(data.error || 'The schedule could not be rebuilt from that share code.');
@@ -901,6 +970,7 @@ const DAYS_OF_WEEK = [
                 window.alert(`Imported ${data.schedule.length} section(s). ${data.missing_section_ids.length} section(s) could not be found.`);
             }
         } catch (error) {
+            if (error && error.rateLimited) return;
             window.alert(error.message || 'That share code could not be imported.');
         }
     }

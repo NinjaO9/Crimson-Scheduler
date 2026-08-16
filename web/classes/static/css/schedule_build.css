@@ -9,6 +9,31 @@
     --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
+.rate-limit-toast {
+    background: #4D4D4D;
+    border-left: 4px solid #A60F2D;
+    border-radius: 10px;
+    bottom: 88px;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 700;
+    left: 50%;
+    max-width: min(92vw, 565px);
+    opacity: 0;
+    padding: 14px 16px;
+    pointer-events: none;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, 12px);
+    transition: opacity 180ms ease, transform 180ms ease;
+    z-index: 2000;
+}
+
+.rate-limit-toast.is-visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
 .schedule-app {
     background: #fff;
     height: calc(100vh - 74px);

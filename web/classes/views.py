@@ -7,6 +7,8 @@ from django.views.decorators.http import require_GET, require_POST
 import re
 import json
 
+from .rate_limit import check_for_token_limit, token_limit_response
+
 SEMESTER_NAME_PATTERN = re.compile(r'^(Spring|Summer|Fall|Winter)\s+\d{4}$', re.IGNORECASE)
 
 @require_GET
@@ -78,6 +80,10 @@ def is_valid_semester_format(semester_name):
 
 @require_GET
 def search_courses(request):
+    rate_limit_result = check_for_token_limit(request)
+    if not rate_limit_result['allowed']:
+        return token_limit_response(rate_limit_result, as_html=True)
+
     query = request.GET.get('q', '').strip()
     campus_id = parse_positive_int(request.GET.get('campus', '').strip())
     semester_name = request.GET.get('semester', '').strip()
@@ -123,6 +129,10 @@ def search_courses(request):
 
 @require_POST
 def add_to_schedule(request, section_id):
+    rate_limit_result = check_for_token_limit(request)
+    if not rate_limit_result['allowed']:
+        return token_limit_response(rate_limit_result)
+
     if section_id < 1:
         return JsonResponse({
             'success': False,
@@ -193,6 +203,10 @@ def add_to_schedule(request, section_id):
 
 @require_POST
 def remove_from_schedule(request, section_id):
+    rate_limit_result = check_for_token_limit(request)
+    if not rate_limit_result['allowed']:
+        return token_limit_response(rate_limit_result)
+
     try:
         session_id = request.session.session_key
         if not session_id:
@@ -291,6 +305,10 @@ def serialize_section_for_schedule(section, schedule_group_id=None):
 
 @require_POST
 def get_sections_by_ids(request):
+    rate_limit_result = check_for_token_limit(request)
+    if not rate_limit_result['allowed']:
+        return token_limit_response(rate_limit_result)
+
     try:
         payload = json.loads(request.body.decode('utf-8'))
         raw_section_ids = payload.get('section_ids', [])
@@ -347,6 +365,10 @@ def get_sections_by_ids(request):
 def get_schedule_data(request):
     """API endpoint to get current schedule data"""
     try:
+        rate_limit_result = check_for_token_limit(request)
+        if not rate_limit_result['allowed']:
+            return token_limit_response(rate_limit_result)
+
         session_id = request.session.session_key
         if not session_id:
             return JsonResponse({'schedule': []})

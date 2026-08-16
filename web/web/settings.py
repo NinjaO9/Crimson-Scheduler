@@ -30,7 +30,7 @@ DEBUG = os.getenv('DJANGO_DEBUG', 'True').strip() == 'True'
 
 ALLOWED_HOSTS = [
     host.strip()
-    for host in os.getenv('DJANGO_ALLOWED_HOSTS').split(',')
+    for host in os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
     if host.strip()
 ]
 
@@ -75,6 +75,22 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'web.wsgi.application'
+
+
+# Redis cache
+REDIS_URL = os.getenv('REDIS_URL', 'redis://127.0.0.1:6379/0')
+RATE_LIMIT_MAX_TOKENS = int(os.getenv('RATE_LIMIT_MAX_TOKENS', '60'))
+RATE_LIMIT_REFILL_RATE = float(os.getenv('RATE_LIMIT_REFILL_RATE', '1'))
+RATE_LIMIT_TTL_SECONDS = int(os.getenv('RATE_LIMIT_TTL_SECONDS', str(60 * 60 * 24 * 7)))
+RATE_LIMIT_TRUST_X_FORWARDED_FOR = os.getenv('RATE_LIMIT_TRUST_X_FORWARDED_FOR', 'False') == 'True'
+RATE_LIMIT_FAIL_OPEN = os.getenv('RATE_LIMIT_FAIL_OPEN', 'True') == 'True'
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+        'LOCATION': REDIS_URL,
+    }
+}
 
 
 # Database
