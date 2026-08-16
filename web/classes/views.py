@@ -1,33 +1,41 @@
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
+from django.shortcuts import get_object_or_404, render
+from django.http import JsonResponse
 from classes.models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, sections_overlap
 from django.db.models import Q
-from django.shortcuts import render
-from .models import Campus
 from django.views.decorators.csrf import ensure_csrf_cookie
+from django.views.decorators.http import require_GET, require_POST
+import re
 import json
 
+SEMESTER_NAME_PATTERN = re.compile(r'^(Spring|Summer|Fall|Winter)\s+\d{4}$', re.IGNORECASE)
+
+@require_GET
 def viewCampus(response, campusid):
-    campus = Campus.objects.get(id=campusid)
+    campus = get_object_or_404(Campus, id=campusid)
 
     return render(response, "classes/showcase.html", {"campus":campus})
 
+@require_GET
 def home(response):
     return render(response, "classes/home.html")
 
 
+@require_GET
 def privacy_policy(request):
     return render(request, "classes/privacy_policy.html")
 
 
+@require_GET
 def terms_of_use(request):
     return render(request, "classes/terms_of_use.html")
 
 
+@require_GET
 def contact(request):
     return render(request, "classes/contact.html")
 
 @ensure_csrf_cookie
+@require_GET
 def schedule_view(request):
     session_id = request.session.session_key
     if not session_id:
@@ -58,23 +66,34 @@ def semester_sort_key(name):
     year = int(parts[1]) if len(parts) > 1 and parts[1].isdigit() else 0
     return (year, SEASON_ORDER.get(season, 99))
 
+def parse_positive_int(value):
+    try:
+        parsed_value = int(value)
+    except (TypeError, ValueError):
+        return None
+    return parsed_value if parsed_value > 0 else None
+
+def is_valid_semester_format(semester_name):
+    return bool(semester_name) and len(semester_name) <= 50 and bool(SEMESTER_NAME_PATTERN.match(semester_name))
+
+@require_GET
 def search_courses(request):
     query = request.GET.get('q', '').strip()
-    campus_id = request.GET.get('campus', '').strip()
+    campus_id = parse_positive_int(request.GET.get('campus', '').strip())
     semester_name = request.GET.get('semester', '').strip()
     subject = request.GET.get('subject', '').strip()
     number = request.GET.get('number', '').strip()
 
-    if not campus_id or not semester_name:
+    if campus_id is None or not is_valid_semester_format(semester_name):
         return render(request, 'classes/partials/search_results.html', {'courses': []})
 
-    courses = Course.objects.all()
+    if not Semester.objects.filter(campus_id=campus_id, name__iexact=semester_name).exists():
+        return render(request, 'classes/partials/search_results.html', {'courses': []})
 
-    if campus_id:
-        courses = courses.filter(topic__semester__campus_id=campus_id)
-
-    if semester_name:
-        courses = courses.filter(topic__semester__name__iexact=semester_name)
+    courses = Course.objects.filter(
+        topic__semester__campus_id=campus_id,
+        topic__semester__name__iexact=semester_name,
+    )
 
     if subject:
         courses = courses.filter(subject__iexact=subject)
@@ -102,7 +121,14 @@ def search_courses(request):
 
     return render(request, 'classes/partials/search_results.html', {'courses': courses})
 
+@require_POST
 def add_to_schedule(request, section_id):
+    if section_id < 1:
+        return JsonResponse({
+            'success': False,
+            'message': 'Invalid section id'
+        }, status=400)
+
     try:
         section = Section.objects.select_related(
             'course',
@@ -116,13 +142,13 @@ def add_to_schedule(request, section_id):
         if not session_id:
             request.session.create()
             session_id = request.session.session_key
-        
+
         semester = section.course.topic.semester
         user_schedule, _ = UserSchedule.objects.get_or_create(
             session_id=session_id,
             semester=semester
         )
-        
+
         # Check if section is already in schedule
         if ScheduleSection.objects.filter(schedule=user_schedule, section=section).exists():
             return JsonResponse({
@@ -133,14 +159,14 @@ def add_to_schedule(request, section_id):
         # Check for conflicts
         conflicts = user_schedule.get_conflicts_for_section(section)
         has_conflict = len(conflicts) > 0
-        
+
         # Add section to schedule
         schedule_section = ScheduleSection.objects.create(
             schedule=user_schedule,
             section=section,
             has_conflict=has_conflict
         )
-        
+
         # If there's a conflict, mark all conflicting sections
         if has_conflict:
             for conflict_section in conflicts:
@@ -165,32 +191,45 @@ def add_to_schedule(request, section_id):
             'message': str(e)
         }, status=500)
 
+@require_POST
 def remove_from_schedule(request, section_id):
     try:
-        section = Section.objects.get(id=section_id)
         session_id = request.session.session_key
-        
         if not session_id:
             return JsonResponse({'success': False, 'message': 'Session not found'}, status=400)
-        
+
+        if section_id < 1:
+            return JsonResponse({'success': False, 'message': 'Invalid section id'}, status=400)
+
+        section = Section.objects.get(id=section_id)
         semester = section.course.topic.semester
         user_schedule = UserSchedule.objects.get(
             session_id=session_id,
             semester=semester
         )
-        
+
         # Remove section
         schedule_section = ScheduleSection.objects.get(schedule=user_schedule, section=section)
         schedule_section.delete()
-        
+
         # Recheck conflicts for remaining sections
         for ss in user_schedule.schedule_sections.all():
             conflicts = user_schedule.get_conflicts_for_section(ss.section)
             ss.has_conflict = len(conflicts) > 0
             ss.save()
-        
+
         return get_schedule_calendar(request, user_schedule)
-        
+
+    except Section.DoesNotExist:
+        return JsonResponse({
+            'success': False,
+            'message': 'Section not found'
+        }, status=404)
+    except UserSchedule.DoesNotExist:
+        return JsonResponse({
+            'success': False,
+            'message': 'Schedule not found'
+        }, status=404)
     except Exception as e:
         return JsonResponse({
             'success': False,
@@ -250,10 +289,8 @@ def serialize_section_for_schedule(section, schedule_group_id=None):
     }
 
 
+@require_POST
 def get_sections_by_ids(request):
-    if request.method != 'POST':
-        return JsonResponse({'error': 'POST required'}, status=405)
-
     try:
         payload = json.loads(request.body.decode('utf-8'))
         raw_section_ids = payload.get('section_ids', [])
@@ -306,33 +343,34 @@ def get_sections_by_ids(request):
     except Exception as e:
         return JsonResponse({'error': str(e)}, status=500)
 
+@require_GET
 def get_schedule_data(request):
     """API endpoint to get current schedule data"""
     try:
         session_id = request.session.session_key
         if not session_id:
             return JsonResponse({'schedule': []})
-        
+
         # Get the semester from query params
-        semester_id = request.GET.get('semester_id')
-        
-        if not semester_id:
+        semester_id = parse_positive_int(request.GET.get('semester_id'))
+
+        if semester_id is None:
             return JsonResponse({'schedule': []})
-        
+
         user_schedule = UserSchedule.objects.filter(
             session_id=session_id,
             semester_id=semester_id
         ).first()
-        
+
         if not user_schedule:
             return JsonResponse({'schedule': []})
-        
+
         schedule_sections = user_schedule.schedule_sections.select_related(
             'section',
             'section__course',
             'section__course__topic'
         ).all()
-        
+
         calendar_data = []
         for ss in schedule_sections:
             section = ss.section
@@ -352,7 +390,7 @@ def get_schedule_data(request):
                 'component': section.component,
                 'has_required_lab': section.course.has_required_lab,
             })
-        
+
         return JsonResponse({'schedule': calendar_data})
     except Exception as e:
         return JsonResponse({'error': str(e)}, status=500)
