@@ -75,14 +75,30 @@ const DAYS_OF_WEEK = [
                 const parsed = JSON.parse(xhr.responseText);
                 if (parsed && parsed.message) return parsed.message;
             } catch (error) {
-                const temp = document.createElement('div');
-                temp.innerHTML = xhr.responseText;
-                const text = temp.textContent && temp.textContent.trim();
+                const parsedHtml = new DOMParser().parseFromString(xhr.responseText, 'text/html');
+                const text = parsedHtml.body.textContent && parsedHtml.body.textContent.trim();
                 if (text) return text;
             }
         }
 
         return fallbackMessage;
+    }
+
+    function createElementWithText(tagName, className, text) {
+        const element = document.createElement(tagName);
+        if (className) element.className = className;
+        element.textContent = text == null ? '' : String(text);
+        return element;
+    }
+
+    function appendTextElement(parent, tagName, className, text) {
+        const element = createElementWithText(tagName, className, text);
+        parent.appendChild(element);
+        return element;
+    }
+
+    function createCourseBlockLine(text) {
+        return createElementWithText('span', 'course-block-line', text);
     }
 
     function initializeSchedulePage() {
@@ -221,7 +237,9 @@ const DAYS_OF_WEEK = [
 
         document.getElementById('resetFiltersBtn').addEventListener('click', function() {
             window.setTimeout(() => {
-                document.getElementById('searchResults').innerHTML = '<div class="empty-search">Choose a campus + term, then search courses to begin building your schedule.</div>';
+                document.getElementById('searchResults').replaceChildren(
+                    createElementWithText('div', 'empty-search', 'Choose a campus + term, then search courses to begin building your schedule.')
+                );
             }, 0);
         });
 
@@ -472,7 +490,7 @@ const DAYS_OF_WEEK = [
     function buildCalendarHeader() {
         const header = document.getElementById('calendarHeader');
         header.style.gridTemplateColumns = getCalendarColumnTemplate();
-        header.innerHTML = '<div class="calendar-header-time">Time</div>';
+        header.replaceChildren(createElementWithText('div', 'calendar-header-time', 'Time'));
         getVisibleDays().forEach((day) => {
             const dayEl = document.createElement('div');
             dayEl.className = 'calendar-header-day';
@@ -483,7 +501,7 @@ const DAYS_OF_WEEK = [
 
     function initializeCalendar() {
         const calendarGrid = document.getElementById('calendarGrid');
-        calendarGrid.innerHTML = '';
+        calendarGrid.replaceChildren();
         calendarGrid.style.gridTemplateColumns = getCalendarColumnTemplate();
         calendarGrid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, ${HOUR_ROW_HEIGHT}px)`;
         for (let hour = START_HOUR; hour < END_HOUR; hour++) {
@@ -622,19 +640,17 @@ const DAYS_OF_WEEK = [
         block.style.height = Math.max((durationHours * 100), 0) + '%';
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
-        block.innerHTML = `
-            <span class="course-block-line">${courseData.course_code}${ showSection ? ` - ${courseData.section_num}` : ``}</span>
-            <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
-            <span class="course-block-line">${courseData.location}</span>
-            ${ showInstruct ? `<span class="course-block-line">${courseData.instructor}</span>` : ``}
-        `;
+        block.appendChild(createCourseBlockLine(`${courseData.course_code}${showSection ? ` - ${courseData.section_num}` : ''}`));
+        block.appendChild(createCourseBlockLine(formatMeetingListForDisplay(courseData.time)));
+        block.appendChild(createCourseBlockLine(courseData.location));
+        if (showInstruct) block.appendChild(createCourseBlockLine(courseData.instructor));
         block.setAttribute('data-section-id', courseData.section_id);
         block.setAttribute('data-start-minutes', String(timeRange.start));
         block.setAttribute('data-end-minutes', String(timeRange.end));
 
         const tooltip = document.createElement('div');
         tooltip.className = 'course-block-tooltip';
-        tooltip.innerHTML = buildCourseTooltip(courseData);
+        tooltip.appendChild(buildCourseTooltip(courseData));
         block.appendChild(tooltip);
         block.addEventListener('click', function(e) {
             e.stopPropagation();
@@ -665,11 +681,9 @@ const DAYS_OF_WEEK = [
         block.style.height = Math.max((durationHours * 100), 0) + '%';
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
-        block.innerHTML = `
-            <span class="course-block-line">${courseData.course_code}</span>
-            <span class="course-block-line">${formatMeetingListForDisplay(courseData.time)}</span>
-            <span class="course-block-line">${courseData.location}</span>
-        `;
+        block.appendChild(createCourseBlockLine(courseData.course_code));
+        block.appendChild(createCourseBlockLine(formatMeetingListForDisplay(courseData.time)));
+        block.appendChild(createCourseBlockLine(courseData.location));
         cell.appendChild(block);
         return true;
     }
@@ -679,25 +693,26 @@ const DAYS_OF_WEEK = [
     }
 
     function buildCourseTooltip(courseData) {
-        return `
-            <strong>${courseData.course_code} - ${courseData.section_num}</strong>
-            <div>${courseData.course_name || ''}</div>
-            <div>${courseData.days} ${formatMeetingListForDisplay(courseData.time)}</div>
-            <div>${courseData.instructor || 'Instructor: N/A'}</div>
-            <div>${courseData.location || 'Location: N/A'}</div>
-            <div>Click to remove from schedule</div>
-        `;
+        const fragment = document.createDocumentFragment();
+        appendTextElement(fragment, 'strong', '', `${courseData.course_code} - ${courseData.section_num}`);
+        appendTextElement(fragment, 'div', '', courseData.course_name || '');
+        appendTextElement(fragment, 'div', '', `${courseData.days} ${formatMeetingListForDisplay(courseData.time)}`);
+        appendTextElement(fragment, 'div', '', courseData.instructor || 'Instructor: N/A');
+        appendTextElement(fragment, 'div', '', courseData.location || 'Location: N/A');
+        appendTextElement(fragment, 'div', '', 'Click to remove from schedule');
+        return fragment;
     }
 
     function buildConflictTooltip(courseData, conflicts) {
-        const conflictRows = conflicts.map(conflict => `<div>${getCourseLabel(conflict)}</div>`).join('');
-        return `
-            <strong>Time Conflict</strong>
-            <div>${getCourseLabel(courseData)}</div>
-            <div>overlaps with</div>
-            ${conflictRows}
-            <div>Click to remove from schedule</div>
-        `;
+        const fragment = document.createDocumentFragment();
+        appendTextElement(fragment, 'strong', '', 'Time Conflict');
+        appendTextElement(fragment, 'div', '', getCourseLabel(courseData));
+        appendTextElement(fragment, 'div', '', 'overlaps with');
+        conflicts.forEach(conflict => {
+            appendTextElement(fragment, 'div', '', getCourseLabel(conflict));
+        });
+        appendTextElement(fragment, 'div', '', 'Click to remove from schedule');
+        return fragment;
     }
 
     function addCourseToCalendar(courseData) {
@@ -731,7 +746,7 @@ const DAYS_OF_WEEK = [
                 const conflicts = conflictsByElement.get(dayBlock.element);
                 if (!conflicts || !conflicts.length) return;
                 const tooltip = dayBlock.element.querySelector('.course-block-tooltip');
-                if (tooltip) tooltip.innerHTML = buildConflictTooltip(dayBlock.course, conflicts);
+                if (tooltip) tooltip.replaceChildren(buildConflictTooltip(dayBlock.course, conflicts));
             });
         });
     }
@@ -763,22 +778,35 @@ const DAYS_OF_WEEK = [
         const miscList = document.getElementById('miscList');
         document.getElementById('miscCount').textContent = `(${items.length})`;
         if (!items.length) {
-            miscList.innerHTML = '<div class="misc-subtitle">No unscheduled classes added.</div>';
+            miscList.replaceChildren(createElementWithText('div', 'misc-subtitle', 'No unscheduled classes added.'));
             return;
         }
-        miscList.innerHTML = items.map(item => `
-            <div class="misc-item">
-                <div>
-                    <div class="misc-course-title">${item.course_code} - ${item.course_name || 'Class'}</div>
-                    <div class="misc-meta">
-                        <span>${item.credits || 0} Credits</span>
-                        <span>Section ${item.section_num} (${item.is_lab ? `Lab` : `Lecture`})</span>
-                        <span>Instructor: ${item.instructor || 'N/A'}</span>
-                    </div>
-                </div>
-                <button type="button" class="manage-btn remove-misc-btn" data-section-id="${item.section_id}">Remove</button>
-            </div>
-        `).join('');
+        const fragment = document.createDocumentFragment();
+        items.forEach(item => {
+            const miscItem = document.createElement('div');
+            miscItem.className = 'misc-item';
+
+            const details = document.createElement('div');
+            appendTextElement(details, 'div', 'misc-course-title', `${item.course_code} - ${item.course_name || 'Class'}`);
+
+            const meta = document.createElement('div');
+            meta.className = 'misc-meta';
+            appendTextElement(meta, 'span', '', `${item.credits || 0} Credits`);
+            appendTextElement(meta, 'span', '', `Section ${item.section_num} (${item.is_lab ? 'Lab' : 'Lecture'})`);
+            appendTextElement(meta, 'span', '', `Instructor: ${item.instructor || 'N/A'}`);
+            details.appendChild(meta);
+
+            const removeButton = document.createElement('button');
+            removeButton.type = 'button';
+            removeButton.className = 'manage-btn remove-misc-btn';
+            removeButton.setAttribute('data-section-id', item.section_id);
+            removeButton.textContent = 'Remove';
+
+            miscItem.appendChild(details);
+            miscItem.appendChild(removeButton);
+            fragment.appendChild(miscItem);
+        });
+        miscList.replaceChildren(fragment);
     }
 
     function removeFromSchedule(sectionId) {
