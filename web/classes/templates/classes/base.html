@@ -32,7 +32,13 @@
                 <span class="app-brand-title">Crimson Scheduler</span>
             </a>
             <div class="app-nav-actions">
-                <button type="button" class="nav-action" aria-label="Help">? <span>Help</span></button>
+                <button type="button"
+                        class="nav-action"
+                        data-bs-toggle="modal"
+                        data-bs-target="#helpModal"
+                        aria-label="Help">
+                    ? <span>Help</span>
+                </button>
                 <div class="dropdown">
                     <button type="button"
                             class="nav-action dropdown-toggle"
@@ -64,6 +70,103 @@
             </div>
         </div>
     </nav>
+    <div class="modal fade help-modal" id="helpModal" tabindex="-1" aria-labelledby="helpModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h1 class="modal-title" id="helpModalTitle">Using Crimson Scheduler</h1>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="help-mode help-mode-desktop" data-help-mode="desktop" aria-label="Desktop help">
+                        <h2>Desktop quick guide</h2>
+                        <div class="help-card-list">
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/desktop-search.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <span>Desktop search screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Find a class</h3>
+                                    <p>Pick a campus and term, then search by subject + number or by course title.</p>
+                                </div>
+                            </article>
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/desktop-add.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <span>Desktop add screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Add your section</h3>
+                                    <p>Select the section you want. If a lab is required, choose both the lecture and lab before adding.</p>
+                                </div>
+                            </article>
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/desktop-remove.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <span>Desktop remove screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Remove a class</h3>
+                                    <p>Click a class on the calendar to remove it. Use Remove in the misc list for arranged, online, or TBA classes.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <aside class="help-tips" aria-label="Desktop exclusive tips">
+                            <h3>Desktop-only tips</h3>
+                            <ul>
+                                <li>Hover over a section in search results to preview where it lands on your calendar.</li>
+                                <li>Hover over a class on your schedule to see details like instructor, location, and meeting time.</li>
+                                <li>Use Options to hide weekends when you want a cleaner Monday-Friday view.</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section class="help-mode help-mode-mobile" data-help-mode="mobile" aria-label="Mobile help">
+                        <h2>Mobile guide</h2>
+                        <div class="help-card-list">
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/mobile-search.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <span>Mobile search screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Start in Search</h3>
+                                    <p>Use the Search tab to choose a campus and term, then search by course number or title.</p>
+                                </div>
+                            </article>
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/mobile-add.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <span>Mobile add screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Tap Add</h3>
+                                    <p>Select a section, add it, and the app will jump to your Schedule tab.</p>
+                                </div>
+                            </article>
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/mobile-remove.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <span>Mobile remove screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Tap to remove</h3>
+                                    <p>Tap a calendar block to remove it, or use Remove for classes in the misc list.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <div class="help-note">
+                        Tip: use Actions to share a code, import a code, or export your schedule image.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="content" name="content">
     {% block content %}
 
@@ -78,6 +181,7 @@
             <span class="site-footer-txt affiliation-disclaimer">Crimson Scheduler is neither affiliated with, nor endorsed by, Washington State University.</span>
         </div>
     </footer>
+    <script src="{% static 'js/base.js' %}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>

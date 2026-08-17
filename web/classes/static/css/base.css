@@ -73,6 +73,152 @@ body {
     color: #111827;
     font-weight: 700;
 }
+
+.help-modal {
+    --bs-modal-width: 640px;
+}
+
+.help-modal .modal-content {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 24px 70px rgba(15, 23, 42, 0.26);
+}
+
+.help-modal .modal-header {
+    align-items: start;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 22px 24px 18px;
+}
+
+.help-kicker {
+    color: var(--wsu-crimson);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin: 0 0 4px;
+    text-transform: uppercase;
+}
+
+.help-modal .modal-title {
+    color: #111827;
+    font-size: 1.45rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.help-modal .modal-body {
+    padding: 20px 24px 24px;
+}
+
+.help-mode h2 {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 0 0 12px;
+}
+
+.help-mode-mobile {
+    display: none;
+}
+
+.help-card-list {
+    display: grid;
+    gap: 14px;
+    margin: 0;
+}
+
+.help-card {
+    align-items: center;
+    border: 1px solid #d7dce3;
+    border-radius: 8px;
+    display: grid;
+    gap: 14px;
+    grid-template-columns: minmax(150px, 42%) 1fr;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.help-image-slot {
+    align-items: center;
+    aspect-ratio: 16 / 10;
+    background: linear-gradient(135deg, #f7f8fa 0%, #ebeef3 100%);
+    border: 1px dashed #aeb6c4;
+    border-radius: 6px;
+    color: #2f3642;
+    display: flex;
+    font-size: 0.82rem;
+    font-weight: 800;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.help-image-slot img {
+    height: 100%;
+    inset: 0;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.help-image-slot span {
+    padding: 0 14px;
+}
+
+.help-card h3 {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 0 0 4px;
+}
+
+.help-card p {
+    color: #2f3642;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.help-tips {
+    background: #fff8e8;
+    border: 1px solid #e9c46a;
+    border-radius: 8px;
+    color: #2f3642;
+    margin-top: 16px;
+    padding: 14px 16px;
+}
+
+.help-tips h3 {
+    color: #111827;
+    font-size: 0.98rem;
+    font-weight: 800;
+    margin: 0 0 8px;
+}
+
+.help-tips ul {
+    display: grid;
+    gap: 7px;
+    line-height: 1.45;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.help-tips li {
+    padding-left: 2px;
+}
+
+.help-note {
+    background: #f7f8fa;
+    border: 1px solid #d7dce3;
+    border-radius: 6px;
+    color: #2f3642;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 18px;
+    padding: 12px 14px;
+}
+
 .htmx-indicator {
     display: none;
     margin: 10px 0;
@@ -238,6 +384,39 @@ body {
         min-height: 34px;
         min-width: 0;
         padding: 0;
+    }
+
+    .help-modal .modal-dialog {
+        margin: 14px;
+    }
+
+    .help-modal .modal-header {
+        padding: 18px 18px 14px;
+    }
+
+    .help-modal .modal-title {
+        font-size: 1.2rem;
+    }
+
+    .help-modal .modal-body {
+        padding: 18px;
+    }
+
+    .help-mode-desktop {
+        display: none;
+    }
+
+    .help-mode-mobile {
+        display: block;
+    }
+
+    .help-card {
+        align-items: stretch;
+        grid-template-columns: 1fr;
+    }
+
+    .help-image-slot {
+        aspect-ratio: 16 / 9;
     }
 
     .weekend-option {
