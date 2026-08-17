@@ -15,6 +15,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/favicon-16x16.png' %}?v=2">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/apple-touch-icon.png' %}?v=2">
         <link rel="manifest" href="{% static 'icons/site.webmanifest' %}?v=2">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <script src="https://unpkg.com/htmx.org@2.0.2"></script>
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -178,6 +181,7 @@
             <a class="site-footer-link" href="{% url 'privacy_policy' %}">Privacy Policy</a>
             <a class="site-footer-link" href="{% url 'terms_of_use' %}">Terms of Use</a>
             <a class="site-footer-link" href="{% url 'contact' %}">Contact</a>
+            <a class="site-footer-link" href="https://github.com/NinjaO9/Crimson-Scheduler", target="_blank">GitHub</a>
             <span class="site-footer-txt affiliation-disclaimer">Crimson Scheduler is neither affiliated with, nor endorsed by, Washington State University.</span>
         </div>
     </footer>
