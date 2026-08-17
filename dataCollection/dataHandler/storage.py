@@ -19,17 +19,28 @@ class StorageHandler:
 
     def insertToDatabase(scrapped_data : list[s_Campus]) -> None: 
         # Ok I need to come back eventually and figure out a better way for this, this was WAYYYY too nested
+        print(f"Starting database insert for {len(scrapped_data)} campus/campuses.", flush=True)
 
-        for campus in scrapped_data:
+        for campus_index, campus in enumerate(scrapped_data, start=1):
+            print(f"[{campus_index}/{len(scrapped_data)}] Storing campus: {campus.name}", flush=True)
             new_campus, _ = d_Campus.objects.update_or_create(name=campus.name)
-            new_campus.save()
-            #print(f"Now storing - {campus.name}")
 
-            for semester in campus.semesters:
+            for semester_index, semester in enumerate(campus.semesters, start=1):
+                print(
+                    f"  [{semester_index}/{len(campus.semesters)}] "
+                    f"Storing semester: {semester.name} ({len(semester.subjects)} subjects)",
+                    flush=True
+                )
                 new_semester, _ = new_campus.semesters.update_or_create(name=semester.name)
                 #print(f"Now storing - {semester.name}")
 
-                for subject in semester.subjects:
+                for subject_index, subject in enumerate(semester.subjects, start=1):
+                    if subject_index == 1 or subject_index % 25 == 0 or subject_index == len(semester.subjects):
+                        print(
+                            f"    [{subject_index}/{len(semester.subjects)}] "
+                            f"Storing subject: {subject.name}",
+                            flush=True
+                        )
                     new_topic, _ = new_semester.topics.update_or_create(name=subject.name)
                     #print(f"Now storing - {subject.name}")
 
