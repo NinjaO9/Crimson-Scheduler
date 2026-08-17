@@ -28,8 +28,8 @@ def privacy_policy(request):
 
 
 @require_GET
-def terms_of_use(request):
-    return render(request, "classes/terms_of_use.html")
+def terms_of_service(request):
+    return render(request, "classes/terms_of_service.html")
 
 
 @require_GET
