@@ -94,6 +94,8 @@ class UserSchedule(models.Model):
         existing_sections = self.get_all_sections()
         conflicts = []
         for schedule_section in existing_sections:
+            if schedule_section.section_id == section.id:
+                continue
             if sections_overlap(schedule_section.section, section):
                 conflicts.append(schedule_section.section)
         return conflicts
