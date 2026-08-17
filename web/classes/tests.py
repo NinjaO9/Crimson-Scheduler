@@ -3,7 +3,7 @@ import json
 from django.test import TestCase
 from django.urls import reverse
 
-from .models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, parse_time, sections_overlap
+from .models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, DailyAnalyticsMetric, parse_time, sections_overlap
 
 
 class ApiInputValidationTests(TestCase):
@@ -29,6 +29,13 @@ class ApiInputValidationTests(TestCase):
             seats_total=25,
             course=self.course,
         )
+
+    def set_analytics_token(self):
+        analytics_token = 'test-analytics-token'
+        session = self.client.session
+        session['analytics_event_token'] = analytics_token
+        session.save()
+        return analytics_token
 
     def test_search_courses_rejects_invalid_campus_before_querying_courses(self):
         with self.assertNumQueries(0):
@@ -88,6 +95,57 @@ class ApiInputValidationTests(TestCase):
 
         self.assertEqual(response.status_code, 400)
         self.assertEqual(response.json(), {'error': 'section_ids must be a list'})
+
+    def test_analytics_event_rejects_unknown_event(self):
+        analytics_token = self.set_analytics_token()
+        payload = json.dumps({'event_name': 'not_allowed'})
+
+        response = self.client.post(
+            reverse('track_analytics_event'),
+            data=payload,
+            content_type='application/json',
+            HTTP_X_ANALYTICS_TOKEN=analytics_token,
+        )
+
+        self.assertEqual(response.status_code, 400)
+        self.assertEqual(DailyAnalyticsMetric.objects.count(), 0)
+
+    def test_analytics_event_rejects_missing_session_token(self):
+        payload = json.dumps({'event_name': 'course_search_clicked'})
+        session = self.client.session
+        session.pop('analytics_event_token', None)
+        session.save()
+
+        response = self.client.post(
+            reverse('track_analytics_event'),
+            data=payload,
+            content_type='application/json',
+        )
+
+        self.assertEqual(response.status_code, 403)
+        self.assertEqual(DailyAnalyticsMetric.objects.count(), 0)
+
+    def test_analytics_event_increments_aggregate_counter_only(self):
+        analytics_token = self.set_analytics_token()
+        payload = json.dumps({'event_name': 'course_search_clicked'})
+
+        first_response = self.client.post(
+            reverse('track_analytics_event'),
+            data=payload,
+            content_type='application/json',
+            HTTP_X_ANALYTICS_TOKEN=analytics_token,
+        )
+        second_response = self.client.post(
+            reverse('track_analytics_event'),
+            data=payload,
+            content_type='application/json',
+            HTTP_X_ANALYTICS_TOKEN=analytics_token,
+        )
+
+        self.assertEqual(first_response.status_code, 200)
+        self.assertEqual(second_response.status_code, 200)
+        metric = DailyAnalyticsMetric.objects.get(event_name='course_search_clicked')
+        self.assertEqual(metric.count, 2)
 
 
 class ScheduleApiTests(TestCase):

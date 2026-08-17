@@ -1,15 +1,33 @@
 from django.shortcuts import get_object_or_404, render
 from django.http import JsonResponse
-from classes.models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, sections_overlap
-from django.db.models import Q
+from classes.models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, DailyAnalyticsMetric, sections_overlap
+from django.db.models import F, Q
+from django.utils import timezone
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_GET, require_POST
+import secrets
 import re
 import json
 
 from .rate_limit import check_for_token_limit, token_limit_response
 
 SEMESTER_NAME_PATTERN = re.compile(r'^(Spring|Summer|Fall|Winter)\s+\d{4}$', re.IGNORECASE)
+ANALYTICS_SESSION_TOKEN_KEY = 'analytics_event_token'
+ANALYTICS_EVENT_NAMES = {
+    'daily_visit',
+    'course_search_clicked',
+    'schedule_exported',
+    'share_code_created',
+    'share_code_imported',
+}
+
+
+def get_or_create_analytics_token(request):
+    analytics_token = request.session.get(ANALYTICS_SESSION_TOKEN_KEY)
+    if not analytics_token:
+        analytics_token = secrets.token_urlsafe(32)
+        request.session[ANALYTICS_SESSION_TOKEN_KEY] = analytics_token
+    return analytics_token
 
 @require_GET
 def viewCampus(response, campusid):
@@ -36,6 +54,35 @@ def terms_of_service(request):
 def contact(request):
     return render(request, "classes/contact.html")
 
+
+@require_POST
+def track_analytics_event(request):
+    rate_limit_result = check_for_token_limit(request, scope='analytics')
+    if not rate_limit_result['allowed']:
+        return token_limit_response(rate_limit_result)
+
+    expected_token = request.session.get(ANALYTICS_SESSION_TOKEN_KEY)
+    supplied_token = request.headers.get('X-Analytics-Token', '')
+    if not expected_token or not secrets.compare_digest(supplied_token, expected_token):
+        return JsonResponse({'success': False, 'message': 'Invalid analytics token'}, status=403)
+
+    try:
+        payload = json.loads(request.body.decode('utf-8') or '{}')
+    except json.JSONDecodeError:
+        return JsonResponse({'success': False, 'message': 'Invalid JSON'}, status=400)
+
+    event_name = payload.get('event_name')
+    if event_name not in ANALYTICS_EVENT_NAMES:
+        return JsonResponse({'success': False, 'message': 'Invalid analytics event'}, status=400)
+
+    metric, _ = DailyAnalyticsMetric.objects.get_or_create(
+        event_date=timezone.localdate(),
+        event_name=event_name,
+    )
+    DailyAnalyticsMetric.objects.filter(pk=metric.pk).update(count=F('count') + 1)
+
+    return JsonResponse({'success': True})
+
 @ensure_csrf_cookie
 @require_GET
 def schedule_view(request):
@@ -51,6 +98,7 @@ def schedule_view(request):
 
     return render(request, 'classes/schedule_build.html', {
         'session_id': session_id,
+        'analytics_token': get_or_create_analytics_token(request),
         'campuses': campuses,
         'semesters': semesters,
     })

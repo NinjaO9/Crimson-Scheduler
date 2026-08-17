@@ -23,6 +23,8 @@ const DAYS_OF_WEEK = [
     const MAX_SCHEDULE_SECTIONS = 15;
     const SHARE_CODE_PREFIX = 'CS1.';
     const SECTIONS_BY_IDS_URL = '/api/sections-by-ids/';
+    const ANALYTICS_EVENT_URL = '/api/analytics-event/';
+    const DAILY_VISIT_STORAGE_KEY = 'crimson_scheduler_daily_visit_tracked';
     const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
     const RATE_LIMIT_TOAST_ID = 'rateLimitToast';
     const DAY_TOKEN_MAP = [
@@ -111,6 +113,7 @@ const DAYS_OF_WEEK = [
         currentSchedule = loadScheduleFromCookie();
         updateScheduleDisplay(currentSchedule);
         updateSearchResultTimeDisplays();
+        trackDailyVisit();
     }
 
     function setupInteractionHandlers() {
@@ -242,6 +245,13 @@ const DAYS_OF_WEEK = [
                 );
             }, 0);
         });
+
+        const courseSearchForm = document.getElementById('courseSearchForm');
+        if (courseSearchForm) {
+            courseSearchForm.addEventListener('submit', function() {
+                trackAnalyticsEvent('course_search_clicked');
+            });
+        }
 
         window.addEventListener('resize', debounce(function() {
             updateScheduleDisplay(currentSchedule);
@@ -932,12 +942,14 @@ const DAYS_OF_WEEK = [
         try {
             if (await copyTextToClipboard(shareCode)) {
                 window.alert('Share code copied to your clipboard.');
+                trackAnalyticsEvent('share_code_created');
                 return;
             }
         } catch (error) {
             // Fall through to the prompt fallback below.
         }
         window.prompt('Copy this share code:', shareCode);
+        trackAnalyticsEvent('share_code_created');
     }
 
     async function fetchScheduleForSectionIds(sectionIds) {
@@ -992,6 +1004,7 @@ const DAYS_OF_WEEK = [
             currentSchedule = data.schedule;
             persistScheduleToCookie(currentSchedule);
             updateScheduleDisplay(currentSchedule);
+            trackAnalyticsEvent('share_code_imported');
             if (isMobileViewport()) setMobilePane('schedule');
 
             if (data.missing_section_ids && data.missing_section_ids.length) {
@@ -1018,21 +1031,25 @@ const DAYS_OF_WEEK = [
     }
 
     function downloadCanvasImage(canvas) {
-        canvas.toBlob(function(blob) {
-            if (!blob) {
-                window.alert('Sorry, the schedule image could not be created.');
-                return;
-            }
+        return new Promise(resolve => {
+            canvas.toBlob(function(blob) {
+                if (!blob) {
+                    window.alert('Sorry, the schedule image could not be created.');
+                    resolve(false);
+                    return;
+                }
 
-            const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = buildScheduleExportFilename();
-            document.body.appendChild(link);
-            link.click();
-            link.remove();
-            window.setTimeout(() => URL.revokeObjectURL(url), 1000);
-        }, 'image/png');
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = buildScheduleExportFilename();
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+                resolve(true);
+            }, 'image/png');
+        });
     }
 
     async function exportSchedule() {
@@ -1069,7 +1086,8 @@ const DAYS_OF_WEEK = [
                 windowWidth: Math.max(document.documentElement.clientWidth, schedulePane.scrollWidth),
                 windowHeight: Math.max(document.documentElement.clientHeight, schedulePane.scrollHeight)
             });
-            downloadCanvasImage(canvas);
+            const didDownload = await downloadCanvasImage(canvas);
+            if (didDownload) trackAnalyticsEvent('schedule_exported');
         } catch (error) {
             window.alert('Sorry, the schedule image could not be created.');
         } finally {
@@ -1079,6 +1097,44 @@ const DAYS_OF_WEEK = [
             exportButton.textContent = originalButtonText;
             exportButton.removeAttribute('aria-busy');
         }
+    }
+
+    function getLocalDateToken() {
+        const today = new Date();
+        return [
+            today.getFullYear(),
+            String(today.getMonth() + 1).padStart(2, '0'),
+            String(today.getDate()).padStart(2, '0')
+        ].join('-');
+    }
+
+    function trackDailyVisit() {
+        const todayToken = getLocalDateToken();
+        try {
+            if (localStorage.getItem(DAILY_VISIT_STORAGE_KEY) === todayToken) return;
+            localStorage.setItem(DAILY_VISIT_STORAGE_KEY, todayToken);
+        } catch (error) {
+            return;
+        }
+        trackAnalyticsEvent('daily_visit');
+    }
+
+    function trackAnalyticsEvent(eventName) {
+        const appRoot = document.querySelector('.schedule-app');
+        const analyticsToken = appRoot ? appRoot.getAttribute('data-analytics-token') : '';
+        if (!analyticsToken) return;
+
+        window.fetch(ANALYTICS_EVENT_URL, {
+            method: 'POST',
+            keepalive: true,
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': getCookie('csrftoken'),
+                'X-Analytics-Token': analyticsToken
+            },
+            body: JSON.stringify({ event_name: eventName })
+        }).catch(() => {
+        });
     }
 
     if (document.readyState === 'loading') {
