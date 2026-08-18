@@ -9,8 +9,8 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <title>{% block title %}Default Title{% endblock %}</title>
         {% csrf_token %}  <!-- Add this line -->
-        <link rel="icon" href="/favicon.ico?v=3" type="image/x-icon">
-        <link rel="shortcut icon" href="/favicon.ico?v=3" type="image/x-icon">
+        <link rel="icon" href="{% static 'icons/favicon.ico' %}?v=4" type="image/x-icon">
+        <link rel="shortcut icon" href="{% static 'icons/favicon.ico' %}?v=4" type="image/x-icon">
         <link rel="icon" type="image/png" sizes="32x32" href="{% static 'icons/favicon-32x32.png' %}?v=2">
         <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/favicon-16x16.png' %}?v=2">
         <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/apple-touch-icon.png' %}?v=2">
@@ -181,7 +181,7 @@
     </div>
     <footer class="site-footer">
         <div class="site-footer-inner container-fluid px-4">
-            <span class="site-footer-txt">&copy; {% now "Y" %} Crimson Scheduler</span>
+            <span class="site-footer-txt">&copy; {% now "Y" %} by David Montes-Vilanova</span>
             <a class="site-footer-link" href="{% url 'privacy_policy' %}">Privacy Policy</a>
             <a class="site-footer-link" href="{% url 'terms_of_service' %}">Terms of Service</a>
             <a class="site-footer-link" href="{% url 'contact' %}">Contact</a>
