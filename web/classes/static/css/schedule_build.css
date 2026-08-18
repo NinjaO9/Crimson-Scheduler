@@ -538,6 +538,12 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .search-results {
         max-height: none;
     }
+    .mobile-bottom-nav {
+        display: none;
+    }
+    .mobile-nav-btn {
+        display: none;
+    }
 }
 
 @media (max-width: 760px) {
