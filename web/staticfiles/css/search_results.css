@@ -129,6 +129,12 @@
     overflow-wrap: anywhere;
 }
 
+.section-table-head span:last-child,
+.section-choice-row > span:last-child {
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
 .course-action-row {
     display: flex;
     justify-content: flex-end;
@@ -150,6 +156,24 @@
     background: #d7dce3;
     color: #5f6877;
     cursor: not-allowed;
+}
+
+@media (max-width: 1450px) {
+    .section-table {
+        overflow-x: visible;
+    }
+
+    .section-table-head,
+    .section-choice-row {
+        gap: 8px;
+        grid-template-columns: 64px minmax(104px, 1.25fr) 56px minmax(82px, 0.9fr) minmax(112px, 1.2fr);
+        min-width: 0;
+    }
+
+    .section-table-head span:nth-child(2),
+    .section-choice-row > span:nth-child(2) {
+        display: none;
+    }
 }
 
 @media (max-width: 520px) {
