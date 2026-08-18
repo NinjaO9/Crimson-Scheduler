@@ -606,7 +606,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .form-control,
     .form-select {
-        font-size: 0.9rem;
+        font-size: 16px;
         min-height: 46px;
     }
 
@@ -648,7 +648,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-name-input {
-        font-size: 1.12rem;
+        font-size: 16px;
         max-width: 30vw;
         min-width: 4.5ch;
         padding-left: 2px;
