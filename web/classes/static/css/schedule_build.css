@@ -541,16 +541,25 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 @media (max-width: 760px) {
+    body:has(.schedule-app) {
+        padding-bottom: 0;
+    }
+
     .schedule-app {
+        display: flex;
+        flex-direction: column;
         height: calc(100dvh - 96px);
         overflow: hidden;
-        padding: 0 0 calc(78px + env(safe-area-inset-bottom));
+        padding: 0;
     }
 
     .schedule-shell {
         display: block;
+        flex: 1 1 auto;
         height: 100%;
         max-width: none;
+        min-height: 0;
+        order: 2;
         overflow: hidden;
     }
 
@@ -568,7 +577,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .search-pane {
-        padding-top: 28px;
+        padding-top: 18px;
     }
 
     .schedule-pane {
@@ -757,19 +766,17 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         min-width: 116px;
     }
 
-    .mobile-bottom-nav {
+    .mobile-nav {
         align-items: center;
         background: #fff;
-        border-top: 1px solid var(--line);
-        bottom: 0;
-        box-shadow: 0 -8px 20px rgba(15, 23, 42, 0.08);
+        border-bottom: 1px solid var(--line);
         display: grid;
+        flex: 0 0 auto;
         grid-template-columns: repeat(2, 1fr);
-        left: 0;
-        min-height: calc(68px + env(safe-area-inset-bottom));
-        padding: 7px 14px calc(8px + env(safe-area-inset-bottom));
-        position: fixed;
-        right: 0;
+        min-height: 68px;
+        order: 1;
+        padding: 7px 14px;
+        position: static;
         z-index: 80;
     }
 
@@ -786,7 +793,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         justify-content: center;
         min-height: 52px;
     }
-
+    
     .mobile-nav-btn.is-active {
         color: var(--crimson);
     }
