@@ -1,8 +1,4 @@
 from django.db import models
-from django.utils import timezone
-
-
-
 class Campus(models.Model):
 
     name = models.CharField(max_length=100, unique=True)
@@ -114,20 +110,6 @@ class ScheduleSection(models.Model):
 
     def __str__(self):
         return f"{self.section} in {self.schedule}"
-
-
-class DailyAnalyticsMetric(models.Model):
-    event_date = models.DateField(default=timezone.localdate)
-    event_name = models.CharField(max_length=50)
-    count = models.PositiveIntegerField(default=0)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        unique_together = ('event_date', 'event_name')
-        ordering = ['-event_date', 'event_name']
-
-    def __str__(self):
-        return f"{self.event_date} - {self.event_name}: {self.count}"
 
 
 def parse_time(time_str):
