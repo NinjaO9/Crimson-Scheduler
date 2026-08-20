@@ -379,14 +379,14 @@
     position: absolute;
     right: 0px;
     text-align: center;
-    z-index: 10;
+    z-index: var(--course-block-z-index, 10);
 }
 
 .course-block.conflict {
     /* background: repeating-linear-gradient(135deg, #fff 0 7px, #fff 7px 12px, #d20f2a 12px 14px); */
     background: linear-gradient(180deg, #f0abab 0%, #f0abab 90%);
     border-color: #d20f2a;
-    z-index: 35;
+    z-index: var(--course-block-conflict-z-index, 35);
 }
 
 .course-block.ghost {
@@ -399,7 +399,7 @@
 
 .course-block:hover {
     overflow: visible;
-    z-index: 50;
+    z-index: var(--course-block-hover-z-index, 50);
 }
 
 .course-block-line {

@@ -626,6 +626,16 @@ const DAYS_OF_WEEK = [
         return [{ dayIndexes, timeRange }];
     }
 
+    function applyCourseBlockStacking(block, timeRange) {
+        const durationMinutes = Math.max(timeRange.end - timeRange.start, 0);
+        const shorterClassPriority = Math.max((24 * 60) - durationMinutes, 0);
+        const baseZIndex = 100 + (shorterClassPriority * 3);
+
+        block.style.setProperty('--course-block-z-index', String(baseZIndex));
+        block.style.setProperty('--course-block-conflict-z-index', String(baseZIndex + 1));
+        block.style.setProperty('--course-block-hover-z-index', String(baseZIndex + 2));
+    }
+
     function renderCourseBlock(dayIndex, timeRange, courseData) {
         const startHour = Math.floor(timeRange.start / 60);
         const startMinute = timeRange.start % 60;
@@ -640,6 +650,7 @@ const DAYS_OF_WEEK = [
         block.style.height = Math.max((durationHours * 100), 0) + '%';
         block.style.minHeight = '30px';
         block.style.top = (startMinute / 60 * 100) + '%';
+        applyCourseBlockStacking(block, timeRange);
         block.appendChild(createCourseBlockLine(`${courseData.course_code}${showSection ? ` - ${courseData.section_num}` : ''}`));
         block.appendChild(createCourseBlockLine(formatMeetingListForDisplay(courseData.time)));
         block.appendChild(createCourseBlockLine(courseData.location));
