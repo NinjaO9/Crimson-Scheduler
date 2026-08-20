@@ -343,6 +343,8 @@
     grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
     flex: 0 0 auto;
     min-height: 0;
+    position: relative;
+    z-index: 0;
 }
 
 .calendar-time-slot {
@@ -399,7 +401,7 @@
 
 .course-block:hover {
     overflow: visible;
-    z-index: var(--course-block-hover-z-index, 50);
+    z-index: 2000;
 }
 
 .course-block-line {

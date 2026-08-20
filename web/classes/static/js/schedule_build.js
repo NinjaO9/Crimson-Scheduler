@@ -628,12 +628,10 @@ const DAYS_OF_WEEK = [
 
     function applyCourseBlockStacking(block, timeRange) {
         const durationMinutes = Math.max(timeRange.end - timeRange.start, 0);
-        const shorterClassPriority = Math.max((24 * 60) - durationMinutes, 0);
-        const baseZIndex = 100 + (shorterClassPriority * 3);
+        const baseZIndex = Math.max((24 * 60) - durationMinutes, 1);
 
         block.style.setProperty('--course-block-z-index', String(baseZIndex));
         block.style.setProperty('--course-block-conflict-z-index', String(baseZIndex + 1));
-        block.style.setProperty('--course-block-hover-z-index', String(baseZIndex + 2));
     }
 
     function renderCourseBlock(dayIndex, timeRange, courseData) {
