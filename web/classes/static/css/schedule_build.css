@@ -133,6 +133,10 @@
     display: none;
 }
 
+.mobile-conflict-sheet {
+    display: none;
+}
+
 .reset-btn {
     background: transparent;
     border: 0;
@@ -592,6 +596,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         padding-bottom: 0;
     }
 
+    body.mobile-conflict-sheet-open {
+        overflow: hidden;
+    }
+
     .schedule-app {
         display: flex;
         flex-direction: column;
@@ -776,6 +784,123 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .course-block-tooltip {
         display: none !important;
+    }
+
+    .mobile-conflict-sheet {
+        bottom: 0;
+        display: block;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: opacity 160ms ease;
+        z-index: 3000;
+    }
+
+    .mobile-conflict-sheet.is-open {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .mobile-conflict-backdrop {
+        background: rgba(17, 24, 39, 0.42);
+        border: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mobile-conflict-panel {
+        background: #fff;
+        border-radius: 16px 16px 0 0;
+        bottom: 0;
+        box-shadow: 0 -18px 40px rgba(15, 23, 42, 0.18);
+        left: 0;
+        max-height: min(78dvh, 520px);
+        overflow-y: auto;
+        padding: 10px 18px 22px;
+        position: absolute;
+        right: 0;
+        transform: translateY(100%);
+        transition: transform 180ms ease;
+    }
+
+    .mobile-conflict-sheet.is-open .mobile-conflict-panel {
+        transform: translateY(0);
+    }
+
+    .mobile-conflict-grabber {
+        background: #d1d5db;
+        border-radius: 999px;
+        height: 4px;
+        margin: 0 auto 14px;
+        width: 42px;
+    }
+
+    .mobile-conflict-header {
+        align-items: flex-start;
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .mobile-conflict-title {
+        font-size: 1.1rem;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .mobile-conflict-subtitle {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        font-weight: 650;
+        margin: 3px 0 0;
+    }
+
+    .mobile-conflict-close {
+        background: #fff;
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        color: #111827;
+        flex: 0 0 auto;
+        font-size: 0.84rem;
+        font-weight: 800;
+        min-height: 38px;
+        padding: 0 12px;
+    }
+
+    .mobile-conflict-options {
+        display: grid;
+        gap: 10px;
+    }
+
+    .mobile-conflict-remove-btn {
+        background: #fff;
+        border: 1px solid var(--line-strong);
+        border-radius: 7px;
+        color: #111827;
+        cursor: pointer;
+        display: block;
+        font: inherit;
+        font-size: 0.96rem;
+        font-weight: 850;
+        min-height: 58px;
+        padding: 11px 12px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .mobile-conflict-remove-btn:active,
+    .mobile-conflict-remove-btn:focus-visible {
+        background: #fff5f6;
+        border-color: var(--crimson);
+        outline: none;
     }
 
     .misc-panel {
