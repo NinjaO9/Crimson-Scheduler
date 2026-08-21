@@ -437,6 +437,45 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     display: block;
 }
 
+.course-block-tooltip.conflict-tooltip::before {
+    content: "";
+    height: 12px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -12px;
+}
+
+.conflict-remove-btn {
+    background: #fff;
+    border: 1px solid var(--line-strong);
+    border-radius: 5px;
+    color: #111827;
+    cursor: pointer;
+    display: block;
+    font: inherit;
+    font-weight: 800;
+    margin-top: 7px;
+    padding: 7px 9px;
+    text-align: left;
+    width: 100%;
+}
+
+.conflict-remove-btn:hover,
+.conflict-remove-btn:focus-visible {
+    background: #fff5f6;
+    border-color: var(--crimson);
+    outline: none;
+}
+
+.conflict-remove-meta {
+    color: var(--text-muted);
+    display: block;
+    font-size: 0.74rem;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
 .overlap-segment {
     display: none;
 }

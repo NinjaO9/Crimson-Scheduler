@@ -701,6 +701,10 @@ const DAYS_OF_WEEK = [
         return `${courseData.course_code} (${formatMeetingListForDisplay(courseData.time)})`;
     }
 
+    function getCourseRemovalLabel(courseData) {
+        return `${courseData.course_code} - ${courseData.section_num}`;
+    }
+
     function buildCourseTooltip(courseData) {
         const fragment = document.createDocumentFragment();
         appendTextElement(fragment, 'strong', '', `${courseData.course_code} - ${courseData.section_num}`);
@@ -714,13 +718,25 @@ const DAYS_OF_WEEK = [
 
     function buildConflictTooltip(courseData, conflicts) {
         const fragment = document.createDocumentFragment();
+        const removalOptions = [courseData, ...conflicts].filter((course, index, courses) => (
+            courses.findIndex(item => String(item.section_id) === String(course.section_id)) === index
+        ));
+
         appendTextElement(fragment, 'strong', '', 'Time Conflict');
-        appendTextElement(fragment, 'div', '', getCourseLabel(courseData));
-        appendTextElement(fragment, 'div', '', 'overlaps with');
-        conflicts.forEach(conflict => {
-            appendTextElement(fragment, 'div', '', getCourseLabel(conflict));
+        appendTextElement(fragment, 'div', '', 'Remove a class from this conflict:');
+        removalOptions.forEach(course => {
+            const button = createElementWithText('button', 'conflict-remove-btn', getCourseRemovalLabel(course));
+            button.type = 'button';
+            button.setAttribute('data-section-id', course.section_id);
+            button.setAttribute('aria-label', `Remove ${getCourseRemovalLabel(course)} from schedule`);
+            button.appendChild(createElementWithText('span', 'conflict-remove-meta', `${formatMeetingListForDisplay(course.time)} - ${course.location || 'Location: N/A'}`));
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+                removeFromSchedule(course.section_id);
+            });
+            fragment.appendChild(button);
         });
-        appendTextElement(fragment, 'div', '', 'Click to remove from schedule');
         return fragment;
     }
 
@@ -755,7 +771,10 @@ const DAYS_OF_WEEK = [
                 const conflicts = conflictsByElement.get(dayBlock.element);
                 if (!conflicts || !conflicts.length) return;
                 const tooltip = dayBlock.element.querySelector('.course-block-tooltip');
-                if (tooltip) tooltip.replaceChildren(buildConflictTooltip(dayBlock.course, conflicts));
+                if (tooltip) {
+                    tooltip.classList.add('conflict-tooltip');
+                    tooltip.replaceChildren(buildConflictTooltip(dayBlock.course, conflicts));
+                }
             });
         });
     }
