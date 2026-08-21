@@ -153,6 +153,20 @@
             <span>Schedule</span>
         </button>
     </nav>
+
+    <div class="mobile-conflict-sheet" id="mobileConflictSheet" aria-hidden="true">
+        <button type="button" class="mobile-conflict-backdrop" id="mobileConflictBackdrop" aria-label="Close conflict options"></button>
+        <section class="mobile-conflict-panel" role="dialog" aria-modal="true" aria-labelledby="mobileConflictTitle">
+            <div class="mobile-conflict-grabber" aria-hidden="true"></div>
+            <div class="mobile-conflict-header">
+                <div>
+                    <h2 id="mobileConflictTitle" class="mobile-conflict-title">Time Conflict</h2>
+                    <p class="mobile-conflict-subtitle" id="mobileConflictSubtitle"></p>
+                </div>
+            </div>
+            <div class="mobile-conflict-options" id="mobileConflictOptions"></div>
+        </section>
+    </div>
 </div>
 {% endblock %}
 
