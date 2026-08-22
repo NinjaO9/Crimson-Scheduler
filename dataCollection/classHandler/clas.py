@@ -4,7 +4,8 @@ import re
 class Section:
     def __init__(self, code: int, subject: str, number: int, name: str, credits: int, section: int,
                  time: str, location: str, instructor: str, seats_taken: int, seats_total: int,
-                 is_lab: bool = False, component: str = "", has_required_lab: bool = False):
+                 is_lab: bool = False, component: str = "", has_required_lab: bool = False,
+                 metadata: dict | None = None):
         self.code = code
         self.subject = subject.strip()
         self.number = number
@@ -21,6 +22,7 @@ class Section:
         self.instructor = instructor.strip()
         self.seats_taken = seats_taken
         self.seats_total = seats_total
+        self.metadata = metadata or {}
 
     def __repr__(self):
         return f"{self.name}-{self.number}"
