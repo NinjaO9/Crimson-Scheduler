@@ -38,6 +38,7 @@ const DAY_TOKEN_MAP = [
 let currentSchedule = [];
 let renderedBlocksByDay = {};
 let activeMobileConflictTrigger = null;
+let courseSearchRequestId = 0;
 
 function ensureRateLimitToast() {
     let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
@@ -115,6 +116,11 @@ function initializeSchedulePage() {
 }
 
 function setupInteractionHandlers() {
+    const courseSearchForm = document.getElementById('courseSearchForm');
+    if (courseSearchForm) {
+        courseSearchForm.addEventListener('submit', handleCourseSearchSubmit);
+    }
+
     document.addEventListener('click', function(event) {
         const addButton = event.target.closest('.add-course-selection-btn');
         if (addButton) {
@@ -246,6 +252,7 @@ function setupInteractionHandlers() {
     });
 
     document.getElementById('resetFiltersBtn').addEventListener('click', function() {
+        courseSearchRequestId += 1;
         window.setTimeout(() => {
             document.getElementById('searchResults').replaceChildren(
                 createElementWithText('div', 'empty-search', 'Choose a campus + term, then search courses to begin building your schedule.')
@@ -256,6 +263,173 @@ function setupInteractionHandlers() {
     window.addEventListener('resize', debounce(function() {
         updateScheduleDisplay(currentSchedule);
     }, 150));
+}
+
+function renderSectionChoice(course, section, choiceType) {
+    const sectionId = String(section.section_id == null ? '' : section.section_id);
+    const courseId = String(course.id == null ? '' : course.id);
+    const label = choiceType === 'lab' ? 'Lab' : 'Lecture';
+    const row = document.createElement('label');
+    row.className = 'section-choice-row';
+
+    const select = document.createElement('span');
+    select.className = 'section-select';
+    const input = document.createElement('input');
+    input.className = 'section-choice';
+    input.type = 'radio';
+    input.value = sectionId;
+    input.name = `${choiceType}-${courseId}`;
+    [
+        ['data-choice-type', choiceType],
+        ['data-course-id', courseId],
+        ['data-section-id', sectionId],
+        ['data-course-code', course.course_code],
+        ['data-course-name', course.course_name],
+        ['data-section-num', section.section_num],
+        ['data-instructor', section.instructor],
+        ['data-location', section.location],
+        ['data-days', section.days],
+        ['data-time', section.time],
+        ['data-seats', section.seats],
+        ['data-credits', section.credits],
+        ['data-is-lab', section.is_lab],
+        ['data-component', section.component]
+    ].forEach(([name, value]) => input.setAttribute(name, String(value == null ? '' : value)));
+    select.append(input, createElementWithText('strong', null, section.section_num));
+
+    row.append(
+        select,
+        createElementWithText('span', null, label),
+        createElementWithText('span', 'time-display', section.time),
+        createElementWithText('span', null, section.days),
+        createElementWithText('span', null, section.location),
+        createElementWithText('span', null, section.instructor)
+    );
+    row.children[2].setAttribute('data-time', String(section.time == null ? '' : section.time));
+    return row;
+}
+
+function renderCourseResult(course) {
+    const hasLab = course.lab_sections.length > 0;
+    const article = document.createElement('article');
+    article.className = 'result-card';
+    const summary = document.createElement('button');
+    summary.className = 'result-summary';
+    summary.type = 'button';
+    summary.setAttribute('data-bs-toggle', 'collapse');
+    summary.setAttribute('data-bs-target', `#sections${course.id}`);
+    summary.setAttribute('data-bs-parent', '#courseResultsAccordion');
+    summary.setAttribute('aria-expanded', 'false');
+    const summaryText = document.createElement('span');
+    const title = createElementWithText('span', 'result-title', `${course.course_code} - ${course.course_name}`);
+    const meta = document.createElement('span');
+    meta.className = 'result-meta';
+    meta.append(
+        createElementWithText('span', null, `${course.credits} Credits`),
+        createElementWithText('span', null, course.has_required_lab ? 'Lecture + Lab' : 'Lecture')
+    );
+    summaryText.append(title, meta);
+    summary.append(summaryText, createElementWithText('span', 'result-chevron', ''));
+
+    const panel = document.createElement('div');
+    panel.className = 'collapse';
+    panel.id = `sections${course.id}`;
+    panel.setAttribute('data-bs-parent', '#courseResultsAccordion');
+    const body = createElementWithText('div', 'result-body', '');
+    body.append(
+        createSectionGroupTitle('Select a Lecture', course.has_required_lab),
+        createSectionTable(course, course.lecture_sections, 'lecture')
+    );
+    if (hasLab) {
+        body.append(
+            createSectionGroupTitle('Select a Lab', true, 'lab-title'),
+            createSectionTable(course, course.lab_sections, 'lab')
+        );
+    }
+    const actionRow = createElementWithText('div', 'course-action-row', '');
+    const addButton = createElementWithText('button', 'add-course-selection-btn', 'Add to Schedule');
+    addButton.type = 'button';
+    addButton.disabled = true;
+    addButton.setAttribute('data-course-id', course.id);
+    addButton.setAttribute('data-requires-lab', String(course.has_required_lab));
+    actionRow.appendChild(addButton);
+    body.appendChild(actionRow);
+    panel.appendChild(body);
+    article.append(summary, panel);
+    return article;
+}
+
+function createSectionGroupTitle(label, required, className) {
+    const title = createElementWithText('div', `section-group-title${className ? ` ${className}` : ''}`, label);
+    if (required) title.appendChild(createElementWithText('span', null, '(required)'));
+    return title;
+}
+
+function createSectionTable(course, sections, choiceType) {
+    const table = createElementWithText('div', 'section-table', '');
+    const header = createElementWithText('div', 'section-table-head', '');
+    ['Section', 'Type', 'Time', 'Days', 'Location', 'Instructor'].forEach(label => {
+        header.appendChild(createElementWithText('span', null, label));
+    });
+    table.appendChild(header);
+    if (sections.length) {
+        sections.forEach(section => table.appendChild(renderSectionChoice(course, section, choiceType)));
+    } else {
+        table.appendChild(createElementWithText('div', 'muted-cell', 'No sections available'));
+    }
+    return table;
+}
+
+function renderCourseResults(courses) {
+    const results = document.getElementById('searchResults');
+    if (!results) return;
+    results.replaceChildren();
+    if (!courses.length) {
+        results.appendChild(createElementWithText('div', 'empty-search', 'No courses found.'));
+        return;
+    }
+
+    const accordion = createElementWithText('div', 'course-results-accordion', '');
+    accordion.id = 'courseResultsAccordion';
+    courses.forEach(course => accordion.appendChild(renderCourseResult(course)));
+    results.appendChild(accordion);
+    const firstSummary = results.querySelector('.result-summary');
+    const firstPanel = results.querySelector('.collapse');
+    if (firstSummary && firstPanel) {
+        firstSummary.setAttribute('aria-expanded', 'true');
+        firstPanel.classList.add('show');
+    }
+    updateSearchResultTimeDisplays();
+}
+
+async function handleCourseSearchSubmit(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const results = document.getElementById('searchResults');
+    const requestId = ++courseSearchRequestId;
+    const formData = new FormData(form);
+    const campus = formData.get('campus');
+    const term = formData.get('semester');
+
+    if (!campus || !term) {
+        renderCourseResults([]);
+        return;
+    }
+
+    if (results) results.replaceChildren(createElementWithText('div', 'empty-search', 'Loading courses...'));
+    try {
+        const courses = await CourseApi.fetchCourses(campus, term);
+        if (requestId !== courseSearchRequestId) return;
+        renderCourseResults(CourseApi.filterCourses(courses, {
+            q: formData.get('q'),
+            subject: formData.get('subject'),
+            number: formData.get('number')
+        }));
+    } catch (error) {
+        if (requestId !== courseSearchRequestId) return;
+        if (results) results.replaceChildren(createElementWithText('div', 'empty-search', 'Unable to load courses. Please try again.'));
+        console.error('Unable to load course data:', error);
+    }
 }
 
 function isMobileViewport() {

@@ -2,6 +2,7 @@
     'use strict';
 
     const API_BASE_URL = 'https://ninjao9.github.io/Crimson-Scheduler/api/v1/';
+    const courseCache = new Map();
 
     function slugify(value) {
         return String(value || '')
@@ -86,7 +87,7 @@
 
         return (Array.isArray(courses) ? courses : [])
             .filter(course => {
-                if (subject && !includes(course.subject, subject)) return false;
+                if (subject && text(course.subject).toLowerCase() !== subject) return false;
                 if (number && !includes(course.course_number, number)) return false;
                 if (query && query.length >= 2 && ![
                     course.course_name,
@@ -101,6 +102,11 @@
 
     async function fetchCourses(campus, term, options) {
         const requestOptions = options || {};
+        const cacheKey = `${slugify(campus)}|${slugify(term)}`;
+        if (!requestOptions.reload && courseCache.has(cacheKey)) {
+            return courseCache.get(cacheKey);
+        }
+
         const response = await fetch(campusTermUrl(campus, term), {
             signal: requestOptions.signal
         });
@@ -116,7 +122,9 @@
             throw new Error('Course data response was not valid JSON.');
         }
 
-        return normalizePayload(payload);
+        const courses = normalizePayload(payload);
+        courseCache.set(cacheKey, courses);
+        return courses;
     }
 
     window.CourseApi = {

@@ -8,10 +8,10 @@
             data-bs-parent="#courseResultsAccordion"
             aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}">
         <span>
-            <span class="result-title">{{ course.subject }} {{ course.course_number }} - {{ course.name }}</span>
+            <span class="result-title">{{ course.subject }} {{ course.courseCode }} - {{ course.courseName }}</span>
             <span class="result-meta">
                 <span>{{ course.credits }} Credits</span>
-                <span>{% if course.has_required_lab %}Lecture + Lab{% else %}Lecture{% endif %}</span>
+                <span>{% if course.hasRequiredLab %}Lecture + Lab{% else %}Lecture{% endif %}</span>
                 <!-- <span>Prereq: None</span>  <- This is something that would be cool; but I might need to develop some way to get prereqs... For some reason WSU doesn't use their prerequisite field in the API responses :cry:-->
             </span>
         </span>
@@ -20,11 +20,8 @@
 
     <div class="collapse {% if forloop.first %}show{% endif %}" id="sections{{ course.id }}" data-bs-parent="#courseResultsAccordion">
         <div class="result-body">
-            <p class="course-description">
-                {{ course.topic.semester.campus.name }} - {{ course.topic.semester.name }}
-            </p>
             <div class="section-group-title">
-                Select a Lecture {% if course.lab_sections %}<span>(required)</span>{% endif %}
+                Select a Lecture {% if course.hasRequiredLab %}<span>(required)</span>{% endif %}
             </div>
             <div class="section-table">
                 <div class="section-table-head">
