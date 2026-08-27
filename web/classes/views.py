@@ -6,10 +6,14 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_GET, require_POST
 import re
 import json
+import requests
 
 from .rate_limit import check_for_token_limit, token_limit_response
 
 SEMESTER_NAME_PATTERN = re.compile(r'^(Spring|Summer|Fall|Winter)\s+\d{4}$', re.IGNORECASE)
+SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3}
+VERSION = "v1"
+BASE_API_URL = f"https://ninjao9.github.io/Crimson-Scheduler/api/{VERSION}/"
 
 @require_GET
 def viewCampus(response, campusid):
@@ -37,6 +41,8 @@ def contact(request):
     return render(request, "classes/contact.html")
 
 
+    
+
 @ensure_csrf_cookie
 @require_GET
 def schedule_view(request):
@@ -47,6 +53,9 @@ def schedule_view(request):
 
     campuses = Campus.objects.order_by('name')
 
+    # catalog = requests.get(BASE_API_URL + "catalog.json").json()
+
+
     semester_names = Semester.objects.values_list('name', flat=True).distinct()
     semesters = sorted(semester_names, key=semester_sort_key, reverse=True)
 
@@ -55,10 +64,6 @@ def schedule_view(request):
         'campuses': campuses,
         'semesters': semesters,
     })
-
-
-SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3}
-
 
 def semester_sort_key(name):
     """Sorts 'Fall 2026' style names chronologically (year, then season
