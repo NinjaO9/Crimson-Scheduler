@@ -4,16 +4,24 @@ from classes.models import Campus, Semester, Topics, Course, Section, UserSchedu
 from django.db.models import Q
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_GET, require_POST
+from django.contrib import messages
 import re
 import json
 import requests
-
+from requests import RequestException
 from .rate_limit import check_for_token_limit, token_limit_response
 
 SEMESTER_NAME_PATTERN = re.compile(r'^(Spring|Summer|Fall|Winter)\s+\d{4}$', re.IGNORECASE)
 SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3}
 VERSION = "v1"
 BASE_API_URL = f"https://ninjao9.github.io/Crimson-Scheduler/api/{VERSION}/"
+
+def slugify(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", value.strip().lower())
+    return slug.strip("-")
+
+def campusTermSlug(cls, campus_name: str, term_name: str) -> str:
+    return f"{cls.slugify(campus_name)}-{cls.slugify(term_name)}"
 
 @require_GET
 def viewCampus(response, campusid):
@@ -51,18 +59,33 @@ def schedule_view(request):
         request.session.create()
         session_id = request.session.session_key
 
-    campuses = Campus.objects.order_by('name')
+    # campuses = Campus.objects.order_by('name')
+    # semester_names = Semester.objects.values_list('name', flat=True).distinct()
+    # semesters = sorted(semester_names, key=semester_sort_key, reverse=True)
 
-    # catalog = requests.get(BASE_API_URL + "catalog.json").json()
+    try:
+        catalog = requests.get(BASE_API_URL + "catalog.json").json()
+    except(RequestException):
+        messages.error(request, "Failed to connect to API, please try again later.")
+        catalog = []
+        return render(request, 'classes/schedule_build.html', {
+            'session_id': session_id,
+            'campuses': [],
+            'semesters': [],
+        })
 
+    campuses = [campus['campus'] for campus in catalog['campuses']]
 
-    semester_names = Semester.objects.values_list('name', flat=True).distinct()
-    semesters = sorted(semester_names, key=semester_sort_key, reverse=True)
+    semesters = set()
+    for campus in catalog['campuses']:
+        for term in campus['terms']:
+            semesters.add(term['term'])
 
+    print(semesters)
     return render(request, 'classes/schedule_build.html', {
         'session_id': session_id,
         'campuses': campuses,
-        'semesters': semesters,
+        'semesters': list(semesters),
     })
 
 def semester_sort_key(name):
@@ -422,3 +445,4 @@ def get_schedule_data(request):
         return JsonResponse({'schedule': calendar_data})
     except Exception as e:
         return JsonResponse({'error': str(e)}, status=500)
+

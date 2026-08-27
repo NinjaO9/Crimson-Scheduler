@@ -21,7 +21,7 @@
                         <select name="campus" id="campusFilter" class="form-select">
                             <option value="" selected disabled>-- Select Campus --</option>
                             {% for campus in campuses %}
-                                <option value="{{ campus.id }}">{{ campus.name }}</option>
+                                <option value="{{ campus }}">{{ campus }}</option>
                             {% empty %}
                                 <option value="" disabled>No campuses available</option>
                             {% endfor %}
