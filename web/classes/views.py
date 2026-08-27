@@ -1,7 +1,6 @@
 from django.shortcuts import get_object_or_404, render
 from django.http import JsonResponse
-from classes.models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, sections_overlap
-from django.db.models import Q
+from classes.models import Campus, Section, UserSchedule, ScheduleSection
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_GET, require_POST
 from django.contrib import messages
@@ -11,7 +10,6 @@ import requests
 from requests import RequestException
 from .rate_limit import check_for_token_limit, token_limit_response
 
-SEMESTER_NAME_PATTERN = re.compile(r'^(Spring|Summer|Fall|Winter)\s+\d{4}$', re.IGNORECASE)
 SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3}
 VERSION = "v1"
 BASE_API_URL = f"https://ninjao9.github.io/Crimson-Scheduler/api/{VERSION}/"
@@ -19,9 +17,6 @@ BASE_API_URL = f"https://ninjao9.github.io/Crimson-Scheduler/api/{VERSION}/"
 def slugify(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.strip().lower())
     return slug.strip("-")
-
-def campusTermSlug(cls, campus_name: str, term_name: str) -> str:
-    return f"{cls.slugify(campus_name)}-{cls.slugify(term_name)}"
 
 @require_GET
 def viewCampus(response, campusid):
@@ -58,10 +53,6 @@ def schedule_view(request):
     if not session_id:
         request.session.create()
         session_id = request.session.session_key
-
-    # campuses = Campus.objects.order_by('name')
-    # semester_names = Semester.objects.values_list('name', flat=True).distinct()
-    # semesters = sorted(semester_names, key=semester_sort_key, reverse=True)
 
     try:
         catalog = requests.get(BASE_API_URL + "catalog.json").json()
@@ -103,58 +94,6 @@ def parse_positive_int(value):
     except (TypeError, ValueError):
         return None
     return parsed_value if parsed_value > 0 else None
-
-def is_valid_semester_format(semester_name):
-    return bool(semester_name) and len(semester_name) <= 50 and bool(SEMESTER_NAME_PATTERN.match(semester_name))
-
-@require_GET
-def search_courses(request):
-    rate_limit_result = check_for_token_limit(request)
-    if not rate_limit_result['allowed']:
-        return token_limit_response(rate_limit_result, as_html=True)
-
-    query = request.GET.get('q', '').strip()
-    campus_id = parse_positive_int(request.GET.get('campus', '').strip())
-    semester_name = request.GET.get('semester', '').strip()
-    subject = request.GET.get('subject', '').strip()
-    number = request.GET.get('number', '').strip()
-
-    if campus_id is None or not is_valid_semester_format(semester_name):
-        return render(request, 'classes/partials/search_results.html', {'courses': []})
-
-    if not Semester.objects.filter(campus_id=campus_id, name__iexact=semester_name).exists():
-        return render(request, 'classes/partials/search_results.html', {'courses': []})
-
-    courses = Course.objects.filter(
-        topic__semester__campus_id=campus_id,
-        topic__semester__name__iexact=semester_name,
-    )
-
-    if subject:
-        courses = courses.filter(subject__iexact=subject)
-
-    if number:
-        courses = courses.filter(course_number__icontains=number)
-
-    if query and len(query) >= 2:
-        courses = courses.filter(
-            Q(name__icontains=query) |
-            Q(subject__icontains=query) |
-            Q(course_number__icontains=query)
-        )
-
-    courses = courses.prefetch_related('sections').select_related(
-        'topic',
-        'topic__semester',
-        'topic__semester__campus'
-    )[:10]
-
-    for course in courses:
-        sections = list(course.sections.all())
-        course.lab_sections = [section for section in sections if section.is_lab]
-        course.lecture_sections = [section for section in sections if not section.is_lab]
-
-    return render(request, 'classes/partials/search_results.html', {'courses': courses})
 
 @require_POST
 def add_to_schedule(request, section_id):

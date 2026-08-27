@@ -30,26 +30,6 @@ class ApiInputValidationTests(TestCase):
             course=self.course,
         )
 
-    def test_search_courses_rejects_invalid_campus_before_querying_courses(self):
-        with self.assertNumQueries(0):
-            response = self.client.get(
-                reverse('search_courses'),
-                {'campus': 'not-an-int', 'semester': 'Fall 2026'},
-            )
-
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'No courses found.')
-
-    def test_search_courses_rejects_unknown_but_well_formed_semester(self):
-        with self.assertNumQueries(1):
-            response = self.client.get(
-                reverse('search_courses'),
-                {'campus': str(self.campus.id), 'semester': 'Spring 2099'},
-            )
-
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'No courses found.')
-
     def test_get_schedule_data_rejects_invalid_semester_id_before_querying_schedule(self):
         with self.assertNumQueries(0):
             response = self.client.get(reverse('get_schedule_data'), {'semester_id': 'abc'})
