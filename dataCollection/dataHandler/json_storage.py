@@ -27,9 +27,10 @@ class JsonStorageHandler:
     def writeCourseApi(cls, collected_data: list[Campus], output_root: str | Path = "api/v1/courses") -> list[Path]:
         output_root = Path(output_root)
         written_files = []
-        existing_semesters = []
+        exisiting_campuses = []
 
         for campus in collected_data:
+            existing_semesters = []
             for semester in campus.semesters:
                 payload = cls.serializeCampusTerm(campus, semester.name)
                 slug = cls.campusTermSlug(campus.name, semester.name)
@@ -39,19 +40,20 @@ class JsonStorageHandler:
                 written_files.append(output_path)
                 print(f"Wrote {output_path}", flush=True)
                 existing_semesters.append({
-                    "id": slug,
-                    "campus": campus.name,
                     "term": semester.name,
                     "url": f"courses/{slug}.json",
-                    "generatedAt": payload["generatedAt"],
                 })
-
+            exisiting_campuses.append({
+                "campus": campus.name,
+                "terms": existing_semesters
+            })
+        
         catalog_path = output_root.parent / "catalog.json"
         catalog_path.parent.mkdir(parents=True, exist_ok=True)
         catalog_payload = {
             "version": cls.VERSION,
             "generatedAt": datetime.now(UTC).isoformat(),
-            "terms": existing_semesters,
+            "campuses": exisiting_campuses,
         }
         catalog_path.write_text(json.dumps(catalog_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         written_files.append(catalog_path)
