@@ -21,8 +21,7 @@ const SCHEDULE_NAME_STORAGE_KEY = 'crimson_scheduler_schedule_name';
 const DEFAULT_SCHEDULE_NAME = 'My Schedule';
 const SCHEDULE_NAME_MAX_LENGTH = 20;
 const MAX_SCHEDULE_SECTIONS = 15;
-const SHARE_CODE_PREFIX = 'CS1.';
-const SECTIONS_BY_IDS_URL = '/api/sections-by-ids/';
+const SHARE_CODE_PREFIX = 'CS2.';
 const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
 const RATE_LIMIT_TOAST_ID = 'rateLimitToast';
 const DAY_TOKEN_MAP = [
@@ -285,6 +284,7 @@ function renderSectionChoice(course, section, choiceType) {
         ['data-section-id', sectionId],
         ['data-course-code', course.course_code],
         ['data-course-name', course.course_name],
+        ['data-term-slug', course.term_slug],
         ['data-section-num', section.section_num],
         ['data-instructor', section.instructor],
         ['data-location', section.location],
@@ -480,9 +480,9 @@ function updateCourseAddButton(courseId) {
 }
 
 function buildCourseDataFromChoice(choice, scheduleGroupId) {
-    return {
+    return CourseApi.toScheduleEntry({
         section_id: choice.getAttribute('data-section-id'),
-        schedule_group_id: scheduleGroupId,
+        term_slug: choice.getAttribute('data-term-slug'),
         course_code: choice.getAttribute('data-course-code'),
         course_name: choice.getAttribute('data-course-name'),
         section_num: choice.getAttribute('data-section-num'),
@@ -494,7 +494,7 @@ function buildCourseDataFromChoice(choice, scheduleGroupId) {
         credits: choice.getAttribute('data-credits') || '0',
         is_lab: choice.getAttribute('data-is-lab') === 'true',
         component: choice.getAttribute('data-component') || 'lecture'
-    };
+    }, scheduleGroupId);
 }
 
 function showSectionGhost(row) {
@@ -1148,19 +1148,28 @@ function decodeBase64Url(value) {
     return new TextDecoder().decode(bytes);
 }
 
-function getCurrentScheduleSectionIds() {
-    const sectionIds = [];
+function getCurrentScheduleTerms() {
+    const terms = new Map();
+    let totalSections = 0;
     currentSchedule.forEach(item => {
-        const sectionId = parseInt(item.section_id, 10);
-        if (Number.isInteger(sectionId) && !sectionIds.includes(sectionId)) sectionIds.push(sectionId);
+        if (totalSections >= MAX_SCHEDULE_SECTIONS) return;
+        const slug = String(item.term_slug || '');
+        const sln = String(item.section_id || '');
+        if (!slug || !sln) return;
+        if (!terms.has(slug)) terms.set(slug, new Set());
+        const slns = terms.get(slug);
+        if (!slns.has(sln)) {
+            slns.add(sln);
+            totalSections += 1;
+        }
     });
-    return sectionIds;
+    return Array.from(terms, ([slug, slns]) => ({ slug, slns: Array.from(slns) }));
 }
 
 function buildShareCode() {
     return `${SHARE_CODE_PREFIX}${encodeBase64Url(JSON.stringify({
         n: getScheduleName(),
-        s: getCurrentScheduleSectionIds()
+        terms: getCurrentScheduleTerms()
     }))}`;
 }
 
@@ -1172,14 +1181,31 @@ function parseShareCode(code) {
 
     const payload = JSON.parse(decodeBase64Url(normalizedCode.slice(SHARE_CODE_PREFIX.length)));
     const name = String(payload.n || DEFAULT_SCHEDULE_NAME).trim().slice(0, SCHEDULE_NAME_MAX_LENGTH) || DEFAULT_SCHEDULE_NAME;
-    const sectionIds = Array.isArray(payload.s)
-        ? payload.s.map(sectionId => parseInt(sectionId, 10)).filter(Number.isInteger)
-        : [];
-    if (!sectionIds.length) throw new Error('This share code does not contain any sections.');
+    const terms = [];
+    const seen = new Set();
+    let totalSections = 0;
+    if (Array.isArray(payload.terms)) {
+        payload.terms.forEach(term => {
+            if (totalSections >= MAX_SCHEDULE_SECTIONS || !term || !term.slug || !Array.isArray(term.slns)) return;
+            const slug = String(term.slug);
+            const slns = [];
+            term.slns.forEach(sln => {
+                const normalizedSln = String(sln || '');
+                const key = `${slug}:${normalizedSln}`;
+                if (normalizedSln && !seen.has(key) && totalSections < MAX_SCHEDULE_SECTIONS) {
+                    seen.add(key);
+                    slns.push(normalizedSln);
+                    totalSections += 1;
+                }
+            });
+            if (slns.length) terms.push({ slug, slns });
+        });
+    }
+    if (!terms.length) throw new Error('This share code does not contain any sections.');
 
     return {
         name,
-        sectionIds: Array.from(new Set(sectionIds)).slice(0, MAX_SCHEDULE_SECTIONS)
+        terms
     };
 }
 
@@ -1193,7 +1219,7 @@ async function copyTextToClipboard(text) {
 
 async function shareScheduleCode() {
     normalizeScheduleNameInput();
-    if (!getCurrentScheduleSectionIds().length) {
+    if (!getCurrentScheduleTerms().length) {
         window.alert('Add at least one class before creating a share code.');
         return;
     }
@@ -1210,35 +1236,39 @@ async function shareScheduleCode() {
     window.prompt('Copy this share code:', shareCode);
 }
 
-async function fetchScheduleForSectionIds(sectionIds) {
-    const response = await fetch(SECTIONS_BY_IDS_URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-CSRFToken': getCookie('csrftoken')
-        },
-        body: JSON.stringify({ section_ids: sectionIds })
-    });
-    if (response.status === 429) {
-        let message = response.headers.get('X-Rate-Limit-Message');
-        if (!message) {
-            try {
-                const errorData = await response.json();
-                message = errorData.message;
-            } catch (error) {
-                message = 'You are sending requests too quickly. Please wait a moment.';
-            }
+async function fetchScheduleForTerms(terms) {
+    const datasets = new Map();
+    for (const term of terms) {
+        if (!datasets.has(term.slug)) {
+            datasets.set(term.slug, await CourseApi.fetchDatasetByKey(term.slug));
         }
-        showRateLimitToast(message);
-        const error = new Error(message || 'You are sending requests too quickly. Please wait a moment.');
-        error.rateLimited = true;
-        throw error;
     }
-    const data = await response.json();
-    if (!response.ok || !data.success) {
-        throw new Error(data.error || 'The schedule could not be rebuilt from that share code.');
-    }
-    return data;
+
+    const matches = [];
+    const missingSectionIds = [];
+    terms.forEach(term => {
+        const dataset = datasets.get(term.slug);
+        term.slns.forEach(sln => {
+            const match = dataset.sectionsBySln.get(String(sln));
+            if (match) matches.push({ dataset, ...match });
+            else missingSectionIds.push(String(sln));
+        });
+    });
+
+    const groupedIds = new Map();
+    matches.forEach(match => {
+        const key = `${match.dataset.key}:${match.course.id}`;
+        if (!groupedIds.has(key)) groupedIds.set(key, []);
+        groupedIds.get(key).push(String(match.section.section_id));
+    });
+
+    const schedule = matches.map(match => {
+        const key = `${match.dataset.key}:${match.course.id}`;
+        const ids = groupedIds.get(key);
+        const groupId = ids.length > 1 ? ids.join('-') : null;
+        return CourseApi.toScheduleEntry(match.section, groupId);
+    });
+    return { schedule, missing_section_ids: missingSectionIds };
 }
 
 async function importScheduleFromShareCode() {
@@ -1250,7 +1280,7 @@ async function importScheduleFromShareCode() {
         const confirmed = window.confirm(`Import "${parsedCode.name}" and replace your current schedule?`);
         if (!confirmed) return;
 
-        const data = await fetchScheduleForSectionIds(parsedCode.sectionIds);
+        const data = await fetchScheduleForTerms(parsedCode.terms);
         if (!data.schedule.length) {
             window.alert('No matching sections were found for that share code.');
             return;

@@ -16,6 +16,10 @@
         return `${API_BASE_URL}courses/${slugify(campus)}-${slugify(term)}.json`;
     }
 
+    function datasetKey(campus, term) {
+        return `${slugify(campus)}-${slugify(term)}`;
+    }
+
     function text(value, fallback) {
         if (value === null || value === undefined) return fallback || '';
         return String(value).trim();
@@ -100,14 +104,40 @@
             .slice(0, options.limit || 10);
     }
 
-    async function fetchCourses(campus, term, options) {
-        const requestOptions = options || {};
-        const cacheKey = `${slugify(campus)}|${slugify(term)}`;
-        if (!requestOptions.reload && courseCache.has(cacheKey)) {
-            return courseCache.get(cacheKey);
-        }
+    function toScheduleEntry(section, scheduleGroupId) {
+        return {
+            section_id: text(section && section.section_id),
+            term_slug: text(section && section.term_slug),
+            schedule_group_id: scheduleGroupId || null,
+            course_code: text(section && section.course_code),
+            course_name: text(section && section.course_name),
+            section_num: section && section.section_num,
+            instructor: text(section && section.instructor),
+            location: text(section && section.location),
+            days: text(section && section.days),
+            time: text(section && section.time),
+            seats: text(section && section.seats),
+            credits: section && section.is_lab ? '0' : text(section && section.credits, '0'),
+            is_lab: Boolean(section && section.is_lab),
+            component: text(section && section.component, 'lecture')
+        };
+    }
 
-        const response = await fetch(campusTermUrl(campus, term), {
+    function indexSections(courses) {
+        const sectionsBySln = new Map();
+        courses.forEach(course => {
+            [...course.lecture_sections, ...course.lab_sections].forEach(section => {
+                sectionsBySln.set(String(section.section_id), { course, section });
+            });
+        });
+        return sectionsBySln;
+    }
+
+    async function fetchDatasetByKey(key, options) {
+        const requestOptions = options || {};
+        if (!requestOptions.reload && courseCache.has(key)) return courseCache.get(key);
+
+        const response = await fetch(`${API_BASE_URL}courses/${slugify(key)}.json`, {
             signal: requestOptions.signal
         });
 
@@ -123,14 +153,34 @@
         }
 
         const courses = normalizePayload(payload);
-        courseCache.set(cacheKey, courses);
-        return courses;
+        courses.forEach(course => {
+            course.term_slug = key;
+            [...course.lecture_sections, ...course.lab_sections].forEach(section => {
+                section.term_slug = key;
+            });
+        });
+        const dataset = { key, courses, sectionsBySln: indexSections(courses) };
+        courseCache.set(key, dataset);
+        return dataset;
+    }
+
+    async function fetchDataset(campus, term, options) {
+        return fetchDatasetByKey(datasetKey(campus, term), options);
+    }
+
+    async function fetchCourses(campus, term, options) {
+        const dataset = await fetchDataset(campus, term, options);
+        return dataset.courses;
     }
 
     window.CourseApi = {
         campusTermUrl,
+        datasetKey,
+        fetchDataset,
+        fetchDatasetByKey,
         fetchCourses,
         filterCourses,
+        toScheduleEntry,
         normalizePayload,
         normalizeCourse,
         normalizeSection
