@@ -11,7 +11,8 @@ const START_HOUR = 7;
 const END_HOUR = 23;
 const HOUR_ROW_HEIGHT = 58;
 const MOBILE_BREAKPOINT = 760;
-const SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
+const SCHEDULE_STORAGE_KEY = 'crimson_scheduler_schedule';
+const LEGACY_SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
 const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 const TIME_FORMAT_STORAGE_KEY = 'crimson_scheduler_24_hour_time';
 const HIDE_WEEKENDS_STORAGE_KEY = 'crimson_scheduler_hide_weekends';
@@ -109,7 +110,7 @@ function initializeSchedulePage() {
     buildCalendarHeader();
     initializeCalendar();
     setupInteractionHandlers();
-    currentSchedule = loadScheduleFromCookie();
+    currentSchedule = loadSchedule();
     updateScheduleDisplay(currentSchedule);
     updateSearchResultTimeDisplays();
 }
@@ -131,7 +132,7 @@ function setupInteractionHandlers() {
             event.preventDefault();
             if (!window.confirm('Clear your entire schedule? This cannot be undone.')) return;
             currentSchedule = [];
-            persistScheduleToCookie(currentSchedule);
+            persistSchedule(currentSchedule);
             updateScheduleDisplay(currentSchedule);
             return;
         }
@@ -666,7 +667,7 @@ function handleAddCourseSelection(button, event) {
 
     if (!selectedCourses.length) return;
     currentSchedule.push(...selectedCourses);
-    persistScheduleToCookie(currentSchedule);
+    persistSchedule(currentSchedule);
     updateScheduleDisplay(currentSchedule);
     if (isMobileViewport()) setMobilePane('schedule');
 }
@@ -1087,31 +1088,41 @@ function removeFromSchedule(sectionId) {
         if (scheduleGroupId) return entry.schedule_group_id !== scheduleGroupId;
         return String(entry.section_id) !== String(sectionId);
     });
-    persistScheduleToCookie(currentSchedule);
+    persistSchedule(currentSchedule);
     updateScheduleDisplay(currentSchedule);
 }
 
-function persistScheduleToCookie(scheduleData) {
-    document.cookie = `${SCHEDULE_COOKIE_NAME}=${encodeURIComponent(JSON.stringify(scheduleData))}; path=/; max-age=${SCHEDULE_COOKIE_MAX_AGE_SECONDS}; samesite=lax`;
+function persistSchedule(scheduleData) {
+    const serialized = JSON.stringify(scheduleData);
+    try {
+        localStorage.setItem(SCHEDULE_STORAGE_KEY, serialized);
+        return true;
+    } catch (error) {
+        return false;
+    }
 }
 
 function isValidCourseEntry(item) {
     return !!item && REQUIRED_COURSE_FIELDS.every(field => item[field]);
 }
 
-function loadScheduleFromCookie() {
-    const cookies = document.cookie ? document.cookie.split(';') : [];
-    const prefix = `${SCHEDULE_COOKIE_NAME}=`;
-    for (let i = 0; i < cookies.length; i++) {
-        const cookie = cookies[i].trim();
-        if (!cookie.startsWith(prefix)) continue;
-        try {
-            const parsed = JSON.parse(decodeURIComponent(cookie.substring(prefix.length)));
-            return Array.isArray(parsed) ? parsed.filter(isValidCourseEntry) : [];
-        } catch (error) {
-            return [];
-        }
+function parseStoredSchedule(serialized) {
+    try {
+        const parsed = JSON.parse(serialized);
+        return Array.isArray(parsed) ? parsed.filter(isValidCourseEntry) : [];
+    } catch (error) {
+        return [];
     }
+}
+
+function loadSchedule() {
+    try {
+        const storedSchedule = localStorage.getItem(SCHEDULE_STORAGE_KEY);
+        if (storedSchedule !== null) return parseStoredSchedule(storedSchedule);
+    } catch (error) {
+        console.warn('Unable to read saved schedule from local storage:', error);
+    }
+
     return [];
 }
 
@@ -1290,7 +1301,7 @@ async function importScheduleFromShareCode() {
         if (nameInput) nameInput.value = parsedCode.name;
         saveScheduleName();
         currentSchedule = data.schedule;
-        persistScheduleToCookie(currentSchedule);
+        persistSchedule(currentSchedule);
         updateScheduleDisplay(currentSchedule);
         if (isMobileViewport()) setMobilePane('schedule');
 

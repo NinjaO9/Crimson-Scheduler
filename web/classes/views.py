@@ -72,7 +72,6 @@ def schedule_view(request):
         for term in campus['terms']:
             semesters.add(term['term'])
 
-    print(semesters)
     return render(request, 'classes/schedule_build.html', {
         'session_id': session_id,
         'campuses': campuses,
