@@ -11,7 +11,8 @@ const START_HOUR = 7;
 const END_HOUR = 23;
 const HOUR_ROW_HEIGHT = 58;
 const MOBILE_BREAKPOINT = 760;
-const SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
+const SCHEDULE_STORAGE_KEY = 'crimson_scheduler_schedule';
+const LEGACY_SCHEDULE_COOKIE_NAME = 'crimson_scheduler_schedule';
 const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
 const TIME_FORMAT_STORAGE_KEY = 'crimson_scheduler_24_hour_time';
 const HIDE_WEEKENDS_STORAGE_KEY = 'crimson_scheduler_hide_weekends';
@@ -21,8 +22,7 @@ const SCHEDULE_NAME_STORAGE_KEY = 'crimson_scheduler_schedule_name';
 const DEFAULT_SCHEDULE_NAME = 'My Schedule';
 const SCHEDULE_NAME_MAX_LENGTH = 20;
 const MAX_SCHEDULE_SECTIONS = 15;
-const SHARE_CODE_PREFIX = 'CS1.';
-const SECTIONS_BY_IDS_URL = '/api/sections-by-ids/';
+const SHARE_CODE_PREFIX = 'CS2.';
 const REQUIRED_COURSE_FIELDS = ['section_id', 'course_code', 'days', 'time'];
 const RATE_LIMIT_TOAST_ID = 'rateLimitToast';
 const DAY_TOKEN_MAP = [
@@ -38,6 +38,7 @@ const DAY_TOKEN_MAP = [
 let currentSchedule = [];
 let renderedBlocksByDay = {};
 let activeMobileConflictTrigger = null;
+let courseSearchRequestId = 0;
 
 function ensureRateLimitToast() {
     let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
@@ -109,12 +110,17 @@ function initializeSchedulePage() {
     buildCalendarHeader();
     initializeCalendar();
     setupInteractionHandlers();
-    currentSchedule = loadScheduleFromCookie();
+    currentSchedule = loadSchedule();
     updateScheduleDisplay(currentSchedule);
     updateSearchResultTimeDisplays();
 }
 
 function setupInteractionHandlers() {
+    const courseSearchForm = document.getElementById('courseSearchForm');
+    if (courseSearchForm) {
+        courseSearchForm.addEventListener('submit', handleCourseSearchSubmit);
+    }
+
     document.addEventListener('click', function(event) {
         const addButton = event.target.closest('.add-course-selection-btn');
         if (addButton) {
@@ -126,7 +132,7 @@ function setupInteractionHandlers() {
             event.preventDefault();
             if (!window.confirm('Clear your entire schedule? This cannot be undone.')) return;
             currentSchedule = [];
-            persistScheduleToCookie(currentSchedule);
+            persistSchedule(currentSchedule);
             updateScheduleDisplay(currentSchedule);
             return;
         }
@@ -246,6 +252,7 @@ function setupInteractionHandlers() {
     });
 
     document.getElementById('resetFiltersBtn').addEventListener('click', function() {
+        courseSearchRequestId += 1;
         window.setTimeout(() => {
             document.getElementById('searchResults').replaceChildren(
                 createElementWithText('div', 'empty-search', 'Choose a campus + term, then search courses to begin building your schedule.')
@@ -256,6 +263,174 @@ function setupInteractionHandlers() {
     window.addEventListener('resize', debounce(function() {
         updateScheduleDisplay(currentSchedule);
     }, 150));
+}
+
+function renderSectionChoice(course, section, choiceType) {
+    const sectionId = String(section.section_id == null ? '' : section.section_id);
+    const courseId = String(course.id == null ? '' : course.id);
+    const label = choiceType === 'lab' ? 'Lab' : 'Lecture';
+    const row = document.createElement('label');
+    row.className = 'section-choice-row';
+
+    const select = document.createElement('span');
+    select.className = 'section-select';
+    const input = document.createElement('input');
+    input.className = 'section-choice';
+    input.type = 'radio';
+    input.value = sectionId;
+    input.name = `${choiceType}-${courseId}`;
+    [
+        ['data-choice-type', choiceType],
+        ['data-course-id', courseId],
+        ['data-section-id', sectionId],
+        ['data-course-code', course.course_code],
+        ['data-course-name', course.course_name],
+        ['data-term-slug', course.term_slug],
+        ['data-section-num', section.section_num],
+        ['data-instructor', section.instructor],
+        ['data-location', section.location],
+        ['data-days', section.days],
+        ['data-time', section.time],
+        ['data-seats', section.seats],
+        ['data-credits', section.credits],
+        ['data-is-lab', section.is_lab],
+        ['data-component', section.component]
+    ].forEach(([name, value]) => input.setAttribute(name, String(value == null ? '' : value)));
+    select.append(input, createElementWithText('strong', null, section.section_num));
+
+    row.append(
+        select,
+        createElementWithText('span', null, label),
+        createElementWithText('span', 'time-display', section.time),
+        createElementWithText('span', null, section.days),
+        createElementWithText('span', null, section.location),
+        createElementWithText('span', null, section.instructor)
+    );
+    row.children[2].setAttribute('data-time', String(section.time == null ? '' : section.time));
+    return row;
+}
+
+function renderCourseResult(course) {
+    const hasLab = course.lab_sections.length > 0;
+    const article = document.createElement('article');
+    article.className = 'result-card';
+    const summary = document.createElement('button');
+    summary.className = 'result-summary';
+    summary.type = 'button';
+    summary.setAttribute('data-bs-toggle', 'collapse');
+    summary.setAttribute('data-bs-target', `#sections${course.id}`);
+    summary.setAttribute('data-bs-parent', '#courseResultsAccordion');
+    summary.setAttribute('aria-expanded', 'false');
+    const summaryText = document.createElement('span');
+    const title = createElementWithText('span', 'result-title', `${course.course_code} - ${course.course_name}`);
+    const meta = document.createElement('span');
+    meta.className = 'result-meta';
+    meta.append(
+        createElementWithText('span', null, `${course.credits} Credits`),
+        createElementWithText('span', null, course.has_required_lab ? 'Lecture + Lab' : 'Lecture')
+    );
+    summaryText.append(title, meta);
+    summary.append(summaryText, createElementWithText('span', 'result-chevron', ''));
+
+    const panel = document.createElement('div');
+    panel.className = 'collapse';
+    panel.id = `sections${course.id}`;
+    panel.setAttribute('data-bs-parent', '#courseResultsAccordion');
+    const body = createElementWithText('div', 'result-body', '');
+    body.append(
+        createSectionGroupTitle('Select a Lecture', course.has_required_lab),
+        createSectionTable(course, course.lecture_sections, 'lecture')
+    );
+    if (hasLab) {
+        body.append(
+            createSectionGroupTitle('Select a Lab', true, 'lab-title'),
+            createSectionTable(course, course.lab_sections, 'lab')
+        );
+    }
+    const actionRow = createElementWithText('div', 'course-action-row', '');
+    const addButton = createElementWithText('button', 'add-course-selection-btn', 'Add to Schedule');
+    addButton.type = 'button';
+    addButton.disabled = true;
+    addButton.setAttribute('data-course-id', course.id);
+    addButton.setAttribute('data-requires-lab', String(course.has_required_lab));
+    actionRow.appendChild(addButton);
+    body.appendChild(actionRow);
+    panel.appendChild(body);
+    article.append(summary, panel);
+    return article;
+}
+
+function createSectionGroupTitle(label, required, className) {
+    const title = createElementWithText('div', `section-group-title${className ? ` ${className}` : ''}`, label);
+    if (required) title.appendChild(createElementWithText('span', null, '(required)'));
+    return title;
+}
+
+function createSectionTable(course, sections, choiceType) {
+    const table = createElementWithText('div', 'section-table', '');
+    const header = createElementWithText('div', 'section-table-head', '');
+    ['Section', 'Type', 'Time', 'Days', 'Location', 'Instructor'].forEach(label => {
+        header.appendChild(createElementWithText('span', null, label));
+    });
+    table.appendChild(header);
+    if (sections.length) {
+        sections.forEach(section => table.appendChild(renderSectionChoice(course, section, choiceType)));
+    } else {
+        table.appendChild(createElementWithText('div', 'muted-cell', 'No sections available'));
+    }
+    return table;
+}
+
+function renderCourseResults(courses) {
+    const results = document.getElementById('searchResults');
+    if (!results) return;
+    results.replaceChildren();
+    if (!courses.length) {
+        results.appendChild(createElementWithText('div', 'empty-search', 'No courses found.'));
+        return;
+    }
+
+    const accordion = createElementWithText('div', 'course-results-accordion', '');
+    accordion.id = 'courseResultsAccordion';
+    courses.forEach(course => accordion.appendChild(renderCourseResult(course)));
+    results.appendChild(accordion);
+    const firstSummary = results.querySelector('.result-summary');
+    const firstPanel = results.querySelector('.collapse');
+    if (firstSummary && firstPanel) {
+        firstSummary.setAttribute('aria-expanded', 'true');
+        firstPanel.classList.add('show');
+    }
+    updateSearchResultTimeDisplays();
+}
+
+async function handleCourseSearchSubmit(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const results = document.getElementById('searchResults');
+    const requestId = ++courseSearchRequestId;
+    const formData = new FormData(form);
+    const campus = formData.get('campus');
+    const term = formData.get('semester');
+
+    if (!campus || !term) {
+        renderCourseResults([]);
+        return;
+    }
+
+    if (results) results.replaceChildren(createElementWithText('div', 'empty-search', 'Loading courses...'));
+    try {
+        const courses = await CourseApi.fetchCourses(campus, term);
+        if (requestId !== courseSearchRequestId) return;
+        renderCourseResults(CourseApi.filterCourses(courses, {
+            q: formData.get('q'),
+            subject: formData.get('subject'),
+            number: formData.get('number')
+        }));
+    } catch (error) {
+        if (requestId !== courseSearchRequestId) return;
+        if (results) results.replaceChildren(createElementWithText('div', 'empty-search', 'Unable to load courses. Please try again.'));
+        console.error('Unable to load course data:', error);
+    }
 }
 
 function isMobileViewport() {
@@ -306,9 +481,9 @@ function updateCourseAddButton(courseId) {
 }
 
 function buildCourseDataFromChoice(choice, scheduleGroupId) {
-    return {
+    return CourseApi.toScheduleEntry({
         section_id: choice.getAttribute('data-section-id'),
-        schedule_group_id: scheduleGroupId,
+        term_slug: choice.getAttribute('data-term-slug'),
         course_code: choice.getAttribute('data-course-code'),
         course_name: choice.getAttribute('data-course-name'),
         section_num: choice.getAttribute('data-section-num'),
@@ -320,7 +495,7 @@ function buildCourseDataFromChoice(choice, scheduleGroupId) {
         credits: choice.getAttribute('data-credits') || '0',
         is_lab: choice.getAttribute('data-is-lab') === 'true',
         component: choice.getAttribute('data-component') || 'lecture'
-    };
+    }, scheduleGroupId);
 }
 
 function showSectionGhost(row) {
@@ -492,7 +667,7 @@ function handleAddCourseSelection(button, event) {
 
     if (!selectedCourses.length) return;
     currentSchedule.push(...selectedCourses);
-    persistScheduleToCookie(currentSchedule);
+    persistSchedule(currentSchedule);
     updateScheduleDisplay(currentSchedule);
     if (isMobileViewport()) setMobilePane('schedule');
 }
@@ -913,31 +1088,41 @@ function removeFromSchedule(sectionId) {
         if (scheduleGroupId) return entry.schedule_group_id !== scheduleGroupId;
         return String(entry.section_id) !== String(sectionId);
     });
-    persistScheduleToCookie(currentSchedule);
+    persistSchedule(currentSchedule);
     updateScheduleDisplay(currentSchedule);
 }
 
-function persistScheduleToCookie(scheduleData) {
-    document.cookie = `${SCHEDULE_COOKIE_NAME}=${encodeURIComponent(JSON.stringify(scheduleData))}; path=/; max-age=${SCHEDULE_COOKIE_MAX_AGE_SECONDS}; samesite=lax`;
+function persistSchedule(scheduleData) {
+    const serialized = JSON.stringify(scheduleData);
+    try {
+        localStorage.setItem(SCHEDULE_STORAGE_KEY, serialized);
+        return true;
+    } catch (error) {
+        return false;
+    }
 }
 
 function isValidCourseEntry(item) {
     return !!item && REQUIRED_COURSE_FIELDS.every(field => item[field]);
 }
 
-function loadScheduleFromCookie() {
-    const cookies = document.cookie ? document.cookie.split(';') : [];
-    const prefix = `${SCHEDULE_COOKIE_NAME}=`;
-    for (let i = 0; i < cookies.length; i++) {
-        const cookie = cookies[i].trim();
-        if (!cookie.startsWith(prefix)) continue;
-        try {
-            const parsed = JSON.parse(decodeURIComponent(cookie.substring(prefix.length)));
-            return Array.isArray(parsed) ? parsed.filter(isValidCourseEntry) : [];
-        } catch (error) {
-            return [];
-        }
+function parseStoredSchedule(serialized) {
+    try {
+        const parsed = JSON.parse(serialized);
+        return Array.isArray(parsed) ? parsed.filter(isValidCourseEntry) : [];
+    } catch (error) {
+        return [];
     }
+}
+
+function loadSchedule() {
+    try {
+        const storedSchedule = localStorage.getItem(SCHEDULE_STORAGE_KEY);
+        if (storedSchedule !== null) return parseStoredSchedule(storedSchedule);
+    } catch (error) {
+        console.warn('Unable to read saved schedule from local storage:', error);
+    }
+
     return [];
 }
 
@@ -974,19 +1159,28 @@ function decodeBase64Url(value) {
     return new TextDecoder().decode(bytes);
 }
 
-function getCurrentScheduleSectionIds() {
-    const sectionIds = [];
+function getCurrentScheduleTerms() {
+    const terms = new Map();
+    let totalSections = 0;
     currentSchedule.forEach(item => {
-        const sectionId = parseInt(item.section_id, 10);
-        if (Number.isInteger(sectionId) && !sectionIds.includes(sectionId)) sectionIds.push(sectionId);
+        if (totalSections >= MAX_SCHEDULE_SECTIONS) return;
+        const slug = String(item.term_slug || '');
+        const sln = String(item.section_id || '');
+        if (!slug || !sln) return;
+        if (!terms.has(slug)) terms.set(slug, new Set());
+        const slns = terms.get(slug);
+        if (!slns.has(sln)) {
+            slns.add(sln);
+            totalSections += 1;
+        }
     });
-    return sectionIds;
+    return Array.from(terms, ([slug, slns]) => ({ slug, slns: Array.from(slns) }));
 }
 
 function buildShareCode() {
     return `${SHARE_CODE_PREFIX}${encodeBase64Url(JSON.stringify({
         n: getScheduleName(),
-        s: getCurrentScheduleSectionIds()
+        terms: getCurrentScheduleTerms()
     }))}`;
 }
 
@@ -998,14 +1192,31 @@ function parseShareCode(code) {
 
     const payload = JSON.parse(decodeBase64Url(normalizedCode.slice(SHARE_CODE_PREFIX.length)));
     const name = String(payload.n || DEFAULT_SCHEDULE_NAME).trim().slice(0, SCHEDULE_NAME_MAX_LENGTH) || DEFAULT_SCHEDULE_NAME;
-    const sectionIds = Array.isArray(payload.s)
-        ? payload.s.map(sectionId => parseInt(sectionId, 10)).filter(Number.isInteger)
-        : [];
-    if (!sectionIds.length) throw new Error('This share code does not contain any sections.');
+    const terms = [];
+    const seen = new Set();
+    let totalSections = 0;
+    if (Array.isArray(payload.terms)) {
+        payload.terms.forEach(term => {
+            if (totalSections >= MAX_SCHEDULE_SECTIONS || !term || !term.slug || !Array.isArray(term.slns)) return;
+            const slug = String(term.slug);
+            const slns = [];
+            term.slns.forEach(sln => {
+                const normalizedSln = String(sln || '');
+                const key = `${slug}:${normalizedSln}`;
+                if (normalizedSln && !seen.has(key) && totalSections < MAX_SCHEDULE_SECTIONS) {
+                    seen.add(key);
+                    slns.push(normalizedSln);
+                    totalSections += 1;
+                }
+            });
+            if (slns.length) terms.push({ slug, slns });
+        });
+    }
+    if (!terms.length) throw new Error('This share code does not contain any sections.');
 
     return {
         name,
-        sectionIds: Array.from(new Set(sectionIds)).slice(0, MAX_SCHEDULE_SECTIONS)
+        terms
     };
 }
 
@@ -1019,7 +1230,7 @@ async function copyTextToClipboard(text) {
 
 async function shareScheduleCode() {
     normalizeScheduleNameInput();
-    if (!getCurrentScheduleSectionIds().length) {
+    if (!getCurrentScheduleTerms().length) {
         window.alert('Add at least one class before creating a share code.');
         return;
     }
@@ -1036,35 +1247,39 @@ async function shareScheduleCode() {
     window.prompt('Copy this share code:', shareCode);
 }
 
-async function fetchScheduleForSectionIds(sectionIds) {
-    const response = await fetch(SECTIONS_BY_IDS_URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-CSRFToken': getCookie('csrftoken')
-        },
-        body: JSON.stringify({ section_ids: sectionIds })
-    });
-    if (response.status === 429) {
-        let message = response.headers.get('X-Rate-Limit-Message');
-        if (!message) {
-            try {
-                const errorData = await response.json();
-                message = errorData.message;
-            } catch (error) {
-                message = 'You are sending requests too quickly. Please wait a moment.';
-            }
+async function fetchScheduleForTerms(terms) {
+    const datasets = new Map();
+    for (const term of terms) {
+        if (!datasets.has(term.slug)) {
+            datasets.set(term.slug, await CourseApi.fetchDatasetByKey(term.slug));
         }
-        showRateLimitToast(message);
-        const error = new Error(message || 'You are sending requests too quickly. Please wait a moment.');
-        error.rateLimited = true;
-        throw error;
     }
-    const data = await response.json();
-    if (!response.ok || !data.success) {
-        throw new Error(data.error || 'The schedule could not be rebuilt from that share code.');
-    }
-    return data;
+
+    const matches = [];
+    const missingSectionIds = [];
+    terms.forEach(term => {
+        const dataset = datasets.get(term.slug);
+        term.slns.forEach(sln => {
+            const match = dataset.sectionsBySln.get(String(sln));
+            if (match) matches.push({ dataset, ...match });
+            else missingSectionIds.push(String(sln));
+        });
+    });
+
+    const groupedIds = new Map();
+    matches.forEach(match => {
+        const key = `${match.dataset.key}:${match.course.id}`;
+        if (!groupedIds.has(key)) groupedIds.set(key, []);
+        groupedIds.get(key).push(String(match.section.section_id));
+    });
+
+    const schedule = matches.map(match => {
+        const key = `${match.dataset.key}:${match.course.id}`;
+        const ids = groupedIds.get(key);
+        const groupId = ids.length > 1 ? ids.join('-') : null;
+        return CourseApi.toScheduleEntry(match.section, groupId);
+    });
+    return { schedule, missing_section_ids: missingSectionIds };
 }
 
 async function importScheduleFromShareCode() {
@@ -1076,7 +1291,7 @@ async function importScheduleFromShareCode() {
         const confirmed = window.confirm(`Import "${parsedCode.name}" and replace your current schedule?`);
         if (!confirmed) return;
 
-        const data = await fetchScheduleForSectionIds(parsedCode.sectionIds);
+        const data = await fetchScheduleForTerms(parsedCode.terms);
         if (!data.schedule.length) {
             window.alert('No matching sections were found for that share code.');
             return;
@@ -1086,7 +1301,7 @@ async function importScheduleFromShareCode() {
         if (nameInput) nameInput.value = parsedCode.name;
         saveScheduleName();
         currentSchedule = data.schedule;
-        persistScheduleToCookie(currentSchedule);
+        persistSchedule(currentSchedule);
         updateScheduleDisplay(currentSchedule);
         if (isMobileViewport()) setMobilePane('schedule');
 
