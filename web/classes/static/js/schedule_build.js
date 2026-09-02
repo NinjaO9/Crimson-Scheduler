@@ -406,12 +406,6 @@ function renderCourseResults(courses) {
     accordion.id = 'courseResultsAccordion';
     courses.forEach(course => accordion.appendChild(renderCourseResult(course)));
     results.appendChild(accordion);
-    const firstSummary = results.querySelector('.result-summary');
-    const firstPanel = results.querySelector('.collapse');
-    if (firstSummary && firstPanel) {
-        firstSummary.setAttribute('aria-expanded', 'true');
-        firstPanel.classList.add('show');
-    }
     updateSearchResultTimeDisplays();
 }
 
