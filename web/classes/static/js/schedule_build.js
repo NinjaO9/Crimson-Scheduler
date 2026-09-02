@@ -39,6 +39,7 @@ let currentSchedule = [];
 let renderedBlocksByDay = {};
 let activeMobileConflictTrigger = null;
 let courseSearchRequestId = 0;
+const AUTO_SEARCH_DELAY_MS = 250;
 
 function ensureRateLimitToast() {
     let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
@@ -119,6 +120,15 @@ function setupInteractionHandlers() {
     const courseSearchForm = document.getElementById('courseSearchForm');
     if (courseSearchForm) {
         courseSearchForm.addEventListener('submit', handleCourseSearchSubmit);
+
+        const autoSearch = debounce(() => handleCourseSearch(courseSearchForm), AUTO_SEARCH_DELAY_MS);
+        courseSearchForm.querySelectorAll('#subjectFilter, #numberFilter, #searchInput').forEach(input => {
+            input.addEventListener('input', autoSearch);
+        });
+        courseSearchForm.querySelectorAll('#campusFilter, #semesterFilter').forEach(select => {
+            select.addEventListener('change', autoSearch);
+        });
+        courseSearchForm.autoSearch = autoSearch;
     }
 
     document.addEventListener('click', function(event) {
@@ -252,6 +262,8 @@ function setupInteractionHandlers() {
     });
 
     document.getElementById('resetFiltersBtn').addEventListener('click', function() {
+        const form = document.getElementById('courseSearchForm');
+        if (form && form.autoSearch && form.autoSearch.cancel) form.autoSearch.cancel();
         courseSearchRequestId += 1;
         window.setTimeout(() => {
             document.getElementById('searchResults').replaceChildren(
@@ -403,17 +415,24 @@ function renderCourseResults(courses) {
     updateSearchResultTimeDisplays();
 }
 
-async function handleCourseSearchSubmit(event) {
-    event.preventDefault();
-    const form = event.currentTarget;
+function searchHasCriteria(formData) {
+    return ['q', 'subject', 'number'].some(name => String(formData.get(name) || '').trim());
+}
+
+async function handleCourseSearch(form, options) {
+    const allowEmptySearch = options && options.allowEmptySearch;
     const results = document.getElementById('searchResults');
     const requestId = ++courseSearchRequestId;
     const formData = new FormData(form);
     const campus = formData.get('campus');
     const term = formData.get('semester');
 
-    if (!campus || !term) {
-        renderCourseResults([]);
+    if (!campus || !term || (!allowEmptySearch && !searchHasCriteria(formData))) {
+        if (results) results.replaceChildren(createElementWithText(
+            'div',
+            'empty-search',
+            'Choose a campus + term, then start typing to search courses.'
+        ));
         return;
     }
 
@@ -431,6 +450,11 @@ async function handleCourseSearchSubmit(event) {
         if (results) results.replaceChildren(createElementWithText('div', 'empty-search', 'Unable to load courses. Please try again.'));
         console.error('Unable to load course data:', error);
     }
+}
+
+async function handleCourseSearchSubmit(event) {
+    event.preventDefault();
+    return handleCourseSearch(event.currentTarget, { allowEmptySearch: true });
 }
 
 function isMobileViewport() {
@@ -461,10 +485,14 @@ function setMobilePane(targetPane) {
 
 function debounce(callback, delay) {
     let timerId;
-    return function(...args) {
+    const debounced = function(...args) {
         window.clearTimeout(timerId);
         timerId = window.setTimeout(() => callback.apply(this, args), delay);
     };
+    debounced.cancel = function() {
+        window.clearTimeout(timerId);
+    };
+    return debounced;
 }
 
 function findSelectedCourseChoice(courseId, choiceType) {

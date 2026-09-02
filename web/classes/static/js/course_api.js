@@ -91,9 +91,9 @@
 
         return (Array.isArray(courses) ? courses : [])
             .filter(course => {
-                if (subject && text(course.subject).toLowerCase() !== subject) return false;
+                if (subject && !includes(course.subject, subject)) return false;
                 if (number && !includes(course.course_number, number)) return false;
-                if (query && query.length >= 2 && ![
+                if (query && ![
                     course.course_name,
                     course.subject,
                     course.course_number,
