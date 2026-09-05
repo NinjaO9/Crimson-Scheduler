@@ -1,0 +1,3615 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:16:20.823162+00:00",
+  "campus": "Everett",
+  "term": "Summer 2026",
+  "subjects": [
+    {
+      "subject": "CPT_S",
+      "courses": [
+        {
+          "course": "Program Design and Development C/C++",
+          "subject": "CPT_S",
+          "courseNumber": 121,
+          "courseCode": "CPT_S 121",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3599",
+              "sln": 3599,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 121",
+              "courseName": "Program Design and Development C/C++",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH",
+              "time": "09:00 - 10:15",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "09:00 - 10:15"
+                }
+              ],
+              "location": "EVRT 456",
+              "instructor": "A O'FALLON",
+              "instructors": [
+                "A O'FALLON"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Jun 01",
+                "end": "Jul 09"
+              }
+            },
+            {
+              "sectionId": "3600",
+              "sln": 3600,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 121",
+              "courseName": "Program Design and Development C/C++",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "13:00 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "13:00 - 16:00"
+                }
+              ],
+              "location": "EVRT 456",
+              "instructor": "A O'FALLON",
+              "instructors": [
+                "A O'FALLON"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Jun 01",
+                "end": "Jul 09"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Structures C/C++",
+          "subject": "CPT_S",
+          "courseNumber": 122,
+          "courseCode": "CPT_S 122",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3601",
+              "sln": 3601,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 122",
+              "courseName": "Data Structures C/C++",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH",
+              "time": "10:25 - 11:40",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "10:25 - 11:40"
+                }
+              ],
+              "location": "EVRT 456",
+              "instructor": "A O'FALLON",
+              "instructors": [
+                "A O'FALLON"
+              ],
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
+              },
+              "dates": {
+                "start": "Jun 01",
+                "end": "Jul 09"
+              }
+            },
+            {
+              "sectionId": "3602",
+              "sln": 3602,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 122",
+              "courseName": "Data Structures C/C++",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "13:00 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:00 - 16:00"
+                }
+              ],
+              "location": "EVRT 456",
+              "instructor": "A O'FALLON",
+              "instructors": [
+                "A O'FALLON"
+              ],
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
+              },
+              "dates": {
+                "start": "Jun 01",
+                "end": "Jul 09"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Data Structures C/C++",
+          "subject": "CPT_S",
+          "courseNumber": 223,
+          "courseCode": "CPT_S 223",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3170",
+              "sln": 3170,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 223",
+              "courseName": "Advanced Data Structures C/C++",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH",
+              "time": "09:10 - 10:30",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "09:10 - 10:30"
+                }
+              ],
+              "location": "EVRT 458",
+              "instructor": "B ZENG",
+              "instructors": [
+                "B ZENG"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 26"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Computer Architecture",
+          "subject": "CPT_S",
+          "courseNumber": 260,
+          "courseCode": "CPT_S 260",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2182",
+              "sln": 2182,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 260",
+              "courseName": "Introduction to Computer Architecture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH",
+              "time": "10:35 - 11:25",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "10:35 - 11:25"
+                }
+              ],
+              "location": "EVRT 458",
+              "instructor": "A JILLEPALLI",
+              "instructors": [
+                "A JILLEPALLI"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Fundamentals of Cyber Security and Cryptography",
+          "subject": "CPT_S",
+          "courseNumber": 327,
+          "courseCode": "CPT_S 327",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3501",
+              "sln": 3501,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 327",
+              "courseName": "Fundamentals of Cyber Security and Cryptography",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "EVRT 458",
+              "instructor": "A JILLEPALLI",
+              "instructors": [
+                "A JILLEPALLI"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 20,
+                "available": 18,
+                "label": "2/20"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "CPT_S",
+          "courseNumber": 488,
+          "courseCode": "CPT_S 488",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3175",
+              "sln": 3175,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L HATHAWAY",
+              "instructors": [
+                "L HATHAWAY"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "CPT_S",
+          "courseNumber": 499,
+          "courseCode": "CPT_S 499",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3178",
+              "sln": 3178,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 499",
+              "courseName": "Special Problems",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B ZENG",
+              "instructors": [
+                "B ZENG"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "E_E",
+      "courses": [
+        {
+          "course": "Electrical Circuits I",
+          "subject": "E_E",
+          "courseNumber": 261,
+          "courseCode": "E_E 261",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3146",
+              "sln": 3146,
+              "sectionNumber": 1,
+              "courseCode": "E_E 261",
+              "courseName": "Electrical Circuits I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH,F",
+              "time": "10:10 - 11:30",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "10:10 - 11:30"
+                }
+              ],
+              "location": "EVRT 358",
+              "instructor": "S XIE",
+              "instructors": [
+                "S XIE"
+              ],
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 28"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Electrical Circuits Laboratory I",
+          "subject": "E_E",
+          "courseNumber": 262,
+          "courseCode": "E_E 262",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3147",
+              "sln": 3147,
+              "sectionNumber": 1,
+              "courseCode": "E_E 262",
+              "courseName": "Electrical Circuits Laboratory I",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:20 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:20 - 16:20"
+                }
+              ],
+              "location": "EVRT 451",
+              "instructor": "S XIE",
+              "instructors": [
+                "S XIE"
+              ],
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 28"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "E_E",
+          "courseNumber": 488,
+          "courseCode": "E_E 488",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3176",
+              "sln": 3176,
+              "sectionNumber": 1,
+              "courseCode": "E_E 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L HATHAWAY",
+              "instructors": [
+                "L HATHAWAY"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 10,
+                "available": 9,
+                "label": "1/10"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ED_AD",
+      "courses": [
+        {
+          "course": "Policy Formation and Analysis in Education",
+          "subject": "ED_AD",
+          "courseNumber": 582,
+          "courseCode": "ED_AD 582",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3160",
+              "sln": 3160,
+              "sectionNumber": 1,
+              "courseCode": "ED_AD 582",
+              "courseName": "Policy Formation and Analysis in Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "17:30 - 21:30",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "17:30 - 21:30"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "S CALDERONE",
+              "instructors": [
+                "S CALDERONE"
+              ],
+              "seats": {
+                "taken": 6,
+                "total": 25,
+                "available": 19,
+                "label": "6/25"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "ED_AD",
+          "courseNumber": 800,
+          "courseCode": "ED_AD 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3161",
+              "sln": 3161,
+              "sectionNumber": 1,
+              "courseCode": "ED_AD 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CALDERONE",
+              "instructors": [
+                "S CALDERONE"
+              ],
+              "seats": {
+                "taken": 7,
+                "total": 8,
+                "available": 1,
+                "label": "7/8"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ENGR",
+      "courses": [
+        {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "ENGR",
+          "courseNumber": 488,
+          "courseCode": "ENGR 488",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3174",
+              "sln": 3174,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Practice Coop/Internship II",
+          "subject": "ENGR",
+          "courseNumber": 489,
+          "courseCode": "ENGR 489",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3173",
+              "sln": 3173,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 489",
+              "courseName": "Professional Practice Coop/Internship II",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HBM",
+      "courses": [
+        {
+          "course": "Special Topics",
+          "subject": "HBM",
+          "courseNumber": 497,
+          "courseCode": "HBM 497",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3536",
+              "sln": 3536,
+              "sectionNumber": 1,
+              "courseCode": "HBM 497",
+              "courseName": "Special Topics",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH",
+              "time": "10:45 - 12:15",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "10:45 - 12:15"
+                }
+              ],
+              "location": "EVRT 340",
+              "instructor": "S SEO",
+              "instructors": [
+                "S SEO"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 21"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ME",
+      "courses": [
+        {
+          "course": "Fluid Mechanics",
+          "subject": "ME",
+          "courseNumber": 303,
+          "courseCode": "ME 303",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3151",
+              "sln": 3151,
+              "sectionNumber": 1,
+              "courseCode": "ME 303",
+              "courseName": "Fluid Mechanics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH,F",
+              "time": "09:30 - 10:45",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "09:30 - 10:45"
+                }
+              ],
+              "location": "EVRT 452",
+              "instructor": "Y HU",
+              "instructors": [
+                "Y HU"
+              ],
+              "seats": {
+                "taken": 5,
+                "total": 20,
+                "available": 15,
+                "label": "5/20"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Manufacturing Processes",
+          "subject": "ME",
+          "courseNumber": 310,
+          "courseCode": "ME 310",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3164",
+              "sln": 3164,
+              "sectionNumber": 1,
+              "courseCode": "ME 310",
+              "courseName": "Manufacturing Processes",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH,F",
+              "time": "11:00 - 12:15",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "11:00 - 12:15"
+                }
+              ],
+              "location": "EVRT 452",
+              "instructor": "X BI",
+              "instructors": [
+                "X BI"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 07"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Manufacturing Engineering",
+          "subject": "ME",
+          "courseNumber": 312,
+          "courseCode": "ME 312",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3163",
+              "sln": 3163,
+              "sectionNumber": 1,
+              "courseCode": "ME 312",
+              "courseName": "Manufacturing Engineering",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH,F",
+              "time": "11:00 - 12:15",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "11:00 - 12:15"
+                }
+              ],
+              "location": "EVRT 452",
+              "instructor": "X BI",
+              "instructors": [
+                "X BI"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 07"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Dynamics Systems",
+          "subject": "ME",
+          "courseNumber": 348,
+          "courseCode": "ME 348",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3152",
+              "sln": 3152,
+              "sectionNumber": 1,
+              "courseCode": "ME 348",
+              "courseName": "Dynamics Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH,F",
+              "time": "12:30 - 13:45",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "12:30 - 13:45"
+                }
+              ],
+              "location": "EVRT 452",
+              "instructor": "Y HU",
+              "instructors": [
+                "Y HU"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 20,
+                "available": 19,
+                "label": "1/20"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jun 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "ME",
+          "courseNumber": 488,
+          "courseCode": "ME 488",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3177",
+              "sln": 3177,
+              "sectionNumber": 1,
+              "courseCode": "ME 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L HATHAWAY",
+              "instructors": [
+                "L HATHAWAY"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MED_CLIN",
+      "courses": [
+        {
+          "course": "Longitudinal Integrated Clerkship I",
+          "subject": "MED_CLIN",
+          "courseNumber": 521,
+          "courseCode": "MED_CLIN 521",
+          "credits": "8",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2480",
+              "sln": 2480,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 521",
+              "courseName": "Longitudinal Integrated Clerkship I",
+              "credits": "8",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "12:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 17:00"
+                }
+              ],
+              "location": "",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 27,
+                "total": 35,
+                "available": 8,
+                "label": "27/35"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Topics in Clinical Cases",
+          "subject": "MED_CLIN",
+          "courseNumber": 530,
+          "courseCode": "MED_CLIN 530",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2540",
+              "sln": 2540,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 530",
+              "courseName": "Virtual - Topics in Clinical Cases",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MARCIN",
+              "instructors": [
+                "J MARCIN"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Family Medicine - Subinternship",
+          "subject": "MED_CLIN",
+          "courseNumber": 531,
+          "courseCode": "MED_CLIN 531",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2491",
+              "sln": 2491,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 531",
+              "courseName": "Family Medicine - Subinternship",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BOWMAN",
+              "instructors": [
+                "J BOWMAN"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Subinternship",
+          "subject": "MED_CLIN",
+          "courseNumber": 532,
+          "courseCode": "MED_CLIN 532",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2492",
+              "sln": 2492,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 532",
+              "courseName": "Internal Medicine - Subinternship",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Surgery - Subinternship",
+          "subject": "MED_CLIN",
+          "courseNumber": 533,
+          "courseCode": "MED_CLIN 533",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2493",
+              "sln": 2493,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 533",
+              "courseName": "Topics in Surgery - Subinternship",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J DROSDECK",
+              "instructors": [
+                "J DROSDECK"
+              ],
+              "seats": {
+                "taken": 4,
+                "total": 15,
+                "available": 11,
+                "label": "4/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pediatrics - Subinternship",
+          "subject": "MED_CLIN",
+          "courseNumber": 534,
+          "courseCode": "MED_CLIN 534",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2494",
+              "sln": 2494,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 534",
+              "courseName": "Pediatrics - Subinternship",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H PARKER",
+              "instructors": [
+                "H PARKER"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Psychiatry - Subinternship",
+          "subject": "MED_CLIN",
+          "courseNumber": 535,
+          "courseCode": "MED_CLIN 535",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2495",
+              "sln": 2495,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 535",
+              "courseName": "Psychiatry - Subinternship",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M LAVIN",
+              "instructors": [
+                "M LAVIN"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Obstetrics and Gynecology - Subinternship",
+          "subject": "MED_CLIN",
+          "courseNumber": 536,
+          "courseCode": "MED_CLIN 536",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2500",
+              "sln": 2500,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 536",
+              "courseName": "Obstetrics and Gynecology - Subinternship",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D KOPP",
+              "instructors": [
+                "D KOPP"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Emergency Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 537,
+          "courseCode": "MED_CLIN 537",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2501",
+              "sln": 2501,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 537",
+              "courseName": "Topics in Emergency Medicine",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K HODGES",
+              "instructors": [
+                "K HODGES"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Core - Rural Underserved Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 538,
+          "courseCode": "MED_CLIN 538",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2502",
+              "sln": 2502,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 538",
+              "courseName": "Core - Rural Underserved Medicine",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BOWMAN",
+              "instructors": [
+                "J BOWMAN"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Core - Urban Underserved Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 539,
+          "courseCode": "MED_CLIN 539",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2503",
+              "sln": 2503,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 539",
+              "courseName": "Core - Urban Underserved Medicine",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BOWMAN",
+              "instructors": [
+                "J BOWMAN"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Advanced Multi-Specialty Clinical Cases",
+          "subject": "MED_CLIN",
+          "courseNumber": 540,
+          "courseCode": "MED_CLIN 540",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2542",
+              "sln": 2542,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 540",
+              "courseName": "Virtual - Advanced Multi-Specialty Clinical Cases",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M LAVIN",
+              "instructors": [
+                "M LAVIN"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Diagnostic Radiology",
+          "subject": "MED_CLIN",
+          "courseNumber": 541,
+          "courseCode": "MED_CLIN 541",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2504",
+              "sln": 2504,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 541",
+              "courseName": "Clinical Rotation - Diagnostic Radiology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J KACZMARK",
+              "instructors": [
+                "J KACZMARK"
+              ],
+              "seats": {
+                "taken": 4,
+                "total": 15,
+                "available": 11,
+                "label": "4/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Dermatology",
+          "subject": "MED_CLIN",
+          "courseNumber": 542,
+          "courseCode": "MED_CLIN 542",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2505",
+              "sln": 2505,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 542",
+              "courseName": "Clinical Rotation - Dermatology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D SMITH",
+              "instructors": [
+                "D SMITH"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Nephrology",
+          "subject": "MED_CLIN",
+          "courseNumber": 544,
+          "courseCode": "MED_CLIN 544",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2536",
+              "sln": 2536,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 544",
+              "courseName": "Internal Medicine - Nephrology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Critical Care",
+          "subject": "MED_CLIN",
+          "courseNumber": 545,
+          "courseCode": "MED_CLIN 545",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2535",
+              "sln": 2535,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 545",
+              "courseName": "Internal Medicine - Critical Care",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Cardiology",
+          "subject": "MED_CLIN",
+          "courseNumber": 547,
+          "courseCode": "MED_CLIN 547",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2538",
+              "sln": 2538,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 547",
+              "courseName": "Internal Medicine - Cardiology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery - Topics in Orthopaedic Surgery",
+          "subject": "MED_CLIN",
+          "courseNumber": 548,
+          "courseCode": "MED_CLIN 548",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2539",
+              "sln": 2539,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 548",
+              "courseName": "Surgery - Topics in Orthopaedic Surgery",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B CHIA",
+              "instructors": [
+                "B CHIA"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Hematology and Oncology",
+          "subject": "MED_CLIN",
+          "courseNumber": 549,
+          "courseCode": "MED_CLIN 549",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2569",
+              "sln": 2569,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 549",
+              "courseName": "Internal Medicine - Hematology and Oncology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Topics in Pathology",
+          "subject": "MED_CLIN",
+          "courseNumber": 551,
+          "courseCode": "MED_CLIN 551",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2507",
+              "sln": 2507,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 551",
+              "courseName": "Clinical Rotation - Topics in Pathology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L KOCH",
+              "instructors": [
+                "L KOCH"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2508",
+              "sln": 2508,
+              "sectionNumber": 2,
+              "courseCode": "MED_CLIN 551",
+              "courseName": "Clinical Rotation - Topics in Pathology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L KOCH",
+              "instructors": [
+                "L KOCH"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Gastroenterology",
+          "subject": "MED_CLIN",
+          "courseNumber": 552,
+          "courseCode": "MED_CLIN 552",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2567",
+              "sln": 2567,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 552",
+              "courseName": "Internal Medicine - Gastroenterology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Medical Humanities",
+          "subject": "MED_CLIN",
+          "courseNumber": 558,
+          "courseCode": "MED_CLIN 558",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2570",
+              "sln": 2570,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 558",
+              "courseName": "Virtual - Medical Humanities",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MARCIN",
+              "instructors": [
+                "J MARCIN"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Away Rotation Topics - North America",
+          "subject": "MED_CLIN",
+          "courseNumber": 570,
+          "courseCode": "MED_CLIN 570",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2520",
+              "sln": 2520,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2521",
+              "sln": 2521,
+              "sectionNumber": 2,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2522",
+              "sln": 2522,
+              "sectionNumber": 3,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2523",
+              "sln": 2523,
+              "sectionNumber": 4,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2524",
+              "sln": 2524,
+              "sectionNumber": 5,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2741",
+              "sln": 2741,
+              "sectionNumber": 6,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "2742",
+              "sln": 2742,
+              "sectionNumber": 7,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "3692",
+              "sln": 3692,
+              "sectionNumber": 8,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "3728",
+              "sln": 3728,
+              "sectionNumber": 9,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "3758",
+              "sln": 3758,
+              "sectionNumber": 10,
+              "courseCode": "MED_CLIN 570",
+              "courseName": "Away Rotation Topics - North America",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation Anesthesiology General",
+          "subject": "MED_CLIN",
+          "courseNumber": 573,
+          "courseCode": "MED_CLIN 573",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2527",
+              "sln": 2527,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 573",
+              "courseName": "Clinical Rotation Anesthesiology General",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SIDDIQUI",
+              "instructors": [
+                "S SIDDIQUI"
+              ],
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery - Advanced General Surgery",
+          "subject": "MED_CLIN",
+          "courseNumber": 578,
+          "courseCode": "MED_CLIN 578",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2490",
+              "sln": 2490,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 578",
+              "courseName": "Surgery - Advanced General Surgery",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J DROSDECK",
+              "instructors": [
+                "J DROSDECK"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Topics in Hospice and Palliative Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 585,
+          "courseCode": "MED_CLIN 585",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2485",
+              "sln": 2485,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 585",
+              "courseName": "Clinical Rotation - Topics in Hospice and Palliative Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MARCIN",
+              "instructors": [
+                "J MARCIN"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Radiation Oncology",
+          "subject": "MED_CLIN",
+          "courseNumber": 588,
+          "courseCode": "MED_CLIN 588",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2483",
+              "sln": 2483,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 588",
+              "courseName": "Clinical Rotation - Radiation Oncology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SCOTT",
+              "instructors": [
+                "S SCOTT"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery - Otolaryngology (Head and Neck Surgery)",
+          "subject": "MED_CLIN",
+          "courseNumber": 591,
+          "courseCode": "MED_CLIN 591",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2553",
+              "sln": 2553,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 591",
+              "courseName": "Surgery - Otolaryngology (Head and Neck Surgery)",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A KUMAR",
+              "instructors": [
+                "A KUMAR"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery - Plastic Surgery",
+          "subject": "MED_CLIN",
+          "courseNumber": 592,
+          "courseCode": "MED_CLIN 592",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2554",
+              "sln": 2554,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 592",
+              "courseName": "Surgery - Plastic Surgery",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J DROSDECK",
+              "instructors": [
+                "J DROSDECK"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            },
+            {
+              "sectionId": "3755",
+              "sln": 3755,
+              "sectionNumber": 2,
+              "courseCode": "MED_CLIN 592",
+              "courseName": "Surgery - Plastic Surgery",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J DROSDECK",
+              "instructors": [
+                "J DROSDECK"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery - Thoracic and Cardiac Surgery",
+          "subject": "MED_CLIN",
+          "courseNumber": 593,
+          "courseCode": "MED_CLIN 593",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2574",
+              "sln": 2574,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 593",
+              "courseName": "Surgery - Thoracic and Cardiac Surgery",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A KUMAR",
+              "instructors": [
+                "A KUMAR"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Science - Research Experience",
+          "subject": "MED_CLIN",
+          "courseNumber": 598,
+          "courseCode": "MED_CLIN 598",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2479",
+              "sln": 2479,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 598",
+              "courseName": "Science - Research Experience",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D DEWITT",
+              "instructors": [
+                "D DEWITT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internal Medicine - Infectious Diseases",
+          "subject": "MED_CLIN",
+          "courseNumber": 601,
+          "courseCode": "MED_CLIN 601",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2575",
+              "sln": 2575,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 601",
+              "courseName": "Internal Medicine - Infectious Diseases",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pediatrics - Critical Care",
+          "subject": "MED_CLIN",
+          "courseNumber": 617,
+          "courseCode": "MED_CLIN 617",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2588",
+              "sln": 2588,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 617",
+              "courseName": "Pediatrics - Critical Care",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H PARKER",
+              "instructors": [
+                "H PARKER"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pediatrics - Neonatal-Perinatal Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 618,
+          "courseCode": "MED_CLIN 618",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2589",
+              "sln": 2589,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 618",
+              "courseName": "Pediatrics - Neonatal-Perinatal Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H PARKER",
+              "instructors": [
+                "H PARKER"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pediatrics - Neurology",
+          "subject": "MED_CLIN",
+          "courseNumber": 619,
+          "courseCode": "MED_CLIN 619",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2590",
+              "sln": 2590,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 619",
+              "courseName": "Pediatrics - Neurology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C ANDERSON",
+              "instructors": [
+                "C ANDERSON"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Psychiatry - Ambulatory",
+          "subject": "MED_CLIN",
+          "courseNumber": 626,
+          "courseCode": "MED_CLIN 626",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2547",
+              "sln": 2547,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 626",
+              "courseName": "Psychiatry - Ambulatory",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M LAVIN",
+              "instructors": [
+                "M LAVIN"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Psychiatry - Inpatient",
+          "subject": "MED_CLIN",
+          "courseNumber": 627,
+          "courseCode": "MED_CLIN 627",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2548",
+              "sln": 2548,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 627",
+              "courseName": "Psychiatry - Inpatient",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M LAVIN",
+              "instructors": [
+                "M LAVIN"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Obstetrics and Gynecology - Maternal-Fetal Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 628,
+          "courseCode": "MED_CLIN 628",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2566",
+              "sln": 2566,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 628",
+              "courseName": "Obstetrics and Gynecology - Maternal-Fetal Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D KOPP",
+              "instructors": [
+                "D KOPP"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Obstetrics and Gynecology - Gynecologic Oncology",
+          "subject": "MED_CLIN",
+          "courseNumber": 629,
+          "courseCode": "MED_CLIN 629",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2563",
+              "sln": 2563,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 629",
+              "courseName": "Obstetrics and Gynecology - Gynecologic Oncology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D KOPP",
+              "instructors": [
+                "D KOPP"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Global Health",
+          "subject": "MED_CLIN",
+          "courseNumber": 633,
+          "courseCode": "MED_CLIN 633",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2598",
+              "sln": 2598,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 633",
+              "courseName": "Virtual - Global Health",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BREEMS",
+              "instructors": [
+                "J BREEMS"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Topics in Pain Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 635,
+          "courseCode": "MED_CLIN 635",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2600",
+              "sln": 2600,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 635",
+              "courseName": "Clinical Rotation - Topics in Pain Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SIDDIQUI",
+              "instructors": [
+                "S SIDDIQUI"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery - Interdisciplinary Medical-Surgical Pediatric Care",
+          "subject": "MED_CLIN",
+          "courseNumber": 638,
+          "courseCode": "MED_CLIN 638",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2558",
+              "sln": 2558,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 638",
+              "courseName": "Surgery - Interdisciplinary Medical-Surgical Pediatric Care",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A KUMAR",
+              "instructors": [
+                "A KUMAR"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Urgent and Walk-In Medicine",
+          "subject": "MED_CLIN",
+          "courseNumber": 639,
+          "courseCode": "MED_CLIN 639",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3613",
+              "sln": 3613,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 639",
+              "courseName": "Clinical Rotation - Urgent and Walk-In Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MARCIN",
+              "instructors": [
+                "J MARCIN"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Dermatology",
+          "subject": "MED_CLIN",
+          "courseNumber": 640,
+          "courseCode": "MED_CLIN 640",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3617",
+              "sln": 3617,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 640",
+              "courseName": "Virtual - Clinical Cases: Dermatology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D SMITH",
+              "instructors": [
+                "D SMITH"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: EKG",
+          "subject": "MED_CLIN",
+          "courseNumber": 641,
+          "courseCode": "MED_CLIN 641",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3621",
+              "sln": 3621,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 641",
+              "courseName": "Virtual - Clinical Cases: EKG",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C ANDERSON",
+              "instructors": [
+                "C ANDERSON"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Reproductive Health",
+          "subject": "MED_CLIN",
+          "courseNumber": 642,
+          "courseCode": "MED_CLIN 642",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3625",
+              "sln": 3625,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 642",
+              "courseName": "Virtual - Clinical Cases: Reproductive Health",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D KOPP",
+              "instructors": [
+                "D KOPP"
+              ],
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Neurology",
+          "subject": "MED_CLIN",
+          "courseNumber": 643,
+          "courseCode": "MED_CLIN 643",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3629",
+              "sln": 3629,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 643",
+              "courseName": "Virtual - Clinical Cases: Neurology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D DEWITT",
+              "instructors": [
+                "D DEWITT"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Surgery",
+          "subject": "MED_CLIN",
+          "courseNumber": 644,
+          "courseCode": "MED_CLIN 644",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3633",
+              "sln": 3633,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 644",
+              "courseName": "Virtual - Clinical Cases: Surgery",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J DROSDECK",
+              "instructors": [
+                "J DROSDECK"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Advanced Anesthesiology",
+          "subject": "MED_CLIN",
+          "courseNumber": 673,
+          "courseCode": "MED_CLIN 673",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3693",
+              "sln": 3693,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 673",
+              "courseName": "Clinical Rotation - Advanced Anesthesiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SIDDIQUI",
+              "instructors": [
+                "S SIDDIQUI"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MED_LMH",
+      "courses": [
+        {
+          "course": "Personal Leadership Development II",
+          "subject": "MED_LMH",
+          "courseNumber": 532,
+          "courseCode": "MED_LMH 532",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2751",
+              "sln": 2751,
+              "sectionNumber": 1,
+              "courseCode": "MED_LMH 532",
+              "courseName": "Personal Leadership Development II",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T AYENI",
+              "instructors": [
+                "T AYENI"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MEDSCHLR",
+      "courses": [
+        {
+          "course": "Foundations of Scholarship and Discovery III",
+          "subject": "MEDSCHLR",
+          "courseNumber": 540,
+          "courseCode": "MEDSCHLR 540",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2220",
+              "sln": 2220,
+              "sectionNumber": 1,
+              "courseCode": "MEDSCHLR 540",
+              "courseName": "Foundations of Scholarship and Discovery III",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D HANSEN",
+              "instructors": [
+                "D HANSEN"
+              ],
+              "seats": {
+                "taken": 1,
+                "total": 60,
+                "available": 59,
+                "label": "1/60"
+              },
+              "dates": {
+                "start": "Jun 29",
+                "end": "Aug 21"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
