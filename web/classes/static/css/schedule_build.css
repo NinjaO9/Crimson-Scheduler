@@ -827,10 +827,15 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         bottom: 0;
         display: block;
         left: 0;
+        pointer-events: none;
         position: fixed;
         right: 0;
         top: 0;
         z-index: 3100;
+    }
+
+    .mobile-filter-sheet.is-open {
+        pointer-events: auto;
     }
 
     .mobile-filter-backdrop {
@@ -838,9 +843,15 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         border: 0;
         bottom: 0;
         left: 0;
+        opacity: 0;
         position: absolute;
         right: 0;
         top: 0;
+        transition: opacity 160ms ease;
+    }
+
+    .mobile-filter-sheet.is-open .mobile-filter-backdrop {
+        opacity: 1;
     }
 
     .mobile-filter-panel {
@@ -854,6 +865,12 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         position: absolute;
         left: 0;
         right: 0;
+        transform: translateY(100%);
+        transition: transform 180ms ease;
+    }
+
+    .mobile-filter-sheet.is-open .mobile-filter-panel {
+        transform: translateY(0);
     }
 
     .mobile-filter-grabber {

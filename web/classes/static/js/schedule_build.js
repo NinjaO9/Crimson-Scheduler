@@ -41,6 +41,7 @@ let activeMobileConflictTrigger = null;
 let courseSearchRequestId = 0;
 const AUTO_SEARCH_DELAY_MS = 250;
 let courseFilters = createEmptyCourseFilters();
+let mobileFilterCloseTimer = null;
 
 function ensureRateLimitToast() {
     let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
@@ -400,9 +401,14 @@ function openCourseFilters() {
     if (!toggle || toggle.disabled) return;
     if (isMobileViewport()) {
         const sheet = document.getElementById('mobileFilterSheet');
+        if (mobileFilterCloseTimer) {
+            window.clearTimeout(mobileFilterCloseTimer);
+            mobileFilterCloseTimer = null;
+        }
         sheet.hidden = false;
         sheet.setAttribute('aria-hidden', 'false');
         document.body.classList.add('mobile-filter-sheet-open');
+        window.requestAnimationFrame(() => sheet.classList.add('is-open'));
         const doneButton = sheet.querySelector('[data-close-filters]');
         if (doneButton) doneButton.focus({ preventScroll: true });
     } else {
@@ -420,8 +426,13 @@ function closeCourseFilters() {
     const restoreFocus = (popover && popover.contains(activeElement)) || (sheet && sheet.contains(activeElement));
     if (popover) popover.hidden = true;
     if (sheet) {
-        sheet.hidden = true;
+        sheet.classList.remove('is-open');
         sheet.setAttribute('aria-hidden', 'true');
+        if (mobileFilterCloseTimer) window.clearTimeout(mobileFilterCloseTimer);
+        mobileFilterCloseTimer = window.setTimeout(() => {
+            sheet.hidden = true;
+            mobileFilterCloseTimer = null;
+        }, 180);
     }
     document.body.classList.remove('mobile-filter-sheet-open');
     const toggle = document.getElementById('filterToggle');
@@ -438,7 +449,7 @@ function isDesktopFilterOpen() {
 
 function areCourseFiltersOpen() {
     const sheet = document.getElementById('mobileFilterSheet');
-    return isDesktopFilterOpen() || !!(sheet && !sheet.hidden);
+    return isDesktopFilterOpen() || !!(sheet && sheet.classList.contains('is-open'));
 }
 
 function renderSectionChoice(course, section, choiceType) {
