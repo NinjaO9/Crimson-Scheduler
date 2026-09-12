@@ -125,28 +125,34 @@
 }
 
 .filter-toggle,
-.filter-done-btn,
-.clear-filters-btn {
-    background: #fff;
-    border: 1px solid var(--line-strong);
+.filter-done-btn {
+    align-items: center;
+    background: var(--crimson);
+    border: 0;
     border-radius: 6px;
-    color: #111827;
+    color: #fff;
+    display: inline-flex;
     font-weight: 800;
+    justify-content: center;
     min-height: 43px;
     padding: 0 14px;
 }
 
-.filter-toggle {
-    border-color: var(--crimson);
-    color: var(--crimson);
-}
-
-.filter-toggle[aria-expanded="true"] {
-    background: linear-gradient(180deg, var(--crimson) 0%, #870f21 100%);
+.clear-filters-btn {
+    align-items: center;
+    background: var(--crimson);
+    border: 0;
+    border-radius: 6px;
     color: #fff;
+    display: inline-flex;
+    font-weight: 800;
+    justify-content: center;
+    min-height: 36px;
+    padding: 0 14px;
 }
 
 .filter-toggle:disabled {
+    background: #e5e7eb;
     color: var(--text-muted);
     cursor: not-allowed;
 }
@@ -155,26 +161,19 @@
 .filter-toggle:not(:disabled):focus-visible,
 .filter-done-btn:hover,
 .filter-done-btn:focus-visible {
-    border-color: var(--crimson);
+    background: #a9152c;
     outline: 0;
 }
 
-.filter-toggle:not(:disabled):hover,
-.filter-toggle:not(:disabled):focus-visible {
-    background: #fff5f6;
-}
-
-.filter-toggle[aria-expanded="true"]:hover,
-.filter-toggle[aria-expanded="true"]:focus-visible {
-    background: linear-gradient(180deg, var(--crimson) 0%, #870f21 100%);
+.filter-toggle:not(:disabled):focus-visible,
+.filter-done-btn:focus-visible {
+    box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
 }
 
 .filter-popover {
     background: #fff;
     border: 1px solid var(--line-strong);
     border-radius: 8px;
-    border-top: 4px solid var(--crimson);
-    box-shadow: var(--shadow);
     margin-top: 10px;
     padding: 16px;
     position: relative;
@@ -200,8 +199,6 @@
 }
 
 .filter-done-btn {
-    border-color: var(--crimson);
-    color: var(--crimson);
     min-height: 36px;
 }
 
@@ -293,16 +290,16 @@
 
 .clear-filters-btn {
     border: 0;
-    color: var(--crimson);
+    color: #fff;
     margin-top: 16px;
     min-height: 36px;
-    padding: 0;
+    padding: 0 14px;
 }
 
 .clear-filters-btn:hover,
 .clear-filters-btn:focus-visible {
-    color: var(--crimson-dark);
-    text-decoration: underline;
+    background: #a9152c;
+    outline: 0;
 }
 
 .mobile-filter-sheet {
@@ -313,7 +310,7 @@
 .danger-btn,
 .actions-btn {
     align-items: center;
-    background: linear-gradient(180deg, var(--crimson) 0%, #870f21 100%);
+    background: var(--crimson);
     border: 0;
     border-radius: 6px;
     color: #fff;
@@ -569,7 +566,7 @@
 }
 
 .course-block {
-    background: linear-gradient(180deg, #b1f0ab 0%, #b1f0ab 100%);
+    background: #b1f0ab;
     border: 1px solid var(--soft-red-border);
     border-radius: 6px;
     box-sizing: border-box;
@@ -588,8 +585,7 @@
 }
 
 .course-block.conflict {
-    /* background: repeating-linear-gradient(135deg, #fff 0 7px, #fff 7px 12px, #d20f2a 12px 14px); */
-    background: linear-gradient(180deg, #f0abab 0%, #f0abab 90%);
+    background: #f0abab;
     border-color: #d20f2a;
     z-index: var(--course-block-conflict-z-index, 35);
 }
@@ -754,13 +750,23 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .manage-btn {
-    background: #fff;
-    border: 1px solid var(--line);
+    background: var(--crimson);
+    border: 0;
     border-radius: 6px;
-    color: var(--crimson);
+    color: #fff;
     font-weight: 800;
     min-height: 34px;
     padding: 0 14px;
+}
+
+.manage-btn:hover,
+.manage-btn:focus-visible {
+    background: #a9152c;
+    outline: 0;
+}
+
+.manage-btn:focus-visible {
+    box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
 }
 
 @media (max-width: 1200px) {
@@ -1009,9 +1015,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .danger-btn,
     .actions-btn {
-        background: #fff;
-        border: 1px solid #dc5c70;
-        color: var(--crimson);
+        background: var(--crimson);
+        border: 0;
+        color: #fff;
         font-size: 0.82rem;
         min-height: 42px;
         padding: 0 8px;

@@ -3,6 +3,7 @@
 
     const API_BASE_URL = 'https://ninjao9.github.io/Crimson-Scheduler/api/v1/';
     const courseCache = new Map();
+    const RESULT_LIMIT = 25;
 
     function slugify(value) {
         return String(value || '')
@@ -158,7 +159,7 @@
                 || text(left.course_code).localeCompare(text(right.course_code))
             ))
             .map(({ _searchScore, ...course }) => course)
-            .slice(0, options.limit || 10);
+            .slice(0, options.limit || RESULT_LIMIT);
     }
 
     function toScheduleEntry(section, scheduleGroupId) {
