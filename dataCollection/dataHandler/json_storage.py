@@ -44,7 +44,7 @@ class JsonStorageHandler:
                     "url": f"courses/{slug}.json",
                 })
             exisiting_campuses.append({
-                "campus": campus.name if campus.name != "DDP" else "Global",
+                "campus": campus.name,
                 "terms": existing_semesters
             })
         
@@ -67,7 +67,7 @@ class JsonStorageHandler:
         return {
             "version": cls.VERSION,
             "generatedAt": datetime.now(UTC).isoformat(),
-            "campus": campus.name if campus.name != "DDP" else "Global",
+            "campus": campus.name,
             "term": semester.name,
             "subjects": [
                 {

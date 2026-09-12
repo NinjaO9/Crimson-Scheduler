@@ -41,7 +41,7 @@ class DataHandler:
 
     @classmethod
     def getCampusData(cls, campusmd : dict) -> Campus:
-        name = campusmd["campus"]
+        name = campusmd["campus"] if campusmd["campus"] != "DDP" else "Global"
         terms = campusmd["terms"]
         campusdata = []
         for tdata in terms:
