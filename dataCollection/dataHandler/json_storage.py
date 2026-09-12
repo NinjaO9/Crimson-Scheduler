@@ -67,7 +67,7 @@ class JsonStorageHandler:
         return {
             "version": cls.VERSION,
             "generatedAt": datetime.now(UTC).isoformat(),
-            "campus": campus.name,
+            "campus": campus.name if campus.name != "DDP" else "Global",
             "term": semester.name,
             "subjects": [
                 {
