@@ -44,7 +44,7 @@ class JsonStorageHandler:
                     "url": f"courses/{slug}.json",
                 })
             exisiting_campuses.append({
-                "campus": campus.name,
+                "campus": campus.name if campus.name != "DDP" else "Global",
                 "terms": existing_semesters
             })
         
