@@ -100,16 +100,6 @@
         return 'in-person';
     }
 
-    function getFilterOptions(courses) {
-        const normalizedCourses = Array.isArray(courses) ? courses : [];
-        return {
-            subjects: [...new Set(normalizedCourses.map(course => text(course.subject)).filter(Boolean))]
-                .sort((left, right) => left.localeCompare(right)),
-            credits: [...new Set(normalizedCourses.map(course => text(course.credits)).filter(Boolean))]
-                .sort((left, right) => Number(left) - Number(right))
-        };
-    }
-
     function matchesQuery(course, query) {
         if (!query) return { matches: true, score: 5 };
         const queryText = normalizeSearchText(query);
@@ -141,8 +131,6 @@
     function filterCourses(courses, filters) {
         const options = filters || {};
         const query = text(options.q).toLowerCase();
-        const subjects = Array.isArray(options.subjects) ? options.subjects.map(text) : [];
-        const credits = Array.isArray(options.credits) ? options.credits.map(text) : [];
         const sectionOptions = {
             openOnly: Boolean(options.openOnly),
             delivery: Array.isArray(options.delivery) ? options.delivery : []
@@ -152,8 +140,6 @@
             .map(course => {
                 const queryMatch = matchesQuery(course, query);
                 if (!queryMatch.matches) return null;
-                if (subjects.length && !subjects.includes(text(course.subject))) return null;
-                if (credits.length && !credits.includes(text(course.credits))) return null;
 
                 const lectureSections = course.lecture_sections.filter(section => sectionMatches(section, sectionOptions));
                 const labSections = course.lab_sections.filter(section => sectionMatches(section, sectionOptions));
@@ -251,7 +237,6 @@
         fetchDatasetByKey,
         fetchCourses,
         filterCourses,
-        getFilterOptions,
         getSectionDelivery,
         toScheduleEntry,
         normalizePayload,

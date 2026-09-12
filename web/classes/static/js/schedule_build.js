@@ -306,13 +306,11 @@ function setupInteractionHandlers() {
 }
 
 function createEmptyCourseFilters() {
-    return { subjects: [], credits: [], openOnly: false, delivery: [] };
+    return { openOnly: false, delivery: [] };
 }
 
 function getActiveFilterGroupCount() {
-    return Number(courseFilters.subjects.length > 0)
-        + Number(courseFilters.credits.length > 0)
-        + Number(courseFilters.openOnly)
+    return Number(courseFilters.openOnly)
         + Number(courseFilters.delivery.length > 0);
 }
 
@@ -326,11 +324,9 @@ function resetCourseFilters(clearQuery) {
 
 function updateCourseFiltersFromControl(control) {
     const filterName = control.getAttribute('data-filter-name');
-    if (filterName === 'subjects') {
-        courseFilters.subjects = [...control.selectedOptions].map(option => option.value);
-    } else if (filterName === 'openOnly') {
+    if (filterName === 'openOnly') {
         courseFilters.openOnly = control.checked;
-    } else if (filterName === 'credits' || filterName === 'delivery') {
+    } else if (filterName === 'delivery') {
         const values = new Set(courseFilters[filterName]);
         if (control.checked) values.add(control.value);
         else values.delete(control.value);
@@ -339,15 +335,8 @@ function updateCourseFiltersFromControl(control) {
 }
 
 function syncCourseFilterControls() {
-    document.querySelectorAll('.course-filter-control[data-filter-name="subjects"]').forEach(select => {
-        [...select.options].forEach(option => {
-            option.selected = courseFilters.subjects.includes(option.value);
-        });
-    });
-    ['credits', 'delivery'].forEach(filterName => {
-        document.querySelectorAll(`.course-filter-control[data-filter-name="${filterName}"]`).forEach(input => {
-            input.checked = courseFilters[filterName].includes(input.value);
-        });
+    document.querySelectorAll('.course-filter-control[data-filter-name="delivery"]').forEach(input => {
+        input.checked = courseFilters.delivery.includes(input.value);
     });
     document.querySelectorAll('.course-filter-control[data-filter-name="openOnly"]').forEach(input => {
         input.checked = courseFilters.openOnly;
@@ -361,18 +350,7 @@ function syncCourseFilterControls() {
     }
 }
 
-function populateCourseFilterOptions(courses) {
-    const options = CourseApi.getFilterOptions(courses);
-    document.querySelectorAll('.course-filter-control[data-filter-name="subjects"]').forEach(select => {
-        select.replaceChildren(...options.subjects.map(subject => {
-            const option = document.createElement('option');
-            option.value = subject;
-            option.textContent = subject;
-            return option;
-        }));
-        select.disabled = !options.subjects.length;
-    });
-    populateFilterCheckboxes('credits', options.credits.map(credits => ({ value: credits, label: `${credits} credits` })));
+function populateCourseFilterOptions() {
     populateFilterCheckboxes('delivery', [
         { value: 'in-person', label: 'In person' },
         { value: 'online', label: 'Online' },
@@ -608,7 +586,7 @@ async function handleCourseSearch(form) {
     try {
         const courses = await CourseApi.fetchCourses(campus, term);
         if (requestId !== courseSearchRequestId) return;
-        populateCourseFilterOptions(courses);
+        populateCourseFilterOptions();
         const filterToggle = document.getElementById('filterToggle');
         if (filterToggle) filterToggle.disabled = false;
         if (!searchHasCriteria(formData)) {

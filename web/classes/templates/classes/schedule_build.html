@@ -54,19 +54,13 @@
                         <button type="button" class="filter-done-btn" data-close-filters>Done</button>
                     </div>
                     <div class="filter-groups" data-filter-panel="desktop">
-                        <div class="filter-group">
-                            <label for="desktopSubjectFilter">Subject</label>
-                            <select id="desktopSubjectFilter" class="course-filter-control" data-filter-name="subjects" multiple size="5" disabled></select>
-                        </div>
-                        <fieldset class="filter-group">
-                            <legend>Credits</legend>
-                            <div class="filter-checkbox-list" data-filter-options="credits"></div>
-                        </fieldset>
-                        <fieldset class="filter-group">
+                        <fieldset class="filter-group availability-filter-group">
                             <legend>Availability</legend>
-                            <label class="filter-check"><input type="checkbox" class="course-filter-control" data-filter-name="openOnly"> Open seats only</label>
+                            <div class="filter-checkbox-list">
+                                <label class="filter-check"><input type="checkbox" class="course-filter-control" data-filter-name="openOnly"> Open seats only</label>
+                            </div>
                         </fieldset>
-                        <fieldset class="filter-group">
+                        <fieldset class="filter-group delivery-filter-group">
                             <legend>Delivery</legend>
                             <div class="filter-checkbox-list" data-filter-options="delivery"></div>
                         </fieldset>
@@ -89,19 +83,13 @@
                     <button type="button" class="filter-done-btn" data-close-filters>Done</button>
                 </div>
                 <div class="filter-groups" data-filter-panel="mobile">
-                    <div class="filter-group">
-                        <label for="mobileSubjectFilter">Subject</label>
-                        <select id="mobileSubjectFilter" class="course-filter-control" data-filter-name="subjects" multiple size="5" disabled></select>
-                    </div>
-                    <fieldset class="filter-group">
-                        <legend>Credits</legend>
-                        <div class="filter-checkbox-list" data-filter-options="credits"></div>
-                    </fieldset>
-                    <fieldset class="filter-group">
+                    <fieldset class="filter-group availability-filter-group">
                         <legend>Availability</legend>
-                        <label class="filter-check"><input type="checkbox" class="course-filter-control" data-filter-name="openOnly"> Open seats only</label>
+                        <div class="filter-checkbox-list">
+                            <label class="filter-check"><input type="checkbox" class="course-filter-control" data-filter-name="openOnly"> Open seats only</label>
+                        </div>
                     </fieldset>
-                    <fieldset class="filter-group">
+                    <fieldset class="filter-group delivery-filter-group">
                         <legend>Delivery</legend>
                         <div class="filter-checkbox-list" data-filter-options="delivery"></div>
                     </fieldset>
