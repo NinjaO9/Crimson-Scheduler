@@ -3,6 +3,7 @@
 
     const API_BASE_URL = 'https://ninjao9.github.io/Crimson-Scheduler/api/v1/';
     const courseCache = new Map();
+    const RESULT_LIMIT = 25;
 
     function slugify(value) {
         return String(value || '')
@@ -39,6 +40,7 @@
             days: text(section && section.days),
             time: text(section && section.time),
             seats: text(seats.label, `${text(seats.taken, '')}/${text(seats.total, '')}`),
+            seats_available: Number(seats.available),
             credits: section && section.isLab ? '0' : text(section && section.credits, text(course && course.credits, '0')),
             is_lab: Boolean(section && section.isLab),
             component: text(section && section.component, 'Lecture')
@@ -83,25 +85,81 @@
         return text(value).toLowerCase().includes(text(query).toLowerCase());
     }
 
+    function normalizeSearchText(value) {
+        return text(value)
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, ' ')
+            .trim()
+            .replace(/\s+/g, ' ');
+    }
+
+    function getSectionDelivery(section) {
+        const meeting = `${text(section && section.days)} ${text(section && section.time)}`.toLowerCase();
+        const location = text(section && section.location).toLowerCase();
+        if (/\b(arr|arranged|tba)\b/.test(meeting)) return 'arranged';
+        if (/\b(online|web|virtual|zoom)\b/.test(`${meeting} ${location}`)) return 'online';
+        return 'in-person';
+    }
+
+    function matchesQuery(course, query) {
+        if (!query) return { matches: true, score: 5 };
+        const queryText = normalizeSearchText(query);
+        const queryCompact = queryText.replace(/\s/g, '');
+        const courseCode = normalizeSearchText(course.course_code);
+        const courseCodeCompact = courseCode.replace(/\s/g, '');
+        const courseTitle = normalizeSearchText(course.course_name);
+        const searchable = normalizeSearchText([
+            course.subject,
+            course.course_number,
+            course.course_code,
+            course.course_name
+        ].join(' '));
+        const matches = queryText.split(' ').every(token => searchable.includes(token));
+        if (!matches) return { matches: false, score: Infinity };
+        if (queryText === courseCode || queryCompact === courseCodeCompact) return { matches: true, score: 0 };
+        if (String(course.course_number) === queryText) return { matches: true, score: 1 };
+        if (courseCode.startsWith(queryText)) return { matches: true, score: 2 };
+        if (courseTitle.startsWith(queryText)) return { matches: true, score: 3 };
+        if (courseTitle.includes(queryText)) return { matches: true, score: 4 };
+        return { matches: true, score: 5 };
+    }
+
+    function sectionMatches(section, options) {
+        if (options.openOnly && !(Number(section.seats_available) > 0)) return false;
+        return !options.delivery.length || options.delivery.includes(getSectionDelivery(section));
+    }
+
     function filterCourses(courses, filters) {
         const options = filters || {};
         const query = text(options.q).toLowerCase();
-        const subject = text(options.subject).toLowerCase();
-        const number = text(options.number).toLowerCase();
+        const sectionOptions = {
+            openOnly: Boolean(options.openOnly),
+            delivery: Array.isArray(options.delivery) ? options.delivery : []
+        };
 
         return (Array.isArray(courses) ? courses : [])
-            .filter(course => {
-                if (subject && text(course.subject).toLowerCase() !== subject) return false;
-                if (number && !includes(course.course_number, number)) return false;
-                if (query && query.length >= 2 && ![
-                    course.course_name,
-                    course.subject,
-                    course.course_number,
-                    course.course_code
-                ].some(value => includes(value, query))) return false;
-                return true;
+            .map(course => {
+                const queryMatch = matchesQuery(course, query);
+                if (!queryMatch.matches) return null;
+
+                const lectureSections = course.lecture_sections.filter(section => sectionMatches(section, sectionOptions));
+                const labSections = course.lab_sections.filter(section => sectionMatches(section, sectionOptions));
+                if (!lectureSections.length || (course.has_required_lab && !labSections.length)) return null;
+
+                return {
+                    ...course,
+                    lecture_sections: lectureSections,
+                    lab_sections: labSections,
+                    _searchScore: queryMatch.score
+                };
             })
-            .slice(0, options.limit || 10);
+            .filter(Boolean)
+            .sort((left, right) => (
+                left._searchScore - right._searchScore
+                || text(left.course_code).localeCompare(text(right.course_code))
+            ))
+            .map(({ _searchScore, ...course }) => course)
+            .slice(0, options.limit || RESULT_LIMIT);
     }
 
     function toScheduleEntry(section, scheduleGroupId) {
@@ -180,6 +238,7 @@
         fetchDatasetByKey,
         fetchCourses,
         filterCourses,
+        getSectionDelivery,
         toScheduleEntry,
         normalizePayload,
         normalizeCourse,

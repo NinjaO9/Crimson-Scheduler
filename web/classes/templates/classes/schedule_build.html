@@ -38,56 +38,65 @@
                     </div>
                 </div>
 
-                <div class="field-grid three">
-                    <div class="field">
-                        <label for="subjectFilter">Subject</label>
-                        <input type="text" name="subject" id="subjectFilter" class="form-control" placeholder="e.g. CPT_S">
+                <div class="course-search-controls">
+                    <div class="field course-query-field">
+                        <label for="searchInput">Search courses</label>
+                        <input type="search" name="q" id="searchInput" class="form-control" placeholder="e.g. CPT_S 121 or Data Structures" autocomplete="off">
                     </div>
-                    <div class="field">
-                        <label for="numberFilter">Number</label>
-                        <input type="text" name="number" id="numberFilter" class="form-control" placeholder="e.g. 121">
-                    </div>
-                    <div class="field-or">or</div>
-                    <div class="field">
-                        <label for="searchInput">Course Title</label>
-                        <input type="text" name="q" id="searchInput" class="form-control" placeholder="e.g. Data Structures">
-                    </div>
+                    <button type="button" class="filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="desktopFilterPopover" disabled>
+                        Filters <span id="filterCount" hidden>· 0</span>
+                    </button>
                 </div>
 
-                <div class="search-actions">
-                    <button type="submit" class="primary-btn">
-                        Search Courses
-                    </button>
-                    <button type="reset" class="reset-btn" id="resetFiltersBtn">Reset Filters</button>
-                </div>
-                <!-- <div class="filter-bar">
-                    <div class="filter-header">
-                        <div class="filter-title">Filter Results</div>
-                        <span id="search-indicator" class="search-indicator htmx-indicator">
-                            <span class="spinner-border spinner-border-sm text-danger" role="status" aria-hidden="true"></span>
-                        </span>
+                <section class="filter-popover" id="desktopFilterPopover" aria-label="Course filters" hidden>
+                    <div class="filter-surface-header">
+                        <h2>Filters</h2>
+                        <button type="button" class="filter-done-btn" data-close-filters>Done</button>
                     </div>
-                    <div class="filter-options">
-                        <div class="check-options">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="openOnlyFilter" disabled>
-                                <label class="form-check-label" for="openOnlyFilter">Open Sections Only</label>
+                    <div class="filter-groups" data-filter-panel="desktop">
+                        <fieldset class="filter-group availability-filter-group">
+                            <legend>Availability</legend>
+                            <div class="filter-checkbox-list">
+                                <label class="filter-check"><input type="checkbox" class="course-filter-control" data-filter-name="openOnly"> Open seats only</label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="onlineOnlyFilter" disabled>
-                                <label class="form-check-label" for="onlineOnlyFilter">Online Only</label>
-                            </div>
-                        </div>
-                        <button type="button" class="more-filters">More Filters v</button>
+                        </fieldset>
+                        <fieldset class="filter-group delivery-filter-group">
+                            <legend>Delivery</legend>
+                            <div class="filter-checkbox-list" data-filter-options="delivery"></div>
+                        </fieldset>
                     </div>
-                </div> -->
-                <!-- Turns out I'm not really using filters... so -->
+                    <button type="button" class="clear-filters-btn" data-clear-filters>Clear filters</button>
+                </section>
             </form>
 
             <div id="searchResults" class="search-results">
-                <div class="empty-search">Choose a campus + term, then search courses to begin building your schedule!</div>
+                <div class="empty-search">Choose a campus + term, then start typing to search courses.</div>
             </div>
         </aside>
+
+        <div class="mobile-filter-sheet" id="mobileFilterSheet" aria-hidden="true" hidden>
+            <button type="button" class="mobile-filter-backdrop" data-close-filters aria-label="Close filters"></button>
+            <section class="mobile-filter-panel" role="dialog" aria-modal="true" aria-labelledby="mobileFilterTitle">
+                <div class="mobile-filter-grabber" aria-hidden="true"></div>
+                <div class="filter-surface-header">
+                    <h2 id="mobileFilterTitle">Filters</h2>
+                    <button type="button" class="filter-done-btn" data-close-filters>Done</button>
+                </div>
+                <div class="filter-groups" data-filter-panel="mobile">
+                    <fieldset class="filter-group availability-filter-group">
+                        <legend>Availability</legend>
+                        <div class="filter-checkbox-list">
+                            <label class="filter-check"><input type="checkbox" class="course-filter-control" data-filter-name="openOnly"> Open seats only</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="filter-group delivery-filter-group">
+                        <legend>Delivery</legend>
+                        <div class="filter-checkbox-list" data-filter-options="delivery"></div>
+                    </fieldset>
+                </div>
+                <button type="button" class="clear-filters-btn" data-clear-filters>Clear filters</button>
+            </section>
+        </div>
 
         <main class="schedule-pane mobile-pane" data-mobile-pane="schedule">
             <div class="pane-topbar">
@@ -134,7 +143,6 @@
                         <div class="misc-title">Non-Scheduled / Misc Classes <span id="miscCount">(0)</span></div>
                         <div class="misc-subtitle">These classes do not have a set meeting time.</div>
                     </div>
-                    <div class="misc-note"><span class="not-calendar-dot"></span>Not on calendar</div>
                 </div>
                 <div class="misc-list" id="miscList"></div>
             </section>

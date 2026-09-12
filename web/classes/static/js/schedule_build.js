@@ -39,6 +39,9 @@ let currentSchedule = [];
 let renderedBlocksByDay = {};
 let activeMobileConflictTrigger = null;
 let courseSearchRequestId = 0;
+const AUTO_SEARCH_DELAY_MS = 250;
+let courseFilters = createEmptyCourseFilters();
+let mobileFilterCloseTimer = null;
 
 function ensureRateLimitToast() {
     let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
@@ -119,9 +122,42 @@ function setupInteractionHandlers() {
     const courseSearchForm = document.getElementById('courseSearchForm');
     if (courseSearchForm) {
         courseSearchForm.addEventListener('submit', handleCourseSearchSubmit);
+
+        const autoSearch = debounce(() => handleCourseSearch(courseSearchForm), AUTO_SEARCH_DELAY_MS);
+        courseSearchForm.querySelector('#searchInput').addEventListener('input', autoSearch);
+        courseSearchForm.querySelectorAll('#campusFilter, #semesterFilter').forEach(select => {
+            select.addEventListener('change', () => {
+                resetCourseFilters(true);
+                closeCourseFilters();
+                document.getElementById('filterToggle').disabled = true;
+                autoSearch();
+            });
+        });
+        courseSearchForm.autoSearch = autoSearch;
     }
 
     document.addEventListener('click', function(event) {
+        if (event.target.closest('#filterToggle')) {
+            if (areCourseFiltersOpen()) closeCourseFilters();
+            else openCourseFilters();
+            return;
+        }
+
+        if (event.target.closest('[data-close-filters]')) {
+            closeCourseFilters();
+            return;
+        }
+
+        if (event.target.closest('[data-clear-filters]')) {
+            resetCourseFilters(true);
+            handleCourseSearch(document.getElementById('courseSearchForm'));
+            return;
+        }
+
+        if (isDesktopFilterOpen() && !event.target.closest('#desktopFilterPopover, #filterToggle')) {
+            closeCourseFilters();
+        }
+
         const addButton = event.target.closest('.add-course-selection-btn');
         if (addButton) {
             handleAddCourseSelection(addButton, event);
@@ -170,6 +206,15 @@ function setupInteractionHandlers() {
     });
 
     document.addEventListener('change', function(event) {
+        const filterControl = event.target.closest('.course-filter-control');
+        if (filterControl) {
+            updateCourseFiltersFromControl(filterControl);
+            syncCourseFilterControls();
+            const form = document.getElementById('courseSearchForm');
+            if (form && form.autoSearch) form.autoSearch();
+            return;
+        }
+
         const sectionChoice = event.target.closest('.section-choice');
         if (sectionChoice) {
             updateCourseAddButton(sectionChoice.getAttribute('data-course-id'));
@@ -212,7 +257,10 @@ function setupInteractionHandlers() {
     }, true);
 
     document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape') closeMobileConflictSheet();
+        if (event.key === 'Escape') {
+            closeCourseFilters();
+            closeMobileConflictSheet();
+        }
     });
 
     document.addEventListener('mouseover', function(event) {
@@ -251,18 +299,135 @@ function setupInteractionHandlers() {
         showRateLimitToast(getRateLimitMessageFromResponse(xhr));
     });
 
-    document.getElementById('resetFiltersBtn').addEventListener('click', function() {
-        courseSearchRequestId += 1;
-        window.setTimeout(() => {
-            document.getElementById('searchResults').replaceChildren(
-                createElementWithText('div', 'empty-search', 'Choose a campus + term, then search courses to begin building your schedule.')
-            );
-        }, 0);
-    });
-
     window.addEventListener('resize', debounce(function() {
+        if (!isMobileViewport()) closeCourseFilters();
         updateScheduleDisplay(currentSchedule);
     }, 150));
+}
+
+function createEmptyCourseFilters() {
+    return { openOnly: false, delivery: [] };
+}
+
+function getActiveFilterGroupCount() {
+    return Number(courseFilters.openOnly)
+        + Number(courseFilters.delivery.length > 0);
+}
+
+function resetCourseFilters(clearQuery) {
+    const form = document.getElementById('courseSearchForm');
+    if (form && form.autoSearch && form.autoSearch.cancel) form.autoSearch.cancel();
+    courseFilters = createEmptyCourseFilters();
+    if (clearQuery && form) form.querySelector('#searchInput').value = '';
+    syncCourseFilterControls();
+}
+
+function updateCourseFiltersFromControl(control) {
+    const filterName = control.getAttribute('data-filter-name');
+    if (filterName === 'openOnly') {
+        courseFilters.openOnly = control.checked;
+    } else if (filterName === 'delivery') {
+        const values = new Set(courseFilters[filterName]);
+        if (control.checked) values.add(control.value);
+        else values.delete(control.value);
+        courseFilters[filterName] = [...values];
+    }
+}
+
+function syncCourseFilterControls() {
+    document.querySelectorAll('.course-filter-control[data-filter-name="delivery"]').forEach(input => {
+        input.checked = courseFilters.delivery.includes(input.value);
+    });
+    document.querySelectorAll('.course-filter-control[data-filter-name="openOnly"]').forEach(input => {
+        input.checked = courseFilters.openOnly;
+    });
+
+    const count = getActiveFilterGroupCount();
+    const countElement = document.getElementById('filterCount');
+    if (countElement) {
+        countElement.textContent = `· ${count}`;
+        countElement.hidden = count === 0;
+    }
+}
+
+function populateCourseFilterOptions() {
+    populateFilterCheckboxes('delivery', [
+        { value: 'in-person', label: 'In person' },
+        { value: 'online', label: 'Online' },
+        { value: 'arranged', label: 'Arranged' }
+    ]);
+    syncCourseFilterControls();
+}
+
+function populateFilterCheckboxes(filterName, options) {
+    document.querySelectorAll(`[data-filter-options="${filterName}"]`).forEach(container => {
+        container.replaceChildren(...options.map(option => {
+            const label = createElementWithText('label', 'filter-check', '');
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.value = option.value;
+            input.className = 'course-filter-control';
+            input.setAttribute('data-filter-name', filterName);
+            label.append(input, document.createTextNode(` ${option.label}`));
+            return label;
+        }));
+    });
+}
+
+function openCourseFilters() {
+    const toggle = document.getElementById('filterToggle');
+    if (!toggle || toggle.disabled) return;
+    if (isMobileViewport()) {
+        const sheet = document.getElementById('mobileFilterSheet');
+        if (mobileFilterCloseTimer) {
+            window.clearTimeout(mobileFilterCloseTimer);
+            mobileFilterCloseTimer = null;
+        }
+        sheet.hidden = false;
+        sheet.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('mobile-filter-sheet-open');
+        window.requestAnimationFrame(() => sheet.classList.add('is-open'));
+        const doneButton = sheet.querySelector('[data-close-filters]');
+        if (doneButton) doneButton.focus({ preventScroll: true });
+    } else {
+        const popover = document.getElementById('desktopFilterPopover');
+        popover.hidden = false;
+        popover.querySelector('[data-close-filters]').focus({ preventScroll: true });
+    }
+    toggle.setAttribute('aria-expanded', 'true');
+}
+
+function closeCourseFilters() {
+    const popover = document.getElementById('desktopFilterPopover');
+    const sheet = document.getElementById('mobileFilterSheet');
+    const activeElement = document.activeElement;
+    const restoreFocus = (popover && popover.contains(activeElement)) || (sheet && sheet.contains(activeElement));
+    if (popover) popover.hidden = true;
+    if (sheet) {
+        sheet.classList.remove('is-open');
+        sheet.setAttribute('aria-hidden', 'true');
+        if (mobileFilterCloseTimer) window.clearTimeout(mobileFilterCloseTimer);
+        mobileFilterCloseTimer = window.setTimeout(() => {
+            sheet.hidden = true;
+            mobileFilterCloseTimer = null;
+        }, 180);
+    }
+    document.body.classList.remove('mobile-filter-sheet-open');
+    const toggle = document.getElementById('filterToggle');
+    if (toggle) {
+        toggle.setAttribute('aria-expanded', 'false');
+        if (restoreFocus) toggle.focus({ preventScroll: true });
+    }
+}
+
+function isDesktopFilterOpen() {
+    const popover = document.getElementById('desktopFilterPopover');
+    return !!popover && !popover.hidden;
+}
+
+function areCourseFiltersOpen() {
+    const sheet = document.getElementById('mobileFilterSheet');
+    return isDesktopFilterOpen() || !!(sheet && sheet.classList.contains('is-open'));
 }
 
 function renderSectionChoice(course, section, choiceType) {
@@ -394,18 +559,14 @@ function renderCourseResults(courses) {
     accordion.id = 'courseResultsAccordion';
     courses.forEach(course => accordion.appendChild(renderCourseResult(course)));
     results.appendChild(accordion);
-    const firstSummary = results.querySelector('.result-summary');
-    const firstPanel = results.querySelector('.collapse');
-    if (firstSummary && firstPanel) {
-        firstSummary.setAttribute('aria-expanded', 'true');
-        firstPanel.classList.add('show');
-    }
     updateSearchResultTimeDisplays();
 }
 
-async function handleCourseSearchSubmit(event) {
-    event.preventDefault();
-    const form = event.currentTarget;
+function searchHasCriteria(formData) {
+    return String(formData.get('q') || '').trim() || getActiveFilterGroupCount() > 0;
+}
+
+async function handleCourseSearch(form) {
     const results = document.getElementById('searchResults');
     const requestId = ++courseSearchRequestId;
     const formData = new FormData(form);
@@ -413,7 +574,11 @@ async function handleCourseSearchSubmit(event) {
     const term = formData.get('semester');
 
     if (!campus || !term) {
-        renderCourseResults([]);
+        if (results) results.replaceChildren(createElementWithText(
+            'div',
+            'empty-search',
+            'Choose a campus + term to begin searching courses.'
+        ));
         return;
     }
 
@@ -421,16 +586,31 @@ async function handleCourseSearchSubmit(event) {
     try {
         const courses = await CourseApi.fetchCourses(campus, term);
         if (requestId !== courseSearchRequestId) return;
+        populateCourseFilterOptions();
+        const filterToggle = document.getElementById('filterToggle');
+        if (filterToggle) filterToggle.disabled = false;
+        if (!searchHasCriteria(formData)) {
+            if (results) results.replaceChildren(createElementWithText(
+                'div',
+                'empty-search',
+                'Start typing or open Filters to find courses.'
+            ));
+            return;
+        }
         renderCourseResults(CourseApi.filterCourses(courses, {
             q: formData.get('q'),
-            subject: formData.get('subject'),
-            number: formData.get('number')
+            ...courseFilters
         }));
     } catch (error) {
         if (requestId !== courseSearchRequestId) return;
         if (results) results.replaceChildren(createElementWithText('div', 'empty-search', 'Unable to load courses. Please try again.'));
         console.error('Unable to load course data:', error);
     }
+}
+
+async function handleCourseSearchSubmit(event) {
+    event.preventDefault();
+    return handleCourseSearch(event.currentTarget);
 }
 
 function isMobileViewport() {
@@ -461,10 +641,14 @@ function setMobilePane(targetPane) {
 
 function debounce(callback, delay) {
     let timerId;
-    return function(...args) {
+    const debounced = function(...args) {
         window.clearTimeout(timerId);
         timerId = window.setTimeout(() => callback.apply(this, args), delay);
     };
+    debounced.cancel = function() {
+        window.clearTimeout(timerId);
+    };
+    return debounced;
 }
 
 function findSelectedCourseChoice(courseId, choiceType) {
