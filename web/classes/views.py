@@ -317,9 +317,10 @@ def get_sections_by_ids(request):
             }
         )
     except json.JSONDecodeError:
-        return JsonResponse({'error': 'Invalid JSON'}, status=400)
+        return JsonResponse({'error': 'Invalid metadata for provided code'}, status=400)
     except Exception as e:
-        return JsonResponse({'error': str(e)}, status=500)
+        logger.exception('Unexpected error while getting sectionids from a provided code')
+        return JsonResponse({'error': 'An internal error occured'}, status=500)
 
 
 @require_GET
