@@ -376,4 +376,5 @@ def get_schedule_data(request):
 
         return JsonResponse({'schedule': calendar_data})
     except Exception as e:
-        return JsonResponse({'error': str(e)}, status=500)
+        logger.exception('Unexpected error while getting sectionids from a provided code')
+        return JsonResponse({'error': 'An internal error occured'}, status=500)
