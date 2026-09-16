@@ -92,7 +92,7 @@ function getRateLimitMessageFromResponse(xhr, fallbackMessage) {
 function createElementWithText(tagName, className, text) {
     const element = document.createElement(tagName);
     if (className) element.className = className;
-    element.textContent = text == null ? '' : String(text);
+    element.textContent = text === null || text === undefined ? '' : String(text);
     return element;
 }
 
@@ -431,8 +431,8 @@ function areCourseFiltersOpen() {
 }
 
 function renderSectionChoice(course, section, choiceType) {
-    const sectionId = String(section.section_id == null ? '' : section.section_id);
-    const courseId = String(course.id == null ? '' : course.id);
+    const sectionId = String(section.section_id === null || section.section_id === undefined ? '' : section.section_id);
+    const courseId = String(course.id === null || course.id === undefined ? '' : course.id);
     const label = choiceType === 'lab' ? 'Lab' : 'Lecture';
     const row = document.createElement('label');
     row.className = 'section-choice-row';
@@ -460,7 +460,7 @@ function renderSectionChoice(course, section, choiceType) {
         ['data-credits', section.credits],
         ['data-is-lab', section.is_lab],
         ['data-component', section.component]
-    ].forEach(([name, value]) => input.setAttribute(name, String(value == null ? '' : value)));
+    ].forEach(([name, value]) => input.setAttribute(name, String(value === null || value === undefined ? '' : value)));
     select.append(input, createElementWithText('strong', null, section.section_num));
 
     row.append(
@@ -471,7 +471,7 @@ function renderSectionChoice(course, section, choiceType) {
         createElementWithText('span', null, section.location),
         createElementWithText('span', null, section.instructor)
     );
-    row.children[2].setAttribute('data-time', String(section.time == null ? '' : section.time));
+    row.children[2].setAttribute('data-time', String(section.time === null || section.time === undefined ? '' : section.time));
     return row;
 }
 

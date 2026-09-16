@@ -57,11 +57,11 @@ def _rate_limit_key(identity, scope='global'):
 def _consume_token(identity, scope='global'):
     if not identity:
         return {
-                'allowed': False,
-                'remaining': 0.0,
-                'retry_after': 1.0,
-                'key': None,
-            }
+            'allowed': False,
+            'remaining': 0.0,
+            'retry_after': 1.0,
+            'key': None,
+        }
     key = _rate_limit_key(identity, scope=scope)
     now = time.time()
     try:
@@ -109,7 +109,7 @@ def check_session_token_limit(sessionid, scope='global'):
 
 def check_anon_token_limit(ip_address, scope='global'):
     if ip_address:
-        return _consume_token(f'ip:{ip_address}', scope=scope)    
+        return _consume_token(f'ip:{ip_address}', scope=scope)
     return _consume_token(None, scope=scope)
 
 

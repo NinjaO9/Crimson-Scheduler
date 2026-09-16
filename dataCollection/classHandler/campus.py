@@ -1,19 +1,17 @@
-
 from dataCollection.classHandler.semester import Semester
-class Campus:
 
+
+class Campus:
     def __init__(self, name: str, semesters: list[Semester]):
         self.name = name
         self.semesters = semesters
 
-
-
     def __repr__(self):
-        return f"Campus(name={self.name}, semesters={self.semesters}\n)"
+        return f'Campus(name={self.name}, semesters={self.semesters}\n)'
 
     def __str__(self):
-        return f"{self.name} ({self.semesters})"
-    
+        return f'{self.name} ({self.semesters})'
+
 
 """
 

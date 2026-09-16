@@ -3,7 +3,17 @@ import json
 from django.test import TestCase
 from django.urls import reverse
 
-from .models import Campus, Semester, Topics, Course, Section, UserSchedule, ScheduleSection, parse_time, sections_overlap
+from .models import (
+    Campus,
+    Course,
+    ScheduleSection,
+    Section,
+    Semester,
+    Topics,
+    UserSchedule,
+    parse_time,
+    sections_overlap,
+)
 
 
 class ApiInputValidationTests(TestCase):
@@ -68,6 +78,7 @@ class ApiInputValidationTests(TestCase):
 
         self.assertEqual(response.status_code, 400)
         self.assertEqual(response.json(), {'error': 'section_ids must be a list'})
+
 
 class ScheduleApiTests(TestCase):
     def setUp(self):
@@ -160,18 +171,16 @@ class ScheduleApiTests(TestCase):
         schedule = response.json()['schedule']
         self.assertEqual(len(schedule), 2)
         self.assertTrue(all(item['has_conflict'] for item in schedule))
-        self.assertTrue(
-            ScheduleSection.objects.get(section=self.lecture).has_conflict
-        )
-        self.assertTrue(
-            ScheduleSection.objects.get(section=self.conflicting_section).has_conflict
-        )
+        self.assertTrue(ScheduleSection.objects.get(section=self.lecture).has_conflict)
+        self.assertTrue(ScheduleSection.objects.get(section=self.conflicting_section).has_conflict)
 
     def test_remove_from_schedule_recalculates_remaining_conflicts(self):
         self.client.post(reverse('add_to_schedule', args=[self.lecture.id]))
         self.client.post(reverse('add_to_schedule', args=[self.conflicting_section.id]))
 
-        response = self.client.post(reverse('remove_from_schedule', args=[self.conflicting_section.id]))
+        response = self.client.post(
+            reverse('remove_from_schedule', args=[self.conflicting_section.id])
+        )
 
         self.assertEqual(response.status_code, 200)
         schedule = response.json()['schedule']
@@ -195,15 +204,17 @@ class ScheduleApiTests(TestCase):
         self.assertEqual(response.json()['schedule'][0]['section_id'], self.lecture.id)
 
     def test_get_sections_by_ids_serializes_share_code_sections_in_requested_order(self):
-        payload = json.dumps({
-            'section_ids': [
-                str(self.lab.id),
-                'bad-id',
-                self.lecture.id,
-                self.lab.id,
-                999999,
-            ],
-        })
+        payload = json.dumps(
+            {
+                'section_ids': [
+                    str(self.lab.id),
+                    'bad-id',
+                    self.lecture.id,
+                    self.lab.id,
+                    999999,
+                ],
+            }
+        )
 
         response = self.client.post(
             reverse('get_sections_by_ids'),
