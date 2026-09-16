@@ -165,8 +165,8 @@ def add_to_schedule(request, section_id):
 
     except Section.DoesNotExist:
         return JsonResponse({'success': False, 'message': 'Section not found'}, status=404)
-    except Exception:
-        logger.exception('Unexpected error while adding section to schedule')
+    except Exception as e:
+        logger.exception(f'Unexpected error while adding section to schedule:\n {e}')
         return JsonResponse({'success': False, 'message': 'An internal error occurred'}, status=500)
 
 
@@ -204,8 +204,8 @@ def remove_from_schedule(request, section_id):
         return JsonResponse({'success': False, 'message': 'Section not found'}, status=404)
     except UserSchedule.DoesNotExist:
         return JsonResponse({'success': False, 'message': 'Schedule not found'}, status=404)
-    except Exception:
-        logger.exception('Unexpected error while removing section from schedule')
+    except Exception as e:
+        logger.exception(f'Unexpected error while removing section from schedule: \n {e}')
         return JsonResponse({'success': False, 'message': 'An internal error occurred'}, status=500)
 
 
@@ -317,9 +317,10 @@ def get_sections_by_ids(request):
             }
         )
     except json.JSONDecodeError:
-        return JsonResponse({'error': 'Invalid JSON'}, status=400)
+        return JsonResponse({'error': 'Invalid metadata for provided code'}, status=400)
     except Exception as e:
-        return JsonResponse({'error': str(e)}, status=500)
+        logger.exception(f'Unexpected error while getting sectionids from a provided code:\n {e}')
+        return JsonResponse({'error': 'An internal error occured'}, status=500)
 
 
 @require_GET
@@ -375,4 +376,5 @@ def get_schedule_data(request):
 
         return JsonResponse({'schedule': calendar_data})
     except Exception as e:
-        return JsonResponse({'error': str(e)}, status=500)
+        logger.exception(f'Unexpected error while getting sectionids from a provided code:\n {e}')
+        return JsonResponse({'error': 'An internal error occured'}, status=500)
