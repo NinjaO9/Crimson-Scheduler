@@ -38,6 +38,12 @@ ALLOWED_HOSTS = [
     if host.strip()
 ]
 
+# Hopefully this helps with the constnant env var fight
+VERCEL_URL = os.environ.get("VERCEL_URL")
+
+if VERCEL_URL:
+    ALLOWED_HOSTS.append(VERCEL_URL)
+
 
 # Application definition
 
