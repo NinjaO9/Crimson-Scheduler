@@ -166,7 +166,7 @@ def add_to_schedule(request, section_id):
     except Section.DoesNotExist:
         return JsonResponse({'success': False, 'message': 'Section not found'}, status=404)
     except Exception:
-        logger.exception("Unexpected error while adding section to schedule")
+        logger.exception('Unexpected error while adding section to schedule')
         return JsonResponse({'success': False, 'message': 'An internal error occurred'}, status=500)
 
 
@@ -205,7 +205,7 @@ def remove_from_schedule(request, section_id):
     except UserSchedule.DoesNotExist:
         return JsonResponse({'success': False, 'message': 'Schedule not found'}, status=404)
     except Exception:
-        logger.exception("Unexpected error while removing section from schedule")
+        logger.exception('Unexpected error while removing section from schedule')
         return JsonResponse({'success': False, 'message': 'An internal error occurred'}, status=500)
 
 
