@@ -17,8 +17,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Generate GitHub App Token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.BYPASS_APP_ID }}
+          private-key: ${{ secrets.BYPASS_APP_PRIVATE_KEY }}
+
       - name: Checkout source
         uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,6 +46,7 @@ jobs:
       - name: Publish to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          token: ${{ steps.app-token.outputs.token }}
           branch: crimson-data
           folder: _generated_site
           clean: true
