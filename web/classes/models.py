@@ -1,10 +1,12 @@
 from django.db import models
-class Campus(models.Model):
 
+
+class Campus(models.Model):
     name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):
-        return f"{self.name}"
+        return f'{self.name}'
+
 
 class Semester(models.Model):
     name = models.CharField(max_length=50)
@@ -12,9 +14,10 @@ class Semester(models.Model):
 
     class Meta:
         unique_together = ('name', 'campus')
-    
+
     def __str__(self):
-        return f"{self.name} - {self.campus.name}\n"
+        return f'{self.name} - {self.campus.name}\n'
+
 
 class Topics(models.Model):
     name = models.CharField(max_length=50)
@@ -25,44 +28,46 @@ class Topics(models.Model):
         unique_together = ('name', 'semester')
 
     def __str__(self):
-        return f"{self.name} - {self.semester.name}\n"
-    
+        return f'{self.name} - {self.semester.name}\n'
+
+
 class Course(models.Model):
-    subject = models.CharField(max_length=30, default="N/A")
+    subject = models.CharField(max_length=30, default='N/A')
     course_number = models.IntegerField(null=True)
-    name = models.CharField(max_length=100, default="N/A")
-    credits = models.CharField(max_length=2, default="V")
+    name = models.CharField(max_length=100, default='N/A')
+    credits = models.CharField(max_length=2, default='V')
     has_required_lab = models.BooleanField(default=False)
 
     topic = models.ForeignKey(Topics, on_delete=models.CASCADE, related_name='courses')
-    
+
     def __str__(self):
-        return f"{self.name} - {self.topic}\n"
-    
+        return f'{self.name} - {self.topic}\n'
+
 
 class Section(models.Model):
     code = models.IntegerField(null=True)
     section = models.IntegerField(null=True)
-    days = models.CharField(max_length=50, default="N/A")
-    time = models.CharField(max_length=100, default="N/A")
-    location = models.CharField(max_length=20, default="N/A")
-    instructor = models.CharField(max_length=50, default="N/A")
+    days = models.CharField(max_length=50, default='N/A')
+    time = models.CharField(max_length=100, default='N/A')
+    location = models.CharField(max_length=20, default='N/A')
+    instructor = models.CharField(max_length=50, default='N/A')
     seats_taken = models.IntegerField(null=True)
     seats_total = models.IntegerField(null=True)
     is_lab = models.BooleanField(default=False)
-    component = models.CharField(max_length=30, default="Lecture")
+    component = models.CharField(max_length=30, default='Lecture')
 
-    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name="sections")
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='sections')
 
     class Meta:
         unique_together = ('code', 'course')
 
     def __str__(self):
-        return f"{self.course} - Section {self.section}"
+        return f'{self.course} - Section {self.section}'
 
 
 class UserSchedule(models.Model):
     """Stores a user's schedule selection for a particular semester"""
+
     session_id = models.CharField(max_length=100)  # Using session ID instead of user auth
     semester = models.ForeignKey(Semester, on_delete=models.CASCADE, related_name='user_schedules')
     created_at = models.DateTimeField(auto_now_add=True)
@@ -72,7 +77,7 @@ class UserSchedule(models.Model):
         unique_together = ('session_id', 'semester')
 
     def __str__(self):
-        return f"Schedule for {self.session_id} - {self.semester}"
+        return f'Schedule for {self.session_id} - {self.semester}'
 
     def get_all_sections(self):
         """Get all sections in this schedule"""
@@ -100,7 +105,10 @@ class UserSchedule(models.Model):
 
 class ScheduleSection(models.Model):
     """Represents a section that has been added to a user's schedule"""
-    schedule = models.ForeignKey(UserSchedule, on_delete=models.CASCADE, related_name='schedule_sections')
+
+    schedule = models.ForeignKey(
+        UserSchedule, on_delete=models.CASCADE, related_name='schedule_sections'
+    )
     section = models.ForeignKey(Section, on_delete=models.CASCADE)
     has_conflict = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -109,43 +117,44 @@ class ScheduleSection(models.Model):
         unique_together = ('schedule', 'section')
 
     def __str__(self):
-        return f"{self.section} in {self.schedule}"
+        return f'{self.section} in {self.schedule}'
 
 
 def parse_time(time_str):
     """Parse time string into minutes since midnight"""
-    if not time_str or time_str == "N/A":
+    if not time_str or time_str == 'N/A':
         return None
     try:
         # Try 12-hour format with AM/PM (e.g., "10:30 AM")
         import re
+
         match12hr = re.match(r'(\d+):(\d+)\s+(AM|PM)', time_str, re.IGNORECASE)
         if match12hr:
             hours = int(match12hr.group(1))
             minutes = int(match12hr.group(2))
             period = match12hr.group(3).upper()
-            
+
             if period == 'PM' and hours != 12:
                 hours += 12
             elif period == 'AM' and hours == 12:
                 hours = 0
-            
+
             return hours * 60 + minutes
-        
+
         # Try 24-hour format with period (e.g., "14.55")
         match24hr_period = re.match(r'(\d+)\.(\d+)', time_str)
         if match24hr_period:
             hours = int(match24hr_period.group(1))
             minutes = int(match24hr_period.group(2))
             return hours * 60 + minutes
-        
+
         # Try 24-hour format with colon (e.g., "14:55")
         match24hr_colon = re.match(r'(\d+):(\d+)', time_str)
         if match24hr_colon:
             hours = int(match24hr_colon.group(1))
             minutes = int(match24hr_colon.group(2))
             return hours * 60 + minutes
-        
+
         return None
     except:
         return None
@@ -153,12 +162,12 @@ def parse_time(time_str):
 
 def sections_overlap(section1, section2):
     """Check if two sections have overlapping class times"""
-    if not section1.time or not section2.time or section1.time == "N/A" or section2.time == "N/A":
+    if not section1.time or not section2.time or section1.time == 'N/A' or section2.time == 'N/A':
         return False
 
     # Parse days
-    days1 = set(section1.days.replace(' ', '').upper()) if section1.days != "N/A" else set()
-    days2 = set(section2.days.replace(' ', '').upper()) if section2.days != "N/A" else set()
+    days1 = set(section1.days.replace(' ', '').upper()) if section1.days != 'N/A' else set()
+    days2 = set(section2.days.replace(' ', '').upper()) if section2.days != 'N/A' else set()
 
     # If no common days, no overlap
     if not days1 or not days2 or not days1 & days2:
