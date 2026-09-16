@@ -1,4 +1,5 @@
 import json
+import logging
 import re
 
 import requests
@@ -16,6 +17,7 @@ from .rate_limit import check_for_token_limit, token_limit_response
 SEASON_ORDER = {'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3}
 VERSION = 'v1'
 BASE_API_URL = f'https://ninjao9.github.io/Crimson-Scheduler/api/{VERSION}/'
+logger = logging.getLogger(__name__)
 
 
 def slugify(value: str) -> str:
@@ -163,8 +165,9 @@ def add_to_schedule(request, section_id):
 
     except Section.DoesNotExist:
         return JsonResponse({'success': False, 'message': 'Section not found'}, status=404)
-    except Exception as e:
-        return JsonResponse({'success': False, 'message': str(e)}, status=500)
+    except Exception:
+        logger.exception("Unexpected error while adding section to schedule")
+        return JsonResponse({'success': False, 'message': 'An internal error occurred'}, status=500)
 
 
 @require_POST
@@ -201,8 +204,9 @@ def remove_from_schedule(request, section_id):
         return JsonResponse({'success': False, 'message': 'Section not found'}, status=404)
     except UserSchedule.DoesNotExist:
         return JsonResponse({'success': False, 'message': 'Schedule not found'}, status=404)
-    except Exception as e:
-        return JsonResponse({'success': False, 'message': str(e)}, status=500)
+    except Exception:
+        logger.exception("Unexpected error while removing section from schedule")
+        return JsonResponse({'success': False, 'message': 'An internal error occurred'}, status=500)
 
 
 def get_schedule_calendar(request, user_schedule):
