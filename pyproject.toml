@@ -1,0 +1,19 @@
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = [
+    "venv",
+    "web/staticfiles",
+    "_generated_site",
+    "web/classes/migrations",
+]
+
+[tool.ruff.lint]
+# E9 covers syntax/compile errors; the remaining groups catch correctness,
+# import-order, bug-pattern, and Python-upgrade issues without enforcing a
+# project-wide style rewrite during this tooling milestone.
+select = ["E9", "F", "I", "B", "UP"]
+
+[tool.ruff.format]
+quote-style = "single"
+line-ending = "auto"

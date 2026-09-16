@@ -13,6 +13,7 @@ media
 
 # Django collectstatic output is generated during deployment and must not be committed.
 web/staticfiles/
+node_modules/
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files
