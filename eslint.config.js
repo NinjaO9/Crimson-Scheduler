@@ -10,7 +10,7 @@ export default [
         ],
     },
     {
-        files: ['web/classes/static/js/**/*.js'],
+        files: ['web/classes/static/js/*.js'],
         languageOptions: {
             ecmaVersion: 2022,
             sourceType: 'script',
@@ -35,6 +35,18 @@ export default [
             'valid-typeof': 'error',
             eqeqeq: ['error', 'always'],
             'no-async-promise-executor': 'error',
+        },
+    },
+    {
+        files: ['web/classes/static/js/schedule/**/*.js', 'web/classes/static/js/schedule_build.js'],
+        languageOptions: {
+            ecmaVersion: 2022,
+            sourceType: 'module',
+            globals: {
+                ...globals.browser,
+                CourseApi: 'readonly',
+                html2canvas: 'readonly',
+            },
         },
     },
     {
