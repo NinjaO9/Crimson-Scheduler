@@ -282,3 +282,7 @@ pip-selfcheck.json
 
 dataCollection/dataHandler/exampleresponses/
 _generated_site/
+
+# prevent compiled bundles from being commited
+
+*.bundle.js

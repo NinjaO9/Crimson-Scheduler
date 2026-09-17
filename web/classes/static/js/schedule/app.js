@@ -38,6 +38,7 @@ import {
 } from "./schedule-state.js";
 import { initializeScheduleExport } from "./export-image.js";
 import { initializeScheduleSharing } from "./sharing.js";
+import { initializeCalendarExport } from "./export-schedule.js";
 
 export function initializeScheduleApp() {
   initializeScheduleName();
@@ -82,6 +83,11 @@ export function initializeScheduleApp() {
     normalizeScheduleName: normalizeScheduleNameInput,
     clearSectionGhosts,
   });
+  const exportCalendar = initializeCalendarExport({
+    getScheduleName,
+    normalizeScheduleName: normalizeScheduleNameInput,
+    getSchedule,
+  });
   document.addEventListener("click", (event) => {
     if (event.target.closest("#clearScheduleBtn")) {
       event.preventDefault();
@@ -98,6 +104,7 @@ export function initializeScheduleApp() {
       return;
     }
     if (event.target.closest("#exportScheduleBtn")) return exportSchedule();
+    if (event.target.closest("#exportCalendarBtn")) return exportCalendar();
     if (event.target.closest("#shareScheduleBtn"))
       return sharing.shareScheduleCode();
     if (event.target.closest("#importShareCodeBtn"))
