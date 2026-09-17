@@ -1,4 +1,5 @@
 import { slugifyScheduleName } from "./preferences.js";
+import html2canvas from "html2canvas";
 
 export function nextAnimationFrame() {
   return new Promise((resolve) =>
@@ -40,12 +41,6 @@ export function initializeScheduleExport({
   clearSectionGhosts,
 }) {
   return async function exportSchedule() {
-    if (typeof window.html2canvas !== "function") {
-      window.alert(
-        "The image export tool is still loading. Please try again in a moment.",
-      );
-      return;
-    }
     const schedulePane = document.querySelector(".schedule-pane");
     const exportButton = document.getElementById("exportScheduleBtn");
     if (!schedulePane || !exportButton) return;
@@ -65,7 +60,7 @@ export function initializeScheduleExport({
     schedulePane.classList.add("is-exporting");
     try {
       await nextAnimationFrame();
-      const canvas = await window.html2canvas(schedulePane, {
+      const canvas = await html2canvas(schedulePane, {
         backgroundColor: "#ffffff",
         scale: Math.min(window.devicePixelRatio || 1, 2),
         useCORS: true,

@@ -7,6 +7,7 @@ export default [
             'web/staticfiles/**',
             '_generated_site/**',
             'node_modules/**',
+            'web/classes/static/js/schedule_build.bundle.js',
         ],
     },
     {
