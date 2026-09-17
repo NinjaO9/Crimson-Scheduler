@@ -171,6 +171,8 @@ export function renderSectionChoice(course, section, choiceType) {
     ["data-credits", section.credits],
     ["data-is-lab", section.is_lab],
     ["data-component", section.component],
+    ["data-start-date", section.dates && section.dates.start],
+    ["data-end-date", section.dates && section.dates.end],
   ].forEach(([name, value]) =>
     input.setAttribute(
       name,
@@ -413,6 +415,10 @@ export function buildCourseDataFromChoice(choice, scheduleGroupId) {
       credits: choice.getAttribute("data-credits") || "0",
       is_lab: choice.getAttribute("data-is-lab") === "true",
       component: choice.getAttribute("data-component") || "lecture",
+      dates: {
+        start: choice.getAttribute("data-start-date"),
+        end: choice.getAttribute("data-end-date"),
+      },
     },
     scheduleGroupId,
   );
