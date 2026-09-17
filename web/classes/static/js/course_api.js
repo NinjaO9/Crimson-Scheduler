@@ -43,7 +43,11 @@
             seats_available: Number(seats.available),
             credits: section && section.isLab ? '0' : text(section && section.credits, text(course && course.credits, '0')),
             is_lab: Boolean(section && section.isLab),
-            component: text(section && section.component, 'Lecture')
+            component: text(section && section.component, 'Lecture'),
+            dates: {
+                start: text(section && section.dates && section.dates.start),
+                end: text(section && section.dates && section.dates.end)
+            }
         };
     }
 
@@ -177,7 +181,11 @@
             seats: text(section && section.seats),
             credits: section && section.is_lab ? '0' : text(section && section.credits, '0'),
             is_lab: Boolean(section && section.is_lab),
-            component: text(section && section.component, 'lecture')
+            component: text(section && section.component, 'lecture'),
+            dates: section && section.dates ? {
+                start: text(section.dates.start),
+                end: text(section.dates.end)
+            } : { start: '', end: '' }
         };
     }
 
