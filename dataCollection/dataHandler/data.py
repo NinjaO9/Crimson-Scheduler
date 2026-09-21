@@ -76,9 +76,7 @@ class DataHandler:
         return Semester(f'{semestermd["term"]} {str(semestermd["year"])}', semesterdata)
 
     @classmethod
-    def getSubjectData(
-        cls, subject: str, prefix: str, campus: str, term: str, year: str
-    ) -> Subject:
+    def getSubjectData(cls, subject: str, prefix: str, campus: str, term: str, year: str) -> Subject:
         base = 'https://schedules.wsu.edu/api/Data/GetSectionListDTO/'
         url = f'{base}{campus}/{term}/{year}/{prefix}'
 
@@ -153,5 +151,7 @@ class DataHandler:
             seats_total=cls._to_int(course.get('enrollmentLimit')),
             is_lab=is_lab,
             component=cls._to_str(course.get('component')),
-            metadata=course,
+            ucore=cls._to_str(course.get('ucore')),
+            coop=(cls._to_str(course.get('coop')) != ''),
+            footnotes=cls._to_str(course.get('footnotes')),
         )

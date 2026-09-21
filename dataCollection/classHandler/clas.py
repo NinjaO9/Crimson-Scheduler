@@ -18,6 +18,9 @@ class Section:
         is_lab: bool = False,
         component: str = '',
         has_required_lab: bool = False,
+        ucore: str = '',
+        coop: bool = False,
+        footnotes: str = '',
         metadata: dict | None = None,
     ):
         self.code = code
@@ -36,6 +39,9 @@ class Section:
         self.instructor = instructor.strip()
         self.seats_taken = seats_taken
         self.seats_total = seats_total
+        self.ucore = ucore.strip().upper()
+        self.coop = coop
+        self.footnotes = footnotes.strip()
         self.metadata = metadata or {}
 
     def __repr__(self):
@@ -66,7 +72,9 @@ class Section:
 
     def formatTime(self, time) -> None:
         """
-        WSU has a really interesting way
+        WSU has a really interesting way of storing dates and time. The function tries its best to parse that date 
+        and time to the best of its ability.
+        (Yes, I was writing this comment and forgot to finish it)
         """
         time = (time or '').strip()
 
@@ -101,8 +109,9 @@ class Section:
 if __name__ == '__main__':
     test_cases = [
         'M,W,F11.10-12',  # single block, three days sharing one time
+        'M,W,F11.10-12;M,W,F11.10-12' # a really strange anomoly in some data
         'TU7.45-10.35',  # single block, one day
-        'TU10.10-13;TH9.10-12',  # the Postgres example - two days, two different times
+        'TU10.10-13;TH9.10-12',  # two days, two different times
         '',  # blank / arranged
         '   ',  # whitespace-only
         'ARR',  # explicit arranged, no digits at all
