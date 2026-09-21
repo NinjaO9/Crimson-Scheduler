@@ -41,8 +41,10 @@
             time: text(section && section.time),
             seats: text(seats.label, `${text(seats.taken, '')}/${text(seats.total, '')}`),
             seats_available: Number(seats.available),
+            seats_total: Number(seats.total),
             credits: section && section.isLab ? '0' : text(section && section.credits, text(course && course.credits, '0')),
             is_lab: Boolean(section && section.isLab),
+            ucore: text(section && section.ucore, ''),
             component: text(section && section.component, 'Lecture'),
             dates: {
                 start: text(section && section.dates && section.dates.start),
@@ -85,10 +87,6 @@
         }, []);
     }
 
-    function includes(value, query) {
-        return text(value).toLowerCase().includes(text(query).toLowerCase());
-    }
-
     function normalizeSearchText(value) {
         return text(value)
             .toLowerCase()
@@ -97,12 +95,23 @@
             .replace(/\s+/g, ' ');
     }
 
+    function getSectionAvailability(section) {
+        const fillFactor = 1 - Number(section.seats_available)/Number(section.seats_total); // Dont ask me why
+        if (fillFactor >= 1) return 'full';
+        if (fillFactor < 1 && fillFactor >= 0.75) return 'near-capacity'; // 75% =< x < 100%
+        return 'open'; // Could expand later
+    }
+
     function getSectionDelivery(section) {
         const meeting = `${text(section && section.days)} ${text(section && section.time)}`.toLowerCase();
         const location = text(section && section.location).toLowerCase();
         if (/\b(arr|arranged|tba)\b/.test(meeting)) return 'arranged';
         if (/\b(online|web|virtual|zoom)\b/.test(`${meeting} ${location}`)) return 'online';
         return 'in-person';
+    }
+
+    function getSectionUcore(section) {
+        return section.ucore;
     }
 
     function matchesQuery(course, query) {
@@ -128,17 +137,41 @@
         return { matches: true, score: 5 };
     }
 
-    function sectionMatches(section, options) {
-        if (options.openOnly && !(Number(section.seats_available) > 0)) return false;
-        return !options.delivery.length || options.delivery.includes(getSectionDelivery(section));
+function sectionMatches(section, options) {
+    const availability = getSectionAvailability(section);
+    const delivery = getSectionDelivery(section);
+    const ucore = getSectionUcore(section);
+
+    if (options.availability.length) {
+        if (options.availability.includes('openOnly')) { // openOnly acts like the 'hey I just want anything not full' filter
+            if (availability === 'full') return false;
+        } else if (!options.availability.includes(availability)) { // o.w, match the filter exactly.
+            return false;
+        }
     }
+
+    if (options.delivery.length && !options.delivery.includes(delivery)) { // can be generic
+        return false;
+    }
+
+    if (options.ucore.length) {
+        if (options.ucore.includes('ANY')) { // if 'any' is selected as an option, then all we care about is that the class is a Ucore
+            if (ucore === '') return false;
+        } else if (!options.ucore.includes(ucore)) { // o.w, match for the exact ucore.
+            return false;
+        }
+    }
+
+    return true;
+}
 
     function filterCourses(courses, filters) {
         const options = filters || {};
         const query = text(options.q).toLowerCase();
         const sectionOptions = {
-            openOnly: Boolean(options.openOnly),
-            delivery: Array.isArray(options.delivery) ? options.delivery : []
+            availability: Array.isArray(options.availability) ? options.availability : [],
+            delivery: Array.isArray(options.delivery) ? options.delivery : [],
+            ucore: Array.isArray(options.ucore) ? options.ucore : [],
         };
 
         return (Array.isArray(courses) ? courses : [])
@@ -246,7 +279,9 @@
         fetchDatasetByKey,
         fetchCourses,
         filterCourses,
+        getSectionAvailability,
         getSectionDelivery,
+        getSectionUcore,
         toScheduleEntry,
         normalizePayload,
         normalizeCourse,
