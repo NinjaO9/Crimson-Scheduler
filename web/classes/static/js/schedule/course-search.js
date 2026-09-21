@@ -9,13 +9,13 @@ let callbacks = {};
 const AUTO_SEARCH_DELAY_MS = 250;
 
 export function createEmptyCourseFilters() {
-  return { openOnly: false, delivery: [] };
+  return { availability: [], delivery: [], ucore: [], };
 }
 
 export function getActiveFilterGroupCount() {
-  return (
-    Number(courseFilters.openOnly) + Number(courseFilters.delivery.length > 0)
-  );
+  return Object.values(courseFilters)
+  .filter((values) => values.length > 0)
+  .length;
 }
 
 export function resetCourseFilters(clearQuery) {
@@ -29,28 +29,23 @@ export function resetCourseFilters(clearQuery) {
 
 export function updateCourseFiltersFromControl(control) {
   const filterName = control.getAttribute("data-filter-name");
-  if (filterName === "openOnly") courseFilters.openOnly = control.checked;
-  else if (filterName === "delivery") {
-    const values = new Set(courseFilters.delivery);
-    if (control.checked) values.add(control.value);
-    else values.delete(control.value);
-    courseFilters.delivery = [...values];
-  }
+  const values = new Set(courseFilters[filterName]);
+  if (control.checked) values.add(control.value);
+  else values.delete(control.value);
+  courseFilters[filterName] = [...values];
 }
 
 export function syncCourseFilterControls() {
   document
-    .querySelectorAll('.course-filter-control[data-filter-name="delivery"]')
+    .querySelectorAll('.course-filter-control[data-filter-name]')
     .forEach((input) => {
-      input.checked = courseFilters.delivery.includes(input.value);
+      const filterName = input.getAttribute("data-filter-name");
+      input.checked = courseFilters[filterName].includes(input.value);
     });
-  document
-    .querySelectorAll('.course-filter-control[data-filter-name="openOnly"]')
-    .forEach((input) => {
-      input.checked = courseFilters.openOnly;
-    });
+
   const count = getActiveFilterGroupCount();
   const countElement = document.getElementById("filterCount");
+  
   if (countElement) {
     countElement.textContent = `· ${count}`;
     countElement.hidden = count === 0;
