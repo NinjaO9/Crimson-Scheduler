@@ -247,8 +247,7 @@
     gap: 7px;
 }
 
-.availability-filter-group .filter-check,
-.delivery-filter-group .filter-check {
+.filter-group .filter-check {
     border: 1px solid var(--line-strong);
     border-radius: 999px;
     cursor: pointer;
@@ -257,16 +256,14 @@
     position: relative;
 }
 
-.availability-filter-group .filter-check:has(input:checked),
-.delivery-filter-group .filter-check:has(input:checked) {
+.filter-group .filter-check:has(input:checked) {
     background: #fff5f6;
     border-color: var(--crimson);
     color: var(--crimson);
     font-weight: 400;
 }
 
-.availability-filter-group .filter-check input,
-.delivery-filter-group .filter-check input {
+.filter-group .filter-check input {
     appearance: none;
     height: 1px;
     margin: 0;
@@ -275,8 +272,7 @@
     width: 1px;
 }
 
-.availability-filter-group .filter-check:has(input:focus-visible),
-.delivery-filter-group .filter-check:has(input:focus-visible) {
+.filter-group .filter-check:has(input:focus-visible) {
     box-shadow: 0 0 0 3px rgba(152, 30, 50, 0.18);
     outline: 0;
 }
