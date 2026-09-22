@@ -1,20 +1,54 @@
 :root {
-    --wsu-crimson: #981e32;
-    --wsu-crimson-dark: #7f1425;
-    --color-page: #f7f8fa;
+    --wsu-crimson: #A60F2D;
+    --wsu-crimson-dark: #860d25;
+    --color-page: #f6f7f9;
     --color-surface: #fff;
-    --color-text: #111827;
-    --color-text-secondary: #2f3642;
-    --color-text-subtle: #4b5563;
-    --color-text-muted: #5f6877;
-    --color-border: #e5e7eb;
-    --color-border-strong: #d7dce3;
-    --color-accent-hover: #a9152c;
-    --color-accent-subtle: #fff5f6;
+    --color-surface-raised: #fff;
+    --color-text: #1f2937;
+    --color-text-secondary: #374151;
+    --color-text-subtle: #566273;
+    --color-text-muted: #667386;
+    --color-border: #e1e5eb;
+    --color-border-strong: #cbd2dc;
+    --color-accent-hover: #860d25;
+    --color-accent-subtle: #fff1f3;
     --shadow-surface: 0 10px 30px rgba(15, 23, 42, 0.08);
     --focus-ring: 0 0 0 3px rgba(169, 21, 44, 0.22);
+    --color-success-surface: #d9efdf;
+    --color-success-border: #9ac8a7;
+    --color-success-text: #1f5131;
+    --color-danger-surface: #f5d9dc;
+    --color-danger-border: #d88590;
+    --color-danger-text: #681f2b;
+    --color-overlay: rgba(17, 24, 39, 0.42);
+    --color-control-disabled: #e1e5eb;
     --bs-body-font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
+
+:root[data-theme="dark"] {
+    --color-page: #15171b;
+    --color-surface: #261d1d; /*261d1d, 1d2026  : I've got no clue which one I should do*/
+    --color-surface-raised: #242831;
+    --color-text: #f3f4f6;
+    --color-text-secondary: #cbd5e1;
+    --color-text-subtle: #aab4c0;
+    --color-text-muted: #96a2b1;
+    --color-border: #303840;
+    --color-border-strong: #46505c;
+    --color-accent-hover: #c34a61;
+    --color-accent-subtle: #351d24;
+    --shadow-surface: 0 10px 30px rgba(0, 0, 0, 0.32);
+    --focus-ring: 0 0 0 3px rgba(222, 87, 109, 0.42);
+    --color-success-surface: #285d43;
+    --color-success-border: #4f9f73;
+    --color-success-text: #e5f5eb;
+    --color-danger-surface: #a83243;
+    --color-danger-border: #e46d7d;
+    --color-danger-text: #ffe7eb;
+    --color-overlay: rgba(0, 0, 0, 0.62);
+    --color-control-disabled: #454d57;
+}
+
 html {
     background: var(--wsu-crimson);
 }
@@ -450,4 +484,16 @@ body {
         font-size: 1.8rem;
     }
 
+}
+
+:root[data-theme="dark"] .help-image-slot {
+    background: linear-gradient(135deg, #1f252c 0%, #29313a 100%);
+    border-color: var(--color-border-strong);
+    color: var(--color-text-secondary);
+}
+
+:root[data-theme="dark"] .help-tips {
+    background: #332b1b;
+    border-color: #8a6b2c;
+    color: var(--color-text-secondary);
 }

@@ -554,11 +554,11 @@
 }
 
 .course-block {
-    background: #b1f0ab;
-    border: 1px solid var(--soft-red-border);
+    background: var(--color-success-surface);
+    border: 1px solid var(--color-success-border);
     border-radius: 6px;
     box-sizing: border-box;
-    color: #111827;
+    color: var(--color-success-text);
     cursor: pointer;
     font-size: 0.62rem;
     font-weight: 700;
@@ -573,17 +573,18 @@
 }
 
 .course-block.conflict {
-    background: #f0abab;
-    border-color: #d20f2a;
+    background: var(--color-danger-surface);
+    border-color: var(--color-danger-border);
+    color: var(--color-danger-text);
     z-index: var(--course-block-conflict-z-index, 35);
 }
 
 .course-block.ghost {
     background: rgba(152, 30, 50, 0.16);
     border: 1px dashed var(--crimson);
-    color: #111827;
+    color: var(--color-text);
     pointer-events: none;
-    z-index: 36;
+    z-index: var(--course-block-ghost-z-index, 2500);
 }
 
 .course-block:hover {
@@ -1219,4 +1220,93 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .mobile-nav-btn.is-active {
         color: var(--crimson);
     }
+}
+
+:root[data-theme="dark"] .schedule-app,
+:root[data-theme="dark"] .filter-popover,
+:root[data-theme="dark"] .calendar-header,
+:root[data-theme="dark"] .course-block-tooltip,
+:root[data-theme="dark"] .mobile-filter-panel,
+:root[data-theme="dark"] .mobile-conflict-panel,
+:root[data-theme="dark"] .mobile-nav {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .form-control,
+:root[data-theme="dark"] .form-select,
+:root[data-theme="dark"] .filter-group select,
+:root[data-theme="dark"] .schedule-name-input,
+:root[data-theme="dark"] .mobile-conflict-close,
+:root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .conflict-remove-btn {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .field label,
+:root[data-theme="dark"] .field-or,
+:root[data-theme="dark"] .filter-group > label,
+:root[data-theme="dark"] .filter-group legend,
+:root[data-theme="dark"] .filter-check,
+:root[data-theme="dark"] .filter-title,
+:root[data-theme="dark"] .more-filters,
+:root[data-theme="dark"] .form-check-label,
+:root[data-theme="dark"] .credits-label,
+:root[data-theme="dark"] .saved-state,
+:root[data-theme="dark"] .calendar-time-slot,
+:root[data-theme="dark"] .misc-course-title,
+:root[data-theme="dark"] .misc-meta,
+:root[data-theme="dark"] .mobile-nav-btn,
+:root[data-theme="dark"] .mobile-conflict-title,
+:root[data-theme="dark"] .mobile-conflict-close,
+:root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .conflict-remove-btn {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .form-control::placeholder {
+    color: var(--color-text-muted);
+    opacity: 1;
+}
+
+:root[data-theme="dark"] .filter-toggle:disabled {
+    background: var(--color-control-disabled);
+    color: #c2cad4;
+}
+
+:root[data-theme="dark"] .course-block {
+    background: var(--color-success-surface);
+    border-color: var(--color-success-border);
+    color: var(--color-success-text);
+}
+
+:root[data-theme="dark"] .course-block.conflict {
+    background: var(--color-danger-surface);
+    border-color: var(--color-danger-border);
+    color: var(--color-danger-text);
+}
+
+:root[data-theme="dark"] .course-block.ghost {
+    background: rgba(166, 15, 45, 0.34);
+    border-color: #e06a7d;
+    color: #ffe7eb;
+}
+
+:root[data-theme="dark"] .actions-menu .action-menu-item,
+:root[data-theme="dark"] .actions-menu .dropdown-item {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .actions-menu .action-menu-item:hover,
+:root[data-theme="dark"] .actions-menu .action-menu-item:focus,
+:root[data-theme="dark"] .actions-menu .dropdown-item:hover,
+:root[data-theme="dark"] .actions-menu .dropdown-item:focus {
+    background: var(--color-accent-subtle);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .mobile-filter-backdrop,
+:root[data-theme="dark"] .mobile-conflict-backdrop {
+    background: var(--color-overlay);
 }

@@ -233,3 +233,33 @@
     color: #5f6877;
     padding: 12px;
 }
+
+:root[data-theme="dark"] .result-summary,
+:root[data-theme="dark"] .result-body,
+:root[data-theme="dark"] .section-choice-row:has(.section-choice:checked) {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .section-choice-row:has(.section-choice:checked) {
+    background: var(--color-accent-subtle);
+}
+
+:root[data-theme="dark"] .result-summary,
+:root[data-theme="dark"] .result-title,
+:root[data-theme="dark"] .course-description,
+:root[data-theme="dark"] .section-group-title,
+:root[data-theme="dark"] .section-choice-row {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .result-meta,
+:root[data-theme="dark"] .section-table-head,
+:root[data-theme="dark"] .muted-cell,
+:root[data-theme="dark"] .empty-search {
+    color: var(--color-text-muted);
+}
+
+:root[data-theme="dark"] .result-chevron {
+    border-top-color: var(--color-text);
+}
