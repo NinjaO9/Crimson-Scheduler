@@ -76,7 +76,9 @@ class DataHandler:
         return Semester(f'{semestermd["term"]} {str(semestermd["year"])}', semesterdata)
 
     @classmethod
-    def getSubjectData(cls, subject: str, prefix: str, campus: str, term: str, year: str) -> Subject:
+    def getSubjectData(
+        cls, subject: str, prefix: str, campus: str, term: str, year: str
+    ) -> Subject:
         base = 'https://schedules.wsu.edu/api/Data/GetSectionListDTO/'
         url = f'{base}{campus}/{term}/{year}/{prefix}'
 
