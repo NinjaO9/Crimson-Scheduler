@@ -70,7 +70,8 @@
             credits: text(course && course.credits, '0'),
             has_required_lab: Boolean(course && course.hasRequiredLab),
             lecture_sections: normalizedSections.filter(section => !section.is_lab),
-            lab_sections: normalizedSections.filter(section => section.is_lab)
+            lab_sections: normalizedSections.filter(section => section.is_lab),
+            ucore: text(normalizedSections[0].ucore, ''), // all sections should have the same UCORE
         };
     }
 

@@ -257,6 +257,12 @@ export function renderCourseResult(course) {
       course.has_required_lab ? "Lecture + Lab" : "Lecture",
     ),
   );
+  if (course.ucore != '')
+  {
+    meta.append(
+      createElementWithText("span", null, `${course.ucore}`),
+    );
+  }
   summaryText.append(title, meta);
   summary.append(
     summaryText,
