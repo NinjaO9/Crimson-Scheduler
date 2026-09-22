@@ -136,6 +136,9 @@ class JsonStorageHandler:
             'instructors': cls.normalizeInstructors(
                 metadata.get('instructors'), section.instructor
             ),
+            'ucore': section.ucore,
+            'coop': section.coop,
+            'footnotes': section.footnotes,
             'seats': {
                 'taken': section.seats_taken,
                 'total': section.seats_total,

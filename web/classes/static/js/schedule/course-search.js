@@ -9,13 +9,15 @@ let callbacks = {};
 const AUTO_SEARCH_DELAY_MS = 250;
 
 export function createEmptyCourseFilters() {
-  return { openOnly: false, delivery: [] };
+  return { availability: [], delivery: [], ucore: [], };
 }
+
 export function getActiveFilterGroupCount() {
-  return (
-    Number(courseFilters.openOnly) + Number(courseFilters.delivery.length > 0)
-  );
+  return Object.values(courseFilters)
+  .filter((values) => values.length > 0)
+  .length;
 }
+
 export function resetCourseFilters(clearQuery) {
   const form = document.getElementById("courseSearchForm");
   if (form && form.autoSearch && form.autoSearch.cancel)
@@ -24,42 +26,65 @@ export function resetCourseFilters(clearQuery) {
   if (clearQuery && form) form.querySelector("#searchInput").value = "";
   syncCourseFilterControls();
 }
+
 export function updateCourseFiltersFromControl(control) {
   const filterName = control.getAttribute("data-filter-name");
-  if (filterName === "openOnly") courseFilters.openOnly = control.checked;
-  else if (filterName === "delivery") {
-    const values = new Set(courseFilters.delivery);
-    if (control.checked) values.add(control.value);
-    else values.delete(control.value);
-    courseFilters.delivery = [...values];
-  }
+  const values = new Set(courseFilters[filterName]);
+  if (control.checked) values.add(control.value);
+  else values.delete(control.value);
+  courseFilters[filterName] = [...values];
 }
+
 export function syncCourseFilterControls() {
   document
-    .querySelectorAll('.course-filter-control[data-filter-name="delivery"]')
+    .querySelectorAll('.course-filter-control[data-filter-name]')
     .forEach((input) => {
-      input.checked = courseFilters.delivery.includes(input.value);
+      const filterName = input.getAttribute("data-filter-name");
+      input.checked = courseFilters[filterName].includes(input.value);
     });
-  document
-    .querySelectorAll('.course-filter-control[data-filter-name="openOnly"]')
-    .forEach((input) => {
-      input.checked = courseFilters.openOnly;
-    });
+
   const count = getActiveFilterGroupCount();
   const countElement = document.getElementById("filterCount");
+  
   if (countElement) {
     countElement.textContent = `· ${count}`;
     countElement.hidden = count === 0;
   }
 }
+
 export function populateCourseFilterOptions() {
+  
+  // Populate availability filter
+  populateFilterCheckboxes("availability", [
+    {value: "openOnly", label: "Open seats only"},
+  ]);
+
+  // Populate delivery filter
   populateFilterCheckboxes("delivery", [
     { value: "in-person", label: "In person" },
     { value: "online", label: "Online" },
     { value: "arranged", label: "Arranged" },
   ]);
+
+  // Populate UCORE filter
+  populateFilterCheckboxes("ucore", [
+    {value: "ANY", label: "Any"},
+    {value: "ROOT", label: "ROOT"},
+    {value: "COMM", label: "COMM"},
+    {value: "QUAN", label: "QUAN"},
+    {value: "WRTG", label: "WRTG"},
+    {value: "ARTS", label: "ARTS"},
+    {value: "BSCI", label: "BSCI"},
+    {value: "DIVR", label: "DIVR"},
+    {value: "EQJS", label: "EQJS"},
+    {value: "HUM", label: "HUM"},
+    {value: "SSCI", label: "SSCI"},
+    {value: "CAPS", label: "CAPS"},
+  ]);
+
   syncCourseFilterControls();
 }
+
 export function populateFilterCheckboxes(filterName, options) {
   document
     .querySelectorAll(`[data-filter-options="${filterName}"]`)
@@ -78,6 +103,7 @@ export function populateFilterCheckboxes(filterName, options) {
       ),
     );
 }
+
 export function openCourseFilters() {
   const toggle = document.getElementById("filterToggle");
   if (!toggle || toggle.disabled) return;
@@ -102,6 +128,7 @@ export function openCourseFilters() {
   }
   toggle.setAttribute("aria-expanded", "true");
 }
+
 export function closeCourseFilters() {
   const popover = document.getElementById("desktopFilterPopover");
   const sheet = document.getElementById("mobileFilterSheet");
@@ -126,16 +153,19 @@ export function closeCourseFilters() {
     if (restoreFocus) toggle.focus({ preventScroll: true });
   }
 }
+
 export function isDesktopFilterOpen() {
   const popover = document.getElementById("desktopFilterPopover");
   return !!popover && !popover.hidden;
 }
+
 export function areCourseFiltersOpen() {
   const sheet = document.getElementById("mobileFilterSheet");
   return (
     isDesktopFilterOpen() || !!(sheet && sheet.classList.contains("is-open"))
   );
 }
+
 export function renderSectionChoice(course, section, choiceType) {
   const sectionId = String(
     section.section_id === null || section.section_id === undefined
@@ -199,6 +229,7 @@ export function renderSectionChoice(course, section, choiceType) {
   );
   return row;
 }
+
 export function renderCourseResult(course) {
   const hasLab = course.lab_sections.length > 0;
   const article = document.createElement("article");
@@ -226,6 +257,12 @@ export function renderCourseResult(course) {
       course.has_required_lab ? "Lecture + Lab" : "Lecture",
     ),
   );
+  if (course.ucore != '')
+  {
+    meta.append(
+      createElementWithText("span", null, `${course.ucore}`),
+    );
+  }
   summaryText.append(title, meta);
   summary.append(
     summaryText,
@@ -261,6 +298,7 @@ export function renderCourseResult(course) {
   article.append(summary, panel);
   return article;
 }
+
 export function createSectionGroupTitle(label, required, className) {
   const title = createElementWithText(
     "div",
@@ -271,6 +309,7 @@ export function createSectionGroupTitle(label, required, className) {
     title.appendChild(createElementWithText("span", null, "(required)"));
   return title;
 }
+
 export function createSectionTable(course, sections, choiceType) {
   const table = createElementWithText("div", "section-table", "");
   const header = createElementWithText("div", "section-table-head", "");
@@ -288,6 +327,7 @@ export function createSectionTable(course, sections, choiceType) {
     );
   return table;
 }
+
 export function updateSearchResultTimeDisplays() {
   document.querySelectorAll(".time-display[data-time]").forEach((element) => {
     element.textContent = formatMeetingListForDisplay(
@@ -295,6 +335,7 @@ export function updateSearchResultTimeDisplays() {
     );
   });
 }
+
 export function renderCourseResults(courses) {
   const results = document.getElementById("searchResults");
   if (!results) return;
@@ -317,11 +358,13 @@ export function renderCourseResults(courses) {
   results.appendChild(accordion);
   updateSearchResultTimeDisplays();
 }
+
 export function searchHasCriteria(formData) {
   return (
     String(formData.get("q") || "").trim() || getActiveFilterGroupCount() > 0
   );
 }
+
 export async function handleCourseSearch(form) {
   const results = document.getElementById("searchResults");
   const requestId = ++courseSearchRequestId;
@@ -379,15 +422,18 @@ export async function handleCourseSearch(form) {
     console.error("Unable to load course data:", error);
   }
 }
+
 export async function handleCourseSearchSubmit(event) {
   event.preventDefault();
   return handleCourseSearch(event.currentTarget);
 }
+
 export function findSelectedCourseChoice(courseId, choiceType) {
   return document.querySelector(
     `.section-choice[data-course-id="${courseId}"][data-choice-type="${choiceType}"]:checked`,
   );
 }
+
 export function updateCourseAddButton(courseId) {
   const addButton = document.querySelector(
     `.add-course-selection-btn[data-course-id="${courseId}"]`,
@@ -399,6 +445,7 @@ export function updateCourseAddButton(courseId) {
     (!requiresLab || findSelectedCourseChoice(courseId, "lab"))
   );
 }
+
 export function buildCourseDataFromChoice(choice, scheduleGroupId) {
   return CourseApi.toScheduleEntry(
     {
@@ -423,12 +470,14 @@ export function buildCourseDataFromChoice(choice, scheduleGroupId) {
     scheduleGroupId,
   );
 }
+
 export function showSectionGhost(row) {
   const choice = row.querySelector(".section-choice");
   if (!choice) return;
   callbacks.onClearPreview();
   callbacks.onPreview(buildCourseDataFromChoice(choice, "preview"));
 }
+
 export function handleAddCourseSelection(button, event) {
   event.preventDefault();
   const courseId = button.getAttribute("data-course-id");

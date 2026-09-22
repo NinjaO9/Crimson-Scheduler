@@ -75,14 +75,14 @@ describe('CourseApi', () => {
                 courses: [{
                     courseNumber: 100,
                     sections: [
-                        { sln: 1, seats: { available: 2 }, days: 'M', time: '10:00 - 11:00' },
-                        { sln: 2, seats: { available: 0 }, days: 'ARR', time: 'ARR' },
+                        { sln: 1, seats: { available: 2, total: 90 }, days: 'M', time: '10:00 - 11:00' },
+                        { sln: 2, seats: { available: 0, total: 90 }, days: 'ARR', time: 'ARR' },
                     ],
                 }],
             }],
         });
 
-        const open = api.filterCourses(courses, { q: 'TEST', openOnly: true });
+        const open = api.filterCourses(courses, { q: 'TEST', availability: ['openOnly'] });
         expect(open[0].lecture_sections.map(section => section.section_id)).toEqual(['1']);
         const arranged = api.filterCourses(courses, { q: 'TEST', delivery: ['arranged'] });
         expect(arranged[0].lecture_sections.map(section => section.section_id)).toEqual(['2']);

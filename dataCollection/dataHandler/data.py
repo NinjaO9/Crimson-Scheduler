@@ -153,5 +153,7 @@ class DataHandler:
             seats_total=cls._to_int(course.get('enrollmentLimit')),
             is_lab=is_lab,
             component=cls._to_str(course.get('component')),
-            metadata=course,
+            ucore=cls._to_str(course.get('ucore')),
+            coop=(cls._to_str(course.get('coop')) != ''),
+            footnotes=cls._to_str(course.get('footnotes')),
         )
