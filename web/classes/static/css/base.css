@@ -63,8 +63,17 @@ body {
     background: var(--color-page);
     color: var(--color-text);
 }
+
+body:has(.legal-page) {
+    background: var(--color-page);
+}
+
 #content {
     padding-bottom: 28px;
+}
+
+#content:has(.legal-page) {
+    padding-bottom: 0;
 }
 .app-navbar {
     background: linear-gradient(180deg, var(--wsu-crimson) 0%, var(--wsu-crimson-dark) 100%);
@@ -400,6 +409,10 @@ body {
     body {
         background: var(--wsu-crimson);
         padding-bottom: calc(92px + env(safe-area-inset-bottom));
+    }
+
+    body:has(.legal-page) {
+        padding-bottom: 0;
     }
 
     #content {
