@@ -390,6 +390,7 @@
     align-items: baseline;
     display: flex;
     gap: 12px;
+    flex: 1 1 auto;
     min-width: 0;
 }
 
@@ -402,7 +403,7 @@
     font-weight: 800;
     line-height: 1.25;
     max-width: min(460px, 44vw);
-    min-width: 2ch;
+    min-width: 11ch;
     padding: 3px 1px;
     text-overflow: ellipsis;
     width: auto;
@@ -421,6 +422,7 @@
 .credits-label {
     color: #111827;
     font-size: 1.05rem;
+    white-space: nowrap;
 }
 
 .toolbar {
@@ -967,16 +969,19 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-title {
+        flex: 1 1 auto;
         gap: 8px;
         min-width: 0;
     }
 
     .schedule-name-input {
+        flex: 1 1 0;
         font-size: 16px;
-        max-width: 30vw;
-        min-width: 4.5ch;
+        max-width: 100%;
+        min-width: 11ch;
         padding-left: 2px;
         padding-right: 2px;
+        width: 0 !important;
     }
 
     .credits-label {
