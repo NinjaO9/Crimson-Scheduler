@@ -1,8 +1,8 @@
 :root {
     --wsu-crimson: #A60F2D;
     --wsu-crimson-dark: #860d25;
-    --color-page: #f6f7f9;
-    --color-surface: #fff;
+    --color-page: #f2f3f5;
+    --color-surface: #fafbfc;
     --color-surface-raised: #fff;
     --color-text: #1f2937;
     --color-text-secondary: #374151;
@@ -26,9 +26,9 @@
 }
 
 :root[data-theme="dark"] {
-    --color-page: #15171b;
-    --color-surface: #261d1d; /*261d1d, 1d2026  : I've got no clue which one I should do*/
-    --color-surface-raised: #242831;
+    --color-page: #181a1f;
+    --color-surface: #22262c;
+    --color-surface-raised: #2a2f37;
     --color-text: #f3f4f6;
     --color-text-secondary: #cbd5e1;
     --color-text-subtle: #aab4c0;
@@ -51,6 +51,11 @@
 
 html {
     background: var(--wsu-crimson);
+    color-scheme: light;
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
 }
 body {
     margin: 0;
@@ -496,4 +501,18 @@ body {
     background: #332b1b;
     border-color: #8a6b2c;
     color: var(--color-text-secondary);
+}
+
+/* Keep theme changes gentle without overriding component motion transforms. */
+:where(body, body *) {
+    transition: background-color 160ms ease,
+                color 160ms ease,
+                border-color 160ms ease,
+                box-shadow 160ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :where(body, body *) {
+        transition-duration: 0ms !important;
+    }
 }

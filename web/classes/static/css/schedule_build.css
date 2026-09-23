@@ -35,7 +35,7 @@
 }
 
 .schedule-app {
-    background: #fff;
+    background: var(--color-surface);
     height: calc(100vh - 74px);
     overflow: hidden;
     padding: 0 20px;
@@ -181,7 +181,7 @@
 }
 
 .filter-popover {
-    background: #fff;
+    background: var(--color-surface);
     border: 1px solid var(--line-strong);
     border-radius: 8px;
     margin-top: 10px;
@@ -413,9 +413,8 @@
 }
 
 .schedule-name-input:focus {
-    background: #fff;
+    background: transparent;
     border-color: var(--crimson);
-    box-shadow: 0 0 0 3px rgba(152, 30, 50, 0.12);
     outline: 0;
 }
 
@@ -502,7 +501,7 @@
 }
 
 .calendar-header {
-    background: #fff;
+    background: var(--color-surface);
     display: grid;
     grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
     position: sticky;
@@ -603,7 +602,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .course-block-tooltip {
-    background: #fff;
+    background: var(--color-surface);
     border: 1px solid #cfd5df;
     border-radius: 6px;
     box-shadow: var(--shadow);
@@ -635,7 +634,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .conflict-remove-btn {
-    background: #fff;
+    background: var(--color-surface);
     border: 1px solid var(--line-strong);
     border-radius: 5px;
     color: #111827;
@@ -900,7 +899,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .mobile-filter-panel,
     .mobile-conflict-panel {
-        background: #fff;
+        background: var(--color-surface);
         border-radius: 16px 16px 0 0;
         bottom: 0;
         box-shadow: 0 -18px 40px rgba(15, 23, 42, 0.18);
@@ -1115,7 +1114,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-conflict-close {
-        background: #fff;
+        background: var(--color-surface);
         border: 1px solid var(--line-strong);
         border-radius: 6px;
         color: #111827;
@@ -1132,7 +1131,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-conflict-remove-btn {
-        background: #fff;
+        background: var(--color-surface);
         border: 1px solid var(--line-strong);
         border-radius: 7px;
         color: #111827;
@@ -1236,11 +1235,15 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 :root[data-theme="dark"] .form-control,
 :root[data-theme="dark"] .form-select,
 :root[data-theme="dark"] .filter-group select,
-:root[data-theme="dark"] .schedule-name-input,
 :root[data-theme="dark"] .mobile-conflict-close,
 :root[data-theme="dark"] .mobile-conflict-remove-btn,
 :root[data-theme="dark"] .conflict-remove-btn {
     background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .schedule-name-input {
+    background-color: transparent;
     color: var(--color-text);
 }
 
@@ -1309,4 +1312,27 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 :root[data-theme="dark"] .mobile-filter-backdrop,
 :root[data-theme="dark"] .mobile-conflict-backdrop {
     background: var(--color-overlay);
+}
+
+.mobile-filter-panel,
+.mobile-conflict-panel {
+    transition: transform 180ms ease,
+                background-color 160ms ease,
+                color 160ms ease,
+                border-color 160ms ease,
+                box-shadow 160ms ease;
+}
+
+.mobile-filter-backdrop,
+.mobile-conflict-backdrop {
+    transition: opacity 160ms ease, background-color 160ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-filter-panel,
+    .mobile-conflict-panel,
+    .mobile-filter-backdrop,
+    .mobile-conflict-backdrop {
+        transition-duration: 0ms !important;
+    }
 }

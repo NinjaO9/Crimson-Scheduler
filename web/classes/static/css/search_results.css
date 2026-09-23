@@ -14,7 +14,7 @@
 
 .result-summary {
     align-items: center;
-    background: #fff;
+    background: var(--color-surface);
     border: 0;
     color: #111827;
     display: flex;
@@ -262,4 +262,14 @@
 
 :root[data-theme="dark"] .result-chevron {
     border-top-color: var(--color-text);
+}
+
+.result-chevron {
+    transition: transform 160ms ease, border-color 160ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .result-chevron {
+        transition-duration: 0ms !important;
+    }
 }
