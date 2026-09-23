@@ -323,7 +323,7 @@ body {
 }
 
 .legal-page {
-    background: #f7f8fa;
+    background: var(--color-page);
     padding: 48px 20px 64px;
 }
 
@@ -342,7 +342,7 @@ body {
 }
 
 .legal-shell h1 {
-    color: #111827;
+    color: var(--color-text);
     font-size: 2.25rem;
     font-weight: 800;
     letter-spacing: 0;
@@ -377,6 +377,19 @@ body {
     line-height: 1.7;
     margin: 0 0 16px;
     padding-left: 22px;
+}
+
+.legal-shell a {
+    color: var(--wsu-crimson);
+    font-weight: 600;
+}
+
+.legal-shell code {
+    background: var(--color-surface-raised);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text);
+    padding: 1px 4px;
 }
 
 .legal-shell li + li {
