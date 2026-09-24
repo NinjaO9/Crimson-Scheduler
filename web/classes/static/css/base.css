@@ -1,19 +1,83 @@
 :root {
-    --wsu-crimson: #981e32;
-    --wsu-crimson-dark: #7f1425;
+    --wsu-crimson: #A60F2D;
+    --wsu-crimson-dark: #860d25;
+    --color-page: #f2f3f5;
+    --color-surface: #fafbfc;
+    --color-surface-raised: #fff;
+    --color-text: #1f2937;
+    --color-text-secondary: #374151;
+    --color-text-subtle: #566273;
+    --color-text-muted: #667386;
+    --color-border: #e1e5eb;
+    --color-border-strong: #cbd2dc;
+    --color-accent-hover: #860d25;
+    --color-accent-subtle: #fff1f3;
+    --color-link: #860d25;
+    --color-link-hover: #5f091b;
+    --shadow-surface: 0 10px 30px rgba(15, 23, 42, 0.08);
+    --focus-ring: 0 0 0 3px rgba(169, 21, 44, 0.22);
+    --color-success-surface: #d9efdf;
+    --color-success-border: #9ac8a7;
+    --color-success-text: #1f5131;
+    --color-danger-surface: #f5d9dc;
+    --color-danger-border: #d88590;
+    --color-danger-text: #681f2b;
+    --color-overlay: rgba(17, 24, 39, 0.42);
+    --color-control-disabled: #e1e5eb;
     --bs-body-font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
+
+:root[data-theme="dark"] {
+    --color-page: #181a1f;
+    --color-surface: #22262c;
+    --color-surface-raised: #2a2f37;
+    --color-text: #f3f4f6;
+    --color-text-secondary: #cbd5e1;
+    --color-text-subtle: #aab4c0;
+    --color-text-muted: #96a2b1;
+    --color-border: #303840;
+    --color-border-strong: #46505c;
+    --color-accent-hover: #c34a61;
+    --color-accent-subtle: #351d24;
+    --color-link: #f18a9a;
+    --color-link-hover: #ffb7c2;
+    --shadow-surface: 0 10px 30px rgba(0, 0, 0, 0.32);
+    --focus-ring: 0 0 0 3px rgba(222, 87, 109, 0.42);
+    --color-success-surface: #285d43;
+    --color-success-border: #4f9f73;
+    --color-success-text: #e5f5eb;
+    --color-danger-surface: #a83243;
+    --color-danger-border: #e46d7d;
+    --color-danger-text: #ffe7eb;
+    --color-overlay: rgba(0, 0, 0, 0.62);
+    --color-control-disabled: #454d57;
+}
+
 html {
     background: var(--wsu-crimson);
+    color-scheme: light;
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
 }
 body {
     margin: 0;
     font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: #f7f8fa;
-    color: #111827;
+    background: var(--color-page);
+    color: var(--color-text);
 }
+
+body:has(.legal-page) {
+    background: var(--color-page);
+}
+
 #content {
     padding-bottom: 28px;
+}
+
+#content:has(.legal-page) {
+    padding-bottom: 0;
 }
 .app-navbar {
     background: linear-gradient(180deg, var(--wsu-crimson) 0%, var(--wsu-crimson-dark) 100%);
@@ -51,19 +115,19 @@ body {
     display: none;
 }
 .options-menu {
-    --bs-dropdown-bg: #fff;
-    --bs-dropdown-color: #111827;
-    --bs-dropdown-link-color: #111827;
+    --bs-dropdown-bg: var(--color-surface);
+    --bs-dropdown-color: var(--color-text);
+    --bs-dropdown-link-color: var(--color-text);
     border: 0;
     border-radius: 6px;
-    background: #fff;
-    color: #111827;
+    background: var(--color-surface);
+    color: var(--color-text);
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
     min-width: 190px;
     padding: 10px 12px;
 }
 .options-menu .form-check-input {
-    background-color: #fff;
+    background-color: var(--color-surface);
     border-color: #6b7280;
 }
 .options-menu .form-check-input:checked {
@@ -71,7 +135,7 @@ body {
     border-color: var(--wsu-crimson);
 }
 .options-menu .form-check-label {
-    color: #111827;
+    color: var(--color-text);
     font-weight: 700;
 }
 
@@ -87,7 +151,7 @@ body {
 
 .help-modal .modal-header {
     align-items: start;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid var(--color-border);
     padding: 22px 24px 18px;
 }
 
@@ -101,7 +165,7 @@ body {
 }
 
 .help-modal .modal-title {
-    color: #111827;
+    color: var(--color-text);
     font-size: 1.45rem;
     font-weight: 800;
     line-height: 1.2;
@@ -130,7 +194,7 @@ body {
 
 .help-card {
     align-items: center;
-    border: 1px solid #d7dce3;
+    border: 1px solid var(--color-border-strong);
     border-radius: 8px;
     display: grid;
     gap: 14px;
@@ -142,10 +206,10 @@ body {
 .help-image-slot {
     align-items: center;
     aspect-ratio: 16 / 10;
-    background: linear-gradient(135deg, #f7f8fa 0%, #ebeef3 100%);
+    background: linear-gradient(135deg, var(--color-page) 0%, #ebeef3 100%);
     border: 1px dashed #aeb6c4;
     border-radius: 6px;
-    color: #2f3642;
+    color: var(--color-text-secondary);
     display: flex;
     font-size: 0.82rem;
     font-weight: 800;
@@ -169,14 +233,14 @@ body {
 }
 
 .help-card h3 {
-    color: #111827;
+    color: var(--color-text);
     font-size: 1rem;
     font-weight: 800;
     margin: 0 0 4px;
 }
 
 .help-card p {
-    color: #2f3642;
+    color: var(--color-text-secondary);
     line-height: 1.45;
     margin: 0;
 }
@@ -185,7 +249,7 @@ body {
     background: #fff8e8;
     border: 1px solid #e9c46a;
     border-radius: 8px;
-    color: #2f3642;
+    color: var(--color-text-secondary);
     margin-top: 16px;
     padding: 14px 16px;
 }
@@ -210,10 +274,10 @@ body {
 }
 
 .help-note {
-    background: #f7f8fa;
-    border: 1px solid #d7dce3;
+    background: var(--color-page);
+    border: 1px solid var(--color-border-strong);
     border-radius: 6px;
-    color: #2f3642;
+    color: var(--color-text-secondary);
     font-weight: 700;
     line-height: 1.5;
     margin-top: 18px;
@@ -232,7 +296,7 @@ body {
 }
 
 .site-footer {
-    background: #f7f8fa;
+    background: var(--color-page);
     backdrop-filter: blur(12px);
 }
 
@@ -248,7 +312,7 @@ body {
 }
 
 .site-footer-txt {
-    color: #4b5563;
+    color: var(--color-text-subtle);
     font-size: 0.95rem;
     font-weight: 600;
 }
@@ -260,7 +324,7 @@ body {
 }
 
 .site-footer-link {
-    color: var(--wsu-crimson-dark);
+    color: var(--color-link);
     font-size: 0.95rem;
     font-weight: 700;
     text-decoration: none;
@@ -268,11 +332,12 @@ body {
 
 .site-footer-link:hover,
 .site-footer-link:focus-visible {
+    color: var(--color-link-hover);
     text-decoration: underline;
 }
 
 .legal-page {
-    background: #f7f8fa;
+    background: var(--color-page);
     padding: 48px 20px 64px;
 }
 
@@ -291,7 +356,7 @@ body {
 }
 
 .legal-shell h1 {
-    color: #111827;
+    color: var(--color-text);
     font-size: 2.25rem;
     font-weight: 800;
     letter-spacing: 0;
@@ -299,14 +364,14 @@ body {
 }
 
 .legal-updated {
-    color: #5f6877;
+    color: var(--color-text-muted);
     font-weight: 700;
     margin-bottom: 28px;
 }
 
 .legal-shell h2 {
-    border-top: 1px solid #d7dce3;
-    color: #111827;
+    border-top: 1px solid var(--color-border-strong);
+    color: var(--color-text);
     font-size: 1.18rem;
     font-weight: 800;
     letter-spacing: 0;
@@ -315,17 +380,35 @@ body {
 }
 
 .legal-shell p {
-    color: #2f3642;
+    color: var(--color-text-secondary);
     font-size: 1rem;
     line-height: 1.7;
     margin: 0 0 16px;
 }
 
 .legal-shell ul {
-    color: #2f3642;
+    color: var(--color-text-secondary);
     line-height: 1.7;
     margin: 0 0 16px;
     padding-left: 22px;
+}
+
+.legal-shell a {
+    color: var(--color-link);
+    font-weight: 600;
+}
+
+.legal-shell a:hover,
+.legal-shell a:focus-visible {
+    color: var(--color-link-hover);
+}
+
+.legal-shell code {
+    background: var(--color-surface-raised);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text);
+    padding: 1px 4px;
 }
 
 .legal-shell li + li {
@@ -338,8 +421,12 @@ body {
         padding-bottom: calc(92px + env(safe-area-inset-bottom));
     }
 
+    body:has(.legal-page) {
+        padding-bottom: 0;
+    }
+
     #content {
-        background: #f7f8fa;
+        background: var(--color-page);
     }
 
     .app-navbar {
@@ -438,4 +525,30 @@ body {
         font-size: 1.8rem;
     }
 
+}
+
+:root[data-theme="dark"] .help-image-slot {
+    background: linear-gradient(135deg, #1f252c 0%, #29313a 100%);
+    border-color: var(--color-border-strong);
+    color: var(--color-text-secondary);
+}
+
+:root[data-theme="dark"] .help-tips {
+    background: #332b1b;
+    border-color: #8a6b2c;
+    color: var(--color-text-secondary);
+}
+
+/* Keep theme changes gentle without overriding component motion transforms. */
+:where(body, body *) {
+    transition: background-color 160ms ease,
+                color 160ms ease,
+                border-color 160ms ease,
+                box-shadow 160ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :where(body, body *) {
+        transition-duration: 0ms !important;
+    }
 }

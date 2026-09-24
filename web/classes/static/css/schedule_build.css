@@ -1,12 +1,12 @@
 :root {
-    --crimson: #981e32;
-    --crimson-dark: #7f1425;
-    --line: #e5e7eb;
-    --line-strong: #d7dce3;
-    --text-muted: #5f6877;
+    --crimson: var(--wsu-crimson);
+    --crimson-dark: var(--wsu-crimson-dark);
+    --line: var(--color-border);
+    --line-strong: var(--color-border-strong);
+    --text-muted: var(--color-text-muted);
     --soft-red: #f1fff3;
     --soft-red-border: #e9a9b4;
-    --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    --shadow: var(--shadow-surface);
 }
 
 .rate-limit-toast {
@@ -35,7 +35,7 @@
 }
 
 .schedule-app {
-    background: #fff;
+    background: var(--color-surface);
     height: calc(100vh - 74px);
     overflow: hidden;
     padding: 0 20px;
@@ -125,7 +125,12 @@
 }
 
 .filter-toggle,
-.filter-done-btn {
+.filter-done-btn,
+.clear-filters-btn,
+.primary-btn,
+.danger-btn,
+.actions-btn,
+.manage-btn {
     align-items: center;
     background: var(--crimson);
     border: 0;
@@ -134,20 +139,21 @@
     display: inline-flex;
     font-weight: 800;
     justify-content: center;
+}
+
+.filter-toggle {
     min-height: 43px;
     padding: 0 14px;
 }
 
+.filter-done-btn,
 .clear-filters-btn {
-    align-items: center;
-    background: var(--crimson);
-    border: 0;
-    border-radius: 6px;
-    color: #fff;
-    display: inline-flex;
-    font-weight: 800;
-    justify-content: center;
     min-height: 36px;
+    padding: 0 14px;
+}
+
+.manage-btn {
+    min-height: 34px;
     padding: 0 14px;
 }
 
@@ -160,7 +166,11 @@
 .filter-toggle:not(:disabled):hover,
 .filter-toggle:not(:disabled):focus-visible,
 .filter-done-btn:hover,
-.filter-done-btn:focus-visible {
+.filter-done-btn:focus-visible,
+.clear-filters-btn:hover,
+.clear-filters-btn:focus-visible,
+.manage-btn:hover,
+.manage-btn:focus-visible {
     background: #a9152c;
     outline: 0;
 }
@@ -171,7 +181,7 @@
 }
 
 .filter-popover {
-    background: #fff;
+    background: var(--color-surface);
     border: 1px solid var(--line-strong);
     border-radius: 8px;
     margin-top: 10px;
@@ -285,17 +295,7 @@
 }
 
 .clear-filters-btn {
-    border: 0;
-    color: #fff;
     margin-top: 16px;
-    min-height: 36px;
-    padding: 0 14px;
-}
-
-.clear-filters-btn:hover,
-.clear-filters-btn:focus-visible {
-    background: #a9152c;
-    outline: 0;
 }
 
 .mobile-filter-sheet {
@@ -305,15 +305,7 @@
 .primary-btn,
 .danger-btn,
 .actions-btn {
-    align-items: center;
-    background: var(--crimson);
-    border: 0;
-    border-radius: 6px;
-    color: #fff;
-    display: inline-flex;
-    font-weight: 800;
     gap: 10px;
-    justify-content: center;
     min-height: 36px;
     padding: 0 18px;
     text-decoration: none;
@@ -398,6 +390,7 @@
     align-items: baseline;
     display: flex;
     gap: 12px;
+    flex: 1 1 auto;
     min-width: 0;
 }
 
@@ -410,7 +403,7 @@
     font-weight: 800;
     line-height: 1.25;
     max-width: min(460px, 44vw);
-    min-width: 2ch;
+    min-width: 11ch;
     padding: 3px 1px;
     text-overflow: ellipsis;
     width: auto;
@@ -421,15 +414,15 @@
 }
 
 .schedule-name-input:focus {
-    background: #fff;
+    background: transparent;
     border-color: var(--crimson);
-    box-shadow: 0 0 0 3px rgba(152, 30, 50, 0.12);
     outline: 0;
 }
 
 .credits-label {
     color: #111827;
     font-size: 1.05rem;
+    white-space: nowrap;
 }
 
 .toolbar {
@@ -510,7 +503,7 @@
 }
 
 .calendar-header {
-    background: #fff;
+    background: var(--color-surface);
     display: grid;
     grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
     position: sticky;
@@ -562,11 +555,11 @@
 }
 
 .course-block {
-    background: #b1f0ab;
-    border: 1px solid var(--soft-red-border);
+    background: var(--color-success-surface);
+    border: 1px solid var(--color-success-border);
     border-radius: 6px;
     box-sizing: border-box;
-    color: #111827;
+    color: var(--color-success-text);
     cursor: pointer;
     font-size: 0.62rem;
     font-weight: 700;
@@ -581,17 +574,18 @@
 }
 
 .course-block.conflict {
-    background: #f0abab;
-    border-color: #d20f2a;
+    background: var(--color-danger-surface);
+    border-color: var(--color-danger-border);
+    color: var(--color-danger-text);
     z-index: var(--course-block-conflict-z-index, 35);
 }
 
 .course-block.ghost {
     background: rgba(152, 30, 50, 0.16);
     border: 1px dashed var(--crimson);
-    color: #111827;
+    color: var(--color-text);
     pointer-events: none;
-    z-index: 36;
+    z-index: var(--course-block-ghost-z-index, 2500);
 }
 
 .course-block:hover {
@@ -610,7 +604,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .course-block-tooltip {
-    background: #fff;
+    background: var(--color-surface);
     border: 1px solid #cfd5df;
     border-radius: 6px;
     box-shadow: var(--shadow);
@@ -642,7 +636,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .conflict-remove-btn {
-    background: #fff;
+    background: var(--color-surface);
     border: 1px solid var(--line-strong);
     border-radius: 5px;
     color: #111827;
@@ -743,22 +737,6 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     font-size: 0.86rem;
     gap: 18px;
     margin-top: 4px;
-}
-
-.manage-btn {
-    background: var(--crimson);
-    border: 0;
-    border-radius: 6px;
-    color: #fff;
-    font-weight: 800;
-    min-height: 34px;
-    padding: 0 14px;
-}
-
-.manage-btn:hover,
-.manage-btn:focus-visible {
-    background: #a9152c;
-    outline: 0;
 }
 
 .manage-btn:focus-visible {
@@ -921,26 +899,31 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         opacity: 1;
     }
 
-    .mobile-filter-panel {
-        background: #fff;
+    .mobile-filter-panel,
+    .mobile-conflict-panel {
+        background: var(--color-surface);
         border-radius: 16px 16px 0 0;
         bottom: 0;
         box-shadow: 0 -18px 40px rgba(15, 23, 42, 0.18);
-        max-height: min(82dvh, 650px);
+        left: 0;
         overflow-y: auto;
         padding: 10px 18px 22px;
         position: absolute;
-        left: 0;
         right: 0;
         transform: translateY(100%);
         transition: transform 180ms ease;
+    }
+
+    .mobile-filter-panel {
+        max-height: min(82dvh, 650px);
     }
 
     .mobile-filter-sheet.is-open .mobile-filter-panel {
         transform: translateY(0);
     }
 
-    .mobile-filter-grabber {
+    .mobile-filter-grabber,
+    .mobile-conflict-grabber {
         background: #d1d5db;
         border-radius: 999px;
         height: 4px;
@@ -986,16 +969,19 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-title {
+        flex: 1 1 auto;
         gap: 8px;
         min-width: 0;
     }
 
     .schedule-name-input {
+        flex: 1 1 0;
         font-size: 16px;
-        max-width: 30vw;
-        min-width: 4.5ch;
+        max-width: 100%;
+        min-width: 11ch;
         padding-left: 2px;
         padding-right: 2px;
+        width: 0 !important;
     }
 
     .credits-label {
@@ -1103,30 +1089,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-conflict-panel {
-        background: #fff;
-        border-radius: 16px 16px 0 0;
-        bottom: 0;
-        box-shadow: 0 -18px 40px rgba(15, 23, 42, 0.18);
-        left: 0;
         max-height: min(78dvh, 520px);
-        overflow-y: auto;
-        padding: 10px 18px 22px;
-        position: absolute;
-        right: 0;
-        transform: translateY(100%);
-        transition: transform 180ms ease;
     }
 
     .mobile-conflict-sheet.is-open .mobile-conflict-panel {
         transform: translateY(0);
-    }
-
-    .mobile-conflict-grabber {
-        background: #d1d5db;
-        border-radius: 999px;
-        height: 4px;
-        margin: 0 auto 14px;
-        width: 42px;
     }
 
     .mobile-conflict-header {
@@ -1152,7 +1119,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-conflict-close {
-        background: #fff;
+        background: var(--color-surface);
         border: 1px solid var(--line-strong);
         border-radius: 6px;
         color: #111827;
@@ -1169,7 +1136,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-conflict-remove-btn {
-        background: #fff;
+        background: var(--color-surface);
         border: 1px solid var(--line-strong);
         border-radius: 7px;
         color: #111827;
@@ -1256,5 +1223,121 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     
     .mobile-nav-btn.is-active {
         color: var(--crimson);
+    }
+}
+
+:root[data-theme="dark"] .schedule-app,
+:root[data-theme="dark"] .filter-popover,
+:root[data-theme="dark"] .calendar-header,
+:root[data-theme="dark"] .course-block-tooltip,
+:root[data-theme="dark"] .mobile-filter-panel,
+:root[data-theme="dark"] .mobile-conflict-panel,
+:root[data-theme="dark"] .mobile-nav {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .form-control,
+:root[data-theme="dark"] .form-select,
+:root[data-theme="dark"] .filter-group select,
+:root[data-theme="dark"] .mobile-conflict-close,
+:root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .conflict-remove-btn {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .schedule-name-input {
+    background-color: transparent;
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .field label,
+:root[data-theme="dark"] .field-or,
+:root[data-theme="dark"] .filter-group > label,
+:root[data-theme="dark"] .filter-group legend,
+:root[data-theme="dark"] .filter-check,
+:root[data-theme="dark"] .filter-title,
+:root[data-theme="dark"] .more-filters,
+:root[data-theme="dark"] .form-check-label,
+:root[data-theme="dark"] .credits-label,
+:root[data-theme="dark"] .saved-state,
+:root[data-theme="dark"] .calendar-time-slot,
+:root[data-theme="dark"] .misc-course-title,
+:root[data-theme="dark"] .misc-meta,
+:root[data-theme="dark"] .mobile-nav-btn,
+:root[data-theme="dark"] .mobile-conflict-title,
+:root[data-theme="dark"] .mobile-conflict-close,
+:root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .conflict-remove-btn {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .form-control::placeholder {
+    color: var(--color-text-muted);
+    opacity: 1;
+}
+
+:root[data-theme="dark"] .filter-toggle:disabled {
+    background: var(--color-control-disabled);
+    color: #c2cad4;
+}
+
+:root[data-theme="dark"] .course-block {
+    background: var(--color-success-surface);
+    border-color: var(--color-success-border);
+    color: var(--color-success-text);
+}
+
+:root[data-theme="dark"] .course-block.conflict {
+    background: var(--color-danger-surface);
+    border-color: var(--color-danger-border);
+    color: var(--color-danger-text);
+}
+
+:root[data-theme="dark"] .course-block.ghost {
+    background: rgba(166, 15, 45, 0.34);
+    border-color: #e06a7d;
+    color: #ffe7eb;
+}
+
+:root[data-theme="dark"] .actions-menu .action-menu-item,
+:root[data-theme="dark"] .actions-menu .dropdown-item {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .actions-menu .action-menu-item:hover,
+:root[data-theme="dark"] .actions-menu .action-menu-item:focus,
+:root[data-theme="dark"] .actions-menu .dropdown-item:hover,
+:root[data-theme="dark"] .actions-menu .dropdown-item:focus {
+    background: var(--color-accent-subtle);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .mobile-filter-backdrop,
+:root[data-theme="dark"] .mobile-conflict-backdrop {
+    background: var(--color-overlay);
+}
+
+.mobile-filter-panel,
+.mobile-conflict-panel {
+    transition: transform 180ms ease,
+                background-color 160ms ease,
+                color 160ms ease,
+                border-color 160ms ease,
+                box-shadow 160ms ease;
+}
+
+.mobile-filter-backdrop,
+.mobile-conflict-backdrop {
+    transition: opacity 160ms ease, background-color 160ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-filter-panel,
+    .mobile-conflict-panel,
+    .mobile-filter-backdrop,
+    .mobile-conflict-backdrop {
+        transition-duration: 0ms !important;
     }
 }
