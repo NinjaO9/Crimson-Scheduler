@@ -12,6 +12,8 @@
     --color-border-strong: #cbd2dc;
     --color-accent-hover: #860d25;
     --color-accent-subtle: #fff1f3;
+    --color-link: #860d25;
+    --color-link-hover: #5f091b;
     --shadow-surface: 0 10px 30px rgba(15, 23, 42, 0.08);
     --focus-ring: 0 0 0 3px rgba(169, 21, 44, 0.22);
     --color-success-surface: #d9efdf;
@@ -37,6 +39,8 @@
     --color-border-strong: #46505c;
     --color-accent-hover: #c34a61;
     --color-accent-subtle: #351d24;
+    --color-link: #f18a9a;
+    --color-link-hover: #ffb7c2;
     --shadow-surface: 0 10px 30px rgba(0, 0, 0, 0.32);
     --focus-ring: 0 0 0 3px rgba(222, 87, 109, 0.42);
     --color-success-surface: #285d43;
@@ -320,7 +324,7 @@ body:has(.legal-page) {
 }
 
 .site-footer-link {
-    color: var(--wsu-crimson-dark);
+    color: var(--color-link);
     font-size: 0.95rem;
     font-weight: 700;
     text-decoration: none;
@@ -328,6 +332,7 @@ body:has(.legal-page) {
 
 .site-footer-link:hover,
 .site-footer-link:focus-visible {
+    color: var(--color-link-hover);
     text-decoration: underline;
 }
 
@@ -389,8 +394,13 @@ body:has(.legal-page) {
 }
 
 .legal-shell a {
-    color: var(--wsu-crimson);
+    color: var(--color-link);
     font-weight: 600;
+}
+
+.legal-shell a:hover,
+.legal-shell a:focus-visible {
+    color: var(--color-link-hover);
 }
 
 .legal-shell code {
