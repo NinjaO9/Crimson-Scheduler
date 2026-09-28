@@ -39,8 +39,10 @@ import {
 import { initializeScheduleExport } from "./export-image.js";
 import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
+import { initializeCatalogFreshness } from "./catalog-freshness.js";
 
 export function initializeScheduleApp() {
+  initializeCatalogFreshness();
   initializeScheduleName();
   initializeScheduleOptions();
   initializeMobileLayout();

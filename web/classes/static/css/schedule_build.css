@@ -104,6 +104,17 @@
     padding-bottom: 11px;
 }
 
+.catalog-freshness {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    line-height: 1.35;
+    margin: 10px 0 0;
+}
+
+.catalog-freshness time {
+    font-variant-numeric: tabular-nums;
+}
+
 .search-actions {
     align-items: center;
     display: grid;
@@ -786,6 +797,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .search-pane {
         padding-top: 18px;
+    }
+
+    .catalog-freshness {
+        font-size: 0.8rem;
+        margin-top: 8px;
     }
 
     .schedule-pane {
