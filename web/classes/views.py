@@ -76,6 +76,7 @@ def schedule_view(request):
         )
 
     campuses = [campus['campus'] for campus in catalog['campuses']]
+    catalog_generated_at = catalog.get('generatedAt')
 
     semesters = set()
     for campus in catalog['campuses']:
@@ -89,6 +90,7 @@ def schedule_view(request):
             'session_id': session_id,
             'campuses': campuses,
             'semesters': list(semesters),
+            'catalog_generated_at': catalog_generated_at,
         },
     )
 
