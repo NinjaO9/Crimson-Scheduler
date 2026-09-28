@@ -36,17 +36,17 @@
 
 .schedule-app {
     background: var(--color-surface);
-    height: calc(100vh - 74px);
+    height: calc(100dvh - 130px);
     overflow: hidden;
     padding: 0 20px;
 }
 
 .schedule-shell {
     display: grid;
-    grid-template-columns: minmax(360px, 40%) minmax(620px, 1fr);
+    grid-template-columns: minmax(300px, 40%) minmax(0, 1fr);
     margin: 0 auto;
     max-width: 1880px;
-    height: calc(100vh - 74px);
+    height: 100%;
 }
 
 .search-pane {
@@ -63,6 +63,7 @@
     display: flex;
     flex-direction: column;
     min-height: 0;
+    min-width: 0;
     padding: 14px 28px;
 }
 
@@ -471,7 +472,7 @@
     flex-direction: column;
     flex: 1 1 auto;
     min-height: 0;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
 }
 
@@ -743,33 +744,6 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
 }
 
-@media (max-width: 1200px) {
-    .schedule-shell {
-        grid-template-columns: 1fr;
-        height: auto;
-    }
-
-    .schedule-app {
-        height: auto;
-        overflow: visible;
-    }
-
-    .search-pane,
-    .schedule-pane {
-        border-left: 1px solid var(--line);
-    }
-
-    .search-results {
-        max-height: none;
-    }
-    .mobile-bottom-nav {
-        display: none;
-    }
-    .mobile-nav-btn {
-        display: none;
-    }
-}
-
 @media (max-width: 760px) {
     body:has(.schedule-app) {
         padding-bottom: 0;
@@ -782,7 +756,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .schedule-app {
         display: flex;
         flex-direction: column;
-        height: calc(100dvh - 96px);
+        height: calc(100dvh - 172px);
         overflow: hidden;
         padding: 0;
     }
@@ -802,7 +776,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         border-right: 0;
         display: none;
         height: 100%;
-        overflow-y: auto;
+        overflow: hidden;
         padding: 22px 18px 18px;
     }
 
@@ -1014,10 +988,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .calendar-wrap {
-        flex: 0 0 auto;
-        max-height: none;
+        flex: 1 1 auto;
+        min-height: 0;
         overflow-x: auto;
-        overflow-y: visible;
+        overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
 
@@ -1159,6 +1133,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .misc-panel {
+        flex: 0 0 auto;
         margin-top: 16px;
         padding: 14px 12px 12px;
     }
@@ -1185,6 +1160,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .misc-meta {
         display: grid;
         gap: 4px;
+    }
+
+    .misc-list {
+        max-height: 120px;
+        overflow-y: auto;
     }
 
     .manage-btn {

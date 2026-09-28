@@ -72,8 +72,20 @@ body:has(.legal-page) {
     background: var(--color-page);
 }
 
+body:has(.schedule-app) {
+    background: var(--color-page);
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+}
+
 #content {
     padding-bottom: 28px;
+}
+
+#content:has(.schedule-app) {
+    overflow: hidden;
+    padding-bottom: 0;
 }
 
 #content:has(.legal-page) {
@@ -300,32 +312,37 @@ body:has(.legal-page) {
     backdrop-filter: blur(12px);
 }
 
+body:has(.schedule-app) .site-footer {
+    height: 56px;
+    overflow: hidden;
+}
+
 .site-footer-inner {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 14px 18px;
+    gap: 5px 14px;
     justify-content: center;
-    min-height: 64px;
-    padding-bottom: 5px;
-    padding-top: 18px;
+    min-height: 48px;
+    padding-bottom: 6px;
+    padding-top: 6px;
 }
 
 .site-footer-txt {
     color: var(--color-text-subtle);
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     font-weight: 600;
 }
 
 .affiliation-disclaimer {
     flex-basis: 100%;
-    font-size: 0.82rem;
+    font-size: 0.68rem;
     text-align: center;
 }
 
 .site-footer-link {
     color: var(--color-link);
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -421,6 +438,14 @@ body:has(.legal-page) {
         padding-bottom: calc(92px + env(safe-area-inset-bottom));
     }
 
+    body:has(.schedule-app) {
+        padding-bottom: 0;
+    }
+
+    body:has(.schedule-app) .site-footer {
+        height: 76px;
+    }
+
     body:has(.legal-page) {
         padding-bottom: 0;
     }
@@ -512,7 +537,7 @@ body:has(.legal-page) {
     }
 
     .site-footer-inner {
-        gap: 10px 14px;
+        gap: 4px 10px;
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
