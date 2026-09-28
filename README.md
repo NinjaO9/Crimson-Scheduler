@@ -1,40 +1,26 @@
 # Crimson Scheduler
 
-Crimson Scheduler is a WSU-focused schedule builder that helps students search course offerings and assemble a weekly class schedule. It retrieves publicly accessible course schedule data from WSU schedule API endpoints, stores course and section records in a Django database, and provides a responsive desktop/mobile calendar UI.
+Crimson Scheduler is a WSU-focused schedule builder that helps students search course offerings and create a weekly class schedule. It retrieves publicly accessible course schedule data from WSU's course API endpoints and caches them for users to query.
 
-### Why did I make this?
-
-I've found it to be somewhat annoying to plan out classes using the current scheduling systems WSU has in place. I've also seen that frustration echoed across other people on online forums as well. As such, I decided to make this webapp to make the process of planning out a semester of classes MUCH easier.
-
-##### What about other sites like Coursicle?
-
-Crimson Scheduler occupies a similar space to services such as Coursicle, but is specifically designed with WSU students in mind. The goal is to provide a straightforward, WSU-focused experience without requiring students to manually enter course information when it isn't available through a third-party service.
-
-Simply put, you can think of Crimson Scheduler as Coursicle just for us WSU students :\)
+Users can choose a campus and term, search the published course catalog, and select sections to assemble their course schedule.
 
 ![Crimson Scheduler desktop view](readme-images/DesktopView-CrimsonScheduler.png)
 
-## Current Features
+## Features
 
-- Search WSU courses by campus, term, subject, course number, or course title.
-- View course sections with credits, meeting days, times, location, instructor, and enrollment counts.
-- Choose lecture sections and required lab sections together when a course includes a lab.
-- Build a visual weekly schedule from selected sections.
-- Rename the current schedule.
-- Preview sections on the calendar before adding them.
-- Detect overlapping course times and highlight conflicts.
-- Track total selected credits.
-- Separate arranged, TBA, online, or otherwise unscheduled courses into a misc list.
-- Remove individual courses or clear the full schedule.
-- Export the schedule as a PNG image.
-- Generate and import Crimson Scheduler share codes.
-- Persist selected sections in a browser cookie for 30 days.
-- Persist display preferences and schedule name in local storage.
-- Customize the display with 24-hour time, hidden weekends, instructor labels, and section labels.
-- Use a mobile layout with separate Search and Schedule tabs.
-- View an in-app help modal with desktop and mobile guidance.
-- Access Privacy Policy, Terms of Use, and Contact pages from the footer.
-- Apply Redis-backed rate limiting to search and schedule API endpoints.
+- Search courses by subject, number, course code, or title
+- Load the available WSU campus/term catalog dynamically and cache a term's course data in the browser for the current visit.
+- Filter results by open seats, delivery type (in person, online, or arranged), and UCORE designation.
+- Review section number, meeting time, location, instructor, enrollment, and UCORE information before adding a class.
+- Choose lecture and lab sections together when a course requires a lab; removing either removes the paired selection.
+- Preview a section on the calendar while hovering or focusing it in the search results.
+- Render classes in a weekly calendar, flag overlapping meeting times, and provide direct removal controls for conflicts.
+- Keep arranged, TBA, online, and other unscheduled sections in a separate list instead of dropping them from the schedule.
+- Track total credits, rename the schedule, and clear the schedule when needed.
+- Export a calendar image (PNG) or a recurring `.ics` calendar file for compatible calendar apps.
+- Create and import compact share codes. Imported schedules are rebuilt from the latest published course data, so unavailable sections are reported instead of silently added.
+- Persist the schedule, name, display settings, and theme locally in the browser; no user account required.
+- Offer responsive desktop and mobile layouts, dark mode, 24-hour time, optional weekends, instructor/section labels, accessible filter controls, and in-app guidance.
 
 ## Mobile UI
 
@@ -42,87 +28,75 @@ Simply put, you can think of Crimson Scheduler as Coursicle just for us WSU stud
 | --- | --- |
 | ![Crimson Scheduler mobile schedule view](readme-images/MobileView-CrimsonScheduler1.png) | ![Crimson Scheduler mobile search view](readme-images/MobileView-CrimsonScheduler2.png) |
 
-## Tech Stack
+## How it works
 
-- Python
-- Django 5.2
-- PostgreSQL to cache course information
-- Redis for cache/rate-limiting support
-- WSU schedule API endpoints for data collection
-- HTMX for course search partial updates
-- Bootstrap for UI components
-- html2canvas for PNG schedule export
-- JavaScript for schedule rendering, conflict highlighting, share codes, cookies, local storage, export, and mobile navigation
+The deployed application is a Django UI backed by a versioned, static course-data API hosted from the repository's `crimson-data` GitHub Pages branch. The browser fetches a catalog first, then retrieves only the selected campus/term JSON file. Search and filtering run client-side, which keeps normal course browsing off the Django database and avoids repeated requests to WSU while a user types.
 
-## Project Structure
+Course data originates from WSU's public schedule endpoints. The scheduled GitHub Actions workflow regenerates the static catalog hourly and publishes it to the data branch. Section availability and other catalog details can therefore lag behind the official registration systems.
+
+The repository still includes Django models and session-backed schedule endpoints from the earlier server-backed implementation. They are retained and covered by tests, but the primary schedule-builder flow is browser-first and uses the static catalog.
+
+## Tech stack
+
+- Python 3.12 and Django 5.2
+- Vanilla JavaScript modules bundled with Vite
+- Bootstrap, HTMX, and html2canvas for the interface and image export
+- `ical-generator` for `.ics` exports
+- Static JSON course catalog published through GitHub Pages
+- Redis token-bucket rate limiting for Django's legacy schedule API endpoints
+- PostgreSQL for Django's optional/legacy data models
+
+## Project structure
 
 ```text
 .
-|-- dataCollection/              # WSU API data loading and transformation helpers
-|   |-- classHandler/            # Plain Python data containers for imported WSU data
+|-- .github/workflows/           # CI, CodeQL, and hourly course-data publication
+|-- dataCollection/              # WSU API importer and JSON catalog generator
 |   `-- dataHandler/
-|       |-- data.py              # Current WSU API collection path
-|       |-- storage.py           # Upserts collected data into Django models
-|       `-- scraper.py           # Legacy scraper code; currently unused
-|-- readme-images/               # README screenshots
-|-- web/                         # Django project
+|       |-- data.py              # Requests/transforms WSU schedule data
+|       |-- generate_json.py     # Builds the static API under _generated_site/
+|       `-- json_storage.py      # Serializes catalog and campus/term JSON files
+|-- readme-images/               # README screenshots (maintained manually)
+|-- tests/                       # Vitest unit tests for browser logic
+|-- web/
 |   |-- classes/
-|   |   |-- models.py            # Campus, semester, course, section, schedule models
-|   |   |-- rate_limit.py        # Redis token-bucket rate limiting
-|   |   |-- redis_scripts/       # Lua script used by the rate limiter
-|   |   |-- static/              # CSS, JS, icons, and help images
-|   |   |-- templates/           # Schedule builder, legal pages, contact page
+|   |   |-- static/js/           # Course API client and schedule UI modules
+|   |   |-- static/css/          # Responsive and theme styles
+|   |   |-- templates/classes/   # Builder, help, legal, and contact pages
 |   |   |-- urls.py              # App routes
-|   |   `-- views.py             # Search, schedule, legal, and API views
+|   |   `-- views.py             # Page views and catalog bootstrap
 |   |-- manage.py
-|   `-- web/                     # Django settings and root URL config
-|-- LICENSE.md
-|-- main.py                      # Imports WSU schedule data into the configured DB
-|-- requirements.txt             # Python dependencies for local setup
+|   `-- web/                     # Django settings and root URL configuration
+|-- package.json                 # Vite, ESLint, and Vitest commands
+|-- pyproject.toml               # Python project and Ruff configuration
+|-- requirements*.txt            # Runtime and development Python dependencies
+|-- vercel.json                  # Production build command
 `-- README.md
 ```
 
-## Local Setup
+## Local development
 
-Create and activate a virtual environment:
+### Prerequisites
+
+- Python 3.12
+- Node.js 20 or newer (Node 22 is used in CI)
+
+Create and activate a virtual environment, then install Python dependencies:
 
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
+python -m pip install -r requirements-dev.txt
 ```
 
-Install dependencies:
+Install JavaScript dependencies and build the browser bundle:
 
 ```powershell
-pip install -r requirements.txt
+npm ci
+npm run build
 ```
 
-Create a `.env` file in the repo root. For PostgreSQL, either provide a single `DATABASE_URL`:
-
-```env
-DJANGO_SECRET_KEY=change-this-for-local-dev
-DJANGO_DEBUG=True
-DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
-DATABASE_URL=postgresql://user:password@localhost:5432/crimson_scheduler
-REDIS_URL=redis://127.0.0.1:6379/0
-```
-
-Or provide individual database settings:
-
-```env
-DJANGO_SECRET_KEY=change-this-for-local-dev
-DJANGO_DEBUG=True
-DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=crimson_scheduler
-DB_USER=your_database_user
-DB_PWD=your_database_password
-DB_HOST=localhost
-DB_PORT=5432
-REDIS_URL=redis://127.0.0.1:6379/0
-```
-
-For SQLite development:
+Create a `.env` file in the repository root. A SQLite configuration is enough for local development because the primary UI reads the published static catalog rather than a local course database:
 
 ```env
 DJANGO_SECRET_KEY=change-this-for-local-dev
@@ -130,102 +104,84 @@ DJANGO_DEBUG=True
 DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
 DB_ENGINE=django.db.backends.sqlite3
 DB_NAME=db.sqlite3
-DB_USER=
-DB_PWD=
-DB_HOST=
-DB_PORT=
-REDIS_URL=redis://127.0.0.1:6379/0
 ```
 
-Run migrations:
+Apply migrations and start Django:
 
 ```powershell
 cd web
 python manage.py migrate
-```
-
-Load WSU schedule data:
-
-```powershell
-cd ..
-python main.py
-```
-
-Start the development server:
-
-```powershell
-cd web
 python manage.py runserver
 ```
 
-Then open `http://127.0.0.1:8000/`.
+Open `http://127.0.0.1:8000/`. The page will request the current catalog from the published API, so an internet connection is required for course search.
 
-## Configuration Notes
+### Optional services and database configuration
 
-- `DJANGO_SECRET_KEY` controls Django's secret key.
-- `DJANGO_DEBUG` defaults to `True`.
-- `DJANGO_ALLOWED_HOSTS` is a comma-separated host list.
-- `DATABASE_URL` takes priority over the individual `DB_*` settings.
-- `REDIS_URL` defaults to `redis://127.0.0.1:6379/0`.
-- Rate limiting can be tuned with `RATE_LIMIT_MAX_TOKENS`, `RATE_LIMIT_REFILL_RATE`, `RATE_LIMIT_TTL_SECONDS`, `RATE_LIMIT_TRUST_X_FORWARDED_FOR`, and `RATE_LIMIT_FAIL_OPEN`.
-- With the default `RATE_LIMIT_FAIL_OPEN=True`, Redis outages should not block normal local development.
+Redis is only needed when exercising the rate-limited legacy JSON endpoints. Its defaults are `redis://127.0.0.1:6379/0` and fail-open behavior, which means a local Redis outage does not block normal development.
 
-## Data Collection
+For PostgreSQL, set `DATABASE_URL` or the individual `DB_ENGINE`, `DB_NAME`, `DB_USER`, `DB_PWD`, `DB_HOST`, and `DB_PORT` variables. `DATABASE_URL` takes precedence. Set `REDIS_URL` and, if needed, tune `RATE_LIMIT_MAX_TOKENS`, `RATE_LIMIT_REFILL_RATE`, `RATE_LIMIT_TTL_SECONDS`, `RATE_LIMIT_TRUST_X_FORWARDED_FOR`, and `RATE_LIMIT_FAIL_OPEN`.
 
-The original scraper approach has been replaced with direct WSU API calls. `main.py` initializes Django, requests campus, term, subject, course, and section data from WSU schedule endpoints, and upserts the results into the configured database.
+### Refreshing the static course API locally
 
-The importer currently stores:
+The production catalog is generated by GitHub Actions. To generate the same static API locally:
 
-- Campuses
-- Semesters
-- Subjects/topics
-- Courses
-- Sections
-- Lecture/lab metadata
-- Enrollment totals
-- Meeting days, times, locations, and instructors
+```powershell
+python -m dataCollection.dataHandler.generate_json
+```
 
-WSU schedule data is cached locally in the configured database so normal user searches do not require repeated requests to WSU endpoints. The importer can be run separately whenever the cached dataset needs to be refreshed.
+This writes `_generated_site/api/v1/catalog.json` plus one JSON file per campus/term. The script requests WSU's public schedule API and may take time depending on the number of active terms and subjects. It does not update the local Django database.
 
-## How Schedule Data Is Stored
+The older database importer remains available as `python main.py`; it initializes Django and imports the WSU data into the configured database. It is useful for maintaining the legacy endpoints, not required for the browser-based builder.
 
-The visible schedule builder currently stores selected section data in the user's browser with a 30-day cookie. Display options and the schedule name are stored in local storage.
+## Quality checks
 
-Share codes store the schedule name and selected section IDs. When importing a share code, the app calls `/api/sections-by-ids/` to rebuild fresh section data from the database. The app also includes Django models and endpoints for session-backed schedules, but the primary UI flow is currently browser-first.
+```powershell
+npm run lint
+npm test
+python -m ruff check .
+python -m ruff format --check .
+cd web
+python manage.py check
+python manage.py test
+```
 
-## User-Facing Pages
+GitHub Actions runs Python and JavaScript linting, Django checks/tests, Vitest, CodeQL analysis, and the hourly data-publication workflow.
 
-- `/` - schedule builder
-- `/privacy-policy/` - privacy policy
-- `/terms-of-use/` - terms of use
-- `/contact/` - contact and bug-reporting guidance
-- `/admin/` - Django admin
+## Routes
 
-## Future Work
+| Route | Purpose |
+| --- | --- |
+| `/` | Schedule builder |
+| `/privacy-policy/` | Privacy policy |
+| `/terms-of-service/` | Terms of service |
+| `/contact/` | Contact and feedback guidance |
+| `/admin/` | Django administration |
+| `/api/schedule-data/` | Legacy session schedule data |
+| `/api/sections-by-ids/` | Legacy section lookup endpoint |
 
-The core scheduling experience is usable. Future work is focused on deployment, richer course metadata, and stretch goals based on user feedback.
+## Privacy and data notes
 
-- [ ] Deploy Crimson Scheduler to a public domain for broader access.
-- [x] Improve export options beyond JSON.
-- [x] Add schedule share/import codes.
-- [ ] Explore professor ratings by linking instructor names to their RMP profiles where available, or by developing a user-submitted rating system.
-- [ ] Allow the deployed app's cached course data to update frequently enough for useful seat-count visibility.
-- [ ] Add prerequisite or course-description metadata if reliable WSU data becomes available, or construct a dependency graph that helps visualize how courses relate to each other.
-- [ ] Implement daily path generation to visualize a potential walking route between classes based on their locations.
+Schedules, display preferences, schedule names, and theme selection are stored in the browser's local storage. A legacy cookie reader is retained for older schedules, but the current builder persists new schedules in local storage. Share codes encode a schedule name and campus/term section identifiers; they are not stored on the server.
 
-## Disclaimers
+The site uses Vercel Web Analytics for aggregate traffic information. Consult the in-app [Privacy Policy](/privacy-policy/) for the current details.
 
-Crimson Scheduler is an independent, third-party project and is not affiliated with, endorsed by, sponsored by, or otherwise officially associated with Washington State University (WSU).
+## Future work
 
-Crimson Scheduler is a planning tool, not a registration system. Course availability, meeting times, instructors, locations, and other information should be verified through official WSU resources before registration.
+- [ ] Deploy and maintain the public production experience.
+- [x] Add image and calendar export.
+- [x] Add share/import codes.
+- [x] Add client-side availability, delivery, and UCORE filters.
+- [ ] Explore reliable instructor-rating links or a user-submitted rating system.
+- [ ] Improve visibility into how fresh enrollment counts are after each catalog refresh.
+- [ ] Add course descriptions, prerequisites, and degree-planning relationships when reliable source data is available.
+- [ ] Visualize walking routes between class locations.
 
-Course information may be delayed, incomplete, or outdated between data refreshes.
+## Disclaimer
 
-Crimson Scheduler does not currently require user accounts. The app stores selected course sections and display preferences in browser storage to restore schedules between visits. No PII is intentionally collected by the application.
+Crimson Scheduler is an independent third-party project. It is not affiliated with, endorsed by, sponsored by, or otherwise officially associated with Washington State University.
 
-## AI Disclosure
-
-The majority of this README.md was written with the guidance of AI, but ultimately reviewed by me (a human, I swear). If there are any questions related to the project, please feel free to reach out to me using the links in my profile. Thanks!
+It is a planning tool, not a registration system. Always verify course availability, meeting times, instructors, locations, prerequisites, and registration requirements through official WSU resources before enrolling.
 
 ## License
 
