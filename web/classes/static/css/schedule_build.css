@@ -1269,6 +1269,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     color: var(--color-text);
 }
 
+:root[data-theme="dark"] .mobile-nav-btn.is-active {
+    color: var(--color-link);
+}
+
 :root[data-theme="dark"] .form-control::placeholder {
     color: var(--color-text-muted);
     opacity: 1;
