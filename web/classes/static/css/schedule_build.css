@@ -324,7 +324,8 @@
 }
 
 .mobile-action-label,
-.mobile-bottom-nav {
+.mobile-bottom-nav,
+.mobile-misc-trigger {
     display: none;
 }
 
@@ -488,7 +489,7 @@
 }
 
 .schedule-pane.is-exporting {
-    background: #fff;
+    background: var(--color-surface);
     height: auto;
     overflow: visible;
 }
@@ -725,6 +726,14 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     gap: 0;
 }
 
+@media (min-width: 761px) {
+    .misc-list {
+        max-height: 128px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+    }
+}
+
 .misc-item {
     align-items: center;
     border: 1px solid var(--line);
@@ -764,10 +773,15 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         overflow: hidden;
     }
 
+    body.mobile-misc-sheet-open,
+    body.mobile-course-sheet-open {
+        overflow: hidden;
+    }
+
     .schedule-app {
         display: flex;
         flex-direction: column;
-        height: calc(100dvh - 172px);
+        height: calc(100dvh - var(--mobile-app-chrome-height, 172px));
         overflow: hidden;
         padding: 0;
     }
@@ -788,7 +802,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         display: none;
         height: 100%;
         overflow: hidden;
-        padding: 22px 18px 18px;
+        padding: 14px 18px 12px;
     }
 
     .mobile-pane.is-active {
@@ -796,7 +810,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .search-pane {
-        padding-top: 18px;
+        padding-top: 12px;
     }
 
     .catalog-freshness {
@@ -890,7 +904,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-filter-panel,
-    .mobile-conflict-panel {
+    .mobile-conflict-panel,
+    .mobile-misc-panel,
+    .mobile-course-panel {
         background: var(--color-surface);
         border-radius: 16px 16px 0 0;
         bottom: 0;
@@ -946,8 +962,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .search-results {
         border-top: 1px solid var(--line);
-        margin: 18px -18px 0;
-        padding: 18px 18px 8px;
+        margin: 12px -18px 0;
+        overscroll-behavior: contain;
+        padding: 12px 18px 8px;
     }
 
     .pane-topbar {
@@ -955,7 +972,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         display: flex;
         gap: 10px;
         justify-content: space-between;
-        margin-bottom: 18px;
+        margin-bottom: 10px;
     }
 
     .schedule-title {
@@ -1008,6 +1025,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         min-height: 0;
         overflow-x: auto;
         overflow-y: auto;
+        overscroll-behavior: contain;
         -webkit-overflow-scrolling: touch;
     }
 
@@ -1033,11 +1051,18 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .course-block {
+        appearance: none;
         border-color: #98df91;
         border-radius: 6px;
         font-size: 0.47rem;
+        font-family: inherit;
         line-height: 1.12;
         padding: 4px 3px;
+    }
+
+    .course-block:focus-visible {
+        outline: 2px solid var(--crimson);
+        outline-offset: 2px;
     }
 
     .course-block.with-instructor .course-block-line,
@@ -1050,7 +1075,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         display: none !important;
     }
 
-    .mobile-conflict-sheet {
+    .mobile-conflict-sheet,
+    .mobile-misc-sheet,
+    .mobile-course-sheet {
         bottom: 0;
         display: block;
         left: 0;
@@ -1063,12 +1090,16 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         z-index: 3000;
     }
 
-    .mobile-conflict-sheet.is-open {
+    .mobile-conflict-sheet.is-open,
+    .mobile-misc-sheet.is-open,
+    .mobile-course-sheet.is-open {
         opacity: 1;
         pointer-events: auto;
     }
 
-    .mobile-conflict-backdrop {
+    .mobile-conflict-backdrop,
+    .mobile-misc-backdrop,
+    .mobile-course-backdrop {
         background: rgba(17, 24, 39, 0.42);
         border: 0;
         bottom: 0;
@@ -1078,11 +1109,15 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         top: 0;
     }
 
-    .mobile-conflict-panel {
+    .mobile-conflict-panel,
+    .mobile-misc-panel,
+    .mobile-course-panel {
         max-height: min(78dvh, 520px);
     }
 
-    .mobile-conflict-sheet.is-open .mobile-conflict-panel {
+    .mobile-conflict-sheet.is-open .mobile-conflict-panel,
+    .mobile-misc-sheet.is-open .mobile-misc-panel,
+    .mobile-course-sheet.is-open .mobile-course-panel {
         transform: translateY(0);
     }
 
@@ -1123,6 +1158,119 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .mobile-conflict-options {
         display: grid;
         gap: 10px;
+    }
+
+    .mobile-misc-panel,
+    .mobile-course-panel {
+        max-height: min(78dvh, 560px);
+    }
+
+    .mobile-misc-grabber,
+    .mobile-course-grabber {
+        background: #d1d5db;
+        border-radius: 999px;
+        height: 4px;
+        margin: 0 auto 14px;
+        width: 42px;
+    }
+
+    .mobile-course-header {
+        align-items: center;
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .mobile-course-header h2 {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .mobile-course-close,
+    .mobile-course-remove {
+        border-radius: 6px;
+        font-weight: 800;
+        min-height: 42px;
+        padding: 0 12px;
+    }
+
+    .mobile-course-close {
+        background: var(--color-surface);
+        border: 1px solid var(--line-strong);
+        color: var(--color-text);
+    }
+
+    .mobile-course-details {
+        color: var(--color-text-secondary);
+        display: grid;
+        gap: 7px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+    .mobile-course-name {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+
+    .mobile-course-code {
+        color: var(--crimson);
+        font-weight: 800;
+    }
+
+    .mobile-course-remove {
+        background: var(--crimson);
+        border: 0;
+        color: #fff;
+        width: 100%;
+    }
+
+    .mobile-misc-trigger {
+        align-items: center;
+        background: var(--color-surface);
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        color: var(--color-text);
+        display: none;
+        font: inherit;
+        font-weight: 800;
+        justify-content: space-between;
+        min-height: 44px;
+        padding: 8px 12px;
+        text-align: left;
+    }
+
+    .misc-panel {
+        margin-top: 10px;
+    }
+
+    .mobile-pane[data-mobile-pane="schedule"] .misc-panel {
+        display: none;
+    }
+
+    .mobile-pane[data-mobile-pane="schedule"] .mobile-misc-trigger {
+        display: inline-flex;
+    }
+
+    .mobile-misc-panel .misc-panel {
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        display: block;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .mobile-misc-panel .misc-list {
+        max-height: min(34dvh, 240px);
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
     }
 
     .mobile-conflict-remove-btn {
@@ -1196,9 +1344,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         display: grid;
         flex: 0 0 auto;
         grid-template-columns: repeat(2, 1fr);
-        min-height: 68px;
+        min-height: 60px;
         order: 1;
-        padding: 7px 14px;
+        padding: 4px 14px;
         position: static;
         z-index: 80;
     }
@@ -1212,9 +1360,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         flex-direction: column;
         font-size: 0.76rem;
         font-weight: 700;
-        gap: 6px;
+        gap: 4px;
         justify-content: center;
-        min-height: 52px;
+        min-height: 48px;
     }
     
     .mobile-nav-btn.is-active {
@@ -1228,6 +1376,8 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 :root[data-theme="dark"] .course-block-tooltip,
 :root[data-theme="dark"] .mobile-filter-panel,
 :root[data-theme="dark"] .mobile-conflict-panel,
+:root[data-theme="dark"] .mobile-misc-panel,
+:root[data-theme="dark"] .mobile-course-panel,
 :root[data-theme="dark"] .mobile-nav {
     background: var(--color-surface);
     color: var(--color-text);
@@ -1238,6 +1388,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 :root[data-theme="dark"] .filter-group select,
 :root[data-theme="dark"] .mobile-conflict-close,
 :root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .mobile-course-close,
 :root[data-theme="dark"] .conflict-remove-btn {
     background-color: var(--color-surface);
     color: var(--color-text);
@@ -1320,7 +1471,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .mobile-filter-panel,
-.mobile-conflict-panel {
+.mobile-conflict-panel,
+.mobile-misc-panel,
+.mobile-course-panel {
     transition: transform 180ms ease,
                 background-color 160ms ease,
                 color 160ms ease,
@@ -1329,15 +1482,21 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 }
 
 .mobile-filter-backdrop,
-.mobile-conflict-backdrop {
+.mobile-conflict-backdrop,
+.mobile-misc-backdrop,
+.mobile-course-backdrop {
     transition: opacity 160ms ease, background-color 160ms ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
     .mobile-filter-panel,
     .mobile-conflict-panel,
+    .mobile-misc-panel,
+    .mobile-course-panel,
     .mobile-filter-backdrop,
-    .mobile-conflict-backdrop {
+    .mobile-conflict-backdrop,
+    .mobile-misc-backdrop,
+    .mobile-course-backdrop {
         transition-duration: 0ms !important;
     }
 }

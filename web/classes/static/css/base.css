@@ -433,6 +433,12 @@ body:has(.schedule-app) .site-footer {
 }
 
 @media (max-width: 760px) {
+    body:has(.schedule-app) {
+        --mobile-topbar-height: 84px;
+        --mobile-footer-height: 56px;
+        --mobile-app-chrome-height: calc(var(--mobile-topbar-height) + var(--mobile-footer-height));
+    }
+
     body {
         background: var(--wsu-crimson);
         padding-bottom: calc(92px + env(safe-area-inset-bottom));
@@ -443,7 +449,7 @@ body:has(.schedule-app) .site-footer {
     }
 
     body:has(.schedule-app) .site-footer {
-        height: 76px;
+        height: var(--mobile-footer-height, 56px);
     }
 
     body:has(.legal-page) {
@@ -455,7 +461,7 @@ body:has(.schedule-app) .site-footer {
     }
 
     .app-navbar {
-        min-height: 96px;
+        min-height: var(--mobile-topbar-height, 84px);
         padding-top: env(safe-area-inset-top);
     }
 
@@ -476,14 +482,14 @@ body:has(.schedule-app) .site-footer {
     }
 
     .app-brand-title {
-        font-size: 1.50rem;
+        font-size: 1.3rem;
         line-height: 1.1;
         white-space: nowrap;
     }
 
     .app-brand-icon {
-        height: 50px;
-        width: 50px;
+        height: 44px;
+        width: 44px;
     }
 
     .app-nav-actions {
@@ -537,9 +543,23 @@ body:has(.schedule-app) .site-footer {
     }
 
     .site-footer-inner {
-        gap: 4px 10px;
+        gap: 2px 4px;
+        min-height: 0;
         padding-left: 16px !important;
         padding-right: 16px !important;
+    }
+
+    .site-footer-txt,
+    .site-footer-link {
+        flex: 0 0 auto;
+        font-size: clamp(0.38rem, 1.7vw, 0.58rem);
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    .affiliation-disclaimer {
+        flex-basis: 100%;
+        flex-shrink: 0;
     }
 
     .legal-page {

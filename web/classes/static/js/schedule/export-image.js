@@ -1,5 +1,6 @@
 import { slugifyScheduleName } from "./preferences.js";
 import html2canvas from "html2canvas";
+import { isGoogleOrChromeMobileApp } from "./responsive.js";
 
 export function nextAnimationFrame() {
   return new Promise((resolve) =>
@@ -15,6 +16,11 @@ export function buildScheduleExportFilename(name) {
   ].join("-");
   return `${slugifyScheduleName(name)}-${dateToken}.png`;
 }
+
+export function getScheduleExportBackgroundColor(schedulePane) {
+  return window.getComputedStyle(schedulePane).backgroundColor;
+}
+
 export function downloadCanvasImage(canvas, filename) {
   return new Promise((resolve) =>
     canvas.toBlob((blob) => {
@@ -41,6 +47,7 @@ export function initializeScheduleExport({
   clearSectionGhosts,
 }) {
   return async function exportSchedule() {
+    if (isGoogleOrChromeMobileApp()) return;
     const schedulePane = document.querySelector(".schedule-pane");
     const exportButton = document.getElementById("exportScheduleBtn");
     if (!schedulePane || !exportButton) return;
@@ -61,7 +68,7 @@ export function initializeScheduleExport({
     try {
       await nextAnimationFrame();
       const canvas = await html2canvas(schedulePane, {
-        backgroundColor: "#ffffff",
+        backgroundColor: getScheduleExportBackgroundColor(schedulePane),
         scale: Math.min(window.devicePixelRatio || 1, 2),
         useCORS: true,
         width: schedulePane.scrollWidth,

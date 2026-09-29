@@ -1,11 +1,31 @@
 import { MOBILE_BREAKPOINT } from "./constants.js";
 
+let activeMobileMiscTrigger = null;
+
 export function isMobileViewport() {
   return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
 }
 
+export function isGoogleOrChromeMobileApp(userAgent = navigator.userAgent) {
+  if (!isMobileViewport()) return false;
+  const ua = String(userAgent || "");
+  if (/\bGSA\//i.test(ua)) return true;
+  if (!/\b(?:Chrome|CriOS)\//i.test(ua)) return false;
+  return !/\b(?:EdgA|EdgiOS|OPR|SamsungBrowser)\//i.test(ua);
+}
+
+export function updateMobileImageExportVisibility() {
+  const exportButton = document.getElementById("exportScheduleBtn");
+  if (!exportButton) return;
+  const hidden = isGoogleOrChromeMobileApp();
+  exportButton.hidden = hidden;
+  exportButton.setAttribute("aria-hidden", String(hidden));
+}
+
 export function initializeMobileLayout() {
   setMobilePane("search");
+  syncMobileMiscPanel();
+  updateMobileImageExportVisibility();
 }
 
 export function handleMobileNavigation(button) {
@@ -25,7 +45,59 @@ export function setMobilePane(targetPane) {
     button.setAttribute("aria-pressed", String(isActive));
   });
   const shell = document.querySelector(".schedule-shell");
+
   if (shell) shell.setAttribute("data-active-mobile-pane", targetPane);
+}
+
+export function syncMobileMiscPanel() {
+  const panel = document.querySelector(".misc-panel");
+  const schedulePane = document.querySelector('.schedule-pane[data-mobile-pane="schedule"]');
+  const host = document.getElementById("mobileMiscPanelHost");
+
+  if (!panel || !schedulePane || !host) return;
+  if (isMobileViewport()) {
+    if (!host.contains(panel)) host.appendChild(panel);
+  } else if (!schedulePane.contains(panel)) {
+    schedulePane.appendChild(panel);
+  }
+}
+
+export function openMobileMiscSheet(trigger) {
+  if (!isMobileViewport()) return;
+
+  const sheet = document.getElementById("mobileMiscSheet");
+  const toggle = document.getElementById("mobileMiscToggle");
+
+  if (!sheet || !toggle) return;
+  activeMobileMiscTrigger = trigger || toggle;
+  sheet.hidden = false;
+  sheet.setAttribute("aria-hidden", "false");
+  toggle.setAttribute("aria-expanded", "true");
+  document.body.classList.add("mobile-misc-sheet-open");
+  window.requestAnimationFrame(() => sheet.classList.add("is-open"));
+  const panel = sheet.querySelector(".mobile-misc-panel");
+  if (panel) panel.focus({ preventScroll: true });
+}
+
+export function closeMobileMiscSheet({ restoreFocus = true } = {}) {
+  const sheet = document.getElementById("mobileMiscSheet");
+  const toggle = document.getElementById("mobileMiscToggle");
+
+  if (!sheet || !sheet.classList.contains("is-open")) return;
+  sheet.classList.remove("is-open");
+  sheet.setAttribute("aria-hidden", "true");
+  if (toggle) toggle.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("mobile-misc-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
+  if (
+    restoreFocus &&
+    activeMobileMiscTrigger &&
+    document.contains(activeMobileMiscTrigger)
+  )
+    activeMobileMiscTrigger.focus({ preventScroll: true });
+  activeMobileMiscTrigger = null;
 }
 
 export function debounce(callback, delay) {

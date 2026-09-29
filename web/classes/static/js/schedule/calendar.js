@@ -24,6 +24,8 @@ import {
 
 let renderedBlocksByDay = {};
 let activeMobileConflictTrigger = null;
+let activeMobileCourseTrigger = null;
+let activeMobileCourse = null;
 let removeCourse = () => {};
 
 export function getVisibleDays() {
@@ -90,8 +92,15 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
   const showInstruct = showInstructors();
   const showSection = showSections();
   if (!cell) return false;
-  const block = document.createElement("div");
+  const block = document.createElement(isMobileViewport() ? "button" : "div");
   block.className = `course-block no-conflict${showInstruct ? " with-instructor" : ""}`;
+  if (isMobileViewport()) {
+    block.type = "button";
+    block.setAttribute(
+      "aria-label",
+      `${courseData.course_code} ${formatMeetingListForDisplay(courseData.time)}. Tap for course actions.`,
+    );
+  }
   block.style.height =
     Math.max(((timeRange.end - timeRange.start) / 60) * 100, 0) + "%";
   block.style.minHeight = "30px";
@@ -123,6 +132,10 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
       block.conflictingCourses.length
     ) {
       openMobileConflictSheet(block, courseData, block.conflictingCourses);
+      return;
+    }
+    if (isMobileViewport()) {
+      openMobileCourseSheet(block, courseData);
       return;
     }
     removeCourse(courseData.section_id);
@@ -238,7 +251,14 @@ export function buildCourseTooltip(courseData) {
     "",
     courseData.location || "Location: N/A",
   );
-  appendTextElement(fragment, "div", "", "Click to remove from schedule");
+  appendTextElement(
+    fragment,
+    "div",
+    "",
+    isMobileViewport()
+      ? "Tap to view course actions"
+      : "Click to remove from schedule",
+  );
   return fragment;
 }
 export function buildConflictTooltip(courseData, conflicts) {
@@ -292,6 +312,87 @@ export function closeMobileConflictSheet() {
     activeMobileConflictTrigger.focus({ preventScroll: true });
   activeMobileConflictTrigger = null;
 }
+
+export function openMobileCourseSheet(trigger, courseData) {
+  const sheet = document.getElementById("mobileCourseSheet");
+  const details = document.getElementById("mobileCourseDetails");
+  const removeButton = document.getElementById("mobileCourseRemove");
+  if (!sheet || !details || !removeButton) return;
+  activeMobileCourseTrigger = trigger;
+  activeMobileCourse = courseData;
+  details.replaceChildren();
+  appendTextElement(
+    details,
+    "div",
+    "mobile-course-name",
+    courseData.course_name || courseData.course_code,
+  );
+  appendTextElement(
+    details,
+    "div",
+    "mobile-course-code",
+    `${courseData.course_code} · Section ${courseData.section_num || "N/A"}`,
+  );
+  appendTextElement(
+    details,
+    "div",
+    "mobile-course-meta",
+    `${courseData.days || "Days unavailable"} · ${formatMeetingListForDisplay(courseData.time)}`,
+  );
+  appendTextElement(
+    details,
+    "div",
+    "mobile-course-meta",
+    `Location: ${courseData.location || "N/A"}`,
+  );
+  appendTextElement(
+    details,
+    "div",
+    "mobile-course-meta",
+    `Instructor: ${courseData.instructor || "N/A"}`,
+  );
+  appendTextElement(
+    details,
+    "div",
+    "mobile-course-meta",
+    `Credits: ${courseData.credits || "0"}`,
+  );
+  sheet.hidden = false;
+  sheet.setAttribute("aria-hidden", "false");
+  document.body.classList.add("mobile-course-sheet-open");
+  window.requestAnimationFrame(() => sheet.classList.add("is-open"));
+  removeButton.focus({ preventScroll: true });
+}
+
+export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
+  const sheet = document.getElementById("mobileCourseSheet");
+
+  if (!sheet || !sheet.classList.contains("is-open")) return;
+  sheet.classList.remove("is-open");
+  sheet.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("mobile-course-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
+
+  if (
+    restoreFocus &&
+    activeMobileCourseTrigger &&
+    document.contains(activeMobileCourseTrigger)
+  )
+    activeMobileCourseTrigger.focus({ preventScroll: true });
+
+  activeMobileCourseTrigger = null;
+  activeMobileCourse = null;
+}
+
+export function removeActiveMobileCourse() {
+  if (!activeMobileCourse) return;
+  const sectionId = activeMobileCourse.section_id;
+  closeMobileCourseSheet({ restoreFocus: false });
+  removeCourse(sectionId);
+}
+
 export function addCourseToCalendar(courseData) {
   let renderedCount = 0;
   resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) =>
@@ -354,7 +455,10 @@ export function updateCreditCount(scheduleData) {
 }
 export function renderMiscList(items) {
   const miscList = document.getElementById("miscList");
-  document.getElementById("miscCount").textContent = `(${items.length})`;
+  const countLabel = `(${items.length})`;
+  document.getElementById("miscCount").textContent = countLabel;
+  const mobileCount = document.getElementById("mobileMiscCount");
+  if (mobileCount) mobileCount.textContent = countLabel;
   if (!items.length) {
     miscList.replaceChildren(
       createElementWithText(
