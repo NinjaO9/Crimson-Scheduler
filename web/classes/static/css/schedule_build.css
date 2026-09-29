@@ -488,7 +488,7 @@
 }
 
 .schedule-pane.is-exporting {
-    background: #fff;
+    background: var(--color-surface);
     height: auto;
     overflow: visible;
 }

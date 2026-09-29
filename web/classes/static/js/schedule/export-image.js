@@ -15,6 +15,11 @@ export function buildScheduleExportFilename(name) {
   ].join("-");
   return `${slugifyScheduleName(name)}-${dateToken}.png`;
 }
+
+export function getScheduleExportBackgroundColor(schedulePane) {
+  return window.getComputedStyle(schedulePane).backgroundColor;
+}
+
 export function downloadCanvasImage(canvas, filename) {
   return new Promise((resolve) =>
     canvas.toBlob((blob) => {
@@ -61,7 +66,7 @@ export function initializeScheduleExport({
     try {
       await nextAnimationFrame();
       const canvas = await html2canvas(schedulePane, {
-        backgroundColor: "#ffffff",
+        backgroundColor: getScheduleExportBackgroundColor(schedulePane),
         scale: Math.min(window.devicePixelRatio || 1, 2),
         useCORS: true,
         width: schedulePane.scrollWidth,
