@@ -17,7 +17,7 @@ describe("schedule image export", () => {
     schedulePane.remove();
   });
 
-  it("uses the image preview flow only for mobile browsers", () => {
+  it("uses the in-tab image flow only for mobile browsers", () => {
     expect(
       isMobileBrowser(
         "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) CriOS/129.0.0.0 Mobile/15E148 Safari/604.1",
