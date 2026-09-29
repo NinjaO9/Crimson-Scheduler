@@ -726,6 +726,14 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     gap: 0;
 }
 
+@media (min-width: 761px) {
+    .misc-list {
+        max-height: 128px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+    }
+}
+
 .misc-item {
     align-items: center;
     border: 1px solid var(--line);
