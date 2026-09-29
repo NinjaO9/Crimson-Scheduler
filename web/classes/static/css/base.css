@@ -537,9 +537,20 @@ body:has(.schedule-app) .site-footer {
     }
 
     .site-footer-inner {
-        gap: 4px 10px;
+        gap: 2px 3px;
         padding-left: 16px !important;
         padding-right: 16px !important;
+    }
+
+    .site-footer-txt,
+    .site-footer-link {
+        font-size: clamp(0.50rem, 1.7vw, 0.56rem);
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    .affiliation-disclaimer {
+        flex-basis: 100%;
     }
 
     .legal-page {
