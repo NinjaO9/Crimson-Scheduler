@@ -20,15 +20,37 @@ export function getScheduleExportBackgroundColor(schedulePane) {
   return window.getComputedStyle(schedulePane).backgroundColor;
 }
 
-export function downloadCanvasImage(canvas, filename) {
+export function isMobileBrowser(userAgent = window.navigator.userAgent) {
+  return /Android|iPhone|iPad|iPod/i.test(userAgent);
+}
+
+export function openMobileImagePreview() {
+  if (!isMobileBrowser()) return null;
+
+  const previewWindow = window.open("", "_blank");
+  if (!previewWindow) return null;
+
+  previewWindow.document.title = "Preparing schedule image";
+  previewWindow.document.body.textContent = "Preparing schedule image…";
+  return previewWindow;
+}
+
+export function downloadCanvasImage(canvas, filename, previewWindow = null) {
   return new Promise((resolve) =>
     canvas.toBlob((blob) => {
       if (!blob) {
+        previewWindow?.close();
         window.alert("Sorry, the schedule image could not be created.");
         resolve(false);
         return;
       }
       const url = URL.createObjectURL(blob);
+      if (previewWindow && !previewWindow.closed) {
+        previewWindow.location.href = url;
+        window.setTimeout(() => URL.revokeObjectURL(url), 5 * 60 * 1000);
+        resolve(true);
+        return;
+      }
       const link = document.createElement("a");
       link.href = url;
       link.download = filename;
@@ -56,6 +78,7 @@ export function initializeScheduleExport({
       )
     )
       return;
+    const mobileImagePreview = openMobileImagePreview();
     const originalButtonText = exportButton.textContent;
     exportButton.disabled = true;
     exportButton.textContent = "Exporting...";
@@ -83,8 +106,10 @@ export function initializeScheduleExport({
       await downloadCanvasImage(
         canvas,
         buildScheduleExportFilename(getScheduleName()),
+        mobileImagePreview,
       );
     } catch (error) {
+      mobileImagePreview?.close();
       window.alert("Sorry, the schedule image could not be created.");
     } finally {
       schedulePane.classList.remove("is-exporting");
