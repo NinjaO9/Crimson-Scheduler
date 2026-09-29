@@ -1,6 +1,8 @@
 import {
   clearSectionGhosts,
   closeMobileConflictSheet,
+  closeMobileCourseSheet,
+  removeActiveMobileCourse,
   renderSchedule,
   renderSectionGhost,
 } from "./calendar.js";
@@ -23,10 +25,13 @@ import {
 } from "./preferences.js";
 import {
   debounce,
+  closeMobileMiscSheet,
   handleMobileNavigation,
   initializeMobileLayout,
   isMobileViewport,
+  openMobileMiscSheet,
   setMobilePane,
+  syncMobileMiscPanel,
 } from "./responsive.js";
 import {
   appendScheduleEntries,
@@ -115,6 +120,22 @@ export function initializeScheduleApp() {
       closeMobileConflictSheet();
       return;
     }
+    if (event.target.closest("[data-close-misc]")) {
+      closeMobileMiscSheet();
+      return;
+    }
+    if (event.target.closest("#mobileMiscToggle")) {
+      openMobileMiscSheet(event.target.closest("#mobileMiscToggle"));
+      return;
+    }
+    if (event.target.closest("[data-close-course]")) {
+      closeMobileCourseSheet();
+      return;
+    }
+    if (event.target.closest("#mobileCourseRemove")) {
+      removeActiveMobileCourse();
+      return;
+    }
     const mobileNavButton = event.target.closest(".mobile-nav-btn");
     if (mobileNavButton) handleMobileNavigation(mobileNavButton);
   });
@@ -148,6 +169,8 @@ export function initializeScheduleApp() {
     if (event.key === "Escape") {
       closeCourseFilters();
       closeMobileConflictSheet();
+      closeMobileMiscSheet();
+      closeMobileCourseSheet();
     }
   });
   document.body.addEventListener("htmx:responseError", (event) => {
@@ -158,6 +181,7 @@ export function initializeScheduleApp() {
   window.addEventListener(
     "resize",
     debounce(() => {
+      syncMobileMiscPanel();
       if (!isMobileViewport()) closeCourseFilters();
       refreshSchedule();
     }, 150),
