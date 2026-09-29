@@ -5,6 +5,7 @@ import {
 } from "../web/classes/static/js/schedule/calendar.js";
 import {
   closeMobileMiscSheet,
+  isGoogleOrChromeMobileApp,
   openMobileMiscSheet,
   syncMobileMiscPanel,
 } from "../web/classes/static/js/schedule/responsive.js";
@@ -98,5 +99,24 @@ describe("mobile layout sheets", () => {
     closeMobileCourseSheet();
     expect(sheet.getAttribute("aria-hidden")).toBe("true");
     expect(document.activeElement).toBe(trigger);
+  });
+
+  it("restricts image export only to Google and Chrome mobile apps", () => {
+    expect(
+      isGoogleOrChromeMobileApp("Mozilla/5.0 Chrome/140.0 Mobile Safari/537.36"),
+    ).toBe(true);
+    expect(isGoogleOrChromeMobileApp("Mozilla/5.0 CriOS/140.0 Mobile")).toBe(
+      true,
+    );
+    expect(isGoogleOrChromeMobileApp("Mozilla/5.0 GSA/400.0 Mobile")).toBe(
+      true,
+    );
+    expect(
+      isGoogleOrChromeMobileApp("Mozilla/5.0 EdgA/140.0 Chrome/140.0 Mobile"),
+    ).toBe(false);
+    setMobileViewport(false);
+    expect(isGoogleOrChromeMobileApp("Mozilla/5.0 Chrome/140.0 Mobile")).toBe(
+      false,
+    );
   });
 });

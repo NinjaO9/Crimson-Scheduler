@@ -1,5 +1,6 @@
 import { slugifyScheduleName } from "./preferences.js";
 import html2canvas from "html2canvas";
+import { isGoogleOrChromeMobileApp } from "./responsive.js";
 
 export function nextAnimationFrame() {
   return new Promise((resolve) =>
@@ -46,6 +47,7 @@ export function initializeScheduleExport({
   clearSectionGhosts,
 }) {
   return async function exportSchedule() {
+    if (isGoogleOrChromeMobileApp()) return;
     const schedulePane = document.querySelector(".schedule-pane");
     const exportButton = document.getElementById("exportScheduleBtn");
     if (!schedulePane || !exportButton) return;

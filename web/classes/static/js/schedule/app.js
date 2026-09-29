@@ -32,6 +32,7 @@ import {
   openMobileMiscSheet,
   setMobilePane,
   syncMobileMiscPanel,
+  updateMobileImageExportVisibility,
 } from "./responsive.js";
 import {
   appendScheduleEntries,
@@ -182,6 +183,7 @@ export function initializeScheduleApp() {
     "resize",
     debounce(() => {
       syncMobileMiscPanel();
+      updateMobileImageExportVisibility();
       if (!isMobileViewport()) closeCourseFilters();
       refreshSchedule();
     }, 150),

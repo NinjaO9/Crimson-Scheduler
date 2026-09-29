@@ -6,9 +6,26 @@ export function isMobileViewport() {
   return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
 }
 
+export function isGoogleOrChromeMobileApp(userAgent = navigator.userAgent) {
+  if (!isMobileViewport()) return false;
+  const ua = String(userAgent || "");
+  if (/\bGSA\//i.test(ua)) return true;
+  if (!/\b(?:Chrome|CriOS)\//i.test(ua)) return false;
+  return !/\b(?:EdgA|EdgiOS|OPR|SamsungBrowser)\//i.test(ua);
+}
+
+export function updateMobileImageExportVisibility() {
+  const exportButton = document.getElementById("exportScheduleBtn");
+  if (!exportButton) return;
+  const hidden = isGoogleOrChromeMobileApp();
+  exportButton.hidden = hidden;
+  exportButton.setAttribute("aria-hidden", String(hidden));
+}
+
 export function initializeMobileLayout() {
   setMobilePane("search");
   syncMobileMiscPanel();
+  updateMobileImageExportVisibility();
 }
 
 export function handleMobileNavigation(button) {
