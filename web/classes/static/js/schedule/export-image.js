@@ -20,10 +20,6 @@ export function getScheduleExportBackgroundColor(schedulePane) {
   return window.getComputedStyle(schedulePane).backgroundColor;
 }
 
-export function isMobileBrowser(userAgent = window.navigator.userAgent) {
-  return /Android|iPhone|iPad|iPod/i.test(userAgent);
-}
-
 export function downloadCanvasImage(canvas, filename) {
   return new Promise((resolve) =>
     canvas.toBlob((blob) => {
@@ -33,12 +29,6 @@ export function downloadCanvasImage(canvas, filename) {
         return;
       }
       const url = URL.createObjectURL(blob);
-      if (isMobileBrowser()) {
-        window.location.href = url;
-        window.setTimeout(() => URL.revokeObjectURL(url), 5 * 60 * 1000);
-        resolve(true);
-        return;
-      }
       const link = document.createElement("a");
       link.href = url;
       link.download = filename;
