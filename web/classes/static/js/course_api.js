@@ -26,6 +26,22 @@
         return String(value).trim();
     }
 
+    function sectionKey(termSlug, sectionId) {
+        return `${slugify(termSlug)}:${text(sectionId)}`;
+    }
+
+    function copyValue(value, fallback) {
+        if (value === null || value === undefined) return fallback;
+        if (Array.isArray(value)) {
+            return value.map(item => {
+                if (item && typeof item === 'object') return { ...item };
+                return item;
+            });
+        }
+        if (typeof value === 'object') return { ...value };
+        return value;
+    }
+
     function normalizeSection(section, course, index) {
         const seats = section && section.seats ? section.seats : {};
         const sectionId = text(section && (section.sectionId || section.sln), `section-${index}`);
@@ -46,6 +62,10 @@
             is_lab: Boolean(section && section.isLab),
             ucore: text(section && section.ucore, ''),
             component: text(section && section.component, 'Lecture'),
+            meetings: copyValue(section && section.meetings, []),
+            instructors: copyValue(section && section.instructors, []),
+            coop: section && section.coop !== undefined ? section.coop : '',
+            footnotes: copyValue(section && section.footnotes, ''),
             dates: {
                 start: text(section && section.dates && section.dates.start),
                 end: text(section && section.dates && section.dates.end)
@@ -257,6 +277,7 @@ function sectionMatches(section, options) {
             course.term_slug = key;
             [...course.lecture_sections, ...course.lab_sections].forEach(section => {
                 section.term_slug = key;
+                section.section_key = sectionKey(key, section.section_id);
             });
         });
         const dataset = { key, courses, sectionsBySln: indexSections(courses) };
@@ -283,6 +304,7 @@ function sectionMatches(section, options) {
         getSectionAvailability,
         getSectionDelivery,
         getSectionUcore,
+        sectionKey,
         toScheduleEntry,
         normalizePayload,
         normalizeCourse,

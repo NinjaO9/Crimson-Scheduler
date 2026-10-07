@@ -7,9 +7,56 @@ import {
   SCHEDULE_WORKSPACE_VERSION,
 } from "./constants.js";
 
-let currentSchedule = [];
 let currentWorkspace = null;
 let lastMigrationReport = { migrated: false, excludedCount: 0 };
+const sectionRecordsByKey = new Map();
+let scheduleSectionOrder = [];
+const failedTermKeys = new Set();
+
+function getSectionRecordKey(section) {
+  if (!section || !section.section_id) return null;
+  if (section.section_key) return String(section.section_key);
+  if (section.term_slug)
+    return `${String(section.term_slug)}:${String(section.section_id)}`;
+  return `legacy:${String(section.section_id)}`;
+}
+
+function getDefaultSchedule() {
+  return currentWorkspace && currentWorkspace.schedules
+    ? currentWorkspace.schedules.default
+    : null;
+}
+
+function getRuntimeSchedule() {
+  return scheduleSectionOrder
+    .map((key) => sectionRecordsByKey.get(key))
+    .filter(Boolean);
+}
+
+function replaceRuntimeSchedule(scheduleData) {
+  sectionRecordsByKey.clear();
+  scheduleSectionOrder = [];
+  (Array.isArray(scheduleData) ? scheduleData : []).forEach((entry) => {
+    if (!isValidCourseEntry(entry)) return;
+    const key = getSectionRecordKey(entry);
+    if (!key || sectionRecordsByKey.has(key)) return;
+    sectionRecordsByKey.set(key, entry);
+    scheduleSectionOrder.push(key);
+  });
+}
+
+function addRuntimeSections(sectionData) {
+  const additions = [];
+  (Array.isArray(sectionData) ? sectionData : []).forEach((entry) => {
+    if (!isValidCourseEntry(entry)) return;
+    const key = getSectionRecordKey(entry);
+    if (!key || sectionRecordsByKey.has(key)) return;
+    sectionRecordsByKey.set(key, entry);
+    scheduleSectionOrder.push(key);
+    additions.push(entry);
+  });
+  return additions;
+}
 
 function getStoredScheduleName() {
   try {
@@ -185,40 +232,89 @@ export function initializeScheduleState() {
   currentWorkspace = loadScheduleWorkspace();
   // Temporary compatibility bridge: fresh catalog hydration will replace this
   // legacy runtime read in a later refactor feature.
-  currentSchedule = loadSchedule();
-  return currentSchedule;
+  replaceRuntimeSchedule(loadSchedule());
+  return getRuntimeSchedule();
 }
 
 export function getSchedule() {
-  return currentSchedule;
+  return getRuntimeSchedule();
+}
+
+export function getScheduleSections() {
+  return getRuntimeSchedule();
+}
+
+export function getSectionRecord(sectionKey) {
+  return sectionRecordsByKey.get(String(sectionKey)) || null;
+}
+
+export function getActiveSchedule() {
+  return getDefaultSchedule();
+}
+
+export function hydrateScheduleSections(sectionRecords) {
+  const records = Array.isArray(sectionRecords) ? sectionRecords : [];
+  const defaultSchedule = getDefaultSchedule();
+  const references = defaultSchedule && Array.isArray(defaultSchedule.section_refs)
+    ? defaultSchedule.section_refs
+    : [];
+
+  records.forEach((record) => {
+    const key = getSectionRecordKey(record);
+    if (key) sectionRecordsByKey.set(key, record);
+  });
+
+  if (!scheduleSectionOrder.length && references.length) {
+    scheduleSectionOrder = references
+      .map((reference) => sectionReferenceKey(reference))
+      .filter((key) => sectionRecordsByKey.has(key));
+  }
+  return getRuntimeSchedule();
+}
+
+export function markTermLoadFailed(termSlug) {
+  if (termSlug) failedTermKeys.add(String(termSlug));
+}
+
+export function clearTermLoadFailure(termSlug) {
+  failedTermKeys.delete(String(termSlug));
+}
+
+export function getFailedTermKeys() {
+  return Array.from(failedTermKeys);
+}
+
+export function retryFailedTerms() {
+  return getFailedTermKeys();
 }
 
 export function replaceSchedule(scheduleData) {
-  currentSchedule = scheduleData;
-  persistSchedule(currentSchedule);
-  return currentSchedule;
+  replaceRuntimeSchedule(scheduleData);
+  persistSchedule(getRuntimeSchedule());
+  return getRuntimeSchedule();
 }
 export function appendScheduleEntries(entries) {
-  const additions = entries.filter(
-    (entry) =>
-      !currentSchedule.some(
-        (item) => String(item.section_id) === String(entry.section_id),
-      ),
-  );
-  if (additions.length) replaceSchedule([...currentSchedule, ...additions]);
+  const additions = addRuntimeSections(entries);
+  if (additions.length) persistSchedule(getRuntimeSchedule());
   return additions;
 }
 export function removeScheduleEntry(sectionId) {
-  const matchedEntry = currentSchedule.find(
-    (entry) => String(entry.section_id) === String(sectionId),
+  const matchedKey = scheduleSectionOrder.find(
+    (key) => String(sectionRecordsByKey.get(key).section_id) === String(sectionId),
   );
+  const matchedEntry = matchedKey ? sectionRecordsByKey.get(matchedKey) : null;
   if (!matchedEntry) return false;
   const scheduleGroupId = matchedEntry.schedule_group_id;
-  currentSchedule = currentSchedule.filter((entry) => {
-    if (scheduleGroupId) return entry.schedule_group_id !== scheduleGroupId;
-    return String(entry.section_id) !== String(sectionId);
+  const keysToRemove = scheduleSectionOrder.filter((key) => {
+    const entry = sectionRecordsByKey.get(key);
+    if (scheduleGroupId) return entry.schedule_group_id === scheduleGroupId;
+    return String(entry.section_id) === String(sectionId);
   });
-  persistSchedule(currentSchedule);
+  keysToRemove.forEach((key) => sectionRecordsByKey.delete(key));
+  scheduleSectionOrder = scheduleSectionOrder.filter(
+    (key) => !keysToRemove.includes(key),
+  );
+  persistSchedule(getRuntimeSchedule());
   return true;
 }
 export function clearSchedule() {

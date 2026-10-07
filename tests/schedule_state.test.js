@@ -2,8 +2,15 @@ import { beforeEach, describe, expect, it } from "vitest";
 import {
   appendScheduleEntries,
   clearSchedule,
+  getActiveSchedule,
+  getFailedTermKeys,
+  getSectionRecord,
   getSchedule,
+  getScheduleSections,
+  hydrateScheduleSections,
   initializeScheduleState,
+  clearTermLoadFailure,
+  markTermLoadFailed,
   createWorkspace,
   getLastMigrationReport,
   getScheduleWorkspace,
@@ -11,6 +18,7 @@ import {
   parseStoredSchedule,
   parseStoredWorkspace,
   removeScheduleEntry,
+  retryFailedTerms,
   replaceSchedule,
   updateScheduleWorkspaceName,
 } from "../web/classes/static/js/schedule/schedule-state.js";
@@ -125,5 +133,43 @@ describe("schedule state", () => {
     expect(updateScheduleWorkspaceName("Updated Plan")).toBe(true);
     const workspace = JSON.parse(localStorage.getItem("crimson_scheduler_workspace"));
     expect(workspace.schedules.default.name).toBe("Updated Plan");
+  });
+
+  it("uses the in-memory record store as the schedule selector", () => {
+    const selected = { ...entry("1"), term_slug: "fall-2026" };
+    appendScheduleEntries([selected]);
+
+    expect(getScheduleSections()).toEqual([selected]);
+    expect(getSectionRecord("fall-2026:1")).toEqual(selected);
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+    ]);
+  });
+
+  it("hydrates records in persisted reference order", () => {
+    localStorage.removeItem("crimson_scheduler_schedule");
+    localStorage.setItem(
+      "crimson_scheduler_workspace",
+      JSON.stringify(createWorkspace([
+        { ...entry("2"), term_slug: "fall-2026" },
+        { ...entry("1"), term_slug: "fall-2026" },
+      ]).workspace),
+    );
+    initializeScheduleState();
+
+    const hydrated = hydrateScheduleSections([
+      { ...entry("1"), term_slug: "fall-2026" },
+      { ...entry("2"), term_slug: "fall-2026" },
+    ]);
+
+    expect(hydrated.map((item) => item.section_id)).toEqual(["2", "1"]);
+  });
+
+  it("tracks failed term loads for a later retry", () => {
+    markTermLoadFailed("fall-2026");
+    expect(getFailedTermKeys()).toEqual(["fall-2026"]);
+    expect(retryFailedTerms()).toEqual(["fall-2026"]);
+    clearTermLoadFailure("fall-2026");
+    expect(getFailedTermKeys()).toEqual([]);
   });
 });
