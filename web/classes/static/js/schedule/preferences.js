@@ -7,6 +7,7 @@ import {
   SHOW_INSTRUCTORS_STORAGE_KEY,
   TIME_FORMAT_STORAGE_KEY,
 } from "./constants.js";
+import { updateScheduleWorkspaceName } from "./schedule-state.js";
 
 export function uses24HourTime() {
   const toggle = document.getElementById("timeFormatToggle");
@@ -76,7 +77,9 @@ export function getStoredScheduleName() {
 }
 
 export function saveScheduleName() {
-  localStorage.setItem(SCHEDULE_NAME_STORAGE_KEY, getScheduleName());
+  const name = getScheduleName();
+  localStorage.setItem(SCHEDULE_NAME_STORAGE_KEY, name);
+  updateScheduleWorkspaceName(name);
   resizeScheduleNameInput();
 }
 
