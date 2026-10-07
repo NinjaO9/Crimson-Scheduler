@@ -38,6 +38,7 @@ import {
   appendScheduleEntries,
   clearSchedule,
   getSchedule,
+  hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
   replaceSchedule,
@@ -188,5 +189,22 @@ export function initializeScheduleApp() {
       refreshSchedule();
     }, 150),
   );
-  refreshSchedule();
+  hydrateSchedule((termSlug) => CourseApi.fetchDatasetByKey(termSlug))
+    .then((result) => {
+      if (result.missingCount) {
+        window.alert(
+          `Removed ${result.missingCount} planned course(s) that were not found in the current catalog.`,
+        );
+      }
+      if (result.failedCount) {
+        window.alert(
+          `Failed to load ${result.failedCount} planned course(s).`,
+        );
+      }
+      refreshSchedule();
+    })
+    .catch((error) => {
+      console.error("Unable to hydrate saved schedule:", error);
+      refreshSchedule();
+    });
 }

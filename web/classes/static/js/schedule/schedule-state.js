@@ -58,6 +58,12 @@ function addRuntimeSections(sectionData) {
   return additions;
 }
 
+function replaceHydratedRuntimeSchedule(sectionData) {
+  sectionRecordsByKey.clear();
+  scheduleSectionOrder = [];
+  addRuntimeSections(sectionData);
+}
+
 function getStoredScheduleName() {
   try {
     return (
@@ -196,6 +202,13 @@ function persistWorkspace(workspace) {
   }
 }
 
+function updateActiveScheduleReferences(sectionRefs) {
+  const schedule = getDefaultSchedule();
+  if (!schedule) return false;
+  schedule.section_refs = sectionRefs;
+  return persistWorkspace(currentWorkspace);
+}
+
 export function persistSchedule(scheduleData) {
   const nextWorkspace = createWorkspace(scheduleData, getStoredScheduleName());
   currentWorkspace = nextWorkspace.workspace;
@@ -270,6 +283,112 @@ export function hydrateScheduleSections(sectionRecords) {
       .filter((key) => sectionRecordsByKey.has(key));
   }
   return getRuntimeSchedule();
+}
+
+export async function hydrateSchedule(fetchDatasetByKey) {
+  const schedule = getDefaultSchedule();
+  const references = schedule && Array.isArray(schedule.section_refs)
+    ? schedule.section_refs
+    : [];
+  if (!references.length) {
+    replaceHydratedRuntimeSchedule([]);
+    return {
+      schedule: [],
+      missingCount: 0,
+      failedCount: 0,
+      failedTerms: [],
+    };
+  }
+  if (typeof fetchDatasetByKey !== "function") {
+    replaceHydratedRuntimeSchedule([]);
+    return {
+      schedule: [],
+      missingCount: 0,
+      failedCount: references.length,
+      failedTerms: Array.from(new Set(references.map((reference) => reference.term_slug))),
+    };
+  }
+
+  const referencesByTerm = new Map();
+  references.forEach((reference) => {
+    if (!referencesByTerm.has(reference.term_slug))
+      referencesByTerm.set(reference.term_slug, []);
+    referencesByTerm.get(reference.term_slug).push(reference);
+  });
+
+  const resolvedRecords = [];
+  const retainedReferences = [];
+  let missingCount = 0;
+  let failedCount = 0;
+  const failedTerms = [];
+
+  await Promise.all(
+    Array.from(referencesByTerm, async ([termSlug, termReferences]) => {
+      let dataset;
+      try {
+        dataset = await fetchDatasetByKey(termSlug);
+        clearTermLoadFailure(termSlug);
+      } catch (error) {
+        markTermLoadFailed(termSlug);
+        failedTerms.push(termSlug);
+        failedCount += termReferences.length;
+        retainedReferences.push(...termReferences);
+        return;
+      }
+
+      termReferences.forEach((reference) => {
+        const match = dataset && dataset.sectionsBySln
+          ? dataset.sectionsBySln.get(String(reference.section_id))
+          : null;
+        if (!match || !match.section) {
+          missingCount += 1;
+          return;
+        }
+        resolvedRecords.push({
+          ...match.section,
+          term_slug: termSlug,
+          section_key:
+            match.section.section_key || `${termSlug}:${reference.section_id}`,
+          schedule_group_id: reference.schedule_group_id || null,
+        });
+        retainedReferences.push(reference);
+      });
+    }),
+  );
+
+  const order = new Map(
+    references.map((reference, index) => [
+      sectionReferenceKey(reference),
+      index,
+    ]),
+  );
+  resolvedRecords.sort(
+    (left, right) =>
+      (order.get(getSectionRecordKey(left)) ?? Number.MAX_SAFE_INTEGER) -
+      (order.get(getSectionRecordKey(right)) ?? Number.MAX_SAFE_INTEGER),
+  );
+  retainedReferences.sort(
+    (left, right) =>
+      (order.get(sectionReferenceKey(left)) ?? Number.MAX_SAFE_INTEGER) -
+      (order.get(sectionReferenceKey(right)) ?? Number.MAX_SAFE_INTEGER),
+  );
+  failedTerms.sort();
+  replaceHydratedRuntimeSchedule(resolvedRecords);
+  updateActiveScheduleReferences(retainedReferences);
+  // Keep the old serialized entries synchronized until the compatibility
+  // bridge is removed after the remaining consumer migrations.
+  try {
+    localStorage.setItem(SCHEDULE_STORAGE_KEY, JSON.stringify(resolvedRecords));
+  } catch (error) {
+    /* The workspace references remain the authoritative persisted state. */
+  }
+
+  return {
+    schedule: getRuntimeSchedule(),
+    missingCount,
+    failedCount,
+    failedTerms,
+  };
 }
 
 export function markTermLoadFailed(termSlug) {
