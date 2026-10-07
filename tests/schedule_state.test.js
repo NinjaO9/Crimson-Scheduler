@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   appendScheduleEntries,
+  addSectionSelection,
   clearSchedule,
   getActiveSchedule,
   getFailedTermKeys,
@@ -54,6 +55,16 @@ describe("schedule state", () => {
     replaceSchedule([entry("1", "1-2"), entry("2", "1-2"), entry("3")]);
     expect(removeScheduleEntry("1")).toBe(true);
     expect(getSchedule().map((item) => item.section_id)).toEqual(["3"]);
+  });
+
+  it("removes a section by its composite section key", () => {
+    replaceSchedule([
+      { ...entry("1"), term_slug: "fall-2026" },
+      { ...entry("1"), term_slug: "spring-2027" },
+    ]);
+
+    expect(removeScheduleEntry("fall-2026:1")).toBe(true);
+    expect(getSchedule().map((item) => item.term_slug)).toEqual(["spring-2027"]);
   });
 
   it("clears the stored in-memory schedule", () => {
@@ -145,6 +156,32 @@ describe("schedule state", () => {
     expect(getActiveSchedule().section_refs).toEqual([
       { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
     ]);
+  });
+
+  it("adds complete section records while persisting only references", () => {
+    const section = {
+      ...entry("1"),
+      term_slug: "fall-2026",
+      section_key: "fall-2026:1",
+      ucore: "QUAN",
+      meetings: [{ days: "MWF", time: "9:00 AM - 9:50 AM" }],
+    };
+
+    expect(addSectionSelection([section], "1-2")).toEqual([
+      { ...section, schedule_group_id: "1-2" },
+    ]);
+    expect(getSchedule()[0]).toMatchObject({
+      ucore: "QUAN",
+      meetings: section.meetings,
+      schedule_group_id: "1-2",
+    });
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: "1-2" },
+    ]);
+    const storedWorkspace = JSON.parse(
+      localStorage.getItem("crimson_scheduler_workspace"),
+    );
+    expect(storedWorkspace.schedules.default.section_refs[0].ucore).toBeUndefined();
   });
 
   it("hydrates records in persisted reference order", () => {

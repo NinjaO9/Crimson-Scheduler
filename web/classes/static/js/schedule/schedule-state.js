@@ -417,9 +417,22 @@ export function appendScheduleEntries(entries) {
   if (additions.length) persistSchedule(getRuntimeSchedule());
   return additions;
 }
+
+export function addSectionSelection(sectionRecords, scheduleGroupId = null) {
+  const entries = (Array.isArray(sectionRecords) ? sectionRecords : []).map(
+    (section) => ({
+      ...section,
+      schedule_group_id: scheduleGroupId || null,
+    }),
+  );
+  return appendScheduleEntries(entries);
+}
 export function removeScheduleEntry(sectionId) {
-  const matchedKey = scheduleSectionOrder.find(
-    (key) => String(sectionRecordsByKey.get(key).section_id) === String(sectionId),
+  const normalizedId = String(sectionId);
+  const matchedKey = scheduleSectionOrder.find((key) =>
+    normalizedId.includes(":") || normalizedId.startsWith("legacy:")
+      ? key === normalizedId
+      : String(sectionRecordsByKey.get(key).section_id) === normalizedId,
   );
   const matchedEntry = matchedKey ? sectionRecordsByKey.get(matchedKey) : null;
   if (!matchedEntry) return false;
@@ -427,6 +440,8 @@ export function removeScheduleEntry(sectionId) {
   const keysToRemove = scheduleSectionOrder.filter((key) => {
     const entry = sectionRecordsByKey.get(key);
     if (scheduleGroupId) return entry.schedule_group_id === scheduleGroupId;
+    if (normalizedId.includes(":") || normalizedId.startsWith("legacy:"))
+      return key === matchedKey;
     return String(entry.section_id) === String(sectionId);
   });
   keysToRemove.forEach((key) => sectionRecordsByKey.delete(key));

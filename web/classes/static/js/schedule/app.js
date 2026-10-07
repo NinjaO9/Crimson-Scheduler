@@ -35,9 +35,9 @@ import {
   updateMobileImageExportVisibility,
 } from "./responsive.js";
 import {
-  appendScheduleEntries,
+  addSectionSelection,
   clearSchedule,
-  getSchedule,
+  getScheduleSections,
   hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
@@ -55,9 +55,9 @@ export function initializeScheduleApp() {
   initializeMobileLayout();
   initializeScheduleState();
   const refreshSchedule = () => {
-    renderSchedule(getSchedule(), {
-      onRemove: (sectionId) => {
-        if (removeScheduleEntry(sectionId)) refreshSchedule();
+    renderSchedule(getScheduleSections(), {
+      onRemove: (sectionKey) => {
+        if (removeScheduleEntry(sectionKey)) refreshSchedule();
       },
     });
     updateSearchResultTimeDisplays();
@@ -66,8 +66,8 @@ export function initializeScheduleApp() {
     if (isMobileViewport()) setMobilePane("schedule");
   };
   initializeCourseSearch({
-    onAddEntries: (entries) => {
-      if (appendScheduleEntries(entries).length) {
+    onAddSections: (sections, scheduleGroupId) => {
+      if (addSectionSelection(sections, scheduleGroupId).length) {
         refreshSchedule();
         showSchedulePane();
       }
@@ -76,7 +76,7 @@ export function initializeScheduleApp() {
     onClearPreview: clearSectionGhosts,
   });
   const sharing = initializeScheduleSharing({
-    getSchedule,
+    getScheduleSections,
     replaceSchedule,
     getName: getScheduleName,
     setName: (name) => {
@@ -95,7 +95,7 @@ export function initializeScheduleApp() {
   const exportCalendar = initializeCalendarExport({
     getScheduleName,
     normalizeScheduleName: normalizeScheduleNameInput,
-    getSchedule,
+    getScheduleSections,
   });
   document.addEventListener("click", (event) => {
     if (event.target.closest("#clearScheduleBtn")) {
@@ -108,7 +108,12 @@ export function initializeScheduleApp() {
     }
     const removeMiscButton = event.target.closest(".remove-misc-btn");
     if (removeMiscButton) {
-      if (removeScheduleEntry(removeMiscButton.getAttribute("data-section-id")))
+      if (
+        removeScheduleEntry(
+          removeMiscButton.getAttribute("data-section-key") ||
+            removeMiscButton.getAttribute("data-section-id"),
+        )
+      )
         refreshSchedule();
       return;
     }

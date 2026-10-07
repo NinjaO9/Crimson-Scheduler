@@ -220,29 +220,6 @@ function sectionMatches(section, options) {
             .slice(0, options.limit || RESULT_LIMIT);
     }
 
-    function toScheduleEntry(section, scheduleGroupId) {
-        return {
-            section_id: text(section && section.section_id),
-            term_slug: text(section && section.term_slug),
-            schedule_group_id: scheduleGroupId || null,
-            course_code: text(section && section.course_code),
-            course_name: text(section && section.course_name),
-            section_num: section && section.section_num,
-            instructor: text(section && section.instructor),
-            location: text(section && section.location),
-            days: text(section && section.days),
-            time: text(section && section.time),
-            seats: text(section && section.seats),
-            credits: section && section.is_lab ? '0' : text(section && section.credits, '0'),
-            is_lab: Boolean(section && section.is_lab),
-            component: text(section && section.component, 'lecture'),
-            dates: section && section.dates ? {
-                start: text(section.dates.start),
-                end: text(section.dates.end)
-            } : { start: '', end: '' }
-        };
-    }
-
     function indexSections(courses) {
         const sectionsBySln = new Map();
         courses.forEach(course => {
@@ -305,7 +282,6 @@ function sectionMatches(section, options) {
         getSectionDelivery,
         getSectionUcore,
         sectionKey,
-        toScheduleEntry,
         normalizePayload,
         normalizeCourse,
         normalizeSection

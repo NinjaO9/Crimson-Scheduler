@@ -6,6 +6,7 @@ let courseSearchRequestId = 0;
 let courseFilters = createEmptyCourseFilters();
 let mobileFilterCloseTimer = null;
 let callbacks = {};
+let searchableSectionsByKey = new Map();
 const AUTO_SEARCH_DELAY_MS = 250;
 
 export function createEmptyCourseFilters() {
@@ -189,20 +190,7 @@ export function renderSectionChoice(course, section, choiceType) {
     ["data-choice-type", choiceType],
     ["data-course-id", courseId],
     ["data-section-id", sectionId],
-    ["data-course-code", course.course_code],
-    ["data-course-name", course.course_name],
-    ["data-term-slug", course.term_slug],
-    ["data-section-num", section.section_num],
-    ["data-instructor", section.instructor],
-    ["data-location", section.location],
-    ["data-days", section.days],
-    ["data-time", section.time],
-    ["data-seats", section.seats],
-    ["data-credits", section.credits],
-    ["data-is-lab", section.is_lab],
-    ["data-component", section.component],
-    ["data-start-date", section.dates && section.dates.start],
-    ["data-end-date", section.dates && section.dates.end],
+    ["data-section-key", section.section_key || `${course.term_slug}:${sectionId}`],
   ].forEach(([name, value]) =>
     input.setAttribute(
       name,
@@ -339,6 +327,13 @@ export function updateSearchResultTimeDisplays() {
 export function renderCourseResults(courses) {
   const results = document.getElementById("searchResults");
   if (!results) return;
+  searchableSectionsByKey = new Map();
+  courses.forEach((course) => {
+    [...course.lecture_sections, ...course.lab_sections].forEach((section) => {
+      const key = section.section_key || `${course.term_slug}:${section.section_id}`;
+      searchableSectionsByKey.set(key, section);
+    });
+  });
   results.replaceChildren();
   if (!courses.length) {
     results.appendChild(
@@ -446,36 +441,19 @@ export function updateCourseAddButton(courseId) {
   );
 }
 
-export function buildCourseDataFromChoice(choice, scheduleGroupId) {
-  return CourseApi.toScheduleEntry(
-    {
-      section_id: choice.getAttribute("data-section-id"),
-      term_slug: choice.getAttribute("data-term-slug"),
-      course_code: choice.getAttribute("data-course-code"),
-      course_name: choice.getAttribute("data-course-name"),
-      section_num: choice.getAttribute("data-section-num"),
-      instructor: choice.getAttribute("data-instructor"),
-      location: choice.getAttribute("data-location"),
-      days: choice.getAttribute("data-days"),
-      time: choice.getAttribute("data-time"),
-      seats: choice.getAttribute("data-seats"),
-      credits: choice.getAttribute("data-credits") || "0",
-      is_lab: choice.getAttribute("data-is-lab") === "true",
-      component: choice.getAttribute("data-component") || "lecture",
-      dates: {
-        start: choice.getAttribute("data-start-date"),
-        end: choice.getAttribute("data-end-date"),
-      },
-    },
-    scheduleGroupId,
-  );
+export function getSectionFromChoice(choice, scheduleGroupId) {
+  const sectionKey = choice.getAttribute("data-section-key");
+  const section = searchableSectionsByKey.get(sectionKey);
+  if (!section) return null;
+  return { ...section, schedule_group_id: scheduleGroupId || null };
 }
 
 export function showSectionGhost(row) {
   const choice = row.querySelector(".section-choice");
   if (!choice) return;
   callbacks.onClearPreview();
-  callbacks.onPreview(buildCourseDataFromChoice(choice, "preview"));
+  const section = getSectionFromChoice(choice, "preview");
+  if (section) callbacks.onPreview(section);
 }
 
 export function handleAddCourseSelection(button, event) {
@@ -489,9 +467,10 @@ export function handleAddCourseSelection(button, event) {
   const scheduleGroupId = choices
     .map((choice) => choice.getAttribute("data-section-id"))
     .join("-");
-  callbacks.onAddEntries(
-    choices.map((choice) => buildCourseDataFromChoice(choice, scheduleGroupId)),
-  );
+  const sections = choices
+    .map((choice) => getSectionFromChoice(choice, scheduleGroupId))
+    .filter(Boolean);
+  if (sections.length) callbacks.onAddSections(sections, scheduleGroupId);
 }
 
 export function initializeCourseSearch(options) {
