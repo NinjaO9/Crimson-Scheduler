@@ -115,6 +115,7 @@ export function openCourseFilters() {
       mobileFilterCloseTimer = null;
     }
     sheet.hidden = false;
+    sheet.inert = false;
     sheet.setAttribute("aria-hidden", "false");
     document.body.classList.add("mobile-filter-sheet-open");
     window.requestAnimationFrame(() => sheet.classList.add("is-open"));
@@ -140,6 +141,7 @@ export function closeCourseFilters() {
   if (popover) popover.hidden = true;
   if (sheet) {
     sheet.classList.remove("is-open");
+    sheet.inert = true;
     sheet.setAttribute("aria-hidden", "true");
     if (mobileFilterCloseTimer) window.clearTimeout(mobileFilterCloseTimer);
     mobileFilterCloseTimer = window.setTimeout(() => {
