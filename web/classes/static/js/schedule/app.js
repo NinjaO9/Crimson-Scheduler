@@ -37,7 +37,7 @@ import {
 import {
   addSectionSelection,
   clearSchedule,
-  getScheduleSections,
+  getSchedule,
   hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
@@ -50,12 +50,12 @@ import { initializeCatalogFreshness } from "./catalog-freshness.js";
 
 export function initializeScheduleApp() {
   initializeCatalogFreshness();
+  initializeScheduleState();
   initializeScheduleName();
   initializeScheduleOptions();
   initializeMobileLayout();
-  initializeScheduleState();
   const refreshSchedule = () => {
-    renderSchedule(getScheduleSections(), {
+    renderSchedule(getSchedule(), {
       onRemove: (sectionKey) => {
         if (removeScheduleEntry(sectionKey)) refreshSchedule();
       },
@@ -76,7 +76,7 @@ export function initializeScheduleApp() {
     onClearPreview: clearSectionGhosts,
   });
   const sharing = initializeScheduleSharing({
-    getScheduleSections,
+    getSchedule,
     replaceSchedule,
     getName: getScheduleName,
     setName: (name) => {
@@ -95,7 +95,7 @@ export function initializeScheduleApp() {
   const exportCalendar = initializeCalendarExport({
     getScheduleName,
     normalizeScheduleName: normalizeScheduleNameInput,
-    getScheduleSections,
+    getSchedule,
   });
   document.addEventListener("click", (event) => {
     if (event.target.closest("#clearScheduleBtn")) {

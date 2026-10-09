@@ -8,17 +8,17 @@
 <main class="legal-page">
     <section class="legal-shell">
         <h1>Privacy Policy</h1>
-        <p class="legal-updated">Effective date: August 17, 2026</p>
+        <p class="legal-updated">Effective date: October 08, 2026</p>
         <p>
-            This Privacy Policy explains how Crimson Scheduler handles information when you use this website. Crimson Scheduler is designed to work without user accounts and without collecting names, student IDs, passwords, or other account-based personal information.
+            This Privacy Policy explains how Crimson Scheduler handles information when you use this website. Crimson Scheduler is designed to work without user accounts. The current schedule builder is primarily browser-based: your schedule workspace is kept in your browser rather than uploaded to a Crimson Scheduler account.
         </p>
 
         <h2>Information We Collect</h2>
         <p>
-            Crimson Scheduler does not ask users to create an account or submit personal information to build a schedule. When you use the schedule builder, the site may store your selected course sections, schedule name, and display preferences so the schedule can continue working while you use the site.
+            Crimson Scheduler does not ask users to create an account or submit names, student IDs, passwords, or other account information to build a schedule. The browser may store your selected course references, schedule name, display preferences, and theme preference so the schedule can continue working on that browser. Course details are retrieved from the published course-data service as needed.
         </p>
         <p>
-            For security and abuse prevention, the site may also process your session identifier and, if needed, your IP address to enforce request rate limits. This information is used only to protect the service from excessive or abusive traffic and is retained for 7 days since last use.
+            For security and abuse prevention, the site may process a technical session identifier and, when a session is unavailable, your IP address to enforce request rate limits. This information is used to protect the service from excessive or abusive traffic. Rate-limit records are temporary and are configured to expire after up to 7 days of inactivity.
         </p>
         <p>
             If you contact the project by email or through GitHub, the information you choose to include in that message will be received through that service.
@@ -26,41 +26,49 @@
 
         <h2>How We Use Information</h2>
         <p>
-            Schedule and preference information is used to provide the schedule-building features, restore your current schedule, import or export schedule data, and display the site according to your selected options. Contact information is used only to respond to the message or issue you sent.
+            Browser-stored schedule and preference information is used to provide the schedule-building features, restore your current schedule on that browser, and display the site according to your selected options. Contact information is used only to respond to the message or issue you sent.
         </p>
         <p>
-            Site traffic information from Vercel Web Analytics is used to understand whether the project is being used.
+            If you choose to create or import a share code, the browser uses it to encode or decode a schedule name and course-section references. The site does not need to receive the code for this feature to work.
+        </p>
+        <p>
+            Site traffic information from Vercel Web Analytics is used to understand overall site usage.
         </p>
 
         <h2>Cookies, Sessions, and Local Storage</h2>
         <p>
-            Crimson Scheduler uses browser storage for site functionality. The schedule builder stores selected course sections in a cookie named <code>crimson_scheduler_schedule</code>, which is set to expire after 30 days. The site also uses local storage for display preferences such as 24-hour time, hiding weekends, showing instructors, showing section numbers, and the schedule name.
+            The schedule builder stores its current workspace in your browser's local storage. The workspace contains the active schedule, the term and section references needed to reload it, and the schedule name. Separate local-storage entries keep display preferences such as 24-hour time, hiding weekends, showing instructors, showing section numbers, and theme preference. These values remain on the browser until they are cleared or removed by the browser.
         </p>
         <p>
-            The Django application may also use session and CSRF cookies to keep the site working securely. These technical cookies are not intended to personally identify users.
+            The Django application may set a technical session cookie and a CSRF cookie when you visit or interact with the site. These cookies support security, request handling, and rate limiting; they are not used to create a user account, and the schedule workspace is not stored in them.
+        </p>
+
+        <h2>Share Codes</h2>
+        <p>
+            Share codes are generated in your browser and include a schedule name plus term and section identifiers. They are not encrypted or a substitute for private storage. Anyone who receives a share code may be able to identify and import the referenced course sections, so do not include personal information in a schedule name or share code. The code is copied through your browser's clipboard or displayed for you to copy; Crimson Scheduler does not maintain a hosted collection of shared schedules.
         </p>
 
         <h2>Analytics and Third-Party Services</h2>
         <p>
-            Crimson Scheduler uses Vercel Web Analytics to understand overall site traffic, such as page views and visitor counts. Vercel Web Analytics does not use cookies and stores anonymized usage data. The site also loads some front-end libraries from third-party CDNs, including Bootstrap, HTMX, and html2canvas. Those third-party services may receive standard technical information from your browser, such as your IP address and user agent, when those files are requested.
+            Crimson Scheduler uses Vercel Web Analytics for aggregate traffic information such as page views and visitor counts. Vercel Web Analytics is designed not to use cookies for this purpose; its data is handled according to Vercel's policies. The site also requests some libraries from third-party CDNs, including Bootstrap, HTMX, Google Fonts, and jsDelivr or unpkg resources. The browser also requests published course data from the project's GitHub Pages data service. Those providers may receive standard technical information, such as your IP address and user agent, when your browser requests their resources. The schedule builder's image-export library runs in the browser and does not upload your schedule for export.
         </p>
 
         <h2>Data Sharing</h2>
         <p>
-            Crimson Scheduler does not sell, rent, or share user information for advertising. Schedule data is used to operate the schedule builder. If you contact the project through email or GitHub, your message is handled through that service.
+            Crimson Scheduler does not sell or rent user information and does not share schedule data for advertising. The browser sends course-data requests to the published course-data service and sends ordinary page, session, and rate-limit requests to the application as needed to operate and protect the site. If you contact the project through email or GitHub, your message is handled by that service.
         </p>
 
         <h2>Data Retention</h2>
         <p>
-            Browser cookies expire based on their configured lifetime, and local storage remains in your browser until you clear it. Server-side session data and schedule records tied to a session may remain until routine database or session cleanup occurs. Email and GitHub messages may be retained according to the practices of those services and the project maintainer's normal workflow.
+            Local schedule and preference data remains in your browser until you clear it, remove it through browser tools, or the browser removes it. Technical session cookies and server-side session data follow the application's and browser's configured expiration and cleanup behavior. The current browser-based schedule workspace is not retained as a server-side user record. Email and GitHub messages may be retained according to the practices of those services and the project maintainer's normal workflow.
         </p>
         <p>
-            Rate-limiting records stored are temporary and generally expire after a short period of inactivity. Vercel Web Analytics data is retained according to Vercel's analytics practices.
+            Rate-limit records are temporary and generally expire after up to 7 days of inactivity. Vercel Web Analytics and third-party CDN or data-service records are retained according to the respective provider's practices.
         </p>
 
         <h2>Your Choices</h2>
         <p>
-            You can clear your browser cookies and site data to remove locally stored schedule and preference information. You can also avoid sending personal information in GitHub issues or emails unless it is needed to explain your request.
+            You can clear your browser's site data or local storage to remove the locally stored schedule and preference information. You can also avoid putting personal information in schedule names, share codes, GitHub issues, or emails unless it is needed to explain your request. Privacy questions or data-related requests can be sent to the contact address below.
         </p>
 
         <h2>Children's Privacy</h2>

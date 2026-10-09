@@ -7,12 +7,12 @@ const TIMEZONE = "America/Los_Angeles";
 export function initializeCalendarExport({
   getScheduleName,
   normalizeScheduleName,
-  getScheduleSections,
+  getSchedule,
 }) {
   return function exportCalendar() {
     normalizeScheduleName();
     const name = getScheduleName();
-    const result = generateCalendar(name, getScheduleSections());
+    const result = generateCalendar(name, getSchedule());
     if (result.eventCount) downloadCalendar(result.calendar.toString(), name);
   };
 }

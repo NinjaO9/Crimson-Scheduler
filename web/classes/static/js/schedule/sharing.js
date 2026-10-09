@@ -134,7 +134,7 @@ export async function fetchScheduleForTerms(terms) {
   return { schedule, missing_section_ids: missingSectionIds };
 }
 export function initializeScheduleSharing({
-  getScheduleSections,
+  getSchedule,
   replaceSchedule,
   getName,
   setName,
@@ -144,11 +144,11 @@ export function initializeScheduleSharing({
   return {
     async shareScheduleCode() {
       setName();
-      if (!getCurrentScheduleTerms(getScheduleSections()).length) {
+      if (!getCurrentScheduleTerms(getSchedule()).length) {
         window.alert("Add at least one class before creating a share code.");
         return;
       }
-      const shareCode = buildShareCode(getScheduleSections(), getName());
+      const shareCode = buildShareCode(getSchedule(), getName());
       try {
         if (await copyTextToClipboard(shareCode)) {
           window.alert("Share code copied to your clipboard.");

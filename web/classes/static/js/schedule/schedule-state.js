@@ -1,24 +1,19 @@
 import {
   DEFAULT_SCHEDULE_NAME,
   REQUIRED_COURSE_FIELDS,
-  SCHEDULE_NAME_STORAGE_KEY,
-  SCHEDULE_STORAGE_KEY,
   SCHEDULE_WORKSPACE_STORAGE_KEY,
   SCHEDULE_WORKSPACE_VERSION,
 } from "./constants.js";
 
 let currentWorkspace = null;
-let lastMigrationReport = { migrated: false, excludedCount: 0 };
 const sectionRecordsByKey = new Map();
 let scheduleSectionOrder = [];
 const failedTermKeys = new Set();
 
 function getSectionRecordKey(section) {
-  if (!section || !section.section_id) return null;
+  if (!section || !section.section_id || !section.term_slug) return null;
   if (section.section_key) return String(section.section_key);
-  if (section.term_slug)
-    return `${String(section.term_slug)}:${String(section.section_id)}`;
-  return `legacy:${String(section.section_id)}`;
+  return `${String(section.term_slug)}:${String(section.section_id)}`;
 }
 
 function getDefaultSchedule() {
@@ -64,16 +59,6 @@ function replaceHydratedRuntimeSchedule(sectionData) {
   addRuntimeSections(sectionData);
 }
 
-function getStoredScheduleName() {
-  try {
-    return (
-      localStorage.getItem(SCHEDULE_NAME_STORAGE_KEY) || DEFAULT_SCHEDULE_NAME
-    );
-  } catch (error) {
-    return DEFAULT_SCHEDULE_NAME;
-  }
-}
-
 function sectionReferenceKey(reference) {
   return `${String(reference.term_slug)}:${String(reference.section_id)}`;
 }
@@ -87,7 +72,7 @@ function toSectionReference(entry) {
   };
 }
 
-export function createWorkspace(scheduleData, name = getStoredScheduleName()) {
+export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
   const seen = new Set();
   const sectionRefs = [];
   let excludedCount = 0;
@@ -156,7 +141,6 @@ export function loadScheduleWorkspace() {
       const parsedWorkspace = parseStoredWorkspace(storedWorkspace);
       if (parsedWorkspace) {
         currentWorkspace = parsedWorkspace;
-        lastMigrationReport = { migrated: false, excludedCount: 0 };
         return currentWorkspace;
       }
     }
@@ -164,22 +148,13 @@ export function loadScheduleWorkspace() {
     console.warn("Unable to read schedule workspace from local storage:", error);
   }
 
-  const migrated = createWorkspace(loadSchedule(), getStoredScheduleName());
-  currentWorkspace = migrated.workspace;
-  lastMigrationReport = {
-    migrated: true,
-    excludedCount: migrated.excludedCount,
-  };
+  currentWorkspace = createWorkspace([]).workspace;
   persistWorkspace(currentWorkspace);
   return currentWorkspace;
 }
 
 export function getScheduleWorkspace() {
   return currentWorkspace;
-}
-
-export function getLastMigrationReport() {
-  return lastMigrationReport;
 }
 
 export function updateScheduleWorkspaceName(name) {
@@ -209,51 +184,20 @@ function updateActiveScheduleReferences(sectionRefs) {
   return persistWorkspace(currentWorkspace);
 }
 
-export function persistSchedule(scheduleData) {
-  const nextWorkspace = createWorkspace(scheduleData, getStoredScheduleName());
-  currentWorkspace = nextWorkspace.workspace;
-  persistWorkspace(currentWorkspace);
-  try {
-    localStorage.setItem(SCHEDULE_STORAGE_KEY, JSON.stringify(scheduleData));
-    return true;
-  } catch (error) {
-    return false;
-  }
-}
-
 export function isValidCourseEntry(item) {
-  return !!item && REQUIRED_COURSE_FIELDS.every((field) => item[field]);
-}
-export function parseStoredSchedule(serialized) {
-  try {
-    const parsed = JSON.parse(serialized);
-    return Array.isArray(parsed) ? parsed.filter(isValidCourseEntry) : [];
-  } catch (error) {
-    return [];
-  }
-}
-export function loadSchedule() {
-  try {
-    const storedSchedule = localStorage.getItem(SCHEDULE_STORAGE_KEY);
-    if (storedSchedule !== null) return parseStoredSchedule(storedSchedule);
-  } catch (error) {
-    console.warn("Unable to read saved schedule from local storage:", error);
-  }
-  return [];
+  return (
+    !!item &&
+    !!item.term_slug &&
+    REQUIRED_COURSE_FIELDS.every((field) => item[field])
+  );
 }
 export function initializeScheduleState() {
   currentWorkspace = loadScheduleWorkspace();
-  // Temporary compatibility bridge: fresh catalog hydration will replace this
-  // legacy runtime read in a later refactor feature.
-  replaceRuntimeSchedule(loadSchedule());
+  replaceRuntimeSchedule([]);
   return getRuntimeSchedule();
 }
 
 export function getSchedule() {
-  return getRuntimeSchedule();
-}
-
-export function getScheduleSections() {
   return getRuntimeSchedule();
 }
 
@@ -263,26 +207,6 @@ export function getSectionRecord(sectionKey) {
 
 export function getActiveSchedule() {
   return getDefaultSchedule();
-}
-
-export function hydrateScheduleSections(sectionRecords) {
-  const records = Array.isArray(sectionRecords) ? sectionRecords : [];
-  const defaultSchedule = getDefaultSchedule();
-  const references = defaultSchedule && Array.isArray(defaultSchedule.section_refs)
-    ? defaultSchedule.section_refs
-    : [];
-
-  records.forEach((record) => {
-    const key = getSectionRecordKey(record);
-    if (key) sectionRecordsByKey.set(key, record);
-  });
-
-  if (!scheduleSectionOrder.length && references.length) {
-    scheduleSectionOrder = references
-      .map((reference) => sectionReferenceKey(reference))
-      .filter((key) => sectionRecordsByKey.has(key));
-  }
-  return getRuntimeSchedule();
 }
 
 export async function hydrateSchedule(fetchDatasetByKey) {
@@ -375,13 +299,6 @@ export async function hydrateSchedule(fetchDatasetByKey) {
   failedTerms.sort();
   replaceHydratedRuntimeSchedule(resolvedRecords);
   updateActiveScheduleReferences(retainedReferences);
-  // Keep the old serialized entries synchronized until the compatibility
-  // bridge is removed after the remaining consumer migrations.
-  try {
-    localStorage.setItem(SCHEDULE_STORAGE_KEY, JSON.stringify(resolvedRecords));
-  } catch (error) {
-    /* The workspace references remain the authoritative persisted state. */
-  }
 
   return {
     schedule: getRuntimeSchedule(),
@@ -409,13 +326,21 @@ export function retryFailedTerms() {
 
 export function replaceSchedule(scheduleData) {
   replaceRuntimeSchedule(scheduleData);
-  persistSchedule(getRuntimeSchedule());
+  persistRuntimeSchedule();
   return getRuntimeSchedule();
 }
 export function appendScheduleEntries(entries) {
   const additions = addRuntimeSections(entries);
-  if (additions.length) persistSchedule(getRuntimeSchedule());
+  if (additions.length) persistRuntimeSchedule();
   return additions;
+}
+
+function persistRuntimeSchedule() {
+  const schedule = getDefaultSchedule();
+  const name = schedule ? schedule.name : DEFAULT_SCHEDULE_NAME;
+  const nextWorkspace = createWorkspace(getRuntimeSchedule(), name);
+  currentWorkspace = nextWorkspace.workspace;
+  return persistWorkspace(currentWorkspace);
 }
 
 export function addSectionSelection(sectionRecords, scheduleGroupId = null) {
@@ -430,7 +355,7 @@ export function addSectionSelection(sectionRecords, scheduleGroupId = null) {
 export function removeScheduleEntry(sectionId) {
   const normalizedId = String(sectionId);
   const matchedKey = scheduleSectionOrder.find((key) =>
-    normalizedId.includes(":") || normalizedId.startsWith("legacy:")
+    normalizedId.includes(":")
       ? key === normalizedId
       : String(sectionRecordsByKey.get(key).section_id) === normalizedId,
   );
@@ -440,7 +365,7 @@ export function removeScheduleEntry(sectionId) {
   const keysToRemove = scheduleSectionOrder.filter((key) => {
     const entry = sectionRecordsByKey.get(key);
     if (scheduleGroupId) return entry.schedule_group_id === scheduleGroupId;
-    if (normalizedId.includes(":") || normalizedId.startsWith("legacy:"))
+    if (normalizedId.includes(":"))
       return key === matchedKey;
     return String(entry.section_id) === String(sectionId);
   });
@@ -448,19 +373,9 @@ export function removeScheduleEntry(sectionId) {
   scheduleSectionOrder = scheduleSectionOrder.filter(
     (key) => !keysToRemove.includes(key),
   );
-  persistSchedule(getRuntimeSchedule());
+  persistRuntimeSchedule();
   return true;
 }
 export function clearSchedule() {
   return replaceSchedule([]);
-}
-export function getCookie(name) {
-  const cookies = document.cookie ? document.cookie.split(";") : [];
-  const prefix = `${name}=`;
-  for (let i = 0; i < cookies.length; i++) {
-    const cookie = cookies[i].trim();
-    if (cookie.startsWith(prefix))
-      return decodeURIComponent(cookie.substring(prefix.length));
-  }
-  return "";
 }
