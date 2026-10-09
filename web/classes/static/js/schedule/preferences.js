@@ -2,11 +2,14 @@ import {
   DEFAULT_SCHEDULE_NAME,
   HIDE_WEEKENDS_STORAGE_KEY,
   SCHEDULE_NAME_MAX_LENGTH,
-  SCHEDULE_NAME_STORAGE_KEY,
   SHOW_COURSE_SECTION_STORAGE_KEY,
   SHOW_INSTRUCTORS_STORAGE_KEY,
   TIME_FORMAT_STORAGE_KEY,
 } from "./constants.js";
+import {
+  getActiveSchedule,
+  updateScheduleWorkspaceName,
+} from "./schedule-state.js";
 
 export function uses24HourTime() {
   const toggle = document.getElementById("timeFormatToggle");
@@ -68,15 +71,16 @@ export function getScheduleName() {
 }
 
 export function getStoredScheduleName() {
-  return (
-    (
-      localStorage.getItem(SCHEDULE_NAME_STORAGE_KEY) || DEFAULT_SCHEDULE_NAME
-    ).trim() || DEFAULT_SCHEDULE_NAME
-  ).slice(0, SCHEDULE_NAME_MAX_LENGTH);
+  const schedule = getActiveSchedule();
+  return (schedule && schedule.name
+    ? String(schedule.name)
+    : DEFAULT_SCHEDULE_NAME
+  ).trim().slice(0, SCHEDULE_NAME_MAX_LENGTH);
 }
 
 export function saveScheduleName() {
-  localStorage.setItem(SCHEDULE_NAME_STORAGE_KEY, getScheduleName());
+  const name = getScheduleName();
+  updateScheduleWorkspaceName(name);
   resizeScheduleNameInput();
 }
 

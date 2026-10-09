@@ -122,10 +122,14 @@ export async function fetchScheduleForTerms(terms) {
   const schedule = matches.map((match) => {
     const key = `${match.dataset.key}:${match.course.id}`;
     const ids = groupedIds.get(key);
-    return CourseApi.toScheduleEntry(
-      match.section,
-      ids.length > 1 ? ids.join("-") : null,
-    );
+    return {
+      ...match.section,
+      term_slug: match.dataset.key,
+      section_key:
+        match.section.section_key ||
+        `${match.dataset.key}:${match.section.section_id}`,
+      schedule_group_id: ids.length > 1 ? ids.join("-") : null,
+    };
   });
   return { schedule, missing_section_ids: missingSectionIds };
 }

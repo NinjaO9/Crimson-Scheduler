@@ -47,6 +47,60 @@ describe('CourseApi', () => {
         expect(courses[0].lab_sections[0].credits).toBe('0');
     });
 
+    it('preserves complete section metadata and creates stable section keys', async () => {
+        const section = {
+            sln: 1001,
+            sectionNumber: 1,
+            courseCode: 'CPT_S 121',
+            isLab: false,
+            ucore: 'QUAN',
+            days: 'MWF',
+            time: '10:00 - 10:50',
+            meetings: [{ days: 'MWF', time: '10:00 - 10:50' }],
+            instructors: [{ name: 'Ada Lovelace' }],
+            coop: 'N',
+            footnotes: ['Requires permission'],
+            dates: { start: '08/17', end: '12/12' },
+            seats: { available: 10, total: 30, taken: 20, label: '20/30' },
+        };
+        const courses = api.normalizePayload({
+            subjects: [{
+                subject: 'CPT_S',
+                courses: [{
+                    courseNumber: 121,
+                    courseName: 'Programming Methods',
+                    credits: 3,
+                    sections: [section],
+                }],
+            }],
+        });
+
+        expect(courses[0].lecture_sections[0]).toMatchObject({
+            section_id: '1001',
+            ucore: 'QUAN',
+            meetings: section.meetings,
+            instructors: section.instructors,
+            coop: 'N',
+            footnotes: section.footnotes,
+        });
+
+        expect(api.sectionKey('Pullman Fall 2026', '1001'))
+            .toBe('pullman-fall-2026:1001');
+
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+            ok: true,
+            json: async () => ({
+                subjects: [{
+                    subject: 'CPT_S',
+                    courses: [{ courseNumber: 121, sections: [section] }],
+                }],
+            }),
+        }));
+        const dataset = await api.fetchDatasetByKey('pullman-fall-2026', { reload: true });
+        expect(dataset.sectionsBySln.get('1001').section.section_key)
+            .toBe('pullman-fall-2026:1001');
+    });
+
     it('builds stable campus-term keys and URLs', () => {
         expect(api.datasetKey('Main Campus', 'Fall 2026')).toBe('main-campus-fall-2026');
         expect(api.campusTermUrl('Main Campus', 'Fall 2026'))

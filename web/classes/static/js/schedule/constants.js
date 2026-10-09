@@ -11,16 +11,14 @@ export const START_HOUR = 7;
 export const END_HOUR = 23;
 export const HOUR_ROW_HEIGHT = 58;
 export const MOBILE_BREAKPOINT = 760;
-export const SCHEDULE_STORAGE_KEY = "crimson_scheduler_schedule";
-export const LEGACY_SCHEDULE_COOKIE_NAME = "crimson_scheduler_schedule";
-export const SCHEDULE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
+export const SCHEDULE_WORKSPACE_STORAGE_KEY = "crimson_scheduler_workspace";
+export const SCHEDULE_WORKSPACE_VERSION = 2;
 export const TIME_FORMAT_STORAGE_KEY = "crimson_scheduler_24_hour_time";
 export const HIDE_WEEKENDS_STORAGE_KEY = "crimson_scheduler_hide_weekends";
 export const SHOW_INSTRUCTORS_STORAGE_KEY =
   "crimson_scheduler_show_instructors";
 export const SHOW_COURSE_SECTION_STORAGE_KEY =
   "crimson_scheduler_show_course_section";
-export const SCHEDULE_NAME_STORAGE_KEY = "crimson_scheduler_schedule_name";
 export const DEFAULT_SCHEDULE_NAME = "My Schedule";
 export const SCHEDULE_NAME_MAX_LENGTH = 20;
 export const MAX_SCHEDULE_SECTIONS = 15;

@@ -26,6 +26,22 @@
         return String(value).trim();
     }
 
+    function sectionKey(termSlug, sectionId) {
+        return `${slugify(termSlug)}:${text(sectionId)}`;
+    }
+
+    function copyValue(value, fallback) {
+        if (value === null || value === undefined) return fallback;
+        if (Array.isArray(value)) {
+            return value.map(item => {
+                if (item && typeof item === 'object') return { ...item };
+                return item;
+            });
+        }
+        if (typeof value === 'object') return { ...value };
+        return value;
+    }
+
     function normalizeSection(section, course, index) {
         const seats = section && section.seats ? section.seats : {};
         const sectionId = text(section && (section.sectionId || section.sln), `section-${index}`);
@@ -46,6 +62,10 @@
             is_lab: Boolean(section && section.isLab),
             ucore: text(section && section.ucore, ''),
             component: text(section && section.component, 'Lecture'),
+            meetings: copyValue(section && section.meetings, []),
+            instructors: copyValue(section && section.instructors, []),
+            coop: section && section.coop !== undefined ? section.coop : '',
+            footnotes: copyValue(section && section.footnotes, ''),
             dates: {
                 start: text(section && section.dates && section.dates.start),
                 end: text(section && section.dates && section.dates.end)
@@ -200,29 +220,6 @@ function sectionMatches(section, options) {
             .slice(0, options.limit || RESULT_LIMIT);
     }
 
-    function toScheduleEntry(section, scheduleGroupId) {
-        return {
-            section_id: text(section && section.section_id),
-            term_slug: text(section && section.term_slug),
-            schedule_group_id: scheduleGroupId || null,
-            course_code: text(section && section.course_code),
-            course_name: text(section && section.course_name),
-            section_num: section && section.section_num,
-            instructor: text(section && section.instructor),
-            location: text(section && section.location),
-            days: text(section && section.days),
-            time: text(section && section.time),
-            seats: text(section && section.seats),
-            credits: section && section.is_lab ? '0' : text(section && section.credits, '0'),
-            is_lab: Boolean(section && section.is_lab),
-            component: text(section && section.component, 'lecture'),
-            dates: section && section.dates ? {
-                start: text(section.dates.start),
-                end: text(section.dates.end)
-            } : { start: '', end: '' }
-        };
-    }
-
     function indexSections(courses) {
         const sectionsBySln = new Map();
         courses.forEach(course => {
@@ -257,6 +254,7 @@ function sectionMatches(section, options) {
             course.term_slug = key;
             [...course.lecture_sections, ...course.lab_sections].forEach(section => {
                 section.term_slug = key;
+                section.section_key = sectionKey(key, section.section_id);
             });
         });
         const dataset = { key, courses, sectionsBySln: indexSections(courses) };
@@ -283,7 +281,7 @@ function sectionMatches(section, options) {
         getSectionAvailability,
         getSectionDelivery,
         getSectionUcore,
-        toScheduleEntry,
+        sectionKey,
         normalizePayload,
         normalizeCourse,
         normalizeSection

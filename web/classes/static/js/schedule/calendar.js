@@ -138,7 +138,7 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
       openMobileCourseSheet(block, courseData);
       return;
     }
-    removeCourse(courseData.section_id);
+    removeCourse(courseData.section_key || courseData.section_id);
   });
   cell.appendChild(block);
   if (!renderedBlocksByDay[dayIndex]) renderedBlocksByDay[dayIndex] = [];
@@ -207,6 +207,10 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
   button.type = "button";
   button.setAttribute("data-section-id", courseData.section_id);
   button.setAttribute(
+    "data-section-key",
+    courseData.section_key || courseData.section_id,
+  );
+  button.setAttribute(
     "aria-label",
     `Remove ${getCourseRemovalLabel(courseData)} from schedule`,
   );
@@ -220,7 +224,7 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
   button.addEventListener("click", (event) => {
     event.preventDefault();
     event.stopPropagation();
-    onRemove(courseData.section_id);
+    onRemove(courseData.section_key || courseData.section_id);
   });
   return button;
 }
@@ -388,7 +392,7 @@ export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
 
 export function removeActiveMobileCourse() {
   if (!activeMobileCourse) return;
-  const sectionId = activeMobileCourse.section_id;
+  const sectionId = activeMobileCourse.section_key || activeMobileCourse.section_id;
   closeMobileCourseSheet({ restoreFocus: false });
   removeCourse(sectionId);
 }
@@ -503,6 +507,10 @@ export function renderMiscList(items) {
     );
     removeButton.type = "button";
     removeButton.setAttribute("data-section-id", item.section_id);
+    removeButton.setAttribute(
+      "data-section-key",
+      item.section_key || item.section_id,
+    );
     miscItem.append(details, removeButton);
     fragment.appendChild(miscItem);
   });

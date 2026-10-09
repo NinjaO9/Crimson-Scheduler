@@ -1,16 +1,29 @@
-import { beforeEach, describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   appendScheduleEntries,
+  addSectionSelection,
   clearSchedule,
+  getActiveSchedule,
+  getFailedTermKeys,
+  getSectionRecord,
   getSchedule,
+  hydrateSchedule,
   initializeScheduleState,
-  parseStoredSchedule,
+  clearTermLoadFailure,
+  markTermLoadFailed,
+  createWorkspace,
+  getScheduleWorkspace,
+  loadScheduleWorkspace,
+  parseStoredWorkspace,
   removeScheduleEntry,
+  retryFailedTerms,
   replaceSchedule,
+  updateScheduleWorkspaceName,
 } from "../web/classes/static/js/schedule/schedule-state.js";
 
 const entry = (sectionId, groupId = null) => ({
   section_id: sectionId,
+  term_slug: "fall-2026",
   schedule_group_id: groupId,
   course_code: "CPT_S 121",
   days: "MWF",
@@ -21,12 +34,6 @@ describe("schedule state", () => {
   beforeEach(() => {
     localStorage.clear();
     initializeScheduleState();
-  });
-
-  it("filters malformed persisted entries", () => {
-    expect(
-      parseStoredSchedule(JSON.stringify([entry("1"), { section_id: "2" }])),
-    ).toEqual([entry("1")]);
   });
 
   it("does not append duplicate sections", () => {
@@ -41,9 +48,198 @@ describe("schedule state", () => {
     expect(getSchedule().map((item) => item.section_id)).toEqual(["3"]);
   });
 
+  it("removes a section by its composite section key", () => {
+    replaceSchedule([
+      { ...entry("1"), term_slug: "fall-2026" },
+      { ...entry("1"), term_slug: "spring-2027" },
+    ]);
+
+    expect(removeScheduleEntry("fall-2026:1")).toBe(true);
+    expect(getSchedule().map((item) => item.term_slug)).toEqual(["spring-2027"]);
+  });
+
   it("clears the stored in-memory schedule", () => {
     appendScheduleEntries([entry("1")]);
     clearSchedule();
+    expect(getSchedule()).toEqual([]);
+  });
+
+  it("creates a versioned workspace containing section references", () => {
+    const result = createWorkspace([
+      { ...entry("1"), term_slug: "fall-2026", schedule_group_id: "1-2" },
+      { ...entry("2"), term_slug: "fall-2026", schedule_group_id: "1-2" },
+    ], "Fall Draft");
+
+    expect(result.excludedCount).toBe(0);
+    expect(result.workspace).toEqual({
+      version: 2,
+      active_schedule_id: "default",
+      schedules: {
+        default: {
+          id: "default",
+          name: "Fall Draft",
+          section_refs: [
+            { term_slug: "fall-2026", section_id: "1", schedule_group_id: "1-2" },
+            { term_slug: "fall-2026", section_id: "2", schedule_group_id: "1-2" },
+          ],
+        },
+      },
+    });
+  });
+
+  it("excludes entries that cannot be refreshed", () => {
+    const result = createWorkspace([
+      { ...entry("1"), term_slug: "fall-2026" },
+      { ...entry("2"), term_slug: undefined },
+    ]);
+
+    expect(result.excludedCount).toBe(1);
+    expect(result.workspace.schedules.default.section_refs).toHaveLength(1);
+  });
+
+  it("rejects runtime entries without term metadata", () => {
+    replaceSchedule([entry("1"), { ...entry("2"), term_slug: undefined }]);
+
+    expect(getSchedule().map((item) => item.section_id)).toEqual(["1"]);
+  });
+
+  it("initializes an empty workspace when no workspace is stored", () => {
+    localStorage.removeItem("crimson_scheduler_workspace");
+    const workspace = loadScheduleWorkspace();
+
+    expect(workspace.version).toBe(2);
+    expect(getScheduleWorkspace()).toEqual(workspace);
+    expect(JSON.parse(localStorage.getItem("crimson_scheduler_workspace"))).toEqual(workspace);
+    expect(workspace.schedules.default.section_refs).toEqual([]);
+  });
+
+  it("parses valid workspaces and rejects incompatible ones", () => {
+    const valid = createWorkspace([{ ...entry("1"), term_slug: "fall-2026" }]).workspace;
+
+    expect(parseStoredWorkspace(JSON.stringify(valid))).toEqual(valid);
+    expect(parseStoredWorkspace(JSON.stringify({ version: 1 }))).toBeNull();
+    expect(parseStoredWorkspace("not json")).toBeNull();
+  });
+
+  it("persists the workspace whenever the schedule changes", () => {
+    appendScheduleEntries([{ ...entry("1"), term_slug: "fall-2026" }]);
+
+    const workspace = JSON.parse(localStorage.getItem("crimson_scheduler_workspace"));
+    expect(workspace.schedules.default.section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+    ]);
+  });
+
+  it("keeps the workspace schedule name synchronized", () => {
+    appendScheduleEntries([{ ...entry("1"), term_slug: "fall-2026" }]);
+
+    expect(updateScheduleWorkspaceName("Updated Plan")).toBe(true);
+    const workspace = JSON.parse(localStorage.getItem("crimson_scheduler_workspace"));
+    expect(workspace.schedules.default.name).toBe("Updated Plan");
+  });
+
+  it("does not persist schedule data outside the workspace", () => {
+    appendScheduleEntries([{ ...entry("1"), term_slug: "fall-2026" }]);
+
+    expect(localStorage.getItem("crimson_scheduler_schedule")).toBeNull();
+    expect(localStorage.getItem("crimson_scheduler_schedule_name")).toBeNull();
+  });
+
+  it("uses the in-memory record store as the schedule selector", () => {
+    const selected = { ...entry("1"), term_slug: "fall-2026" };
+    appendScheduleEntries([selected]);
+
+    expect(getSchedule()).toEqual([selected]);
+    expect(getSectionRecord("fall-2026:1")).toEqual(selected);
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+    ]);
+  });
+
+  it("adds complete section records while persisting only references", () => {
+    const section = {
+      ...entry("1"),
+      term_slug: "fall-2026",
+      section_key: "fall-2026:1",
+      ucore: "QUAN",
+      meetings: [{ days: "MWF", time: "9:00 AM - 9:50 AM" }],
+    };
+
+    expect(addSectionSelection([section], "1-2")).toEqual([
+      { ...section, schedule_group_id: "1-2" },
+    ]);
+    expect(getSchedule()[0]).toMatchObject({
+      ucore: "QUAN",
+      meetings: section.meetings,
+      schedule_group_id: "1-2",
+    });
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: "1-2" },
+    ]);
+    const storedWorkspace = JSON.parse(
+      localStorage.getItem("crimson_scheduler_workspace"),
+    );
+    expect(storedWorkspace.schedules.default.section_refs[0].ucore).toBeUndefined();
+  });
+
+  it("tracks failed term loads for a later retry", () => {
+    markTermLoadFailed("fall-2026");
+    expect(getFailedTermKeys()).toEqual(["fall-2026"]);
+    expect(retryFailedTerms()).toEqual(["fall-2026"]);
+    clearTermLoadFailure("fall-2026");
+    expect(getFailedTermKeys()).toEqual([]);
+  });
+
+  it("hydrates saved references from current catalog data", async () => {
+    localStorage.setItem(
+      "crimson_scheduler_workspace",
+      JSON.stringify(createWorkspace([
+        { ...entry("1"), term_slug: "fall-2026" },
+        { ...entry("2"), term_slug: "fall-2026" },
+        { ...entry("3"), term_slug: "spring-2027" },
+      ]).workspace),
+    );
+    initializeScheduleState();
+
+    const fetchDatasetByKey = vi.fn(async (termSlug) => {
+      if (termSlug === "spring-2027") throw new Error("catalog unavailable");
+      return {
+        sectionsBySln: new Map([
+          ["1", { section: { ...entry("1"), term_slug: termSlug, section_key: `${termSlug}:1` } }],
+        ]),
+      };
+    });
+
+    const result = await hydrateSchedule(fetchDatasetByKey);
+
+    expect(fetchDatasetByKey).toHaveBeenCalledTimes(2);
+    expect(result.missingCount).toBe(1);
+    expect(result.failedCount).toBe(1);
+    expect(result.failedTerms).toEqual(["spring-2027"]);
+    expect(getSchedule().map((item) => item.section_id)).toEqual(["1"]);
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+      { term_slug: "spring-2027", section_id: "3", schedule_group_id: null },
+    ]);
+  });
+
+  it("retains all references when a term catalog cannot be fetched", async () => {
+    localStorage.setItem(
+      "crimson_scheduler_workspace",
+      JSON.stringify(createWorkspace([
+        { ...entry("1"), term_slug: "fall-2026" },
+      ]).workspace),
+    );
+    initializeScheduleState();
+
+    const result = await hydrateSchedule(async () => {
+      throw new Error("catalog unavailable");
+    });
+
+    expect(result.failedCount).toBe(1);
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+    ]);
     expect(getSchedule()).toEqual([]);
   });
 });

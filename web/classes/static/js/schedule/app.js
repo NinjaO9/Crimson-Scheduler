@@ -35,9 +35,10 @@ import {
   updateMobileImageExportVisibility,
 } from "./responsive.js";
 import {
-  appendScheduleEntries,
+  addSectionSelection,
   clearSchedule,
   getSchedule,
+  hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
   replaceSchedule,
@@ -49,14 +50,14 @@ import { initializeCatalogFreshness } from "./catalog-freshness.js";
 
 export function initializeScheduleApp() {
   initializeCatalogFreshness();
+  initializeScheduleState();
   initializeScheduleName();
   initializeScheduleOptions();
   initializeMobileLayout();
-  initializeScheduleState();
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {
-      onRemove: (sectionId) => {
-        if (removeScheduleEntry(sectionId)) refreshSchedule();
+      onRemove: (sectionKey) => {
+        if (removeScheduleEntry(sectionKey)) refreshSchedule();
       },
     });
     updateSearchResultTimeDisplays();
@@ -65,8 +66,8 @@ export function initializeScheduleApp() {
     if (isMobileViewport()) setMobilePane("schedule");
   };
   initializeCourseSearch({
-    onAddEntries: (entries) => {
-      if (appendScheduleEntries(entries).length) {
+    onAddSections: (sections, scheduleGroupId) => {
+      if (addSectionSelection(sections, scheduleGroupId).length) {
         refreshSchedule();
         showSchedulePane();
       }
@@ -107,7 +108,12 @@ export function initializeScheduleApp() {
     }
     const removeMiscButton = event.target.closest(".remove-misc-btn");
     if (removeMiscButton) {
-      if (removeScheduleEntry(removeMiscButton.getAttribute("data-section-id")))
+      if (
+        removeScheduleEntry(
+          removeMiscButton.getAttribute("data-section-key") ||
+            removeMiscButton.getAttribute("data-section-id"),
+        )
+      )
         refreshSchedule();
       return;
     }
@@ -188,5 +194,22 @@ export function initializeScheduleApp() {
       refreshSchedule();
     }, 150),
   );
-  refreshSchedule();
+  hydrateSchedule((termSlug) => CourseApi.fetchDatasetByKey(termSlug))
+    .then((result) => {
+      if (result.missingCount) {
+        window.alert(
+          `Removed ${result.missingCount} planned course(s) that were not found in the current catalog.`,
+        );
+      }
+      if (result.failedCount) {
+        window.alert(
+          `Failed to load ${result.failedCount} planned course(s).`,
+        );
+      }
+      refreshSchedule();
+    })
+    .catch((error) => {
+      console.error("Unable to hydrate saved schedule:", error);
+      refreshSchedule();
+    });
 }
