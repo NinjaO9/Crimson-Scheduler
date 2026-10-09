@@ -9,9 +9,11 @@
 {% endblock %}
 
 {% block content %}
-<div class="schedule-app">
+<main class="schedule-app" aria-label="Schedule builder">
     <div class="schedule-shell" data-active-mobile-pane="search">
-        <aside class="search-pane mobile-pane is-active" data-mobile-pane="search">
+        <section class="search-pane mobile-pane is-active"
+                 data-mobile-pane="search"
+                 aria-label="Course search">
             <form id="courseSearchForm">
                 <div class="field-grid">
                     <div class="field">
@@ -78,7 +80,7 @@
             <div id="searchResults" class="search-results">
                 <div class="empty-search">Choose a campus + term, then start typing to search courses.</div>
             </div>
-        </aside>
+        </section>
 
         <div class="mobile-filter-sheet" id="mobileFilterSheet" aria-hidden="true" hidden>
             <button type="button" class="mobile-filter-backdrop" data-close-filters aria-label="Close filters"></button>
@@ -108,7 +110,9 @@
             </section>
         </div>
 
-        <main class="schedule-pane mobile-pane" data-mobile-pane="schedule">
+        <section class="schedule-pane mobile-pane"
+                 data-mobile-pane="schedule"
+                 aria-label="Your schedule">
             <div class="pane-topbar">
                 <div class="schedule-title">
                     <label class="visually-hidden" for="scheduleNameInput">Schedule name</label>
@@ -162,7 +166,7 @@
                 </div>
                 <div class="misc-list" id="miscList"></div>
             </section>
-        </main>
+        </section>
     </div>
 
     <nav class="mobile-nav" aria-label="Schedule sections">
@@ -210,7 +214,7 @@
             <button type="button" class="mobile-course-remove" id="mobileCourseRemove">Remove from schedule</button>
         </section>
     </div>
-</div>
+</main>
 {% endblock %}
 
 {% block scripts %}

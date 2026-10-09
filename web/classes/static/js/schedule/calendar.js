@@ -255,6 +255,15 @@ export function buildCourseTooltip(courseData) {
     "",
     courseData.location || "Location: N/A",
   );
+  if (courseData.ucore != "")
+  {
+    appendTextElement(
+      fragment,
+      "div",
+      "",
+      `UCore: ${courseData.ucore}`,
+    );
+  }
   appendTextElement(
     fragment,
     "div",
@@ -361,6 +370,15 @@ export function openMobileCourseSheet(trigger, courseData) {
     "mobile-course-meta",
     `Credits: ${courseData.credits || "0"}`,
   );
+  if (courseData.ucore != '')
+  {
+    appendTextElement(
+      details,
+      "div",
+      "mobile-course-meta",
+      `UCore: ${courseData.ucore}`,
+    );
+  }
   sheet.hidden = false;
   sheet.setAttribute("aria-hidden", "false");
   document.body.classList.add("mobile-course-sheet-open");
@@ -499,6 +517,15 @@ export function renderMiscList(items) {
       "",
       `Instructor: ${item.instructor || "N/A"}`,
     );
+    if (item.ucore != "")
+    {
+      appendTextElement(
+        meta,
+        "span",
+        "",
+        `UCore: ${item.ucore}`,
+      );
+    }
     details.appendChild(meta);
     const removeButton = createElementWithText(
       "button",
