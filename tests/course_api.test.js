@@ -122,6 +122,21 @@ describe('CourseApi', () => {
             .toEqual([121, 221]);
     });
 
+    it('matches manually configured subject shorthands', () => {
+        const courses = api.normalizePayload({
+            subjects: [{
+                subject: 'CPT_S',
+                courses: [{ courseNumber: 121, courseName: 'Programming Methods', sections: [{ sln: 1 }] }],
+            }],
+        });
+
+        expect(api.subjectShorthands.get('cpts')).toBe('CPT_S');
+        expect(api.subjectShorthands.get('cs')).toBe('CPT_S');
+        expect(api.filterCourses(courses, { q: 'cpts' })).toHaveLength(1);
+        expect(api.filterCourses(courses, { q: 'cs 121' })).toHaveLength(1);
+        expect(api.filterCourses(courses, { q: 'MATH 121' })).toHaveLength(0);
+    });
+
     it('filters sections by availability and delivery', () => {
         const courses = api.normalizePayload({
             subjects: [{

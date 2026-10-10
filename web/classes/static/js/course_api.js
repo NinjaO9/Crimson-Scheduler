@@ -4,6 +4,11 @@
     const API_BASE_URL = 'https://ninjao9.github.io/Crimson-Scheduler/api/v1/';
     const courseCache = new Map();
     const RESULT_LIMIT = 25;
+    // Manually handled shorthands. Please let me know if there is more that I should include (and you are reading this, lol)
+    const SUBJECT_SHORTHANDS = new Map([
+        ['cpts', 'CPT_S'],
+        ['cs', 'CPT_S']
+    ]);
 
     function slugify(value) {
         return String(value || '')
@@ -116,6 +121,11 @@
             .replace(/\s+/g, ' ');
     }
 
+    function subjectMatchesShorthand(subject, shorthand) {
+        const mappedSubject = SUBJECT_SHORTHANDS.get(shorthand);
+        return mappedSubject && normalizeSearchText(mappedSubject) === normalizeSearchText(subject);
+    }
+
     function getSectionAvailability(section) {
         const fillFactor = 1 - Number(section.seats_available)/Number(section.seats_total); // Dont ask me why
         if (fillFactor >= 1) return 'full';
@@ -142,14 +152,25 @@
         const courseCode = normalizeSearchText(course.course_code);
         const courseCodeCompact = courseCode.replace(/\s/g, '');
         const courseTitle = normalizeSearchText(course.course_name);
+        const queryTokens = queryText.split(' ');
+        const shorthandTokens = queryTokens.filter(token => SUBJECT_SHORTHANDS.has(token));
+        const regularTokens = queryTokens.filter(token => !SUBJECT_SHORTHANDS.has(token));
+        const shorthandMatches = shorthandTokens.every(token => (
+            subjectMatchesShorthand(course.subject, token)
+        ));
         const searchable = normalizeSearchText([
             course.subject,
             course.course_number,
             course.course_code,
             course.course_name
         ].join(' '));
-        const matches = queryText.split(' ').every(token => searchable.includes(token));
+        const matches = shorthandMatches && regularTokens.every(token => searchable.includes(token));
         if (!matches) return { matches: false, score: Infinity };
+        if (
+            shorthandTokens.length
+            && regularTokens.length === 1
+            && String(course.course_number) === regularTokens[0]
+        ) return { matches: true, score: 0 };
         if (queryText === courseCode || queryCompact === courseCodeCompact) return { matches: true, score: 0 };
         if (String(course.course_number) === queryText) return { matches: true, score: 1 };
         if (courseCode.startsWith(queryText)) return { matches: true, score: 2 };
@@ -284,6 +305,7 @@ function sectionMatches(section, options) {
         sectionKey,
         normalizePayload,
         normalizeCourse,
-        normalizeSection
+        normalizeSection,
+        subjectShorthands: SUBJECT_SHORTHANDS
     };
 })(window);
