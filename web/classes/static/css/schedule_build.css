@@ -460,8 +460,8 @@
 
 @media (min-width: 761px) {
     .filter-popover {
-        height: min(680px, calc(100dvh - 320px));
-        max-height: min(680px, calc(100dvh - 320px));
+        height: min(280px, calc(100dvh - 330px));
+        max-height: min(280px, calc(100dvh - 330px));
         min-height: 0;
         overflow: hidden;
         overscroll-behavior: contain;
@@ -472,6 +472,11 @@
 
     .filter-surface-header h2 {
         font-size: 1rem;
+    }
+
+    .filter-popover .filter-surface-header {
+        padding-bottom: 12px;
+        padding-top: 12px;
     }
 
     .filter-group > label,
@@ -488,6 +493,15 @@
         font-size: 0.7rem;
     }
 
+    .filter-popover .filter-group-availability,
+    .filter-popover .filter-group-delivery,
+    .filter-popover .filter-group-days,
+    .filter-popover .filter-group-time,
+    .filter-popover .filter-group-ucore {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
     .filter-popover .filter-groups {
         min-height: 0;
         overflow-y: auto;
@@ -498,6 +512,9 @@
         background: var(--color-surface);
         border-top: 1px solid var(--line);
         flex: 0 0 auto;
+        min-height: 44px;
+        padding-bottom: 8px;
+        padding-top: 8px;
     }
 }
 

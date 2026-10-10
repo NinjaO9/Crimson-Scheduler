@@ -64,7 +64,7 @@ export function populateCourseFilterOptions() {
   
   // Populate availability filter
   populateFilterCheckboxes("availability", [
-    {value: "openOnly", label: "Open seats only"},
+    {value: "openOnly", label: "Only open classes"},
   ]);
 
   // Populate delivery filter
@@ -74,6 +74,7 @@ export function populateCourseFilterOptions() {
     { value: "arranged", label: "Arranged" },
   ]);
 
+  // Populate day filter
   populateFilterCheckboxes("days", [
     { value: "M", label: "Monday" },
     { value: "T", label: "Tuesday" },
@@ -84,6 +85,7 @@ export function populateCourseFilterOptions() {
     { value: "U", label: "Sunday" },
   ]);
 
+  // Populate time filter
   populateFilterCheckboxes("startTimeBands", [
     { value: "morning", label: "Morning", description: uses24HourTime() ? "Before 12:00" : "Before 12:00 PM" },
     { value: "afternoon", label: "Afternoon", description: uses24HourTime() ? "12:00 – 16:59" : "12:00 PM – 4:59 PM" },
