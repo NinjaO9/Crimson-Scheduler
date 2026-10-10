@@ -1,6 +1,7 @@
 import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
 import { formatMeetingListForDisplay } from "./time-and-meetings.js";
+import { uses24HourTime } from "./preferences.js";
 
 let courseSearchRequestId = 0;
 let courseFilters = createEmptyCourseFilters();
@@ -84,10 +85,10 @@ export function populateCourseFilterOptions() {
   ]);
 
   populateFilterCheckboxes("startTimeBands", [
-    { value: "morning", label: "Morning" },
-    { value: "afternoon", label: "Afternoon" },
-    { value: "evening", label: "Evening" },
-    { value: "night", label: "Night" },
+    { value: "morning", label: "Morning", description: uses24HourTime() ? "Before 12:00" : "Before 12:00 PM" },
+    { value: "afternoon", label: "Afternoon", description: uses24HourTime() ? "12:00 – 16:59" : "12:00 PM – 4:59 PM" },
+    { value: "evening", label: "Evening", description: uses24HourTime() ? "17:00 – 20:59" : "5:00 PM – 8:59 PM" },
+    { value: "night", label: "Night", description: uses24HourTime() ? "21:00+" : "9:00 PM+" },
   ]);
 
   // Populate UCORE filter
@@ -121,7 +122,12 @@ export function populateFilterCheckboxes(filterName, options) {
           input.value = option.value;
           input.className = "course-filter-control";
           input.setAttribute("data-filter-name", filterName);
-          label.append(input, document.createTextNode(` ${option.label}`));
+          const text = document.createElement("span");
+          text.className = "filter-check-text";
+          text.appendChild(document.createTextNode(option.label));
+          if (option.description)
+            text.appendChild(createElementWithText("small", null, option.description));
+          label.append(input, text);
           return label;
         }),
       ),
@@ -544,6 +550,10 @@ export function initializeCourseSearch(options) {
     if (addButton) handleAddCourseSelection(addButton, event);
   });
   document.addEventListener("change", (event) => {
+    if (event.target.closest("#timeFormatToggle")) {
+      populateCourseFilterOptions();
+      return;
+    }
     const filterControl = event.target.closest(".course-filter-control");
     if (filterControl) {
       updateCourseFiltersFromControl(filterControl);
