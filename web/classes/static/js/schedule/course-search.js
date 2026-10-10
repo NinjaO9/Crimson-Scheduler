@@ -178,7 +178,6 @@ export function renderSectionChoice(course, section, choiceType) {
   const courseId = String(
     course.id === null || course.id === undefined ? "" : course.id,
   );
-  const label = choiceType === "lab" ? "Lab" : "Lecture";
   const row = document.createElement("label");
   row.className = "section-choice-row";
   const select = document.createElement("span");
@@ -203,9 +202,12 @@ export function renderSectionChoice(course, section, choiceType) {
     input,
     createElementWithText("strong", null, section.section_num),
   );
+  const openSeats = Number.isFinite(section.seats_available)
+    ? String(section.seats_available)
+    : "N/A";
   row.append(
     select,
-    createElementWithText("span", null, label),
+    createElementWithText("span", null, openSeats),
     createElementWithText("span", "time-display", section.time),
     createElementWithText("span", null, section.days),
     createElementWithText("span", null, section.location),
@@ -303,7 +305,7 @@ export function createSectionGroupTitle(label, required, className) {
 export function createSectionTable(course, sections, choiceType) {
   const table = createElementWithText("div", "section-table", "");
   const header = createElementWithText("div", "section-table-head", "");
-  ["Section", "Type", "Time", "Days", "Location", "Instructor"].forEach(
+  ["Section", "O. Seats", "Time", "Days", "Location", "Instructor"].forEach(
     (label) => header.appendChild(createElementWithText("span", null, label)),
   );
   table.appendChild(header);

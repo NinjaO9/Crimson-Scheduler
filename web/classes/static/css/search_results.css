@@ -91,9 +91,11 @@
     border-bottom: 1px solid #edf0f4;
     display: grid;
     gap: 12px;
-    grid-template-columns: 72px 70px minmax(108px, 1.2fr) 56px minmax(92px, 1fr) minmax(92px, 1fr);
+    grid-template-columns: 72px 60px minmax(132px, 1.2fr) 56px minmax(92px, 1fr) minmax(92px, 1fr);
+    justify-items: center;
     min-width: 0;
     padding: 9px 0;
+    text-align: center;
 }
 
 .section-table-head {
@@ -118,6 +120,7 @@
     align-items: center;
     display: inline-flex;
     gap: 9px;
+    justify-content: center;
 }
 
 .section-choice {
@@ -166,7 +169,7 @@
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 64px minmax(104px, 1.25fr) 56px minmax(82px, 0.9fr) minmax(112px, 1.2fr);
+        grid-template-columns: 64px minmax(124px, 1.25fr) 56px minmax(82px, 0.9fr) minmax(112px, 1.2fr);
         min-width: 0;
     }
 
@@ -197,8 +200,8 @@
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 48px minmax(78px, 1fr) 36px 56px 70px;
-        min-width: 326px;
+        grid-template-columns: 48px minmax(104px, 1fr) 36px 56px 70px;
+        min-width: 352px;
     }
 
     .section-table-head {
