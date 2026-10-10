@@ -200,8 +200,8 @@
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 48px minmax(104px, 1fr) 36px 56px 70px;
-        min-width: 352px;
+        grid-template-columns: 48px 60px minmax(104px, 1fr) 36px 56px 70px;
+        min-width: 410px;
     }
 
     .section-table-head {
@@ -211,7 +211,7 @@
 
     .section-table-head span:nth-child(2),
     .section-choice-row > span:nth-child(2) {
-        display: none;
+        display: block;
     }
 
     .section-choice-row {
