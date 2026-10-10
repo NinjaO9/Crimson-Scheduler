@@ -145,6 +145,59 @@
         return section.ucore;
     }
 
+    function sectionMeetings(section) {
+        if (Array.isArray(section && section.meetings) && section.meetings.length) {
+            return section.meetings;
+        }
+        return [{
+            days: text(section && section.days),
+            time: text(section && section.time)
+        }];
+    }
+
+    function meetingDays(days) {
+        return text(days)
+            .toUpperCase()
+            .replace(/TH/g, 'R')
+            .replace(/TU/g, 'T')
+            .replace(/SA/g, 'S')
+            .replace(/SU/g, 'U')
+            .replace(/[^MTWRFSU]/g, '')
+            .split('');
+    }
+
+    function meetingStartHour(time) {
+        const match = text(time).match(/\b(\d{1,2}):(\d{2})\b/);
+        if (!match) return null;
+        const hours = Number(match[1]);
+        const minutes = Number(match[2]);
+        if (hours > 23 || minutes > 59) return null;
+        return hours + minutes / 60;
+    }
+
+    function startTimeBand(time) {
+        const hour = meetingStartHour(time);
+        if (hour === null) return '';
+        if (hour < 12) return 'morning';
+        if (hour < 17) return 'afternoon';
+        if (hour < 21) return 'evening';
+        return 'night';
+    }
+
+    function lectureMeetingMatches(section, options) {
+        const selectedDays = options.days;
+        const selectedStartTimeBands = options.startTimeBands;
+        if (!selectedDays.length && !selectedStartTimeBands.length) return true;
+
+        return sectionMeetings(section).some(meeting => {
+            const matchesDay = !selectedDays.length
+                || meetingDays(meeting.days).some(day => selectedDays.includes(day));
+            const matchesStartTime = !selectedStartTimeBands.length
+                || selectedStartTimeBands.includes(startTimeBand(meeting.time));
+            return matchesDay && matchesStartTime;
+        });
+    }
+
     function matchesQuery(course, query) {
         if (!query) return { matches: true, score: 5 };
         const queryText = normalizeSearchText(query);
@@ -215,13 +268,20 @@ function sectionMatches(section, options) {
             delivery: Array.isArray(options.delivery) ? options.delivery : [],
             ucore: Array.isArray(options.ucore) ? options.ucore : [],
         };
+        const lectureMeetingOptions = {
+            days: Array.isArray(options.days) ? options.days : [],
+            startTimeBands: Array.isArray(options.startTimeBands) ? options.startTimeBands : [],
+        };
 
         return (Array.isArray(courses) ? courses : [])
             .map(course => {
                 const queryMatch = matchesQuery(course, query);
                 if (!queryMatch.matches) return null;
 
-                const lectureSections = course.lecture_sections.filter(section => sectionMatches(section, sectionOptions));
+                const lectureSections = course.lecture_sections.filter(section => (
+                    sectionMatches(section, sectionOptions)
+                    && lectureMeetingMatches(section, lectureMeetingOptions)
+                ));
                 const labSections = course.lab_sections.filter(section => sectionMatches(section, sectionOptions));
                 if (!lectureSections.length || (course.has_required_lab && !labSections.length)) return null;
 
@@ -302,6 +362,9 @@ function sectionMatches(section, options) {
         getSectionAvailability,
         getSectionDelivery,
         getSectionUcore,
+        lectureMeetingMatches,
+        meetingDays,
+        startTimeBand,
         sectionKey,
         normalizePayload,
         normalizeCourse,

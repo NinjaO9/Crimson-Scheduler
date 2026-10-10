@@ -10,7 +10,13 @@ let searchableSectionsByKey = new Map();
 const AUTO_SEARCH_DELAY_MS = 250;
 
 export function createEmptyCourseFilters() {
-  return { availability: [], delivery: [], ucore: [], };
+  return {
+    availability: [],
+    delivery: [],
+    ucore: [],
+    days: [],
+    startTimeBands: [],
+  };
 }
 
 export function getActiveFilterGroupCount() {
@@ -65,6 +71,23 @@ export function populateCourseFilterOptions() {
     { value: "in-person", label: "In person" },
     { value: "online", label: "Online" },
     { value: "arranged", label: "Arranged" },
+  ]);
+
+  populateFilterCheckboxes("days", [
+    { value: "M", label: "Monday" },
+    { value: "T", label: "Tuesday" },
+    { value: "W", label: "Wednesday" },
+    { value: "R", label: "Thursday" },
+    { value: "F", label: "Friday" },
+    { value: "S", label: "Saturday" },
+    { value: "U", label: "Sunday" },
+  ]);
+
+  populateFilterCheckboxes("startTimeBands", [
+    { value: "morning", label: "Morning" },
+    { value: "afternoon", label: "Afternoon" },
+    { value: "evening", label: "Evening" },
+    { value: "night", label: "Night" },
   ]);
 
   // Populate UCORE filter
