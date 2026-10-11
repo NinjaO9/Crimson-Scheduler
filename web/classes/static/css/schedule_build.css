@@ -1125,7 +1125,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-filter-panel {
+        display: flex;
+        flex-direction: column;
         max-height: min(82dvh, 650px);
+        overflow: hidden;
     }
 
     .mobile-filter-sheet.is-open .mobile-filter-panel {
@@ -1151,7 +1154,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-filter-panel .filter-groups {
+        flex: 1 1 auto;
+        min-height: 0;
         margin: 0 -18px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
     }
 
     .mobile-filter-panel .filter-group-availability,
