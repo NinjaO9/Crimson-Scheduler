@@ -116,6 +116,8 @@ def discover_courses(session: requests.Session, catalog_url: str) -> dict[str, d
                         continue
                     key = course_key(subject_name, number)
                     prefix = course.get('subjectPrefix') or subject_name
+                    if prefix == "":
+                        prefix = subject_name
                     item = discovered.setdefault(
                         key,
                         {
