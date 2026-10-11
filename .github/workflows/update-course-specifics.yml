@@ -1,0 +1,57 @@
+name: Update Course Specifics API
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Course descriptions and prerequisites change much less frequently than
+    # section availability, so refresh them once per week.
+    - cron: "30 6 * * 1"
+
+concurrency:
+  # This must match the catalog workflow: both jobs publish to crimson-data.
+  group: crimson-data-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-course-specifics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate GitHub App Token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.BYPASS_APP_ID }}
+          private-key: ${{ secrets.BYPASS_APP_PRIVATE_KEY }}
+
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Generate course-specific JSON
+        run: python -m dataCollection.dataHandler.generate_specifics
+
+      - name: Publish to GitHub Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          branch: crimson-data
+          folder: _generated_site/api/v1/specifics
+          target-folder: api/v1/specifics
+          clean: true
+          force: false
+          attempt-limit: 5
+          commit-message: "Update course-specific API"
