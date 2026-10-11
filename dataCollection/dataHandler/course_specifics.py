@@ -18,7 +18,6 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-
 DEFAULT_CATALOG_URL = 'https://ninjao9.github.io/Crimson-Scheduler/api/v1/catalog.json'
 DEFAULT_OUTPUT_ROOT = Path('_generated_site/api/v1/specifics')
 SECTION_INFO_BASE = 'https://schedules.wsu.edu/api/Data/GetSectionInfo'
@@ -67,14 +66,16 @@ def split_term(term: str) -> tuple[str, str]:
     return match.group(1).title(), match.group(2)
 
 
-'''
+"""
 WSU API:
 https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/121/1/false/true
 
 https://schedules.wsu.edu/api/Data/GetSectionInfo/<Campus>/<Term>/<Year>/<Subject>/<coursecode>/<section>/<islab>/true
 
 Constructing GetSectionInfo URL from available data
-'''
+"""
+
+
 def section_info_url(
     campus: str,
     term: str,
@@ -92,7 +93,7 @@ def section_info_url(
         str(course_number),
         str(section_number),
         str(bool(is_lab)).lower(),
-        'true', # Not entirely sure what this final boolean is doing in the URL? From testing its just.... there
+        'true',  # Not entirely sure what this final boolean is doing in the URL? From testing its just.... there
     ]
     return f'{SECTION_INFO_BASE}/' + '/'.join(quote(part.strip(), safe='') for part in parts)
 
@@ -140,7 +141,9 @@ def discover_courses(session: requests.Session, catalog_url: str) -> dict[str, d
                                 section.get('isLab', False),
                             )
                         )
-                    item['offerings'].append({'campus': campus.get('campus'), 'term': term.get('term')})
+                    item['offerings'].append(
+                        {'campus': campus.get('campus'), 'term': term.get('term')}
+                    )
     return discovered
 
 
@@ -167,9 +170,7 @@ def extract_course_fields(payload: object) -> dict:
 
     return {
         'courseDescription': _find_field(payload, {'courseDescription'}) or '',
-        'coursePrerequisites': (
-            _find_field(payload, {'coursePrerequisite'}) or ''
-        ),
+        'coursePrerequisites': (_find_field(payload, {'coursePrerequisite'}) or ''),
         'instructors': instructors,
     }
 
@@ -210,7 +211,9 @@ def fetch_course_specifics(session: requests.Session, item: dict) -> dict:
     }
 
 
-def write_specifics(discovered: dict[str, dict], session: requests.Session, output_root: Path) -> None:
+def write_specifics(
+    discovered: dict[str, dict], session: requests.Session, output_root: Path
+) -> None:
     output_root.mkdir(parents=True, exist_ok=True)
     manifest = {
         'version': 1,
@@ -223,7 +226,9 @@ def write_specifics(discovered: dict[str, dict], session: requests.Session, outp
         payload = fetch_course_specifics(session, item)
         path = output_root / f'{key}.json'
         path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-        manifest['courses'].append({'course': key, 'url': f'{key}.json', 'available': payload['available']})
+        manifest['courses'].append(
+            {'course': key, 'url': f'{key}.json', 'available': payload['available']}
+        )
         print(f'Wrote {path}', flush=True)
     (output_root / 'index.json').write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + '\n', encoding='utf-8'

@@ -2,6 +2,5 @@
 
 from dataCollection.dataHandler.course_specifics import main
 
-
 if __name__ == '__main__':
     main()
