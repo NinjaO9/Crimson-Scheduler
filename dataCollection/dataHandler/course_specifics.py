@@ -129,23 +129,28 @@ def discover_courses(session: requests.Session, catalog_url: str) -> dict[str, d
                             'offerings': [],
                         },
                     )
-                    for section in course.get('sections', []):
-                        section_number = section.get('sectionNumber')
-                        if section_number is None:
-                            continue
-                        item['specificUrls'].add(
-                            section_info_url(
-                                campus.get('campus', ''),
-                                term.get('term', ''),
-                                prefix,
-                                number,
-                                section_number,
-                                section.get('isLab', False),
-                            )
+                    # Turns out getting specifics for each section takes WAY too long. As such,
+                    # we will just grab the first LECTURE section for the description and prerequisites.
+                    if not item['specificUrls']:
+                        sections = course.get('sections', [])
+                        representative = next(
+                            (section for section in sections if not section.get('isLab', False)),
+                            sections[0] if sections else None,
                         )
-                    item['offerings'].append(
-                        {'campus': campus.get('campus'), 'term': term.get('term')}
-                    )
+                        if representative is not None:
+                            section_number = representative.get('sectionNumber')
+                            if section_number is not None:
+                                item['specificUrls'].add(
+                                    section_info_url(
+                                        campus.get('campus', ''),
+                                        term.get('term', ''),
+                                        prefix,
+                                        number,
+                                        section_number,
+                                        representative.get('isLab', False),
+                                    )
+                                )
+                    item['offerings'].append({'campus': campus.get('campus'), 'term': term.get('term')})
     return discovered
 
 
