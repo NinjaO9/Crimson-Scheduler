@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:10.162360+00:00",
+  "course": "fs-110",
+  "subject": "FS",
+  "courseNumber": 110,
+  "courseName": "Introduction to Food Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Introduction to Food Science</b>  Chemistry, microbiology, and processing of food and food products; concepts of food preservation, packaging and marketing of foods; world food issues. Field trip may be required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Stephanie",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

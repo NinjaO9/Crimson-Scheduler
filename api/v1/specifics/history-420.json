@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:24:01.471345+00:00",
+  "course": "history-420",
+  "subject": "HISTORY",
+  "courseNumber": 420,
+  "courseName": "American History, 1980-Present",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Summer/2026/Hist/420/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Summer/2026/Hist/420/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

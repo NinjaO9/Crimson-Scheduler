@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:48.199744+00:00",
+  "course": "vet-clin-598",
+  "subject": "VET_CLIN",
+  "courseNumber": 598,
+  "courseName": "Surgery Residents Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20MS/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Surgery Residents Seminar</b> May be repeated for credit. Surgery residents' and interns' presentations of case reports, literature reviews and research.  S, F grading. ",
+        "coursePrerequisites": " Admission to the Graduate Certificate, MS, or PhD in Biomedical Sciences program.",
+        "instructors": [
+          {
+            "firstName": "Bettina",
+            "lastName": "Darveshi",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Bonnie",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Natasha",
+            "lastName": "Hottmann",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Rachel",
+            "lastName": "Rivenburg",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Boel",
+            "lastName": "Fransson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

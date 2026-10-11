@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:05.997748+00:00",
+  "course": "soe-357",
+  "subject": "SOE",
+  "courseNumber": 357,
+  "courseName": "Introduction to Metamorphic Rocks and Minerals and How They Impact Our World",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/357/1/false/true",
+      "response": {
+        "courseDescription": "<b>357 Introduction to Metamorphic Rocks and Minerals and How They Impact Our World</b>  Fundamental processes in the field of earth sciences; application of theoretical concepts from metamorphism to challenges and realities of the modern world, including climate, earthquakes, and industry.  ",
+        "coursePrerequisites": "  SOE 350.",
+        "instructors": [
+          {
+            "firstName": "Evan",
+            "lastName": "Soderberg",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

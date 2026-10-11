@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:31.646016+00:00",
+  "course": "math-466",
+  "subject": "MATH",
+  "courseNumber": 466,
+  "courseName": "Optimization in Networks",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/466/1/false/true",
+      "response": {
+        "courseDescription": "<b>466 Optimization in Networks</b>  Formulation and solution of network optimization problems including shortest path, maximal flow, minimum cost flow, assignment, covering, postman, and salesman. Credit not granted for both MATH 466 and MATH 566. Required preparation must include linear programming. (Crosslisted course offered as MATH 466/566, CPT S 456/556.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bala",
+            "lastName": "Krishnamoorthy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

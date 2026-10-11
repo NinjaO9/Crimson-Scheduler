@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:35.900493+00:00",
+  "course": "nep-482",
+  "subject": "NEP",
+  "courseNumber": 482,
+  "courseName": "Nutrition and Exercise Practicum II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/482/1/false/true",
+      "response": {
+        "courseDescription": "<b>482 Nutrition and Exercise Practicum II</b>  Supervised experience in applying exercise and nutrition assessment techniques for normal and diseased subjects.  ",
+        "coursePrerequisites": " NEP 479; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

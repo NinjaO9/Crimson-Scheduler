@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:18:21.596401+00:00",
+  "course": "history-272",
+  "subject": "HISTORY",
+  "courseNumber": 272,
+  "courseName": "Introduction to Middle Eastern History",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/272/1/false/true",
+      "response": {
+        "courseDescription": "<b>272 Introduction to Middle Eastern History</b>  History of the Middle East from Muhammad to the present; political and religious development and the impact of empires. (Crosslisted course offered as HISTORY 272, ASIA 272.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "R-Charles",
+            "lastName": "Weller",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

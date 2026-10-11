@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:00.759378+00:00",
+  "course": "ise-300",
+  "subject": "ISE",
+  "courseNumber": 300,
+  "courseName": "INTRN'L EXCH",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ISE/300/1/false/true",
+      "response": {
+        "courseDescription": "<b>300 INTRN'L EXCH</b> May be repeated for credit; cumulative maximum 36 hours.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Megan",
+            "lastName": "Styborski",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

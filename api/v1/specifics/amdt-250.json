@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:16.939032+00:00",
+  "course": "amdt-250",
+  "subject": "AMDT",
+  "courseNumber": 250,
+  "courseName": "Principles of Merchandising",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/250/1/false/true",
+      "response": {
+        "courseDescription": "<b>250 Principles of Merchandising</b>  Concepts and functions of merchandising in apparel and textiles industries; cost, pricing, and profit; marketing and retailing strategies.  ",
+        "coursePrerequisites": " AMDT 108.",
+        "instructors": [
+          {
+            "firstName": "Min Jung",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

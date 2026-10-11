@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:19.876210+00:00",
+  "course": "physics-590",
+  "subject": "PHYSICS",
+  "courseNumber": 590,
+  "courseName": "Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Seminar</b> May be repeated for credit.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Guy",
+            "lastName": "Worthey",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Peter",
+            "lastName": "Engels",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

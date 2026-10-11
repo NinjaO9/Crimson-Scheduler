@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:30.111639+00:00",
+  "course": "tmp-414",
+  "subject": "TMP",
+  "courseNumber": 414,
+  "courseName": "Human Pathophysiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/TMP/414/1/false/true",
+      "response": {
+        "courseDescription": "<b>414 Human Pathophysiology</b>  Introduction to basic concepts and fundamental principles of human pathophysiology at the tissue, organ, and system levels.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Eva",
+            "lastName": "Szentirmai",
+            "isPrimary": true,
+            "tchEffort": 57
+          },
+          {
+            "firstName": "Kenneth",
+            "lastName": "Roberts",
+            "isPrimary": false,
+            "tchEffort": 13
+          },
+          {
+            "firstName": "Levente",
+            "lastName": "Kapas",
+            "isPrimary": false,
+            "tchEffort": 30
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

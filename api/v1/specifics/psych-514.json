@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:42.658651+00:00",
+  "course": "psych-514",
+  "subject": "PSYCH",
+  "courseNumber": 514,
+  "courseName": "Psychometrics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Psychometrics</b>  Scientific construction of behavioral assessment instruments, including validation and reliability; types of scales and responses; statistical scaling; test theory issues.  ",
+        "coursePrerequisites": " PSYCH 512.",
+        "instructors": [
+          {
+            "firstName": "G",
+            "lastName": "Burns",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

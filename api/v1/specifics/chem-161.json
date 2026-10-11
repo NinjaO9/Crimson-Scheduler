@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:25.368238+00:00",
+  "course": "chem-161",
+  "subject": "CHEM",
+  "courseNumber": 161,
+  "courseName": "Nuclear Reactor Operations I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/161/1/false/true",
+      "response": {
+        "courseDescription": "<b>161 Nuclear Reactor Operations I</b>  Foundational topics in reactor operations at the WSU TRIGA 1 MW nuclear research reactor, including nuclear theory, nuclear physics, radiation safety, health physics, reactor physics reactor kinetics, neutron transport theory, reactor auxiliary systems, and federal regulations. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CHEM 101 or 105 or concurrent enrollment in either.",
+        "instructors": [
+          {
+            "firstName": "Corey",
+            "lastName": "Hines",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Layla",
+            "lastName": "Lumzer",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

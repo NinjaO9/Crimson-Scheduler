@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:19.389078+00:00",
+  "course": "stat-576",
+  "subject": "STAT",
+  "courseNumber": 576,
+  "courseName": "Bayesian Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Stat/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Bayesian Analysis</b>  Statistical principle for combing new evidence with prior beliefs, inference and simulation procedures for accommodating complex data and producing interpretable output. Recommended preparation: STAT 536. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " STAT 556.",
+        "instructors": [
+          {
+            "firstName": "Yuan",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:03.554738+00:00",
+  "course": "nurs-adv-540",
+  "subject": "NURS_ADV",
+  "courseNumber": 540,
+  "courseName": "NP Clinical Practicum",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 NP Clinical Practicum</b> May be repeated for credit; cumulative maximum 10 hours. Primary Care Practicum experience requiring the supervised provision of increasingly complex direct patient care.  ",
+        "coursePrerequisites": " NURS ADV 514 or 547.",
+        "instructors": [
+          {
+            "firstName": "Brandie",
+            "lastName": "Tilch-Bryant",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

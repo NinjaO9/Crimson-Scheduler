@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:49.717440+00:00",
+  "course": "econs-581",
+  "subject": "ECONS",
+  "courseNumber": 581,
+  "courseName": "Natural Resource Economics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/581/1/false/true",
+      "response": {
+        "courseDescription": "<b>581 Natural Resource Economics</b>  Economic dynamics of natural resource systems.  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Jonathan",
+            "lastName": "Yoder",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

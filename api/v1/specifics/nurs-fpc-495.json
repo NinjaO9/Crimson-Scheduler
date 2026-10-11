@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:12.506871+00:00",
+  "course": "nurs-fpc-495",
+  "subject": "NURS_FPC",
+  "courseNumber": 495,
+  "courseName": "Advanced Practicum",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Advanced Practicum</b>  Application and integration of theoretical content in an area of nursing practice of special interest to the student.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Kawkab",
+            "lastName": "Shishani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

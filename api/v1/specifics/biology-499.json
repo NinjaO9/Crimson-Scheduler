@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:27.410758+00:00",
+  "course": "biology-499",
+  "subject": "BIOLOGY",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Charles",
+            "lastName": "Robbins",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hanjo",
+            "lastName": "Hellmann",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Heather",
+            "lastName": "Watts",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jennifer",
+            "lastName": "Wisecaver",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Wes",
+            "lastName": "Dowd",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:07.273336+00:00",
+  "course": "nurs-adv-599",
+  "subject": "NURS_ADV",
+  "courseNumber": 599,
+  "courseName": "Independent Study",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/599/1/false/true",
+      "response": {
+        "courseDescription": "<b>599 Independent Study</b> May be repeated for credit.   S, F grading. ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Fionnuala",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

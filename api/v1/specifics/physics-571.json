@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:19.530168+00:00",
+  "course": "physics-571",
+  "subject": "PHYSICS",
+  "courseNumber": 571,
+  "courseName": "Methods of Theoretical Physics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Methods of Theoretical Physics</b>  Mathematical methods for theoretical physics; linear algebra, tensor analysis, complex variables, differential equations, integral equations, variational calculus, and group theory. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Forbes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

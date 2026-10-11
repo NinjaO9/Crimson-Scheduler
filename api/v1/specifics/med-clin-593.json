@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:19.129299+00:00",
+  "course": "med-clin-593",
+  "subject": "MED_CLIN",
+  "courseNumber": 593,
+  "courseName": "Surgery - Thoracic and Cardiac Surgery",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/593/1/false/true",
+      "response": {
+        "courseDescription": "<b>593 Surgery - Thoracic and Cardiac Surgery</b> May be repeated for credit; cumulative maximum 12 hours. Introduction to the range of medical problems that cardiothoracic surgeons encounter.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Drosdeck",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

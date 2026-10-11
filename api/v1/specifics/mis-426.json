@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:40:25.885052+00:00",
+  "course": "mis-426",
+  "subject": "MIS",
+  "courseNumber": 426,
+  "courseName": "Emerging Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MIS/426/2/false/true",
+      "response": {
+        "courseDescription": "<b>426 Emerging Topics</b> May be repeated for credit; cumulative maximum 12 hours. Special and advanced topics in MIS.  ",
+        "coursePrerequisites": " MIS 250; admitted to a major or minor in the College of Business; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Joe",
+            "lastName": "Compeau",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

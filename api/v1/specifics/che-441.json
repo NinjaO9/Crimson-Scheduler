@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:50.951955+00:00",
+  "course": "che-441",
+  "subject": "CHE",
+  "courseNumber": 441,
+  "courseName": "Process Control",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/441/1/false/true",
+      "response": {
+        "courseDescription": "<b>441 Process Control</b>  Measuring instruments, automatic control, process and instrument characteristics and theory applied to industrial control problems.  ",
+        "coursePrerequisites": "  CHE 302, 321, 332, and 334 with a C or better; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Tapajyoti",
+            "lastName": "Ghosh",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Betul Ege",
+            "lastName": "Yilmazer",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

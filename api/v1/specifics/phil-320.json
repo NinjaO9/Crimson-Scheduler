@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:25.997551+00:00",
+  "course": "phil-320",
+  "subject": "PHIL",
+  "courseNumber": 320,
+  "courseName": "History of Ancient and Medieval Philosophy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 [M] History of Ancient and Medieval Philosophy</b>  Pre-Socratics, Plato, Aristotle; post-Aristotelian philosophy to the Renaissance. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " 3 credits PHIL.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Fagiano",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:10.427231+00:00",
+  "course": "nurs-fpc-415",
+  "subject": "NURS_FPC",
+  "courseNumber": 415,
+  "courseName": "Children and Families as the Focus of Nursing Care",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Children and Families as the Focus of Nursing Care</b>  Synthesis and application of underlying science and nursing process with the unique population of children and families.  S, F grading. ",
+        "coursePrerequisites": " NURS FPC 308; NURS FPC 322; NURS FPC 324; NURS FPC 325; and concurrent enrollment in NURS FPC 414.",
+        "instructors": [
+          {
+            "firstName": "Jana",
+            "lastName": "Pedersen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:33.156344+00:00",
+  "course": "econs-514",
+  "subject": "ECONS",
+  "courseNumber": 514,
+  "courseName": "Econometrics IV",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Econometrics IV</b>  Constrained estimation, testing hypotheses, bootstrap resampling, BMM estimation and inference, nonparametric regression analysis, and an introduction to Bayesian econometrics.  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 512.",
+        "instructors": [
+          {
+            "firstName": "Jia",
+            "lastName": "Yan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

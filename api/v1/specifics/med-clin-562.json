@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:16.272036+00:00",
+  "course": "med-clin-562",
+  "subject": "MED_CLIN",
+  "courseNumber": 562,
+  "courseName": "Obstetrics and Gynecology - Ambulatory",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/MEDCL/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Obstetrics and Gynecology - Ambulatory</b> May be repeated for credit; cumulative maximum 12 hours. Extension of knowledge, skills, and professional attitudes required for the practice of gynecology in the ambulatory setting.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Dawn",
+            "lastName": "Kopp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

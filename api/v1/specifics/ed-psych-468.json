@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:10.983452+00:00",
+  "course": "ed-psych-468",
+  "subject": "ED_PSYCH",
+  "courseNumber": 468,
+  "courseName": "Classroom Assessment, Secondary",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EdPsy/468/1/false/true",
+      "response": {
+        "courseDescription": "<b>468 Classroom Assessment, Secondary</b>  Principles and practice of high-quality classroom assessment in secondary schools.  ",
+        "coursePrerequisites": " TCH LRN 317; TCH LRN 464; TCH LRN 465; for candidates admitted to teacher education (secondary education).",
+        "instructors": [
+          {
+            "firstName": "Georgia",
+            "lastName": "Sartor",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

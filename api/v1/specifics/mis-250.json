@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:12.288476+00:00",
+  "course": "mis-250",
+  "subject": "MIS",
+  "courseNumber": 250,
+  "courseName": "Managing Information Technology",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MIS/250/2/false/true",
+      "response": {
+        "courseDescription": "<b>250 Managing Information Technology</b>  Comprehensive overview of the role of management information systems in business, including principles and application of MIS, key issues in developing and implementing information systems, and strategic value of IT to organizations.  ",
+        "coursePrerequisites": " Sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Versdahl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

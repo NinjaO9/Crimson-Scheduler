@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:14.365237+00:00",
+  "course": "ed-res-571",
+  "subject": "ED_RES",
+  "courseNumber": 571,
+  "courseName": "Doctoral Dissertation Preparation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EdRes/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Doctoral Dissertation Preparation</b>  Conceptualization and development of a structured dissertation prospectus; socializes students to academic culture.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Susan",
+            "lastName": "Finley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

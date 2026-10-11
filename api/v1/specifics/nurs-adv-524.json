@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:02.377239+00:00",
+  "course": "nurs-adv-524",
+  "subject": "NURS_ADV",
+  "courseNumber": 524,
+  "courseName": "Managing in Complex Systems",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/NURAD/524/1/false/true",
+      "response": {
+        "courseDescription": "<b>524 Managing in Complex Systems</b>  Leadership competencies for navigating and transforming complex health systems, including complexity theory, chaos theory, change management, and healthcare innovation.  ",
+        "coursePrerequisites": " NURS ADV 510.",
+        "instructors": [
+          {
+            "firstName": "Natsuko",
+            "lastName": "Wood",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

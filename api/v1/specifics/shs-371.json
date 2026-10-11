@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:07:17.639732+00:00",
+  "course": "shs-371",
+  "subject": "SHS",
+  "courseNumber": 371,
+  "courseName": "Language Development",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/371/1/false/true",
+      "response": {
+        "courseDescription": "<b>371 [M] Language Development</b>  Normal development of the cognitive, linguistic, and pragmatic components of language; introduction to language disorders in children.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ashley",
+            "lastName": "Winkle",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

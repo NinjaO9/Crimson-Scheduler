@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:27.868796+00:00",
+  "course": "afs-590",
+  "subject": "AFS",
+  "courseNumber": 590,
+  "courseName": "Sociology of Agriculture and Food Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AFS/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Sociology of Agriculture and Food Systems</b>  Theories, concepts, debates, and methods associated with the sociology of agriculture and food systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jessica",
+            "lastName": "Goldberger",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

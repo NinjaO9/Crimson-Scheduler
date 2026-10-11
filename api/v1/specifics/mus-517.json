@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:45:00.783561+00:00",
+  "course": "mus-517",
+  "subject": "MUS",
+  "courseNumber": 517,
+  "courseName": "Bassoon",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/517/1/false/true",
+      "response": {
+        "courseDescription": "<b>517 Bassoon</b> May be repeated for credit.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jacqueline",
+            "lastName": "Wilson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

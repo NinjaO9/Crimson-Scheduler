@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:25.160209+00:00",
+  "course": "fs-220",
+  "subject": "FS",
+  "courseNumber": 220,
+  "courseName": "Food Safety and Quality",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Food Safety and Quality</b>  Regulation, safety, and wholesomeness of food products; microbiological, chemical, and physical risks associated with food; hazard analysis as related to food safety, processing and quality; sanitation and pest management principles; methods for analyzing the sensory qualities of food products; problem management associated with food quality assurance. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "  CHEM 105; CHEM 106; BIOLOGY 107.",
+        "instructors": [
+          {
+            "firstName": "Meijun",
+            "lastName": "Zhu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

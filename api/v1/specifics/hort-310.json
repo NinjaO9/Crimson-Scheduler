@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:03.791395+00:00",
+  "course": "hort-310",
+  "subject": "HORT",
+  "courseNumber": 310,
+  "courseName": "Pomology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hort/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Pomology</b>  Botany, history, production, and uses of temperate-zone tree and small fruit crops. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106, BIOLOGY 107, BIOLOGY 120, or HORT 202.",
+        "instructors": [
+          {
+            "firstName": "Per",
+            "lastName": "McCord",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

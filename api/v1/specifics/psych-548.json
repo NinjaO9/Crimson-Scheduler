@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:44.962981+00:00",
+  "course": "psych-548",
+  "subject": "PSYCH",
+  "courseNumber": 548,
+  "courseName": "Clinical Externship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/548/1/false/true",
+      "response": {
+        "courseDescription": "<b>548 Clinical Externship</b> May be repeated for credit; cumulative maximum 18 hours. Supervised practice in the clinical application of psychology at approved hospitals and medical practices.  S, F grading. ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Walter",
+            "lastName": "Scott",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

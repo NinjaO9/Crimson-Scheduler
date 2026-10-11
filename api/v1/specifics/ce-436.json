@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:39.271796+00:00",
+  "course": "ce-436",
+  "subject": "CE",
+  "courseNumber": 436,
+  "courseName": "Design of Timber Structures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/436/1/false/true",
+      "response": {
+        "courseDescription": "<b>436 Design of Timber Structures</b>  Engineering properties of wood materials; analysis and design of members, connections, trusses, shearwalls and structural diaphragms; durability and moisture effects on engineered wood products. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 330 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Pouria",
+            "lastName": "Bahmani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

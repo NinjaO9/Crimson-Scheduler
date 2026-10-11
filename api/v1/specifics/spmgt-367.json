@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:59.772052+00:00",
+  "course": "spmgt-367",
+  "subject": "SPMGT",
+  "courseNumber": 367,
+  "courseName": "Sport in American Society",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/367/1/false/true",
+      "response": {
+        "courseDescription": "<b>367 Sport in American Society</b>  Examination of the role of sport in contemporary American society as well as the relationship between sport and other social institutions.  ",
+        "coursePrerequisites": "  Admitted to the major or minor in Sport Management.",
+        "instructors": [
+          {
+            "firstName": "Alex",
+            "lastName": "Gang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

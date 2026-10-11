@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:27.537181+00:00",
+  "course": "afs-505",
+  "subject": "AFS",
+  "courseNumber": 505,
+  "courseName": "Topics in Computational and Analytical Methods for Scientists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AFS/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Topics in Computational and Analytical Methods for Scientists</b> May be repeated for credit; cumulative maximum 6 hours. Applied computational methods for researchers processing, managing, and analyzing data in scientific and engineering fields.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Stephen",
+            "lastName": "Ficklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

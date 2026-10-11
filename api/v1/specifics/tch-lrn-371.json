@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:22.421887+00:00",
+  "course": "tch-lrn-371",
+  "subject": "TCH_LRN",
+  "courseNumber": 371,
+  "courseName": "Teaching Elementary Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/371/1/false/true",
+      "response": {
+        "courseDescription": "<b>371 Teaching Elementary Science</b>  Teaching methods, materials, and content in elementary and middle school science.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Patrick",
+            "lastName": "Ochieng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

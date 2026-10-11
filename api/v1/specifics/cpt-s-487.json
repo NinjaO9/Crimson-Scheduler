@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:28.485232+00:00",
+  "course": "cpt-s-487",
+  "subject": "CPT_S",
+  "courseNumber": 487,
+  "courseName": "Software Design and Architecture",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/487/2/false/true",
+      "response": {
+        "courseDescription": "<b>487 Software Design and Architecture</b>  Software design; design principles, patterns, and anti-patterns; design quality attributes and evaluation; architectural styles, architectural patterns and anti-patterns.  Credit not granted for both CPT S 487 and CPT S 587, or for both CPT S 487 and 323.  ",
+        "coursePrerequisites": " CPT S 321 with a C or better; CPT S 322 with a C or better; admitted to a major or minor in EECS or Data Analytics.  Enrollment not allowed if credit already earned for CPT S 323.",
+        "instructors": [
+          {
+            "firstName": "Bolong",
+            "lastName": "Zeng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

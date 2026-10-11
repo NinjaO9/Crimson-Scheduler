@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:13.587545+00:00",
+  "course": "ed-res-562",
+  "subject": "ED_RES",
+  "courseNumber": 562,
+  "courseName": "Epistemology, Inquiry, and Representation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EdRes/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Epistemology, Inquiry, and Representation</b>  Epistemological assumptions and methodological strategies of research.  ",
+        "coursePrerequisites": " Doctoral standing in education; ED PSYCH 505 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Poppen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

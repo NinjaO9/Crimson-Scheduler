@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:30.476118+00:00",
+  "course": "mps-515",
+  "subject": "MPS",
+  "courseNumber": 515,
+  "courseName": "Seminar in Molecular Plant Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MPS/515/1/false/true",
+      "response": {
+        "courseDescription": "<b>515 Seminar in Molecular Plant Sciences</b> May be repeated for credit; cumulative maximum 4 hours. A cross-discipline seminar, including botany, crop and soils sciences, horticulture, plant pathology, and molecular plant sciences.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Andrii",
+            "lastName": "Smertenko",
+            "isPrimary": false,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Laura",
+            "lastName": "Bartley",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

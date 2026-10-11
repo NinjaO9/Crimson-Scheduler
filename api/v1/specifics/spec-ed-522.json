@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:13.967361+00:00",
+  "course": "spec-ed-522",
+  "subject": "SPEC_ED",
+  "courseNumber": 522,
+  "courseName": "Topics in Special Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Sp%20Ed/522/1/false/true",
+      "response": {
+        "courseDescription": "<b>522 Topics in Special Education</b> May be repeated for credit; cumulative maximum 8 hours. Recent research developments, issues and/or applications in selected areas of special education.  ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

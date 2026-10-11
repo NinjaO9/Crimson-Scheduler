@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:43.555669+00:00",
+  "course": "german-310",
+  "subject": "GERMAN",
+  "courseNumber": 310,
+  "courseName": "German Film",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ger/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 German Film</b>  Study of important German films. Taught in German.  ",
+        "coursePrerequisites": " GERMAN 307 or GERMAN 308.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

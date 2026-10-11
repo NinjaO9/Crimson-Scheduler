@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:56.081950+00:00",
+  "course": "mus-490",
+  "subject": "MUS",
+  "courseNumber": 490,
+  "courseName": "General Music Material/Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 General Music Material/Methods</b>  Materials and methods for general music education majors; multiculturalism, collaboration, developmental curriculum and research issues; addressing national standards; observations. Credit not granted for both MUS 490 and MUS 590.  ",
+        "coursePrerequisites": " MUS 491.",
+        "instructors": [
+          {
+            "firstName": "Aaron",
+            "lastName": "Wacker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

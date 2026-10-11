@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:45.044229+00:00",
+  "course": "interdis-598",
+  "subject": "INTERDIS",
+  "courseNumber": 598,
+  "courseName": "Interdisciplinary Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univ/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Interdisciplinary Seminar</b>  Assists IIDP students in the preparation of their program proposal, which serves as the qualifying examination for continuation in the IIDP. The IIDP Graduate Committee will review and evaluate the proposal.  S, F grading. ",
+        "coursePrerequisites": " INTERDIS 591 or admission to the IIDP program.",
+        "instructors": [
+          {
+            "firstName": "Arvin",
+            "lastName": "Sahaym",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

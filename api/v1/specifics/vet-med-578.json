@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:56.813903+00:00",
+  "course": "vet-med-578",
+  "subject": "VET_MED",
+  "courseNumber": 578,
+  "courseName": "Veterinary Equine Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/578/1/false/true",
+      "response": {
+        "courseDescription": "<b>578 Veterinary Equine Medicine</b>  Discussion of clinical presentation, diagnosis and treatment of common medical diseases of horses.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Erin",
+            "lastName": "Pinnell",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Alasdair",
+            "lastName": "Botting",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Debra",
+            "lastName": "Sellon",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Sandra",
+            "lastName": "Diaz Yucupicio",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

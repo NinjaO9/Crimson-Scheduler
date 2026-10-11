@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:05.923713+00:00",
+  "course": "mech-309",
+  "subject": "MECH",
+  "courseNumber": 309,
+  "courseName": "Engineering Materials",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/309/1/false/true",
+      "response": {
+        "courseDescription": "<b>309 [M] Engineering Materials</b>  Structure of materials, phase equilibrium, phase transformations, mechanical failure, and mechanical properties; materials testing laboratory.  ",
+        "coursePrerequisites": " MECH 215; CHEM 105 or concurrent enrollment; 4 credits of PHYSICS 201, or PHYSICS 201 and 211 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Dave",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

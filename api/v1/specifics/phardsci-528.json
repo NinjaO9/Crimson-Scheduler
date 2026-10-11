@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:15.508976+00:00",
+  "course": "phardsci-528",
+  "subject": "PHARDSCI",
+  "courseNumber": 528,
+  "courseName": "Pharmacokinetics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRSC/528/1/false/true",
+      "response": {
+        "courseDescription": "<b>528 Pharmacokinetics</b>  Qualitative and quantitative understanding of the processes of drug absorption, distribution, and elimination.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Senthil",
+            "lastName": "Natesan",
+            "isPrimary": true,
+            "tchEffort": 74
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

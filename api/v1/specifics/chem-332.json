@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:26.893363+00:00",
+  "course": "chem-332",
+  "subject": "CHEM",
+  "courseNumber": 332,
+  "courseName": "Physical Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 Physical Chemistry</b>  Elementary quantum theory; molecular structure and spectra; bonding theory; reaction rates; photochemistry and radiation chemistry; energy states and statistical thermodynamics.  ",
+        "coursePrerequisites": " MATH 273 or 283 with a C or better; MATH 220 with a C or better; 4 credits of PHYSICS 202 with a C or better, or PHYSICS 202 and 212, each with a C or better, or PHYSICS 206 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Brozik",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

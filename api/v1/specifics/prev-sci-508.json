@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:07.477677+00:00",
+  "course": "prev-sci-508",
+  "subject": "PREV_SCI",
+  "courseNumber": 508,
+  "courseName": "Longitudinal Structural Equation Modeling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PrvSc/508/1/false/true",
+      "response": {
+        "courseDescription": "<b>508 Longitudinal Structural Equation Modeling</b>  Longitudinal structural equation modeling and the use of Mplus statistical software to perform and interpret a broad range of longitudinal structural equation models. Recommended preparation: ED PSYCH 576, PSYCH 514, PSYCH 516, or previous knowledge of multivariate analysis and factor analysis.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Cleveland",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

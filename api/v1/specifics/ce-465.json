@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:40.631090+00:00",
+  "course": "ce-465",
+  "subject": "CE",
+  "courseNumber": 465,
+  "courseName": "Integrated Civil Engineering Design II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 [M] Integrated Civil Engineering Design II</b>  Civil engineering applications to planning and design; decision making and reporting; design of complete projects that include local and world-wide problems through interdisciplinary teams. The second course in the two part capstone series.  ",
+        "coursePrerequisites": " CE 464; admitted to the major in Civil Engineering; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jesse",
+            "lastName": "Weaver",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

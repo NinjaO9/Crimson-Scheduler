@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:11.163552+00:00",
+  "course": "mil-sci-205",
+  "subject": "MIL_SCI",
+  "courseNumber": 205,
+  "courseName": "Combat Fitness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/205/1/false/true",
+      "response": {
+        "courseDescription": "<b>205 Combat Fitness</b> May be repeated for credit. Physical Fitness to include aerobic and anaerobic strength and endurance; builds teamwork, high morale and leadership; train towards functional fitness to include ruck march treks, combat water survival tests, and the Army Combat Fitness Test. No prior experience required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Rainwater",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

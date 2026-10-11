@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:49.481117+00:00",
+  "course": "com-101",
+  "subject": "COM",
+  "courseNumber": 101,
+  "courseName": "Media and Society",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Com/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Media and Society</b>  Mass media's influence in contemporary society.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Gabriella",
+            "lastName": "Bedoyan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

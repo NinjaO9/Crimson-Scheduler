@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:47:48.709765+00:00",
+  "course": "e-m-564",
+  "subject": "E_M",
+  "courseNumber": 564,
+  "courseName": "Project Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/564/2/false/true",
+      "response": {
+        "courseDescription": "<b>564 Project Management</b>  Technical tools, Critical Path Method (CPM), Program Evaluation Review Technique (PERT), cost/schedule control systems, behavioral issues and organizational structure.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tahani",
+            "lastName": "Amer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

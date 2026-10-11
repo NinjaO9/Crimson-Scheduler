@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:17.091246+00:00",
+  "course": "pharmacy-506",
+  "subject": "PHARMACY",
+  "courseNumber": 506,
+  "courseName": "Pharmacy Practice and Professional Development I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/506/1/false/true",
+      "response": {
+        "courseDescription": "<b>506 Pharmacy Practice and Professional Development I</b>  Introduction to the essential skills, attitudes, and values for practicing health care professionals.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:27.761489+00:00",
+  "course": "cpt-s-480",
+  "subject": "CPT_S",
+  "courseNumber": 480,
+  "courseName": "Python Software Construction",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Cpt%20S/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Python Software Construction</b>  Intensive introduction to the python language; user interface, building and using extension modules; C interfacing; construction of a major project.  ",
+        "coursePrerequisites": " CPT S 223 with a C or better; CPT S 224 or CPT S 360 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Iannelli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

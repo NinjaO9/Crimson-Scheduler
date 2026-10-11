@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:24.674766+00:00",
+  "course": "tch-lrn-434",
+  "subject": "TCH_LRN",
+  "courseNumber": 434,
+  "courseName": "Conceptualization of Proportional Thinking",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/T%20%26%20L/434/1/false/true",
+      "response": {
+        "courseDescription": "<b>434 Conceptualization of Proportional Thinking</b>  Investigation of the development of K-14 students' understanding of proportional reasoning. Recommended preparation: MATH 106 (or equivalent) and MATH\n251/252.  Credit not granted for both TCH LRN 434 and 534.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Slavit",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

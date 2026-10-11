@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:44.937297+00:00",
+  "course": "spmgt-290",
+  "subject": "SPMGT",
+  "courseNumber": 290,
+  "courseName": "Sport Programs",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/290/1/false/true",
+      "response": {
+        "courseDescription": "<b>290 Sport Programs</b>  Philosophies and program content of public/private sport programs; laboratory experiences in school, college, and community sport programs.  ",
+        "coursePrerequisites": " ENGLISH 101 with a C or better; COM 102 with a C or better or H D 205 with a C or better; MATH [QUAN] with a C or better; 2.5 cumulative GPA.",
+        "instructors": [
+          {
+            "firstName": "Dj",
+            "lastName": "Mackie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

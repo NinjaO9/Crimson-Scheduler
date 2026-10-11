@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:11.761095+00:00",
+  "course": "math-303",
+  "subject": "MATH",
+  "courseNumber": 303,
+  "courseName": "Geometry for the Middle School Teacher",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/303/1/false/true",
+      "response": {
+        "courseDescription": "<b>303 [M] Geometry for the Middle School Teacher</b>  Topics in 2D and 3D geometry including technology-based reasoning and exploration, deductive arguments, transformational and proportional reasoning, and non-Euclidean geometries.  ",
+        "coursePrerequisites": " MATH 252 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Constantino",
+            "lastName": "Montes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

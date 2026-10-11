@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:05.190401+00:00",
+  "course": "e-e-501",
+  "subject": "E_E",
+  "courseNumber": 501,
+  "courseName": "Linear System Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Linear System Theory</b>  Dynamic systems from the state variable approach; observability, controllability, stability, and sensitivity of differential and nondifferential systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ali",
+            "lastName": "Saberi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

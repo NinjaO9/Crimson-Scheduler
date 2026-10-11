@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:25.995061+00:00",
+  "course": "cst-m-460",
+  "subject": "CST_M",
+  "courseNumber": 460,
+  "courseName": "Construction Cost Accounting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/460/1/false/true",
+      "response": {
+        "courseDescription": "<b>460 Construction Cost Accounting</b>  Examination of cost accounting utilized for specific project control as well as overall company control.  ",
+        "coursePrerequisites": " CON E 361 with a C or better or CST M 371 with a C or better; admitted to the major in Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Steven",
+            "lastName": "Call",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

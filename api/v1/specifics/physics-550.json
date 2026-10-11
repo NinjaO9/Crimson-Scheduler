@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:19.026741+00:00",
+  "course": "physics-550",
+  "subject": "PHYSICS",
+  "courseNumber": 550,
+  "courseName": "Quantum Theory I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Quantum Theory I</b>  Introduction to quantum theory; physical and mathematical foundations; application to atomic systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Steven",
+            "lastName": "Tomsovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

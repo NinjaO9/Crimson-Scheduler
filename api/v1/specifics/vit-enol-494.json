@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:12.312377+00:00",
+  "course": "vit-enol-494",
+  "subject": "VIT_ENOL",
+  "courseNumber": 494,
+  "courseName": "Critical Thinking in Vineyard and Winery Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20E/494/1/false/true",
+      "response": {
+        "courseDescription": "<b>494 [M] Critical Thinking in Vineyard and Winery Management</b>  Integration and application of knowledge of grape production and wine science to major issues of the industry; improvement planning for existing winery and vineyard operations; incorporation of the principles of economic and environmental sustainability; leadership skill development applicable to the grape and wine industry.  ",
+        "coursePrerequisites": " VIT ENOL 311; VIT ENOL 340; VIT ENOL 414.",
+        "instructors": [
+          {
+            "firstName": "Tom",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

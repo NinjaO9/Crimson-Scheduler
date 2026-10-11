@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:04.928553+00:00",
+  "course": "shs-565",
+  "subject": "SHS",
+  "courseNumber": 565,
+  "courseName": "Augmentative Communication",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/565/1/false/true",
+      "response": {
+        "courseDescription": "<b>565 Augmentative Communication</b>  Augmentative communication theory; implementation, training strategies, ongoing adjustments, and evaluating effectiveness. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Benjamin",
+            "lastName": "Swensen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

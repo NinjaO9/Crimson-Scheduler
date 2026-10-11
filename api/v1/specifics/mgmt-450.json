@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:40.061822+00:00",
+  "course": "mgmt-450",
+  "subject": "MGMT",
+  "courseNumber": 450,
+  "courseName": "Personnel and Human Resources Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MGMT/450/3/false/true",
+      "response": {
+        "courseDescription": "<b>450 Personnel and Human Resources Management</b>  Policy and practice in human resource utilization, selecting, training, motivating, evaluating, and compensating employees; labor relations; EEO legislation.  ",
+        "coursePrerequisites": " B A 201, 202, and 203, or B A 211, or MGMT 301; MGTOP 215, PSYCH 311, STAT 212, STAT 360, or STAT 370; admitted to a major or minor in the College of Business, major in Economic Sci, or option of Personnel Psych & Human Resource Mgt.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Beattie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

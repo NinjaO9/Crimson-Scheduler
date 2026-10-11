@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:25.322469+00:00",
+  "course": "cpt-s-432",
+  "subject": "CPT_S",
+  "courseNumber": 432,
+  "courseName": "Cybersecurity Capstone Project",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 [M] Cybersecurity Capstone Project</b>  Group design project for large-scale cybersecurity development incorporating analysis, application ability, industrial skills, and adherence to cybersecurity standards.  ",
+        "coursePrerequisites": " CPT S 327; CPT S 427; CPT S 428; CPT S 455, each with a C or better; admitted to the major in Cybersecurity; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

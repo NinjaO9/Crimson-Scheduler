@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:21.423169+00:00",
+  "course": "pharmacy-563",
+  "subject": "PHARMACY",
+  "courseNumber": 563,
+  "courseName": "Pharmacy Practice and Professional Development VI",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/563/1/false/true",
+      "response": {
+        "courseDescription": "<b>563 Pharmacy Practice and Professional Development VI</b>  Provides student pharmacists with continuing patient care and professional development activities in preparation for the Advanced Pharmacy Practice Experience rotations.  ",
+        "coursePrerequisites": "  PHARMACY 556.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

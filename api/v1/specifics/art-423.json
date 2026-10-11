@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:34.050993+00:00",
+  "course": "art-423",
+  "subject": "ART",
+  "courseNumber": 423,
+  "courseName": "Advanced Painting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/423/1/false/true",
+      "response": {
+        "courseDescription": "<b>423 Advanced Painting</b> May be repeated for credit. Continuation of FINE ART 321. Advanced problems in painting. Six credits only with permission of instructor.  ",
+        "coursePrerequisites": " ART 321; admitted to the major in Fine Arts.",
+        "instructors": [
+          {
+            "firstName": "Joe",
+            "lastName": "Hedges",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

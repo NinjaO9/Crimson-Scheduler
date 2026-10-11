@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:16.283007+00:00",
+  "course": "amdt-211",
+  "subject": "AMDT",
+  "courseNumber": 211,
+  "courseName": "Apparel Assembly",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/211/1/false/true",
+      "response": {
+        "courseDescription": "<b>211 Apparel Assembly</b>  Problem solving approach to apparel and textile product assembly with emphasis on product development process.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Siming",
+            "lastName": "Guo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

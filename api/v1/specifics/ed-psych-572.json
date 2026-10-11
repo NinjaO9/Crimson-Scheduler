@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:12.448647+00:00",
+  "course": "ed-psych-572",
+  "subject": "ED_PSYCH",
+  "courseNumber": 572,
+  "courseName": "Introduction to Systematic Literature Reviews and Meta-Analyses",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EdPsy/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 Introduction to Systematic Literature Reviews and Meta-Analyses</b>  Introduction to the steps involved in conduction systematic reviews and meta-analyses.  ",
+        "coursePrerequisites": " ED PSYCH 505 or 508.",
+        "instructors": [
+          {
+            "firstName": "Oluwafemi",
+            "lastName": "Sunday",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:35.338018+00:00",
+  "course": "art-521",
+  "subject": "ART",
+  "courseNumber": 521,
+  "courseName": "Graduate Painting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ART/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Graduate Painting</b> May be repeated for credit; cumulative maximum 9 hours.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joe",
+            "lastName": "Hedges",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

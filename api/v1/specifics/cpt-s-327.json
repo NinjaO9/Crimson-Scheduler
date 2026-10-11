@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:22.109709+00:00",
+  "course": "cpt-s-327",
+  "subject": "CPT_S",
+  "courseNumber": 327,
+  "courseName": "Fundamentals of Cyber Security and Cryptography",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/327/2/false/true",
+      "response": {
+        "courseDescription": "<b>327 Fundamentals of Cyber Security and Cryptography</b>  Security and privacy principles in modern computers and network communications covering various security protection mechanisms, including cryptography, secure communication protocols, and anonymity techniques.  ",
+        "coursePrerequisites": " CPT S 223 or 233 with a C or better; CPT S 260 or E E 234 with a C or better; CPT S 360 or 370 with a C or better or concurrent enrollment; MATH 216 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

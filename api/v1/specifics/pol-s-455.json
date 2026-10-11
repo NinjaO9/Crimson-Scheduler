@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:54:20.907303+00:00",
+  "course": "pol-s-455",
+  "subject": "POL_S",
+  "courseNumber": 455,
+  "courseName": "The Presidency",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Pol%20S/455/1/false/true",
+      "response": {
+        "courseDescription": "<b>455 The Presidency</b>  Organization and processes of executive institutions at the national level; uses and limits of executive power.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Ritter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

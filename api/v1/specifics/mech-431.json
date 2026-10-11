@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:07.580148+00:00",
+  "course": "mech-431",
+  "subject": "MECH",
+  "courseNumber": 431,
+  "courseName": "Semiconductor Devices",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Semiconductor Devices</b>  Crystal properties, energy bands, semiconductor charge carriers, p-n junctions, field-effect transistors, bipolar junction transistors, optoelectronic devices, integrated circuits.  ",
+        "coursePrerequisites": " CHEM 105; 4 credits of PHYSICS 202, or PHYSICS 202 and 212.",
+        "instructors": [
+          {
+            "firstName": "Jong-Hoon",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

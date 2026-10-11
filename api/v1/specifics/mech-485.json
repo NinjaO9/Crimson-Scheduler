@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:09.473531+00:00",
+  "course": "mech-485",
+  "subject": "MECH",
+  "courseNumber": 485,
+  "courseName": "Computer-aided Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 Computer-aided Engineering</b>  Introduction to the use of finite element techniques in engineering product design and analysis; basic concepts and applications in CAE.  ",
+        "coursePrerequisites": " MECH 215; MECH 310 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Xiaolin",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

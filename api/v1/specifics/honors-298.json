@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:49.315127+00:00",
+  "course": "honors-298",
+  "subject": "HONORS",
+  "courseNumber": 298,
+  "courseName": "Approaches to Global Leadership",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/U%20H/298/1/false/true",
+      "response": {
+        "courseDescription": "<b>298 Approaches to Global Leadership</b>  Leadership in a global context through exploration of critical issues, case studies, and team projects.  S, F grading. ",
+        "coursePrerequisites": "  By Honors College permission only; must be an Honors student.",
+        "instructors": [
+          {
+            "firstName": "Jarvis",
+            "lastName": "Fisher",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

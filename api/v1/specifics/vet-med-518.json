@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:50.145165+00:00",
+  "course": "vet-med-518",
+  "subject": "VET_MED",
+  "courseNumber": 518,
+  "courseName": "Large Animal Applied Anatomy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 Large Animal Applied Anatomy</b>  Applied anatomy of large animals including surgical anatomy.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 512.",
+        "instructors": [
+          {
+            "firstName": "Briedi",
+            "lastName": "Gillespie",
+            "isPrimary": true,
+            "tchEffort": 80
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

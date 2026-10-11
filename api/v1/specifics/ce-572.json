@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:31.133118+00:00",
+  "course": "ce-572",
+  "subject": "CE",
+  "courseNumber": 572,
+  "courseName": "Advanced Pavement Design and Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 Advanced Pavement Design and Analysis</b>  Design of new and rehabilitated asphalt and Portland Cement concrete pavements; mechanistic-empirical design procedures, performance models; deflection-based structural analysis, overlay design, environmental effect; long-term pavement performance (LTPP), and introduction to research topics in pavement engineering.  Required preparation must include CE 473. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Haifang",
+            "lastName": "Wen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:10.989185+00:00",
+  "course": "bio-eng-411",
+  "subject": "BIO_ENG",
+  "courseNumber": 411,
+  "courseName": "Bioengineering Capstone Project II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/411/1/false/true",
+      "response": {
+        "courseDescription": "<b>411 Bioengineering Capstone Project II</b>  Part II of capstone engineering design project; prototype implementation, verification, validation, and delivery.  ",
+        "coursePrerequisites": " BIO ENG 410 with a C or better; admitted to the major in Bioengineering.",
+        "instructors": [
+          {
+            "firstName": "Dmitri",
+            "lastName": "Tolkatchev",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

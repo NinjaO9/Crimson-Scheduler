@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:23.628299+00:00",
+  "course": "med-clin-641",
+  "subject": "MED_CLIN",
+  "courseNumber": 641,
+  "courseName": "Virtual - Clinical Cases: EKG",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/641/1/false/true",
+      "response": {
+        "courseDescription": "<b>641 Virtual - Clinical Cases: EKG</b>  A self-directed online course involving review of cases and electrocardiograms selected by faculty.  S, F grading. ",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Anderson",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Kevin",
+            "lastName": "Hodges",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

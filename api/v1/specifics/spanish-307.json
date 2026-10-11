@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:17.442285+00:00",
+  "course": "spanish-307",
+  "subject": "SPANISH",
+  "courseNumber": 307,
+  "courseName": "Intermediate Speaking and Listening",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/307/1/false/true",
+      "response": {
+        "courseDescription": "<b>307 Intermediate Speaking and Listening</b>  Systematic development of speaking and listening proficiency; emphasis on pronunciation and phonetics. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " SPANISH 204 with a C or better, SPANISH 208 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Hubert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

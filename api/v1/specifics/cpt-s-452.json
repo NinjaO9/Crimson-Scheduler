@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:26.369020+00:00",
+  "course": "cpt-s-452",
+  "subject": "CPT_S",
+  "courseNumber": 452,
+  "courseName": "Compiler Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 Compiler Design</b>  Design of lexical analyzers, syntactic analyzers, intermediate code generators, code optimizers and object code generators.  ",
+        "coursePrerequisites": " CPT S 317 with a C or better; CPT S 355 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Thomas",
+            "lastName": "Gilray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

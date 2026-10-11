@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:05.905606+00:00",
+  "course": "shs-577",
+  "subject": "SHS",
+  "courseNumber": 577,
+  "courseName": "Neurogenic Disorders of Language and Cognition II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/577/1/false/true",
+      "response": {
+        "courseDescription": "<b>577 Neurogenic Disorders of Language and Cognition II</b>  Study of acquired cognitive-communication disorders resulting from diffuse and/or progressive neurological damage.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Kemp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

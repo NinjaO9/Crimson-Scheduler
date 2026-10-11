@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:58.486150+00:00",
+  "course": "vet-med-590",
+  "subject": "VET_MED",
+  "courseNumber": 590,
+  "courseName": "Veterinary Clinical Nutrition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Veterinary Clinical Nutrition</b> May be repeated for credit; cumulative maximum 3 hours. Large and small animal clinical nutrition; nutrient composition; nutritional diseases and practical feeding methods.  S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ramanathan",
+            "lastName": "Kasimanickam",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Cailin",
+            "lastName": "Heinze",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

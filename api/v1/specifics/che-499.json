@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:52.705173+00:00",
+  "course": "che-499",
+  "subject": "CHE",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": "  By instructor permission; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Jean-Sabin",
+            "lastName": "McEwen",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Su",
+            "lastName": "Ha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

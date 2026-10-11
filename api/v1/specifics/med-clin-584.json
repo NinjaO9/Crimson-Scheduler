@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:17.933880+00:00",
+  "course": "med-clin-584",
+  "subject": "MED_CLIN",
+  "courseNumber": 584,
+  "courseName": "Clinical Rotation - Ophthalmology",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/MEDCL/584/1/false/true",
+      "response": {
+        "courseDescription": "<b>584 Clinical Rotation - Ophthalmology</b> May be repeated for credit; cumulative maximum 12 hours. Extension of knowledge, skills, and professional attitudes required for the practice of medicine with a focus on ophthalmologic disorders.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Anjali",
+            "lastName": "Kumar",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Jessica",
+            "lastName": "Weinstein",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

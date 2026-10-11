@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:51.188694+00:00",
+  "course": "vet-med-526",
+  "subject": "VET_MED",
+  "courseNumber": 526,
+  "courseName": "Domestic and Exotic Animal Behavior",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/526/1/false/true",
+      "response": {
+        "courseDescription": "<b>526 Domestic and Exotic Animal Behavior</b>  Focus on the medical relevance of behaviors that can cause diseases, and diseases that can lead to behavior problems in domestic and exotic animals. Cooperative: Open to UI degree-seeking students. S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Elizabeth",
+            "lastName": "Stelow",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

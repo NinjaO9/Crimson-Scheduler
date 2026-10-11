@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:32:56.182457+00:00",
+  "course": "wgss-485",
+  "subject": "WGSS",
+  "courseNumber": 485,
+  "courseName": "Theoretical Issues in Queer Studies",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/WGSS/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 [M] Theoretical Issues in Queer Studies</b>  Theoretical construction and interpretation of sexualities, gender, and identity.  ",
+        "coursePrerequisites": " WGSS 484 or any 300-400-level WGSS course.",
+        "instructors": [
+          {
+            "firstName": "Nishant",
+            "lastName": "Shahani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

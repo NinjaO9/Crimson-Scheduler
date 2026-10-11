@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:10.016576+00:00",
+  "course": "chem-103",
+  "subject": "CHEM",
+  "courseNumber": 103,
+  "courseName": "Concepts in Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/103/1/false/true",
+      "response": {
+        "courseDescription": "<b>103 Concepts in Chemistry</b>  Chemistry preparatory course for students who have not had high school chemistry or do not meet the prerequisites for CHEM 105.  ",
+        "coursePrerequisites": " A minimum ALEKS math placement score of 45%, or concurrent enrollment in or credit for MATH 103, 105, 106, 108, 140, 171, 172, 182, 201, 202, ENGR 107, STAT 205 or 212.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Buckley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:09.893387+00:00",
+  "course": "math-202",
+  "subject": "MATH",
+  "courseNumber": 202,
+  "courseName": "Calculus for Business and Economics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Math/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Calculus for Business and Economics</b>  Differential calculus of the polynomial, exponential, and logarithmic functions; focus on unconstrained and constrained optimization, single and partial differentiation. By department consent, credit may be allowed for two of MATH 140, 171, or 202.  ",
+        "coursePrerequisites": " MATH 106 with a C or better, MATH 201 with a C or better, or a minimum ALEKS math placement score of 80%.  Enrollment not allowed if credit already earned for MATH 140,171 or DATA 121 except by department consent.",
+        "instructors": [
+          {
+            "firstName": "Seong Jun",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

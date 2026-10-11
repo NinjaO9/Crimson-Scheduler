@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:41.885010+00:00",
+  "course": "ce-496",
+  "subject": "CE",
+  "courseNumber": 496,
+  "courseName": "CEE Undergraduate Teaching Assistant",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/496/1/false/true",
+      "response": {
+        "courseDescription": "<b>496 CEE Undergraduate Teaching Assistant</b>  Undergraduate Teaching Assistant position in the Civil and Environmental Engineering Department.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Karl",
+            "lastName": "Olsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

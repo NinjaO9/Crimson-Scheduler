@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:29:18.581826+00:00",
+  "course": "com-486",
+  "subject": "COM",
+  "courseNumber": 486,
+  "courseName": "Crisis Communication",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/486/1/false/true",
+      "response": {
+        "courseDescription": "<b>486 Crisis Communication</b>  Crisis communication in health, environment, public safety, animal health, and other topics. Case studies and application of principles to in-class practice cases.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Chelsea",
+            "lastName": "Thomas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

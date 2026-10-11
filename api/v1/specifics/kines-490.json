@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:36.127428+00:00",
+  "course": "kines-490",
+  "subject": "KINES",
+  "courseNumber": 490,
+  "courseName": "Instructional Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Instructional Practicum</b> May be repeated for credit; cumulative maximum 6 hours.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Landis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

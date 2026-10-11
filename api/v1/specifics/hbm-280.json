@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:51.295108+00:00",
+  "course": "hbm-280",
+  "subject": "HBM",
+  "courseNumber": 280,
+  "courseName": "Hospitality Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/HBM/280/3/false/true",
+      "response": {
+        "courseDescription": "<b>280 Hospitality Systems</b>  Management functions relating to the planning and operation of various lodging, food, and beverage businesses.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Soobin",
+            "lastName": "Seo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

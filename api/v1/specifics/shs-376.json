@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:07:45.143419+00:00",
+  "course": "shs-376",
+  "subject": "SHS",
+  "courseNumber": 376,
+  "courseName": "Speech Sound Disorders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/376/1/false/true",
+      "response": {
+        "courseDescription": "<b>376 Speech Sound Disorders</b>  Clinical phonetics and transcription; evaluation and treatment of atriculatory disorders; delayed phonological acquisition; dysarthria; and dyspraxia.  ",
+        "coursePrerequisites": " SHS 375.",
+        "instructors": [
+          {
+            "firstName": "Emily",
+            "lastName": "Schreiner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

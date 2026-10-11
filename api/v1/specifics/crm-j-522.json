@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:57.642660+00:00",
+  "course": "crm-j-522",
+  "subject": "CRM_J",
+  "courseNumber": 522,
+  "courseName": "Foundations of Quantitative Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Crm%20J/522/2/false/true",
+      "response": {
+        "courseDescription": "<b>522 Foundations of Quantitative Methods</b>  Application of foundational quantitative methods utilized in the field of Criminal Justice and Criminology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dale",
+            "lastName": "Willits",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:47.211565+00:00",
+  "course": "e-e-362",
+  "subject": "E_E",
+  "courseNumber": 362,
+  "courseName": "Power System Laboratory I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/362/1/false/true",
+      "response": {
+        "courseDescription": "<b>362 Power System Laboratory I</b>  Experiments in simulation, modeling, transformers, rotating machines, and transmission lines.  ",
+        "coursePrerequisites": " E E 262 with a C or better; E E 352 with a C or better; concurrent enrollment in E E 361; concurrent enrollment in E E 341; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Shuzheng",
+            "lastName": "Xie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

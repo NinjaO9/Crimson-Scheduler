@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:05.673102+00:00",
+  "course": "soe-340",
+  "subject": "SOE",
+  "courseNumber": 340,
+  "courseName": "Structural Geology and Plate Tectonics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/340/1/false/true",
+      "response": {
+        "courseDescription": "<b>340 [M] Structural Geology and Plate Tectonics</b>  Basic understanding and techniques of working in deformed rocks in mountain belts. Field trip required.  ",
+        "coursePrerequisites": " One of MATH 106, 108, 140, 171, or a minimum ALEKS math placement score of 80%; SOE 210.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Pelch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

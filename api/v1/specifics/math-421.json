@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:29.369340+00:00",
+  "course": "math-421",
+  "subject": "MATH",
+  "courseNumber": 421,
+  "courseName": "Algebraic Structures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 [M] Algebraic Structures</b>  Properties of algebraic structures and their homomorphisms, semi-groups, groups, rings, unique factorization domains, fields.  ",
+        "coursePrerequisites": " MATH 301 with a C or better.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

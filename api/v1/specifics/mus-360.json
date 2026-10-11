@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:16.663141+00:00",
+  "course": "mus-360",
+  "subject": "MUS",
+  "courseNumber": 360,
+  "courseName": "History of Music: 1650 - 1850",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/360/1/false/true",
+      "response": {
+        "courseDescription": "<b>360 [M] History of Music: 1650 - 1850</b>  History and style of western art music from 1650 to 1850; selected topics in ethnomusicology.  ",
+        "coursePrerequisites": " MUS 359 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Melissa",
+            "lastName": "Parkhurst",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

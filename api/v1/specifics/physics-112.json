@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:12.628324+00:00",
+  "course": "physics-112",
+  "subject": "PHYSICS",
+  "courseNumber": 112,
+  "courseName": "General Physics Lab II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/112/1/false/true",
+      "response": {
+        "courseDescription": "<b>112 General Physics Lab II</b>  Algebra/trigonometry-based physics lab; topics in electricity, magnetism, optical phenomena; heavy emphasis on group work; oriented toward non-physical science majors.  ",
+        "coursePrerequisites": " PHYSICS 102 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Izabella",
+            "lastName": "Pjecha",
+            "isPrimary": true,
+            "tchEffort": 95
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

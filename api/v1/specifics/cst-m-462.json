@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:26.167293+00:00",
+  "course": "cst-m-462",
+  "subject": "CST_M",
+  "courseNumber": 462,
+  "courseName": "Planning and Scheduling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/462/1/false/true",
+      "response": {
+        "courseDescription": "<b>462 Planning and Scheduling</b>  Methods, principles, and concepts required to plan and schedule construction projects; introduction to scheduling software.  ",
+        "coursePrerequisites": " CE 317 with a C or better, CON E 361 with a C or better, or CST M 371 with a C or better; admitted to the major in Construction Management or Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Di",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

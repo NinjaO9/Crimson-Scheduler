@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:14.561685+00:00",
+  "course": "phardsci-510",
+  "subject": "PHARDSCI",
+  "courseNumber": 510,
+  "courseName": "Basic and Clinical Pharmacogenomics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRSC/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Basic and Clinical Pharmacogenomics</b>  Introduction to the science involving pharmacogenomics and how this knowledge is clinically applied to individualized patient therapy.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Sayed",
+            "lastName": "Daoud",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

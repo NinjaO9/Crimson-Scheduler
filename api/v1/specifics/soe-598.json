@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:13.260280+00:00",
+  "course": "soe-598",
+  "subject": "SOE",
+  "courseNumber": 598,
+  "courseName": "Seminar",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/SOE/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Seminar</b> May be repeated for credit; cumulative maximum 3 hours. Research papers presented by students, faculty, and visiting scientists on geological research. Credit not granted for both SOE 498 and SOE 598.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jonah",
+            "lastName": "Piovia-Scott",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

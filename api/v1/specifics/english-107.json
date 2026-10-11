@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:44.489349+00:00",
+  "course": "english-107",
+  "subject": "ENGLISH",
+  "courseNumber": 107,
+  "courseName": "Writing Tutorial for Multilingual Writers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/107/1/false/true",
+      "response": {
+        "courseDescription": "<b>107 Writing Tutorial for Multilingual Writers</b> May be repeated for credit; cumulative maximum 5 hours. Student-centered group tutorial focusing on writing improvement usually connected to the ENGLISH 105 course.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeannie",
+            "lastName": "Bennett",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Angela",
+            "lastName": "Mitchell",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

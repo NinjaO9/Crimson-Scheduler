@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:08.994355+00:00",
+  "course": "mech-476",
+  "subject": "MECH",
+  "courseNumber": 476,
+  "courseName": "Advanced Manufacturing Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/476/1/false/true",
+      "response": {
+        "courseDescription": "<b>476 Advanced Manufacturing Engineering</b>  Advanced topics in manufacturing processes, including interrelationships between the properties of the material, the manufacturing process and design of components. Credit not granted for both MECH 476 and MECH 576.  ",
+        "coursePrerequisites": " MECH 310.",
+        "instructors": [
+          {
+            "firstName": "Dave",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

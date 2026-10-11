@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:11.136453+00:00",
+  "course": "mus-253",
+  "subject": "MUS",
+  "courseNumber": 253,
+  "courseName": "Materials and Structures of Music II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/253/1/false/true",
+      "response": {
+        "courseDescription": "<b>253 Materials and Structures of Music II</b>  Analysis and composition of diatonic and initial chromatic harmony, figured bass, two-voice counterpoint, and phrase structure.  ",
+        "coursePrerequisites": " MUS 251 with a C or better; MUS 252.",
+        "instructors": [
+          {
+            "firstName": "Matias",
+            "lastName": "Vilaplana Stark",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

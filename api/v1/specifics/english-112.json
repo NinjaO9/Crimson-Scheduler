@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:59.495999+00:00",
+  "course": "english-112",
+  "subject": "ENGLISH",
+  "courseNumber": 112,
+  "courseName": "Language in the Real World",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Fall/2026/Engl/112/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Fall/2026/Engl/112/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

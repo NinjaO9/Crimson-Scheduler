@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:17.617184+00:00",
+  "course": "amdt-310",
+  "subject": "AMDT",
+  "courseNumber": 310,
+  "courseName": "Advanced Apparel Assembly",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Advanced Apparel Assembly</b>  Advanced assembly techniques for a range of textiles and multi-layer garments; emphasis of high-quality execution on final products.  ",
+        "coursePrerequisites": " AMDT 211; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Han Ah",
+            "lastName": "Yoo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:43.990626+00:00",
+  "course": "dtc-392",
+  "subject": "DTC",
+  "courseNumber": 392,
+  "courseName": "Video Games Theories and Histories",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/392/1/false/true",
+      "response": {
+        "courseDescription": "<b>392 Video Games Theories and Histories</b>  History and theory of video games with a focus on innovation and cultural impact.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Diamond",
+            "lastName": "Beverly-Porter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

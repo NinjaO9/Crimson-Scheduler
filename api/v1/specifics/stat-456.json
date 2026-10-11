@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:17.055166+00:00",
+  "course": "stat-456",
+  "subject": "STAT",
+  "courseNumber": 456,
+  "courseName": "Introduction to Statistical Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Stat/456/1/false/true",
+      "response": {
+        "courseDescription": "<b>456 Introduction to Statistical Theory</b>  Sampling distributions; hypothesis testing and estimation; maximum likelihood; likelihood ratio tests; theory of least squares; nonparametrics. Recommended preparation: One 3-credit 400-level STAT or probability course. (Crosslisted course offered as STAT 456, MATH 456.) Credit not granted for more than one of STAT/MATH 456 or STAT 556. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "   STAT 430 or 443.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

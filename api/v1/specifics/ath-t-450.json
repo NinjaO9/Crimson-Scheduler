@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:53.707978+00:00",
+  "course": "ath-t-450",
+  "subject": "ATH_T",
+  "courseNumber": 450,
+  "courseName": "Evidence-Based Practice in Athletic Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 [M] Evidence-Based Practice in Athletic Training</b>  Exploration and application of evidence-based practice through the conduct of scientific inquiry and application of credible evidence.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "Lukas",
+            "lastName": "Krumpl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

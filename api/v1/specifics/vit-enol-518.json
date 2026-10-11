@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:12.837815+00:00",
+  "course": "vit-enol-518",
+  "subject": "VIT_ENOL",
+  "courseNumber": 518,
+  "courseName": "Instrumental Analysis of Grapes, Wines, and Distilled Spirits",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/V%20E/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 Instrumental Analysis of Grapes, Wines, and Distilled Spirits</b>  Lecture material and hands-on lab sessions working with both GC/MS and LC/MS systems for the analysis of complex samples of grapes, wines, and distilled spirits; meets over two weekends during the fall semester.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Tom",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

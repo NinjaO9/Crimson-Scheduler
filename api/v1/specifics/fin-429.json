@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:06.214443+00:00",
+  "course": "fin-429",
+  "subject": "FIN",
+  "courseNumber": 429,
+  "courseName": "Financial Modeling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fin/429/1/false/true",
+      "response": {
+        "courseDescription": "<b>429 Financial Modeling</b>  Corporate finance, portfolio, option pricing, risk management and fixed income modeling.  ",
+        "coursePrerequisites": " FIN 325 with a C or better; FIN 421, 425, 427, or 437, or concurrent enrollment; admitted to a major or minor in the College of Business, or the major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Hao",
+            "lastName": "Xu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

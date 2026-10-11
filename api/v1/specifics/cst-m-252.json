@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:24.384914+00:00",
+  "course": "cst-m-252",
+  "subject": "CST_M",
+  "courseNumber": 252,
+  "courseName": "Construction Administration and Documentation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cst%20M/252/1/false/true",
+      "response": {
+        "courseDescription": "<b>252 Construction Administration and Documentation</b>  Study and understanding of administrative procedures found within construction projects and respective documentation.  ",
+        "coursePrerequisites": " CST M 102 with a C or better; CST M 201 with a C or better; admitted to the major in Construction Management.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

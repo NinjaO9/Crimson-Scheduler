@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:00.974533+00:00",
+  "course": "vet-med-614",
+  "subject": "VET_MED",
+  "courseNumber": 614,
+  "courseName": "Small Animal Community Practice Elective",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/614/1/false/true",
+      "response": {
+        "courseDescription": "<b>614 Small Animal Community Practice Elective</b> May be repeated for credit; cumulative maximum 8 hours. Elective clinical experience with the Small Animal Medicine Local Practice Service in the Small Animal Clinic, Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Jenna",
+            "lastName": "Waltzek",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Matt",
+            "lastName": "Mason",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Jessica",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 34
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

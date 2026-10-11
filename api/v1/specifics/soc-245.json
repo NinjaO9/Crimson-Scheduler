@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:09:11.750169+00:00",
+  "course": "soc-245",
+  "subject": "SOC",
+  "courseNumber": 245,
+  "courseName": "Sociology of Sport",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Soc/245/1/false/true",
+      "response": {
+        "courseDescription": "<b>245 Sociology of Sport</b>  Sociological study of sport in America.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Thomas",
+            "lastName": "Rotolo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

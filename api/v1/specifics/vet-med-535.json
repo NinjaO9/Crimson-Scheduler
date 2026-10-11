@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:51.855274+00:00",
+  "course": "vet-med-535",
+  "subject": "VET_MED",
+  "courseNumber": 535,
+  "courseName": "Veterinary Virology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/535/1/false/true",
+      "response": {
+        "courseDescription": "<b>535 Veterinary Virology</b>  Virology for the professional veterinary student.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Korakrit",
+            "lastName": "Poonsuk",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Thomas",
+            "lastName": "Waltzek",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Colleen",
+            "lastName": "Lynch",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Tryssa",
+            "lastName": "de Ruyter",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

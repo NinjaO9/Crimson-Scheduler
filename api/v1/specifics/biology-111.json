@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:19:27.090869+00:00",
+  "course": "biology-111",
+  "subject": "BIOLOGY",
+  "courseNumber": 111,
+  "courseName": "Laboratory Experiments in Biology and Genetics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Biol/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 Laboratory Experiments in Biology and Genetics</b>  Scientific method and its application to a diverse range of biology and genetics topics and research questions.  Credit not granted towards elective requirements for majors in the School of Biological Sciences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Gunjan",
+            "lastName": "Gakhar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

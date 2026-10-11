@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:21.717645+00:00",
+  "course": "med-clin-626",
+  "subject": "MED_CLIN",
+  "courseNumber": 626,
+  "courseName": "Psychiatry - Ambulatory",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/MEDCL/626/1/false/true",
+      "response": {
+        "courseDescription": "<b>626 Psychiatry - Ambulatory</b> May be repeated for credit; cumulative maximum 12 hours. Knowledge, skills, and professional attitudes that practitioners of psychiatry encounter in outpatient settings.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Lavin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

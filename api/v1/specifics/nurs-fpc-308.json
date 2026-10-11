@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:07.603354+00:00",
+  "course": "nurs-fpc-308",
+  "subject": "NURS_FPC",
+  "courseNumber": 308,
+  "courseName": "Professional Development II: Evidence Based Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 [M] Professional Development II: Evidence Based Practice</b>  Second in professional development series; focuses on developing clinical decision making that utilizes evidence through the integration of current scientific research.  ",
+        "coursePrerequisites": " NURS FPC 306; NURS FPC 311; NURS FPC 315; NURS FPC 316; NURS FPC 317.",
+        "instructors": [
+          {
+            "firstName": "Dawn",
+            "lastName": "Huston",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Robyn",
+            "lastName": "Maehren",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Christina",
+            "lastName": "Brumley",
+            "isPrimary": true,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

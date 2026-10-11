@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:59.307173+00:00",
+  "course": "mktg-480",
+  "subject": "MKTG",
+  "courseNumber": 480,
+  "courseName": "Business to Business Marketing",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Mktg/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Business to Business Marketing</b>  Marketing strategies for creating customer and firm value in business-to-business markets.  ",
+        "coursePrerequisites": " MKTG 360; admitted to a major or minor in the College of Business, or Professional Sales certificate.",
+        "instructors": [
+          {
+            "firstName": "Rhonda",
+            "lastName": "Hammond",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

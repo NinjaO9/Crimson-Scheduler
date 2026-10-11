@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:22.325838+00:00",
+  "course": "pl-p-525",
+  "subject": "PL_P",
+  "courseNumber": 525,
+  "courseName": "Field Plant Pathology and Mycology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Pl%20P/525/1/false/true",
+      "response": {
+        "courseDescription": "<b>525 Field Plant Pathology and Mycology</b>  Diverse plant diseases, disease diagnosis and management in fields, orchards, nurseries; interact directly with diverse agricultural stakeholders. Field trip required. Recommended preparation: PL P 429 or PL P 521.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lindsey",
+            "lastName": "du Toit",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

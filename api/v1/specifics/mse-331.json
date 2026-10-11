@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:32.714967+00:00",
+  "course": "mse-331",
+  "subject": "MSE",
+  "courseNumber": 331,
+  "courseName": "Metallic Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/331/1/false/true",
+      "response": {
+        "courseDescription": "<b>331 Metallic Materials</b>  Major alloy systems and manufacturing processes; materials selection.  ",
+        "coursePrerequisites": " MSE 201 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Qizhen",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

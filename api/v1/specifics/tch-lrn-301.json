@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:20.538227+00:00",
+  "course": "tch-lrn-301",
+  "subject": "TCH_LRN",
+  "courseNumber": 301,
+  "courseName": "Learning and Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Learning and Development</b>  Analysis of the connections among learning theories, human development theories, and educational practice in today's PK-12 classrooms.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eunah",
+            "lastName": "Jo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

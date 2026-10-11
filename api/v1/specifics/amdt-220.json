@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:16.632563+00:00",
+  "course": "amdt-220",
+  "subject": "AMDT",
+  "courseNumber": 220,
+  "courseName": "Historic Costumes and Textiles",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Historic Costumes and Textiles</b>  Global survey of dress and textiles from prehistory to mid-1800s.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Siming",
+            "lastName": "Guo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

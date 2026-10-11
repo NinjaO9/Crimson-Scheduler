@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:46.754971+00:00",
+  "course": "me-499",
+  "subject": "ME",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Jonathan",
+            "lastName": "Steffens",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kimberlee",
+            "lastName": "Hughes",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Mehdi",
+            "lastName": "Hosseinzadeh",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Nandita",
+            "lastName": "Biswas",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Narasimha",
+            "lastName": "Boddeti",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Roland",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sonja",
+            "lastName": "Sargent Sparks",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

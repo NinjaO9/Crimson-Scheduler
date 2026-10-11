@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:04.643665+00:00",
+  "course": "e-e-493",
+  "subject": "E_E",
+  "courseNumber": 493,
+  "courseName": "Protection of Power Systems I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/493/1/false/true",
+      "response": {
+        "courseDescription": "<b>493 Protection of Power Systems I</b>  Analysis and equipment fundamentals of power system protection; symmetrical components, fault calculations; fuses; and relays including burden calculations.  ",
+        "coursePrerequisites": " E E 361 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "S",
+            "lastName": "Lotfifard",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

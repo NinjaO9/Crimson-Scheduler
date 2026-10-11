@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:40.125650+00:00",
+  "course": "i-d-277",
+  "subject": "I_D",
+  "courseNumber": 277,
+  "courseName": "Interior Design Study Tour I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/277/1/false/true",
+      "response": {
+        "courseDescription": "<b>277 Interior Design Study Tour I</b> May be repeated for credit; cumulative maximum 2 hours. Selected issues in the field of interior design in connection with an organized field trip.  ",
+        "coursePrerequisites": " Concurrent enrollment in I D 201.",
+        "instructors": [
+          {
+            "firstName": "Alana",
+            "lastName": "Pulay",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Krikac",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

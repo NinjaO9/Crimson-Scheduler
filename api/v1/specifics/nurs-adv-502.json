@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:58.942651+00:00",
+  "course": "nurs-adv-502",
+  "subject": "NURS_ADV",
+  "courseNumber": 502,
+  "courseName": "Psychiatric Assessment, Diagnosis, and Management of Adults and Geriatrics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/502/1/false/true",
+      "response": {
+        "courseDescription": "<b>502 Psychiatric Assessment, Diagnosis, and Management of Adults and Geriatrics</b>  Introduction to assessment, diagnosis, and management of psychiatric illnesses common in adults and geriatrics.  ",
+        "coursePrerequisites": " NURS ADV 530; NURS ADV 562; admission to PMHNP program.",
+        "instructors": [
+          {
+            "firstName": "Deborah",
+            "lastName": "Eti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

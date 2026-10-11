@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:14.376675+00:00",
+  "course": "english-548",
+  "subject": "ENGLISH",
+  "courseNumber": 548,
+  "courseName": "Seminar in Critical and Cultural Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/548/1/false/true",
+      "response": {
+        "courseDescription": "<b>548 Seminar in Critical and Cultural Theory</b> May be repeated for credit; cumulative maximum 6 hours. Critical and cultural theory relevant to advanced literary studies and /or the advanced study of rhetoric and composition.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nishant",
+            "lastName": "Shahani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

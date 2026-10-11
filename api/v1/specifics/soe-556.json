@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:11.633066+00:00",
+  "course": "soe-556",
+  "subject": "SOE",
+  "courseNumber": 556,
+  "courseName": "Foraging Ecology of Herbivores",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Foraging Ecology of Herbivores</b>  Synthesis of foraging behavior concepts including nutritive quality of forages, digestive and metabolic constraints, and diet and habitat selection. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Shipley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

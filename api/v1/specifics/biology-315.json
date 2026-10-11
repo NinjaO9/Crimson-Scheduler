@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:20:41.436216+00:00",
+  "course": "biology-315",
+  "subject": "BIOLOGY",
+  "courseNumber": 315,
+  "courseName": "Gross and Microanatomy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Gross and Microanatomy</b>  Gross and microscopic anatomy of the human body.  Recommended for pre-health care professionals only.  ",
+        "coursePrerequisites": " At least 3 credits of BIOLOGY; sophomore standing; cumulative GPA 2.5 or better.",
+        "instructors": [
+          {
+            "firstName": "Edward",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

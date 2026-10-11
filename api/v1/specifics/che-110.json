@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:48.943787+00:00",
+  "course": "che-110",
+  "subject": "CHE",
+  "courseNumber": 110,
+  "courseName": "Introduction to Chemical Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Introduction to Chemical Engineering</b>  Introduction to chemical engineering; development of problem-solving skills.  ",
+        "coursePrerequisites": " CHE 101 with a C or better; CHEM 105 with a C or better or concurrent enrollment in CHEM 106, 345, or 348; MATH 171 with a C or better or concurrent enrollment in MATH 172, 182, 273, or 315.",
+        "instructors": [
+          {
+            "firstName": "Su",
+            "lastName": "Ha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

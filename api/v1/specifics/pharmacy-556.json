@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:20.561680+00:00",
+  "course": "pharmacy-556",
+  "subject": "PHARMACY",
+  "courseNumber": 556,
+  "courseName": "Pharmacy Practice and Professional Development V",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Pharmacy Practice and Professional Development V</b>  Enhanced development of the essential skills, attitudes, and values for practicing health care professionals.  ",
+        "coursePrerequisites": "  PHARMACY 543.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

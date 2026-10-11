@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:34.664506+00:00",
+  "course": "math-541",
+  "subject": "MATH",
+  "courseNumber": 541,
+  "courseName": "Complex Variables",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/541/1/false/true",
+      "response": {
+        "courseDescription": "<b>541 Complex Variables</b>  Complex numbers and complex-valued functions of one complex variable; analytic functions and Cauchy-Riemann equations; differentiation and contour integration; Cauchy integral theorem; Taylor and Laurent series; residues; conformal mapping; applications to potential theory. Required preparation must include differential equations. Credit not granted for both MATH 441 and MATH 541. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nikolay",
+            "lastName": "Strigul",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

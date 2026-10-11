@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:03.902421+00:00",
+  "course": "nurs-adv-545",
+  "subject": "NURS_ADV",
+  "courseNumber": 545,
+  "courseName": "Therapeutic Modalities II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/545/1/false/true",
+      "response": {
+        "courseDescription": "<b>545 Therapeutic Modalities II</b>  PMHNP practicum experience with focused training in theory of individual and group therapies applicable across lifespan and cross-culturally.  ",
+        "coursePrerequisites": " NURS ADV 544.",
+        "instructors": [
+          {
+            "firstName": "Deborah",
+            "lastName": "Eti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:40.820908+00:00",
+  "course": "ce-473",
+  "subject": "CE",
+  "courseNumber": 473,
+  "courseName": "Pavement Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/473/1/false/true",
+      "response": {
+        "courseDescription": "<b>473 Pavement Design</b>  Pavement performance evaluation, material characterization, traffic analysis, pavement structural response analysis, transfer function application, and pavement design procedures for both flexible and rigid pavements. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "  CE 317; ECONS 101 or 102; CE 322 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Haifang",
+            "lastName": "Wen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

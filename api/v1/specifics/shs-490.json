@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:02.714829+00:00",
+  "course": "shs-490",
+  "subject": "SHS",
+  "courseNumber": 490,
+  "courseName": "Special Topics in Speech and Hearing Sciences",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Special Topics in Speech and Hearing Sciences</b> May be repeated for credit; cumulative maximum 9 hours. Study of specialized topics in speech and hearing sciences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "VanDam",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Amy",
+            "lastName": "Kemp",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Katy",
+            "lastName": "Cabbage",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:12.339727+00:00",
+  "course": "bio-eng-481",
+  "subject": "BIO_ENG",
+  "courseNumber": 481,
+  "courseName": "Advanced Topics in Bioengineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/481/1/false/true",
+      "response": {
+        "courseDescription": "<b>481 Advanced Topics in Bioengineering</b> May be repeated for credit; cumulative maximum 6 hours. Advanced topics in bioengineering.  ",
+        "coursePrerequisites": "  By instructor permission; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Dmitri",
+            "lastName": "Tolkatchev",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:19.779266+00:00",
+  "course": "amdt-430",
+  "subject": "AMDT",
+  "courseNumber": 430,
+  "courseName": "Soft Goods Supply Chain Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Soft Goods Supply Chain Management</b>  Stages and functional areas of soft goods supply chain management.  ",
+        "coursePrerequisites": " AMDT 318; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Min Jung",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

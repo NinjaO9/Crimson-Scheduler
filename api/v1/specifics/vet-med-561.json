@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:54.719812+00:00",
+  "course": "vet-med-561",
+  "subject": "VET_MED",
+  "courseNumber": 561,
+  "courseName": "Clinical Specialties",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Clinical Specialties</b>  This course includes clinical disciplines that are not considered core internal medicine, such as ophthalmology and dermatology.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Cassidy",
+            "lastName": "Cordon",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jaycie",
+            "lastName": "Riesberg",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Karen",
+            "lastName": "Kline",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Kevin",
+            "lastName": "Kaiser",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Stacey",
+            "lastName": "Holz",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:58:48.998288+00:00",
+  "course": "psych-342",
+  "subject": "PSYCH",
+  "courseNumber": 342,
+  "courseName": "Assessment and Treatment of Dual Diagnosis",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Psych/342/1/false/true",
+      "response": {
+        "courseDescription": "<b>342 Assessment and Treatment of Dual Diagnosis</b>  Development of conceptual frameworks to guide the treatment and research of patient's co-occurring chemical dependency and psychiatric disorders.  Recommended preparation:  PSYCH 105.  ",
+        "coursePrerequisites": " PSYCH 333.",
+        "instructors": [
+          {
+            "firstName": "Herry",
+            "lastName": "Patel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

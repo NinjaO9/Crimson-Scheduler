@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:26.540667+00:00",
+  "course": "cpt-s-453",
+  "subject": "CPT_S",
+  "courseNumber": 453,
+  "courseName": "Graph Theory",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/453/1/false/true",
+      "response": {
+        "courseDescription": "<b>453 Graph Theory</b>  Graphs and their applications, directed graphs, trees, networks, Eulerian and Hamiltonian paths, matrix representations, construction of algorithms. Required preparation must include linear algebra.  Recommended preparation: MATH 301. (Crosslisted course offered as MATH 453, CPT S 453.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 220, 225, or 230.",
+        "instructors": [
+          {
+            "firstName": "Garrett",
+            "lastName": "Kepler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

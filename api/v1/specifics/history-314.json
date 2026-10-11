@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:19:35.972172+00:00",
+  "course": "history-314",
+  "subject": "HISTORY",
+  "courseNumber": 314,
+  "courseName": "The Era of the American Revolution",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/314/1/false/true",
+      "response": {
+        "courseDescription": "<b>314 The Era of the American Revolution</b>  The origins of the American Revolution, the War of Independence, and the emergence of republican government and society.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lawrence",
+            "lastName": "Hatter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

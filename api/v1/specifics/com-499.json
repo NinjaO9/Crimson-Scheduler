@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:29:48.269173+00:00",
+  "course": "com-499",
+  "subject": "COM",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By interview only.",
+        "instructors": [
+          {
+            "firstName": "Celia",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

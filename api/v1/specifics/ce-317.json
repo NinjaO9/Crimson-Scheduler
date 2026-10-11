@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:35.250564+00:00",
+  "course": "ce-317",
+  "subject": "CE",
+  "courseNumber": 317,
+  "courseName": "Geotechnical Engineering I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/317/1/false/true",
+      "response": {
+        "courseDescription": "<b>317 [M] Geotechnical Engineering I</b>  Structure, index properties, and classification of soils; compaction; effective stress; seepage; consolidation and shear strength.  ",
+        "coursePrerequisites": " CE 215 with a C or better; CE 315 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Zhijie",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

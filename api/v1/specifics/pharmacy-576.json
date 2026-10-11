@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:22.420904+00:00",
+  "course": "pharmacy-576",
+  "subject": "PHARMACY",
+  "courseNumber": 576,
+  "courseName": "Journal Club",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Journal Club</b>  Practicing literature evaluation skills through reviewing, presenting, and applying information from landmark trials.  S, F grading. ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Terri",
+            "lastName": "Levien",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

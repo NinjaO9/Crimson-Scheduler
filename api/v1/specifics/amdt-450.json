@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:20.279957+00:00",
+  "course": "amdt-450",
+  "subject": "AMDT",
+  "courseNumber": 450,
+  "courseName": "Strategy Planning and Decision Making",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 [M] Strategy Planning and Decision Making</b>  Examination and synthesis of advanced merchandising theory; strategic planning, decision-making and the role of technology in the textile and apparel industry.  ",
+        "coursePrerequisites": " AMDT 307; AMDT 318; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Jihyeong",
+            "lastName": "Son",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

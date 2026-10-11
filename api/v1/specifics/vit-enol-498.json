@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:12.507819+00:00",
+  "course": "vit-enol-498",
+  "subject": "VIT_ENOL",
+  "courseNumber": 498,
+  "courseName": "Professional Work Experience/Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20E/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 Professional Work Experience/Internship</b> May be repeated for credit; cumulative maximum 4 hours. Undergraduate professional experience or internship course designed to complement the academic program, provide practical learning, and facilitate the transition to industry; one credit per 45 hours of approved experience.  S, F grading. ",
+        "coursePrerequisites": " By department permission; VIT ENOL 113; VIT ENOL 280.",
+        "instructors": [
+          {
+            "firstName": "Jean",
+            "lastName": "Dodson Peterson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

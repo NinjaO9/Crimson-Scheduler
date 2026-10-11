@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:28:34.242407+00:00",
+  "course": "com-464",
+  "subject": "COM",
+  "courseNumber": 464,
+  "courseName": "Gender and the Media",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Fall/2026/Com/464/2/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Fall/2026/Com/464/2/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

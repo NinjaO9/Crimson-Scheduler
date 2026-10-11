@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:00.828669+00:00",
+  "course": "nurs-adv-513",
+  "subject": "NURS_ADV",
+  "courseNumber": 513,
+  "courseName": "Primary Care I: Health Promotion, Disease Prevention, and Disease Detection Across the Lifespan",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/513/1/false/true",
+      "response": {
+        "courseDescription": "<b>513 Primary Care I: Health Promotion, Disease Prevention, and Disease Detection Across the Lifespan</b>  Primary care approaches to health promotion, disease prevention, risk reduction, and disease detection for individuals and families across the life span.  ",
+        "coursePrerequisites": " NURS ADV 508; NURS ADV 509; concurrent enrollment in NURS ADV 514.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Hanlon Wilde",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

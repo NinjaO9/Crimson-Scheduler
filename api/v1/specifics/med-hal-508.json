@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:23.949131+00:00",
+  "course": "med-hal-508",
+  "subject": "MED_HAL",
+  "courseNumber": 508,
+  "courseName": "U.S. Healthcare Systems: From Micro to Macro",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Fall/2026/MEDHL/508/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Fall/2026/MEDHL/508/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

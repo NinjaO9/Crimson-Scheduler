@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:32.193233+00:00",
+  "course": "english-352",
+  "subject": "ENGLISH",
+  "courseNumber": 352,
+  "courseName": "Creative Writing: Poetry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/352/1/false/true",
+      "response": {
+        "courseDescription": "<b>352 Creative Writing: Poetry</b>  Workshop approach to poetry writing.  ",
+        "coursePrerequisites": " ENGLISH 251 or 252.",
+        "instructors": [
+          {
+            "firstName": "Cameron",
+            "lastName": "McGill",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

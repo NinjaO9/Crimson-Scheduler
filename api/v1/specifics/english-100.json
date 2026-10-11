@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:14.619900+00:00",
+  "course": "english-100",
+  "subject": "ENGLISH",
+  "courseNumber": 100,
+  "courseName": "Introductory College Composition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/100/1/false/true",
+      "response": {
+        "courseDescription": "<b>100 Introductory College Composition</b>  Designed to introduce students to writing and reading in the university.  ",
+        "coursePrerequisites": " Appropriate Writing Exam score.",
+        "instructors": [
+          {
+            "firstName": "Caroline",
+            "lastName": "Hall",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

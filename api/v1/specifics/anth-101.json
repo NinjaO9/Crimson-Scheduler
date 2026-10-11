@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:44.665163+00:00",
+  "course": "anth-101",
+  "subject": "ANTH",
+  "courseNumber": 101,
+  "courseName": "Introduction to Anthropology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Anth/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Introduction to Anthropology</b>  Explores what it means to be human through biological anthropology (human evolution), archaeology (material remains of past peoples), sociocultural anthropology (present peoples), and linguistics (language).  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Richardson",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Ollie",
+            "lastName": "Shannon",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

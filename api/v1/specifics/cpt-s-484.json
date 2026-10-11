@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:28.310632+00:00",
+  "course": "cpt-s-484",
+  "subject": "CPT_S",
+  "courseNumber": 484,
+  "courseName": "Software Requirements",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/484/1/false/true",
+      "response": {
+        "courseDescription": "<b>484 Software Requirements</b>  Elicitation, analysis, specification, and validation of software requirements as well as the management of requirements during the software life cycle.  ",
+        "coursePrerequisites": " CPT S 322 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Bolong",
+            "lastName": "Zeng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

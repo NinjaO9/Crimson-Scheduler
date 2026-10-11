@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:40.628899+00:00",
+  "course": "i-d-312",
+  "subject": "I_D",
+  "courseNumber": 312,
+  "courseName": "Interior Design Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/312/1/false/true",
+      "response": {
+        "courseDescription": "<b>312 [M] Interior Design Theory</b>  Theory, principles, and determinants of interior design applied to current practice.  ",
+        "coursePrerequisites": " Admitted to the major in Interior Design.",
+        "instructors": [
+          {
+            "firstName": "Laura",
+            "lastName": "Witham",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

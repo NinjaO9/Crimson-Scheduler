@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:16.997586+00:00",
+  "course": "cs-166",
+  "subject": "CS",
+  "courseNumber": 166,
+  "courseName": "Discrete Mathematics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/166/1/false/true",
+      "response": {
+        "courseDescription": "<b>166 Discrete Mathematics</b>  Introduction to the theoretical foundations of computing. Combinatorics, relations, trees, graphs, Boolean algebra, proof methods, and discrete probability as applied to computer science.  ",
+        "coursePrerequisites": " CS 122 with a C or better or concurrent enrollment; MATH 171 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Farhana",
+            "lastName": "Kabir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:31.061207+00:00",
+  "course": "univ-199",
+  "subject": "UNIV",
+  "courseNumber": 199,
+  "courseName": "Introduction to Directed Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univs/199/1/false/true",
+      "response": {
+        "courseDescription": "<b>199 Introduction to Directed Research</b> May be repeated for credit; cumulative maximum 12 hours. Introduction to independent research, scholarship, reading analysis, creative project, or field experiences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sutton",
+            "lastName": "Mooney",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Mary",
+            "lastName": "Lanier",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

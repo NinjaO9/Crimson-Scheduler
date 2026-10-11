@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:54:20.747137+00:00",
+  "course": "pol-s-450",
+  "subject": "POL_S",
+  "courseNumber": 450,
+  "courseName": "The Legislative Process",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 [M] The Legislative Process</b>  Role of legislatures in a democratic system; problems of representation; election and tenure of lawmakers; legislative organization and procedures.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Ritter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

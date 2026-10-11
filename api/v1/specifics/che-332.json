@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:50.123027+00:00",
+  "course": "che-332",
+  "subject": "CHE",
+  "courseNumber": 332,
+  "courseName": "Fluid Mechanics and Heat Transfer",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 Fluid Mechanics and Heat Transfer</b>  Design calculations, operations, and evaluation of equipment used in fluid flow, heat transfer, and evaporation.  ",
+        "coursePrerequisites": " CHE 302 with a C or better or concurrent enrollment; CHE 211 and 310 with a C or better; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Thiessen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

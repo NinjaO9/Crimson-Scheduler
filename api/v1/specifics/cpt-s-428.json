@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:24.578287+00:00",
+  "course": "cpt-s-428",
+  "subject": "CPT_S",
+  "courseNumber": 428,
+  "courseName": "Software Security and Reverse Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/428/1/false/true",
+      "response": {
+        "courseDescription": "<b>428 Software Security and Reverse Engineering</b>  Key aspects of cyber security with an emphasis on software and systems security focusing on concepts, principles, methodologies, and techniques for measuring and defending the various security properties of both operating systems and application software. Credit not granted for both CPT S 428 and CPT S 528.  ",
+        "coursePrerequisites": " CPT S 327 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Xu",
+            "lastName": "Lin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

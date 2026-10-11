@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:56.977053+00:00",
+  "course": "crm-j-498",
+  "subject": "CRM_J",
+  "courseNumber": 498,
+  "courseName": "The Complex Social Interaction Bodycam Research Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Crm%20J/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 The Complex Social Interaction Bodycam Research Lab</b> May be repeated for credit; cumulative maximum 12 hours. Experimental research conducted under the jurisdiction of an approving faculty member; may include analysis of individual, situational, and environmental factors on police interactions, examination of the influence of various contextual factors on community policing dynamics, and critical examination of police decision-making and accountability in complex social interactions.  S, F grading. ",
+        "coursePrerequisites": " By instructor permission; CRM J 101.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Makin",
+            "isPrimary": true,
+            "tchEffort": 95
+          },
+          {
+            "firstName": "Samantha",
+            "lastName": "Bailey",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Christina",
+            "lastName": "Shellabarger",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

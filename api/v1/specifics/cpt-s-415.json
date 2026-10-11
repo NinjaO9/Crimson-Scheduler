@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:23.162129+00:00",
+  "course": "cpt-s-415",
+  "subject": "CPT_S",
+  "courseNumber": 415,
+  "courseName": "Big Data",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Big Data</b>  Big data models, databases and query languages, modern distributed database systems and algorithms. (Crosslisted course offered as CPT S 415, CS 415.)  ",
+        "coursePrerequisites": " CPT S 215, 223, or 233, with a C or better; admitted to the major or minor in Computer Science, Computer Engineering, Electrical Engineering, Software Engineering, Data Analytics, or Cybersecurity.",
+        "instructors": [
+          {
+            "firstName": "Srinivasulu",
+            "lastName": "Badri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

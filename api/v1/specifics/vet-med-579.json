@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:57.002937+00:00",
+  "course": "vet-med-579",
+  "subject": "VET_MED",
+  "courseNumber": 579,
+  "courseName": "Advanced Equine Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/579/1/false/true",
+      "response": {
+        "courseDescription": "<b>579 Advanced Equine Medicine</b>  Advanced topics in pathophysiology, clinical signs, diagnosis, treatment and prognosis of common medical problems of the horse.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 578.",
+        "instructors": [
+          {
+            "firstName": "Sandra",
+            "lastName": "Diaz Yucupicio",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

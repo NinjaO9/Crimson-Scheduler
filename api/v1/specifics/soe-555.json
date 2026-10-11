@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:11.473600+00:00",
+  "course": "soe-555",
+  "subject": "SOE",
+  "courseNumber": 555,
+  "courseName": "System Dynamics Models of Environmental Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/555/1/false/true",
+      "response": {
+        "courseDescription": "<b>555 System Dynamics Models of Environmental Systems</b>  Analysis of environmental system dynamics; development and uses of simulation models using the Stella software on Macintosh. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Allyson M",
+            "lastName": "King",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

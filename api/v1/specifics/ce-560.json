@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:30.641538+00:00",
+  "course": "ce-560",
+  "subject": "CE",
+  "courseNumber": 560,
+  "courseName": "Advanced Hydrology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/560/1/false/true",
+      "response": {
+        "courseDescription": "<b>560 Advanced Hydrology</b>  Principles of the hydrologic cycle including precipitation, lower atmosphere, evaporation, fluid mechanics of free surface flow, overland flow, flow routing, infiltration, baseflow. Recommended preparation: Introductory hydrology and differential equations. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sasha",
+            "lastName": "McLarty",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

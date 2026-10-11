@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:55.633223+00:00",
+  "course": "mbios-579",
+  "subject": "MBIOS",
+  "courseNumber": 579,
+  "courseName": "Molecular Biosciences Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/579/1/false/true",
+      "response": {
+        "courseDescription": "<b>579 Molecular Biosciences Seminar</b> May be repeated for credit; cumulative maximum 10 hours. Required of all graduate students in molecular biosciences.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sascha",
+            "lastName": "Duttke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

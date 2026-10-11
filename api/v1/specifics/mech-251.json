@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:05.250807+00:00",
+  "course": "mech-251",
+  "subject": "MECH",
+  "courseNumber": 251,
+  "courseName": "Numerical Computing for Engineers",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/251/1/false/true",
+      "response": {
+        "courseDescription": "<b>251 Numerical Computing for Engineers</b>  Introduction to numerical computing in the context of problem solving including data analysis, data visualization, MATLAB programming and numerical techniques.  ",
+        "coursePrerequisites": " MATH 172 or 182, or concurrent enrollment; MATH 220 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Xiaolin",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

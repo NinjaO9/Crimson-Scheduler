@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:52:06.340094+00:00",
+  "course": "pol-s-316",
+  "subject": "POL_S",
+  "courseNumber": 316,
+  "courseName": "American Public Policy",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Pol%20S/316/1/false/true",
+      "response": {
+        "courseDescription": "<b>316 American Public Policy</b>  Institutions, processes, and substantive issues of American public policy and policy formation.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Stephan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

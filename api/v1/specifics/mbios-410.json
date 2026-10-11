@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:21.766833+00:00",
+  "course": "mbios-410",
+  "subject": "MBIOS",
+  "courseNumber": 410,
+  "courseName": "Medical Microbiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 Medical Microbiology</b>  Microbial pathogens and their relationship to disease.  ",
+        "coursePrerequisites": " MBIOS 301; MBIOS 305",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Konkel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:03.210440+00:00",
+  "course": "shs-542",
+  "subject": "SHS",
+  "courseNumber": 542,
+  "courseName": "Early Language Development",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Early Language Development</b>  Developmental progression of communication and language in pediatric populations, with an emphasis on assessment and intervention for very young children and families. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Meredith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

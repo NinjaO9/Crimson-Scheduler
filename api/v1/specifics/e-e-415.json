@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:47.385882+00:00",
+  "course": "e-e-415",
+  "subject": "E_E",
+  "courseNumber": 415,
+  "courseName": "Design Project Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Design Project Management</b>  Project scheduling/planning, technical writing, oral presentation skills, working in teams, standards, market-driven organizations.  ",
+        "coursePrerequisites": " C or better in each of E E 234, 341, 352, and 361, OR C or better in each of E E 334, 352, and CPT S 360; C or better or concurrent enrollment in E E 302; admitted to a major in EECS.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

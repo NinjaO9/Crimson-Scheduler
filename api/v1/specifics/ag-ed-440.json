@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:28.538454+00:00",
+  "course": "ag-ed-440",
+  "subject": "AG_ED",
+  "courseNumber": 440,
+  "courseName": "Principles of Career and Technical Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ag%20Ed/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 [M] Principles of Career and Technical Education</b>  Local, state, and national vocational technical educational legislation, policies, programs, and organizations.  ",
+        "coursePrerequisites": " TCH LRN 464 or concurrent enrollment; TCH LRN 465 or concurrent enrollment; TCH LRN 466 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

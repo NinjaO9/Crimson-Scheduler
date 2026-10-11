@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:23.567562+00:00",
+  "course": "pharmacy-586",
+  "subject": "PHARMACY",
+  "courseNumber": 586,
+  "courseName": "Elective II Advanced Practice Experience",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/586/3/false/true",
+      "response": {
+        "courseDescription": "<b>586 Elective II Advanced Practice Experience</b>  Advanced practice experience in acute, ambulatory, or non-traditional patient care.  H, S, F grading. ",
+        "coursePrerequisites": " Successful completion of all didactic coursework (required and elective), including PHARMACY 557; 561; 563; 564; 566.",
+        "instructors": [
+          {
+            "firstName": "Taylor",
+            "lastName": "Bertsch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

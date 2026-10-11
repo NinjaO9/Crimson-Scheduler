@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:11.882432+00:00",
+  "course": "nurs-fpc-455",
+  "subject": "NURS_FPC",
+  "courseNumber": 455,
+  "courseName": "Cultural Safety and Social Justice in Global Society",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURFP/455/1/false/true",
+      "response": {
+        "courseDescription": "<b>455 Cultural Safety and Social Justice in Global Society</b>  Balance of power in health professional relationships, cultural safety, social justice, and diversity in global society.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sheila",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

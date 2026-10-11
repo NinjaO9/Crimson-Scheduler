@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:47:33.866544+00:00",
+  "course": "e-m-540",
+  "subject": "E_M",
+  "courseNumber": 540,
+  "courseName": "Operations Research and Analytics for Managers",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Operations Research and Analytics for Managers</b>  Applying linear, integer, goal programming; network optimization; queuing analysis; dynamic programming; simulation; Markov analysis; and forecasting to engineering management decisions.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Luna",
+            "lastName": "Magpili",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

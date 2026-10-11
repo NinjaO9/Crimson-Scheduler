@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:36.012760+00:00",
+  "course": "amdt-509",
+  "subject": "AMDT",
+  "courseNumber": 509,
+  "courseName": "Technical Apparel Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Technical Apparel Design</b>  Advanced understanding of technical applications in apparel production, development, and construction related to modern manufacturing. Credit not granted for both AMDT 409 and 509.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zihui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

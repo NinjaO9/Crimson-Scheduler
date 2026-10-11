@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:21.066981+00:00",
+  "course": "med-clin-617",
+  "subject": "MED_CLIN",
+  "courseNumber": 617,
+  "courseName": "Pediatrics - Critical Care",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/617/1/false/true",
+      "response": {
+        "courseDescription": "<b>617 Pediatrics - Critical Care</b> May be repeated for credit; cumulative maximum 12 hours. Knowledge, skills, and professional attitudes required for the practice of pediatrics, with a focus on the range of problems commonly encountered in the practice of pediatric critical care medicine.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524 and Course Director permission.",
+        "instructors": [
+          {
+            "firstName": "Hinah",
+            "lastName": "Parker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:54.638949+00:00",
+  "course": "mbios-540",
+  "subject": "MBIOS",
+  "courseNumber": 540,
+  "courseName": "Immunology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Immunology</b>  Principles of basic immunology. Credit not granted for both MBIOS 440 and MBIOS 540. Recommended preparation for graduate students:   Introductory microbiology coursework; concurrent enrollment with MBIOS 548 highly recommended. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alan",
+            "lastName": "Goodman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

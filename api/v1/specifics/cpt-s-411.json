@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:22.983896+00:00",
+  "course": "cpt-s-411",
+  "subject": "CPT_S",
+  "courseNumber": 411,
+  "courseName": "Introduction to Parallel Computing",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Cpt%20S/411/1/false/true",
+      "response": {
+        "courseDescription": "<b>411 Introduction to Parallel Computing</b>  Fundamental principles of parallel computing, parallel programming experience on multicore machines and cluster computers, and design of algorithms and applications in parallel computing. Recommended preparation: CPT S 350.  ",
+        "coursePrerequisites": " CPT S 215, 223, or 233, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Luis",
+            "lastName": "de la Torre",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

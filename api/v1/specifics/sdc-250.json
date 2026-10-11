@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:50.803078+00:00",
+  "course": "sdc-250",
+  "subject": "SDC",
+  "courseNumber": 250,
+  "courseName": "Global History of Design I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SDC/250/1/false/true",
+      "response": {
+        "courseDescription": "<b>250 Global History of Design I</b>  Global developments in design through the seventeenth century CE.  ",
+        "coursePrerequisites": " Admitted to the major in Architectural Studies, Interior Design, or Landscape Architecture.",
+        "instructors": [
+          {
+            "firstName": "Kristina",
+            "lastName": "Borrman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

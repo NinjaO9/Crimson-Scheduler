@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:11.554243+00:00",
+  "course": "afs-101",
+  "subject": "AFS",
+  "courseNumber": 101,
+  "courseName": "Introduction to Agricultural and Food Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AFS/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Introduction to Agricultural and Food Systems</b>  For new undergraduate agricultural and plant sciences majors; an introduction to advising, student success resources, academic skills, goal setting, development of graduation plans, and exploration of professional pathways.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Holly",
+            "lastName": "Henning",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

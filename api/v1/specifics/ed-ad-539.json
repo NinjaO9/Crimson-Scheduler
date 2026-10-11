@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:07.565682+00:00",
+  "course": "ed-ad-539",
+  "subject": "ED_AD",
+  "courseNumber": 539,
+  "courseName": "Applied Research for Educational Leaders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/Ed%20Ad/539/1/false/true",
+      "response": {
+        "courseDescription": "<b>539 Applied Research for Educational Leaders</b>  Integrates the principles, skills, and tools of research into the leadership and managerial practices of educational leaders.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Donald",
+            "lastName": "Vanderholm",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

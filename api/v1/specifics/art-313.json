@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:32.666646+00:00",
+  "course": "art-313",
+  "subject": "ART",
+  "courseNumber": 313,
+  "courseName": "Drawing from the Body",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/313/1/false/true",
+      "response": {
+        "courseDescription": "<b>313 Drawing from the Body</b> May be repeated for credit. Continuation of FINE ART 111. Contemporary discourse surrounding the body; exploration through the practice of drawing and performative actions.  ",
+        "coursePrerequisites": " ART 111.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Holloman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

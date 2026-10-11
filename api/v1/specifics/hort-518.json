@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:07.472320+00:00",
+  "course": "hort-518",
+  "subject": "HORT",
+  "courseNumber": 518,
+  "courseName": "Post-harvest Biology and Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hort/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 [M] Post-harvest Biology and Technology</b>  Physical and physiological basis for handling and storage practices; perishable organ ontogeny and physiological disorders; post-harvest environment requirements. Recommended preparation:  HORT 202. Credit not granted for both HORT 418 and HORT 518. Field trip required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Sharpe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

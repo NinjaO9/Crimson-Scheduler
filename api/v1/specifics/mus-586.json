@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:46:32.669303+00:00",
+  "course": "mus-586",
+  "subject": "MUS",
+  "courseNumber": 586,
+  "courseName": "Seminar in Piano Pedagogy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/586/1/false/true",
+      "response": {
+        "courseDescription": "<b>586 Seminar in Piano Pedagogy</b>  Materials and methods of teaching experiences.  ",
+        "coursePrerequisites": " MUS 502.",
+        "instructors": [
+          {
+            "firstName": "Fabio",
+            "lastName": "Menchetti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

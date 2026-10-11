@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:41.395570+00:00",
+  "course": "anim-sci-440",
+  "subject": "ANIM_SCI",
+  "courseNumber": 440,
+  "courseName": "Physiology of Domestic Animals",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 [M] Physiology of Domestic Animals</b>  Basic animal functions; relationship and difference between domestic animals; measurement of functional processes.  ",
+        "coursePrerequisites": " ANIM SCI 240; BIOLOGY 106; BIOLOGY 107.",
+        "instructors": [
+          {
+            "firstName": "KATIE",
+            "lastName": "SHIRA",
+            "isPrimary": true,
+            "tchEffort": 49
+          },
+          {
+            "firstName": "Gordon",
+            "lastName": "Murdoch",
+            "isPrimary": true,
+            "tchEffort": 51
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

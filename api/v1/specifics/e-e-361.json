@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:47.049300+00:00",
+  "course": "e-e-361",
+  "subject": "E_E",
+  "courseNumber": 361,
+  "courseName": "Electrical Power Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/361/1/false/true",
+      "response": {
+        "courseDescription": "<b>361 Electrical Power Systems</b>  Power system hardware; transformers, and electromechanical machinery; introduction to power system operation.  ",
+        "coursePrerequisites": " E E 321 with a C or better; E E 331 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Shuzheng",
+            "lastName": "Xie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

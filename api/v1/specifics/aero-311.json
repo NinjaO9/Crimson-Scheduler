@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:10.383830+00:00",
+  "course": "aero-311",
+  "subject": "AERO",
+  "courseNumber": 311,
+  "courseName": "Leading People and Effective Communication I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Aero/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Leading People and Effective Communication I</b>  Applied leadership through supervision, mentorship, and case studies; expands on military knowledge, ethics, and communications.  ",
+        "coursePrerequisites": " Concurrent enrollment in AERO 313 required; AERO 201.",
+        "instructors": [
+          {
+            "firstName": "Shelli",
+            "lastName": "Schimke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

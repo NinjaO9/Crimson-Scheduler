@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:23.474135+00:00",
+  "course": "fin-594",
+  "subject": "FIN",
+  "courseNumber": 594,
+  "courseName": "Theory of Industrial Organization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/594/1/false/true",
+      "response": {
+        "courseDescription": "<b>594 Theory of Industrial Organization</b>  Examine different market structures, analyze and predict firm behavior, including prices and output decisions, along with R&amp;D investments, patents, and advertising; consider complete and incomplete information settings in different industries. (Crosslisted course offered as ECONS 594, FIN 594.)  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Felix",
+            "lastName": "Munoz-Garcia",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

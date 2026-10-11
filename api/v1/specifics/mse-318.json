@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:32.048791+00:00",
+  "course": "mse-318",
+  "subject": "MSE",
+  "courseNumber": 318,
+  "courseName": "Materials Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/318/1/false/true",
+      "response": {
+        "courseDescription": "<b>318 Materials Design</b>  Materials selection and processing design routes to develop new materials for engineering applications.  ",
+        "coursePrerequisites": " ECONS 102; MSE 201 with a C or better; MSE 241 with a C or better; STAT 370 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Field",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

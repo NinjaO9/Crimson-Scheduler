@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:34.139207+00:00",
+  "course": "mse-488",
+  "subject": "MSE",
+  "courseNumber": 488,
+  "courseName": "Professional Practice Coop/Internship I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/488/1/false/true",
+      "response": {
+        "courseDescription": "<b>488 Professional Practice Coop/Internship I</b> May be repeated for credit; cumulative maximum 6 hours. Practicum for students admitted to the VCEA Professional Practice and Experiential Learning Program; integration of coursework with on-the-job professional experience. (Crosslisted course offered as ENGR 488, BIO ENG 488, CHE 488, CE 488, CPT S 488, E E 488, ME 488, MSE 488, SDC 488.)  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Hathaway",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

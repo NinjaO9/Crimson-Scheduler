@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:21.361796+00:00",
+  "course": "tch-lrn-321",
+  "subject": "TCH_LRN",
+  "courseNumber": 321,
+  "courseName": "Early Literacy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Early Literacy</b>  Designed for pre-service teachers to link assessment and instruction and guide the development of early reading and writing skills.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Jihee",
+            "lastName": "Im",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

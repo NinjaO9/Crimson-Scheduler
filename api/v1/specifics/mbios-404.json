@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:21.427416+00:00",
+  "course": "mbios-404",
+  "subject": "MBIOS",
+  "courseNumber": 404,
+  "courseName": "Molecular Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 Molecular Biology</b>  Introduction of prokaryotic and eukaryotic genome organization and gene expression, modern molecular techniques, experimental approaches, genome and gene function and analyses.  ",
+        "coursePrerequisites": " MBIOS 301; MBIOS 303; MBIOS 305 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Chengtao",
+            "lastName": "Her",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

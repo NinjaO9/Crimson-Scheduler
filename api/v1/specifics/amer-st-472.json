@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:37.481815+00:00",
+  "course": "amer-st-472",
+  "subject": "AMER_ST",
+  "courseNumber": 472,
+  "courseName": "Race, Justice, and Food Ecosystems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Am%20St/472/1/false/true",
+      "response": {
+        "courseDescription": "<b>472 Race, Justice, and Food Ecosystems</b>  Examines racial inequalities and injustice alongside of movements of change, highlighting the importance of food in a modern world.  (Crosslisted course offered as AMER ST 472, CES 462, ENGLISH 472.)  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Hector",
+            "lastName": "Rendon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

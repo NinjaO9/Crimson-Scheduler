@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:07.236363+00:00",
+  "course": "mech-416",
+  "subject": "MECH",
+  "courseNumber": 416,
+  "courseName": "Mechanical Systems Design I",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/416/1/false/true",
+      "response": {
+        "courseDescription": "<b>416 [M] Mechanical Systems Design I</b>  First term of the year-long capstone design; integrative design in mechanical engineering; multidisciplinary design project considering technical and nontechnical contexts.  ",
+        "coursePrerequisites": " MECH 310; MECH 404; MECH 414 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Xiaolin",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

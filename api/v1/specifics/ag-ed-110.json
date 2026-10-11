@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:28.011377+00:00",
+  "course": "ag-ed-110",
+  "subject": "AG_ED",
+  "courseNumber": 110,
+  "courseName": "Introduction to Agricultural Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ag%20Ed/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Introduction to Agricultural Education</b>  Introduction to Agricultural Education Model, requirements for becoming an agricultural teacher; roles of the agricultural teacher.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

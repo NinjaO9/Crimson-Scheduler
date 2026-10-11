@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:24.240864+00:00",
+  "course": "cst-m-222",
+  "subject": "CST_M",
+  "courseNumber": 222,
+  "courseName": "Culture of Construction Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/222/1/false/true",
+      "response": {
+        "courseDescription": "<b>222 Culture of Construction Management</b>  Introduction to the CM culture with focus on preparation for internships, student competitions, engagement opportunities, and success as a student within the program.  ",
+        "coursePrerequisites": " Admitted to the major in Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Derek",
+            "lastName": "Oliver",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Jason",
+            "lastName": "Peschel",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

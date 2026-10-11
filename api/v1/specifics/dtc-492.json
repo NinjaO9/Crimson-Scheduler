@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:59.873857+00:00",
+  "course": "dtc-492",
+  "subject": "DTC",
+  "courseNumber": 492,
+  "courseName": "Engines and Platforms",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/492/1/false/true",
+      "response": {
+        "courseDescription": "<b>492 Engines and Platforms</b>  A study of software platforms and engines used for media design, with special focus on intuitive tools, rapid work flow, multimedia platform environments, and asset management.  ",
+        "coursePrerequisites": " DTC 355.",
+        "instructors": [
+          {
+            "firstName": "Jordan",
+            "lastName": "Clapper",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

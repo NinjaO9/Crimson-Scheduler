@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:59.160228+00:00",
+  "course": "nurs-adv-503",
+  "subject": "NURS_ADV",
+  "courseNumber": 503,
+  "courseName": "Scientific Inquiry in Nursing",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Scientific Inquiry in Nursing</b>  Scientific inquiry applied to theoretical and philosophical foundations in nursing.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Kelsey",
+            "lastName": "Pascoe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

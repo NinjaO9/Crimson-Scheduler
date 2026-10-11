@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:54.005812+00:00",
+  "course": "vet-med-555",
+  "subject": "VET_MED",
+  "courseNumber": 555,
+  "courseName": "Small Animal Clinical Problem Solving",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/555/1/false/true",
+      "response": {
+        "courseDescription": "<b>555 Small Animal Clinical Problem Solving</b>  Case-based investigation of small animal clinical presentations, diagnosis, and treatment plans.  S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Rance",
+            "lastName": "Sellon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

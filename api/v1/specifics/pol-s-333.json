@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:52:21.325342+00:00",
+  "course": "pol-s-333",
+  "subject": "POL_S",
+  "courseNumber": 333,
+  "courseName": "Development of Marxist Thought",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Development of Marxist Thought</b>  Marxist theory from the original writing of Marx and Engels to contemporary developments.  (Crosslisted course offered as POL S 333, PHIL 333.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ris",
+            "lastName": "Swank",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Travis",
+            "lastName": "Ridout",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

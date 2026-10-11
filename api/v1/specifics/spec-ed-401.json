@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:22:02.713794+00:00",
+  "course": "spec-ed-401",
+  "subject": "SPEC_ED",
+  "courseNumber": 401,
+  "courseName": "Teaching Students with Disabilities",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Fall/2026/Sp%20Ed/401/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Fall/2026/Sp%20Ed/401/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

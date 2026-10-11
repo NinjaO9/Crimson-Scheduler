@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:44.335473+00:00",
+  "course": "data-460",
+  "subject": "DATA",
+  "courseNumber": 460,
+  "courseName": "Statistical Foundations in Artificial Intelligence",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/DATA/460/1/false/true",
+      "response": {
+        "courseDescription": "<b>460 Statistical Foundations in Artificial Intelligence</b>  Statistical foundations of AI, including data ethics, probability for generative models, inference, predictive modeling, statistical learning, and deep learning, emphasizing theory, real-world applications, and ethical implications. (Crosslisted course offered as DATA 460, STAT 460.)  ",
+        "coursePrerequisites": " DATA 219; DATA 324; MATH 216; STAT/DATA 360.",
+        "instructors": [
+          {
+            "firstName": "Bismita",
+            "lastName": "Choudhury",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

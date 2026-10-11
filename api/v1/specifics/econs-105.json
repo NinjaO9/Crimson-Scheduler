@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:22.453333+00:00",
+  "course": "econs-105",
+  "subject": "ECONS",
+  "courseNumber": 105,
+  "courseName": "Introduction to Economic Sciences Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Introduction to Economic Sciences Seminar</b>  For new undergraduate economics majors, an introduction to advising, study options and program of study planning, degree completion, and career planning.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Shanna",
+            "lastName": "Hiscock",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

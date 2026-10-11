@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:22:32.930145+00:00",
+  "course": "history-380",
+  "subject": "HISTORY",
+  "courseNumber": 380,
+  "courseName": "Methods of Teaching Social Studies",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/380/1/false/true",
+      "response": {
+        "courseDescription": "<b>380 Methods of Teaching Social Studies</b>  Methods, resources, selection of content, past and present issues in social studies education.  ",
+        "coursePrerequisites": " Admitted to the major in History or Social Studies.",
+        "instructors": [
+          {
+            "firstName": "Heather",
+            "lastName": "McNamee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

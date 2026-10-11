@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:53.151934+00:00",
+  "course": "che-529",
+  "subject": "CHE",
+  "courseNumber": 529,
+  "courseName": "Chemical Engineering Kinetics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/529/1/false/true",
+      "response": {
+        "courseDescription": "<b>529 Chemical Engineering Kinetics</b>  Interpretation of kinetic data and design of nonideal chemical reactors; fundamentals of heterogeneous catalysis, catalyst preparation, characterization, and theory. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

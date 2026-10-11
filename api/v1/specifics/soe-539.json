@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:56.508284+00:00",
+  "course": "soe-539",
+  "subject": "SOE",
+  "courseNumber": 539,
+  "courseName": "Native Science, Tribal Environmental Policy, and Collaboration",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/539/1/false/true",
+      "response": {
+        "courseDescription": "<b>539 Native Science, Tribal Environmental Policy, and Collaboration</b>  Native science, tribal environmental policy, and collaboration as pertaining to tribes of the Pacific Northwest region of the United States.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Landon",
+            "lastName": "Charlo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

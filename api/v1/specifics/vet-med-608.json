@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:00.096983+00:00",
+  "course": "vet-med-608",
+  "subject": "VET_MED",
+  "courseNumber": 608,
+  "courseName": "Orthopedic Surgery and Sports Medicine - Small Animal",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/608/1/false/true",
+      "response": {
+        "courseDescription": "<b>608 Orthopedic Surgery and Sports Medicine - Small Animal</b>  Clinical rotation emphasizing the diagnostics and treatment of orthopedic and sports medicine-related diseases in small animals.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Bettina",
+            "lastName": "Darveshi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

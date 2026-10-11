@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:18.806723+00:00",
+  "course": "amdt-318",
+  "subject": "AMDT",
+  "courseNumber": 318,
+  "courseName": "Merchandise Buying and Planning",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/318/1/false/true",
+      "response": {
+        "courseDescription": "<b>318 Merchandise Buying and Planning</b>  In-depth study of apparel buying and planning, application of buying and planning principles, problem solving skill development.  ",
+        "coursePrerequisites": " AMDT 250; MATH [QUAN]; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Min Jung",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

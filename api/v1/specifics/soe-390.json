@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:06.170968+00:00",
+  "course": "soe-390",
+  "subject": "SOE",
+  "courseNumber": 390,
+  "courseName": "Living on the Edge: Global Climate Change and Earth History",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/SOE/390/1/false/true",
+      "response": {
+        "courseDescription": "<b>390 Living on the Edge: Global Climate Change and Earth History</b>  Global earth system: ocean, earth, atmosphere, biosphere, and cryosphere; human impact on the climate system; climate change data predictions; debates.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Jodi",
+            "lastName": "Rosso",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

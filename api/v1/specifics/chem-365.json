@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:42.556300+00:00",
+  "course": "chem-365",
+  "subject": "CHEM",
+  "courseNumber": 365,
+  "courseName": "Radioanalytical Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/365/1/false/true",
+      "response": {
+        "courseDescription": "<b>365 Radioanalytical Chemistry</b>  The safe isolation and measurement of radioactive materials, including laboratory safety, radiation detection principles, analytical and radioanalytical chemistry principles, radioactive sample collection and preparation, applied radiation measurements, radionuclide identification, quality assurance, laboratory design and management principles, and chemistry beyond the actinides.  ",
+        "coursePrerequisites": " CHEM 105; CHEM 220; CHEM 361.",
+        "instructors": [
+          {
+            "firstName": "Zachariah",
+            "lastName": "Heiden",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

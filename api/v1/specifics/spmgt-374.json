@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:59.935926+00:00",
+  "course": "spmgt-374",
+  "subject": "SPMGT",
+  "courseNumber": 374,
+  "courseName": "Sport Finance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/374/1/false/true",
+      "response": {
+        "courseDescription": "<b>374 Sport Finance</b>  Introduction to financial analysis, budgeting and revenue acquisition for both for profit and not for profit sport organizations.  ",
+        "coursePrerequisites": " Admitted to the major or minor in Sport Management.",
+        "instructors": [
+          {
+            "firstName": "Tammy",
+            "lastName": "Crawford",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

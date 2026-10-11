@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:12:37.843991+00:00",
+  "course": "h-d-404",
+  "subject": "H_D",
+  "courseNumber": 404,
+  "courseName": "Family and Consumer Sciences Professional Preparation Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/H%20D/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 Family and Consumer Sciences Professional Preparation Seminar</b>  Family and consumer sciences career preparation through examination of career and technical education state processes, professional presentation and participation, FCCLA management, and study of curricula to engage diverse populations.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Deborah",
+            "lastName": "Handy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

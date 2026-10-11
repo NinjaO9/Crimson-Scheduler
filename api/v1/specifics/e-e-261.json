@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:45.067439+00:00",
+  "course": "e-e-261",
+  "subject": "E_E",
+  "courseNumber": 261,
+  "courseName": "Electrical Circuits I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/E%20E/261/1/false/true",
+      "response": {
+        "courseDescription": "<b>261 Electrical Circuits I</b>  Application of fundamental concepts of electrical science in linear circuit analysis; mathematical models of electric components and circuits.  ",
+        "coursePrerequisites": " MATH 315 with a C or better or concurrent enrollment; 4 credits of PHYSICS 202 with a C or better, or PHYSICS 202 and 212, each with a C or better, or PHYSICS 206 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Shuzheng",
+            "lastName": "Xie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

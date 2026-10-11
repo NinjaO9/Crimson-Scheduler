@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:10.502282+00:00",
+  "course": "mil-sci-101",
+  "subject": "MIL_SCI",
+  "courseNumber": 101,
+  "courseName": "The United States Army",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 The United States Army</b>  Role of the Army in contemporary society.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Joshua",
+            "lastName": "Rainwater",
+            "isPrimary": false,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

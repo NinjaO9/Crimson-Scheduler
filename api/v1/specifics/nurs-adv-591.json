@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:07.098305+00:00",
+  "course": "nurs-adv-591",
+  "subject": "NURS_ADV",
+  "courseNumber": 591,
+  "courseName": "Introduction to Mixed Methods and Evaluation",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/NURAD/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Introduction to Mixed Methods and Evaluation</b>  Program development, implementation, and outcomes evaluation in healthcare, primarily from a mixed methods and perspective.  ",
+        "coursePrerequisites": " NURS ADV 503, NURS ADV 504, and NURS ADV 554; or admission to post-master's DNP program and NURS ADV 554.",
+        "instructors": [
+          {
+            "firstName": "Claire",
+            "lastName": "Richards",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Tullamora",
+            "lastName": "Landis",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

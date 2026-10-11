@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:22.834740+00:00",
+  "course": "med-clin-635",
+  "subject": "MED_CLIN",
+  "courseNumber": 635,
+  "courseName": "Clinical Rotation - Topics in Pain Medicine",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/635/1/false/true",
+      "response": {
+        "courseDescription": "<b>635 Clinical Rotation - Topics in Pain Medicine</b> May be repeated for credit; cumulative maximum 12 hours. Evaluation and management of patients with acute and chronic pain from a wide variety of both benign and malignant conditions.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Subeeh",
+            "lastName": "Siddiqui",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

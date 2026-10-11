@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:16.835653+00:00",
+  "course": "cs-122",
+  "subject": "CS",
+  "courseNumber": 122,
+  "courseName": "Data Structures",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/122/1/false/true",
+      "response": {
+        "courseDescription": "<b>122 Data Structures</b>  Advanced programming techniques: data structures, recursion, sorting and searching, and basics of algorithm analysis.  ",
+        "coursePrerequisites": " CS 121 with a C or better, or CS 251 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "McCamish",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

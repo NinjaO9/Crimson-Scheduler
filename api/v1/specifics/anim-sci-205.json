@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:38.694416+00:00",
+  "course": "anim-sci-205",
+  "subject": "ANIM_SCI",
+  "courseNumber": 205,
+  "courseName": "Companion Animal Nutrition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/205/1/false/true",
+      "response": {
+        "courseDescription": "<b>205 Companion Animal Nutrition</b>  Biological concepts with application in nutrition of pet animals, including evolution and selection of pet species and their nutrient requirements.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Linda",
+            "lastName": "Beckett",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

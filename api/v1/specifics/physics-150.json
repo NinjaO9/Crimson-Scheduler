@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:12.795878+00:00",
+  "course": "physics-150",
+  "subject": "PHYSICS",
+  "courseNumber": 150,
+  "courseName": "Physics and Your World",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/150/1/false/true",
+      "response": {
+        "courseDescription": "<b>150 Physics and Your World</b>  Survey of physics as found in everyday phenomena; including many hands-on activities and home experiments.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Allen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

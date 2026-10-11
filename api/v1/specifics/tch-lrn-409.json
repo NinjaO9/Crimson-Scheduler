@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:23.443772+00:00",
+  "course": "tch-lrn-409",
+  "subject": "TCH_LRN",
+  "courseNumber": 409,
+  "courseName": "Curriculum and Assessment for Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/409/1/false/true",
+      "response": {
+        "courseDescription": "<b>409 Curriculum and Assessment for Multilingual Education</b>  Research in curriculum development for and assessment of language minority students.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Omran",
+            "lastName": "Akasha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:10.047768+00:00",
+  "course": "mgmt-491",
+  "subject": "MGMT",
+  "courseNumber": 491,
+  "courseName": "Strategic Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MGMT/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Strategic Management</b>  Capstone course integrating diverse functional knowledge for strategy formulation, implementation and competitive advantage from the perspective of top management.  ",
+        "coursePrerequisites": " FIN 325; I BUS 380; MGTOP 340; MIS 250; MKTG 360; completion of Carson Career Amplifier Tier II or Crimson Pathway I; admitted to a major or minor in the College of Business; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Lily",
+            "lastName": "Zhu",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

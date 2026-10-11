@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:39.456842+00:00",
+  "course": "ce-442",
+  "subject": "CE",
+  "courseNumber": 442,
+  "courseName": "Water and Wastewater Treatment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/442/1/false/true",
+      "response": {
+        "courseDescription": "<b>442 Water and Wastewater Treatment</b>  Water and wastewater treatment processes and systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 341 with a C or better; admitted to the major in Civil Engineering or Environmental Science.",
+        "instructors": [
+          {
+            "firstName": "Indranil",
+            "lastName": "Chowdhury",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:09.583924+00:00",
+  "course": "i-bus-498",
+  "subject": "I_BUS",
+  "courseNumber": 498,
+  "courseName": "International Business Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20Bus/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 International Business Internship</b> May be repeated for credit; cumulative maximum 15 hours. Cooperative educational internship with a business, government or non-profit organization.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Andrew",
+            "lastName": "Perkins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

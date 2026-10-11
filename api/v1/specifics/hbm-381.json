@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:52.100992+00:00",
+  "course": "hbm-381",
+  "subject": "HBM",
+  "courseNumber": 381,
+  "courseName": "Hospitality Leadership and Organizational Behavior",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/HBM/381/2/false/true",
+      "response": {
+        "courseDescription": "<b>381 [M] Hospitality Leadership and Organizational Behavior</b>  Focusing on interpersonal skills and group dynamics; covers key hospitality leadership and management issues. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " B A 203 or B A 211; admitted to CCB major or minor.",
+        "instructors": [
+          {
+            "firstName": "Jenni",
+            "lastName": "Sandstrom",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

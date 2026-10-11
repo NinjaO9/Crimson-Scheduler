@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:06.147496+00:00",
+  "course": "mus-164",
+  "subject": "MUS",
+  "courseNumber": 164,
+  "courseName": "Introduction to Music Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/164/1/false/true",
+      "response": {
+        "courseDescription": "<b>164 Introduction to Music Technology</b>  Music notation software, audio recording and editing, and music specific web design.  ",
+        "coursePrerequisites": " MUS 151 or 251, or concurrent enrollment in either.",
+        "instructors": [
+          {
+            "firstName": "Matias",
+            "lastName": "Vilaplana Stark",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

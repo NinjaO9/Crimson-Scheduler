@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:36.030875+00:00",
+  "course": "soe-310",
+  "subject": "SOE",
+  "courseNumber": 310,
+  "courseName": "Methods in Wildlife Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Methods in Wildlife Ecology</b>  Field and laboratory sampling techniques in wildlife research and management.  ",
+        "coursePrerequisites": " BIOLOGY 106 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Shipley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

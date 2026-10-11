@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:12:08.310900+00:00",
+  "course": "h-d-370",
+  "subject": "H_D",
+  "courseNumber": 370,
+  "courseName": "Introduction to Mindfulness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/H%20D/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Introduction to Mindfulness</b>  Theory and practice of mindfulness including guided practice, emotional intelligence, self and social awareness and responsibility, well-being and relational mindfulness.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mary Kay",
+            "lastName": "Patton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

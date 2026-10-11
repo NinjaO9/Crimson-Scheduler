@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:12.122115+00:00",
+  "course": "mit-530",
+  "subject": "MIT",
+  "courseNumber": 530,
+  "courseName": "Elementary School Social Studies Methods",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/MIT/530/2/false/true",
+      "response": {
+        "courseDescription": "<b>530 Elementary School Social Studies Methods</b>  For candidates admitted to graduate teacher preparation and experienced teachers. Elementary structures of various social sciences; research findings related to instruction; classroom applications and materials.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Ashley",
+            "lastName": "Segadelli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

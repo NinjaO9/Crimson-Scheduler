@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:10.130146+00:00",
+  "course": "mech-540",
+  "subject": "MECH",
+  "courseNumber": 540,
+  "courseName": "Advanced Dynamics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Advanced Dynamics</b>  Newtonian dynamics, rotating coordinate systems; Lagrangian and Hamiltonian mechanics, gyroscopic mechanics, other applications.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hamid",
+            "lastName": "Rad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

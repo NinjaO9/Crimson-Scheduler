@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:29:03.745301+00:00",
+  "course": "com-479",
+  "subject": "COM",
+  "courseNumber": 479,
+  "courseName": "Youth and the Media",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Summer/2026/Com/479/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Summer/2026/Com/479/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

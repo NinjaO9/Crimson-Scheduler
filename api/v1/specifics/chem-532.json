@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:45.890040+00:00",
+  "course": "chem-532",
+  "subject": "CHEM",
+  "courseNumber": 532,
+  "courseName": "Advanced Physical Chemistry II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/532/1/false/true",
+      "response": {
+        "courseDescription": "<b>532 Advanced Physical Chemistry II</b>  Introduction to quantum mechanics; postulates of quantum mechanics; exact solutions and approximation methods. Recommended preparation: CHEM 332 or equivalent. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kirk",
+            "lastName": "Peterson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

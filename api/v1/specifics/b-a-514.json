@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:17:24.776711+00:00",
+  "course": "b-a-514",
+  "subject": "B_A",
+  "courseNumber": 514,
+  "courseName": "Business Analytics: Transforming Data into Decisions",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Fall/2026/B%20A/514/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Fall/2026/B%20A/514/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

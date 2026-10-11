@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:46.308449+00:00",
+  "course": "e-e-334",
+  "subject": "E_E",
+  "courseNumber": 334,
+  "courseName": "Computer Architecture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/334/1/false/true",
+      "response": {
+        "courseDescription": "<b>334 Computer Architecture</b>  Modern developments in digital system design, parallel structures, pipelining, input/output, high speed circuits, laboratory experience in digital system design; emphasis on CPU architecture.  ",
+        "coursePrerequisites": " E E 234 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Abhishek",
+            "lastName": "Moitra",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

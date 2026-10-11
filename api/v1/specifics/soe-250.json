@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:34.549554+00:00",
+  "course": "soe-250",
+  "subject": "SOE",
+  "courseNumber": 250,
+  "courseName": "Introduction to Earth System Science",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/SOE/250/1/false/true",
+      "response": {
+        "courseDescription": "<b>250 Introduction to Earth System Science</b>  Earth's fundamental systems (the geo-, atmo-, hydro-, and bio-spheres) in the context of global change.  Recommended:  CHEM 101 or 105.  ",
+        "coursePrerequisites": " SOE 110 or BIOLOGY 106, each with a C or better.",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Harrison",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

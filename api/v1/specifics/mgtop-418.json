@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:09.501430+00:00",
+  "course": "mgtop-418",
+  "subject": "MGTOP",
+  "courseNumber": 418,
+  "courseName": "Quality Improvement for Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MgtOp/418/1/false/true",
+      "response": {
+        "courseDescription": "<b>418 Quality Improvement for Management</b>  Total quality management as used in industries; philosophy of Deming and others, control charts, process capability analysis, team tools.  ",
+        "coursePrerequisites": " MGTOP 215, STAT 212, STAT 360, or STAT 370; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Stergios",
+            "lastName": "Fotopoulos",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

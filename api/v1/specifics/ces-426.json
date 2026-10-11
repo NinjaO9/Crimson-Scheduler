@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:47.710229+00:00",
+  "course": "ces-426",
+  "subject": "CES",
+  "courseNumber": 426,
+  "courseName": "Workers Across North America",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CES/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 Workers Across North America</b>  International interactions between workers and labor unions in Mexico, Canada and the U.S. (Crosslisted course offered as CES 426, HISTORY 426.)  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Ivan",
+            "lastName": "Gonzalez-Soto",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

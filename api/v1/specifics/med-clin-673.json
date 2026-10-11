@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:24.297776+00:00",
+  "course": "med-clin-673",
+  "subject": "MED_CLIN",
+  "courseNumber": 673,
+  "courseName": "Clinical Rotation - Advanced Anesthesiology",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/673/1/false/true",
+      "response": {
+        "courseDescription": "<b>673 Clinical Rotation - Advanced Anesthesiology</b> May be repeated for credit; cumulative maximum 12 hours. In-depth exploration and refinement of the knowledge, technical skills, and professional competencies essential for advanced practice in anesthesia.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " 4-week MED CLIN 573.",
+        "instructors": [
+          {
+            "firstName": "Subeeh",
+            "lastName": "Siddiqui",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

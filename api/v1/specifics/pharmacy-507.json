@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:17.319249+00:00",
+  "course": "pharmacy-507",
+  "subject": "PHARMACY",
+  "courseNumber": 507,
+  "courseName": "Introduction to Therapeutic Agents: Top 200 Drugs",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/507/1/false/true",
+      "response": {
+        "courseDescription": "<b>507 Introduction to Therapeutic Agents: Top 200 Drugs</b>  Drugs most frequently prescribed in the US as a basis for pharmacy practice.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Clark",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

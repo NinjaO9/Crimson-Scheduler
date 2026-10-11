@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:36.759376+00:00",
+  "course": "kines-536",
+  "subject": "KINES",
+  "courseNumber": 536,
+  "courseName": "Methods of Health and Physical Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Kines/536/1/false/true",
+      "response": {
+        "courseDescription": "<b>536 Methods of Health and Physical Education</b>  Physical activity and health promotion for school programs, and educational/legal issues on physical and sexual abuse, K-8.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Phillip",
+            "lastName": "Morgan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:39.870035+00:00",
+  "course": "soe-485",
+  "subject": "SOE",
+  "courseNumber": 485,
+  "courseName": "Disturbance Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 Disturbance Ecology</b>  Fire, disease, and other disturbances are primary drivers of structure and composition in terrestrial ecosystems; study of management of insect outbreaks and fungal organisms in combination with fire and other disturbances.  ",
+        "coursePrerequisites": " SOE 204; SOE 301; SOE 302 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Keenan",
+            "lastName": "Stears",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

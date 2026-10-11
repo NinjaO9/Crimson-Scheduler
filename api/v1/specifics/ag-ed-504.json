@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:29.387168+00:00",
+  "course": "ag-ed-504",
+  "subject": "AG_ED",
+  "courseNumber": 504,
+  "courseName": "Special Topics in Vocational Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ag%20Ed/504/1/false/true",
+      "response": {
+        "courseDescription": "<b>504 Special Topics in Vocational Education</b>  Special topics in agricultural education or agriculture that will provide advanced training for teachers of agriculture.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

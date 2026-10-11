@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:25.831795+00:00",
+  "course": "cst-m-451",
+  "subject": "CST_M",
+  "courseNumber": 451,
+  "courseName": "Delivery Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/451/2/false/true",
+      "response": {
+        "courseDescription": "<b>451 Delivery Systems</b>  Design/construction process and project delivery systems/approaches; analysis of construction management; the construction management process.  ",
+        "coursePrerequisites": " CST M 252; admitted to the major in Construction Management, or junior standing in Architectural Studies, Interior Design, Landscape Architecture, or Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Derek",
+            "lastName": "Oliver",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:48.879433+00:00",
+  "course": "art-359",
+  "subject": "ART",
+  "courseNumber": 359,
+  "courseName": "3D Modeling and Studio Fabrication",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ART/359/1/false/true",
+      "response": {
+        "courseDescription": "<b>359 3D Modeling and Studio Fabrication</b> May be repeated for credit; cumulative maximum 9 hours. Introduction to 2D and 3D digital fabrication techniques with software and hardware including 3D printers, scanners, laser cutters, and CNC machines; integration of technologies with traditional fabrication methods.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Reza",
+            "lastName": "Safavi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

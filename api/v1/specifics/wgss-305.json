@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:30:12.973822+00:00",
+  "course": "wgss-305",
+  "subject": "WGSS",
+  "courseNumber": 305,
+  "courseName": "Gender and Politics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/WGSS/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Gender and Politics</b>  Role of gender in political behavior; voting and political participation; women as subjects and objects of political systems. (Crosslisted course offered as POL S 305, WGSS 305.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Olyvia",
+            "lastName": "Christley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

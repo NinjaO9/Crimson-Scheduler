@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:01.496297+00:00",
+  "course": "nurs-adv-516",
+  "subject": "NURS_ADV",
+  "courseNumber": 516,
+  "courseName": "Primary Care Practicum II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Primary Care Practicum II</b>  Primary care practicum experience focused on acute and common conditions in individuals and families across the lifespan.  ",
+        "coursePrerequisites": " NURS ADV 513; NURS ADV 514; concurrent enrollment in NURS ADV 515.",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Knapp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:44.120655+00:00",
+  "course": "anim-sci-588",
+  "subject": "ANIM_SCI",
+  "courseNumber": 588,
+  "courseName": "Perspectives in Biotechnology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/588/1/false/true",
+      "response": {
+        "courseDescription": "<b>588 [M] Perspectives in Biotechnology</b>  Theory and application of biotechnology in agriculture, industry, and medicine; methodological, environmental, social, and economic concerns. Credit not granted for both ANIM SCI 488 and ANIM SCI 588. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zhihua",
+            "lastName": "Jiang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

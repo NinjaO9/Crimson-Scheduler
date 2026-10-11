@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:06.232345+00:00",
+  "course": "shs-588",
+  "subject": "SHS",
+  "courseNumber": 588,
+  "courseName": "Advanced Speech and Sound Disorders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/588/1/false/true",
+      "response": {
+        "courseDescription": "<b>588 Advanced Speech and Sound Disorders</b>  Current literature in articulatory development and deviancy; diagnosis and therapy. Required preparation: SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Katy",
+            "lastName": "Cabbage",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

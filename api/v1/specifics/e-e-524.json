@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:35.191602+00:00",
+  "course": "e-e-524",
+  "subject": "E_E",
+  "courseNumber": 524,
+  "courseName": "Advanced Computer Architecture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/524/1/false/true",
+      "response": {
+        "courseDescription": "<b>524 Advanced Computer Architecture</b>  Instruction set architectures, pipelining and super pipelining, instruction level parallelism, superscalar and VLIW processors, cache memory, thread-level parallelism and VLSI. (Crosslisted course offered as E E 524, CPT S 561.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ganapati",
+            "lastName": "Bhat",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

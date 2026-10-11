@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:24.555148+00:00",
+  "course": "med-lmh-532",
+  "subject": "MED_LMH",
+  "courseNumber": 532,
+  "courseName": "Personal Leadership Development II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/MEDMH/532/1/false/true",
+      "response": {
+        "courseDescription": "<b>532 Personal Leadership Development II</b>  Literature review for capstone project; identification of leadership opportunities for personal leadership development plan; includes application of knowledge and experience from coursework, clerkships and/or healthcare-related volunteer activities.  H, S, F grading. ",
+        "coursePrerequisites": " MED LMH 531.",
+        "instructors": [
+          {
+            "firstName": "Tade",
+            "lastName": "Ayeni",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

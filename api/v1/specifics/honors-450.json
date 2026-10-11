@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:26:48.434739+00:00",
+  "course": "honors-450",
+  "subject": "HONORS",
+  "courseNumber": 450,
+  "courseName": "Honors Thesis or Project",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/U%20H/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Honors Thesis or Project</b> May be repeated for credit; cumulative maximum 4 hours. Thesis or project directed by student's major department.  S, F grading. ",
+        "coursePrerequisites": " Must be an Honors student.",
+        "instructors": [
+          {
+            "firstName": "Robin",
+            "lastName": "Bond",
+            "isPrimary": false,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

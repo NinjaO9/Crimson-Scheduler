@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:49.831155+00:00",
+  "course": "science-101",
+  "subject": "SCIENCE",
+  "courseNumber": 101,
+  "courseName": "Integrated Science: Origins in the Natural World",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Sci/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Integrated Science: Origins in the Natural World</b>  Interdisciplinary approach to science in the modern world for non-science majors.  Field trip(s) may be required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tyler",
+            "lastName": "Hansen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

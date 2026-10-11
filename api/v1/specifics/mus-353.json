@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:15.889120+00:00",
+  "course": "mus-353",
+  "subject": "MUS",
+  "courseNumber": 353,
+  "courseName": "Materials and Structures of Music IV",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/353/1/false/true",
+      "response": {
+        "courseDescription": "<b>353 Materials and Structures of Music IV</b>  A study of common large forms in the 17th, 18th, and 19th century.  ",
+        "coursePrerequisites": " MUS 351 with a C or better; MUS 352 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Lee",
+            "lastName": "Wolf",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

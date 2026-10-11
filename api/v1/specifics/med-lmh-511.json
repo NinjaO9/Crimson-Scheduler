@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:24.256989+00:00",
+  "course": "med-lmh-511",
+  "subject": "MED_LMH",
+  "courseNumber": 511,
+  "courseName": "Leadership and Management in Healthcare: Microsystem to Macrosystem",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDMH/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Leadership and Management in Healthcare: Microsystem to Macrosystem</b>  Management and leadership skills in healthcare; progression from basic theoretical models to case examples; understanding of current US health economics and how US insurance systems work; how systems are managed and led in both public and private sectors.  S, F grading. ",
+        "coursePrerequisites": " MED LMH 503.",
+        "instructors": [
+          {
+            "firstName": "Tade",
+            "lastName": "Ayeni",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

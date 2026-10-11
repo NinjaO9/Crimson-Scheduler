@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:11.817250+00:00",
+  "course": "soe-562",
+  "subject": "SOE",
+  "courseNumber": 562,
+  "courseName": "Watershed Biogeochemistry",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/SOE/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Watershed Biogeochemistry</b>  Sources, transformations, fates and impacts of biogeochemically important compounds as they move downstream through watersheds to the coastal zone.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Harrison",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

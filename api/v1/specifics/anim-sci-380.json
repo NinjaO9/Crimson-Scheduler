@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:40.901425+00:00",
+  "course": "anim-sci-380",
+  "subject": "ANIM_SCI",
+  "courseNumber": 380,
+  "courseName": "Careers in Animal Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/380/1/false/true",
+      "response": {
+        "courseDescription": "<b>380 Careers in Animal Science</b>  Issues and preparation for careers in animal sciences areas.  ",
+        "coursePrerequisites": " Admitted to the major in Animal Sciences; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "Davenport",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

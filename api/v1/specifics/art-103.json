@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:13:32.963475+00:00",
+  "course": "art-103",
+  "subject": "ART",
+  "courseNumber": 103,
+  "courseName": "3D Art and Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/103/1/false/true",
+      "response": {
+        "courseDescription": "<b>103 3D Art and Design</b>  Introduction to three-dimensional art and design through an interdisciplinary approach using a combination of manual methods, digital imaging technologies, and machine tools.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jacquelyn",
+            "lastName": "Walker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

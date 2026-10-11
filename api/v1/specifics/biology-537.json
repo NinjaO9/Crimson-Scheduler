@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:28.491344+00:00",
+  "course": "biology-537",
+  "subject": "BIOLOGY",
+  "courseNumber": 537,
+  "courseName": "Plant Cell Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Plant Cell Biology</b>  Structure and function of plant cells including membrane biology, protein targeting and molecular signaling with emphasis on current research.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hanjo",
+            "lastName": "Hellmann",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

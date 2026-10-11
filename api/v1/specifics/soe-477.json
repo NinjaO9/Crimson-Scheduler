@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:39.368678+00:00",
+  "course": "soe-477",
+  "subject": "SOE",
+  "courseNumber": 477,
+  "courseName": "Environmental Collaborative Governance and Dispute Resolution",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/477/1/false/true",
+      "response": {
+        "courseDescription": "<b>477 Environmental Collaborative Governance and Dispute Resolution</b>  Exploration of the consequences of complex social, economic, and environmental dynamics that lead to disputes and conflicts over environmental and natural resources; develop toolbox of skills and approaches that may be used to facilitate collaborative solutions and resolution of disputes.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Kara",
+            "lastName": "Whitman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

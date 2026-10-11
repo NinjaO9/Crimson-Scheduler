@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:20.187357+00:00",
+  "course": "cpt-s-111",
+  "subject": "CPT_S",
+  "courseNumber": 111,
+  "courseName": "Introduction to Computer Programming",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 Introduction to Computer Programming</b>  Elementary algorithmic problem solving, computational models, sequential, iterative and conditional operations, parameterized procedures, array and list structures and basic efficiency analysis.  ",
+        "coursePrerequisites": "  MATH 103 with a C or better, or higher level MATH course with a C or better, or a minimum ALEKS math placement score of 45%.",
+        "instructors": [
+          {
+            "firstName": "Shira",
+            "lastName": "Broschat",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

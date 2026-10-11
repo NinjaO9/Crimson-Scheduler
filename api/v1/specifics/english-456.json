@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:02:03.724017+00:00",
+  "course": "english-456",
+  "subject": "ENGLISH",
+  "courseNumber": 456,
+  "courseName": "Language Acquisition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/456/1/false/true",
+      "response": {
+        "courseDescription": "<b>456 [M] Language Acquisition</b>  Theories and processes of first, second, and bilingual language acquisition.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nancy D",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

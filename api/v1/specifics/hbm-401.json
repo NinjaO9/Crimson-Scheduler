@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:06.933326+00:00",
+  "course": "hbm-401",
+  "subject": "HBM",
+  "courseNumber": 401,
+  "courseName": "Career Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/HBM/401/3/false/true",
+      "response": {
+        "courseDescription": "<b>401 Career Management</b>  Career management preparation including mock/traditional/panel interviews, resume/cover letter critiques, offer evaluations, negotiation and networking.  ",
+        "coursePrerequisites": " HBM 105.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "McLeod",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

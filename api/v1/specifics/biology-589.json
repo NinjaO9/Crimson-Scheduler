@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:29.754167+00:00",
+  "course": "biology-589",
+  "subject": "BIOLOGY",
+  "courseNumber": 589,
+  "courseName": "Advanced Topics in Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/589/2/false/true",
+      "response": {
+        "courseDescription": "<b>589 Advanced Topics in Biology</b> May be repeated for credit; cumulative maximum 6 hours. Recent advances in biology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Wisecaver",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

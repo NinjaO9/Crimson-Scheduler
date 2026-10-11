@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:04.410179+00:00",
+  "course": "mech-101",
+  "subject": "MECH",
+  "courseNumber": 101,
+  "courseName": "Introduction to Mechanical Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Introduction to Mechanical Engineering</b>  Introduction to mechanical engineering profession, engineering problem solving, computers in engineering design methods.  ",
+        "coursePrerequisites": " MATH 171 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Dave",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:13.976226+00:00",
+  "course": "mit-575",
+  "subject": "MIT",
+  "courseNumber": 575,
+  "courseName": "Internship and Seminar",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/MIT/575/1/false/true",
+      "response": {
+        "courseDescription": "<b>575 Internship and Seminar</b>  Instructional practice in classroom settings, reflection on practice; completion of Washington state licensure requirements for teacher certification.  S, F grading. ",
+        "coursePrerequisites": " MIT 571; admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Ashley",
+            "lastName": "Segadelli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:23.633311+00:00",
+  "course": "tch-lrn-410",
+  "subject": "TCH_LRN",
+  "courseNumber": 410,
+  "courseName": "Foundations of Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/T%20%26%20L/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 Foundations of Multilingual Education</b>  Theoretical foundations related to research and instructional strategies for effective schooling of language minority students. Credit not granted for TCH LRN 410 and 510.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eric",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

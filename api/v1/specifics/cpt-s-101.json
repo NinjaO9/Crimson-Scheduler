@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:20.004862+00:00",
+  "course": "cpt-s-101",
+  "subject": "CPT_S",
+  "courseNumber": 101,
+  "courseName": "Introduction to Electrical Engineering and Computer Science",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Introduction to Electrical Engineering and Computer Science</b>  Introduction to programs within the School of Electrical Engineering and Computer Science discussing resources, opportunities, and knowledge and skills necessary to succeed within EECS majors.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:43.781104+00:00",
+  "course": "chem-440",
+  "subject": "CHEM",
+  "courseNumber": 440,
+  "courseName": "Biophysical Chemistry",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Chem/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 Biophysical Chemistry</b>  The modern tools and insights of physical chemistry are covered by interconnecting these fundamental concepts with key biological phenomena. Credit not granted for both CHEM 440 and 540. (Formerly CHEM 338.)  ",
+        "coursePrerequisites": " CHEM 345 with a C or better; MATH 140 or 171 with a C or better; 4 credits of PHYSICS 101 or 102 with a C or better, or PHYSICS 101 and 111, each with a C or better, or PHYSICS 102 and 112, each with a C or better.",
+        "instructors": [
+          {
+            "firstName": "JIAN",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

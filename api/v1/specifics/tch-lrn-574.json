@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:28.707909+00:00",
+  "course": "tch-lrn-574",
+  "subject": "TCH_LRN",
+  "courseNumber": 574,
+  "courseName": "Science for All: An Individual and Multicultural Perspective",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/T%20%26%20L/574/1/false/true",
+      "response": {
+        "courseDescription": "<b>574 Science for All: An Individual and Multicultural Perspective</b>  Implications of cultural and individual diversity for understanding western scientific and mathematical thought; an activity-based, educational perspective.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tyler",
+            "lastName": "Hansen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

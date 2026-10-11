@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:41.213471+00:00",
+  "course": "math-100",
+  "subject": "MATH",
+  "courseNumber": 100,
+  "courseName": "Basic Mathematics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/100/1/false/true",
+      "response": {
+        "courseDescription": "<b>100 Basic Mathematics</b>  Review of basic arithmetic and elementary algebra. No credit earned toward degree.  S, F grading. ",
+        "coursePrerequisites": " A minimum ALEKS math placement score of 1%.",
+        "instructors": [
+          {
+            "firstName": "Blake",
+            "lastName": "Nelson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

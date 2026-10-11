@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:49.662798+00:00",
+  "course": "e-e-489",
+  "subject": "E_E",
+  "courseNumber": 489,
+  "courseName": "Introduction to Control Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/489/1/false/true",
+      "response": {
+        "courseDescription": "<b>489 Introduction to Control Systems</b>  State variable models, system response, stability analysis, root locus analysis and design; frequency-response and state-space analysis and design.  ",
+        "coursePrerequisites": " E E 341 with a C or better or concurrent enrollment; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Ali",
+            "lastName": "Saberi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

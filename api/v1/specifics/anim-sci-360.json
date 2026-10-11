@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:40.719291+00:00",
+  "course": "anim-sci-360",
+  "subject": "ANIM_SCI",
+  "courseNumber": 360,
+  "courseName": "Meat Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/360/1/false/true",
+      "response": {
+        "courseDescription": "<b>360 Meat Science</b>  Anatomy, slaughter, classification, and processing of meat animal species. Special clothing and equipment required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 107.",
+        "instructors": [
+          {
+            "firstName": "Erika",
+            "lastName": "Eckhardt",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

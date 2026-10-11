@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:00.253680+00:00",
+  "course": "vet-med-609",
+  "subject": "VET_MED",
+  "courseNumber": 609,
+  "courseName": "Small Animal Clinical Neurology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/609/1/false/true",
+      "response": {
+        "courseDescription": "<b>609 Small Animal Clinical Neurology</b>  Required clinical experience with the small animal neurology service in the small animal clinic of the Veterinary Medicine Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Karen",
+            "lastName": "Kline",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

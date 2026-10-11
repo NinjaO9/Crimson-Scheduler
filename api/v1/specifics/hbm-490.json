@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:21.738161+00:00",
+  "course": "hbm-490",
+  "subject": "HBM",
+  "courseNumber": 490,
+  "courseName": "Food and Beverage Operational Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/HBM/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Food and Beverage Operational Analysis</b>  Theory and practice of new product/service innovation and process, beverage/brand marketing, logistics/distribution concerns, sales and marketing efforts, and legal and regulatory concerns for development of innovative beverage or food and beverage concepts.  ",
+        "coursePrerequisites": " HBM 358; admitted to WBBM or HBM major or minor in WBBM or HBM.",
+        "instructors": [
+          {
+            "firstName": "Jessica",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

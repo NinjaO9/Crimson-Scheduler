@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:28.995402+00:00",
+  "course": "spec-ed-590",
+  "subject": "SPEC_ED",
+  "courseNumber": 590,
+  "courseName": "Practicum in Special Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Sp%20Ed/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Practicum in Special Education</b> May be repeated for credit; cumulative maximum 8 hours. Supervised experiences in application of theories and practices in special education.  Required preparation must include completion of an introductory special education course, or SPEC ED 520; admitted to the major in education or completed certificate.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Poppen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:13:48.160258+00:00",
+  "course": "art-202",
+  "subject": "ART",
+  "courseNumber": 202,
+  "courseName": "World Art History II",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ART/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 World Art History II</b>  Art and architecture of Western and Non-Western cultures from 1300 to 2010.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nanette",
+            "lastName": "Thrush",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

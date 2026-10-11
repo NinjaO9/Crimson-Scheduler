@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:47.409946+00:00",
+  "course": "pubhlth-120",
+  "subject": "PUBHLTH",
+  "courseNumber": 120,
+  "courseName": "Introduction to Health Systems Organization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/120/1/false/true",
+      "response": {
+        "courseDescription": "<b>120 Introduction to Health Systems Organization</b>  Fundamentals of the US health system and comparison to other global systems; concepts of legal, ethical, economic, and regulatory dimensions; influences and responsibilities of governmental agencies in public health.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Elizabeth",
+            "lastName": "Wood",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

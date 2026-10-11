@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:11.799305+00:00",
+  "course": "vit-enol-482",
+  "subject": "VIT_ENOL",
+  "courseNumber": 482,
+  "courseName": "Micro and Molecular Biology of Wine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20E/482/1/false/true",
+      "response": {
+        "courseDescription": "<b>482 Micro and Molecular Biology of Wine</b>  Molecular and microbiological aspects of yeast, filamentous fungi, and lactic acid bacteria fermentation of grape juice or must to produce still, sparkling, and aged wine; production and preservation of microbial starter cultures and the application of hazard analysis and critical control point systems; assessment of normal, stuck, and sluggish fermentations. Credit not granted for both VIT ENOL 482 and 582.  ",
+        "coursePrerequisites": " MBIOS 101 or 305; MBIOS 303 or CHEM 370; VIT ENOL 322.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Curtin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

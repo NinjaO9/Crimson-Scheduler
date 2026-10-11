@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:56.345242+00:00",
+  "course": "soe-536",
+  "subject": "SOE",
+  "courseNumber": 536,
+  "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/SOE/536/1/false/true",
+      "response": {
+        "courseDescription": "<b>536 Climate Change Impacts on Physical, Natural, and Human Systems</b>  Methods for studying human-caused climate variability and change; discussion of impacts on the physical environment and natural and human systems.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deepti",
+            "lastName": "Singh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

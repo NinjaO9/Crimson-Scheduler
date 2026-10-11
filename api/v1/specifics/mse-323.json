@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:32.563362+00:00",
+  "course": "mse-323",
+  "subject": "MSE",
+  "courseNumber": 323,
+  "courseName": "Materials Characterization Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/323/1/false/true",
+      "response": {
+        "courseDescription": "<b>323 [M] Materials Characterization Lab</b>  Laboratory exercises on materials characterization: x-ray, TEM, SEM.  ",
+        "coursePrerequisites": " MSE 321 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Min Kyu",
+            "lastName": "Song",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

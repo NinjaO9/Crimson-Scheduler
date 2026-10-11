@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:26:48.256049+00:00",
+  "course": "honors-430",
+  "subject": "HONORS",
+  "courseNumber": 430,
+  "courseName": "Education Abroad Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/U%20H/430/2/false/true",
+      "response": {
+        "courseDescription": "<b>430 Education Abroad Research</b> May be repeated for credit; cumulative maximum 6 hours. Special assignments and research related to education abroad.  ",
+        "coursePrerequisites": " Must be an Honors student.",
+        "instructors": [
+          {
+            "firstName": "M",
+            "lastName": "Norton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

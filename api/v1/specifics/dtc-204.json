@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:41:43.666333+00:00",
+  "course": "dtc-204",
+  "subject": "DTC",
+  "courseNumber": 204,
+  "courseName": "Introduction to Text Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/DTC/204/1/false/true",
+      "response": {
+        "courseDescription": "<b>204 Introduction to Text Analysis</b>  Introduction to computational and statistical text analysis using the open source programming language R; designed for students with no prior experience with programming but who wish to extend their methodological tool kit to include quantitative and computational approaches to the study of text.  (Crosslisted course offered as DTC 204, DATA 204.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Black",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

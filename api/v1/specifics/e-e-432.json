@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:47.715101+00:00",
+  "course": "e-e-432",
+  "subject": "E_E",
+  "courseNumber": 432,
+  "courseName": "RF Engineering for Telecommunications",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 RF Engineering for Telecommunications</b>  System and propagation issues for wireless telecommunications; cellular, PCS, microwave, and satellite system analysis, design, measurement, and testing.  ",
+        "coursePrerequisites": " E E 331; E E 341 with a C or better; STAT 360 with a C or better or STAT 443 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "Belzer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

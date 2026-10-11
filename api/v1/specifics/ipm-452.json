@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:45.738238+00:00",
+  "course": "ipm-452",
+  "subject": "IPM",
+  "courseNumber": 452,
+  "courseName": "Pesticides and the Environment",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/IPM/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 Pesticides and the Environment</b>  Immediate and prolonged effects of pesticides on human and other animals; legal and moral repercussions of pesticide use. Recommended for graduate-level course: 12 credit hours of biology or ecology courses. Credit not granted for both IPM 452 and 552.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Allan",
+            "lastName": "Felsot",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

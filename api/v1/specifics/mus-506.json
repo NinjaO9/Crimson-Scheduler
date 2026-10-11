@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:58.232815+00:00",
+  "course": "mus-506",
+  "subject": "MUS",
+  "courseNumber": 506,
+  "courseName": "Trombone",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/506/1/false/true",
+      "response": {
+        "courseDescription": "<b>506 Trombone</b> May be repeated for credit.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

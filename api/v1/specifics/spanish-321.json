@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:32.431873+00:00",
+  "course": "spanish-321",
+  "subject": "SPANISH",
+  "courseNumber": 321,
+  "courseName": "Latin American Cultures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Span/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Latin American Cultures</b>  Study of Latin American culture. Taught in Spanish.  ",
+        "coursePrerequisites": "  SPANISH 306, 307, or 308.",
+        "instructors": [
+          {
+            "firstName": "Etna",
+            "lastName": "Avalos Molina",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

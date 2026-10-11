@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:26.522382+00:00",
+  "course": "tch-lrn-497",
+  "subject": "TCH_LRN",
+  "courseNumber": 497,
+  "courseName": "Topics in In-Service Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/497/1/false/true",
+      "response": {
+        "courseDescription": "<b>497 Topics in In-Service Education</b> May be repeated for credit; cumulative maximum 9 hours. New developments and applications on selected in-service and staff development topics.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Angela",
+            "lastName": "Sobotta",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

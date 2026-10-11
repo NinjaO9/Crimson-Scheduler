@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:18.839268+00:00",
+  "course": "physics-542",
+  "subject": "PHYSICS",
+  "courseNumber": 542,
+  "courseName": "Electrodynamics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Electrodynamics</b>  Interaction of matter and electromagnetic radiation; classical and quantum electrodynamics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nicholas",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

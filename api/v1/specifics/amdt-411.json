@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:19.132858+00:00",
+  "course": "amdt-411",
+  "subject": "AMDT",
+  "courseNumber": 411,
+  "courseName": "Advanced Apparel Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/411/1/false/true",
+      "response": {
+        "courseDescription": "<b>411 Advanced Apparel Design</b>  Integrated application of apparel design, patternmaking principles with assembly processes to demonstrate capacity to develop and create high quality original designs.  ",
+        "coursePrerequisites": " AMDT 312; AMDT 492; admitted to the major in Apparel, Merchandising, Design, and Textiles; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Han Ah",
+            "lastName": "Yoo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

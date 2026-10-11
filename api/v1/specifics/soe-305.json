@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:35.846202+00:00",
+  "course": "soe-305",
+  "subject": "SOE",
+  "courseNumber": 305,
+  "courseName": "Silviculture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Silviculture</b>  Stand dynamics, natural regeneration methods, intermediate stand treatment, relationships of natural resource management to silvicultural practice. Field trips required.  ",
+        "coursePrerequisites": " SOE 204; SOE 300 or BIOLOGY 372; SOE 301.",
+        "instructors": [
+          {
+            "firstName": "Austin",
+            "lastName": "Himes",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

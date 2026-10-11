@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:16.776422+00:00",
+  "course": "med-clin-568",
+  "subject": "MED_CLIN",
+  "courseNumber": 568,
+  "courseName": "Pediatrics - Hospital Medicine",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Summer/2026/MEDCL/568/1/false/true",
+      "response": {
+        "courseDescription": "<b>568 Pediatrics - Hospital Medicine</b> May be repeated for credit; cumulative maximum 12 hours. Extension of knowledge, skills, and professional attitudes required to address the range of problems that practitioners of pediatric hospital medicine encounter.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Hinah",
+            "lastName": "Parker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

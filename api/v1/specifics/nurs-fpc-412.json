@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:09.966479+00:00",
+  "course": "nurs-fpc-412",
+  "subject": "NURS_FPC",
+  "courseNumber": 412,
+  "courseName": "Family and Community as a Context of Care",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/412/1/false/true",
+      "response": {
+        "courseDescription": "<b>412 Family and Community as a Context of Care</b>  Concepts of family-focused nursing assessment, planning, and interventions with emphasis on referral to appropriate community resources.  ",
+        "coursePrerequisites": " NURS FPC 308; NURS FPC 322; NURS FPC 324; NURS FPC 325.",
+        "instructors": [
+          {
+            "firstName": "Ameera",
+            "lastName": "Fayad",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Amy",
+            "lastName": "Howells",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

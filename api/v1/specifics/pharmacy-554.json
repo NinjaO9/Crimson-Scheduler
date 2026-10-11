@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:20.234328+00:00",
+  "course": "pharmacy-554",
+  "subject": "PHARMACY",
+  "courseNumber": 554,
+  "courseName": "Pharmacotherapy IV",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/554/1/false/true",
+      "response": {
+        "courseDescription": "<b>554 Pharmacotherapy IV</b>  Fourth in a sequence of courses that focuses on the clinical use of medications in the prevention, mitigation, or cure of disease.  ",
+        "coursePrerequisites": "  PHARMACY 544.",
+        "instructors": [
+          {
+            "firstName": "Dana Rose-Saulibio",
+            "lastName": "Bowers",
+            "isPrimary": true,
+            "tchEffort": 74
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:21.839434+00:00",
+  "course": "pl-p-513",
+  "subject": "PL_P",
+  "courseNumber": 513,
+  "courseName": "Plant Nematology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Pl%20P/513/1/false/true",
+      "response": {
+        "courseDescription": "<b>513 Plant Nematology</b>  Anatomy and morphology of plant-parasitic nematodes, molecular plant-nematode interactions, genomics, symptoms, identification, techniques and control. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cynthia",
+            "lastName": "Gleason",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

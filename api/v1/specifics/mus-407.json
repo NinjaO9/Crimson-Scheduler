@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:47.995859+00:00",
+  "course": "mus-407",
+  "subject": "MUS",
+  "courseNumber": 407,
+  "courseName": "Euphonium",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/407/1/false/true",
+      "response": {
+        "courseDescription": "<b>407 Euphonium</b> May be repeated for credit.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Albert",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

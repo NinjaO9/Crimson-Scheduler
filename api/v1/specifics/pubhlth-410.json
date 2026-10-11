@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:49.014884+00:00",
+  "course": "pubhlth-410",
+  "subject": "PUBHLTH",
+  "courseNumber": 410,
+  "courseName": "Organization and Administration in Public Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PUBHL/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 Organization and Administration in Public Health</b>  Organization and administration of public health programs and policies.  ",
+        "coursePrerequisites": " PUBHLTH 110.",
+        "instructors": [
+          {
+            "firstName": "Khairul Alam",
+            "lastName": "Siddiqi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

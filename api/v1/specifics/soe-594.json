@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:13.033453+00:00",
+  "course": "soe-594",
+  "subject": "SOE",
+  "courseNumber": 594,
+  "courseName": "Environmental and Natural Resources Issues and Ethics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/594/1/false/true",
+      "response": {
+        "courseDescription": "<b>594 Environmental and Natural Resources Issues and Ethics</b>  Ethical systems applied to natural resources; issues of professionalism and ethics in natural resource management. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Billings",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

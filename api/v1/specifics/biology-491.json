@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:26.476523+00:00",
+  "course": "biology-491",
+  "subject": "BIOLOGY",
+  "courseNumber": 491,
+  "courseName": "Clinical Experience",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Biol/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Clinical Experience</b> May be repeated for credit; cumulative maximum 8 hours. Work experience in a clinical setting.  S, F grading. ",
+        "coursePrerequisites": " By instructor permission; BIOLOGY 106, 107, and 221; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Deb",
+            "lastName": "Wilmington",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

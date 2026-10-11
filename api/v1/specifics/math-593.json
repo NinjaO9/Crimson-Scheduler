@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:37.098211+00:00",
+  "course": "math-593",
+  "subject": "MATH",
+  "courseNumber": 593,
+  "courseName": "Seminar in the Theory and Applications of Discrete Math, Linear\nAlgebra, and Number Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/593/1/false/true",
+      "response": {
+        "courseDescription": "<b>593 Seminar in the Theory and Applications of Discrete Math, Linear\nAlgebra, and Number Theory</b> May be repeated for credit; cumulative maximum 10 hours. Current research in theoretical and applied aspects of discrete math, linear algebra, and number theory.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Judith",
+            "lastName": "McDonald",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

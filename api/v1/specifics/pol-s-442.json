@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:54:20.557382+00:00",
+  "course": "pol-s-442",
+  "subject": "POL_S",
+  "courseNumber": 442,
+  "courseName": "Leadership Skills for the Public Sector",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Pol%20S/442/1/false/true",
+      "response": {
+        "courseDescription": "<b>442 [M] Leadership Skills for the Public Sector</b>  Leadership, motivation, team-building, group dynamics, interpersonal and group conflict and job design for the public sector.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Carolyn",
+            "lastName": "Long",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

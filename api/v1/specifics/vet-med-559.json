@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:54.535867+00:00",
+  "course": "vet-med-559",
+  "subject": "VET_MED",
+  "courseNumber": 559,
+  "courseName": "Special Animal Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/559/1/false/true",
+      "response": {
+        "courseDescription": "<b>559 Special Animal Medicine</b>  Handling, restraint, care, normative features, procedures and diseases of unusual animals as pets or those used in food production or research.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Nickol",
+            "lastName": "Finch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

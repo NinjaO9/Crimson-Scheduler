@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:19.610667+00:00",
+  "course": "nep-435",
+  "subject": "NEP",
+  "courseNumber": 435,
+  "courseName": "Applied Pathophysiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 Applied Pathophysiology</b>  Pathophysiology of disease and implications for dietary and exercise interventions.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, or the Master of Science Coordinated Program in Dietetics, Nutrition, and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Martine",
+            "lastName": "Perrigue",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:05.360142+00:00",
+  "course": "e-e-505",
+  "subject": "E_E",
+  "courseNumber": 505,
+  "courseName": "Nonlinear System Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Nonlinear System Theory</b>  Overview of nonlinear phenomena, Lyapunov stability, input-output stability, periodic orbits, singular perturbation, differential geometric methods, bifurcations and complex behaviors. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " E E 501.",
+        "instructors": [
+          {
+            "firstName": "Ali",
+            "lastName": "Saberi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

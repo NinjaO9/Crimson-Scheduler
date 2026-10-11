@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:58.683180+00:00",
+  "course": "vet-med-591",
+  "subject": "VET_MED",
+  "courseNumber": 591,
+  "courseName": "Practice Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Practice Management</b>  A correlation of the veterinary medical and business aspects of practice management.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "DeBowes",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Katie",
+            "lastName": "Rawlings",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

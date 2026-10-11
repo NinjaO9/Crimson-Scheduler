@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:43.510696+00:00",
+  "course": "data-360",
+  "subject": "DATA",
+  "courseNumber": 360,
+  "courseName": "Probability and Statistics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/360/2/false/true",
+      "response": {
+        "courseDescription": "<b>360 Probability and Statistics</b>  Probability models, sample spaces, random variables, distributions, moments, comparative experiments, tests, correlation and regression in engineering applications. Credit not granted for both STAT 360 and 370.  (Crosslisted course offered as STAT 360, DATA 360.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 140, 171, 202, or DATA 121 each with a C or better, or MATH 172 or 182.",
+        "instructors": [
+          {
+            "firstName": "Ching-Ni",
+            "lastName": "Tseng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

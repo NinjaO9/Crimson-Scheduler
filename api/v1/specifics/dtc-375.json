@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:43.820233+00:00",
+  "course": "dtc-375",
+  "subject": "DTC",
+  "courseNumber": 375,
+  "courseName": "Language, Texts and Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/375/1/false/true",
+      "response": {
+        "courseDescription": "<b>375 [M] Language, Texts and Technology</b>  Relationship between technology and communication; writing practices from a historical point of view.  ",
+        "coursePrerequisites": " DTC 101.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Black",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:31:48.104341+00:00",
+  "course": "comjour-335",
+  "subject": "COMJOUR",
+  "courseNumber": 335,
+  "courseName": "Broadcast News Reporting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComJo/335/1/false/true",
+      "response": {
+        "courseDescription": "<b>335 Broadcast News Reporting</b>  Fundamentals of broadcast reporting; development of editorial and news judgment, writing skills, and proficiency in field camera production and editing.  ",
+        "coursePrerequisites": "  COMJOUR 333; admitted to a major in the College of Communication.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Loveless",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

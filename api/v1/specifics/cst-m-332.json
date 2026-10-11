@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:24.698942+00:00",
+  "course": "cst-m-332",
+  "subject": "CST_M",
+  "courseNumber": 332,
+  "courseName": "Building Science I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 Building Science I</b>  Mechanical systems for buildings; building heating, ventilating, and air conditioning systems, heat flow concepts.  ",
+        "coursePrerequisites": " 4 credits of PHYSICS 101 with a C or better, or PHYSICS 101 and 111 with a C or better; admitted major in Architectural Studies or Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Julia",
+            "lastName": "Day",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

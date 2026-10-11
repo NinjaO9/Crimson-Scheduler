@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:24.774885+00:00",
+  "course": "cpt-s-429",
+  "subject": "CPT_S",
+  "courseNumber": 429,
+  "courseName": "Virtualization and Offensive Cyber Operations",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/429/1/false/true",
+      "response": {
+        "courseDescription": "<b>429 Virtualization and Offensive Cyber Operations</b>  Virtualization and offensive cyber operations including the building of multiple software systems that operate as independent systems running on multiple native hardware items and conducting campaigns aimed at compromising computational capacities of an adversary.  ",
+        "coursePrerequisites": " CPT S 327 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

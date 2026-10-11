@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:05.169237+00:00",
+  "course": "nurs-adv-560",
+  "subject": "NURS_ADV",
+  "courseNumber": 560,
+  "courseName": "PMHNP Practicum II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/560/1/false/true",
+      "response": {
+        "courseDescription": "<b>560 PMHNP Practicum II</b>  Clinical practicum experience focused on ongoing development of proficiency in the comprehensive lifespan PMHNP nursing role.  ",
+        "coursePrerequisites": " NURS ADV 501; NURS ADV 502; NURS ADV 555; admission to PMHNP program.",
+        "instructors": [
+          {
+            "firstName": "Josh",
+            "lastName": "Hamilton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

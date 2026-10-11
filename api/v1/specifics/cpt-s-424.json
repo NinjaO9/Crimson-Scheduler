@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:23.854254+00:00",
+  "course": "cpt-s-424",
+  "subject": "CPT_S",
+  "courseNumber": 424,
+  "courseName": "Cyber Law, Ethics, Rights, and Policies",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/424/1/false/true",
+      "response": {
+        "courseDescription": "<b>424 Cyber Law, Ethics, Rights, and Policies</b>  Laws, ethics, rights, and governmental regulations as applied to the field of cybersecurity from technological and social perspectives.  ",
+        "coursePrerequisites": " CPT S 327 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

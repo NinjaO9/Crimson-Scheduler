@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:28.196541+00:00",
+  "course": "me-405",
+  "subject": "ME",
+  "courseNumber": 405,
+  "courseName": "Thermal Systems Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Thermal Systems Design</b>  Design and analysis of thermofluid systems using principles of thermodynamics, fluid mechanics and heat transfer.  ",
+        "coursePrerequisites": " ME 304; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Gordon",
+            "lastName": "Taub",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

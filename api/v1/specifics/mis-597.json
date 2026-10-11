@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:10.306735+00:00",
+  "course": "mis-597",
+  "subject": "MIS",
+  "courseNumber": 597,
+  "courseName": "MIS Research Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MIS/597/1/false/true",
+      "response": {
+        "courseDescription": "<b>597 MIS Research Methods</b>  Study and application of research methods used in MIS research.  ",
+        "coursePrerequisites": " Admission to PhD programs in business.",
+        "instructors": [
+          {
+            "firstName": "Christoph",
+            "lastName": "Schneider",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:23.355401+00:00",
+  "course": "humanity-219",
+  "subject": "HUMANITY",
+  "courseNumber": 219,
+  "courseName": "Introduction to the Environmental Humanities",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hum/219/1/false/true",
+      "response": {
+        "courseDescription": "<b>219 Introduction to the Environmental Humanities</b>  An introduction to the Humanities, as an interdisciplinary field, and how Humanities methods and research contribute to, intersect with, and can learn from, environmental thought and action.  (Crosslisted course offered as ENGLISH 219, HUMANITY 219.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kate",
+            "lastName": "Watts",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

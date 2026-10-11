@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:17.442087+00:00",
+  "course": "amdt-308",
+  "subject": "AMDT",
+  "courseNumber": 308,
+  "courseName": "Visual Merchandising and Promotion",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 Visual Merchandising and Promotion</b>  Examination of fashion promotion components of visual display and store layout; application of principles and elements of design and concept development.  ",
+        "coursePrerequisites": " AMDT 250; AMDT 268.",
+        "instructors": [
+          {
+            "firstName": "Jihyeong",
+            "lastName": "Son",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

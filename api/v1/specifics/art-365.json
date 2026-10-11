@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:03.733393+00:00",
+  "course": "art-365",
+  "subject": "ART",
+  "courseNumber": 365,
+  "courseName": "Special Topics - Sculpture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ART/365/1/false/true",
+      "response": {
+        "courseDescription": "<b>365 Special Topics - Sculpture</b> May be repeated for credit.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Iolanda",
+            "lastName": "Palmer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

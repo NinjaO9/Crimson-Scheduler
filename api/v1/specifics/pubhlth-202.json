@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:47.629380+00:00",
+  "course": "pubhlth-202",
+  "subject": "PUBHLTH",
+  "courseNumber": 202,
+  "courseName": "Research Methods in Social and Behavioral Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PUBHL/202/2/false/true",
+      "response": {
+        "courseDescription": "<b>202 Research Methods in Social and Behavioral Sciences</b>  Introduction to essential concepts and strategies in planning, designing, and implementing research studies in the social and behavioral sciences, including public health; analysis and evaluation of quantitative and qualitative research methodology in public health research.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Todd",
+            "lastName": "Sabato",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:45.771252+00:00",
+  "course": "e-e-321",
+  "subject": "E_E",
+  "courseNumber": 321,
+  "courseName": "Electrical Circuits II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Electrical Circuits II</b>  State space analysis, Laplace transforms, network functions, frequency response, Fourier series, two-ports, energy and passivity.  ",
+        "coursePrerequisites": " E E 261 with a C or better; admitted to a major or minor in EECS, or major in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Shuzheng",
+            "lastName": "Xie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

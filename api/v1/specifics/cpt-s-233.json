@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:20.882583+00:00",
+  "course": "cpt-s-233",
+  "subject": "CPT_S",
+  "courseNumber": 233,
+  "courseName": "Advanced Data Structures Java",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/233/1/false/true",
+      "response": {
+        "courseDescription": "<b>233 Advanced Data Structures Java</b>  Advanced data structures, object oriented programming concepts, concurrency, and program design principles. Taught in Java programming language.  ",
+        "coursePrerequisites": " CPT S 132 with a C or better; MATH 216 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Srinivasulu",
+            "lastName": "Badri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

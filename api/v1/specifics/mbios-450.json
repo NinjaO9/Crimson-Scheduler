@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:22.928443+00:00",
+  "course": "mbios-450",
+  "subject": "MBIOS",
+  "courseNumber": 450,
+  "courseName": "Microbial Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Microbial Physiology</b>  Basic microbial physiology and its relevance to the processes of applied microbiology. Recommended preparation for graduate students:  Introductory genetics, biochemistry or microbiology coursework. Credit not granted for both MBIOS 450 and 550.  ",
+        "coursePrerequisites": " MBIOS 303; MBIOS 304; MBIOS 305.",
+        "instructors": [
+          {
+            "firstName": "Luying",
+            "lastName": "Xun",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

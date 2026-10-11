@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:45.375449+00:00",
+  "course": "chem-518",
+  "subject": "CHEM",
+  "courseNumber": 518,
+  "courseName": "Electrochemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 Electrochemistry</b>  Execution and interpretation of a variety of interfacial electroanalytical techniques. Recommended preparation: CHEM 425 or equivalent.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

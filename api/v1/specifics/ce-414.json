@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:37.395362+00:00",
+  "course": "ce-414",
+  "subject": "CE",
+  "courseNumber": 414,
+  "courseName": "Structural Load Paths and Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/414/1/false/true",
+      "response": {
+        "courseDescription": "<b>414 Structural Load Paths and Analysis</b>  Understanding load, load path determination techniques, and performance of various building materials. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 330 with a C or better; STAT 360 or concurrent enrollment, or STAT 370 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Haifeng",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:42.318457+00:00",
+  "course": "fs-501",
+  "subject": "FS",
+  "courseNumber": 501,
+  "courseName": "Topics in Food Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/501/5/false/true",
+      "response": {
+        "courseDescription": "<b>501 Topics in Food Science</b> May be repeated for credit; cumulative maximum 6 hours. Selected topics in food science. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Gulhan",
+            "lastName": "Unlu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

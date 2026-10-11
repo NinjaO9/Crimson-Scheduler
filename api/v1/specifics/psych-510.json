@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:42.115074+00:00",
+  "course": "psych-510",
+  "subject": "PSYCH",
+  "courseNumber": 510,
+  "courseName": "Introduction to Online Instruction",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Introduction to Online Instruction</b>  Instruction in teaching online courses addressing issues faced by instructors and students; students are mentored while teaching online.  S, F grading. ",
+        "coursePrerequisites": " Ph. D student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Remington",
+            "lastName": "Swensson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

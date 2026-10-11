@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:48.738654+00:00",
+  "course": "vet-med-500",
+  "subject": "VET_MED",
+  "courseNumber": 500,
+  "courseName": "Animals, Society, and the Veterinarian",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/500/1/false/true",
+      "response": {
+        "courseDescription": "<b>500 Animals, Society, and the Veterinarian</b>  Active participation in activities designed to enhance personal growth, character development and leadership skills.  S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeremiah",
+            "lastName": "Grissett",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Susan M.",
+            "lastName": "Matthew",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

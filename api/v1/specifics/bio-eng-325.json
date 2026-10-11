@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:10.329923+00:00",
+  "course": "bio-eng-325",
+  "subject": "BIO_ENG",
+  "courseNumber": 325,
+  "courseName": "Introduction to Bioengineering Research and Clinical Instrumentation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 [M] Introduction to Bioengineering Research and Clinical Instrumentation</b>  Principles of measurement systems for bioengineering applications, data analysis, and troubleshooting.  ",
+        "coursePrerequisites": " BIO ENG 305, BIO ENG 310, BIO ENG 315, MATH 315, MBIOS 303, PHYSICS 202 and PHYSICS 212 with a C or better; STAT 370 or STAT 423 with a C or better or concurrent enrollment; admitted to the major in Bioengineering.",
+        "instructors": [
+          {
+            "firstName": "Anita",
+            "lastName": "Vasavada",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Bin",
+            "lastName": "Cao",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

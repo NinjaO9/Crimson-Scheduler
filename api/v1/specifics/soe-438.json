@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:22.490255+00:00",
+  "course": "soe-438",
+  "subject": "SOE",
+  "courseNumber": 438,
+  "courseName": "Natural Resource and Public Lands Policy and Law",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/438/1/false/true",
+      "response": {
+        "courseDescription": "<b>438 Natural Resource and Public Lands Policy and Law</b>  Development, content and implementation of natural resources and environmental policy and law in the U.S. Emphasis on both historical development and current issues in this field. Recommended preparation: SOE 312.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Billings",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

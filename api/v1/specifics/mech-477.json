@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:09.141032+00:00",
+  "course": "mech-477",
+  "subject": "MECH",
+  "courseNumber": 477,
+  "courseName": "Manufacturing for Polymer Composites",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/477/1/false/true",
+      "response": {
+        "courseDescription": "<b>477 Manufacturing for Polymer Composites</b>  Polymeric materials and their composites; various manufacturing processes; transport phenomena in composite manufacturing; process modeling and design.  ",
+        "coursePrerequisites": " MECH 309.",
+        "instructors": [
+          {
+            "firstName": "Hua",
+            "lastName": "Tan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

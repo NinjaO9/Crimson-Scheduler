@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:56.444071+00:00",
+  "course": "b-a-211",
+  "subject": "B_A",
+  "courseNumber": 211,
+  "courseName": "Ethics, Teams, and Innovation",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/B%20A/211/3/false/true",
+      "response": {
+        "courseDescription": "<b>211 Ethics, Teams, and Innovation</b>  Introduction to business ethics; overview of ethics value foundations; focus on preparing students to make business decisions ethically; team and group dynamics, including factors and behaviors that impede or increase team performance; leadership roles in teams; process of innovation inside organizations; factors and behaviors that promote innovation creation and implementation. Credit not granted for B A 211 if credit is already earned in either B A 201, 202, or 203.  ",
+        "coursePrerequisites": "  B A 100; B A 102 and HBM 101, OR B A 102 and HONORS 198, OR HBM 105; or admitted to a major or minor in Carson College of Business.  Enrollment not allowed if credit already earned for B A 201, 202, or 203.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Beattie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

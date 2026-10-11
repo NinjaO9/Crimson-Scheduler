@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:41.226454+00:00",
+  "course": "anim-sci-408",
+  "subject": "ANIM_SCI",
+  "courseNumber": 408,
+  "courseName": "Ruminant Nutrition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/408/1/false/true",
+      "response": {
+        "courseDescription": "<b>408 [M] Ruminant Nutrition</b>  Anatomy, physiology, and metabolism in ruminant animals.  ",
+        "coursePrerequisites": " ANIM SCI 313.",
+        "instructors": [
+          {
+            "firstName": "Linda",
+            "lastName": "Beckett",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

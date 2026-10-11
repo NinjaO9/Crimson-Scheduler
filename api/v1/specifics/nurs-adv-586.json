@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:06.926539+00:00",
+  "course": "nurs-adv-586",
+  "subject": "NURS_ADV",
+  "courseNumber": 586,
+  "courseName": "Nursing Education Capstone",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Summer/2026/NURAD/586/1/false/true",
+      "response": {
+        "courseDescription": "<b>586 Nursing Education Capstone</b>  A culminating, supervised practicum experience to strengthen leadership abilities of nurse educators by identifying a performance gap and developing a proposed intervention for addressing the gap.  ",
+        "coursePrerequisites": " NURS ADV 533; NURS ADV 585.",
+        "instructors": [
+          {
+            "firstName": "Denise",
+            "lastName": "Smart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

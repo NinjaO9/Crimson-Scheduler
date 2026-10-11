@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:22:25.173305+00:00",
+  "course": "biology-395",
+  "subject": "BIOLOGY",
+  "courseNumber": 395,
+  "courseName": "Evolutionary Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/395/1/false/true",
+      "response": {
+        "courseDescription": "<b>395 Evolutionary Medicine</b>  Modern medical issues from an evolutionary perspective, integrated with other biological fields in medical research; topics include disease diversity, immune function, the evolution of virulence, human disease management, cancer, obesity, and human mental and reproductive health issues and their management.  ",
+        "coursePrerequisites": " BIOLOGY 301.  Enrollment not allowed if credit for BIOLOGY 403 or 405 already earned or if enrolled in either BIOLOGY 403 or 405.",
+        "instructors": [
+          {
+            "firstName": "Nii",
+            "lastName": "Ankrah",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

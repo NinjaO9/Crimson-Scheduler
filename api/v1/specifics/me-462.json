@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:30.219936+00:00",
+  "course": "me-462",
+  "subject": "ME",
+  "courseNumber": 462,
+  "courseName": "Introduction to Nuclear Engineering II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/462/1/false/true",
+      "response": {
+        "courseDescription": "<b>462 Introduction to Nuclear Engineering II</b>  Fundamentals of nuclear engineering, heat deposition and removal from nuclear reactors, radiation protection, radiation shielding, and licensing, safety, and environmental aspects of nuclear reactor operation.  ",
+        "coursePrerequisites": " MATH 315.",
+        "instructors": [
+          {
+            "firstName": "Douglas",
+            "lastName": "Reid",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Nathan",
+            "lastName": "Clark",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

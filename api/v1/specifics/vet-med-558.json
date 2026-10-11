@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:54.346955+00:00",
+  "course": "vet-med-558",
+  "subject": "VET_MED",
+  "courseNumber": 558,
+  "courseName": "Diseases and Management of Pet and Wild Birds",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/558/1/false/true",
+      "response": {
+        "courseDescription": "<b>558 Diseases and Management of Pet and Wild Birds</b>  Management and handling, diagnosis and treatment of various disease conditions of pet and wild birds.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Nickol",
+            "lastName": "Finch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

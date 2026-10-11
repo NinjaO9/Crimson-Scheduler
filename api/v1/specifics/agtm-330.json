@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:14.836591+00:00",
+  "course": "agtm-330",
+  "subject": "AGTM",
+  "courseNumber": 330,
+  "courseName": "Electrical Power Systems for Agriculture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AgTM/330/1/false/true",
+      "response": {
+        "courseDescription": "<b>330 Electrical Power Systems for Agriculture</b>  Methods of selecting and installing electrical power circuits in agricultural operations; light frame construction; motor and control circuits; Programmable Logic Controllers (PLCs).  ",
+        "coursePrerequisites": " Sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

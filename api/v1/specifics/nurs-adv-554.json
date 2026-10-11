@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:04.368948+00:00",
+  "course": "nurs-adv-554",
+  "subject": "NURS_ADV",
+  "courseNumber": 554,
+  "courseName": "Epidemiology and Biostatistics for Health Professions",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/554/1/false/true",
+      "response": {
+        "courseDescription": "<b>554 Epidemiology and Biostatistics for Health Professions</b>  Introduction to epidemiology: principles and methods of epidemiologic investigation including analysis of key elements of investigation of high-risk populations. Required preparation must include college-level statistics course.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Denise",
+            "lastName": "Smart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

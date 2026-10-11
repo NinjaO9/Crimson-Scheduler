@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:04.462609+00:00",
+  "course": "hort-345",
+  "subject": "HORT",
+  "courseNumber": 345,
+  "courseName": "Crop Plant Genetics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hort/345/1/false/true",
+      "response": {
+        "courseDescription": "<b>345 Crop Plant Genetics</b>  Key principles of genetics for crop plants: Mendelian, transmission, population, and quantitative genetics; the genetic consequences of types of reproductive systems; genetic diversity sources and resources; applied crop plant genetics areas of biodiversity management, breading, and on-farm cultivar choice/management; integration of crop plant genetics in the broader context of crop improvement. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106, 107, 120, or HORT/CROP SCI 202.",
+        "instructors": [
+          {
+            "firstName": "Cameron",
+            "lastName": "Peace",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:45.716800+00:00",
+  "course": "chem-531",
+  "subject": "CHEM",
+  "courseNumber": 531,
+  "courseName": "Advanced Physical Chemistry I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Advanced Physical Chemistry I</b>  Classical physical chemistry including basic thermodynamics and kinetics; an introductory discussion of surface chemistry and electrochemistry. Recommended preparation: CHEM 331 or equivalent.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kirk",
+            "lastName": "Peterson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

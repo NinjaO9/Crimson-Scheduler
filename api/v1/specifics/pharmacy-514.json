@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:17.984056+00:00",
+  "course": "pharmacy-514",
+  "subject": "PHARMACY",
+  "courseNumber": 514,
+  "courseName": "Pharmacotherapy I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Pharmacotherapy I</b>  First in a sequence of courses that focuses on the clinical use of medications in the prevention, mitigation, or cure of disease.  ",
+        "coursePrerequisites": "  PHARDSCI 502; PHARMACY 507.",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Clark",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

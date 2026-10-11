@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:17.803649+00:00",
+  "course": "cs-317",
+  "subject": "CS",
+  "courseNumber": 317,
+  "courseName": "Automata and Formal Languages",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/317/1/false/true",
+      "response": {
+        "courseDescription": "<b>317 Automata and Formal Languages</b>  Finite automata, regular sets, pushdown automata, context-free language, Turing machines and the halting problem.  ",
+        "coursePrerequisites": " CS 122 with a C or better; CS 166 with a C or better or MATH 301 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Farhana",
+            "lastName": "Kabir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

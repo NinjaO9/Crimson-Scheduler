@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:09.246121+00:00",
+  "course": "ed-ad-588",
+  "subject": "ED_AD",
+  "courseNumber": 588,
+  "courseName": "The Law and Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/Ed%20Ad/588/1/false/true",
+      "response": {
+        "courseDescription": "<b>588 The Law and Education</b>  Fundamental legal principles within which public education functions; applicable school codes of Washington and other states; review important court cases.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Marilee",
+            "lastName": "Scarbrough",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

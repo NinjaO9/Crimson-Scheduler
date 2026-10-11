@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:30.756501+00:00",
+  "course": "univ-110",
+  "subject": "UNIV",
+  "courseNumber": 110,
+  "courseName": "Developing Academic Strategies for Reading and Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Univs/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Developing Academic Strategies for Reading and Writing</b>  Development of academic English vocabulary, grammatical competence, reading strategies, and academic writing skills.  ",
+        "coursePrerequisites": " TOEFL iBT 64-75, TOEFL PBT 185-205, or IELTS 5.5-6; Undergraduate Bridge students only.",
+        "instructors": [
+          {
+            "firstName": "Sharon",
+            "lastName": "Fraser-Allen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

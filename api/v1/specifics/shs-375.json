@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:07:44.865274+00:00",
+  "course": "shs-375",
+  "subject": "SHS",
+  "courseNumber": 375,
+  "courseName": "Phonetics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/375/1/false/true",
+      "response": {
+        "courseDescription": "<b>375 Phonetics</b>  Description and classification of American English speech sounds; practice using the International Phonetic Alphabet to transcribe normal and disordered speech sounds.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Meredith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

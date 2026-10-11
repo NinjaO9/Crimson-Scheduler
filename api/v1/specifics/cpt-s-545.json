@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:45.908117+00:00",
+  "course": "cpt-s-545",
+  "subject": "CPT_S",
+  "courseNumber": 545,
+  "courseName": "AI in the Real World",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/545/1/false/true",
+      "response": {
+        "courseDescription": "<b>545 AI in the Real World</b>  Advanced artificial intelligence (AI) tools to solve real-world problems in science, engineering, and industrial domains including both modern AI methods and how to deploy, evaluate, and govern AI systems in practice with an emphasis on case studies and hands-on projects.  ",
+        "coursePrerequisites": " CPT S 570.",
+        "instructors": [
+          {
+            "firstName": "Jana",
+            "lastName": "Doppa",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

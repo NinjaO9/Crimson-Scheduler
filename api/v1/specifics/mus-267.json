@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:10.976729+00:00",
+  "course": "mus-267",
+  "subject": "MUS",
+  "courseNumber": 267,
+  "courseName": "Black American Music: Roots to Fruit",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/267/1/false/true",
+      "response": {
+        "courseDescription": "<b>267 Black American Music: Roots to Fruit</b>  A critical survey of key musical and societal forces contributing to today's African American musicscape; listening, analysis, and critique.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Darryl",
+            "lastName": "Singleton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

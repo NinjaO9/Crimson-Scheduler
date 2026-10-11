@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:18.261728+00:00",
+  "course": "med-clin-587",
+  "subject": "MED_CLIN",
+  "courseNumber": 587,
+  "courseName": "Virtual - Public Health",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDCL/587/1/false/true",
+      "response": {
+        "courseDescription": "<b>587 Virtual - Public Health</b>  Introduction to the knowledge, skills, and range of problems that public health officers encounter.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524; exceptions granted by the Associate Dean for Curriculum or designee.",
+        "instructors": [
+          {
+            "firstName": "Judith",
+            "lastName": "Marcin",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Lutz",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

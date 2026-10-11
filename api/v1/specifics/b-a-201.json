@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:55.932307+00:00",
+  "course": "b-a-201",
+  "subject": "B_A",
+  "courseNumber": 201,
+  "courseName": "Ethics for Business",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20A/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Ethics for Business</b>  Introduction to business ethics; overview of ethics value foundations; focus on preparing students to make business decisions ethically. Credit not granted for both B A 201 and 211.  ",
+        "coursePrerequisites": " B A 100; B A 102 and HBM 101, OR B A 102 and HONORS 198, OR HBM 105; or admitted to a major or minor in Carson College of Business. Enrollment not allowed if credit already earned for B A 211.",
+        "instructors": [
+          {
+            "firstName": "Marie",
+            "lastName": "Mayes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

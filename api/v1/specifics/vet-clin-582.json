@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:46.605878+00:00",
+  "course": "vet-clin-582",
+  "subject": "VET_CLIN",
+  "courseNumber": 582,
+  "courseName": "Seminar in Clinical Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20MS/582/1/false/true",
+      "response": {
+        "courseDescription": "<b>582 Seminar in Clinical Medicine</b> May be repeated for credit.   ",
+        "coursePrerequisites": " Admission to the Graduate Certificate, MS, or PhD in Biomedical Sciences program.",
+        "instructors": [
+          {
+            "firstName": "Mara",
+            "lastName": "Varvil",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Shana",
+            "lastName": "O'Marra",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

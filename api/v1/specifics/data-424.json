@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:43.854422+00:00",
+  "course": "data-424",
+  "subject": "DATA",
+  "courseNumber": 424,
+  "courseName": "Data Analytics Capstone",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/DATA/424/1/false/true",
+      "response": {
+        "courseDescription": "<b>424 [M] Data Analytics Capstone</b>  Team-based project that integrates the main aspects of data analytics.  ",
+        "coursePrerequisites": " CPT S/CS 315 or DATA 319; STAT/DATA 360; DATA 422; STAT/DATA 435 or 437, or concurrent enrollment; admitted to the major in Data Analytics; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Sergey",
+            "lastName": "Lapin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

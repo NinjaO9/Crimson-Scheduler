@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:42.448179+00:00",
+  "course": "anim-sci-474",
+  "subject": "ANIM_SCI",
+  "courseNumber": 474,
+  "courseName": "Beef Cattle Production",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/474/1/false/true",
+      "response": {
+        "courseDescription": "<b>474 [M] Beef Cattle Production</b>  Breeding, feeding, and management; commercial and purebred enterprises; management of beef cattle on ranges, pastures and in the feedlot. Field trip required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " ANIM SCI 313; ANIM SCI 330; ANIM SCI 350; junior standing.",
+        "instructors": [
+          {
+            "firstName": "KATIE",
+            "lastName": "SHIRA",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

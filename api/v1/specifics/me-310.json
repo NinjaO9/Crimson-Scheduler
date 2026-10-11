@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:27.156955+00:00",
+  "course": "me-310",
+  "subject": "ME",
+  "courseNumber": 310,
+  "courseName": "Manufacturing Processes",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Manufacturing Processes</b>  Manufacturing processes, material fabrication, and nontraditional processing.  ",
+        "coursePrerequisites": " MSE 201; admitted to the major in Mechanical Engineering or Materials Science and Engineering.",
+        "instructors": [
+          {
+            "firstName": "Xiaopeng",
+            "lastName": "Bi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

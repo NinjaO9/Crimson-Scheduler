@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:50.530031+00:00",
+  "course": "e-e-576",
+  "subject": "E_E",
+  "courseNumber": 576,
+  "courseName": "Analog Integrated Circuits",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Analog Integrated Circuits</b>  Analysis and design of analog integrated circuits in CMOS and BiCMOS technologies; current mirrors, gain stages, operational amplifiers, frequency response, and compensation. Credit not granted for both E E 476 and 576.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dan",
+            "lastName": "Berco",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

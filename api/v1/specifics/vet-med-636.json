@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:02.948253+00:00",
+  "course": "vet-med-636",
+  "subject": "VET_MED",
+  "courseNumber": 636,
+  "courseName": "Equine Medicine Elective",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/636/1/false/true",
+      "response": {
+        "courseDescription": "<b>636 Equine Medicine Elective</b> May be repeated for credit; cumulative maximum 8 hours. Elective clinical experience with the Equine Medicine Service in the Large Animal Clinic of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Macarena",
+            "lastName": "Sanz",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Debra",
+            "lastName": "Sellon",
+            "isPrimary": false,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Erin",
+            "lastName": "Pinnell",
+            "isPrimary": false,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Sandra",
+            "lastName": "Diaz Yucupicio",
+            "isPrimary": false,
+            "tchEffort": 20
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

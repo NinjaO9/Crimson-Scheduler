@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:09.673711+00:00",
+  "course": "mgtop-452",
+  "subject": "MGTOP",
+  "courseNumber": 452,
+  "courseName": "Supply Chain Management in the Digital Age",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MgtOp/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 Supply Chain Management in the Digital Age</b>  Managing and modeling commercial supply chains, emphasizing electronic commerce, purchasing, supplier selection, logistics, global distribution networks, and supply chain coordination.  ",
+        "coursePrerequisites": " MGTOP 340.",
+        "instructors": [
+          {
+            "firstName": "Xinchang",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

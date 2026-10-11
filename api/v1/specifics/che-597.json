@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:54.109020+00:00",
+  "course": "che-597",
+  "subject": "CHE",
+  "courseNumber": 597,
+  "courseName": "Research Methods and Communications II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/597/1/false/true",
+      "response": {
+        "courseDescription": "<b>597 Research Methods and Communications II</b>  Establishing sound practices for presentation of research programs and research results.  ",
+        "coursePrerequisites": " CHE 596.",
+        "instructors": [
+          {
+            "firstName": "Wenji",
+            "lastName": "Dong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

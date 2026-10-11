@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:23.752632+00:00",
+  "course": "cst-m-102",
+  "subject": "CST_M",
+  "courseNumber": 102,
+  "courseName": "Introduction to the Built Environment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Introduction to the Built Environment</b>  Introduction to the construction industry; reviewing contract documents, methods of project management and current issues pertaining to the industry.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Darhl",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:42.070872+00:00",
+  "course": "chem-347",
+  "subject": "CHEM",
+  "courseNumber": 347,
+  "courseName": "Organic Qualitative Analysis Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/347/1/false/true",
+      "response": {
+        "courseDescription": "<b>347 Organic Qualitative Analysis Laboratory</b>  Isolation, purification and identification of unknown compounds; for chemistry and biochemistry majors.  ",
+        "coursePrerequisites": " CHEM 348 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Joseph",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

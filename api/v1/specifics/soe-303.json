@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:35.530645+00:00",
+  "course": "soe-303",
+  "subject": "SOE",
+  "courseNumber": 303,
+  "courseName": "Environmental Geology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/303/1/false/true",
+      "response": {
+        "courseDescription": "<b>303 Environmental Geology</b>  Geologic concepts at intersections of human society and the environment; complex and nuanced socio-scientific questions impacting communities in the Pacific Northwest.  Required field trip.  ",
+        "coursePrerequisites": " SOE 101 or 102.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Pelch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

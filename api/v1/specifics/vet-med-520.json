@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:50.322528+00:00",
+  "course": "vet-med-520",
+  "subject": "VET_MED",
+  "courseNumber": 520,
+  "courseName": "Veterinary Physiology II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/520/1/false/true",
+      "response": {
+        "courseDescription": "<b>520 Veterinary Physiology II</b>  Physiology of domestic animals. Cooperative: Open to UI degree-seeking students. S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 510.",
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Meighan",
+            "isPrimary": true,
+            "tchEffort": 48
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

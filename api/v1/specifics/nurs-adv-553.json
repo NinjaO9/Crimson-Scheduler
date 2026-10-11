@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:04.199799+00:00",
+  "course": "nurs-adv-553",
+  "subject": "NURS_ADV",
+  "courseNumber": 553,
+  "courseName": "Organizational Systems and Leadership II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/NURAD/553/1/false/true",
+      "response": {
+        "courseDescription": "<b>553 Organizational Systems and Leadership II</b>  Integration of principal dimensions of healthcare policy evaluation, and quality improvement in a constantly changing health care environment.  ",
+        "coursePrerequisites": " NURS ADV 576 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Reedy",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Hunt",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

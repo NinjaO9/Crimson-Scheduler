@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:37.552688+00:00",
+  "course": "asia-275",
+  "subject": "ASIA",
+  "courseNumber": 275,
+  "courseName": "Introduction to East Asian Culture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Asia/275/2/false/true",
+      "response": {
+        "courseDescription": "<b>275 Introduction to East Asian Culture</b>  Survey of East Asia (China, Japan, Korea, and others) history from 1766 BCE to the present. (Crosslisted course offered as HISTORY 275, ASIA 275.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "William",
+            "lastName": "Brecher",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

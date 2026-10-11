@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:59.383881+00:00",
+  "course": "dtc-477",
+  "subject": "DTC",
+  "courseNumber": 477,
+  "courseName": "Advanced Web Design and Development",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/DTC/477/1/false/true",
+      "response": {
+        "courseDescription": "<b>477 Advanced Web Design and Development</b>  Advanced web development and coding for creating interactive media and websites.  ",
+        "coursePrerequisites": " DTC 355.",
+        "instructors": [
+          {
+            "firstName": "William",
+            "lastName": "Luers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

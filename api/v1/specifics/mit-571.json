@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:13.823607+00:00",
+  "course": "mit-571",
+  "subject": "MIT",
+  "courseNumber": 571,
+  "courseName": "Pre-internship and Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MIT/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Pre-internship and Seminar</b> May be repeated for credit; cumulative maximum 4 hours. Instructional practice in diverse classroom settings and reflection on that practice.  S, F grading. ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Andy",
+            "lastName": "Cavagnetto",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

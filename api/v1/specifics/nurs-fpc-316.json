@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:08.107401+00:00",
+  "course": "nurs-fpc-316",
+  "subject": "NURS_FPC",
+  "courseNumber": 316,
+  "courseName": "Introduction to Nursing Practice in Health and Illness: Theory",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/316/1/false/true",
+      "response": {
+        "courseDescription": "<b>316 Introduction to Nursing Practice in Health and Illness: Theory</b>  Introduction to nursing concepts and holistic assessment including core professional values, knowledge and competencies for nursing practice.  ",
+        "coursePrerequisites": " Admitted to the major in Nursing; concurrent enrollment in NURS FPC 315 and NURS FPC 317.",
+        "instructors": [
+          {
+            "firstName": "Annette",
+            "lastName": "Jenkins",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Bonnie",
+            "lastName": "Sarkinen",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

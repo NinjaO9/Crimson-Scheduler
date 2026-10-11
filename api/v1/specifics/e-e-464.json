@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:48.578816+00:00",
+  "course": "e-e-464",
+  "subject": "E_E",
+  "courseNumber": 464,
+  "courseName": "Digital Signal Processing I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/464/1/false/true",
+      "response": {
+        "courseDescription": "<b>464 Digital Signal Processing I</b>  Discrete and fast Fourier transforms; Z-transform; sampling; discrete convolution; digital filter design; effects of quantization.  ",
+        "coursePrerequisites": " E E 341 with a C or better; admitted to a major or minor in EECS, or major in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Mohammad",
+            "lastName": "Torabi Konjin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

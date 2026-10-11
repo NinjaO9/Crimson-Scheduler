@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:06.868630+00:00",
+  "course": "ed-ad-509",
+  "subject": "ED_AD",
+  "courseNumber": 509,
+  "courseName": "Leading School Improvement",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/Ed%20Ad/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Leading School Improvement</b>  Leadership functions and strategies used in planning, evaluating, and influencing school improvement.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Donald",
+            "lastName": "Vanderholm",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

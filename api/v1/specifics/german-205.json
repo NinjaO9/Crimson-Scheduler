@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:43.203132+00:00",
+  "course": "german-205",
+  "subject": "GERMAN",
+  "courseNumber": 205,
+  "courseName": "Intermediate Conversation I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ger/205/1/false/true",
+      "response": {
+        "courseDescription": "<b>205 Intermediate Conversation I</b> May be repeated for credit; cumulative maximum 2 hours. Intermediate-level conversation practice in small groups with a native/near-native speaker. Not open to native speakers except with permission.  S, F grading. ",
+        "coursePrerequisites": " GERMAN 203 or concurrent enrollment, or GERMAN 204 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": false,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

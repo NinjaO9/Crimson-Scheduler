@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:14.862910+00:00",
+  "course": "crop-sci-480",
+  "subject": "CROP_SCI",
+  "courseNumber": 480,
+  "courseName": "Plant Genomics and Biotechnology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CropS/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Plant Genomics and Biotechnology</b>  Advanced concepts in plant genomics and biotechnology with emphasis on approaches, techniques, and application. Recommended preparation:  BIOLOGY 420 or HORT 416. (Crosslisted course offered as HORT 480, CROP SCI 480.)  ",
+        "coursePrerequisites": " MBIOS/BIOLOGY 301 or HORT 345.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Neff",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

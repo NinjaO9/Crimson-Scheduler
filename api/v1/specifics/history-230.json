@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:18:21.221201+00:00",
+  "course": "history-230",
+  "subject": "HISTORY",
+  "courseNumber": 230,
+  "courseName": "Introduction to Latin American History",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Hist/230/1/false/true",
+      "response": {
+        "courseDescription": "<b>230 Introduction to Latin American History</b>  Overview of the most significant events, social and ethnic groups, practices, and institutions of colonial and modern Latin America.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sabrina",
+            "lastName": "Gonzalez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:22.332934+00:00",
+  "course": "cs-580",
+  "subject": "CS",
+  "courseNumber": 580,
+  "courseName": "Advanced Topics in Computer Science",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Advanced Topics in Computer Science</b> May be repeated for credit.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yan",
+            "lastName": "Yan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

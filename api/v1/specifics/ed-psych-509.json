@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:11.796983+00:00",
+  "course": "ed-psych-509",
+  "subject": "ED_PSYCH",
+  "courseNumber": 509,
+  "courseName": "Educational Measurements: Test Development and Assessment",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/EdPsy/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Educational Measurements: Test Development and Assessment</b>  Theory and use of standardized educational measurement instruments; intelligence, aptitude, and achievement tests; measurement of outcomes.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Chad",
+            "lastName": "Gotch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

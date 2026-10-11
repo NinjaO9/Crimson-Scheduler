@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:48.060089+00:00",
+  "course": "pubhlth-220",
+  "subject": "PUBHLTH",
+  "courseNumber": 220,
+  "courseName": "Chronic and Infectious Diseases",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PUBHL/220/2/false/true",
+      "response": {
+        "courseDescription": "<b>220 Chronic and Infectious Diseases</b>  Exploration of both newly emerging and re-emerging infectious diseases including the ways in which disease organisms interact with and alter each other and their environments.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Andreas",
+            "lastName": "Eleftheriou",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:31.235770+00:00",
+  "course": "univ-204",
+  "subject": "UNIV",
+  "courseNumber": 204,
+  "courseName": "First-Year Career Exploration and Design Thinking",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Univs/204/1/false/true",
+      "response": {
+        "courseDescription": "<b>204 First-Year Career Exploration and Design Thinking</b>  Development of strategies for turning college success into personal and professional success. Recommend preparation: UNIV 104.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Elizabeth",
+            "lastName": "Mariscal",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Heim",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

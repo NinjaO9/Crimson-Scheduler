@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:06.220697+00:00",
+  "course": "hort-495",
+  "subject": "HORT",
+  "courseNumber": 495,
+  "courseName": "Research Experience",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hort/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Research Experience</b> May be repeated for credit; cumulative maximum 12 hours. Planned and supervised undergraduate research experience. (Crosslisted course offered as CROP SCI 495, HORT 495, SOIL SCI 495.)  ",
+        "coursePrerequisites": "  Not open to graduate students.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Blauer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

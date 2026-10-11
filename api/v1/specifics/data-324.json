@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:43.351915+00:00",
+  "course": "data-324",
+  "subject": "DATA",
+  "courseNumber": 324,
+  "courseName": "Data Repository Systems for Data Analytics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/324/2/false/true",
+      "response": {
+        "courseDescription": "<b>324 [M] Data Repository Systems for Data Analytics</b>  Introduction to repository systems and use of data repositories for data wrangling.  ",
+        "coursePrerequisites": " CPT S 215, CPT S 223, CPT S 233, or DATA 219; DATA 303; MATH 220, or MATH/DATA 225; admitted to the major in Data Analytics; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Ally",
+            "lastName": "Avery",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

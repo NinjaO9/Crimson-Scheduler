@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:36.067078+00:00",
+  "course": "nep-489",
+  "subject": "NEP",
+  "courseNumber": 489,
+  "courseName": "NEP Internship and Professional Development Seminar",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/489/1/false/true",
+      "response": {
+        "courseDescription": "<b>489 NEP Internship and Professional Development Seminar</b>  Preparatory activities for students to successfully apply for and complete an internship; activities to enhance professional development and group-level and/or one-on-one advising; delivered in a seminar format.  S, F grading. ",
+        "coursePrerequisites": " NEP 463; NEP 476; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

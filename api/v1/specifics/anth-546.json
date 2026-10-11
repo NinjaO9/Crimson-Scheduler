@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:43.942477+00:00",
+  "course": "anth-546",
+  "subject": "ANTH",
+  "courseNumber": 546,
+  "courseName": "Complexity in Small Scale Societies",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Anth/546/1/false/true",
+      "response": {
+        "courseDescription": "<b>546 Complexity in Small Scale Societies</b>  Seminar focused on classic literature and current issues relevant to complexity in small scale societies, predominately covering hunter-gatherer systems. Recommended preparation: ANTH 530.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Colin",
+            "lastName": "Grier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

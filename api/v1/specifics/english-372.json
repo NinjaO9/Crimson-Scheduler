@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:01:33.076563+00:00",
+  "course": "english-372",
+  "subject": "ENGLISH",
+  "courseNumber": 372,
+  "courseName": "19th Century Literature of the British Empire and the Americas",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Engl/372/1/false/true",
+      "response": {
+        "courseDescription": "<b>372 19th Century Literature of the British Empire and the Americas</b>  Literary and cultural texts in English from 1800 to 1900 focusing on global British literature and literatures of the Americas.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kandy",
+            "lastName": "Robertson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

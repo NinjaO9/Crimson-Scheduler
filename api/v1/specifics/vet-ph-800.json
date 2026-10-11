@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:09.159503+00:00",
+  "course": "vet-ph-800",
+  "subject": "VET_PH",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Ph/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  S, U grading. ",
+        "coursePrerequisites": "  Admitted to the Veterinary Science PhD program.",
+        "instructors": [
+          {
+            "firstName": "Bertrand",
+            "lastName": "Tanner",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Emily",
+            "lastName": "Qualls-Creekmore",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kristen",
+            "lastName": "Delevich",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Maureen",
+            "lastName": "Schmitter-Edgecombe",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "R",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Rita",
+            "lastName": "Fuchs",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "McLaughlin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Samantha",
+            "lastName": "Gizerian",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Travis",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

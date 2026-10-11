@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:08:59.161355+00:00",
+  "course": "anth-301",
+  "subject": "ANTH",
+  "courseNumber": 301,
+  "courseName": "Arts and Media in Global Perspective",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Anth/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Arts and Media in Global Perspective</b>  Contemporary arts and media around the world, and their impact on identity, society, and culture.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Clare M",
+            "lastName": "Wilkinson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

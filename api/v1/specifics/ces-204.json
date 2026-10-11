@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:47.667430+00:00",
+  "course": "ces-204",
+  "subject": "CES",
+  "courseNumber": 204,
+  "courseName": "Critical Studies in Whiteness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CES/204/1/false/true",
+      "response": {
+        "courseDescription": "<b>204 Critical Studies in Whiteness</b>  Political and cultural practices that define whiteness through history, popular culture and everyday life.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Streamas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

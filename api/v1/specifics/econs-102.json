@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:22.300176+00:00",
+  "course": "econs-102",
+  "subject": "ECONS",
+  "courseNumber": 102,
+  "courseName": "Fundamentals of Macroeconomics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/EconS/102/2/false/true",
+      "response": {
+        "courseDescription": "<b>102 Fundamentals of Macroeconomics</b>  Theory and policy related to unemployment, inflation, foreign trade, government spending, taxation, and banking.  ",
+        "coursePrerequisites": " MATH 103 (or higher) or concurrent enrollment, ECONS 310, MGTOP 215, STAT 205, STAT 212 or concurrent enrollment, or a min ALEKS score of 40%. Enrollment not allowed if credit earned for ECONS 198 with a C or higher and ECONS 101.",
+        "instructors": [
+          {
+            "firstName": "Jephthah",
+            "lastName": "Oppong-Arthur",
+            "isPrimary": true,
+            "tchEffort": 95
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

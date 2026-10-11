@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:45.604097+00:00",
+  "course": "e-e-311",
+  "subject": "E_E",
+  "courseNumber": 311,
+  "courseName": "Electronics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Electronics</b>  Fundamental device characteristics including diodes, MOSFETs and bipolar transistors; small- and large-signal characteristics and design of linear circuits.  ",
+        "coursePrerequisites": " E E 261 with a C or better; admitted to a major or minor in EECS, or major in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

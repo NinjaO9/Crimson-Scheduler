@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:10.284548+00:00",
+  "course": "nurs-fpc-414",
+  "subject": "NURS_FPC",
+  "courseNumber": 414,
+  "courseName": "Child and Family Health: Theory",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/414/1/false/true",
+      "response": {
+        "courseDescription": "<b>414 Child and Family Health: Theory</b>  Analysis and evaluation of scientific and theory base for nursing care of children and families.  ",
+        "coursePrerequisites": " NURS FPC 308; NURS FPC 322; NURS FPC 324; NURS FPC 325; and concurrent enrollment in NURS FPC 415.",
+        "instructors": [
+          {
+            "firstName": "Karen",
+            "lastName": "Anders",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Theresa",
+            "lastName": "Bowden",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

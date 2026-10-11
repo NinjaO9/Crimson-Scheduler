@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:06.510544+00:00",
+  "course": "soe-408",
+  "subject": "SOE",
+  "courseNumber": 408,
+  "courseName": "Advanced Earth Science Field Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/SOE/408/1/false/true",
+      "response": {
+        "courseDescription": "<b>408 [M] Advanced Earth Science Field Methods</b>  Advanced field problems and methods; data interpretation and report preparation. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " SOE 207, SOE 340, and SOE 350, each with a C- or higher; senior\nstanding.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Pelch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:59.849569+00:00",
+  "course": "nurs-adv-508",
+  "subject": "NURS_ADV",
+  "courseNumber": 508,
+  "courseName": "Diagnostics and Procedures for Primary Care Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/508/1/false/true",
+      "response": {
+        "courseDescription": "<b>508 Diagnostics and Procedures for Primary Care Practice</b>  Introduction to the selection and interpretation of diagnostic tests, and performance of minor procedures for primary care practice.  ",
+        "coursePrerequisites": " NURS ADV 562 or concurrent enrollment; NURS ADV 563 or concurrent enrollment; NURS ADV 581; admission to FNP program.",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Hunt",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

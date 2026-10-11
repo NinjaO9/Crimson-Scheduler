@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:27.425984+00:00",
+  "course": "cpt-s-471",
+  "subject": "CPT_S",
+  "courseNumber": 471,
+  "courseName": "Computational Genomics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/471/1/false/true",
+      "response": {
+        "courseDescription": "<b>471 Computational Genomics</b>  Fundamental algorithms, techniques and applications. Credit not granted for both CPT S 471 and CPT S 571.  ",
+        "coursePrerequisites": " CPT S 223 or 233, with a C or better; CPT S 350 with a C or better or concurrent enrollment; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ananth",
+            "lastName": "Kalyanaraman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

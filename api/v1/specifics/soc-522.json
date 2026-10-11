@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:15:34.704947+00:00",
+  "course": "soc-522",
+  "subject": "SOC",
+  "courseNumber": 522,
+  "courseName": "Advanced Regression Techniques",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Soc/522/1/false/true",
+      "response": {
+        "courseDescription": "<b>522 Advanced Regression Techniques</b>  Advanced quantitative techniques used for categorical (binomial, ordinal, nominal), count, multilevel, and event history outcomes and research. Recommended preparation: SOC 521 or equivalent.  (Crosslisted course offered as SOC 522, POL S 506.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Justin",
+            "lastName": "Denney",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

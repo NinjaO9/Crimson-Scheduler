@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:03.093453+00:00",
+  "course": "comjour-390",
+  "subject": "COMJOUR",
+  "courseNumber": 390,
+  "courseName": "Video for the Web",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComJo/390/1/false/true",
+      "response": {
+        "courseDescription": "<b>390 Video for the Web</b>  Capture, design, edit, and compress quality video and audio; basic lighting techniques.  ",
+        "coursePrerequisites": "  COM 210 with a C or better; admitted to a major or minor in the College of Communication; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Waananen Jones",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

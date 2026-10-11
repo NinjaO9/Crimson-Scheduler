@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:08.993125+00:00",
+  "course": "nurs-fpc-360",
+  "subject": "NURS_FPC",
+  "courseNumber": 360,
+  "courseName": "Contemporary Nursing",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/360/1/false/true",
+      "response": {
+        "courseDescription": "<b>360 Contemporary Nursing</b>  Integration of foundational nursing theory into an exploration of historical, ethical/legal, and current issues, to further develop the professional nurse.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Stephanie",
+            "lastName": "Macon-Moore",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

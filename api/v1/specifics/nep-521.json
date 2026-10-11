@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:37.090070+00:00",
+  "course": "nep-521",
+  "subject": "NEP",
+  "courseNumber": 521,
+  "courseName": "Advanced Research Methods",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Advanced Research Methods</b>  Planning, conducting, and managing human research in nutrition and exercise physiology including clinical, behavioral, and population sciences.  ",
+        "coursePrerequisites": " NEP 520.",
+        "instructors": [
+          {
+            "firstName": "Patrick",
+            "lastName": "Solverson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

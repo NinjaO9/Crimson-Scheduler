@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:05.758869+00:00",
+  "course": "shs-576",
+  "subject": "SHS",
+  "courseNumber": 576,
+  "courseName": "Voice and Resonance Disorders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Voice and Resonance Disorders</b>  Functional and organic voice disorders resulting from various etiologies. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Kemp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

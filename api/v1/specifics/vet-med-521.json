@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:50.498866+00:00",
+  "course": "vet-med-521",
+  "subject": "VET_MED",
+  "courseNumber": 521,
+  "courseName": "Introduction to Veterinary Neurology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Introduction to Veterinary Neurology</b>  Neuroanatomical and neurophysiological bases of veterinary neurology, emphasizing central and peripheral sensory and motor systems.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 510.",
+        "instructors": [
+          {
+            "firstName": "Briedi",
+            "lastName": "Gillespie",
+            "isPrimary": true,
+            "tchEffort": 85
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

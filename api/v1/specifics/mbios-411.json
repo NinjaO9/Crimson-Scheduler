@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:21.923925+00:00",
+  "course": "mbios-411",
+  "subject": "MBIOS",
+  "courseNumber": 411,
+  "courseName": "Diagnostic Medical Bacteriology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/411/1/false/true",
+      "response": {
+        "courseDescription": "<b>411 Diagnostic Medical Bacteriology</b>  Techniques and tests for the identification of bacteria pathogenic for humans.  ",
+        "coursePrerequisites": " MBIOS 304; MBIOS 410 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Andrea",
+            "lastName": "Rediske",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

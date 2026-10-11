@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:35.176340+00:00",
+  "course": "mse-514",
+  "subject": "MSE",
+  "courseNumber": 514,
+  "courseName": "Thermodynamics of Solids",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Thermodynamics of Solids</b>  Thermodynamic properties of solid solutions; models for substitutional and interstitial solutions; configurational and non-configurational contributions; calculation of phase diagrams. (Crosslisted course offered as MSE 514, ME 514.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Beckman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

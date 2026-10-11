@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:42.527442+00:00",
+  "course": "german-102",
+  "subject": "GERMAN",
+  "courseNumber": 102,
+  "courseName": "Second Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ger/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Second Semester</b>  Continued development of basic skills in speaking, listening, reading, and writing. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " GERMAN 101 with a grade of C or better, or WSU language placement exam score of 2 or higher.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

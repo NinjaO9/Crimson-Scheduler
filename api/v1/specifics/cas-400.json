@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:34.029227+00:00",
+  "course": "cas-400",
+  "subject": "CAS",
+  "courseNumber": 400,
+  "courseName": "End-of-Program Evaluation Portfolio",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CAS/400/1/false/true",
+      "response": {
+        "courseDescription": "<b>400 End-of-Program Evaluation Portfolio</b>  Evaluation of crossdisciplinary educational experience resulting in written and symbolic portfolio format.  S, F grading. ",
+        "coursePrerequisites": "  By department permission; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Leanne",
+            "lastName": "Ralstin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:27:49.352954+00:00",
+  "course": "com-321",
+  "subject": "COM",
+  "courseNumber": 321,
+  "courseName": "Intercultural Communication",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Summer/2026/Com/321/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Summer/2026/Com/321/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

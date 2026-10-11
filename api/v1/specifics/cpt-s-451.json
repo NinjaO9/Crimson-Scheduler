@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:26.217503+00:00",
+  "course": "cpt-s-451",
+  "subject": "CPT_S",
+  "courseNumber": 451,
+  "courseName": "Introduction to Database Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/451/1/false/true",
+      "response": {
+        "courseDescription": "<b>451 Introduction to Database Systems</b>  Introduction to database concepts, data models, database languages, database design, implementation issues.  ",
+        "coursePrerequisites": " CPT S 215, 223, or 233, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Srinivasulu",
+            "lastName": "Badri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:45.740293+00:00",
+  "course": "cpt-s-544",
+  "subject": "CPT_S",
+  "courseNumber": 544,
+  "courseName": "Generative AI",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/544/1/false/true",
+      "response": {
+        "courseDescription": "<b>544 Generative AI</b>  Introduction to the foundations and modern advances of generative artificial intelligence, covering core models such as variational autoencoders, generative adversarial networks, normalizing flows, diffusion models, flow matching, and large language models, with emphasis on theoretical principles, algorithmic design, and real-world applications.  ",
+        "coursePrerequisites": " CPT S 570.",
+        "instructors": [
+          {
+            "firstName": "Nghia",
+            "lastName": "Hoang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

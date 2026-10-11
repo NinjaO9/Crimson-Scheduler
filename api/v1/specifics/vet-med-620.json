@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:01.524911+00:00",
+  "course": "vet-med-620",
+  "subject": "VET_MED",
+  "courseNumber": 620,
+  "courseName": "Clinical Oncology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/620/1/false/true",
+      "response": {
+        "courseDescription": "<b>620 Clinical Oncology</b> May be repeated for credit; cumulative maximum 4 hours. Diagnosing, staging and treating the veterinary cancer patient.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Janean",
+            "lastName": "Fidel",
+            "isPrimary": true,
+            "tchEffort": 35
+          },
+          {
+            "firstName": "Ana Paula",
+            "lastName": "Rebelo",
+            "isPrimary": false,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Rance",
+            "lastName": "Sellon",
+            "isPrimary": false,
+            "tchEffort": 25
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

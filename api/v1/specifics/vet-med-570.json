@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:55.781471+00:00",
+  "course": "vet-med-570",
+  "subject": "VET_MED",
+  "courseNumber": 570,
+  "courseName": "Agricultural Animal Medicine II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Agricultural Animal Medicine II</b>  Infectious and non-infectious conditions of agricultural animals; introduction to performance medicine. Continuation of VET MED 569P.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 569.",
+        "instructors": [
+          {
+            "firstName": "Stacey",
+            "lastName": "Byers",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Bob",
+            "lastName": "Mealey",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Olivarez",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

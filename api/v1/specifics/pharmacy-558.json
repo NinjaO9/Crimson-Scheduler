@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:20.918115+00:00",
+  "course": "pharmacy-558",
+  "subject": "PHARMACY",
+  "courseNumber": 558,
+  "courseName": "Applied Clinical Pharmacokinetics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/558/1/false/true",
+      "response": {
+        "courseDescription": "<b>558 Applied Clinical Pharmacokinetics</b>  Clinical applications of pharmacokinetics including theoretical background and application to patient care.  ",
+        "coursePrerequisites": "  PHARDSCI 528.",
+        "instructors": [
+          {
+            "firstName": "Dana Rose-Saulibio",
+            "lastName": "Bowers",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

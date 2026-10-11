@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:41.598502+00:00",
+  "course": "i-d-397",
+  "subject": "I_D",
+  "courseNumber": 397,
+  "courseName": "Design Communication III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/397/1/false/true",
+      "response": {
+        "courseDescription": "<b>397 Design Communication III</b>  3-D digital modeling as a medium to support design visualization, investigation and communication including project information management; emphasis on Revit suite software. Recommended preparation: ID 297 or graduate standing.  ",
+        "coursePrerequisites": " I D 203 with a C or better; I D 297 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Alana",
+            "lastName": "Pulay",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

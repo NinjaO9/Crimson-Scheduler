@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:35.276382+00:00",
+  "course": "nep-478",
+  "subject": "NEP",
+  "courseNumber": 478,
+  "courseName": "Cardiopulmonary Physiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/478/1/false/true",
+      "response": {
+        "courseDescription": "<b>478 Cardiopulmonary Physiology</b>  Comprehensive analysis of cardiopulmonary function in healthy humans; students will conduct activities related to cardiopulmonary function during rest and exercise. Required preparation: previous course in Anatomy and Physiology.  ",
+        "coursePrerequisites": " NEP 463; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

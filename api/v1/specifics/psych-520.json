@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:43.377720+00:00",
+  "course": "psych-520",
+  "subject": "PSYCH",
+  "courseNumber": 520,
+  "courseName": "Adult Psychotherapy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/520/1/false/true",
+      "response": {
+        "courseDescription": "<b>520 Adult Psychotherapy</b>  An overview of empirically-supported treatments for psychological disorders in adults and the science of psychotherapy research.  ",
+        "coursePrerequisites": " PSYCH 533.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Marcus",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

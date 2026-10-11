@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:29:48.613677+00:00",
+  "course": "com-509",
+  "subject": "COM",
+  "courseNumber": 509,
+  "courseName": "Quantitative Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Com/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Quantitative Research</b>  Introduction to quantitative research in communication; hypothesis development, testing; basic statistics, interpretation; field surveys, laboratory and field experiments, content analysis.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Wei",
+            "lastName": "Peng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

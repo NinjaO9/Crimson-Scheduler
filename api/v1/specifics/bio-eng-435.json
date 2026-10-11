@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:11.488286+00:00",
+  "course": "bio-eng-435",
+  "subject": "BIO_ENG",
+  "courseNumber": 435,
+  "courseName": "Bioelectric Phenomena and Devices",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 Bioelectric Phenomena and Devices</b>  The electrophysiology of excitable tissues (neurons and muscle) and human health applications involving recording activity or stimulating these tissues. Engineering principles are integrated with neural physiology for design and analysis of biomedical devices.  ",
+        "coursePrerequisites": " E E 261 or 304; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Anita",
+            "lastName": "Vasavada",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:39.782818+00:00",
+  "course": "i-d-205",
+  "subject": "I_D",
+  "courseNumber": 205,
+  "courseName": "Visual Communication",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/205/1/false/true",
+      "response": {
+        "courseDescription": "<b>205 Visual Communication</b>  Course focuses on the various methods in which the interior designer may choose to visually communicate design concepts.  ",
+        "coursePrerequisites": " Admitted to the major in Interior Design.",
+        "instructors": [
+          {
+            "firstName": "Carrie",
+            "lastName": "Vielle",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

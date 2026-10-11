@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:53:35.366528+00:00",
+  "course": "pol-s-427",
+  "subject": "POL_S",
+  "courseNumber": 427,
+  "courseName": "U.S. Foreign Policy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Pol%20S/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 U.S. Foreign Policy</b>  Ends and means in foreign policy; organization, management, control, and current policy issues. (Crosslisted course offered as POL S 427, HISTORY 486.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Preston",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

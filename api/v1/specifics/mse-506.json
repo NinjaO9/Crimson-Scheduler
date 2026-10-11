@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:34.848864+00:00",
+  "course": "mse-506",
+  "subject": "MSE",
+  "courseNumber": 506,
+  "courseName": "Biomaterials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/506/1/false/true",
+      "response": {
+        "courseDescription": "<b>506 Biomaterials</b>  Overview of the different types of materials used in biomedical applications such as implants and medical devices. Credit not granted for both MSE 406 and MSE 506.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yuehe",
+            "lastName": "Lin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:23.292489+00:00",
+  "course": "csste-533",
+  "subject": "CSSTE",
+  "courseNumber": 533,
+  "courseName": "Race, Identity, and Representation in Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CSSTE/533/1/false/true",
+      "response": {
+        "courseDescription": "<b>533 Race, Identity, and Representation in Education</b>  Interdisciplinary research in race, identity and representations in education.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amir",
+            "lastName": "Gilmore",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:03.619277+00:00",
+  "course": "hort-202",
+  "subject": "HORT",
+  "courseNumber": 202,
+  "courseName": "Crop Growth and Development",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Hort/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Crop Growth and Development</b>  Morphology, anatomy, growth and development of agronomic and horticultural crops. (Crosslisted course offered as HORT 202, CROP SCI 202.)  ",
+        "coursePrerequisites": " HORT/ CROP SCI 102.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:06.684035+00:00",
+  "course": "mus-190",
+  "subject": "MUS",
+  "courseNumber": 190,
+  "courseName": "Introduction to Music Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/190/1/false/true",
+      "response": {
+        "courseDescription": "<b>190 Introduction to Music Education</b>  Introductory course for principles and practices fundamental to music learning and teaching, as well as analysis of the connections among learning theories, human development theories, and educational practice in today's music PK-12 classrooms.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Aaron",
+            "lastName": "Wacker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

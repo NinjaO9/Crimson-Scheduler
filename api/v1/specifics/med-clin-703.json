@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:24.456130+00:00",
+  "course": "med-clin-703",
+  "subject": "MED_CLIN",
+  "courseNumber": 703,
+  "courseName": "Enhanced Learning Opportunities",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Summer/2026/MEDCL/703/1/false/true",
+      "response": {
+        "courseDescription": "<b>703 Enhanced Learning Opportunities</b> May be repeated for credit; cumulative maximum 16 hours. Targeted support to help learners meet clinical competencies through coaching, case discussions, skills labs, and observation, with an emphasis on self-assessment, feedback, and tailored practice to improve diagnostic, communication, and procedural skills.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sara",
+            "lastName": "Scott",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Mary",
+            "lastName": "Lacy",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:27:49.907079+00:00",
+  "course": "com-399",
+  "subject": "COM",
+  "courseNumber": 399,
+  "courseName": "Murrow Student Ambassador Training II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Com/399/1/false/true",
+      "response": {
+        "courseDescription": "<b>399 Murrow Student Ambassador Training II</b> May be repeated for credit; cumulative maximum 12 hours. General elective training course for Murrow Ambassadors.  ",
+        "coursePrerequisites": " By interview only; COM 199.",
+        "instructors": [
+          {
+            "firstName": "Lily",
+            "lastName": "Niemi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

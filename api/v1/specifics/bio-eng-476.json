@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:12.176913+00:00",
+  "course": "bio-eng-476",
+  "subject": "BIO_ENG",
+  "courseNumber": 476,
+  "courseName": "Applied Molecular and Cellular Bioengineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/476/1/false/true",
+      "response": {
+        "courseDescription": "<b>476 Applied Molecular and Cellular Bioengineering</b>  Applying bioengineering and chemical engineering kinetics and transport principles to practical applications in cellular and biological separations, biomanufacturing, tissue engineering, protein design, drug delivery, and bioassays. (Crosslisted course offered as CHE 476, BIO ENG 476.)  ",
+        "coursePrerequisites": " BIO ENG 350, OR CHE 310 and CHE 301, each with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Bin",
+            "lastName": "Cao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

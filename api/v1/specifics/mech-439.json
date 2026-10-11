@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:08.067768+00:00",
+  "course": "mech-439",
+  "subject": "MECH",
+  "courseNumber": 439,
+  "courseName": "Aerodynamics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/439/1/false/true",
+      "response": {
+        "courseDescription": "<b>439 Aerodynamics</b>  Governing equations of fluid mechanics, potential flow, introduction to aerodynamics, thin airfoil theory, compressible flow, viscous effects.  ",
+        "coursePrerequisites": " MATH 315; MECH 303.",
+        "instructors": [
+          {
+            "firstName": "Stephen",
+            "lastName": "Solovitz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

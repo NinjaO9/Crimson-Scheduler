@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:46.483116+00:00",
+  "course": "e-e-341",
+  "subject": "E_E",
+  "courseNumber": 341,
+  "courseName": "Signals and Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/341/1/false/true",
+      "response": {
+        "courseDescription": "<b>341 Signals and Systems</b>  Discrete and continuous-time signals, LTI systems, convolution, sampling, Fourier transform, filtering, DFT, amplitude modulation, probability applications.  ",
+        "coursePrerequisites": " E E 321 with a C or better; STAT 360 with a C or better or concurrent enrollment, or STAT 443 with a C or better or concurrent enrollment; admitted to a major or minor in EECS, or major in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Shuzheng",
+            "lastName": "Xie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

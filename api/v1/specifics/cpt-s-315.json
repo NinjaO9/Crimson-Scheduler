@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:21.400434+00:00",
+  "course": "cpt-s-315",
+  "subject": "CPT_S",
+  "courseNumber": 315,
+  "courseName": "Introduction to Data Mining",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Introduction to Data Mining</b>  The process of automatically extracting valid, useful, and previously unknown information from large repositories. Recommended preparation: prior Python programming. (Crosslisted course offered as CPT S 315, CS 315.)  ",
+        "coursePrerequisites": " CPT S 215, 223, 233, or CS 215, with a C or better; admitted to the major or minor in Computer Science, Computer Engineering, Electrical Engineering, Software Engineering, Data Analytics, or Cybersecurity.",
+        "instructors": [
+          {
+            "firstName": "Srinivasulu",
+            "lastName": "Badri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

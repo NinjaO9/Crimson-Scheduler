@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:12.599690+00:00",
+  "course": "ed-psych-574",
+  "subject": "ED_PSYCH",
+  "courseNumber": 574,
+  "courseName": "Seminar in Educational Psychology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EdPsy/574/1/false/true",
+      "response": {
+        "courseDescription": "<b>574 Seminar in Educational Psychology</b> May be repeated for credit; cumulative maximum 8 hours. Reading and discussion of papers in the educational psychology literature and the presentation of student's work.  ",
+        "coursePrerequisites": " Graduate student in Educational Psychology.",
+        "instructors": [
+          {
+            "firstName": "Kira",
+            "lastName": "Carbonneau",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

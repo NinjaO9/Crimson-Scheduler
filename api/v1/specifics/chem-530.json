@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:45.532466+00:00",
+  "course": "chem-530",
+  "subject": "CHEM",
+  "courseNumber": 530,
+  "courseName": "X-ray Crystallography and Structural Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 X-ray Crystallography and Structural Biology</b>  An integrated physical, chemical and biochemical foundation for modern X-ray diffraction tools and techniques, and their application to structural biology. Credit not granted for both CHEM 430 and 530.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "ChulHee",
+            "lastName": "Kang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

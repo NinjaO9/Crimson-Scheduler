@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:03.553416+00:00",
+  "course": "comjour-433",
+  "subject": "COMJOUR",
+  "courseNumber": 433,
+  "courseName": "Podcast Production and Audio Storytelling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ComJo/433/1/false/true",
+      "response": {
+        "courseDescription": "<b>433 Podcast Production and Audio Storytelling</b>  Refine a range of skills including podcast production, on-air presentation, writing for audio and entertainment audio production.  ",
+        "coursePrerequisites": "  COMJOUR 333; admitted to a major or minor in the Murrow College of Communication.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Loveless",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

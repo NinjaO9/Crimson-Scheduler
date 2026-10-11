@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:10.011049+00:00",
+  "course": "mgtop-516",
+  "subject": "MGTOP",
+  "courseNumber": 516,
+  "courseName": "Time Series",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MgtOp/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Time Series</b>  ARIMA models; identification, estimation, diagnostics, and forecasting; seasonal adjustments, outlier detection, intervention analysis and transfer function modeling. Recommended preparation:  STAT 443. (Crosslisted course offered as MGTOP 516, STAT 516.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sung",
+            "lastName": "Ahn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

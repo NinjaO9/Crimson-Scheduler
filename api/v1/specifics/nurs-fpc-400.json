@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:09.163932+00:00",
+  "course": "nurs-fpc-400",
+  "subject": "NURS_FPC",
+  "courseNumber": 400,
+  "courseName": "Nursing Research and Evidence-Based Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/400/1/false/true",
+      "response": {
+        "courseDescription": "<b>400 [M] Nursing Research and Evidence-Based Practice</b>  Develops clinical questions, finds and critically appraises published evidence, and translates research into clinical practice.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Dawn",
+            "lastName": "Huston",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:10.710124+00:00",
+  "course": "biology-430",
+  "subject": "BIOLOGY",
+  "courseNumber": 430,
+  "courseName": "Methods of Teaching Secondary Science I",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Biol/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Methods of Teaching Secondary Science I</b>  Application of learning and theory and philosophy and structure of science in teaching middle and secondary school science courses. (Crosslisted course offered as BIOLOGY 430, MBIOS 480, TCH LRN 430.)  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Tyler",
+            "lastName": "Hansen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

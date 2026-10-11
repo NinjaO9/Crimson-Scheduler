@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:14.926588+00:00",
+  "course": "english-584",
+  "subject": "ENGLISH",
+  "courseNumber": 584,
+  "courseName": "English Literature of the 16th Century",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/584/1/false/true",
+      "response": {
+        "courseDescription": "<b>584 English Literature of the 16th Century</b>  Advanced study of English Renaissance literature, including More, Sidney, Spenser, Marlowe, and Shakespeare, in age of Humanism and Reformation. Credit not granted for both ENGLISH 484 and ENGLISH 584.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deyasini",
+            "lastName": "Dasgupta",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

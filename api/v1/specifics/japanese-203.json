@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:01.782760+00:00",
+  "course": "japanese-203",
+  "subject": "JAPANESE",
+  "courseNumber": 203,
+  "courseName": "Third Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Japn/203/1/false/true",
+      "response": {
+        "courseDescription": "<b>203 Third Semester</b>  Further development of speaking, listening, reading, and writing. Not open to native speakers except with permission. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " JAPANESE 102 with a grade of C or better, or WSU language placement exam score of 3 or higher.",
+        "instructors": [
+          {
+            "firstName": "Kayo",
+            "lastName": "Niimi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

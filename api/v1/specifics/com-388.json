@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:27:49.738279+00:00",
+  "course": "com-388",
+  "subject": "COM",
+  "courseNumber": 388,
+  "courseName": "Strategic Sports Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Com/388/1/false/true",
+      "response": {
+        "courseDescription": "<b>388 Strategic Sports Writing</b>  Development of writing skills and communication strategies for sports promotion; requires interviews and attendance at sports events and news conference outside of class.  ",
+        "coursePrerequisites": " Admitted to a major or minor in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Wendy",
+            "lastName": "Raney",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

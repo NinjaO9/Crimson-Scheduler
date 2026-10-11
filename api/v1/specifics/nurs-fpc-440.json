@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:11.705853+00:00",
+  "course": "nurs-fpc-440",
+  "subject": "NURS_FPC",
+  "courseNumber": 440,
+  "courseName": "Population Health Theory",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 [M] Population Health Theory</b>  Synthesizes population-based nursing and public health concepts with a focus on upstream interventions in partnership with the community.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Stephanie",
+            "lastName": "Macon-Moore",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Sheila",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 60
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

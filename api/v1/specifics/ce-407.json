@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:37.212841+00:00",
+  "course": "ce-407",
+  "subject": "CE",
+  "courseNumber": 407,
+  "courseName": "Stormwater",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/407/1/false/true",
+      "response": {
+        "courseDescription": "<b>407 Stormwater</b>  Overview of stormwater and best management practices including both traditional (sewers, drainage channels, detention facilities) and innovative (low-impact design) approaches.  ",
+        "coursePrerequisites": " CE 341 or CE 351.",
+        "instructors": [
+          {
+            "firstName": "Huiyun",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

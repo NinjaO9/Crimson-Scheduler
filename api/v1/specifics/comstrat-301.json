@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:34.232136+00:00",
+  "course": "comstrat-301",
+  "subject": "COMSTRAT",
+  "courseNumber": 301,
+  "courseName": "Foundations of Persuasion",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Foundations of Persuasion</b>  Theories of persuasion and social action; study of strategies and techniques for the persuasive use of language and other symbols.  ",
+        "coursePrerequisites": " Admitted to a major or minor in the College of Communication.",
+        "instructors": [
+          {
+            "firstName": "Celia",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

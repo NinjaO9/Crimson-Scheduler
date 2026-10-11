@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:35.356168+00:00",
+  "course": "soe-302",
+  "subject": "SOE",
+  "courseNumber": 302,
+  "courseName": "Arid Land Plants and Ecosystems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/302/1/false/true",
+      "response": {
+        "courseDescription": "<b>302 Arid Land Plants and Ecosystems</b>  Identification and ecology of arid land plants (trees, shrubs, grasses, forbs) and the ecosystems in which they occur. Field trips required.  ",
+        "coursePrerequisites": " SOE 300 or BIOLOGY 372; SOE 301.",
+        "instructors": [
+          {
+            "firstName": "Keenan",
+            "lastName": "Stears",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

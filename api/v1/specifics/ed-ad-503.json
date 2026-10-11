@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:52.031432+00:00",
+  "course": "ed-ad-503",
+  "subject": "ED_AD",
+  "courseNumber": 503,
+  "courseName": "Values and Ethics for Educational Leaders",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Ed%20Ad/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Values and Ethics for Educational Leaders</b>  Study of ethical theories, the moral dilemmas of public schooling, and the skills of ethical reasoning; professional code of ethics.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Donald",
+            "lastName": "Vanderholm",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

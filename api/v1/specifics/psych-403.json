@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:00:46.981571+00:00",
+  "course": "psych-403",
+  "subject": "PSYCH",
+  "courseNumber": 403,
+  "courseName": "Multicultural Psychology",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Psych/403/1/false/true",
+      "response": {
+        "courseDescription": "<b>403 Multicultural Psychology</b>  Multidisciplinary analyses of the relationship between social-ecological and political contexts and individual and collective psychology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Stephanie",
+            "lastName": "Bauman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

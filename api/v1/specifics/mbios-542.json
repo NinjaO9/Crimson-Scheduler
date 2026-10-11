@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:54.805380+00:00",
+  "course": "mbios-542",
+  "subject": "MBIOS",
+  "courseNumber": 542,
+  "courseName": "General Virology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 General Virology</b>  The biology of bacterial, animal, and plant viruses. Recommended preparation for graduate students:  Introductory genetics and biochemistry coursework; concurrent enrollment with MBIOS 548 highly recommended. Credit not granted for both MBIOS 442 and MBIOS 542. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mary",
+            "lastName": "Lanier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

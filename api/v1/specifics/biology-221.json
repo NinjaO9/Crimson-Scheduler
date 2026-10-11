@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:19:56.880043+00:00",
+  "course": "biology-221",
+  "subject": "BIOLOGY",
+  "courseNumber": 221,
+  "courseName": "Exploring Health Careers",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Biol/221/1/false/true",
+      "response": {
+        "courseDescription": "<b>221 Exploring Health Careers</b>  Introduction to human and animal health care careers.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deb",
+            "lastName": "Wilmington",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

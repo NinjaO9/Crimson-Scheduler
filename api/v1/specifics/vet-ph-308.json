@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:07.845981+00:00",
+  "course": "vet-ph-308",
+  "subject": "VET_PH",
+  "courseNumber": 308,
+  "courseName": "Functional Anatomy and Physiology of Domestic Animals",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20Ph/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 Functional Anatomy and Physiology of Domestic Animals</b>  Functional anatomy of domestic animals including the study of the musculoskeletal, neuromuscular, cardiovascular, digestive, and urogenital systems. Highlighting the relevance of functional anatomy in real-world applications. Recommended preparations BIOLOGY 102 or BIOLOGY 106.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Reda",
+            "lastName": "Mohamed",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

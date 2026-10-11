@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:49.095075+00:00",
+  "course": "e-e-483",
+  "subject": "E_E",
+  "courseNumber": 483,
+  "courseName": "Topics in Electrical and Computer Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Topics in Electrical and Computer Engineering</b> May be repeated for credit; cumulative maximum 6 hours. Current topics in electrical engineering and computer engineering.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Javier",
+            "lastName": "Guerrero Sedeno",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

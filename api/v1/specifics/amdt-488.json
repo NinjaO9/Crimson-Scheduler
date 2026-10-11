@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:20.454821+00:00",
+  "course": "amdt-488",
+  "subject": "AMDT",
+  "courseNumber": 488,
+  "courseName": "Internship Preparation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/488/1/false/true",
+      "response": {
+        "courseDescription": "<b>488 Internship Preparation</b> May be repeated for credit; cumulative maximum 2 hours. Orientation and practical information for students in preparation for an internship.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yini",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

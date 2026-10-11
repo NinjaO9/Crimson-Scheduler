@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:38.107683+00:00",
+  "course": "nep-549",
+  "subject": "NEP",
+  "courseNumber": 549,
+  "courseName": "Food Service Management",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/549/1/false/true",
+      "response": {
+        "courseDescription": "<b>549 Food Service Management</b>  Advanced principles in food systems, institutional food service management, school food service, and community feeding programs.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, or the Master of Science in Coordinated Program in Dietetics, Nutrition, and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Kelli",
+            "lastName": "Frederick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

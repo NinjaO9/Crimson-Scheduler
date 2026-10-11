@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:19.234895+00:00",
+  "course": "stat-575",
+  "subject": "STAT",
+  "courseNumber": 575,
+  "courseName": "The Theory of Multivariate Analysis",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Stat/575/1/false/true",
+      "response": {
+        "courseDescription": "<b>575 The Theory of Multivariate Analysis</b>  The theoretical development and application of multivariate statistical methods; topics include multivariate distributions, MANOVA, principal components, factor analysis and classification. Required preparation: one course in linear algebra.  ",
+        "coursePrerequisites": " STAT 556.",
+        "instructors": [
+          {
+            "firstName": "Abhishek",
+            "lastName": "Kaul",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

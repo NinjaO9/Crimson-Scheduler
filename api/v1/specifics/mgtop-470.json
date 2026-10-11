@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:09.839771+00:00",
+  "course": "mgtop-470",
+  "subject": "MGTOP",
+  "courseNumber": 470,
+  "courseName": "Business Modeling with Spreadsheets",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MgtOp/470/1/false/true",
+      "response": {
+        "courseDescription": "<b>470 Business Modeling with Spreadsheets</b>  Use of advanced spreadsheet tools and Visual Basic programming to build and analyze mathematical models of business problems.  ",
+        "coursePrerequisites": "  MATH 202, 140, 171, 172, 182, or 220; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Chuck",
+            "lastName": "Munson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

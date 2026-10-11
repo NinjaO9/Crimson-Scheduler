@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:05.590174+00:00",
+  "course": "mech-303",
+  "subject": "MECH",
+  "courseNumber": 303,
+  "courseName": "Fluid Mechanics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/303/1/false/true",
+      "response": {
+        "courseDescription": "<b>303 Fluid Mechanics</b>  Physical properties, fluid statics, laminar and turbulent flow, impulse and momentum, similitude, pipe flow, boundary layers, lift, drag and measurement techniques, fluid experimentations.  Recommended preparation:  MATH 315.  ",
+        "coursePrerequisites": " MECH 212.",
+        "instructors": [
+          {
+            "firstName": "Stephen",
+            "lastName": "Solovitz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

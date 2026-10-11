@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:21.313078+00:00",
+  "course": "soe-412",
+  "subject": "SOE",
+  "courseNumber": 412,
+  "courseName": "Global Biogeochemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/412/1/false/true",
+      "response": {
+        "courseDescription": "<b>412 [M] Global Biogeochemistry</b>  Cycles of biogeochemically important elements and anthropogenic changes to those cycles in terrestrial and aquatic environments on a global scale. Field trip required.  Credit not granted for both SOE 412 and SOE 512.  ",
+        "coursePrerequisites": " BIOLOGY 106; CHEM 101 or 105.",
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Roley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

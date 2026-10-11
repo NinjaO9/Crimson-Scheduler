@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:54.459753+00:00",
+  "course": "neurosci-301",
+  "subject": "NEUROSCI",
+  "courseNumber": 301,
+  "courseName": "Foundations of Neuroscience I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Foundations of Neuroscience I</b>  Structure and function of the nervous system from single neurons to behavior.  Recommended preparation: CHEM 105, NEUROSCI 105.  ",
+        "coursePrerequisites": " BIOLOGY 107.  Enrollment in NEUROSCI 301 not allowed if credit already earned for PSYCH 372.",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "McLaughlin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

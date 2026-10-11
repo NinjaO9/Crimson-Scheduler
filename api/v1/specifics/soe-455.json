@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:38.015899+00:00",
+  "course": "soe-455",
+  "subject": "SOE",
+  "courseNumber": 455,
+  "courseName": "Urban Ecology",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/SOE/455/1/false/true",
+      "response": {
+        "courseDescription": "<b>455 [M] Urban Ecology</b>  The study of the ecology of humans, organisms, and their environments in urban ecosystems.  (Crosslisted course offered as BIOLOGY 455, SOE 455.)  ",
+        "coursePrerequisites": " BIOLOGY 370 or BIOLOGY 372 or SOE 300; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Lori",
+            "lastName": "Nelson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

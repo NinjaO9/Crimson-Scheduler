@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:11.799504+00:00",
+  "course": "mit-510",
+  "subject": "MIT",
+  "courseNumber": 510,
+  "courseName": "Instruction for Secondary Teachers",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/MIT/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Instruction for Secondary Teachers</b>  Methods of improvement in education, with emphasis on teacher collaboration, classroom instruction, and school reform.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Bethany",
+            "lastName": "Rivard",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

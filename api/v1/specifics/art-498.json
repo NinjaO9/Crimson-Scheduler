@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:34.514741+00:00",
+  "course": "art-498",
+  "subject": "ART",
+  "courseNumber": 498,
+  "courseName": "Contemporary Issues Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ART/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 [M] Contemporary Issues Seminar</b>  Research seminar examining current issues confronting art and artists; students learn how to develop their professional art career.  ",
+        "coursePrerequisites": "  ART 304; senior standing.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Janssen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

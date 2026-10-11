@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:47:04.205919+00:00",
+  "course": "e-m-505",
+  "subject": "E_M",
+  "courseNumber": 505,
+  "courseName": "Finance for Technical Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Finance for Technical Systems</b>  Time value of money, capital budgeting, accounting principles, cost, valuation, risk, cost accounting and sensitivity analyses: concepts for engineering decision-making.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jim",
+            "lastName": "Jones",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

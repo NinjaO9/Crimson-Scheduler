@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:14.923356+00:00",
+  "course": "med-clin-548",
+  "subject": "MED_CLIN",
+  "courseNumber": 548,
+  "courseName": "Surgery - Topics in Orthopaedic Surgery",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/MEDCL/548/1/false/true",
+      "response": {
+        "courseDescription": "<b>548 Surgery - Topics in Orthopaedic Surgery</b> May be repeated for credit; cumulative maximum 12 hours. Introduction to the conservative and operative diagnostic and treatment approaches in managing common orthopaedic problems including acute and chronic spine and extremity presentations.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Benjamin",
+            "lastName": "Chia",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Anjali",
+            "lastName": "Kumar",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

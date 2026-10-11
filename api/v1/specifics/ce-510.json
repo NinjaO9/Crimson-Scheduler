@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:57.880582+00:00",
+  "course": "ce-510",
+  "subject": "CE",
+  "courseNumber": 510,
+  "courseName": "Advanced Geomaterial Characterization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Advanced Geomaterial Characterization</b>  Advanced mechanics of geomaterials; compressibility, concept of stress and strain; shear strength, stress/strain and time-dependent behavior; dynamic properties. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "J. Antonio",
+            "lastName": "H. Carraro",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

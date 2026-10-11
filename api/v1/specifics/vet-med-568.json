@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:55.427183+00:00",
+  "course": "vet-med-568",
+  "subject": "VET_MED",
+  "courseNumber": 568,
+  "courseName": "Animal Handling and Orientation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/568/1/false/true",
+      "response": {
+        "courseDescription": "<b>568 Animal Handling and Orientation</b>  Introduction to clinical restraint procedures, physical exam and treatment procedures, and clinical behavior and management.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Alyssa",
+            "lastName": "Marre",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Briedi",
+            "lastName": "Gillespie",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Susan M.",
+            "lastName": "Matthew",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

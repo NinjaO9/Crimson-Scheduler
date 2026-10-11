@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:50.612958+00:00",
+  "course": "che-432",
+  "subject": "CHE",
+  "courseNumber": 432,
+  "courseName": "Chemical Engineering Lab I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 [M] Chemical Engineering Lab I</b>  Statistical design and analysis of experiments; safety; experiments in heat and mass transfer; separations, other unit operations, kinetics, control; technical reports and presentations.  ",
+        "coursePrerequisites": " CHE 302, 321, 332 and 334 with a C or better; CHE 352 with a C or better or concurrent enrollment; ENGLISH 402 or 403 with a C or better or concurrent enrollment; admitted to the major in Chemical Engr.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Thiessen",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Dan",
+            "lastName": "Horimoto",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

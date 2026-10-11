@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:47.966000+00:00",
+  "course": "me-532",
+  "subject": "ME",
+  "courseNumber": 532,
+  "courseName": "Finite Elements",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/M%20E/532/1/false/true",
+      "response": {
+        "courseDescription": "<b>532 Finite Elements</b>  Theory of finite elements; applications to general engineering systems considered as assemblages of discrete elements. (Crosslisted course offered as CE 532, ME 532.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yuxin",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

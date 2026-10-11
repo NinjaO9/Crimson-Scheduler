@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:01.310543+00:00",
+  "course": "spmgt-490",
+  "subject": "SPMGT",
+  "courseNumber": 490,
+  "courseName": "Internship Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Internship Seminar</b>  Overview of policies and requirements; guidance through site selection and application process; communication skills for the business/sport environment.  S, F grading. ",
+        "coursePrerequisites": " SPMGT 365; SPMGT 367; SPMGT 377;  admitted to the major in Sport Management; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Tammy",
+            "lastName": "Crawford",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

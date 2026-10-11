@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:39.041685+00:00",
+  "course": "soe-475",
+  "subject": "SOE",
+  "courseNumber": 475,
+  "courseName": "Groundwater",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/475/1/false/true",
+      "response": {
+        "courseDescription": "<b>475 Groundwater</b>  Introduction to groundwater occurrence, movement, quality, and resource management, emphasizing physical and biogeochemical principles. Field trip required. (Crosslisted course offered as SOE 475, CE 475.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 317 or SOE 315; MATH 140 or concurrent enrollment, or MATH 172 or 182 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Timothy",
+            "lastName": "Ginn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

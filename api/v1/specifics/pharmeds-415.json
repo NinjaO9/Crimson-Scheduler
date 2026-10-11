@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:25.161020+00:00",
+  "course": "pharmeds-415",
+  "subject": "PHARMEDS",
+  "courseNumber": 415,
+  "courseName": "Healthcare Systems: Tackling Human Health",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Healthcare Systems: Tackling Human Health</b>  Introduction to healthcare systems, workforce, financing, policy, and delivery with discussions of current challenges.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Ayesha",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

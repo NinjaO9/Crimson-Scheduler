@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:06.230594+00:00",
+  "course": "pol-s-533",
+  "subject": "POL_S",
+  "courseNumber": 533,
+  "courseName": "Topics in Political Psychology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Pol%20S/533/1/false/true",
+      "response": {
+        "courseDescription": "<b>533 Topics in Political Psychology</b> May be repeated for credit; cumulative maximum 6 hours. Psychological influences on political decision making, bargaining, conflict and conflict resolution options.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Preston",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:56.818248+00:00",
+  "course": "neurosci-495",
+  "subject": "NEUROSCI",
+  "courseNumber": 495,
+  "courseName": "Directed Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Directed Research</b> May be repeated for credit. Introduction to neuroscience research literature.  ",
+        "coursePrerequisites": " Admitted to the major or minor in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Gizerian",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

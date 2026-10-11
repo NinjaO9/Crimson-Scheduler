@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:02.692461+00:00",
+  "course": "history-540",
+  "subject": "HISTORY",
+  "courseNumber": 540,
+  "courseName": "Seminar in History",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Seminar in History</b> May be repeated for credit.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Booth",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

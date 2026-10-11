@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:36.660277+00:00",
+  "course": "amdt-596",
+  "subject": "AMDT",
+  "courseNumber": 596,
+  "courseName": "Advanced Instructional Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/596/1/false/true",
+      "response": {
+        "courseDescription": "<b>596 Advanced Instructional Practicum</b>  Information and direction for graduate student teaching assistants seeking professional development in classroom teaching.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ting",
+            "lastName": "Chi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

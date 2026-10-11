@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:49.786001+00:00",
+  "course": "che-310",
+  "subject": "CHE",
+  "courseNumber": 310,
+  "courseName": "Introduction to Transport Processes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Introduction to Transport Processes</b>  Fundamentals of the phenomena governing the transport of momentum, energy, and mass.  ",
+        "coursePrerequisites": "  CHE 201 with a C or better; MATH 315 with a C or better or concurrent enrollment; BIO ENG 205 or both CHE 101 and CHE 211 with a C or better or concurrent enrollment; admitted to the major in CHE or BIO ENG.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Thiessen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

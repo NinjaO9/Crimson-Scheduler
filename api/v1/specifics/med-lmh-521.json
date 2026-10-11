@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:24.397062+00:00",
+  "course": "med-lmh-521",
+  "subject": "MED_LMH",
+  "courseNumber": 521,
+  "courseName": "Quality and Safety in Healthcare: Medical Errors",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDMH/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Quality and Safety in Healthcare: Medical Errors</b>  Quality in healthcare, including safety and quality metrics, measurement and reporting of quality, analysis of patient safety and medical errors, including root cause analysis; physician disclosure and the difference between errors and malpractice.  S, F grading. ",
+        "coursePrerequisites": " MED LMH 513.",
+        "instructors": [
+          {
+            "firstName": "Tade",
+            "lastName": "Ayeni",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

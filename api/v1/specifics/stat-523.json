@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:17.888003+00:00",
+  "course": "stat-523",
+  "subject": "STAT",
+  "courseNumber": 523,
+  "courseName": "Statistical Methods for Engineers and Scientists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Stat/523/1/false/true",
+      "response": {
+        "courseDescription": "<b>523 Statistical Methods for Engineers and Scientists</b>  Hypothesis testing; linear, multilinear, and nonlinear regression; analysis of variance for designed experiments; quality control; statistical computing. Recommended preparation:  One 3-credit 300-level STAT course. Credit not granted for both STAT 423 and STAT 523. Credit not normally granted for both STAT 423 and 430.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Trey",
+            "lastName": "DeJong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

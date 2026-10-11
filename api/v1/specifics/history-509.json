@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:02.289037+00:00",
+  "course": "history-509",
+  "subject": "HISTORY",
+  "courseNumber": 509,
+  "courseName": "Field Course: Foundations in US History",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Field Course: Foundations in US History</b> May be repeated for credit; cumulative maximum 12 hours. Chronological readings in US history.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lawrence",
+            "lastName": "Hatter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

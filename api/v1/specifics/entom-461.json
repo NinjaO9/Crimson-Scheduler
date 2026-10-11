@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:03.060979+00:00",
+  "course": "entom-461",
+  "subject": "ENTOM",
+  "courseNumber": 461,
+  "courseName": "Pollinator Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Entom/461/1/false/true",
+      "response": {
+        "courseDescription": "<b>461 Pollinator Ecology</b>  Critical roles of pollinators in ecology, with focus on pollinator behavior, plant-pollinator interactions, and the impact of policy, agriculture, and environment changes on pollinator communities.  Credit not granted for both ENTOM 461 and ENTOM 561.  ",
+        "coursePrerequisites": " BIOLOGY 372, ENTOM 343, ENTOM 361, or SOE 300.",
+        "instructors": [
+          {
+            "firstName": "Rae",
+            "lastName": "Olsson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:25.147702+00:00",
+  "course": "cpt-s-431",
+  "subject": "CPT_S",
+  "courseNumber": 431,
+  "courseName": "Security Analytics and DevSecOps",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Security Analytics and DevSecOps</b>  Security analytics at an enterprise deployment scale using social, data, graph avenues of evaluation, and topics of supply chain cybersecurity, risk management frameworks, and security of developer operation pipelines.  ",
+        "coursePrerequisites": " CPT S 327 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Mengyu",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:45:02.351331+00:00",
+  "course": "mus-531",
+  "subject": "MUS",
+  "courseNumber": 531,
+  "courseName": "Concert Choir",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Concert Choir</b> May be repeated for credit. Auditioned choral ensemble studying and performing global music of varying cultures, language, period, style, and tradition.  Credit not granted for both MUS 431 and MUS 531.  ",
+        "coursePrerequisites": "  By audition only; see music.wsu.edu for details.",
+        "instructors": [
+          {
+            "firstName": "Dean",
+            "lastName": "Luethi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

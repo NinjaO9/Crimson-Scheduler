@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:55.620417+00:00",
+  "course": "neurosci-404",
+  "subject": "NEUROSCI",
+  "courseNumber": 404,
+  "courseName": "Neuroanatomy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 Neuroanatomy</b>  Fundamental principles of the organization and plans of circuitry of the nervous system.  ",
+        "coursePrerequisites": " NEUROSCI 301 or PSYCH 372.",
+        "instructors": [
+          {
+            "firstName": "Steve",
+            "lastName": "Lampa",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

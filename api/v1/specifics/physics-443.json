@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:16.371570+00:00",
+  "course": "physics-443",
+  "subject": "PHYSICS",
+  "courseNumber": 443,
+  "courseName": "Optics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/443/1/false/true",
+      "response": {
+        "courseDescription": "<b>443 Optics</b>  Polarization, interference, coherence, and diffraction phenomena of the electromagnetic spectrum; optics of solids; laser resonators; gaussian beams; ABCD matrices.  ",
+        "coursePrerequisites": " PHYSICS 341 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "McCluskey",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

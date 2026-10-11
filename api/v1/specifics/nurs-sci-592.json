@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.638473+00:00",
+  "course": "nurs-sci-592",
+  "subject": "NURS_SCI",
+  "courseNumber": 592,
+  "courseName": "Research Inquiry: Qualitative Methods II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURSC/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Research Inquiry: Qualitative Methods II</b>  Application of qualitative methodologies, techniques of qualitative data analysis, presentation of qualitative findings, rigor, data management and research dissemination.  ",
+        "coursePrerequisites": " NURS SCI 587.",
+        "instructors": [
+          {
+            "firstName": "Connie",
+            "lastName": "Nguyen-Truong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

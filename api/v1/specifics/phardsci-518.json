@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:15.051764+00:00",
+  "course": "phardsci-518",
+  "subject": "PHARDSCI",
+  "courseNumber": 518,
+  "courseName": "Pharmaceutics II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRSC/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 Pharmaceutics II</b>  Principles of dosage from design and drug delivery, with an emphasis on pharmaceutical technology and biopharmaceutics.  ",
+        "coursePrerequisites": "  PHARDSCI 508.",
+        "instructors": [
+          {
+            "firstName": "Boyd",
+            "lastName": "Foster",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

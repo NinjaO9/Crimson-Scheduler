@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:50.850106+00:00",
+  "course": "vet-med-523",
+  "subject": "VET_MED",
+  "courseNumber": 523,
+  "courseName": "Veterinary Pharmacology and Toxicology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/523/1/false/true",
+      "response": {
+        "courseDescription": "<b>523 Veterinary Pharmacology and Toxicology</b>  Pharmacology and toxicology of the systems of domestic animals. Continuation of VET MED 522.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 522.",
+        "instructors": [
+          {
+            "firstName": "Chelsea",
+            "lastName": "Sykes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

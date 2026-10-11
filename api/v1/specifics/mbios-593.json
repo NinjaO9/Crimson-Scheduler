@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:55.812356+00:00",
+  "course": "mbios-593",
+  "subject": "MBIOS",
+  "courseNumber": 593,
+  "courseName": "Research Proposal",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/593/1/false/true",
+      "response": {
+        "courseDescription": "<b>593 Research Proposal</b> May be repeated for credit; cumulative maximum 4 hours. Written proposal and oral defense of research project in the area of molecular biosciences.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alan",
+            "lastName": "Goodman",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "John",
+            "lastName": "Wyrick",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Nate",
+            "lastName": "Law",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Driskell",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sascha",
+            "lastName": "Duttke",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sergio",
+            "lastName": "Hidalgo Sotelo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

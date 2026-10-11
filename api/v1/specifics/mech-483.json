@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:09.312057+00:00",
+  "course": "mech-483",
+  "subject": "MECH",
+  "courseNumber": 483,
+  "courseName": "Topics in Mechanical Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/483/2/false/true",
+      "response": {
+        "courseDescription": "<b>483 Topics in Mechanical Engineering</b> May be repeated for credit; cumulative maximum 9 hours. Current topics in Mechanical Engineering.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Qin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

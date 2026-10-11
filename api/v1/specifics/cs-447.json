@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:20.020252+00:00",
+  "course": "cs-447",
+  "subject": "CS",
+  "courseNumber": 447,
+  "courseName": "Computer Game Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/447/1/false/true",
+      "response": {
+        "courseDescription": "<b>447 Computer Game Design</b>  Design and implementation of computer games. Credit not granted for both CS 447 and CS 547.  ",
+        "coursePrerequisites": " CS 223 with a C or better; CS 320 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

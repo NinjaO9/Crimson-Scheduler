@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:01:47.972838+00:00",
+  "course": "english-402",
+  "subject": "ENGLISH",
+  "courseNumber": 402,
+  "courseName": "Technical and Professional Writing",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Engl/402/23/false/true",
+      "response": {
+        "courseDescription": "<b>402 [M] Technical and Professional Writing</b>  Research writing: defining, proposing, reporting progress; presenting a final product; other professional writing needs. Credit not granted for both ENGLISH 402 and 403.  ",
+        "coursePrerequisites": " ENGLISH 101 or 298; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Cobi",
+            "lastName": "Seslar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

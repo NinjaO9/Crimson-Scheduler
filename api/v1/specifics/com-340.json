@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:27:49.551066+00:00",
+  "course": "com-340",
+  "subject": "COM",
+  "courseNumber": 340,
+  "courseName": "Strategic Sports Video",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Com/340/1/false/true",
+      "response": {
+        "courseDescription": "<b>340 Strategic Sports Video</b>  Adobe platform skills for marketing a sports brand using video elements including static images, animated GIFs, animation overlays, video profiles and highlight reels.  ",
+        "coursePrerequisites": " COM 225 with a C or better; admitted to any major or minor in the Murrow College; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Anthony",
+            "lastName": "Thompson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

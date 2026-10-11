@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:49.937179+00:00",
+  "course": "che-321",
+  "subject": "CHE",
+  "courseNumber": 321,
+  "courseName": "Kinetics and Reactor Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Kinetics and Reactor Design</b>  Chemical reaction kinetics applied to the design of reactors, non-ideal flow, mixing, catalysis.  ",
+        "coursePrerequisites": " CHE 211 and 310 with a C or better; CHE 302 with a C or better or concurrent enrollment; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Steven R.",
+            "lastName": "Saunders",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:26.388205+00:00",
+  "course": "chem-265",
+  "subject": "CHEM",
+  "courseNumber": 265,
+  "courseName": "Measurement of Radioactive Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/265/1/false/true",
+      "response": {
+        "courseDescription": "<b>265 Measurement of Radioactive Materials</b>  Handling, characterization, and analysis of radioactive materials including nuclear theory and physics, radiation safety and detectors, alpha and gamma spectrometry, separation and analysis of radionuclides, and nuclear forensics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CHEM 161; concurrent enrollment in either CHEM 101 or CHEM 105.",
+        "instructors": [
+          {
+            "firstName": "Zachariah",
+            "lastName": "Heiden",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

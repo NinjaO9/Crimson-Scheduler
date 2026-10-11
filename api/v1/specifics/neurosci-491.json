@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:56.648387+00:00",
+  "course": "neurosci-491",
+  "subject": "NEUROSCI",
+  "courseNumber": 491,
+  "courseName": "Senior Project-Poster",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Senior Project-Poster</b>  Research project poster or oral presentation.  S, F grading. ",
+        "coursePrerequisites": " Admitted to the major in Neuroscience; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Gizerian",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

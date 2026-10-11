@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:02:28.764077+00:00",
+  "course": "english-488",
+  "subject": "ENGLISH",
+  "courseNumber": 488,
+  "courseName": "Victorian Literature",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Engl/488/1/false/true",
+      "response": {
+        "courseDescription": "<b>488 Victorian Literature</b>  Advanced study of Tennyson, Dickens, Eliot, Wilde, and others in the context of science, industrialization, and empire, 1832-1901.  ",
+        "coursePrerequisites": " ENGLISH 302.",
+        "instructors": [
+          {
+            "firstName": "Chelsea",
+            "lastName": "Kopp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

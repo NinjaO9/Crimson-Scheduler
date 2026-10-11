@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:21.512523+00:00",
+  "course": "cs-515",
+  "subject": "CS",
+  "courseNumber": 515,
+  "courseName": "Advanced Algorithms",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/515/1/false/true",
+      "response": {
+        "courseDescription": "<b>515 Advanced Algorithms</b>  Advanced algorithms and data structures, design and analysis, intractability.  (Crosslisted course offered as CPT S 515, CS 515.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zhe",
+            "lastName": "Dang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

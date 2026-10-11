@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:55.879808+00:00",
+  "course": "phil-370",
+  "subject": "PHIL",
+  "courseNumber": 370,
+  "courseName": "Environmental Ethics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Environmental Ethics</b>  Explores the obligations we have regarding non-human parts of the environment and the justification for those obligations.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Goldsby",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

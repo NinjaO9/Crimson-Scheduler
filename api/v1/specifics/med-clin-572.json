@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:17.104121+00:00",
+  "course": "med-clin-572",
+  "subject": "MED_CLIN",
+  "courseNumber": 572,
+  "courseName": "Clinical Rotation - Addiction Medicine",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDCL/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 Clinical Rotation - Addiction Medicine</b> May be repeated for credit; cumulative maximum 12 hours. Extension of knowledge, skills, and professional attitudes required to address the range of problems that practitioners in the area of addiction medicine encounter.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Lavin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

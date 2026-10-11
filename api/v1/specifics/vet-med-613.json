@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:00.771767+00:00",
+  "course": "vet-med-613",
+  "subject": "VET_MED",
+  "courseNumber": 613,
+  "courseName": "Small Animal Referral Medicine Elective",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/613/1/false/true",
+      "response": {
+        "courseDescription": "<b>613 Small Animal Referral Medicine Elective</b> May be repeated for credit; cumulative maximum 8 hours. Elective clinical experience with the Small Animal Medicine Referral Practice Service in the Small Animal Clinic of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Jillian",
+            "lastName": "Haines",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Sarah",
+            "lastName": "Guess",
+            "isPrimary": false,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Yoko M",
+            "lastName": "Ambrosini",
+            "isPrimary": false,
+            "tchEffort": 30
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

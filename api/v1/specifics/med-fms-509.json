@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:54.272527+00:00",
+  "course": "med-fms-509",
+  "subject": "MED_FMS",
+  "courseNumber": 509,
+  "courseName": "Special Topics in Medicine",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/MEDFS/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Special Topics in Medicine</b> May be repeated for credit; cumulative maximum 6 hours.   S, F grading. ",
+        "coursePrerequisites": " By permission only.",
+        "instructors": [
+          {
+            "firstName": "Rachel",
+            "lastName": "Larson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

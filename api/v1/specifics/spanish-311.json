@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:32.249637+00:00",
+  "course": "spanish-311",
+  "subject": "SPANISH",
+  "courseNumber": 311,
+  "courseName": "Studies in Latin American Film",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Studies in Latin American Film</b>  Variable content seminar. In-depth study of Latin American cinema that brings together the analysis of cinematography, cultural and sociopolitical backgrounds, and the impact and influences within an international context. Taught in Spanish. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "  SPANISH 306, 307, or 308.",
+        "instructors": [
+          {
+            "firstName": "Etna",
+            "lastName": "Avalos Molina",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

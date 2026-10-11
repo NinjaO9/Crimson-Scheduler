@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:34.543527+00:00",
+  "course": "comstrat-310",
+  "subject": "COMSTRAT",
+  "courseNumber": 310,
+  "courseName": "Digital Content Promotion",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/310/2/false/true",
+      "response": {
+        "courseDescription": "<b>310 Digital Content Promotion</b>  Practice and promotion of public relations and advertising through digital and social media.  ",
+        "coursePrerequisites": "  COM 210 with a C or better; admitted to a major or minor in the College of Communication; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Brett",
+            "lastName": "Atwood",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

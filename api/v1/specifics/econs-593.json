@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:49.890304+00:00",
+  "course": "econs-593",
+  "subject": "ECONS",
+  "courseNumber": 593,
+  "courseName": "Applications in Microeconomic Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/593/1/false/true",
+      "response": {
+        "courseDescription": "<b>593 Applications in Microeconomic Topics</b>  Applied topics in healthcare, sports, transportation and other markets.  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Benjamin",
+            "lastName": "Cowan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

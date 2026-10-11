@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:31.514503+00:00",
+  "course": "mse-241",
+  "subject": "MSE",
+  "courseNumber": 241,
+  "courseName": "Engineering Computations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/241/1/false/true",
+      "response": {
+        "courseDescription": "<b>241 Engineering Computations</b>  Introduction to the computational methods used for solving numerical problems in engineering. (Crosslisted course offered as ME 241, MSE 241.)  ",
+        "coursePrerequisites": " MATH 273 with a C or better or concur enroll; PHYSICS 205 with a C or better or concur enroll, or 4 cr of PHYSICS 201 with a C or better or concur enroll, PHYSICS 201 and PHYSICS 211 with a C or better or concur enroll in both.",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Swensen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

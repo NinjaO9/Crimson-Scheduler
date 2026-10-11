@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:25.454483+00:00",
+  "course": "pharmeds-499",
+  "subject": "PHARMEDS",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Salah",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Travis",
+            "lastName": "Denton",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:35.021905+00:00",
+  "course": "soe-300",
+  "subject": "SOE",
+  "courseNumber": 300,
+  "courseName": "Natural Resource Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/300/2/false/true",
+      "response": {
+        "courseDescription": "<b>300 Natural Resource Ecology</b>  Ecology as applied to management of natural resource ecosystems; biological diversity, conservation biology, global climate change in natural resource ecology. Field trips required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Keenan",
+            "lastName": "Stears",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

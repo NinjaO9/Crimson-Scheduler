@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:54.061853+00:00",
+  "course": "med-fms-501",
+  "subject": "MED_FMS",
+  "courseNumber": 501,
+  "courseName": "Foundations of Medical Science I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDFS/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Foundations of Medical Science I</b>  Foundational anatomy, histology, and introductory pathology; physical exam, population health, clinical skills and ethics.  S, F grading. ",
+        "coursePrerequisites": " Admission to the MD Degree Program.",
+        "instructors": [
+          {
+            "firstName": "Sonam",
+            "lastName": "Kiwalkar",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Emmett",
+            "lastName": "Findlay",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

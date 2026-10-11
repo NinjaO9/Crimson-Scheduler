@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:30:47.443989+00:00",
+  "course": "com-570",
+  "subject": "COM",
+  "courseNumber": 570,
+  "courseName": "Communication Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Com/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Communication Theory</b>  Relevant theories and research from mass and interpersonal communication.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yoon Joo",
+            "lastName": "Lee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

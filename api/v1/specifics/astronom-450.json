@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:52.862225+00:00",
+  "course": "astronom-450",
+  "subject": "ASTRONOM",
+  "courseNumber": 450,
+  "courseName": "Life in the Universe",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Astr/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Life in the Universe</b>  The natural history of life on earth and prospects for life elsewhere; includes chemistry, biology, geology, physics and astronomy.  Recommended preparation: Completion of physical and biological sciences GERs/UCOREs.  ",
+        "coursePrerequisites": " Mathematics [N] or [QUAN]; junior standing.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

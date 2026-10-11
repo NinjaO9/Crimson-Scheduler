@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:33.058885+00:00",
+  "course": "math-502",
+  "subject": "MATH",
+  "courseNumber": 502,
+  "courseName": "Introduction to Functional Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/502/1/false/true",
+      "response": {
+        "courseDescription": "<b>502 Introduction to Functional Analysis</b>  Normed linear spaces, Banach spaces, introduction to Hilbert space, linear operators.  Required preparation:  Advanced linear algebra.  ",
+        "coursePrerequisites": " MATH 501.",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Vixie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

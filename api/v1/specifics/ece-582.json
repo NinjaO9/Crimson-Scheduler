@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:06.776004+00:00",
+  "course": "ece-582",
+  "subject": "ECE",
+  "courseNumber": 582,
+  "courseName": "Advanced Topics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/582/2/false/true",
+      "response": {
+        "courseDescription": "<b>582 Advanced Topics</b> May be repeated for credit. (Crosslisted course offered as E E 582, ECE 582.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deuk",
+            "lastName": "Heo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

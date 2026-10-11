@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:05:19.598498+00:00",
+  "course": "sdc-513",
+  "subject": "SDC",
+  "courseNumber": 513,
+  "courseName": "Comprehensive Design Experience",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Summer/2026/SDC/513/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Summer/2026/SDC/513/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

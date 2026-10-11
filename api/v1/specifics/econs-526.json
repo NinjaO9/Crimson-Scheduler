@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:33.858151+00:00",
+  "course": "econs-526",
+  "subject": "ECONS",
+  "courseNumber": 526,
+  "courseName": "Mathematical Economics with Applications",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/526/1/false/true",
+      "response": {
+        "courseDescription": "<b>526 Mathematical Economics with Applications</b>  Develop mathematical skills essential for introductory graduate work in economics, including matrix algebra and calculus. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bidisha",
+            "lastName": "Mandal",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

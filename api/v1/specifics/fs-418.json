@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:25.675450+00:00",
+  "course": "fs-418",
+  "subject": "FS",
+  "courseNumber": 418,
+  "courseName": "Oral Seminar in Food Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/418/1/false/true",
+      "response": {
+        "courseDescription": "<b>418 Oral Seminar in Food Science</b> May be repeated for credit; cumulative maximum 2 hours. Development of skills and communication tools and techniques for oral presentations of current food science research; professional development and job preparation. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "  Admitted to the major in Food Science; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Stephanie",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

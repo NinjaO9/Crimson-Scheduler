@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:44.770171+00:00",
+  "course": "spmgt-276",
+  "subject": "SPMGT",
+  "courseNumber": 276,
+  "courseName": "Introduction to Sport Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/276/1/false/true",
+      "response": {
+        "courseDescription": "<b>276 Introduction to Sport Management</b>  Principles and concepts in sport management; overview of sport industries and career opportunities.  ",
+        "coursePrerequisites": " ENGLISH 101 with a C or better; COM 102 with a C or better or H D 205 with a C or better; MATH [QUAN] with a C or better; 2.5 cumulative GPA.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Kimbrough",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

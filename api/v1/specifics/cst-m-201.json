@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:23.917467+00:00",
+  "course": "cst-m-201",
+  "subject": "CST_M",
+  "courseNumber": 201,
+  "courseName": "Materials I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Materials I</b>  Introduction to construction materials; primary materials used in below-grade substructures and above-grade superstructures using Construction Specification Institute (CSI) format.  ",
+        "coursePrerequisites": " Admitted to the major in Construction Management or Architectural Studies.",
+        "instructors": [
+          {
+            "firstName": "Tareq",
+            "lastName": "Abuimara",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

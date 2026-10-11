@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:44.352860+00:00",
+  "course": "i-d-702",
+  "subject": "I_D",
+  "courseNumber": 702,
+  "courseName": "Master's Special Problems, Directed Study and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/702/1/false/true",
+      "response": {
+        "courseDescription": "<b>702 Master's Special Problems, Directed Study and/or Examination</b> May be repeated for credit. Independent research in special problems, directed study, and/or examination credit for students in a non-thesis master's degree program.  Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 702 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Krikac",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

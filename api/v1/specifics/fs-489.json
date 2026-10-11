@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:41.838107+00:00",
+  "course": "fs-489",
+  "subject": "FS",
+  "courseNumber": 489,
+  "courseName": "Food Product Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/489/1/false/true",
+      "response": {
+        "courseDescription": "<b>489 Food Product Development</b>  Course serves as a capstone experience for food science seniors, and will require the application of food chemistry, food processing/engineering, and microbiology course knowledge in formulating a new food product. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " FS 302; FS 303; FS 416; FS 460; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Adam",
+            "lastName": "Quinn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

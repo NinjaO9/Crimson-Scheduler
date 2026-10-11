@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:22.462318+00:00",
+  "course": "cpt-s-355",
+  "subject": "CPT_S",
+  "courseNumber": 355,
+  "courseName": "Programming Language Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/355/1/false/true",
+      "response": {
+        "courseDescription": "<b>355 Programming Language Design</b>  Design concepts of high-level programming languages; survey of existing languages, experience using some languages.  ",
+        "coursePrerequisites": " CPT S 223 or 233, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Bolong",
+            "lastName": "Zeng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:52.899966+00:00",
+  "course": "mus-455",
+  "subject": "MUS",
+  "courseNumber": 455,
+  "courseName": "Seminar in Instrumentation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/455/1/false/true",
+      "response": {
+        "courseDescription": "<b>455 Seminar in Instrumentation</b> May be repeated for credit. Scoring for various instrumental combinations.  ",
+        "coursePrerequisites": " MUS 351 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Christian J",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

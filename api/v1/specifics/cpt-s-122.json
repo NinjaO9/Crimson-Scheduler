@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:20.561438+00:00",
+  "course": "cpt-s-122",
+  "subject": "CPT_S",
+  "courseNumber": 122,
+  "courseName": "Data Structures C/C++",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/Cpt%20S/122/1/false/true",
+      "response": {
+        "courseDescription": "<b>122 Data Structures C/C++</b>  Advanced programming techniques: data structures, recursion, sorting and searching, and basics of algorithm analysis taught in C/C++ programming language.  ",
+        "coursePrerequisites": " CPT S 121 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Andrew",
+            "lastName": "O'Fallon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

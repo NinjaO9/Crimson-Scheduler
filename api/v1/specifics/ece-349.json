@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:04.604128+00:00",
+  "course": "ece-349",
+  "subject": "ECE",
+  "courseNumber": 349,
+  "courseName": "Principles of Solid State Devices",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/349/1/false/true",
+      "response": {
+        "courseDescription": "<b>349 Principles of Solid State Devices</b>  Semiconductor theory; carrier diffusion and drift, direct and indirect energy materials, homo and hetereojunctions, operations principles of bipolar junctions and MOS field effect transistors, metal-semiconductor contacts.  ",
+        "coursePrerequisites": " ECE 325 or concurrent enrollment; CHEM 105; 4 credits PHYSICS 202, or PHYSICS 202 and 212.",
+        "instructors": [
+          {
+            "firstName": "Aref",
+            "lastName": "Majdara",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

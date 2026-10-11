@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:12:47.268636+00:00",
+  "course": "arch-510",
+  "subject": "ARCH",
+  "courseNumber": 510,
+  "courseName": "Graduate Design Studio III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Arch/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Graduate Design Studio III</b>  Intensive summer studio focusing on design projects that address significant issues in a particular context and locale (regional, national, or international city) outside of Pullman.  ",
+        "coursePrerequisites": " ARCH 403 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Hala",
+            "lastName": "Barakat",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Hutchison",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

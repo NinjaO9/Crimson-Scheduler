@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:07.933385+00:00",
+  "course": "prev-sci-535",
+  "subject": "PREV_SCI",
+  "courseNumber": 535,
+  "courseName": "Program Development in Prevention Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PrvSc/535/1/false/true",
+      "response": {
+        "courseDescription": "<b>535 Program Development in Prevention Science</b>  Community mobilization and problem analysis; program selection, implementation, and management; grant writing.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Elizabeth",
+            "lastName": "Weybright",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

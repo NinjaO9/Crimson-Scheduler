@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:11.121123+00:00",
+  "course": "mit-505",
+  "subject": "MIT",
+  "courseNumber": 505,
+  "courseName": "Classroom Management Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MIT/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Classroom Management Seminar</b>  Contemporary issues in management of elementary, middle school, and secondary classrooms; issues of abuse.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "T. Francene",
+            "lastName": "Watson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

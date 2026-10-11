@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:23.088999+00:00",
+  "course": "mbios-460",
+  "subject": "MBIOS",
+  "courseNumber": 460,
+  "courseName": "Advanced Interdisciplinary Molecular Biosciences (AIMS) Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/460/1/false/true",
+      "response": {
+        "courseDescription": "<b>460 Advanced Interdisciplinary Molecular Biosciences (AIMS) Laboratory</b>  Authentic laboratory investigations of contemporary topics from Biochemistry, Molecular Genetics, and Microbiology using a variety of model organisms; topics vary by semester and may include (but are not limited to) cell culture, protein structure and function, protein purification, detection of viruses using immunoassays, DNA isolation and transformation, DNA sequence analysis, gene editing, microscopy, and bioinformatic tools for DNA, protein, and gene expression analysis.  ",
+        "coursePrerequisites": " MBIOS 304; MBIOS 360.",
+        "instructors": [
+          {
+            "firstName": "Heather",
+            "lastName": "Koehler",
+            "isPrimary": true,
+            "tchEffort": 49
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

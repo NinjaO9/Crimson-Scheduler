@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:01.901737+00:00",
+  "course": "stat-435",
+  "subject": "STAT",
+  "courseNumber": 435,
+  "courseName": "Statistical Modeling for Data Analytics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Stat/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 [M] Statistical Modeling for Data Analytics</b>  Multiple linear regression with model selection, dealing with multicollinearity, assessing model assumptions, the LASSO, ridge regression, elastic nets, Loess smoothing, logistic regression, Poisson regression, and the application of the bootstrap to regression modeling.  (Crosslisted course offered as STAT 435, DATA 435.)  ",
+        "coursePrerequisites": " STAT/DATA 360 or STAT 370, either with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Xiongzhi",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

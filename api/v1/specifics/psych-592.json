@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:45.715023+00:00",
+  "course": "psych-592",
+  "subject": "PSYCH",
+  "courseNumber": 592,
+  "courseName": "Cognition and Affective Basis of Behavior",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Cognition and Affective Basis of Behavior</b>  Experimental approaches to human information processing, memory, and cognition. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Kim",
+            "lastName": "Meidenbauer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

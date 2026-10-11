@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:16.588774+00:00",
+  "course": "physics-450",
+  "subject": "PHYSICS",
+  "courseNumber": 450,
+  "courseName": "Introduction to Quantum Mechanics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Introduction to Quantum Mechanics</b>  Introduction to quantum theory with applications to atomic physics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 315; PHYSICS 303.",
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Engels",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

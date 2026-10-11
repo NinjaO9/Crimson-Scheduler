@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:55.367164+00:00",
+  "course": "mus-485",
+  "subject": "MUS",
+  "courseNumber": 485,
+  "courseName": "Woodwind Techniques II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 Woodwind Techniques II</b>  Second level of performance and pedagogy of woodwind instruments for music educators.  ",
+        "coursePrerequisites": " MUS 190.",
+        "instructors": [
+          {
+            "firstName": "Martin",
+            "lastName": "King",
+            "isPrimary": true,
+            "tchEffort": 34
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

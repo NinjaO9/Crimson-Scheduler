@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:25.231021+00:00",
+  "course": "mgmt-401",
+  "subject": "MGMT",
+  "courseNumber": 401,
+  "courseName": "Leading People and Organizations",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MGMT/401/2/false/true",
+      "response": {
+        "courseDescription": "<b>401 Leading People and Organizations</b>  Leadership, motivation, team building, group dynamics, interpersonal and group conflict, and job design.  ",
+        "coursePrerequisites": " B A 201, 202, and 203, or B A 211, or MGMT 301; admitted to a major or minor in the College of Business, Personnel Psychology & Human Resource Management option, or Biomedical Business option; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Gladstone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

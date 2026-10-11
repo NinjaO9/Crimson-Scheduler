@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:35.039192+00:00",
+  "course": "e-e-523",
+  "subject": "E_E",
+  "courseNumber": 523,
+  "courseName": "Power Systems Stability and Control",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/523/1/false/true",
+      "response": {
+        "courseDescription": "<b>523 Power Systems Stability and Control</b>  Dynamic analysis of interconnected electric power system; modeling of synchronous generators, loads and transmission network; small-signal stability and transient stability analysis; dynamic stability controls.  Recommended preparation: E E 489 with a B- or better.  ",
+        "coursePrerequisites": " E E 521 with a B- or better.",
+        "instructors": [
+          {
+            "firstName": "Vaithianath",
+            "lastName": "Venkatasubramanian",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

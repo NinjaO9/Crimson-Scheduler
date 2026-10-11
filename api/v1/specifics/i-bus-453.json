@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:39.747026+00:00",
+  "course": "i-bus-453",
+  "subject": "I_BUS",
+  "courseNumber": 453,
+  "courseName": "International Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/I%20Bus/453/2/false/true",
+      "response": {
+        "courseDescription": "<b>453 [M] International Management</b>  Cross-cultural implications of management theories and approaches; the role of national culture in management theory and practice.  ",
+        "coursePrerequisites": " B A 201, 202, and 203, or B A 211, or MGMT 301; admitted to a major or minor in the College of Business or option of Personnel Psychology & Human Resource Management.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Gladstone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

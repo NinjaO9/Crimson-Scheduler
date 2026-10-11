@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:51.292632+00:00",
+  "course": "che-451",
+  "subject": "CHE",
+  "courseNumber": 451,
+  "courseName": "Chemical Process Analysis and Design II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/451/1/false/true",
+      "response": {
+        "courseDescription": "<b>451 [M] Chemical Process Analysis and Design II</b>  Development, design, and economic evaluation of chemical and related processes as practiced in industry.  ",
+        "coursePrerequisites": " CHE 450 with a C or better; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Colin",
+            "lastName": "Lehman-Chong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

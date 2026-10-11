@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:10.646248+00:00",
+  "course": "vit-enol-401",
+  "subject": "VIT_ENOL",
+  "courseNumber": 401,
+  "courseName": "Special Topics in Viticulture and Enology",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/V%20E/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Special Topics in Viticulture and Enology</b> May be repeated for credit; cumulative maximum 4 hours. Assessment and evaluation of special topics in viticulture and enology. Credit not granted for both VIT ENOL 401 and 501.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jean",
+            "lastName": "Dodson Peterson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

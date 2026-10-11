@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:20:00.000572+00:00",
+  "course": "soil-sci-480",
+  "subject": "SOIL_SCI",
+  "courseNumber": 480,
+  "courseName": "Practicum in Organic Agriculture",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/SoilS/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Practicum in Organic Agriculture</b> May be repeated for credit; cumulative maximum 12 hours. Applied principles and practices of organic agriculture; immersion and participation in all required farming/gardening activities.  ",
+        "coursePrerequisites": "  SOIL SCI 478 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Gabriel",
+            "lastName": "LaHue",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:07.729974+00:00",
+  "course": "mech-435",
+  "subject": "MECH",
+  "courseNumber": 435,
+  "courseName": "Introduction to Microfluidics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 Introduction to Microfluidics</b>  Overview of microfluidics, scaling laws, intermolecular forces, surface tension, passive scalar transport, electrowetting, electrokinetics, dielectrophoresis, microfabrication.  ",
+        "coursePrerequisites": " MATH 315; MECH 303.",
+        "instructors": [
+          {
+            "firstName": "Hua",
+            "lastName": "Tan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

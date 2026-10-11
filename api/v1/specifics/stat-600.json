@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:20.032316+00:00",
+  "course": "stat-600",
+  "subject": "STAT",
+  "courseNumber": 600,
+  "courseName": "Special Projects or Independent Study",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Stat/600/1/false/true",
+      "response": {
+        "courseDescription": "<b>600 Special Projects or Independent Study</b> May be repeated for credit. Independent study, special projects, and/or internships. Students must have graduate degree-seeking status and should check with their major advisor before enrolling in 600 credit, which cannot be used toward the core graded credits required for a graduate degree. Cooperative: Open to UI degree-seeking students. S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

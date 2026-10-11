@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:19.924664+00:00",
+  "course": "nep-458",
+  "subject": "NEP",
+  "courseNumber": 458,
+  "courseName": "Nutrition Throughout the Life Cycle",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/458/1/false/true",
+      "response": {
+        "courseDescription": "<b>458 Nutrition Throughout the Life Cycle</b>  Physical activity relating to nutritional needs and dietary patterns from infancy through old age and including maternal nutrition.  ",
+        "coursePrerequisites": " NEP 400; NEP 402; NEP 435; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Martine",
+            "lastName": "Perrigue",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

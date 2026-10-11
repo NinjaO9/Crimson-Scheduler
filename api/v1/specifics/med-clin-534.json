@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:12.419898+00:00",
+  "course": "med-clin-534",
+  "subject": "MED_CLIN",
+  "courseNumber": 534,
+  "courseName": "Pediatrics - Subinternship",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Pediatrics - Subinternship</b> May be repeated for credit; cumulative maximum 12 hours. Knowledge and skills in caring for pediatric patients admitted to the hospital or ambulatory setting; exposure to the wide range of medical diagnoses that lead to the admission of pediatric patients.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524 and Course Director permission.",
+        "instructors": [
+          {
+            "firstName": "Hinah",
+            "lastName": "Parker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

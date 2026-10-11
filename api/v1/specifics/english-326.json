@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:15.418247+00:00",
+  "course": "english-326",
+  "subject": "ENGLISH",
+  "courseNumber": 326,
+  "courseName": "Applied Grammar for Teachers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/326/1/false/true",
+      "response": {
+        "courseDescription": "<b>326 Applied Grammar for Teachers</b>  Application of traditional English grammar for K-12 teachers, with focus on edited, American, African American, vernacular, and Spanish-influenced Englishes.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kate",
+            "lastName": "Watts",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

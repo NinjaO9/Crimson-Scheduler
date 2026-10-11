@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:38.282942+00:00",
+  "course": "nep-551",
+  "subject": "NEP",
+  "courseNumber": 551,
+  "courseName": "Food Service Management Supervised Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/551/1/false/true",
+      "response": {
+        "courseDescription": "<b>551 Food Service Management Supervised Practice</b>  Advanced principles and supervised experience in food systems, institutional food service management, school food service and community feeding programs.  ",
+        "coursePrerequisites": " Admission to the Coordinated Program in Dietetics.",
+        "instructors": [
+          {
+            "firstName": "Kelli",
+            "lastName": "Frederick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

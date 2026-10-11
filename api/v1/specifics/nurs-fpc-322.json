@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:08.502811+00:00",
+  "course": "nurs-fpc-322",
+  "subject": "NURS_FPC",
+  "courseNumber": 322,
+  "courseName": "Health Equity in the Context of Care",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/322/1/false/true",
+      "response": {
+        "courseDescription": "<b>322 Health Equity in the Context of Care</b>  An exploration of diversity, equity, inclusion and belonging (DEIB) and how the social determinants of health impact the nursing practice and society's trajectory toward justice and health.  ",
+        "coursePrerequisites": " NURS FPC 306; NURS FPC 311; NURS FPC 315; NURS FPC 316; NURS FPC 317.",
+        "instructors": [
+          {
+            "firstName": "Emily",
+            "lastName": "Davies",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Robin",
+            "lastName": "Baumgarten",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

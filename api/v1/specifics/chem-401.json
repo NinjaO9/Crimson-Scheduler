@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:42.922743+00:00",
+  "course": "chem-401",
+  "subject": "CHEM",
+  "courseNumber": 401,
+  "courseName": "Modern Inorganic Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Modern Inorganic Chemistry</b>  Properties of substances; periodic trends; catalysis; structure and reactivity; acid-base; oxidation-reduction; and spectroscopy.  Credit not granted for both CHEM 401 and 501.  ",
+        "coursePrerequisites": " CHEM 345.",
+        "instructors": [
+          {
+            "firstName": "Jack",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

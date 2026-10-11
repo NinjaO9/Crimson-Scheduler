@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:03.971312+00:00",
+  "course": "hort-320",
+  "subject": "HORT",
+  "courseNumber": 320,
+  "courseName": "Olericulture",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Hort/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Olericulture</b>  Science, business, and art of vegetable crop production: culture, fertility, growth, physiology, handling, marketing; garden, commercial, greenhouse, tropical, specialty vegetables.  Recommended preparation: BIOLOGY 106, BIOLOGY 107, BIOLOGY 120, or HORT 202. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alexander",
+            "lastName": "Cornwall",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:28.716496+00:00",
+  "course": "me-415",
+  "subject": "ME",
+  "courseNumber": 415,
+  "courseName": "Engineering Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 [M] Engineering Design</b>  Systems and component design; product development from specifications to manufacturing; team-based CAD design projects; engineering economics; engineering professional skills.  ",
+        "coursePrerequisites": " MATH 315; ME 216; ME 220; ME 304 or concurrent enrollment; ME 313; ME 316 or concurrent enrollment and ME 348 or concurrent enrollment; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Xiaopeng",
+            "lastName": "Bi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

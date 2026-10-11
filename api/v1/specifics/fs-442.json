@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:41.129457+00:00",
+  "course": "fs-442",
+  "subject": "FS",
+  "courseNumber": 442,
+  "courseName": "Food Processing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/442/1/false/true",
+      "response": {
+        "courseDescription": "<b>442 Food Processing</b>  Specialized techniques, concepts and practices of food processing. (Formerly FS 303.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " FS 110; FS 220; FS 432; concurrent enrollment in FS 443; STAT 212 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Youngsoo",
+            "lastName": "Lee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

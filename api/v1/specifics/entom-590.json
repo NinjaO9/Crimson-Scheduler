@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:19.262692+00:00",
+  "course": "entom-590",
+  "subject": "ENTOM",
+  "courseNumber": 590,
+  "courseName": "Special Topics in Entomology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entom/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Special Topics in Entomology</b> May be repeated for credit; cumulative maximum 10 hours. Credit not granted for both ENTOM 490 and ENTOM 590. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Stark",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Laura",
+            "lastName": "Lavine",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:12:38.236363+00:00",
+  "course": "h-d-407",
+  "subject": "H_D",
+  "courseNumber": 407,
+  "courseName": "Student Teaching for Family and Consumer Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/H%20D/407/1/false/true",
+      "response": {
+        "courseDescription": "<b>407 Student Teaching for Family and Consumer Sciences</b>  Supervised teaching in public schools, including seminars reflecting on effective teaching.  S, F grading. ",
+        "coursePrerequisites": " By department permission only; junior standing. Typically, TCH LRN 415 concurrent enrollment. Placement by interview only at approved sites.",
+        "instructors": [
+          {
+            "firstName": "Deborah",
+            "lastName": "Handy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

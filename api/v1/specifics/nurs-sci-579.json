@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.278234+00:00",
+  "course": "nurs-sci-579",
+  "subject": "NURS_SCI",
+  "courseNumber": 579,
+  "courseName": "Systems and Organizational Change: Theory and Methods",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURSC/579/1/false/true",
+      "response": {
+        "courseDescription": "<b>579 Systems and Organizational Change: Theory and Methods</b>  The meta-theoretical perspective of complex systems science, including contributing theories (e.g., systems theory, complex adaptive systems, network theory, and nonlinear dynamics); topics include organizational change theories, methods, and metrics.  ",
+        "coursePrerequisites": " NURS SCI 539.",
+        "instructors": [
+          {
+            "firstName": "Denise",
+            "lastName": "Smart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:16.137966+00:00",
+  "course": "physics-415",
+  "subject": "PHYSICS",
+  "courseNumber": 415,
+  "courseName": "Quantum Physics Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phys/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 [M] Quantum Physics Laboratory</b> May be repeated for credit; cumulative maximum 6 hours. Experiments in modern and quantum physics, fundamental interactions of radiations with matter.  ",
+        "coursePrerequisites": " PHYSICS 304.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

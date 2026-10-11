@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:32.437564+00:00",
+  "course": "econs-509",
+  "subject": "ECONS",
+  "courseNumber": 509,
+  "courseName": "Quantitative Methods in Economic Dynamics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Quantitative Methods in Economic Dynamics</b>  Basic numerical methods of optimization, equation solving, function approximation, numerical dynamic programming, random number generation and simulation, and the solution of dynamic stochastic general equilibrium models; econometric estimation methods of nonlinear structural economic models, including Bayesian Estimation, Generalized Method of Moments, Indirect Inference, and Simulated Method of Moments.  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Jinhui",
+            "lastName": "Bai",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

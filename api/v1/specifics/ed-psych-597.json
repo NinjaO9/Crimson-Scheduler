@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:12.770028+00:00",
+  "course": "ed-psych-597",
+  "subject": "ED_PSYCH",
+  "courseNumber": 597,
+  "courseName": "Educational Psychology Internship",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/EdPsy/597/1/false/true",
+      "response": {
+        "courseDescription": "<b>597 Educational Psychology Internship</b>  Development and application of structured strategies of investigative research for professional presentations and publications; capstone course for the Applied Educational Research Methods Certificate.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Oluwafemi",
+            "lastName": "Sunday",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

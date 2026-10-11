@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:10.268736+00:00",
+  "course": "math-220",
+  "subject": "MATH",
+  "courseNumber": 220,
+  "courseName": "Introductory Linear Algebra",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Introductory Linear Algebra</b>  Solving linear systems, matrices, determinants, subspaces, eigenvalues, orthogonality.  Credit not granted for more than one of MATH 220, 225, and 230.  ",
+        "coursePrerequisites": " MATH 106 or 201 with a C or better, or MATH 140, 171, 202 or DATA 121 or higher or concurrent enrollment, or a minimum ALEKS math placement score of 80%.",
+        "instructors": [
+          {
+            "firstName": "Saxton",
+            "lastName": "Wilson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

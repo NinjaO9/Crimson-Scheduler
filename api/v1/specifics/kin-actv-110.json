@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:03.456934+00:00",
+  "course": "kin-actv-110",
+  "subject": "KIN_ACTV",
+  "courseNumber": 110,
+  "courseName": "Intermediate Golf",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/KNACT/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Intermediate Golf</b> May be repeated for credit; cumulative maximum 4 hours.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cameron",
+            "lastName": "Nichols",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

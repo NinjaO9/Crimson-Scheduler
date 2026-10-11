@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:36.242810+00:00",
+  "course": "nep-490",
+  "subject": "NEP",
+  "courseNumber": 490,
+  "courseName": "Exercise and Nutrition Internship",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/NEP/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Exercise and Nutrition Internship</b>  Supervised offsite exercise field experience to assess normal and diseased populations and develop/apply exercise prescriptions and nutrition recommendations.  S, F grading. ",
+        "coursePrerequisites": " NEP 489; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

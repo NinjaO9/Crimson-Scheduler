@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:34.872556+00:00",
+  "course": "comstrat-324",
+  "subject": "COMSTRAT",
+  "courseNumber": 324,
+  "courseName": "Reasoning and Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComSr/324/1/false/true",
+      "response": {
+        "courseDescription": "<b>324 [M] Reasoning and Writing</b>  Development of critical thinking, information gathering, and persuasive writing skills using different forms of argumentation; voice, tone, form, structure are emphasized.  ",
+        "coursePrerequisites": " Admitted to any major in or minor in the College of Communication;\nsophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Jordan",
+            "lastName": "Foley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:26.552553+00:00",
+  "course": "chem-301",
+  "subject": "CHEM",
+  "courseNumber": 301,
+  "courseName": "Descriptive Inorganic Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Descriptive Inorganic Chemistry</b>  A survey of the chemistry of the elements using basic principles of bonding, acid-base and oxidation-reduction chemistry, and thermodynamics.  ",
+        "coursePrerequisites": " CHEM 106 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Jeremy",
+            "lastName": "Lessmann",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

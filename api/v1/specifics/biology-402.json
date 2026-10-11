@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:22:39.986004+00:00",
+  "course": "biology-402",
+  "subject": "BIOLOGY",
+  "courseNumber": 402,
+  "courseName": "Beneficial Microbes in Nature and Society",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Biol/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 [M] Beneficial Microbes in Nature and Society</b>  In-depth investigations of interdisciplinary topics addressing the importance of beneficial microbes to organisms, natural systems, and society from across the disciplines of microbiology, medicine, evolutionary ecology, and agricultural science.  ",
+        "coursePrerequisites": " BIOLOGY 305, 370, 372, 395, 403, or 405; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Stephanie",
+            "lastName": "Porter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

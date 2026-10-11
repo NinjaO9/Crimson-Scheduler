@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:10.847051+00:00",
+  "course": "mil-sci-201",
+  "subject": "MIL_SCI",
+  "courseNumber": 201,
+  "courseName": "Introduction to Leadership",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Introduction to Leadership</b>  Multidisciplinary approach to military leadership.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Joshua",
+            "lastName": "Rainwater",
+            "isPrimary": false,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

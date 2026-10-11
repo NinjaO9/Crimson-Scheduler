@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:44.227930+00:00",
+  "course": "english-105",
+  "subject": "ENGLISH",
+  "courseNumber": 105,
+  "courseName": "College Composition for Multilingual Writers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 College Composition for Multilingual Writers</b>  Designed to further develop academic writing, critical thinking, reading, library skills, and rhetorical strategies for non-native speakers of English. Credit not granted for more than one of ENGLISH 101 and 105.  ",
+        "coursePrerequisites": "  Appropriate Writing Exam score, or ENGLISH 104 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Thomas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

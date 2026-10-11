@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:38.603089+00:00",
+  "course": "ce-431",
+  "subject": "CE",
+  "courseNumber": 431,
+  "courseName": "Structural Steel Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Structural Steel Design</b>  Design of steel structures by load and resistance factor design (LRFD); behavior and design of beams, columns, tension members and connections. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 330 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Hyeyoung",
+            "lastName": "Koh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

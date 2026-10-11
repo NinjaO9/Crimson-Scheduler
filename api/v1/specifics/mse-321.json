@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:32.384892+00:00",
+  "course": "mse-321",
+  "subject": "MSE",
+  "courseNumber": 321,
+  "courseName": "Materials Characterization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Materials Characterization</b>  Properties of x-rays, scattering and diffraction; crystal structures; x-ray diffraction methods, transmission electron microscopy and scanning electron microscopy.  ",
+        "coursePrerequisites": " MSE 201 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Min Kyu",
+            "lastName": "Song",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

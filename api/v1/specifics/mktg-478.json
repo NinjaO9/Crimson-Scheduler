@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:58.975827+00:00",
+  "course": "mktg-478",
+  "subject": "MKTG",
+  "courseNumber": 478,
+  "courseName": "Sales Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mktg/478/1/false/true",
+      "response": {
+        "courseDescription": "<b>478 Sales Management</b>  Sales management strategies and plans to achieve a firm's marketing objectives, including the hiring, firing, training, motivation, compensation, deployment, and evaluation of sales personnel.  ",
+        "coursePrerequisites": " MKTG 360.",
+        "instructors": [
+          {
+            "firstName": "Bitty",
+            "lastName": "Balducci",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

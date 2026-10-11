@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:30.638417+00:00",
+  "course": "math-448",
+  "subject": "MATH",
+  "courseNumber": 448,
+  "courseName": "Numerical Analysis",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Math/448/1/false/true",
+      "response": {
+        "courseDescription": "<b>448 Numerical Analysis</b>  Fundamentals of numerical computation; finding zeroes of functions, approximation and interpolation; numerical integration (quadrature); numerical solution of ordinary differential equations. Required preparation must include differential equations and a programming course. (Crosslisted course offered as MATH 448, MATH 548, CPT S 430, CPT S 530.)  Credit not granted for more than one of MATH 448/548 or CPT S 430/530.  ",
+        "coursePrerequisites": " MATH 315 with a C or better; one of CPT S 121, 131, or MATH 300, with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Learn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

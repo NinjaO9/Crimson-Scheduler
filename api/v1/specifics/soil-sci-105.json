@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:14.262422+00:00",
+  "course": "soil-sci-105",
+  "subject": "SOIL_SCI",
+  "courseNumber": 105,
+  "courseName": "Applied Chemistry in Soil, Agriculture, and Environmental Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SoilS/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Applied Chemistry in Soil, Agriculture, and Environmental Sciences</b>  Integration of basic chemistry principles with applications in soil, agriculture, and environmental sciences with applied laboratory activities that highlight the role of chemistry in soil health, crop production, and environmental quality.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joao",
+            "lastName": "Antonangelo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

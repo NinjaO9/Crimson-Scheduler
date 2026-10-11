@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:43.085501+00:00",
+  "course": "chem-410",
+  "subject": "CHEM",
+  "courseNumber": 410,
+  "courseName": "Advanced Synthesis and Characterization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 Advanced Synthesis and Characterization</b>  Synthesis and characterization of organic and inorganic compounds and solid-state materials; modern synthetic technology, characterization methods, and laboratory techniques.  ",
+        "coursePrerequisites": " CHEM 346 with a C or better, or CHEM 348 with a C or better; CHEM 332 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Jack",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

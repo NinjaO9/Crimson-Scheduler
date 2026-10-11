@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:52.899801+00:00",
+  "course": "vet-med-546",
+  "subject": "VET_MED",
+  "courseNumber": 546,
+  "courseName": "Systemic Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/546/1/false/true",
+      "response": {
+        "courseDescription": "<b>546 Systemic Pathology</b>  Principles of system and organ response to injury, and the effects of injury/disease on the animal host.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 545.",
+        "instructors": [
+          {
+            "firstName": "Jeff",
+            "lastName": "Abbott",
+            "isPrimary": true,
+            "tchEffort": 45
+          },
+          {
+            "firstName": "Jonathan",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 45
+          },
+          {
+            "firstName": "Brian",
+            "lastName": "Murphy",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

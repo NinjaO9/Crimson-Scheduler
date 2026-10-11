@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:39.231941+00:00",
+  "course": "med-eth-500",
+  "subject": "MED_ETH",
+  "courseNumber": 500,
+  "courseName": "Conceptual Foundations of Bioethics",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Fall/2026/MEDET/500/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Fall/2026/MEDET/500/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

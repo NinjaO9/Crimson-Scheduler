@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:56.309230+00:00",
+  "course": "neurosci-431",
+  "subject": "NEUROSCI",
+  "courseNumber": 431,
+  "courseName": "Principles of Neurophysiology Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Principles of Neurophysiology Laboratory</b>  Advanced laboratory exploration of the principles underlying cellular, sensory, motor, and integrative functions of the nervous system. Recommended preparation: MBIOS 303.  ",
+        "coursePrerequisites": " NEUROSCI 301 or PSYCH 372; NEUROSCI 430 or concurrent enrollment or instructor permission.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Peters",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

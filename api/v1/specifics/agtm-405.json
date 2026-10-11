@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:15.162678+00:00",
+  "course": "agtm-405",
+  "subject": "AGTM",
+  "courseNumber": 405,
+  "courseName": "Advanced Agricultural Precision Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AgTM/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Advanced Agricultural Precision Systems</b>  Advanced principles of precision agricultural systems, software uses, management of controllers on equipment, geographical information systems and global positioning systems.  ",
+        "coursePrerequisites": " AGTM 305.",
+        "instructors": [
+          {
+            "firstName": "Haly",
+            "lastName": "Neely",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

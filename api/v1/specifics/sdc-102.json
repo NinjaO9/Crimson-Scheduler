@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:50.332597+00:00",
+  "course": "sdc-102",
+  "subject": "SDC",
+  "courseNumber": 102,
+  "courseName": "Social Justice in the Built Environment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SDC/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Social Justice in the Built Environment</b>  Historical context and current debates on urbanism including environmental racism, gentrification, redlining, postcolonialism, and public monuments.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kristina",
+            "lastName": "Borrman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

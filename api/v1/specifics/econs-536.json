@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:34.536844+00:00",
+  "course": "econs-536",
+  "subject": "ECONS",
+  "courseNumber": 536,
+  "courseName": "Applied Statistics and Econometrics for Economics and Finance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/536/1/false/true",
+      "response": {
+        "courseDescription": "<b>536 Applied Statistics and Econometrics for Economics and Finance</b>  Data and problem driven approach to formulating, estimating, and interpreting models that address problems in the area of finance and financial economics; review relevant basic statistics and probability concepts, and apply these to linear regression, regression diagnostics, and time series econometrics.  Recommended preparation: 3-credit introductory statistics (MGTOP 215); 3-credit microeconomics or macroeconomics course; 3-credit mathematics with calculus course; 3-credit introductory finance course.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Thomas",
+            "lastName": "Marsh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

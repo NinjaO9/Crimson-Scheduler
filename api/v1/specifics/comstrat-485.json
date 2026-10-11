@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:51.515270+00:00",
+  "course": "comstrat-485",
+  "subject": "COMSTRAT",
+  "courseNumber": 485,
+  "courseName": "Public Relations Management and Campaigns",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 [M] Public Relations Management and Campaigns</b>  Application of public relations principles, management, persuasion theory and research methods to public relations issues.  ",
+        "coursePrerequisites": " COM 309; COMSTRAT 312; COMSTRAT 383; admitted to a major in the College of Communication; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Porismita",
+            "lastName": "Borah",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

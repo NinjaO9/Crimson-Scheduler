@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:37.942170+00:00",
+  "course": "nep-542",
+  "subject": "NEP",
+  "courseNumber": 542,
+  "courseName": "Medical Nutrition Therapy II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Medical Nutrition Therapy II</b>  Theoretical and practical application of advanced medical nutrition therapy principles to complex disease states.  ",
+        "coursePrerequisites": " NEP 537; admission to the Coordinated Program in Dietetics.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Heneghen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

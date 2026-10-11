@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:44.180845+00:00",
+  "course": "psych-539",
+  "subject": "PSYCH",
+  "courseNumber": 539,
+  "courseName": "Cognitive and Neuropsychological Assessment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/539/1/false/true",
+      "response": {
+        "courseDescription": "<b>539 Cognitive and Neuropsychological Assessment</b>  Theory and application of psychological cognitive assessment across the lifespan, including test administration and interpretation.  ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Hsinya",
+            "lastName": "Liao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

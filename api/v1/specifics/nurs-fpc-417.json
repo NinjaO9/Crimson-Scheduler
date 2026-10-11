@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:10.751000+00:00",
+  "course": "nurs-fpc-417",
+  "subject": "NURS_FPC",
+  "courseNumber": 417,
+  "courseName": "Nursing Care of Childbearing Families",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/417/1/false/true",
+      "response": {
+        "courseDescription": "<b>417 Nursing Care of Childbearing Families</b>  Nursing care of families during the childbearing continuum and/or acute care settings; combination of clinical and seminar.  S, F grading. ",
+        "coursePrerequisites": " NURS FPC 308; NURS FPC 322; NURS FPC 324; NURS FPC 325; and concurrent enrollment in NURS FPC 416.",
+        "instructors": [
+          {
+            "firstName": "Tiffany",
+            "lastName": "Valentine",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

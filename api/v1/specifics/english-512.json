@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:13.646182+00:00",
+  "course": "english-512",
+  "subject": "ENGLISH",
+  "courseNumber": 512,
+  "courseName": "Introduction to Graduate Study",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Introduction to Graduate Study</b>  Introduction to the principles and procedures of English studies.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Patricia",
+            "lastName": "Wilde",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:03.892147+00:00",
+  "course": "comjour-465",
+  "subject": "COMJOUR",
+  "courseNumber": 465,
+  "courseName": "Advanced Television News",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ComJo/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 [M] Advanced Television News</b> May be repeated for credit; cumulative maximum 8 hours. Writing, reporting, and editing broadcast news; development and production of broadcast quality news.  ",
+        "coursePrerequisites": " COMJOUR 335; admitted to a major in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Loveless",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:50.114351+00:00",
+  "course": "com-199",
+  "subject": "COM",
+  "courseNumber": 199,
+  "courseName": "Murrow Student Ambassador Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Com/199/1/false/true",
+      "response": {
+        "courseDescription": "<b>199 Murrow Student Ambassador Training</b> May be repeated for credit; cumulative maximum 2 hours. General elective training course for newly-accepted Murrow Ambassadors.  S, F grading. ",
+        "coursePrerequisites": " By interview only.",
+        "instructors": [
+          {
+            "firstName": "Lily",
+            "lastName": "Niemi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

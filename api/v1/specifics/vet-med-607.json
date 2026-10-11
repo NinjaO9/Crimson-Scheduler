@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:59.928840+00:00",
+  "course": "vet-med-607",
+  "subject": "VET_MED",
+  "courseNumber": 607,
+  "courseName": "Small Animal Soft Tissue Surgery",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/607/1/false/true",
+      "response": {
+        "courseDescription": "<b>607 Small Animal Soft Tissue Surgery</b>  Required clinical experience with the soft tissue surgery service in the small animal clinic of the Veterinary Medicine Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Boel",
+            "lastName": "Fransson",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Bonnie",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

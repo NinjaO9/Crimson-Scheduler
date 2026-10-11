@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:23.094504+00:00",
+  "course": "tch-lrn-402",
+  "subject": "TCH_LRN",
+  "courseNumber": 402,
+  "courseName": "Instructional Practicum I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 Instructional Practicum I</b> May be repeated for credit; cumulative maximum 6 hours. Application of educational theories and approaches learned during methods Block I.  S, F grading. ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Lori",
+            "lastName": "White",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

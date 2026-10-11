@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:52.554914+00:00",
+  "course": "vet-med-543",
+  "subject": "VET_MED",
+  "courseNumber": 543,
+  "courseName": "Veterinary Medicine and Human Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/543/1/false/true",
+      "response": {
+        "courseDescription": "<b>543 Veterinary Medicine and Human Health</b>  Preparation for veterinary students in public health and food hygiene.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Andreas",
+            "lastName": "Eleftheriou",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

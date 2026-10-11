@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:36.533878+00:00",
+  "course": "art-555",
+  "subject": "ART",
+  "courseNumber": 555,
+  "courseName": "Critical Practices",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/555/1/false/true",
+      "response": {
+        "courseDescription": "<b>555 Critical Practices</b> May be repeated for credit; cumulative maximum 36 hours. Studio practice, critical analysis of the student's own and others' work, investigation of critical theory and visual culture through display and making art via a variety of disciplines.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Squeak",
+            "lastName": "Meisel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

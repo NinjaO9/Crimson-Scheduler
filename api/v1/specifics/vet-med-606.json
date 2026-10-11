@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:59.740660+00:00",
+  "course": "vet-med-606",
+  "subject": "VET_MED",
+  "courseNumber": 606,
+  "courseName": "Small Animal Referral Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/606/1/false/true",
+      "response": {
+        "courseDescription": "<b>606 Small Animal Referral Medicine</b>  Required clinical experience with the small animal referral medicine service in the small animal clinic of the Veterinary Medicine Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Jillian",
+            "lastName": "Haines",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Sarah",
+            "lastName": "Guess",
+            "isPrimary": false,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Yoko M",
+            "lastName": "Ambrosini",
+            "isPrimary": false,
+            "tchEffort": 30
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

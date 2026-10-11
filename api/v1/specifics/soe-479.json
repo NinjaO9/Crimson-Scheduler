@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:39.539966+00:00",
+  "course": "soe-479",
+  "subject": "SOE",
+  "courseNumber": 479,
+  "courseName": "Earth and Environmental Science for Sustainable Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/479/1/false/true",
+      "response": {
+        "courseDescription": "<b>479 Earth and Environmental Science for Sustainable Development</b>  How Earth and environmental sciences can help achieve a sustainable future; analysis of global challenges such as climate change, water, energy, and poverty, and explore innovative solutions.  ",
+        "coursePrerequisites": " SOE 312; junior standing; admitted to a major.",
+        "instructors": [
+          {
+            "firstName": "Hannah",
+            "lastName": "Haemmerli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

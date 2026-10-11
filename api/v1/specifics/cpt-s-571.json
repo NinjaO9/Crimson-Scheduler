@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:46.705633+00:00",
+  "course": "cpt-s-571",
+  "subject": "CPT_S",
+  "courseNumber": 571,
+  "courseName": "Computational Genomics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Computational Genomics</b>  Fundamental algorithms, techniques and applications. Credit not granted for both CPT S 471 and CPT S 571.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ananth",
+            "lastName": "Kalyanaraman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

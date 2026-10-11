@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:05.483368+00:00",
+  "course": "nurs-adv-563",
+  "subject": "NURS_ADV",
+  "courseNumber": 563,
+  "courseName": "Advanced Pharmacology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/563/1/false/true",
+      "response": {
+        "courseDescription": "<b>563 Advanced Pharmacology</b>  Pharmacology for clinical practice including decision making, prescribing, drug monitoring, and patient education associated with prescriptive authority.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Josh",
+            "lastName": "Hamilton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:55.490347+00:00",
+  "course": "mbios-578",
+  "subject": "MBIOS",
+  "courseNumber": 578,
+  "courseName": "Bioinformatics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/578/1/false/true",
+      "response": {
+        "courseDescription": "<b>578 Bioinformatics</b>  Computer analysis of protein and nucleic acid sequences, functional genomics and proteomics data; modeling biological networks and pathways. Recommended preparation for graduate students:  Introductory genetics or biochemistry coursework. Credit not granted for both MBIOS 478 and MBIOS 578.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Wyrick",
+            "isPrimary": true,
+            "tchEffort": 99
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

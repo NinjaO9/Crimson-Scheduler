@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:10.295121+00:00",
+  "course": "mech-568",
+  "subject": "MECH",
+  "courseNumber": 568,
+  "courseName": "Robotics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/568/1/false/true",
+      "response": {
+        "courseDescription": "<b>568 Robotics</b>  Industrial robots, kinematics, control, robot programming, interfacing, sensors, actuators, vision systems and mobile robots. Credit not granted for both MECH 468 and MECH 568.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hakan",
+            "lastName": "Gurocak",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

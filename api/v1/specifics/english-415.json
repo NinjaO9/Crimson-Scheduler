@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:01:48.362865+00:00",
+  "course": "english-415",
+  "subject": "ENGLISH",
+  "courseNumber": 415,
+  "courseName": "Traditions of Comedy and Tragedy",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Engl/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Traditions of Comedy and Tragedy</b>  Study of tragedy and comedy in the Age of Shakespeare.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Mays",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

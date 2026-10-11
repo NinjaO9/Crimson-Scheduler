@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:20.203940+00:00",
+  "course": "kines-199",
+  "subject": "KINES",
+  "courseNumber": 199,
+  "courseName": "Human Motor Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/199/1/false/true",
+      "response": {
+        "courseDescription": "<b>199 Human Motor Development</b>  Development and performance of human motor patterns; understanding of motor development; observation and analysis of foundations of movement.  ",
+        "coursePrerequisites": " A minimum ALEKS math placement score of 40%, or MATH 103 with a C or better, or credit for or concurrent enrollment in MATH 105, 106, 108, 140, 171, 201, 202, STAT 205, STAT 212 or PSYCH 311.",
+        "instructors": [
+          {
+            "firstName": "Amanda",
+            "lastName": "McMahon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

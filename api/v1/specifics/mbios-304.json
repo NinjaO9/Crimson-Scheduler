@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:33:22.627018+00:00",
+  "course": "mbios-304",
+  "subject": "MBIOS",
+  "courseNumber": 304,
+  "courseName": "Microbiology and Molecular Biology Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/304/1/false/true",
+      "response": {
+        "courseDescription": "<b>304 Microbiology and Molecular Biology Laboratory</b>  Basic microbiology and molecular biology techniques.  ",
+        "coursePrerequisites": "  MBIOS 305 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Marian",
+            "lastName": "Laughery",
+            "isPrimary": true,
+            "tchEffort": 97
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

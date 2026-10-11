@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:04.885210+00:00",
+  "course": "soe-207",
+  "subject": "SOE",
+  "courseNumber": 207,
+  "courseName": "Field Skills for Earth Scientists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/207/1/false/true",
+      "response": {
+        "courseDescription": "<b>207 Field Skills for Earth Scientists</b>  Introduction to geologic field methods; basic geologic mapping.  ",
+        "coursePrerequisites": " SOE 101 or 102; SOE  210.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Jess",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

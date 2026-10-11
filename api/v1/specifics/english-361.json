@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:00:35.902702+00:00",
+  "course": "english-361",
+  "subject": "ENGLISH",
+  "courseNumber": 361,
+  "courseName": "Everyday Rhetorics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/361/2/false/true",
+      "response": {
+        "courseDescription": "<b>361 Public Writing</b>  Analysis and creation of written and visual discourses for public audiences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sara",
+            "lastName": "Brock",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

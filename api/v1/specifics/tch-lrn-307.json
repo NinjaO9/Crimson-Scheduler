@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:20.876740+00:00",
+  "course": "tch-lrn-307",
+  "subject": "TCH_LRN",
+  "courseNumber": 307,
+  "courseName": "Survey of Children's Literature",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/307/1/false/true",
+      "response": {
+        "courseDescription": "<b>307 Survey of Children's Literature</b>  Types, values, selection of children's literature; role of teacher in facilitating children's experiences with books.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jane",
+            "lastName": "Kelley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

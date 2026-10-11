@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:00.345356+00:00",
+  "course": "nurs-adv-510",
+  "subject": "NURS_ADV",
+  "courseNumber": 510,
+  "courseName": "Leadership in Systems and Organizations",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Leadership in Systems and Organizations</b>  Principles of effective communication to promote teamwork, collaboration, employee engagement, and relationship management through transformative and innovative change leadership.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Christina",
+            "lastName": "Brumley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

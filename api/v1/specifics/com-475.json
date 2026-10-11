@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:28:49.088795+00:00",
+  "course": "com-475",
+  "subject": "COM",
+  "courseNumber": 475,
+  "courseName": "Communication Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Com/475/1/false/true",
+      "response": {
+        "courseDescription": "<b>475 Communication Seminar</b> May be repeated for credit; cumulative maximum 9 hours. Topics with a broad array of interdisciplinary expertise including elements of communication, public policy, sociology, the humanities, and psychology.  ",
+        "coursePrerequisites": " Admitted to any major; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Collier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

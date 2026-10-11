@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:11.963926+00:00",
+  "course": "vit-enol-483",
+  "subject": "VIT_ENOL",
+  "courseNumber": 483,
+  "courseName": "Micro and Molecular Biology of Wine Laboratory",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/V%20E/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Micro and Molecular Biology of Wine Laboratory</b>  Identification of microorganisms (non-spoilage and spoilage) using microscopic, molecular, and selective media methods; evaluation of factors related to the survival of yeast and bacteria in wine; strategies for restarting stuck yeast and malolactic fermentations. Credit not granted for both VIT ENOL 483 and 583.  ",
+        "coursePrerequisites": " Concurrent enrollment in VIT ENOL 482.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Curtin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

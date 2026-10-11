@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:47.367919+00:00",
+  "course": "ces-332",
+  "subject": "CES",
+  "courseNumber": 332,
+  "courseName": "Topics in African American Literature",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CES/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 [M] Topics in African American Literature</b> May be repeated for credit; cumulative maximum 6 hours. Trends and major writers. (Crosslisted course offered as ENGLISH 322, CES 332.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Thabiti",
+            "lastName": "Lewis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

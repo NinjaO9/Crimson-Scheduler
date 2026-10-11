@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:10.124351+00:00",
+  "course": "nurs-fpc-413",
+  "subject": "NURS_FPC",
+  "courseNumber": 413,
+  "courseName": "Informatics in Healthcare",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/413/1/false/true",
+      "response": {
+        "courseDescription": "<b>413 Informatics in Healthcare</b>  Leveraging technology, tools, and data to provide more efficient patient-centered care to improve health outcomes.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Angela",
+            "lastName": "Brittain",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

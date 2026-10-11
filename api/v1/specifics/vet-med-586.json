@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:57.749484+00:00",
+  "course": "vet-med-586",
+  "subject": "VET_MED",
+  "courseNumber": 586,
+  "courseName": "Principles of Surgery",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/586/1/false/true",
+      "response": {
+        "courseDescription": "<b>586 Principles of Surgery</b>  Principles of surgery for the professional veterinary student.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Cary",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Cassidy",
+            "lastName": "Cordon",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Jamie",
+            "lastName": "Arndt",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Tasha",
+            "lastName": "Bradley",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

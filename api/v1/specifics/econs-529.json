@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:34.361069+00:00",
+  "course": "econs-529",
+  "subject": "ECONS",
+  "courseNumber": 529,
+  "courseName": "Research Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/529/1/false/true",
+      "response": {
+        "courseDescription": "<b>529 Research Methods</b>  Prepare and communicate professional-quality research with an emphasis on learning how to identify, develop, write, and present research. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Seollee",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:15.796781+00:00",
+  "course": "agtm-451",
+  "subject": "AGTM",
+  "courseNumber": 451,
+  "courseName": "Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/451/2/false/true",
+      "response": {
+        "courseDescription": "<b>451 Seminar</b> May be repeated for credit; cumulative maximum 2 hours. Readings and interviews, research, and oral presentation of professional subjects.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Holly",
+            "lastName": "Henning",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

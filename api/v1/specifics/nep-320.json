@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:18.101564+00:00",
+  "course": "nep-320",
+  "subject": "NEP",
+  "courseNumber": 320,
+  "courseName": "Strength Training and Conditioning; Theory and Application",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Strength Training and Conditioning; Theory and Application</b>  Application of scientific principles of strength and conditioning as they relate to exercise training.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, or the Master of Science in Coordinated Program in Dietetics, Nutrition, and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Catherine",
+            "lastName": "Jarrett",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

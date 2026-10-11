@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:17.785490+00:00",
+  "course": "pharmacy-513",
+  "subject": "PHARMACY",
+  "courseNumber": 513,
+  "courseName": "Pharmacy Practice and Professional Development II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/513/1/false/true",
+      "response": {
+        "courseDescription": "<b>513 Pharmacy Practice and Professional Development II</b>  Prepares student pharmacists for a focused 4-week Community Pharmacy Practice Experience.  ",
+        "coursePrerequisites": "  PHARMACY 506.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

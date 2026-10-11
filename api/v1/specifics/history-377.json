@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:22:32.747404+00:00",
+  "course": "history-377",
+  "subject": "HISTORY",
+  "courseNumber": 377,
+  "courseName": "Modern Japanese History",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/377/1/false/true",
+      "response": {
+        "courseDescription": "<b>377 Modern Japanese History</b>  Examination of political, socioeconomic and cultural changes and the international crises in modern Japan since the 19th century. (Crosslisted course offered as HISTORY 377, ASIA 377.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "William",
+            "lastName": "Brecher",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:09.354474+00:00",
+  "course": "bio-eng-140",
+  "subject": "BIO_ENG",
+  "courseNumber": 140,
+  "courseName": "Introduction to Bioengineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/140/1/false/true",
+      "response": {
+        "courseDescription": "<b>140 Introduction to Bioengineering</b>  Seminar on current topics and issues in bioengineering; career options in bioengineering.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Wheaton",
+            "lastName": "Schroeder",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

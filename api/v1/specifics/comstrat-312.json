@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:34.710685+00:00",
+  "course": "comstrat-312",
+  "subject": "COMSTRAT",
+  "courseNumber": 312,
+  "courseName": "Principles of Public Relations",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/312/1/false/true",
+      "response": {
+        "courseDescription": "<b>312 Principles of Public Relations</b>  Principles, theories, methods and objectives of public relations; public relations problems and practices.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Brett",
+            "lastName": "Atwood",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Joyce",
+            "lastName": "Thuku",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:34.870684+00:00",
+  "course": "soe-280",
+  "subject": "SOE",
+  "courseNumber": 280,
+  "courseName": "How the Earth's Climate System Works",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/SOE/280/1/false/true",
+      "response": {
+        "courseDescription": "<b>280 How the Earth's Climate System Works</b>  Understanding how the Earth's climate system works to provide a scientific foundation for making informed evaluations about management and policy.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deepti",
+            "lastName": "Singh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

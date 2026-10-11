@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:55.459642+00:00",
+  "course": "neurosci-403",
+  "subject": "NEUROSCI",
+  "courseNumber": 403,
+  "courseName": "Cellular Neurobiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/403/1/false/true",
+      "response": {
+        "courseDescription": "<b>403 [M] Cellular Neurobiology</b>  Cellular and molecular interactions occurring within the nervous system. Recommended preparation: NEUROSCI 430.  ",
+        "coursePrerequisites": " NEUROSCI 302; MBIOS 301.",
+        "instructors": [
+          {
+            "firstName": "R",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:48.856289+00:00",
+  "course": "pubhlth-330",
+  "subject": "PUBHLTH",
+  "courseNumber": 330,
+  "courseName": "Health Policy, Law, and Ethics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PUBHL/330/2/false/true",
+      "response": {
+        "courseDescription": "<b>330 Health Policy, Law, and Ethics</b>  Exploration of the legal and ethical issues impacting the administration and delivery of health care services; examination of health policy and the government's role in health and in the provision of health care.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cole",
+            "lastName": "Allick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

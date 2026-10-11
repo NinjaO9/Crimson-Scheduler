@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:36.932441+00:00",
+  "course": "nep-520",
+  "subject": "NEP",
+  "courseNumber": 520,
+  "courseName": "Research Methods in Nutrition and Exercise Physiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/520/1/false/true",
+      "response": {
+        "courseDescription": "<b>520 Research Methods in Nutrition and Exercise Physiology</b>  Current research designs and methods in nutrition and exercise physiology including behavioral and basic sciences emphasizing chronic disease prevention.  ",
+        "coursePrerequisites": " Admission to NEP Graduate Program.",
+        "instructors": [
+          {
+            "firstName": "Pablo",
+            "lastName": "Monsivais",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:28.550426+00:00",
+  "course": "tch-lrn-570",
+  "subject": "TCH_LRN",
+  "courseNumber": 570,
+  "courseName": "Theory and Research in Digital Literacies",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Theory and Research in Digital Literacies</b>  Ideas of literacy and effects of technology on literacy and policy, particularly those issues addressing diverse learners.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joy",
+            "lastName": "Egbert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

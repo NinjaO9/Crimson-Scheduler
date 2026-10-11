@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:10.036212+00:00",
+  "course": "ed-ad-600",
+  "subject": "ED_AD",
+  "courseNumber": 600,
+  "courseName": "Special Projects or Independent Study",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/Ed%20Ad/600/1/false/true",
+      "response": {
+        "courseDescription": "<b>600 Special Projects or Independent Study</b> May be repeated for credit. Independent study, special projects, and/or internships. Students must have graduate degree-seeking status and should check with their major advisor before enrolling in 600 credit, which cannot be used toward the core graded credits required for a graduate degree.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Kowalkowski",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Dunn",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

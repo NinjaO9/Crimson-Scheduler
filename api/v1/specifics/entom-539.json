@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:03.841495+00:00",
+  "course": "entom-539",
+  "subject": "ENTOM",
+  "courseNumber": 539,
+  "courseName": "Taxonomic Entomology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entom/539/1/false/true",
+      "response": {
+        "courseDescription": "<b>539 Taxonomic Entomology</b>  Survey of approximately 200 major families; collecting and preservation techniques. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Silas",
+            "lastName": "Bossert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

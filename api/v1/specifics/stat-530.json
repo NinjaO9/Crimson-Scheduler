@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:18.042778+00:00",
+  "course": "stat-530",
+  "subject": "STAT",
+  "courseNumber": 530,
+  "courseName": "Predictive Models: Foundations in Data Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Stat/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Predictive Models: Foundations in Data Science</b>  Topics in regression and classification using probabilistic and data-based methods to build statistical foundations for data science; lab component allows methods to be implemented using data-based software of student choice. Required preparation: One 3-credit 400-level STAT course. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nairanjana",
+            "lastName": "Dasgupta",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

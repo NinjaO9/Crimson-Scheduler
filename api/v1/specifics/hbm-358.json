@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:51.932549+00:00",
+  "course": "hbm-358",
+  "subject": "HBM",
+  "courseNumber": 358,
+  "courseName": "Foodservice Systems and Control",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/HBM/358/1/false/true",
+      "response": {
+        "courseDescription": "<b>358 Foodservice Systems and Control</b>  Operational control processes, control systems, and cost analysis procedures in food and beverage management.  ",
+        "coursePrerequisites": " ACCTG 230 or 298; B A 204, 205, and 206 or concurrent enrollment, or B A 212 or concurrent enrollment; admitted to a major in the College of Business or minor in Hospitality Business Management.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Beattie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

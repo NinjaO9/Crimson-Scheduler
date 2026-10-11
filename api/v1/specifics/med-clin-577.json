@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:17.457532+00:00",
+  "course": "med-clin-577",
+  "subject": "MED_CLIN",
+  "courseNumber": 577,
+  "courseName": "Topics in Surgery - Subspecialties",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDCL/577/1/false/true",
+      "response": {
+        "courseDescription": "<b>577 Topics in Surgery - Subspecialties</b> May be repeated for credit; cumulative maximum 12 hours. Extension of knowledge, skills, and professional attitudes required for the practice of medicine with a focus on disorders commonly encountered by specialists in surgery.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Drosdeck",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Anjali",
+            "lastName": "Kumar",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

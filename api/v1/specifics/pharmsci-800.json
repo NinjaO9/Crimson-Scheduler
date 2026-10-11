@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:26.572693+00:00",
+  "course": "pharmsci-800",
+  "subject": "PHARMSCI",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRDS/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  S, U grading. ",
+        "coursePrerequisites": "  Admitted to the Pharmaceutical Sciences PhD program.",
+        "instructors": [
+          {
+            "firstName": "Annie",
+            "lastName": "Du",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Boyang",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Darrell",
+            "lastName": "Jackson",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jiyue",
+            "lastName": "Zhu",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "John",
+            "lastName": "Clarke",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kolter",
+            "lastName": "Grigsby",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Mary",
+            "lastName": "Paine",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Salah",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Senthil",
+            "lastName": "Natesan",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Travis",
+            "lastName": "Denton",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Zhaokang",
+            "lastName": "Cheng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

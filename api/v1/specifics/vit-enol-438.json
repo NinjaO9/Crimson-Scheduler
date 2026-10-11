@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:11.469168+00:00",
+  "course": "vit-enol-438",
+  "subject": "VIT_ENOL",
+  "courseNumber": 438,
+  "courseName": "Wine Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20E/438/1/false/true",
+      "response": {
+        "courseDescription": "<b>438 Wine Chemistry</b>  Study of the chemistry and biochemistry of fruits; biochemistry and physiology of individual fruit compounds, aspects of processing including winemaking. Credit not granted for both VIT ENOL 438 and 538.  ",
+        "coursePrerequisites": " MBIOS 101 or 305; MBIOS 303 or CHEM 370; concurrent enrollment in BIOLOGY 420.",
+        "instructors": [
+          {
+            "firstName": "Tom",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

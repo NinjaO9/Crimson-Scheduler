@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:54.528129+00:00",
+  "course": "ath-t-565",
+  "subject": "ATH_T",
+  "courseNumber": 565,
+  "courseName": "Clinical Application of Rehabilitation in Athletic Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/565/1/false/true",
+      "response": {
+        "courseDescription": "<b>565 Clinical Application of Rehabilitation in Athletic Training</b>  Advanced application of therapeutic exercise techniques in athletic training.  ",
+        "coursePrerequisites": " Admitted to the MAT program.",
+        "instructors": [
+          {
+            "firstName": "SeokJae",
+            "lastName": "Choe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

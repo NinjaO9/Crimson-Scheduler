@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:57.952019+00:00",
+  "course": "crm-j-540",
+  "subject": "CRM_J",
+  "courseNumber": 540,
+  "courseName": "Evaluation Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Crm%20J/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Evaluation Research</b>  Interrelationship of ideology, data, policy development, and policy implementation in public policy analysis. (Crosslisted course offered as CRM J 540, POL S 541.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cortney",
+            "lastName": "Franklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

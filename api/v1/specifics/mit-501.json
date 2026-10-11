@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:10.643392+00:00",
+  "course": "mit-501",
+  "subject": "MIT",
+  "courseNumber": 501,
+  "courseName": "Learning and Development in School and Community Contexts",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MIT/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Learning and Development in School and Community Contexts</b>  Theories of learning and student development within school and community contexts.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Andy",
+            "lastName": "Cavagnetto",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

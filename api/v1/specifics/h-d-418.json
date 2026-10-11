@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:12:53.320099+00:00",
+  "course": "h-d-418",
+  "subject": "H_D",
+  "courseNumber": 418,
+  "courseName": "Health Equity",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/H%20D/418/1/false/true",
+      "response": {
+        "courseDescription": "<b>418 Health Equity</b>  Examination of relationships between early life and lifespan health through an equity lens; exploration of the roles of systems, social policies, and intervention/prevention.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Sara",
+            "lastName": "Waters",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

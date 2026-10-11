@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:02.332021+00:00",
+  "course": "shs-480",
+  "subject": "SHS",
+  "courseNumber": 480,
+  "courseName": "Senior Seminar",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Senior Seminar</b>  Synthesis of theory and evidence underlying professional principles and practices inclusive of multicultural populations in speech-language pathology and audiology.  ",
+        "coursePrerequisites": " Senior standing.",
+        "instructors": [
+          {
+            "firstName": "Aimee",
+            "lastName": "Stormo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

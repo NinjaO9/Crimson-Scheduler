@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:37.829268+00:00",
+  "course": "soe-454",
+  "subject": "SOE",
+  "courseNumber": 454,
+  "courseName": "Restoration Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/454/1/false/true",
+      "response": {
+        "courseDescription": "<b>454 [M] Restoration Ecology</b>  Ecological principles used to restore biological communities; ecological processes and species on degraded landscapes.  ",
+        "coursePrerequisites": " Senior standing.",
+        "instructors": [
+          {
+            "firstName": "Amanda",
+            "lastName": "Stahl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

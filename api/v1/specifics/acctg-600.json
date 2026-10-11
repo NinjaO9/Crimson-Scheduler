@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:09.091765+00:00",
+  "course": "acctg-600",
+  "subject": "ACCTG",
+  "courseNumber": 600,
+  "courseName": "Special Projects or Independent Study",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Acctg/600/1/false/true",
+      "response": {
+        "courseDescription": "<b>600 Special Projects or Independent Study</b> May be repeated for credit. Independent study, special projects, and/or internships. Students must have graduate degree-seeking status and should check with their major advisor before enrolling in 600 credit, which cannot be used toward the core graded credits required for a graduate degree.  S, F grading. ",
+        "coursePrerequisites": " Admission to the MBA, Master of Accounting, or Business PhD programs.",
+        "instructors": [
+          {
+            "firstName": "Bernard",
+            "lastName": "Wong-On-Wing",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

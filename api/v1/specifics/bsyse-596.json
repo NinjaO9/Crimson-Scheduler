@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:33.040175+00:00",
+  "course": "bsyse-596",
+  "subject": "BSYSE",
+  "courseNumber": 596,
+  "courseName": "Biomass Thermo-Chemical Conversion",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/BSysE/596/1/false/true",
+      "response": {
+        "courseDescription": "<b>596 Biomass Thermo-Chemical Conversion</b>  Biomass chemistry, analytical thermo-chemistry, torrefaction, pyrolysis, gasification and combustion; characterization and uses of thermochemical products. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Manuel",
+            "lastName": "Garcia-Perez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

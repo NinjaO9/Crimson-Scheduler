@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:05.005346+00:00",
+  "course": "nurs-adv-559",
+  "subject": "NURS_ADV",
+  "courseNumber": 559,
+  "courseName": "DNP Project III",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/559/1/false/true",
+      "response": {
+        "courseDescription": "<b>559 DNP Project III</b>  Implementation and evaluation of the DNP Project.  ",
+        "coursePrerequisites": " NURS ADV 558 with a grade B or better.",
+        "instructors": [
+          {
+            "firstName": "Barbara",
+            "lastName": "Bennett-Wolcott",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:08.164986+00:00",
+  "course": "fin-510",
+  "subject": "FIN",
+  "courseNumber": 510,
+  "courseName": "Statistics for Economists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Statistics for Economists</b>  Statistical theory underlying econometric techniques utilized in quantitative analysis of problems in economics and finance.  Required preparation must include college calculus and matrix algebra. Required preparation must include college calculus and matrix algebra. (Crosslisted course offered as ECONS 510, FIN 510.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ron",
+            "lastName": "Mittelhammer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:13.709202+00:00",
+  "course": "med-clin-541",
+  "subject": "MED_CLIN",
+  "courseNumber": 541,
+  "courseName": "Clinical Rotation - Diagnostic Radiology",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/541/1/false/true",
+      "response": {
+        "courseDescription": "<b>541 Clinical Rotation - Diagnostic Radiology</b> May be repeated for credit; cumulative maximum 12 hours. Medical imaging modalities and imaging-guided treatments, including patient preparation, risks, costs, and accuracies.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524; exceptions granted by the Associate Dean for Curriculum or designee.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Kaczmark",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

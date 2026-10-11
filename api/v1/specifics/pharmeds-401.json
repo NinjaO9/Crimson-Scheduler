@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:25.019714+00:00",
+  "course": "pharmeds-401",
+  "subject": "PHARMEDS",
+  "courseNumber": 401,
+  "courseName": "Genomics: Frontiers in Human Genetics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Genomics: Frontiers in Human Genetics</b>  Introduction to genetics and pharmacogenomics, with examples from human medicine and consideration of ethics.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Sayed",
+            "lastName": "Daoud",
+            "isPrimary": true,
+            "tchEffort": 53
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

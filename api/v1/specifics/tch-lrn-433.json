@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:24.513193+00:00",
+  "course": "tch-lrn-433",
+  "subject": "TCH_LRN",
+  "courseNumber": 433,
+  "courseName": "Middle Level Mathematics Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/433/1/false/true",
+      "response": {
+        "courseDescription": "<b>433 Middle Level Mathematics Methods</b>  Middle-school philosophy; understanding of effective standards and research-based methods. Recommended preparation: MATH 106 (or equivalent) and MATH\n251/252.  Credit not granted for both TCH LRN 433 and 533.  ",
+        "coursePrerequisites": "  TCH LRN 352 or MATH 330.",
+        "instructors": [
+          {
+            "firstName": "Michele",
+            "lastName": "Haberlach",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:47.895986+00:00",
+  "course": "art-332",
+  "subject": "ART",
+  "courseNumber": 332,
+  "courseName": "Introduction to Digital Art and Design - Print and Screen",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 Introduction to Digital Art and Design - Print and Screen</b>  Introduction to principles and processes of digital media through print/screen-based projects; emphasis on image/text relationships, color, composition.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Reza",
+            "lastName": "Safavi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

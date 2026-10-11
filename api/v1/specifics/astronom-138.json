@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:52.537497+00:00",
+  "course": "astronom-138",
+  "subject": "ASTRONOM",
+  "courseNumber": 138,
+  "courseName": "Planets and Planetary Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Astr/138/1/false/true",
+      "response": {
+        "courseDescription": "<b>138 Planets and Planetary Systems</b>  Formation and dynamics of planetary systems; major planets: interiors, surfaces, atmospheres; minor planets: moons, asteroids, comets; science missions; extrasolar planets.  ",
+        "coursePrerequisites": " ENGLISH 101 or HISTORY 105.",
+        "instructors": [
+          {
+            "firstName": "Guy",
+            "lastName": "Worthey",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

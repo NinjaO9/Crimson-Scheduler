@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:35.188733+00:00",
+  "course": "soe-301",
+  "subject": "SOE",
+  "courseNumber": 301,
+  "courseName": "Forest Plants and Ecosystems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Forest Plants and Ecosystems</b>  Identification and ecology of forest plants with emphasis on trees and the ecosystems in which they occur. Field trips required.  ",
+        "coursePrerequisites": "  SOE 300 or BIOLOGY 372 or concurrent enrollment in either.",
+        "instructors": [
+          {
+            "firstName": "Kelechi",
+            "lastName": "Ibeh",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

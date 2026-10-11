@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:38.528706+00:00",
+  "course": "anim-sci-180",
+  "subject": "ANIM_SCI",
+  "courseNumber": 180,
+  "courseName": "Animal Sciences Orientation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/180/2/false/true",
+      "response": {
+        "courseDescription": "<b>180 Animal Sciences Orientation</b>  Animal sciences as a profession; career opportunities, curriculum, advisement, internships, externships, animal centers, special services centers, and course requirements.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "Davenport",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

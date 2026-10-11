@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:53.461224+00:00",
+  "course": "mus-458",
+  "subject": "MUS",
+  "courseNumber": 458,
+  "courseName": "Applied Jazz Theory and Improvisation III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/458/1/false/true",
+      "response": {
+        "courseDescription": "<b>458 Applied Jazz Theory and Improvisation III</b> May be repeated for credit; cumulative maximum 4 hours. Applied study of advanced jazz theory and improvisation concepts including pentatonic scales, Coltrane changes, whole-tone scales, octatonic scales, upper structure triads, triad pairs, intervallic improvisation, and reharmonization techniques.  ",
+        "coursePrerequisites": " MUS 258 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Lee",
+            "lastName": "Wolf",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

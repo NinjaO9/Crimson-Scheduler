@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:05.324698+00:00",
+  "course": "nurs-adv-562",
+  "subject": "NURS_ADV",
+  "courseNumber": 562,
+  "courseName": "Advanced Health Assessment and Differential Diagnoses",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Advanced Health Assessment and Differential Diagnoses</b>  Applying health assessment and differential diagnostic skills to individuals, families, and populations in rural, urban, and medically under-served areas.  ",
+        "coursePrerequisites": " NURS ADV 581 or concurrent enrollment; admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Hanlon Wilde",
+            "isPrimary": true,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Yolanda",
+            "lastName": "Rodriguez",
+            "isPrimary": true,
+            "tchEffort": 80
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

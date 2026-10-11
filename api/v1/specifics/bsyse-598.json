@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:33.397743+00:00",
+  "course": "bsyse-598",
+  "subject": "BSYSE",
+  "courseNumber": 598,
+  "courseName": "Graduate Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BSysE/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Graduate Seminar</b> May be repeated for credit. Required of all graduate students in biological systems engineering.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joan",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Kang",
+            "lastName": "Huang",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

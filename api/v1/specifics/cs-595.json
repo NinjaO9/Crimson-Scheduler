@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:22.508244+00:00",
+  "course": "cs-595",
+  "subject": "CS",
+  "courseNumber": 595,
+  "courseName": "Directed Study in Computer Science",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/595/1/false/true",
+      "response": {
+        "courseDescription": "<b>595 Directed Study in Computer Science</b> May be repeated for credit; cumulative maximum 3 hours. Current topics in computer science.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Xinghui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 67
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

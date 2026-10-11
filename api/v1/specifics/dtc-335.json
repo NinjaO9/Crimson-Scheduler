@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:13.667590+00:00",
+  "course": "dtc-335",
+  "subject": "DTC",
+  "courseNumber": 335,
+  "courseName": "3D Digital Animation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/335/1/false/true",
+      "response": {
+        "courseDescription": "<b>335 3D Digital Animation</b>  3D digital animation for creative and professional productions, art skills, story-telling and team problem-solving techniques.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "C",
+            "lastName": "Lavoie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

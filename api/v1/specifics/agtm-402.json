@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:15.005898+00:00",
+  "course": "agtm-402",
+  "subject": "AGTM",
+  "courseNumber": 402,
+  "courseName": "Methods, Materials, and Machines for Teaching Ag Mechanics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AgTM/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 Methods, Materials, and Machines for Teaching Ag Mechanics</b>  Development of shop programs in project planning, demonstrations, and skills performance; safety and management of materials, tools, and machines.  ",
+        "coursePrerequisites": " AGTM 201.",
+        "instructors": [
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:32.988991+00:00",
+  "course": "spanish-365",
+  "subject": "SPANISH",
+  "courseNumber": 365,
+  "courseName": "Spanish for Translation and Interpretation Professions",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Span/365/1/false/true",
+      "response": {
+        "courseDescription": "<b>365 Spanish for Translation and Interpretation Professions</b>  Specialized Spanish language training in written translation; spoken interpretation techniques to facilitate high quality cross-cultural communication.  ",
+        "coursePrerequisites": " SPANISH 306, 307, or 308 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Hubert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

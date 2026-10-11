@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:43.727305+00:00",
+  "course": "german-321",
+  "subject": "GERMAN",
+  "courseNumber": 321,
+  "courseName": "Germanic Empires, Peoples, Places",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Ger/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Germanic Empires, Peoples, Places</b> May be repeated for credit; cumulative maximum 6 hours. Introduction to German and/or Austrian culture. Taught on-site as part of a faculty-led study abroad summer program to Germany and/or Austria.  ",
+        "coursePrerequisites": " GERMAN 204 with a C or better or equivalent proficiency.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Lisa",
+            "lastName": "Hoeller",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

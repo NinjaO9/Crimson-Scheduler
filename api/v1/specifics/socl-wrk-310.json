@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:16:20.237474+00:00",
+  "course": "socl-wrk-310",
+  "subject": "SOCL_WRK",
+  "courseNumber": 310,
+  "courseName": "Human Behavior in the Social Environment",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/SCLWR/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Human Behavior in the Social Environment</b>  Understanding of human behavior and human development using a bio/psycho/social/spiritual perspective with individuals, families, groups, and communities.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Naishuo",
+            "lastName": "Sun",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:46.990018+00:00",
+  "course": "me-501",
+  "subject": "ME",
+  "courseNumber": 501,
+  "courseName": "Continuum Mechanics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Continuum Mechanics</b>  Unified presentation of principles common to all branches of solid and fluid mechanics; viscous fluids, elasticity, viscoelasticity, and plasticity.  (Crosslisted course offered as ME 501, MATH 570.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sinisa",
+            "lastName": "Mesarovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

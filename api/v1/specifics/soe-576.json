@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:11.975356+00:00",
+  "course": "soe-576",
+  "subject": "SOE",
+  "courseNumber": 576,
+  "courseName": "Biology and Ecology of Pacific Salmon",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Biology and Ecology of Pacific Salmon</b>  The life histories, habitat requirements, and current issues facing Pacific salmon. Credit not granted for both SOE 476 and SOE 576.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jenifer",
+            "lastName": "McIntyre",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

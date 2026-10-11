@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:50.709769+00:00",
+  "course": "kines-313",
+  "subject": "KINES",
+  "courseNumber": 313,
+  "courseName": "Psychological Aspects of Physical Movement",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/313/2/false/true",
+      "response": {
+        "courseDescription": "<b>313 Psychological Aspects of Physical Movement</b>  Social and psychological factors related to participation and performance in physical activity (e.g., sport, exercise, recreation, rehabilitation).  ",
+        "coursePrerequisites": " PSYCH 105 with a C or better, or SOC 101 with a C or better; admitted to the major in Kinesiology or Sports Medicine.",
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Ullrich-French",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

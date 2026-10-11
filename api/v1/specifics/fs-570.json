@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:41.682069+00:00",
+  "course": "fs-570",
+  "subject": "FS",
+  "courseNumber": 570,
+  "courseName": "Advanced Food Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Advanced Food Technology</b>  Physical principles of food preservation and recent advances in food technology. Recommended preparation:  FS 416; FS 432; FS 460. Credit not granted for both FS 470 and FS 570. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Youngsoo",
+            "lastName": "Lee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

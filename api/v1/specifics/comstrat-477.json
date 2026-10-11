@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:50.827941+00:00",
+  "course": "comstrat-477",
+  "subject": "COMSTRAT",
+  "courseNumber": 477,
+  "courseName": "Message Design for Communication Campaigns",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/477/1/false/true",
+      "response": {
+        "courseDescription": "<b>477 Message Design for Communication Campaigns</b>  Theory-based design, market testing, and evaluation of messages for positive social outcomes.  ",
+        "coursePrerequisites": " COMSTRAT 310; admitted to a major in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Nicole",
+            "lastName": "O'Donnell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

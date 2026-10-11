@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:56.591791+00:00",
+  "course": "b-a-212",
+  "subject": "B_A",
+  "courseNumber": 212,
+  "courseName": "Spreadsheets, Data Visualization, and Decision Analysis",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/B%20A/212/1/false/true",
+      "response": {
+        "courseDescription": "<b>212 Spreadsheets, Data Visualization, and Decision Analysis</b>  Introduction to basics for using spreadsheets for data analysis and to support decision-making; principles and techniques of representing data visually in graphs, charts, and diagrams; communicating data-based results effectively; skeptical interpretation of visually represented findings when making decisions; techniques for making informed and logical decisions in a business context; introduction to spreadsheets. Credit not granted for B A 212 if credit is already earned in each of B A 204, 205, and 206.  ",
+        "coursePrerequisites": "  Completed 27 semester credits. Enrollment not allowed if credit already earned in each of B A 204, 205, and 206.",
+        "instructors": [
+          {
+            "firstName": "Kraig",
+            "lastName": "Jones",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

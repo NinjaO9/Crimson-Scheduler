@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:17:36.888325+00:00",
+  "course": "history-111",
+  "subject": "HISTORY",
+  "courseNumber": 111,
+  "courseName": "American History Since 1877",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 American History Since 1877</b>  Social, economic, cultural history of United States, 1877 to present.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Gracjan",
+            "lastName": "Kraszewski",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

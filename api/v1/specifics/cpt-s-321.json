@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:21.754435+00:00",
+  "course": "cpt-s-321",
+  "subject": "CPT_S",
+  "courseNumber": 321,
+  "courseName": "Object-Oriented Software Principles",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Object-Oriented Software Principles</b>  Object-oriented programming for flexibility, efficiency, and maintainability; logic and UI decoupling; complexity analysis, data structures, and algorithms for industry-quality software.  ",
+        "coursePrerequisites": " CPT S 223 or 233, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Venera",
+            "lastName": "Arnaoudova",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

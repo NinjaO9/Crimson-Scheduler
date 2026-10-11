@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:35.761695+00:00",
+  "course": "ce-322",
+  "subject": "CE",
+  "courseNumber": 322,
+  "courseName": "Transportation Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/322/1/false/true",
+      "response": {
+        "courseDescription": "<b>322 Transportation Engineering</b>  Road-vehicle interaction, geometric design, traffic flow and queuing theory, highway capacity and level of service, and introduction to pavement design and materials. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " STAT 360 or concurrent enrollment or STAT 370 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Jia",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

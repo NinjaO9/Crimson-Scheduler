@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:02:03.889343+00:00",
+  "course": "english-457",
+  "subject": "ENGLISH",
+  "courseNumber": 457,
+  "courseName": "Sociolinguistics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/457/1/false/true",
+      "response": {
+        "courseDescription": "<b>457 Sociolinguistics</b>  The study of language in social context, its relationship to social structures, and how it varies across race, gender, age, socioeconomic status, and geographic region.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nancy D",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:53.616232+00:00",
+  "course": "mbios-503",
+  "subject": "MBIOS",
+  "courseNumber": 503,
+  "courseName": "Advanced Molecular Biology I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Advanced Molecular Biology I</b>  DNA replication, gene expression and regulation, including chromatin structure, DNA repair, recombination, genomic editing, and epigenetic regulation.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Chengtao",
+            "lastName": "Her",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

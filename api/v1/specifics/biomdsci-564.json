@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:31.749635+00:00",
+  "course": "biomdsci-564",
+  "subject": "BIOMDSCI",
+  "courseNumber": 564,
+  "courseName": "Topics in Biomedical Experimentation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/BIOMS/564/1/false/true",
+      "response": {
+        "courseDescription": "<b>564 Topics in Biomedical Experimentation</b> May be repeated for credit; cumulative maximum 6 hours. Examination of the philosophy of experimental design and practical application and analysis of various experimental approaches in biomedical research. Recommended preparation: graduate standing in a WSU biomedical-based program, and an advanced undergraduate or graduate statistics course.  (Crosslisted course offered as BIOMDSCI 564, PHIL 564.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "William",
+            "lastName": "Kabasenche",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

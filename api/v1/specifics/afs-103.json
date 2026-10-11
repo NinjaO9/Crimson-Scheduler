@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:11.702953+00:00",
+  "course": "afs-103",
+  "subject": "AFS",
+  "courseNumber": 103,
+  "courseName": "Field Experience in Agricultural and Food Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AFS/103/1/false/true",
+      "response": {
+        "courseDescription": "<b>103 Field Experience in Agricultural and Food Systems</b> May be repeated for credit; cumulative maximum 6 hours. Professional development with hands on experience through interactive class sessions and field trips with faculty and external partners. Two field trips required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Judy",
+            "lastName": "Hopkins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

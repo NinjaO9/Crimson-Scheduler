@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:25.015734+00:00",
+  "course": "tch-lrn-463",
+  "subject": "TCH_LRN",
+  "courseNumber": 463,
+  "courseName": "Teaching Concepts of Probability and Statistics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/T%20%26%20L/463/1/false/true",
+      "response": {
+        "courseDescription": "<b>463 Teaching Concepts of Probability and Statistics</b>  Development of mathematical concepts and related teaching strategies for probability and statistics, with an emphasis on middle school topics. Recommended preparation: MATH 106 (or equivalent) and MATH 251/252.  Credit not granted for both TCH LRN 463 and 563.  ",
+        "coursePrerequisites": " MATH 252.",
+        "instructors": [
+          {
+            "firstName": "Raisa",
+            "lastName": "Ebner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

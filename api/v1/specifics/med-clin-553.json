@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:15.594069+00:00",
+  "course": "med-clin-553",
+  "subject": "MED_CLIN",
+  "courseNumber": 553,
+  "courseName": "Pediatrics - Topics in Pediatrics Subspecialties",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/553/1/false/true",
+      "response": {
+        "courseDescription": "<b>553 Pediatrics - Topics in Pediatrics Subspecialties</b> May be repeated for credit; cumulative maximum 12 hours. Identifying and caring for pediatric patients in need of sub-specialty care, with emphasis on medications and interventions.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Anderson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

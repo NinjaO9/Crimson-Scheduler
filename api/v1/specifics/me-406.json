@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:28.364471+00:00",
+  "course": "me-406",
+  "subject": "ME",
+  "courseNumber": 406,
+  "courseName": "Experimental Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/406/1/false/true",
+      "response": {
+        "courseDescription": "<b>406 [M] Experimental Design</b>  Designing, conducting, and reporting of experimental investigations involving mechanical equipment.  ",
+        "coursePrerequisites": " ME 220; ME 304; ME 306; ME 348; STAT 370; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Gordon",
+            "lastName": "Taub",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

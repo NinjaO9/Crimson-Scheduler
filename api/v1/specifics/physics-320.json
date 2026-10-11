@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:14.904869+00:00",
+  "course": "physics-320",
+  "subject": "PHYSICS",
+  "courseNumber": 320,
+  "courseName": "Mechanics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Mechanics</b>  Particle motion in one-, two-, and three-dimensions; motions of systems of particles; rigid body motion; Lagrange's equations.  ",
+        "coursePrerequisites": " MATH 315 or concurrent enrollment; MATH 220 or concurrent enrollment or MATH 230 or concurrent enrollment; 4 credits of PHYSICS 202, or PHYSICS 202 and 212, or PHYSICS 206.",
+        "instructors": [
+          {
+            "firstName": "Yi",
+            "lastName": "Gu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

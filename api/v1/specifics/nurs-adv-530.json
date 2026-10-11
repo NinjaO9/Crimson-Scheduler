@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:02.871092+00:00",
+  "course": "nurs-adv-530",
+  "subject": "NURS_ADV",
+  "courseNumber": 530,
+  "courseName": "Theory of Psychopharmacology and Safe Prescribing Practices",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Theory of Psychopharmacology and Safe Prescribing Practices</b>  Psychopharmacology across the lifespan for clinical practice including pharmacokinetics, pharmacodynamics, principles of prescribing, client education, and outcome monitoring.  ",
+        "coursePrerequisites": " NURS ADV 563; NURS ADV 581.",
+        "instructors": [
+          {
+            "firstName": "Teddi",
+            "lastName": "Nee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

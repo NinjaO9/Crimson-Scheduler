@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:05.258059+00:00",
+  "course": "kines-138",
+  "subject": "KINES",
+  "courseNumber": 138,
+  "courseName": "Introduction to Kinesiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/138/1/false/true",
+      "response": {
+        "courseDescription": "<b>138 Introduction to Kinesiology</b>  Overview of various disciplines of kinesiology, associated degrees, and careers; provides strategies for academic and professional development, including advising procedures.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amber",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

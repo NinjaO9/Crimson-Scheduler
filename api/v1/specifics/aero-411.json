@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:10.888707+00:00",
+  "course": "aero-411",
+  "subject": "AERO",
+  "courseNumber": 411,
+  "courseName": "National Security, Leadership, and Commissioning Preparation I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Aero/411/1/false/true",
+      "response": {
+        "courseDescription": "<b>411 National Security, Leadership, and Commissioning Preparation I</b>  National security, regional studies, ethics, and doctrine; discusses military profession, justice, communications, and active-duty preparation.  ",
+        "coursePrerequisites": " Concurrent enrollment in AERO 413 required; AERO 311.",
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Brunke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

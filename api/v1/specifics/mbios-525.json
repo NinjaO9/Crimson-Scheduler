@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:54.134288+00:00",
+  "course": "mbios-525",
+  "subject": "MBIOS",
+  "courseNumber": 525,
+  "courseName": "Advanced Topics in Genetics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/525/1/false/true",
+      "response": {
+        "courseDescription": "<b>525 Advanced Topics in Genetics</b> May be repeated for credit; cumulative maximum 4 hours. Recent genetics research in selected areas. Recommended preparation: MBIOS 503 or an equivalent course providing a basic understanding of molecular biology or molecular genetics.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jon",
+            "lastName": "Oatley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

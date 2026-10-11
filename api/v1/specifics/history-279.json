@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:18:21.962452+00:00",
+  "course": "history-279",
+  "subject": "HISTORY",
+  "courseNumber": 279,
+  "courseName": "Introduction to Social Studies Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/279/1/false/true",
+      "response": {
+        "courseDescription": "<b>279 Introduction to Social Studies Methods</b>  Introduction to the content, pedagogy, and state requirements of teaching history and social studies at the secondary level.  ",
+        "coursePrerequisites": " Admitted to the major in History or Social Studies.",
+        "instructors": [
+          {
+            "firstName": "Heather",
+            "lastName": "McNamee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

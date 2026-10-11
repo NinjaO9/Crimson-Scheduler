@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:05.559160+00:00",
+  "course": "fin-421",
+  "subject": "FIN",
+  "courseNumber": 421,
+  "courseName": "Financial Institutions and Intermediation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 Financial Institutions and Intermediation</b>  Characteristics of financial markets and institutions; analysis of fixed-income securities; and introduction to financial risk management.  ",
+        "coursePrerequisites": "  FIN 325 with a C or better; admitted to a major or minor in the College of Business, the major in Data Analytics, or the major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Flora",
+            "lastName": "Ma",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

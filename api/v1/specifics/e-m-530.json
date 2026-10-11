@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:47:33.690950+00:00",
+  "course": "e-m-530",
+  "subject": "E_M",
+  "courseNumber": 530,
+  "courseName": "Applications of Constraints Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Applications of Constraints Management</b>  Understanding and applying proved solutions developed by the theory of constraints in areas of production, project management, finance, and distribution. Credit not granted for both E M 430 and E M 530.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Aureo",
+            "lastName": "Zanotta Villagra",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

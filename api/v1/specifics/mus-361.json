@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:16.883935+00:00",
+  "course": "mus-361",
+  "subject": "MUS",
+  "courseNumber": 361,
+  "courseName": "Music and Social Justice",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/361/1/false/true",
+      "response": {
+        "courseDescription": "<b>361 Music and Social Justice</b>  A critical investigation of music's role in social justice issues and the influence of social justice issues on the education and creative output of musicians.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Darryl",
+            "lastName": "Singleton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

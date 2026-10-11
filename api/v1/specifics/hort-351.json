@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:04.609029+00:00",
+  "course": "hort-351",
+  "subject": "HORT",
+  "courseNumber": 351,
+  "courseName": "Plant Propagation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hort/351/1/false/true",
+      "response": {
+        "courseDescription": "<b>351 Plant Propagation</b>  Physiological and biochemical basis for sexual and asexual propagation of plants by seed, cutting, layering, grafting, budding, specialized plant structures and micropropagation. Field trip required.  ",
+        "coursePrerequisites": " BIOLOGY 106, BIOLOGY 107, BIOLOGY 120, or HORT 202.",
+        "instructors": [
+          {
+            "firstName": "Alexander",
+            "lastName": "Cornwall",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

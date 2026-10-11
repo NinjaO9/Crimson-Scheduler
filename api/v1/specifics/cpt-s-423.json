@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:23.682583+00:00",
+  "course": "cpt-s-423",
+  "subject": "CPT_S",
+  "courseNumber": 423,
+  "courseName": "Software Design Project II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/423/1/false/true",
+      "response": {
+        "courseDescription": "<b>423 [M] Software Design Project II</b>  Laboratory/group design project for large-scale software development, requirements analysis, estimation, design, verification techniques.  ",
+        "coursePrerequisites": " CPT S 421 with a C or better; admitted to a major in EECS.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

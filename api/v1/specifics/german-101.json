@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:42.366073+00:00",
+  "course": "german-101",
+  "subject": "GERMAN",
+  "courseNumber": 101,
+  "courseName": "First Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ger/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 First Semester</b>  Fundamentals of speaking, listening, reading, and writing. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

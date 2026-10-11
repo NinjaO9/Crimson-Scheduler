@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:09.718126+00:00",
+  "course": "mgmt-485",
+  "subject": "MGMT",
+  "courseNumber": 485,
+  "courseName": "Negotiation Skills",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/MGMT/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 [M] Negotiation Skills</b>  Bargaining skills across a broad range of business settings; experiential work.  ",
+        "coursePrerequisites": " Admitted to a major or minor in the College of Business, or major in Economic Sciences, or option of Personnel Psychology & Human Resource Management, or to the Professional Sales Certificate Program; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Gladstone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

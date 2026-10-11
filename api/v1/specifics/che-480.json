@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:51.954867+00:00",
+  "course": "che-480",
+  "subject": "CHE",
+  "courseNumber": 480,
+  "courseName": "Pulp and Paper Manufacturing Process Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Pulp and Paper Manufacturing Process Engineering</b>  Study of pulping and papermaking process chemistry and reaction engineering principles.  ",
+        "coursePrerequisites": " CHE 110 or 201, with a C or better; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Xiao",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

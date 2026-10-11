@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:16.649839+00:00",
+  "course": "engr-102",
+  "subject": "ENGR",
+  "courseNumber": 102,
+  "courseName": "Engineering Fundamentals II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engr/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Engineering Fundamentals II</b>  Introduction to engineering programs (part 2) discussing resources, opportunities, and knowledge and skills necessary to succeed in engineering.  S, F grading. ",
+        "coursePrerequisites": " ENGR 101.",
+        "instructors": [
+          {
+            "firstName": "Kimberlee",
+            "lastName": "Hughes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

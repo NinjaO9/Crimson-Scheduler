@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:06.706443+00:00",
+  "course": "fin-447",
+  "subject": "FIN",
+  "courseNumber": 447,
+  "courseName": "Real Estate Finance and Investments",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fin/447/1/false/true",
+      "response": {
+        "courseDescription": "<b>447 Real Estate Finance and Investments</b>  Instruments and institutions of real estate and financing: decision-making tools, mortgage financing analysis, mortgage securities and real estate portfolios.  ",
+        "coursePrerequisites": " FIN 325 with a C or better; admitted to a major or minor in the College of Business, or the major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Jayson",
+            "lastName": "Beatty",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

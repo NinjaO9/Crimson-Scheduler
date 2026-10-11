@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:02.888456+00:00",
+  "course": "shs-501",
+  "subject": "SHS",
+  "courseNumber": 501,
+  "courseName": "Research Methods",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Research Methods</b>  Philosophy of research, types of literature; experimental and descriptive designs; application of statistics; analysis of statistical results.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Andre",
+            "lastName": "Miguel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

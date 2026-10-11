@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:35.721815+00:00",
+  "course": "fin-325",
+  "subject": "FIN",
+  "courseNumber": 325,
+  "courseName": "Introduction to Financial Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Fin/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Introduction to Financial Management</b>  Time value of money, financial securities and markets, financial decision making, valuation techniques, and cost of capital.  ",
+        "coursePrerequisites": " ACCTG 230 or 298; B A 204, 205, and 206, or B A 212, or DATA 115, or concurrent enrollment; ECONS 101 or 198; MGTOP 215, STAT 212, STAT 360, or STAT 370; MATH 140, 171, 172, 182, 202, or 220; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Kraig",
+            "lastName": "Jones",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

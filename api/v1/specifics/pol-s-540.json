@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:06.562600+00:00",
+  "course": "pol-s-540",
+  "subject": "POL_S",
+  "courseNumber": 540,
+  "courseName": "Proseminar in Public Administration",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Pol%20S/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Proseminar in Public Administration</b>  Proseminar over viewing basic theories of administrative organization, relationships, and behavior.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cheryl",
+            "lastName": "Ellenwood",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

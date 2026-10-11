@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:46:02.988949+00:00",
+  "course": "mus-563",
+  "subject": "MUS",
+  "courseNumber": 563,
+  "courseName": "Seminar in Literature of the Classical/Romantic Eras",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/563/1/false/true",
+      "response": {
+        "courseDescription": "<b>563 Seminar in Literature of Nineteenth Century Music</b>  Examination of art music from the nineteenth century in its cultural, social, and musical contexts.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sophia",
+            "lastName": "Tegart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:08.609866+00:00",
+  "course": "french-102",
+  "subject": "FRENCH",
+  "courseNumber": 102,
+  "courseName": "Second Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fren/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Second Semester</b>  Continued development of basic skills in speaking, listening, reading, and writing. Not open to native speakers except with permission. Credit not granted for FRENCH 101/102, and 104.  ",
+        "coursePrerequisites": " FRENCH 101 with a grade of C or better, or WSU language placement exam score of 2 or higher.",
+        "instructors": [
+          {
+            "firstName": "Sabine",
+            "lastName": "Davis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

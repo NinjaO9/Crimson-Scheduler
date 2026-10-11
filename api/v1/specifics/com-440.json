@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:28:19.577032+00:00",
+  "course": "com-440",
+  "subject": "COM",
+  "courseNumber": 440,
+  "courseName": "Media Ethics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 Media Ethics</b>  Foundations and frameworks of media ethics; case studies in assessing media performance.  ",
+        "coursePrerequisites": " COM 300 with a C or better; admitted to a major or minor in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Tracy",
+            "lastName": "Simmons",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sultana Ismet",
+            "lastName": "Jerin",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

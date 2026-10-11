@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:36.707815+00:00",
+  "course": "art-570",
+  "subject": "ART",
+  "courseNumber": 570,
+  "courseName": "Graduate Printmaking",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Graduate Printmaking</b> May be repeated for credit; cumulative maximum 9 hours.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Haas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

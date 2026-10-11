@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:05.421495+00:00",
+  "course": "mech-301",
+  "subject": "MECH",
+  "courseNumber": 301,
+  "courseName": "Thermodynamics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Thermodynamics</b>  Thermodynamic properties of matter, ideal and real gases, work and heat, first and second laws and their application to engineering systems.  ",
+        "coursePrerequisites": " 4 credits of PHYSICS 201, or PHYSICS 201 and 211.",
+        "instructors": [
+          {
+            "firstName": "Hua",
+            "lastName": "Tan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

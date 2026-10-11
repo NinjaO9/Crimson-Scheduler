@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:25.031583+00:00",
+  "course": "chem-106",
+  "subject": "CHEM",
+  "courseNumber": 106,
+  "courseName": "Principles of Chemistry II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/106/1/false/true",
+      "response": {
+        "courseDescription": "<b>106 Principles of Chemistry II</b>  Intermolecular forces, solutions, kinetics, equilibrium, acids and bases, thermodynamics, electrochemistry, radiochemistry. Credit not granted for both CHEM 106 and 116.  ",
+        "coursePrerequisites": " CHEM 105 with a grade of C or better; one of MATH 106, 107, or 108 with a grade of C or better, or MATH 108 or concurrent enrollment, or a minimum ALEKS math placement score of 80%.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Buckley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

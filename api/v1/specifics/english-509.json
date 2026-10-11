@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:13.475538+00:00",
+  "course": "english-509",
+  "subject": "ENGLISH",
+  "courseNumber": 509,
+  "courseName": "Seminar in the History of Global Rhetorics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Seminar in the History of Global Rhetorics</b>  Study of Global rhetorical histories and theories and their influences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Patricia",
+            "lastName": "Wilde",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

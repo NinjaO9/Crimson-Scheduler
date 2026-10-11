@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:03.423944+00:00",
+  "course": "hort-150",
+  "subject": "HORT",
+  "courseNumber": 150,
+  "courseName": "Science and Art of Growing Plants",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hort/150/1/false/true",
+      "response": {
+        "courseDescription": "<b>150 Science and Art of Growing Plants</b>  Understand and apply the science behind how plants grow and the art of growing plants for personal and commercial use.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Little",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

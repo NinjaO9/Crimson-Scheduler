@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:10.533811+00:00",
+  "course": "aero-312",
+  "subject": "AERO",
+  "courseNumber": 312,
+  "courseName": "Leading People and Effective Communication II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Aero/312/1/false/true",
+      "response": {
+        "courseDescription": "<b>312 Leading People and Effective Communication II</b>  Applied leadership through supervision, mentorship, and case studies; expands on military knowledge, ethics, and communications.  ",
+        "coursePrerequisites": " Concurrent enrollment in AERO 313 required; AERO 202.",
+        "instructors": [
+          {
+            "firstName": "Shelli",
+            "lastName": "Schimke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

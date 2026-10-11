@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:22.646036+00:00",
+  "course": "cpt-s-360",
+  "subject": "CPT_S",
+  "courseNumber": 360,
+  "courseName": "Systems Programming C/C++",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/360/1/false/true",
+      "response": {
+        "courseDescription": "<b>360 Systems Programming C/C++</b>  Implementation of systems programs, concepts of computer operating systems; laboratory experience in using operating system facilities taught in C/C++ programming language.  ",
+        "coursePrerequisites": " CPT S 223 with a C or better; CPT S 260 with a C or better or E E 234 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:08.400538+00:00",
+  "course": "fin-511",
+  "subject": "FIN",
+  "courseNumber": 511,
+  "courseName": "Econometrics I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fin/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Econometrics I</b>  Single equation linear and nonlinear models; estimation, inference, finite and asymptotic properties, effects and mitigation of violations of classical assumptions. (Crosslisted course offered as ECONS 511, FIN 511.)  ",
+        "coursePrerequisites": " ECONS 510.",
+        "instructors": [
+          {
+            "firstName": "Thomas",
+            "lastName": "Marsh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

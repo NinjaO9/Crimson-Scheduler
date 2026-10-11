@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:43.384098+00:00",
+  "course": "german-308",
+  "subject": "GERMAN",
+  "courseNumber": 308,
+  "courseName": "Intermediate Grammar and Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ger/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 [M] Intermediate Grammar and Writing</b>  Writing practice in the language and active review of grammar. Not open to native speakers except with permission. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " GERMAN 204 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

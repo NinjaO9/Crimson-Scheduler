@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:26.726671+00:00",
+  "course": "chem-331",
+  "subject": "CHEM",
+  "courseNumber": 331,
+  "courseName": "Physical Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/331/1/false/true",
+      "response": {
+        "courseDescription": "<b>331 Physical Chemistry</b>  Concepts of physical chemistry; basic thermodynamics; free energy and entropy; phase equilibria; properties of solutions of electrolytes and non-electrolytes.  ",
+        "coursePrerequisites": " MATH 273 or 283 with a C or better; 4 credits of PHYSICS 202 with a C or better, or PHYSICS 202 and 212, each with a C or better, or PHYSICS 206 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Gary",
+            "lastName": "Douberly",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Kirk",
+            "lastName": "Peterson",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

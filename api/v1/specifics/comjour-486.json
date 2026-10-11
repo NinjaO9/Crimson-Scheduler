@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:18.915206+00:00",
+  "course": "comjour-486",
+  "subject": "COMJOUR",
+  "courseNumber": 486,
+  "courseName": "Murrow News Service",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ComJo/486/1/false/true",
+      "response": {
+        "courseDescription": "<b>486 Murrow News Service</b> May be repeated for credit; cumulative maximum 9 hours. Advanced journalism and media production to produce investigative, watchdog news reports for media outlets and public.  ",
+        "coursePrerequisites": "  COMJOUR 335, 355, or 425; admitted to a major in the College of Communication; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Wendy",
+            "lastName": "Raney",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

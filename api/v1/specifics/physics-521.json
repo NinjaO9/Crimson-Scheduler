@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:18.156571+00:00",
+  "course": "physics-521",
+  "subject": "PHYSICS",
+  "courseNumber": 521,
+  "courseName": "Classical Mechanics I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Classical Mechanics I</b>  Laws of motion as developed by Newton, d'Alembert, Lagrange, and Hamilton; dynamics of particles and rigid bodies. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Philip",
+            "lastName": "Marston",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

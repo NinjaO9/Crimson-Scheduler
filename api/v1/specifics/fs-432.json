@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:26.168385+00:00",
+  "course": "fs-432",
+  "subject": "FS",
+  "courseNumber": 432,
+  "courseName": "Food Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 Food Engineering</b>  Food engineering for improving the efficiency of food processing operations and quality processed food; heat transfer, stream, air-vapor mixtures, refrigeration and fluid flow. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 140 or 171; 4 credits of PHYSICS 101, or PHYSICS 101 and 111.",
+        "instructors": [
+          {
+            "firstName": "Fidele",
+            "lastName": "Abedi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

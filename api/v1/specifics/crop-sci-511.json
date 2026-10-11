@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:15.839918+00:00",
+  "course": "crop-sci-511",
+  "subject": "CROP_SCI",
+  "courseNumber": 511,
+  "courseName": "Science Writing Workshop",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/CropS/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Science Writing Workshop</b>  Instruction, tools, and peer review support to write graduate research proposal or journal article.  (Crosslisted course offered as CROP SCI 511, ENTOM 511, SOIL SCI 511.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Crowder",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Kimberly",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

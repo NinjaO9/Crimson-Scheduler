@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:28.028841+00:00",
+  "course": "me-401",
+  "subject": "ME",
+  "courseNumber": 401,
+  "courseName": "Mechatronics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Mechatronics</b>  Integration of mechanical and microprocessor-based systems; control theory implemented with data acquisition systems; sensors; actuators, signal conditioning, programmable logic controllers.  ",
+        "coursePrerequisites": " E E 262; ME 348; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Yueqi",
+            "lastName": "Hu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

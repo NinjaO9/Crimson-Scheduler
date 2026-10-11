@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:50.259471+00:00",
+  "course": "che-334",
+  "subject": "CHE",
+  "courseNumber": 334,
+  "courseName": "Chemical Engineering Separations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/334/1/false/true",
+      "response": {
+        "courseDescription": "<b>334 Chemical Engineering Separations</b>  Design and evaluation of equipment used in continuous contacting.  ",
+        "coursePrerequisites": " CHE 302 with a C or better or concurrent enrollment; CHE 211 and 310  with a C or better; CHEM 345 with a C or better; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Jean-Sabin",
+            "lastName": "McEwen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

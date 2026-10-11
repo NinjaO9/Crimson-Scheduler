@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:03.937590+00:00",
+  "course": "ece-321",
+  "subject": "ECE",
+  "courseNumber": 321,
+  "courseName": "Circuit Modeling and Analysis II",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Circuit Modeling and Analysis II</b>  Magnetically coupled circuits, frequency response, Laplace transforms, Fourier analysis, and two port networks.  ",
+        "coursePrerequisites": " ECE 260; MATH 315.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Akter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

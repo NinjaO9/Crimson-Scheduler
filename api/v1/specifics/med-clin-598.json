@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:19.464197+00:00",
+  "course": "med-clin-598",
+  "subject": "MED_CLIN",
+  "courseNumber": 598,
+  "courseName": "Science - Research Experience",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Science - Research Experience</b> May be repeated for credit; cumulative maximum 12 hours. In-depth research experience including data-gathering, statistical analyses, and writing research results in preparation for publication.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Dawn",
+            "lastName": "DeWitt",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

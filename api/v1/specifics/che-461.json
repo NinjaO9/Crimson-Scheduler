@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:51.485222+00:00",
+  "course": "che-461",
+  "subject": "CHE",
+  "courseNumber": 461,
+  "courseName": "Introduction to Nuclear Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/461/1/false/true",
+      "response": {
+        "courseDescription": "<b>461 Introduction to Nuclear Engineering</b>  Applied nuclear physics; application to the nuclear fuel cycle and nuclear reactor core design; nuclear reactor systems and safety. (Crosslisted course offered as ME 461, CHE 461.)  ",
+        "coursePrerequisites": " MATH 315; admitted to a major in engineering or physical sciences; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Douglas",
+            "lastName": "Reid",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Richard",
+            "lastName": "Stout",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

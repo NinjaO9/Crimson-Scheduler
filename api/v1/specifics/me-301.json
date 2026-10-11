@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:26.472414+00:00",
+  "course": "me-301",
+  "subject": "ME",
+  "courseNumber": 301,
+  "courseName": "Fundamentals of Thermodynamics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Fundamentals of Thermodynamics</b>  Thermodynamic properties of matter, ideal and real gases, work and heat, first and second laws and their application to engineering systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " PHYSICS 205, or PHYSICS 201 and PHYSICS 211.",
+        "instructors": [
+          {
+            "firstName": "Gordon",
+            "lastName": "Taub",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

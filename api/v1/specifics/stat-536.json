@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:18.201427+00:00",
+  "course": "stat-536",
+  "subject": "STAT",
+  "courseNumber": 536,
+  "courseName": "Statistical Computing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Stat/536/1/false/true",
+      "response": {
+        "courseDescription": "<b>536 Statistical Computing</b>  Generation of random variables, Monte Carlo simulation, bootstrap and jackknife methods, EM algorithm, Markov chain Monte Carlo methods. Recommended preparation: STAT 530, 548, 556, or equivalent. (Crosslisted course offered as STAT 536, MATH 536.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Soumojit",
+            "lastName": "Das",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

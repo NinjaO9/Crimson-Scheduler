@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:17.841709+00:00",
+  "course": "art-311",
+  "subject": "ART",
+  "courseNumber": 311,
+  "courseName": "Seminar in Visual Literacy",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ART/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Seminar in Visual Literacy</b>  Discussion of content, impact, purpose, audience, and ownership of visual messages, including topics such as synesthesia, AI images, reality TV, deep fakes, mockumentaries, phenomenology, semiotics, hallucinations, optical illusions, maps, advertising, infographics, Op Art, iconography, iconoclasms, cultural bias and blind spots, political cartoons, police body cams, and musical notation.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nanette",
+            "lastName": "Thrush",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

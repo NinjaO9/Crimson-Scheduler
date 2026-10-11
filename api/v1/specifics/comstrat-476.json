@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:50.662152+00:00",
+  "course": "comstrat-476",
+  "subject": "COMSTRAT",
+  "courseNumber": 476,
+  "courseName": "Consumer Insights and Branding",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/476/1/false/true",
+      "response": {
+        "courseDescription": "<b>476 Consumer Insights and Branding</b>  Advertising account planning based on a thorough understanding of target audiences and consumer research; linking client objectives, account management, creative and media planning.  ",
+        "coursePrerequisites": " COM 309; admitted to a major in the College of Communication.",
+        "instructors": [
+          {
+            "firstName": "Michelle",
+            "lastName": "Kistler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

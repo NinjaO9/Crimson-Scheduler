@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:03.778991+00:00",
+  "course": "vet-med-653",
+  "subject": "VET_MED",
+  "courseNumber": 653,
+  "courseName": "Imaging Services Elective",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/653/1/false/true",
+      "response": {
+        "courseDescription": "<b>653 Imaging Services Elective</b> May be repeated for credit; cumulative maximum 8 hours. Elective clinical and laboratory experience with the Radiology Section in the Small Animal Clinic, Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Ashley",
+            "lastName": "Hanna",
+            "isPrimary": true,
+            "tchEffort": 60
+          },
+          {
+            "firstName": "Thomas",
+            "lastName": "Wilkinson",
+            "isPrimary": false,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

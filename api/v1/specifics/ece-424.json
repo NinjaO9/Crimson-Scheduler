@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:05.279758+00:00",
+  "course": "ece-424",
+  "subject": "ECE",
+  "courseNumber": 424,
+  "courseName": "Computer Architecture and Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/424/1/false/true",
+      "response": {
+        "courseDescription": "<b>424 Computer Architecture and Design</b>  Architecture, organization and design of modern digital computers; instruction sets, computer arithmetic, pipelining, memory hierarchy, storage and input/output topics.  ",
+        "coursePrerequisites": " ECE 234 or CS 260.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Akter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

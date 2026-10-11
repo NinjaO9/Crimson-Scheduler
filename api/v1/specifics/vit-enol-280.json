@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:09.515881+00:00",
+  "course": "vit-enol-280",
+  "subject": "VIT_ENOL",
+  "courseNumber": 280,
+  "courseName": "Grapevine Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20E/280/1/false/true",
+      "response": {
+        "courseDescription": "<b>280 Grapevine Physiology</b>  Botanical and physiological concepts related to grapevine growth and development including photosynthesis, water relations, mineral nutrient impacts, and grapevine response to environmental conditions.  ",
+        "coursePrerequisites": " VIT ENOL 113.",
+        "instructors": [
+          {
+            "firstName": "Bhaskar",
+            "lastName": "Bondada",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

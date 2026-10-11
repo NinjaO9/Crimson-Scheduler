@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:45.999861+00:00",
+  "course": "me-485",
+  "subject": "ME",
+  "courseNumber": 485,
+  "courseName": "Introduction to Robotics and AI",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/M%20E/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 Introduction to Robotics and AI</b>  An exploration of the Robot Operating System (ROS) and solutions to simple AI problems using existing machine learning frameworks.  ",
+        "coursePrerequisites": " CPT S 121, CPT S 131, ME 241, or MSE 241; ME 348; ME 401 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Swensen",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

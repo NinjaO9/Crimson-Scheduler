@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:29:33.437703+00:00",
+  "course": "com-495",
+  "subject": "COM",
+  "courseNumber": 495,
+  "courseName": "Communication Professional Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Com/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Communication Professional Internship</b> May be repeated for credit; cumulative maximum 12 hours. Taken in conjunction with an internship, students are introduced to NACE Competencies which employers are seeking in candidates; through a reflective process students connect classroom to career while immersed in the internship experience.  S, F grading. ",
+        "coursePrerequisites": " Application required; COM 101; COM 102; COM 105; COM 138; completion of COM 210 and 300, both with a C or better; admitted to a major in the College of Communication.",
+        "instructors": [
+          {
+            "firstName": "Wendy",
+            "lastName": "Wegner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

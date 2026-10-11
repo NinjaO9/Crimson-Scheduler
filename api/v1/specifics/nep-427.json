@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:19.252308+00:00",
+  "course": "nep-427",
+  "subject": "NEP",
+  "courseNumber": 427,
+  "courseName": "Nutritional Assessment and Lifestyle Counseling",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 [M] Nutritional Assessment and Lifestyle Counseling</b>  Basic skills and concepts of nutrition assessment and lifestyle counseling of ambulatory adults using dietary intakes, menu planning and communication skills.  ",
+        "coursePrerequisites": " Concurrent enrollment required in NEP 402 and NEP 435; NEP 340; NEP 400; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Martine",
+            "lastName": "Perrigue",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:44.148971+00:00",
+  "course": "mktg-468",
+  "subject": "MKTG",
+  "courseNumber": 468,
+  "courseName": "Societal Marketing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mktg/468/1/false/true",
+      "response": {
+        "courseDescription": "<b>468 Societal Marketing</b>  The use of behavioral theories, marketing principles and techniques to benefit society; the importance of marketing as it relates to government regulation of marketing structure, consumer protection, and consumer welfare.  ",
+        "coursePrerequisites": " MKTG 360; admitted to a major or minor in the College of Business, or major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "KUNTER",
+            "lastName": "GUNASTI",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

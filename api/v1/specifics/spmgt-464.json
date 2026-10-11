@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:00.816942+00:00",
+  "course": "spmgt-464",
+  "subject": "SPMGT",
+  "courseNumber": 464,
+  "courseName": "Sport Marketing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/464/1/false/true",
+      "response": {
+        "courseDescription": "<b>464 Sport Marketing</b>  An examination of sport as a consumer product and as a medium by which to sell consumer products.  ",
+        "coursePrerequisites": " Admitted to the major or minor in Sport Management; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Pete",
+            "lastName": "Van Mullem",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

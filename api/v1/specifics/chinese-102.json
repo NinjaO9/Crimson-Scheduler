@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:48.664348+00:00",
+  "course": "chinese-102",
+  "subject": "CHINESE",
+  "courseNumber": 102,
+  "courseName": "Second Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chin/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Second Semester</b>  Continuation of CHINESE 101. Not open to native speakers except with permission. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CHINESE 101 with a grade of C or better, or WSU language placement exam score of 2 or higher.",
+        "instructors": [
+          {
+            "firstName": "Xinmin",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

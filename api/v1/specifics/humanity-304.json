@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:38.392292+00:00",
+  "course": "humanity-304",
+  "subject": "HUMANITY",
+  "courseNumber": 304,
+  "courseName": "Humanities in the Modern World",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Hum/304/1/false/true",
+      "response": {
+        "courseDescription": "<b>304 Humanities in the Modern World</b>  Literature, philosophy, art, architecture, film, music since World War I; major works reflecting influential movements and concerns of the modern world.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eric",
+            "lastName": "Morel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

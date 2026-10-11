@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:38.541706+00:00",
+  "course": "soe-464",
+  "subject": "SOE",
+  "courseNumber": 464,
+  "courseName": "Landscape Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/464/1/false/true",
+      "response": {
+        "courseDescription": "<b>464 Landscape Ecology</b>  Linkages between spatial patterns and processes in a variety of landscapes and the qualitative tools used in the investigation of these linkages.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Daniel",
+            "lastName": "Thornton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

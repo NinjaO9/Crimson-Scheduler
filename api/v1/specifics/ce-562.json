@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:30.901239+00:00",
+  "course": "ce-562",
+  "subject": "CE",
+  "courseNumber": 562,
+  "courseName": "Environmental Flow and Transport Processes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Environmental Flow and Transport Processes</b>  Environmental flow mechanisms and contaminant transport behaviors; applications to open-channel flows and groundwater systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nick",
+            "lastName": "Engdahl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

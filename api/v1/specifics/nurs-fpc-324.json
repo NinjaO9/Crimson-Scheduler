@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:08.649735+00:00",
+  "course": "nurs-fpc-324",
+  "subject": "NURS_FPC",
+  "courseNumber": 324,
+  "courseName": "Nursing Concepts in Acute and Chronic Illness in the Adult",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/324/1/false/true",
+      "response": {
+        "courseDescription": "<b>324 Nursing Concepts in Acute and Chronic Illness in the Adult</b>  Theoretical concepts of acute and chronic illness in the adult as a basis for critical thinking and decision-making in nursing.  ",
+        "coursePrerequisites": " NURS FPC 311; NURS FPC 315; NURS FPC 316; NURS FPC 317; and concurrent enrollment in NURS FPC 325.",
+        "instructors": [
+          {
+            "firstName": "Joni",
+            "lastName": "Shaw",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Michelle",
+            "lastName": "Loera",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Amy",
+            "lastName": "Howells",
+            "isPrimary": true,
+            "tchEffort": 34
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:54.422138+00:00",
+  "course": "mus-471",
+  "subject": "MUS",
+  "courseNumber": 471,
+  "courseName": "Music Business Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/471/1/false/true",
+      "response": {
+        "courseDescription": "<b>471 Music Business Internship</b> May be repeated for credit. Monitored and evaluated professional work experience in the music business field such as music publishing, artist management, concert promotion, music marketing, and other music entrepreneurship works.  ",
+        "coursePrerequisites": " MUS 470 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Christian J",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

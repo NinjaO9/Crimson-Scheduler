@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:47.202320+00:00",
+  "course": "pubhlth-110",
+  "subject": "PUBHLTH",
+  "courseNumber": 110,
+  "courseName": "Social and Environmental Determinants of Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Social and Environmental Determinants of Health</b>  Socioeconomic, behavioral, biological, environmental, and other factors that impact human health and contribute to health disparities.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Hing",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

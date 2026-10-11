@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:11.024822+00:00",
+  "course": "math-252",
+  "subject": "MATH",
+  "courseNumber": 252,
+  "courseName": "Fundamentals of Elementary Mathematics II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/252/1/false/true",
+      "response": {
+        "courseDescription": "<b>252 Fundamentals of Elementary Mathematics II</b>  Inquiry-based approach to fundamental concepts: measurement, geometrical constructions, similarity, congruence, symmetry, probability, counting principles, measures of central tendency, and distributions.  Required preparation:  One year of high school geometry.  ",
+        "coursePrerequisites": " MATH 251 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Rommel",
+            "lastName": "Cortez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

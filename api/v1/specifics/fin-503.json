@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:07.977051+00:00",
+  "course": "fin-503",
+  "subject": "FIN",
+  "courseNumber": 503,
+  "courseName": "Microeconomic Theory II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fin/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Microeconomic Theory II</b>  General equilibrium, welfare economics and social choice, market failure, game theory, economics of information. (Crosslisted course offered as ECONS 503, FIN 503.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Felix",
+            "lastName": "Munoz-Garcia",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

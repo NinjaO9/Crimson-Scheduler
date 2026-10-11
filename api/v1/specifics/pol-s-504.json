@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:05.355925+00:00",
+  "course": "pol-s-504",
+  "subject": "POL_S",
+  "courseNumber": 504,
+  "courseName": "Quantitative Methods in Social Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Pol%20S/504/1/false/true",
+      "response": {
+        "courseDescription": "<b>504 Quantitative Methods in Social Science</b>  Descriptive statistics and multivariate regression analysis as it applies to social sciences.  (Crosslisted course offered as POL S 504, SOC 521.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Salamone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

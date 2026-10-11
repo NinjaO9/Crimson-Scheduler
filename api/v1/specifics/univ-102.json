@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:30.431289+00:00",
+  "course": "univ-102",
+  "subject": "UNIV",
+  "courseNumber": 102,
+  "courseName": "College Majors and Career Exploration",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univs/102/2/false/true",
+      "response": {
+        "courseDescription": "<b>102 College Majors and Career Exploration</b>  Career development and the decision-making process; exploration of academic majors and careers. Specifically geared for students who are undecided/exploring major options in their first year at WSU. Credit not granted for both UNIV 101 and 102. (Formerly UNIV 100.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lindsey",
+            "lastName": "Teele",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Nicole",
+            "lastName": "Billings",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:12.267395+00:00",
+  "course": "physics-102",
+  "subject": "PHYSICS",
+  "courseNumber": 102,
+  "courseName": "General Physics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 General Physics</b>  Algebra/trigonometry-based physics; topics in electricity, magnetism, optical phenomena, relativity, and quantum theory; oriented toward non-physical science majors.  ",
+        "coursePrerequisites": " 4 credits of PHYSICS 101 with a C or better, or PHYSICS 101 and 111 with a C or better; PHYSICS 112 or concurrent enrollment; MATH 108 with a grade of C or better, a minimum ALEKS math score 75%, or passing MATH 140, 171, or 202.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Allen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

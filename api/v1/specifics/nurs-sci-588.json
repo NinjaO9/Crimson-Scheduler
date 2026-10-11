@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.452519+00:00",
+  "course": "nurs-sci-588",
+  "subject": "NURS_SCI",
+  "courseNumber": 588,
+  "courseName": "Research Inquiry: Quantitative Methods I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURSC/588/1/false/true",
+      "response": {
+        "courseDescription": "<b>588 Research Inquiry: Quantitative Methods I</b>  Quantitative methodologies, issues and techniques of data collection, analysis and interpretation.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lois",
+            "lastName": "James",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:18.596399+00:00",
+  "course": "nep-362",
+  "subject": "NEP",
+  "courseNumber": 362,
+  "courseName": "Biomechanical Analysis",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/362/1/false/true",
+      "response": {
+        "courseDescription": "<b>362 Biomechanical Analysis</b>  Applied sport, clinical, and occupational biomechanics.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "McMulkin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

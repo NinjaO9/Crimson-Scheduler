@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.965973+00:00",
+  "course": "phardsci-502",
+  "subject": "PHARDSCI",
+  "courseNumber": 502,
+  "courseName": "Integrated Pharmacology I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRSC/502/1/false/true",
+      "response": {
+        "courseDescription": "<b>502 Integrated Pharmacology I</b>  Integrated autonomic and central nervous system pharmacology.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Darrell",
+            "lastName": "Jackson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

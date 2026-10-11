@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:46:33.413899+00:00",
+  "course": "mus-596",
+  "subject": "MUS",
+  "courseNumber": 596,
+  "courseName": "Topics in Music",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/596/1/false/true",
+      "response": {
+        "courseDescription": "<b>596 Topics in Music</b> May be repeated for credit; cumulative maximum 6 hours.   ",
+        "coursePrerequisites": " By permission only.",
+        "instructors": [
+          {
+            "firstName": "Keri",
+            "lastName": "McCarthy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

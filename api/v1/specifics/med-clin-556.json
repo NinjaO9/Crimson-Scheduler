@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:15.773152+00:00",
+  "course": "med-clin-556",
+  "subject": "MED_CLIN",
+  "courseNumber": 556,
+  "courseName": "Virtual - Basic Medical Spanish",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/MEDCL/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Virtual - Basic Medical Spanish</b>  Self-directed learning for proficiency in medical Spanish.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524; exceptions granted by the Associate Dean for Curriculum or designee.",
+        "instructors": [
+          {
+            "firstName": "Farion",
+            "lastName": "Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

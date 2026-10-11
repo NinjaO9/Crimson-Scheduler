@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:22.426662+00:00",
+  "course": "mbios-423",
+  "subject": "MBIOS",
+  "courseNumber": 423,
+  "courseName": "Human Genetics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/423/1/false/true",
+      "response": {
+        "courseDescription": "<b>423 Human Genetics</b>  Exploration of individual and population genetics leading to critical discussion of current social, medical, and scientific issues.  ",
+        "coursePrerequisites": " MBIOS 301.",
+        "instructors": [
+          {
+            "firstName": "Kanako",
+            "lastName": "Hayashi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

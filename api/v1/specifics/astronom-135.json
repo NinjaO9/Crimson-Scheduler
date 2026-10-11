@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:52.391345+00:00",
+  "course": "astronom-135",
+  "subject": "ASTRONOM",
+  "courseNumber": 135,
+  "courseName": "Astronomy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Astr/135/1/false/true",
+      "response": {
+        "courseDescription": "<b>135 Astronomy</b>  Overview of the solar system, stars, galaxies, cosmology, and the history of astronomy. Includes a lab component with occasional evening meetings. Credit not granted for both ASTRONOM 135 and 150.  ",
+        "coursePrerequisites": " ENGLISH 101 or HISTORY 105.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

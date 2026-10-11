@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:10.813997+00:00",
+  "course": "mech-702",
+  "subject": "MECH",
+  "courseNumber": 702,
+  "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/702/1/false/true",
+      "response": {
+        "courseDescription": "<b>702 Master's Special Problems, Directed Study, and/or Examination</b> May be repeated for credit. Independent research in special problems, directed study, and/or examination credit for students in a non-thesis master's degree program. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 702 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Qin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Dave",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hakan",
+            "lastName": "Gurocak",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hua",
+            "lastName": "Tan",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jong-Hoon",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Stephen",
+            "lastName": "Solovitz",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Xiaolin",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:23.625361+00:00",
+  "course": "fin-596",
+  "subject": "FIN",
+  "courseNumber": 596,
+  "courseName": "Advanced Topics in Financial Economics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/596/1/false/true",
+      "response": {
+        "courseDescription": "<b>596 Advanced Topics in Financial Economics</b> May be repeated for credit; cumulative maximum 12 hours. Topics may include financial theory and empirical methods as applied to financial management, investments, international finance, and markets/institutions. (Crosslisted course offered as FIN 596, ECONS 596.)  ",
+        "coursePrerequisites": " Admission to PhD programs in business, or ECONS 500 and ECONS 501.",
+        "instructors": [
+          {
+            "firstName": "George",
+            "lastName": "Jiang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

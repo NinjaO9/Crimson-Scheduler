@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:13:03.109044+00:00",
+  "course": "arch-580",
+  "subject": "ARCH",
+  "courseNumber": 580,
+  "courseName": "Architecture Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Architecture Practicum</b> May be repeated for credit. Internship, travel study, or independent study related to the field of architecture.  ",
+        "coursePrerequisites": " Graduate student in M Architecture degree program.",
+        "instructors": [
+          {
+            "firstName": "Omar",
+            "lastName": "Al-Hassawi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

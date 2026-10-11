@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:44.153309+00:00",
+  "course": "data-437",
+  "subject": "DATA",
+  "courseNumber": 437,
+  "courseName": "High Dimensional Data Learning and Visualization",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/DATA/437/2/false/true",
+      "response": {
+        "courseDescription": "<b>437 High Dimensional Data Learning and Visualization</b>  Data visualization, metric-based clustering, probabilistic and metric-based classification, algebraic and probabilistic dimension reduction, scalable inferential methods, analysis of non-Euclidean data.  (Crosslisted course offered as STAT 437, DATA 437.)  ",
+        "coursePrerequisites": " STAT/DATA 435.",
+        "instructors": [
+          {
+            "firstName": "Xiongzhi",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

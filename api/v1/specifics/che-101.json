@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:48.798406+00:00",
+  "course": "che-101",
+  "subject": "CHE",
+  "courseNumber": 101,
+  "courseName": "Overview of Chemical Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Overview of Chemical Engineering</b>  Current topics, issues, and career options in Chemical Engineering.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Qiaowan",
+            "lastName": "Chang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

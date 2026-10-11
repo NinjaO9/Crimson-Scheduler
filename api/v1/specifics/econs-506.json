@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:32.270177+00:00",
+  "course": "econs-506",
+  "subject": "ECONS",
+  "courseNumber": 506,
+  "courseName": "Mathematics Primer for Economists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/506/1/false/true",
+      "response": {
+        "courseDescription": "<b>506 Mathematics Primer for Economists</b>  Intensive overview of the essential mathematical tools needed for graduate study in topics of economic sciences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Xin",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

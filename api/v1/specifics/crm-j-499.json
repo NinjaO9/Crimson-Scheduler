@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:57.150009+00:00",
+  "course": "crm-j-499",
+  "subject": "CRM_J",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Crm%20J/499/2/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": "  By Instructor permission; CRM J 101.",
+        "instructors": [
+          {
+            "firstName": "Amelie",
+            "lastName": "Pedneault",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Cortney",
+            "lastName": "Franklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Craig",
+            "lastName": "Hemmens",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Dale",
+            "lastName": "Willits",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "David",
+            "lastName": "Brody",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "David",
+            "lastName": "Makin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Faith",
+            "lastName": "Lutze",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hillary",
+            "lastName": "Mellinger",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Melanie-Angela",
+            "lastName": "Neuilly",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

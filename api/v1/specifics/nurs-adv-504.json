@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:59.381118+00:00",
+  "course": "nurs-adv-504",
+  "subject": "NURS_ADV",
+  "courseNumber": 504,
+  "courseName": "Evidence-Based Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/504/1/false/true",
+      "response": {
+        "courseDescription": "<b>504 Evidence-Based Practice</b>  Exploration of evidence-based practice through the conduct of scientific inquiry and application of credible evidence, best practice guidelines, and outcomes management reports.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Connie",
+            "lastName": "Nguyen-Truong",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Julie",
+            "lastName": "Postma",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

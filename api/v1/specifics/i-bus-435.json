@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:39.575581+00:00",
+  "course": "i-bus-435",
+  "subject": "I_BUS",
+  "courseNumber": 435,
+  "courseName": "International Tourism",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/I%20Bus/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 International Tourism</b>  International and domestic tourism; effects of tourism on the society.  ",
+        "coursePrerequisites": " Admitted to a major or minor in the College of Business, or option of Personnel Psychology & Human Resource Management.Â ",
+        "instructors": [
+          {
+            "firstName": "Chun Chu",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

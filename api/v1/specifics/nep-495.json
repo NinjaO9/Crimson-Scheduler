@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:36.421819+00:00",
+  "course": "nep-495",
+  "subject": "NEP",
+  "courseNumber": 495,
+  "courseName": "Interprofessional Capstone in Nutrition and Exercise Physiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 [M] Interprofessional Capstone in Nutrition and Exercise Physiology</b>  Culminating experience for senior undergraduates in NEP and health science fields; interprofessional approach to address the prevention, diagnosis, and treatment of a variety of health conditions.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, Nursing, or Speech and Hearing Sciences at WSU Spokane; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Martine",
+            "lastName": "Perrigue",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:03.297819+00:00",
+  "course": "nep-101",
+  "subject": "NEP",
+  "courseNumber": 101,
+  "courseName": "Modern Concepts in Human Health: Food, Fitness, and You",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/NEP/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Modern Concepts in Human Health: Food, Fitness, and You</b>  Why we need food, which nutrients support wellness, and how the body uses nutrients with a focus on eating well and being active to maintain a healthy lifestyle.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

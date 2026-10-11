@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:43.574162+00:00",
+  "course": "anth-514",
+  "subject": "ANTH",
+  "courseNumber": 514,
+  "courseName": "Ceramic Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Anth/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Ceramic Analysis</b>  Basic concepts, methods, and approaches used in the analysis of archaeological pottery.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Fladd",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

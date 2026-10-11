@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:07.881147+00:00",
+  "course": "mech-438",
+  "subject": "MECH",
+  "courseNumber": 438,
+  "courseName": "Microfabrication Technology",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/438/1/false/true",
+      "response": {
+        "courseDescription": "<b>438 Microfabrication Technology</b>  Microelectronic fabrication technology, semiconductor material, diffusion, thermal oxidation, ion implantation, lithography, etching, thin film deposition, CMOS integration and MEMS. Credit not granted for both MECH 438 and MECH 538.  ",
+        "coursePrerequisites": " CHEM 105; MATH 315; 4 credits of PHYSICS 202, or PHYSICS 202 and 212.",
+        "instructors": [
+          {
+            "firstName": "Jong-Hoon",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:53.628156+00:00",
+  "course": "nep-701",
+  "subject": "NEP",
+  "courseNumber": 701,
+  "courseName": "Master's Independent Capstone Project and /or Examination",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/701/1/false/true",
+      "response": {
+        "courseDescription": "<b>701 Master's Independent Capstone Project and /or Examination</b> May be repeated for credit. Capstone project or final examination for professional master's degree under the Graduate School. The credits will include a balloted evaluation of the student's completion of the program's capstone/examination requirements by the program's graduate faculty. Students must have graduate degree-seeking status and obtain approval from their major advisor/committee chair before enrolling for 701 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "April",
+            "lastName": "Davis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

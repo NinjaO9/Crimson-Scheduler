@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:59.139607+00:00",
+  "course": "mktg-479",
+  "subject": "MKTG",
+  "courseNumber": 479,
+  "courseName": "Advanced Professional Sales",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mktg/479/1/false/true",
+      "response": {
+        "courseDescription": "<b>479 Advanced Professional Sales</b>  Advanced theory and principles of professional sales with special attention to the business-to-business market and an emphasis on the application of theory and principles to selling skills.  ",
+        "coursePrerequisites": " MKTG 379.",
+        "instructors": [
+          {
+            "firstName": "Bitty",
+            "lastName": "Balducci",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:53:48.149297+00:00",
+  "course": "econs-431",
+  "subject": "ECONS",
+  "courseNumber": 431,
+  "courseName": "Computational Economics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Computational Economics</b>  Computational tools for solving a broad range of microeconomic and macroeconomic models from partial and general equilibrium models to dynamic models, growth modeling, neural nets, and portfolio models.  ",
+        "coursePrerequisites": " ECONS 301.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

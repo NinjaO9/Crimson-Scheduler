@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:14:22.137008+00:00",
+  "course": "h-d-495",
+  "subject": "H_D",
+  "courseNumber": 495,
+  "courseName": "Instructional Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/H%20D/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Instructional Practicum</b> May be repeated for credit; cumulative maximum 4 hours. Opportunity to assist with instruction; experience in further study of topic, organization of material, grading, management of resources.  S, F grading. ",
+        "coursePrerequisites": " By permission only.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Whitehall",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jennifer",
+            "lastName": "Duckworth",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jennifer",
+            "lastName": "Putney",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Nicole",
+            "lastName": "Scalise",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Robby",
+            "lastName": "Cooper",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sammy",
+            "lastName": "Perone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

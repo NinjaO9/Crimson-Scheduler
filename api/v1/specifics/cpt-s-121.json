@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:20.369682+00:00",
+  "course": "cpt-s-121",
+  "subject": "CPT_S",
+  "courseNumber": 121,
+  "courseName": "Program Design and Development C/C++",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/Cpt%20S/121/1/false/true",
+      "response": {
+        "courseDescription": "<b>121 Program Design and Development C/C++</b>  Formulation of problems and top-down design of programs in a modern structured language (C/C++) for their solution on a digital computer.  ",
+        "coursePrerequisites": " MATH 108, 171, 172, 182, 201, 202, 206, or 220, each with a C or better, CPT S 111 with a B+ or better, a min ALEKS math placement score of 78%, or by permission with an AP Exam in Cpt S Principles or Cpt Sci A with a 4 or better.",
+        "instructors": [
+          {
+            "firstName": "Andrew",
+            "lastName": "O'Fallon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

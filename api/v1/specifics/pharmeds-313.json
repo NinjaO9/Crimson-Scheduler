@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:24.707370+00:00",
+  "course": "pharmeds-313",
+  "subject": "PHARMEDS",
+  "courseNumber": 313,
+  "courseName": "Careers: Pathways in Biomedicine",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/313/1/false/true",
+      "response": {
+        "courseDescription": "<b>313 [M] Careers: Pathways in Biomedicine</b>  Introduction to careers in biomedical research, pharmaceutical/biotech industry, government, and human health professions.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "Meier",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Kolter",
+            "lastName": "Grigsby",
+            "isPrimary": true,
+            "tchEffort": 95
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

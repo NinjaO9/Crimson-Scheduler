@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:20.520700+00:00",
+  "course": "cs-454",
+  "subject": "CS",
+  "courseNumber": 454,
+  "courseName": "Information Retrieval",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/454/1/false/true",
+      "response": {
+        "courseDescription": "<b>454 Information Retrieval</b>  Fundamentals principles and algorithms related to information retrieval: text querying, indexing, and retrieval methods, evaluation metrics, ranking, semi-structured data, crawling and scraping of the web using link-based algorithms, and user interface issues.  ",
+        "coursePrerequisites": " CS 223 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "McCamish",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

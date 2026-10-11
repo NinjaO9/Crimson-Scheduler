@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:24.183357+00:00",
+  "course": "tch-lrn-415",
+  "subject": "TCH_LRN",
+  "courseNumber": 415,
+  "courseName": "Student Teaching Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Student Teaching Internship</b>  To begin student teaching the candidate must have paid certification fees and have a currently valid teacher certificate application with character and fitness supplement on file; completed with a C or better all course work for the teacher certificate; received fingerprinting clearance from Washington State Patrol, FBI, and Office of Professional Practices; earned a 2.5 GPA overall, in endorsement area and professional core courses. Placement by interview only at approved sites. Supervised teaching in public schools including seminars reflecting on effective teaching and professional certification.  S, F grading. ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education or secondary education).",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Schertenleib",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

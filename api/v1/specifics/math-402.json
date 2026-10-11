@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:13.717042+00:00",
+  "course": "math-402",
+  "subject": "MATH",
+  "courseNumber": 402,
+  "courseName": "Introduction to Analysis II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 [M] Introduction to Analysis II</b>  Sequences of functions, power series, multivariable calculus, inverse and implicit function theorems, Lagrange multipliers, change of variable in multiple integrations.  ",
+        "coursePrerequisites": " MATH 401.",
+        "instructors": [
+          {
+            "firstName": "Shengchi",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

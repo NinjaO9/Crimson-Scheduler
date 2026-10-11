@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:37.594585+00:00",
+  "course": "nep-537",
+  "subject": "NEP",
+  "courseNumber": 537,
+  "courseName": "Medical Nutrition Therapy I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Medical Nutrition Therapy I</b>  Theory and practical application of medical nutrition therapy for a variety of disease states. Required preparation: previous college-level courses in pathophysiology and nutrition assessment.  ",
+        "coursePrerequisites": " Admission to the Coordinated Program in Dietetics.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Heneghen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

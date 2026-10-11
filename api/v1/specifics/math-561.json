@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:35.473696+00:00",
+  "course": "math-561",
+  "subject": "MATH",
+  "courseNumber": 561,
+  "courseName": "Partial Differential Equations II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Partial Differential Equations II</b>  Introduces modern methods to study various problems for partial differential\nequations, including the well-posedness and ill-posedness, asymptotic behavior and stability of solutions, finite-time blowup, the maximum principle and the applications to nonlinear partial differential equations. Recommended preparation includes an undergraduate course in ordinary differential equations and a semester\nof analysis or advanced calculus. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hong-Ming",
+            "lastName": "Yin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

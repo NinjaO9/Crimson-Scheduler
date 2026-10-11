@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:17.466169+00:00",
+  "course": "engr-421",
+  "subject": "ENGR",
+  "courseNumber": 421,
+  "courseName": "Multidisciplinary Engineering Design II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engr/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 [M] Multidisciplinary Engineering Design II</b>  Prototype solution developed and evaluated and business plan completed; presentation to stake holders; team development and assessment. Field trip required.  ",
+        "coursePrerequisites": " ENGR 420; ENTRP 486 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Arda",
+            "lastName": "Gozen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

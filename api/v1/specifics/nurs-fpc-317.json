@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:08.336899+00:00",
+  "course": "nurs-fpc-317",
+  "subject": "NURS_FPC",
+  "courseNumber": 317,
+  "courseName": "Health Assessment",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/317/1/false/true",
+      "response": {
+        "courseDescription": "<b>317 Health Assessment</b>  Systematic approach to health assessment of adults emphasizing and incorporating use of nursing process and scientific rationale.  ",
+        "coursePrerequisites": " Admitted to the major in Nursing; concurrent enrollment in NURS FPC 315 and NURS FPC 316.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "CliffOrr",
+            "isPrimary": true,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Annette",
+            "lastName": "Jenkins",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Tiffany",
+            "lastName": "Valentine",
+            "isPrimary": true,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

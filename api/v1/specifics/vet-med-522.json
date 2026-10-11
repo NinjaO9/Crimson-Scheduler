@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:50.678718+00:00",
+  "course": "vet-med-522",
+  "subject": "VET_MED",
+  "courseNumber": 522,
+  "courseName": "Fundamentals of Pharmacology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/522/1/false/true",
+      "response": {
+        "courseDescription": "<b>522 Fundamentals of Pharmacology</b>  Fundamentals of pharmacology, including pharmacokinetics (absorption, distribution, metabolism, excretion), receptor theory and general mechanisms of drug action.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Travis",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 65
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

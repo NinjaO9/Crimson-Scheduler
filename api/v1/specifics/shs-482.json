@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:02.522157+00:00",
+  "course": "shs-482",
+  "subject": "SHS",
+  "courseNumber": 482,
+  "courseName": "Assessment of Speech and Language",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/482/1/false/true",
+      "response": {
+        "courseDescription": "<b>482 [M] Assessment of Speech and Language</b>  Principles, techniques, and materials involved in exploring the nature of speech and language disorders; planning programs of therapy.  ",
+        "coursePrerequisites": " SHS 376 or concurrent enrollment; and SHS 478.",
+        "instructors": [
+          {
+            "firstName": "Mercedes",
+            "lastName": "DeMartini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

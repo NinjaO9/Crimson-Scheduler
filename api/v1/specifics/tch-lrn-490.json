@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:26.347796+00:00",
+  "course": "tch-lrn-490",
+  "subject": "TCH_LRN",
+  "courseNumber": 490,
+  "courseName": "Pre-Internship for Elementary Teachers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Pre-Internship for Elementary Teachers</b>  Intensive practicum integrating educational theory with teaching in classroom contexts.  S, F grading. ",
+        "coursePrerequisites": " TCH LRN 401 or 405; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Lori",
+            "lastName": "White",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

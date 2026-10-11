@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:32.611752+00:00",
+  "course": "spanish-362",
+  "subject": "SPANISH",
+  "courseNumber": 362,
+  "courseName": "Spanish for Health Professions",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/362/1/false/true",
+      "response": {
+        "courseDescription": "<b>362 Spanish for Health Professions</b>  Specialized language training for health professionals focusing on the main systems of human anatomy. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " SPANISH 306, 307, or 308 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Hubert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

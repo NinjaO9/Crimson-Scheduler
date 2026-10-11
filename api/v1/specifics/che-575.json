@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:53.475645+00:00",
+  "course": "che-575",
+  "subject": "CHE",
+  "courseNumber": 575,
+  "courseName": "Biochemical Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/575/1/false/true",
+      "response": {
+        "courseDescription": "<b>575 Biochemical Engineering</b>  Application of chemical engineering principles to the processing of biological and biochemical materials.  (Crosslisted course offered as CHE 475, BIO ENG 475.)  Credit not granted for both CHE 475/BIO ENG 475 and CHE 575.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Birgitte",
+            "lastName": "Ahring",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

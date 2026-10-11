@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:07.107551+00:00",
+  "course": "hort-510",
+  "subject": "HORT",
+  "courseNumber": 510,
+  "courseName": "Graduate Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hort/510/2/false/true",
+      "response": {
+        "courseDescription": "<b>510 Graduate Seminar</b> May be repeated for credit; cumulative maximum 4 hours. Literature reviews and research progress reports.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Carolina",
+            "lastName": "Torres",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Stephen",
+            "lastName": "Ficklin",
+            "isPrimary": true,
+            "tchEffort": 70
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

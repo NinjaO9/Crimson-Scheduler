@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:03.377008+00:00",
+  "course": "shs-543",
+  "subject": "SHS",
+  "courseNumber": 543,
+  "courseName": "School Age and Adolescent Language",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/543/1/false/true",
+      "response": {
+        "courseDescription": "<b>543 School Age and Adolescent Language</b>  Language development in typically developing and language impaired school age and adolescent students; disorder types; implications for assessment and intervention. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Katy",
+            "lastName": "Cabbage",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

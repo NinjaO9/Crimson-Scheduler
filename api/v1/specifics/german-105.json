@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:42.689560+00:00",
+  "course": "german-105",
+  "subject": "GERMAN",
+  "courseNumber": 105,
+  "courseName": "Elementary Conversation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ger/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Elementary Conversation</b> May be repeated for credit; cumulative maximum 2 hours. Elementary-level conversation practice in small groups with a native/near-native speaker. Not open to native speakers except with permission.  S, F grading. ",
+        "coursePrerequisites": " GERMAN 101 or concurrent enrollment, or GERMAN 102 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": false,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

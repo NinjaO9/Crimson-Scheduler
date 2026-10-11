@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:22.810697+00:00",
+  "course": "cpt-s-370",
+  "subject": "CPT_S",
+  "courseNumber": 370,
+  "courseName": "Systems Programming Java",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/370/2/false/true",
+      "response": {
+        "courseDescription": "<b>370 Systems Programming Java</b>  Implementation of systems programs, concepts of computer operating systems; laboratory experience in using operating system facilities. Taught in Java programming language.  ",
+        "coursePrerequisites": " CPT S 233 with a C or better; CPT S 260 with a C or better or E E 234 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Swarn",
+            "lastName": "Priya",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

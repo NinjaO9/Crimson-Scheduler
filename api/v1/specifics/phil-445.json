@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:56.427232+00:00",
+  "course": "phil-445",
+  "subject": "PHIL",
+  "courseNumber": 445,
+  "courseName": "Science, Technology, and Society",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/445/1/false/true",
+      "response": {
+        "courseDescription": "<b>445 Science, Technology, and Society</b>  An examination of the nature of technology and its role in personal life and society, focusing on the conceptualization of technology, the relation of science to technology, and the impact of technology on culture.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Sherri",
+            "lastName": "Conklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

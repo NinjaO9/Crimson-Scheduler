@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:39.433006+00:00",
+  "course": "i-d-201",
+  "subject": "I_D",
+  "courseNumber": 201,
+  "courseName": "Interior Design Studio II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Interior Design Studio II</b>  Interior design problem-solving grounded in theories of human behavior.  ",
+        "coursePrerequisites": " Admitted to the major in Interior Design.",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Krikac",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:24.387044+00:00",
+  "course": "pharmacy-599",
+  "subject": "PHARMACY",
+  "courseNumber": 599,
+  "courseName": "Special Projects",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/599/1/false/true",
+      "response": {
+        "courseDescription": "<b>599 Special Projects</b> May be repeated for credit; cumulative maximum 12 hours. Laboratory research, clinical research, or comprehensive review of selected subjects.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Darrell",
+            "lastName": "Jackson",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kimberly",
+            "lastName": "McKeirnan",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Megan",
+            "lastName": "Undeberg",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Megan",
+            "lastName": "Willson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

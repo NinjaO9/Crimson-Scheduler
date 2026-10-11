@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:38.347920+00:00",
+  "course": "anim-sci-174",
+  "subject": "ANIM_SCI",
+  "courseNumber": 174,
+  "courseName": "Beef Cow Calf Management Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/174/1/false/true",
+      "response": {
+        "courseDescription": "<b>174 Beef Cow Calf Management Laboratory</b>  Management practices associated with a beef cow calf enterprise for students without experience. Cooperative: Open to UI degree-seeking students. S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Goodman",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Erika",
+            "lastName": "Eckhardt",
+            "isPrimary": false,
+            "tchEffort": 75
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

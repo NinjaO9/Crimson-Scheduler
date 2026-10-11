@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:32.042187+00:00",
+  "course": "biomdsci-700",
+  "subject": "BIOMDSCI",
+  "courseNumber": 700,
+  "courseName": "Master's Research, Thesis, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BIOMS/700/1/false/true",
+      "response": {
+        "courseDescription": "<b>700 Master's Research, Thesis, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their master's research, thesis and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 700 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kennan",
+            "lastName": "Oyen",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kyle",
+            "lastName": "Taylor",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Thomas",
+            "lastName": "Waltzek",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sue",
+            "lastName": "Zumwalt",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

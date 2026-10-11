@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:50.886680+00:00",
+  "course": "mus-432",
+  "subject": "MUS",
+  "courseNumber": 432,
+  "courseName": "University Singers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 University Singers</b> May be repeated for credit. Public performance may be required.  Non-auditioned choir consisting of 70+ singers. The majority of this group is made up of non-music majors.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Myers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

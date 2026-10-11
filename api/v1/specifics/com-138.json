@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:49.956078+00:00",
+  "course": "com-138",
+  "subject": "COM",
+  "courseNumber": 138,
+  "courseName": "Introduction to Communication",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/138/1/false/true",
+      "response": {
+        "courseDescription": "<b>138 Introduction to Communication</b>  Introduction to training and discipline necessary to succeed in the field of communication; familiarization with media, news, news values, and the ability to critique news stories.  S, F grading. ",
+        "coursePrerequisites": "  Admitted to a major or minor in the College of Communication; or for non-majors with an academic interest in communication.",
+        "instructors": [
+          {
+            "firstName": "Geoffrey",
+            "lastName": "Thatcher",
+            "isPrimary": true,
+            "tchEffort": 75
+          },
+          {
+            "firstName": "Sara",
+            "lastName": "Stout",
+            "isPrimary": false,
+            "tchEffort": 25
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

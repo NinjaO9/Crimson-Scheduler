@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:42.834176+00:00",
+  "course": "psych-516",
+  "subject": "PSYCH",
+  "courseNumber": 516,
+  "courseName": "Applied Structural Equation Modeling with Current Software",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Applied Structural Equation Modeling with Current Software</b>  Confirmatory factor analysis, path analysis, structural regression analysis, multilevel analysis and latent growth analysis with current software.  ",
+        "coursePrerequisites": " PSYCH 512; PSYCH 514.",
+        "instructors": [
+          {
+            "firstName": "G",
+            "lastName": "Burns",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

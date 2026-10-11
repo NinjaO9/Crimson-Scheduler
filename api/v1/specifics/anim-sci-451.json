@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:41.576557+00:00",
+  "course": "anim-sci-451",
+  "subject": "ANIM_SCI",
+  "courseNumber": 451,
+  "courseName": "Endocrine Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/451/1/false/true",
+      "response": {
+        "courseDescription": "<b>451 [M] Endocrine Physiology</b>  Anatomy, physiology, and biochemistry of endocrine systems and hormone action; emphasis on comparative, veterinary, and biomedical models. Credit not granted for both ANIM SCI 451 and ANIM SCI 551. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106; BIOLOGY 107; one of the following: ANIM SCI 440, BIOLOGY 352, MBIOS 303, or MBIOS 401.",
+        "instructors": [
+          {
+            "firstName": "KATIE",
+            "lastName": "SHIRA",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

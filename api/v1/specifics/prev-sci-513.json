@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:07.789519+00:00",
+  "course": "prev-sci-513",
+  "subject": "PREV_SCI",
+  "courseNumber": 513,
+  "courseName": "Research Methods in Prevention Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PrvSc/513/1/false/true",
+      "response": {
+        "courseDescription": "<b>513 Research Methods in Prevention Science</b>  Introduction to process of research and methods in prevention science; techniques of research, data collection, and data analysis procedures.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kory",
+            "lastName": "Floyd",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Sara",
+            "lastName": "Waters",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

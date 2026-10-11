@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:13:33.179639+00:00",
+  "course": "art-110",
+  "subject": "ART",
+  "courseNumber": 110,
+  "courseName": "Drawing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/110/1/false/true",
+      "response": {
+        "courseDescription": "<b>110 Drawing</b>  Composition in pictorial space, visualization of ideas, drawing from life.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Spencer",
+            "lastName": "Thiel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

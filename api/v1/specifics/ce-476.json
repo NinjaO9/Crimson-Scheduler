@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:41.157949+00:00",
+  "course": "ce-476",
+  "subject": "CE",
+  "courseNumber": 476,
+  "courseName": "Pavement Evaluation and Rehabilitation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/476/1/false/true",
+      "response": {
+        "courseDescription": "<b>476 Pavement Evaluation and Rehabilitation</b>  Engineering practices to maintain, evaluate, repair and rehabilitate pavements and use of flexible and rigid overlays. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 317; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Haifang",
+            "lastName": "Wen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

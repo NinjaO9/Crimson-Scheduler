@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:10:40.131941+00:00",
+  "course": "soc-332",
+  "subject": "SOC",
+  "courseNumber": 332,
+  "courseName": "Sustainability and Society",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Soc/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 Sustainability and Society</b>  The study of human-environment relationships and the connections between environmental, economic, and social systems.  Recommended preparation: SOC 101.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Steven",
+            "lastName": "Mejia",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

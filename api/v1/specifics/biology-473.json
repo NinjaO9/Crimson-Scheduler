@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:11.445803+00:00",
+  "course": "biology-473",
+  "subject": "BIOLOGY",
+  "courseNumber": 473,
+  "courseName": "Evolution and Society",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Biol/473/1/false/true",
+      "response": {
+        "courseDescription": "<b>473 [M] Evolution and Society</b>  Survey of how the theory of evolution is used to better understand ourselves, the societies in which live, and the biological world on which we depend. Recommended preparation: BIOLOGY 305, 395, 403, or 405 or concurrent enrollment. (Crosslisted course offered as BIOLOGY 473, ANTH 473.)  ",
+        "coursePrerequisites": " ANTH 260 or BIOLOGY 301; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Edward",
+            "lastName": "Hagen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

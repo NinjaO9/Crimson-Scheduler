@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:28.839092+00:00",
+  "course": "biology-559",
+  "subject": "BIOLOGY",
+  "courseNumber": 559,
+  "courseName": "Hormones, Brain and Behavior",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/559/1/false/true",
+      "response": {
+        "courseDescription": "<b>559 Hormones, Brain and Behavior</b>  Classical behavioral endocrinology from molecular to whole organisms, integrating evolutionary ecology, neuroethology and behavioral neuroendocrinology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Erica",
+            "lastName": "Crespi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

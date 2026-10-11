@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:00.038801+00:00",
+  "course": "dtc-497",
+  "subject": "DTC",
+  "courseNumber": 497,
+  "courseName": "Senior Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/497/1/false/true",
+      "response": {
+        "courseDescription": "<b>497 Senior Seminar</b>  Major multimedia project for nonprofit organization or small business with special focus on project management, planning, and execution.  ",
+        "coursePrerequisites": " Completion of Junior Writing Portfolio; admitted to the major in Digital Technology and Culture; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Riddle",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

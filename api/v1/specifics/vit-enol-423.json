@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:11.288356+00:00",
+  "course": "vit-enol-423",
+  "subject": "VIT_ENOL",
+  "courseNumber": 423,
+  "courseName": "Wine Sensory Laboratory",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/V%20E/423/1/false/true",
+      "response": {
+        "courseDescription": "<b>423 Wine Sensory Laboratory</b>  Principles and application of sensory evaluation techniques for the evaluation of the appearance, aroma, flavor, and texture of wine. Typically offered Spring.  ",
+        "coursePrerequisites": " VIT ENOL 422 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Harbertson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

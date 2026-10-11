@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:16:20.408892+00:00",
+  "course": "soe-100",
+  "subject": "SOE",
+  "courseNumber": 100,
+  "courseName": "An Introduction to Our Environment: Geology, Ecology, and Environmental Stewardship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/100/1/false/true",
+      "response": {
+        "courseDescription": "<b>100 An Introduction to Our Environment: Geology, Ecology, and Environmental Stewardship</b>  A holistic understanding of the Earth's environment; knowledge of geology, ecology, environmental science, and human political dimensions; basic comprehension of environmental issues.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Billings",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

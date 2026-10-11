@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:06.409956+00:00",
+  "course": "shs-590",
+  "subject": "SHS",
+  "courseNumber": 590,
+  "courseName": "Special Topics in Speech and Hearing Sciences",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/SHS/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Special Topics in Speech and Hearing Sciences</b> May be repeated for credit; cumulative maximum 9 hours. Advanced study of specialized topics in speech and hearing sciences. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Rebekah",
+            "lastName": "Keifer",
+            "isPrimary": false,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

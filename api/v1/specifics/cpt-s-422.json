@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:23.527901+00:00",
+  "course": "cpt-s-422",
+  "subject": "CPT_S",
+  "courseNumber": 422,
+  "courseName": "Software Engineering Principles II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/422/1/false/true",
+      "response": {
+        "courseDescription": "<b>422 [M] Software Engineering Principles II</b>  Dependable software systems; software verification and validation, testing; CASE environments; software management and evolution.  ",
+        "coursePrerequisites": " CPT S 321 with a C or better or CPT S 323 with a C or better; CPT S 322 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Bolong",
+            "lastName": "Zeng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

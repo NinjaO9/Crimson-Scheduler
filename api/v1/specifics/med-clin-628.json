@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:22.064670+00:00",
+  "course": "med-clin-628",
+  "subject": "MED_CLIN",
+  "courseNumber": 628,
+  "courseName": "Obstetrics and Gynecology - Maternal-Fetal Medicine",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/MEDCL/628/1/false/true",
+      "response": {
+        "courseDescription": "<b>628 Obstetrics and Gynecology - Maternal-Fetal Medicine</b> May be repeated for credit; cumulative maximum 12 hours. Introduction to the range of medical and obstetrical problems that maternal-fetal medicine specialists encounter.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Dawn",
+            "lastName": "Kopp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

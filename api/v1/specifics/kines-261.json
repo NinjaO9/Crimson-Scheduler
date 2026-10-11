@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:35.046169+00:00",
+  "course": "kines-261",
+  "subject": "KINES",
+  "courseNumber": 261,
+  "courseName": "Health and Wellness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/261/1/false/true",
+      "response": {
+        "courseDescription": "<b>261 Health and Wellness</b>  Knowledge of the multi-dimensional aspects of wellness and concepts necessary for a positive lifestyle through self-assessment.  ",
+        "coursePrerequisites": " Sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Natalie",
+            "lastName": "Wilson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

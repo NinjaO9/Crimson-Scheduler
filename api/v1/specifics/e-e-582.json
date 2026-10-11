@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:50.776114+00:00",
+  "course": "e-e-582",
+  "subject": "E_E",
+  "courseNumber": 582,
+  "courseName": "Advanced Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/582/4/false/true",
+      "response": {
+        "courseDescription": "<b>582 Advanced Topics</b> May be repeated for credit. (Crosslisted course offered as E E 582, ECE 582.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Xuanyu",
+            "lastName": "Cao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

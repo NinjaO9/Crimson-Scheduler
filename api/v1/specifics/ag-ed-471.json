@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:28.891827+00:00",
+  "course": "ag-ed-471",
+  "subject": "AG_ED",
+  "courseNumber": 471,
+  "courseName": "Student Organizations in Agricultural Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ag%20Ed/471/1/false/true",
+      "response": {
+        "courseDescription": "<b>471 Student Organizations in Agricultural Education</b>  Role of Future Farmers of America (FFA) in student organizations; role of advisor; principles of leadership; characteristics of successful FFA chapters. Course equivalent to OSU's Ag 421/521.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

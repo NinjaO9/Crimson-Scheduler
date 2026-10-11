@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:57.942534+00:00",
+  "course": "vet-med-587",
+  "subject": "VET_MED",
+  "courseNumber": 587,
+  "courseName": "Clinical Anesthesiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/587/1/false/true",
+      "response": {
+        "courseDescription": "<b>587 Clinical Anesthesiology</b>  Clinical anesthesiology for the professional veterinary student.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Lais",
+            "lastName": "Malavasi",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Rubia",
+            "lastName": "Tomacheuski",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Tania",
+            "lastName": "Perez Jimenez",
+            "isPrimary": true,
+            "tchEffort": 34
+          },
+          {
+            "firstName": "Cassidy",
+            "lastName": "Cordon",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Julie",
+            "lastName": "Cary",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Lethea",
+            "lastName": "Russell",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Lexi",
+            "lastName": "Botting",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Nicole",
+            "lastName": "Valdez",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Shayna",
+            "lastName": "Young",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Tasha",
+            "lastName": "Bradley",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

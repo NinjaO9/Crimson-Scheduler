@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:46.970278+00:00",
+  "course": "arch-401",
+  "subject": "ARCH",
+  "courseNumber": 401,
+  "courseName": "Architectural Design V",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Architectural Design V</b>  Advanced architectural design focusing on technology, systems and crafts of buildings.  Travel for site visit required.  ",
+        "coursePrerequisites": " ARCH 303 with a C or better; admitted to the major in Architectural Studies.",
+        "instructors": [
+          {
+            "firstName": "Shauni Priyam",
+            "lastName": "Sikder",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

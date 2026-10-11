@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:09.833351+00:00",
+  "course": "french-410",
+  "subject": "FRENCH",
+  "courseNumber": 410,
+  "courseName": "French Film in Translation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fren/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 French Film in Translation</b>  In depth study of French cinema integrating its history, techniques, methods, and global impact. Taught in English. French majors will complete academic work requirements in the target language. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Insook",
+            "lastName": "Webber",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

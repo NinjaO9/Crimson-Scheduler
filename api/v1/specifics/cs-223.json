@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:17.311004+00:00",
+  "course": "cs-223",
+  "subject": "CS",
+  "courseNumber": 223,
+  "courseName": "Advanced Data Structures",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/223/1/false/true",
+      "response": {
+        "courseDescription": "<b>223 Advanced Data Structures</b>  Advanced data structures, object oriented programming concepts, and program design principles.  ",
+        "coursePrerequisites": " CS 122 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

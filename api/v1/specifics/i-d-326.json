@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:41.129745+00:00",
+  "course": "i-d-326",
+  "subject": "I_D",
+  "courseNumber": 326,
+  "courseName": "Codes for Interior Designers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/326/1/false/true",
+      "response": {
+        "courseDescription": "<b>326 Codes for Interior Designers</b>  Codes and specifications related to the design of the interior environment, including fire protection standards, accessibility, universal design and acoustics.  ",
+        "coursePrerequisites": " Admitted to the major in Interior Design.",
+        "instructors": [
+          {
+            "firstName": "Apoorva",
+            "lastName": "Rane",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

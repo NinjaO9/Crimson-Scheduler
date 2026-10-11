@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:20.892281+00:00",
+  "course": "entrp-492",
+  "subject": "ENTRP",
+  "courseNumber": 492,
+  "courseName": "Business Consulting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entrp/492/1/false/true",
+      "response": {
+        "courseDescription": "<b>492 Business Consulting</b>  Application of management theory and principles to small firms; applied consulting experience with operating businesses.  ",
+        "coursePrerequisites": " FIN 325; I BUS 380; MGTOP 340; MKTG 360; completion of Carson Career Amplifier Tier II or Crimson Pathway I; admitted to a major or minor in the College of Business; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Asa",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:20:41.632030+00:00",
+  "course": "biology-321",
+  "subject": "BIOLOGY",
+  "courseNumber": 321,
+  "courseName": "Principles of Animal Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 [M] Principles of Animal Development</b>  Experimental analyses of development and descriptive and comparative examination of embryology; emphasis on the chordates.  Recommended preparation: BIOLOGY 301 or MBIOS 301.  ",
+        "coursePrerequisites": " BIOLOGY 106; BIOLOGY 107.",
+        "instructors": [
+          {
+            "firstName": "Erica",
+            "lastName": "Crespi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

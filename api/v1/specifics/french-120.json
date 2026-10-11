@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:08.980450+00:00",
+  "course": "french-120",
+  "subject": "FRENCH",
+  "courseNumber": 120,
+  "courseName": "French Culture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fren/120/1/false/true",
+      "response": {
+        "courseDescription": "<b>120 French Culture</b>  Cultural history of France from beginnings to present; comparison of French and American cultures. Taught in English.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Insook",
+            "lastName": "Webber",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

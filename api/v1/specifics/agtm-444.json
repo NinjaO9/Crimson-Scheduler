@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:15.617398+00:00",
+  "course": "agtm-444",
+  "subject": "AGTM",
+  "courseNumber": 444,
+  "courseName": "Teaching Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/444/1/false/true",
+      "response": {
+        "courseDescription": "<b>444 Teaching Practicum</b> May be repeated for credit; cumulative maximum 8 hours. Laboratory and research techniques for AgTM.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:11.974744+00:00",
+  "course": "math-315",
+  "subject": "MATH",
+  "courseNumber": 315,
+  "courseName": "Differential Equations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Differential Equations</b>  Linear differential equations and systems; series, numerical and qualitative approaches; applications.  ",
+        "coursePrerequisites": " MATH 273 or 283, each with a C or better; and MATH 220, 225, or 230, each with a C or better, or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Hong-Ming",
+            "lastName": "Yin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

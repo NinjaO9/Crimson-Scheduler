@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:32:56.007179+00:00",
+  "course": "wgss-481",
+  "subject": "WGSS",
+  "courseNumber": 481,
+  "courseName": "Feminist Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/WGSS/481/1/false/true",
+      "response": {
+        "courseDescription": "<b>481 [M] Feminist Theory</b>  Introduction to the field of feminist theory, including classic interdisciplinary methods, and applications of this scholarship to contemporary women's issues.  ",
+        "coursePrerequisites": " WGSS 101, 120, or 300.",
+        "instructors": [
+          {
+            "firstName": "Pamela",
+            "lastName": "Thoma",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

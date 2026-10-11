@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:13.336289+00:00",
+  "course": "vit-enol-539",
+  "subject": "VIT_ENOL",
+  "courseNumber": 539,
+  "courseName": "Wine Chemistry Laboratory",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/V%20E/539/1/false/true",
+      "response": {
+        "courseDescription": "<b>539 Wine Chemistry Laboratory</b>  Assay wine and juice for its chemical constituents; laboratory safety in a wine chemistry setting. Credit not granted for both VIT ENOL 439 and 539.  ",
+        "coursePrerequisites": " VIT ENOL 538 or concurrent enrollment",
+        "instructors": [
+          {
+            "firstName": "Tom",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Madison",
+            "lastName": "Causey",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

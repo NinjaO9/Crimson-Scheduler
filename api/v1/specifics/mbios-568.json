@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:55.156744+00:00",
+  "course": "mbios-568",
+  "subject": "MBIOS",
+  "courseNumber": 568,
+  "courseName": "Advanced Topics in Molecular Biosciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/568/1/false/true",
+      "response": {
+        "courseDescription": "<b>568 Advanced Topics in Molecular Biosciences</b> May be repeated for credit. Recent research in selected areas of molecular biosciences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Driskell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

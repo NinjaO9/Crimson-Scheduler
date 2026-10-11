@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:12.790391+00:00",
+  "course": "anth-405",
+  "subject": "ANTH",
+  "courseNumber": 405,
+  "courseName": "Medical Anthropology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Anth/405/2/false/true",
+      "response": {
+        "courseDescription": "<b>405 Medical Anthropology</b>  Relationships among disease, curing, culture and environment; non-Western medical systems; political economy of health care. Recommended preparation: Junior standing.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Katharina",
+            "lastName": "Rynkiewich",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:55.554931+00:00",
+  "course": "mus-486",
+  "subject": "MUS",
+  "courseNumber": 486,
+  "courseName": "String Techniques I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/486/1/false/true",
+      "response": {
+        "courseDescription": "<b>486 String Techniques I</b>  Exploration of string instrument performance and pedagogy for music educators, with a focus on guitar, violin, and viola.  ",
+        "coursePrerequisites": " MUS 190 if enrolled as music education major.",
+        "instructors": [
+          {
+            "firstName": "CÃ©sar",
+            "lastName": "Haas",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Christiano",
+            "lastName": "Rodrigues",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

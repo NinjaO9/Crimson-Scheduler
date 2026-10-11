@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:30.919090+00:00",
+  "course": "math-453",
+  "subject": "MATH",
+  "courseNumber": 453,
+  "courseName": "Graph Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/453/1/false/true",
+      "response": {
+        "courseDescription": "<b>453 Graph Theory</b>  Graphs and their applications, directed graphs, trees, networks, Eulerian and Hamiltonian paths, matrix representations, construction of algorithms. Required preparation must include linear algebra.  Recommended preparation: MATH 301. (Crosslisted course offered as MATH 453, CPT S 453.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 220, 225, or 230.",
+        "instructors": [
+          {
+            "firstName": "Garrett",
+            "lastName": "Kepler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

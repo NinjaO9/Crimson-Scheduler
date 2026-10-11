@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:35.684881+00:00",
+  "course": "mse-593",
+  "subject": "MSE",
+  "courseNumber": 593,
+  "courseName": "Seminar in Materials Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/593/1/false/true",
+      "response": {
+        "courseDescription": "<b>593 Seminar in Materials Science</b> May be repeated for credit; cumulative maximum 6 hours. Presentation and discussion of topics in materials science taken from research in progress or current literature. S, F grading.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Qizhen",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

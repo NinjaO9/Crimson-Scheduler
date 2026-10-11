@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:27.517502+00:00",
+  "course": "data-122",
+  "subject": "DATA",
+  "courseNumber": 122,
+  "courseName": "Computational Calculus II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/122/2/false/true",
+      "response": {
+        "courseDescription": "<b>122 Computational Calculus II</b>  Computational calculus emphasizing multivariable and vector calculus, optimization, and advanced visualization techniques including topics of partial derivatives, multiple integrals, parametric equations, and optimization algorithms using Python in real-world data analytics scenarios.  ",
+        "coursePrerequisites": " DATA 121, or MATH 171 with a C or better, or MATH 140 and DATA\n302, or MATH 202 and DATA 302.",
+        "instructors": [
+          {
+            "firstName": "Bismita",
+            "lastName": "Choudhury",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:10.826112+00:00",
+  "course": "math-251",
+  "subject": "MATH",
+  "courseNumber": 251,
+  "courseName": "Fundamentals of Elementary Mathematics I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/251/2/false/true",
+      "response": {
+        "courseDescription": "<b>251 Fundamentals of Elementary Mathematics I</b>  Comprehensive development of number systems emphasizing place-value, integers, rational numbers, and associated algorithms; methods of problem solving.  ",
+        "coursePrerequisites": " MATH 103, 105, 106, or 201, each with a C or better, or STAT 212 with a C or better, or a minimum ALEKS math placement score of 45%, or transfer credit for Intermediate Algebra equivalent to MATH 101.",
+        "instructors": [
+          {
+            "firstName": "Olga",
+            "lastName": "Hawranick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

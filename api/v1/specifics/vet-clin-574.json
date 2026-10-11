@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:46.115188+00:00",
+  "course": "vet-clin-574",
+  "subject": "VET_CLIN",
+  "courseNumber": 574,
+  "courseName": "Cardiology Special Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20MS/574/1/false/true",
+      "response": {
+        "courseDescription": "<b>574 Cardiology Special Topics</b> May be repeated for credit; cumulative maximum 6 hours. Clinical cardiology topics and special problems; current medical or interventional information.  ",
+        "coursePrerequisites": " Admission to the Graduate Certificate, MS, or PhD in Biomedical Sciences program.",
+        "instructors": [
+          {
+            "firstName": "O",
+            "lastName": "Nelson",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Seth",
+            "lastName": "Bowden",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Baumwart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

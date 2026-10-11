@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:06.073970+00:00",
+  "course": "mech-310",
+  "subject": "MECH",
+  "courseNumber": 310,
+  "courseName": "Manufacturing Processes",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Manufacturing Processes</b>  Basic mechanical engineering drawing; shaping and non-shaping manufacturing processes; exposure to 3D-CAD; manufacturing processes laboratory.  ",
+        "coursePrerequisites": " MECH 103; MECH 309; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Dave",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

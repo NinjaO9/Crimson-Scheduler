@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:21.266917+00:00",
+  "course": "pharmacy-561",
+  "subject": "PHARMACY",
+  "courseNumber": 561,
+  "courseName": "Applied Patient Care V: Integrated Patient Care",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Applied Patient Care V: Integrated Patient Care</b>  Integration of pharmaceutical care with an interdisciplinary emphasis using patient cases and human patient simulation.  ",
+        "coursePrerequisites": "  Concurrent enrollment in PHARMACY 557.",
+        "instructors": [
+          {
+            "firstName": "Lexie",
+            "lastName": "Powell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

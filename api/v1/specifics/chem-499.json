@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:44.509920+00:00",
+  "course": "chem-499",
+  "subject": "CHEM",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Anjali",
+            "lastName": "Sharma",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Brian",
+            "lastName": "Clowers",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Choong-Shik",
+            "lastName": "Yoo",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "ChulHee",
+            "lastName": "Kang",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Clifford",
+            "lastName": "Berkman",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Ivan",
+            "lastName": "Popov",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jack",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "James",
+            "lastName": "Boncella",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "James",
+            "lastName": "Brozik",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kerry",
+            "lastName": "Hipps",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kevin",
+            "lastName": "Kittilstved",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kirk",
+            "lastName": "Peterson",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Ursula",
+            "lastName": "Mazur",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Xiaofeng",
+            "lastName": "Guo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:12.989675+00:00",
+  "course": "vit-enol-519",
+  "subject": "VIT_ENOL",
+  "courseNumber": 519,
+  "courseName": "Analysis of Chromatographic and MS Data",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/V%20E/519/1/false/true",
+      "response": {
+        "courseDescription": "<b>519 Analysis of Chromatographic and MS Data</b>  Processing of gas chromatography (GC), liquid chromatography (LC), and mass spectroscopy (MS) data from raw data files for further processing in multivariate statistical software; workflow development for specific mass spectrometry data types; meets over two weekends during the fall semester.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Tom",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

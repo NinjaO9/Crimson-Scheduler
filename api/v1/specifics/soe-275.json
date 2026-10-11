@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:34.710663+00:00",
+  "course": "soe-275",
+  "subject": "SOE",
+  "courseNumber": 275,
+  "courseName": "Rivers: Form, Function, and Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/275/1/false/true",
+      "response": {
+        "courseDescription": "<b>275 Rivers: Form, Function, and Management</b>  Introduction to rivers, stream ecology, and restoration.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Padowski",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

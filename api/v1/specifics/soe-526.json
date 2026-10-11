@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:56.015378+00:00",
+  "course": "soe-526",
+  "subject": "SOE",
+  "courseNumber": 526,
+  "courseName": "Ecology of the Columbia River",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/526/1/false/true",
+      "response": {
+        "courseDescription": "<b>526 Ecology of the Columbia River</b>  Interdisciplinary approach to the interconnections between the physical, geological, chemical, biological, and social dimensions of this large, iconic aquatic ecosystem. Credit not granted for both SOE 426 and 526.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Stephen",
+            "lastName": "Bollens",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

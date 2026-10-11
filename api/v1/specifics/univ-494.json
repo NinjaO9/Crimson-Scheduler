@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:30.756543+00:00",
+  "course": "univ-494",
+  "subject": "UNIV",
+  "courseNumber": 494,
+  "courseName": "Advanced Research Skills",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univs/494/1/false/true",
+      "response": {
+        "courseDescription": "<b>494 Advanced Research Skills</b> May be repeated for credit; cumulative maximum 4 hours. Advanced research skills including research ethics, science communication, building professional networks.  ",
+        "coursePrerequisites": " UNIV 394; admitted to the MARC-WSU program.",
+        "instructors": [
+          {
+            "firstName": "Matt",
+            "lastName": "Peck",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

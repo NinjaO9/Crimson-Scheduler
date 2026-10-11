@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:06.355774+00:00",
+  "course": "vet-micr-541",
+  "subject": "VET_MICR",
+  "courseNumber": 541,
+  "courseName": "Advanced Diagnostic Microbiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Mic/541/1/false/true",
+      "response": {
+        "courseDescription": "<b>541 Advanced Diagnostic Microbiology</b> May be repeated for credit; cumulative maximum 8 hours. Microbiology laboratory for performing and interpreting virologic, serologic, and related tests for the diagnosis of animal diseases.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Claire",
+            "lastName": "Burbick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

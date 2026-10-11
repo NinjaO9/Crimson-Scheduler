@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:27.328024+00:00",
+  "course": "me-312",
+  "subject": "ME",
+  "courseNumber": 312,
+  "courseName": "Manufacturing Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/M%20E/312/1/false/true",
+      "response": {
+        "courseDescription": "<b>312 Manufacturing Engineering</b>  Traditional and advanced manufacturing processes for metals, plastics, and ceramics.  ",
+        "coursePrerequisites": " MSE 201; admitted to the major in Mechanical Engineering or Material Science Engineering.",
+        "instructors": [
+          {
+            "firstName": "Xiaopeng",
+            "lastName": "Bi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

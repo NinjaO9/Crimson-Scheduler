@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:37.585632+00:00",
+  "course": "ce-415",
+  "subject": "CE",
+  "courseNumber": 415,
+  "courseName": "Environmental Measurements",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Environmental Measurements</b>  Sample collection methods and laboratory techniques to measure common air and water pollutants. Required preparation for graduate students must include CE 341. Credit not granted for both CE 415\nand CE 515. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 341; STAT 360 or concurrent enrollment or STAT 370 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Kuang",
+            "lastName": "Zhu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

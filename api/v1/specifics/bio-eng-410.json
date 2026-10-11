@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:10.807869+00:00",
+  "course": "bio-eng-410",
+  "subject": "BIO_ENG",
+  "courseNumber": 410,
+  "courseName": "Bioengineering Capstone Project I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 [M] Bioengineering Capstone Project I</b>  Part I of capstone engineering design project; problem definition, design requirements, conceptual design, detail design, and technical writing and presentation.  ",
+        "coursePrerequisites": " BIO ENG 305, BIO ENG 350, and BIO ENG 360, each with a C or better; BIO ENG 456 or BIO ENG 475, OR BIO ENG 420 and BIO ENG 430, each with a C or better or concurrent enrollment; admitted to the major in Bioengineering.",
+        "instructors": [
+          {
+            "firstName": "Dmitri",
+            "lastName": "Tolkatchev",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

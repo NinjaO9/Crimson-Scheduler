@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:30.141684+00:00",
+  "course": "soil-sci-441",
+  "subject": "SOIL_SCI",
+  "courseNumber": 441,
+  "courseName": "Soil Fertility",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/SoilS/441/1/false/true",
+      "response": {
+        "courseDescription": "<b>441 Soil Fertility</b>  Nutrient management impacts on crop productivity, soil and water quality; mineral requirements; soil testing; plant analysis; inorganic and organic fertilizers.  ",
+        "coursePrerequisites": " SOIL SCI 201.",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Koenig",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

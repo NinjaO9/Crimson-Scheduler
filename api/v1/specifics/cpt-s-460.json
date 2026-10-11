@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:27.073557+00:00",
+  "course": "cpt-s-460",
+  "subject": "CPT_S",
+  "courseNumber": 460,
+  "courseName": "Operating Systems and Computer Architecture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/460/1/false/true",
+      "response": {
+        "courseDescription": "<b>460 Operating Systems and Computer Architecture</b>  Operating systems, computer architectures, and their interrelationships in micro, mini, and large computer systems.  ",
+        "coursePrerequisites": " CPT S 360 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Basavesh",
+            "lastName": "Ammanaghatta Shivakumar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

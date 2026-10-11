@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:55.783636+00:00",
+  "course": "b-a-100",
+  "subject": "B_A",
+  "courseNumber": 100,
+  "courseName": "Introduction to Business",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/B%20A/100/1/false/true",
+      "response": {
+        "courseDescription": "<b>100 Introduction to Business</b>  Overview of business activities and disciplinary functions found in modern for-profit organizations; introduction to each of Carson College of Business learning goals.  ",
+        "coursePrerequisites": " MATH 103, 106, 140, 171, 172, 182, 201, 202, or concurrent enrollment allowed, ALEKS score of 40% or higher, transfer credit for Intermediate Algebra equivalent to MATH 101 or admitted to a minor in the College of Business.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Cooney",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

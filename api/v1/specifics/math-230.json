@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:10.655757+00:00",
+  "course": "math-230",
+  "subject": "MATH",
+  "courseNumber": 230,
+  "courseName": "Honors Introductory Linear Algebra",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/230/1/false/true",
+      "response": {
+        "courseDescription": "<b>230 Honors Introductory Linear Algebra</b>  An introduction to linear algebra with an emphasis on conceptual development.  Credit not granted for more than one of MATH 230, 220, and 225.  ",
+        "coursePrerequisites": " MATH 106 or 201 with a C or better, or MATH 140, 171, 202 or DATA 121 or higher or concurrent enrollment, or a minimum ALEKS math placement score of 80%.",
+        "instructors": [
+          {
+            "firstName": "Seong Jun",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

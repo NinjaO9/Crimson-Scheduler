@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:35.358571+00:00",
+  "course": "amdt-492",
+  "subject": "AMDT",
+  "courseNumber": 492,
+  "courseName": "Computer Applications in Apparel, Textile, and Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/492/1/false/true",
+      "response": {
+        "courseDescription": "<b>492 Computer Applications in Apparel, Textile, and Design</b>  Computer-aided design techniques in fashion graphics; portfolio development and presentation.  ",
+        "coursePrerequisites": "  AMDT 268; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Zihui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

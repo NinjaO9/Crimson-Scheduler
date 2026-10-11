@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:55.957451+00:00",
+  "course": "neurosci-409",
+  "subject": "NEUROSCI",
+  "courseNumber": 409,
+  "courseName": "Affective Neuroscience",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/409/1/false/true",
+      "response": {
+        "courseDescription": "<b>409 Affective Neuroscience</b>  Brain mechanisms of human and animal emotions. Credit not granted for both NEUROSCI 409 and NEUROSCI 509.  ",
+        "coursePrerequisites": "  NEUROSCI 302 or PSYCH 372.",
+        "instructors": [
+          {
+            "firstName": "Giuseppe",
+            "lastName": "Giannotti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

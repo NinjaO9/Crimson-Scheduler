@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:33.220160+00:00",
+  "course": "spanish-407",
+  "subject": "SPANISH",
+  "courseNumber": 407,
+  "courseName": "Advanced Speaking and Listening",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/407/2/false/true",
+      "response": {
+        "courseDescription": "<b>407 Advanced Speaking and Listening</b>  Systematic development of speaking and listening proficiency at the advanced level.  ",
+        "coursePrerequisites": " Spanish 307 with a grade of C or better.",
+        "instructors": [
+          {
+            "firstName": "Etna",
+            "lastName": "Avalos Molina",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

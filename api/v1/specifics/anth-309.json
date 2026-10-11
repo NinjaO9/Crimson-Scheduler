@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:09:28.849650+00:00",
+  "course": "anth-309",
+  "subject": "ANTH",
+  "courseNumber": 309,
+  "courseName": "Cultural Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Anth/309/1/false/true",
+      "response": {
+        "courseDescription": "<b>309 Cultural Ecology</b>  Ecological/environmental anthropology relevant to questions of population, resources, cognition, health and livelihoods.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Quinlan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

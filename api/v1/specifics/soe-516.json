@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:55.847871+00:00",
+  "course": "soe-516",
+  "subject": "SOE",
+  "courseNumber": 516,
+  "courseName": "Soil Processes in the Earth's Critical Zone",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/SOE/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Soil Processes in the Earth's Critical Zone</b>  Soil geochemistry and processes; theory and applications with a focus on reactions at the solid, liquid, and gaseous interface between the lithosphere, atmosphere, hydrosphere, and biosphere. Recommended preparation: Basic knowledge of soils (e.g. SOIL SCI 201 or equivalent; CHEM 106; PHYSICS 102). (Crosslisted course offered as SOE 416/516, SOIL SCI 416/516.) Credit not granted for both SOE/SOIL SCI 416 and SOE/SOIL SCI 516.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Marc",
+            "lastName": "Kramer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

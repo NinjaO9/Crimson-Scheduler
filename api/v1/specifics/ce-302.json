@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:34.740124+00:00",
+  "course": "ce-302",
+  "subject": "CE",
+  "courseNumber": 302,
+  "courseName": "Introduction to Surveying",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/302/1/false/true",
+      "response": {
+        "courseDescription": "<b>302 Introduction to Surveying</b>  Surveying data collection, analysis and application; measuring distances and angles using total stations and global positioning systems; analysis of errors in measurements.  ",
+        "coursePrerequisites": " MATH 171; admitted to the major in Civil Engineering or Construction Management; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Karl",
+            "lastName": "Olsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

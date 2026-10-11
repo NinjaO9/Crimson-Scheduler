@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:07.290665+00:00",
+  "course": "hort-516",
+  "subject": "HORT",
+  "courseNumber": 516,
+  "courseName": "Advanced Horticultural Crop Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hort/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Advanced Horticultural Crop Physiology</b>  Physiological processes related to growth, development, and productivity of horticultural crops; advances in recombinant DNA technology; the impact on horticultural practices. Recommended preparation:  BIOLOGY 420. Credit not granted for both HORT 416 and HORT 516. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Sharpe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

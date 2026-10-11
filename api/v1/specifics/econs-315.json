@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:50:36.499276+00:00",
+  "course": "econs-315",
+  "subject": "ECONS",
+  "courseNumber": 315,
+  "courseName": "Machine Learning for Economists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Machine Learning for Economists</b>  Theory and methods of machine learning with applications to the study of economic and other phenomena.  ",
+        "coursePrerequisites": " ECONS 310 or STAT 212.",
+        "instructors": [
+          {
+            "firstName": "Bidisha",
+            "lastName": "Mandal",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

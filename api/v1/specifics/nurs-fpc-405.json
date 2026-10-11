@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:09.337898+00:00",
+  "course": "nurs-fpc-405",
+  "subject": "NURS_FPC",
+  "courseNumber": 405,
+  "courseName": "Nursing Leadership",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Nursing Leadership</b>  Explores leadership theory to critically analyze group behaviors and their effects on health care outcomes.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Kyle",
+            "lastName": "West",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Sheila",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

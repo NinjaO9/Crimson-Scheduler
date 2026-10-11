@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:21.493600+00:00",
+  "course": "pl-p-501",
+  "subject": "PL_P",
+  "courseNumber": 501,
+  "courseName": "Biology and Control of Plant Diseases",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Pl%20P/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Biology and Control of Plant Diseases</b>  Introduction to the biology and control of plant diseases covering disorders caused by fungi, viruses, bacteria, and nematodes.  ",
+        "coursePrerequisites": " Admission to the Master of Science in Agriculture graduate degree program.",
+        "instructors": [
+          {
+            "firstName": "Chakradhar",
+            "lastName": "Mattupalli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

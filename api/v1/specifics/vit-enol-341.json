@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:10.487077+00:00",
+  "course": "vit-enol-341",
+  "subject": "VIT_ENOL",
+  "courseNumber": 341,
+  "courseName": "Winery Operations and Equipment Laboratory Field Trip",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20E/341/1/false/true",
+      "response": {
+        "courseDescription": "<b>341 Winery Operations and Equipment Laboratory Field Trip</b>  Week-long field trip over Spring Break to visit wineries and wine industry suppliers, specific visits vary by year but will include several wineries, at least one cooperage, and several equipment and packaging suppliers.  ",
+        "coursePrerequisites": " By department permission; concurrent enrollment in VIT ENOL 340.",
+        "instructors": [
+          {
+            "firstName": "Tom",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

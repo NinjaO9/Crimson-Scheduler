@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:09.859204+00:00",
+  "course": "bio-eng-305",
+  "subject": "BIO_ENG",
+  "courseNumber": 305,
+  "courseName": "Bioengineering Ethics and Professional Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Bioengineering Ethics and Professional Development</b>  Ethical topics in bioengineering, including responsibilities to society and scientific conduct; topics related to the professional development of bioengineers.  ",
+        "coursePrerequisites": " Admitted to the major in Bioengineering; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Wenji",
+            "lastName": "Dong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

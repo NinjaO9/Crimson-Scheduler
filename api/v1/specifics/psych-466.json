@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:02:03.043899+00:00",
+  "course": "psych-466",
+  "subject": "PSYCH",
+  "courseNumber": 466,
+  "courseName": "Environmental Psychology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/466/1/false/true",
+      "response": {
+        "courseDescription": "<b>466 Environmental Psychology</b>  Psychological concepts applied to the mixture of positive and negative interactions individuals have with their physical environment.  Recommended preparation: PSYCH 105.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kim",
+            "lastName": "Meidenbauer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

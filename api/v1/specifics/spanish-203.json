@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:16.332455+00:00",
+  "course": "spanish-203",
+  "subject": "SPANISH",
+  "courseNumber": 203,
+  "courseName": "Third Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/203/1/false/true",
+      "response": {
+        "courseDescription": "<b>203 Third Semester</b>  Further development of speaking, listening, reading, and writing skills. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " SPANISH 102 with a C or better, or WSU language placement exam score of 3 or higher.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Lopez-Lopez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

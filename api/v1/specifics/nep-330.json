@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:18.271245+00:00",
+  "course": "nep-330",
+  "subject": "NEP",
+  "courseNumber": 330,
+  "courseName": "Biochemical and Molecular Food and Nutrition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/NEP/330/1/false/true",
+      "response": {
+        "courseDescription": "<b>330 Biochemical and Molecular Food and Nutrition</b>  Introduction to the biochemistry and molecular processes involved in food production and digestion.  ",
+        "coursePrerequisites": " BIOLOGY 106, 107, or 120; CHEM 102 or 345.",
+        "instructors": [
+          {
+            "firstName": "Franck",
+            "lastName": "Carbonero",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

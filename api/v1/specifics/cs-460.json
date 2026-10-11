@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:21.032186+00:00",
+  "course": "cs-460",
+  "subject": "CS",
+  "courseNumber": 460,
+  "courseName": "Operating Systems",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/460/1/false/true",
+      "response": {
+        "courseDescription": "<b>460 Operating Systems</b>  Role and purpose of operating systems, process and memory management, I/O device management and drivers, file system concepts and design.  ",
+        "coursePrerequisites": " CS 360 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Bonamy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

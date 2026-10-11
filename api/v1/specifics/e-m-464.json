@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:46:05.224497+00:00",
+  "course": "e-m-464",
+  "subject": "E_M",
+  "courseNumber": 464,
+  "courseName": "Project Management Foundations",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/464/1/false/true",
+      "response": {
+        "courseDescription": "<b>464 Project Management Foundations</b>  Project management fundamentals including traditional methods, agile practices, key terminology, project manager responsibilities, project scope and life cycle components, stakeholders, communication plan, work breakdown structure, risk identification, and project control using MS Project.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Gill",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

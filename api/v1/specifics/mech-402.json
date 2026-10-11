@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:06.619079+00:00",
+  "course": "mech-402",
+  "subject": "MECH",
+  "courseNumber": 402,
+  "courseName": "Thermal Systems Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 Thermal Systems Design</b>  Design and analysis of thermal-fluid systems using principles of thermodynamics, fluid mechanics, and heat transfer, thermal experimentations.  ",
+        "coursePrerequisites": " MECH 404.",
+        "instructors": [
+          {
+            "firstName": "Stephen",
+            "lastName": "Solovitz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

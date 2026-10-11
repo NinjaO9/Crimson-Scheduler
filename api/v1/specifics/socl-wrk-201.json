@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:16:19.913315+00:00",
+  "course": "socl-wrk-201",
+  "subject": "SOCL_WRK",
+  "courseNumber": 201,
+  "courseName": "Introduction to Social Work",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/SCLWR/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Introduction to Social Work</b>  Exploration of the history of the profession and development of social welfare policies and systems.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Ashton-Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

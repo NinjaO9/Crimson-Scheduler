@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:29.904221+00:00",
+  "course": "math-432",
+  "subject": "MATH",
+  "courseNumber": 432,
+  "courseName": "Mathematics for College and Secondary Teachers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 Mathematics for College and Secondary Teachers</b>  Pre-algebra, algebra functions and geometry examined from an advanced perspective, for secondary and lower level college teachers.  ",
+        "coursePrerequisites": " MATH 301 with a C or better; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Olga",
+            "lastName": "Hawranick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

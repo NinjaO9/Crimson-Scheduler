@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:28.844133+00:00",
+  "course": "math-415",
+  "subject": "MATH",
+  "courseNumber": 415,
+  "courseName": "Intermediate Differential Equations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Intermediate Differential Equations</b>  Linear systems; qualitative theory (existence, uniqueness, stability, periodicity); boundary value problems; applications.  ",
+        "coursePrerequisites": " MATH 315.",
+        "instructors": [
+          {
+            "firstName": "Nikolaos",
+            "lastName": "Voulgarakis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

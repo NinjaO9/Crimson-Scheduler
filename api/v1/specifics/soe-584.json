@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:12.341102+00:00",
+  "course": "soe-584",
+  "subject": "SOE",
+  "courseNumber": 584,
+  "courseName": "Stable Isotope Geochemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/584/1/false/true",
+      "response": {
+        "courseDescription": "<b>584 Stable Isotope Geochemistry</b>  Principles and applications of isotope geochemistry in the geological sciences. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Erin",
+            "lastName": "Benson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

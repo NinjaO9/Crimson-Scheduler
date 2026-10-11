@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:15.948117+00:00",
+  "course": "phardsci-542",
+  "subject": "PHARDSCI",
+  "courseNumber": 542,
+  "courseName": "Integrated Pharmacology IV",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRSC/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Integrated Pharmacology IV</b>  Integrated immuno- and anticancer pharmacology.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Sayed",
+            "lastName": "Daoud",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

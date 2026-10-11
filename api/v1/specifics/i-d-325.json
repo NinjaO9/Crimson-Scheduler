@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:40.937461+00:00",
+  "course": "i-d-325",
+  "subject": "I_D",
+  "courseNumber": 325,
+  "courseName": "Interior Building Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Interior Building Systems</b>  Analysis, planning, and application of interior lighting; introduction to HVAC and plumbing systems.  ",
+        "coursePrerequisites": " Admitted to the major in Interior Design.",
+        "instructors": [
+          {
+            "firstName": "Alana",
+            "lastName": "Pulay",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

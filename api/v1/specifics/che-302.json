@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:49.635217+00:00",
+  "course": "che-302",
+  "subject": "CHE",
+  "courseNumber": 302,
+  "courseName": "Chemical Engineering Thermodynamics II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/302/1/false/true",
+      "response": {
+        "courseDescription": "<b>302 Chemical Engineering Thermodynamics II</b>  Intermediate topics in chemical engineering thermodynamics; advanced phase and chemical reaction equilibrium (including the design of relevant chemical processes), non-ideal thermodynamics, and a microscopic description of thermodynamics.  ",
+        "coursePrerequisites": " CHE 301 with a C or better; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Jean-Sabin",
+            "lastName": "McEwen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:38.893788+00:00",
+  "course": "soe-471",
+  "subject": "SOE",
+  "courseNumber": 471,
+  "courseName": "International Wildlife Conservation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/471/1/false/true",
+      "response": {
+        "courseDescription": "<b>471 [M] International Wildlife Conservation</b>  A broad survey of international wildlife conservation that touches on biological, social, and political aspects of wildlife management; focus on understanding the unique challenges that are encountered in the international arena.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Daniel",
+            "lastName": "Thornton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

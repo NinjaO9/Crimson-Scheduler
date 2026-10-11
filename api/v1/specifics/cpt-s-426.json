@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:24.235008+00:00",
+  "course": "cpt-s-426",
+  "subject": "CPT_S",
+  "courseNumber": 426,
+  "courseName": "Hardware, Hardware Security, and Hardware Reverse Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 Hardware, Hardware Security, and Hardware Reverse Engineering</b>  Hardware hacking and reverse engineering approaches routinely used against electronic devices and embedded systems; introduction to the basic procedures necessary to perform reverse engineering of hardware components to determine their functionality, inputs, outputs, and stored data.  ",
+        "coursePrerequisites": " CPT S 327 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Leon",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

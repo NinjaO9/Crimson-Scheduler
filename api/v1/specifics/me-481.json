@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:30.926018+00:00",
+  "course": "me-481",
+  "subject": "ME",
+  "courseNumber": 481,
+  "courseName": "Control Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/481/1/false/true",
+      "response": {
+        "courseDescription": "<b>481 Control Systems</b>  Analysis and design of feedback control systems.  Credit not granted for both ME 481 and 581. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " ME 348.",
+        "instructors": [
+          {
+            "firstName": "Ming",
+            "lastName": "Luo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

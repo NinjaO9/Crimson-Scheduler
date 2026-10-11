@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:36.356448+00:00",
+  "course": "amdt-519",
+  "subject": "AMDT",
+  "courseNumber": 519,
+  "courseName": "Research Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/519/1/false/true",
+      "response": {
+        "courseDescription": "<b>519 Research Methods</b>  Analysis and understanding of research methods, exploration of thesis topic as applicable to the fields of apparel, merchandising, design and textiles.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ting",
+            "lastName": "Chi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

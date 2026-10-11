@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:46.281727+00:00",
+  "course": "univ-304",
+  "subject": "UNIV",
+  "courseNumber": 304,
+  "courseName": "Transfer Student Seminar",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Univs/304/2/false/true",
+      "response": {
+        "courseDescription": "<b>304 Transfer Student Seminar</b>  Seminar for students with transfer credit to acclimate to the university and develop skills for academic, personal, and career success.  ",
+        "coursePrerequisites": " Sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Rick",
+            "lastName": "Flores",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

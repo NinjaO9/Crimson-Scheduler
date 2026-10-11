@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:44.574195+00:00",
+  "course": "cpt-s-530",
+  "subject": "CPT_S",
+  "courseNumber": 530,
+  "courseName": "Numerical Analysis",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Cpt%20S/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Numerical Analysis</b>  Fundamentals of numerical computation; finding zeroes of functions, approximation and interpolation; numerical integration (quadrature); numerical solution of ordinary differential equations. Required preparation must include differential equations and a programming course. (Crosslisted course offered as MATH 448, MATH 548, CPT S 430, CPT S 530.)  Credit not granted for more than one of MATH 448/548 or CPT S 430/530.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Learn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

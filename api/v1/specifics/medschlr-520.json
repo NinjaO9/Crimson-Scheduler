@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:24.704887+00:00",
+  "course": "medschlr-520",
+  "subject": "MEDSCHLR",
+  "courseNumber": 520,
+  "courseName": "Foundations of Scholarship and Discovery II",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDSC/520/1/false/true",
+      "response": {
+        "courseDescription": "<b>520 Foundations of Scholarship and Discovery II</b> May be repeated for credit; cumulative maximum 3 hours. Individual exploration and refinement of scholarly pursuits.  S, F grading. ",
+        "coursePrerequisites": " MEDSCHLR 500.",
+        "instructors": [
+          {
+            "firstName": "Devon",
+            "lastName": "Hansen",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Anne",
+            "lastName": "Grossman",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

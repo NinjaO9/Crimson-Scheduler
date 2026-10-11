@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:21.661871+00:00",
+  "course": "cs-516",
+  "subject": "CS",
+  "courseNumber": 516,
+  "courseName": "Theory of Computation",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Theory of Computation</b>  Discrete structures, automata, formal languages, recursive functions, algorithms, computability, and complexity. Required preparation must include a strong background in discrete mathematics, automata, and formal languages.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Bonamy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

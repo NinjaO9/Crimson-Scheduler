@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:32.224788+00:00",
+  "course": "mse-320",
+  "subject": "MSE",
+  "courseNumber": 320,
+  "courseName": "Materials Structure - Properties Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 [M] Materials Structure - Properties Lab</b>  Principles and techniques of optical metallography and other laboratory methods used in modern materials science and engineering.  ",
+        "coursePrerequisites": " MSE 201 with a C or better; MSE 202 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Qizhen",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

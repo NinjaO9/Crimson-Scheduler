@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:57.014829+00:00",
+  "course": "mus-497",
+  "subject": "MUS",
+  "courseNumber": 497,
+  "courseName": "Directed Student Teaching in Music",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/497/1/false/true",
+      "response": {
+        "courseDescription": "<b>497 Directed Student Teaching in Music</b>  Supervised teaching in public schools, including seminars reflecting on effective teaching.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Aaron",
+            "lastName": "Wacker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

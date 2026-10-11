@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:51.008871+00:00",
+  "course": "comstrat-480",
+  "subject": "COMSTRAT",
+  "courseNumber": 480,
+  "courseName": "Advertising Agency Operation and Campaigns",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComSr/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 [M] Advertising Agency Operation and Campaigns</b>  Principles and functions of advertising management: campaign planning, execution, presentation and evaluation.  ",
+        "coursePrerequisites": " COMSTRAT 380; COMSTRAT 381; COMSTRAT 382; admitted to a major in the College of Communication; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Erika",
+            "lastName": "Fischer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

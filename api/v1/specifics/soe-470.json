@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:38.727842+00:00",
+  "course": "soe-470",
+  "subject": "SOE",
+  "courseNumber": 470,
+  "courseName": "Introduction to Economic Geology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/470/1/false/true",
+      "response": {
+        "courseDescription": "<b>470 Introduction to Economic Geology</b>  Genesis, evolution and tectonic setting of ore deposits combining theory, description, and detailed hand specimen analysis. Field trip to major mining districts. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " SOE 340; SOE 350.",
+        "instructors": [
+          {
+            "firstName": "Erin",
+            "lastName": "Benson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

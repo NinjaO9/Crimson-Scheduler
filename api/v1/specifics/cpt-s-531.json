@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:44.797061+00:00",
+  "course": "cpt-s-531",
+  "subject": "CPT_S",
+  "courseNumber": 531,
+  "courseName": "Advanced Matrix Computations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Advanced Matrix Computations</b>  Advanced topics in the solution of linear systems, singular value decomposition, and computation of eigenvalues and eigenvectors (Francis's algorithm). (Crosslisted course offered as MATH 544, CPT S 531.) Required preparation must include numerical analysis. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Tsatsomeros",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:19.647466+00:00",
+  "course": "med-clin-599",
+  "subject": "MED_CLIN",
+  "courseNumber": 599,
+  "courseName": "Special Projects or Topics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/599/1/false/true",
+      "response": {
+        "courseDescription": "<b>599 Special Projects or Topics</b> May be repeated for credit; cumulative maximum 20 hours. Enriched clinical experiences or non-patient care experiences that extend student's medical education. Objectives modified depending on specific plan formulated by student and faculty mentor.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Alison",
+            "lastName": "Haddock",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

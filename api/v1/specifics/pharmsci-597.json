@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:26.251382+00:00",
+  "course": "pharmsci-597",
+  "subject": "PHARMSCI",
+  "courseNumber": 597,
+  "courseName": "College of Pharmacy Graduate Seminar",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRDS/597/1/false/true",
+      "response": {
+        "courseDescription": "<b>597 College of Pharmacy Graduate Seminar</b> May be repeated for credit; cumulative maximum 12 hours. (Crosslisted course offered as PHARMSCI 597, NEP 597.)  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Salah",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

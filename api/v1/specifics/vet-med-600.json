@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:59.368419+00:00",
+  "course": "vet-med-600",
+  "subject": "VET_MED",
+  "courseNumber": 600,
+  "courseName": "Scientific Writing and Presentation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/600/1/false/true",
+      "response": {
+        "courseDescription": "<b>600 Scientific Writing and Presentation</b>  Independent study, special projects, and/or internships. Students must have graduate degree-seeking status and should check with their major advisor before enrolling in 600 credit, which cannot be used toward the core graded credits required for a graduate degree.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

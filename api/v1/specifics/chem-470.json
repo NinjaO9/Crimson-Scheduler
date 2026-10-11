@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:43.951838+00:00",
+  "course": "chem-470",
+  "subject": "CHEM",
+  "courseNumber": 470,
+  "courseName": "Advanced Biochemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/470/1/false/true",
+      "response": {
+        "courseDescription": "<b>470 Advanced Biochemistry</b>  Exploration of the chemistry of biological systems with regards to structure and function relations, as well as metabolism and energy production. Credit not granted for both CHEM 470 and 570.  ",
+        "coursePrerequisites": "  CHEM 102 or 345 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "ChulHee",
+            "lastName": "Kang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

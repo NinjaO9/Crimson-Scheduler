@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:38.270101+00:00",
+  "course": "mbios-494",
+  "subject": "MBIOS",
+  "courseNumber": 494,
+  "courseName": "Senior Project in Molecular Biosciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/494/1/false/true",
+      "response": {
+        "courseDescription": "<b>494 [M] Senior Project in Molecular Biosciences</b>  Written paper and seminar presentation on laboratory research project.  ",
+        "coursePrerequisites": " Admitted to the major in Biochemistry, Genetics and Cell Biology, or Microbiology; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Luying",
+            "lastName": "Xun",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Konkel",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

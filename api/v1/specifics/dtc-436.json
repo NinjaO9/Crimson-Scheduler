@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:44.343142+00:00",
+  "course": "dtc-436",
+  "subject": "DTC",
+  "courseNumber": 436,
+  "courseName": "Advanced Multimedia Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/DTC/436/1/false/true",
+      "response": {
+        "courseDescription": "<b>436 Advanced Multimedia Design</b>  Advanced design principles and projects in digital media; projects include visual, sound, haptic, and interactive experiences.  ",
+        "coursePrerequisites": " DTC 336.",
+        "instructors": [
+          {
+            "firstName": "June",
+            "lastName": "Sanders",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

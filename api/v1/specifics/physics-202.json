@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:13.477081+00:00",
+  "course": "physics-202",
+  "subject": "PHYSICS",
+  "courseNumber": 202,
+  "courseName": "Physics for Scientists and Engineers II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Physics for Scientists and Engineers II</b>  Calculus-based physics, topics in electricity, magnetism, electromagnetics, D/C and A/C circuits, optics, reflection, refraction, interference, diffraction, polarization.  ",
+        "coursePrerequisites": " 4 credits of PHYSICS 201 with a C or better, or PHYSICS 201 and 211 with a C or better, or PHYSICS 205 with a C or better; PHYSICS 212 or concurrent enrollment; MATH 172 or 182 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Duez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

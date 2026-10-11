@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:09.850909+00:00",
+  "course": "chem-102",
+  "subject": "CHEM",
+  "courseNumber": 102,
+  "courseName": "Chemistry Related to Life Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Chemistry Related to Life Sciences</b>  Organic functional groups and their reactions; thermodynamics, kinetics, and redox reactions, polymers, macro-molecules; carbohydrates, lipids, proteins, enzymes, nucleic acids, hormones, applications to life sciences.  ",
+        "coursePrerequisites": " CHEM 101, CHEM 105, or SOIL SCI 105 with C or better.",
+        "instructors": [
+          {
+            "firstName": "Raina",
+            "lastName": "Kittilstved",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

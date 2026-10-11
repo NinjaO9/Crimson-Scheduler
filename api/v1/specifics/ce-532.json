@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:28.652014+00:00",
+  "course": "ce-532",
+  "subject": "CE",
+  "courseNumber": 532,
+  "courseName": "Finite Elements",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/532/1/false/true",
+      "response": {
+        "courseDescription": "<b>532 Finite Elements</b>  Theory of finite elements; applications to general engineering systems considered as assemblages of discrete elements. (Crosslisted course offered as CE 532, ME 532.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Haifeng",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

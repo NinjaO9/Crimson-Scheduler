@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:44.983903+00:00",
+  "course": "cpt-s-534",
+  "subject": "CPT_S",
+  "courseNumber": 534,
+  "courseName": "Neural Network Design and Application",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Neural Network Design and Application</b>  Hands-on experience with neural network modeling of nonlinear phenomena; application to classification, forecasting, identification and control. Credit not granted for both CPT S 434 and CPT S 534.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yan",
+            "lastName": "Yan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

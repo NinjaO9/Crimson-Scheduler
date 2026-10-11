@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:14.176231+00:00",
+  "course": "dtc-338",
+  "subject": "DTC",
+  "courseNumber": 338,
+  "courseName": "Special Topics in Digital Technology and Culture",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/DTC/338/1/false/true",
+      "response": {
+        "courseDescription": "<b>338 Special Topics in Digital Technology and Culture</b> May be repeated for credit; cumulative maximum 6 hours. Major trends or artists in digital technology and culture.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amanda",
+            "lastName": "Canales",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

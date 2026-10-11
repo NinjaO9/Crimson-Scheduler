@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:18.141237+00:00",
+  "course": "amdt-313",
+  "subject": "AMDT",
+  "courseNumber": 313,
+  "courseName": "Visual Analysis and Aesthetics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/313/1/false/true",
+      "response": {
+        "courseDescription": "<b>313 Visual Analysis and Aesthetics</b>  In-depth analysis of the visual interaction among apparel, accessories and the body; identifying effective visual communication.  ",
+        "coursePrerequisites": " Sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Zihui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

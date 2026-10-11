@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:26.194876+00:00",
+  "course": "tch-lrn-483",
+  "subject": "TCH_LRN",
+  "courseNumber": 483,
+  "courseName": "Integrating Health and Fitness into K-8 Curriculum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Integrating Health and Fitness into K-8 Curriculum</b>  Integrating health and fitness concepts into the K-8 curriculum; issues of abuse; designed for preservice and inservice K-8 teachers.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Merica",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

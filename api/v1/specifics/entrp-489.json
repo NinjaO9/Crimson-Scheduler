@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:20.560593+00:00",
+  "course": "entrp-489",
+  "subject": "ENTRP",
+  "courseNumber": 489,
+  "courseName": "Entrepreneurial Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Entrp/489/2/false/true",
+      "response": {
+        "courseDescription": "<b>489 Entrepreneurial Management</b>  Philosophy and nature of entrepreneurship for all business organizations; analytical, financial and interpersonal entrepreneurial skills.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amrita",
+            "lastName": "Lahiri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

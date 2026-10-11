@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:32.720577+00:00",
+  "course": "bsyse-556",
+  "subject": "BSYSE",
+  "courseNumber": 556,
+  "courseName": "Surface Hydrologic Processes and Modeling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BSysE/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Surface Hydrologic Processes and Modeling</b>  Fundamental hydrologic processes, governing equations and solution methods, GIS techniques commonly used in hydrology, class project on modeling surface hydrology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joan",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:45.175380+00:00",
+  "course": "soil-sci-478",
+  "subject": "SOIL_SCI",
+  "courseNumber": 478,
+  "courseName": "Advanced Organic Farming and Gardening",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/SoilS/478/1/false/true",
+      "response": {
+        "courseDescription": "<b>478 Advanced Organic Farming and Gardening</b>  Advanced training in organic certification and planning for organic farming.  ",
+        "coursePrerequisites": " SOIL SCI 101.",
+        "instructors": [
+          {
+            "firstName": "Brad",
+            "lastName": "Jaeckel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

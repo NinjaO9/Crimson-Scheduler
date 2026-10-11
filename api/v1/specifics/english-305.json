@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:58:44.121663+00:00",
+  "course": "english-305",
+  "subject": "ENGLISH",
+  "courseNumber": 305,
+  "courseName": "Shakespeare",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Shakespeare</b>  Shakespearean drama to 1600.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deyasini",
+            "lastName": "Dasgupta",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

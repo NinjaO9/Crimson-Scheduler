@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:56:07.293205+00:00",
+  "course": "psych-223",
+  "subject": "PSYCH",
+  "courseNumber": 223,
+  "courseName": "Psychology of Happiness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/223/1/false/true",
+      "response": {
+        "courseDescription": "<b>223 Psychology of Happiness</b>  Survey of topics in positive psychology with the focus being on a wholeness approach to well-being, examining both positive and negative experiences and empirically based strategies for cultivating one's own happiness.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kim",
+            "lastName": "Meidenbauer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

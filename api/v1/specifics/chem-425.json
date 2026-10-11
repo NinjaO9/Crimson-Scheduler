@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:43.260767+00:00",
+  "course": "chem-425",
+  "subject": "CHEM",
+  "courseNumber": 425,
+  "courseName": "Quantitative Instrumental Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/425/1/false/true",
+      "response": {
+        "courseDescription": "<b>425 Quantitative Instrumental Analysis</b>  Computer interfacing applicable to chemical instrumentation; principles and applications of modern chromatography, spectrophotometry and electrochemical techniques.  ",
+        "coursePrerequisites": " CHEM 220 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

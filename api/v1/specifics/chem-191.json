@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:25.727575+00:00",
+  "course": "chem-191",
+  "subject": "CHEM",
+  "courseNumber": 191,
+  "courseName": "Independent Study in Modern Chemistry",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Chem/191/1/false/true",
+      "response": {
+        "courseDescription": "<b>191 Independent Study in Modern Chemistry</b> May be repeated for credit; cumulative maximum 6 hours. Independent study in the theory and practice of modern chemistry; written report required.  S, F grading. ",
+        "coursePrerequisites": " CHEM 101 or concurrent enrollment, or CHEM 105 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Adenike",
+            "lastName": "Otoikhian",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:35.827211+00:00",
+  "course": "math-567",
+  "subject": "MATH",
+  "courseNumber": 567,
+  "courseName": "Integer and Combinatorial Optimization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/567/1/false/true",
+      "response": {
+        "courseDescription": "<b>567 Integer and Combinatorial Optimization</b>  Theory and applications of integer and combinatorial optimization including enumerative, cutting plane, basis reduction, relaxation and matching methods. Required preparation must include linear optimization. (Course offered as MATH 567, E E 567.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bala",
+            "lastName": "Krishnamoorthy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

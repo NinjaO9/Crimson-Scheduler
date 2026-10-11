@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:06.616355+00:00",
+  "course": "nurs-adv-584",
+  "subject": "NURS_ADV",
+  "courseNumber": 584,
+  "courseName": "Health Care Law, Policy, and Analysis",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/584/1/false/true",
+      "response": {
+        "courseDescription": "<b>584 Health Care Law, Policy, and Analysis</b>  Analysis of health care policy and delivery systems including access, disparity, barriers to care, social justice, vulnerability, and health outcomes.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Lois",
+            "lastName": "James",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Melissa",
+            "lastName": "Vera",
+            "isPrimary": true,
+            "tchEffort": 60
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

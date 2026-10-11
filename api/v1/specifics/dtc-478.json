@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:59.560286+00:00",
+  "course": "dtc-478",
+  "subject": "DTC",
+  "courseNumber": 478,
+  "courseName": "Usability and Interface Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/DTC/478/1/false/true",
+      "response": {
+        "courseDescription": "<b>478 Usability and Interface Design</b>  Design of websites using best practices of visual literacy, interface architecture, and usability.  ",
+        "coursePrerequisites": " DTC 355.",
+        "instructors": [
+          {
+            "firstName": "Gregory",
+            "lastName": "Turner-Rahman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

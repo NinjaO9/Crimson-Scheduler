@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:04.198946+00:00",
+  "course": "shs-557",
+  "subject": "SHS",
+  "courseNumber": 557,
+  "courseName": "Pediatric Special Populations in Speech Language Pathology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/SHS/557/2/false/true",
+      "response": {
+        "courseDescription": "<b>557 Pediatric Special Populations in Speech Language Pathology</b>  Speech and voice problems associated with clefts of the lip and palate. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Meredith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

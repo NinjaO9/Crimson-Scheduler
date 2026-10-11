@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:52.732834+00:00",
+  "course": "vet-med-545",
+  "subject": "VET_MED",
+  "courseNumber": 545,
+  "courseName": "General Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/545/1/false/true",
+      "response": {
+        "courseDescription": "<b>545 General Pathology</b>  Structural and functional alterations in disease; elementary oncology. Cooperative: Open to UI degree-seeking students. S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Wesley",
+            "lastName": "Sheley",
+            "isPrimary": true,
+            "tchEffort": 66
+          },
+          {
+            "firstName": "Christopher",
+            "lastName": "Mandella",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Emma",
+            "lastName": "Rovani-Rhoades",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

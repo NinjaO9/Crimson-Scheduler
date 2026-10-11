@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:50.158265+00:00",
+  "course": "sdc-100",
+  "subject": "SDC",
+  "courseNumber": 100,
+  "courseName": "World of Design and Construction",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SDC/100/1/false/true",
+      "response": {
+        "courseDescription": "<b>100 World of Design and Construction</b>  Exploration of architecture, interior design, landscape architecture, and construction management through equity, environment, and economy; careers in the built environment considered.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dan",
+            "lastName": "Cronan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

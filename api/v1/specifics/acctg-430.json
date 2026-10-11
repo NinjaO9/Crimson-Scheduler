@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:03:39.818458+00:00",
+  "course": "acctg-430",
+  "subject": "ACCTG",
+  "courseNumber": 430,
+  "courseName": "Advanced Accounting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Acctg/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Advanced Accounting</b>  Partnership equities and extended forms of corporate ownerships and government entities.  ",
+        "coursePrerequisites": " ACCTG 331 with a C or better; admitted to a major or minor in the College of Business.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Jaggi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

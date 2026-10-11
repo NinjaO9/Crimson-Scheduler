@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:35.359140+00:00",
+  "course": "comstrat-382",
+  "subject": "COMSTRAT",
+  "courseNumber": 382,
+  "courseName": "Media Planning",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComSr/382/1/false/true",
+      "response": {
+        "courseDescription": "<b>382 Media Planning</b>  Media planning theories, strategies, and practices.  ",
+        "coursePrerequisites": " COMSTRAT 380; admitted to a major in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Erika",
+            "lastName": "Fischer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

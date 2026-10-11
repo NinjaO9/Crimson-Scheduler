@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:53.020167+00:00",
+  "course": "astronom-511",
+  "subject": "ASTRONOM",
+  "courseNumber": 511,
+  "courseName": "Astronomical Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Astr/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Astronomical Methods</b>  Detectors and telescopes; radio astronomy; interferometry and Fourier methods; data handling; statistics; data mining. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Vivienne",
+            "lastName": "Baldassare",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

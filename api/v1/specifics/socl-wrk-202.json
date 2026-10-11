@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:16:20.070175+00:00",
+  "course": "socl-wrk-202",
+  "subject": "SOCL_WRK",
+  "courseNumber": 202,
+  "courseName": "Ethics in Social Work",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/SCLWR/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Ethics in Social Work</b>  Introduces students to ethics in social work practice. Students apply the National Association of Social Work (NASW) Code of Ethics to guide their understanding of ethical conduct in practice.  ",
+        "coursePrerequisites": " SOCL WRK 201.",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Ashton-Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

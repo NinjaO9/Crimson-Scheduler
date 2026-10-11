@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:56.188421+00:00",
+  "course": "soe-531",
+  "subject": "SOE",
+  "courseNumber": 531,
+  "courseName": "Fundamentals of Environmental Toxicology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Fundamentals of Environmental Toxicology</b>  Fundamentals of toxicology; environmental fate and biological effects of chemical pollutants in air, water, and food. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jenifer",
+            "lastName": "McIntyre",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

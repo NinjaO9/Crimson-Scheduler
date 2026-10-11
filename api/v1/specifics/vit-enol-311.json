@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:09.687029+00:00",
+  "course": "vit-enol-311",
+  "subject": "VIT_ENOL",
+  "courseNumber": 311,
+  "courseName": "Viticulture I",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/V%20E/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Viticulture I</b>  Fall viticulture theory and practices including identification and utilization of rootstocks, wine grapes, and wild species; grape species taxonomy and diversity; breeding efforts for grapevine improvement and clean plant material.  ",
+        "coursePrerequisites": " BIOLOGY 106 or 120; SOIL SCI 201; VIT ENOL 113; VIT ENOL 280.",
+        "instructors": [
+          {
+            "firstName": "Bhaskar",
+            "lastName": "Bondada",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

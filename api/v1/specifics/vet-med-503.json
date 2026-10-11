@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:49.099558+00:00",
+  "course": "vet-med-503",
+  "subject": "VET_MED",
+  "courseNumber": 503,
+  "courseName": "Case-based Learning in Veterinary Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Case-based Learning in Veterinary Pathology</b>  Principles of pathophysiology, infectious disease, laboratory diagnosis, zoonoses, and clinical diagnostic reasoning learned through the development of multistep teaching cases.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Jeff",
+            "lastName": "Abbott",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Rachel Marie",
+            "lastName": "Halsey",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

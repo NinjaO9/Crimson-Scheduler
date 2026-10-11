@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:35.974695+00:00",
+  "course": "kines-485",
+  "subject": "KINES",
+  "courseNumber": 485,
+  "courseName": "Kinesiology Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 Kinesiology Internship</b>  Supervised practicum in fitness or health agency or business. KINES 485 cannot be taken concurrently with other coursework. Students must comply with all internship policies and procedures.  S, F grading. ",
+        "coursePrerequisites": " Admitted to the major in Kinesiology; completed with a C or better all course work for the Kinesiology major; completion of all UCORE requirements.",
+        "instructors": [
+          {
+            "firstName": "Darryl",
+            "lastName": "Craig",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

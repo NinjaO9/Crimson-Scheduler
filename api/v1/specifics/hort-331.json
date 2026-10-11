@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:04.290202+00:00",
+  "course": "hort-331",
+  "subject": "HORT",
+  "courseNumber": 331,
+  "courseName": "Landscape Plant Installation and Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hort/331/1/false/true",
+      "response": {
+        "courseDescription": "<b>331 Landscape Plant Installation and Management</b>  Principles and practices for installation and management of interior and exterior landscapes; specifications, site preparation transplanting, growth control, problem diagnosis. Recommended preparation: BIOLOGY 106, BIOLOGY 107, BIOLOGY 120, HORT 202, HORT 231, or HORT 232.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Little",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

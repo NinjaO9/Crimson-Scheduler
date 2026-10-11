@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:10.006940+00:00",
+  "course": "bio-eng-310",
+  "subject": "BIO_ENG",
+  "courseNumber": 310,
+  "courseName": "Bioengineering Transport Phenomena",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Bioengineering Transport Phenomena</b>  Introduction and application of the concepts of momentum, mass, and thermal energy transport in the context of problems of interest in biology, medicine, and engineering.  ",
+        "coursePrerequisites": " BIO ENG 201 with a C or better; MATH 315 with a C or better; BIO ENG 210, with a C or better, or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Dmitri",
+            "lastName": "Tolkatchev",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

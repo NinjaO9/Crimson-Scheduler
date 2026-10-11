@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:26.110091+00:00",
+  "course": "me-220",
+  "subject": "ME",
+  "courseNumber": 220,
+  "courseName": "Materials Laboratory",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Materials Laboratory</b>  Mechanical behavior of materials and application to engineering structures.  ",
+        "coursePrerequisites": " CE 215 or concurrent enrollment, or MSE 202 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Yueqi",
+            "lastName": "Hu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

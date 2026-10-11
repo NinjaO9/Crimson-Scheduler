@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:08.387093+00:00",
+  "course": "mech-453",
+  "subject": "MECH",
+  "courseNumber": 453,
+  "courseName": "Sensor Technology",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/453/1/false/true",
+      "response": {
+        "courseDescription": "<b>453 Sensor Technology</b>  Operation principles of various sensors used in engineering practice and in many modern applications, sensor materials, sensor characteristics, ethical and data privacy in sensors, and emerging sensor applications and technologies.  ",
+        "coursePrerequisites": " MECH 215; MECH 304; PHYSICS 202.",
+        "instructors": [
+          {
+            "firstName": "Jong-Hoon",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

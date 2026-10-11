@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:20:41.250375+00:00",
+  "course": "biology-308",
+  "subject": "BIOLOGY",
+  "courseNumber": 308,
+  "courseName": "Marine Biology",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Biol/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 Marine Biology</b>  Introduction to the marine environment including oceanic, near-shore and estuarine communities of organisms and their roles and interactions.  ",
+        "coursePrerequisites": " BIOLOGY 106; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Berger",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

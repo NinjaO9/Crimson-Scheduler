@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:23.809364+00:00",
+  "course": "tch-lrn-411",
+  "subject": "TCH_LRN",
+  "courseNumber": 411,
+  "courseName": "Dual Language Teaching Methods and Materials",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Summer/2026/T%20%26%20L/411/1/false/true",
+      "response": {
+        "courseDescription": "<b>411 Dual Language Teaching Methods and Materials</b>  Approaches, methods, and materials across content areas for the bilingual classroom.  ",
+        "coursePrerequisites": " TCH LRN 333, 339, 410, or 413.",
+        "instructors": [
+          {
+            "firstName": "Eric",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

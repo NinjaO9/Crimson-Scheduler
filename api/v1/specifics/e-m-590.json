@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:48:33.200561+00:00",
+  "course": "e-m-590",
+  "subject": "E_M",
+  "courseNumber": 590,
+  "courseName": "Leading Design and Innovation",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Leading Design and Innovation</b>  Techniques and tools to optimize cost, quality, time to market, and to improve comprehensive product design, manufacturability and service components. Credit not granted for both E M 490 and E M 590.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jim",
+            "lastName": "Jones",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

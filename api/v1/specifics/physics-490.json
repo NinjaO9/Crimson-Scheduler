@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:17.254402+00:00",
+  "course": "physics-490",
+  "subject": "PHYSICS",
+  "courseNumber": 490,
+  "courseName": "Undergraduate Thesis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 [M] Undergraduate Thesis</b>  Preliminary thesis draft of a laboratory or library research experience, oral presentation, and final draft.  ",
+        "coursePrerequisites": " PHYSICS 489.",
+        "instructors": [
+          {
+            "firstName": "Steven",
+            "lastName": "Tomsovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

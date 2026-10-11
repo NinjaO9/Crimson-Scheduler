@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:01.293388+00:00",
+  "course": "univ-490",
+  "subject": "UNIV",
+  "courseNumber": 490,
+  "courseName": "Global Leadership Experience",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Univs/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Global Leadership Experience</b>  Intensive or sustained experiential global learning through experiences such as education abroad or local intercultural activities.  S, F grading. ",
+        "coursePrerequisites": " Admitted to the Global Leadership Certificate Program.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Plemons",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

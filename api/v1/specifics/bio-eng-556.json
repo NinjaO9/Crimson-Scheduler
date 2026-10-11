@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:12.838397+00:00",
+  "course": "bio-eng-556",
+  "subject": "BIO_ENG",
+  "courseNumber": 556,
+  "courseName": "Protein Bioengineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Protein Bioengineering</b>  Integrating molecular biology and engineering sciences to analyze, change, and design proteins' structure and function. Recommended preparation: Undergraduate cellular bioengineering and biochemical engineering. Credit not granted for both BIO ENG 456 and 556.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alla",
+            "lastName": "Kostyukova",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

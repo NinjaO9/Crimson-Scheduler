@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:06.282435+00:00",
+  "course": "mech-314",
+  "subject": "MECH",
+  "courseNumber": 314,
+  "courseName": "Machine Design I",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/314/1/false/true",
+      "response": {
+        "courseDescription": "<b>314 Machine Design I</b>  Design process, factor of safety, stress-deformation, combined stresses, curved members; deformation analysis, static and fatigue failure theories; design of mechanical elements, stress analysis and finite elements; shafts and coupling design.  ",
+        "coursePrerequisites": " MECH 215; MECH 309; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Hamid",
+            "lastName": "Rad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

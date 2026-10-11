@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:25.505727+00:00",
+  "course": "tch-lrn-466",
+  "subject": "TCH_LRN",
+  "courseNumber": 466,
+  "courseName": "Secondary Methods of Educational Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/466/1/false/true",
+      "response": {
+        "courseDescription": "<b>466 Secondary Methods of Educational Technology</b>  Integration of technologies for teaching and learning within the 9-12 classrooms; hands-on development of technology enhanced activities and lessons.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (secondary education).",
+        "instructors": [
+          {
+            "firstName": "Seyed Abdollah",
+            "lastName": "Shahrokni",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

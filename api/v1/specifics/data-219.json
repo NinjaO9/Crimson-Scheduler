@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:27.668268+00:00",
+  "course": "data-219",
+  "subject": "DATA",
+  "courseNumber": 219,
+  "courseName": "Data Structures for Data Analytics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/219/1/false/true",
+      "response": {
+        "courseDescription": "<b>219 Data Structures for Data Analytics</b>  Programming techniques including data structures, sorting and searching, object-oriented design, and an introduction to algorithmic analysis.  ",
+        "coursePrerequisites": " CPT S 121, CPT S 131, CS 121 or DATA 122 or concurrent enrollment; DATA 115 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Yin",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:18.322600+00:00",
+  "course": "pharmacy-530",
+  "subject": "PHARMACY",
+  "courseNumber": 530,
+  "courseName": "Point of Care and Clinical Services",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Point of Care and Clinical Services</b>  Providing point of care and clinical services in a pharmacy setting.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Julie",
+            "lastName": "Akers",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Jennifer",
+            "lastName": "Robinson",
+            "isPrimary": true,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

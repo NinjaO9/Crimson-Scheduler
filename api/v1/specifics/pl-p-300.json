@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:20.694079+00:00",
+  "course": "pl-p-300",
+  "subject": "PL_P",
+  "courseNumber": 300,
+  "courseName": "Diseases of Fruit Crops",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pl%20P/300/1/false/true",
+      "response": {
+        "courseDescription": "<b>300 Diseases of Fruit Crops</b>  Comprehensive understanding of the diseases of fruit crops grown in the state of Washington.  ",
+        "coursePrerequisites": " BIOLOGY 120, HORT 310, or HORT 313.",
+        "instructors": [
+          {
+            "firstName": "Naidu",
+            "lastName": "Rayapati",
+            "isPrimary": true,
+            "tchEffort": 98
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

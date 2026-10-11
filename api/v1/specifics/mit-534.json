@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:12.752341+00:00",
+  "course": "mit-534",
+  "subject": "MIT",
+  "courseNumber": 534,
+  "courseName": "Elementary School Science Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MIT/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Elementary School Science Methods</b>  Theoretical base to design and implement appropriate standards-based elementary science instruction.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Melissa",
+            "lastName": "Pearcy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

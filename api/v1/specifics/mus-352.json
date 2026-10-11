@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:15.611820+00:00",
+  "course": "mus-352",
+  "subject": "MUS",
+  "courseNumber": 352,
+  "courseName": "Applied Theory III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/352/1/false/true",
+      "response": {
+        "courseDescription": "<b>352 Applied Theory III</b>  Continued musical development in ear training, sight singing, applied theory, keyboard dictation.  ",
+        "coursePrerequisites": " MUS 164 with a C or better; MUS 253 with a C or better; MUS 254 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Turnbull",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

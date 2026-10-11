@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:28:19.396560+00:00",
+  "course": "com-421",
+  "subject": "COM",
+  "courseNumber": 421,
+  "courseName": "Intercultural Communication and Globalization",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/421/2/false/true",
+      "response": {
+        "courseDescription": "<b>421 Intercultural Communication and Globalization</b>  How global processes shape intercultural communication and how globalization is understood, advanced, and opposed by different groups.  ",
+        "coursePrerequisites": " Admitted to any major; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Lawrence",
+            "lastName": "Pintak",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sultana Ismet",
+            "lastName": "Jerin",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

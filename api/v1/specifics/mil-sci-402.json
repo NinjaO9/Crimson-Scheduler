@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:11.808719+00:00",
+  "course": "mil-sci-402",
+  "subject": "MIL_SCI",
+  "courseNumber": 402,
+  "courseName": "Advanced Military Management and Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mil%20S/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 Advanced Military Management and Practicum</b>  Theory and practice of Army administration/management; staff planning and correspondence; pre-commission orientation; unit management/resources application.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

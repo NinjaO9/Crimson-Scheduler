@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:43.408851+00:00",
+  "course": "anth-500",
+  "subject": "ANTH",
+  "courseNumber": 500,
+  "courseName": "Field Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Anth/500/1/false/true",
+      "response": {
+        "courseDescription": "<b>500 Field Methods</b>  Training in gathering and analyzing field data.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

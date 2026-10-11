@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:08.550852+00:00",
+  "course": "ed-ad-583",
+  "subject": "ED_AD",
+  "courseNumber": 583,
+  "courseName": "Community and Communications",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/Ed%20Ad/583/1/false/true",
+      "response": {
+        "courseDescription": "<b>583 Community and Communications</b>  Social, political, and economic relationships between education and the community; methods of public polling and campaign strategy techniques.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kathleen",
+            "lastName": "Cowin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:09.892958+00:00",
+  "course": "aero-201",
+  "subject": "AERO",
+  "courseNumber": 201,
+  "courseName": "Team and Leadership Fundamentals I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Aero/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Team and Leadership Fundamentals I</b>  Fundamental principles of leadership, followership, team building, and accountability within the military; develops communication skills.  ",
+        "coursePrerequisites": " Concurrent enrollment in AERO 203 required; AERO 101 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Friedrich",
+            "lastName": "Martin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

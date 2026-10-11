@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:15.517485+00:00",
+  "course": "crop-sci-503",
+  "subject": "CROP_SCI",
+  "courseNumber": 503,
+  "courseName": "Advanced Cropping Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CropS/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Advanced Cropping Systems</b>  Understanding the management of constraints to crop production and quality; biological, physical, and chemical approaches to crop health management. Field trips required. Recommended preparation: CROP SCI 305; PL P 429. (Crosslisted course offered as CROP SCI 403, CROP SCI 503, PL P 403, PL P 503.)  Credit not granted for both CROP SCI 403 and 503, or PL P 403 and 503. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Haly",
+            "lastName": "Neely",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

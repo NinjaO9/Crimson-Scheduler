@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:22.648725+00:00",
+  "course": "soe-441",
+  "subject": "SOE",
+  "courseNumber": 441,
+  "courseName": "Population Ecology and Conservation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/441/1/false/true",
+      "response": {
+        "courseDescription": "<b>441 Population Ecology and Conservation</b>  Ecology, conservation, management of vertebrate populations, especially threatened and endangered species; designed for wildlife and conservation biology majors.  ",
+        "coursePrerequisites": " BIOLOGY 372 or SOE 300 with a C or better in either; SOE 435 with a C or better; STAT 212 with a C or better and concurrent enrollment in STAT 412, or STAT 412 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Brian",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

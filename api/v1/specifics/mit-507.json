@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:11.449148+00:00",
+  "course": "mit-507",
+  "subject": "MIT",
+  "courseNumber": 507,
+  "courseName": "Teacher Inquiry and Praxis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MIT/507/1/false/true",
+      "response": {
+        "courseDescription": "<b>507 Teacher Inquiry and Praxis</b>  Exploration and development of teacher research strategies; concepts for producing knowledge and empowerment enabling teachers to challenge social norms that perpetuate inequality and marginalization.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Lupinacci",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

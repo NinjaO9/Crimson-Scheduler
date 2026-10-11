@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:42.860367+00:00",
+  "course": "german-203",
+  "subject": "GERMAN",
+  "courseNumber": 203,
+  "courseName": "Third Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ger/203/1/false/true",
+      "response": {
+        "courseDescription": "<b>203 Third Semester</b>  Further development of speaking, listening, reading, and writing skills. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " GERMAN 102 with a C or better, or WSU language placement exam score of 3 or higher.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

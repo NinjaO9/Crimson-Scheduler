@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:20.714400+00:00",
+  "course": "tch-lrn-305",
+  "subject": "TCH_LRN",
+  "courseNumber": 305,
+  "courseName": "Fundamentals of Instruction",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/T%20%26%20L/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Fundamentals of Instruction</b>  Introduction to lesson and unit plans, state standards, instructional models, and basic strategies for using and integrating technology.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Slavit",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

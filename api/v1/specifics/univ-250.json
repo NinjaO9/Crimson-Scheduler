@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:31.406915+00:00",
+  "course": "univ-250",
+  "subject": "UNIV",
+  "courseNumber": 250,
+  "courseName": "Success in College and Beyond",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Univs/250/1/false/true",
+      "response": {
+        "courseDescription": "<b>250 Success in College and Beyond</b>  Academic skills and strategies that are critical for college success and personal growth.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nicole",
+            "lastName": "Hess",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

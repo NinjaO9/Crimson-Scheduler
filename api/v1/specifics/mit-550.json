@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:13.322756+00:00",
+  "course": "mit-550",
+  "subject": "MIT",
+  "courseNumber": 550,
+  "courseName": "Seminar in Middle Level Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/MIT/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Seminar in Middle Level Education</b>  Research on organizational structures, curriculum, instructional approaches, and materials for contemporary middle grade schools.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Tariq",
+            "lastName": "Akmal",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

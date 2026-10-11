@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:44.670955+00:00",
+  "course": "data-498",
+  "subject": "DATA",
+  "courseNumber": 498,
+  "courseName": "Internship",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 Internship</b> May be repeated for credit; cumulative maximum 6 hours. Experiential learning and career development through professional practice.  S, F grading. ",
+        "coursePrerequisites": "  By department permission; admitted to the major in Data Analytics; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Sergey",
+            "lastName": "Lapin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:06.539638+00:00",
+  "course": "fin-438",
+  "subject": "FIN",
+  "courseNumber": 438,
+  "courseName": "Cougar Investment Fund II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fin/438/1/false/true",
+      "response": {
+        "courseDescription": "<b>438 Cougar Investment Fund II</b>  Students manage a portion of the university's endowment. Topics include portfolio risk management, return attribution, private equity, and hedge funds.  ",
+        "coursePrerequisites": " FIN 427 or 437 with a C or better; admitted to a major or minor in the College of Business, or the major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Mario",
+            "lastName": "Reyes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

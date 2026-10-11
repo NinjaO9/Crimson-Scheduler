@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:28.241180+00:00",
+  "course": "tch-lrn-550",
+  "subject": "TCH_LRN",
+  "courseNumber": 550,
+  "courseName": "Second Language Learning and Literacy",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/T%20%26%20L/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Second Language Learning and Literacy</b>  Research on second language teaching and learning in literacy education with a focus on English language learners in US schools.  ",
+        "coursePrerequisites": " Admission to a graduate program.",
+        "instructors": [
+          {
+            "firstName": "Yuliya",
+            "lastName": "Ardasheva",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

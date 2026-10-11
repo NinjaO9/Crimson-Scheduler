@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:36.701673+00:00",
+  "course": "ce-402",
+  "subject": "CE",
+  "courseNumber": 402,
+  "courseName": "Applied Meteorology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 Applied Meteorology</b>  Atmospheric physical behavior across spatial scales linking concepts of meteorological phenomena to engineering design principles. Credit not granted for both CE 402 and CE 502. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 172 or 182; 4 credits of PHYSICS 201, or PHYSICS 201 and 211, or PHYSICS 205; admitted to any major.",
+        "instructors": [
+          {
+            "firstName": "Heping",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:56.124361+00:00",
+  "course": "neurosci-430",
+  "subject": "NEUROSCI",
+  "courseNumber": 430,
+  "courseName": "Principles of Neurophysiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 [M] Principles of Neurophysiology</b>  Advanced exploration of the principles underlying cellular, sensory, motor and integrative functions of the nervous system.  Recommended preparation: previous or concurrent enrollment in PHYSICS 102 and 112, or PHYSICS 202 and 212, or PHYSICS 206.  ",
+        "coursePrerequisites": "  NEUROSCI 301 or PSYCH 372.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Peters",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

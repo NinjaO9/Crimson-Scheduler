@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:45.202275+00:00",
+  "course": "chem-517",
+  "subject": "CHEM",
+  "courseNumber": 517,
+  "courseName": "Chromatography",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/517/1/false/true",
+      "response": {
+        "courseDescription": "<b>517 Chromatography</b>  Survey of major forms of chromatography, operating principles of common chromatographic detectors, and current case studies. Recommended preparation: CHEM 425 or equivalent.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Brian",
+            "lastName": "Clowers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

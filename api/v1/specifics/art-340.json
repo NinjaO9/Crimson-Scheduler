@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:48.554643+00:00",
+  "course": "art-340",
+  "subject": "ART",
+  "courseNumber": 340,
+  "courseName": "Ceramics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/340/1/false/true",
+      "response": {
+        "courseDescription": "<b>340 Ceramics</b> May be repeated for credit; cumulative maximum 9 hours. Hand building processes; glazing; firing.  ",
+        "coursePrerequisites": " ART 103 or 110.",
+        "instructors": [
+          {
+            "firstName": "Iolanda",
+            "lastName": "Palmer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:18.388317+00:00",
+  "course": "stat-544",
+  "subject": "STAT",
+  "courseNumber": 544,
+  "courseName": "Applied Stochastic Processes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Stat/544/1/false/true",
+      "response": {
+        "courseDescription": "<b>544 Applied Stochastic Processes</b>  Foundations of continuous time stochastic processes: Kolmogorov forward/backward equations, master equation; general introduction to stochastic calculus and stochastic differential equations; applications.  Recommended preparation: Undergraduate ordinary differential equations. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

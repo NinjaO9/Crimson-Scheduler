@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:38.841872+00:00",
+  "course": "anim-sci-240",
+  "subject": "ANIM_SCI",
+  "courseNumber": 240,
+  "courseName": "Introduction to Domestic Animal Anatomy and Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/240/1/false/true",
+      "response": {
+        "courseDescription": "<b>240 Introduction to Domestic Animal Anatomy and Physiology</b>  Fundamental knowledge, terminology and basic principles of domestic animal anatomy and physiology for future advanced courses. The major organ systems (e.g. muscle, skeletal, neural, endocrine, cardiovascular, respiratory, and renal) are covered with emphasis on comparative anatomy, integrated function, and homeostatic control mechanisms.  ",
+        "coursePrerequisites": " ANIM SCI 101; BIOLOGY 106.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "Davenport",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

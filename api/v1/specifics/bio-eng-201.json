@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:09.537038+00:00",
+  "course": "bio-eng-201",
+  "subject": "BIO_ENG",
+  "courseNumber": 201,
+  "courseName": "Chemical Process Principles and Calculations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Chemical Process Principles and Calculations</b>  Fundamental concepts of chemical engineering; problem-solving techniques and applications in stoichiometry, material and energy balances, and phase equilibria.  (Crosslisted course offered as BIO ENG 201.)  ",
+        "coursePrerequisites": " CHE 110 with a C or better, or BIO ENG 140 with an S, or junior standing; CHEM 106 with a C or better or concurrent enrollment in CHEM 345 or 348; MATH 172 or 182 with a C or better, or concurrent enrollment in MATH 273 or 315.",
+        "instructors": [
+          {
+            "firstName": "Steven R.",
+            "lastName": "Saunders",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

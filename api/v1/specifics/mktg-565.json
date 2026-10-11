@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:29.465091+00:00",
+  "course": "mktg-565",
+  "subject": "MKTG",
+  "courseNumber": 565,
+  "courseName": "Seminar in Marketing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mktg/565/1/false/true",
+      "response": {
+        "courseDescription": "<b>565 Seminar in Marketing</b> May be repeated for credit; cumulative maximum 9 hours. Marketing structure and behavior from economic and behavioral perspectives; social evaluation and behavioral implications of marketing strategy.  ",
+        "coursePrerequisites": " Admission to the MBA program.",
+        "instructors": [
+          {
+            "firstName": "Jeff",
+            "lastName": "Joireman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

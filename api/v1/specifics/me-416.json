@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:28.913201+00:00",
+  "course": "me-416",
+  "subject": "ME",
+  "courseNumber": 416,
+  "courseName": "Mechanical Systems Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/416/1/false/true",
+      "response": {
+        "courseDescription": "<b>416 Mechanical Systems Design</b>  Integrative design in mechanical engineering; multidisciplinary design project considering both technical and non-technical contexts; organizational dynamics and communications.  ",
+        "coursePrerequisites": " ME major; ME 304; ME 316; ME 348; ME 415; sr standing; OR MSE major; MSE 320; MSE 413 or concurrent; one of MSE 331, 332, or 333; jr standing; OR MSE major; MSE 202 with a C; MSE 318 with a C; MSE 413 or concurrent; jr standing.",
+        "instructors": [
+          {
+            "firstName": "Xiaopeng",
+            "lastName": "Bi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

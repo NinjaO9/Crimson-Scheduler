@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:55.911220+00:00",
+  "course": "mus-488",
+  "subject": "MUS",
+  "courseNumber": 488,
+  "courseName": "Choral Methods and Materials I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/488/1/false/true",
+      "response": {
+        "courseDescription": "<b>488 Choral Methods and Materials I</b>  Preparation in the administration of choral programs from auditions to the selection and rehearsal of choral literature. Credit not granted for both MUS 488 and MUS 588.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Myers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

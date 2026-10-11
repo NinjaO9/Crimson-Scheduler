@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:42.947844+00:00",
+  "course": "i-d-525",
+  "subject": "I_D",
+  "courseNumber": 525,
+  "courseName": "Interior Design Graduate Studio I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/525/1/false/true",
+      "response": {
+        "courseDescription": "<b>525 Interior Design Graduate Studio I</b>  Graduate studio: application of advanced design theories, philosophies and research methodologies to enhance undergraduate design foundations through interdisciplinary studio experiences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Minyoung",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

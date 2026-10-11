@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:59.620701+00:00",
+  "course": "nurs-adv-505",
+  "subject": "NURS_ADV",
+  "courseNumber": 505,
+  "courseName": "Analytical Foundations for Practice Inquiry",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Analytical Foundations for Practice Inquiry</b>  Application of quantitative methods and statistics in current health care to review, describe, and interpret the language of research.  ",
+        "coursePrerequisites": " NURS ADV 503, NURS ADV 504, and admission to Nursing graduate program; or post-master's DNP program.",
+        "instructors": [
+          {
+            "firstName": "Anita",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Julie",
+            "lastName": "Postma",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

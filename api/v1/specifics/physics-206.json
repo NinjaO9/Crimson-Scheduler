@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:13.820178+00:00",
+  "course": "physics-206",
+  "subject": "PHYSICS",
+  "courseNumber": 206,
+  "courseName": "Physics for Scientists and Engineers II - Honors",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/206/1/false/true",
+      "response": {
+        "courseDescription": "<b>206 Physics for Scientists and Engineers II - Honors</b>  Calculus-based physics, honors section; electricity, magnetism, light, topics in modern physics.  ",
+        "coursePrerequisites": " 4 credits of PHYSICS 201 with a C or better, or PHYSICS 201 and 211 with a C or better, or PHYSICS 205 with a C or better; MATH 172 with a C or better or MATH 182 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Frederick",
+            "lastName": "Gittes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:09.664274+00:00",
+  "course": "nurs-fpc-408",
+  "subject": "NURS_FPC",
+  "courseNumber": 408,
+  "courseName": "Professional Development III: Leadership and Management",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/408/1/false/true",
+      "response": {
+        "courseDescription": "<b>408 Professional Development III: Leadership and Management</b>  Continuation of professional development series; focus on impact of leadership, management, and resource allocation on patient outcomes.  ",
+        "coursePrerequisites": " NURS FPC 308; NURS FPC 322; NURS FPC 324; NURS FPC 325.",
+        "instructors": [
+          {
+            "firstName": "Jamie",
+            "lastName": "McKinney",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Theresa",
+            "lastName": "Bowden",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

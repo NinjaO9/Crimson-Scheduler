@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:28.905105+00:00",
+  "course": "tch-lrn-584",
+  "subject": "TCH_LRN",
+  "courseNumber": 584,
+  "courseName": "Research in Teaching Mathematics and Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/584/1/false/true",
+      "response": {
+        "courseDescription": "<b>584 Research in Teaching Mathematics and Science</b>  Development of an understanding for the research literature that is particularly related to mathematics and science teaching.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Peng",
+            "lastName": "He",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

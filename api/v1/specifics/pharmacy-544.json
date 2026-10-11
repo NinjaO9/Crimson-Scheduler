@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:19.552283+00:00",
+  "course": "pharmacy-544",
+  "subject": "PHARMACY",
+  "courseNumber": 544,
+  "courseName": "Pharmacotherapy III",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/544/1/false/true",
+      "response": {
+        "courseDescription": "<b>544 Pharmacotherapy III</b>  Third in a sequence of courses that focuses on the clinical use of medications in the prevention, mitigation, or cure of disease.  ",
+        "coursePrerequisites": "  PHARMACY 534.",
+        "instructors": [
+          {
+            "firstName": "Alex",
+            "lastName": "Stumphauzer",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:02.797048+00:00",
+  "course": "vet-med-635",
+  "subject": "VET_MED",
+  "courseNumber": 635,
+  "courseName": "Preventive Medicine at Canine Center",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/635/1/false/true",
+      "response": {
+        "courseDescription": "<b>635 Preventive Medicine at Canine Center</b> May be repeated for credit; cumulative maximum 8 hours. Preventive medicine and management practices related to control of animal diseases at Canine Center, UI, Caldwell Idaho.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

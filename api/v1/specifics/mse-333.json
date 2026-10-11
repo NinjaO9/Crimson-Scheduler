@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:33.063745+00:00",
+  "course": "mse-333",
+  "subject": "MSE",
+  "courseNumber": 333,
+  "courseName": "Ceramic Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Ceramic Materials</b>  Processing, characteristics, microstructure, and properties of ceramic materials.  ",
+        "coursePrerequisites": " MSE 201 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Min Kyu",
+            "lastName": "Song",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Arezoo",
+            "lastName": "Zare",
+            "isPrimary": true,
+            "tchEffort": 60
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

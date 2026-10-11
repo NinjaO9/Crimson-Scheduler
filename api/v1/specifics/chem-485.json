@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:44.132322+00:00",
+  "course": "chem-485",
+  "subject": "CHEM",
+  "courseNumber": 485,
+  "courseName": "Senior Thesis in Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 [M] Senior Thesis in Chemistry</b>  Required capstone course for chemistry majors culminating in the development of a written research thesis.  ",
+        "coursePrerequisites": " Admitted to the major in Chemistry (BA or BS); senior standing.",
+        "instructors": [
+          {
+            "firstName": "Ivan",
+            "lastName": "Popov",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

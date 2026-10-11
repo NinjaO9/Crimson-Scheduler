@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:02.147428+00:00",
+  "course": "nurs-adv-523",
+  "subject": "NURS_ADV",
+  "courseNumber": 523,
+  "courseName": "Nursing Education: Curriculum Design",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/523/1/false/true",
+      "response": {
+        "courseDescription": "<b>523 Nursing Education: Curriculum Design</b>  Synthesis and application of adult learning theory and curriculum design models in academic and practice, including professional education standards, accreditation and regulatory processes, and competency-based education models in nursing education.  ",
+        "coursePrerequisites": " Admitted to Nursing graduate program or Nurse Educator Certificate Plan.",
+        "instructors": [
+          {
+            "firstName": "Denise",
+            "lastName": "Smart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:51.114447+00:00",
+  "course": "che-450",
+  "subject": "CHE",
+  "courseNumber": 450,
+  "courseName": "Chemical Process Analysis and Design I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Chemical Process Analysis and Design I</b>  Chemical engineering design; computer tools; safety and environmental constraints; cost and equipment optimization.  ",
+        "coursePrerequisites": " CHE 302, 321, 332, and 334 with a C or better; CHE 352 with a C or better or concurrent; ENGLISH 402 or 403 with a C or better or concurrent; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Colin",
+            "lastName": "Lehman-Chong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

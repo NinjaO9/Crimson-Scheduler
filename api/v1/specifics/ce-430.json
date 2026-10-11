@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:38.403696+00:00",
+  "course": "ce-430",
+  "subject": "CE",
+  "courseNumber": 430,
+  "courseName": "Analysis of Indeterminate Structures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Analysis of Indeterminate Structures</b>  Stiffness methods for the analysis of trusses, beams, and frames; matrix models; and computer applications. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 330 with a C or better; MATH 220; E E 221 or CE 321; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Haifeng",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

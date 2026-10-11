@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:10.961667+00:00",
+  "course": "mit-503",
+  "subject": "MIT",
+  "courseNumber": 503,
+  "courseName": "Theories of Learning and Development",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Summer/2026/MIT/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Theories of Learning and Development</b>  Theories of learning and development for K-12 teaching.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Slavit",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

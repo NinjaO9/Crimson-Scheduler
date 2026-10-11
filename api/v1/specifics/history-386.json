@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:22:47.961213+00:00",
+  "course": "history-386",
+  "subject": "HISTORY",
+  "courseNumber": 386,
+  "courseName": "World War II in Europe",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/386/2/false/true",
+      "response": {
+        "courseDescription": "<b>386 World War II in Europe</b>  Causes for war; military operations; economic mobilization; social and cultural change; occupation and resistance; the Holocaust; the legacy of war.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Raymond",
+            "lastName": "Sun",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

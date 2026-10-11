@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:16.545700+00:00",
+  "course": "english-341",
+  "subject": "ENGLISH",
+  "courseNumber": 341,
+  "courseName": "Indigenous Literature",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/341/1/false/true",
+      "response": {
+        "courseDescription": "<b>341 [M] Indigenous Literature</b>  Literature, by Indigenous authors and about Indigenous communities, reflecting on dominant images and counter-images, with emphasis on the 20th century. (Crosslisted course offered as CES 373, ENGLISH 341.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deanne",
+            "lastName": "Sparks",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

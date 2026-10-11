@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:39.576186+00:00",
+  "course": "anim-sci-274",
+  "subject": "ANIM_SCI",
+  "courseNumber": 274,
+  "courseName": "Beef Feedlot Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/274/1/false/true",
+      "response": {
+        "courseDescription": "<b>274 Beef Feedlot Systems</b>  Overview of feeding management, feed milling and batching, animal health, and economics of the commercial cattle feeding business. One 1-day field trip. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "KATIE",
+            "lastName": "SHIRA",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

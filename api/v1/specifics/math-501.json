@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:32.853078+00:00",
+  "course": "math-501",
+  "subject": "MATH",
+  "courseNumber": 501,
+  "courseName": "Real Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Real Analysis</b>  Metric spaces, convergence, continuous functions, infinite series, differentiation and integration of functions of one and several variables. Required preparation must include advanced calculus or real analysis.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Vixie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

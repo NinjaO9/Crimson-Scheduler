@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:19.362061+00:00",
+  "course": "physics-561",
+  "subject": "PHYSICS",
+  "courseNumber": 561,
+  "courseName": "Atomic and Molecular Physics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Atomic and Molecular Physics</b>  Physics of atoms and molecules using quantum theory. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yefeng",
+            "lastName": "Mei",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:37.422163+00:00",
+  "course": "nep-531",
+  "subject": "NEP",
+  "courseNumber": 531,
+  "courseName": "Agriculture, Food, Nutrition and Health Outcomes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/NEP/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Agriculture, Food, Nutrition and Health Outcomes</b>  Integrated overview of challenges and solutions related to human nutrition and health along the farm to fork and soil to societies continuums. Credit not granted for both NEP 431 and NEP 531.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Franck",
+            "lastName": "Carbonero",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

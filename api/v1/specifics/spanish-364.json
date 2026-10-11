@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:32.786367+00:00",
+  "course": "spanish-364",
+  "subject": "SPANISH",
+  "courseNumber": 364,
+  "courseName": "Spanish for Veterinarians",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Span/364/1/false/true",
+      "response": {
+        "courseDescription": "<b>364 Spanish for Veterinarians</b>  Spanish language and culture for veterinary professionals; client-veterinarian situations with specialized terms considering cultural aspects. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " SPANISH 306, 307, or 308 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Lopez-Lopez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

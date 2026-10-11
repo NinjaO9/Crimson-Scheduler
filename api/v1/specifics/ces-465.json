@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:48.366818+00:00",
+  "course": "ces-465",
+  "subject": "CES",
+  "courseNumber": 465,
+  "courseName": "Race, Science, and Society",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/CES/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 Race, Science, and Society</b>  Racial thinking in science tracing the impact of scientific racism on policy, popular thought and social movements.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Jeannie",
+            "lastName": "Shinozuka",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

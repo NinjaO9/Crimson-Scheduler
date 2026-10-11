@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:45.942191+00:00",
+  "course": "e-e-324",
+  "subject": "E_E",
+  "courseNumber": 324,
+  "courseName": "Fundamentals of Digital Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/324/1/false/true",
+      "response": {
+        "courseDescription": "<b>324 [M] Fundamentals of Digital Systems</b>  Design and analysis of synchronous sequential machines; module and bit-slice devices; alternative architectures; system-level design; asynchronous sequential machines.  ",
+        "coursePrerequisites": " E E 214 with a C or better; admitted to a major or minor in EECS, or major in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Clint",
+            "lastName": "Cole",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

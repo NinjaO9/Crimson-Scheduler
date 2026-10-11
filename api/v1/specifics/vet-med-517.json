@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:49.956259+00:00",
+  "course": "vet-med-517",
+  "subject": "VET_MED",
+  "courseNumber": 517,
+  "courseName": "Small Animal Applied Anatomy and Surgical Techniques",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/517/1/false/true",
+      "response": {
+        "courseDescription": "<b>517 Small Animal Applied Anatomy and Surgical Techniques</b>  Applied anatomy of small animals including surgical anatomy.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 512.",
+        "instructors": [
+          {
+            "firstName": "Bonnie",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jessica",
+            "lastName": "Bunch",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Karen",
+            "lastName": "Kline",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Natasha",
+            "lastName": "Hottmann",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Shana",
+            "lastName": "O'Marra",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Tina",
+            "lastName": "Owen",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

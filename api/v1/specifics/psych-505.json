@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:41.604131+00:00",
+  "course": "psych-505",
+  "subject": "PSYCH",
+  "courseNumber": 505,
+  "courseName": "Teaching of Psychology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Teaching of Psychology</b>  Problems and techniques related to teaching psychology.  S, F grading. ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Dee",
+            "lastName": "Posey",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

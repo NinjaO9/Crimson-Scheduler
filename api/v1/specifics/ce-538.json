@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:29.315568+00:00",
+  "course": "ce-538",
+  "subject": "CE",
+  "courseNumber": 538,
+  "courseName": "Earthquake Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/538/1/false/true",
+      "response": {
+        "courseDescription": "<b>538 Earthquake Engineering</b>  Seismology, size of earthquakes, seismic ground motion, seismic risk, behavior of structures subjected to earthquake loading seismic response spectra, seismic design codes, lateral force-resisting systems, detailing for inelastic seismic response.  Recommended preparation: CE 512. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 512.",
+        "instructors": [
+          {
+            "firstName": "Pouria",
+            "lastName": "Bahmani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:46.239693+00:00",
+  "course": "chem-537",
+  "subject": "CHEM",
+  "courseNumber": 537,
+  "courseName": "Advanced Topics in Physical Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Advanced Topics in Physical Chemistry</b> May be repeated for credit. Selected subjects; irreversible thermodynamics; chemical bonding; NMR; ligand field theory; x-ray diffraction; neutron diffraction. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ivan",
+            "lastName": "Popov",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

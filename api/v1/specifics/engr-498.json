@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:17.984208+00:00",
+  "course": "engr-498",
+  "subject": "ENGR",
+  "courseNumber": 498,
+  "courseName": "Special Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engr/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 Special Topics</b> May be repeated for credit; cumulative maximum 6 hours. Peer coordinator under the instructor of record for ENGR 101, 102, or 107; may include leadership role or development of a technical workshop.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Kimberlee",
+            "lastName": "Hughes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

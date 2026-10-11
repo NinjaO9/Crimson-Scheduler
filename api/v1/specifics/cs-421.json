@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:18.968448+00:00",
+  "course": "cs-421",
+  "subject": "CS",
+  "courseNumber": 421,
+  "courseName": "Software Design Project II",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 Software Design Project II</b>  Large-scale software development in a team environment; software design and implementation, project management, testing and integration; teamwork skills, communication, source code management, documentation and presentations. Continuation and completion of CS 420 project.  ",
+        "coursePrerequisites": " CS 420 with a C or better; admitted to the major in Computer Science; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Xinghui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

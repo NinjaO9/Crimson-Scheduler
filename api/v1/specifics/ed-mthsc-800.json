@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:10.662837+00:00",
+  "course": "ed-mthsc-800",
+  "subject": "ED_MTHSC",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MTHSC/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  S, U grading. ",
+        "coursePrerequisites": " Admitted to the Mathematics/Science Education PhD program.",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Roth McDuffie",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Andy",
+            "lastName": "Cavagnetto",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "David",
+            "lastName": "Slavit",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kristin",
+            "lastName": "Lesseig",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Molly",
+            "lastName": "Kelton",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Peng",
+            "lastName": "He",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Tingting",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

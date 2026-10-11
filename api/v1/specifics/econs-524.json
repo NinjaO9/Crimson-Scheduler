@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:33.519523+00:00",
+  "course": "econs-524",
+  "subject": "ECONS",
+  "courseNumber": 524,
+  "courseName": "Applied Machine Learning for Economics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/524/1/false/true",
+      "response": {
+        "courseDescription": "<b>524 Applied Machine Learning for Economics</b>  Introduction to machine learning algorithms and concepts; supervised and unsupervised learning methods; foundational theory and application to data; statistical and computational methods. Recommended preparation: linear algebra, calculus, and statistics with calculus. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jia",
+            "lastName": "Yan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

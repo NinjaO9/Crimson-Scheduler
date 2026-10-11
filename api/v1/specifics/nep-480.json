@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:35.599784+00:00",
+  "course": "nep-480",
+  "subject": "NEP",
+  "courseNumber": 480,
+  "courseName": "Cardiopulmonary Rehabilitation",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Cardiopulmonary Rehabilitation</b>  Principles and applications of exercise assessment/prescription and nutrition recommendations and program management to cardiopulmonary and rehabilitation situations and populations.  ",
+        "coursePrerequisites": " NEP 435; NEP 463; NEP 476; NEP 478; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

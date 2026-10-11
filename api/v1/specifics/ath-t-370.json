@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:53.532491+00:00",
+  "course": "ath-t-370",
+  "subject": "ATH_T",
+  "courseNumber": 370,
+  "courseName": "Injury Pathologies of the Lower Extremity",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Injury Pathologies of the Lower Extremity</b>  Analyze and differentiate the varying pathological aspects of athletic injuries of the lower extremity including common signs and symptoms.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Piekarski",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

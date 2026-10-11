@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:07.935422+00:00",
+  "course": "nurs-fpc-315",
+  "subject": "NURS_FPC",
+  "courseNumber": 315,
+  "courseName": "Nursing Practice: Health and Illness",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Nursing Practice: Health and Illness</b>  Introduction to nursing practice and health assessment: professional values, core competencies, core knowledge and role development.  S, F grading. ",
+        "coursePrerequisites": " Concurrent enrollment in NURS FPC 316 and NURS FPC 317; admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Rosana",
+            "lastName": "Brooks",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

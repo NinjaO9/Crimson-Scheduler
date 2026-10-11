@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:28.356250+00:00",
+  "course": "ag-ed-431",
+  "subject": "AG_ED",
+  "courseNumber": 431,
+  "courseName": "Applied Instructional Strategies in Agricultural Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ag%20Ed/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Applied Instructional Strategies in Agricultural Education</b>  Introduction to agriculture, food, and natural resource systems, and strategies for reinforcing core academics in secondary education. Leads to CASE certification in AFNR.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

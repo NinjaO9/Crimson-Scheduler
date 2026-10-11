@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:21.475443+00:00",
+  "course": "hbm-105",
+  "subject": "HBM",
+  "courseNumber": 105,
+  "courseName": "Navigating Business Careers",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/HBM/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Navigating Business Careers</b>  Establish and clarify major/career goals through career assessments and research on job expectations, employment trends, and essential skills; develop actionable goals and plans to enhance career success; focus on professional development, including the hiring process, resume/cover letter writing, interview strategies, networking, and online branding. Credit not granted for HBM 105 if credit is already earned in both of B A 102 and HBM 101.  ",
+        "coursePrerequisites": " B A 100 or concurrent enrollment or admitted to a major or minor in the College of Business. Enrollment not allowed if credit already earned in both B A 102 and HBM 101.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "McLeod",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

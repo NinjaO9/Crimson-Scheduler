@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:16.849980+00:00",
+  "course": "pharmacy-501",
+  "subject": "PHARMACY",
+  "courseNumber": 501,
+  "courseName": "Applied Patient Care I: Patient Assessment",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Applied Patient Care I: Patient Assessment</b>  Laboratory course teaching hands-on physical assessment techniques from a pharmacy perspective, to provide patient-specific care.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Taylor",
+            "lastName": "Bertsch",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

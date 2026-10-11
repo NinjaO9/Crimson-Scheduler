@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:05.497181+00:00",
+  "course": "soe-320",
+  "subject": "SOE",
+  "courseNumber": 320,
+  "courseName": "Rivers, Reefs, and the Sedimentary Record",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Rivers, Reefs, and the Sedimentary Record</b>  How sedimentary rocks are formed through different processes and what they can tell us about climate and tectonic histories. Field trip required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Jess",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

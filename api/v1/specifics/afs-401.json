@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:12.421816+00:00",
+  "course": "afs-401",
+  "subject": "AFS",
+  "courseNumber": 401,
+  "courseName": "Advanced Systems Analysis and Design in Agricultural and Food Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/AFS/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 [M] Advanced Systems Analysis and Design in Agricultural and Food Systems</b>  Problem solving methodologies as applied to integrated agricultural systems analysis and design problems; strong emphasis on teamwork.  ",
+        "coursePrerequisites": " AFS 201; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Holly",
+            "lastName": "Henning",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

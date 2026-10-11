@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:31.281256+00:00",
+  "course": "biomdsci-556",
+  "subject": "BIOMDSCI",
+  "courseNumber": 556,
+  "courseName": "Bacterial Virulence Mechanisms",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BIOMS/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Bacterial Virulence Mechanisms</b>  Introduction to the diversity of molecular bacterial mechanisms that contribute to virulence in human and/or veterinary diseases. Typically offered Fall.  ",
+        "coursePrerequisites": " Enrollment in the Immunology and Infectious Disease PhD program.",
+        "instructors": [
+          {
+            "firstName": "Jason",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

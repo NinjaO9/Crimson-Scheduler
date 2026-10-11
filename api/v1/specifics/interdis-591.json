@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:44.793651+00:00",
+  "course": "interdis-591",
+  "subject": "INTERDIS",
+  "courseNumber": 591,
+  "courseName": "Interdisciplinary Studies",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Univ/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Interdisciplinary Studies</b>  Contemporary issues in interdisciplinary education and research. Open to all interested students.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Arvin",
+            "lastName": "Sahaym",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

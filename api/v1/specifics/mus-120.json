@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:36.433210+00:00",
+  "course": "mus-120",
+  "subject": "MUS",
+  "courseNumber": 120,
+  "courseName": "Class Guitar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/120/1/false/true",
+      "response": {
+        "courseDescription": "<b>120 Class Guitar</b>  Class instruction on basic guitar; repertoire will be selected from classical, jazz, rock, pop, fusion, and world music.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "CÃ©sar",
+            "lastName": "Haas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

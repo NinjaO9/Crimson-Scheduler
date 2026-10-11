@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:17.640458+00:00",
+  "course": "cs-261",
+  "subject": "CS",
+  "courseNumber": 261,
+  "courseName": "C and Assembly Language Programming",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/261/1/false/true",
+      "response": {
+        "courseDescription": "<b>261 C and Assembly Language Programming</b>  C language concepts, professional practices and C programming; module linkage; assembly language concepts and programming.  ",
+        "coursePrerequisites": " CS 122 with a C or better.  Enrollment not allowed it credit already earned for CS 251.",
+        "instructors": [
+          {
+            "firstName": "Farhana",
+            "lastName": "Kabir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

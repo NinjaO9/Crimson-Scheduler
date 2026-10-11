@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:11.373287+00:00",
+  "course": "nurs-fpc-427",
+  "subject": "NURS_FPC",
+  "courseNumber": 427,
+  "courseName": "Community Health Nursing Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 Community Health Nursing Practice</b>  Promoting the public's health through application of the public health functions; assessment, policy development, and assurance.  S, F grading. ",
+        "coursePrerequisites": " NURS FPC 408; NURS FPC 412; NURS FPC 414; NURS FPC 415; NURS FPC 416; NURS FPC 417; concurrent enrollment in NURS FPC 426.",
+        "instructors": [
+          {
+            "firstName": "Andrea",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:27.238638+00:00",
+  "course": "cpt-s-466",
+  "subject": "CPT_S",
+  "courseNumber": 466,
+  "courseName": "Embedded Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/466/1/false/true",
+      "response": {
+        "courseDescription": "<b>466 Embedded Systems</b>  The design and development of real-time and dedicated software systems with an introduction to sensors and actuators. Credit not granted for both CPT S 466 and CPT S 566. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CPT S 360 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ganapati",
+            "lastName": "Bhat",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

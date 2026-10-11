@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:18.427773+00:00",
+  "course": "nep-340",
+  "subject": "NEP",
+  "courseNumber": 340,
+  "courseName": "Essentials of Food Preparation for Health Sciences",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/340/1/false/true",
+      "response": {
+        "courseDescription": "<b>340 Essentials of Food Preparation for Health Sciences</b>  Experimental approach to physical, chemical and sensory properties of foods; overview of culinary techniques, technology and application to physical activity.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, or the Master of Science in Coordinated Program in Dietetics, Nutrition, and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Kelli",
+            "lastName": "Frederick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

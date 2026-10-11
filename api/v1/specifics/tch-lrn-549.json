@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:28.059576+00:00",
+  "course": "tch-lrn-549",
+  "subject": "TCH_LRN",
+  "courseNumber": 549,
+  "courseName": "Communication in a Multilingual World",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Summer/2026/T%20%26%20L/549/1/false/true",
+      "response": {
+        "courseDescription": "<b>549 Communication in a Multilingual World</b>  Study of language in social and educational context and its relation to cultural and linguistic diversity. Recommended preparation: TCH LRN 510.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jonah",
+            "lastName": "Firestone",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Sarah",
+            "lastName": "Newcomer",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:44.893006+00:00",
+  "course": "e-e-234",
+  "subject": "E_E",
+  "courseNumber": 234,
+  "courseName": "Microprocessor Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/234/1/false/true",
+      "response": {
+        "courseDescription": "<b>234 Microprocessor Systems</b>  Microprocessor system architecture, instruction sets, and interfacing; assembly language programming.  ",
+        "coursePrerequisites": " CPT S 121 with a C or better; E E 214 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

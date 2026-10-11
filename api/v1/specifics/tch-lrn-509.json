@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:27.012302+00:00",
+  "course": "tch-lrn-509",
+  "subject": "TCH_LRN",
+  "courseNumber": 509,
+  "courseName": "Research in Curriculum and Assessment for Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/T%20%26%20L/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Research in Curriculum and Assessment for Multilingual Education</b>  Research in curriculum development for and assessment of language minority students. Recommended preparation: TCH LRN 510; TCH LRN 549.Â  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Omran",
+            "lastName": "Akasha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

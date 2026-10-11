@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:02.074670+00:00",
+  "course": "shs-479",
+  "subject": "SHS",
+  "courseNumber": 479,
+  "courseName": "Neuroanatomy",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/479/1/false/true",
+      "response": {
+        "courseDescription": "<b>479 Neuroanatomy</b>  Neuroanatomical and neurophysiological bases of speech production and audition; neuropathologies of speech, language, and audition.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Jenson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

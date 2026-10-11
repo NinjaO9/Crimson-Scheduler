@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:10.588236+00:00",
+  "course": "nurs-fpc-416",
+  "subject": "NURS_FPC",
+  "courseNumber": 416,
+  "courseName": "Childbearing Health of the Family",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/416/1/false/true",
+      "response": {
+        "courseDescription": "<b>416 Childbearing Health of the Family</b>  Care of childbearing families within the context of community; newborn health, and men's and women's reproductive health addressed.  ",
+        "coursePrerequisites": " NURS FPC 308; NURS FPC 322; NURS FPC 324; NURS FPC 325; concurrent enrollment in NURS FPC 417.",
+        "instructors": [
+          {
+            "firstName": "Bev",
+            "lastName": "Mayfield",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Cindy",
+            "lastName": "Brigham-Althoff",
+            "isPrimary": true,
+            "tchEffort": 70
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

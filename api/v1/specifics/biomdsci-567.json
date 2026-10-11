@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:31.895515+00:00",
+  "course": "biomdsci-567",
+  "subject": "BIOMDSCI",
+  "courseNumber": 567,
+  "courseName": "Mechanisms and Applications of Virology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BIOMS/567/1/false/true",
+      "response": {
+        "courseDescription": "<b>567 Mechanisms and Applications of Virology</b>  An examination of primary research centered around an ever-growing list of contemporary viral threats to provide a comprehensive understanding of advanced virology and its real-world implications.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Letko",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:43.185145+00:00",
+  "course": "psych-518",
+  "subject": "PSYCH",
+  "courseNumber": 518,
+  "courseName": "Lifespan Developmental Psychology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 Lifespan Developmental Psychology</b>  Study of continuity and change from infancy through senescence, with an emphasis on a biopsychosocial perspective and an interdisciplinary approach to the principles of development.  ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Chang",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

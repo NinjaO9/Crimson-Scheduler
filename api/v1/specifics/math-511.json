@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:33.464214+00:00",
+  "course": "math-511",
+  "subject": "MATH",
+  "courseNumber": 511,
+  "courseName": "Advanced Linear Algebra",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Advanced Linear Algebra</b>  Spectral theory, Schur's theorem, normality, Jordan canonical forms, hermitian matrices, variational inequalities, matrix norms, eigenvalue localization, matrix perturbation theory. Required preparation must include second level undergraduate linear algebra. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Tsatsomeros",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

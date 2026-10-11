@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:02.876564+00:00",
+  "course": "entom-460",
+  "subject": "ENTOM",
+  "courseNumber": 460,
+  "courseName": "Biotechnology and the Environment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entom/460/1/false/true",
+      "response": {
+        "courseDescription": "<b>460 Biotechnology and the Environment</b>  Benefits, regulations, and human and environmental impacts of biotechnology used for crop protection, agricultural and energy production, and environmental remediation and management. (Crosslisted course offered as ENTOM 460, SOE 460.)  ",
+        "coursePrerequisites": " BIOLOGY 106, 107, or 120; 3 credit hours CHEM.",
+        "instructors": [
+          {
+            "firstName": "Allan",
+            "lastName": "Felsot",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

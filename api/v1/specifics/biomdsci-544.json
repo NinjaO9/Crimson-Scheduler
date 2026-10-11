@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:30.947678+00:00",
+  "course": "biomdsci-544",
+  "subject": "BIOMDSCI",
+  "courseNumber": 544,
+  "courseName": "Fundamentals of Proposal Writing and Oral Presentations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BIOMS/544/1/false/true",
+      "response": {
+        "courseDescription": "<b>544 Fundamentals of Proposal Writing and Oral Presentations</b>  Enhancement of scholarly competencies in written and oral scientific communication, particularly as they apply to the development of biomedical research and scientific research grant proposals.  ",
+        "coursePrerequisites": " BIOMDSCI 563.",
+        "instructors": [
+          {
+            "firstName": "Massaro",
+            "lastName": "Ueti",
+            "isPrimary": true,
+            "tchEffort": 15
+          },
+          {
+            "firstName": "Pilar",
+            "lastName": "Fernandez",
+            "isPrimary": true,
+            "tchEffort": 15
+          },
+          {
+            "firstName": "Anders",
+            "lastName": "Omsland",
+            "isPrimary": true,
+            "tchEffort": 30
+          },
+          {
+            "firstName": "Mohammad",
+            "lastName": "Islam",
+            "isPrimary": true,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

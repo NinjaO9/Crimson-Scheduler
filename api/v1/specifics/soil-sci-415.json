@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:29.971963+00:00",
+  "course": "soil-sci-415",
+  "subject": "SOIL_SCI",
+  "courseNumber": 415,
+  "courseName": "Environmental Biophysics Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SoilS/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Environmental Biophysics Laboratory</b>  Experimental methods and procedures in environmental measurements; temperature, wind, radiation, and humidity measurements in biological environments. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " SOIL SCI 414 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Colin",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Leo",
+            "lastName": "Rivera",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

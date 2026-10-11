@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:19.878942+00:00",
+  "course": "stat-591",
+  "subject": "STAT",
+  "courseNumber": 591,
+  "courseName": "Seminar in Statistics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Stat/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Seminar in Statistics</b> May be repeated for credit; cumulative maximum 10 hours. Current research in statistics. Cooperative: Open to UI degree-seeking students. S, F grading. ",
+        "coursePrerequisites": " Graduate student in the Department of Mathematics and Statistics.",
+        "instructors": [
+          {
+            "firstName": "Harry",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:50.484805+00:00",
+  "course": "sdc-120",
+  "subject": "SDC",
+  "courseNumber": 120,
+  "courseName": "Foundational Drawing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SDC/120/1/false/true",
+      "response": {
+        "courseDescription": "<b>120 Foundational Drawing</b>  Development of skills relating to drawing 2D and 3D objects, one and two point perspective as well as orthographic projection.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Marti",
+            "lastName": "Cowan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

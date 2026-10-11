@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:54.689459+00:00",
+  "course": "ath-t-575",
+  "subject": "ATH_T",
+  "courseNumber": 575,
+  "courseName": "Pharmacology in Athletic Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Ath%20T/575/1/false/true",
+      "response": {
+        "courseDescription": "<b>575 Pharmacology in Athletic Training</b>  Etiology, pathogenesis, clinical manifestations of common human dysfunction; athletic training implications for prevention and therapeutic approaches including pharmacologic therapies.  ",
+        "coursePrerequisites": " Admitted to the MAT program.",
+        "instructors": [
+          {
+            "firstName": "Katy",
+            "lastName": "Pietz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

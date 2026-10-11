@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:25.882369+00:00",
+  "course": "chem-220",
+  "subject": "CHEM",
+  "courseNumber": 220,
+  "courseName": "Quantitative Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Quantitative Analysis</b>  Theories of quantitative chemical analysis; statistical evaluation of data; chemical equilibrium; volumetric and gravimetric methods of analysis; introduction to electrochemistry.  ",
+        "coursePrerequisites": " CHEM 106 or 116.",
+        "instructors": [
+          {
+            "firstName": "Alexander",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Christian",
+            "lastName": "Wentzell",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

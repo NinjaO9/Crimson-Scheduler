@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:13.924233+00:00",
+  "course": "agtm-201",
+  "subject": "AGTM",
+  "courseNumber": 201,
+  "courseName": "Metal Fabrication",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Metal Fabrication</b>  Theory, applications, and practices of welding, machining, and associated techniques in fabricating with metals.  (Crosslisted course offered as AGTM 201, ENGR 201.)  ",
+        "coursePrerequisites": "Credit not granted for students who have already completed AGTM/ENGR 202, 203, or 204.",
+        "instructors": [
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

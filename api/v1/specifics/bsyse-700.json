@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:33.559800+00:00",
+  "course": "bsyse-700",
+  "subject": "BSYSE",
+  "courseNumber": 700,
+  "courseName": "Master's Research, Thesis, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BSysE/700/1/false/true",
+      "response": {
+        "courseDescription": "<b>700 Master's Research, Thesis, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their master's research, thesis and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 700 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ani",
+            "lastName": "Jayakaran",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Joan",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kirti",
+            "lastName": "Rajagopalan",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Lav",
+            "lastName": "Khot",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Manuel",
+            "lastName": "Garcia-Perez",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Shulin",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sindhuja",
+            "lastName": "Sankaran",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

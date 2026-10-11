@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:54.686137+00:00",
+  "course": "mgtop-215",
+  "subject": "MGTOP",
+  "courseNumber": 215,
+  "courseName": "Business Statistics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MgtOp/215/1/false/true",
+      "response": {
+        "courseDescription": "<b>215 Business Statistics</b>  Data presentation, probability, distributions, inferences, and linear regression as applied to business and economics.  ",
+        "coursePrerequisites": " MATH 201, 202, 106, 140, 171, 172, 220, or ALEKS score of 80%; B A 204 or 212, or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Sung",
+            "lastName": "Ahn",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

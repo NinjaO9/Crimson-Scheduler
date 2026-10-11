@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:05.922190+00:00",
+  "course": "ece-471",
+  "subject": "ECE",
+  "courseNumber": 471,
+  "courseName": "Antenna Design and Analysis",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/471/1/false/true",
+      "response": {
+        "courseDescription": "<b>471 Antenna Design and Analysis</b>  Antenna types and radiation, wire antennas, antenna arrays broadband and aperture antennas; theory and simulation of antenna performance.  ",
+        "coursePrerequisites": " ECE 370.",
+        "instructors": [
+          {
+            "firstName": "Tutku",
+            "lastName": "Karacolak",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

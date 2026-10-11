@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:09.985491+00:00",
+  "course": "biology-418",
+  "subject": "BIOLOGY",
+  "courseNumber": 418,
+  "courseName": "Parasitology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/418/1/false/true",
+      "response": {
+        "courseDescription": "<b>418 Parasitology</b>  Types of associations, life cycles, control, prevention, and modifications of parasites; examination of parasitic protozoa and helminths.  ",
+        "coursePrerequisites": " BIOLOGY 102 or BIOLOGY 106; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Nii",
+            "lastName": "Ankrah",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:13.494352+00:00",
+  "course": "mit-551",
+  "subject": "MIT",
+  "courseNumber": 551,
+  "courseName": "Literacy within the Disciplines",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MIT/551/1/false/true",
+      "response": {
+        "courseDescription": "<b>551 Literacy within the Disciplines</b>  Explores literacy research and practices that enhance the learning of various disciplines taught in K-12 settings.  (Crosslisted course offered as TCH LRN 528, MIT 551.) Credit not allowed for students who have earned credit for TCH LRN 428.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hannah",
+            "lastName": "Nelson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

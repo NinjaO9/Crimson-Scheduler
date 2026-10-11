@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:19.714738+00:00",
+  "course": "pharmacy-545",
+  "subject": "PHARMACY",
+  "courseNumber": 545,
+  "courseName": "Pharmacy Management",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/545/1/false/true",
+      "response": {
+        "courseDescription": "<b>545 Pharmacy Management</b>  Management principles essential for common practice settings in the profession of pharmacy.  ",
+        "coursePrerequisites": "  PHARMACY 516.",
+        "instructors": [
+          {
+            "firstName": "Nicole",
+            "lastName": "Rodin",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

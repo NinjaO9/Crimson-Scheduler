@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:48.492000+00:00",
+  "course": "chinese-101",
+  "subject": "CHINESE",
+  "courseNumber": 101,
+  "courseName": "First Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chin/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 First Semester</b>  Fundamentals of speaking, listening, reading, and writing. Not open to native speakers except with permission. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Xinmin",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

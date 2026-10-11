@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:58.119088+00:00",
+  "course": "crm-j-555",
+  "subject": "CRM_J",
+  "courseNumber": 555,
+  "courseName": "Seminar in Criminological Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Crm%20J/555/1/false/true",
+      "response": {
+        "courseDescription": "<b>555 Seminar in Criminological Theory</b>  Individual, situational and ecological correlates of criminal behavior; data sources and empirical research.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cortney",
+            "lastName": "Franklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

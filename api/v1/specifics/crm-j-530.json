@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:57.802344+00:00",
+  "course": "crm-j-530",
+  "subject": "CRM_J",
+  "courseNumber": 530,
+  "courseName": "Criminal Justice: Process and Institutions",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Crm%20J/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Criminal Justice: Process and Institutions</b>  Processes of criminal justice in the context of the social, political, and economic environments. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Makin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

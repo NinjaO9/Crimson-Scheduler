@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:49.449184+00:00",
+  "course": "vet-med-511",
+  "subject": "VET_MED",
+  "courseNumber": 511,
+  "courseName": "Veterinary Anatomy I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Veterinary Anatomy I</b>  Detailed macroscopic functional morphology of the dog with comparison to other domestic animals; developmental anatomy of selected organ systems.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Steve",
+            "lastName": "Lampa",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

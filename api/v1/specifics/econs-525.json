@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:33.682485+00:00",
+  "course": "econs-525",
+  "subject": "ECONS",
+  "courseNumber": 525,
+  "courseName": "Master's Econometrics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/525/1/false/true",
+      "response": {
+        "courseDescription": "<b>525 Master's Econometrics</b>  Theory and practice of multiple regression methods; applications to the study of economic and other phenomena; use of computer regression programs.  Required preparation must include introductory statistics course. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "H Alan",
+            "lastName": "Love",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

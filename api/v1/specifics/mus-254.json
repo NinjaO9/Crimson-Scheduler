@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:11.321979+00:00",
+  "course": "mus-254",
+  "subject": "MUS",
+  "courseNumber": 254,
+  "courseName": "Applied Theory II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/254/1/false/true",
+      "response": {
+        "courseDescription": "<b>254 Applied Theory II</b>  Ear training, sight singing, keyboard.  ",
+        "coursePrerequisites": " MUS 251 with a C or better; MUS 252 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "Rice",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:30.688320+00:00",
+  "course": "me-474",
+  "subject": "ME",
+  "courseNumber": 474,
+  "courseName": "Design for Manufacture and Modern Manufacturing Strategies",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/M%20E/474/1/false/true",
+      "response": {
+        "courseDescription": "<b>474 Design for Manufacture and Modern Manufacturing Strategies</b>  Design for manufacture and assembly; modern manufacturing philosophies and practices; lean manufacturing; manufacturing cost and time analysis; quality control. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " ME 310 or 312.",
+        "instructors": [
+          {
+            "firstName": "Arda",
+            "lastName": "Gozen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

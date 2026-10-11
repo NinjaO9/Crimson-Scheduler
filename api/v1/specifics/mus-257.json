@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:11.713458+00:00",
+  "course": "mus-257",
+  "subject": "MUS",
+  "courseNumber": 257,
+  "courseName": "Applied Jazz Theory and Improvisation I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/257/1/false/true",
+      "response": {
+        "courseDescription": "<b>257 Applied Jazz Theory and Improvisation I</b>  Applied study of fundamental jazz theory and improvisation concepts including rhythms, four-part chords, modes of the major scale, ii-V7-I progression, harmonic minor scale, guidetones, 12-bar blues form, and blues scales.  ",
+        "coursePrerequisites": " MUS 251 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "CÃ©sar",
+            "lastName": "Haas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

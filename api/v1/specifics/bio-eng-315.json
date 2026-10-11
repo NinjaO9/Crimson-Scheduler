@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:10.172244+00:00",
+  "course": "bio-eng-315",
+  "subject": "BIO_ENG",
+  "courseNumber": 315,
+  "courseName": "Thermodynamics and Kinetics in Biological Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Thermodynamics and Kinetics in Biological Systems</b>  Fundamental concepts and laws, property relationships, coupled phenomena, as well as theoretical modeling and experimental analysis applied to biological processes and regulation.  ",
+        "coursePrerequisites": " BIO ENG 201 with a C or better; BIO ENG 210 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Wenji",
+            "lastName": "Dong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

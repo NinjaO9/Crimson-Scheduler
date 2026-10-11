@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:50.967422+00:00",
+  "course": "sdc-300",
+  "subject": "SDC",
+  "courseNumber": 300,
+  "courseName": "Fabrication Lab Practice",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SDC/300/1/false/true",
+      "response": {
+        "courseDescription": "<b>300 Fabrication Lab Practice</b>  Hands-on exploration of School of Design and Construction shop facilities. Students complete a small project while learning safe and efficient use of woodshop machines and hand tools.  ",
+        "coursePrerequisites": " Admitted to the major in Architectural Studies, Interior Design, Landscape Architecture, or Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Terry",
+            "lastName": "Olson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

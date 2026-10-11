@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:19.086314+00:00",
+  "course": "comjour-487",
+  "subject": "COMJOUR",
+  "courseNumber": 487,
+  "courseName": "Sports Journalism",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComJo/487/1/false/true",
+      "response": {
+        "courseDescription": "<b>487 Sports Journalism</b>  Writing-intensive course with a focus on writing, reporting, and coverage of sports; students cover sporting events, conduct interviews, and attend news conferences outside of class.  ",
+        "coursePrerequisites": " COM 300 with a C or better; admitted to a major or minor in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Wendy",
+            "lastName": "Raney",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:49.794769+00:00",
+  "course": "vet-med-513",
+  "subject": "VET_MED",
+  "courseNumber": 513,
+  "courseName": "Veterinary Physiology I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/513/1/false/true",
+      "response": {
+        "courseDescription": "<b>513 Veterinary Physiology I</b>  Cell physiology focusing on endocrine, paracrine, and neurotransmission signaling processes, transcriptional and translational control, and methodologies relevant to medicine.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Meighan",
+            "isPrimary": true,
+            "tchEffort": 89
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

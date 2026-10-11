@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:18.316762+00:00",
+  "course": "amdt-314",
+  "subject": "AMDT",
+  "courseNumber": 314,
+  "courseName": "Fashion Forecasting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/314/1/false/true",
+      "response": {
+        "courseDescription": "<b>314 Fashion Forecasting</b>  Developing forecasting expertise needed to work in merchandising environment; examined through influences on acceptance and rejection of apparel/textile products; analysis of the forces such as socio-cultural indicators, past and present trends that influence existing trends, and the role of fashion forecasting theory and technique method in determining future trends in fashion and related industries.  ",
+        "coursePrerequisites": " AMDT 210; AMDT 221; AMDT 250; AMDT 268.",
+        "instructors": [
+          {
+            "firstName": "Jihyeong",
+            "lastName": "Son",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

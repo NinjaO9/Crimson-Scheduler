@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:06.887671+00:00",
+  "course": "fin-481",
+  "subject": "FIN",
+  "courseNumber": 481,
+  "courseName": "International Finance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fin/481/1/false/true",
+      "response": {
+        "courseDescription": "<b>481 [M] International Finance</b>  Financial management of multinational businesses; international financial market rates and capital flows. International economic institutions, sources of capital, and investments.  ",
+        "coursePrerequisites": " FIN 325 with a C or better; I BUS 380 with a C or better; admitted to a major or minor in the College of Business, or the major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Ming",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

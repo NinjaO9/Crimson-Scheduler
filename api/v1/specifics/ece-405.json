@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:04.940311+00:00",
+  "course": "ece-405",
+  "subject": "ECE",
+  "courseNumber": 405,
+  "courseName": "Professional Issues and Ethics in Electrical Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 [M] Professional Issues and Ethics in Electrical Engineering</b>  Social, legal and professional issues that arise in the context of electrical engineering.  ",
+        "coursePrerequisites": " ENGLISH 402; admitted to the major in Electrical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Aref",
+            "lastName": "Majdara",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

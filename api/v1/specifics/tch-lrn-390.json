@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:22.738318+00:00",
+  "course": "tch-lrn-390",
+  "subject": "TCH_LRN",
+  "courseNumber": 390,
+  "courseName": "Integrating Fine Arts into K-8 Curriculum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/390/1/false/true",
+      "response": {
+        "courseDescription": "<b>390 Integrating Fine Arts into K-8 Curriculum</b>  Integrating the range of fine arts (art, music, dance, drama) into K-8 curriculum; designed for preservice and inservice general K-8 teachers.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Harbour",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

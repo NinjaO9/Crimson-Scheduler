@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:00.689665+00:00",
+  "course": "shs-451",
+  "subject": "SHS",
+  "courseNumber": 451,
+  "courseName": "Neurogenic Communication Disorders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/451/1/false/true",
+      "response": {
+        "courseDescription": "<b>451 Neurogenic Communication Disorders</b>  Introduction to the etiology, assessment and intervention of communication disorders associated with neurological disorders.  ",
+        "coursePrerequisites": " SHS 479.",
+        "instructors": [
+          {
+            "firstName": "Olivia",
+            "lastName": "Vruwink",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

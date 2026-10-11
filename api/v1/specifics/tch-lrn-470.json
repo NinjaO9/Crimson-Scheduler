@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:26.028598+00:00",
+  "course": "tch-lrn-470",
+  "subject": "TCH_LRN",
+  "courseNumber": 470,
+  "courseName": "Special Education, Transition, and Classroom Management for Secondary General Education Teachers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/470/1/false/true",
+      "response": {
+        "courseDescription": "<b>470 Special Education, Transition, and Classroom Management for Secondary General Education Teachers</b>  Overview of special education topics, transition practices, and classroom management techniques for general education classrooms.  ",
+        "coursePrerequisites": " TCH LRN 317; TCH LRN 464; TCH LRN 465; for candidates admitted to teacher education (secondary education).",
+        "instructors": [
+          {
+            "firstName": "Marcus",
+            "lastName": "Poppen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

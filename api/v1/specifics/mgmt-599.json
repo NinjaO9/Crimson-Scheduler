@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:54.347503+00:00",
+  "course": "mgmt-599",
+  "subject": "MGMT",
+  "courseNumber": 599,
+  "courseName": "Seminar in Management (Organizational Behavior)",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MGMT/599/1/false/true",
+      "response": {
+        "courseDescription": "<b>599 Seminar in Management (Organizational Behavior)</b>  Advanced doctoral-level topics in organizational behavior.  ",
+        "coursePrerequisites": " Admission to PhD programs in business.",
+        "instructors": [
+          {
+            "firstName": "Jeremy",
+            "lastName": "Beus",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

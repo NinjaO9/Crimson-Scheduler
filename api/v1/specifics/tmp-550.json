@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:30.277751+00:00",
+  "course": "tmp-550",
+  "subject": "TMP",
+  "courseNumber": 550,
+  "courseName": "Biochemistry for the Health Sciences",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/TMP/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Biochemistry for the Health Sciences</b>  Human health and health-related principles taught at the biochemical level, including intermediary metabolism, proteins, medical nutrition, and gene expression.  ",
+        "coursePrerequisites": " Admitted to a WSU graduate program in Health Sciences.",
+        "instructors": [
+          {
+            "firstName": "Franck",
+            "lastName": "Carbonero",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

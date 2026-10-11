@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:15.270485+00:00",
+  "course": "phardsci-519",
+  "subject": "PHARDSCI",
+  "courseNumber": 519,
+  "courseName": "Pharmaceutics Laboratory",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRSC/519/1/false/true",
+      "response": {
+        "courseDescription": "<b>519 Pharmaceutics Laboratory</b>  Laboratory experience in the preparation of medicines.  ",
+        "coursePrerequisites": "  PHARDSCI 504; PHARDSCI 508.",
+        "instructors": [
+          {
+            "firstName": "Ayesha",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 80
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

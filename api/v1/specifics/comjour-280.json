@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:31:47.611176+00:00",
+  "course": "comjour-280",
+  "subject": "COMJOUR",
+  "courseNumber": 280,
+  "courseName": "Introduction to Photojournalism",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ComJo/280/2/false/true",
+      "response": {
+        "courseDescription": "<b>280 Introduction to Photojournalism</b>  The history and practice of photojournalism and its impact on society; evolving technology, styles, and ethics of documentary photography and the role of visual storytelling in our understanding of news events.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Collier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:59.195852+00:00",
+  "course": "crop-sci-102",
+  "subject": "CROP_SCI",
+  "courseNumber": 102,
+  "courseName": "Introduction to Cultivated Plants",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/CropS/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Introduction to Cultivated Plants</b>  Exploring cultivated plant classification and morphology, crop reproduction, basic plant processes, and the biotic and abiotic factors which can influence these processes. (Crosslisted course offered as HORT 102, CROP SCI 102.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amber",
+            "lastName": "Hauvermale",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Mike",
+            "lastName": "Pumphrey",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

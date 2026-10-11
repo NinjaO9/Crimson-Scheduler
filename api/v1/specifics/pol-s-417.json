@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:53:20.333147+00:00",
+  "course": "pol-s-417",
+  "subject": "POL_S",
+  "courseNumber": 417,
+  "courseName": "Voting and Elections",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/417/1/false/true",
+      "response": {
+        "courseDescription": "<b>417 Voting and Elections</b>  Analysis of voting behavior and elections; turnout, influences on voter choice, congressional and presidential elections, campaign finance, and polling.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Ritter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

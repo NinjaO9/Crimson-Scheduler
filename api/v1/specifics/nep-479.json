@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:35.448588+00:00",
+  "course": "nep-479",
+  "subject": "NEP",
+  "courseNumber": 479,
+  "courseName": "Nutrition and Exercise Practicum I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/479/1/false/true",
+      "response": {
+        "courseDescription": "<b>479 Nutrition and Exercise Practicum I</b>  Supervised experience in applying exercise and nutrition assessment techniques and developing exercise and nutrition prescription for normal and diseased subjects.  ",
+        "coursePrerequisites": " NEP 427; NEP 435; NEP 476; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Larsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

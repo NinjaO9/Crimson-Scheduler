@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:07:45.405449+00:00",
+  "course": "shs-377",
+  "subject": "SHS",
+  "courseNumber": 377,
+  "courseName": "Anatomy/Physiology of Speech and Swallowing Mechanisms",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/377/1/false/true",
+      "response": {
+        "courseDescription": "<b>377 Anatomy/Physiology of Speech and Swallowing Mechanisms</b>  Anatomical and physiological basis of speech production and the pathologies and aberrations that require the services of a communication disorders specialist.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Meredith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

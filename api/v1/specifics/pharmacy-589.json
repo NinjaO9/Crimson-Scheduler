@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:23.924971+00:00",
+  "course": "pharmacy-589",
+  "subject": "PHARMACY",
+  "courseNumber": 589,
+  "courseName": "Special Topics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/589/1/false/true",
+      "response": {
+        "courseDescription": "<b>589 Special Topics</b> May be repeated for credit; cumulative maximum 10 hours. Contemporary issues in pharmacy.  S, F grading. ",
+        "coursePrerequisites": " Admission to Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Megan",
+            "lastName": "Undeberg",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

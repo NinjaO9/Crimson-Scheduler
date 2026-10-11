@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:11.051210+00:00",
+  "course": "aero-412",
+  "subject": "AERO",
+  "courseNumber": 412,
+  "courseName": "National Security, Leadership, and Commissioning Preparation II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Aero/412/1/false/true",
+      "response": {
+        "courseDescription": "<b>412 National Security, Leadership, and Commissioning Preparation II</b>  National security, regional studies, ethics, and doctrine; discusses military profession, justice, communications, and active-duty preparation.  ",
+        "coursePrerequisites": " Concurrent enrollment in AERO 413 required; AERO 312.",
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Brunke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

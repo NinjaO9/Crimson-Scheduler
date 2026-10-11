@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:04.760483+00:00",
+  "course": "kin-actv-170",
+  "subject": "KIN_ACTV",
+  "courseNumber": 170,
+  "courseName": "Women's Self Defense",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/KNACT/170/1/false/true",
+      "response": {
+        "courseDescription": "<b>170 Women's Self Defense</b> May be repeated for credit; cumulative maximum 4 hours.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amanda",
+            "lastName": "Wangmo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

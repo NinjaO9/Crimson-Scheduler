@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:36.361920+00:00",
+  "course": "ce-351",
+  "subject": "CE",
+  "courseNumber": 351,
+  "courseName": "Water Resources Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/351/1/false/true",
+      "response": {
+        "courseDescription": "<b>351 Water Resources Engineering</b>  Application of fluid mechanics to hydraulic infrastructure, principles of open channel flow, and introduction to surface and ground water hydrology. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 315 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Adam",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

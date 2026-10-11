@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:55.150329+00:00",
+  "course": "neurosci-333",
+  "subject": "NEUROSCI",
+  "courseNumber": 333,
+  "courseName": "Techniques and Experimental Design in Neuroscience Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Techniques and Experimental Design in Neuroscience Research</b>  Representative modern neuroscience experiments are explored from a conceptual, technical, and design perspective.  ",
+        "coursePrerequisites": " NEUROSCI 301 or PSYCH 372.",
+        "instructors": [
+          {
+            "firstName": "R",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

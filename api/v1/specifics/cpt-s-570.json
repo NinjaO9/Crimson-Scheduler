@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:46.501974+00:00",
+  "course": "cpt-s-570",
+  "subject": "CPT_S",
+  "courseNumber": 570,
+  "courseName": "Machine Learning",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Machine Learning</b>  Introduction to building computer systems that learn from their experience; classification and regression problems; unsupervised and reinforcement learning.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nghia",
+            "lastName": "Hoang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

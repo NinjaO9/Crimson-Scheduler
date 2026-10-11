@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:12.163797+00:00",
+  "course": "soe-583",
+  "subject": "SOE",
+  "courseNumber": 583,
+  "courseName": "Radiogenic Isotopes and Geochronology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/583/1/false/true",
+      "response": {
+        "courseDescription": "<b>583 Radiogenic Isotopes and Geochronology</b>  Radiogenic isotopes and their uses as chronometers (radiometric dating) and as tracers of earth evolution and differentiation. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Vervoort",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

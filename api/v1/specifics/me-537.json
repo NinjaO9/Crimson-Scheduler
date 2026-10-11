@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:48.139607+00:00",
+  "course": "me-537",
+  "subject": "ME",
+  "courseNumber": 537,
+  "courseName": "Fracture Mechanics and Mechanisms",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/M%20E/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Fracture Mechanics and Mechanisms</b>  Fracture mechanics and mechanisms and the microstructural origins of toughness in metals, polymers and composites. (Crosslisted course offered as MSE 537, ME 537.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sinisa",
+            "lastName": "Mesarovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:26.062127+00:00",
+  "course": "chem-222",
+  "subject": "CHEM",
+  "courseNumber": 222,
+  "courseName": "Quantitative Analysis Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/222/1/false/true",
+      "response": {
+        "courseDescription": "<b>222 Quantitative Analysis Laboratory</b>  Application of classical methods in volumetric and gravimetric analysis; acid-base, redox and EDTA titrations; ion-exchange chromatography; introduction to spectrophotometry.  ",
+        "coursePrerequisites": " CHEM 220 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Alexander",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Christian",
+            "lastName": "Wentzell",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

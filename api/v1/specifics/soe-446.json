@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:37.461896+00:00",
+  "course": "soe-446",
+  "subject": "SOE",
+  "courseNumber": 446,
+  "courseName": "Wildlife Habitat Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/446/1/false/true",
+      "response": {
+        "courseDescription": "<b>446 [M] Wildlife Habitat Ecology</b>  The ecology of how wildlife use, respond to, and affect resources in their environment.  Field trip required.  ",
+        "coursePrerequisites": " SOIL SCI 368 or concurrent enrollment; STAT 212 or 412; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Shipley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

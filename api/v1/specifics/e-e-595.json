@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:50.969664+00:00",
+  "course": "e-e-595",
+  "subject": "E_E",
+  "courseNumber": 595,
+  "courseName": "Directed Study in Electrical Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/595/1/false/true",
+      "response": {
+        "courseDescription": "<b>595 Directed Study in Electrical Engineering</b> May be repeated for credit. Current topics in electrical engineering. (Crosslisted course offered as E E 595 and ECE 595.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Smitha",
+            "lastName": "Bose",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

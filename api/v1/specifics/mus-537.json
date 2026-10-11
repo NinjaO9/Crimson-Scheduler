@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:45:03.235691+00:00",
+  "course": "mus-537",
+  "subject": "MUS",
+  "courseNumber": 537,
+  "courseName": "Symphonic Wind Ensemble",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Symphonic Wind Ensemble</b> May be repeated for credit. Large ensemble; public performances each semester. Credit not granted for both MUS 437 and MUS 537.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Danh",
+            "lastName": "Pham",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:09.997408+00:00",
+  "course": "vit-enol-322",
+  "subject": "VIT_ENOL",
+  "courseNumber": 322,
+  "courseName": "Wine Fermentation and Production",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/V%20E/322/1/false/true",
+      "response": {
+        "courseDescription": "<b>322 Wine Fermentation and Production</b>  Principles and practices of wine fermentation and production.  ",
+        "coursePrerequisites": " CHEM 345; VIT ENOL 113.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Harbertson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

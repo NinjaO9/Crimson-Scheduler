@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:31.383741+00:00",
+  "course": "math-464",
+  "subject": "MATH",
+  "courseNumber": 464,
+  "courseName": "Linear Optimization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/464/1/false/true",
+      "response": {
+        "courseDescription": "<b>464 Linear Optimization</b>  Linear and integer programming; optimization problems; applications to economic and military strategies; rectangular games; minimax theory.  Recommended preparation: MATH 301.  ",
+        "coursePrerequisites": " MATH 273 or MATH 283; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Alexander",
+            "lastName": "Panchenko",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

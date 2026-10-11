@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:08.727021+00:00",
+  "course": "ed-ad-585",
+  "subject": "ED_AD",
+  "courseNumber": 585,
+  "courseName": "Financial Management in Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/Ed%20Ad/585/1/false/true",
+      "response": {
+        "courseDescription": "<b>585 Financial Management in Education</b>  Economics and financing of education; financial planning, budget development, investment analysis, bonding, cost effectiveness; current trends in educational finance. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Pete",
+            "lastName": "Perez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

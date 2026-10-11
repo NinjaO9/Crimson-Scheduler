@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:01.152236+00:00",
+  "course": "shs-461",
+  "subject": "SHS",
+  "courseNumber": 461,
+  "courseName": "Clinical Methods",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/461/1/false/true",
+      "response": {
+        "courseDescription": "<b>461 Clinical Methods</b>  Pre-practicum preparation; observation of and assisting in therapy; state laws; clinical methods.  ",
+        "coursePrerequisites": " Concurrent enrollment in SHS 480 or SHS 478.",
+        "instructors": [
+          {
+            "firstName": "Aimee",
+            "lastName": "Stormo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

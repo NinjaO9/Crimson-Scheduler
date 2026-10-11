@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:29.365276+00:00",
+  "course": "biology-582",
+  "subject": "BIOLOGY",
+  "courseNumber": 582,
+  "courseName": "Professional Communication in Biology - Grant Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/582/1/false/true",
+      "response": {
+        "courseDescription": "<b>582 Professional Communication in Biology - Grant Writing</b>  Mechanics and style of publishing biological research and findings; adaptation of writing to various venues and audiences with emphasis on grant writing.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Elissa",
+            "lastName": "Schwartz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

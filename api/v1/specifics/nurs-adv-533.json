@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:03.057384+00:00",
+  "course": "nurs-adv-533",
+  "subject": "NURS_ADV",
+  "courseNumber": 533,
+  "courseName": "Nursing Education: Teaching and Learning",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/533/1/false/true",
+      "response": {
+        "courseDescription": "<b>533 Nursing Education: Teaching and Learning</b>  Explores student-centered teaching and learning strategies that respond to diverse learning needs, innovative design, and an array of delivery methods across didactic and experiential settings.  ",
+        "coursePrerequisites": " NURS ADV 523.",
+        "instructors": [
+          {
+            "firstName": "Emily",
+            "lastName": "Davies",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

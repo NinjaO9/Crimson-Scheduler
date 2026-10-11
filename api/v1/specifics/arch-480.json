@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:12:17.073920+00:00",
+  "course": "arch-480",
+  "subject": "ARCH",
+  "courseNumber": 480,
+  "courseName": "Architecture Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Arch/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Architecture Internship</b> May be repeated for credit; cumulative maximum 16 hours. Placement in an approved industrial, professional, or governmental situation for specialized or general experience.  ",
+        "coursePrerequisites": " Admitted to the major in Architectural Studies or Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Hala",
+            "lastName": "Barakat",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Hutchison",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

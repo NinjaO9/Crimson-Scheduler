@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:54:05.652401+00:00",
+  "course": "pol-s-432",
+  "subject": "POL_S",
+  "courseNumber": 432,
+  "courseName": "Comparative Public Policy",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Pol%20S/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 [M] Comparative Public Policy</b>  Processes of public policy formation and outcomes in post-industrial democracies, and how to study these processes and outcomes with a comparative perspective.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Thiers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

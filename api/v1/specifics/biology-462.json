@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:11.260502+00:00",
+  "course": "biology-462",
+  "subject": "BIOLOGY",
+  "courseNumber": 462,
+  "courseName": "Community Ecology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/462/1/false/true",
+      "response": {
+        "courseDescription": "<b>462 Community Ecology</b>  Assembly, essential properties, levels of interactions, succession, and stability of natural communities; emphasizes an experimental approach to community investigation. Recommended preparation:  BIOLOGY 372. Credit not granted for both BIOLOGY 462 and BIOLOGY 562.  ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Jenny",
+            "lastName": "Zambrano",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

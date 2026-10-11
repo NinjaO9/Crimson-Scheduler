@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:19.205708+00:00",
+  "course": "pharmacy-541",
+  "subject": "PHARMACY",
+  "courseNumber": 541,
+  "courseName": "Applied Patient Care III: Medication Therapy Management",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/541/1/false/true",
+      "response": {
+        "courseDescription": "<b>541 Applied Patient Care III: Medication Therapy Management</b>  Identification of pertinent patient findings, assessment of drug-related problems and clinical problem solving.  ",
+        "coursePrerequisites": "  PHARMACY 544 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "McKeirnan",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:14.955921+00:00",
+  "course": "soil-sci-368",
+  "subject": "SOIL_SCI",
+  "courseNumber": 368,
+  "courseName": "Introduction to Geographic Information Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/SoilS/368/1/false/true",
+      "response": {
+        "courseDescription": "<b>368 Introduction to Geographic Information Systems</b>  Introduction to geographic information systems applied to landscape data; geographic coordinate systems and projections, make maps and use geodatabases.  ",
+        "coursePrerequisites": " 3 credits of [BSCI] or [PSCI] UCORE.",
+        "instructors": [
+          {
+            "firstName": "Leah",
+            "lastName": "Brueggeman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

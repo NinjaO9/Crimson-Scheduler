@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:13.298536+00:00",
+  "course": "english-501",
+  "subject": "ENGLISH",
+  "courseNumber": 501,
+  "courseName": "Seminar in the Teaching of Writing: Methodology of Composition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Seminar in the Teaching of Writing: Methodology of Composition</b>  Development of a workable definition of the methods of composing through a review of relevant research and problem-solving exercises.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Rachel",
+            "lastName": "Sanchez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:40.351687+00:00",
+  "course": "soe-491",
+  "subject": "SOE",
+  "courseNumber": 491,
+  "courseName": "Senior Seminar",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/SOE/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Senior Seminar</b>  Recommended preparation: Admission to a major in science, mathematics, or engineering.  ",
+        "coursePrerequisites": " Senior standing.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Berger",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

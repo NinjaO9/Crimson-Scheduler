@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:18.491187+00:00",
+  "course": "physics-534",
+  "subject": "PHYSICS",
+  "courseNumber": 534,
+  "courseName": "Thermal and Statistical Physics II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Thermal and Statistical Physics II</b>  Phase transitions and critical phenomena, Ginzburg-Landau theory, Bose-Einstein condensation, superfluids, Fermi systems, low-temperature expansions. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Kuzyk",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

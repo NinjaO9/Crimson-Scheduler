@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:21.608186+00:00",
+  "course": "mbios-405",
+  "subject": "MBIOS",
+  "courseNumber": 405,
+  "courseName": "Cell Biology of Disease",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Cell Biology of Disease</b>  Discussion of human diseases characterized by cell biological defects, using popular press and research articles as a source of information. Credit not granted for both MBIOS 405 and 505.  ",
+        "coursePrerequisites": " MBIOS 301; MBIOS 303.",
+        "instructors": [
+          {
+            "firstName": "Cynthia",
+            "lastName": "Cooper",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

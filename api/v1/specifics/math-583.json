@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:36.549491+00:00",
+  "course": "math-583",
+  "subject": "MATH",
+  "courseNumber": 583,
+  "courseName": "Topics in Applied Mathematics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/583/2/false/true",
+      "response": {
+        "courseDescription": "<b>583 Topics in Applied Mathematics</b> May be repeated for credit. Topics in applied mathematics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Vixie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

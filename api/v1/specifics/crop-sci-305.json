@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:59.681497+00:00",
+  "course": "crop-sci-305",
+  "subject": "CROP_SCI",
+  "courseNumber": 305,
+  "courseName": "Ecology and Management of Weeds",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CropS/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Ecology and Management of Weeds</b>  Weed ecology/management in crop and non-crop systems; weed growth/development, identification, weed control (chemical, mechanical, biological), and environmental issues  ",
+        "coursePrerequisites": " HORT 202 or AFS 201.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Landau",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

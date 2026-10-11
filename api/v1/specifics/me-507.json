@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:47.222934+00:00",
+  "course": "me-507",
+  "subject": "ME",
+  "courseNumber": 507,
+  "courseName": "Additive Manufacturing",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/M%20E/507/1/false/true",
+      "response": {
+        "courseDescription": "<b>507 Additive Manufacturing</b>  Additive manufacturing processes and their applications in ceramic, metallic, polymeric, and composite materials. Recommended preparation: Basic knowledge in materials science and manufacturing. (Crosslisted course offered as MSE 507, ME 507.) Cooperative: Open to UI degree-seeking students. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Che-Hao",
+            "lastName": "Yang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:39.271263+00:00",
+  "course": "i-d-197",
+  "subject": "I_D",
+  "courseNumber": 197,
+  "courseName": "Design Communication I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20D/197/2/false/true",
+      "response": {
+        "courseDescription": "<b>197 Design Communication I</b>  Beginning design communication skills, including manual and digital methods. Recommended preparation: I D 101.  ",
+        "coursePrerequisites": " Admitted to the major in Interior Design.",
+        "instructors": [
+          {
+            "firstName": "Laura",
+            "lastName": "Witham",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

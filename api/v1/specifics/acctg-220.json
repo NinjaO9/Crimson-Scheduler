@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:02:25.567914+00:00",
+  "course": "acctg-220",
+  "subject": "ACCTG",
+  "courseNumber": 220,
+  "courseName": "Introductory Accounting for Non-Business Majors",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Acctg/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Introductory Accounting for Non-Business Majors</b>  Survey of selected introductory financial and managerial accounting topics. Credit not granted if credit has been earned in ACCTG 230 and/or 231.  Does not substitute for either ACCTG 230 or ACCTG 231 for Business majors.  ",
+        "coursePrerequisites": " Enrollment not allowed if credit already earned for ACCTG 230 or 231.",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Barnes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

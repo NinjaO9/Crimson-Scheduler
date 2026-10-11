@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:11.880485+00:00",
+  "course": "afs-201",
+  "subject": "AFS",
+  "courseNumber": 201,
+  "courseName": "Systems Skills for Agricultural and Food Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/AFS/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Systems Skills for Agricultural and Food Systems</b>  Introduction to the foundational concepts and vocabulary of food systems, building skills and critical systems thinking.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Holly",
+            "lastName": "Henning",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:05.097755+00:00",
+  "course": "shs-566",
+  "subject": "SHS",
+  "courseNumber": 566,
+  "courseName": "Off-Campus Practicum Public School Setting",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/566/1/false/true",
+      "response": {
+        "courseDescription": "<b>566 Off-Campus Practicum Public School Setting</b> May be repeated for credit; cumulative maximum 15 hours. By departmental consent only; minimum grade of B in SHS 575 or a grade of S in SHS 566 or SHS 568 in the prior semester or summer term, and a minimum grade of C in all prior SHS graduate coursework. Advanced clinical practice in a public school setting; evaluation and treatment of speech, language, and hearing disorders. SHS graduate student; all undergraduate prerequisite courses completed.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dana",
+            "lastName": "Algeo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:12:46.946661+00:00",
+  "course": "arch-501",
+  "subject": "ARCH",
+  "courseNumber": 501,
+  "courseName": "Graduate Design Studio I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Graduate Design Studio I</b>  Advanced study of design problems relating to culture, environment, technology, urban planning, or other topics. Travel for site visit required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Minyoung",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:27.702843+00:00",
+  "course": "me-316",
+  "subject": "ME",
+  "courseNumber": 316,
+  "courseName": "Mechanical Component Analysis and Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/316/1/false/true",
+      "response": {
+        "courseDescription": "<b>316 Mechanical Component Analysis and Design</b>  Optimal design of machinery; analysis for prevention of machine elements failure.  ",
+        "coursePrerequisites": " CE 215; ME 216 or concurrent enrollment; ME 220 or concurrent enrollment; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Xiaopeng",
+            "lastName": "Bi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

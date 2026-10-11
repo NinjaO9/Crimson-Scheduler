@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:03.451166+00:00",
+  "course": "ece-251",
+  "subject": "ECE",
+  "courseNumber": 251,
+  "courseName": "Programming for Electrical Engineers",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/251/1/false/true",
+      "response": {
+        "courseDescription": "<b>251 Programming for Electrical Engineers</b>  Introduction to the C and MATLAB programming languages and application to engineering problem solving; data structures, input/output functions; flow control, and pointers in C; matrix operations, plots, and working with data files in MATLAB; laboratory use of integrated development environments and debugging tools.  ",
+        "coursePrerequisites": " MATH 108 or MATH 171 with a C or better; or concurrent enrollment in MATH 171; or minimum ALEKS math placement score of 78%.",
+        "instructors": [
+          {
+            "firstName": "Aref",
+            "lastName": "Majdara",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

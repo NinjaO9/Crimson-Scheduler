@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:10:54.587672+00:00",
+  "course": "h-d-315",
+  "subject": "H_D",
+  "courseNumber": 315,
+  "courseName": "Leadership Theories and Practice",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/H%20D/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Leadership Theories and Practice</b>  Theories and models of leadership from different disciplines, cultures, and periods of history; emphasis on active learning and real-world applications.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Whitehall",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

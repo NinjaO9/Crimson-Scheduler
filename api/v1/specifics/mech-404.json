@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:06.776955+00:00",
+  "course": "mech-404",
+  "subject": "MECH",
+  "courseNumber": 404,
+  "courseName": "Heat Transfer",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 Heat Transfer</b>  Fundamentals of conduction, convection, and radiation heat transfer; analytical, numerical, and empirical modeling for solids, liquids, and gases.  ",
+        "coursePrerequisites": " MATH 220; MATH 315; MECH 301; MECH 303; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Qin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

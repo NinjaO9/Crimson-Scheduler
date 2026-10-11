@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:56.649393+00:00",
+  "course": "mus-494",
+  "subject": "MUS",
+  "courseNumber": 494,
+  "courseName": "Percussion Techniques I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/494/1/false/true",
+      "response": {
+        "courseDescription": "<b>494 Percussion Techniques I</b>  Performance and pedagogy of percussion instruments for music educators.  ",
+        "coursePrerequisites": " MUS 190 if enrolled as music education major.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Wilson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

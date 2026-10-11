@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:07.689724+00:00",
+  "course": "vet-path-701",
+  "subject": "VET_PATH",
+  "courseNumber": 701,
+  "courseName": "Master's Independent Capstone Project and /or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Pa/701/1/false/true",
+      "response": {
+        "courseDescription": "<b>701 Master's Independent Capstone Project and /or Examination</b> May be repeated for credit. Capstone project or final examination for professional master's degree under the Graduate School. The credits will include a balloted evaluation of the student's completion of the program's capstone/examination requirements by the program's graduate faculty. Students must have graduate degree-seeking status and obtain approval from their major advisor/committee chair before enrolling for 701 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Wesley",
+            "lastName": "Sheley",
+            "isPrimary": true,
+            "tchEffort": 15
+          },
+          {
+            "firstName": "Kyle",
+            "lastName": "Taylor",
+            "isPrimary": true,
+            "tchEffort": 85
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:35.414283+00:00",
+  "course": "ce-320",
+  "subject": "CE",
+  "courseNumber": 320,
+  "courseName": "Construction Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Construction Materials</b>  Introduction to construction materials and their behaviors; characteristics of the primary materials used in civil engineering; steel, aluminum, Portland cement, admixtures, aggregates, Portland cement concrete, masonry, and wood; laboratory tests to evaluate the physical and mechanical properties of commonly used construction materials.  ",
+        "coursePrerequisites": " CE 211 with a C or better; CE 215 with a C or better; COM 400 or concurrent enrollment, or ENGLISH 402 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Jia",
+            "lastName": "Cheng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

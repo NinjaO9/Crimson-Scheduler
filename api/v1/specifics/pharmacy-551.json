@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:19.886386+00:00",
+  "course": "pharmacy-551",
+  "subject": "PHARMACY",
+  "courseNumber": 551,
+  "courseName": "Applied Patient Care IV: Advanced Medication Therapy Management",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/551/1/false/true",
+      "response": {
+        "courseDescription": "<b>551 Applied Patient Care IV: Advanced Medication Therapy Management</b>  Medication therapy management for complex patients; case-based discussions and human patient simulation.  ",
+        "coursePrerequisites": "  PHARMACY 554 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Lexie",
+            "lastName": "Powell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

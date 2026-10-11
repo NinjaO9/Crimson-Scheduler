@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:05.395448+00:00",
+  "course": "fin-350",
+  "subject": "FIN",
+  "courseNumber": 350,
+  "courseName": "Risk and Insurance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Risk and Insurance</b>  Concepts in risk management and insurance; personal risks and treatment methods; legal principles in risk and insurance; overview of the insurance industry, company operations, and insurance regulation.  ",
+        "coursePrerequisites": " FIN 325 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "McNamara",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

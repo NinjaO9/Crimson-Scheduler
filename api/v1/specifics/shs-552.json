@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:03.868961+00:00",
+  "course": "shs-552",
+  "subject": "SHS",
+  "courseNumber": 552,
+  "courseName": "Speech-Language Pathology and Audiology in Schools",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/552/1/false/true",
+      "response": {
+        "courseDescription": "<b>552 Speech-Language Pathology and Audiology in Schools</b>  Laws, policies, and ethical issues involved in providing speech-language and audiology services in public schools.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dana",
+            "lastName": "Algeo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:24.398557+00:00",
+  "course": "cpt-s-427",
+  "subject": "CPT_S",
+  "courseNumber": 427,
+  "courseName": "Cyber Security of Wireless and Distributed Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 Cyber Security of Wireless and Distributed Systems</b>  Cellular and wireless system security, incidence response cycles, fault tolerance, and distributed computer security.  ",
+        "coursePrerequisites": " CPT S 327 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Asma",
+            "lastName": "Jodeiri Akbarfam",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

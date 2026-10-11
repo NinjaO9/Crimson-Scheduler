@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:26.971808+00:00",
+  "course": "me-306",
+  "subject": "ME",
+  "courseNumber": 306,
+  "courseName": "Thermal and Fluids Laboratory",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/306/1/false/true",
+      "response": {
+        "courseDescription": "<b>306 Thermal and Fluids Laboratory</b>  Instrumentation, data acquisition, and theory verification in the thermal and fluid sciences.  ",
+        "coursePrerequisites": " ME 301; ME 303; STAT 370 or concurrent enrollment; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Yueqi",
+            "lastName": "Hu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:02.457306+00:00",
+  "course": "japanese-306",
+  "subject": "JAPANESE",
+  "courseNumber": 306,
+  "courseName": "Intermediate Reading and Translation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Japn/306/1/false/true",
+      "response": {
+        "courseDescription": "<b>306 Intermediate Reading and Translation</b>  Vocabulary building, contrastive English-Japanese expressions, development of skills of increase reading speed and fluency. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " JAPANESE 204 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Kayo",
+            "lastName": "Niimi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

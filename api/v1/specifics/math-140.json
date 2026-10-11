@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:31:25.736857+00:00",
+  "course": "math-140",
+  "subject": "MATH",
+  "courseNumber": 140,
+  "courseName": "Calculus for Life Scientists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/140/1/false/true",
+      "response": {
+        "courseDescription": "<b>140 Calculus for Life Scientists</b>  Differential and integral calculus with emphasis on life science applications. By department consent, credit may be allowed for two of MATH 140, 171, 202, or DATA 121.  ",
+        "coursePrerequisites": " MATH 106 with a C or better and MATH 108 with a C or better, or a minimum ALEKS math placement score of 80%.  Enrollment not allowed if credit already earned for MATH 171, 202 or DATA 121 except by department consent.",
+        "instructors": [
+          {
+            "firstName": "Cathryn",
+            "lastName": "Kenyon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

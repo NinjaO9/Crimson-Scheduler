@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:20.336559+00:00",
+  "course": "cs-452",
+  "subject": "CS",
+  "courseNumber": 452,
+  "courseName": "Compiler Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 Compiler Design</b>  Design of lexical analyzers, syntactic analyzers, intermediate code generators, code optimizers and object code generators.  ",
+        "coursePrerequisites": " CS 317 with a C or better; CS 355 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Farhana",
+            "lastName": "Kabir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

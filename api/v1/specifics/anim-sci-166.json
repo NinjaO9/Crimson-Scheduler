@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:38.007544+00:00",
+  "course": "anim-sci-166",
+  "subject": "ANIM_SCI",
+  "courseNumber": 166,
+  "courseName": "Horse Handling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/166/1/false/true",
+      "response": {
+        "courseDescription": "<b>166 Horse Handling</b>  Effective horse handling skills and techniques; safety for both horse and human will be emphasized and prioritized throughout the course.  S, F grading. ",
+        "coursePrerequisites": " ANIM SCI 101.",
+        "instructors": [
+          {
+            "firstName": "Angela",
+            "lastName": "Reitmeier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:20.033047+00:00",
+  "course": "entrp-426",
+  "subject": "ENTRP",
+  "courseNumber": 426,
+  "courseName": "Entrepreneurial Finance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entrp/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 Entrepreneurial Finance</b>  Raising capital for new enterprises; venture capital, IPOs, debt financing, leasing and valuing start-up ventures.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Asa",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

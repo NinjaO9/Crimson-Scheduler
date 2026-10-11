@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:27.357393+00:00",
+  "course": "data-121",
+  "subject": "DATA",
+  "courseNumber": 121,
+  "courseName": "Computational Calculus I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/121/1/false/true",
+      "response": {
+        "courseDescription": "<b>121 Computational Calculus I</b>  Introduction to calculus concepts such as limits, derivatives, and integrals with a focus on computational methods including the application of programing in hands on projects including numerical differentiation, integration, and Taylor series.  ",
+        "coursePrerequisites": " MATH 106 and MATH 108 with a C or better or a minimum ALEKS math placement score of 83%.",
+        "instructors": [
+          {
+            "firstName": "Yin",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

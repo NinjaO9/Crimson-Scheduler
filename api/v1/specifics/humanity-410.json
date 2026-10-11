@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:38.723540+00:00",
+  "course": "humanity-410",
+  "subject": "HUMANITY",
+  "courseNumber": 410,
+  "courseName": "Love in the Arts",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hum/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 Love in the Arts</b>  Concepts of love around the world and in history through literature, art, music, dance, and theater.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Rachel",
+            "lastName": "Sanchez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

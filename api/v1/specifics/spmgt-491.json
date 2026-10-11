@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:01.494514+00:00",
+  "course": "spmgt-491",
+  "subject": "SPMGT",
+  "courseNumber": 491,
+  "courseName": "Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Internship</b>  Supervised practicum in agency or business.  S, F grading. ",
+        "coursePrerequisites": " SPMGT 490; all graded sport management coursework must be complete, including SPMGT 464, 468, and 489; admitted to the major in Sport Management; cumulative minimum GPA 2.75.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Lebens",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:46.048928+00:00",
+  "course": "chem-534",
+  "subject": "CHEM",
+  "courseNumber": 534,
+  "courseName": "Chemical Statistical Mechanics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Chemical Statistical Mechanics</b>  Statistical theory of thermodynamic variables and chemical equilibrium; calculation of equilibrium properties from spectral data; fluctuations about equilibrium; quantum statistics.  ",
+        "coursePrerequisites": " CHEM 531 with a C or better or concurrent enrollment; CHEM 532 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Kerry",
+            "lastName": "Hipps",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

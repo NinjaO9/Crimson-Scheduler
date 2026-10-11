@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:09.793036+00:00",
+  "course": "mech-521",
+  "subject": "MECH",
+  "courseNumber": 521,
+  "courseName": "Advanced Fluid Mechanics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Advanced Fluid Mechanics</b>  Mass and momentum conservation equations, Navier-Stokes equations, compressible flows, inviscid-potential flows, advanced viscous flows including boundary layer numerical methods.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Stephen",
+            "lastName": "Solovitz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

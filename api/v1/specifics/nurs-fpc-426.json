@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:11.201773+00:00",
+  "course": "nurs-fpc-426",
+  "subject": "NURS_FPC",
+  "courseNumber": 426,
+  "courseName": "Community Health Nursing Theory",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 Community Health Nursing Theory</b>  Synthesis of nursing and public health concepts with emphasis on community as partner and population-focused practice.  ",
+        "coursePrerequisites": " NURS FPC 408; NURS FPC 412; NURS FPC 414; NURS FPC 415; NURS FPC 416; NURS FPC 417; concurrent enrollment in NURS FPC 427.",
+        "instructors": [
+          {
+            "firstName": "Andrea",
+            "lastName": "Collins",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Meghan",
+            "lastName": "Fitzpatrick",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:02:26.075776+00:00",
+  "course": "acctg-298",
+  "subject": "ACCTG",
+  "courseNumber": 298,
+  "courseName": "Introduction to Financial and Managerial Accounting - Honors",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Acctg/298/1/false/true",
+      "response": {
+        "courseDescription": "<b>298 Introduction to Financial and Managerial Accounting - Honors</b>  Introduction to the preparation and interpretation of financial statements and to the use of accounting data for planning and controlling business operations.  Credit not granted for both ACCTG 298 and 230 and/or 231.  ",
+        "coursePrerequisites": " Must be an Honors student. Enrollment not allowed if credit already earned for ACCTG 230 and/or ACCTG 231.",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Barnes",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

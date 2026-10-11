@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:38.582297+00:00",
+  "course": "humanity-335",
+  "subject": "HUMANITY",
+  "courseNumber": 335,
+  "courseName": "The Bible as Literature",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Hum/335/1/false/true",
+      "response": {
+        "courseDescription": "<b>335 The Bible as Literature</b>  Historical and literary approach to texts of the Jewish and Christian scriptures; emphasis on history, interpretation, and influence.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Pieracci",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

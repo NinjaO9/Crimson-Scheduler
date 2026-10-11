@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:04.231702+00:00",
+  "course": "art-370",
+  "subject": "ART",
+  "courseNumber": 370,
+  "courseName": "Introduction to Printmaking",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Introduction to Printmaking</b> May be repeated for credit; cumulative maximum 9 hours. Introduction to the fundamentals of printmaking, incorporating drawing, painting and collage; processes may include lithography, etching, relief and monotype.  ",
+        "coursePrerequisites": " ART 102.",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Haas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

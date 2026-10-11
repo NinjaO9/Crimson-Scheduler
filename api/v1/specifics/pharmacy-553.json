@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:20.072772+00:00",
+  "course": "pharmacy-553",
+  "subject": "PHARMACY",
+  "courseNumber": 553,
+  "courseName": "Institutional Introductory Pharmacy Practice Experience",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/553/6/false/true",
+      "response": {
+        "courseDescription": "<b>553 Institutional Introductory Pharmacy Practice Experience</b>  Provides student pharmacists with a 120-hour Institutional Pharmacy Practice Experience with additional patient care activity assignments.  S, F grading. ",
+        "coursePrerequisites": " Pharm. D. year 2 didactic coursework completed, including PHARDSCI 542; PHARMACY 541; 543; 544; 545; 558.",
+        "instructors": [
+          {
+            "firstName": "Taylor",
+            "lastName": "Bertsch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

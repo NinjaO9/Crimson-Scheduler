@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:37.923512+00:00",
+  "course": "ce-418",
+  "subject": "CE",
+  "courseNumber": 418,
+  "courseName": "Hazardous Contaminant Pathway Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/418/1/false/true",
+      "response": {
+        "courseDescription": "<b>418 Hazardous Contaminant Pathway Analysis</b>  Hazardous waste properties, chemodynamics, and health effects; introduction to risk assessment and hazardous waste remediation. Credit not granted for both CE 418 and CE 518. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 341 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Huiyun",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:24.858389+00:00",
+  "course": "cst-m-333",
+  "subject": "CST_M",
+  "courseNumber": 333,
+  "courseName": "Building Science II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cst%20M/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Building Science II</b>  Water supply, drainage, electrical and lighting systems for buildings.  ",
+        "coursePrerequisites": " CST M 332 with a C or better; admitted to the major in Architectural Studies or Construction Management.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

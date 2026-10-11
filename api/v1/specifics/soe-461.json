@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:38.364171+00:00",
+  "course": "soe-461",
+  "subject": "SOE",
+  "courseNumber": 461,
+  "courseName": "Watershed Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/461/1/false/true",
+      "response": {
+        "courseDescription": "<b>461 Watershed Management</b>  Principles and practices of management of forest and rangelands for protection, maintenance, and improvement of water resource values. Recommended preparation: SOE 204 or sufficient background in spreadsheets.  ",
+        "coursePrerequisites": " BIOLOGY 106; CHEM 101 or 105.",
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Roley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:56.094103+00:00",
+  "course": "b-a-202",
+  "subject": "B_A",
+  "courseNumber": 202,
+  "courseName": "Teams",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20A/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Teams</b>  Team and group dynamics, including factors and behaviors that impede or increase team performance; leadership roles in teams. Credit not granted for both B A 202 and 211.  ",
+        "coursePrerequisites": " B A 100; B A 102 and HBM 101, OR B A 102 and HONORS 198, OR HBM 105; or admitted to a major or minor in Carson College of Business.  Enrollment not allowed if credit already earned for B A 211.",
+        "instructors": [
+          {
+            "firstName": "Wayne",
+            "lastName": "Xu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

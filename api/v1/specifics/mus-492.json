@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:56.456829+00:00",
+  "course": "mus-492",
+  "subject": "MUS",
+  "courseNumber": 492,
+  "courseName": "Brass Techniques I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/492/1/false/true",
+      "response": {
+        "courseDescription": "<b>492 Brass Techniques I</b>  Performance and pedagogy of brass instruments for music educators.  ",
+        "coursePrerequisites": " MUS 190 if enrolled as music education major.",
+        "instructors": [
+          {
+            "firstName": "Martin",
+            "lastName": "King",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

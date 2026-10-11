@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:16.459795+00:00",
+  "course": "amdt-212",
+  "subject": "AMDT",
+  "courseNumber": 212,
+  "courseName": "Apparel Product Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/212/1/false/true",
+      "response": {
+        "courseDescription": "<b>212 Apparel Product Development</b>  Examination and evaluation of ready-to-wear apparel as it applies to the retail industry; explores concepts and principles of apparel production and terminology in the apparel industry.  ",
+        "coursePrerequisites": " AMDT 210.",
+        "instructors": [
+          {
+            "firstName": "Zihui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

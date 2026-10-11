@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:04.827537+00:00",
+  "course": "e-e-495",
+  "subject": "E_E",
+  "courseNumber": 495,
+  "courseName": "Internship in Electrical Industry",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Summer/2026/E%20E/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Internship in Electrical Industry</b> May be repeated for credit; cumulative maximum 8 hours. Students work full time on engineering assignments in approved industries.  S, F grading. ",
+        "coursePrerequisites": "  By department permission only; Electrical Engineering major.",
+        "instructors": [
+          {
+            "firstName": "Mohamed",
+            "lastName": "Osman",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Scott",
+            "lastName": "Hudson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

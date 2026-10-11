@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:17.085332+00:00",
+  "course": "amdt-268",
+  "subject": "AMDT",
+  "courseNumber": 268,
+  "courseName": "Communicating Creative Concepts in Fashion",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/268/1/false/true",
+      "response": {
+        "courseDescription": "<b>268 Communicating Creative Concepts in Fashion</b>  Illustration and rendering used for fashion and costume design; drawing fashion figures and apparel; studies or composition for fashion presentation, advertising, and portfolio.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zihui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

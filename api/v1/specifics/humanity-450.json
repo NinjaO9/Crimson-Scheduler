@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:38.902878+00:00",
+  "course": "humanity-450",
+  "subject": "HUMANITY",
+  "courseNumber": 450,
+  "courseName": "Representations of the Holocaust",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Hum/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Representations of the Holocaust</b>  How the Holocaust is represented and enters public memory through documentaries, memoirs, works of fiction, poetry, film, museums and monuments. (Crosslisted course offered as HUMANITY 450, HISTORY 465.)  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Joslyn",
+            "lastName": "Felicijan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

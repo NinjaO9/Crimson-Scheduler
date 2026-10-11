@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:30.581232+00:00",
+  "course": "univ-104",
+  "subject": "UNIV",
+  "courseNumber": 104,
+  "courseName": "College Success Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univs/104/1/false/true",
+      "response": {
+        "courseDescription": "<b>104 College Success Seminar</b>  Explore how to successfully navigate college; topics include student identity, cultural lenses, academic skills, university resources; utilizes a collaborative learning environment.  ",
+        "coursePrerequisites": " Less than 30 credits.",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Solomon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

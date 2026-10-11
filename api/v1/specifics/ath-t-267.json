@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:53.174073+00:00",
+  "course": "ath-t-267",
+  "subject": "ATH_T",
+  "courseNumber": 267,
+  "courseName": "Techniques in Athletic Injuries",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/267/1/false/true",
+      "response": {
+        "courseDescription": "<b>267 Techniques in Athletic Injuries</b>  Applied clinical approach to basic skills commonly used in the field of athletic training.  ",
+        "coursePrerequisites": " Limited enrollment to those with fewer than 60 credits.",
+        "instructors": [
+          {
+            "firstName": "Katy",
+            "lastName": "Pietz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

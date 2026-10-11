@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:50.023274+00:00",
+  "course": "e-e-529",
+  "subject": "E_E",
+  "courseNumber": 529,
+  "courseName": "Power Quality",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/529/1/false/true",
+      "response": {
+        "courseDescription": "<b>529 Power Quality</b>  Existing and future power quality issues, including identification, measurement, and mitigation; power quality definitions, standards, and classification; voltage quality; power systems harmonics; DER integration; and emerging power quality concerns. Recommended preparation: E E 491 or equivalent.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anamika",
+            "lastName": "Dubey",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

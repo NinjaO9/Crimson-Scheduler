@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:16.135997+00:00",
+  "course": "mus-354",
+  "subject": "MUS",
+  "courseNumber": 354,
+  "courseName": "Applied Theory IV",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/354/1/false/true",
+      "response": {
+        "courseDescription": "<b>354 Applied Theory IV</b>  Continued development in ear training, sight singing, keyboard and dictation, emphasizing 20th century music.  ",
+        "coursePrerequisites": " MUS 351 with a C or better; MUS 352 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "Rice",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.786338+00:00",
+  "course": "nurs-sci-800",
+  "subject": "NURS_SCI",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURSC/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  S, U grading. ",
+        "coursePrerequisites": "  Admitted to the Nursing PhD program.",
+        "instructors": [
+          {
+            "firstName": "Tracy",
+            "lastName": "Klein",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

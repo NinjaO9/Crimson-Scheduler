@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:07.763233+00:00",
+  "course": "nurs-fpc-311",
+  "subject": "NURS_FPC",
+  "courseNumber": 311,
+  "courseName": "Pathophysiology and Pharmacology in Nursing",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Pathophysiology and Pharmacology in Nursing</b>  Etiology, pathogenesis, clinical manifestations of common human dysfunction; nursing implications for prevention and therapeutic approaches including pharmacologic and non-pharmacologic therapies.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Mariana",
+            "lastName": "Neeway",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Tullamora",
+            "lastName": "Landis",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

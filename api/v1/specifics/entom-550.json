@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:04.194885+00:00",
+  "course": "entom-550",
+  "subject": "ENTOM",
+  "courseNumber": 550,
+  "courseName": "Insect Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Entom/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Insect Physiology</b>  General principles of insect physiology; the mechanisms of vital processes in insects; organ, cellular, subcellular, chemical and physical levels. Required preparation must include BIOLOGY 332, 352, CHEM 345, ENTOM 340, or 343. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Priyadarshini",
+            "lastName": "Chakrabarti Basu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:34.026913+00:00",
+  "course": "econs-527",
+  "subject": "ECONS",
+  "courseNumber": 527,
+  "courseName": "Microeconomic Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/527/1/false/true",
+      "response": {
+        "courseDescription": "<b>527 Microeconomic Analysis</b>  Consumer and producer behavior; partial and general equilibrium; game theory; imperfectly competitive markets; and market failures.  Required preparation must include intermediate microeconomics and calculus course work. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Gregmar",
+            "lastName": "Galinato",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

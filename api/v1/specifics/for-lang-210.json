@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:07.985007+00:00",
+  "course": "for-lang-210",
+  "subject": "FOR_LANG",
+  "courseNumber": 210,
+  "courseName": "World Cinema and Lecture Series",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/For%20L/210/2/false/true",
+      "response": {
+        "courseDescription": "<b>210 World Cinema and Lecture Series</b>  An introduction to world cinema through universal themes and their varied cinematic portrayals.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Insook",
+            "lastName": "Webber",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Vilma",
+            "lastName": "Navarro-Daniels",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

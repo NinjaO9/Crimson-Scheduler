@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:11.271921+00:00",
+  "course": "mit-506",
+  "subject": "MIT",
+  "courseNumber": 506,
+  "courseName": "Integrating Technology into Classroom Teaching",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MIT/506/1/false/true",
+      "response": {
+        "courseDescription": "<b>506 Integrating Technology into Classroom Teaching</b>  Exploration of technology use in schools, production techniques, instructional methods, and integration of technology into grade-level curriculum based on current technology standards.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Don",
+            "lastName": "McMahon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

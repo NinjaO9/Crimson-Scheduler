@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:55.519510+00:00",
+  "course": "soe-501",
+  "subject": "SOE",
+  "courseNumber": 501,
+  "courseName": "Graduate Skills Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Graduate Skills Seminar</b>  Seminar designed to introduce first year graduate students to the science graduate program; roles and responsibilities of graduate students, teaching assistants and researchers.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kara",
+            "lastName": "Whitman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:45.252879+00:00",
+  "course": "arch-201",
+  "subject": "ARCH",
+  "courseNumber": 201,
+  "courseName": "Architectural Design I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Architectural Design I</b>  Introduction to architectural design focusing on composition, conceptual design and principles of organization, scale, proportion, rhythm and 3-D development.  ",
+        "coursePrerequisites": " Admitted to the major in Architectural Studies.",
+        "instructors": [
+          {
+            "firstName": "Shauni Priyam",
+            "lastName": "Sikder",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

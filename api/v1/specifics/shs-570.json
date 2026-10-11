@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:05.420070+00:00",
+  "course": "shs-570",
+  "subject": "SHS",
+  "courseNumber": 570,
+  "courseName": "Advanced Internship in Speech-Language Pathology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Advanced Internship in Speech-Language Pathology</b> May be repeated for credit. By departmental consent only; minimum grade of S in SHS 566 or SHS 568 in the semester or summer term preceding internship, and a minimum grade of C in all prior SHS graduate coursework.  Advanced practicum in diagnosis of and therapy for communication disorders. SHS graduate student; all undergraduate prerequisite courses completed.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dana",
+            "lastName": "Algeo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

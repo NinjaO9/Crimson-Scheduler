@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:43.688722+00:00",
+  "course": "data-422",
+  "subject": "DATA",
+  "courseNumber": 422,
+  "courseName": "Corporate Data Analytics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/422/1/false/true",
+      "response": {
+        "courseDescription": "<b>422 Corporate Data Analytics</b>  Project-based class that integrates the main aspects of data analytics.  ",
+        "coursePrerequisites": " DATA 324; STAT/DATA 360; STAT/DATA 435 or concurrent enrollment; admitted to the major in Data Analytics; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Sergey",
+            "lastName": "Lapin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

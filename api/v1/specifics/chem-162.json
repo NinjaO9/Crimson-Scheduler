@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:25.532865+00:00",
+  "course": "chem-162",
+  "subject": "CHEM",
+  "courseNumber": 162,
+  "courseName": "Nuclear Reactor Operations II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/162/1/false/true",
+      "response": {
+        "courseDescription": "<b>162 Nuclear Reactor Operations II</b>  Training at the WSU 1 MW TRIGA nuclear reactor, with continued knowledge development in nuclear reactor theory and operations as preparation for the Nuclear Regulatory Commission licensing exam. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CHEM 161 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Corey",
+            "lastName": "Hines",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

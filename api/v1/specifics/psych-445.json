@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:01:37.737925+00:00",
+  "course": "psych-445",
+  "subject": "PSYCH",
+  "courseNumber": 445,
+  "courseName": "Undergraduate Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/445/1/false/true",
+      "response": {
+        "courseDescription": "<b>445 Undergraduate Practicum</b> May be repeated for credit; cumulative maximum 6 hours. Supervised experience in local and county agencies; application of psychological principles to a variety of professional work settings.  Recommended preparation:  PSYCH 105; PSYCH 333; PSYCH 444.  ",
+        "coursePrerequisites": " 6 credits PSYCH; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Lucas",
+            "lastName": "Huckaby",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

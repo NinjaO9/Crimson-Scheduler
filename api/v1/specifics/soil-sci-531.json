@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:20:01.853769+00:00",
+  "course": "soil-sci-531",
+  "subject": "SOIL_SCI",
+  "courseNumber": 531,
+  "courseName": "Soil Microbiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SoilS/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Soil Microbiology</b>  Biology and significance of organisms inhabiting soil and their role in nutrient cycling, ecosystem function, agriculture, and bioremediation. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lynne",
+            "lastName": "Carpenter-Boggs",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

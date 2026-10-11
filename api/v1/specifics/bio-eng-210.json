@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:09.694292+00:00",
+  "course": "bio-eng-210",
+  "subject": "BIO_ENG",
+  "courseNumber": 210,
+  "courseName": "Bioengineering Problem Solving",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/210/1/false/true",
+      "response": {
+        "courseDescription": "<b>210 Bioengineering Problem Solving</b>  Methods for analysis and problem solving in bioengineering; introduction to mathematical modeling, programming, and numerical methods for bioengineering applications.  ",
+        "coursePrerequisites": " CHE 201 with a C or better; MATH 315 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Dominic",
+            "lastName": "Scalise",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

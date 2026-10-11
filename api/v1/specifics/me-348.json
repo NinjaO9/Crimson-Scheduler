@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:27.869566+00:00",
+  "course": "me-348",
+  "subject": "ME",
+  "courseNumber": 348,
+  "courseName": "Dynamics Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/348/1/false/true",
+      "response": {
+        "courseDescription": "<b>348 Dynamics Systems</b>  Fundamentals of vibration analysis, control systems, system modeling and dynamics analysis.  ",
+        "coursePrerequisites": " MATH 315; ME 212; ME 241, CPT S 121, CPT S 131, or E E 221; all with a letter grade C or better; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Yueqi",
+            "lastName": "Hu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

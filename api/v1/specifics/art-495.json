@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:34.360938+00:00",
+  "course": "art-495",
+  "subject": "ART",
+  "courseNumber": 495,
+  "courseName": "Fine Arts Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Fine Arts Internship</b> May be repeated for credit. Experience in work-related fine arts environments for practical application and experience.  S, F grading. ",
+        "coursePrerequisites": " Admitted to the major in Fine Arts.",
+        "instructors": [
+          {
+            "firstName": "Alma",
+            "lastName": "Rocha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

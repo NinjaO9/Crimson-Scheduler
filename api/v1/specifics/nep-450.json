@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:19.751216+00:00",
+  "course": "nep-450",
+  "subject": "NEP",
+  "courseNumber": 450,
+  "courseName": "Management and Facilities",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Management and Facilities</b>  Essential skills and guidelines for those in the health facility industry in establishing and maintaining a safe and proper facility.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Kelli",
+            "lastName": "Frederick",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

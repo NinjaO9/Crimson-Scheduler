@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:19.106114+00:00",
+  "course": "nep-402",
+  "subject": "NEP",
+  "courseNumber": 402,
+  "courseName": "Vitamin and Mineral Metabolism",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/NEP/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 Vitamin and Mineral Metabolism</b>  Absorption and metabolism of vitamins and minerals and their role in macronutrient metabolism and nutritional requirements for maintenance of health.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, or the Master of Science in Coordinated Program in Dietetics, Nutrition, and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Patrick",
+            "lastName": "Solverson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

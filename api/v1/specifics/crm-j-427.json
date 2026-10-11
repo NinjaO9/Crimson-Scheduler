@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:12.492323+00:00",
+  "course": "crm-j-427",
+  "subject": "CRM_J",
+  "courseNumber": 427,
+  "courseName": "Crime Prevention Strategies",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Crm%20J/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 Crime Prevention Strategies</b>  Personal, environmental, community-based and government crime prevention strategies and issues.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "DuBois",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

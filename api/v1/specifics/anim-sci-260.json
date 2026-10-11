@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:39.010090+00:00",
+  "course": "anim-sci-260",
+  "subject": "ANIM_SCI",
+  "courseNumber": 260,
+  "courseName": "Live Animal and Carcass Evaluation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/260/1/false/true",
+      "response": {
+        "courseDescription": "<b>260 Live Animal and Carcass Evaluation</b>  Basic principles of live animal and carcass evaluation. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Erika",
+            "lastName": "Eckhardt",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:46.556885+00:00",
+  "course": "chem-555",
+  "subject": "CHEM",
+  "courseNumber": 555,
+  "courseName": "Teaching Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/555/1/false/true",
+      "response": {
+        "courseDescription": "<b>555 Teaching Chemistry</b>  Teaching chemistry; workshops for new graduate teaching assistants in chemistry focusing on tutorials and labs.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Buckley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

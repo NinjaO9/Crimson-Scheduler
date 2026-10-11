@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:02.240297+00:00",
+  "course": "vet-med-631",
+  "subject": "VET_MED",
+  "courseNumber": 631,
+  "courseName": "Population Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/631/1/false/true",
+      "response": {
+        "courseDescription": "<b>631 Population Medicine</b>  Required rotation for agricultural animal species emphasis through the population medicine laboratory of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Ramanathan",
+            "lastName": "Kasimanickam",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

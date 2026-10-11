@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:27.529886+00:00",
+  "course": "me-313",
+  "subject": "ME",
+  "courseNumber": 313,
+  "courseName": "Engineering Analysis",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/313/1/false/true",
+      "response": {
+        "courseDescription": "<b>313 Engineering Analysis</b>  Analysis and modeling of engineering problems utilizing numerical and mathematical techniques and computers. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 315 or concurrent enrollment; CE 215; ME 116; ME 2XX, CPT S 121, CPT S 131, CPT S 251, ME 241, or MSE 241.",
+        "instructors": [
+          {
+            "firstName": "Yueqi",
+            "lastName": "Hu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

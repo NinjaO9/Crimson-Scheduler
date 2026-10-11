@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:04.049318+00:00",
+  "course": "nurs-adv-547",
+  "subject": "NURS_ADV",
+  "courseNumber": 547,
+  "courseName": "Therapeutic Modalities in Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/NURAD/547/1/false/true",
+      "response": {
+        "courseDescription": "<b>547 Therapeutic Modalities in Practice</b>  PMHNP practicum clinical experience focused on development of therapy relationships in two modalities.  ",
+        "coursePrerequisites": " NURS ADV 545.",
+        "instructors": [
+          {
+            "firstName": "Josh",
+            "lastName": "Hamilton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:06.926661+00:00",
+  "course": "shs-702",
+  "subject": "SHS",
+  "courseNumber": 702,
+  "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/702/1/false/true",
+      "response": {
+        "courseDescription": "<b>702 Master's Special Problems, Directed Study, and/or Examination</b> May be repeated for credit. Independent research in special problems, directed study, and/or examination credit for students in a non-thesis master's degree program.  Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 702 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Aimee",
+            "lastName": "Stormo",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Amy",
+            "lastName": "Kemp",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Amy",
+            "lastName": "Meredith",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Ashley",
+            "lastName": "Winkle",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Dana",
+            "lastName": "Algeo",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "David",
+            "lastName": "Jenson",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Emily",
+            "lastName": "Schreiner",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Jennifer",
+            "lastName": "Kurtulus",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Katy",
+            "lastName": "Cabbage",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Mark",
+            "lastName": "VanDam",
+            "isPrimary": true,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

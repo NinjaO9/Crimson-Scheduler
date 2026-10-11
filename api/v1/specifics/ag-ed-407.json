@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:28.190274+00:00",
+  "course": "ag-ed-407",
+  "subject": "AG_ED",
+  "courseNumber": 407,
+  "courseName": "Student Teaching in Agricultural Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ag%20Ed/407/1/false/true",
+      "response": {
+        "courseDescription": "<b>407 Student Teaching in Agricultural Education</b>  Supervised teaching in public schools including seminars reflecting effective teaching.  Required preparation:  Includes applying; paying certification fees; completing all other coursework for degree and teacher certification; receiving fingerprint clearance from WSP, FBI, and Office of Professional Practices; maintaining 2.5 GPA overall and in endorsement and professional core classes.  Placement by interview only.  S, F grading. ",
+        "coursePrerequisites": " AG ED 440; AG ED 450; AG ED 471; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

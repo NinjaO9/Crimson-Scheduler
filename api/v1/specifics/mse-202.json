@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:31.336825+00:00",
+  "course": "mse-202",
+  "subject": "MSE",
+  "courseNumber": 202,
+  "courseName": "Materials Science Fundamentals",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Materials Science Fundamentals</b>  Introduction to the fundamental concepts of materials science.  ",
+        "coursePrerequisites": " CHEM 106 with a C or better or concurrent enrollment; MSE 201 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Beckman",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Arezoo",
+            "lastName": "Zare",
+            "isPrimary": true,
+            "tchEffort": 60
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

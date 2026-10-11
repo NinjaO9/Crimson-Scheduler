@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:22.165411+00:00",
+  "course": "cs-547",
+  "subject": "CS",
+  "courseNumber": 547,
+  "courseName": "Computer Game Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/547/1/false/true",
+      "response": {
+        "courseDescription": "<b>547 Computer Game Design</b>  Design and implementation of computer games. Credit not granted for both CS 447 and CS 547.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:49.658109+00:00",
+  "course": "pubhlth-499",
+  "subject": "PUBHLTH",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Andreas",
+            "lastName": "Eleftheriou",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Cole",
+            "lastName": "Allick",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kimberly",
+            "lastName": "McBride",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Todd",
+            "lastName": "Sabato",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

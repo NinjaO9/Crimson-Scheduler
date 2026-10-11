@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:12.656586+00:00",
+  "course": "crm-j-428",
+  "subject": "CRM_J",
+  "courseNumber": 428,
+  "courseName": "Drug and Alcohol Use and Abuse",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Crm%20J/428/1/false/true",
+      "response": {
+        "courseDescription": "<b>428 Drug and Alcohol Use and Abuse</b>  Drug use, impact on behavior and drug control policies.  ",
+        "coursePrerequisites": " CRM J 101.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "DuBois",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:09:43.690573+00:00",
+  "course": "anth-317",
+  "subject": "ANTH",
+  "courseNumber": 317,
+  "courseName": "Global Feminisms",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Anth/317/1/false/true",
+      "response": {
+        "courseDescription": "<b>317 Global Feminisms</b>  An interdisciplinary approach to examining women's roles and experiences throughout the world and different approaches to feminism/feminisms. (Crosslisted course offered as WGSS 332, ANTH 317.)  ",
+        "coursePrerequisites": " ANTH 101, WGSS 101, or WGSS 120.",
+        "instructors": [
+          {
+            "firstName": "Marian",
+            "lastName": "Sciachitano",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

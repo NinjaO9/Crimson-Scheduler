@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:12.613212+00:00",
+  "course": "anth-404",
+  "subject": "ANTH",
+  "courseNumber": 404,
+  "courseName": "The Self in Culture",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Anth/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 The Self in Culture</b>  Survey of social science theories exploring cross-cultural and cross-species empirical findings; can the social sciences help us navigate real life?  ",
+        "coursePrerequisites": " At least one social science, college-level course among: ANTH, CES, COM, CRM J, H D, POL S, PSYCH, SOC, or WGSS; minimum sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Nicole",
+            "lastName": "Hess",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

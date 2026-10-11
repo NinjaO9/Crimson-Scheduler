@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:21.936756+00:00",
+  "course": "pharmacy-570",
+  "subject": "PHARMACY",
+  "courseNumber": 570,
+  "courseName": "Pain: Processes and Treatment",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Pain: Processes and Treatment</b>  Skills, education, and awareness in topics related to pain processes, pharmacological and nonpharmacological treatments, legal processes and resources, and inter-professional communication for improved patient outcomes.  S, F grading. ",
+        "coursePrerequisites": " PHARDSCI 512.",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Clark",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

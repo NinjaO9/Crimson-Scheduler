@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:11:09.650257+00:00",
+  "course": "soc-337",
+  "subject": "SOC",
+  "courseNumber": 337,
+  "courseName": "Climate Change in Your Lifetime",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Soc/337/1/false/true",
+      "response": {
+        "courseDescription": "<b>337 Climate Change in Your Lifetime</b>  Reflections on personal experiences with climate change, climate politics and policy, scientific uncertainty, and more  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dylan",
+            "lastName": "Bugden",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

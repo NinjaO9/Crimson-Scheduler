@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:29.966878+00:00",
+  "course": "tmp-350",
+  "subject": "TMP",
+  "courseNumber": 350,
+  "courseName": "Introduction to Medical Biochemistry",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/TMP/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Introduction to Medical Biochemistry</b>  Introduction to biochemical concepts relevant to human health and diseases.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Theodore",
+            "lastName": "Chauvin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

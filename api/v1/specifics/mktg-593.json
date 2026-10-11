@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:29.811037+00:00",
+  "course": "mktg-593",
+  "subject": "MKTG",
+  "courseNumber": 593,
+  "courseName": "Seminar in Research Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mktg/593/1/false/true",
+      "response": {
+        "courseDescription": "<b>593 Seminar in Research Design</b>  Advanced, doctoral-level topics in research design.  ",
+        "coursePrerequisites": " Admission to PhD programs in business.",
+        "instructors": [
+          {
+            "firstName": "Hana",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

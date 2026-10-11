@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:45:01.846572+00:00",
+  "course": "mus-522",
+  "subject": "MUS",
+  "courseNumber": 522,
+  "courseName": "Graduate Recital",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/522/1/false/true",
+      "response": {
+        "courseDescription": "<b>522 Graduate Recital</b>  Private screening and public performance as required within each performance emphasis.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Myers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:31.695202+00:00",
+  "course": "mse-302",
+  "subject": "MSE",
+  "courseNumber": 302,
+  "courseName": "Electronic Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/302/1/false/true",
+      "response": {
+        "courseDescription": "<b>302 Electronic Materials</b>  Structure of materials, electronic structure of solids; thermal, electrical, dielectric, and magnetic properties of materials; semiconductors processing.  ",
+        "coursePrerequisites": " CHEM 105 with a C or better; 4 credits of PHYSICS 202 with a C or better, or PHYSICS 202 and 212 both with a C or better or concurrent enrollment, or PHYSICS 206 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Beckman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

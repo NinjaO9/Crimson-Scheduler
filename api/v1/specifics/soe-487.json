@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:40.193201+00:00",
+  "course": "soe-487",
+  "subject": "SOE",
+  "courseNumber": 487,
+  "courseName": "Human Dimensions of Natural Resources",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/487/1/false/true",
+      "response": {
+        "courseDescription": "<b>487 Human Dimensions of Natural Resources</b>  An introduction to qualitative research methods and natural resource sociology; examples center around wildfire but are applicable to multiple natural resource management fields.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Billings",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

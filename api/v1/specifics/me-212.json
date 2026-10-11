@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:25.744967+00:00",
+  "course": "me-212",
+  "subject": "ME",
+  "courseNumber": 212,
+  "courseName": "Dynamics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/212/1/false/true",
+      "response": {
+        "courseDescription": "<b>212 Dynamics</b>  Kinematics and kinetics of particles and rigid bodies; introduction to mechanical vibration. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 172 or 182 with a grade of C or better; CE 211 with a grade C or better.",
+        "instructors": [
+          {
+            "firstName": "Mehdi",
+            "lastName": "Hosseinzadeh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

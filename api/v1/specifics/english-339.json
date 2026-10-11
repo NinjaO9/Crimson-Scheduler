@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:16.301705+00:00",
+  "course": "english-339",
+  "subject": "ENGLISH",
+  "courseNumber": 339,
+  "courseName": "Topics in Film as Literature",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/339/1/false/true",
+      "response": {
+        "courseDescription": "<b>339 Topics in Film as Literature</b> May be repeated for credit; cumulative maximum 6 hours. Analytical study of film as major literary genre.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Aaron",
+            "lastName": "Oforlea",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

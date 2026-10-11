@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:09.864823+00:00",
+  "course": "mgmt-487",
+  "subject": "MGMT",
+  "courseNumber": 487,
+  "courseName": "Sustainability and Corporate Social Responsibility",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/MGMT/487/1/false/true",
+      "response": {
+        "courseDescription": "<b>487 Sustainability and Corporate Social Responsibility</b>  Management systems and performance frameworks for sustainability practices in an organizational setting; the nature and sources of corporate social responsibilities, including risks and impacts associated with business activities on stakeholders and the environment.  ",
+        "coursePrerequisites": " Admitted to a major or minor in the College of Business, major in Economic Sciences, or option of Personnel Psychology & Human Resource Management; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Gladstone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

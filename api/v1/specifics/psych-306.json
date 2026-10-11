@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:56:36.783356+00:00",
+  "course": "psych-306",
+  "subject": "PSYCH",
+  "courseNumber": 306,
+  "courseName": "Industrial Psychology",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Psych/306/1/false/true",
+      "response": {
+        "courseDescription": "<b>306 Industrial Psychology</b>  Job analysis and evaluation; personnel recruitment and selection; design and evaluation of training systems; performance appraisals. Recommended preparation: PSYCH 105.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Melissa",
+            "lastName": "Jenkins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

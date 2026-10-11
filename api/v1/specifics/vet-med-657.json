@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:04.149954+00:00",
+  "course": "vet-med-657",
+  "subject": "VET_MED",
+  "courseNumber": 657,
+  "courseName": "Clinical Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/657/1/false/true",
+      "response": {
+        "courseDescription": "<b>657 Clinical Pathology</b> May be repeated for credit; cumulative maximum 4 hours. Clinical laboratory diagnosis and interpretation.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Mara",
+            "lastName": "Varvil",
+            "isPrimary": true,
+            "tchEffort": 60
+          },
+          {
+            "firstName": "Hannah",
+            "lastName": "Cohen-Rodriguez",
+            "isPrimary": false,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

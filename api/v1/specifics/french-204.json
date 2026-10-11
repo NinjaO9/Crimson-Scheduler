@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:09.323400+00:00",
+  "course": "french-204",
+  "subject": "FRENCH",
+  "courseNumber": 204,
+  "courseName": "Fourth Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fren/204/2/false/true",
+      "response": {
+        "courseDescription": "<b>204 Fourth Semester</b>  Continued practice in spoken and written language; selected texts in a cultural context. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " FRENCH 203 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Insook",
+            "lastName": "Webber",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

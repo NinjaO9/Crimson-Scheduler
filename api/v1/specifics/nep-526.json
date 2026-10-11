@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:37.248176+00:00",
+  "course": "nep-526",
+  "subject": "NEP",
+  "courseNumber": 526,
+  "courseName": "Nutritional Epidemiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/526/1/false/true",
+      "response": {
+        "courseDescription": "<b>526 Nutritional Epidemiology</b>  The relationship between nutritional status, diet, and disease at the community and population level.  ",
+        "coursePrerequisites": " Admission to NEP Graduate Program.",
+        "instructors": [
+          {
+            "firstName": "Pablo",
+            "lastName": "Monsivais",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

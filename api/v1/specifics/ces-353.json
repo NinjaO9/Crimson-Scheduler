@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:47.530494+00:00",
+  "course": "ces-353",
+  "subject": "CES",
+  "courseNumber": 353,
+  "courseName": "Contemporary Latinx Literatures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CES/353/1/false/true",
+      "response": {
+        "courseDescription": "<b>353 [M] Contemporary Latinx Literatures</b>  A survey of Latinx literature, examining both dominant representations and sites of resistance. (Crosslisted course offered as CES 353, ENGLISH 345.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Samuel",
+            "lastName": "Ginsburg",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

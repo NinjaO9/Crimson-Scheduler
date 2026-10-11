@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:57.566819+00:00",
+  "course": "vet-med-585",
+  "subject": "VET_MED",
+  "courseNumber": 585,
+  "courseName": "Epidemiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/585/1/false/true",
+      "response": {
+        "courseDescription": "<b>585 Epidemiology</b>  Minimally quantitative survey in which health is framed as a population phenomena.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Craig",
+            "lastName": "McConnel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

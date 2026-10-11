@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:27.592128+00:00",
+  "course": "cpt-s-475",
+  "subject": "CPT_S",
+  "courseNumber": 475,
+  "courseName": "Data Science",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/475/1/false/true",
+      "response": {
+        "courseDescription": "<b>475 Data Science</b>  The data science process, data wrangling, exploratory data analysis, linear regression, classification, clustering, principal components analysis, recommender systems, data visualization, data and ethics, and effective communication. Recommended preparation for 575: Familiarity with algorithm design and analysis, basic linear algebra, and basic probability and statistics. Credit not granted for both CPT S 475 and CPT S 575.  ",
+        "coursePrerequisites": " CPT S 215, CPT S 223, or CPT S 233, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

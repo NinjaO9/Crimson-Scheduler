@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:04:24.290576+00:00",
+  "course": "acctg-440",
+  "subject": "ACCTG",
+  "courseNumber": 440,
+  "courseName": "Applied Auditing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Acctg/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 Applied Auditing</b>  Auditing theory application and data analysis.  ",
+        "coursePrerequisites": " ACCTG 439 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Kat",
+            "lastName": "Harris",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

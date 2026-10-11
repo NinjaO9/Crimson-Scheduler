@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:19.540889+00:00",
+  "course": "cs-437",
+  "subject": "CS",
+  "courseNumber": 437,
+  "courseName": "Introduction to Machine Learning",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/437/1/false/true",
+      "response": {
+        "courseDescription": "<b>437 Introduction to Machine Learning</b>  Machine learning concepts, algorithms, and applications; machine learning models and workflows; use of real-world data sets to solve classification, regression, and clustering problems; issues specific to real world data analysis such as feature selection, dimensionality reduction, or cleaning.  ",
+        "coursePrerequisites": " CS 223 with a C or better; STAT 212 or concurrent enrollment, or STAT 360 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Grant",
+            "lastName": "Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

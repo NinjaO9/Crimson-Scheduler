@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:35.680467+00:00",
+  "course": "soe-304",
+  "subject": "SOE",
+  "courseNumber": 304,
+  "courseName": "Ecosystem Field Measurements",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/304/1/false/true",
+      "response": {
+        "courseDescription": "<b>304 Ecosystem Field Measurements</b>  Measurement and analysis of forests, wildlife habitat, and rangelands using field equipment and spatial sampling techniques; development of employment skills in forestry, forest restoration, and wildlife management. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " SOE 204; SOE 300 or BIOLOGY 372 or concurrent enrollment in either; SOE 301 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Arjan",
+            "lastName": "Meddens",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

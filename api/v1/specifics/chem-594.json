@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:47.752683+00:00",
+  "course": "chem-594",
+  "subject": "CHEM",
+  "courseNumber": 594,
+  "courseName": "Seminar in Organic Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/594/1/false/true",
+      "response": {
+        "courseDescription": "<b>594 Seminar in Organic Chemistry</b> May be repeated for credit; cumulative maximum 6 hours. Presentation and discussion of topics in organic chemistry taken from research in progress or current literature.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Clifford",
+            "lastName": "Berkman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

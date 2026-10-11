@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:54.607414+00:00",
+  "course": "i-bus-480",
+  "subject": "I_BUS",
+  "courseNumber": 480,
+  "courseName": "Advanced International Business and Leadership",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/I%20Bus/480/1/false/true",
+      "response": {
+        "courseDescription": "<b>480 Advanced International Business and Leadership</b>  Fundamentals of international business, corporate strategy, and leadership in the global context.  ",
+        "coursePrerequisites": " I BUS 280; I BUS 380.",
+        "instructors": [
+          {
+            "firstName": "Dipra",
+            "lastName": "Jha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

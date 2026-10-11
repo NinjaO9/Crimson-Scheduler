@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:02.062186+00:00",
+  "course": "vet-med-629",
+  "subject": "VET_MED",
+  "courseNumber": 629,
+  "courseName": "Equine Medicine Clinical Rotation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/629/1/false/true",
+      "response": {
+        "courseDescription": "<b>629 Equine Medicine Clinical Rotation</b>  Required rotation through the Equine Medicine Services of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Macarena",
+            "lastName": "Sanz",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Debra",
+            "lastName": "Sellon",
+            "isPrimary": false,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Erin",
+            "lastName": "Pinnell",
+            "isPrimary": false,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Sandra",
+            "lastName": "Diaz Yucupicio",
+            "isPrimary": false,
+            "tchEffort": 20
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

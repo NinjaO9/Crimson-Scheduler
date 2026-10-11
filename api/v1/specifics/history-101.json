@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:52.722211+00:00",
+  "course": "history-101",
+  "subject": "HISTORY",
+  "courseNumber": 101,
+  "courseName": "Ancient, Medieval, and Early Modern Europe",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Ancient, Medieval, and Early Modern Europe</b>  Survey of ancient Greece, Rome, the Middle Ages and the Renaissance and Reformation within the Mediterranean, Near East, and Europe.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nikolaus",
+            "lastName": "Overtoom",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

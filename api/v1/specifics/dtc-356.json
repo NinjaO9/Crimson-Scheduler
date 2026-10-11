@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:43.667007+00:00",
+  "course": "dtc-356",
+  "subject": "DTC",
+  "courseNumber": 356,
+  "courseName": "Information Structures",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/DTC/356/1/false/true",
+      "response": {
+        "courseDescription": "<b>356 [M] Information Structures</b>  Social and cultural role of information; research with electronic sources; production, validation, storage, retrieval, evaluation, use, impact of electronic information.  ",
+        "coursePrerequisites": " DTC 101.",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Barber",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

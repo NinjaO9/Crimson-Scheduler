@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:13.531961+00:00",
+  "course": "math-401",
+  "subject": "MATH",
+  "courseNumber": 401,
+  "courseName": "Introduction to Analysis I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/401/2/false/true",
+      "response": {
+        "courseDescription": "<b>401 [M] Introduction to Analysis I</b>  Properties of sets and sequences of real numbers; limits, continuity, differentiation and integration of functions; metric spaces.  ",
+        "coursePrerequisites": " MATH 301 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Xueying",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

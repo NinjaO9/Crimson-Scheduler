@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:12.346885+00:00",
+  "course": "nurs-fpc-471",
+  "subject": "NURS_FPC",
+  "courseNumber": 471,
+  "courseName": "Foundations of Occupational and Environmental Health Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/471/1/false/true",
+      "response": {
+        "courseDescription": "<b>471 Foundations of Occupational and Environmental Health Practice</b>  Fundamentals of occupational and environmental health practice; concepts of prevention, epidemiology, disease prevention and health promotion to explain the underlying causes of occupational illness.  ",
+        "coursePrerequisites": " Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Denise",
+            "lastName": "Smart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

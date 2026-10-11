@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:50.369917+00:00",
+  "course": "e-e-571",
+  "subject": "E_E",
+  "courseNumber": 571,
+  "courseName": "Advanced Wireless Integrated Circuits and Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Advanced Wireless Integrated Circuits and Systems</b>  Analysis and design methodologies of state-of-the-art wireless integrated circuits and systems.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deuk",
+            "lastName": "Heo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

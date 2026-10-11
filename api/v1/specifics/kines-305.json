@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:50.200737+00:00",
+  "course": "kines-305",
+  "subject": "KINES",
+  "courseNumber": 305,
+  "courseName": "Nutrition Related to Fitness and Sport",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Nutrition Related to Fitness and Sport</b>  Current and evidence-based knowledge regarding the application and compliance of sound nutritional and diet considerations within special active populations. (Crosslisted course offered as KINES 305, ATH T 305.)  ",
+        "coursePrerequisites": " BIOLOGY 140 with a C or better, or 333 with a C or better; admitted to the major in Kinesiology or Sports Medicine.",
+        "instructors": [
+          {
+            "firstName": "Dana",
+            "lastName": "Kujala",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

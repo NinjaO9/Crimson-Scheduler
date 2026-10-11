@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:10.993802+00:00",
+  "course": "mech-800",
+  "subject": "MECH",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  (Crosslisted course offered as ME 800, MECH 800.)  S, U grading. ",
+        "coursePrerequisites": "  Admitted to the Mechanical Engineering or Engineering Science PhD program.",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Qin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Dave",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hakan",
+            "lastName": "Gurocak",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hua",
+            "lastName": "Tan",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jong-Hoon",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Stephen",
+            "lastName": "Solovitz",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Xiaolin",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:03.749963+00:00",
+  "course": "kin-actv-118",
+  "subject": "KIN_ACTV",
+  "courseNumber": 118,
+  "courseName": "Yoga",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/KNACT/118/1/false/true",
+      "response": {
+        "courseDescription": "<b>118 Yoga</b> May be repeated for credit; cumulative maximum 4 hours.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Molly",
+            "lastName": "Malone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

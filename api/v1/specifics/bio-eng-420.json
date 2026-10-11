@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:11.185212+00:00",
+  "course": "bio-eng-420",
+  "subject": "BIO_ENG",
+  "courseNumber": 420,
+  "courseName": "Mechanics of Biological Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Mechanics of Biological Materials</b>  Mechanical behavior of biological and engineering materials; relationships between external loads and internal stresses and strains within a structure.  ",
+        "coursePrerequisites": " CE 211 with a C or better; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Anita",
+            "lastName": "Vasavada",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

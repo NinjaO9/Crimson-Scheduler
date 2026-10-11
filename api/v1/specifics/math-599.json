@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:37.439670+00:00",
+  "course": "math-599",
+  "subject": "MATH",
+  "courseNumber": 599,
+  "courseName": "Professional Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/599/1/false/true",
+      "response": {
+        "courseDescription": "<b>599 Professional Development</b> May be repeated for credit. Development of application materials for jobs in academia, government, or private industry; practice interviews and oral presentations.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bala",
+            "lastName": "Krishnamoorthy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

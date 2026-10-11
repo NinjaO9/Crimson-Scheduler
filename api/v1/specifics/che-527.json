@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:52.999958+00:00",
+  "course": "che-527",
+  "subject": "CHE",
+  "courseNumber": 527,
+  "courseName": "Chemical Thermodynamics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ch%20E/527/1/false/true",
+      "response": {
+        "courseDescription": "<b>527 Chemical Thermodynamics</b>  Thermodynamic laws for design and optimization of thermodynamic systems, equations of state, properties of ideal and real fluids and fluid mixtures, stability, phase equilibrium, chemical equilibrium; applications of thermodynamic principles. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bernard",
+            "lastName": "Vanwie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:50.511589+00:00",
+  "course": "comstrat-475",
+  "subject": "COMSTRAT",
+  "courseNumber": 475,
+  "courseName": "Strategic Communication Seminar in Public Relations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/ComSr/475/1/false/true",
+      "response": {
+        "courseDescription": "<b>475 Strategic Communication Seminar in Public Relations</b> May be repeated for credit; cumulative maximum 9 hours. Theory, methods, and applications of communication and campaign management; political communication, health communication, freedom of expression, special audiences.  ",
+        "coursePrerequisites": " Admitted to any major; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Justin",
+            "lastName": "Barnes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

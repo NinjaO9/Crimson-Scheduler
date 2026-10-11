@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:09.342041+00:00",
+  "course": "vit-enol-113",
+  "subject": "VIT_ENOL",
+  "courseNumber": 113,
+  "courseName": "Introduction to Vines and Wines",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20E/113/1/false/true",
+      "response": {
+        "courseDescription": "<b>113 Introduction to Vines and Wines</b>  The importance of viticulture (grape growing) and enology (winemaking); wine quality. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Harbertson",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Jean",
+            "lastName": "Dodson Peterson",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

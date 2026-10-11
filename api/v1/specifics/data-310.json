@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:43.011925+00:00",
+  "course": "data-310",
+  "subject": "DATA",
+  "courseNumber": 310,
+  "courseName": "Professional Development for Data Analytics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/DATA/310/2/false/true",
+      "response": {
+        "courseDescription": "<b>310 Professional Development for Data Analytics</b>  Professional development for data analytics students, emphasizing career preparation, internship search strategies, resume and interview skills, and engagement with industry professionals to understand workplace expectations and pathways into the field.  S, F grading. ",
+        "coursePrerequisites": " DATA 219 or concurrent enrollment with junior standing; admitted to the major in Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Sergey",
+            "lastName": "Lapin",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

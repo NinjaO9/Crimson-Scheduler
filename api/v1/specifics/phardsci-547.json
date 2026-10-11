@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:16.165402+00:00",
+  "course": "phardsci-547",
+  "subject": "PHARDSCI",
+  "courseNumber": 547,
+  "courseName": "Drug Development",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRSC/547/1/false/true",
+      "response": {
+        "courseDescription": "<b>547 Drug Development</b>  Principles of drug design from the most initial stage of conception to the final product as a drug.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Travis",
+            "lastName": "Denton",
+            "isPrimary": true,
+            "tchEffort": 61
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:31:25.555712+00:00",
+  "course": "math-111",
+  "subject": "MATH",
+  "courseNumber": 111,
+  "courseName": "Mathematics Tutorial for Pre-calculus",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Math/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 Mathematics Tutorial for Pre-calculus</b>  Individualized instruction on mathematical skills to enhance the mathematical background necessary for success in MATH 106 and 108.  S, F grading. ",
+        "coursePrerequisites": " Concurrent enrollment in either MATH 106 or 108.",
+        "instructors": [
+          {
+            "firstName": "Jin",
+            "lastName": "Sung",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:20.743686+00:00",
+  "course": "pharmacy-557",
+  "subject": "PHARMACY",
+  "courseNumber": 557,
+  "courseName": "Pharmacotherapy V",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/557/1/false/true",
+      "response": {
+        "courseDescription": "<b>557 Pharmacotherapy V</b>  Fifth in a sequence of courses that focuses on the clinical use of medications in the prevention, mitigation, or cure of disease.  ",
+        "coursePrerequisites": "  PHARMACY 554.",
+        "instructors": [
+          {
+            "firstName": "Megan",
+            "lastName": "Undeberg",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:13.899498+00:00",
+  "course": "math-403",
+  "subject": "MATH",
+  "courseNumber": 403,
+  "courseName": "Euclidean and Non-Euclidean Geometry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/403/1/false/true",
+      "response": {
+        "courseDescription": "<b>403 Euclidean and Non-Euclidean Geometry</b>  Geometry as a deductive system of logic; postulational systems; projective and non-Euclidian geometries.  ",
+        "coursePrerequisites": " MATH 301 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Daniel",
+            "lastName": "Reiss",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:07.730133+00:00",
+  "course": "ed-ad-561",
+  "subject": "ED_AD",
+  "courseNumber": 561,
+  "courseName": "Introduction to College Student Development",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Summer/2026/Ed%20Ad/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Introduction to College Student Development</b>  Student development theory, related research and the application of theory to practice in student affairs work.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kristin",
+            "lastName": "Huggins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

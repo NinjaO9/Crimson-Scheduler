@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:25:29.162121+00:00",
+  "course": "spec-ed-591",
+  "subject": "SPEC_ED",
+  "courseNumber": 591,
+  "courseName": "Research in High-Incidence Disabilities",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Sp%20Ed/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Research in High-Incidence Disabilities</b>  Current research, issues, and trends in high-incidence disabilities. Recommended preparation: Admission to a doctoral program.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Dunn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

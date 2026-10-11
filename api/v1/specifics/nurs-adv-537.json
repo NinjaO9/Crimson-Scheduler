@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:03.215435+00:00",
+  "course": "nurs-adv-537",
+  "subject": "NURS_ADV",
+  "courseNumber": 537,
+  "courseName": "Primary Care III: Chronic Health Conditions Across the Lifespan",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Primary Care III: Chronic Health Conditions Across the Lifespan</b>  Synthesis of clinical management approaches for care of individuals with chronic and complex conditions across the lifespan.  ",
+        "coursePrerequisites": " NURS ADV 515; NURS ADV 516; concurrent enrollment in NURS ADV 538.",
+        "instructors": [
+          {
+            "firstName": "Teresa",
+            "lastName": "Mendoza",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

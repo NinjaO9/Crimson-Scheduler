@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:32.142890+00:00",
+  "course": "math-497",
+  "subject": "MATH",
+  "courseNumber": 497,
+  "courseName": "Instructional Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/497/1/false/true",
+      "response": {
+        "courseDescription": "<b>497 Instructional Practicum</b> May be repeated for credit; cumulative maximum 9 hours.   S, F grading. ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Christy",
+            "lastName": "Jacobs",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Daniel",
+            "lastName": "Reiss",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

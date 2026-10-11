@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:06.059961+00:00",
+  "course": "shs-587",
+  "subject": "SHS",
+  "courseNumber": 587,
+  "courseName": "Speech-Language Pathology in the Medical Setting",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/587/1/false/true",
+      "response": {
+        "courseDescription": "<b>587 Speech-Language Pathology in the Medical Setting</b>  Report writing and charting, collaborating with the medical team, establishing prognosis and assessing efficacy of treatment, and third-party reimbursement. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Kurtulus",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

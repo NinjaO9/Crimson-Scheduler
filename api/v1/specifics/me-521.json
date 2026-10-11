@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:47.623484+00:00",
+  "course": "me-521",
+  "subject": "ME",
+  "courseNumber": 521,
+  "courseName": "Fundamentals of Fluids I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Fundamentals of Fluids I</b>  Governing equations of fluid mechanics accompanied by applications of Navier-Stokes equation to simple flow situations, boundary layer analysis. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jin",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

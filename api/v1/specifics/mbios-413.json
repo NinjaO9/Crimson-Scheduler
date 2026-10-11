@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:22.094298+00:00",
+  "course": "mbios-413",
+  "subject": "MBIOS",
+  "courseNumber": 413,
+  "courseName": "General Biochemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/413/1/false/true",
+      "response": {
+        "courseDescription": "<b>413 General Biochemistry</b>  Structure and function of proteins, nucleic acids and biological membranes; principles of enzymology; biochemical methodology. Recommended preparation for graduate students:  Introductory biochemistry coursework. Credit not granted for both MBIOS 413 and MBIOS 513.  ",
+        "coursePrerequisites": " MBIOS 303; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Gloss",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

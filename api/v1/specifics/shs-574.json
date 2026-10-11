@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:05.598497+00:00",
+  "course": "shs-574",
+  "subject": "SHS",
+  "courseNumber": 574,
+  "courseName": "Neuropathologies of Language and Cognition I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/574/1/false/true",
+      "response": {
+        "courseDescription": "<b>574 Neuropathologies of Language and Cognition I</b>  Study of acquired language and cognitive disorders resulting from neurological damage (specific to left and right hemisphere-based disorders). SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Aimee",
+            "lastName": "Stormo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

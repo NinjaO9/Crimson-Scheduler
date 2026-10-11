@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:02.944104+00:00",
+  "course": "kin-actv-101",
+  "subject": "KIN_ACTV",
+  "courseNumber": 101,
+  "courseName": "Get Fit!",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/KNACT/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Get Fit!</b> May be repeated for credit; cumulative maximum 4 hours.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zachary",
+            "lastName": "Margolis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

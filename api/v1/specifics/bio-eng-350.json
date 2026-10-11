@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:10.490023+00:00",
+  "course": "bio-eng-350",
+  "subject": "BIO_ENG",
+  "courseNumber": 350,
+  "courseName": "Introduction to Cellular Bioengineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Introduction to Cellular Bioengineering</b>  Integrating cellular biology and engineering science by applying quantitative engineering principles for development of cellular-based materials, diagnostic devices and sensor designs.  ",
+        "coursePrerequisites": " BIO ENG 315 with a C or better; admitted to the major in Bioengineering.",
+        "instructors": [
+          {
+            "firstName": "Dominic",
+            "lastName": "Scalise",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:26.712018+00:00",
+  "course": "cpt-s-455",
+  "subject": "CPT_S",
+  "courseNumber": 455,
+  "courseName": "Introduction to Computer Networks and Security",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/455/1/false/true",
+      "response": {
+        "courseDescription": "<b>455 Introduction to Computer Networks and Security</b>  Concepts and implementations of computer networks; architectures, protocol layers, internetworking, addressing case studies, and discussion of security constraints at all layers of the OSI stack from attacker and defender perspectives. (Crosslisted course offered as CPT S 455, E E 455.)  ",
+        "coursePrerequisites": " CPT S 360, 370, or E E 234, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:19.721698+00:00",
+  "course": "cs-440",
+  "subject": "CS",
+  "courseNumber": 440,
+  "courseName": "Artificial Intelligence",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 Artificial Intelligence</b>  Knowledge representation and automated problem solving; theory and application of agent programming.  ",
+        "coursePrerequisites": " CS 223 with a C or better; STAT 212 with a C or better or STAT 360 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

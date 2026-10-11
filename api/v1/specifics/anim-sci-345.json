@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:40.238274+00:00",
+  "course": "anim-sci-345",
+  "subject": "ANIM_SCI",
+  "courseNumber": 345,
+  "courseName": "Animal Growth and Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/A%20S/345/1/false/true",
+      "response": {
+        "courseDescription": "<b>345 Animal Growth and Development</b>  Animal structure, composition, whole body and cellular growth, prenatal and postnatal growth; emphasis on skeletal muscle, bone and adipose tissue. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106; BIOLOGY 107; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Min",
+            "lastName": "Du",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

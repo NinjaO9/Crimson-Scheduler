@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:54.180766+00:00",
+  "course": "vet-med-557",
+  "subject": "VET_MED",
+  "courseNumber": 557,
+  "courseName": "Small Animal Surgery Elective II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/557/1/false/true",
+      "response": {
+        "courseDescription": "<b>557 Small Animal Surgery Elective II</b>  Small animal orthopedic surgical exercises.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 553.",
+        "instructors": [
+          {
+            "firstName": "Bettina",
+            "lastName": "Darveshi",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Natasha",
+            "lastName": "Hottmann",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

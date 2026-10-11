@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:01.342131+00:00",
+  "course": "amdt-108",
+  "subject": "AMDT",
+  "courseNumber": 108,
+  "courseName": "Introduction to Apparel, Merchandising, Design and Textiles",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/108/1/false/true",
+      "response": {
+        "courseDescription": "<b>108 Introduction to Apparel, Merchandising, Design and Textiles</b>  An introduction to apparel, textiles, merchandising and design with an emphasis on an examination of industry structures and careers.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yini",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

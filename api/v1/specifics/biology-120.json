@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:19:27.276209+00:00",
+  "course": "biology-120",
+  "subject": "BIOLOGY",
+  "courseNumber": 120,
+  "courseName": "Biology of Plants",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/120/1/false/true",
+      "response": {
+        "courseDescription": "<b>120 Biology of Plants</b>  We interact with plants every day, yet their lives remain mysterious for many. Explore the biology behind our leafy friends, and how they relate to us all in the modern world. Credit not granted towards elective requirements for majors in the School of Biological Sciences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sian",
+            "lastName": "Ritchie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

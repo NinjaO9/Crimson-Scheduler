@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:10.678049+00:00",
+  "course": "mil-sci-102",
+  "subject": "MIL_SCI",
+  "courseNumber": 102,
+  "courseName": "National and International Role of the Army",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mil%20S/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 National and International Role of the Army</b>  Role of the Army in today's international affairs.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": true,
+            "tchEffort": 45
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": true,
+            "tchEffort": 45
+          },
+          {
+            "firstName": "Casey",
+            "lastName": "Schober",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

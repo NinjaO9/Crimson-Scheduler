@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:23.808814+00:00",
+  "course": "med-clin-642",
+  "subject": "MED_CLIN",
+  "courseNumber": 642,
+  "courseName": "Virtual - Clinical Cases: Reproductive Health",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/642/1/false/true",
+      "response": {
+        "courseDescription": "<b>642 Virtual - Clinical Cases: Reproductive Health</b>  A self-directed online course involving review of reproductive health cases selected by faculty.  S, F grading. ",
+        "coursePrerequisites": " MED CLIN 524 and Course Director Permission.",
+        "instructors": [
+          {
+            "firstName": "Dawn",
+            "lastName": "Kopp",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

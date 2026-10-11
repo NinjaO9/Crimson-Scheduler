@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:26.657990+00:00",
+  "course": "biology-492",
+  "subject": "BIOLOGY",
+  "courseNumber": 492,
+  "courseName": "Topics in Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/492/1/false/true",
+      "response": {
+        "courseDescription": "<b>492 Topics in Biology</b> May be repeated for credit; cumulative maximum 6 hours.   ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Wes",
+            "lastName": "Dowd",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:08:58.969285+00:00",
+  "course": "anth-300",
+  "subject": "ANTH",
+  "courseNumber": 300,
+  "courseName": "Field Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Anth/300/1/false/true",
+      "response": {
+        "courseDescription": "<b>300 Field Methods</b>  Practice in methods of archaeological, ethnological, or linguistic field research.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

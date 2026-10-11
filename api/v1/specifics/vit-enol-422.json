@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:11.116114+00:00",
+  "course": "vit-enol-422",
+  "subject": "VIT_ENOL",
+  "courseNumber": 422,
+  "courseName": "Wine Sensory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20E/422/1/false/true",
+      "response": {
+        "courseDescription": "<b>422 Wine Sensory</b>  Introduction to theory, principles, and applications of sensory evaluation techniques for the evaluation of appearance, aroma, flavor and texture of foods and wine; basic psychological and physiological processes underlying sensory analysis, sensory testing methodologies and the basic principles of flavor perception and chemistry. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " STAT 212; VIT ENOL 113.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Harbertson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

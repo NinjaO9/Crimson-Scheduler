@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:01.021743+00:00",
+  "course": "japanese-101",
+  "subject": "JAPANESE",
+  "courseNumber": 101,
+  "courseName": "First Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Japn/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 First Semester</b>  Fundamentals of speaking, listening, reading, and writing. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kayo",
+            "lastName": "Niimi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

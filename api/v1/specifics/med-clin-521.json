@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:11.287185+00:00",
+  "course": "med-clin-521",
+  "subject": "MED_CLIN",
+  "courseNumber": 521,
+  "courseName": "Longitudinal Integrated Clerkship I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/MEDCL/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Longitudinal Integrated Clerkship I</b>  Covers the seven core disciplines in medicine: family medicine, internal medicine, general surgery, pediatrics, psychiatry, obstetrics and gynecology, and neurology; clinical experiences will be interleaved throughout the entire sequence of LIC courses and will focus on working with a small number of preceptors in each discipline for a continuity experience between teacher and learner.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED FMS 513.",
+        "instructors": [
+          {
+            "firstName": "Sara",
+            "lastName": "Scott",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Mary",
+            "lastName": "Lacy",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:54.432310+00:00",
+  "course": "med-fms-511",
+  "subject": "MED_FMS",
+  "courseNumber": 511,
+  "courseName": "Foundations of Medical Science IV",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDFS/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Foundations of Medical Science IV</b>  Foundational cardiovascular, respiratory, gastrointestinal, and renal systems; nutritional sciences; clinical skills.  S, F grading. ",
+        "coursePrerequisites": " MED FMS 503.",
+        "instructors": [
+          {
+            "firstName": "Sonam",
+            "lastName": "Kiwalkar",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Emmett",
+            "lastName": "Findlay",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

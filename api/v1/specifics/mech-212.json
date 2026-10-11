@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:04.891718+00:00",
+  "course": "mech-212",
+  "subject": "MECH",
+  "courseNumber": 212,
+  "courseName": "Dynamics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/212/1/false/true",
+      "response": {
+        "courseDescription": "<b>212 Dynamics</b>  Kinematics and kinetics of particles and rigid bodies; Newton's second law of motion; work-energy concept; impulse and momentum.  ",
+        "coursePrerequisites": " MECH 211.",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Qin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

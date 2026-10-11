@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:08.403598+00:00",
+  "course": "ed-ad-582",
+  "subject": "ED_AD",
+  "courseNumber": 582,
+  "courseName": "Policy Formation and Analysis in Education",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/Ed%20Ad/582/1/false/true",
+      "response": {
+        "courseDescription": "<b>582 Policy Formation and Analysis in Education</b>  Political and organizational policy formation processes in educational organizations; policy analysis in education.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Shannon",
+            "lastName": "Calderone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

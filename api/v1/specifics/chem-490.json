@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:44.321643+00:00",
+  "course": "chem-490",
+  "subject": "CHEM",
+  "courseNumber": 490,
+  "courseName": "Current Topics in Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Current Topics in Chemistry</b> May be repeated for credit; cumulative maximum 6 hours. Recent advances in the understanding and application of chemical systems.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Krista",
+            "lastName": "Nishida",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

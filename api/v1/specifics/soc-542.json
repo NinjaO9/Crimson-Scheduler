@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:15:34.893077+00:00",
+  "course": "soc-542",
+  "subject": "SOC",
+  "courseNumber": 542,
+  "courseName": "Social Stratification: Class, Race and Gender Inequalities",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Soc/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Social Stratification: Class, Race and Gender Inequalities</b>  Theoretical and empirical research in both classic stratification literature and recent scholarship on class, race/ethnicity and gender.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alair",
+            "lastName": "MacLean",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

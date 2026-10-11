@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:24.989196+00:00",
+  "course": "fs-202",
+  "subject": "FS",
+  "courseNumber": 202,
+  "courseName": "Science on Your Plate - Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 Science on Your Plate - Laboratory</b>  Basic processing and analysis of common foods; tour of WSU Creamery and Dairy Farm; how to make cheese, ice cream, yogurt, and kefir.  ",
+        "coursePrerequisites": " FS 201 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Adam",
+            "lastName": "Quinn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:18.349913+00:00",
+  "course": "cs-355",
+  "subject": "CS",
+  "courseNumber": 355,
+  "courseName": "Programming Language Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/355/1/false/true",
+      "response": {
+        "courseDescription": "<b>355 Programming Language Design</b>  Design concepts of high-level programming languages; survey of existing languages, experience using some languages.  ",
+        "coursePrerequisites": " CS 223 with a C or better; CS 220 or 224 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Grant",
+            "lastName": "Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

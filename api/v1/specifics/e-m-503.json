@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:47:04.033715+00:00",
+  "course": "e-m-503",
+  "subject": "E_M",
+  "courseNumber": 503,
+  "courseName": "Managing Variability Using Statistics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Managing Variability Using Statistics</b>  Managing variability and uncertainty using statistics for engineering decision-making involving risk. Credit not granted for both E M 403 and 503.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Luna",
+            "lastName": "Magpili",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

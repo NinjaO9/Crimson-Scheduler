@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:25.208389+00:00",
+  "course": "cst-m-362",
+  "subject": "CST_M",
+  "courseNumber": 362,
+  "courseName": "Legal Aspects of Construction and Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/362/1/false/true",
+      "response": {
+        "courseDescription": "<b>362 [M] Legal Aspects of Construction and Design</b>  Statutory and common law governing the practice of design and construction in the US; emphasis in architecture and construction project contract administration.  ",
+        "coursePrerequisites": " CST M 252 with a C or better; B LAW 210 with a C or better; admitted to the major in Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Steve",
+            "lastName": "Austin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

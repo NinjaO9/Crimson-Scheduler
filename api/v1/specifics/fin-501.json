@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:07.609080+00:00",
+  "course": "fin-501",
+  "subject": "FIN",
+  "courseNumber": 501,
+  "courseName": "Microeconomic Theory I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Microeconomic Theory I</b>  Microeconomic theory, multivariate optimization, consumer and producer theory, competitive partial equilibrium, introduction to imperfect competition. Required preparation must include intermediate microeconomics and one year of calculus. Required preparation must include intermediate microeconomics and one year of calculus. (Crosslisted course offered as ECONS 501, FIN 501.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Felix",
+            "lastName": "Munoz-Garcia",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

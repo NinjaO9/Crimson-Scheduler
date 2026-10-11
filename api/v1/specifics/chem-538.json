@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:46.406830+00:00",
+  "course": "chem-538",
+  "subject": "CHEM",
+  "courseNumber": 538,
+  "courseName": "Qualifier Prep for Physical Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/538/1/false/true",
+      "response": {
+        "courseDescription": "<b>538 Qualifier Prep for Physical Chemistry</b>  Review of critical concepts in thermodynamics, quantum mechanics, statistical thermodynamics, spectroscopy, and group theory for those preparing to take the Physical or Materials Chemistry PhD qualifying exam.  S, F grading. ",
+        "coursePrerequisites": " Concurrent enrollment or credit with a B or better in CHEM 531 and CHEM 532, and concurrent enrollment or credit with a B or better in either CHEM 509, CHEM 534, or CHEM 564.",
+        "instructors": [
+          {
+            "firstName": "Gary",
+            "lastName": "Douberly",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Kerry",
+            "lastName": "Hipps",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Kirk",
+            "lastName": "Peterson",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Ursula",
+            "lastName": "Mazur",
+            "isPrimary": true,
+            "tchEffort": 25
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

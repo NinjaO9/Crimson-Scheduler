@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:42.869842+00:00",
+  "course": "anth-495",
+  "subject": "ANTH",
+  "courseNumber": 495,
+  "courseName": "Research Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Anth/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Research Practicum</b> May be repeated for credit; cumulative maximum 10 hours. Hands-on experience in selection of a research problem, review of literature, developing methodology, data collection, and reporting results.  ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Sequoia",
+            "lastName": "Dance-Leighton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

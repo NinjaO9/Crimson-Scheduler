@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:14.082301+00:00",
+  "course": "agtm-305",
+  "subject": "AGTM",
+  "courseNumber": 305,
+  "courseName": "Agricultural Precision Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Agricultural Precision Systems</b>  Systems for precision agriculture, equipment, software uses, principles, construction, care, tillage, planting, spraying, harvesting, and materials handling machinery. Field trips required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

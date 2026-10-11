@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:32.842447+00:00",
+  "course": "art-320",
+  "subject": "ART",
+  "courseNumber": 320,
+  "courseName": "Beginning Painting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Beginning Painting</b>  Introduction to problems in painting; development of composition and color.  ",
+        "coursePrerequisites": " ART 110.",
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Barnett",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

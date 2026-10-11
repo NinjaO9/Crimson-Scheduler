@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:10:28.092302+00:00",
+  "course": "anth-334",
+  "subject": "ANTH",
+  "courseNumber": 334,
+  "courseName": "Time and Culture in the Northwest",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Anth/334/1/false/true",
+      "response": {
+        "courseDescription": "<b>334 Time and Culture in the Northwest</b>  The archaeologically reconstructed environmental and cultural past of the Northwest including contemporary scientific and social approaches and issues. Recommended preparation: ANTH 101.  (Crosslisted course offered as ANTH 334, AIS 334.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Colin",
+            "lastName": "Grier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

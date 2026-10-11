@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.000901+00:00",
+  "course": "nurs-sci-534",
+  "subject": "NURS_SCI",
+  "courseNumber": 534,
+  "courseName": "Research Seminar: Grant Development and Critique",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURSC/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Research Seminar: Grant Development and Critique</b>  Seminar focusing on writing a fellowship and/ or grant application and skills for critically reviewing a funded fellowship or grant.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lois",
+            "lastName": "James",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:14.427300+00:00",
+  "course": "physics-303",
+  "subject": "PHYSICS",
+  "courseNumber": 303,
+  "courseName": "Modern Physics I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/303/1/false/true",
+      "response": {
+        "courseDescription": "<b>303 Modern Physics I</b>  Quantum and relativity theories with applications to atomic, solid state, nuclear and elementary particle physics.  ",
+        "coursePrerequisites": " MATH 220 or concurrent enrollment or MATH 230 or concurrent enrollment; PHYSICS 202 or concurrent enrollment or PHYSICS 206 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Frederick",
+            "lastName": "Gittes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

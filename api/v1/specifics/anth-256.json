@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:08:29.350944+00:00",
+  "course": "anth-256",
+  "subject": "ANTH",
+  "courseNumber": 256,
+  "courseName": "Introduction to the Study of Language",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Anth/256/1/false/true",
+      "response": {
+        "courseDescription": "<b>256 Introduction to the Study of Language</b>  Introduction to the ways in which sound, meaning, and structure of words and sentences in natural languages are described and analyzed by linguists. (Crosslisted course offered as ENGLISH 256, ANTH 256.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nancy D",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

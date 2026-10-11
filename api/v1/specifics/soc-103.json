@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:42.201098+00:00",
+  "course": "soc-103",
+  "subject": "SOC",
+  "courseNumber": 103,
+  "courseName": "Social Psychology of Communication",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Soc/103/1/false/true",
+      "response": {
+        "courseDescription": "<b>103 Social Psychology of Communication</b>  Use of social psychological principles to communicate effectively with diverse audiences.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kristin",
+            "lastName": "Cutler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

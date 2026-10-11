@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:11:09.440380+00:00",
+  "course": "h-d-334",
+  "subject": "H_D",
+  "courseNumber": 334,
+  "courseName": "Principles of Community Development",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/H%20D/334/1/false/true",
+      "response": {
+        "courseDescription": "<b>334 Principles of Community Development</b>  Factors influencing how communities grow and decline and the ways in which social interventions influence these outcomes.  ",
+        "coursePrerequisites": " Sophomore standing",
+        "instructors": [
+          {
+            "firstName": "Caitlin",
+            "lastName": "Bletscher",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

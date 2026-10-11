@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:03.309799+00:00",
+  "course": "ece-234",
+  "subject": "ECE",
+  "courseNumber": 234,
+  "courseName": "Microprocessor Systems",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/234/1/false/true",
+      "response": {
+        "courseDescription": "<b>234 Microprocessor Systems</b>  Microprocessor system architecture, instruction sets and interfacing; assembly language programming.  ",
+        "coursePrerequisites": " ECE 251 or CS 261; ECE 214.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Akter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:48.073019+00:00",
+  "course": "art-333",
+  "subject": "ART",
+  "courseNumber": 333,
+  "courseName": "Introduction to Digital Media - Video, Sound, and Animation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Introduction to Digital Media - Video, Sound, and Animation</b>  Principles and processes of digital media through video, 2D animation and sound-based projects; theoretical investigations and conceptual development.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Reza",
+            "lastName": "Safavi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

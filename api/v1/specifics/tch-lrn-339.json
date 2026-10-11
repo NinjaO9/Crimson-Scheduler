@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:22.069301+00:00",
+  "course": "tch-lrn-339",
+  "subject": "TCH_LRN",
+  "courseNumber": 339,
+  "courseName": "Communication in Multilingual Classrooms and Communities",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/T%20%26%20L/339/1/false/true",
+      "response": {
+        "courseDescription": "<b>339 Communication in Multilingual Classrooms and Communities</b>  Selected topics dealing with linguistic diversity, cross-cultural communication, language development and language use.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yuliya",
+            "lastName": "Ardasheva",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:06.507453+00:00",
+  "course": "mus-182",
+  "subject": "MUS",
+  "courseNumber": 182,
+  "courseName": "Class Piano II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/182/1/false/true",
+      "response": {
+        "courseDescription": "<b>182 Class Piano II</b> May be repeated for credit; cumulative maximum 2 hours. Scales, arpeggios, blocked and broken chords; repertoire to complement individual skills, theoretical knowledge and improvisation.  ",
+        "coursePrerequisites": " MUS 181 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Fabio",
+            "lastName": "Menchetti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

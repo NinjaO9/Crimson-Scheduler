@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:44.849336+00:00",
+  "course": "anth-201",
+  "subject": "ANTH",
+  "courseNumber": 201,
+  "courseName": "Art and Society",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Anth/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Art and Society</b>  Art as an expression of social and cultural systems in non-Western societies.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Evelien",
+            "lastName": "Deelen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

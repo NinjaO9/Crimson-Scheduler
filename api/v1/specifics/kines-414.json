@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:21.018590+00:00",
+  "course": "kines-414",
+  "subject": "KINES",
+  "courseNumber": 414,
+  "courseName": "Strength Training Practicum III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/414/1/false/true",
+      "response": {
+        "courseDescription": "<b>414 Strength Training Practicum III</b>  Clinical experience within the Strength and Conditioning minor focusing on preparation for the NSCA certification exam.  ",
+        "coursePrerequisites": " KINES 413 with a C or better; admitted to the Strength and Conditioning minor; current CPR/First Aid certification.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "Holmstrom",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

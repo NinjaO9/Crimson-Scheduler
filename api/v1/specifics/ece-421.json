@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:05.107096+00:00",
+  "course": "ece-421",
+  "subject": "ECE",
+  "courseNumber": 421,
+  "courseName": "Introduction to Solar Cells",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 Introduction to Solar Cells</b>  Materials, structures, and devices used in renewable energy systems with the focus on solar cells.  ",
+        "coursePrerequisites": "  4 credits of PHYSICS 202, or PHYSICS 202 and 212.",
+        "instructors": [
+          {
+            "firstName": "Praveen",
+            "lastName": "Sekhar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

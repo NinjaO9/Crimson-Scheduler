@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:52.204226+00:00",
+  "course": "hbm-592",
+  "subject": "HBM",
+  "courseNumber": 592,
+  "courseName": "Current Issues in Travel and Tourism",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/HBM/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Current Issues in Travel and Tourism</b>  Current issues, practices, principles and theory, research and methodologies that govern travel and tourism behavior.  ",
+        "coursePrerequisites": " Admission to PhD programs in business.",
+        "instructors": [
+          {
+            "firstName": "Dogan",
+            "lastName": "Gursoy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

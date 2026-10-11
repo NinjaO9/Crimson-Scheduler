@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:12.680642+00:00",
+  "course": "soe-592",
+  "subject": "SOE",
+  "courseNumber": 592,
+  "courseName": "Advanced Topics in Environmental and Natural Resource Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Advanced Topics in Environmental and Natural Resource Sciences</b> May be repeated for credit; cumulative maximum 6 hours.  Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Padowski",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

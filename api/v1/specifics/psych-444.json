@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:01:37.555634+00:00",
+  "course": "psych-444",
+  "subject": "PSYCH",
+  "courseNumber": 444,
+  "courseName": "Basic Clinical Skills",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/444/1/false/true",
+      "response": {
+        "courseDescription": "<b>444 [M] Basic Clinical Skills</b>  Training in basic skills to work with varied types of clients; didactic and role play instruction.  Recommended preparation:  PSYCH 105.  ",
+        "coursePrerequisites": " 6 hours PSYCH.",
+        "instructors": [
+          {
+            "firstName": "Katherine",
+            "lastName": "Craig",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

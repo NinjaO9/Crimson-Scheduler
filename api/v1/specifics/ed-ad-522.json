@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:07.380508+00:00",
+  "course": "ed-ad-522",
+  "subject": "ED_AD",
+  "courseNumber": 522,
+  "courseName": "Topics in Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/Ed%20Ad/522/1/false/true",
+      "response": {
+        "courseDescription": "<b>522 Topics in Education</b> May be repeated for credit; cumulative maximum 6 hours. Recent research, developments, issues, and /or applications in selected areas of education.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Dunn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

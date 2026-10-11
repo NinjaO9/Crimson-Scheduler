@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:05.859916+00:00",
+  "course": "hort-430",
+  "subject": "HORT",
+  "courseNumber": 430,
+  "courseName": "Plant Molecular and Cellular Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hort/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Plant Molecular and Cellular Biology</b>  Structure, function, and metabolism of the plant cell and organelles including cell reproduction, energy flow, metabolic and developmental integration as well as response to the environment and how they relate to agriculture; includes basic laboratory techniques. Recommended preparation: BIOLOGY 420.  ",
+        "coursePrerequisites": " BIOLOGY 106, 107, 120 or HORT 202; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Sharpe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

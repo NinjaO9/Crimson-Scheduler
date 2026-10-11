@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:38.171738+00:00",
+  "course": "anim-sci-172",
+  "subject": "ANIM_SCI",
+  "courseNumber": 172,
+  "courseName": "Dairy Cattle Management Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/172/1/false/true",
+      "response": {
+        "courseDescription": "<b>172 Dairy Cattle Management Laboratory</b>  Management practices associated with a dairy enterprise. Cooperative: Open to UI degree-seeking students. S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zachary",
+            "lastName": "Seekford",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

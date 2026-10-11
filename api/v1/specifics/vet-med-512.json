@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:49.620443+00:00",
+  "course": "vet-med-512",
+  "subject": "VET_MED",
+  "courseNumber": 512,
+  "courseName": "Veterinary Anatomy II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Veterinary Anatomy II</b>  Detailed macroscopic functional morphology of domestic animals.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 511.",
+        "instructors": [
+          {
+            "firstName": "Briedi",
+            "lastName": "Gillespie",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

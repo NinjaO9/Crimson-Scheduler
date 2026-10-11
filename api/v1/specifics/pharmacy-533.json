@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:18.647686+00:00",
+  "course": "pharmacy-533",
+  "subject": "PHARMACY",
+  "courseNumber": 533,
+  "courseName": "Community Introductory Pharmacy Practice Experience",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/PharD/533/1/false/true",
+      "response": {
+        "courseDescription": "<b>533 Community Introductory Pharmacy Practice Experience</b>  Provides student pharmacists with a 160-hour Institutional Pharmacy Practice Experience with additional patient care activity assignments.  S, F grading. ",
+        "coursePrerequisites": " Pharm. D. year 1 didactic coursework completed, including PHARDSCI 510; 512; 518; 519; PHARMACY 501; 513; 514.",
+        "instructors": [
+          {
+            "firstName": "Taylor",
+            "lastName": "Bertsch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

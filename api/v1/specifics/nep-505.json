@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:36.761966+00:00",
+  "course": "nep-505",
+  "subject": "NEP",
+  "courseNumber": 505,
+  "courseName": "Graduate Seminar",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/505/1/false/true",
+      "response": {
+        "courseDescription": "<b>505 Graduate Seminar</b> May be repeated for credit. Weekly presentations by experts centered around a theme that addresses current issues and controversies in the broad fields of nutrition and exercise physiology.  S, F grading. ",
+        "coursePrerequisites": " Admission to NEP Graduate Program.",
+        "instructors": [
+          {
+            "firstName": "Martine",
+            "lastName": "Perrigue",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

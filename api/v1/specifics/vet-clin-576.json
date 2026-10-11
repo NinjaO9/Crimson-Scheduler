@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:46.285048+00:00",
+  "course": "vet-clin-576",
+  "subject": "VET_CLIN",
+  "courseNumber": 576,
+  "courseName": "Introduction to Veterinary Clinical Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20MS/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Introduction to Veterinary Clinical Research</b>  Designing, executing, analyzing and reporting clinical research fundamental to practicing evidence-based medicine.  ",
+        "coursePrerequisites": " Admission to the Graduate Certificate, MS, or PhD in Biomedical Sciences program.",
+        "instructors": [
+          {
+            "firstName": "Nicolas",
+            "lastName": "Villarino",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

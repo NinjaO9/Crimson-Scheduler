@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:10.083801+00:00",
+  "course": "math-216",
+  "subject": "MATH",
+  "courseNumber": 216,
+  "courseName": "Discrete Structures",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Math/216/1/false/true",
+      "response": {
+        "courseDescription": "<b>216 Discrete Structures</b>  Discrete mathematics, trees, graphs, elementary logic, and combinatorics with application to computer science.  Recommended preparation:  Programming course.  ",
+        "coursePrerequisites": "  MATH 106 or 201 with a C or better, or MATH 140, 171, 202 or DATA 121 or higher or concurrent enrollment, or a minimum ALEKS math placement score of 80%.",
+        "instructors": [
+          {
+            "firstName": "Yin",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

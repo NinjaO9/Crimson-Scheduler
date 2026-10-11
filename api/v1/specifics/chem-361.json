@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:42.404209+00:00",
+  "course": "chem-361",
+  "subject": "CHEM",
+  "courseNumber": 361,
+  "courseName": "Health Physics and Radiation Shielding",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/361/1/false/true",
+      "response": {
+        "courseDescription": "<b>361 Health Physics and Radiation Shielding</b>  Effects of ionizing radiation on the environment and the human body, with an emphasis on radiation safety, including atoms and energy, discoveries in radiation physics, interactions with matter, nuclear fission, naturally occurring radiation and radioactivity, environmental dispersion, radiation shielding, internal radiation doses, nuclear criticality, statistics in radiation physics, and health physics scenarios. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Concurrent enrollment in CHEM 101 or CHEM 105.",
+        "instructors": [
+          {
+            "firstName": "Zachariah",
+            "lastName": "Heiden",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

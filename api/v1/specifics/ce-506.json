@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:57.697428+00:00",
+  "course": "ce-506",
+  "subject": "CE",
+  "courseNumber": 506,
+  "courseName": "Theory and Measurement of Turbulent Fluxes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/506/1/false/true",
+      "response": {
+        "courseDescription": "<b>506 Theory and Measurement of Turbulent Fluxes</b>  Fundamental concepts of turbulence and turbulent fluxes in the atmospheric surface later, the statistical description of turbulence and turbulent fluxes, eddy covariance systems, and post-filed processing of flux data. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Heping",
+            "lastName": "Liu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

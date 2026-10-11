@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:39.399512+00:00",
+  "course": "i-bus-415",
+  "subject": "I_BUS",
+  "courseNumber": 415,
+  "courseName": "Law of International Trade",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/I%20Bus/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 [M] Law of International Trade</b>  Legal organization of the international community; international aspects of trade and development, economic cooperation, and technical, social, and cultural cooperation.  ",
+        "coursePrerequisites": " B LAW 210; admitted to a major or minor in the College of Business.Â ",
+        "instructors": [
+          {
+            "firstName": "Patrick",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

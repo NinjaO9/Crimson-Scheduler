@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:10.457379+00:00",
+  "course": "math-225",
+  "subject": "MATH",
+  "courseNumber": 225,
+  "courseName": "Linear Algebra with Modern Applications",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Math/225/2/false/true",
+      "response": {
+        "courseDescription": "<b>225 Linear Algebra with Modern Applications</b>  Solving linear systems, matrices, determinants, subspaces, eigenvalues, orthogonality, machine learning, AI, computer graphics, and economic models.  (Crosslisted course offered as MATH 225, DATA 225.)  Credit not granted for more than one of MATH 225, 220, and 230.  ",
+        "coursePrerequisites": " MATH 106 or 201 with a C or better, or MATH 140, 171, 202 or DATA 121 or higher or concurrent enrollment, or a minimum ALEKS math placement score of 80%.",
+        "instructors": [
+          {
+            "firstName": "Sergey",
+            "lastName": "Lapin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:31.119191+00:00",
+  "course": "biomdsci-552",
+  "subject": "BIOMDSCI",
+  "courseNumber": 552,
+  "courseName": "Statistical Thinking",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BIOMS/552/1/false/true",
+      "response": {
+        "courseDescription": "<b>552 Statistical Thinking</b>  Core concepts, methods, and skills for reasoning about data, how it is obtained, and how to use statistics to interrogate data and build an understanding of the world around us.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eric",
+            "lastName": "Lofgren",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:47.859854+00:00",
+  "course": "pubhlth-210",
+  "subject": "PUBHLTH",
+  "courseNumber": 210,
+  "courseName": "Introduction to Global Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/210/1/false/true",
+      "response": {
+        "courseDescription": "<b>210 Introduction to Global Health</b>  Introduction to key global health topics including the distribution and burden of disease; global health systems and policies; evidence-based interventions; global health equity; critical examination of historical and contemporary global health science and practice.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Khairul Alam",
+            "lastName": "Siddiqi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

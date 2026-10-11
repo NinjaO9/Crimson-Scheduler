@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:12:02.181584+00:00",
+  "course": "arch-451",
+  "subject": "ARCH",
+  "courseNumber": 451,
+  "courseName": "Computer-aided Design I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/451/1/false/true",
+      "response": {
+        "courseDescription": "<b>451 Computer-aided Design I</b>  Computer-aided design related to 3D modeling and construction documents.  ",
+        "coursePrerequisites": " Admitted to the major in Architectural Studies.",
+        "instructors": [
+          {
+            "firstName": "Jaechang",
+            "lastName": "Ko",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:28.830180+00:00",
+  "course": "ce-533",
+  "subject": "CE",
+  "courseNumber": 533,
+  "courseName": "Advanced Reinforced Concrete Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/533/1/false/true",
+      "response": {
+        "courseDescription": "<b>533 Advanced Reinforced Concrete Design</b>  Composite design; slab design; limit state design; footings; retaining walls; deep beams; brackets and corbels; torsion; seismic design; shear walls.  Required preparation must include CE 433. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Motter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

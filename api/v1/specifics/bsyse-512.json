@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:32.388028+00:00",
+  "course": "bsyse-512",
+  "subject": "BSYSE",
+  "courseNumber": 512,
+  "courseName": "Research and Teaching Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/BSysE/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Research and Teaching Methods</b>  Graduate research with an emphasis on biological systems engineering and college instruction.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Joan",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

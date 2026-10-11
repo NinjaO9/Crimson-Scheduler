@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:21.178012+00:00",
+  "course": "pl-p-429",
+  "subject": "PL_P",
+  "courseNumber": 429,
+  "courseName": "General Plant Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pl%20P/429/1/false/true",
+      "response": {
+        "courseDescription": "<b>429 General Plant Pathology</b>  Classification, symptoms, causes, epidemiology, and control of plant diseases.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Harper",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Vinicius",
+            "lastName": "Garnica",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

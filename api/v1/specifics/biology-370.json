@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:21:55.682790+00:00",
+  "course": "biology-370",
+  "subject": "BIOLOGY",
+  "courseNumber": 370,
+  "courseName": "Ecology of Health and Disease",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 [M] Ecology of Health and Disease</b>  Ecology of species interactions in changing environments and how they influence human and animal health. Credit not granted for both BIOLOGY 370 and 372. Field trips may be required.  ",
+        "coursePrerequisites": " BIOLOGY 106; CHEM 102 or 105. Enrollment in BIOLOGY 370 not allowed if credit already earned for BIOLOGY 372.",
+        "instructors": [
+          {
+            "firstName": "Jesse",
+            "lastName": "Brunner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

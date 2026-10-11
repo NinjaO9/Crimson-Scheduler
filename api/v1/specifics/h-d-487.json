@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:14:21.949796+00:00",
+  "course": "h-d-487",
+  "subject": "H_D",
+  "courseNumber": 487,
+  "courseName": "Special Topics in Human Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/H%20D/487/1/false/true",
+      "response": {
+        "courseDescription": "<b>487 Special Topics in Human Development</b> May be repeated for credit; cumulative maximum 6 hours. Assessment and evaluation of families and children.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Kory",
+            "lastName": "Floyd",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

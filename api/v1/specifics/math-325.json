@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:12.145380+00:00",
+  "course": "math-325",
+  "subject": "MATH",
+  "courseNumber": 325,
+  "courseName": "Elementary Combinatorics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Elementary Combinatorics</b>  Introduction to combinatorial theory: counting methods, binomial coefficients and identities, generating functions, occurrence relations, inclusion-exclusion methods.  ",
+        "coursePrerequisites": " MATH 220, 225, or 230, each with a C or better.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

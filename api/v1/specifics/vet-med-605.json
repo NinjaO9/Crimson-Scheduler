@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:59.560519+00:00",
+  "course": "vet-med-605",
+  "subject": "VET_MED",
+  "courseNumber": 605,
+  "courseName": "Small Animal Community Practice Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/605/1/false/true",
+      "response": {
+        "courseDescription": "<b>605 Small Animal Community Practice Medicine</b>  Required clinical experience with the small animal community practice service in the small animal clinic of the Veterinary Medicine Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Jenna",
+            "lastName": "Waltzek",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Matt",
+            "lastName": "Mason",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Jessica",
+            "lastName": "Bell",
+            "isPrimary": true,
+            "tchEffort": 34
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

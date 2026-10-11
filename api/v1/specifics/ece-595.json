@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:06.955564+00:00",
+  "course": "ece-595",
+  "subject": "ECE",
+  "courseNumber": 595,
+  "courseName": "Directed Study in Electrical Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/595/1/false/true",
+      "response": {
+        "courseDescription": "<b>595 Directed Study in Electrical Engineering</b> May be repeated for credit. Current topics in electrical engineering. (Crosslisted course offered as E E 595 and ECE 595.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Praveen",
+            "lastName": "Sekhar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:04.609779+00:00",
+  "course": "vet-med-674",
+  "subject": "VET_MED",
+  "courseNumber": 674,
+  "courseName": "Small Animal Intensive Care",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/674/1/false/true",
+      "response": {
+        "courseDescription": "<b>674 Small Animal Intensive Care</b>  Required rotation for all students through the small animal intensive care unit.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Shana",
+            "lastName": "O'Marra",
+            "isPrimary": true,
+            "tchEffort": 34
+          },
+          {
+            "firstName": "Jamie",
+            "lastName": "Peyton",
+            "isPrimary": false,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Linda",
+            "lastName": "Martin",
+            "isPrimary": false,
+            "tchEffort": 33
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

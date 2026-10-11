@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:31.876902+00:00",
+  "course": "mse-316",
+  "subject": "MSE",
+  "courseNumber": 316,
+  "courseName": "Thermodynamics and Kinetics of Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/316/1/false/true",
+      "response": {
+        "courseDescription": "<b>316 Thermodynamics and Kinetics of Materials</b>  Laws of thermodynamics, solution thermodynamics, free energy composition diagrams, mechanisms and kinetics of diffusion; solidification behavior, interfaces and phase boundaries, phase transformations in solids, oxidation, and corrosion.  ",
+        "coursePrerequisites": " MSE 202 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Qizhen",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

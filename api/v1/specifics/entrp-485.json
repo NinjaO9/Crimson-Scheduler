@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:20.209334+00:00",
+  "course": "entrp-485",
+  "subject": "ENTRP",
+  "courseNumber": 485,
+  "courseName": "New Venture Planning",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entrp/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 [M] New Venture Planning</b>  Skills, behaviors, and knowledge necessary for creating and growing new ventures; evaluating opportunities, developing growth strategies, obtaining venture financing, intellectual property, and building a management team.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Asa",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

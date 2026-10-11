@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:11.332876+00:00",
+  "course": "mil-sci-301",
+  "subject": "MIL_SCI",
+  "courseNumber": 301,
+  "courseName": "Applied Leadership and Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Applied Leadership and Management</b>  Troop leadership procedures emphasizing instruction in military professionalism and ethics; practical aspects of tactics and leadership practicum.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Rainwater",
+            "isPrimary": true,
+            "tchEffort": 2
+          },
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": true,
+            "tchEffort": 6
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Jeramy",
+            "lastName": "Norland",
+            "isPrimary": false,
+            "tchEffort": 2
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

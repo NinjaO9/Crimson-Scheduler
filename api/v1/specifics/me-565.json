@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:48.313427+00:00",
+  "course": "me-565",
+  "subject": "ME",
+  "courseNumber": 565,
+  "courseName": "Nuclear Reactor Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/565/1/false/true",
+      "response": {
+        "courseDescription": "<b>565 Nuclear Reactor Engineering</b>  Reactor power distribution; thermal and exposure limits; critical heat flux and pressure design; neutronic/thermal hydraulic relationships; transient/accident analysis. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Benjamin",
+            "lastName": "Kowash",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Donald",
+            "lastName": "Todd",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

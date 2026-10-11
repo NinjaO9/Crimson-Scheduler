@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:32.457964+00:00",
+  "course": "ces-315",
+  "subject": "CES",
+  "courseNumber": 315,
+  "courseName": "Asian Pacific American Autobiography",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CES/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 [M] Asian Pacific American Autobiography</b>  Critical readings of the autobiographical works, memoirs, and life writings by Asian Pacific Americans. (Crosslisted course offered as CES 315, ENGLISH 315.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Streamas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

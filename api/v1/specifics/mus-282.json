@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:11.334962+00:00",
+  "course": "mus-282",
+  "subject": "MUS",
+  "courseNumber": 282,
+  "courseName": "Class Piano IV",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/282/1/false/true",
+      "response": {
+        "courseDescription": "<b>282 Class Piano IV</b> May be repeated for credit; cumulative maximum 2 hours. Advanced skills, particularly for music education majors; score reading, transposition, sight-reading, and reduction of scores; ensemble skills.  ",
+        "coursePrerequisites": " MUS 281 or Piano Proficiency Exam.",
+        "instructors": [
+          {
+            "firstName": "Yoon-Wha",
+            "lastName": "Roh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

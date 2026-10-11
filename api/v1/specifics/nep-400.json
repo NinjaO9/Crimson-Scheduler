@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:18.944292+00:00",
+  "course": "nep-400",
+  "subject": "NEP",
+  "courseNumber": 400,
+  "courseName": "Macronutrient Metabolism",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/NEP/400/1/false/true",
+      "response": {
+        "courseDescription": "<b>400 Macronutrient Metabolism</b>  Digestion, absorption, and metabolism of carbohydrates, protein and fats, and their utilization for energy.  ",
+        "coursePrerequisites": " Admitted to the major in Nutrition and Exercise Physiology, or the Master of Science in Coordinated Program in Dietetics, Nutrition, and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Patrick",
+            "lastName": "Solverson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

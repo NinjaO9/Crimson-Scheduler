@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:11.530128+00:00",
+  "course": "nurs-fpc-430",
+  "subject": "NURS_FPC",
+  "courseNumber": 430,
+  "courseName": "Senior Practicum",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Senior Practicum</b>  Application of practical and professional knowledge, skills, and attitudes in a healthcare setting as a novice nurse.  S, F grading. ",
+        "coursePrerequisites": " NURS FPC 409 or concurrent enrollment; NURS FPC 424 or concurrent enrollment; NURS FPC 425 or concurrent enrollment; NURS FPC 426 or concurrent enrollment; NURS FPC 427 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Leah",
+            "lastName": "Berry",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Meghan",
+            "lastName": "Fitzpatrick",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Emily",
+            "lastName": "Davies",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Jamie",
+            "lastName": "McKinney",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Megan",
+            "lastName": "Vulcan",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Myra",
+            "lastName": "Olivo",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Tracy",
+            "lastName": "Stack",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Kelsey",
+            "lastName": "Hensley",
+            "isPrimary": true,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Michelle",
+            "lastName": "Huber",
+            "isPrimary": true,
+            "tchEffort": 20
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

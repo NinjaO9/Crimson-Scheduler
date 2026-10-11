@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:05.822243+00:00",
+  "course": "soe-350",
+  "subject": "SOE",
+  "courseNumber": 350,
+  "courseName": "Earth Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Earth Materials</b>  Composition, physical properties, structure, crystallography, identification, and origin of minerals. Field trip required.  ",
+        "coursePrerequisites": " CHEM 101 or 105; SOE 101, 102, 210, or 230.",
+        "instructors": [
+          {
+            "firstName": "Johannes",
+            "lastName": "Haemmerli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

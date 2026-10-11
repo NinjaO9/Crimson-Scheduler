@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:35.745452+00:00",
+  "course": "nep-481",
+  "subject": "NEP",
+  "courseNumber": 481,
+  "courseName": "Principles of Population Health",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/481/1/false/true",
+      "response": {
+        "courseDescription": "<b>481 Principles of Population Health</b>  Foundation of population health including an understanding of the difference between population and individual heath, and the history, role, and practice of public health; epidemiological theories, concepts, and measures; social determinants of health and inequalities in health; population-based approaches to improve health; draws on a wide range of health research, aiming to apply principles and use examples related to obesity, chronic disease, diet, and physical activity.  ",
+        "coursePrerequisites": " NEP 477.",
+        "instructors": [
+          {
+            "firstName": "Ofer",
+            "lastName": "Amram",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Pablo",
+            "lastName": "Monsivais",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

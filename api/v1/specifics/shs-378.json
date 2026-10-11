@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:07:45.643765+00:00",
+  "course": "shs-378",
+  "subject": "SHS",
+  "courseNumber": 378,
+  "courseName": "Speech and Hearing Sciences",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/378/1/false/true",
+      "response": {
+        "courseDescription": "<b>378 Speech and Hearing Sciences</b>  Basis of acoustics, acoustic phonetics, psychoacoustics, speech production, speech perception, and instrumentation for measurement of related phenomena.  ",
+        "coursePrerequisites": " SHS 377.",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Meredith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

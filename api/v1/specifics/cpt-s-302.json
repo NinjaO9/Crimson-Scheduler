@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:21.219169+00:00",
+  "course": "cpt-s-302",
+  "subject": "CPT_S",
+  "courseNumber": 302,
+  "courseName": "Professional Skills in Computing and Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/302/1/false/true",
+      "response": {
+        "courseDescription": "<b>302 Professional Skills in Computing and Engineering</b>  Professional development; ethical and professional responsibilities, including the use of standards and constraints, in computing and engineering. (Crosslisted course offered as CPT S 302, E E 302.) Credit not granted for both CPT S/E E 302 and CPT S 401.  ",
+        "coursePrerequisites": " CPT S 223 or 233 with a C or better, OR CPT S 121 or 131 and E E 261 with C or better; admitted to a major in EECS or Data Analytics; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Dan",
+            "lastName": "Berco",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

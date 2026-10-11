@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:41.513502+00:00",
+  "course": "fs-550",
+  "subject": "FS",
+  "courseNumber": 550,
+  "courseName": "Advanced Instrumental and Sensory Analysis of Food",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Advanced Instrumental and Sensory Analysis of Food</b>  Advanced evaluation of the chemical and physical properties of foods including both sensory and instrumental analysis. Credit not granted for both FS 450 and 550. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Carolyn",
+            "lastName": "Ross",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

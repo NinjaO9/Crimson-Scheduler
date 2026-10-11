@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:13.142337+00:00",
+  "course": "nurs-sci-539",
+  "subject": "NURS_SCI",
+  "courseNumber": 539,
+  "courseName": "Advancing Health Equity and Social Justice: Toward Evidence-Informed Solutions",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURSC/539/1/false/true",
+      "response": {
+        "courseDescription": "<b>539 Advancing Health Equity and Social Justice: Toward Evidence-Informed Solutions</b>  Theories, frameworks, research approaches and methods, and systems solutions that improve health equity; topics include trauma-informed care, social and political determinants of health, social justice, racism and anti-racism in healthcare.  ",
+        "coursePrerequisites": " NURS SCI 536.",
+        "instructors": [
+          {
+            "firstName": "Connie",
+            "lastName": "Nguyen-Truong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:07.880523+00:00",
+  "course": "ed-ad-571",
+  "subject": "ED_AD",
+  "courseNumber": 571,
+  "courseName": "Dissertation Preparation for Education Leaders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/Ed%20Ad/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Dissertation Preparation for Education Leaders</b>  Knowledge, skills, and dispositions for completing the final culminating activities of a program of graduate study including preliminary examinations and dissertation proposal and defense. Recommended preparation: ED AD 591, ED PSYCH 508, ED RES 563, 564.  ",
+        "coursePrerequisites": " Admitted to the Educational Leadership EdD program.",
+        "instructors": [
+          {
+            "firstName": "Shannon",
+            "lastName": "Calderone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:09.403990+00:00",
+  "course": "ed-ad-589",
+  "subject": "ED_AD",
+  "courseNumber": 589,
+  "courseName": "Leadership Development Seminar",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/Ed%20Ad/589/1/false/true",
+      "response": {
+        "courseDescription": "<b>589 Leadership Development Seminar</b>  Improving knowledge and skills in strategic planning, decision making, leadership issues, conflict, motivation, staff development, productivity, and stress.  ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:18.652817+00:00",
+  "course": "cs-402",
+  "subject": "CS",
+  "courseNumber": 402,
+  "courseName": "Social and Professional Issues in Computer Science",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/402/1/false/true",
+      "response": {
+        "courseDescription": "<b>402 [M] Social and Professional Issues in Computer Science</b>  Social, legal, ethical and professional issues that arise in the context of computing.  ",
+        "coursePrerequisites": " ENGLISH 402 or 403; admitted to the major in Computer Science.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "McCamish",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

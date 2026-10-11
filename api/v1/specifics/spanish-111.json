@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:16.014584+00:00",
+  "course": "spanish-111",
+  "subject": "SPANISH",
+  "courseNumber": 111,
+  "courseName": "Understanding Latin American Film",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Span/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 Understanding Latin American Film</b>  Introduction to understanding Latin American film from aesthetic, cultural, and historical perspectives. Taught in English.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Francisco",
+            "lastName": "Arellano Serratos",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

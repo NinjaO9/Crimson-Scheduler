@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:19.494723+00:00",
+  "course": "entom-700",
+  "subject": "ENTOM",
+  "courseNumber": 700,
+  "courseName": "Master's Research, Thesis, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entom/700/1/false/true",
+      "response": {
+        "courseDescription": "<b>700 Master's Research, Thesis, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their master's research, thesis and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 700 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Priyadarshini",
+            "lastName": "Chakrabarti Basu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

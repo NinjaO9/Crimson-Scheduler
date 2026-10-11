@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:28.658653+00:00",
+  "course": "biology-545",
+  "subject": "BIOLOGY",
+  "courseNumber": 545,
+  "courseName": "Statistical Genomics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/545/1/false/true",
+      "response": {
+        "courseDescription": "<b>545 Statistical Genomics</b>  Develop concepts and analytical skills for modern breeding by using Genome-Wide Association Study and genomic prediction in framework of mixed linear models and Bayesian approaches. Recommended preparation: BIOLOGY 474; MBIOS 478.  (Crosslisted course offered as CROP SCI 545, ANIM SCI 545, BIOLOGY 545, HORT 545, PL P 545.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Zhiwu",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

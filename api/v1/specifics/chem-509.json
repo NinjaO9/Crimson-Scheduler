@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:45.027462+00:00",
+  "course": "chem-509",
+  "subject": "CHEM",
+  "courseNumber": 509,
+  "courseName": "Chemical Group Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Chemical Group Theory</b>  Mathematical definitions of groups and representations, applications to chemical structure and spectra, ligand field theory, chemical reactions and selection rules.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ursula",
+            "lastName": "Mazur",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

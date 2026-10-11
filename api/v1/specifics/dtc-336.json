@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:13.842304+00:00",
+  "course": "dtc-336",
+  "subject": "DTC",
+  "courseNumber": 336,
+  "courseName": "Multimedia Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/336/1/false/true",
+      "response": {
+        "courseDescription": "<b>336 Multimedia Design</b>  Design practices and process for composing for a multimedia environment including color, pattern, and shape.  ",
+        "coursePrerequisites": " DTC 201.",
+        "instructors": [
+          {
+            "firstName": "June",
+            "lastName": "Sanders",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

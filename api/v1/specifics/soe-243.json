@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:34.388968+00:00",
+  "course": "soe-243",
+  "subject": "SOE",
+  "courseNumber": 243,
+  "courseName": "Native American Food Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/243/1/false/true",
+      "response": {
+        "courseDescription": "<b>243 Native American Food Systems</b>  Introduction to traditional and modernized food systems of Indigenous groups of the Pacific and Interior Northwest regions of the United States, including discussions of sovereignty, Tribal history and environmental policy, Indigenous knowledge, and traditional ecological knowledge.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Landon",
+            "lastName": "Charlo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

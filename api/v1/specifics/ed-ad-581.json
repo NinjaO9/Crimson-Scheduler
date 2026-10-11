@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:08.242554+00:00",
+  "course": "ed-ad-581",
+  "subject": "ED_AD",
+  "courseNumber": 581,
+  "courseName": "Politics in Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/Ed%20Ad/581/1/false/true",
+      "response": {
+        "courseDescription": "<b>581 Politics in Education</b>  Examining the intrapersonal, organizational politics and political dilemma, particularly as they pertain to marginalized groups.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Garn",
+            "lastName": "Christensen",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "James",
+            "lastName": "Kowalkowski",
+            "isPrimary": true,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Mary",
+            "lastName": "Templeton",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Dunn",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:47.871378+00:00",
+  "course": "e-e-434",
+  "subject": "E_E",
+  "courseNumber": 434,
+  "courseName": "ASIC and Digital Systems Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/434/1/false/true",
+      "response": {
+        "courseDescription": "<b>434 ASIC and Digital Systems Design</b>  Application Specific Integrated Circuit and Digital System Design methods, semi-custom, full-custom, and field-programmable devices; digital system architectures, electronics, and tests.  ",
+        "coursePrerequisites": " E E 234 with a C or better; E E 321 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Dae Hyun",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

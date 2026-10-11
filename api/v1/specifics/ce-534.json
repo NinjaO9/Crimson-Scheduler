@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:29.017596+00:00",
+  "course": "ce-534",
+  "subject": "CE",
+  "courseNumber": 534,
+  "courseName": "Prestressed Concrete and Bridge Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Prestressed Concrete and Bridge Design</b>  Behavior and design of prestressed concrete and bridges. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Motter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

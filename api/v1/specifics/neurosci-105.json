@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:53.931817+00:00",
+  "course": "neurosci-105",
+  "subject": "NEUROSCI",
+  "courseNumber": 105,
+  "courseName": "Meet Your Brain",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Meet Your Brain</b>  Introduction to the brain and nervous system and how they are affected by your environment and everyday activities.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Gizerian",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

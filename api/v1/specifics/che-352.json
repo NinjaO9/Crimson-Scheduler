@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:50.446223+00:00",
+  "course": "che-352",
+  "subject": "CHE",
+  "courseNumber": 352,
+  "courseName": "Chemical Process Safety",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/352/1/false/true",
+      "response": {
+        "courseDescription": "<b>352 Chemical Process Safety</b>  Introduction to technical fundamentals of chemical process safety.  ",
+        "coursePrerequisites": " CHE 321 with a C or better; CHE 332 with a C or better; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Colin",
+            "lastName": "Lehman-Chong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

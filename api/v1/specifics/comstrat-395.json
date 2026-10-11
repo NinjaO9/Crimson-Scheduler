@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:35.690961+00:00",
+  "course": "comstrat-395",
+  "subject": "COMSTRAT",
+  "courseNumber": 395,
+  "courseName": "Introduction to Integrated Strategic Communication and Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComSr/395/2/false/true",
+      "response": {
+        "courseDescription": "<b>395 Introduction to Integrated Strategic Communication and Management</b>  Analysis and application of strategic communication theory and concepts to influence attitudes and purchasing behavior.  ",
+        "coursePrerequisites": " Sophomore standing or higher.",
+        "instructors": [
+          {
+            "firstName": "Erika",
+            "lastName": "Fischer",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Andy",
+            "lastName": "Opoku",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

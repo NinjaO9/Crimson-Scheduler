@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:06.363317+00:00",
+  "course": "fin-437",
+  "subject": "FIN",
+  "courseNumber": 437,
+  "courseName": "Cougar Investment Fund I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/437/1/false/true",
+      "response": {
+        "courseDescription": "<b>437 [M] Cougar Investment Fund I</b>  Students manage a portion of the university's endowment; including security analysis, valuation, equilibrium, market efficiency, and modern portfolio theory. Credit not granted for more than one of FIN 427 and 437.  ",
+        "coursePrerequisites": " FIN 325 with a C or better; admitted to a major or minor in the College of Business, or the major in Economic Sciences.  Enrollment not allowed if credit already earned for FIN 427.",
+        "instructors": [
+          {
+            "firstName": "Mario",
+            "lastName": "Reyes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

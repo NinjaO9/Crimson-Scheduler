@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:18.494558+00:00",
+  "course": "pharmacy-531",
+  "subject": "PHARMACY",
+  "courseNumber": 531,
+  "courseName": "Applied Patient Care II: Clinical Assessment and Documentation",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Applied Patient Care II: Clinical Assessment and Documentation</b>  Clinical assessment and documentation skills necessary for effective pharmaceutical care.  ",
+        "coursePrerequisites": "  Concurrent enrollment in PHARMACY 534.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "McKeirnan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

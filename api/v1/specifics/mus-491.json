@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:56.249208+00:00",
+  "course": "mus-491",
+  "subject": "MUS",
+  "courseNumber": 491,
+  "courseName": "Voice Pedagogy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Voice Pedagogy</b>  Anatomy of the singing process; methodology of teaching voices in various learning and teaching styles. Credit not granted for both MUS 491 and MUS 591.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Myers",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

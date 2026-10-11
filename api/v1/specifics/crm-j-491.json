@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:56.812783+00:00",
+  "course": "crm-j-491",
+  "subject": "CRM_J",
+  "courseNumber": 491,
+  "courseName": "Special Topics: Study Abroad",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Crm%20J/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Special Topics: Study Abroad</b> May be repeated for credit; cumulative maximum 12 hours. Criminal Justice Study Abroad. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Melanie-Angela",
+            "lastName": "Neuilly",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

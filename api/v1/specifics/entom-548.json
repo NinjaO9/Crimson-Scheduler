@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:04.018521+00:00",
+  "course": "entom-548",
+  "subject": "ENTOM",
+  "courseNumber": 548,
+  "courseName": "Medical and Veterinary Entomology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Entom/548/1/false/true",
+      "response": {
+        "courseDescription": "<b>548 Medical and Veterinary Entomology</b>  Biology and ecology of parasitic arthropods and their direct impacts on human and animal health; transmission of pathogens. Credit not granted for both ENTOM 448 and ENTOM 548.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Zack",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

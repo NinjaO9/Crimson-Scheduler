@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:13.995364+00:00",
+  "course": "physics-211",
+  "subject": "PHYSICS",
+  "courseNumber": 211,
+  "courseName": "Physics Lab for Scientists and Engineers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/211/1/false/true",
+      "response": {
+        "courseDescription": "<b>211 Physics Lab for Scientists and Engineers</b>  Calculus-based physics lab; topics in motion and dynamics of particles and rigid bodies, vibrations, waves; heavy emphasis on group work.  ",
+        "coursePrerequisites": " MATH 171 with a C or better, MATH 172 or concurrent enrollment, MATH 182 or concurrent enrollment, MATH 273 or concurrent enrollment, or MATH 315 or concurrent enrollment; PHYSICS 201 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Sawyer",
+            "lastName": "Star",
+            "isPrimary": true,
+            "tchEffort": 95
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

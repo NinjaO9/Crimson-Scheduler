@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:36.010218+00:00",
+  "course": "math-568",
+  "subject": "MATH",
+  "courseNumber": 568,
+  "courseName": "Statistical Theory I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/568/1/false/true",
+      "response": {
+        "courseDescription": "<b>568 Statistical Theory I</b>  Probability spaces, combinatorics, multidimensional random variables, characteristic function, special distributions, limit theorems, stochastic processes, order statistics. Recommended preparation: Calculus III and one 3-credit 400-level probability course. (Crosslisted course offered as STAT 548, MATH 568.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Xiongzhi",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

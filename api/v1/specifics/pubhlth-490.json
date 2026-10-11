@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:49.345682+00:00",
+  "course": "pubhlth-490",
+  "subject": "PUBHLTH",
+  "courseNumber": 490,
+  "courseName": "Public Health Capstone",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PUBHL/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 [M] Public Health Capstone</b>  Integration of broad topics from public health and other fields to inform scientific and technical writing and presentation of independent research projects.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "McBride",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

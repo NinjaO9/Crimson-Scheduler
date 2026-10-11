@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:34.214007+00:00",
+  "course": "art-493",
+  "subject": "ART",
+  "courseNumber": 493,
+  "courseName": "Senior Exhibit",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ART/493/1/false/true",
+      "response": {
+        "courseDescription": "<b>493 Senior Exhibit</b>  Independent study involving exhibit, written thesis and oral examination working with area coordinator.  S, F grading. ",
+        "coursePrerequisites": " Admitted to the BFA major.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Janssen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:21.759761+00:00",
+  "course": "pharmacy-566",
+  "subject": "PHARMACY",
+  "courseNumber": 566,
+  "courseName": "Therapeutics of Special Populations",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/566/1/false/true",
+      "response": {
+        "courseDescription": "<b>566 Therapeutics of Special Populations</b>  Special therapeutic needs of unique populations including pediatrics, chronic neurologic disorders, hospice care and immuno-compromised patients.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Brian",
+            "lastName": "Gates",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:12.120993+00:00",
+  "course": "mil-sci-499",
+  "subject": "MIL_SCI",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Jeramy",
+            "lastName": "Norland",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": false,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

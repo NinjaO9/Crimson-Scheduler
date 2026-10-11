@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:33.940330+00:00",
+  "course": "mse-483",
+  "subject": "MSE",
+  "courseNumber": 483,
+  "courseName": "Topics in Materials Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Topics in Materials Engineering</b> May be repeated for credit; cumulative maximum 7 hours. Contemporary topics in materials engineering.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Magesh",
+            "lastName": "Murugesan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

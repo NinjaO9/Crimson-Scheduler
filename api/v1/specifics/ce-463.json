@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:40.155712+00:00",
+  "course": "ce-463",
+  "subject": "CE",
+  "courseNumber": 463,
+  "courseName": "Engineering Administration",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/463/1/false/true",
+      "response": {
+        "courseDescription": "<b>463 Engineering Administration</b>  Engineering economy; annual cost, present worth, rate of return, and benefit-cost ratio in engineering decision making; basic contract law.  ",
+        "coursePrerequisites": "  Admitted major in Architectural St, Bioengineering, Chem Engr, Civil Engr, Computer Engr or Sci, Construction Mgt, Electrical Engr, Interior Des, Land Arch, Materials Sci and Engr, Mech Engr, or Software Engr; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Indranil",
+            "lastName": "Chowdhury",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

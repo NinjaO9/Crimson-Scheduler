@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:06.625436+00:00",
+  "course": "ece-533",
+  "subject": "ECE",
+  "courseNumber": 533,
+  "courseName": "Advanced Antenna Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/533/1/false/true",
+      "response": {
+        "courseDescription": "<b>533 Advanced Antenna Design</b>  Advanced antenna types and design methods, small antennas, reconfigurable antennas, wideband microstrip antennas, millimeter-wave antennas, phased arrays, design of array feed, mutual coupling, system level implications such as full-duplex and MIMO. Recommended preparation: ECE 370; ECE 471.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tutku",
+            "lastName": "Karacolak",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

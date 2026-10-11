@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:06.050111+00:00",
+  "course": "pol-s-531",
+  "subject": "POL_S",
+  "courseNumber": 531,
+  "courseName": "Seminar in International Security",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Seminar in International Security</b>  International security and arms control politics, negotiations, agreements. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Preston",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

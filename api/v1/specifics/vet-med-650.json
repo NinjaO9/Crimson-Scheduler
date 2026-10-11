@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:03.459630+00:00",
+  "course": "vet-med-650",
+  "subject": "VET_MED",
+  "courseNumber": 650,
+  "courseName": "Anesthesia Case Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/650/1/false/true",
+      "response": {
+        "courseDescription": "<b>650 Anesthesia Case Management</b>  Required rotation through the Clinical Anesthesia Service of the Small Animal Clinic and Large Animal Clinic of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Lais",
+            "lastName": "Malavasi",
+            "isPrimary": true,
+            "tchEffort": 60
+          },
+          {
+            "firstName": "Tania",
+            "lastName": "Perez Jimenez",
+            "isPrimary": false,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

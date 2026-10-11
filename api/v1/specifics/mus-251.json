@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:10.660768+00:00",
+  "course": "mus-251",
+  "subject": "MUS",
+  "courseNumber": 251,
+  "courseName": "Materials and Structures of Music I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/251/1/false/true",
+      "response": {
+        "courseDescription": "<b>251 Materials and Structures of Music I</b>  An examination of the fundamentals of music theory; pitch, rhythm, scales, intervals, and chords.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jacqueline",
+            "lastName": "Wilson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

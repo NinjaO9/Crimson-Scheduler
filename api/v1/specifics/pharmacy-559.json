@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:21.080351+00:00",
+  "course": "pharmacy-559",
+  "subject": "PHARMACY",
+  "courseNumber": 559,
+  "courseName": "Quality Assurance and Patient Safety",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/559/1/false/true",
+      "response": {
+        "courseDescription": "<b>559 Quality Assurance and Patient Safety</b>  Patient safety issues including quality assurance, medication error avoidance and risk management in healthcare systems.  ",
+        "coursePrerequisites": "  PHARMACY 545.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Robinson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

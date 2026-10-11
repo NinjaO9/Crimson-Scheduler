@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:58.916264+00:00",
+  "course": "ce-519",
+  "subject": "CE",
+  "courseNumber": 519,
+  "courseName": "Hazardous Waste Treatment",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/C%20E/519/1/false/true",
+      "response": {
+        "courseDescription": "<b>519 Hazardous Waste Treatment</b>  Principles of operation and application of processes in design of technologies used in hazardous waste treatment and remediation. Credit not granted for both CE 419 and CE 519. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michelle",
+            "lastName": "Hendrickson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

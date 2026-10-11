@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:20.704360+00:00",
+  "course": "cs-455",
+  "subject": "CS",
+  "courseNumber": 455,
+  "courseName": "Introduction to Computer Networks",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/455/1/false/true",
+      "response": {
+        "courseDescription": "<b>455 Introduction to Computer Networks</b>  Concepts and implementation of computer networks; architectures, protocol layers, internetworking and addressing case studies.  ",
+        "coursePrerequisites": " CS 360 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

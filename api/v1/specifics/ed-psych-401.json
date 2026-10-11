@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:10.812858+00:00",
+  "course": "ed-psych-401",
+  "subject": "ED_PSYCH",
+  "courseNumber": 401,
+  "courseName": "Classroom Assessment, Elementary",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/EdPsy/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Classroom Assessment, Elementary</b>  Principles and practice of high-quality classroom assessment in the elementary schools.  ",
+        "coursePrerequisites": " TCH LRN 301.",
+        "instructors": [
+          {
+            "firstName": "Jonah",
+            "lastName": "Firestone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

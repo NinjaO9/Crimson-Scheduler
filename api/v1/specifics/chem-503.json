@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:44.849054+00:00",
+  "course": "chem-503",
+  "subject": "CHEM",
+  "courseNumber": 503,
+  "courseName": "Advanced Topics in Inorganic Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/503/2/false/true",
+      "response": {
+        "courseDescription": "<b>503 Advanced Topics in Inorganic Chemistry</b> May be repeated for credit. Recent significant developments. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Kittilstved",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

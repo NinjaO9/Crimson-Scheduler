@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:56.468808+00:00",
+  "course": "vet-med-575",
+  "subject": "VET_MED",
+  "courseNumber": 575,
+  "courseName": "Clinical Techniques in Theriogenology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/575/1/false/true",
+      "response": {
+        "courseDescription": "<b>575 Clinical Techniques in Theriogenology</b>  Canine, bovine, equine, bull breeding, stallion breeding, and obstetrics.  S, M, F grading. ",
+        "coursePrerequisites": " Concurrent enrollment in VET MED 571.",
+        "instructors": [
+          {
+            "firstName": "Michela",
+            "lastName": "Ciccarelli",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "M. Salman",
+            "lastName": "Waqas",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

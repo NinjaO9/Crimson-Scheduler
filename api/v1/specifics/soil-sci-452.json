@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:30.317300+00:00",
+  "course": "soil-sci-452",
+  "subject": "SOIL_SCI",
+  "courseNumber": 452,
+  "courseName": "The Landscape of Soil",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SoilS/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 The Landscape of Soil</b>  The study of soils as natural bodies, including morphology, formation, and classification. Field trips are required.  ",
+        "coursePrerequisites": " SOIL SCI 201.",
+        "instructors": [
+          {
+            "firstName": "Catherine",
+            "lastName": "Perillo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:23.165840+00:00",
+  "course": "humanity-205",
+  "subject": "HUMANITY",
+  "courseNumber": 205,
+  "courseName": "Introduction to Shakespeare",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hum/205/2/false/true",
+      "response": {
+        "courseDescription": "<b>205 Introduction to Shakespeare</b>  Shakespeare plays with emphasis on stage productions and film adaptations in various cultural contexts. (Crosslisted course offered as ENGLISH 205, HUMANITY 205.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Laura",
+            "lastName": "Kuhlman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

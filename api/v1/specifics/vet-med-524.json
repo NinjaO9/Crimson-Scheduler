@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:51.030891+00:00",
+  "course": "vet-med-524",
+  "subject": "VET_MED",
+  "courseNumber": 524,
+  "courseName": "Clinical Veterinary Pharmacology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/524/1/false/true",
+      "response": {
+        "courseDescription": "<b>524 Clinical Veterinary Pharmacology</b>  Clinical pharmacology of domestic animal species.  S, M, F grading. ",
+        "coursePrerequisites": " VET MED 523.",
+        "instructors": [
+          {
+            "firstName": "Nicolas",
+            "lastName": "Villarino",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Janean",
+            "lastName": "Fidel",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Jillian",
+            "lastName": "Haines",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "O",
+            "lastName": "Nelson",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

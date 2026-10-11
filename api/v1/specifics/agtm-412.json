@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:15.313670+00:00",
+  "course": "agtm-412",
+  "subject": "AGTM",
+  "courseNumber": 412,
+  "courseName": "Human and Machinery Risk Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AgTM/412/1/false/true",
+      "response": {
+        "courseDescription": "<b>412 Human and Machinery Risk Management</b>  Legal guidelines and best practices for reducing risk in agricultural settings; topics include equipment, electrical, chemical, livestock, and other hazards around the farm as well as worker protection standards and injury compensation programs; includes an opportunity to prepare and test for a WSDA Private Pesticide Applicators License.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

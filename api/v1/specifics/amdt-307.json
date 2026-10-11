@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:17.254456+00:00",
+  "course": "amdt-307",
+  "subject": "AMDT",
+  "courseNumber": 307,
+  "courseName": "Consumer Behavior in Fashion",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/307/1/false/true",
+      "response": {
+        "courseDescription": "<b>307 Consumer Behavior in Fashion</b>  Concepts and theories from social sciences to consumer behavior research related to fashion and apparel marketing.  ",
+        "coursePrerequisites": " AMDT 314.",
+        "instructors": [
+          {
+            "firstName": "Jihyeong",
+            "lastName": "Son",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

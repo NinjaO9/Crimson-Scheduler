@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:22.917587+00:00",
+  "course": "tch-lrn-401",
+  "subject": "TCH_LRN",
+  "courseNumber": 401,
+  "courseName": "Practicum in Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Practicum in Multilingual Education</b> May be repeated for credit; cumulative maximum 6 hours. Work with students from diverse linguistic and cultural backgrounds in educational settings. Credit not granted for both TCH LRN 401 and 501.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education or secondary education).",
+        "instructors": [
+          {
+            "firstName": "Kelli",
+            "lastName": "Dahmen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

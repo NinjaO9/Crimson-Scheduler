@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:39.918046+00:00",
+  "course": "anim-sci-313",
+  "subject": "ANIM_SCI",
+  "courseNumber": 313,
+  "courseName": "Feeds and Feeding",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/313/1/false/true",
+      "response": {
+        "courseDescription": "<b>313 Feeds and Feeding</b>  Utilization, practices, requirements, nutritive characteristics, and calculations of rations for animals. Field trip required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106; MATH 106, 108, 140, 171, 172, 182, or 202.",
+        "instructors": [
+          {
+            "firstName": "Linda",
+            "lastName": "Beckett",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

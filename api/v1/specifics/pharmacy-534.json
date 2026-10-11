@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:18.880191+00:00",
+  "course": "pharmacy-534",
+  "subject": "PHARMACY",
+  "courseNumber": 534,
+  "courseName": "Pharmacotherapy II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Pharmacotherapy II</b>  Second in a sequence of courses that focuses on the clinical use of medications in the prevention, mitigation, or cure of disease.  ",
+        "coursePrerequisites": "  PHARMACY 514.",
+        "instructors": [
+          {
+            "firstName": "Cheyenne",
+            "lastName": "Frazier",
+            "isPrimary": true,
+            "tchEffort": 56
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

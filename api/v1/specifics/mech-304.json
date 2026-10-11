@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:05.763196+00:00",
+  "course": "mech-304",
+  "subject": "MECH",
+  "courseNumber": 304,
+  "courseName": "Introduction to Electronic Circuits",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/304/1/false/true",
+      "response": {
+        "courseDescription": "<b>304 Introduction to Electronic Circuits</b>  Introduction to DC and AC circuits, analog electronic components, digital circuits, and engineering measurements.  ",
+        "coursePrerequisites": " MATH 315 or concurrent enrollment; 4 credits of PHYSICS 202, or PHYSICS 202 and 212.",
+        "instructors": [
+          {
+            "firstName": "Jong-Hoon",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

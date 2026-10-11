@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:18:21.405434+00:00",
+  "course": "history-250",
+  "subject": "HISTORY",
+  "courseNumber": 250,
+  "courseName": "Peoples of the United States",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/250/2/false/true",
+      "response": {
+        "courseDescription": "<b>250 Peoples of the United States</b>  Examination of the peoples of the United States from the beginnings of the colonial era to the present.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "L",
+            "lastName": "Heidenreich",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

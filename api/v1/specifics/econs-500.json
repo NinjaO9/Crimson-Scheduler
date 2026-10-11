@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:16.744336+00:00",
+  "course": "econs-500",
+  "subject": "ECONS",
+  "courseNumber": 500,
+  "courseName": "Macroeconomic Theory I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/500/1/false/true",
+      "response": {
+        "courseDescription": "<b>500 Macroeconomic Theory I</b>  Introduction to dynamics, growth and investment, overlapping generations models, Ramsey model, consumption and investment. Required preparation must include intermediate macroeconomics and one year of calculus. Required preparation must include intermediate macroeconomics and one year of calculus. (Crosslisted course offered as ECONS 500, FIN 500.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jinhui",
+            "lastName": "Bai",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

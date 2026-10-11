@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:26.809049+00:00",
+  "course": "me-304",
+  "subject": "ME",
+  "courseNumber": 304,
+  "courseName": "Heat Transfer",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/304/1/false/true",
+      "response": {
+        "courseDescription": "<b>304 Heat Transfer</b>  Conduction, radiation, and convection heat transfer; analytical, numerical, experimental results for solids, liquids, and gases; heat exchanger design. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " ME 301; ME 303; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Gordon",
+            "lastName": "Taub",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

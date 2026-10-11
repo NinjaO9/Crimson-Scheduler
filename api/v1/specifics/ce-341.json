@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:36.174072+00:00",
+  "course": "ce-341",
+  "subject": "CE",
+  "courseNumber": 341,
+  "courseName": "Introduction to Environmental Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/341/1/false/true",
+      "response": {
+        "courseDescription": "<b>341 Introduction to Environmental Engineering</b>  Impact of pollutants on the environment; pollution sources and sinks; engineering aspects of air and water quality; introduction to pollution control.  ",
+        "coursePrerequisites": " CHEM 105.",
+        "instructors": [
+          {
+            "firstName": "B",
+            "lastName": "Jobson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

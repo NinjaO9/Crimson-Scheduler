@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:31.890819+00:00",
+  "course": "math-490",
+  "subject": "MATH",
+  "courseNumber": 490,
+  "courseName": "Topics in Mathematics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Topics in Mathematics</b> May be repeated for credit; cumulative maximum 9 hours. Special topics in mathematics.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Kevin",
+            "lastName": "Vixie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

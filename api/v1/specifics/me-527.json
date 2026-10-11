@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:47.800746+00:00",
+  "course": "me-527",
+  "subject": "ME",
+  "courseNumber": 527,
+  "courseName": "Macroscopic Thermodynamics",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/M%20E/527/1/false/true",
+      "response": {
+        "courseDescription": "<b>527 Macroscopic Thermodynamics</b>  Advanced thermodynamics from macroscopic viewpoint; basic postulates, equilibrium, stability, property relations; application to thermal-fluid and solid mechanics; irreversible thermodynamics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Messiha",
+            "lastName": "Saad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:15.460736+00:00",
+  "course": "agtm-416",
+  "subject": "AGTM",
+  "courseNumber": 416,
+  "courseName": "Fluid Power Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AgTM/416/1/false/true",
+      "response": {
+        "courseDescription": "<b>416 Fluid Power Systems</b>  Fluid power principles applied to the selection, design, operation, and management of agricultural and industrial machinery. Field trips required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

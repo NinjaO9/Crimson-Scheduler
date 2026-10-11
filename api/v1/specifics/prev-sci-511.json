@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:07.622926+00:00",
+  "course": "prev-sci-511",
+  "subject": "PREV_SCI",
+  "courseNumber": 511,
+  "courseName": "Introduction to Prevention Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PrvSc/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Introduction to Prevention Science</b>  Disciplinary roots; the epidemiological approach to risk and prevention; design, implementation, and dissemination of preventive interventions.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Duckworth",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

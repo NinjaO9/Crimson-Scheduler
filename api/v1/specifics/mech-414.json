@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:07.077608+00:00",
+  "course": "mech-414",
+  "subject": "MECH",
+  "courseNumber": 414,
+  "courseName": "Machine Design II",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/414/1/false/true",
+      "response": {
+        "courseDescription": "<b>414 Machine Design II</b>  Static and fatigue failure theories applied to design of mechanical elements, stress analysis and finite elements; design for fatigue life of various mechanical elements, design and selection of standard mechanical components, and design of clutches and brakes.  ",
+        "coursePrerequisites": " MECH 215; MECH 309; MECH 314.",
+        "instructors": [
+          {
+            "firstName": "Hamid",
+            "lastName": "Rad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

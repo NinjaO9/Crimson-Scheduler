@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:33.921602+00:00",
+  "course": "comstrat-275",
+  "subject": "COMSTRAT",
+  "courseNumber": 275,
+  "courseName": "Strategic Communication Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/ComSr/275/2/false/true",
+      "response": {
+        "courseDescription": "<b>275 Strategic Communication Seminar</b> May be repeated for credit; cumulative maximum 9 hours. Various specialty topics in strategic communication.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jordan",
+            "lastName": "Foley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

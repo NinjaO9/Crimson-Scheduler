@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:16.891860+00:00",
+  "course": "spanish-208",
+  "subject": "SPANISH",
+  "courseNumber": 208,
+  "courseName": "Spanish for Heritage Speakers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Span/208/1/false/true",
+      "response": {
+        "courseDescription": "<b>208 Spanish for Heritage Speakers</b>  Formal aspects of basic grammar combined with a strong writing component for language skills reinforcement in writing and speaking. For heritage/native speakers only.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Lopez-Lopez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

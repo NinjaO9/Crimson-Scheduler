@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:55.732713+00:00",
+  "course": "mus-487",
+  "subject": "MUS",
+  "courseNumber": 487,
+  "courseName": "String Techniques II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/487/1/false/true",
+      "response": {
+        "courseDescription": "<b>487 String Techniques II</b>  Exploration of string instrument performance and pedagogy for music educators, with a focus on cello, double bass, and string orchestra.  ",
+        "coursePrerequisites": " MUS 190; MUS 486.",
+        "instructors": [
+          {
+            "firstName": "Christiano",
+            "lastName": "Rodrigues",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Ruth",
+            "lastName": "Boden",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

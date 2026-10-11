@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:29.298850+00:00",
+  "course": "tch-lrn-591",
+  "subject": "TCH_LRN",
+  "courseNumber": 591,
+  "courseName": "Research Internship in Math/Science Education",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/T%20%26%20L/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Research Internship in Math/Science Education</b> May be repeated for credit; cumulative maximum 6 hours. Provides opportunities for students to work closely with an accomplished researcher to observe, learn, and practice research methods.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ethan",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jonah",
+            "lastName": "Firestone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

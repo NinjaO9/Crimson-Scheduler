@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:11.206425+00:00",
+  "course": "math-273",
+  "subject": "MATH",
+  "courseNumber": 273,
+  "courseName": "Calculus III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/273/1/false/true",
+      "response": {
+        "courseDescription": "<b>273 Calculus III</b>  Calculus of functions of several variables.  Credit not granted for both MATH 273 and 283.  ",
+        "coursePrerequisites": " MATH 172 with a C or better, or MATH 182 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Eric",
+            "lastName": "Remaley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

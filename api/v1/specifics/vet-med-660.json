@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:04.296353+00:00",
+  "course": "vet-med-660",
+  "subject": "VET_MED",
+  "courseNumber": 660,
+  "courseName": "Shelter Medicine and Surgery - Special Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/660/1/false/true",
+      "response": {
+        "courseDescription": "<b>660 Shelter Medicine and Surgery - Special Topics</b> May be repeated for credit; cumulative maximum 4 hours. Clinical experiences in medicine and surgery in a shelter setting.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "Kuehl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

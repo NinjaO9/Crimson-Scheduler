@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:21:11.487579+00:00",
+  "course": "biology-350",
+  "subject": "BIOLOGY",
+  "courseNumber": 350,
+  "courseName": "Comparative Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Comparative Physiology</b>  Analysis of systems and integrative physiology with an emphasis on evolutionary adaptation among mammalian and non-mammalian vertebrates.  ",
+        "coursePrerequisites": " BIOLOGY 107; CHEM 345.",
+        "instructors": [
+          {
+            "firstName": "Wes",
+            "lastName": "Dowd",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:49.831749+00:00",
+  "course": "e-e-491",
+  "subject": "E_E",
+  "courseNumber": 491,
+  "courseName": "Performance of Power Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/E%20E/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Performance of Power Systems</b>  Static and dynamic behavior of power systems, powerflow, and economic considerations.  ",
+        "coursePrerequisites": " E E 361 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Wei",
+            "lastName": "Du",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

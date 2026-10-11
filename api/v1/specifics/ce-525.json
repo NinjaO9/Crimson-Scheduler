@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:13.803545+00:00",
+  "course": "ce-525",
+  "subject": "CE",
+  "courseNumber": 525,
+  "courseName": "Soil and Site Improvement",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/525/1/false/true",
+      "response": {
+        "courseDescription": "<b>525 Soil and Site Improvement</b>  Compaction theory and methods; deep densification of soils; advanced consolidation theory, preloading, vertical drains, chemical stabilization, grouting; use of geosynthetics. Required preparation for graduate students must include CE 317. Credit not granted for both CE 425 and CE 525. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "J. Antonio",
+            "lastName": "H. Carraro",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

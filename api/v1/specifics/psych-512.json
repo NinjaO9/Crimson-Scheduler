@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:42.479676+00:00",
+  "course": "psych-512",
+  "subject": "PSYCH",
+  "courseNumber": 512,
+  "courseName": "Non-Experimental Designs, Correlation, and Regression",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Non-Experimental Designs, Correlation, and Regression</b>  Simple and multiple correlation and regression; time-series analysis; factor analysis; field research and quasi-experimental design.  ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Carrie",
+            "lastName": "Cuttler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:05.188370+00:00",
+  "course": "pol-s-501",
+  "subject": "POL_S",
+  "courseNumber": 501,
+  "courseName": "The Scope of Political Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 The Scope of Political Science</b>  Historical development and present status of the discipline; contemporary issues and future trends.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Goldsby",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:28.125869+00:00",
+  "course": "cpt-s-483",
+  "subject": "CPT_S",
+  "courseNumber": 483,
+  "courseName": "Topics in Computer Science",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Topics in Computer Science</b> May be repeated for credit. Current topics in computer science or software engineering.  ",
+        "coursePrerequisites": " Admitted to a major or minor in EECS or Data Analytics.  Required background preparation varies with course offering, see instructor.",
+        "instructors": [
+          {
+            "firstName": "Ishaani",
+            "lastName": "Priyadarshini",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

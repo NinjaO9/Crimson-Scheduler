@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:25.043262+00:00",
+  "course": "mgmt-301",
+  "subject": "MGMT",
+  "courseNumber": 301,
+  "courseName": "Principles of Management and Organization",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MGMT/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Principles of Management and Organization</b>  Principles of management and administration aimed at improving effectiveness of all types of organizations. Credit not allowed for MGMT 101 if credit already earned in MGMT 301.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Jean",
+            "lastName": "Gingras",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

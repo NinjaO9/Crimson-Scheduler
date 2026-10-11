@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:36.199109+00:00",
+  "course": "math-569",
+  "subject": "MATH",
+  "courseNumber": 569,
+  "courseName": "Statistical Theory II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/569/1/false/true",
+      "response": {
+        "courseDescription": "<b>569 Statistical Theory II</b>  Statistical inferences; estimation and testing hypotheses; regression analysis; sequential analysis and nonparametric methods. (Crosslisted course offered as STAT 549, MATH 569.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " STAT 548 or MATH 568.",
+        "instructors": [
+          {
+            "firstName": "Xiongzhi",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:06.924994+00:00",
+  "course": "mech-405",
+  "subject": "MECH",
+  "courseNumber": 405,
+  "courseName": "Internet of Things with Microcontrollers",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Internet of Things with Microcontrollers</b>  Microcontroller programming for Internet of Things (IoT) and network connectivity, IoT capable smart product design.  ",
+        "coursePrerequisites": " MECH 304.",
+        "instructors": [
+          {
+            "firstName": "Hakan",
+            "lastName": "Gurocak",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

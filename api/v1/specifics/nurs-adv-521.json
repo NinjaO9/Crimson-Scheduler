@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:01.927249+00:00",
+  "course": "nurs-adv-521",
+  "subject": "NURS_ADV",
+  "courseNumber": 521,
+  "courseName": "Nursing Education: Assessment and Evaluation",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Nursing Education: Assessment and Evaluation</b>  Examines assessment and evaluation methodologies across academic programs, including student, course, and program evaluations.  ",
+        "coursePrerequisites": " NURS ADV 523.",
+        "instructors": [
+          {
+            "firstName": "Christina",
+            "lastName": "Brumley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

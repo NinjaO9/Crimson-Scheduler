@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:56.412473+00:00",
+  "course": "mis-374",
+  "subject": "MIS",
+  "courseNumber": 374,
+  "courseName": "Information Technology Infrastructure and Security",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MIS/374/1/false/true",
+      "response": {
+        "courseDescription": "<b>374 Information Technology Infrastructure and Security</b>  Designing, managing, and securing corporate information technology infrastructures.  ",
+        "coursePrerequisites": " MIS 250; admitted to a major or minor in the College of Business, or major in Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

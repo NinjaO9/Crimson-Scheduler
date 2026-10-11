@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:20.683914+00:00",
+  "course": "kines-412",
+  "subject": "KINES",
+  "courseNumber": 412,
+  "courseName": "Strength Training Practicum I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/412/1/false/true",
+      "response": {
+        "courseDescription": "<b>412 Strength Training Practicum I</b>  Clinical experience within the Strength and Conditioning minor, focusing on the basics of lifting and spotting techniques.  ",
+        "coursePrerequisites": " BIOLOGY 315 or KINES 262 each with a C or better; KINES 264 with a C or better; KINES 311 with a C or better; KINES 411 with a C or better or concurrent enrollment; admitted Strength and Conditioning minor; current CPR/First Aid.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "Holmstrom",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

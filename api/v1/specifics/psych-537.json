@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:43.923278+00:00",
+  "course": "psych-537",
+  "subject": "PSYCH",
+  "courseNumber": 537,
+  "courseName": "Psychology Clinic Assessment Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Psych/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Psychology Clinic Assessment Practicum</b> May be repeated for credit; cumulative maximum 6 hours. Supervised practice in psychological assessment, including neuropsychological assessment, in the WSU Psychology Clinic.  S, F grading. ",
+        "coursePrerequisites": " PSYCH 539; Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Marlis",
+            "lastName": "Kirchhoff",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

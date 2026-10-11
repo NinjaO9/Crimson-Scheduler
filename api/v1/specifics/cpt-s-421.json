@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:23.344023+00:00",
+  "course": "cpt-s-421",
+  "subject": "CPT_S",
+  "courseNumber": 421,
+  "courseName": "Software Design Project I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 Software Design Project I</b>  Large-scale software development including requirements analysis, estimation, design, verification and project management.  ",
+        "coursePrerequisites": " C or better in each of CPT S 322; CPT S 360 or 370; one 400-level CPT S course taken at WSU; admitted to a major in EECS; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

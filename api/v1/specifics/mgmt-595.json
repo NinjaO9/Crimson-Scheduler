@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:54.199357+00:00",
+  "course": "mgmt-595",
+  "subject": "MGMT",
+  "courseNumber": 595,
+  "courseName": "Seminar in Strategic Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MGMT/595/1/false/true",
+      "response": {
+        "courseDescription": "<b>595 Seminar in Strategic Management</b>  Advanced, doctoral-level topics in Strategic Management.  ",
+        "coursePrerequisites": "  Admission to the Ph.D. in Business Administration.",
+        "instructors": [
+          {
+            "firstName": "Amrita",
+            "lastName": "Lahiri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

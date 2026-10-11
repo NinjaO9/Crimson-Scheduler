@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:18.157219+00:00",
+  "course": "pharmacy-516",
+  "subject": "PHARMACY",
+  "courseNumber": 516,
+  "courseName": "Health Care Systems",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/516/1/false/true",
+      "response": {
+        "courseDescription": "<b>516 Health Care Systems</b>  US healthcare system, financing of health care delivery and the role of the pharmacist.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Jason",
+            "lastName": "Brouillard",
+            "isPrimary": true,
+            "tchEffort": 70
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

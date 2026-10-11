@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:18.823448+00:00",
+  "course": "cs-420",
+  "subject": "CS",
+  "courseNumber": 420,
+  "courseName": "Software Design Project I",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Software Design Project I</b>  Development of software in a team environment; project management; unit and integration testing, bug tracking, configuration management, software process models; object-oriented design.  ",
+        "coursePrerequisites": " CS 320 with a C or better; CS 360; admitted to the major in Computer Science; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "McCamish",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

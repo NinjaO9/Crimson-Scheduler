@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:20:26.414858+00:00",
+  "course": "biology-305",
+  "subject": "BIOLOGY",
+  "courseNumber": 305,
+  "courseName": "Evolutionary Biology and Diversity",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Evolutionary Biology and Diversity</b>  Enrollment not allowed if credit already earned for BIOLOGY 395, 403, or 405.  Survey of evolutionary processes that influence adaptation, diversification, and the origins and history of biodiversity; applications of evolution in conservation, agriculture, and medicine.   Credit not granted for both BIOLOGY 305 and BIOLOGY 395, 403, or 405.  ",
+        "coursePrerequisites": " BIOLOGY 106; BIOLOGY 107. Credit not granted for both BIOLOGY 305 and BIOLOGY 395, 403, or 405.",
+        "instructors": [
+          {
+            "firstName": "Katherine",
+            "lastName": "Corn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

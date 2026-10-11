@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:47.236531+00:00",
+  "course": "cpt-s-581",
+  "subject": "CPT_S",
+  "courseNumber": 581,
+  "courseName": "Software Maintenance",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/581/1/false/true",
+      "response": {
+        "courseDescription": "<b>581 Software Maintenance</b>  Software maintenance, refactoring, reengineering, reverse engineering. Credit not granted for both CPT S 481 and 581.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Srinivasulu",
+            "lastName": "Badri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

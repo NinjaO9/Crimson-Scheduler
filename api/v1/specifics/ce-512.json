@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:58.221786+00:00",
+  "course": "ce-512",
+  "subject": "CE",
+  "courseNumber": 512,
+  "courseName": "Dynamics of Structures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Dynamics of Structures</b>  Equations of motion, free vibration, damping mechanisms, harmonic, impulse, and seismic loading; shock and seismic response spectra, time and frequency domain analysis, modal analysis, structural dynamics in building codes. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Haifeng",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

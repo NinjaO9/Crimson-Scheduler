@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:16.976402+00:00",
+  "course": "engr-120",
+  "subject": "ENGR",
+  "courseNumber": 120,
+  "courseName": "Innovation in Design",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Engr/120/1/false/true",
+      "response": {
+        "courseDescription": "<b>120 Innovation in Design</b>  Introduction to engineering disciplines, problem solving, design teamwork and ethics.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Hudson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

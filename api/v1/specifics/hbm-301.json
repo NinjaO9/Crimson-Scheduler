@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:51.614699+00:00",
+  "course": "hbm-301",
+  "subject": "HBM",
+  "courseNumber": 301,
+  "courseName": "Introduction to Event Planning",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/HBM/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Introduction to Event Planning</b>  Overview of event planning industry, including components, interrelationships, economics, and theory.  ",
+        "coursePrerequisites": " Admitted to a major in the College of Business or minor in Hospitality Business Management; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Angela",
+            "lastName": "Senter",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:33.584917+00:00",
+  "course": "mse-413",
+  "subject": "MSE",
+  "courseNumber": 413,
+  "courseName": "Mechanical Behavior of Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/413/1/false/true",
+      "response": {
+        "courseDescription": "<b>413 Mechanical Behavior of Materials</b>  Elasticity, elastic stress distributions; plastic deformation of single and polycrystals; introduction to dislocation theory and its applications; creep, fracture, fatigue. (Crosslisted course offered as MSE 413, ME 413.)  ",
+        "coursePrerequisites": " CE 215 and MSE 201, both with a C or better; OR MSE 202 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Sinisa",
+            "lastName": "Mesarovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

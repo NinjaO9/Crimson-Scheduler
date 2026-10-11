@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:22.246116+00:00",
+  "course": "tch-lrn-352",
+  "subject": "TCH_LRN",
+  "courseNumber": 352,
+  "courseName": "Teaching Elementary Mathematics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/352/1/false/true",
+      "response": {
+        "courseDescription": "<b>352 Teaching Elementary Mathematics</b>  Teaching methods, materials, and content in elementary and middle school mathematics.  ",
+        "coursePrerequisites": " MATH 252; for candidates admitted to teacher education (EDUC).",
+        "instructors": [
+          {
+            "firstName": "Timothy",
+            "lastName": "Schotzko",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

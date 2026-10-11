@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:05.906010+00:00",
+  "course": "fin-426",
+  "subject": "FIN",
+  "courseNumber": 426,
+  "courseName": "The Practice of Corporate Finance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 The Practice of Corporate Finance</b>  Applied corporate finance topics, which may include working capital management, cash management, short-term investing and borrowing, leasing, and others.â€¯ The course also includes practical cases and projects to expose students to the function of a corporate financial analyst.  ",
+        "coursePrerequisites": " FIN 325 with a C or better; admitted to a major or minor in the College of Business, or a major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Dj",
+            "lastName": "Fairhurst",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

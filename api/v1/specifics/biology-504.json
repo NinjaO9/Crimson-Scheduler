@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:27.964204+00:00",
+  "course": "biology-504",
+  "subject": "BIOLOGY",
+  "courseNumber": 504,
+  "courseName": "Experimental Methods in Molecular Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/504/1/false/true",
+      "response": {
+        "courseDescription": "<b>504 Experimental Methods in Molecular Biology</b>  Advanced techniques and methods applicable to research in molecular biology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cecilia",
+            "lastName": "Rodriguez Furlan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

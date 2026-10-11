@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:44:05.523172+00:00",
+  "course": "e-e-507",
+  "subject": "E_E",
+  "courseNumber": 507,
+  "courseName": "Random Processes in Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/507/1/false/true",
+      "response": {
+        "courseDescription": "<b>507 Random Processes in Engineering</b>  Functions of random variables; random sequences; stochastic processes; mean-square stochastic calculus; ergodicity; spectral density; linear transformations, filtering, dynamic systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ali",
+            "lastName": "Saberi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

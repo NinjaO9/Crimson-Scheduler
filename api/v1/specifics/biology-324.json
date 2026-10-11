@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:20:41.806815+00:00",
+  "course": "biology-324",
+  "subject": "BIOLOGY",
+  "courseNumber": 324,
+  "courseName": "Comparative Vertebrate Anatomy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/324/1/false/true",
+      "response": {
+        "courseDescription": "<b>324 Comparative Vertebrate Anatomy</b>  Evolution of vertebrates and their organ systems; correlation of structural modification with function. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106.",
+        "instructors": [
+          {
+            "firstName": "Edward",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:37.971286+00:00",
+  "course": "llt-586",
+  "subject": "LLT",
+  "courseNumber": 586,
+  "courseName": "Seminar in Language, Literacy, and Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/LLT/586/1/false/true",
+      "response": {
+        "courseDescription": "<b>586 Seminar in Language, Literacy, and Technology</b> May be repeated for credit; cumulative maximum 3 hours. Tools for professional development in the areas of research, teaching, and service. Seminar compliments required courses in the LLT doctoral student program.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jane",
+            "lastName": "Kelley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

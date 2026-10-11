@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:19.863696+00:00",
+  "course": "cs-442",
+  "subject": "CS",
+  "courseNumber": 442,
+  "courseName": "Computer Graphics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/442/1/false/true",
+      "response": {
+        "courseDescription": "<b>442 Computer Graphics</b>  Raster operations; transformations and viewing; geometric modeling; visibility and shading; color. Credit not granted for both CS 442 and CS 542.  ",
+        "coursePrerequisites": " CS 223 with a C or better; CS 320 with a C or better; MATH 220 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Grant",
+            "lastName": "Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

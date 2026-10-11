@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:54.907080+00:00",
+  "course": "vet-med-562",
+  "subject": "VET_MED",
+  "courseNumber": 562,
+  "courseName": "Integrative Veterinary Medicine",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Integrative Veterinary Medicine</b>  Presentation of integrative veterinary medicine theories, modalities, and applications.  S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jessica",
+            "lastName": "Bunch",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jamie",
+            "lastName": "Peyton",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

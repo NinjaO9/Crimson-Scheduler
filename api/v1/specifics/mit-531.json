@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:12.298065+00:00",
+  "course": "mit-531",
+  "subject": "MIT",
+  "courseNumber": 531,
+  "courseName": "Literacy Development I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MIT/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Literacy Development I</b>  For candidates admitted to graduate teacher preparation. Review of current research and approaches to instruction in the development of literacy in elementary and middle grades.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Katharine",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

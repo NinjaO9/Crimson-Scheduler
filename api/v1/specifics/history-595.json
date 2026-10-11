@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:03.584229+00:00",
+  "course": "history-595",
+  "subject": "HISTORY",
+  "courseNumber": 595,
+  "courseName": "The Teaching of History in College",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/595/1/false/true",
+      "response": {
+        "courseDescription": "<b>595 The Teaching of History in College</b>  Theory, problems, and methods of teaching history at the college level.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Heather",
+            "lastName": "McNamee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

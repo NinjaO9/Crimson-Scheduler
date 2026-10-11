@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:22.826089+00:00",
+  "course": "cs-702",
+  "subject": "CS",
+  "courseNumber": 702,
+  "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/702/1/false/true",
+      "response": {
+        "courseDescription": "<b>702 Master's Special Problems, Directed Study, and/or Examination</b> May be repeated for credit. Independent research in special problems, directed study, and/or examination credit for students in a non-thesis master's degree program. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 702 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Wallace",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Xinghui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

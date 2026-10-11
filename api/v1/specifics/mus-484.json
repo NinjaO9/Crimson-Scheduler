@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:55.181889+00:00",
+  "course": "mus-484",
+  "subject": "MUS",
+  "courseNumber": 484,
+  "courseName": "Woodwind Techniques I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/484/1/false/true",
+      "response": {
+        "courseDescription": "<b>484 Woodwind Techniques I</b>  Performance and pedagogy of woodwind instruments for music educators.  ",
+        "coursePrerequisites": " MUS 190 if enrolled as music education major.",
+        "instructors": [
+          {
+            "firstName": "Sophia",
+            "lastName": "Tegart",
+            "isPrimary": true,
+            "tchEffort": 33
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

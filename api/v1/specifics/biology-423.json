@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:10.339855+00:00",
+  "course": "biology-423",
+  "subject": "BIOLOGY",
+  "courseNumber": 423,
+  "courseName": "Ornithology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Biol/423/1/false/true",
+      "response": {
+        "courseDescription": "<b>423 Ornithology</b>  Ecology, systematics, and evolution of birds. Field trips required include two Saturdays.  ",
+        "coursePrerequisites": " BIOLOGY 106.",
+        "instructors": [
+          {
+            "firstName": "Daniela",
+            "lastName": "Monk",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

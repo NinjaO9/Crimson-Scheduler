@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:12.677733+00:00",
+  "course": "bio-eng-499",
+  "subject": "BIO_ENG",
+  "courseNumber": 499,
+  "courseName": "Special Problems in Bioengineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/B%20E/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems in Bioengineering</b> May be repeated for credit; cumulative maximum 6 hours. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": "  By instructor permission; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Bin",
+            "lastName": "Cao",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Wenji",
+            "lastName": "Dong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

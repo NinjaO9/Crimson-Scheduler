@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:22.658320+00:00",
+  "course": "pl-p-570",
+  "subject": "PL_P",
+  "courseNumber": 570,
+  "courseName": "Techniques in Plant Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pl%20P/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Techniques in Plant Pathology</b>  Laboratory techniques for isolating, cultivating, and identifying the major groups of plant pathogenic organisms. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cynthia",
+            "lastName": "Gleason",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Jana",
+            "lastName": "U'Ren",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Maren",
+            "lastName": "Friesen",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Prabu",
+            "lastName": "Gnanasekaran",
+            "isPrimary": true,
+            "tchEffort": 25
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

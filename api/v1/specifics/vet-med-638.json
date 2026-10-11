@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:03.306371+00:00",
+  "course": "vet-med-638",
+  "subject": "VET_MED",
+  "courseNumber": 638,
+  "courseName": "Equine Advanced Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/638/1/false/true",
+      "response": {
+        "courseDescription": "<b>638 Equine Advanced Lab</b>  Clinical experience with the Equine Medicine and Surgery Service of the Large Animal Clinic, Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

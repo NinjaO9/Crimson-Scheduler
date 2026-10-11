@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:16.391359+00:00",
+  "course": "mus-359",
+  "subject": "MUS",
+  "courseNumber": 359,
+  "courseName": "History of Music: Antiquity to 1650",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/359/1/false/true",
+      "response": {
+        "courseDescription": "<b>359 [M] History of Music: Antiquity to 1700</b>  History and style of western art music from Antiquity to 1700 with introduction to research in musicology.  ",
+        "coursePrerequisites": " MUS 251 with a C or better; MUS 252 with a C or better; ENGLISH 101 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Sophia",
+            "lastName": "Tegart",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

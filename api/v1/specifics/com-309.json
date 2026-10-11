@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:27:19.972584+00:00",
+  "course": "com-309",
+  "subject": "COM",
+  "courseNumber": 309,
+  "courseName": "Quantitative Research Methods",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/309/2/false/true",
+      "response": {
+        "courseDescription": "<b>309 Quantitative Research Methods</b>  Measurement, questionnaire construction, sampling, data collection techniques, analysis and hypothesis testing in communication research.  ",
+        "coursePrerequisites": " MATH [QUAN]; admitted to a major or minor in the College of Communication; sophomore standing.",
+        "instructors": [
+          {
+            "firstName": "Michelle",
+            "lastName": "Kistler",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Fahima",
+            "lastName": "Khanam",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

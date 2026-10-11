@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:25.592344+00:00",
+  "course": "me-116",
+  "subject": "ME",
+  "courseNumber": 116,
+  "courseName": "Engineering Computer-aided Design and Visualization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/116/1/false/true",
+      "response": {
+        "courseDescription": "<b>116 Engineering Computer-aided Design and Visualization</b>  Introduction to 3-D solid modeling, parts, drawings, assemblies, multi-body parts, sketch editing, sheet metal, weldments, surface and mold tools.  ",
+        "coursePrerequisites": " MATH 171 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Nandita",
+            "lastName": "Biswas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

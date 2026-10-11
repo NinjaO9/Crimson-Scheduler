@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:57.967463+00:00",
+  "course": "neurosci-543",
+  "subject": "NEUROSCI",
+  "courseNumber": 543,
+  "courseName": "Special Topics in Behavioral/Clinical Neuroscience",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/543/3/false/true",
+      "response": {
+        "courseDescription": "<b>543 Special Topics in Behavioral/Clinical Neuroscience</b> May be repeated for credit; cumulative maximum 6 hours. Concepts and controversies in neuroscience that involve normal and pathological aspects of behavior. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "McLaughlin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

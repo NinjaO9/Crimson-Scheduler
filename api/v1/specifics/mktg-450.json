@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:43.985487+00:00",
+  "course": "mktg-450",
+  "subject": "MKTG",
+  "courseNumber": 450,
+  "courseName": "Digital Marketing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mktg/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Digital Marketing</b>  Understanding and implementing marketing theory and analytics on social media and in online environments.  ",
+        "coursePrerequisites": " MKTG 360; admitted to a major or minor in the College of Business, or Professional Sales certificate.",
+        "instructors": [
+          {
+            "firstName": "Mesut",
+            "lastName": "Cicek",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

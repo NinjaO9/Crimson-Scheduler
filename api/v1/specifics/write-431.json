@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:33:11.503303+00:00",
+  "course": "write-431",
+  "subject": "WRITE",
+  "courseNumber": 431,
+  "courseName": "Writing Center Theory and Practice",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/WRITE/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Writing Center Theory and Practice</b> May be repeated for credit; cumulative maximum 2 hours. Education and training for work at the WSU Undergraduate Writing Center with focus on the scholarship of theory and practice.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Jeannie",
+            "lastName": "Bennett",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Angela",
+            "lastName": "Mitchell",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

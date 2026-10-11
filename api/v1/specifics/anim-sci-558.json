@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:43.967069+00:00",
+  "course": "anim-sci-558",
+  "subject": "ANIM_SCI",
+  "courseNumber": 558,
+  "courseName": "Molecular and Cellular Reproduction",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/558/1/true/true",
+      "response": {
+        "courseDescription": "<b>558 Molecular and Cellular Reproduction</b>  State of the art concepts of the molecular, cellular, and physiological aspects of mammalian reproduction. (Crosslisted course offered as MBIOS 528, ANIM SCI 558.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "MacLean",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:17.046303+00:00",
+  "course": "physics-489",
+  "subject": "PHYSICS",
+  "courseNumber": 489,
+  "courseName": "Thesis Proposal",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/489/1/false/true",
+      "response": {
+        "courseDescription": "<b>489 Thesis Proposal</b>  Research project directed by an approved faculty member in support of completing a thesis proposal for PHYSICS 490.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Steven",
+            "lastName": "Tomsovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

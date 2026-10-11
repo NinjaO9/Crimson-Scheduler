@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:14.803454+00:00",
+  "course": "phardsci-512",
+  "subject": "PHARDSCI",
+  "courseNumber": 512,
+  "courseName": "Integrated Pharmacology II",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRSC/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Integrated Pharmacology II</b>  Integrated hepatic, gastrointestinal, and endocrine pharmacology.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Sue",
+            "lastName": "Marsh",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

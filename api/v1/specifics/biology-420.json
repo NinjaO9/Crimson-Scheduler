@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:10.151508+00:00",
+  "course": "biology-420",
+  "subject": "BIOLOGY",
+  "courseNumber": 420,
+  "courseName": "Plant Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Plant Physiology</b>  Water relations, mineral nutrition, photosynthesis, respiration, and growth of plants.  Recommended:  Organic chemistry. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106 or 120.",
+        "instructors": [
+          {
+            "firstName": "Mechthild",
+            "lastName": "Tegeder",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

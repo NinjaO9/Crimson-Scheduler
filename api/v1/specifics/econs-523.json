@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:33.331249+00:00",
+  "course": "econs-523",
+  "subject": "ECONS",
+  "courseNumber": 523,
+  "courseName": "Big Data Management and Processing for Economics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/523/1/false/true",
+      "response": {
+        "courseDescription": "<b>523 Big Data Management and Processing for Economics</b>  Introduction to data management and processing; efficient collection, storage, cleaning, version control, and data analysis; effective programming for achieving these goals. Recommended preparation: one 3-credit introductory statistics course. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jake",
+            "lastName": "Wagner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

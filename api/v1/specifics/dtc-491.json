@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:59.715511+00:00",
+  "course": "dtc-491",
+  "subject": "DTC",
+  "courseNumber": 491,
+  "courseName": "Advanced Digital Cinema",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/DTC/491/1/false/true",
+      "response": {
+        "courseDescription": "<b>491 Advanced Digital Cinema</b>  Exploration of advanced techniques, theories, and aesthetic strategies of cinema in the age of digital media.  ",
+        "coursePrerequisites": " DTC 201 or 208.",
+        "instructors": [
+          {
+            "firstName": "Eliseo",
+            "lastName": "Ortiz Menchaca",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

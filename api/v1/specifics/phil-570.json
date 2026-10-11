@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:11.920718+00:00",
+  "course": "phil-570",
+  "subject": "PHIL",
+  "courseNumber": 570,
+  "courseName": "Philosophy of Law",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phil/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Philosophy of Law</b>  Selected topics pertaining to moral and philosophical evaluation of law. Credit not granted for both PHIL 470 and PHIL 570. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matt",
+            "lastName": "Stichter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

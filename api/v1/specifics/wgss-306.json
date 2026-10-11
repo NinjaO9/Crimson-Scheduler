@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:30:13.191054+00:00",
+  "course": "wgss-306",
+  "subject": "WGSS",
+  "courseNumber": 306,
+  "courseName": "Introduction to Literary Criticism",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/WGSS/306/2/false/true",
+      "response": {
+        "courseDescription": "<b>306 [M] Introduction to Literary Criticism</b>  Introduction to the systematic study of critical and theoretical approaches to literature; emphasis on problems of interpretation. (Crosslisted course offered as ENGLISH 308, WGSS 306.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Roger",
+            "lastName": "Whitson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

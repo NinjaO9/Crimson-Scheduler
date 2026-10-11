@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:50.000694+00:00",
+  "course": "science-102",
+  "subject": "SCIENCE",
+  "courseNumber": 102,
+  "courseName": "Integrated Science: Dynamic Systems in the Natural World",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Sci/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Integrated Science: Dynamic Systems in the Natural World</b>  Interdisciplinary approach to science in the modern world for non-science majors.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tyler",
+            "lastName": "Hansen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

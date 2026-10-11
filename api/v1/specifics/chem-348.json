@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:42.254557+00:00",
+  "course": "chem-348",
+  "subject": "CHEM",
+  "courseNumber": 348,
+  "courseName": "Organic Chemistry II and Problem Solving",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/348/1/false/true",
+      "response": {
+        "courseDescription": "<b>348 Organic Chemistry II and Problem Solving</b>  Advanced concepts in organic chemistry including mechanisms and multistep-synthesis; problem analysis and critical thinking development in organic chemistry. Credit not granted for both CHEM 346 and 348.  ",
+        "coursePrerequisites": " CHEM 345 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Greg",
+            "lastName": "Crouch",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Joseph",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

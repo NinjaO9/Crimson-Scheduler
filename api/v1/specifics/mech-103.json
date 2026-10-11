@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:04.577719+00:00",
+  "course": "mech-103",
+  "subject": "MECH",
+  "courseNumber": 103,
+  "courseName": "Engineering Graphics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/103/1/false/true",
+      "response": {
+        "courseDescription": "<b>103 Engineering Graphics</b>  Orthographic theory, conventions, and visualization; isometric and oblique pictorials; geometric dimensioning and tolerancing, computer-aided drafting and solid modeling.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Miskell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

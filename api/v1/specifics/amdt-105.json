@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:01.161564+00:00",
+  "course": "amdt-105",
+  "subject": "AMDT",
+  "courseNumber": 105,
+  "courseName": "Introductory College Seminar in Apparel, Merchandising, Design, and Textiles",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Introductory College Seminar in Apparel, Merchandising, Design, and Textiles</b>  Concepts of shared responsibility in planning and actual completion of AMDT undergraduate study.  ",
+        "coursePrerequisites": " Concurrent enrollment in AMDT 108.",
+        "instructors": [
+          {
+            "firstName": "Han Ah",
+            "lastName": "Yoo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

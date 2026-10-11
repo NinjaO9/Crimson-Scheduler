@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:21.995325+00:00",
+  "course": "pl-p-514",
+  "subject": "PL_P",
+  "courseNumber": 514,
+  "courseName": "Phytobacteriology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pl%20P/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Phytobacteriology</b>  Isolation and characterization of bacteria having a saprophytic, symbiotic or pathogenic association with plants, molecular structure, function, and genetics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Maren",
+            "lastName": "Friesen",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Youfu",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

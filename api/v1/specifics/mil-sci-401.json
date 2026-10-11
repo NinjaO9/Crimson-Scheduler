@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:11.641755+00:00",
+  "course": "mil-sci-401",
+  "subject": "MIL_SCI",
+  "courseNumber": 401,
+  "courseName": "Advanced Military Leadership",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Advanced Military Leadership</b>  Historical and legal basis of military justice; small unit management; military professionalism and ethics.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Jeramy",
+            "lastName": "Norland",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": false,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:16.794826+00:00",
+  "course": "amdt-221",
+  "subject": "AMDT",
+  "courseNumber": 221,
+  "courseName": "Historic Costume II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/221/1/false/true",
+      "response": {
+        "courseDescription": "<b>221 Historic Costume II</b>  Overview of apparel design, designers and social history in the 20th century.  ",
+        "coursePrerequisites": " AMDT 210 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Siming",
+            "lastName": "Guo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

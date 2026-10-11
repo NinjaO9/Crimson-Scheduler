@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:58.623107+00:00",
+  "course": "neurosci-800",
+  "subject": "NEUROSCI",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  S, U grading. ",
+        "coursePrerequisites": "  Admitted to the Neuroscience PhD program.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Rossi",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Emily",
+            "lastName": "Qualls-Creekmore",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Gary",
+            "lastName": "Wayman",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Giuseppe",
+            "lastName": "Giannotti",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "James",
+            "lastName": "Peters",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kristen",
+            "lastName": "Delevich",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "R",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Rita",
+            "lastName": "Fuchs",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Catena",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "McLaughlin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sergio",
+            "lastName": "Hidalgo Sotelo",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Shane",
+            "lastName": "Hentges",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Suzanne",
+            "lastName": "Appleyard",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Travis",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:48.552320+00:00",
+  "course": "pubhlth-301",
+  "subject": "PUBHLTH",
+  "courseNumber": 301,
+  "courseName": "Community Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Community Health</b>  Concepts of population health and the basic processes, approaches, and interventions that identify and address the major health-related needs and concerns of populations.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Todd",
+            "lastName": "Sabato",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:56.324169+00:00",
+  "course": "vet-med-574",
+  "subject": "VET_MED",
+  "courseNumber": 574,
+  "courseName": "Equine Lameness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/574/1/false/true",
+      "response": {
+        "courseDescription": "<b>574 Equine Lameness</b>  Principles of diagnosis and treatment of musculoskeletal disorders of the horse.  S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nicholas",
+            "lastName": "Hall",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Kelly",
+            "lastName": "Farnsworth",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

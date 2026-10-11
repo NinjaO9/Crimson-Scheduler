@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:03.971127+00:00",
+  "course": "vet-med-656",
+  "subject": "VET_MED",
+  "courseNumber": 656,
+  "courseName": "Diagnostics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/656/1/false/true",
+      "response": {
+        "courseDescription": "<b>656 Diagnostics</b>  Advanced study in diagnostic pathology, toxicology, and microbiology.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Laura",
+            "lastName": "Artz Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

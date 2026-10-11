@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:59.486476+00:00",
+  "course": "mktg-487",
+  "subject": "MKTG",
+  "courseNumber": 487,
+  "courseName": "Research Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mktg/487/1/false/true",
+      "response": {
+        "courseDescription": "<b>487 Research Practicum</b>  Independent research project with faculty member including problem statement, literature review, hypotheses, data collection, and reporting of results.  ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Gavin",
+            "lastName": "Nolin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

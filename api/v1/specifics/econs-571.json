@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:49.351731+00:00",
+  "course": "econs-571",
+  "subject": "ECONS",
+  "courseNumber": 571,
+  "courseName": "International Trade",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 International Trade</b>  Recent developments in trade theory and policy, including international factor movements, empirical analysis of trade flows and strategic trade policies.  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Jeffrey",
+            "lastName": "Luckstead",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

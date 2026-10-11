@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:03.390918+00:00",
+  "course": "history-580",
+  "subject": "HISTORY",
+  "courseNumber": 580,
+  "courseName": "Historiography",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hist/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Historiography</b>    ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "L",
+            "lastName": "Heidenreich",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

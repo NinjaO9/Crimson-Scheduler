@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:36.908061+00:00",
+  "course": "kines-563",
+  "subject": "KINES",
+  "courseNumber": 563,
+  "courseName": "Balance, Gait and Running",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Kines/563/1/false/true",
+      "response": {
+        "courseDescription": "<b>563 Balance, Gait and Running</b>  The biomechanical analysis and literature of balance, gait and running.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Lukas",
+            "lastName": "Krumpl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

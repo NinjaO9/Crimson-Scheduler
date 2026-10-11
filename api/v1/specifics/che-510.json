@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:52.849787+00:00",
+  "course": "che-510",
+  "subject": "CHE",
+  "courseNumber": 510,
+  "courseName": "Transport Processes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Transport Processes</b>  Transport of mass, energy, and momentum; unsteady and steady states as applied to chemical processing; macroscopic and microscopic analyses. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Thiessen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

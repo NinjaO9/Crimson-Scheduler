@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:48.900991+00:00",
+  "course": "vet-med-502",
+  "subject": "VET_MED",
+  "courseNumber": 502,
+  "courseName": "Communication Skills",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/502/1/false/true",
+      "response": {
+        "courseDescription": "<b>502 Communication Skills</b>  Exercises designed to enhance communication and relational skills.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Cary",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

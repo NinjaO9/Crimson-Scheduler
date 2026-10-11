@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:49.545899+00:00",
+  "course": "econs-572",
+  "subject": "ECONS",
+  "courseNumber": 572,
+  "courseName": "International Development",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 International Development</b>  Structural and two-sector growth models of developing countries and countries in transition; empirical estimation of sources of growth.  ",
+        "coursePrerequisites": " ECONS 502; ECONS 503; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Gregmar",
+            "lastName": "Galinato",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Seollee",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

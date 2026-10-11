@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:55.625396+00:00",
+  "course": "ath-t-595",
+  "subject": "ATH_T",
+  "courseNumber": 595,
+  "courseName": "Leadership and Communication in Athletic Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Ath%20T/595/1/false/true",
+      "response": {
+        "courseDescription": "<b>595 Leadership and Communication in Athletic Training</b>  Application of leadership, management, intercultural, and interprofessional communication within the athletic training discipline.  ",
+        "coursePrerequisites": " Admitted to the MAT program.",
+        "instructors": [
+          {
+            "firstName": "Cassie",
+            "lastName": "Hodgin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

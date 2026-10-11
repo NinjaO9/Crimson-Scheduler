@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:26.331501+00:00",
+  "course": "fs-433",
+  "subject": "FS",
+  "courseNumber": 433,
+  "courseName": "Food Engineering Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/FS/433/2/false/true",
+      "response": {
+        "courseDescription": "<b>433 Food Engineering Lab</b>  To enhance the learning experience of the students taking FS 432 through laboratories, problem sessions and group discussions. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " FS 432 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Fidele",
+            "lastName": "Abedi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

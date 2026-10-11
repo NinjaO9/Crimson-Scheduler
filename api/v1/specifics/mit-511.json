@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:11.971441+00:00",
+  "course": "mit-511",
+  "subject": "MIT",
+  "courseNumber": 511,
+  "courseName": "Introduction to Multilingual Education in K-12 Settings",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MIT/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Introduction to Multilingual Education in K-12 Settings</b>  Research-based ESL strategies, methods, and practical knowledge that pre-service teachers can apply in a variety of instructional contexts to insure the success of minority students from diverse linguistic and cultural backgrounds.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Kelli",
+            "lastName": "Dahmen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

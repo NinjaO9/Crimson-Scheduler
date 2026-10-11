@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:04.103878+00:00",
+  "course": "ece-325",
+  "subject": "ECE",
+  "courseNumber": 325,
+  "courseName": "Electronic Devices and Applications",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Electronic Devices and Applications</b>  MOS small and large signal models, bipolar transistors, biasing and parasitics, amplifier design and feedback, frequency response; circuit simulation and device models.  ",
+        "coursePrerequisites": " ECE 214; ECE 260.",
+        "instructors": [
+          {
+            "firstName": "Hang",
+            "lastName": "Gao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

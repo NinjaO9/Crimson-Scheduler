@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:19.144509+00:00",
+  "course": "cs-426",
+  "subject": "CS",
+  "courseNumber": 426,
+  "courseName": "Applied Systems Security",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 Applied Systems Security</b>  Foundations, theory, and practice of non-cryptographic computer security; design of secure software; adding security to existing systems; other contemporary topics in security.  ",
+        "coursePrerequisites": " CS 251 with a C or better, or CS 261 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Bonamy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

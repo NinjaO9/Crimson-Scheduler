@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:32.877844+00:00",
+  "course": "mse-332",
+  "subject": "MSE",
+  "courseNumber": 332,
+  "courseName": "Polymeric Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/332/1/false/true",
+      "response": {
+        "courseDescription": "<b>332 Polymeric Materials</b>  Structural characterization, syntheses, and reactions of polymeric materials; relationships between structure and properties, viscoelasticity, deformation, and physical behavior of polymers. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MSE 201 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Katie",
+            "lastName": "Zhong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

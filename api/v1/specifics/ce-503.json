@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:57.363317+00:00",
+  "course": "ce-503",
+  "subject": "CE",
+  "courseNumber": 503,
+  "courseName": "Air Quality Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Air Quality Management</b>  Air pollution from the perspective of an environmental manager; regulatory framework, management strategies, monitoring, modeling tools, and control technologies. Credit not granted for both CE 403 and CE 503. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jun",
+            "lastName": "Meng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

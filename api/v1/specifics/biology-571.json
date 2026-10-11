@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:29.159463+00:00",
+  "course": "biology-571",
+  "subject": "BIOLOGY",
+  "courseNumber": 571,
+  "courseName": "Quantitative Toolkit for Biologists",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Biol/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Quantitative Toolkit for Biologists</b>  Hands-on experience in the exploration, analysis, and interpretation of patterns in modern biological datasets.  ",
+        "coursePrerequisites": " STAT 512.",
+        "instructors": [
+          {
+            "firstName": "Seth",
+            "lastName": "Rudman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

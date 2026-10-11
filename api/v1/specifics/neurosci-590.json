@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:58.135341+00:00",
+  "course": "neurosci-590",
+  "subject": "NEUROSCI",
+  "courseNumber": 590,
+  "courseName": "Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Seminar</b> May be repeated for credit; cumulative maximum 7 hours. Presented by advanced graduate students and faculty (both in INP and around WSU) on their research areas.  (Crosslisted course offered as NEUROSCI 590, VET PH 590.)  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "McLaughlin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

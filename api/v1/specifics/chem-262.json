@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:26.217485+00:00",
+  "course": "chem-262",
+  "subject": "CHEM",
+  "courseNumber": 262,
+  "courseName": "Senior Nuclear Reactor Operations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/262/1/false/true",
+      "response": {
+        "courseDescription": "<b>262 Senior Nuclear Reactor Operations</b>  Facility design, reactor operations, safety analysis, nuclear design, risk assessment, regulatory considerations, and change management controls at the WSU 1 MW TRIGA nuclear reactor.  ",
+        "coursePrerequisites": " CHEM 162 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Corey",
+            "lastName": "Hines",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

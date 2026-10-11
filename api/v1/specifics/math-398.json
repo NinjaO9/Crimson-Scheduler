@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:13.332720+00:00",
+  "course": "math-398",
+  "subject": "MATH",
+  "courseNumber": 398,
+  "courseName": "Mathematical Snapshots",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/398/1/false/true",
+      "response": {
+        "courseDescription": "<b>398 Mathematical Snapshots</b>  Character, life work, and historical importance of mathematicians from various eras and branches of mathematics.  ",
+        "coursePrerequisites": " MATH 172 or MATH 182.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

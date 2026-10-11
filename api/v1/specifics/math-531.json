@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:33.854765+00:00",
+  "course": "math-531",
+  "subject": "MATH",
+  "courseNumber": 531,
+  "courseName": "Intersections of Culture and Mathematics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/531/1/false/true",
+      "response": {
+        "courseDescription": "<b>531 Intersections of Culture and Mathematics</b>  Gender/race/ethnicity differences; social consequences; cultural influences on development and learning of mathematics; role of women, people of color in mathematics. Credit not granted for both MATH 431 and 531. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Abigail",
+            "lastName": "Cortez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

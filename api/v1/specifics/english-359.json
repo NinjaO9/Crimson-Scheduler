@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:00:16.961209+00:00",
+  "course": "english-359",
+  "subject": "ENGLISH",
+  "courseNumber": 359,
+  "courseName": "Topics in Creative Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Engl/359/1/false/true",
+      "response": {
+        "courseDescription": "<b>359 Topics in Creative Writing</b> May be repeated for credit; cumulative maximum 9 hours. Specialized topics in creative writing.  ",
+        "coursePrerequisites": " ENGLISH 251 or 252.",
+        "instructors": [
+          {
+            "firstName": "Cameron",
+            "lastName": "McGill",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Colin",
+            "lastName": "Criss",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

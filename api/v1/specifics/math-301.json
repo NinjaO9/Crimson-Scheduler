@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:11.606383+00:00",
+  "course": "math-301",
+  "subject": "MATH",
+  "courseNumber": 301,
+  "courseName": "Introduction to Mathematical Reasoning",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Introduction to Mathematical Reasoning</b>  Mathematical arguments and the writing of proofs.  ",
+        "coursePrerequisites": " MATH 220, 225, or 230, each with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Matthew",
+            "lastName": "Hudelson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

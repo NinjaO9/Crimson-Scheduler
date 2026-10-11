@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:45:48.126452+00:00",
+  "course": "mus-559",
+  "subject": "MUS",
+  "courseNumber": 559,
+  "courseName": "Seminar in Advanced Jazz Composition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/559/1/false/true",
+      "response": {
+        "courseDescription": "<b>559 Seminar in Advanced Jazz Composition</b> May be repeated for credit; cumulative maximum 12 hours. Creation of works for Jazz Ensembles. Credit not granted for both MUS 459 and MUS 559.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Christian J",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

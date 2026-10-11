@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:29.753769+00:00",
+  "course": "me-439",
+  "subject": "ME",
+  "courseNumber": 439,
+  "courseName": "Applied Aerodynamics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/M%20E/439/1/false/true",
+      "response": {
+        "courseDescription": "<b>439 Applied Aerodynamics</b>  Aerodynamic lift and drag; circulation; boundary layers, application to subsonic aircraft wing design.  ",
+        "coursePrerequisites": " ME 303.",
+        "instructors": [
+          {
+            "firstName": "Gordon",
+            "lastName": "Taub",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

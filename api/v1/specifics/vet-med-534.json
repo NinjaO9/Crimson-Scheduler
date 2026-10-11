@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:51.693662+00:00",
+  "course": "vet-med-534",
+  "subject": "VET_MED",
+  "courseNumber": 534,
+  "courseName": "Veterinary Immunology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/534/1/false/true",
+      "response": {
+        "courseDescription": "<b>534 Veterinary Immunology</b>  Immunology for the professional veterinary student.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Jeff",
+            "lastName": "Abbott",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "F",
+            "lastName": "Gimenez",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Tryssa",
+            "lastName": "de Ruyter",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

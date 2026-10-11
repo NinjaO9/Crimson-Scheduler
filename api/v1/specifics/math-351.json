@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:12.653992+00:00",
+  "course": "math-351",
+  "subject": "MATH",
+  "courseNumber": 351,
+  "courseName": "Algebraic Thinking for the Middle School Teacher",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/351/1/false/true",
+      "response": {
+        "courseDescription": "<b>351 Algebraic Thinking for the Middle School Teacher</b>  Algebraic reasoning, classes of functions, translation among models, analytical rule, tables of data, context and coordinate graphs.  ",
+        "coursePrerequisites": " MATH 252 or MATH 171 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Abigail",
+            "lastName": "Cortez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

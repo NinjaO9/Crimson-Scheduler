@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:27.071575+00:00",
+  "course": "chem-333",
+  "subject": "CHEM",
+  "courseNumber": 333,
+  "courseName": "Physical Chemistry Laboratory for Chemists",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Physical Chemistry Laboratory for Chemists</b>  Experiments selected to meet the individual needs of students in biology, chemical engineering, chemistry, or materials science.  ",
+        "coursePrerequisites": " CHEM 331 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Krista",
+            "lastName": "Nishida",
+            "isPrimary": true,
+            "tchEffort": 70
+          },
+          {
+            "firstName": "Matthew",
+            "lastName": "Beckman",
+            "isPrimary": false,
+            "tchEffort": 30
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

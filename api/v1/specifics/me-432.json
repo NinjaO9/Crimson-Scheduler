@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:29.232723+00:00",
+  "course": "me-432",
+  "subject": "ME",
+  "courseNumber": 432,
+  "courseName": "Wind Energy Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/432/1/false/true",
+      "response": {
+        "courseDescription": "<b>432 Wind Energy Engineering</b>  Introduction to wind energy engineering concepts including aerodynamics, controls, resource estimation, turbine design, and wind farm design.  ",
+        "coursePrerequisites": " ME 303 with a C or better; ME 348 with a C or better or concurrent enrollment; STAT 360 or 370 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Gordon",
+            "lastName": "Taub",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

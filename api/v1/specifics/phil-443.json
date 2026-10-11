@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:56.242139+00:00",
+  "course": "phil-443",
+  "subject": "PHIL",
+  "courseNumber": 443,
+  "courseName": "Use Your Words: Linguistic Meaning and Truth",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/443/1/false/true",
+      "response": {
+        "courseDescription": "<b>443 [M] Use Your Words: Linguistic Meaning and Truth</b>  Investigation of philosophical issues concerning meaning, reference, truth, the nature of language, and the relation between language and thought. Credit not granted for both PHIL 443 and PHIL 543. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " 3 credits PHIL.",
+        "instructors": [
+          {
+            "firstName": "Callie",
+            "lastName": "Phillips",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

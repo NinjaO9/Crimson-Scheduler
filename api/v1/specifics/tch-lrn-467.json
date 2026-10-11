@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:25.695179+00:00",
+  "course": "tch-lrn-467",
+  "subject": "TCH_LRN",
+  "courseNumber": 467,
+  "courseName": "Adolescence, Community, and School",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/467/1/false/true",
+      "response": {
+        "courseDescription": "<b>467 [M] Adolescence, Community, and School</b>  Understanding the socio-cultural dynamics of adolescence and youth cultures and the roles they play in secondary schools.  ",
+        "coursePrerequisites": " TCH LRN 317; TCH LRN 464; TCH LRN 465; for candidates admitted to teacher education (secondary education).",
+        "instructors": [
+          {
+            "firstName": "Adrianne",
+            "lastName": "Mitchell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

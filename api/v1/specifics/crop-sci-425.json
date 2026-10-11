@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:14.703948+00:00",
+  "course": "crop-sci-425",
+  "subject": "CROP_SCI",
+  "courseNumber": 425,
+  "courseName": "Trends in Integrated Plant Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/CropS/425/1/false/true",
+      "response": {
+        "courseDescription": "<b>425 [M] Trends in Integrated Plant Sciences</b>  Critical examination of current impacts and future trends in plant sciences. (Crosslisted course offered as HORT 425, CROP SCI 425.)  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Arron",
+            "lastName": "Carter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:02.620807+00:00",
+  "course": "japanese-308",
+  "subject": "JAPANESE",
+  "courseNumber": 308,
+  "courseName": "Intermediate Grammar and Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Japn/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 Intermediate Grammar and Writing</b>  Writing practice in the language and active review of grammar. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " JAPANESE 204 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Kayo",
+            "lastName": "Niimi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

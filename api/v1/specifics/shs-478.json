@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:01.854387+00:00",
+  "course": "shs-478",
+  "subject": "SHS",
+  "courseNumber": 478,
+  "courseName": "Language Impairment",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/478/1/false/true",
+      "response": {
+        "courseDescription": "<b>478 Language Impairment</b>  Assessment and habilitation for the preschool and elementary-age child with language disorders.  ",
+        "coursePrerequisites": " SHS 371.",
+        "instructors": [
+          {
+            "firstName": "Ashley",
+            "lastName": "Winkle",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

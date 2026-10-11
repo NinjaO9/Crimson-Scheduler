@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:55.776175+00:00",
+  "course": "neurosci-405",
+  "subject": "NEUROSCI",
+  "courseNumber": 405,
+  "courseName": "Neuroanatomy Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Neuroanatomy Laboratory</b>  Laboratory investigation of fundamental principles of the organization and plans of circuitry of the nervous system.  ",
+        "coursePrerequisites": " NEUROSCI 301 or PSYCH 372; NEUROSCI 404 or concurrent enrollment or instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Steve",
+            "lastName": "Lampa",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

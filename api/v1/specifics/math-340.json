@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:12.478751+00:00",
+  "course": "math-340",
+  "subject": "MATH",
+  "courseNumber": 340,
+  "courseName": "Introduction to Mathematical Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Math/340/1/false/true",
+      "response": {
+        "courseDescription": "<b>340 Introduction to Mathematical Biology</b>  Mathematical biology and development of mathematical modeling for solutions to problems in the life sciences. (Crosslisted course offered as MATH 340, BIOLOGY 340.)  ",
+        "coursePrerequisites": " MATH 140 with a C or better, or MATH 172 with a C or better, or MATH 182 with a C or better; BIOLOGY 101, BIOLOGY 102, BIOLOGY 106, or BIOLOGY 107.",
+        "instructors": [
+          {
+            "firstName": "Elissa",
+            "lastName": "Schwartz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

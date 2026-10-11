@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:15.169497+00:00",
+  "course": "english-325",
+  "subject": "ENGLISH",
+  "courseNumber": 325,
+  "courseName": "Young Adult Literature",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Young Adult Literature</b>  Issues in literature written for young adults and strategies for teaching the genre in secondary schools.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deanne",
+            "lastName": "Sparks",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

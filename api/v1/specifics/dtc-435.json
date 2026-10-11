@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:42:44.172579+00:00",
+  "course": "dtc-435",
+  "subject": "DTC",
+  "courseNumber": 435,
+  "courseName": "Advanced Animation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/DTC/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 Advanced Animation</b>  Advanced investigation of tools and methods for 2D and 3D digital animation.  ",
+        "coursePrerequisites": " DTC 335.",
+        "instructors": [
+          {
+            "firstName": "Vivienne",
+            "lastName": "Varay",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

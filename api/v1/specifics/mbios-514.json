@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:53.962926+00:00",
+  "course": "mbios-514",
+  "subject": "MBIOS",
+  "courseNumber": 514,
+  "courseName": "General Biochemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MBioS/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 General Biochemistry</b>  Metabolism of carbohydrates, proteins, fats, bioenergetics; photosynthesis; control of metabolic processes. Credit not granted for both MBIOS 414 and MBIOS 514.  ",
+        "coursePrerequisites": " MBIOS 513.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Gloss",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

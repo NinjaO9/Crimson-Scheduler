@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:36.526238+00:00",
+  "course": "ce-400",
+  "subject": "CE",
+  "courseNumber": 400,
+  "courseName": "Highway Materials Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/400/1/false/true",
+      "response": {
+        "courseDescription": "<b>400 Highway Materials Engineering</b>  Basic properties and mix designs of aggregates, asphalt, concrete and recycled materials; quality assurance, quality control. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " STAT 360 or concurrent enrollment or STAT 370 or concurrent enrollment; ME 220; admitted to the major in Civil Engineering; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jia",
+            "lastName": "Cheng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

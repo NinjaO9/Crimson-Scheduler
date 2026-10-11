@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:04.043796+00:00",
+  "course": "shs-556",
+  "subject": "SHS",
+  "courseNumber": 556,
+  "courseName": "Problems in Stuttering",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/SHS/556/1/false/true",
+      "response": {
+        "courseDescription": "<b>556 Problems in Stuttering</b>  Historical and current literature; problem-solving strategies applied to theoretical and clinical problems in stuttering. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Jenson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

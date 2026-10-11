@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:26.298422+00:00",
+  "course": "biology-486",
+  "subject": "BIOLOGY",
+  "courseNumber": 486,
+  "courseName": "Marine Invertebrate Communities",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Summer/2026/Biol/486/1/false/true",
+      "response": {
+        "courseDescription": "<b>486 [M] Marine Invertebrate Communities</b>  Survey of marine invertebrates and their habitats. One-week field/lab course at a marine station.  ",
+        "coursePrerequisites": " BIOLOGY 106.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Berger",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:53.453382+00:00",
+  "course": "vet-med-552",
+  "subject": "VET_MED",
+  "courseNumber": 552,
+  "courseName": "Small Animal Medicine II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/552/1/false/true",
+      "response": {
+        "courseDescription": "<b>552 Small Animal Medicine II</b>  Diagnosis and treatment of small animal diseases. Continuation of VET MED 551P.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 551.",
+        "instructors": [
+          {
+            "firstName": "Janean",
+            "lastName": "Fidel",
+            "isPrimary": true,
+            "tchEffort": 35
+          },
+          {
+            "firstName": "Karen",
+            "lastName": "Kline",
+            "isPrimary": false,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Boel",
+            "lastName": "Fransson",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Bonnie",
+            "lastName": "Campbell",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Jamie",
+            "lastName": "Peyton",
+            "isPrimary": false,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Shana",
+            "lastName": "O'Marra",
+            "isPrimary": false,
+            "tchEffort": 12
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

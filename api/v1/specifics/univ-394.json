@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:46.464984+00:00",
+  "course": "univ-394",
+  "subject": "UNIV",
+  "courseNumber": 394,
+  "courseName": "Research Skills",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univs/394/1/false/true",
+      "response": {
+        "courseDescription": "<b>394 Research Skills</b> May be repeated for credit; cumulative maximum 4 hours. Basic research skills including developing experiments, reading literature, building mentor/mentee relationship.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mary",
+            "lastName": "Lanier",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Matt",
+            "lastName": "Peck",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:52.732204+00:00",
+  "course": "mus-452",
+  "subject": "MUS",
+  "courseNumber": 452,
+  "courseName": "Electronic Music Techniques",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 Electronic Music Techniques</b>  Composition and performance using computer-controlled digital, analog, and sampling synthesis; topics include sequencing, waveform editing, signal processing, spatialization, and performance.  ",
+        "coursePrerequisites": " MUS 164.",
+        "instructors": [
+          {
+            "firstName": "Matias",
+            "lastName": "Vilaplana Stark",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

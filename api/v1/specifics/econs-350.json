@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:52:19.606974+00:00",
+  "course": "econs-350",
+  "subject": "ECONS",
+  "courseNumber": 350,
+  "courseName": "Introduction to Farm and Ranch Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Introduction to Farm and Ranch Management</b>  Decision making, planning, implementation and control of farms and ranches using economic principles, records, financial reports, budgeting and investment analysis.  ",
+        "coursePrerequisites": " ECONS 101 or 198.",
+        "instructors": [
+          {
+            "firstName": "Mariah",
+            "lastName": "Ehmke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

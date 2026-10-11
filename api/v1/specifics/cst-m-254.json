@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:24.544093+00:00",
+  "course": "cst-m-254",
+  "subject": "CST_M",
+  "courseNumber": 254,
+  "courseName": "Construction Graphics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cst%20M/254/1/false/true",
+      "response": {
+        "courseDescription": "<b>254 Construction Graphics</b>  Visual literacy and details in construction documents using drawing techniques.  ",
+        "coursePrerequisites": " CST M 102 with a C or better or ENGR 120 with a C or better; admitted to the major in Construction Management or Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Hongtao",
+            "lastName": "Dang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

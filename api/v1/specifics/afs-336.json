@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:12.248021+00:00",
+  "course": "afs-336",
+  "subject": "AFS",
+  "courseNumber": 336,
+  "courseName": "Agriculture, Environment, and Community",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/AFS/336/1/false/true",
+      "response": {
+        "courseDescription": "<b>336 Agriculture, Environment, and Community</b>  Sociological perspectives on major agrifood trends, alternative agrifood movements, and impacts on human communities and the natural environment.  ",
+        "coursePrerequisites": " Sophomore standing",
+        "instructors": [
+          {
+            "firstName": "Jessica",
+            "lastName": "Goldberger",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:25.771677+00:00",
+  "course": "pharmsci-560",
+  "subject": "PHARMSCI",
+  "courseNumber": 560,
+  "courseName": "Molecular and Cellular Methods in Biomedical Sciences",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRDS/560/1/false/true",
+      "response": {
+        "courseDescription": "<b>560 Molecular and Cellular Methods in Biomedical Sciences</b>  Basic experimental methods and approaches in cell and molecular biology, with an emphasis on practical skills and their appropriate application.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Shuwen",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 75
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

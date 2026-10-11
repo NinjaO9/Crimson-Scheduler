@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:09.152172+00:00",
+  "course": "french-203",
+  "subject": "FRENCH",
+  "courseNumber": 203,
+  "courseName": "Third Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fren/203/1/false/true",
+      "response": {
+        "courseDescription": "<b>203 Third Semester</b>  Grammar review and further development of speaking, listening, reading, and writing skills. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " FRENCH 102 with a C or better, or WSU language placement exam score of 3 or higher.",
+        "instructors": [
+          {
+            "firstName": "Insook",
+            "lastName": "Webber",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

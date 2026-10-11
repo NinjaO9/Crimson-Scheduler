@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:14.907782+00:00",
+  "course": "english-324",
+  "subject": "ENGLISH",
+  "courseNumber": 324,
+  "courseName": "Rhetoric and Composition for Teaching",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/324/1/false/true",
+      "response": {
+        "courseDescription": "<b>324 [M] Rhetoric and Composition for Teaching</b>  Rhetoric, composition grammar, and assessment for secondary teaching.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kate",
+            "lastName": "Watts",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

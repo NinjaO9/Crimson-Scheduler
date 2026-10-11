@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:06.475557+00:00",
+  "course": "nurs-adv-583",
+  "subject": "NURS_ADV",
+  "courseNumber": 583,
+  "courseName": "DNP Population Health Practicum",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/NURAD/583/1/false/true",
+      "response": {
+        "courseDescription": "<b>583 DNP Population Health Practicum</b> May be repeated for credit; cumulative maximum 10 hours. Application and integration of theoretical content, research, assessment, and intervention strategies into practice.  ",
+        "coursePrerequisites": " Admission to DNP Population Health programs.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Hanlon Wilde",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

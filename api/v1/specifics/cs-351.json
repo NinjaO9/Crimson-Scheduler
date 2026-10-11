@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:18.164846+00:00",
+  "course": "cs-351",
+  "subject": "CS",
+  "courseNumber": 351,
+  "courseName": "Introduction to Database Systems",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/351/1/false/true",
+      "response": {
+        "courseDescription": "<b>351 Introduction to Database Systems</b>  Introduction to database concepts, data models, database languages, database design, implementation issues.  ",
+        "coursePrerequisites": " CS 215 with a C or better, CS 220 with a C or better, CS 223 with a C or better, or CS 224 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "McCamish",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

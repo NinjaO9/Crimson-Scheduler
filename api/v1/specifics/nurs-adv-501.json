@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:58.775917+00:00",
+  "course": "nurs-adv-501",
+  "subject": "NURS_ADV",
+  "courseNumber": 501,
+  "courseName": "Psychiatric Assessment, Diagnosis, and Management of Children and Adolescents",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Psychiatric Assessment, Diagnosis, and Management of Children and Adolescents</b>  Introduction to assessment, diagnosis, and management of psychiatric illnesses common in children and adolescents.  ",
+        "coursePrerequisites": " NURS ADV 530; NURS ADV 562; admission to PMHNP program.",
+        "instructors": [
+          {
+            "firstName": "Teddi",
+            "lastName": "Nee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

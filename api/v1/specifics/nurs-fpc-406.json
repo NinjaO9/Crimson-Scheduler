@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:09.503529+00:00",
+  "course": "nurs-fpc-406",
+  "subject": "NURS_FPC",
+  "courseNumber": 406,
+  "courseName": "Nursing Management of the Healthcare Environment",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURFP/406/1/false/true",
+      "response": {
+        "courseDescription": "<b>406 Nursing Management of the Healthcare Environment</b>  Critically analyzes management strategies in diverse settings with a focus on quality safety and fiscal accountability of the changing healthcare system.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Sheila",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Stephanie",
+            "lastName": "Macon-Moore",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

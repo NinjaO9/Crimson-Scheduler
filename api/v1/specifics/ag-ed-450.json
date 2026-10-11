@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:28.724708+00:00",
+  "course": "ag-ed-450",
+  "subject": "AG_ED",
+  "courseNumber": 450,
+  "courseName": "Planning, Curriculum, and Techniques in Ag Ed",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ag%20Ed/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 Planning, Curriculum, and Techniques in Ag Ed</b>  Focus on career and technical education program planning, curriculum development, and instructional techniques for agricultural education programs.  ",
+        "coursePrerequisites": " TCH LRN 301; TCH LRN 317; admitted to teacher education (Secondary Education).",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:33.393953+00:00",
+  "course": "spanish-453",
+  "subject": "SPANISH",
+  "courseNumber": 453,
+  "courseName": "Seminar in Spanish Studies: Linguistics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Span/453/1/false/true",
+      "response": {
+        "courseDescription": "<b>453 [M] Seminar in Spanish Studies: Linguistics</b>  The nature of Spanish language, history, dialects, phonetics, morphology, syntax, semantics, pragmatics, bilingualism and phonology.  ",
+        "coursePrerequisites": " Two SPANISH 300-level courses excluding SPANISH 305.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Hubert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

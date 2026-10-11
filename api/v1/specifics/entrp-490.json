@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:20.719392+00:00",
+  "course": "entrp-490",
+  "subject": "ENTRP",
+  "courseNumber": 490,
+  "courseName": "Entrepreneurial Marketing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entrp/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 [M] Entrepreneurial Marketing</b>  Concepts, issues, and techniques of marketing in entrepreneurial ventures and the role of entrepreneurship in marketing efforts of all firms.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Cooney",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

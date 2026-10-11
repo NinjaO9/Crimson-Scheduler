@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:50.555745+00:00",
+  "course": "econs-701",
+  "subject": "ECONS",
+  "courseNumber": 701,
+  "courseName": "Master's Independent Capstone Project and /or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/701/1/false/true",
+      "response": {
+        "courseDescription": "<b>701 Master's Independent Capstone Project and /or Examination</b> May be repeated for credit. Capstone project or final examination for professional master's degree under the Graduate School. The credits will include a balloted evaluation of the student's completion of the program's capstone/examination requirements by the program's graduate faculty. Students must have graduate degree-seeking status and obtain approval from their major advisor/committee chair before enrolling for 701 credit. Cooperative: Open to UI degree-seeking students. S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Seollee",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:20.336982+00:00",
+  "course": "kines-401",
+  "subject": "KINES",
+  "courseNumber": 401,
+  "courseName": "Human Cadaver Dissection",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/401/1/false/true",
+      "response": {
+        "courseDescription": "<b>401 Human Cadaver Dissection</b>  Hands-on, supervised study of human anatomy through cadaver dissection, intended for future healthcare professionals and researchers.  ",
+        "coursePrerequisites": " Department consent; grade of B or better in either KINES 262 or BIOLOGY 315.",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Catena",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

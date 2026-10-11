@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:18.482014+00:00",
+  "course": "amdt-315",
+  "subject": "AMDT",
+  "courseNumber": 315,
+  "courseName": "Textile Product Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 [M] Textile Product Analysis</b>  Analysis of textile product characteristics including fiber, structure, finish, apparel product properties, garment performance, and overall quality assessment and assurance.  ",
+        "coursePrerequisites": " AMDT 210.",
+        "instructors": [
+          {
+            "firstName": "Zihui",
+            "lastName": "Zhao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

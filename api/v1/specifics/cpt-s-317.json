@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:21.573583+00:00",
+  "course": "cpt-s-317",
+  "subject": "CPT_S",
+  "courseNumber": 317,
+  "courseName": "Automata and Formal Languages",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/317/1/false/true",
+      "response": {
+        "courseDescription": "<b>317 Automata and Formal Languages</b>  Finite automata, regular sets, pushdown automata, context-free language, Turing machines and the halting problem.  ",
+        "coursePrerequisites": " CPT S 122 or 132, with a C or better; MATH 216 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Bolong",
+            "lastName": "Zeng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

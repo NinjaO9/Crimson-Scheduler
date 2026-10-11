@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:06.340789+00:00",
+  "course": "soe-404",
+  "subject": "SOE",
+  "courseNumber": 404,
+  "courseName": "The Ecosystem",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/SOE/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 [M] The Ecosystem</b>  Ecosystem organization and processes; theory and applications to contemporary environmental problems.  ",
+        "coursePrerequisites": " SOE 110; BIOLOGY 106; BIOLOGY 372 or SOE 300, or concurrent enrollment in either; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Marc",
+            "lastName": "Kramer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

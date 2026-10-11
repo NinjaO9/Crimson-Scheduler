@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:19.287309+00:00",
+  "course": "amdt-412",
+  "subject": "AMDT",
+  "courseNumber": 412,
+  "courseName": "Apparel Design Collection",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/412/1/false/true",
+      "response": {
+        "courseDescription": "<b>412 Apparel Design Collection</b>  Problem-solving creation and presentation of two and three-dimensional high quality original apparel and designs.  ",
+        "coursePrerequisites": " AMDT 411; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Han Ah",
+            "lastName": "Yoo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

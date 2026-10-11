@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:00.591963+00:00",
+  "course": "vet-med-612",
+  "subject": "VET_MED",
+  "courseNumber": 612,
+  "courseName": "Small Animal Soft Tissue Surgery Elective",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/612/1/false/true",
+      "response": {
+        "courseDescription": "<b>612 Small Animal Soft Tissue Surgery Elective</b> May be repeated for credit; cumulative maximum 8 hours. Elective clinical experience with the Small Animal Soft Tissue Surgery Service in the Small Animal Clinic of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Bonnie",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

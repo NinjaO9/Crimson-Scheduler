@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:53.131156+00:00",
+  "course": "nep-573",
+  "subject": "NEP",
+  "courseNumber": 573,
+  "courseName": "Nutrition in the Community",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/573/1/false/true",
+      "response": {
+        "courseDescription": "<b>573 Nutrition in the Community</b>  Public health from a nutrition perspective including current issues in nutrition healthcare, overview of existing programs and assessment of program planning.  ",
+        "coursePrerequisites": " Admission to NEP Graduate Program.",
+        "instructors": [
+          {
+            "firstName": "April",
+            "lastName": "Davis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

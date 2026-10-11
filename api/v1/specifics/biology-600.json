@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:29.936263+00:00",
+  "course": "biology-600",
+  "subject": "BIOLOGY",
+  "courseNumber": 600,
+  "courseName": "Special Projects or Independent Study",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Biol/600/1/false/true",
+      "response": {
+        "courseDescription": "<b>600 Special Projects or Independent Study</b> May be repeated for credit. Independent study, special projects, and/or internships. Students must have graduate degree-seeking status and should check with their major advisor before enrolling in 600 credit, which cannot be used toward the core graded credits required for a graduate degree.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tanya",
+            "lastName": "Cheeke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

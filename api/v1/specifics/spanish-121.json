@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:16.174421+00:00",
+  "course": "spanish-121",
+  "subject": "SPANISH",
+  "courseNumber": 121,
+  "courseName": "Latin American Culture",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Span/121/1/false/true",
+      "response": {
+        "courseDescription": "<b>121 Latin American Culture</b>  Contemporary social, political, and cultural issues in Latin America. Taught in English.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Francisco",
+            "lastName": "Arellano Serratos",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

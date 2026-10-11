@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:19.306399+00:00",
+  "course": "cs-427",
+  "subject": "CS",
+  "courseNumber": 427,
+  "courseName": "Cryptography and Network Security",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 Cryptography and Network Security</b>  Computer security concepts, models and mechanism; encryption technology, formal models, policy and ethical implications. Credit not granted for both CS 427 and CS 527.  ",
+        "coursePrerequisites": " CS 166 with a C or better; CS 360 with a C or better; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Farhana",
+            "lastName": "Kabir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:12.605591+00:00",
+  "course": "afs-435",
+  "subject": "AFS",
+  "courseNumber": 435,
+  "courseName": "Leadership for Agriculture and Natural Resources Professionals",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AFS/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 Leadership for Agriculture and Natural Resources Professionals</b>  Exploration of skills, goals, philosophies, and other qualities of leadership related to agriculture and natural resources in Washington state.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Holly",
+            "lastName": "Henning",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

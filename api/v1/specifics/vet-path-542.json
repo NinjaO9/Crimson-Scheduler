@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:07.002057+00:00",
+  "course": "vet-path-542",
+  "subject": "VET_PATH",
+  "courseNumber": 542,
+  "courseName": "Advanced Diagnostic Pathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Pa/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Advanced Diagnostic Pathology</b> May be repeated for credit; cumulative maximum 18 hours. Necropsy laboratory for techniques and skills in performing and interpreting necropsy material.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Allan",
+            "lastName": "Pessier",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Jonathan",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Kevin",
+            "lastName": "Snekvik",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Kyle",
+            "lastName": "Taylor",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Laura",
+            "lastName": "Artz Williams",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Liam",
+            "lastName": "Broughton-Neiswanger",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Oliveira",
+            "isPrimary": true,
+            "tchEffort": 12
+          },
+          {
+            "firstName": "Wesley",
+            "lastName": "Sheley",
+            "isPrimary": true,
+            "tchEffort": 12
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

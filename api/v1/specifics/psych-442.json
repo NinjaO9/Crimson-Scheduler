@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:01:37.394279+00:00",
+  "course": "psych-442",
+  "subject": "PSYCH",
+  "courseNumber": 442,
+  "courseName": "Advanced Addiction Treatment Techniques",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Psych/442/1/false/true",
+      "response": {
+        "courseDescription": "<b>442 Advanced Addiction Treatment Techniques</b>  Advanced addiction treatment approaches for individuals, couples, families and groups within a human services framework; integration of relapse prevention techniques.  Recommended preparation:  PSYCH 110.  ",
+        "coursePrerequisites": " PSYCH 342.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "Ladd",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

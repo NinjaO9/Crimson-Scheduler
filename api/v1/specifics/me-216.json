@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:25.934112+00:00",
+  "course": "me-216",
+  "subject": "ME",
+  "courseNumber": 216,
+  "courseName": "Integrated CAD Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/216/1/false/true",
+      "response": {
+        "courseDescription": "<b>216 Integrated CAD Design</b>  CAD based analysis for engineering design, the application of motion, FEA and CFD, CAD simulations to the engineering design process.  ",
+        "coursePrerequisites": " ME 116 with a C or better; CE 215 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Yueqi",
+            "lastName": "Hu",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Derek",
+            "lastName": "Strong",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

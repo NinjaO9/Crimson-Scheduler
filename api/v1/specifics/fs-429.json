@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:25.842420+00:00",
+  "course": "fs-429",
+  "subject": "FS",
+  "courseNumber": 429,
+  "courseName": "Dairy Processing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/429/1/false/true",
+      "response": {
+        "courseDescription": "<b>429 Dairy Processing</b>  Basic dairy chemistry, microbiology, and processing from cow to consumer; dairy quality, safety, and sanitation; milk components, fluid milk, concentrated milk, cream, butter, ice cream, fermented milk, cheese, and dairy powders. Recommended preparation: FS 110 or VIT ENOL 113. Credit not granted for both FS 429 and FS 529. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MBIOS 303 or CHEM 470; 4 credits of PHYSICS 101, or PHYSICS 101 and 111.",
+        "instructors": [
+          {
+            "firstName": "Adam",
+            "lastName": "Quinn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

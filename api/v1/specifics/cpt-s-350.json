@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:22.274529+00:00",
+  "course": "cpt-s-350",
+  "subject": "CPT_S",
+  "courseNumber": 350,
+  "courseName": "Design and Analysis of Algorithms",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Design and Analysis of Algorithms</b>  Analysis of data structures and algorithms; computational complexity and design of efficient data-handling procedures.  ",
+        "coursePrerequisites": " CPT S 215, 223, or 233, with a C or better; CPT S 317 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Srinivasulu",
+            "lastName": "Badri",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

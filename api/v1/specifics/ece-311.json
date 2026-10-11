@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:03.776184+00:00",
+  "course": "ece-311",
+  "subject": "ECE",
+  "courseNumber": 311,
+  "courseName": "Introduction to Power and Energy Systems",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Introduction to Power and Energy Systems</b>  Structures and configurations of systems for power configuration, transmission, and distribution; single-phase and three-phase systems, per unit system; major power system components (power transformers, generators, transmission lines, and loads) and their representations/models for system analysis; analysis and design of conventional and alternative energy sources.  ",
+        "coursePrerequisites": " ECE 321.",
+        "instructors": [
+          {
+            "firstName": "Hang",
+            "lastName": "Gao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

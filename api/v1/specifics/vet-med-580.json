@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:57.188405+00:00",
+  "course": "vet-med-580",
+  "subject": "VET_MED",
+  "courseNumber": 580,
+  "courseName": "Basic Nutrition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Basic Nutrition</b>  Introduction to the concepts of basic nutrition designed for the first year veterinary student.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Catharine",
+            "lastName": "Butler",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Briedi",
+            "lastName": "Gillespie",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Cailin",
+            "lastName": "Heinze",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Ramanathan",
+            "lastName": "Kasimanickam",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

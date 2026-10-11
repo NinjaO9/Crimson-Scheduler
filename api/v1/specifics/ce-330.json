@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:35.951745+00:00",
+  "course": "ce-330",
+  "subject": "CE",
+  "courseNumber": 330,
+  "courseName": "Introduction to Structural Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/330/1/false/true",
+      "response": {
+        "courseDescription": "<b>330 Introduction to Structural Engineering</b>  Introduction to structural analysis and design; structural modeling; design philosophies; deflections; indeterminate analysis by the Force Method.  ",
+        "coursePrerequisites": " CE 215 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Motter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

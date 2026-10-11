@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:23.256662+00:00",
+  "course": "mbios-465",
+  "subject": "MBIOS",
+  "courseNumber": 465,
+  "courseName": "Principles of Biophysical Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 Principles of Biophysical Chemistry</b>  Biochemical reactions and processes, molecular recognition, coupled reactions, enzyme catalysis, analysis of macromolecular structure by electrophoresis, sedimentation, viscosity, and spectroscopy.  ",
+        "coursePrerequisites": " MBIOS 303; MATH 140 or 171; 4 credits of PHYSICS 102 or 202, or PHYSICS 102 and 112 or concurrent enrollment, or PHYSICS 202 and 212 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Bertrand",
+            "lastName": "Tanner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

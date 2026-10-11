@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:25.493174+00:00",
+  "course": "phil-210",
+  "subject": "PHIL",
+  "courseNumber": 210,
+  "courseName": "Philosophy in Film",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/210/1/false/true",
+      "response": {
+        "courseDescription": "<b>210 Philosophy in Film</b>  The use of film as philosophical text.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Fagiano",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

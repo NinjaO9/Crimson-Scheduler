@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:20:05.651423+00:00",
+  "course": "history-324",
+  "subject": "HISTORY",
+  "courseNumber": 324,
+  "courseName": "History of the Pacific Northwest",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/324/1/false/true",
+      "response": {
+        "courseDescription": "<b>324 History of the Pacific Northwest</b>  Political, social economic and environmental history of the Pacific Northwest. Fulfills the teaching certification requirement for Washington state history.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ken",
+            "lastName": "Faunce",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

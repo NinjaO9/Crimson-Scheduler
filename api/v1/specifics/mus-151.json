@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:36.643898+00:00",
+  "course": "mus-151",
+  "subject": "MUS",
+  "courseNumber": 151,
+  "courseName": "Music Fundamentals I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/151/1/false/true",
+      "response": {
+        "courseDescription": "<b>151 Music Fundamentals I</b>  Notation and performance of music fundamentals: pitch, rhythm, scales, key signatures, and intervals.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jacqueline",
+            "lastName": "Wilson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

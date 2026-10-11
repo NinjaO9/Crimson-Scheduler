@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:00.482787+00:00",
+  "course": "spmgt-394",
+  "subject": "SPMGT",
+  "courseNumber": 394,
+  "courseName": "Practicum in Sport Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/394/1/false/true",
+      "response": {
+        "courseDescription": "<b>394 Practicum in Sport Management</b> May be repeated for credit; cumulative maximum 8 hours. Supervised practicum.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Corrie",
+            "lastName": "McGrath",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

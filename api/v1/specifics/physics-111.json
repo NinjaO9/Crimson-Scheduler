@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:12.462108+00:00",
+  "course": "physics-111",
+  "subject": "PHYSICS",
+  "courseNumber": 111,
+  "courseName": "General Physics Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 General Physics Lab</b>  Algebra/trigonometry-based physics lab; topics in mechanics and oscillations; heavy emphasis on group work; oriented toward non-physical science majors.  ",
+        "coursePrerequisites": " MATH 108 with a grade of C or better, a minimum ALEKS math placement score 75%, or passing MATH 140, 171, 202, or 206; PHYSICS 101 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Em",
+            "lastName": "Biegler",
+            "isPrimary": true,
+            "tchEffort": 95
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

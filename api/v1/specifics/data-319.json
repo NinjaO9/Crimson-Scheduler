@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:43.173798+00:00",
+  "course": "data-319",
+  "subject": "DATA",
+  "courseNumber": 319,
+  "courseName": "Model-based and Data-based Methods for Data Analytics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/DATA/319/1/false/true",
+      "response": {
+        "courseDescription": "<b>319 Model-based and Data-based Methods for Data Analytics</b>  Modeling methods for data analysis with high dimensional data, including theoretical and practical concerns.  ",
+        "coursePrerequisites": " DATA 219, CPT S 215, CPT S 223, or CPT S 233; MATH 220 or MATH/DATA 225; STAT 360.",
+        "instructors": [
+          {
+            "firstName": "Ally",
+            "lastName": "Avery",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

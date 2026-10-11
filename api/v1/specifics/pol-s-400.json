@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:52:36.157242+00:00",
+  "course": "pol-s-400",
+  "subject": "POL_S",
+  "courseNumber": 400,
+  "courseName": "Political Science Issues",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/400/1/false/true",
+      "response": {
+        "courseDescription": "<b>400 Political Science Issues</b> May be repeated for credit; cumulative maximum 6 hours. Current issues in political science.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cheryl",
+            "lastName": "Ellenwood",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

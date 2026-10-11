@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:03.895269+00:00",
+  "course": "art-366",
+  "subject": "ART",
+  "courseNumber": 366,
+  "courseName": "Special Topics - Printmaking",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Summer/2026/ART/366/1/false/true",
+      "response": {
+        "courseDescription": "<b>366 Special Topics - Printmaking</b>    ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Noah",
+            "lastName": "Matteucci",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

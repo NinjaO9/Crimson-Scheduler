@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:10.188710+00:00",
+  "course": "chem-104",
+  "subject": "CHEM",
+  "courseNumber": 104,
+  "courseName": "Forensic Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/104/1/false/true",
+      "response": {
+        "courseDescription": "<b>104 Forensic Chemistry</b>  The principles of chemistry applied to forensic science and forensic analysis.  ",
+        "coursePrerequisites": " MATH 103 or a minimum ALEKS math placement score of 45%, or concurrent enrollment in or credit for MATH 105, 106, 107, 108, 140, 171, 172, 182, 201, 202, ENGR 107, STAT 205 or 212.",
+        "instructors": [
+          {
+            "firstName": "Raina",
+            "lastName": "Kittilstved",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

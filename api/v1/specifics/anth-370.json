@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:10:42.916242+00:00",
+  "course": "anth-370",
+  "subject": "ANTH",
+  "courseNumber": 370,
+  "courseName": "The Archaeology of Climate Change",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Anth/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 The Archaeology of Climate Change</b>  Exploration of the connections between climate change and people from the Ice Age to the present.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jordan",
+            "lastName": "Thompson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

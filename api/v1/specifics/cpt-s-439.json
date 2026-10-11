@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:25.876379+00:00",
+  "course": "cpt-s-439",
+  "subject": "CPT_S",
+  "courseNumber": 439,
+  "courseName": "Cybersecurity of Critical Infrastructure Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/439/1/false/true",
+      "response": {
+        "courseDescription": "<b>439 Cybersecurity of Critical Infrastructure Systems</b>  Security topics as they relate to critical infrastructure systems vital to any nation including industrial control systems, cyber physical systems, SCADA, DCS, IoT, IIoT, and the knowledge to secure such systems.  (Crosslisted course offered as E E 439, CPT S 439.)  Credit not granted for both E E/CPT S 439 and 539. Offered at 400 and 500 level.  ",
+        "coursePrerequisites": " CPT S 327 and admitted major or minor in CPT S, Software Engr, Cybersecurity, or Data Analytics; OR E E 234 and 361 and admitted major or minor in E E; OR CPT S 327 and E E 234 and admitted major or minor in Cpt Engr.",
+        "instructors": [
+          {
+            "firstName": "Basavesh",
+            "lastName": "Ammanaghatta Shivakumar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

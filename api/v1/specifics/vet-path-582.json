@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:07.325252+00:00",
+  "course": "vet-path-582",
+  "subject": "VET_PATH",
+  "courseNumber": 582,
+  "courseName": "Introduction to Histopathology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Pa/582/1/false/true",
+      "response": {
+        "courseDescription": "<b>582 Introduction to Histopathology</b>  Histological tissue identification, prototypical lesions associated with injury, and terminology of common diseases in domestic and non-domestic animals; emphasis on pattern recognition, diagnoses, written descriptions, tissue processing techniques.  ",
+        "coursePrerequisites": " Enrollment in the Combined MS/Anatomic Pathology Residency Program or Clinical Microbiology Residency Program.",
+        "instructors": [
+          {
+            "firstName": "Allan",
+            "lastName": "Pessier",
+            "isPrimary": true,
+            "tchEffort": 7
+          },
+          {
+            "firstName": "Jeff",
+            "lastName": "Abbott",
+            "isPrimary": true,
+            "tchEffort": 7
+          },
+          {
+            "firstName": "Jonathan",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 7
+          },
+          {
+            "firstName": "Kyle",
+            "lastName": "Taylor",
+            "isPrimary": true,
+            "tchEffort": 13
+          },
+          {
+            "firstName": "Laura",
+            "lastName": "Artz Williams",
+            "isPrimary": true,
+            "tchEffort": 13
+          },
+          {
+            "firstName": "Liam",
+            "lastName": "Broughton-Neiswanger",
+            "isPrimary": true,
+            "tchEffort": 13
+          },
+          {
+            "firstName": "Wesley",
+            "lastName": "Sheley",
+            "isPrimary": true,
+            "tchEffort": 13
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Oliveira",
+            "isPrimary": false,
+            "tchEffort": 24
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

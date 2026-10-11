@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:45.530987+00:00",
+  "course": "cpt-s-541",
+  "subject": "CPT_S",
+  "courseNumber": 541,
+  "courseName": "Computer Vision",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Cpt%20S/541/1/false/true",
+      "response": {
+        "courseDescription": "<b>541 Computer Vision</b>  Introduction to computer vision covering classical image analysis, fundamental machine learning, and modern deep neural networks, with\napplications to object detection, segmentation, video understanding, and generative models.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Yan",
+            "lastName": "Yan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:25.941689+00:00",
+  "course": "pharmsci-571",
+  "subject": "PHARMSCI",
+  "courseNumber": 571,
+  "courseName": "Computer-Aided Drug Design",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRDS/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Computer-Aided Drug Design</b>  Principles and applications of ligand-based and structure-based computational methods used in lead optimization in drug discovery and development processes.  ",
+        "coursePrerequisites": "  By instructor permission; graduate standing in the Pharmaceutical Sciences graduate program.",
+        "instructors": [
+          {
+            "firstName": "Senthil",
+            "lastName": "Natesan",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

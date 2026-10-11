@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:13:02.464746+00:00",
+  "course": "arch-527",
+  "subject": "ARCH",
+  "courseNumber": 527,
+  "courseName": "Site and Landscape Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/527/1/false/true",
+      "response": {
+        "courseDescription": "<b>527 Site and Landscape Design</b>  Exploration of issues of site context analysis, topography, planning, and landscape design.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Dan",
+            "lastName": "Cronan",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "David",
+            "lastName": "Drake",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

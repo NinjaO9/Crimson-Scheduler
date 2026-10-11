@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:12:53.169438+00:00",
+  "course": "h-d-415",
+  "subject": "H_D",
+  "courseNumber": 415,
+  "courseName": "Peak Experiences in Leadership",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/H%20D/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Peak Experiences in Leadership</b>  Experiential human development course that utilizes challenge and application to develop personal and group leadership skills.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Whitehall",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:08.447576+00:00",
+  "course": "french-101",
+  "subject": "FRENCH",
+  "courseNumber": 101,
+  "courseName": "First Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fren/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 First Semester</b>  Fundamentals of speaking, listening, reading, and writing. Not open to native speakers except with permission. Credit not granted for FRENCH 101/102, and 104.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sabine",
+            "lastName": "Davis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

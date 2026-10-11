@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:41.477783+00:00",
+  "course": "mus-264",
+  "subject": "MUS",
+  "courseNumber": 264,
+  "courseName": "Music Technology I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/264/1/false/true",
+      "response": {
+        "courseDescription": "<b>264 Music Technology I</b>  MIDI hardware/software and related technologies used in music production. Sequencing, orchestration, virtual instruments, sample control, interactivity, performance.  ",
+        "coursePrerequisites": " MUS 164.",
+        "instructors": [
+          {
+            "firstName": "Christian J",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:14:17.687405+00:00",
+  "course": "art-310",
+  "subject": "ART",
+  "courseNumber": 310,
+  "courseName": "Women Artists II",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ART/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 [M] Women Artists II</b>  Women artists of the 19th to 20th century. (Crosslisted course offered as ART 310, WGSS 310.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nanette",
+            "lastName": "Thrush",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

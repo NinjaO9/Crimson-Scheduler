@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:56.139951+00:00",
+  "course": "vet-med-572",
+  "subject": "VET_MED",
+  "courseNumber": 572,
+  "courseName": "Large Animal Surgery",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 Large Animal Surgery</b>  Large animal surgical techniques.  S, M, F grading. ",
+        "coursePrerequisites": "  VET MED 553; veterinary medicine student.",
+        "instructors": [
+          {
+            "firstName": "Nick",
+            "lastName": "Hall",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Stacey",
+            "lastName": "Byers",
+            "isPrimary": true,
+            "tchEffort": 33
+          },
+          {
+            "firstName": "Kelly",
+            "lastName": "Farnsworth",
+            "isPrimary": true,
+            "tchEffort": 34
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

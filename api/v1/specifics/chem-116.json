@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:25.188685+00:00",
+  "course": "chem-116",
+  "subject": "CHEM",
+  "courseNumber": 116,
+  "courseName": "Chemical Principles Honors II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/116/1/false/true",
+      "response": {
+        "courseDescription": "<b>116 Chemical Principles Honors II</b>  Honors-level second semester general chemistry; topics generally identical to CHEM 106, with additional advanced topics at discretion of instructor. Credit not granted for both CHEM 106 and 116.  ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Brozik",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

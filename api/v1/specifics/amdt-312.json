@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:17.927275+00:00",
+  "course": "amdt-312",
+  "subject": "AMDT",
+  "courseNumber": 312,
+  "courseName": "Apparel Draping, Fitting, and Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/312/1/false/true",
+      "response": {
+        "courseDescription": "<b>312 Apparel Draping, Fitting, and Design</b>  Exploration of draping and flat pattern techniques; fitting techniques emphasized; development and creation of original design.  ",
+        "coursePrerequisites": " AMDT 311; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Han Ah",
+            "lastName": "Yoo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

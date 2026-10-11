@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:04.848063+00:00",
+  "course": "honors-201",
+  "subject": "HONORS",
+  "courseNumber": 201,
+  "courseName": "MESI Workshop Series",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/U%20H/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 MESI Workshop Series</b> May be repeated for credit; cumulative maximum 3 hours. Workshop series featuring current experts on topics in mindfulness-based emotional and social intelligence (MESI) and personal wellbeing.  ",
+        "coursePrerequisites": " Must be an Honors student.",
+        "instructors": [
+          {
+            "firstName": "Robin",
+            "lastName": "Bond",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

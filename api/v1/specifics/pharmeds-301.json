@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:24.535515+00:00",
+  "course": "pharmeds-301",
+  "subject": "PHARMEDS",
+  "courseNumber": 301,
+  "courseName": "Pharmacology: The Science of Drug Action",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Pharmacology: The Science of Drug Action</b>  Introduction to drug receptors, cell signaling, and drug classes.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Darrell",
+            "lastName": "Jackson",
+            "isPrimary": true,
+            "tchEffort": 86
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

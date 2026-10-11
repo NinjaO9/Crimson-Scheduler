@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:19.375348+00:00",
+  "course": "pharmacy-543",
+  "subject": "PHARMACY",
+  "courseNumber": 543,
+  "courseName": "Pharmacy Practice and Professional Development IV",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/543/1/false/true",
+      "response": {
+        "courseDescription": "<b>543 Pharmacy Practice and Professional Development IV</b>  Prepares student pharmacists for a focused 3-week Institutional Pharmacy Practice Experience.  ",
+        "coursePrerequisites": "  PHARMACY 536.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

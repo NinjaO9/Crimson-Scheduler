@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:04.512167+00:00",
+  "course": "nurs-adv-555",
+  "subject": "NURS_ADV",
+  "courseNumber": 555,
+  "courseName": "PMHNP Practicum I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/555/1/false/true",
+      "response": {
+        "courseDescription": "<b>555 PMHNP Practicum I</b>  Psychiatric mental health practicum experience focused on developing initial competency in the comprehensive PMHNP nursing role across the lifespan.  ",
+        "coursePrerequisites": " NURS ADV 501; NURS ADV 530; admission to PMHNP program.",
+        "instructors": [
+          {
+            "firstName": "Josh",
+            "lastName": "Hamilton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

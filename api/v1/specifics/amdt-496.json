@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:35.699438+00:00",
+  "course": "amdt-496",
+  "subject": "AMDT",
+  "courseNumber": 496,
+  "courseName": "Special Event Production",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AMT/496/1/false/true",
+      "response": {
+        "courseDescription": "<b>496 Special Event Production</b> May be repeated for credit; cumulative maximum 6 hours. Producing, exhibiting, and promoting product lines/special events or apparel, textiles and illustrations exhibits.  ",
+        "coursePrerequisites": "  By permission of instructor; AMDT 211 or 308; admitted to the major in Apparel, Merchandising, Design, and Textiles.",
+        "instructors": [
+          {
+            "firstName": "Yini",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

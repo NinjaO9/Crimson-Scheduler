@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:39.195477+00:00",
+  "course": "anim-sci-266",
+  "subject": "ANIM_SCI",
+  "courseNumber": 266,
+  "courseName": "Equine Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/266/1/false/true",
+      "response": {
+        "courseDescription": "<b>266 Equine Management</b>  Foundational learning of best practices in equine management.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Angela",
+            "lastName": "Reitmeier",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

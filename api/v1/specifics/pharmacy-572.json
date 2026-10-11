@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:22.096698+00:00",
+  "course": "pharmacy-572",
+  "subject": "PHARMACY",
+  "courseNumber": 572,
+  "courseName": "Physical Activity Prescription in the Pharmacy",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 Physical Activity Prescription in the Pharmacy</b>  Knowledge and skill set for student pharmacists to apply evidence-based guidelines to recommend and promote physical activity in their patients.  S, F grading. ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Sue",
+            "lastName": "Marsh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:29.549053+00:00",
+  "course": "biology-585",
+  "subject": "BIOLOGY",
+  "courseNumber": 585,
+  "courseName": "Professional Development and Training for College and University Teaching",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/585/1/false/true",
+      "response": {
+        "courseDescription": "<b>585 Professional Development and Training for College and University Teaching</b>  Preparation for roles as teaching assistants and as instructors of undergraduate classroom education.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jesse",
+            "lastName": "Brunner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

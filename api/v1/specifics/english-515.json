@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:13.817091+00:00",
+  "course": "english-515",
+  "subject": "ENGLISH",
+  "courseNumber": 515,
+  "courseName": "Contemporary Theories of Rhetoric",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/515/1/false/true",
+      "response": {
+        "courseDescription": "<b>515 Contemporary Theories of Rhetoric</b> May be repeated for credit; cumulative maximum 6 hours. Contemporary critical theory and cultural studies and reconsiderations of suasive discursive practices.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Wendy",
+            "lastName": "Olson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

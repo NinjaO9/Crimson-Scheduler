@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:06.471677+00:00",
+  "course": "mech-348",
+  "subject": "MECH",
+  "courseNumber": 348,
+  "courseName": "Dynamics Systems and Control",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/348/1/false/true",
+      "response": {
+        "courseDescription": "<b>348 Dynamics Systems and Control</b>  Modeling and analysis of dynamic systems, including mechanical, electrical, fluid, and thermal systems. Fundamentals of vibration analysis, control systems.  ",
+        "coursePrerequisites": " MECH 212; MECH 251; MATH 315; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Hamid",
+            "lastName": "Rad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:13.305855+00:00",
+  "course": "physics-201",
+  "subject": "PHYSICS",
+  "courseNumber": 201,
+  "courseName": "Physics for Scientists and Engineers I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/201/1/false/true",
+      "response": {
+        "courseDescription": "<b>201 Physics for Scientists and Engineers I</b>  Calculus-based physics; topics in motion and dynamics of particles and rigid bodies, vibrations, wave phenomena, and the laws of thermodynamics.  ",
+        "coursePrerequisites": " PHYSICS 211 or concurrent enrollment; MATH 171 with a C or better, or credit for or concurrent enrollment in MATH 172, 182, 273, or 315.",
+        "instructors": [
+          {
+            "firstName": "Nicholas",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

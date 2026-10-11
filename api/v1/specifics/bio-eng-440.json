@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:18:11.676210+00:00",
+  "course": "bio-eng-440",
+  "subject": "BIO_ENG",
+  "courseNumber": 440,
+  "courseName": "Physiological Control Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/B%20E/440/1/false/true",
+      "response": {
+        "courseDescription": "<b>440 Physiological Control Systems</b>  Feedback control system analysis and design, with applications to physiological and biomedical engineering systems.  ",
+        "coursePrerequisites": " BIO ENG 360 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Lin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

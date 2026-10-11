@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:28.858755+00:00",
+  "course": "cpt-s-489",
+  "subject": "CPT_S",
+  "courseNumber": 489,
+  "courseName": "Web Development",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/489/1/false/true",
+      "response": {
+        "courseDescription": "<b>489 Web Development</b>  Web development using markup languages, style sheet language, and scripting languages; developing and consuming web services; testing web applications.  ",
+        "coursePrerequisites": " CPT S 322 with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Subu",
+            "lastName": "Kandaswamy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

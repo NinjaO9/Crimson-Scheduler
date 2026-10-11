@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:44.734440+00:00",
+  "course": "english-109",
+  "subject": "ENGLISH",
+  "courseNumber": 109,
+  "courseName": "Creative Writing Now",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Engl/109/1/false/true",
+      "response": {
+        "courseDescription": "<b>109 Creative Writing Now</b>  An introductory course in the craft and conventions of contemporary creative writing (fiction, nonfiction, poetry, or drama).  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cameron",
+            "lastName": "McGill",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Colin",
+            "lastName": "Criss",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

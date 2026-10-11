@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:23.746071+00:00",
+  "course": "pharmacy-587",
+  "subject": "PHARMACY",
+  "courseNumber": 587,
+  "courseName": "Elective III Advanced Practice Experience",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/587/4/false/true",
+      "response": {
+        "courseDescription": "<b>587 Elective III Advanced Practice Experience</b>  Advanced practice experience in various health care settings.  H, S, F grading. ",
+        "coursePrerequisites": " Successful completion of all didactic coursework (required and elective), including PHARMACY 557; 561; 563; 564; 566.",
+        "instructors": [
+          {
+            "firstName": "Taylor",
+            "lastName": "Bertsch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:37.335804+00:00",
+  "course": "econs-198",
+  "subject": "ECONS",
+  "courseNumber": 198,
+  "courseName": "Economics Honors",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/198/1/false/true",
+      "response": {
+        "courseDescription": "<b>198 Economics Honors</b>  Introduction to economic theory and policy issues.  ",
+        "coursePrerequisites": " Admitted to the Honors College. Enrollment in ECONS 198 is not allowed if credit has already been earned for ECONS 101 and 102.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Gibson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

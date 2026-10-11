@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:30.807303+00:00",
+  "course": "mps-574",
+  "subject": "MPS",
+  "courseNumber": 574,
+  "courseName": "Protein Biotechnology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MPS/574/1/false/true",
+      "response": {
+        "courseDescription": "<b>574 Protein Biotechnology</b>  Provides skills, experiences, and knowledge to promote protein biotechnology research, research career preparation, and intellectual property commercialization.\n (Crosslisted course offered as MPS 574, CHE 574, MBIOS 574.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Matt",
+            "lastName": "Peck",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

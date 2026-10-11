@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:04.975437+00:00",
+  "course": "vet-med-676",
+  "subject": "VET_MED",
+  "courseNumber": 676,
+  "courseName": "Veterinary Research Practicum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/676/1/false/true",
+      "response": {
+        "courseDescription": "<b>676 Veterinary Research Practicum</b> May be repeated for credit; cumulative maximum 14 hours. Individualized research project.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

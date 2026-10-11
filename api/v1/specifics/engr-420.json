@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:17.309271+00:00",
+  "course": "engr-420",
+  "subject": "ENGR",
+  "courseNumber": 420,
+  "courseName": "Multidisciplinary Engineering Design I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engr/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Multidisciplinary Engineering Design I</b>  Needs analysis and conceptualization of technological products and business plan for target market; multidisciplinary team development.  ",
+        "coursePrerequisites": "  ENTRP 485 or concurrent enrollment; course instructor approval.",
+        "instructors": [
+          {
+            "firstName": "Arda",
+            "lastName": "Gozen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

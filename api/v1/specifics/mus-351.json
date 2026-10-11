@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:15.353233+00:00",
+  "course": "mus-351",
+  "subject": "MUS",
+  "courseNumber": 351,
+  "courseName": "Materials and Structures of Music III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/351/1/false/true",
+      "response": {
+        "courseDescription": "<b>351 Materials and Structures of Music III</b>  Voice leading and analysis of functional chromatic harmony, harmonic language and compositional styles of the 20th/21st century.  ",
+        "coursePrerequisites": " MUS 253 with a C or better; MUS 254 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Lee",
+            "lastName": "Wolf",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

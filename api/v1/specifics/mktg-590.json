@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:29.644072+00:00",
+  "course": "mktg-590",
+  "subject": "MKTG",
+  "courseNumber": 590,
+  "courseName": "Seminar in Consumer Behavior",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mktg/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Seminar in Consumer Behavior</b>  Advanced, doctoral-level topics in consumer behavior.  ",
+        "coursePrerequisites": " Admission to PhD programs in business.",
+        "instructors": [
+          {
+            "firstName": "Pavan",
+            "lastName": "Munaganti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

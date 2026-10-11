@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:47.847819+00:00",
+  "course": "entom-351",
+  "subject": "ENTOM",
+  "courseNumber": 351,
+  "courseName": "Ecological and Integrated Pest Management",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Entom/351/2/false/true",
+      "response": {
+        "courseDescription": "<b>351 Ecological and Integrated Pest Management</b>  Philosophy, ecological foundation, tactics, and strategies of ecologically-based and integrated pest management.  ",
+        "coursePrerequisites": " BIOLOGY 106, 107, or 120.",
+        "instructors": [
+          {
+            "firstName": "Allan",
+            "lastName": "Felsot",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:37:24.878715+00:00",
+  "course": "medschlr-540",
+  "subject": "MEDSCHLR",
+  "courseNumber": 540,
+  "courseName": "Foundations of Scholarship and Discovery III",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDSC/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Foundations of Scholarship and Discovery III</b> May be repeated for credit; cumulative maximum 3 hours. Individual exploration and refinement of scholarly pursuits, culminating in a final project report.  S, F grading. ",
+        "coursePrerequisites": " MEDSCHLR 500.",
+        "instructors": [
+          {
+            "firstName": "Devon",
+            "lastName": "Hansen",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Anne",
+            "lastName": "Grossman",
+            "isPrimary": false,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

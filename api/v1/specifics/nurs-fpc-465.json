@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:12.197482+00:00",
+  "course": "nurs-fpc-465",
+  "subject": "NURS_FPC",
+  "courseNumber": 465,
+  "courseName": "Application of Population Health Principles",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 Application of Population Health Principles</b>  Application of community, public, and psychiatric mental health nursing concepts to communities, populations, groups, families, and individuals with identified health needs.  ",
+        "coursePrerequisites": " NURS FPC 440 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Sheila",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

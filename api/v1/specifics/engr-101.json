@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:16.486874+00:00",
+  "course": "engr-101",
+  "subject": "ENGR",
+  "courseNumber": 101,
+  "courseName": "Engineering Fundamentals I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engr/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Engineering Fundamentals I</b>  Introduction to engineering programs (part 1) discussing resources, opportunities, and knowledge and skills necessary to succeed in engineering.  S, F grading. ",
+        "coursePrerequisites": " MATH 171 or ENGR 107 with a C or better or concurrent enrollment; less than 45 total credits.",
+        "instructors": [
+          {
+            "firstName": "Kimberlee",
+            "lastName": "Hughes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

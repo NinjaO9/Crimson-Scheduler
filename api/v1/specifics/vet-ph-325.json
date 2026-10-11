@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:08.012636+00:00",
+  "course": "vet-ph-325",
+  "subject": "VET_PH",
+  "courseNumber": 325,
+  "courseName": "Foundations of Medical Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20Ph/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Foundations of Medical Physiology</b>  Integrated functioning of organ systems, focusing on mechanisms of disease, organ dysfunction, and disturbances to whole-animal homeostasis and health.  (Crosslisted course offered as NEUROSCI 325, VET PH 325.)  ",
+        "coursePrerequisites": " BIOLOGY 106; BIOLOGY 107.",
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Meighan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

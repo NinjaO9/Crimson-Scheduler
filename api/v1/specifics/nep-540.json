@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:37.775088+00:00",
+  "course": "nep-540",
+  "subject": "NEP",
+  "courseNumber": 540,
+  "courseName": "Clinical Nutrition Supervised Practice",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Clinical Nutrition Supervised Practice</b>  Clinical supervised practical experience for graduate students in coordinated program in dietetics.  ",
+        "coursePrerequisites": " NEP 537; admission to the Coordinated Program in Dietetics.",
+        "instructors": [
+          {
+            "firstName": "Lisa",
+            "lastName": "Heneghen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

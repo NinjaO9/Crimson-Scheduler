@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:34:38.772140+00:00",
+  "course": "mbios-499",
+  "subject": "MBIOS",
+  "courseNumber": 499,
+  "courseName": "Special Problems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/499/1/false/true",
+      "response": {
+        "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
+        "coursePrerequisites": " By department permission.",
+        "instructors": [
+          {
+            "firstName": "Alan",
+            "lastName": "Goodman",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Dana",
+            "lastName": "Shaw",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "John",
+            "lastName": "Wyrick",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Lauren",
+            "lastName": "Hamilton",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Konkel",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Zeyang",
+            "lastName": "Shen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

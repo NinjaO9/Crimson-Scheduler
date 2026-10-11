@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:21.604935+00:00",
+  "course": "pharmacy-564",
+  "subject": "PHARMACY",
+  "courseNumber": 564,
+  "courseName": "Pharmacy Law and Regulatory Affairs",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/564/1/false/true",
+      "response": {
+        "courseDescription": "<b>564 Pharmacy Law and Regulatory Affairs</b>  Legal and ethical pharmacy practice including licensing, patient privacy protection, order fulfillment and contracts.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Jason",
+            "lastName": "Brouillard",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

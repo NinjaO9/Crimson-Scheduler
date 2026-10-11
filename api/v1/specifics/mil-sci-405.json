@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:11.952117+00:00",
+  "course": "mil-sci-405",
+  "subject": "MIL_SCI",
+  "courseNumber": 405,
+  "courseName": "Advanced Combat Fitness",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mil%20S/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Advanced Combat Fitness</b> May be repeated for credit; cumulative maximum 10 hours. Physical fitness to include aerobic and anaerobic strength and endurance; build teamwork, high morale, and leadership; train towards functional fitness to include ruck march treks, combat water survival tests, and the Army Combat Fitness Test; gain leadership skills while learning to plan, lead, and assess fitness training for mixed ability groups. No prior experience required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeramy",
+            "lastName": "Norland",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Matthew",
+            "lastName": "Patchin",
+            "isPrimary": false,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Niko",
+            "lastName": "Balocco",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

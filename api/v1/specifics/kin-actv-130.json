@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:03.903841+00:00",
+  "course": "kin-actv-130",
+  "subject": "KIN_ACTV",
+  "courseNumber": 130,
+  "courseName": "Beginning Volleyball",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/KNACT/130/1/false/true",
+      "response": {
+        "courseDescription": "<b>130 Beginning Volleyball</b> May be repeated for credit; cumulative maximum 4 hours.   S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mia",
+            "lastName": "Ferraro",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

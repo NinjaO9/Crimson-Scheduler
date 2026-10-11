@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:07.052638+00:00",
+  "course": "ed-ad-512",
+  "subject": "ED_AD",
+  "courseNumber": 512,
+  "courseName": "Leadership Studies for Social Justice",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Ed%20Ad/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Leadership Studies for Social Justice</b>  Leadership theories and approaches including present educational problems, leadership theories, and perspectives.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Shameem",
+            "lastName": "Rakha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

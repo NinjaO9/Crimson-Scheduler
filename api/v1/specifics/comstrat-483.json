@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:51.337967+00:00",
+  "course": "comstrat-483",
+  "subject": "COMSTRAT",
+  "courseNumber": 483,
+  "courseName": "Risk Communication",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComSr/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Risk Communication</b>  Research on perceptions of risk among stakeholders about complex environmental and natural resource issues.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Michelle",
+            "lastName": "Kistler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

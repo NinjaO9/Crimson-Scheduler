@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:16.818002+00:00",
+  "course": "engr-107",
+  "subject": "ENGR",
+  "courseNumber": 107,
+  "courseName": "Introductory Mathematics for Engineering Applications",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engr/107/1/false/true",
+      "response": {
+        "courseDescription": "<b>107 Introductory Mathematics for Engineering Applications</b>  Application of mathematics principles to engineering problems across engineering and computer science disciplines; concepts from trigonometry to calculus necessary for sophomore engineering courses.  ",
+        "coursePrerequisites": " MATH 106 with a grade of C or better, or a minimum ALEKS math placement score of 75%.",
+        "instructors": [
+          {
+            "firstName": "Kimberlee",
+            "lastName": "Hughes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

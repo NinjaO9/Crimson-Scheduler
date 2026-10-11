@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:52.026389+00:00",
+  "course": "vet-med-536",
+  "subject": "VET_MED",
+  "courseNumber": 536,
+  "courseName": "Veterinary Bacteriology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/536/1/false/true",
+      "response": {
+        "courseDescription": "<b>536 Veterinary Bacteriology</b>  Bacteria that produce disease in animals.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Claire",
+            "lastName": "Burbick",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "April",
+            "lastName": "Mendoza Magana",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Brianna",
+            "lastName": "Steiert",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Chelsea",
+            "lastName": "Osbron",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Chris",
+            "lastName": "Reis",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Hayley",
+            "lastName": "Masterson",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Kayleigh",
+            "lastName": "Carranza",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Tryssa",
+            "lastName": "de Ruyter",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

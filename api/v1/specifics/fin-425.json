@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:05.733913+00:00",
+  "course": "fin-425",
+  "subject": "FIN",
+  "courseNumber": 425,
+  "courseName": "Intermediate Financial Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/425/1/false/true",
+      "response": {
+        "courseDescription": "<b>425 [M] Intermediate Financial Management</b>  Application of finance theory and principles to corporate decisions such as capital budgeting, cost of capital, financing decisions, and valuation.  ",
+        "coursePrerequisites": "  FIN 325 with a C or better; admitted to a major or minor in the College of Business, the major in Data Analytics, or the major in Economic Sciences.",
+        "instructors": [
+          {
+            "firstName": "Heather",
+            "lastName": "Howard",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

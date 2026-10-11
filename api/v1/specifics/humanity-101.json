@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:08.318558+00:00",
+  "course": "humanity-101",
+  "subject": "HUMANITY",
+  "courseNumber": 101,
+  "courseName": "Humanities in the Ancient World",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hum/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Humanities in the Ancient World</b>  Integrated humanities: literature, philosophy, history, and art of the ancient world.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tomie",
+            "lastName": "Gowdy-Burke",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

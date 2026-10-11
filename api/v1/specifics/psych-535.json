@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:43.734975+00:00",
+  "course": "psych-535",
+  "subject": "PSYCH",
+  "courseNumber": 535,
+  "courseName": "Personality Assessment and Diagnosis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/535/1/false/true",
+      "response": {
+        "courseDescription": "<b>535 Personality Assessment and Diagnosis</b>  Diagnostic interviewing, conceptualization of clinical problems, case presentations, and treatment planning.  ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Walter",
+            "lastName": "Scott",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

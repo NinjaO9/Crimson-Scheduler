@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:15.404282+00:00",
+  "course": "physics-341",
+  "subject": "PHYSICS",
+  "courseNumber": 341,
+  "courseName": "Electricity and Magnetism I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/341/1/false/true",
+      "response": {
+        "courseDescription": "<b>341 Electricity and Magnetism I</b>  Electrostatic fields, magnetic fields, dielectric and magnetic media.  ",
+        "coursePrerequisites": "  4 credits of PHYSICS 202, or PHYSICS 202 and 212, or PHYSICS 206; MATH 315 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Nicholas",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

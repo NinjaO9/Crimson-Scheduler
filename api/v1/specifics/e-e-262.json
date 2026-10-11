@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:45.260457+00:00",
+  "course": "e-e-262",
+  "subject": "E_E",
+  "courseNumber": 262,
+  "courseName": "Electrical Circuits Laboratory I",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/E%20E/262/1/false/true",
+      "response": {
+        "courseDescription": "<b>262 Electrical Circuits Laboratory I</b>  Electrical instruments; laboratory applications of electric laws; transient and steady-state responses of electrical circuits.  ",
+        "coursePrerequisites": " E E 261 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Shuzheng",
+            "lastName": "Xie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

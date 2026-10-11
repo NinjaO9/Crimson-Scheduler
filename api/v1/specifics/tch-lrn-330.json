@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:21.723345+00:00",
+  "course": "tch-lrn-330",
+  "subject": "TCH_LRN",
+  "courseNumber": 330,
+  "courseName": "Equity and Diversity within Schools and Communities",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/330/1/false/true",
+      "response": {
+        "courseDescription": "<b>330 Equity and Diversity within Schools and Communities</b>  Social, historical, and philosophical foundations of gender, socioeconomic, linguistic, and cultural diversity in schools.  ",
+        "coursePrerequisites": " TCH LRN 301 or concurrent enrollment; for candidates admitted to teacher education (Elementary Education).",
+        "instructors": [
+          {
+            "firstName": "Zulekha",
+            "lastName": "Khamisi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

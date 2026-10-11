@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:09.716645+00:00",
+  "course": "aero-103",
+  "subject": "AERO",
+  "courseNumber": 103,
+  "courseName": "Leadership Laboratory I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Aero/103/1/false/true",
+      "response": {
+        "courseDescription": "<b>103 Leadership Laboratory I</b> May be repeated for credit; cumulative maximum 4 hours. Intercollegiate athletics and leadership course; leadership principles, military experience, and management practice; 2 hours laboratory and 2-3 hours required physical training; fitness tests include strength/conditioning muscle fitness, cardiorespiratory/aerobic endurance, and body composition requirements. Location of the course alternates between WSU and UI campuses throughout the term.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Daniel",
+            "lastName": "Mack",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Friedrich",
+            "lastName": "Martin",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Peter",
+            "lastName": "Brunke",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Shelli",
+            "lastName": "Schimke",
+            "isPrimary": true,
+            "tchEffort": 25
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

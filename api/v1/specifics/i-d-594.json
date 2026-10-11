@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:28:43.587452+00:00",
+  "course": "i-d-594",
+  "subject": "I_D",
+  "courseNumber": 594,
+  "courseName": "Readings in Interior Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/I%20D/594/1/false/true",
+      "response": {
+        "courseDescription": "<b>594 Readings in Interior Design</b>  Exploration of current topics through readings in interior design.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alana",
+            "lastName": "Pulay",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

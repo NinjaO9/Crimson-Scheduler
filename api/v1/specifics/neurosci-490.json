@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:56.483142+00:00",
+  "course": "neurosci-490",
+  "subject": "NEUROSCI",
+  "courseNumber": 490,
+  "courseName": "Senior Project",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Senior Project</b>  Senior capstone course for students majoring in Neuroscience.  ",
+        "coursePrerequisites": "  Admitted to the major in Neuroscience; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Gizerian",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

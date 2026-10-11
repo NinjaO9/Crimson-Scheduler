@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:13.149279+00:00",
+  "course": "mit-537",
+  "subject": "MIT",
+  "courseNumber": 537,
+  "courseName": "Problem Solving in Elementary Mathematics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/MIT/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Problem Solving in Elementary Mathematics</b>  Supplemental practicum course for MIT 533 that affords pre-service elementary teachers opportunity to discuss mathematical problem solving in great detail: theoretically, by looking at samples of children's mathematical solutions, and engaging in mathematical problem solving.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Molly",
+            "lastName": "Daley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

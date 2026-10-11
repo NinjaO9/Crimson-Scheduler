@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:37.687027+00:00",
+  "course": "econs-301",
+  "subject": "ECONS",
+  "courseNumber": 301,
+  "courseName": "Intermediate Microeconomic Theory with Calculus",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EconS/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Intermediate Microeconomic Theory with Calculus</b>  Calculus-based intermediate microeconomic theory for majors in the School of Economic Sciences.  ",
+        "coursePrerequisites": " ECONS 101 or 198; DATA 121, MATH 171 with a C or better, or MATH 202 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Mohamed Hafis",
+            "lastName": "Zida",
+            "isPrimary": true,
+            "tchEffort": 95
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Brady",
+            "isPrimary": false,
+            "tchEffort": 5
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

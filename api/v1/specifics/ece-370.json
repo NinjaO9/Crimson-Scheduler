@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:04.775861+00:00",
+  "course": "ece-370",
+  "subject": "ECE",
+  "courseNumber": 370,
+  "courseName": "Electromagnetic Fields and Waves",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Electromagnetic Fields and Waves</b>  Electrostatic and magnetostatic fields; Faraday's laws, Maxwell's equations, electromagnetic properties of matter, uniform plane waves and transmission lines.  ",
+        "coursePrerequisites": " ECE 260; MATH 315.",
+        "instructors": [
+          {
+            "firstName": "Tutku",
+            "lastName": "Karacolak",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

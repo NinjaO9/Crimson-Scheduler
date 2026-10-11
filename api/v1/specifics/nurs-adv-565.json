@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:05.651312+00:00",
+  "course": "nurs-adv-565",
+  "subject": "NURS_ADV",
+  "courseNumber": 565,
+  "courseName": "Information Management for Systems Leaders",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/565/1/false/true",
+      "response": {
+        "courseDescription": "<b>565 Information Management for Systems Leaders</b>  Application/evaluation of nursing informatics; information systems to support clinical research, practice, administration, and education. Required preparation must include competency in word processing/spreadsheets.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Angela",
+            "lastName": "Brittain",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

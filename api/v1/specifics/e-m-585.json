@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:48:33.039256+00:00",
+  "course": "e-m-585",
+  "subject": "E_M",
+  "courseNumber": 585,
+  "courseName": "Design of Experiments",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20M/585/2/false/true",
+      "response": {
+        "courseDescription": "<b>585 Design of Experiments</b>  Design for quality improved products; processes and services using designed experiments, including robust/parameter design. Recommended preparation: Undergraduate statistics. Credit not granted for both E M 485 and E M 585.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Steve",
+            "lastName": "Addison",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

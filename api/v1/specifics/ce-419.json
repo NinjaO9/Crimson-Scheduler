@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:38.083302+00:00",
+  "course": "ce-419",
+  "subject": "CE",
+  "courseNumber": 419,
+  "courseName": "Hazardous Waste Treatment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/419/1/false/true",
+      "response": {
+        "courseDescription": "<b>419 Hazardous Waste Treatment</b>  Principles of operation and application of processes in design of technologies used in hazardous waste treatment and remediation. Credit not granted for both CE 419 and CE 519. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 418 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Indranil",
+            "lastName": "Chowdhury",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

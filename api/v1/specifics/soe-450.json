@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:37.621116+00:00",
+  "course": "soe-450",
+  "subject": "SOE",
+  "courseNumber": 450,
+  "courseName": "Conservation Biology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 [M] Conservation Biology</b>  Patterns of biological diversity, factors producing changes in diversity, values of diversity, management principles applied to small populations, protected areas, landscape linkages, biotic integrity, restoration, legal issues and funding sources.  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Amanda",
+            "lastName": "Stahl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

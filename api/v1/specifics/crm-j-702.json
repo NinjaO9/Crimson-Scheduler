@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:58.862059+00:00",
+  "course": "crm-j-702",
+  "subject": "CRM_J",
+  "courseNumber": 702,
+  "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Crm%20J/702/1/false/true",
+      "response": {
+        "courseDescription": "<b>702 Master's Special Problems, Directed Study, and/or Examination</b> May be repeated for credit. Independent research in special problems, directed study, and/or examination credit for students in a non-thesis master's degree program.  Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 702 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cortney",
+            "lastName": "Franklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Craig",
+            "lastName": "Hemmens",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Dale",
+            "lastName": "Willits",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "David",
+            "lastName": "Brody",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "David",
+            "lastName": "Makin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Hillary",
+            "lastName": "Mellinger",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Kathryn",
+            "lastName": "DuBois",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Laurie",
+            "lastName": "Drapela",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Melanie-Angela",
+            "lastName": "Neuilly",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Suzanne",
+            "lastName": "Coble",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

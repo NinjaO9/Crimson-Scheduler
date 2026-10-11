@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:37.027506+00:00",
+  "course": "ce-405",
+  "subject": "CE",
+  "courseNumber": 405,
+  "courseName": "Decision-Making for Sustainable and Resilient Civil Infrastructure",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/405/1/false/true",
+      "response": {
+        "courseDescription": "<b>405 Decision-Making for Sustainable and Resilient Civil Infrastructure</b>  Decision analysis framework within the context of civil engineering; mathematical (probabilistic) formulations for decision-making; life-cycle assessment; life-cycle cost analysis; theory of sustainability and resilience.  Credit not granted for both CE 405 and CE 505. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Admitted to the major in Architecture, Bioengineering, Chemical Engr, Civil Engr, Computer Engr, Computer Science, Construction Mgt, Electrical Engr, Materials Science and Engr, or Mechanical Engr; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Abdel-Aziz",
+            "lastName": "Sanad",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "B",
+            "lastName": "Jobson",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

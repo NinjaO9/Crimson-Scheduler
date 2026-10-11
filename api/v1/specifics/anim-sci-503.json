@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:43.292300+00:00",
+  "course": "anim-sci-503",
+  "subject": "ANIM_SCI",
+  "courseNumber": 503,
+  "courseName": "Advanced Animal Biology and Genomics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/503/1/false/true",
+      "response": {
+        "courseDescription": "<b>503 Advanced Animal Biology and Genomics</b>  Advanced concepts and biological processes regulating animal behavior, physiology, and endocrinology; genetic and epigenetic principles fundamental to animal production; integration of biological and genomic knowledge to solve animal production problems. Recommended preparation: ANIM SCI 440 or equivalent; BIOLOGY 330 or equivalent. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Min",
+            "lastName": "Du",
+            "isPrimary": true,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

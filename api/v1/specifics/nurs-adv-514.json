@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:01.044656+00:00",
+  "course": "nurs-adv-514",
+  "subject": "NURS_ADV",
+  "courseNumber": 514,
+  "courseName": "Primary Care Practicum 1",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Primary Care Practicum 1</b>  Primary care practicum experience focused on health promotion, disease prevention, and disease detection across the lifespan in primary health care.  ",
+        "coursePrerequisites": " NURS ADV 508; NURS ADV 509; concurrent enrollment in NURS ADV 513.",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Hunt",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

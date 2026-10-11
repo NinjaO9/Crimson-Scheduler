@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:15.095097+00:00",
+  "course": "med-clin-549",
+  "subject": "MED_CLIN",
+  "courseNumber": 549,
+  "courseName": "Internal Medicine - Hematology and Oncology",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/549/1/false/true",
+      "response": {
+        "courseDescription": "<b>549 Internal Medicine - Hematology and Oncology</b> May be repeated for credit; cumulative maximum 12 hours. Acute inpatient and chronic outpatient medical conditions treated by hematology-oncology physicians; treatment options including chemotherapy, immunotherapy, surgery, and radiation therapy.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Joanna",
+            "lastName": "Breems",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

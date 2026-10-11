@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:35.904581+00:00",
+  "course": "fin-330",
+  "subject": "FIN",
+  "courseNumber": 330,
+  "courseName": "Introduction to Financial Wellbeing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/330/3/false/true",
+      "response": {
+        "courseDescription": "<b>330 Introduction to Financial Wellbeing</b>  Introduction to financial planning including budgeting, credit, investing, retirement and estate planning, and tax considerations.  ",
+        "coursePrerequisites": " ACCTG 230 or 298; ECONS 101 or 198; FIN 325 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Christiane",
+            "lastName": "Williamson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

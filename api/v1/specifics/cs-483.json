@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:21.193654+00:00",
+  "course": "cs-483",
+  "subject": "CS",
+  "courseNumber": 483,
+  "courseName": "Topics in Computer Science",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 Topics in Computer Science</b> May be repeated for credit. Current topics in computer science or software engineering.  ",
+        "coursePrerequisites": " Admitted to the major in Computer Science.",
+        "instructors": [
+          {
+            "firstName": "Farhana",
+            "lastName": "Kabir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

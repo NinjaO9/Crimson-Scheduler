@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:46.645180+00:00",
+  "course": "arch-351",
+  "subject": "ARCH",
+  "courseNumber": 351,
+  "courseName": "Architectural Structures I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/351/1/false/true",
+      "response": {
+        "courseDescription": "<b>351 Architectural Structures I</b>  Introduction to statics and mechanics; analysis and design of statically determinate architectural structures using timber, steel, and reinforced concrete systems.  ",
+        "coursePrerequisites": " MATH 108 with a C or better, or 140, 171, 202, or 206, or a minimum ALEKS math placement score 75%; admitted major in Architectural Studies or Construction Management.",
+        "instructors": [
+          {
+            "firstName": "Kishor",
+            "lastName": "Shrestha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

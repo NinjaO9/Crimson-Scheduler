@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:42.302216+00:00",
+  "course": "psych-511",
+  "subject": "PSYCH",
+  "courseNumber": 511,
+  "courseName": "Experimental Design, T-Tests, and Analysis of Variance",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Experimental Design, T-Tests, and Analysis of Variance</b>  Parametric, nonparametric, repeated-measures, and multivariate ANOVA; planned comparisons; confidence intervals and power analysis; experimental design and variants.  ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Carrie",
+            "lastName": "Cuttler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

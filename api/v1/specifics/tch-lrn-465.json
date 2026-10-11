@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:25.347584+00:00",
+  "course": "tch-lrn-465",
+  "subject": "TCH_LRN",
+  "courseNumber": 465,
+  "courseName": "Introduction to Multilingual Education in Secondary Settings",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 Introduction to Multilingual Education in Secondary Settings</b>  Practical knowledge for teaching ELL students in a variety of instructional contexts.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (secondary education).",
+        "instructors": [
+          {
+            "firstName": "Angel",
+            "lastName": "Bonilla",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

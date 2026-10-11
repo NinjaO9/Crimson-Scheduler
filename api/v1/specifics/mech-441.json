@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:08.234434+00:00",
+  "course": "mech-441",
+  "subject": "MECH",
+  "courseNumber": 441,
+  "courseName": "Renewable Energy",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/441/1/false/true",
+      "response": {
+        "courseDescription": "<b>441 Renewable Energy</b>  An examination of the fundamentals and the impact of renewable energy technology, including wind, solar, hydroelectricity, and alternate fuels.  ",
+        "coursePrerequisites": "  4 credits of PHYSICS 202, or PHYSICS 202 and 212; MATH 273; MECH 212 or ECE 260.",
+        "instructors": [
+          {
+            "firstName": "Chris",
+            "lastName": "Qin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:52:21.153564+00:00",
+  "course": "pol-s-320",
+  "subject": "POL_S",
+  "courseNumber": 320,
+  "courseName": "Politics and Current Affairs",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Politics and Current Affairs</b> May be repeated for credit; cumulative maximum 9 hours. Current trends in politics and public policy.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cornell",
+            "lastName": "Clayton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

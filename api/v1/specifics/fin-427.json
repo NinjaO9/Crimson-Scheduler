@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:06.049576+00:00",
+  "course": "fin-427",
+  "subject": "FIN",
+  "courseNumber": 427,
+  "courseName": "Investment Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/427/1/false/true",
+      "response": {
+        "courseDescription": "<b>427 [M] Investment Analysis</b>  Investment objectives, modern portfolio theory, valuation, equilibrium, market efficiency and asset classes. Credit not granted for more than one of FIN 427 and 437.  ",
+        "coursePrerequisites": " FIN 325 with a C or better; admitted to a major or minor in the College of Business, the major in Data Analytics, or the major in Economic Sciences. Enrollment not allowed if credit already earned for FIN 437.",
+        "instructors": [
+          {
+            "firstName": "Mario",
+            "lastName": "Reyes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

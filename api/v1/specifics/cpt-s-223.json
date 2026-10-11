@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:20.725113+00:00",
+  "course": "cpt-s-223",
+  "subject": "CPT_S",
+  "courseNumber": 223,
+  "courseName": "Advanced Data Structures C/C++",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/Cpt%20S/223/1/false/true",
+      "response": {
+        "courseDescription": "<b>223 Advanced Data Structures C/C++</b>  Advanced data structures, object oriented programming concepts, concurrency, and program design principles taught in C/C++ programming language.  ",
+        "coursePrerequisites": " CPT S 122 with a C or better; MATH 216 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Bolong",
+            "lastName": "Zeng",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

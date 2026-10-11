@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:21.651796+00:00",
+  "course": "hbm-231",
+  "subject": "HBM",
+  "courseNumber": 231,
+  "courseName": "Introduction to Beverage Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/HBM/231/2/false/true",
+      "response": {
+        "courseDescription": "<b>231 Introduction to Beverage Management</b>  Overview of the beverage industry including history, trends, opportunities, logistics, legal/regulatory for non-alcoholic beverages and alcoholic beverages.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Meghan",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

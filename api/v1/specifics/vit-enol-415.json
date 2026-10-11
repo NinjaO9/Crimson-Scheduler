@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:10.948554+00:00",
+  "course": "vit-enol-415",
+  "subject": "VIT_ENOL",
+  "courseNumber": 415,
+  "courseName": "Viticulture II Laboratory",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/V%20E/415/1/false/true",
+      "response": {
+        "courseDescription": "<b>415 Viticulture II Laboratory</b>  Winter and spring viticulture theory and practices laboratory focused on pruning, trellising, and training; addressing vineyard nutrient issues; sprayer calibration; and assessing vine water status.  ",
+        "coursePrerequisites": " Concurrent enrollment in VIT ENOL 414.",
+        "instructors": [
+          {
+            "firstName": "Bhaskar",
+            "lastName": "Bondada",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

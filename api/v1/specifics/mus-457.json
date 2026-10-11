@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:53.282111+00:00",
+  "course": "mus-457",
+  "subject": "MUS",
+  "courseNumber": 457,
+  "courseName": "Seminar in Jazz Arranging/Composition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/457/1/false/true",
+      "response": {
+        "courseDescription": "<b>457 Seminar in Jazz Arranging/Composition</b>  Arranging and composing for instrumental jazz ensembles.  ",
+        "coursePrerequisites": " MUS 257.",
+        "instructors": [
+          {
+            "firstName": "Christian J",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

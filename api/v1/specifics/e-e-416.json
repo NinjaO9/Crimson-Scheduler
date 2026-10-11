@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:47.531960+00:00",
+  "course": "e-e-416",
+  "subject": "E_E",
+  "courseNumber": 416,
+  "courseName": "Electrical Engineering Design",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/416/1/false/true",
+      "response": {
+        "courseDescription": "<b>416 [M] Electrical Engineering Design</b>  Electrical engineering design of specific projects including design specification, standards, and constraints; written and oral presentations and reports.  ",
+        "coursePrerequisites": " E E 415 with a C or better; ENGLISH 402 or 403 with a C or better, or concurrent enrollment; admitted to a major or minor in EECS; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

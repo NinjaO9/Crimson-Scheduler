@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:49.290961+00:00",
+  "course": "e-e-486",
+  "subject": "E_E",
+  "courseNumber": 486,
+  "courseName": "Power Electronics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/486/1/false/true",
+      "response": {
+        "courseDescription": "<b>486 Power Electronics</b>  Analysis and modeling of power electronics-based converters, steady state operation, converter topologies, non-ideal effects; power supplies; applications. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " E E 361 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Seyyedmilad",
+            "lastName": "Ebrahimi",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

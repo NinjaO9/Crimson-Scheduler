@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:19.055223+00:00",
+  "course": "pharmacy-536",
+  "subject": "PHARMACY",
+  "courseNumber": 536,
+  "courseName": "Pharmacy Practice and Professional Development III",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/536/1/false/true",
+      "response": {
+        "courseDescription": "<b>536 Pharmacy Practice and Professional Development III</b>  Continuing development of the essential skills, attitudes, and values for practicing health care professionals.  ",
+        "coursePrerequisites": "  PHARMACY 513.",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

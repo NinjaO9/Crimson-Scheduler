@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:04.727785+00:00",
+  "course": "mech-211",
+  "subject": "MECH",
+  "courseNumber": 211,
+  "courseName": "Statics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/Mech/211/1/false/true",
+      "response": {
+        "courseDescription": "<b>211 Statics</b>  Static equilibrium analysis of particles and rigid bodies, free-body diagrams, moment diagrams, friction, center of gravity, moments of inertia.  ",
+        "coursePrerequisites": " MATH 172 or 182 or concurrent enrollment; 4 credits of PHYSICS 201, or PHYSICS 201 and 211 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Hamid",
+            "lastName": "Rad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

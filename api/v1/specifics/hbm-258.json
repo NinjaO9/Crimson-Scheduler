@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:15:36.473741+00:00",
+  "course": "hbm-258",
+  "subject": "HBM",
+  "courseNumber": 258,
+  "courseName": "Fundamentals of Cooking",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/HBM/258/1/false/true",
+      "response": {
+        "courseDescription": "<b>258 Fundamentals of Cooking</b>  Practical applications of cooking techniques, dining room service, and restaurant operations including safety, sanitation, flow of goods and industry trends. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mat",
+            "lastName": "Morgan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

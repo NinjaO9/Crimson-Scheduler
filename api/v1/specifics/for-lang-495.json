@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:08.300074+00:00",
+  "course": "for-lang-495",
+  "subject": "FOR_LANG",
+  "courseNumber": 495,
+  "courseName": "Cooperative Education Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/For%20L/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Cooperative Education Internship</b> May be repeated for credit; cumulative maximum 6 hours. Cooperative education internship with academic, business, industry or government units.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Laurie",
+            "lastName": "Heustis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

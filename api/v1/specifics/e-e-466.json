@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:48.746649+00:00",
+  "course": "e-e-466",
+  "subject": "E_E",
+  "courseNumber": 466,
+  "courseName": "VLSI Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20E/466/1/false/true",
+      "response": {
+        "courseDescription": "<b>466 VLSI Design</b>  Very Large Scale Integrated circuit, system and physical design using CAD software; project specification, modeling, implementation, documentation and reporting.  ",
+        "coursePrerequisites": " E E 234 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Leon",
+            "lastName": "Li",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

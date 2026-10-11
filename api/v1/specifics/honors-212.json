@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:05.179313+00:00",
+  "course": "honors-212",
+  "subject": "HONORS",
+  "courseNumber": 212,
+  "courseName": "Active and Immersive Community Engagement",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/U%20H/212/1/false/true",
+      "response": {
+        "courseDescription": "<b>212 Active and Immersive Community Engagement</b> May be repeated for credit; cumulative maximum 3 hours. Community-based service-learning projects and written reflection.  ",
+        "coursePrerequisites": " HONORS 211; must be an Honors student.",
+        "instructors": [
+          {
+            "firstName": "Jessica",
+            "lastName": "Perone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

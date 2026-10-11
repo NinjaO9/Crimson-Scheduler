@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:04.678689+00:00",
+  "course": "nurs-adv-557",
+  "subject": "NURS_ADV",
+  "courseNumber": 557,
+  "courseName": "DNP Project I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Summer/2026/NURAD/557/1/false/true",
+      "response": {
+        "courseDescription": "<b>557 DNP Project I</b>  Application of knowledge of current nursing science to the development of a proposal for the final DNP project.  ",
+        "coursePrerequisites": " NURS ADV 518; NURS ADV 553; NURS ADV 554.",
+        "instructors": [
+          {
+            "firstName": "Barbara",
+            "lastName": "Bennett-Wolcott",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

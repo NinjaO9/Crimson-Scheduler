@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:24.174893+00:00",
+  "course": "pharmacy-590",
+  "subject": "PHARMACY",
+  "courseNumber": 590,
+  "courseName": "Advanced Infectious Diseases",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Advanced Infectious Diseases</b>  Advanced therapeutic application of anti-infective agents for the treatment of infectious diseases.  S, F grading. ",
+        "coursePrerequisites": " PHARMACY 554.",
+        "instructors": [
+          {
+            "firstName": "Dana Rose-Saulibio",
+            "lastName": "Bowers",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

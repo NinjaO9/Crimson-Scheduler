@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:13:02.631790+00:00",
+  "course": "arch-530",
+  "subject": "ARCH",
+  "courseNumber": 530,
+  "courseName": "Philosophies and Theories of the Built Environment",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Philosophies and Theories of the Built Environment</b>  Focus on systematic thought which may describe behavior of the built environment. (Crosslisted course offered as ARCH 530, I D 530, LND ARCH 530.)  ",
+        "coursePrerequisites": " Graduate standing in Architecture, Interior Design, or Landscape Architecture.",
+        "instructors": [
+          {
+            "firstName": "Phil",
+            "lastName": "Gruen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

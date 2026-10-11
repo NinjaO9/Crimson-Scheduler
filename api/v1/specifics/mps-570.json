@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:30.644761+00:00",
+  "course": "mps-570",
+  "subject": "MPS",
+  "courseNumber": 570,
+  "courseName": "Advanced Topics in Molecular Plant Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MPS/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 Advanced Topics in Molecular Plant Sciences</b> May be repeated for credit; cumulative maximum 3 hours. Oral presentation of a current research paper.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Laura",
+            "lastName": "Bartley",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

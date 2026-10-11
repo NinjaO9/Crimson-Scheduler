@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:04.538084+00:00",
+  "course": "soe-200",
+  "subject": "SOE",
+  "courseNumber": 200,
+  "courseName": "Making the Most of Your EES Major",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/200/1/false/true",
+      "response": {
+        "courseDescription": "<b>200 Making the Most of Your EES Major</b>  Exploration of professional pathways and career preparation in the environmental sciences; includes career goals and skills, development of graduation plans, undergraduate research, campus and community engagement, resume building.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kara",
+            "lastName": "Whitman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:03.369606+00:00",
+  "course": "me-598",
+  "subject": "ME",
+  "courseNumber": 598,
+  "courseName": "Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/M%20E/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Seminar</b> May be repeated for credit. Current research interests. Cooperative: Open to UI degree-seeking students. S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jow-Lian",
+            "lastName": "Ding",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

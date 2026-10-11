@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:55.316605+00:00",
+  "course": "ath-t-592",
+  "subject": "ATH_T",
+  "courseNumber": 592,
+  "courseName": "Athletic Training Clinical Internship II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/592/2/false/true",
+      "response": {
+        "courseDescription": "<b>592 Athletic Training Clinical Internship II</b> May be repeated for credit; cumulative maximum 6 hours. Intermediate techniques in management of sport injury/illness under supervision of a licensed athletic trainer.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "SeokJae",
+            "lastName": "Choe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

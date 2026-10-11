@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:36.885966+00:00",
+  "course": "hbm-495",
+  "subject": "HBM",
+  "courseNumber": 495,
+  "courseName": "Case Studies and Research",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/HBM/495/2/false/true",
+      "response": {
+        "courseDescription": "<b>495 Case Studies and Research</b>  Use of the case method and computerized statistical programs in the analysis of administrative practices of organizations.  ",
+        "coursePrerequisites": " FIN 325; HBM 358; HBM 491; I BUS 380; MKTG 360; completion of Carson Career Amplifier Tier II or Crimson Pathway I; admitted to a major in the College of Business or minor in Hospitality Business Management; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Gladstone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

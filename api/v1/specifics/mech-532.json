@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:09.952032+00:00",
+  "course": "mech-532",
+  "subject": "MECH",
+  "courseNumber": 532,
+  "courseName": "Finite Elements",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Mech/532/1/false/true",
+      "response": {
+        "courseDescription": "<b>532 Finite Elements</b>  Theory of finite elements; applications to general engineering systems considered as assemblages of discrete elements.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hua",
+            "lastName": "Tan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

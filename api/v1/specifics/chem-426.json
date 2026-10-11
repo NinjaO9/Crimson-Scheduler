@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:43.436595+00:00",
+  "course": "chem-426",
+  "subject": "CHEM",
+  "courseNumber": 426,
+  "courseName": "Quantitative Instrumental Analysis Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Chem/426/1/false/true",
+      "response": {
+        "courseDescription": "<b>426 [M] Quantitative Instrumental Analysis Laboratory</b>  Laboratory experience in modern analytical methods.  ",
+        "coursePrerequisites": " CHEM 425 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Jeremy",
+            "lastName": "Lessmann",
+            "isPrimary": true,
+            "tchEffort": 90
+          },
+          {
+            "firstName": "Nathaniel",
+            "lastName": "Morgan",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

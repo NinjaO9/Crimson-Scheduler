@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:12.963519+00:00",
+  "course": "physics-188",
+  "subject": "PHYSICS",
+  "courseNumber": 188,
+  "courseName": "First-Year Seminar I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/188/1/false/true",
+      "response": {
+        "courseDescription": "<b>188 First-Year Seminar I</b>  Faculty will present current research interests and opportunities in physics; questions and discussion. Taught annually each fall.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Allen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

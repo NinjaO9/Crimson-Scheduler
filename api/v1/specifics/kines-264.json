@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:49.858959+00:00",
+  "course": "kines-264",
+  "subject": "KINES",
+  "courseNumber": 264,
+  "courseName": "Fitness Concepts",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/264/1/false/true",
+      "response": {
+        "courseDescription": "<b>264 Fitness Concepts</b>  Physiological, mechanical, and health-related basis of fitness practices.  ",
+        "coursePrerequisites": " BIOLOGY 315 with a C or better, or KINES 262 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Daniel",
+            "lastName": "Smith",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sydney",
+            "lastName": "Zagarola",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

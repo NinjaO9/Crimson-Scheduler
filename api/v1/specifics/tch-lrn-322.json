@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:21.527513+00:00",
+  "course": "tch-lrn-322",
+  "subject": "TCH_LRN",
+  "courseNumber": 322,
+  "courseName": "Reading and Writing in Grades 4 - 8",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/322/1/false/true",
+      "response": {
+        "courseDescription": "<b>322 [M] Reading and Writing in Grades 4 - 8</b>  Designed for pre-service teachers to link assessment and instruction and assist upper-elementary students to read and write more effectively.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Jihee",
+            "lastName": "Im",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

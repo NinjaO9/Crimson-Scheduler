@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:39.233042+00:00",
+  "course": "i-bus-380",
+  "subject": "I_BUS",
+  "courseNumber": 380,
+  "courseName": "International Business",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/I%20Bus/380/3/false/true",
+      "response": {
+        "courseDescription": "<b>380 International Business</b>  International political economy; business relationships between nations; corporations and economic institutions.  ",
+        "coursePrerequisites": " B A 201, 202, and 203, or B A 211, or concurrent enrollment; admitted to a major or minor in the College of Business; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Beattie",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

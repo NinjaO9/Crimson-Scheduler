@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:21.903283+00:00",
+  "course": "tch-lrn-333",
+  "subject": "TCH_LRN",
+  "courseNumber": 333,
+  "courseName": "Introduction to Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 Introduction to Multilingual Education</b>  Foundations of ESL with attention to basic concepts of second language processing in educational settings.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eugenie",
+            "lastName": "Mainake",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

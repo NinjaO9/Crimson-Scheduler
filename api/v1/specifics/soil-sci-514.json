@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:20:01.547556+00:00",
+  "course": "soil-sci-514",
+  "subject": "SOIL_SCI",
+  "courseNumber": 514,
+  "courseName": "Environmental Biophysics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SoilS/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Environmental Biophysics</b>  Physical environment of living organisms (temperature, humidity, radiation, wind); heat and mass exchange and balance in plant and animal systems.  Recommended preparation: Introductory biology, physics, and calculus. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Leo",
+            "lastName": "Rivera",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Colin",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

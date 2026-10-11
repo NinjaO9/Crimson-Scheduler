@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:17.570365+00:00",
+  "course": "pharmacy-509",
+  "subject": "PHARMACY",
+  "courseNumber": 509,
+  "courseName": "Professional Communications Lab",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PharD/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Professional Communications Lab</b>  Professional communication skills as an essential foundation for career development.  ",
+        "coursePrerequisites": " Admission to the Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Megan",
+            "lastName": "Willson",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

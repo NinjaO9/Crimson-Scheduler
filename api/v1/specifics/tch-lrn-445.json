@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:24.850731+00:00",
+  "course": "tch-lrn-445",
+  "subject": "TCH_LRN",
+  "courseNumber": 445,
+  "courseName": "Elementary Methods of Educational Technology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/445/2/false/true",
+      "response": {
+        "courseDescription": "<b>445 Elementary Methods of Educational Technology</b>  Consideration of all technologies in K-8 schools, applications for their use, some production techniques and instructional methodologies.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Seyed Abdollah",
+            "lastName": "Shahrokni",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

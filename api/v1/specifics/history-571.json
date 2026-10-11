@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:03.210274+00:00",
+  "course": "history-571",
+  "subject": "HISTORY",
+  "courseNumber": 571,
+  "courseName": "Topics in World History",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Topics in World History</b> May be repeated for credit; cumulative maximum 6 hours. Readings in themes and historiography of comparative, transnational, and global approaches to history.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ashley",
+            "lastName": "Wright",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

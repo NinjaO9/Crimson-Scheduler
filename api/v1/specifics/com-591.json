@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:30:47.805525+00:00",
+  "course": "com-591",
+  "subject": "COM",
+  "courseNumber": 591,
+  "courseName": "Qualitative Research Methods",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Com/591/1/false/true",
+      "response": {
+        "courseDescription": "<b>591 Qualitative Research Methods</b>  Historical, textual, and legal methodologies for theory-based evaluative and discourse studies in communication.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Pawel",
+            "lastName": "Popiel",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

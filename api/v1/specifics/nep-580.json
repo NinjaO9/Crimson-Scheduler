@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:53.289688+00:00",
+  "course": "nep-580",
+  "subject": "NEP",
+  "courseNumber": 580,
+  "courseName": "Advanced Topics in Exercise Physiology and Nutrition",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NEP/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Advanced Topics in Exercise Physiology and Nutrition</b> May be repeated for credit; cumulative maximum 12 hours. In-depth evaluation of current research in the fields of exercise physiology and nutrition; exploration of different topics by different instructors on a rotating basis.  ",
+        "coursePrerequisites": " Admission to NEP Graduate Program.",
+        "instructors": [
+          {
+            "firstName": "Erin",
+            "lastName": "Morgan",
+            "isPrimary": true,
+            "tchEffort": 35
+          },
+          {
+            "firstName": "Luciana",
+            "lastName": "Hebert",
+            "isPrimary": true,
+            "tchEffort": 65
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

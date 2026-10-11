@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:13.114565+00:00",
+  "course": "math-364",
+  "subject": "MATH",
+  "courseNumber": 364,
+  "courseName": "Principles of Optimization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/364/1/false/true",
+      "response": {
+        "courseDescription": "<b>364 Principles of Optimization</b>  Algebra of linear inequalities; duality; graphs, transport networks; linear programming; special algorithms; nonlinear programming; selected applications.  ",
+        "coursePrerequisites": " MATH 202, 220, 225, or 230.",
+        "instructors": [
+          {
+            "firstName": "Alexander",
+            "lastName": "Panchenko",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

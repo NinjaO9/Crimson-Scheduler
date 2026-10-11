@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:22.601847+00:00",
+  "course": "pharmacy-580",
+  "subject": "PHARMACY",
+  "courseNumber": 580,
+  "courseName": "Practical Politics and Pharmacy",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PharD/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Practical Politics and Pharmacy</b>  Study of government and legislation to better assist patients in navigating the political process.  S, F grading. ",
+        "coursePrerequisites": " Admission to Pharmacy program.",
+        "instructors": [
+          {
+            "firstName": "Julie",
+            "lastName": "Akers",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

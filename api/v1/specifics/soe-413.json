@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:21.473698+00:00",
+  "course": "soe-413",
+  "subject": "SOE",
+  "courseNumber": 413,
+  "courseName": "Application of Ecological Economics in Natural Resource Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/413/1/false/true",
+      "response": {
+        "courseDescription": "<b>413 Application of Ecological Economics in Natural Resource Management</b>  An exploration of the value of nature to society, in monetary and other metrics.  ",
+        "coursePrerequisites": " ECONS 101; SOE 300 or BIOLOGY 372.",
+        "instructors": [
+          {
+            "firstName": "Austin",
+            "lastName": "Himes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

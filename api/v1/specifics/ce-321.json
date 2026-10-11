@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:35.609104+00:00",
+  "course": "ce-321",
+  "subject": "CE",
+  "courseNumber": 321,
+  "courseName": "Numerical Methods for Civil and Environmental Engineers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/321/1/false/true",
+      "response": {
+        "courseDescription": "<b>321 Numerical Methods for Civil and Environmental Engineers</b>  Computer assisted (numerical) solution of engineering problems; algorithmic thinking skills; programming fundamentals. Recommended preparation: CE 203, STAT 360 or 370.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nick",
+            "lastName": "Engdahl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

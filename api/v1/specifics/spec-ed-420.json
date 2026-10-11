@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:23:01.510046+00:00",
+  "course": "spec-ed-420",
+  "subject": "SPEC_ED",
+  "courseNumber": 420,
+  "courseName": "Teaching in Inclusive Classrooms",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Sp%20Ed/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Teaching in Inclusive Classrooms</b>  Designed for preservice/inservice general education (K-12) teachers to learn how to teach students with disabilities. Credit not granted for both SPEC ED 420 and SPEC ED 520.  ",
+        "coursePrerequisites": " For candidates admitted to teacher education (elementary education).",
+        "instructors": [
+          {
+            "firstName": "Holly",
+            "lastName": "Whittenburg",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

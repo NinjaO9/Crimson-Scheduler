@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:55:07.104273+00:00",
+  "course": "pol-s-702",
+  "subject": "POL_S",
+  "courseNumber": 702,
+  "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Pol%20S/702/1/false/true",
+      "response": {
+        "courseDescription": "<b>702 Master's Special Problems, Directed Study, and/or Examination</b> May be repeated for credit. Independent research in special problems, directed study, and/or examination credit for students in a non-thesis master's degree program.  Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 702 credit.  S, U grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Cheryl",
+            "lastName": "Ellenwood",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Claudia",
+            "lastName": "Leeb",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jacob",
+            "lastName": "Lewis",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "John",
+            "lastName": "Preston",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Matt",
+            "lastName": "Stichter",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Salamone",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Samantha",
+            "lastName": "Noll",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Travis",
+            "lastName": "Ridout",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

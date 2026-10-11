@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:16.690303+00:00",
+  "course": "spanish-205",
+  "subject": "SPANISH",
+  "courseNumber": 205,
+  "courseName": "Intermediate Conversation I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/205/1/false/true",
+      "response": {
+        "courseDescription": "<b>205 Intermediate Conversation I</b> May be repeated for credit; cumulative maximum 2 hours. Intermediate-level conversation practice in small groups with a native/near-native speaker. Not open to native speakers except with permission.  S, F grading. ",
+        "coursePrerequisites": " SPANISH 203 or concurrent enrollment, or SPANISH 204 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Joseba",
+            "lastName": "Perez Guerrero",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Anna",
+            "lastName": "Comstock",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

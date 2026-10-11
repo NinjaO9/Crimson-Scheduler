@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:24:31.625203+00:00",
+  "course": "ce-583",
+  "subject": "CE",
+  "courseNumber": 583,
+  "courseName": "Aquatic Chemistry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/583/1/false/true",
+      "response": {
+        "courseDescription": "<b>583 Aquatic Chemistry</b>  Chemical principles as applied to natural environmental system, water supply and pollution and control engineering. (Crosslisted course offered as CE 583, BSYSE 560.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kuang",
+            "lastName": "Zhu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

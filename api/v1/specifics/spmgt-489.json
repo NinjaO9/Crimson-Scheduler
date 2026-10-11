@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:01.130743+00:00",
+  "course": "spmgt-489",
+  "subject": "SPMGT",
+  "courseNumber": 489,
+  "courseName": "Theory and Application in Sports Event Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/489/1/false/true",
+      "response": {
+        "courseDescription": "<b>489 Theory and Application in Sports Event Management</b>  Investigation and application of the components of the sport management profession; examination of fundamental principles used in event and facility management.  ",
+        "coursePrerequisites": " SPMGT 374; SPMGT 377; SPMGT 464; SPMGT 468 or concurrent enrollment; admitted to the major in Sport Management; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Lebens",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

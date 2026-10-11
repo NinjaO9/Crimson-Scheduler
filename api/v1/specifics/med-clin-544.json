@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:14.227851+00:00",
+  "course": "med-clin-544",
+  "subject": "MED_CLIN",
+  "courseNumber": 544,
+  "courseName": "Internal Medicine - Nephrology",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/544/1/false/true",
+      "response": {
+        "courseDescription": "<b>544 Internal Medicine - Nephrology</b> May be repeated for credit; cumulative maximum 12 hours. Breadth of nephrologic disorders as related to acute kidney injury, chronic kidney disease, hematuria, proteinuria, hyperparathyroidism, hypertension, electrolyte disorders, metabolic/acid-base disorders, and poisoning.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Joanna",
+            "lastName": "Breems",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

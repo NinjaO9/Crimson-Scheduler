@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:10.504215+00:00",
+  "course": "ed-mthsc-598",
+  "subject": "ED_MTHSC",
+  "courseNumber": 598,
+  "courseName": "Research Seminar in Mathematics and Science Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MTHSC/598/1/false/true",
+      "response": {
+        "courseDescription": "<b>598 Research Seminar in Mathematics and Science Education</b> May be repeated for credit; cumulative maximum 6 hours. Through targeted readings and discussion, students will develop knowledge base proficiencies related to areas of mathematics and science education.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jonah",
+            "lastName": "Firestone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

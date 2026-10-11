@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:20.872221+00:00",
+  "course": "cs-458",
+  "subject": "CS",
+  "courseNumber": 458,
+  "courseName": "Mobile Application Development",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/458/1/false/true",
+      "response": {
+        "courseDescription": "<b>458 Mobile Application Development</b>  Design and development of mobile applications; introduction to mobile application frameworks, including user interface, sensors, event handling, data management and network communication.  ",
+        "coursePrerequisites": " CS 220, 223, 224, or 360, each with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Bonamy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:52.207775+00:00",
+  "course": "vet-med-537",
+  "subject": "VET_MED",
+  "courseNumber": 537,
+  "courseName": "Veterinary Parasitology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/537/1/false/true",
+      "response": {
+        "courseDescription": "<b>537 Veterinary Parasitology</b>  Arthropods, protozoa, and helminths of veterinary importance; their host-parasite relationship and control.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Laura",
+            "lastName": "Artz Williams",
+            "isPrimary": true,
+            "tchEffort": 80
+          },
+          {
+            "firstName": "Amy",
+            "lastName": "Everett",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Chris",
+            "lastName": "Reis",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Hayley",
+            "lastName": "Masterson",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Kayleigh",
+            "lastName": "Carranza",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Nic",
+            "lastName": "Ripplinger",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Liam",
+            "lastName": "Broughton-Neiswanger",
+            "isPrimary": false,
+            "tchEffort": 20
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:36.545546+00:00",
+  "course": "hbm-493",
+  "subject": "HBM",
+  "courseNumber": 493,
+  "courseName": "Food and Beverage Strategies",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/HBM/493/1/false/true",
+      "response": {
+        "courseDescription": "<b>493 Food and Beverage Strategies</b>  Use of the case method and integrative projects, with a focus on food and beverage new product development and new service development practices in hospitality, wine and beverage organizations.  ",
+        "coursePrerequisites": " HBM 490; admitted to major or minor in WBBM or HBM.",
+        "instructors": [
+          {
+            "firstName": "Jessica",
+            "lastName": "Murray",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

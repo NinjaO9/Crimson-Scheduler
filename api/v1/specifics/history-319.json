@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:19:36.164205+00:00",
+  "course": "history-319",
+  "subject": "HISTORY",
+  "courseNumber": 319,
+  "courseName": "American History, 1945-1980",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/319/1/false/true",
+      "response": {
+        "courseDescription": "<b>319 American History, 1945-1980</b>  International and domestic impact of the Cold War, Civil Rights Movements, Vietnam War, and Watergate.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Elyssa",
+            "lastName": "Ford",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

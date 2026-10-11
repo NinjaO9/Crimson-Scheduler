@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:04.142837+00:00",
+  "course": "hort-330",
+  "subject": "HORT",
+  "courseNumber": 330,
+  "courseName": "Landscape Plants for Urban and Community Environments",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hort/330/1/false/true",
+      "response": {
+        "courseDescription": "<b>330 Landscape Plants for Urban and Community Environments</b>  Plants for solving problems in human-dominated landscapes: their characteristics, functions such as storm water management and climate change mitigation, ecology, identification, and selection. Recommended preparation: BIOLOGY 120 or HORT 202. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Richard",
+            "lastName": "Little",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

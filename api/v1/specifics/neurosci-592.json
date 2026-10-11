@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:58.309779+00:00",
+  "course": "neurosci-592",
+  "subject": "NEUROSCI",
+  "courseNumber": 592,
+  "courseName": "Research Proposal Writing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Neuro/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Research Proposal Writing</b>  Individualized mentoring on preparation and submission of grant proposals.  S, F grading. ",
+        "coursePrerequisites": " Graduate student in Neuroscience program.",
+        "instructors": [
+          {
+            "firstName": "Shane",
+            "lastName": "Hentges",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

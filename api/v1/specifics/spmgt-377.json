@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:00.143853+00:00",
+  "course": "spmgt-377",
+  "subject": "SPMGT",
+  "courseNumber": 377,
+  "courseName": "Legal Aspects of Sport",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/377/1/false/true",
+      "response": {
+        "courseDescription": "<b>377 Legal Aspects of Sport</b>  Legal aspects of the supervision, management and business of sport.  ",
+        "coursePrerequisites": "  Admitted to the major or minor in Sport Management.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Lebens",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

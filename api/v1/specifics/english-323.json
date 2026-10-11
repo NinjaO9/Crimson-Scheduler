@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:59:14.676095+00:00",
+  "course": "english-323",
+  "subject": "ENGLISH",
+  "courseNumber": 323,
+  "courseName": "Approaches to the Teaching of English",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/323/1/false/true",
+      "response": {
+        "courseDescription": "<b>323 Approaches to the Teaching of English</b>  Literature and language arts in secondary schools.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Deanne",
+            "lastName": "Sparks",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

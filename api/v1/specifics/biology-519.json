@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:28.322577+00:00",
+  "course": "biology-519",
+  "subject": "BIOLOGY",
+  "courseNumber": 519,
+  "courseName": "Introduction to Population and Quantitative Genetics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/519/1/false/true",
+      "response": {
+        "courseDescription": "<b>519 Introduction to Population and Quantitative Genetics</b>  Survey of basic population and quantitative genetics. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jeremiah",
+            "lastName": "Busch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

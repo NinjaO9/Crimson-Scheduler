@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:20.531016+00:00",
+  "course": "med-clin-610",
+  "subject": "MED_CLIN",
+  "courseNumber": 610,
+  "courseName": "Pediatrics - Medical Genetics and Genomics",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDCL/610/1/false/true",
+      "response": {
+        "courseDescription": "<b>610 Pediatrics - Medical Genetics and Genomics</b> May be repeated for credit; cumulative maximum 12 hours. Knowledge, skills, and range of medical problems encountered in the practice of medical genetics.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524.",
+        "instructors": [
+          {
+            "firstName": "Andrea",
+            "lastName": "Klunder Petersen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:02:03.394717+00:00",
+  "course": "english-452",
+  "subject": "ENGLISH",
+  "courseNumber": 452,
+  "courseName": "Advanced Creative Writing: Poetry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 [M] Advanced Creative Writing: Poetry</b> May be repeated for credit; cumulative maximum 6 hours. Workshop approach to poetry writing for the advanced student.  ",
+        "coursePrerequisites": " One of following:  ENGLISH 351, 352, 353, or 359.",
+        "instructors": [
+          {
+            "firstName": "Cameron",
+            "lastName": "McGill",
+            "isPrimary": true,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

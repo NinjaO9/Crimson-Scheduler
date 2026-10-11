@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:12.011124+00:00",
+  "course": "fs-530",
+  "subject": "FS",
+  "courseNumber": 530,
+  "courseName": "Dairy Processing Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Dairy Processing Lab</b>  Hands-on training in processing of various dairy products (e.g., fluid milk, butter, ice cream, cheese, and yogurt); milk pick-up and raw milk quality; cleaning and sanitation of dairy plants. Credit not granted for both FS 430 and FS 530. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Concurrent enrollment in FS 529.",
+        "instructors": [
+          {
+            "firstName": "Adam",
+            "lastName": "Quinn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

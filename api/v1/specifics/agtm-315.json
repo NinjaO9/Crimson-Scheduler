@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:14.652953+00:00",
+  "course": "agtm-315",
+  "subject": "AGTM",
+  "courseNumber": 315,
+  "courseName": "Irrigation Systems and Water Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/315/1/false/true",
+      "response": {
+        "courseDescription": "<b>315 Irrigation Systems and Water Management</b>  Principles of irrigation and drainage, water measurement, irrigation methods and practices, selection of irrigation system components. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

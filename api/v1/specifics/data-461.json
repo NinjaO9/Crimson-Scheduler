@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:44.488804+00:00",
+  "course": "data-461",
+  "subject": "DATA",
+  "courseNumber": 461,
+  "courseName": "Mathematical Foundations of AI",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/DATA/461/1/false/true",
+      "response": {
+        "courseDescription": "<b>461 Mathematical Foundations of AI</b>  Foundational AI topics including linear algebra, optimization, graph theory, graph neural networks, manifold learning, kernel methods, function spaces, probabilistic and decision-theoretic models, and ethical considerations.  ",
+        "coursePrerequisites": " DATA 121 or MATH 171; MATH/DATA 225.",
+        "instructors": [
+          {
+            "firstName": "Bismita",
+            "lastName": "Choudhury",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

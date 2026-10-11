@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:03:39.666835+00:00",
+  "course": "acctg-420",
+  "subject": "ACCTG",
+  "courseNumber": 420,
+  "courseName": "Accounting and Culture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/Acctg/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Accounting and Culture</b>  Cultural differences and how they affect accounting practices and standards in a variety of countries. Not an accounting technical course.  ",
+        "coursePrerequisites": " ACCTG 230; admitted to a major or minor in the College of Business; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Bernard",
+            "lastName": "Wong-On-Wing",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:45.350865+00:00",
+  "course": "cpt-s-540",
+  "subject": "CPT_S",
+  "courseNumber": 540,
+  "courseName": "Artificial Intelligence",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Cpt%20S/540/1/false/true",
+      "response": {
+        "courseDescription": "<b>540 Artificial Intelligence</b>  An introduction to the field of artificial intelligence including heuristic search, knowledge representation, deduction, uncertainty reasoning, learning, and symbolic programming languages. Credit not granted for both CPT S 440 and CPT S 540.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Honghao",
+            "lastName": "Wei",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

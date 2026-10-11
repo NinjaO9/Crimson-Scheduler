@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:46:17.830405+00:00",
+  "course": "mus-580",
+  "subject": "MUS",
+  "courseNumber": 580,
+  "courseName": "Instrumental Music Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/580/1/false/true",
+      "response": {
+        "courseDescription": "<b>580 Instrumental Music Education</b>  Philosophies, administration, organization, materials and methods for instrumental music education K-12. Credit not granted for both MUS 480 and MUS 580.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Aaron",
+            "lastName": "Wacker",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

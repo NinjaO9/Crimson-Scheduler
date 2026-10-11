@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:27.192531+00:00",
+  "course": "tch-lrn-510",
+  "subject": "TCH_LRN",
+  "courseNumber": 510,
+  "courseName": "Foundations of Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/T%20%26%20L/510/1/false/true",
+      "response": {
+        "courseDescription": "<b>510 Foundations of Multilingual Education</b>  Theoretical foundations related to research and instructional strategies for effective schooling of language minority students. Credit not granted for TCH LRN 410 and 510.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eric",
+            "lastName": "Johnson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

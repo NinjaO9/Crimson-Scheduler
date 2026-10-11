@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:25.511189+00:00",
+  "course": "cpt-s-434",
+  "subject": "CPT_S",
+  "courseNumber": 434,
+  "courseName": "Neural Network Design and Application",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Cpt%20S/434/1/false/true",
+      "response": {
+        "courseDescription": "<b>434 Neural Network Design and Application</b>  Hands-on experience with neural network modeling of nonlinear phenomena; application to classification, forecasting, identification and control. Credit not granted for both CPT S 434 and CPT S 534.  ",
+        "coursePrerequisites": " CPT S 121, 131, or E E 221, with a C or better; STAT 360 with a C or better; admitted to a major or minor in EECS or Data Analytics, or major in Neuroscience.",
+        "instructors": [
+          {
+            "firstName": "Yan",
+            "lastName": "Yan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

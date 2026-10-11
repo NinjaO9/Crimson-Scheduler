@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:46.975911+00:00",
+  "course": "pubhlth-105",
+  "subject": "PUBHLTH",
+  "courseNumber": 105,
+  "courseName": "Professional Development in Public Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PUBHL/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Professional Development in Public Health</b>  Exploration of careers and professional skills in public health.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "McBride",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

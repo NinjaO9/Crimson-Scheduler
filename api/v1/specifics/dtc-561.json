@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:43:15.341640+00:00",
+  "course": "dtc-561",
+  "subject": "DTC",
+  "courseNumber": 561,
+  "courseName": "Studies in Technology and Culture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/DTC/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Studies in Technology and Culture</b>  Foundation examination of key concepts, tools, and possibilities afforded by engaging with technology through a critical cultural lens. (Crosslisted course offered as DTC 561, ENGLISH 561.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bibhushana",
+            "lastName": "Poudyal",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

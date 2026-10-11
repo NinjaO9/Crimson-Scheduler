@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:39.111557+00:00",
+  "course": "ce-435",
+  "subject": "CE",
+  "courseNumber": 435,
+  "courseName": "Foundations",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/435/1/false/true",
+      "response": {
+        "courseDescription": "<b>435 Foundations</b>  Site investigation; bearing capacity and settlement; shallow foundations, piles and piers; retaining walls. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 317 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "J. Antonio",
+            "lastName": "H. Carraro",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

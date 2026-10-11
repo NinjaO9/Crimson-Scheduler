@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:31:47.938259+00:00",
+  "course": "comjour-333",
+  "subject": "COMJOUR",
+  "courseNumber": 333,
+  "courseName": "Interviewing and Reporting for Modern Media",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/ComJo/333/1/false/true",
+      "response": {
+        "courseDescription": "<b>333 [M] Interviewing and Reporting for Modern Media</b>  Interviewing, writing, editing and reporting for news stories suitable for print and online publication as well as on-air presentation.  ",
+        "coursePrerequisites": " COM 210 with a C or better; COM 300 with a C or better; admitted to a major or minor in the College of Communication.",
+        "instructors": [
+          {
+            "firstName": "Alison",
+            "lastName": "Boggs",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

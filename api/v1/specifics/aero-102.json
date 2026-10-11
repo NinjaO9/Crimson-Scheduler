@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:05:09.572400+00:00",
+  "course": "aero-102",
+  "subject": "AERO",
+  "courseNumber": 102,
+  "courseName": "Heritage and Values II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Aero/102/1/false/true",
+      "response": {
+        "courseDescription": "<b>102 Heritage and Values II</b>  Survey course that introduces students to the Department of the Air Force and the Air Force Reserve Officer Training Corps (AFROTC); focuses on the mission and organization of the Air Force / Space Force, dress and appearance standards, military customs and courtesies, Air Force heritage and introduction to communication skills.  ",
+        "coursePrerequisites": " Concurrent enrollment in AERO 103 required.",
+        "instructors": [
+          {
+            "firstName": "Daniel",
+            "lastName": "Mack",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

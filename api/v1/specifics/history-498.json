@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:01.927174+00:00",
+  "course": "history-498",
+  "subject": "HISTORY",
+  "courseNumber": 498,
+  "courseName": "History Internship",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Fall/2026/Hist/498/1/false/true",
+      "response": {
+        "courseDescription": "<b>498 History Internship</b> May be repeated for credit; cumulative maximum 12 hours. Participation as an intern in public or private sectors. Credit not granted for both HISTORY 498 and HISTORY 598.  ",
+        "coursePrerequisites": " By department consent; admitted to the major or minor in History.",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Bauman",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Franklin",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Sabrina",
+            "lastName": "Gonzalez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:47.544201+00:00",
+  "course": "entom-210",
+  "subject": "ENTOM",
+  "courseNumber": 210,
+  "courseName": "Insects and Death: Exploring the Scientific Method Through Entomology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Entom/210/1/false/true",
+      "response": {
+        "courseDescription": "<b>210 Insects and Death: Exploring the Scientific Method Through Entomology</b>  Dive into the world of forensic entomology and learn how insects can help scientists solve crimes. The course covers insect biology, evidence collection, and scientific analysis with hands-on labs, case studies, and fieldwork.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Rae",
+            "lastName": "Olsson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

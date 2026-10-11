@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:46.908297+00:00",
+  "course": "stat-370",
+  "subject": "STAT",
+  "courseNumber": 370,
+  "courseName": "Introductory Statistics for Engineers",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Stat/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Introductory Statistics for Engineers</b>  Probability axioms, probability models, random variables, expectation, confidence intervals, hypothesis testing, analysis of variance, control charts. Credit not granted for both STAT 360 and 370.  ",
+        "coursePrerequisites": " MATH 140, 171, 202 or DATA 121 each with a C or better, or MATH 172 or 182.",
+        "instructors": [
+          {
+            "firstName": "Yin",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

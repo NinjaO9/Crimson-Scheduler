@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:16:19.775336+00:00",
+  "course": "socl-wrk-101",
+  "subject": "SOCL_WRK",
+  "courseNumber": 101,
+  "courseName": "Social Work as a Profession",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/SCLWR/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Social Work as a Profession</b>  Overview of the social work profession, academic degrees, licensure pathways, and career Opportunities. Explores the roles of social workers in addressing social problems such as child maltreatment, mental illness, school violence, and poverty.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amy",
+            "lastName": "Ashton-Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

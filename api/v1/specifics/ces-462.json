@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:48.069523+00:00",
+  "course": "ces-462",
+  "subject": "CES",
+  "courseNumber": 462,
+  "courseName": "Race, Justice, and Food Ecosystems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CES/462/1/false/true",
+      "response": {
+        "courseDescription": "<b>462 Race, Justice, and Food Ecosystems</b>  Examines racial inequalities and injustice alongside of movements of change, highlighting the importance of food in a modern world.  (Crosslisted course offered as AMER ST 472, CES 462, ENGLISH 472.)  ",
+        "coursePrerequisites": " Junior standing.",
+        "instructors": [
+          {
+            "firstName": "Hector",
+            "lastName": "Rendon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

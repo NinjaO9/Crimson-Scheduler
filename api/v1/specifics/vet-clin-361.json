@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:45.594251+00:00",
+  "course": "vet-clin-361",
+  "subject": "VET_CLIN",
+  "courseNumber": 361,
+  "courseName": "Agricultural Animal Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20MS/361/1/false/true",
+      "response": {
+        "courseDescription": "<b>361 Agricultural Animal Health</b>  Introduction to basic concepts of infectious, noninfectious, and parasitic diseases of animals of agricultural and public health importance.  ",
+        "coursePrerequisites": " One ANIM SCI or BIOLOGY course.",
+        "instructors": [
+          {
+            "firstName": "Alyssa",
+            "lastName": "Marre",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

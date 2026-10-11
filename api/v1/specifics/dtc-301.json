@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:41:58.673355+00:00",
+  "course": "dtc-301",
+  "subject": "DTC",
+  "courseNumber": 301,
+  "courseName": "Professional Preparation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 [M] Professional Preparation</b>  Development of materials and skills to prepare for entry into technology or media professions.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Vivienne",
+            "lastName": "Varay",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

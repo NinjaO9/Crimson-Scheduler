@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:34.396962+00:00",
+  "course": "ce-211",
+  "subject": "CE",
+  "courseNumber": 211,
+  "courseName": "Statics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/211/1/false/true",
+      "response": {
+        "courseDescription": "<b>211 Statics</b>  Engineering mechanics concepts; force systems; static equilibrium; centroids, centers of gravity; shear and moment diagrams; friction; moments of inertia. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " MATH 172, 182, or concurrent enrollment; 4 credits of PHYSICS 201, or PHYSICS 201 and 211 or concurrent enrollment, or PHYSICS 205 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Karl",
+            "lastName": "Olsen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

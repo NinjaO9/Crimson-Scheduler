@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:09.060133+00:00",
+  "course": "ed-ad-587",
+  "subject": "ED_AD",
+  "courseNumber": 587,
+  "courseName": "Seminar in School Administration",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/Ed%20Ad/587/1/false/true",
+      "response": {
+        "courseDescription": "<b>587 Seminar in School Administration</b> May be repeated for credit; cumulative maximum 6 hours. Interdisciplinary seminars; related studies; discussions in several areas by specialists.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Garn",
+            "lastName": "Christensen",
+            "isPrimary": true,
+            "tchEffort": 5
+          },
+          {
+            "firstName": "Michael",
+            "lastName": "Dunn",
+            "isPrimary": true,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "James",
+            "lastName": "Kowalkowski",
+            "isPrimary": true,
+            "tchEffort": 75
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

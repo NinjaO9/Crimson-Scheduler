@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:20.185997+00:00",
+  "course": "kines-390",
+  "subject": "KINES",
+  "courseNumber": 390,
+  "courseName": "Kinesiology Practicum or Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/390/1/false/true",
+      "response": {
+        "courseDescription": "<b>390 Kinesiology Practicum or Research</b>  Supervised practicum or research.  S, F grading. ",
+        "coursePrerequisites": " KINES 264 with a C or better; admitted to the major in Kinesiology.",
+        "instructors": [
+          {
+            "firstName": "Darryl",
+            "lastName": "Craig",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

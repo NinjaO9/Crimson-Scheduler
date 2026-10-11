@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:20.851833+00:00",
+  "course": "kines-413",
+  "subject": "KINES",
+  "courseNumber": 413,
+  "courseName": "Strength Training Practicum II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/413/1/false/true",
+      "response": {
+        "courseDescription": "<b>413 Strength Training Practicum II</b>  Clinical experience within the Strength and Conditioning minor, focusing on plyometrics and power techniques for clients needing alterations in workouts.  ",
+        "coursePrerequisites": " KINES 411 with a C or better; KINES 412 with a C or better; admitted to the Strength and Conditioning minor; current CPR/First Aid certification.",
+        "instructors": [
+          {
+            "firstName": "Lukas",
+            "lastName": "Krumpl",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

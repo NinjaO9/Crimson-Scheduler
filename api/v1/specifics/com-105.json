@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:49.813795+00:00",
+  "course": "com-105",
+  "subject": "COM",
+  "courseNumber": 105,
+  "courseName": "Communication in Global Contexts",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Communication in Global Contexts</b>  Communication processes and how they influence human behavior and construction of social reality across global contexts.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Gabriella",
+            "lastName": "Bedoyan",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Chedda",
+            "lastName": "Wilson",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Sultana",
+            "lastName": "Jahan",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

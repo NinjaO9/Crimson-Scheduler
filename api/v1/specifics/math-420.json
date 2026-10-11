@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:29.086556+00:00",
+  "course": "math-420",
+  "subject": "MATH",
+  "courseNumber": 420,
+  "courseName": "Linear Algebra",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/420/1/false/true",
+      "response": {
+        "courseDescription": "<b>420 Linear Algebra</b>  Vector spaces, linear transformations, diagonalizability, normal matrices, inner product spaces, orthogonality, orthogonal projections, least-squares, SVD.  ",
+        "coursePrerequisites": " MATH 220, 225, or 230, each with a C or better; MATH 301 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Seong Jun",
+            "lastName": "Park",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

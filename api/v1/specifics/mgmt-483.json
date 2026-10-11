@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:38:09.551916+00:00",
+  "course": "mgmt-483",
+  "subject": "MGMT",
+  "courseNumber": 483,
+  "courseName": "Management of Innovation and Change",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MGMT/483/1/false/true",
+      "response": {
+        "courseDescription": "<b>483 [M] Management of Innovation and Change</b>  Analysis of innovation and change theories in organizations; managing innovation in networks and teams; technology, structure, culture, and environment.  ",
+        "coursePrerequisites": " Admitted to a major or minor in the College of Business, major in Economic Sciences, Personnel Psychology & Human Resource Management option, or Biomedical Business option; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Gladstone",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

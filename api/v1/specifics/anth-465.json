@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:27.822229+00:00",
+  "course": "anth-465",
+  "subject": "ANTH",
+  "courseNumber": 465,
+  "courseName": "Human Evolution",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Anth/465/1/false/true",
+      "response": {
+        "courseDescription": "<b>465 Human Evolution</b>  Human origins in the light of the fossil record and evolutionary theory. Credit not granted for both ANTH 465 and ANTH 565. Recommended preparation: ANTH 260. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Edward",
+            "lastName": "Hagen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

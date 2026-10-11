@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:32:03.264794+00:00",
+  "course": "comjour-425",
+  "subject": "COMJOUR",
+  "courseNumber": 425,
+  "courseName": "Reporting of Public Affairs",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/ComJo/425/1/false/true",
+      "response": {
+        "courseDescription": "<b>425 [M] Reporting of Public Affairs</b>  Research covering public and private sectors.  ",
+        "coursePrerequisites": " COMJOUR 333; admitted to a major in the College of Communication; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Tracy",
+            "lastName": "Simmons",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

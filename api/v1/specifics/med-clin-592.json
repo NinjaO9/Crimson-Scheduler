@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:18.960727+00:00",
+  "course": "med-clin-592",
+  "subject": "MED_CLIN",
+  "courseNumber": 592,
+  "courseName": "Surgery - Plastic Surgery",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/MEDCL/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Surgery - Plastic Surgery</b> May be repeated for credit; cumulative maximum 12 hours. Introduction to the range of medical problems that plastic and reconstructive surgeons encounter.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524; 4-week rotations require Course Director permission.",
+        "instructors": [
+          {
+            "firstName": "Joseph",
+            "lastName": "Drosdeck",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

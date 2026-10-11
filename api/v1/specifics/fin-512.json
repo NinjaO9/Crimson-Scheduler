@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:05:08.588499+00:00",
+  "course": "fin-512",
+  "subject": "FIN",
+  "courseNumber": 512,
+  "courseName": "Econometrics II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Fin/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Econometrics II</b>  Econometric methods for systems estimation; simultaneous equations, discrete and limited dependent variable, panel data, and time series data. (Crosslisted course offered as ECONS 512, FIN 512.)  ",
+        "coursePrerequisites": " ECONS 501; ECONS 511.",
+        "instructors": [
+          {
+            "firstName": "Wesley",
+            "lastName": "Blundell",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

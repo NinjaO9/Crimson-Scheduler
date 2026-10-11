@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:14.262431+00:00",
+  "course": "agtm-310",
+  "subject": "AGTM",
+  "courseNumber": 310,
+  "courseName": "Small Engine Maintenance and Repair",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Small Engine Maintenance and Repair</b>  Safety, operation, maintenance, and troubleshooting engines; understanding of engine systems and components including compression, carburetion, cooling, fuel, and lubrication. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "J.D.",
+            "lastName": "Baser",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

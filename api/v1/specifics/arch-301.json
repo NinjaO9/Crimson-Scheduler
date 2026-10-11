@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:46.121836+00:00",
+  "course": "arch-301",
+  "subject": "ARCH",
+  "courseNumber": 301,
+  "courseName": "Architectural Design III",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Architectural Design III</b>  Introduction of architectural design focusing on environmental and social issues. Travel for site visit required.  ",
+        "coursePrerequisites": " ARCH 203 with C or better; MATH 108 with C or better, or 140, 171, 202, or 206, or a minimum ALEKS math score 75%; 4 cr of PHYSICS 101 with C or better, or PHYSICS 101 and 111 with C or better; admit to the major in Arch Studies.",
+        "instructors": [
+          {
+            "firstName": "Marti",
+            "lastName": "Cowan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

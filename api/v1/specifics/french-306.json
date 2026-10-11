@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:09.489284+00:00",
+  "course": "french-306",
+  "subject": "FRENCH",
+  "courseNumber": 306,
+  "courseName": "Intermediate Reading and Translation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Fren/306/1/false/true",
+      "response": {
+        "courseDescription": "<b>306 Intermediate Reading and Translation</b>  Vocabulary building, contrastive English-French expressions, development of skills to increase reading speed and fluency.  ",
+        "coursePrerequisites": " FRENCH 204 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Sabine",
+            "lastName": "Davis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:11.656067+00:00",
+  "course": "ed-psych-508",
+  "subject": "ED_PSYCH",
+  "courseNumber": 508,
+  "courseName": "Educational Statistics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/EdPsy/508/2/false/true",
+      "response": {
+        "courseDescription": "<b>508 Educational Statistics</b>  Introductory course for graduate students in applied statistics for the behavioral sciences. Recommended preparation: ED PSYCH 505. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Chad",
+            "lastName": "Gotch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

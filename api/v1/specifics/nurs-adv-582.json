@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:06.323323+00:00",
+  "course": "nurs-adv-582",
+  "subject": "NURS_ADV",
+  "courseNumber": 582,
+  "courseName": "PMHNP Internship",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NURAD/582/1/false/true",
+      "response": {
+        "courseDescription": "<b>582 PMHNP Internship</b>  A culminating internship focusing on the provision of comprehensive psychiatric mental health care to individuals and families across the lifespan.  ",
+        "coursePrerequisites": " NURS ADV 555 or admission to PMHNP program.",
+        "instructors": [
+          {
+            "firstName": "Deborah",
+            "lastName": "Eti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

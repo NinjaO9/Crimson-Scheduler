@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:16.007706+00:00",
+  "course": "crop-sci-512",
+  "subject": "CROP_SCI",
+  "courseNumber": 512,
+  "courseName": "Topics in Crop Science",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/CropS/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Topics in Crop Science</b> May be repeated for credit. Concepts of plant breeding, seed physiology, and technology; crop physiology and management.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Pete",
+            "lastName": "Jacoby",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

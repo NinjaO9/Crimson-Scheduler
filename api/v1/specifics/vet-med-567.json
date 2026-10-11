@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:55.273855+00:00",
+  "course": "vet-med-567",
+  "subject": "VET_MED",
+  "courseNumber": 567,
+  "courseName": "Applied Comparative Reproductive Physiology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/567/1/false/true",
+      "response": {
+        "courseDescription": "<b>567 Applied Comparative Reproductive Physiology</b>  Applied comparative reproduction physiology of domestic animals.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "M. Salman",
+            "lastName": "Waqas",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Michela",
+            "lastName": "Ciccarelli",
+            "isPrimary": false,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

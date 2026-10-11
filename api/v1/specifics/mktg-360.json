@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:14.308490+00:00",
+  "course": "mktg-360",
+  "subject": "MKTG",
+  "courseNumber": 360,
+  "courseName": "Marketing",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Mktg/360/1/false/true",
+      "response": {
+        "courseDescription": "<b>360 Marketing</b>  An introduction to the marketing process and the strategic managerial decisions that are made with regard to product, price, promotion, and distribution.  ",
+        "coursePrerequisites": "  Admitted to a major or minor in the College of Business, major in Data Analytics, or junior standing.",
+        "instructors": [
+          {
+            "firstName": "Uchila",
+            "lastName": "Umesh",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

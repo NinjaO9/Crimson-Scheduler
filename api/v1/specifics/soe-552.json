@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:11.322538+00:00",
+  "course": "soe-552",
+  "subject": "SOE",
+  "courseNumber": 552,
+  "courseName": "Analytical Methods in Earth Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/552/1/false/true",
+      "response": {
+        "courseDescription": "<b>552 Analytical Methods in Earth Sciences</b>  Theory, operation, and application of analytical techniques commonly applied in Earth and Material Sciences, specifically electron probe microanalysis (EPMA), X-ray fluorescence (XRF), inductively-coupled plasma mass spectrometry (ICP-MS) and X-ray powder diffraction (XRD). Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Boroughs",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

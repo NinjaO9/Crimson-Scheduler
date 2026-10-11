@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:18.786919+00:00",
+  "course": "nep-370",
+  "subject": "NEP",
+  "courseNumber": 370,
+  "courseName": "Concepts and Controversies in Health Science Research",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/370/1/false/true",
+      "response": {
+        "courseDescription": "<b>370 Concepts and Controversies in Health Science Research</b>  Overview of research and evaluation methods designed to answer questions in the health sciences; differentiating mainstream health literature and scientific work; investigating controversies in human subjects research including ethical concerns in data collection, analysis, and reporting.  ",
+        "coursePrerequisites": " STAT 212.",
+        "instructors": [
+          {
+            "firstName": "Martine",
+            "lastName": "Perrigue",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

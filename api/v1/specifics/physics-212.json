@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:14.181271+00:00",
+  "course": "physics-212",
+  "subject": "PHYSICS",
+  "courseNumber": 212,
+  "courseName": "Physics Lab for Scientists and Engineers II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/212/1/false/true",
+      "response": {
+        "courseDescription": "<b>212 Physics Lab for Scientists and Engineers II</b>  Calculus-based physics lab; topics in electricity, magnetism, electromagnetics, circuits, optics, reflection, refraction, interference, diffraction, polarization; heavy emphasis on group work.  ",
+        "coursePrerequisites": " PHYSICS 202 or concurrent enrollment; PHYSICS 201 with a C or better or PHYSICS 205 with a C or better; MATH 172 with a C or better or MATH 182 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Pierson",
+            "isPrimary": true,
+            "tchEffort": 95
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

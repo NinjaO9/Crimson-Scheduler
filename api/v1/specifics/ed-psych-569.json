@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:12.292727+00:00",
+  "course": "ed-psych-569",
+  "subject": "ED_PSYCH",
+  "courseNumber": 569,
+  "courseName": "Seminar in Quantitative Techniques in Education",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/EdPsy/569/1/false/true",
+      "response": {
+        "courseDescription": "<b>569 Seminar in Quantitative Techniques in Education</b> May be repeated for credit; cumulative maximum 6 hours. Application of parametric and nonparametric statistics, data processing using computer packages in educational research.  ",
+        "coursePrerequisites": " ED RES 565.",
+        "instructors": [
+          {
+            "firstName": "Shenghai",
+            "lastName": "Dai",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:41:12.912373+00:00",
+  "course": "mit-535",
+  "subject": "MIT",
+  "courseNumber": 535,
+  "courseName": "Integrating Fine Arts into K-8 Curriculum",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/MIT/535/1/false/true",
+      "response": {
+        "courseDescription": "<b>535 Integrating Fine Arts into K-8 Curriculum</b>  Integrating Fine Arts (art, music, dance, drama) into K-8 curriculum; curriculum design and methods.  ",
+        "coursePrerequisites": " Admission to MIT Program.",
+        "instructors": [
+          {
+            "firstName": "Kristin",
+            "lastName": "Courtney",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

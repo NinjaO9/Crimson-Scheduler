@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:06.162165+00:00",
+  "course": "nurs-adv-581",
+  "subject": "NURS_ADV",
+  "courseNumber": 581,
+  "courseName": "Advanced Pathophysiology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/581/1/false/true",
+      "response": {
+        "courseDescription": "<b>581 Advanced Pathophysiology</b>  Etiology, pathogenesis, manifestations, and outcomes of disruption and dysfunction of human physiology.  ",
+        "coursePrerequisites": " Admission to Nursing graduate program.",
+        "instructors": [
+          {
+            "firstName": "Fionnuala",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

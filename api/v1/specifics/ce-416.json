@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:37.748938+00:00",
+  "course": "ce-416",
+  "subject": "CE",
+  "courseNumber": 416,
+  "courseName": "Hydraulic Engineering Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/416/1/false/true",
+      "response": {
+        "courseDescription": "<b>416 Hydraulic Engineering Laboratory</b>  Experiments related to fluid flow principles and their application to hydraulic engineering. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 315; STAT 360 or concurrent enrollment or STAT 370 or concurrent enrollment; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Sasha",
+            "lastName": "McLarty",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

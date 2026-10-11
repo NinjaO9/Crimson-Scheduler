@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:02.674361+00:00",
+  "course": "e-mic-586",
+  "subject": "E_MIC",
+  "courseNumber": 586,
+  "courseName": "Special Projects in Electron Microscopy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/E%20Mic/586/1/false/true",
+      "response": {
+        "courseDescription": "<b>586 Special Projects in Electron Microscopy</b> May be repeated for credit. Practical training in one or more areas of electron microscopy; TEM, SEM, ultramicrotomy, specimen processing; confocal fluorescent microscopy. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Knoblauch",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

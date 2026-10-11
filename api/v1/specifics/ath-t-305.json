@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:53.351604+00:00",
+  "course": "ath-t-305",
+  "subject": "ATH_T",
+  "courseNumber": 305,
+  "courseName": "Nutrition Related to Fitness and Sport",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/305/1/false/true",
+      "response": {
+        "courseDescription": "<b>305 Nutrition Related to Fitness and Sport</b>  Current and evidence-based knowledge regarding the application and compliance of sound nutritional and diet considerations within special active populations. (Crosslisted course offered as KINES 305, ATH T 305.)  ",
+        "coursePrerequisites": " BIOLOGY 140 with a C or better, or 333 with a C or better; admitted to the major in Kinesiology or Sports Medicine.",
+        "instructors": [
+          {
+            "firstName": "Dana",
+            "lastName": "Kujala",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

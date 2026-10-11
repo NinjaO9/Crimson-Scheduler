@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:36.175190+00:00",
+  "course": "amdt-518",
+  "subject": "AMDT",
+  "courseNumber": 518,
+  "courseName": "Apparel Merchandising Analysis",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/518/1/false/true",
+      "response": {
+        "courseDescription": "<b>518 Apparel Merchandising Analysis</b>  Analysis of marketing and retailing strategies, trends and technological developments in relation to business and consumer aspects within a global context.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Min Jung",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

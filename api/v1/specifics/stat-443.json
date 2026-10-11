@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:02.244955+00:00",
+  "course": "stat-443",
+  "subject": "STAT",
+  "courseNumber": 443,
+  "courseName": "Applied Probability",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Stat/443/1/false/true",
+      "response": {
+        "courseDescription": "<b>443 Applied Probability</b>  Axioms of probability theory; random variables; expectation; generating function; law of large numbers; central limit theorem; Markov chains.  ",
+        "coursePrerequisites": " MATH 172 or MATH 182; MATH 220, MATH 225, or MATH 230.",
+        "instructors": [
+          {
+            "firstName": "Xueying",
+            "lastName": "Wang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

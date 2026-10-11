@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:39.794479+00:00",
+  "course": "ce-456",
+  "subject": "CE",
+  "courseNumber": 456,
+  "courseName": "Sustainable Development in Water Resources",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/456/1/false/true",
+      "response": {
+        "courseDescription": "<b>456 Sustainable Development in Water Resources</b>  Sources of freshwater in Pacific Northwest; water demands; climate change impacts on water availability; approaches for developing sustainable water yield.  ",
+        "coursePrerequisites": " CE 351 with a C or better; E E 221 or CE 321; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Sasha",
+            "lastName": "McLarty",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

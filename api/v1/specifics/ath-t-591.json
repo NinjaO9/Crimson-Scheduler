@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:15:55.148794+00:00",
+  "course": "ath-t-591",
+  "subject": "ATH_T",
+  "courseNumber": 591,
+  "courseName": "Athletic Training Clinical Internship I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ath%20T/591/2/false/true",
+      "response": {
+        "courseDescription": "<b>591 Athletic Training Clinical Internship I</b> May be repeated for credit; cumulative maximum 4 hours. Beginning techniques in management of sport injury/illness under supervision.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "SeokJae",
+            "lastName": "Choe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

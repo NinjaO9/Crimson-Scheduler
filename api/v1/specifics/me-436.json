@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:29.509324+00:00",
+  "course": "me-436",
+  "subject": "ME",
+  "courseNumber": 436,
+  "courseName": "Combustion Engines",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/436/1/false/true",
+      "response": {
+        "courseDescription": "<b>436 Combustion Engines</b>  Internal combustion engines; spark ignition engines, diesels, and gas turbines.  ",
+        "coursePrerequisites": " ME 301; ME 303.",
+        "instructors": [
+          {
+            "firstName": "Jacob",
+            "lastName": "Leachman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

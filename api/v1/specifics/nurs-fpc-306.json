@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:07.450533+00:00",
+  "course": "nurs-fpc-306",
+  "subject": "NURS_FPC",
+  "courseNumber": 306,
+  "courseName": "Professional Development I: Contexts of Care",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/306/1/false/true",
+      "response": {
+        "courseDescription": "<b>306 [M] Professional Development I: Contexts of Care</b>  First of the professional development series; introduction to the various contexts that guide care, including the nurse, the patient, and the health care system.  ",
+        "coursePrerequisites": "  Admitted to the major in Nursing.",
+        "instructors": [
+          {
+            "firstName": "Denise",
+            "lastName": "Smart",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Melissa",
+            "lastName": "Vera",
+            "isPrimary": true,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Joni",
+            "lastName": "Shaw",
+            "isPrimary": true,
+            "tchEffort": 40
+          },
+          {
+            "firstName": "Kelsey",
+            "lastName": "Pascoe",
+            "isPrimary": true,
+            "tchEffort": 40
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

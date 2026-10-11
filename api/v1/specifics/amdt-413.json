@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:19.458910+00:00",
+  "course": "amdt-413",
+  "subject": "AMDT",
+  "courseNumber": 413,
+  "courseName": "Global Sourcing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/AMT/413/1/false/true",
+      "response": {
+        "courseDescription": "<b>413 [M] Global Sourcing</b>  Knowledge, skills, and effective solutions for textile and apparel sourcing in a global context.  ",
+        "coursePrerequisites": " ADMT 307; ADMT 318; admitted to the major in Apparel, Merchandising, Design, and Textiles; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Yini",
+            "lastName": "Chen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

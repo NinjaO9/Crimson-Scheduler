@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:39.636642+00:00",
+  "course": "ce-451",
+  "subject": "CE",
+  "courseNumber": 451,
+  "courseName": "Open Channel Flow",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/C%20E/451/1/false/true",
+      "response": {
+        "courseDescription": "<b>451 Open Channel Flow</b>  Steady, non-uniform flow; controls and transitions in fixed-bed channels. Credit not granted for both CE 451 and CE 551. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 351 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Timothy",
+            "lastName": "Ginn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

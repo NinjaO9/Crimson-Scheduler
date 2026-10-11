@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:55:17.198393+00:00",
+  "course": "econs-502",
+  "subject": "ECONS",
+  "courseNumber": 502,
+  "courseName": "Macroeconomic Theory II",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/502/1/false/true",
+      "response": {
+        "courseDescription": "<b>502 Macroeconomic Theory II</b>  Macroeconomic theory, short-run fluctuations and nominal rigidities, monetary economics and inflation, real business cycle models, unemployment international macroeconomics. (Crosslisted course offered as ECONS 502, FIN 502.)  ",
+        "coursePrerequisites": " ECONS 500.",
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Gibson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

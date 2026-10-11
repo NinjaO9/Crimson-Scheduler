@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:54.820192+00:00",
+  "course": "mus-482",
+  "subject": "MUS",
+  "courseNumber": 482,
+  "courseName": "Instrumental Conducting",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/482/1/false/true",
+      "response": {
+        "courseDescription": "<b>482 Instrumental Conducting</b>  Techniques and patterns in conducting as applied to orchestra and band literature; score preparation and rehearsal techniques for instrumental ensembles.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Danh",
+            "lastName": "Pham",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Jon",
+            "lastName": "Sweet",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

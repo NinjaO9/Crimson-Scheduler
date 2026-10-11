@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:17.378883+00:00",
+  "course": "stat-511",
+  "subject": "STAT",
+  "courseNumber": 511,
+  "courseName": "Statistical Methods for Graduate Researchers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Stat/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Statistical Methods for Graduate Researchers</b>  Fundamentals of experimental design and statistical methods for graduate students in the sciences. Covers t-test for one and two means, ANOVA through completely randomized designs with one and two factors, chi-square tests and regression analysis using R. Recommended preparation: One prior course in statistics. Cannot be used for credit in the Department of Mathematics and Statistics graduate programs. (Crosslisted course offered as STAT 511, AFS 511.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Syed",
+            "lastName": "Shah",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

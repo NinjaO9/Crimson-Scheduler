@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:22.004340+00:00",
+  "course": "soe-430",
+  "subject": "SOE",
+  "courseNumber": 430,
+  "courseName": "Introduction to Wildland Fire",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/430/1/false/true",
+      "response": {
+        "courseDescription": "<b>430 Introduction to Wildland Fire</b>  Physical nature and behavior of wildland fire; the fire environment; fire ecology; practice of wildland fire management. Field trip required.  ",
+        "coursePrerequisites": " SOE 300 or BIOLOGY 372; SOE 301.",
+        "instructors": [
+          {
+            "firstName": "Keenan",
+            "lastName": "Stears",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

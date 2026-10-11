@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:19.540884+00:00",
+  "course": "stat-577",
+  "subject": "STAT",
+  "courseNumber": 577,
+  "courseName": "Statistical Learning Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Stat/577/1/false/true",
+      "response": {
+        "courseDescription": "<b>577 Statistical Learning Theory</b>  Focus on learning and interpreting from data; both prediction and classification will be discussed for supervised and unsupervised learning.  ",
+        "coursePrerequisites": " STAT 536.",
+        "instructors": [
+          {
+            "firstName": "Abhishek",
+            "lastName": "Kaul",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

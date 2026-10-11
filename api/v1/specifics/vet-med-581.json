@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:57.378241+00:00",
+  "course": "vet-med-581",
+  "subject": "VET_MED",
+  "courseNumber": 581,
+  "courseName": "Agricultural Animal Problems Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/V%20M/581/1/false/true",
+      "response": {
+        "courseDescription": "<b>581 Agricultural Animal Problems Seminar</b> May be repeated for credit; cumulative maximum 6 hours. Investigation of current herd problems and evaluation of emerging animal agricultural issues.  S, M, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Caio",
+            "lastName": "Figueiredo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

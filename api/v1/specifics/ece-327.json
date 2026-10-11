@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:04.277507+00:00",
+  "course": "ece-327",
+  "subject": "ECE",
+  "courseNumber": 327,
+  "courseName": "Introduction to Power Electronics",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/327/1/false/true",
+      "response": {
+        "courseDescription": "<b>327 Introduction to Power Electronics</b>  Power semiconductors, high-frequency magnetics, and their application to switch-mode power converters, electric motor drives, and utility systems.  ",
+        "coursePrerequisites": " ECE 321; ECE 325.",
+        "instructors": [
+          {
+            "firstName": "Hang",
+            "lastName": "Gao",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

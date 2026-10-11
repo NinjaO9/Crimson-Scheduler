@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:34.924540+00:00",
+  "course": "nep-476",
+  "subject": "NEP",
+  "courseNumber": 476,
+  "courseName": "Exercise Testing and Prescription",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/NEP/476/1/false/true",
+      "response": {
+        "courseDescription": "<b>476 Exercise Testing and Prescription</b>  Principles of exercise testing and prescription based on current practices in physical education, physiology, and rehabilitation.  ",
+        "coursePrerequisites": " NEP 320; NEP 463; admitted to the major in Nutrition and Exercise Physiology.",
+        "instructors": [
+          {
+            "firstName": "Catherine",
+            "lastName": "Jarrett",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

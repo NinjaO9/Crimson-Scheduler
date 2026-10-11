@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:45.208678+00:00",
+  "course": "psych-550",
+  "subject": "PSYCH",
+  "courseNumber": 550,
+  "courseName": "Social Psychology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/550/1/false/true",
+      "response": {
+        "courseDescription": "<b>550 Social Psychology</b>  Attitude structure, function, and change; social cognition and motivation, and attributions. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Elizabeth",
+            "lastName": "Canning",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

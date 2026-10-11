@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:53.081837+00:00",
+  "course": "vet-med-547",
+  "subject": "VET_MED",
+  "courseNumber": 547,
+  "courseName": "Diagnostic Challenge",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/547/1/false/true",
+      "response": {
+        "courseDescription": "<b>547 Diagnostic Challenge</b>  A series of experiential exercises culminating in 2-week simulation exercises in the fall of year 2 of the professional curriculum in week 8 and week 12 or 13.  S, M, F grading. ",
+        "coursePrerequisites": " Completion of first two semesters of the veterinary professional.",
+        "instructors": [
+          {
+            "firstName": "Rachel Marie",
+            "lastName": "Halsey",
+            "isPrimary": true,
+            "tchEffort": 20
+          },
+          {
+            "firstName": "Jeff",
+            "lastName": "Abbott",
+            "isPrimary": false,
+            "tchEffort": 70
+          },
+          {
+            "firstName": "Carson",
+            "lastName": "Benzinger",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Jordan",
+            "lastName": "Cassidy",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

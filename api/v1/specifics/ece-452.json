@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:05.779177+00:00",
+  "course": "ece-452",
+  "subject": "ECE",
+  "courseNumber": 452,
+  "courseName": "Capstone Design II",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/ECE/452/1/false/true",
+      "response": {
+        "courseDescription": "<b>452 [M] Capstone Design II</b>  Execution phase of the senior design project course sequence; independent or team project proposed in ECE 451 is designed and implemented.  ",
+        "coursePrerequisites": " ECE 451; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Praveen",
+            "lastName": "Sekhar",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

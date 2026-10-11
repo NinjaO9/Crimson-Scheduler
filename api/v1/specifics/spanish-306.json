@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:17.269809+00:00",
+  "course": "spanish-306",
+  "subject": "SPANISH",
+  "courseNumber": 306,
+  "courseName": "Intermediate Reading and Translation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/306/1/false/true",
+      "response": {
+        "courseDescription": "<b>306 Intermediate Reading and Translation</b>  Vocabulary building, contrastive English-Spanish expressions, development of skills to increase reading speed and fluency.  ",
+        "coursePrerequisites": " SPANISH 204 with a C or better, SPANISH 208 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Hubert",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

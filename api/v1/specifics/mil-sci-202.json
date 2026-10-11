@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:39:11.018296+00:00",
+  "course": "mil-sci-202",
+  "subject": "MIL_SCI",
+  "courseNumber": 202,
+  "courseName": "The Officer as a Professional",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mil%20S/202/1/false/true",
+      "response": {
+        "courseDescription": "<b>202 The Officer as a Professional</b>  U.S. Army Officer Corps as a profession; the U.S. Army Officer as a professional.  ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

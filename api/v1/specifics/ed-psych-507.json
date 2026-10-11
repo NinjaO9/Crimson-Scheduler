@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:56:11.485729+00:00",
+  "course": "ed-psych-507",
+  "subject": "ED_PSYCH",
+  "courseNumber": 507,
+  "courseName": "Introduction to Qualitative Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/EdPsy/507/1/false/true",
+      "response": {
+        "courseDescription": "<b>507 Introduction to Qualitative Research</b>  Introductory qualitative course for graduate students in behavioral sciences interested in diverse social and cultural contexts; prepares students for advanced qualitative track, ED PSYCH 564/ED RES 564.  Recommended preparation: ED PSYCH 505.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Morgan",
+            "lastName": "Jernigan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

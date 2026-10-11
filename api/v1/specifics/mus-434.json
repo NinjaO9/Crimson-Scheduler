@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:44:51.252107+00:00",
+  "course": "mus-434",
+  "subject": "MUS",
+  "courseNumber": 434,
+  "courseName": "Symphony Orchestra",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/434/1/false/true",
+      "response": {
+        "courseDescription": "<b>434 Symphony Orchestra</b> May be repeated for credit. Study, rehearse, perform and review original works and transcriptions for symphony orchestra; public performance each semester.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Danh",
+            "lastName": "Pham",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

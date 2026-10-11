@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:40.409722+00:00",
+  "course": "ce-464",
+  "subject": "CE",
+  "courseNumber": 464,
+  "courseName": "Integrated Civil Engineering Design I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/464/2/false/true",
+      "response": {
+        "courseDescription": "<b>464 Integrated Civil Engineering Design I</b>  Civil engineering applications to planning and preliminary design; problem synthesis, data analysis, considering ethical, social, environmental and economic impacts, analyzing risk potential, decision making and reporting; planning and scoping of projects that include local and world-wide problems through interdisciplinary teams. The first course in the two part capstone series.  ",
+        "coursePrerequisites": " Department consent; admitted to the major in Civil Engineering; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Jesse",
+            "lastName": "Weaver",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

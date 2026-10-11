@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:21.062241+00:00",
+  "course": "cpt-s-260",
+  "subject": "CPT_S",
+  "courseNumber": 260,
+  "courseName": "Introduction to Computer Architecture",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Summer/2026/Cpt%20S/260/1/false/true",
+      "response": {
+        "courseDescription": "<b>260 Introduction to Computer Architecture</b>  Computer systems architecture; logic, data representation, assembly language, memory organization and trends.  ",
+        "coursePrerequisites": " CPT S 223 with a C or better or concurrent enrollment, or CPT S 233 with a C or better or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Ananth",
+            "lastName": "Jillepalli",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

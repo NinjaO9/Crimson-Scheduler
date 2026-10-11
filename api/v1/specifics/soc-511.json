@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:15:34.185420+00:00",
+  "course": "soc-511",
+  "subject": "SOC",
+  "courseNumber": 511,
+  "courseName": "Data Management and Visualization",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Soc/511/1/false/true",
+      "response": {
+        "courseDescription": "<b>511 Data Management and Visualization</b> May be repeated for credit; cumulative maximum 6 hours. Core concepts and procedures regularly used in the quantitative analysis and visualization of sociological data.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Thomas",
+            "lastName": "Rotolo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

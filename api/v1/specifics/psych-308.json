@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:56:36.956981+00:00",
+  "course": "psych-308",
+  "subject": "PSYCH",
+  "courseNumber": 308,
+  "courseName": "Organizational Psychology",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/Psych/308/1/false/true",
+      "response": {
+        "courseDescription": "<b>308 Organizational Psychology</b>  Employee motivation satisfaction and commitment; organizational communication; leadership; group behavior, teams and conflict; organizational change and development. Recommended preparation: PSYCH 105.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Melissa",
+            "lastName": "Jenkins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

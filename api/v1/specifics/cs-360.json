@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:18.489992+00:00",
+  "course": "cs-360",
+  "subject": "CS",
+  "courseNumber": 360,
+  "courseName": "Systems Programming",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/CS/360/1/false/true",
+      "response": {
+        "courseDescription": "<b>360 Systems Programming</b>  Implementation of systems programs, concepts of computer operating systems; laboratory experience in using operating system facilities.  ",
+        "coursePrerequisites": " CS 122 with a C or better; CS 261 with a C or better, or ECE 234 with a\nC or better.",
+        "instructors": [
+          {
+            "firstName": "Ben",
+            "lastName": "McCamish",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

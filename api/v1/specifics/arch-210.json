@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:45.792722+00:00",
+  "course": "arch-210",
+  "subject": "ARCH",
+  "courseNumber": 210,
+  "courseName": "Digital Analysis and Representation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/210/1/false/true",
+      "response": {
+        "courseDescription": "<b>210 Digital Analysis and Representation</b>  Introduction to analysis and representation with a focus on the use of digital tools.  ",
+        "coursePrerequisites": " Admitted to the major in Architectural Studies.",
+        "instructors": [
+          {
+            "firstName": "Maryam",
+            "lastName": "Mansoori",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

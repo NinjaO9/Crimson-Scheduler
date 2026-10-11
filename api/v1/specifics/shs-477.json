@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:01.610196+00:00",
+  "course": "shs-477",
+  "subject": "SHS",
+  "courseNumber": 477,
+  "courseName": "Aural Rehabilitation",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/477/1/false/true",
+      "response": {
+        "courseDescription": "<b>477 Aural Rehabilitation</b>  Theories and methods in aural rehabilitation for persons who are hard of hearing; amplification; educational audiology; counseling techniques.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Betty",
+            "lastName": "Gilchrist",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

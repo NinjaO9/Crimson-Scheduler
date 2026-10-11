@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:25.307286+00:00",
+  "course": "pharmeds-444",
+  "subject": "PHARMEDS",
+  "courseNumber": 444,
+  "courseName": "Toxicology: Assessing Drug Side Effects",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/444/1/false/true",
+      "response": {
+        "courseDescription": "<b>444 Toxicology: Assessing Drug Side Effects</b>  Introduction to toxicology, with an emphasis on the side effects of drugs used to treat human disease.  Credit not granted for both PHARMEDS 444 and PHARMEDS 544.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Zhaokang",
+            "lastName": "Cheng",
+            "isPrimary": true,
+            "tchEffort": 15
+          },
+          {
+            "firstName": "John",
+            "lastName": "Clarke",
+            "isPrimary": true,
+            "tchEffort": 17
+          },
+          {
+            "firstName": "Ayesha",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 68
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

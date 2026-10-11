@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:28:53.633049+00:00",
+  "course": "vet-med-553",
+  "subject": "VET_MED",
+  "courseNumber": 553,
+  "courseName": "Small Animal Surgical Diseases and Traumatology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/553/1/false/true",
+      "response": {
+        "courseDescription": "<b>553 Small Animal Surgical Diseases and Traumatology</b>  Diagnosis and medical management of small animal patients with surgical conditions, including determining if/when surgery is indicated.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Bonnie",
+            "lastName": "Campbell",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Bettina",
+            "lastName": "Darveshi",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Boel",
+            "lastName": "Fransson",
+            "isPrimary": false,
+            "tchEffort": 0
+          },
+          {
+            "firstName": "Natasha",
+            "lastName": "Hottmann",
+            "isPrimary": false,
+            "tchEffort": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:10.889527+00:00",
+  "course": "mus-252",
+  "subject": "MUS",
+  "courseNumber": 252,
+  "courseName": "Applied Theory I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/252/1/false/true",
+      "response": {
+        "courseDescription": "<b>252 Applied Theory I</b>  By examination. Ear training, conducting, rhythmic reading, sight singing, keyboard, dictation.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ruth",
+            "lastName": "Boden",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:25.701086+00:00",
+  "course": "cpt-s-437",
+  "subject": "CPT_S",
+  "courseNumber": 437,
+  "courseName": "Introduction to Machine Learning",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Cpt%20S/437/1/false/true",
+      "response": {
+        "courseDescription": "<b>437 Introduction to Machine Learning</b>  Topics in machine learning including linear models for regression and classification, generative models, support vector machines and kernel methods, neural networks and deep learning, decision trees, unsupervised learning, and dimension reduction. Recommended preparation: E E 221; linear algebra; multivariate calculus; probability and statistics.  ",
+        "coursePrerequisites": " CPT S 215, 223, or 233, with a C or better; admitted to a major or minor in EECS or Data Analytics.",
+        "instructors": [
+          {
+            "firstName": "Honghao",
+            "lastName": "Wei",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

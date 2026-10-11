@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:01.889867+00:00",
+  "course": "vet-med-628",
+  "subject": "VET_MED",
+  "courseNumber": 628,
+  "courseName": "Equine Surgery Clinical Rotation",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/628/1/false/true",
+      "response": {
+        "courseDescription": "<b>628 Equine Surgery Clinical Rotation</b>  Required rotation through the Equine Surgery Services of the Veterinary Teaching Hospital.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Kelly",
+            "lastName": "Farnsworth",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

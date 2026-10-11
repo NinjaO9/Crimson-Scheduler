@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:25.871897+00:00",
+  "course": "tch-lrn-469",
+  "subject": "TCH_LRN",
+  "courseNumber": 469,
+  "courseName": "Pre-Internship for Secondary Teachers",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/469/1/false/true",
+      "response": {
+        "courseDescription": "<b>469 Pre-Internship for Secondary Teachers</b>  Field experience with classroom observation and teaching prior to student teaching; weekly seminar included.  S, F grading. ",
+        "coursePrerequisites": " TCH LRN 317.",
+        "instructors": [
+          {
+            "firstName": "Amir",
+            "lastName": "Gilmore",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

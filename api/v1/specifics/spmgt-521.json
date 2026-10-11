@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:16.638779+00:00",
+  "course": "spmgt-521",
+  "subject": "SPMGT",
+  "courseNumber": 521,
+  "courseName": "Special Topics in Sport Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/521/1/false/true",
+      "response": {
+        "courseDescription": "<b>521 Special Topics in Sport Management</b> May be repeated for credit; cumulative maximum 6 hours. Recent research, developments, issues, and /or applications in selected areas of Sport Management.  ",
+        "coursePrerequisites": " Admission to the Sport Management Graduate program.",
+        "instructors": [
+          {
+            "firstName": "Nick",
+            "lastName": "Garner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

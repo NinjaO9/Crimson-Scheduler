@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:33.228985+00:00",
+  "course": "bsyse-597",
+  "subject": "BSYSE",
+  "courseNumber": 597,
+  "courseName": "Biomass Biological Process Engineering",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/BSysE/597/1/false/true",
+      "response": {
+        "courseDescription": "<b>597 Biomass Biological Process Engineering</b>  Technical issues in the biological process engineering field, commercial application and evaluation of new technologies in resource, environment and economic contexts.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Bin",
+            "lastName": "Yang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

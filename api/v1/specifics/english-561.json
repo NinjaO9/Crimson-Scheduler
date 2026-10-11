@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:03:14.545805+00:00",
+  "course": "english-561",
+  "subject": "ENGLISH",
+  "courseNumber": 561,
+  "courseName": "Studies in Technology and Culture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/561/1/false/true",
+      "response": {
+        "courseDescription": "<b>561 Studies in Technology and Culture</b>  Foundation examination of key concepts, tools, and possibilities afforded by engaging with technology through a critical cultural lens. (Crosslisted course offered as DTC 561, ENGLISH 561.)  ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

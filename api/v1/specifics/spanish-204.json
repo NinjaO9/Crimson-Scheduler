@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:21:16.499380+00:00",
+  "course": "spanish-204",
+  "subject": "SPANISH",
+  "courseNumber": 204,
+  "courseName": "Fourth Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Span/204/1/false/true",
+      "response": {
+        "courseDescription": "<b>204 Fourth Semester</b>  Continued practice in spoken and written language; selected texts in a cultural context. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " SPANISH 203 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Rae",
+            "lastName": "Wyse",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:16:51.731953+00:00",
+  "course": "hbm-497",
+  "subject": "HBM",
+  "courseNumber": 497,
+  "courseName": "Special Topics",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Everett",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/HBM/497/5/false/true",
+      "response": {
+        "courseDescription": "<b>497 Special Topics</b> May be repeated for credit; cumulative maximum 9 hours. Topics of special interest within the area of hotel and restaurant administration.  ",
+        "coursePrerequisites": " ACCTG 220, 230, or 298; admitted to a major in the College of Business or minor in Hospitality Business Management.",
+        "instructors": [
+          {
+            "firstName": "Soobin",
+            "lastName": "Seo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:25.830102+00:00",
+  "course": "phil-234",
+  "subject": "PHIL",
+  "courseNumber": 234,
+  "courseName": "Peace, Justice, and Human Rights",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/234/1/false/true",
+      "response": {
+        "courseDescription": "<b>234 Peace, Justice, and Human Rights</b>  Approaches of political science and philosophy to the study of peace, justice, and human rights, and practical applications of these approaches. (Crosslisted course offered as POL S 234, PHIL 234.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Noll",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

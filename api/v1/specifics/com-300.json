@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:27:19.808141+00:00",
+  "course": "com-300",
+  "subject": "COM",
+  "courseNumber": 300,
+  "courseName": "Writing in Communication",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/Com/300/4/false/true",
+      "response": {
+        "courseDescription": "<b>300 [M] Writing in Communication</b>  Writing for a variety of communication professions, including advertising, broadcasting, print journalism, public relations, and science communication.  ",
+        "coursePrerequisites": " COM 101; COM 102; COM 105; COM 138; admitted to a major or minor in the College of Communication; sophomore standing; cumulative GPA of a 2.70 or higher.",
+        "instructors": [
+          {
+            "firstName": "Celia",
+            "lastName": "Wu",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

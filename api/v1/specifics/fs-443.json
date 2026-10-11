@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:41.314107+00:00",
+  "course": "fs-443",
+  "subject": "FS",
+  "courseNumber": 443,
+  "courseName": "Food Processing Lab",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/443/1/false/true",
+      "response": {
+        "courseDescription": "<b>443 [M] Food Processing Lab</b>  Application of specialized techniques, concepts and practices of food processing.  Field trip required. (Formerly FS 302.) Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " Concurrent enrollment with FS 442.",
+        "instructors": [
+          {
+            "firstName": "Youngsoo",
+            "lastName": "Lee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

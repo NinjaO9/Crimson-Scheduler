@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:47:54.278344+00:00",
+  "course": "neurosci-201",
+  "subject": "NEUROSCI",
+  "courseNumber": 201,
+  "courseName": "Introduction to Communication in the Molecular Life Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Neuro/201/1/true/true",
+      "response": {
+        "courseDescription": "<b>201 Introduction to Communication in the Molecular Life Sciences</b>  Analysis of primary literature and an introduction to scientific communication skills in the molecular life sciences. Recommended preparation: Pre-admitted or admitted major in Biochemistry, Genetics &amp; Cell Biology, Microbiology, or Neuroscience. (Crosslisted course offered as NEUROSCI 201, MBIOS 201.)  ",
+        "coursePrerequisites": " BIOLOGY 106 with a C or better or BIOLOGY 107 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "McBride",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:12.150087+00:00",
+  "course": "vit-enol-490",
+  "subject": "VIT_ENOL",
+  "courseNumber": 490,
+  "courseName": "Seminar in Viticulture and Enology",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/V%20E/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Seminar in Viticulture and Enology</b> May be repeated for credit; cumulative maximum 2 hours. Current topics in viticulture and enology; designed to enhance student educational pathways and career goals.  S, F grading. ",
+        "coursePrerequisites": " VIT ENOL 113; VIT ENOL 280.",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Coleman",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

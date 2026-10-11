@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:04.782525+00:00",
+  "course": "vet-med-675",
+  "subject": "VET_MED",
+  "courseNumber": 675,
+  "courseName": "Emergency and Critical Care",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20M/675/1/false/true",
+      "response": {
+        "courseDescription": "<b>675 Emergency and Critical Care</b>  Required rotation for all students through the large animal emergency and critical care unit.  S, M, F grading. ",
+        "coursePrerequisites": "  Veterinary Medicine student.",
+        "instructors": [
+          {
+            "firstName": "Kelly",
+            "lastName": "Farnsworth",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Nicholas",
+            "lastName": "Hall",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

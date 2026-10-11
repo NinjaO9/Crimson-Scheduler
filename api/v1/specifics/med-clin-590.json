@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:36:18.594273+00:00",
+  "course": "med-clin-590",
+  "subject": "MED_CLIN",
+  "courseNumber": 590,
+  "courseName": "Science - Medical Education",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/MEDCL/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Science - Medical Education</b> May be repeated for credit; cumulative maximum 12 hours. Theories of learning as applied to medical education; specific areas and objectives formulated by the student and preceptor/mentor.  INVALID GRADING TYPE.",
+        "coursePrerequisites": " MED CLIN 524 and by department permission.",
+        "instructors": [
+          {
+            "firstName": "Mary",
+            "lastName": "Lacy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

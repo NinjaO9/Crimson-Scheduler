@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:11:46.474292+00:00",
+  "course": "arch-309",
+  "subject": "ARCH",
+  "courseNumber": 309,
+  "courseName": "Modern Architecture and Theory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Arch/309/1/false/true",
+      "response": {
+        "courseDescription": "<b>309 [M] Modern Architecture and Theory</b>  Built and theoretical developments in architecture from the nineteenth century to present; content may be linked to study tour with associated travel required.  ",
+        "coursePrerequisites": " SDC 250 with a C or better; SDC 350 with a C or better; admitted to the major in Architectural Studies.",
+        "instructors": [
+          {
+            "firstName": "Ayad",
+            "lastName": "Rahmani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:40:17.155255+00:00",
+  "course": "cs-220",
+  "subject": "CS",
+  "courseNumber": 220,
+  "courseName": "Object-Oriented Design",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/CS/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Object-Oriented Design</b>  Software design with object-oriented programming; object-oriented programming concepts; front-end application development.  ",
+        "coursePrerequisites": " CS 122 with a C or better",
+        "instructors": [
+          {
+            "firstName": "Grant",
+            "lastName": "Williams",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

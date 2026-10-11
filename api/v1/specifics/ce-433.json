@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:38.765682+00:00",
+  "course": "ce-433",
+  "subject": "CE",
+  "courseNumber": 433,
+  "courseName": "Reinforced Concrete Design",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/433/1/false/true",
+      "response": {
+        "courseDescription": "<b>433 Reinforced Concrete Design</b>  Behavior, analysis, and design of reinforced concrete structures; flexure; shear; bond; serviceability requirements; design of beams, columns, and slabs. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CE 330 with a C or better; admitted to the major in Civil Engineering.",
+        "instructors": [
+          {
+            "firstName": "Christopher",
+            "lastName": "Motter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

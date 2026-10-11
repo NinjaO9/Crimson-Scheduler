@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:28.148145+00:00",
+  "course": "biology-509",
+  "subject": "BIOLOGY",
+  "courseNumber": 509,
+  "courseName": "Plant Anatomy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Biol/509/1/false/true",
+      "response": {
+        "courseDescription": "<b>509 Plant Anatomy</b>  Developmental anatomy and morphology of vascular plants; economic forms. Credit not granted for both BIOLOGY 409 and BIOLOGY 509.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Knoblauch",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

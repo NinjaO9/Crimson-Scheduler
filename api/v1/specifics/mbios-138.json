@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:52.919377+00:00",
+  "course": "mbios-138",
+  "subject": "MBIOS",
+  "courseNumber": 138,
+  "courseName": "Molecular Biosciences Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MBioS/138/1/false/true",
+      "response": {
+        "courseDescription": "<b>138 Molecular Biosciences Seminar</b>  Introduction to the field of molecular biosciences: careers, current events, research opportunities at WSU, scientific and research ethics.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Shane",
+            "lastName": "Thomas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

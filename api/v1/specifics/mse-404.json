@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:33.240717+00:00",
+  "course": "mse-404",
+  "subject": "MSE",
+  "courseNumber": 404,
+  "courseName": "Engineering Composites",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/404/1/false/true",
+      "response": {
+        "courseDescription": "<b>404 Engineering Composites</b>  Basic concept in design and specifications of engineering composites.  ",
+        "coursePrerequisites": " MSE 201 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Katie",
+            "lastName": "Zhong",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:25:04.685448+00:00",
+  "course": "honors-198",
+  "subject": "HONORS",
+  "courseNumber": 198,
+  "courseName": "Honors First-Year Experience",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/U%20H/198/4/false/true",
+      "response": {
+        "courseDescription": "<b>198 Honors First-Year Experience</b>  Making a successful transition to college including advising, schedule planning and undergraduate research opportunities.  S, F grading. ",
+        "coursePrerequisites": " Must be an Honors student.",
+        "instructors": [
+          {
+            "firstName": "Jarvis",
+            "lastName": "Fisher",
+            "isPrimary": false,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:25:49.464737+00:00",
+  "course": "che-301",
+  "subject": "CHE",
+  "courseNumber": 301,
+  "courseName": "Chemical Engineering Thermodynamics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Ch%20E/301/1/false/true",
+      "response": {
+        "courseDescription": "<b>301 Chemical Engineering Thermodynamics</b>  Basic concepts in chemical engineering thermodynamics; First and Second Laws; property relationships; power, compression, and liquefaction.  ",
+        "coursePrerequisites": " CHE 101, CHE 211, and CHEM 345 each with a C or better or concurrent enrollment; PHYSICS 202 and 212 with a C or better; admitted to the major in Chemical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Jean-Sabin",
+            "lastName": "McEwen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

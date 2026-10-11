@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:26:00.655531+00:00",
+  "course": "spmgt-410",
+  "subject": "SPMGT",
+  "courseNumber": 410,
+  "courseName": "Sport Data Analytics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SpMgt/410/1/false/true",
+      "response": {
+        "courseDescription": "<b>410 Sport Data Analytics</b>  Introduction to the theory, development, and application of data analytics in sport including using data for the effective management for sport programs, data analysis of the components of a sport program, and visualization of data to communicate sport concepts.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Paul",
+            "lastName": "Kimbrough",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

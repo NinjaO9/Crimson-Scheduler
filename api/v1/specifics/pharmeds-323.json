@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:24.874185+00:00",
+  "course": "pharmeds-323",
+  "subject": "PHARMEDS",
+  "courseNumber": 323,
+  "courseName": "Ethics:  Conduct and Career Development",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/PHRMD/323/1/false/true",
+      "response": {
+        "courseDescription": "<b>323 Ethics:  Conduct and Career Development</b>  Introduction to biomedical research practices, responsible conduct of research, scientific writing, and biomedical ethics.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Kathryn",
+            "lastName": "Meier",
+            "isPrimary": true,
+            "tchEffort": 80
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

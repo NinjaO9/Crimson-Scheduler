@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:34:29.033864+00:00",
+  "course": "cpt-s-490",
+  "subject": "CPT_S",
+  "courseNumber": 490,
+  "courseName": "Work Study Internship",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Spring/2027/Cpt%20S/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Work Study Internship</b> May be repeated for credit; cumulative maximum 9 hours. Experience in programming and systems analysis in a working environment under supervision of industrial or governmental professionals and faculty.  S, F grading. ",
+        "coursePrerequisites": "  By department permission only; Computer Science major.",
+        "instructors": [
+          {
+            "firstName": "Luis",
+            "lastName": "de la Torre",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

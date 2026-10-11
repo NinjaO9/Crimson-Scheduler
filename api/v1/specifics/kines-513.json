@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:36.614688+00:00",
+  "course": "kines-513",
+  "subject": "KINES",
+  "courseNumber": 513,
+  "courseName": "Advanced Psychology of Physical Activity",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/513/1/false/true",
+      "response": {
+        "courseDescription": "<b>513 Advanced Psychology of Physical Activity</b>  Advanced exploration of foundational topics in sport and exercise psychology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kira",
+            "lastName": "Carbonneau",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

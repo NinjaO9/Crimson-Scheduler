@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:29:50.387094+00:00",
+  "course": "kines-311",
+  "subject": "KINES",
+  "courseNumber": 311,
+  "courseName": "Strength Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Kines/311/1/false/true",
+      "response": {
+        "courseDescription": "<b>311 Strength Training</b>  Basic information and guidelines for enhancement of athletic performance, injury prevention, rehabilitation and general fitness.  ",
+        "coursePrerequisites": " BIOLOGY 315 with a C or better, or KINES 262 with a C or better; KINES 264 with a C or better; admitted to the major in Kinesiology or Sports Medicine.",
+        "instructors": [
+          {
+            "firstName": "Ailaiti",
+            "lastName": "Xiaerzhate",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

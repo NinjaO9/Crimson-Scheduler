@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:07:43.013807+00:00",
+  "course": "german-204",
+  "subject": "GERMAN",
+  "courseNumber": 204,
+  "courseName": "Fourth Semester",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ger/204/1/false/true",
+      "response": {
+        "courseDescription": "<b>204 Fourth Semester</b>  Continued practice in spoken and written language; selected texts in a cultural context. Not open to native speakers except with permission.  ",
+        "coursePrerequisites": " GERMAN 203 with a C or better, or WSU language placement exam score of 5 or higher.",
+        "instructors": [
+          {
+            "firstName": "Joshua",
+            "lastName": "Bonzo",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

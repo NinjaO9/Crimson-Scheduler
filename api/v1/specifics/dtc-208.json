@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:41:58.488033+00:00",
+  "course": "dtc-208",
+  "subject": "DTC",
+  "courseNumber": 208,
+  "courseName": "Introduction to Digital Cinema",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/DTC/208/1/false/true",
+      "response": {
+        "courseDescription": "<b>208 Introduction to Digital Cinema</b>  A practical introduction to the technological and cultural transformations driving the evolution of cinematic techniques from the birth of motion pictures to emerging technology.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Eliseo",
+            "lastName": "Ortiz Menchaca",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

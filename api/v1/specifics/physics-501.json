@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:50:17.731841+00:00",
+  "course": "physics-501",
+  "subject": "PHYSICS",
+  "courseNumber": 501,
+  "courseName": "Graduate Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phys/501/1/false/true",
+      "response": {
+        "courseDescription": "<b>501 Graduate Seminar</b>  Introduction to graduate and interdisciplinary research.  S, F grading. ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

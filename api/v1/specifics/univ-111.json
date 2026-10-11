@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:30.896501+00:00",
+  "course": "univ-111",
+  "subject": "UNIV",
+  "courseNumber": 111,
+  "courseName": "Developing Academic Strategies for Listening and Discussion",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Univs/111/1/false/true",
+      "response": {
+        "courseDescription": "<b>111 Developing Academic Strategies for Listening and Discussion</b>  Refinement of academic English skills, focusing on listening and speaking in classroom contexts, as well as further development of critical thinking skills and academic success strategies in an American university setting.  ",
+        "coursePrerequisites": " UNIV 110 with a grade of B or better; TOEFL iBT of 64-75, TOEFL PBT of 185-205, or IELTS of 5.5-6; Undergraduate Bridge students only.",
+        "instructors": [
+          {
+            "firstName": "Sharon",
+            "lastName": "Fraser-Allen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

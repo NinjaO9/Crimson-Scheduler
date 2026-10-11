@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:23.997536+00:00",
+  "course": "tch-lrn-414",
+  "subject": "TCH_LRN",
+  "courseNumber": 414,
+  "courseName": "Methods and Materials for Multilingual Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/414/2/false/true",
+      "response": {
+        "courseDescription": "<b>414 Methods and Materials for Multilingual Education</b>  Research and instructional methods related to English language acquisition across content areas. Recommended preparation:  TCH LRN 410 or 510; TCH LRN 509; TCH LRN 549. Credit not granted for both TCH LRN 414 and TCH LRN 514.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ibtesam",
+            "lastName": "Hussein",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

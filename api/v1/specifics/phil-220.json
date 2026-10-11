@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:25.651196+00:00",
+  "course": "phil-220",
+  "subject": "PHIL",
+  "courseNumber": 220,
+  "courseName": "Philosophy of Food",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Phil/220/1/false/true",
+      "response": {
+        "courseDescription": "<b>220 Philosophy of Food</b>  Philosophical issues concerning the nature, production, and distribution of food, including ethical, aesthetic, metaphysical, and/or social/political dimensions of food.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Samantha",
+            "lastName": "Noll",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

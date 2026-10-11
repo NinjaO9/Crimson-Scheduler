@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:58.404036+00:00",
+  "course": "ce-514",
+  "subject": "CE",
+  "courseNumber": 514,
+  "courseName": "Advanced Mechanics of Materials",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/C%20E/514/1/false/true",
+      "response": {
+        "courseDescription": "<b>514 Advanced Mechanics of Materials</b>  Elastic stress-strain relations, shear center, unsymmetrical bending, curved beams, elastic stability, elastically supported beams, energy methods, thin plates, shells. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Hyeyoung",
+            "lastName": "Koh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

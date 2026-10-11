@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:48.706834+00:00",
+  "course": "pubhlth-310",
+  "subject": "PUBHLTH",
+  "courseNumber": 310,
+  "courseName": "Foundations of Health Behavior",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/310/1/false/true",
+      "response": {
+        "courseDescription": "<b>310 Foundations of Health Behavior</b>  Introduction to the behavioral change theories that are most commonly applied in public health practice, including individual, interpersonal, and community-level theories.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kimberly",
+            "lastName": "McBride",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

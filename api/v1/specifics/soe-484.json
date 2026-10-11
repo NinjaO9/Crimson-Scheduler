@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:39.704833+00:00",
+  "course": "soe-484",
+  "subject": "SOE",
+  "courseNumber": 484,
+  "courseName": "Ecological Forest Management",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/484/1/false/true",
+      "response": {
+        "courseDescription": "<b>484 [M] Ecological Forest Management</b>  Knowledge, skills, and experience in drafting a management plan and managing forested properties for a variety of values, ranging from generation of diverse forest products to maintenance of important environmental values associated with forest lands.  ",
+        "coursePrerequisites": " ECONS 330; SOE 304; SOE 305.",
+        "instructors": [
+          {
+            "firstName": "Austin",
+            "lastName": "Himes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

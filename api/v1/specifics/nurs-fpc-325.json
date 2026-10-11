@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:08.817966+00:00",
+  "course": "nurs-fpc-325",
+  "subject": "NURS_FPC",
+  "courseNumber": 325,
+  "courseName": "Nursing Practice in Acute and Chronic Illness in Adults",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURFP/325/1/false/true",
+      "response": {
+        "courseDescription": "<b>325 Nursing Practice in Acute and Chronic Illness in Adults</b>  Application of acute and chronic illness concepts and strategies in the care of adults to improve health and well-being.  S, F grading. ",
+        "coursePrerequisites": " NURS FPC 311; NURS FPC 315; NURS FPC 316; NURS FPC 317; and concurrent enrollment in NURS FPC 324.",
+        "instructors": [
+          {
+            "firstName": "Erin",
+            "lastName": "Ferraro",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

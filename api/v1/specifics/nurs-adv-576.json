@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:06.006550+00:00",
+  "course": "nurs-adv-576",
+  "subject": "NURS_ADV",
+  "courseNumber": 576,
+  "courseName": "Organizational Systems and Leadership I",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Fall/2026/NURAD/576/1/false/true",
+      "response": {
+        "courseDescription": "<b>576 Organizational Systems and Leadership I</b>  Analysis of organizational systems and the advanced nurse clinician's role as a leader for change.  ",
+        "coursePrerequisites": " NURS ADV 503 and NURS ADV 504; or admission as a post-master's DNP or PhD student.",
+        "instructors": [
+          {
+            "firstName": "Teddi",
+            "lastName": "Nee",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:27:29.093685+00:00",
+  "course": "tch-lrn-590",
+  "subject": "TCH_LRN",
+  "courseNumber": 590,
+  "courseName": "Internship",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/T%20%26%20L/590/1/false/true",
+      "response": {
+        "courseDescription": "<b>590 Internship</b> May be repeated for credit; cumulative maximum 12 hours. Opportunities in professional positions.  S, F grading. ",
+        "coursePrerequisites": " By interview only.",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

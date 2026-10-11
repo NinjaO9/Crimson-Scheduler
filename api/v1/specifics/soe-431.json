@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:18:22.159492+00:00",
+  "course": "soe-431",
+  "subject": "SOE",
+  "courseNumber": 431,
+  "courseName": "Wildlife Nutrition",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/431/1/false/true",
+      "response": {
+        "courseDescription": "<b>431 Wildlife Nutrition</b>  Nutritional requirements and interactions of wildlife populations. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " BIOLOGY 106 with a C or better; BIOLOGY 107 with a C or better; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Charles",
+            "lastName": "Robbins",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

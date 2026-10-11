@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:27.239541+00:00",
+  "course": "chem-334",
+  "subject": "CHEM",
+  "courseNumber": 334,
+  "courseName": "Physical Chemistry Laboratory",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/334/1/false/true",
+      "response": {
+        "courseDescription": "<b>334 [M] Physical Chemistry Laboratory</b>  Continuation of CHEM 333. Experiments in molecular structure, atomic molecular spectroscopy, chemical kinetics including computational methods.  ",
+        "coursePrerequisites": " CHEM 332 with a C or better or concurrent enrollment; CHEM 333 with a C or better.",
+        "instructors": [
+          {
+            "firstName": "Krista",
+            "lastName": "Nishida",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:26:46.880183+00:00",
+  "course": "chem-571",
+  "subject": "CHEM",
+  "courseNumber": 571,
+  "courseName": "Microscopic Analysis of Solid Surfaces",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Chem/571/1/false/true",
+      "response": {
+        "courseDescription": "<b>571 Microscopic Analysis of Solid Surfaces</b>  Modern spectroscopic methods for microscopic analysis of solid surfaces; emphasizes electron, ion, laser, and x-ray techniques.  (Crosslisted course offered as MSE 571, CHEM 571.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ursula",
+            "lastName": "Mazur",
+            "isPrimary": true,
+            "tchEffort": 25
+          },
+          {
+            "firstName": "Kerry",
+            "lastName": "Hipps",
+            "isPrimary": true,
+            "tchEffort": 75
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

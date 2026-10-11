@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:30:56.036532+00:00",
+  "course": "math-105",
+  "subject": "MATH",
+  "courseNumber": 105,
+  "courseName": "Exploring Mathematics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/105/1/false/true",
+      "response": {
+        "courseDescription": "<b>105 Exploring Mathematics</b>  Nature and scope of modern mathematics, and its relationships to other disciplines.  ",
+        "coursePrerequisites": " MATH 103, or 251, each with a C or better, STAT 212 with a C or better, or a minimum ALEKS math placement score of 45%, or transfer credit for Intermediate Algebra equivalent to MATH 101.",
+        "instructors": [
+          {
+            "firstName": "Cathryn",
+            "lastName": "Kenyon",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

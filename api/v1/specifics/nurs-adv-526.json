@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:48:02.621933+00:00",
+  "course": "nurs-adv-526",
+  "subject": "NURS_ADV",
+  "courseNumber": 526,
+  "courseName": "Quality Improvement and Culture of Safety",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Spring/2027/NURAD/526/1/false/true",
+      "response": {
+        "courseDescription": "<b>526 Quality Improvement and Culture of Safety</b>  Facilitating patient experience, safety, and quality through the promotion of patient-centered care grounded in a culture of safety and emergency preparedness.  ",
+        "coursePrerequisites": " NURS ADV 510; NURS ADV 511.",
+        "instructors": [
+          {
+            "firstName": "James",
+            "lastName": "Reedy",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:48.375866+00:00",
+  "course": "pubhlth-240",
+  "subject": "PUBHLTH",
+  "courseNumber": 240,
+  "courseName": "Introduction to Environmental Health",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/PUBHL/240/1/false/true",
+      "response": {
+        "courseDescription": "<b>240 Introduction to Environmental Health</b>  Exploration of the complex interactions between human health outcomes and the physical environment, including core concepts in sustainability and the built environment, energy and transportation, food systems and security, climate and natural disasters, environmental racism, justice, and ethics, One Health, and emerging challenges.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kameko",
+            "lastName": "Washburn",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

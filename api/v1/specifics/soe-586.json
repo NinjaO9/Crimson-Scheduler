@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:19:12.519274+00:00",
+  "course": "soe-586",
+  "subject": "SOE",
+  "courseNumber": 586,
+  "courseName": "Applied Remote Sensing: From Drones to Satellites",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SOE/586/1/false/true",
+      "response": {
+        "courseDescription": "<b>586 Applied Remote Sensing: From Drones to Satellites</b>  Remote sensing to measure changes in forests, plants, wildlife, wildfire, crops, and geologic features; analyzing and applying data from satellites, drones, airplanes, and lidar to measures on the ground.  Credit not granted for both SOE 486 and SOE 586.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Arjan",
+            "lastName": "Meddens",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

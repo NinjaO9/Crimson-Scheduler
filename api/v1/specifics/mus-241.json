@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:43:10.278834+00:00",
+  "course": "mus-241",
+  "subject": "MUS",
+  "courseNumber": 241,
+  "courseName": "Survey of the Entertainment Industry",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Mus/241/1/false/true",
+      "response": {
+        "courseDescription": "<b>241 Survey of the Entertainment Industry</b>  Exploration of the complex and changing world of the entertainment industry including contracts and negotiations, professional organizations and networks, and industry standards.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Christian J",
+            "lastName": "Kim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

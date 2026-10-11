@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:17:04.716905+00:00",
+  "course": "soe-204",
+  "subject": "SOE",
+  "courseNumber": 204,
+  "courseName": "Field Methods for Careers in the Natural Sciences",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/SOE/204/1/false/true",
+      "response": {
+        "courseDescription": "<b>204 Field Methods for Careers in the Natural Sciences</b>  Introduction to basic concepts, field techniques and the use of spreadsheets in natural resources. Field trips required.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Amanda",
+            "lastName": "Stahl",
+            "isPrimary": true,
+            "tchEffort": 90
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

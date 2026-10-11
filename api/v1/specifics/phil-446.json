@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:49:56.601436+00:00",
+  "course": "phil-446",
+  "subject": "PHIL",
+  "courseNumber": 446,
+  "courseName": "Metaphysics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Phil/446/1/false/true",
+      "response": {
+        "courseDescription": "<b>446 Metaphysics</b>  Issues and theories concerning free will and determinism, the nature of truth, the existence of God, space, time and identity. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " 3 credits PHIL.",
+        "instructors": [
+          {
+            "firstName": "Callie",
+            "lastName": "Phillips",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:07.454958+00:00",
+  "course": "ece-800",
+  "subject": "ECE",
+  "courseNumber": 800,
+  "courseName": "Doctoral Research, Dissertation, and/or Examination",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/800/1/false/true",
+      "response": {
+        "courseDescription": "<b>800 Doctoral Research, Dissertation, and/or Examination</b> May be repeated for credit. Independent research and advanced study for students working on their doctoral research, dissertation and/or final examination. Students must have graduate degree-seeking status and should check with their major advisor/committee chair before enrolling for 800 credit.  (Crosslisted course offered as E E 800, ECE 800.)  S, U grading. ",
+        "coursePrerequisites": "  Admitted to the Electrical Engineering PhD program.",
+        "instructors": [
+          {
+            "firstName": "Hang",
+            "lastName": "Gao",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Noel",
+            "lastName": "Schulz",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Scott",
+            "lastName": "Hudson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

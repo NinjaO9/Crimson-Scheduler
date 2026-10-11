@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:07.515353+00:00",
+  "course": "vet-path-592",
+  "subject": "VET_PATH",
+  "courseNumber": 592,
+  "courseName": "Anatomic Pathology Seminar",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Pa/592/1/false/true",
+      "response": {
+        "courseDescription": "<b>592 Anatomic Pathology Seminar</b> May be repeated for credit. Gross and histopathologic description, diagnosis, and interpretation.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Allan",
+            "lastName": "Pessier",
+            "isPrimary": true,
+            "tchEffort": 14
+          },
+          {
+            "firstName": "Jonathan",
+            "lastName": "Miller",
+            "isPrimary": true,
+            "tchEffort": 14
+          },
+          {
+            "firstName": "Kyle",
+            "lastName": "Taylor",
+            "isPrimary": true,
+            "tchEffort": 14
+          },
+          {
+            "firstName": "Laura",
+            "lastName": "Artz Williams",
+            "isPrimary": true,
+            "tchEffort": 14
+          },
+          {
+            "firstName": "Liam",
+            "lastName": "Broughton-Neiswanger",
+            "isPrimary": true,
+            "tchEffort": 14
+          },
+          {
+            "firstName": "Wesley",
+            "lastName": "Sheley",
+            "isPrimary": true,
+            "tchEffort": 14
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Oliveira",
+            "isPrimary": false,
+            "tchEffort": 14
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

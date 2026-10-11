@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:49:02.971937+00:00",
+  "course": "ece-101",
+  "subject": "ECE",
+  "courseNumber": 101,
+  "courseName": "Introduction to Electrical Engineering",
+  "offerings": [
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Vancouver/Fall/2026/ECE/101/1/false/true",
+      "response": {
+        "courseDescription": "<b>101 Introduction to Electrical Engineering</b>  Introduction to the field of electrical engineering and the fundamental concepts behind electronic devices and systems.  ",
+        "coursePrerequisites": " MATH 106, or MATH 171 or concurrent enrollment, or a minimum ALEKS math placement score of 80%.",
+        "instructors": [
+          {
+            "firstName": "Sonia",
+            "lastName": "Akter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

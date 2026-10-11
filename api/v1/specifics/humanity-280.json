@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:27:23.504518+00:00",
+  "course": "humanity-280",
+  "subject": "HUMANITY",
+  "courseNumber": 280,
+  "courseName": "Quests and Callings",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Hum/280/1/false/true",
+      "response": {
+        "courseDescription": "<b>280 Quests and Callings</b>  Creative expression and critical interpretation of the hero's journey and the pursuit of one's calling across cultures in literature, art, mythology, and film.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "LeeAnn",
+            "lastName": "Hunter",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:32:11.414650+00:00",
+  "course": "math-300",
+  "subject": "MATH",
+  "courseNumber": 300,
+  "courseName": "Mathematical Computing",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Math/300/1/false/true",
+      "response": {
+        "courseDescription": "<b>300 Mathematical Computing</b>  Examination of some current computer software for solving mathematical problems.  Recommended preparation:  MATH 315.  ",
+        "coursePrerequisites": " MATH 220, 225, or 230.",
+        "instructors": [
+          {
+            "firstName": "Sharareh",
+            "lastName": "Sayyad",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

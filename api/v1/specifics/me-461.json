@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:29.985023+00:00",
+  "course": "me-461",
+  "subject": "ME",
+  "courseNumber": 461,
+  "courseName": "Introduction to Nuclear Engineering",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Fall/2026/M%20E/461/1/false/true",
+      "response": {
+        "courseDescription": "<b>461 Introduction to Nuclear Engineering</b>  Applied nuclear physics; application to the nuclear fuel cycle and nuclear reactor core design; nuclear reactor systems and safety. (Crosslisted course offered as ME 461, CHE 461.)  ",
+        "coursePrerequisites": " MATH 315; admitted to a major in engineering or physical sciences; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Douglas",
+            "lastName": "Reid",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Richard",
+            "lastName": "Stout",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:29:06.513136+00:00",
+  "course": "vet-micr-572",
+  "subject": "VET_MICR",
+  "courseNumber": 572,
+  "courseName": "Advanced Topics in Microbiology, Parasitology, or Immunology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/V%20Mic/572/1/false/true",
+      "response": {
+        "courseDescription": "<b>572 Advanced Topics in Microbiology, Parasitology, or Immunology</b> May be repeated for credit; cumulative maximum 4 hours. Advanced topics in microbiology, parasitology, or immunology presented in short-course, or workshop format.  ",
+        "coursePrerequisites": "",
+        "instructors": []
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

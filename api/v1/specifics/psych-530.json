@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:03:43.562211+00:00",
+  "course": "psych-530",
+  "subject": "PSYCH",
+  "courseNumber": 530,
+  "courseName": "Professional, Ethical, and Legal Issues",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Psych/530/1/false/true",
+      "response": {
+        "courseDescription": "<b>530 Professional, Ethical, and Legal Issues</b>  Application of professional, ethical, and legal issues in clinical psychology to such topics as confidentiality, dual-relationships, research, assessment, and intervention.  ",
+        "coursePrerequisites": " Ph.D. student in Psychology.",
+        "instructors": [
+          {
+            "firstName": "Christine",
+            "lastName": "So",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

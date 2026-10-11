@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:06:14.497561+00:00",
+  "course": "agtm-314",
+  "subject": "AGTM",
+  "courseNumber": 314,
+  "courseName": "Agricultural Power Units and Mobile Electrical Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/AgTM/314/1/false/true",
+      "response": {
+        "courseDescription": "<b>314 Agricultural Power Units and Mobile Electrical Systems</b>  Principles of thermodynamics, engine cycles, transmissions, electrical, starting, braking, steering, suspension systems, differentials and hydraulic systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Tadd",
+            "lastName": "Wheeler",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

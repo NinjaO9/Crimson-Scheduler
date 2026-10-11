@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T23:08:04.563389+00:00",
+  "course": "shs-563",
+  "subject": "SHS",
+  "courseNumber": 563,
+  "courseName": "Dysphagia",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/SHS/563/1/false/true",
+      "response": {
+        "courseDescription": "<b>563 Dysphagia</b>  Anatomy and physiology of swallowing; evaluation and treatment of swallowing disorders. SHS graduate student; all undergraduate prerequisite courses completed.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jennifer",
+            "lastName": "Kurtulus",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

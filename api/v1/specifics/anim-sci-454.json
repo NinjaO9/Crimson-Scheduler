@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:07:41.738526+00:00",
+  "course": "anim-sci-454",
+  "subject": "ANIM_SCI",
+  "courseNumber": 454,
+  "courseName": "Artificial Insemination and Pregnancy Detection",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/A%20S/454/1/false/true",
+      "response": {
+        "courseDescription": "<b>454 Artificial Insemination and Pregnancy Detection</b>  Techniques in semen handling, insemination and pregnancy detection in cattle. Special clothing required. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " ANIM SCI 351.",
+        "instructors": [
+          {
+            "firstName": "Martin",
+            "lastName": "Maquivar",
+            "isPrimary": true,
+            "tchEffort": 49
+          },
+          {
+            "firstName": "Zachary",
+            "lastName": "Seekford",
+            "isPrimary": true,
+            "tchEffort": 51
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

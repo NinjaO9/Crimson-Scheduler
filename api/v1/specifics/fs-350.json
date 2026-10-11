@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:06:25.329826+00:00",
+  "course": "fs-350",
+  "subject": "FS",
+  "courseNumber": 350,
+  "courseName": "Instrumental and Sensory Analysis of Food",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/FS/350/1/false/true",
+      "response": {
+        "courseDescription": "<b>350 Instrumental and Sensory Analysis of Food</b>  Evaluation of the chemical and physical properties of foods including both sensory and instrumental analysis. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": " CHEM 106; FS 110 or 201; STAT 212 or concurrent enrollment.",
+        "instructors": [
+          {
+            "firstName": "Carolyn",
+            "lastName": "Ross",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

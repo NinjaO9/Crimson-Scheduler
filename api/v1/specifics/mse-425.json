@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:42:33.761694+00:00",
+  "course": "mse-425",
+  "subject": "MSE",
+  "courseNumber": 425,
+  "courseName": "Senior Thesis I",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/MSE/425/1/false/true",
+      "response": {
+        "courseDescription": "<b>425 [M] Senior Thesis I</b>  Research in materials science and engineering.  ",
+        "coursePrerequisites": " MSE 320 with a C or better; MSE 323 with a C or better; admitted to MSE; senior standing, OR MSE 318 with a C or better; MSE 323 with a C or better; two from MSE 331, 332, or 333 with a C or better; admitted to MSE; senior standing.",
+        "instructors": [
+          {
+            "firstName": "Min Kyu",
+            "lastName": "Song",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

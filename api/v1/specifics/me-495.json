@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:35:46.495680+00:00",
+  "course": "me-495",
+  "subject": "ME",
+  "courseNumber": 495,
+  "courseName": "Internship in Mechanical Industry",
+  "offerings": [
+    {
+      "campus": "Tri-Cities",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Tri-Cities/Summer/2026/M%20E/495/1/false/true",
+      "response": {
+        "courseDescription": "<b>495 Internship in Mechanical Industry</b> May be repeated for credit; cumulative maximum 12 hours. Students work full time on engineering assignment in approved industries with industrial and faculty supervision.  S, F grading. ",
+        "coursePrerequisites": " By department permission; admitted to the major in Mechanical Engineering.",
+        "instructors": [
+          {
+            "firstName": "Changki",
+            "lastName": "Mo",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Che-Hao",
+            "lastName": "Yang",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Joseph",
+            "lastName": "Iannelli",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Messiha",
+            "lastName": "Saad",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Yuxin",
+            "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

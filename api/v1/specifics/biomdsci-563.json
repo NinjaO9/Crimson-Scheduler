@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:23:31.594586+00:00",
+  "course": "biomdsci-563",
+  "subject": "BIOMDSCI",
+  "courseNumber": 563,
+  "courseName": "Deconstruction of Research",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/BIOMS/563/1/false/true",
+      "response": {
+        "courseDescription": "<b>563 Deconstruction of Research</b>  Nature and development of scientific investigation through oral and written avenues, and methods of critical analyses applied to questions of biomedical interest.  ",
+        "coursePrerequisites": " Graduate standing in a WSU biomedical based graduate program.",
+        "instructors": [
+          {
+            "firstName": "Dana",
+            "lastName": "Shaw",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

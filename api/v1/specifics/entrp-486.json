@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T22:04:20.386742+00:00",
+  "course": "entrp-486",
+  "subject": "ENTRP",
+  "courseNumber": 486,
+  "courseName": "Launching New Ventures",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Vancouver",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Entrp/486/1/false/true",
+      "response": {
+        "courseDescription": "<b>486 Launching New Ventures</b>  Focus on turning an idea into a serious business venture; research new business opportunities and become skilled in developing business tools and processes to carry out venture-launch strategies; compete in the WSU Business Plan Competition.  ",
+        "coursePrerequisites": " Junior standing; ENTRP 485 or with permission of the department.",
+        "instructors": [
+          {
+            "firstName": "Asa",
+            "lastName": "Brown",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

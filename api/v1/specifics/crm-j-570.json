@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-11T21:39:58.369974+00:00",
+  "course": "crm-j-570",
+  "subject": "CRM_J",
+  "courseNumber": 570,
+  "courseName": "The Police and Society",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Crm%20J/570/1/false/true",
+      "response": {
+        "courseDescription": "<b>570 The Police and Society</b>  Community and selected social institutional factors as related to their influence on police systems. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Makin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}
