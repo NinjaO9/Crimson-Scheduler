@@ -21,16 +21,20 @@ jobs:
 
     steps:
       - name: Generate GitHub App Token
-        id: app-token
+        id: source-token
         uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ vars.BYPASS_APP_ID }}
           private-key: ${{ secrets.BYPASS_APP_PRIVATE_KEY }}
+          owner: NinjaO9
+          repositories: Crimson-Scheduler
+          permission-contents: write
 
       - name: Checkout source
         uses: actions/checkout@v4
         with:
-          token: ${{ steps.app-token.outputs.token }}
+          token: ${{ steps.source-token.outputs.token }}
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,10 +48,22 @@ jobs:
       - name: Generate course-specific JSON
         run: python -m dataCollection.dataHandler.generate_specifics
 
+      # The collector may run for a long time. Create a fresh installation
+      # token immediately before deployment so it cannot expire mid-job.
+      - name: Generate deployment GitHub App Token
+        id: deploy-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.BYPASS_APP_ID }}
+          private-key: ${{ secrets.BYPASS_APP_PRIVATE_KEY }}
+          owner: NinjaO9
+          repositories: Crimson-Scheduler
+          permission-contents: write
+
       - name: Publish to GitHub Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ steps.app-token.outputs.token }}
+          token: ${{ steps.deploy-token.outputs.token }}
           branch: crimson-data
           folder: _generated_site/api/v1/specifics
           target-folder: api/v1/specifics
