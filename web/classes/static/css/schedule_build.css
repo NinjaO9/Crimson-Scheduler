@@ -1749,3 +1749,48 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         transition-duration: 0ms !important;
     }
 }
+
+@media (max-width: 760px) {
+    .mobile-course-info-sheet {
+        bottom: 0;
+        display: block;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: opacity 160ms ease;
+        z-index: 3000;
+    }
+
+    .mobile-course-info-sheet.is-open { opacity: 1; pointer-events: auto; }
+    .mobile-course-info-backdrop { background: rgba(17, 24, 39, .42); border: 0; inset: 0; position: absolute; }
+    .mobile-course-info-panel {
+        background: var(--color-surface);
+        border-radius: 16px 16px 0 0;
+        bottom: 0;
+        box-shadow: 0 -18px 40px rgba(15, 23, 42, .18);
+        left: 0;
+        max-height: min(78dvh, 560px);
+        overflow-y: auto;
+        padding: 0 18px calc(22px + env(safe-area-inset-bottom));
+        position: absolute;
+        right: 0;
+        transform: translateY(100%);
+        transition: transform 180ms ease;
+    }
+    .mobile-course-info-sheet.is-open .mobile-course-info-panel { transform: translateY(0); }
+    .mobile-course-info-grabber { background: #d1d5db; border-radius: 999px; height: 4px; margin: 12px auto 14px; width: 42px; }
+    .mobile-course-info-header { align-items: center; display: flex; gap: 12px; justify-content: space-between; margin-bottom: 14px; }
+    .mobile-course-info-header h2 { color: var(--color-text); font-size: 1.1rem; font-weight: 900; margin: 0; }
+    .mobile-course-info-close { background: var(--color-surface); border: 1px solid var(--line-strong); border-radius: 6px; color: var(--color-text); font-weight: 800; min-height: 42px; padding: 0 12px; }
+    .mobile-course-info-details { color: var(--color-text-secondary); padding-bottom: 8px; }
+    .mobile-course-info-details .course-info-section + .course-info-section { margin-top: 18px; padding-top: 18px; }
+    body.mobile-course-info-sheet-open { overflow: hidden; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-course-info-sheet,
+    .mobile-course-info-panel { transition-duration: 0ms !important; }
+}

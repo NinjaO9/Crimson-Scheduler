@@ -2,12 +2,17 @@ import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
 import { formatMeetingListForDisplay } from "./time-and-meetings.js";
 import { uses24HourTime } from "./preferences.js";
+import {
+  fetchCourseInformation,
+  renderCourseInformation,
+} from "./course-information.js";
 
 let courseSearchRequestId = 0;
 let courseFilters = createEmptyCourseFilters();
 let mobileFilterCloseTimer = null;
 let callbacks = {};
 let searchableSectionsByKey = new Map();
+let activeCourseInfoTrigger = null;
 const AUTO_SEARCH_DELAY_MS = 250;
 
 export function createEmptyCourseFilters() {
@@ -257,8 +262,10 @@ export function renderCourseResult(course) {
   const hasLab = course.lab_sections.length > 0;
   const article = document.createElement("article");
   article.className = "result-card";
+  const header = document.createElement("div");
+  header.className = "result-summary";
   const summary = document.createElement("button");
-  summary.className = "result-summary";
+  summary.className = "result-summary-toggle";
   summary.type = "button";
   summary.setAttribute("data-bs-toggle", "collapse");
   summary.setAttribute("data-bs-target", `#sections${course.id}`);
@@ -287,10 +294,24 @@ export function renderCourseResult(course) {
     );
   }
   summaryText.append(title, meta);
-  summary.append(
-    summaryText,
-    createElementWithText("span", "result-chevron", ""),
-  );
+  summary.append(summaryText, createElementWithText("span", "result-chevron", ""));
+  const infoButton = document.createElement("button");
+  infoButton.type = "button";
+  infoButton.className = "course-info-trigger";
+  infoButton.setAttribute("aria-label", `Additional information about ${course.course_code}`);
+  infoButton.setAttribute("aria-expanded", "false");
+  infoButton.appendChild(createInfoIcon());
+  infoButton.courseData = course;
+  const infoControl = document.createElement("span");
+  infoControl.className = "course-info-control";
+  const tooltip = document.createElement("div");
+  tooltip.className = "course-info-popover";
+  tooltip.setAttribute("role", "dialog");
+  tooltip.setAttribute("aria-label", `Additional information about ${course.course_code}`);
+  tooltip.hidden = true;
+  tooltip.appendChild(createElementWithText("p", "course-info-loading", "Loading additional information…"));
+  infoControl.append(infoButton, tooltip);
+  header.append(summary, infoControl);
   const panel = document.createElement("div");
   panel.className = "collapse";
   panel.id = `sections${course.id}`;
@@ -318,8 +339,89 @@ export function renderCourseResult(course) {
   actionRow.appendChild(addButton);
   body.appendChild(actionRow);
   panel.appendChild(body);
-  article.append(summary, panel);
+  article.append(header, panel);
   return article;
+}
+
+const INFO_ICON_PATH = "M8,0a8,8 0 1 0 0 16A8,8 0 0 0 8,0Zm0 14.25A6.25 6.25 0 1 1 8 1.75a6.25 6.25 0 0 1 0 12.5ZM7 7h2v5H7V7Zm0-3h2v2H7V4Z";
+
+function createInfoIcon() {
+  const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  icon.setAttribute("viewBox", "0 0 16 16");
+  icon.setAttribute("aria-hidden", "true");
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute("fill", "currentColor");
+  path.setAttribute("d", INFO_ICON_PATH);
+  icon.appendChild(path);
+  return icon;
+}
+
+function setCourseInfoContent(trigger, info) {
+  const popover = trigger.closest(".course-info-control")?.querySelector(".course-info-popover");
+  if (popover) {
+    popover.replaceChildren(renderCourseInformation(info));
+  }
+  const sheetDetails = document.querySelector("#mobileCourseInfoSheet .mobile-course-info-details");
+  if (sheetDetails && activeCourseInfoTrigger === trigger) sheetDetails.replaceChildren(renderCourseInformation(info));
+}
+
+async function loadCourseInfo(trigger) {
+  if (!trigger || trigger.courseInfoLoading) return;
+  trigger.courseInfoLoading = true;
+  const info = await fetchCourseInformation(trigger.courseData);
+  if (document.contains(trigger)) setCourseInfoContent(trigger, info);
+  trigger.courseInfoLoading = false;
+}
+
+function openMobileCourseInfoSheet(trigger) {
+  const sheet = document.getElementById("mobileCourseInfoSheet");
+  const details = sheet && sheet.querySelector(".mobile-course-info-details");
+  if (!sheet || !details) return;
+  activeCourseInfoTrigger = trigger;
+  details.replaceChildren(createElementWithText("p", "course-info-loading", "Loading additional information…"));
+  sheet.hidden = false;
+  sheet.inert = false;
+  sheet.setAttribute("aria-hidden", "false");
+  document.body.classList.add("mobile-course-info-sheet-open");
+  window.requestAnimationFrame(() => sheet.classList.add("is-open"));
+  const closeButton = sheet.querySelector("[data-close-course-info]");
+  if (closeButton) closeButton.focus({ preventScroll: true });
+  loadCourseInfo(trigger);
+}
+
+export function closeMobileCourseInfoSheet({ restoreFocus = true } = {}) {
+  const sheet = document.getElementById("mobileCourseInfoSheet");
+  if (!sheet || !sheet.classList.contains("is-open")) return;
+  sheet.classList.remove("is-open");
+  sheet.inert = true;
+  sheet.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("mobile-course-info-sheet-open");
+  window.setTimeout(() => { if (!sheet.classList.contains("is-open")) sheet.hidden = true; }, 180);
+  if (restoreFocus && activeCourseInfoTrigger && document.contains(activeCourseInfoTrigger)) activeCourseInfoTrigger.focus({ preventScroll: true });
+  activeCourseInfoTrigger = null;
+}
+
+function showDesktopCourseInfo(trigger) {
+  const popover = trigger.closest(".course-info-control")?.querySelector(".course-info-popover");
+  if (!popover || isMobileViewport()) return;
+  popover.hidden = false;
+  trigger.setAttribute("aria-expanded", "true");
+  loadCourseInfo(trigger);
+}
+
+function hideDesktopCourseInfo(trigger) {
+  const control = trigger && trigger.closest(".course-info-control");
+  const popover = control && control.querySelector(".course-info-popover");
+  if (!popover || control.matches(":focus-within") || popover.matches(":hover")) return;
+  popover.hidden = true;
+  trigger.setAttribute("aria-expanded", "false");
+}
+
+function closeDesktopCourseInfo(trigger) {
+  const popover = trigger && trigger.closest(".course-info-control")?.querySelector(".course-info-popover");
+  if (!popover) return;
+  popover.hidden = true;
+  trigger.setAttribute("aria-expanded", "false");
 }
 
 export function createSectionGroupTitle(label, required, className) {
@@ -529,6 +631,22 @@ export function initializeCourseSearch(options) {
     form.autoSearch = autoSearch;
   }
   document.addEventListener("click", (event) => {
+    const infoTrigger = event.target.closest(".course-info-trigger");
+    if (infoTrigger) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (isMobileViewport()) openMobileCourseInfoSheet(infoTrigger);
+      else {
+        const expanded = infoTrigger.getAttribute("aria-expanded") === "true";
+        if (expanded) hideDesktopCourseInfo(infoTrigger);
+        else showDesktopCourseInfo(infoTrigger);
+      }
+      return;
+    }
+    if (event.target.closest("[data-close-course-info]")) {
+      closeMobileCourseInfoSheet();
+      return;
+    }
     if (event.target.closest("#filterToggle")) {
       if (areCourseFiltersOpen()) closeCourseFilters();
       else openCourseFilters();
@@ -570,18 +688,33 @@ export function initializeCourseSearch(options) {
   document.addEventListener("mouseover", (event) => {
     const row = event.target.closest(".section-choice-row");
     if (row && !row.contains(event.relatedTarget)) showSectionGhost(row);
+    const infoControl = event.target.closest(".course-info-control");
+    const infoTrigger = infoControl && infoControl.querySelector(".course-info-trigger");
+    if (infoTrigger && !isMobileViewport() && !infoControl.contains(event.relatedTarget)) {
+      showDesktopCourseInfo(infoTrigger);
+    }
   });
   document.addEventListener("mouseout", (event) => {
     const row = event.target.closest(".section-choice-row");
     if (row && !row.contains(event.relatedTarget)) callbacks.onClearPreview();
+    const infoControl = event.target.closest(".course-info-control");
+    const infoTrigger = infoControl && infoControl.querySelector(".course-info-trigger");
+    if (infoTrigger && !infoControl.contains(event.relatedTarget)) {
+      window.setTimeout(() => hideDesktopCourseInfo(infoTrigger), 0);
+    }
   });
   document.addEventListener("focusin", (event) => {
     const row = event.target.closest(".section-choice-row");
     if (row) showSectionGhost(row);
+    const infoTrigger = event.target.closest(".course-info-trigger");
+    if (infoTrigger && !isMobileViewport()) showDesktopCourseInfo(infoTrigger);
   });
   document.addEventListener("focusout", (event) => {
     const row = event.target.closest(".section-choice-row");
     if (row && !row.contains(event.relatedTarget)) callbacks.onClearPreview();
+    const infoControl = event.target.closest(".course-info-control");
+    const infoTrigger = infoControl && infoControl.querySelector(".course-info-trigger");
+    if (infoTrigger) window.setTimeout(() => hideDesktopCourseInfo(infoTrigger), 0);
   });
   document.body.addEventListener("htmx:afterSwap", (event) => {
     if (event.target && event.target.id === "searchResults") {
