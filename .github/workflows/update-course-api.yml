@@ -6,7 +6,9 @@ on:
     - cron: "10 */1 * * *"
 
 concurrency:
-  group: update-course-api
+  # Course catalog and course-specific metadata publish to the same branch.
+  # Serialize both workflows so they cannot rebase/push over one another.
+  group: crimson-data-publish
   cancel-in-progress: false
 
 permissions:
@@ -49,6 +51,12 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           branch: crimson-data
           folder: _generated_site
+          # Keep the independently managed course-specific metadata folder.
+          clean-exclude: |
+            api/v1/specifics/**
           clean: true
-          single-commit: true
+          # Multiple workflows publish to this branch; preserve existing
+          # history so the action can rebase instead of replacing the branch.
+          force: false
+          attempt-limit: 5
           commit-message: "Update generated course API"

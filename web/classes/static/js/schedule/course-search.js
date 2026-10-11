@@ -1,6 +1,7 @@
 import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
 import { formatMeetingListForDisplay } from "./time-and-meetings.js";
+import { uses24HourTime } from "./preferences.js";
 
 let courseSearchRequestId = 0;
 let courseFilters = createEmptyCourseFilters();
@@ -10,7 +11,13 @@ let searchableSectionsByKey = new Map();
 const AUTO_SEARCH_DELAY_MS = 250;
 
 export function createEmptyCourseFilters() {
-  return { availability: [], delivery: [], ucore: [], };
+  return {
+    availability: [],
+    delivery: [],
+    ucore: [],
+    days: [],
+    startTimeBands: [],
+  };
 }
 
 export function getActiveFilterGroupCount() {
@@ -57,7 +64,7 @@ export function populateCourseFilterOptions() {
   
   // Populate availability filter
   populateFilterCheckboxes("availability", [
-    {value: "openOnly", label: "Open seats only"},
+    {value: "openOnly", label: "Only open classes"},
   ]);
 
   // Populate delivery filter
@@ -65,6 +72,25 @@ export function populateCourseFilterOptions() {
     { value: "in-person", label: "In person" },
     { value: "online", label: "Online" },
     { value: "arranged", label: "Arranged" },
+  ]);
+
+  // Populate day filter
+  populateFilterCheckboxes("days", [
+    { value: "M", label: "Monday" },
+    { value: "T", label: "Tuesday" },
+    { value: "W", label: "Wednesday" },
+    { value: "R", label: "Thursday" },
+    { value: "F", label: "Friday" },
+    { value: "S", label: "Saturday" },
+    { value: "U", label: "Sunday" },
+  ]);
+
+  // Populate time filter
+  populateFilterCheckboxes("startTimeBands", [
+    { value: "morning", label: "Morning", description: uses24HourTime() ? "Before 12:00" : "Before 12:00 PM" },
+    { value: "afternoon", label: "Afternoon", description: uses24HourTime() ? "12:00 – 16:59" : "12:00 PM – 4:59 PM" },
+    { value: "evening", label: "Evening", description: uses24HourTime() ? "17:00 – 20:59" : "5:00 PM – 8:59 PM" },
+    { value: "night", label: "Night", description: uses24HourTime() ? "21:00+" : "9:00 PM+" },
   ]);
 
   // Populate UCORE filter
@@ -98,7 +124,12 @@ export function populateFilterCheckboxes(filterName, options) {
           input.value = option.value;
           input.className = "course-filter-control";
           input.setAttribute("data-filter-name", filterName);
-          label.append(input, document.createTextNode(` ${option.label}`));
+          const text = document.createElement("span");
+          text.className = "filter-check-text";
+          text.appendChild(document.createTextNode(option.label));
+          if (option.description)
+            text.appendChild(createElementWithText("small", null, option.description));
+          label.append(input, text);
           return label;
         }),
       ),
@@ -115,6 +146,7 @@ export function openCourseFilters() {
       mobileFilterCloseTimer = null;
     }
     sheet.hidden = false;
+    sheet.inert = false;
     sheet.setAttribute("aria-hidden", "false");
     document.body.classList.add("mobile-filter-sheet-open");
     window.requestAnimationFrame(() => sheet.classList.add("is-open"));
@@ -140,6 +172,7 @@ export function closeCourseFilters() {
   if (popover) popover.hidden = true;
   if (sheet) {
     sheet.classList.remove("is-open");
+    sheet.inert = true;
     sheet.setAttribute("aria-hidden", "true");
     if (mobileFilterCloseTimer) window.clearTimeout(mobileFilterCloseTimer);
     mobileFilterCloseTimer = window.setTimeout(() => {
@@ -176,7 +209,6 @@ export function renderSectionChoice(course, section, choiceType) {
   const courseId = String(
     course.id === null || course.id === undefined ? "" : course.id,
   );
-  const label = choiceType === "lab" ? "Lab" : "Lecture";
   const row = document.createElement("label");
   row.className = "section-choice-row";
   const select = document.createElement("span");
@@ -201,9 +233,12 @@ export function renderSectionChoice(course, section, choiceType) {
     input,
     createElementWithText("strong", null, section.section_num),
   );
+  const openSeats = Number.isFinite(section.seats_available)
+    ? String(section.seats_available)
+    : "N/A";
   row.append(
     select,
-    createElementWithText("span", null, label),
+    createElementWithText("span", null, openSeats),
     createElementWithText("span", "time-display", section.time),
     createElementWithText("span", null, section.days),
     createElementWithText("span", null, section.location),
@@ -301,7 +336,7 @@ export function createSectionGroupTitle(label, required, className) {
 export function createSectionTable(course, sections, choiceType) {
   const table = createElementWithText("div", "section-table", "");
   const header = createElementWithText("div", "section-table-head", "");
-  ["Section", "Type", "Time", "Days", "Location", "Instructor"].forEach(
+  ["Section", "O. Seats", "Time", "Days", "Location", "Instructor"].forEach(
     (label) => header.appendChild(createElementWithText("span", null, label)),
   );
   table.appendChild(header);
@@ -517,6 +552,10 @@ export function initializeCourseSearch(options) {
     if (addButton) handleAddCourseSelection(addButton, event);
   });
   document.addEventListener("change", (event) => {
+    if (event.target.closest("#timeFormatToggle")) {
+      populateCourseFilterOptions();
+      return;
+    }
     const filterControl = event.target.closest(".course-filter-control");
     if (filterControl) {
       updateCourseFiltersFromControl(filterControl);

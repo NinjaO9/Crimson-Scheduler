@@ -122,6 +122,21 @@ describe('CourseApi', () => {
             .toEqual([121, 221]);
     });
 
+    it('matches manually configured subject shorthands', () => {
+        const courses = api.normalizePayload({
+            subjects: [{
+                subject: 'CPT_S',
+                courses: [{ courseNumber: 121, courseName: 'Programming Methods', sections: [{ sln: 1 }] }],
+            }],
+        });
+
+        expect(api.subjectShorthands.get('cpts')).toBe('CPT_S');
+        expect(api.subjectShorthands.get('cs')).toBe('CPT_S');
+        expect(api.filterCourses(courses, { q: 'cpts' })).toHaveLength(1);
+        expect(api.filterCourses(courses, { q: 'cs 121' })).toHaveLength(1);
+        expect(api.filterCourses(courses, { q: 'MATH 121' })).toHaveLength(0);
+    });
+
     it('filters sections by availability and delivery', () => {
         const courses = api.normalizePayload({
             subjects: [{
@@ -140,6 +155,89 @@ describe('CourseApi', () => {
         expect(open[0].lecture_sections.map(section => section.section_id)).toEqual(['1']);
         const arranged = api.filterCourses(courses, { q: 'TEST', delivery: ['arranged'] });
         expect(arranged[0].lecture_sections.map(section => section.section_id)).toEqual(['2']);
+    });
+
+    it('filters lecture sections by meeting days and start-time bands', () => {
+        const courses = api.normalizePayload({
+            subjects: [{
+                subject: 'TEST',
+                courses: [{
+                    courseNumber: 200,
+                    hasRequiredLab: true,
+                    sections: [
+                        {
+                            sln: 1,
+                            meetings: [
+                                { days: 'M', time: '09:00 - 09:50' },
+                                { days: 'W', time: '18:00 - 18:50' },
+                            ],
+                        },
+                        { sln: 2, meetings: [{ days: 'TU', time: '12:00 - 12:50' }] },
+                        { sln: 3, meetings: [{ days: 'F', time: '21:00 - 21:50' }] },
+                        { sln: 4, days: 'ARR', time: 'ARR' },
+                        { sln: 5, isLab: true, days: 'M', time: '08:00 - 08:50' },
+                    ],
+                }],
+            }],
+        });
+
+        const onMonday = api.filterCourses(courses, { q: 'TEST', days: ['M'] });
+        expect(onMonday[0].lecture_sections.map(section => section.section_id)).toEqual(['1']);
+        expect(onMonday[0].lab_sections.map(section => section.section_id)).toEqual(['5']);
+
+        const afternoon = api.filterCourses(courses, {
+            q: 'TEST', startTimeBands: ['afternoon'],
+        });
+        expect(afternoon[0].lecture_sections.map(section => section.section_id)).toEqual(['2']);
+        expect(api.meetingDays('TU')).toEqual(['T']);
+
+        const late = api.filterCourses(courses, {
+            q: 'TEST', startTimeBands: ['evening', 'night'],
+        });
+        expect(late[0].lecture_sections.map(section => section.section_id)).toEqual(['1', '3']);
+    });
+
+    it('requires the same lecture meeting to match combined day and time filters', () => {
+        const courses = api.normalizePayload({
+            subjects: [{
+                subject: 'TEST',
+                courses: [{
+                    courseNumber: 300,
+                    sections: [
+                        {
+                            sln: 1,
+                            meetings: [
+                                { days: 'M', time: '09:00 - 09:50' },
+                                { days: 'W', time: '18:00 - 18:50' },
+                            ],
+                        },
+                        { sln: 2, meetings: [{ days: 'M', time: '18:00 - 18:50' }] },
+                        { sln: 3, days: 'ARR', time: 'ARR' },
+                    ],
+                }],
+            }],
+        });
+
+        const matches = api.filterCourses(courses, {
+            q: 'TEST',
+            days: ['M'],
+            startTimeBands: ['evening'],
+        });
+        expect(matches[0].lecture_sections.map(section => section.section_id)).toEqual(['2']);
+
+        expect(api.filterCourses(courses, {
+            q: 'TEST',
+            days: ['F'],
+        })).toEqual([]);
+        expect(api.filterCourses(courses, {
+            q: 'TEST',
+            startTimeBands: ['morning'],
+        })[0].lecture_sections.map(section => section.section_id)).toEqual(['1']);
+
+        expect(api.startTimeBand('11:59 - 12:50')).toBe('morning');
+        expect(api.startTimeBand('12:00 - 12:50')).toBe('afternoon');
+        expect(api.startTimeBand('17:00 - 17:50')).toBe('evening');
+        expect(api.startTimeBand('21:00 - 21:50')).toBe('night');
     });
 
     it('returns an empty result for malformed payloads', () => {

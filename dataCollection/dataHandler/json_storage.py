@@ -100,6 +100,7 @@ class JsonStorageHandler:
         return {
             'course': primary_course.name,
             'subject': primary_course.subject,
+            'subjectPrefix': cls.clean(primary_course.metadata.get('prefix')),
             'courseNumber': primary_course.number,
             'courseCode': f'{primary_course.subject} {primary_course.number}',
             'credits': str(primary_course.credits),

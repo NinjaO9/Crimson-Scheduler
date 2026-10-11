@@ -156,4 +156,5 @@ class DataHandler:
             ucore=cls._to_str(course.get('ucore')),
             coop=(cls._to_str(course.get('coop')) != ''),
             footnotes=cls._to_str(course.get('footnotes')),
+            metadata=course,
         )

@@ -71,6 +71,7 @@ export function openMobileMiscSheet(trigger) {
   if (!sheet || !toggle) return;
   activeMobileMiscTrigger = trigger || toggle;
   sheet.hidden = false;
+  sheet.inert = false;
   sheet.setAttribute("aria-hidden", "false");
   toggle.setAttribute("aria-expanded", "true");
   document.body.classList.add("mobile-misc-sheet-open");
@@ -85,6 +86,7 @@ export function closeMobileMiscSheet({ restoreFocus = true } = {}) {
 
   if (!sheet || !sheet.classList.contains("is-open")) return;
   sheet.classList.remove("is-open");
+  sheet.inert = true;
   sheet.setAttribute("aria-hidden", "true");
   if (toggle) toggle.setAttribute("aria-expanded", "false");
   document.body.classList.remove("mobile-misc-sheet-open");

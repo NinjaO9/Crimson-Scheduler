@@ -255,6 +255,15 @@ export function buildCourseTooltip(courseData) {
     "",
     courseData.location || "Location: N/A",
   );
+  if (courseData.ucore != "")
+  {
+    appendTextElement(
+      fragment,
+      "div",
+      "",
+      `UCore: ${courseData.ucore}`,
+    );
+  }
   appendTextElement(
     fragment,
     "div",
@@ -297,6 +306,8 @@ export function openMobileConflictSheet(triggerBlock, courseData, conflicts) {
     ),
   );
   optionsContainer.replaceChildren(fragment);
+  sheet.hidden = false;
+  sheet.inert = false;
   sheet.classList.add("is-open");
   sheet.setAttribute("aria-hidden", "false");
   document.body.classList.add("mobile-conflict-sheet-open");
@@ -307,8 +318,12 @@ export function closeMobileConflictSheet() {
   const sheet = document.getElementById("mobileConflictSheet");
   if (!sheet || !sheet.classList.contains("is-open")) return;
   sheet.classList.remove("is-open");
+  sheet.inert = true;
   sheet.setAttribute("aria-hidden", "true");
   document.body.classList.remove("mobile-conflict-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
   if (
     activeMobileConflictTrigger &&
     document.contains(activeMobileConflictTrigger)
@@ -361,7 +376,17 @@ export function openMobileCourseSheet(trigger, courseData) {
     "mobile-course-meta",
     `Credits: ${courseData.credits || "0"}`,
   );
+  if (courseData.ucore != '')
+  {
+    appendTextElement(
+      details,
+      "div",
+      "mobile-course-meta",
+      `UCore: ${courseData.ucore}`,
+    );
+  }
   sheet.hidden = false;
+  sheet.inert = false;
   sheet.setAttribute("aria-hidden", "false");
   document.body.classList.add("mobile-course-sheet-open");
   window.requestAnimationFrame(() => sheet.classList.add("is-open"));
@@ -373,6 +398,7 @@ export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
 
   if (!sheet || !sheet.classList.contains("is-open")) return;
   sheet.classList.remove("is-open");
+  sheet.inert = true;
   sheet.setAttribute("aria-hidden", "true");
   document.body.classList.remove("mobile-course-sheet-open");
   window.setTimeout(() => {
@@ -499,6 +525,15 @@ export function renderMiscList(items) {
       "",
       `Instructor: ${item.instructor || "N/A"}`,
     );
+    if (item.ucore != "")
+    {
+      appendTextElement(
+        meta,
+        "span",
+        "",
+        `UCore: ${item.ucore}`,
+      );
+    }
     details.appendChild(meta);
     const removeButton = createElementWithText(
       "button",

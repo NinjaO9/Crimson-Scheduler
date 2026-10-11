@@ -9,9 +9,11 @@
 {% endblock %}
 
 {% block content %}
-<div class="schedule-app">
+<main class="schedule-app" aria-label="Schedule builder">
     <div class="schedule-shell" data-active-mobile-pane="search">
-        <aside class="search-pane mobile-pane is-active" data-mobile-pane="search">
+        <section class="search-pane mobile-pane is-active"
+                 data-mobile-pane="search"
+                 aria-label="Course search">
             <form id="courseSearchForm">
                 <div class="field-grid">
                     <div class="field">
@@ -54,61 +56,88 @@
 
                 <section class="filter-popover" id="desktopFilterPopover" aria-label="Course filters" hidden>
                     <div class="filter-surface-header">
-                        <h2>Filters</h2>
+                        <div class="filter-heading">
+                            <h2>Filters</h2>
+                        </div>
                         <button type="button" class="filter-done-btn" data-close-filters>Done</button>
                     </div>
                     <div class="filter-groups" data-filter-panel="desktop">
-                        <fieldset class="filter-group">
-                            <legend>Availability</legend>
+                        <fieldset class="filter-group filter-group-availability">
+                            <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M17 21V16M7 21V16M12 16H7c-.985 0-1.478 0-1.775-.324-.297-.324-.26-.775-.18-1.675.055-.65.182-1.088.468-1.415C6.025 12 6.85 12 8.5 12h7c1.65 0 2.475 0 2.987.586.286.327.412.765.468 1.415.08.9.117 1.351-.18 1.675C18.478 16 17.985 16 17 16h-1M7 8c0-1.869 0-2.804.402-3.5A4 4 0 0 1 8.5 3.402C9.196 3 10.131 3 12 3s2.804 0 3.5.402A4 4 0 0 1 16.598 4.5C17 5.196 17 6.131 17 8v4H7V8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Availability</legend>
                             <div class="filter-checkbox-list" data-filter-options="availability"></div>
                         </fieldset>
-                        <fieldset class="filter-group">
-                            <legend>Delivery</legend>
+                        <fieldset class="filter-group filter-group-delivery">
+                            <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 512 512"><path fill="currentColor" d="M0 158.694v60.921h110.641l93.921-60.921H0Zm307.438 0 93.921 60.921H512v-60.921H307.438ZM240.779 26.873v108.331l15.221-9.873 15.221 9.873v-24.171l98.654-36.455-129.096-47.705ZM367.034 364.262c-8.051 0-14.6 6.549-14.6 14.6v106.264h29.2V378.861c0-8.05-6.549-14.599-14.6-14.599Zm-222.068 0c-8.051 0-14.6 6.549-14.6 14.6v106.264h29.2V378.861c0-8.05-6.55-14.599-14.6-14.599Zm111.034 0c-8.05 0-14.599 6.549-14.599 14.599v106.265h29.199V378.861c0-8.05-6.549-14.599-14.6-14.599Zm0-121.247c-9.427 0-17.097 7.669-17.097 17.097s7.67 17.097 17.097 17.097 17.097-7.67 17.097-17.097-7.67-17.097-17.097-17.097ZM256 161.616l-125.633 81.49v93.155a45.043 45.043 0 0 1 59.642 42.599v106.264h20.949V378.86c0-24.836 20.206-45.042 45.042-45.042s45.042 20.206 45.042 45.042v106.265h20.949V378.861a45.043 45.043 0 0 1 59.642-42.599v-93.155L256 161.616Zm0 146.035c-26.213 0-47.539-21.326-47.539-47.539s21.326-47.539 47.539-47.539 47.539 21.326 47.539 47.539-21.326 47.539-47.539 47.539ZM0 250.058v235.068h99.924V250.058H0Zm65.183 190.91H34.74v-33.69h30.443v33.69Zm0-56.532H34.74v-33.69h30.443v33.69Zm0-56.531H34.74v-33.69h30.443v33.69ZM412.076 250.058v235.068H512V250.058h-99.924Zm65.183 190.91h-30.443v-33.69h30.443v33.69Zm0-56.532h-30.443v-33.69h30.443v33.69Zm0-56.531h-30.443v-33.69h30.443v33.69Z"/></svg></span>Delivery</legend>
                             <div class="filter-checkbox-list" data-filter-options="delivery"></div>
                         </fieldset>
-                        <fieldset class="filter-group">
-                            <legend>UCORE</legend>
+                        <fieldset class="filter-group filter-group-ucore">
+                            <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M6 11v5c3 3 9 3 12 0v-5M21 9v6"/></svg></span>UCORE</legend>
                             <div class="filter-checkbox-list" data-filter-options="ucore"></div>
                         </fieldset>
+                        <fieldset class="filter-group filter-group-days">
+                            <legend>
+                                <span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></span>Meets on:</legend>
+                            <div class="filter-checkbox-list" data-filter-options="days"></div>
+                        </fieldset>
+                        <fieldset class="filter-group filter-group-time">
+                            <legend>
+                                <span class="filter-section-icon filter-clock-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                                </span>
+                                <span>Starts in:<small>Select the time range for when the class starts.</small></span>
+                            </legend>
+                            <div class="filter-checkbox-list" data-filter-options="startTimeBands"></div>
+                        </fieldset>
                     </div>
-                    <button type="button" class="clear-filters-btn" data-clear-filters>Clear filters</button>
+                    <button type="button" class="clear-filters-btn" data-clear-filters>Clear all filters</button>
                 </section>
             </form>
 
             <div id="searchResults" class="search-results">
                 <div class="empty-search">Choose a campus + term, then start typing to search courses.</div>
             </div>
-        </aside>
+        </section>
 
-        <div class="mobile-filter-sheet" id="mobileFilterSheet" aria-hidden="true" hidden>
+        <div class="mobile-filter-sheet" id="mobileFilterSheet" aria-hidden="true" hidden inert>
             <button type="button" class="mobile-filter-backdrop" data-close-filters aria-label="Close filters"></button>
             <section class="mobile-filter-panel" role="dialog" aria-modal="true" aria-labelledby="mobileFilterTitle">
                 <div class="mobile-filter-grabber" aria-hidden="true"></div>
                 <div class="filter-surface-header">
-                    <h2 id="mobileFilterTitle">Filters</h2>
+                    <div class="filter-heading">
+                        <svg class="filter-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="11" cy="18" r="2"/></svg>
+                        <h2 id="mobileFilterTitle">Filters</h2>
+                    </div>
                     <button type="button" class="filter-done-btn" data-close-filters>Done</button>
                 </div>
                 <div class="filter-groups" data-filter-panel="mobile">
-                    <fieldset class="filter-group">
-                        <legend>Availability</legend>
-                        <div class="filter-checkbox-list">
+                    <fieldset class="filter-group filter-group-availability">
+                        <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M17 21V16M7 21V16M12 16H7c-.985 0-1.478 0-1.775-.324-.297-.324-.26-.775-.18-1.675.055-.65.182-1.088.468-1.415C6.025 12 6.85 12 8.5 12h7c1.65 0 2.475 0 2.987.586.286.327.412.765.468 1.415.08.9.117 1.351-.18 1.675C18.478 16 17.985 16 17 16h-1M7 8c0-1.869 0-2.804.402-3.5A4 4 0 0 1 8.5 3.402C9.196 3 10.131 3 12 3s2.804 0 3.5.402A4 4 0 0 1 16.598 4.5C17 5.196 17 6.131 17 8v4H7V8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Availability</legend>
                         <div class="filter-checkbox-list" data-filter-options="availability"></div>
-                        </div>
                     </fieldset>
-                    <fieldset class="filter-group">
-                        <legend>Delivery</legend>
+                    <fieldset class="filter-group filter-group-delivery">
+                        <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 512 512"><path fill="currentColor" d="M0 158.694v60.921h110.641l93.921-60.921H0Zm307.438 0 93.921 60.921H512v-60.921H307.438ZM240.779 26.873v108.331l15.221-9.873 15.221 9.873v-24.171l98.654-36.455-129.096-47.705ZM367.034 364.262c-8.051 0-14.6 6.549-14.6 14.6v106.264h29.2V378.861c0-8.05-6.549-14.599-14.6-14.599Zm-222.068 0c-8.051 0-14.6 6.549-14.6 14.6v106.264h29.2V378.861c0-8.05-6.55-14.599-14.6-14.599Zm111.034 0c-8.05 0-14.599 6.549-14.599 14.599v106.265h29.199V378.861c0-8.05-6.549-14.599-14.6-14.599Zm0-121.247c-9.427 0-17.097 7.669-17.097 17.097s7.67 17.097 17.097 17.097 17.097-7.67 17.097-17.097-7.67-17.097-17.097-17.097ZM256 161.616l-125.633 81.49v93.155a45.043 45.043 0 0 1 59.642 42.599v106.264h20.949V378.86c0-24.836 20.206-45.042 45.042-45.042s45.042 20.206 45.042 45.042v106.265h20.949V378.861a45.043 45.043 0 0 1 59.642-42.599v-93.155L256 161.616Zm0 146.035c-26.213 0-47.539-21.326-47.539-47.539s21.326-47.539 47.539-47.539 47.539 21.326 47.539 47.539-21.326 47.539-47.539 47.539ZM0 250.058v235.068h99.924V250.058H0Zm65.183 190.91H34.74v-33.69h30.443v33.69Zm0-56.532H34.74v-33.69h30.443v33.69Zm0-56.531H34.74v-33.69h30.443v33.69ZM412.076 250.058v235.068H512V250.058h-99.924Zm65.183 190.91h-30.443v-33.69h30.443v33.69Zm0-56.532h-30.443v-33.69h30.443v33.69Zm0-56.531h-30.443v-33.69h30.443v33.69Z"/></svg></span>Delivery</legend>
                         <div class="filter-checkbox-list" data-filter-options="delivery"></div>
                     </fieldset>
-                    <fieldset class="filter-group">
-                        <legend>UCORE</legend>
-                        <div class="filter-checkbox-list" data-filter-options="ucore"></div>                        
+                    <fieldset class="filter-group filter-group-ucore">
+                        <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M6 11v5c3 3 9 3 12 0v-5M21 9v6"/></svg></span>UCORE</legend>
+                        <div class="filter-checkbox-list" data-filter-options="ucore"></div>
+                    </fieldset>
+                    <fieldset class="filter-group filter-group-days">
+                        <legend><span class="filter-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></span>Meets on:</legend>
+                        <div class="filter-checkbox-list" data-filter-options="days"></div>
+                    </fieldset>
+                    <fieldset class="filter-group filter-group-time">
+                        <legend><span class="filter-section-icon filter-clock-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><span>Starts in:<small>Select the time range for when the class starts.</small></span></legend>
+                        <div class="filter-checkbox-list" data-filter-options="startTimeBands"></div>
                     </fieldset>
                 </div>
-                <button type="button" class="clear-filters-btn" data-clear-filters>Clear filters</button>
+                <button type="button" class="clear-filters-btn" data-clear-filters>Clear all filters</button>
             </section>
         </div>
 
-        <main class="schedule-pane mobile-pane" data-mobile-pane="schedule">
+        <section class="schedule-pane mobile-pane"
+                 data-mobile-pane="schedule"
+                 aria-label="Your schedule">
             <div class="pane-topbar">
                 <div class="schedule-title">
                     <label class="visually-hidden" for="scheduleNameInput">Schedule name</label>
@@ -162,21 +191,21 @@
                 </div>
                 <div class="misc-list" id="miscList"></div>
             </section>
-        </main>
+        </section>
     </div>
 
     <nav class="mobile-nav" aria-label="Schedule sections">
         <button type="button" class="mobile-nav-btn is-active" data-mobile-nav="search" aria-pressed="true">
-            <img src="{% static 'svgs/search.svg' %}" alt="Search Icon" width="30" height="30">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             <span>Search</span>
         </button>
         <button type="button" class="mobile-nav-btn" data-mobile-nav="schedule" aria-pressed="false">
-            <img src="{% static 'svgs/calendar.svg' %}" alt="Calendar Icon" width="30" height="30">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>
             <span>Schedule</span>
         </button>
     </nav>
 
-    <div class="mobile-conflict-sheet" id="mobileConflictSheet" aria-hidden="true">
+    <div class="mobile-conflict-sheet" id="mobileConflictSheet" aria-hidden="true" hidden inert>
         <button type="button" class="mobile-conflict-backdrop" id="mobileConflictBackdrop" aria-label="Close conflict options"></button>
         <section class="mobile-conflict-panel" role="dialog" aria-modal="true" aria-labelledby="mobileConflictTitle">
             <div class="mobile-conflict-grabber" aria-hidden="true"></div>
@@ -190,7 +219,7 @@
         </section>
     </div>
 
-    <div class="mobile-misc-sheet" id="mobileMiscSheet" aria-hidden="true" hidden>
+    <div class="mobile-misc-sheet" id="mobileMiscSheet" aria-hidden="true" hidden inert>
         <button type="button" class="mobile-misc-backdrop" data-close-misc aria-label="Close non-scheduled classes"></button>
         <section class="mobile-misc-panel" role="dialog" aria-modal="true" aria-label="Non-scheduled classes" tabindex="-1">
             <div class="mobile-misc-grabber" aria-hidden="true"></div>
@@ -198,7 +227,7 @@
         </section>
     </div>
 
-    <div class="mobile-course-sheet" id="mobileCourseSheet" aria-hidden="true" hidden>
+    <div class="mobile-course-sheet" id="mobileCourseSheet" aria-hidden="true" hidden inert>
         <button type="button" class="mobile-course-backdrop" data-close-course aria-label="Close course details"></button>
         <section class="mobile-course-panel" role="dialog" aria-modal="true" aria-labelledby="mobileCourseTitle">
             <div class="mobile-course-grabber" aria-hidden="true"></div>
@@ -210,7 +239,7 @@
             <button type="button" class="mobile-course-remove" id="mobileCourseRemove">Remove from schedule</button>
         </section>
     </div>
-</div>
+</main>
 {% endblock %}
 
 {% block scripts %}
