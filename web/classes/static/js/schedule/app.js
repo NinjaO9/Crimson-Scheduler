@@ -55,6 +55,15 @@ import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
 import { initializeCatalogFreshness } from "./catalog-freshness.js";
 
+/**
+ * Initializes the schedule application, including its state, catalog freshness,
+ * course search, schedule sharing, and export functionality. Registers event
+ * handlers for schedule management, mobile navigation, display options, and
+ * keyboard interactions, then hydrates the saved schedule from the course
+ * catalog and refreshes the rendered schedule.
+ *
+ * @returns {void}
+ */
 export function initializeScheduleApp() {
   initializeCatalogFreshness();
   initializeScheduleState();

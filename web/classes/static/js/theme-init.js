@@ -10,6 +10,11 @@
 (function () {
     const STORAGE_KEY = 'crimson-theme';
 
+    /**
+     * Attempts to read the stored theme in local storage.
+     *
+     * @returns {string|null} String indicating the stored theme, if it exists. `null` otherwise.
+     */
     function readStoredTheme() {
         try {
             const storedTheme = window.localStorage.getItem(STORAGE_KEY);
@@ -19,10 +24,22 @@
         }
     }
 
+    /**
+     * Retrieves the system's theme.
+     *
+     * @returns {string} String indicating light or dark mode based on system preferences.
+     */
     function getSystemTheme() {
         return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
 
+    /**
+     * Applying given theme to site.
+     *
+     * @param {string} theme - Theme to be applied.
+     * @param {boolean} persist - Determines if the theme applied should be saved in local storage.
+     * @returns {void}
+     */
     function applyTheme(theme, persist = false) {
         const normalizedTheme = theme === 'dark' ? 'dark' : 'light';
         document.documentElement.dataset.theme = normalizedTheme;

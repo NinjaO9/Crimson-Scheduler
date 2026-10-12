@@ -16,6 +16,12 @@ export function initializeCalendarExport({
   normalizeScheduleName,
   getSchedule,
 }) {
+  /**
+   * Normalizes the schedule name and downloads the generated calendar when events exist.
+   *
+   * @returns {void}
+   * @see {@link generateCalendar}
+   */
   return function exportCalendar() {
     normalizeScheduleName();
     const name = getScheduleName();
@@ -24,6 +30,12 @@ export function initializeCalendarExport({
   };
 }
 
+/**
+ * Creates a publishing iCalendar document configured for the schedule timezone.
+ *
+ * @param {string} name - Calendar display name.
+ * @returns {Object} iCalendar generator instance.
+ */
 export function createCalendar(name) {
   const calendar = ical({
     name: name || "Crimson Scheduler",
@@ -34,6 +46,14 @@ export function createCalendar(name) {
   return calendar;
 }
 
+/**
+ * Converts schedule entries into recurring calendar events.
+ * Delegates each course entry to {@link addCourseEvents}.
+ *
+ * @param {string} name - Calendar display name.
+ * @param {Object[]} schedule - Schedule section records to export.
+ * @returns {{calendar: Object, eventCount: number}} Calendar and created-event count.
+ */
 export function generateCalendar(name, schedule) {
   const calendar = createCalendar(name);
   const eventCount = (schedule || []).reduce(
@@ -43,6 +63,15 @@ export function generateCalendar(name, schedule) {
   return { calendar, eventCount };
 }
 
+/**
+ * Adds one recurring event per resolved meeting pattern for a course section.
+ * Uses {@link getDateEnvelope}, {@link firstDateForWeekday}, and {@link withMinutes}
+ * to translate term and meeting data into calendar dates.
+ *
+ * @param {Object} calendar - iCalendar generator receiving the events.
+ * @param {Object} courseData - Course/section record with dates and meetings.
+ * @returns {number} Number of events added.
+ */
 function addCourseEvents(calendar, courseData) {
   const dates = getDateEnvelope(courseData);
   if (!dates) return 0;
@@ -68,11 +97,24 @@ function addCourseEvents(calendar, courseData) {
   return count;
 }
 
+/**
+ * Extracts a four-digit year from a term slug.
+ *
+ * @param {string} termSlug - Term identifier containing a year.
+ * @returns {number|null} Parsed year, or `null` when absent.
+ */
 export function getTermYear(termSlug) {
   const match = String(termSlug || "").match(/(?:^|-)((?:19|20)\d{2})(?:-|$)/);
   return match ? Number(match[1]) : null;
 }
 
+/**
+ * Parses a month-name/day value and validates it against a year.
+ *
+ * @param {string} value - Date text such as `Aug 24`.
+ * @param {number} year - Year used to construct the date.
+ * @returns {Date|null} Valid date, or `null` for malformed/impossible input.
+ */
 export function parseMonthDay(value, year) {
   const match = String(value || "").trim().match(/^([A-Za-z]{3,9})\s+(\d{1,2})$/);
   if (!match) return null;
@@ -83,6 +125,15 @@ export function parseMonthDay(value, year) {
   return month >= 0 && date.getMonth() === month && date.getDate() === day ? date : null;
 }
 
+/**
+ * Determines the start and end dates used for recurring course events.
+ * Prefers explicit course dates and falls back to a season-based range.
+ *
+ * @param {Object} courseData - Course record containing `term_slug` and optional dates.
+ * @returns {{start: Date, end: Date}|null} Export range, or `null` when unknown.
+ * @see {@link getTermYear}
+ * @see {@link parseMonthDay}
+ */
 export function getDateEnvelope(courseData) {
   const year = getTermYear(courseData.term_slug);
   if (!year) return null;
@@ -96,6 +147,13 @@ export function getDateEnvelope(courseData) {
   return null;
 }
 
+/**
+ * Finds the first occurrence of a Monday-based weekday on or after a start date.
+ *
+ * @param {Date} start - Date at which the search begins.
+ * @param {number} dayIndex - Monday-based weekday index from 0 through 6.
+ * @returns {Date} First matching date.
+ */
 function firstDateForWeekday(start, dayIndex) {
   const date = new Date(start);
   const mondayIndex = (date.getDay() + 6) % 7;
@@ -103,18 +161,39 @@ function firstDateForWeekday(start, dayIndex) {
   return date;
 }
 
+/**
+ * Copies a date and sets its local clock time from minutes after midnight.
+ *
+ * @param {Date} date - Date whose calendar day is retained.
+ * @param {number} minutes - Minutes after midnight.
+ * @returns {Date} New date with the requested time.
+ */
 function withMinutes(date, minutes) {
   const result = new Date(date);
   result.setHours(Math.floor(minutes / 60), minutes % 60, 0, 0);
   return result;
 }
 
+/**
+ * Copies a date and sets its time to 23:59:59.
+ *
+ * @param {Date} date - Date whose calendar day is retained.
+ * @returns {Date} End-of-day copy.
+ */
 function endOfDay(date) {
   const result = new Date(date);
   result.setHours(23, 59, 59, 0);
   return result;
 }
 
+/**
+ * Creates a temporary calendar blob and starts a browser download.
+ *
+ * @param {string} contents - Serialized iCalendar contents.
+ * @param {string} scheduleName - Name used to build the download filename.
+ * @returns {void}
+ * @see {@link safeFilename}
+ */
 function downloadCalendar(contents, scheduleName) {
   const blob = new Blob([contents], { type: "text/calendar;charset=utf-8" });
   const url = URL.createObjectURL(blob);
@@ -125,6 +204,12 @@ function downloadCalendar(contents, scheduleName) {
   URL.revokeObjectURL(url);
 }
 
+/**
+ * Converts a schedule name into a filesystem-safe `.ics` basename.
+ *
+ * @param {string} value - Candidate schedule name.
+ * @returns {string} Sanitized filename stem, defaulting to `schedule`.
+ */
 export function safeFilename(value) {
   return String(value || "schedule")
     .trim()

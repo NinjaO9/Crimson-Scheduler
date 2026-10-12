@@ -12,6 +12,13 @@ import {
   SCHEDULE_NAME_MAX_LENGTH,
 } from "./constants.js";
 
+/**
+ * Encodes UTF-8 text as URL-safe base64 without padding.
+ *
+ * @param {string} value - Text to encode.
+ * @returns {string} URL-safe base64 representation.
+ * @see {@link decodeBase64Url}
+ */
 export function encodeBase64Url(value) {
   const bytes = new TextEncoder().encode(value);
   let binary = "";
@@ -23,6 +30,13 @@ export function encodeBase64Url(value) {
     .replace(/\//g, "_")
     .replace(/=+$/g, "");
 }
+/**
+ * Decodes URL-safe, optionally unpadded base64 into UTF-8 text.
+ *
+ * @param {string} value - Encoded value to decode.
+ * @returns {string} Decoded UTF-8 text.
+ * @see {@link encodeBase64Url}
+ */
 export function decodeBase64Url(value) {
   const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
   const padded = normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "=");
@@ -31,6 +45,12 @@ export function decodeBase64Url(value) {
   for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
   return new TextDecoder().decode(bytes);
 }
+/**
+ * Groups schedule sections by term and limits the share payload size.
+ *
+ * @param {Object[]} schedule - Current schedule section records.
+ * @returns {{slug: string, slns: string[]}[]} Unique section IDs grouped by term.
+ */
 export function getCurrentScheduleTerms(schedule) {
   const terms = new Map();
   let totalSections = 0;
@@ -51,9 +71,26 @@ export function getCurrentScheduleTerms(schedule) {
     slns: Array.from(slns),
   }));
 }
+/**
+ * Serializes a schedule name and term/section references into a share code.
+ *
+ * @param {Object[]} schedule - Schedule section records to reference.
+ * @param {string} name - Schedule name stored in the payload.
+ * @returns {string} Prefixed share code suitable for copying or URLs.
+ * @see {@link getCurrentScheduleTerms}
+ * @see {@link encodeBase64Url}
+ */
 export function buildShareCode(schedule, name) {
   return `${SHARE_CODE_PREFIX}${encodeBase64Url(JSON.stringify({ n: name, terms: getCurrentScheduleTerms(schedule) }))}`;
 }
+/**
+ * Validates and decodes a share code into a bounded import payload.
+ *
+ * @param {string} code - Share code to parse.
+ * @returns {{name: string, terms: {slug: string, slns: string[]}[]}} Parsed import data.
+ * @throws {Error} If the prefix, payload, or section list is invalid.
+ * @see {@link decodeBase64Url}
+ */
 export function parseShareCode(code) {
   const normalizedCode = (code || "").trim();
   if (!normalizedCode.startsWith(SHARE_CODE_PREFIX))
@@ -98,6 +135,12 @@ export function parseShareCode(code) {
     throw new Error("This share code does not contain any sections.");
   return { name, terms };
 }
+/**
+ * Copies text when the browser exposes a secure clipboard API.
+ *
+ * @param {string} text - Text to copy.
+ * @returns {Promise<boolean>} `true` when copied, otherwise `false`.
+ */
 export async function copyTextToClipboard(text) {
   if (navigator.clipboard && window.isSecureContext) {
     await navigator.clipboard.writeText(text);
@@ -105,6 +148,14 @@ export async function copyTextToClipboard(text) {
   }
   return false;
 }
+/**
+ * Fetches referenced term datasets and reconstructs schedule section records.
+ * Missing section IDs are reported separately so the import flow can notify the user.
+ *
+ * @param {{slug: string, slns: string[]}[]} terms - Term/section references from a share code.
+ * @returns {Promise<{schedule: Object[], missing_section_ids: string[]}>} Resolved schedule and missing IDs.
+ * @see {@link parseShareCode}
+ */
 export async function fetchScheduleForTerms(terms) {
   const datasets = new Map();
   for (const term of terms)
@@ -148,6 +199,15 @@ export function initializeScheduleSharing({
   refreshSchedule,
   showSchedulePane,
 }) {
+  /**
+   * Creates share/import actions wired to the schedule state and UI callbacks.
+   * The returned methods are consumed by the page's sharing controls.
+   *
+   * @returns {{shareScheduleCode: Function, importScheduleFromShareCode: Function}}
+   *   Sharing actions for creating and importing schedule codes.
+   * @see {@link buildShareCode}
+   * @see {@link fetchScheduleForTerms}
+   */
   return {
     async shareScheduleCode() {
       setName();

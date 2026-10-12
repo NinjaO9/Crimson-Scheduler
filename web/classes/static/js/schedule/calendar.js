@@ -35,14 +35,32 @@ let activeMobileCourseTrigger = null;
 let activeMobileCourse = null;
 let removeCourse = () => {};
 
+/**
+ * Retrieves the visible days available to the user based on the viewport and preferences.
+ *
+ * @returns {Array<{key: string, label: string}>} Visible days of the week that the user can see.
+ */
 export function getVisibleDays() {
   return isMobileViewport() || hidesWeekends()
     ? DAYS_OF_WEEK.filter((day) => day.key !== "S" && day.key !== "U")
     : DAYS_OF_WEEK;
 }
+
+/**
+ * Generates CSS grid column template for the calendar based on the current viewport size and the number of visible days.
+ *
+ * @returns {string} The CSS grid column template.
+ */
 export function getCalendarColumnTemplate() {
   return `${isMobileViewport() ? "56px" : "82px"} repeat(${getVisibleDays().length}, ${isMobileViewport() ? "minmax(64px, 1fr)" : "minmax(96px, 1fr)"})`;
 }
+
+/**
+ * Builds the calendar header by adding the time label and visible day labels
+ * to the header element, adjusting day labels for mobile viewports.
+ *
+ * @returns {void}
+ */
 export function buildCalendarHeader() {
   const header = document.getElementById("calendarHeader");
   header.style.gridTemplateColumns = getCalendarColumnTemplate();
@@ -58,6 +76,13 @@ export function buildCalendarHeader() {
     header.appendChild(dayEl);
   });
 }
+
+/**
+ * Initializes the calendar grid by creating hourly 
+ * time slots and day cells for each visible day.
+ *
+ * @returns {void}
+ */
 export function initializeCalendar() {
   const calendarGrid = document.getElementById("calendarGrid");
   calendarGrid.replaceChildren();
@@ -83,6 +108,14 @@ export function initializeCalendar() {
     });
   }
 }
+
+/**
+ * Executes the applyCourseBlockStacking operation.
+ *
+ * @param {*} block - Value used by applyCourseBlockStacking.
+ * @param {*} timeRange - Value used by applyCourseBlockStacking.
+ * @returns {*} Result produced by applyCourseBlockStacking.
+ */
 export function applyCourseBlockStacking(block, timeRange) {
   const durationMinutes = Math.max(timeRange.end - timeRange.start, 0);
   const baseZIndex = Math.max(24 * 60 - durationMinutes, 1);
@@ -92,6 +125,17 @@ export function applyCourseBlockStacking(block, timeRange) {
     String(baseZIndex + 1),
   );
 }
+
+/**
+ * Renders a course block in the calendar grid for the specified day and time range,
+ * displaying course details and configuring interactions for desktop and mobile viewports.
+ * Tracks the rendered block for conflict detection and schedule layout management.
+ *
+ * @param {number} dayIndex - Index of the day on which the course is scheduled.
+ * @param {{start: number, end:number}} timeRange - The course time range in minutes from midnight.
+ * @param {Object} courseData - Course information, supplied by courseAPI.
+ * @returns {boolean} True if the course block was rendered successfully. Otherwise, false.
+ */
 export function renderCourseBlock(dayIndex, timeRange, courseData) {
   const startHour = Math.floor(timeRange.start / 60);
   const startMinute = timeRange.start % 60;
@@ -157,6 +201,14 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
   });
   return true;
 }
+
+/**
+ * Renders ghost blocks to preview a course's scheduled meeting times
+ * across all days and time ranges without actually adding it to the schedule.
+ *
+ * @param {Object} courseData - Course information supplied by courseAPI.
+ * @returns {void}
+ */
 export function renderSectionGhost(courseData) {
   resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) =>
     dayIndexes.forEach((dayIndex) =>
@@ -164,6 +216,16 @@ export function renderSectionGhost(courseData) {
     ),
   );
 }
+
+/**
+ * Renders a specific ghost block in the schedule grid to preview a course's
+ * scheduled time and meeting details without adding it as an active course block.
+ *
+ * @param {number} dayIndex - Index of the day on which the course is scheduled.
+ * @param {{start: number, end: number}} timeRange - The course time range in minutes from midnight.
+ * @param {Object} courseData - Course information supplied by courseAPI.
+ * @returns {boolean} True if the ghost block was rendered successfully. Otherwise, false.
+ */
 export function renderGhostBlock(dayIndex, timeRange, courseData) {
   const cell = document.getElementById(
     `cell-${dayIndex}-${Math.floor(timeRange.start / 60)}`,
@@ -183,17 +245,46 @@ export function renderGhostBlock(dayIndex, timeRange, courseData) {
   cell.appendChild(block);
   return true;
 }
+
+/**
+ * Removes all ghost course blocks from the calendar to clear previews.
+ *
+ * @returns {void}
+ */
 export function clearSectionGhosts() {
   document
     .querySelectorAll(".course-block.ghost")
     .forEach((block) => block.remove());
 }
+
+/**
+ * Generates a display label for a course using its course code
+ * and formatted meeting times.
+ *
+ * @param {Object} courseData - Course information supplied by courseAPI.
+ * @returns {string} The formatted course label.
+ */
 export function getCourseLabel(courseData) {
   return `${courseData.course_code} (${formatMeetingListForDisplay(courseData.time)})`;
 }
+
+/**
+ * Generates a label identifying a course section for removal actions.
+ *
+ * @param {Object} courseData - Course information supplied by courseAPI.
+ * @returns {string} The course code and section number, supplied as a removal label.
+ */
 export function getCourseRemovalLabel(courseData) {
   return `${courseData.course_code} - ${courseData.section_num}`;
 }
+
+/**
+ * Filters a course list to retain only the first occurance of eaach unique
+ * section, identifying duplicates via the section ID.
+ *
+ * @param {Object[]} courses - The list of course objects to deduplicate.
+ * @returns {Object[]} List of deduplicated courses.
+ */
 export function getUniqueCourses(courses) {
   return courses.filter(
     (course, index) =>
@@ -202,9 +293,29 @@ export function getUniqueCourses(courses) {
       ) === index,
   );
 }
+
+/**
+ * Wrapper for getUniqueCourses; retrieves all conflicting courses,
+ * showcasing them as options to resolve a conflict.
+ * 
+ * @see {@link getUniqueCourses}
+ *
+ * @param {Object} courseData - Course information supplied by courseAPI.
+ * @param {Object[]} conflicts - A list of conflicts, which conflict with courseData.
+ * @returns {*} A list of unique courses, all of which are conflicting.
+ */
 export function getConflictRemovalOptions(courseData, conflicts) {
   return getUniqueCourses([courseData, ...conflicts]);
 }
+
+/**
+ * Creates a button for removing a course from a schedule.
+ *
+ * @param {Object} courseData - Course information supplied by courseAPI.
+ * @param {string} className - CSS class name to apply to the button.
+ * @param {(sectionId: string|number) => void} onRemove - Callback invoked with the course's section key or sectionID when the button is clicked.
+ * @returns {HTMLButtonElement} The configured course removal button.
+ */
 export function createConflictRemovalButton(courseData, className, onRemove) {
   const button = createElementWithText(
     "button",
@@ -235,6 +346,14 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
   });
   return button;
 }
+
+/**
+ * Building a tooltip containing a course's identifying information, meeting, 
+ * schedule, instructor, location, UCore, and interaction instructions.
+ *
+ * @param {Object} courseData - Course inforamtion supplied by courseAPI.
+ * @returns {DocumentFragment} A document fragment containing the course tooltip content.
+ */
 export function buildCourseTooltip(courseData) {
   const fragment = document.createDocumentFragment();
   appendTextElement(
@@ -281,6 +400,15 @@ export function buildCourseTooltip(courseData) {
   );
   return fragment;
 }
+
+/**
+ * Builds a tooltip describing a time conflict and providing removal buttons
+ * for the conflicting course sections.
+ *
+ * @param {Object} courseData - Course associated with the conflict.
+ * @param {Object[]} conflicts - Courses whose meeting times overlap with the specified course.
+ * @returns {DocumentFragment} A document fragment containing the conflict message and removal options..
+ */
 export function buildConflictTooltip(courseData, conflicts) {
   const fragment = document.createDocumentFragment();
   appendTextElement(fragment, "strong", "", "Time Conflict");
@@ -292,6 +420,15 @@ export function buildConflictTooltip(courseData, conflicts) {
   );
   return fragment;
 }
+
+/**
+ * Opens the moble conflict sheet and displays options for removing a course.
+ *
+ * @param {HTMLElement} triggerBlock - Course block that triggered the conflict sheet.
+ * @param {Object} courseData - Course associated with the conflict.
+ * @param {Object[]} conflicts - Courses whose meeting times overlap with the specified course.
+ * @returns {void}
+ */
 export function openMobileConflictSheet(triggerBlock, courseData, conflicts) {
   const sheet = document.getElementById("mobileConflictSheet");
   const subtitle = document.getElementById("mobileConflictSubtitle");
@@ -321,6 +458,12 @@ export function openMobileConflictSheet(triggerBlock, courseData, conflicts) {
   const firstButton = optionsContainer.querySelector("button");
   if (firstButton) firstButton.focus({ preventScroll: true });
 }
+
+/**
+ * Closes the mobile conflict sheet.
+ *
+ * @returns {void}
+ */
 export function closeMobileConflictSheet() {
   const sheet = document.getElementById("mobileConflictSheet");
   if (!sheet || !sheet.classList.contains("is-open")) return;
@@ -339,6 +482,13 @@ export function closeMobileConflictSheet() {
   activeMobileConflictTrigger = null;
 }
 
+/**
+ * Opens the mobile course details sheet, displaying information about the selected course.
+ *
+ * @param {HTMLElement} trigger - Element that triggered the course sheet.
+ * @param {Object} courseData - Course information to display.
+ * @returns {void}
+ */
 export function openMobileCourseSheet(trigger, courseData) {
   const sheet = document.getElementById("mobileCourseSheet");
   const details = document.getElementById("mobileCourseDetails");
@@ -400,6 +550,13 @@ export function openMobileCourseSheet(trigger, courseData) {
   removeButton.focus({ preventScroll: true });
 }
 
+/**
+ * Closes the mobile course details sheet.
+ *
+ * @param {Object} [options={}] - Options controlling the sheet's closing behavior.
+ * @param {boolean} [options.restoreFocus=true] - Whether to restore focus to the triggering element.
+ * @returns {void}
+ */
 export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
   const sheet = document.getElementById("mobileCourseSheet");
 
@@ -423,6 +580,12 @@ export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
   activeMobileCourse = null;
 }
 
+/**
+ * Removes the currently selected course from the schedule
+ * and closes the mobile course details sheet without restoring focus.
+ *
+ * @returns {void}
+ */
 export function removeActiveMobileCourse() {
   if (!activeMobileCourse) return;
   const sectionId = activeMobileCourse.section_key || activeMobileCourse.section_id;
@@ -430,6 +593,12 @@ export function removeActiveMobileCourse() {
   removeCourse(sectionId);
 }
 
+/**
+ * Adds course's scheduled meeting blocks to the schedule.
+ *
+ * @param {Object} courseData - Course information used to determine the scheduled meeting groups and block locations.
+ * @returns {number} The number of calendar blocks succesfully rendered.
+ */
 export function addCourseToCalendar(courseData) {
   let renderedCount = 0;
   resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) =>
@@ -440,17 +609,24 @@ export function addCourseToCalendar(courseData) {
   );
   return renderedCount;
 }
+
+/**
+ * Detects overlapping course time ranged within each calendar day, highlighting conflicting blocks,
+ * and updates their tooltips with course removal options.
+ *
+ * @returns {void}
+ */
 export function applyOverlapHighlighting() {
-  Object.keys(renderedBlocksByDay).forEach((dayKey) => {
+  Object.keys(renderedBlocksByDay).forEach((dayKey) => { // for every day, check for a conflict
     const dayBlocks = renderedBlocksByDay[dayKey];
     if (!dayBlocks || dayBlocks.length < 2) return;
     const conflictsByElement = new Map();
     for (let i = 0; i < dayBlocks.length; i++)
       for (let j = i + 1; j < dayBlocks.length; j++) {
-        if (
+        if ( // if there exists a course that starts before the other ends, then there is a conflict.
           Math.max(dayBlocks[i].start, dayBlocks[j].start) <
           Math.min(dayBlocks[i].end, dayBlocks[j].end)
-        ) {
+        ) { // if there is a conflict, add the courses to each other's conflict list
           dayBlocks[i].element.classList.add("conflict");
           dayBlocks[j].element.classList.add("conflict");
           if (!conflictsByElement.has(dayBlocks[i].element))
@@ -465,7 +641,7 @@ export function applyOverlapHighlighting() {
             .push(dayBlocks[i].course);
         }
       }
-    dayBlocks.forEach((dayBlock) => {
+    dayBlocks.forEach((dayBlock) => { // If courses have a conflict, generate their conflict tooltip
       const conflicts = conflictsByElement.get(dayBlock.element);
       if (!conflicts || !conflicts.length) return;
       const tooltip = dayBlock.element.querySelector(".course-block-tooltip");
@@ -479,6 +655,13 @@ export function applyOverlapHighlighting() {
     });
   });
 }
+
+/**
+ * Calculates the total credis for the supplied schedule and updates the credit count.
+ *
+ * @param {Object[]} scheduleData - List of the scheduled courses.
+ * @returns {void}
+ */
 export function updateCreditCount(scheduleData) {
   const total = scheduleData.reduce((sum, item) => {
     const credits = parseFloat(
@@ -490,13 +673,20 @@ export function updateCreditCount(scheduleData) {
     ? total
     : total.toFixed(1);
 }
+
+/**
+ * Render the list of unscheduled courses.
+ *
+ * @param {Object[]} items - List of unscheduled course objects to display.
+ * @returns {void}
+ */
 export function renderMiscList(items) {
   const miscList = document.getElementById("miscList");
   const countLabel = `(${items.length})`;
   document.getElementById("miscCount").textContent = countLabel;
   const mobileCount = document.getElementById("mobileMiscCount");
   if (mobileCount) mobileCount.textContent = countLabel;
-  if (!items.length) {
+  if (!items.length) { // Default text if there are no items
     miscList.replaceChildren(
       createElementWithText(
         "div",
@@ -507,7 +697,7 @@ export function renderMiscList(items) {
     return;
   }
   const fragment = document.createDocumentFragment();
-  items.forEach((item) => {
+  items.forEach((item) => { // Generating a block for each item
     const miscItem = document.createElement("div");
     miscItem.className = "misc-item";
     const details = document.createElement("div");
@@ -558,6 +748,16 @@ export function renderMiscList(items) {
   });
   miscList.replaceChildren(fragment);
 }
+
+/**
+ * Renders the complete schedule by rebuilding the schedule, placing scheduled courses,
+ * finding overlaps, updating the credit count, and displaying misc. courses.
+ *
+ * @param {Object[]} scheduleData - List of course objects in the schedule.
+ * @param {Object} options - Configuration options for rendering the schedule.
+ * @param {(sectionId: string|number) => void)} { options.onRemove } - Configuration options for rendering the schedule.
+ * @returns {void}
+ */
 export function renderSchedule(scheduleData, { onRemove }) {
   removeCourse = onRemove;
   clearSectionGhosts();

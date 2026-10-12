@@ -8,6 +8,14 @@
 import { DAY_TOKEN_MAP, DAYS_OF_WEEK } from "./constants.js";
 import { uses24HourTime } from "./preferences.js";
 
+/**
+ * Formats one meeting-time token using the active 12/24-hour preference.
+ *
+ * @param {string} token - Time token to normalize and display.
+ * @returns {string} Formatted time, or the original token when unparsable.
+ * @see {@link timeToMinutes}
+ * @see {@link formatMinutesAs12Hour}
+ */
 export function formatTimeTokenForDisplay(token) {
   const normalized = (token || "").trim();
   const minutes = timeToMinutes(normalized);
@@ -19,11 +27,24 @@ export function formatTimeTokenForDisplay(token) {
     : formatMinutesAs12Hour(minutes);
 }
 
+/**
+ * Converts minutes after midnight into a 12-hour clock label.
+ *
+ * @param {number} minutes - Minutes after midnight.
+ * @returns {string} Time label with an AM/PM suffix.
+ */
 export function formatMinutesAs12Hour(minutes) {
   const hours = Math.floor(minutes / 60);
   return `${hours % 12 || 12}:${String(minutes % 60).padStart(2, "0")} ${hours >= 12 ? "PM" : "AM"}`;
 }
 
+/**
+ * Formats a meeting range while preserving arranged or unavailable markers.
+ *
+ * @param {string} timeRange - Range such as `09:00-10:00`.
+ * @returns {string} Display-ready range.
+ * @see {@link formatTimeTokenForDisplay}
+ */
 export function formatTimeRangeForDisplay(timeRange) {
   const normalized = (timeRange || "").trim();
   if (!normalized || normalized === "ARR" || normalized === "N/A")
@@ -33,14 +54,33 @@ export function formatTimeRangeForDisplay(timeRange) {
   return `${formatTimeTokenForDisplay(parts[0])} - ${formatTimeTokenForDisplay(parts[1])}`;
 }
 
+/**
+ * Formats a semicolon-separated list of meeting ranges.
+ *
+ * @param {string} timeValue - Meeting ranges separated by semicolons.
+ * @returns {string} Formatted meeting list.
+ * @see {@link formatTimeRangeForDisplay}
+ */
 export function formatMeetingListForDisplay(timeValue) {
   return (timeValue || "").split(";").map(formatTimeRangeForDisplay).join(";");
 }
 
+/**
+ * Formats an integer hour for the schedule grid's axis label.
+ *
+ * @param {number} hour - Hour in 24-hour notation.
+ * @returns {string} Twelve-hour label with AM/PM.
+ */
 export function formatHourLabel(hour) {
   return `${hour > 12 ? hour - 12 : hour === 0 ? 12 : hour}:00 ${hour >= 12 ? "PM" : "AM"}`;
 }
 
+/**
+ * Parses common 12-hour, 24-hour, compact, and bare-hour time formats.
+ *
+ * @param {string} timeStr - Time text to parse.
+ * @returns {number|null} Minutes after midnight, or `null` if invalid.
+ */
 export function timeToMinutes(timeStr) {
   if (!timeStr) return null;
   const normalized = timeStr.trim();
@@ -68,6 +108,13 @@ export function timeToMinutes(timeStr) {
   return matchBareHour ? parseInt(matchBareHour[1], 10) * 60 : null;
 }
 
+/**
+ * Parses a start/end time range and propagates a lone AM/PM marker to its pair.
+ *
+ * @param {string} timeStr - Range text using a hyphen or the word `to`.
+ * @returns {{start: number, end: number}|null} Minute range, or `null` if invalid.
+ * @see {@link timeToMinutes}
+ */
 export function parseTimeRange(timeStr) {
   if (!timeStr || timeStr === "N/A") return null;
   const normalizedStr = timeStr
@@ -94,6 +141,12 @@ export function parseTimeRange(timeStr) {
   return start === null || end === null || end <= start ? null : { start, end };
 }
 
+/**
+ * Converts day abbreviations into unique Monday-based weekday indexes.
+ *
+ * @param {string} daysStr - Day text such as `MWF` or `Tue/Thu`.
+ * @returns {number[]} Weekday indexes in first-seen order.
+ */
 export function parseDaysToIndexes(daysStr) {
   if (!daysStr) return [];
   const upper = daysStr.toUpperCase().trim();
@@ -121,6 +174,15 @@ export function parseDaysToIndexes(daysStr) {
   return indexes;
 }
 
+/**
+ * Parses course data whose comma-separated days pair with semicolon-separated times.
+ *
+ * @param {Object} courseData - Course section containing `days` and `time` strings.
+ * @returns {{dayIndexes: number[], timeRange: {start: number, end: number}}[]|null}
+ *   Paired meeting groups, or `null` when the lists are not aligned.
+ * @see {@link parseDaysToIndexes}
+ * @see {@link parseTimeRange}
+ */
 export function tryParsePairedDayTimeLists(courseData) {
   const rawDayTokens = (courseData.days || "")
     .split(",")
@@ -148,6 +210,15 @@ export function tryParsePairedDayTimeLists(courseData) {
   return pairs;
 }
 
+/**
+ * Resolves all day/time meeting groups, including legacy swapped-field data.
+ * Tries paired lists first, then falls back to one normal or swapped group.
+ *
+ * @param {Object} courseData - Course section containing day/time data.
+ * @returns {{dayIndexes: number[], timeRange: {start: number, end: number}}[]}
+ *   Resolved groups, or an empty array when the meeting cannot be parsed.
+ * @see {@link tryParsePairedDayTimeLists}
+ */
 export function resolveScheduleGroups(courseData) {
   const pairedGroups = tryParsePairedDayTimeLists(courseData);
   if (pairedGroups) return pairedGroups;
