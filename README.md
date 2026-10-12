@@ -8,19 +8,18 @@ Users can choose a campus and term, search the published course catalog, and sel
 
 ## Features
 
-- Search courses by subject, number, course code, or title
-- Load the available WSU campus/term catalog dynamically and cache a term's course data in the browser for the current visit.
-- Filter results by open seats, delivery type (in person, online, or arranged), and UCORE designation.
+- Search courses by subject, number, course code, or title.
+- Filter results by open seats, delivery type, UCORE, meeting times, and more!
 - Review section number, meeting time, location, instructor, enrollment, and UCORE information before adding a class.
 - Choose lecture and lab sections together when a course requires a lab; removing either removes the paired selection.
-- Preview a section on the calendar while hovering or focusing it in the search results.
-- Render classes in a weekly calendar, flag overlapping meeting times, and provide direct removal controls for conflicts.
-- Keep arranged, TBA, online, and other unscheduled sections in a separate list instead of dropping them from the schedule.
+- Before adding a section, you can see a temporary block to show how the course may look in your schedule before officially adding it.
+- Course conflicts are flagged and made visual for the user to notice and resolve.
+- Arranged, TBA, online, and other unscheduled sections are placed in a separate list from the schedule.
 - Track total credits, rename the schedule, and clear the schedule when needed.
 - Export a calendar image (PNG) or a recurring `.ics` calendar file for compatible calendar apps.
-- Create and import compact share codes. Imported schedules are rebuilt from the latest published course data, so unavailable sections are reported instead of silently added.
-- Persist the schedule, name, display settings, and theme locally in the browser; no user account required.
-- Offer responsive desktop and mobile layouts, dark mode, 24-hour time, optional weekends, instructor/section labels, accessible filter controls, and in-app guidance.
+- Share calendars with friends using Share Codes! This can also be used to transfer your schedule across devices.
+- Your chosen courses, schedule configurations, and site settings are saved for your next visit.
+- Responsive desktop and mobile layouts, dark mode, 24-hour time, optional weekends, instructor/section labels, accessible filter controls, and in-app guidance.
 
 ## Mobile UI
 
@@ -32,9 +31,9 @@ Users can choose a campus and term, search the published course catalog, and sel
 
 The deployed application is a Django UI backed by a versioned, static course-data API hosted from the repository's `crimson-data` GitHub Pages branch. The browser fetches a catalog first, then retrieves only the selected campus/term JSON file. Search and filtering run client-side, which keeps normal course browsing off the Django database and avoids repeated requests to WSU while a user types.
 
-Course data originates from WSU's public schedule endpoints. The scheduled GitHub Actions workflow regenerates the static catalog hourly and publishes it to the data branch. Section availability and other catalog details can therefore lag behind the official registration systems.
+Course data originates from WSU's public schedule endpoints. The scheduled GitHub Actions workflow regenerates the static catalog roughly every 2-3 hours and publishes it to the data branch. Section availability and other catalog details can therefore lag behind the official registration systems.
 
-The repository still includes Django models and session-backed schedule endpoints from the earlier server-backed implementation. They are retained and covered by tests, but the primary schedule-builder flow is browser-first and uses the static catalog.
+The repository still includes Django models and session-backed schedule endpoints from the earlier server-backed implementation. They are retained and covered by tests, but the primary schedule-builder flow is browser-first and uses the static catalog. The reason these models and endpoints are maintained are for history reasons.
 
 ## Tech stack
 
@@ -50,29 +49,38 @@ The repository still includes Django models and session-backed schedule endpoint
 
 ```text
 .
-|-- .github/workflows/           # CI, CodeQL, and hourly course-data publication
-|-- dataCollection/              # WSU API importer and JSON catalog generator
-|   `-- dataHandler/
-|       |-- data.py              # Requests/transforms WSU schedule data
-|       |-- generate_json.py     # Builds the static API under _generated_site/
-|       `-- json_storage.py      # Serializes catalog and campus/term JSON files
-|-- readme-images/               # README screenshots (maintained manually)
-|-- tests/                       # Vitest unit tests for browser logic
+|-- .github/
+|   `-- workflows/               # CI, security checks, and course-data publishing
+|-- dataCollection/
+|   |-- classHandler/             # Legacy WSU response/model helpers
+|   `-- dataHandler/              # Scrapers and static JSON catalog generators
+|-- _generated_site/              # Locally generated static API output
+|-- readme-images/                # README screenshots
+|-- tests/                        # Vitest tests for browser-side behavior
 |-- web/
 |   |-- classes/
-|   |   |-- static/js/           # Course API client and schedule UI modules
-|   |   |-- static/css/          # Responsive and theme styles
-|   |   |-- templates/classes/   # Builder, help, legal, and contact pages
-|   |   |-- urls.py              # App routes
-|   |   `-- views.py             # Page views and catalog bootstrap
-|   |-- manage.py
-|   `-- web/                     # Django settings and root URL configuration
-|-- package.json                 # Vite, ESLint, and Vitest commands
-|-- pyproject.toml               # Python project and Ruff configuration
-|-- requirements*.txt            # Runtime and development Python dependencies
-|-- vercel.json                  # Production build command
+|   |   |-- migrations/           # Django database migrations
+|   |   |-- static/
+|   |   |   |-- css/              # Base, schedule, and search-result styles
+|   |   |   |-- help/             # Help-guide screenshots
+|   |   |   `-- js/               # API client, schedule modules, and built bundle
+|   |   |-- templates/classes/    # Shared layout, builder, help, and legal pages
+|   |   |-- admin.py              # Optional Django admin registrations
+|   |   |-- models.py             # Legacy/server-side schedule data models
+|   |   |-- urls.py               # Application routes
+|   |   |-- views.py              # Django pages and server-side endpoints
+|   |   `-- rate_limit.py         # Redis-backed request limiting
+|   |-- manage.py                 # Django management commands
+|   `-- web/                      # Django settings, WSGI/ASGI, and root URLs
+|-- main.py                       # Legacy database importer entry point
+|-- package.json                  # Vite, ESLint, and Vitest commands
+|-- pyproject.toml                # Python tooling and Ruff configuration
+|-- requirements*.txt             # Runtime and development Python dependencies
+|-- vercel.json                   # Deployment/build configuration
 `-- README.md
 ```
+
+The browser-first schedule builder reads the published catalog from the static API and keeps a user's active schedule in local storage. The Django models, migrations, importer, and optional admin registrations remain for the server-backed schedule endpoints and maintenance workflows; they are not required to browse the published catalog.
 
 ## Local development
 
@@ -149,6 +157,7 @@ python manage.py test
 GitHub Actions runs Python and JavaScript linting, Django checks/tests, Vitest, CodeQL analysis, and the hourly data-publication workflow.
 
 ## Routes
+The table showcases all actively used routes, legacy or otherwised unused routes are not listed.
 
 | Route | Purpose |
 | --- | --- |
@@ -156,32 +165,42 @@ GitHub Actions runs Python and JavaScript linting, Django checks/tests, Vitest, 
 | `/privacy-policy/` | Privacy policy |
 | `/terms-of-service/` | Terms of service |
 | `/contact/` | Contact and feedback guidance |
-| `/admin/` | Django administration |
-| `/api/schedule-data/` | Legacy session schedule data |
-| `/api/sections-by-ids/` | Legacy section lookup endpoint |
 
 ## Privacy and data notes
 
 Schedules, display preferences, schedule names, and theme selection are stored in the browser's local storage. A legacy cookie reader is retained for older schedules, but the current builder persists new schedules in local storage. Share codes encode a schedule name and campus/term section identifiers; they are not stored on the server.
 
-The site uses Vercel Web Analytics for aggregate traffic information. Consult the in-app [Privacy Policy](/privacy-policy/) for the current details.
+The site uses Vercel Web Analytics for aggregate traffic information. Consult the in-app [Privacy Policy](https://crimsonscheduler.com/privacy-policy/) for the current details.
 
 ## Future work
 
-- [ ] Deploy and maintain the public production experience.
+- [x] Deploy and maintain the public production experience.
 - [x] Add image and calendar export.
 - [x] Add share/import codes.
 - [x] Add client-side availability, delivery, and UCORE filters.
-- [ ] Explore reliable instructor-rating links or a user-submitted rating system.
-- [ ] Improve visibility into how fresh enrollment counts are after each catalog refresh.
-- [ ] Add course descriptions, prerequisites, and degree-planning relationships when reliable source data is available.
+- [x] Explore reliable instructor-rating links or a user-submitted rating system.
+- [x] Improve visibility into how fresh enrollment counts are after each catalog refresh.
+- [x] Add course descriptions and prerequisites to course data for a more educated user experience.
+- [ ] Add degree-planning relationships to help map out course relationships and plan for future semesters.
 - [ ] Visualize walking routes between class locations.
+
+## Contributing
+
+You're free to help contribute to Crimson Scheduler!
+
+Be sure to follow the local development above to get started. Recall that Crimson Scheduler now uses the github pages API endpoint for fetching course information, NOT the PostgreSQL and Redis storage.
+
+If you plan on fixing a bug or adding a feature, please be sure to create an issue first to alert others about what you find or want to add.
+
+If any other clarifications are needed for contribution, please reach out!
 
 ## Disclaimer
 
 Crimson Scheduler is an independent third-party project. It is not affiliated with, endorsed by, sponsored by, or otherwise officially associated with Washington State University.
 
-It is a planning tool, not a registration system. Always verify course availability, meeting times, instructors, locations, prerequisites, and registration requirements through official WSU resources before enrolling.
+Always verify course availability, meeting times, instructors, locations, prerequisites, and registration requirements through official WSU resources before enrolling.
+
+You cannot enroll using Crimson Scheduler.
 
 ## License
 
