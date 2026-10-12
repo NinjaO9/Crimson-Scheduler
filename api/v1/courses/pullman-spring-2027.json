@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T07:23:45.247046+00:00",
+  "generatedAt": "2026-10-12T17:53:21.235634+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -455,7 +455,7 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,W",
-              "time": "12:45 - 14:00;11:10 - 12:00",
+              "time": "12:45 - 14:00;11:35 - 12:25",
               "meetings": [
                 {
                   "days": "M,W",
@@ -463,7 +463,7 @@
                 },
                 {
                   "days": "W",
-                  "time": "11:10 - 12:00"
+                  "time": "11:35 - 12:25"
                 }
               ],
               "location": "CUE  319",
@@ -7375,15 +7375,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "TU",
-              "time": "09:10 - 10:25",
+              "days": "TU,TH",
+              "time": "08:10 - 09:00",
               "meetings": [
                 {
-                  "days": "TU",
-                  "time": "09:10 - 10:25"
+                  "days": "TU,TH",
+                  "time": "08:10 - 09:00"
                 }
               ],
-              "location": "CUE  416",
+              "location": "CLAR 147",
               "instructor": "E ECKHARDT",
               "instructors": [
                 "E ECKHARDT"
@@ -9150,15 +9150,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "10:10 - 11:00",
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "10:10 - 11:00"
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
                 }
               ],
-              "location": "COLL 220",
+              "location": "SLOA 169",
               "instructor": "",
               "instructors": [],
               "ucore": "HUM",
@@ -9902,41 +9902,6 @@
                 "total": 50,
                 "available": 50,
                 "label": "0/50"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11335",
-              "sln": 11335,
-              "sectionNumber": 2,
-              "courseCode": "ANTH 316",
-              "courseName": "Gender in Cross Cultural Perspective",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "BRYN 305",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "DIVR",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 45,
-                "available": 45,
-                "label": "0/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19251,7 +19216,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "TERR 24",
+              "location": "CUE  412",
               "instructor": "E SCHWARTZ",
               "instructors": [
                 "E SCHWARTZ"
@@ -23886,6 +23851,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hazardous Waste Treatment",
+          "subject": "CE",
+          "subjectPrefix": "C E",
+          "courseNumber": 519,
+          "courseCode": "CE 519",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5143",
+              "sln": 5143,
+              "sectionNumber": 1,
+              "courseCode": "CE 519",
+              "courseName": "Hazardous Waste Treatment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "PETB 107",
+              "instructor": "I CHOWDHURY",
+              "instructors": [
+                "I CHOWDHURY"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -38515,7 +38528,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "THOM 201",
+              "location": "SLOA 46",
               "instructor": "G BHAT",
               "instructors": [
                 "G BHAT"
@@ -39211,7 +39224,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "THOM 201",
+              "location": "SLOA 46",
               "instructor": "G BHAT",
               "instructors": [
                 "G BHAT"
@@ -55277,6 +55290,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "5808",
+              "sln": 5808,
+              "sectionNumber": 2,
+              "courseCode": "ENGLISH 298",
+              "courseName": "Writing and Research Honors",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "",
+              "instructor": "L HUNTER",
+              "instructors": [
+                "L HUNTER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -57247,6 +57297,102 @@
           ]
         },
         {
+          "course": "Advanced Professional Writing and Editing",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 405,
+          "courseCode": "ENGLISH 405",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8939",
+              "sln": 8939,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 405",
+              "courseName": "Advanced Professional Writing and Editing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J STAGGERS",
+              "instructors": [
+                "J STAGGERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "CV",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Phonetics and Phonology",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 443,
+          "courseCode": "ENGLISH 443",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7126",
+              "sln": 7126,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 443",
+              "courseName": "Phonetics and Phonology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "TODD 211",
+              "instructor": "M THOMAS",
+              "instructors": [
+                "M THOMAS"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Form and Theory in Creative Writing",
           "subject": "ENGLISH",
           "subjectPrefix": "Engl",
@@ -57427,9 +57573,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -64278,7 +64424,7 @@
                   "time": "08:10 - 09:00"
                 }
               ],
-              "location": "CLAR 151",
+              "location": "VC   ARR",
               "instructor": "T BERNHARD",
               "instructors": [
                 "T BERNHARD"
@@ -64895,7 +65041,7 @@
                   "time": "08:10 - 09:00"
                 }
               ],
-              "location": "CLAR 151",
+              "location": "VC   ARR",
               "instructor": "T BERNHARD",
               "instructors": [
                 "T BERNHARD"
@@ -70444,52 +70590,6 @@
           ]
         },
         {
-          "course": "Queer Identities in Contemporary Cultures",
-          "subject": "HISTORY",
-          "subjectPrefix": "Hist",
-          "courseNumber": 369,
-          "courseCode": "HISTORY 369",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6936",
-              "sln": 6936,
-              "sectionNumber": 1,
-              "courseCode": "HISTORY 369",
-              "courseName": "Queer Identities in Contemporary Cultures",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "AVER 8",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "ARTS",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 9,
-                "available": 9,
-                "label": "0/9"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Modern Japanese History",
           "subject": "HISTORY",
           "subjectPrefix": "Hist",
@@ -75352,6 +75452,43 @@
                 "total": 40,
                 "available": 40,
                 "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11786",
+              "sln": 11786,
+              "sectionNumber": 5,
+              "courseCode": "HUMANITY 101",
+              "courseName": "Humanities in the Ancient World",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J FLATHERS",
+              "instructors": [
+                "J FLATHERS"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -93573,6 +93710,54 @@
           ]
         },
         {
+          "course": "Evaluating and Rewarding Employees",
+          "subject": "MGMT",
+          "subjectPrefix": "MGMT",
+          "courseNumber": 456,
+          "courseCode": "MGMT 456",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11089",
+              "sln": 11089,
+              "sectionNumber": 2,
+              "courseCode": "MGMT 456",
+              "courseName": "Evaluating and Rewarding Employees",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "W LARSON",
+              "instructors": [
+                "W LARSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Mar 08",
+                "end": "May 02"
+              }
+            }
+          ]
+        },
+        {
           "course": "Management of Innovation and Change",
           "subject": "MGMT",
           "subjectPrefix": "MGMT",
@@ -97630,7 +97815,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "SLOA 169",
+              "location": "SLOA 46",
               "instructor": "M SONG",
               "instructors": [
                 "M SONG"
@@ -97756,11 +97941,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "11:10 - 12:00",
+              "time": "13:10 - 14:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "11:10 - 12:00"
+                  "time": "13:10 - 14:00"
                 }
               ],
               "location": "SLOA 46",
@@ -97804,11 +97989,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "13:10 - 14:00",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "13:10 - 14:00"
+                  "time": "11:10 - 12:00"
                 }
               ],
               "location": "SLOA 46",
@@ -141927,43 +142112,6 @@
           "credits": "3",
           "hasRequiredLab": false,
           "sections": [
-            {
-              "sectionId": "11383",
-              "sln": 11383,
-              "sectionNumber": 1,
-              "courseCode": "WGSS 316",
-              "courseName": "Gender in Cross Cultural Perspective",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "BRYN 305",
-              "instructor": "J MCNASSAR",
-              "instructors": [
-                "J MCNASSAR"
-              ],
-              "ucore": "DIVR",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
             {
               "sectionId": "8833",
               "sln": 8833,

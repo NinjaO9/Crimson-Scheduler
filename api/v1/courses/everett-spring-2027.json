@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T07:23:44.975056+00:00",
+  "generatedAt": "2026-10-12T17:53:20.945695+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -663,8 +663,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "W RANEY",
+              "instructors": [
+                "W RANEY"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -698,8 +700,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "W RANEY",
+              "instructors": [
+                "W RANEY"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -864,60 +868,7 @@
     },
     {
       "subject": "COMJOUR",
-      "courses": [
-        {
-          "course": "Interviewing and Reporting for Modern Media",
-          "subject": "COMJOUR",
-          "subjectPrefix": "ComJo",
-          "courseNumber": 333,
-          "courseCode": "COMJOUR 333",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "1991",
-              "sln": 1991,
-              "sectionNumber": 2,
-              "courseCode": "COMJOUR 333",
-              "courseName": "Interviewing and Reporting for Modern Media",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,M",
-              "time": "10:35 - 11:50;12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:35 - 11:50"
-                },
-                {
-                  "days": "M",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "GUC  EVE",
-              "instructor": "C WU",
-              "instructors": [
-                "C WU"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "COMSTRAT",
