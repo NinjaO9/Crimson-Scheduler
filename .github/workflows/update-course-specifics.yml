@@ -5,7 +5,7 @@ on:
   schedule:
     # Course descriptions and prerequisites change much less frequently than
     # section availability, so refresh them once per week.
-    - cron: "30 6 * * 1"
+    - cron: "0 0 1 * *"
 
 concurrency:
   # This must match the catalog workflow: both jobs publish to crimson-data.
