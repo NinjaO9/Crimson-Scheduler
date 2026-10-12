@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Parses and formats course meeting times for schedule display.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { DAY_TOKEN_MAP, DAYS_OF_WEEK } from "./constants.js";
 import { uses24HourTime } from "./preferences.js";
 

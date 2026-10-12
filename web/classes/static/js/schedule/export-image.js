@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Exports the rendered schedule as a downloadable image.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { slugifyScheduleName } from "./preferences.js";
 import html2canvas from "html2canvas";
 import { isGoogleOrChromeMobileApp } from "./responsive.js";

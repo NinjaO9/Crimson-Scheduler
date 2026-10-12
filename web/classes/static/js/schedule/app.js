@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Coordinates schedule builder initialization and application events.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import {
   clearSectionGhosts,
   closeMobileConflictSheet,

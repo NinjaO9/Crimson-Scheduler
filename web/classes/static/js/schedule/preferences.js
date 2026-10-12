@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Reads and persists schedule display preferences in local storage.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import {
   DEFAULT_SCHEDULE_NAME,
   HIDE_WEEKENDS_STORAGE_KEY,

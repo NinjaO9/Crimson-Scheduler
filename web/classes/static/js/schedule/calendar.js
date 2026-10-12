@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Renders calendar entries and manages course interactions and conflicts.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import {
   DAYS_OF_WEEK,
   END_HOUR,

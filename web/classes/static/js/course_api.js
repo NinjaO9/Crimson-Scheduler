@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Loads, normalizes, caches, and filters published course catalog data.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 (function(window) {
     'use strict';
 

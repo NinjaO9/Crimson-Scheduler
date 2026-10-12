@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Loads and renders additional course descriptions and prerequisites.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { createElementWithText } from "./dom.js";
 
 const DEFAULT_SPECIFICS_BASE_URL =

@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Provides user-facing notifications for schedule actions and errors. Currently outdated due to lack of Redis usage in current application.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { RATE_LIMIT_TOAST_ID } from "./constants.js";
 import { createElementWithText } from "./dom.js";
 

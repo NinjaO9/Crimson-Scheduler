@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Initializes shared page theme state and responsive help content.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 (function() {
     const MOBILE_BREAKPOINT = 760;
 

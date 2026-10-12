@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Builds course search results, filters, and section selection controls.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
 import { formatMeetingListForDisplay } from "./time-and-meetings.js";

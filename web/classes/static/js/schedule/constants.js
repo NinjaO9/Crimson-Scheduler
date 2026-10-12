@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Defines shared constants and storage keys for the schedule builder.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 export const DAYS_OF_WEEK = [
   { key: "M", label: "Monday" },
   { key: "T", label: "Tuesday" },

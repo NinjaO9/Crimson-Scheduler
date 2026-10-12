@@ -1,3 +1,12 @@
+/**
+ * @fileoverview Initializes and persists the application's light and dark themes. 
+ *                 It is separate from schedule/preferences.js to prevent a weird flash due to difference in load time.
+ *                 (this is leaded before the style sheet, preferences.js is loaded after)
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 (function () {
     const STORAGE_KEY = 'crimson-theme';
 

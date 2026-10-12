@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Handles responsive panes, mobile navigation, and mobile sheets.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { MOBILE_BREAKPOINT } from "./constants.js";
 
 let activeMobileMiscTrigger = null;

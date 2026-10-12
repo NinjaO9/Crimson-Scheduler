@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Exports the active schedule as an iCalendar file.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import ical, { ICalCalendarMethod } from "ical-generator";
 import { resolveScheduleGroups } from "./time-and-meetings.js";
 

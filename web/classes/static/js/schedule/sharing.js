@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Creates, parses, and imports browser-based schedule share codes.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import {
   DEFAULT_SCHEDULE_NAME,
   MAX_SCHEDULE_SECTIONS,

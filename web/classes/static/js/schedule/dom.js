@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Provides safe DOM element and text construction helpers.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 export function createElementWithText(tagName, className, text) {
   const element = document.createElement(tagName);
   if (className) element.className = className;

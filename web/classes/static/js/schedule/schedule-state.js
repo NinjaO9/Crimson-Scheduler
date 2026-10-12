@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Manages the active schedule workspace and local persistence.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import {
   DEFAULT_SCHEDULE_NAME,
   REQUIRED_COURSE_FIELDS,
