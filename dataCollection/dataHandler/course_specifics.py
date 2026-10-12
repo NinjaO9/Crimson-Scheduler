@@ -150,7 +150,9 @@ def discover_courses(session: requests.Session, catalog_url: str) -> dict[str, d
                                         representative.get('isLab', False),
                                     )
                                 )
-                    item['offerings'].append({'campus': campus.get('campus'), 'term': term.get('term')})
+                    item['offerings'].append(
+                        {'campus': campus.get('campus'), 'term': term.get('term')}
+                    )
     return discovered
 
 
