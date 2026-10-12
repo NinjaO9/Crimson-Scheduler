@@ -239,6 +239,17 @@
             <button type="button" class="mobile-course-remove" id="mobileCourseRemove">Remove from schedule</button>
         </section>
     </div>
+
+    <div class="mobile-course-info-sheet" id="mobileCourseInfoSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="mobile-course-info-backdrop" data-close-course-info aria-label="Close additional information"></button>
+        <section class="mobile-course-info-panel" role="dialog" aria-modal="true" aria-labelledby="mobileCourseInfoTitle">
+            <div class="mobile-course-info-grabber" aria-hidden="true"></div>
+            <div class="mobile-course-info-header">
+                <h2 id="mobileCourseInfoTitle">Additional information</h2>
+            </div>
+            <div class="mobile-course-info-details"></div>
+        </section>
+    </div>
 </main>
 {% endblock %}
 
