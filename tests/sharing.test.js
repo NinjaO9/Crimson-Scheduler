@@ -1,3 +1,9 @@
+/**
+ * @fileoverview Test cases for Share Code functionality. Ensures Share Codes behave properly.
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   buildShareCode,

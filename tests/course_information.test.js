@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for the course information interface. Ensures that behavior in course_information is working as expected.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   clearCourseInformationCache,

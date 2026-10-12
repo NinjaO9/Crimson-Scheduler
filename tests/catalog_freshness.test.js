@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for items that have to do with dealing with catalog freshness. This mostly consists of just the fetching and parsing the refresh date.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { describe, expect, it } from "vitest";
 import { formatCatalogFreshness } from "../web/classes/static/js/schedule/catalog-freshness.js";
 

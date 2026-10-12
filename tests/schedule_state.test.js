@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for schedule state operations. Ensures that the schedule can behave in a predictable manner in response to its states.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   appendScheduleEntries,
