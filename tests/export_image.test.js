@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for the image export feature. Ensures that functions work properly for exporting the schedule image.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { describe, expect, it } from "vitest";
 import { getScheduleExportBackgroundColor } from "../web/classes/static/js/schedule/export-image.js";
 

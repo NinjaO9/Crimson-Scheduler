@@ -1,11 +1,31 @@
+/**
+ * @fileoverview Handles responsive panes, mobile navigation, and mobile sheets.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { MOBILE_BREAKPOINT } from "./constants.js";
 
 let activeMobileMiscTrigger = null;
 
+/**
+ * Checks whether the current viewport is at or below the mobile breakpoint.
+ *
+ * @returns {boolean} `true` when the mobile layout should be active.
+ */
 export function isMobileViewport() {
   return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
 }
 
+/**
+ * Detects Google Search or Chrome mobile app contexts where image export is unavailable.
+ * Requires both a mobile viewport and a supported user-agent signature.
+ *
+ * @param {string} [userAgent=navigator.userAgent] - User-agent string to inspect.
+ * @returns {boolean} `true` when the page is running in a matching mobile app.
+ * @see {@link isMobileViewport}
+ */
 export function isGoogleOrChromeMobileApp(userAgent = navigator.userAgent) {
   if (!isMobileViewport()) return false;
   const ua = String(userAgent || "");
@@ -14,6 +34,12 @@ export function isGoogleOrChromeMobileApp(userAgent = navigator.userAgent) {
   return !/\b(?:EdgA|EdgiOS|OPR|SamsungBrowser)\//i.test(ua);
 }
 
+/**
+ * Hides or shows the image-export button based on mobile app support.
+ *
+ * @returns {void}
+ * @see {@link isGoogleOrChromeMobileApp}
+ */
 export function updateMobileImageExportVisibility() {
   const exportButton = document.getElementById("exportScheduleBtn");
   if (!exportButton) return;
@@ -22,16 +48,37 @@ export function updateMobileImageExportVisibility() {
   exportButton.setAttribute("aria-hidden", String(hidden));
 }
 
+/**
+ * Initializes the mobile layout, miscellaneous panel placement, and export visibility.
+ *
+ * @returns {void}
+ * @see {@link setMobilePane}
+ * @see {@link syncMobileMiscPanel}
+ * @see {@link updateMobileImageExportVisibility}
+ */
 export function initializeMobileLayout() {
   setMobilePane("search");
   syncMobileMiscPanel();
   updateMobileImageExportVisibility();
 }
 
+/**
+ * Activates the pane named by a mobile navigation button.
+ *
+ * @param {HTMLElement} button - Navigation button with a `data-mobile-nav` value.
+ * @returns {void}
+ * @see {@link setMobilePane}
+ */
 export function handleMobileNavigation(button) {
   setMobilePane(button.getAttribute("data-mobile-nav"));
 }
 
+/**
+ * Synchronizes active pane classes, button pressed state, and shell metadata.
+ *
+ * @param {string} targetPane - Pane identifier to activate.
+ * @returns {void}
+ */
 export function setMobilePane(targetPane) {
   document.querySelectorAll("[data-mobile-pane]").forEach((pane) => {
     pane.classList.toggle(
@@ -49,6 +96,12 @@ export function setMobilePane(targetPane) {
   if (shell) shell.setAttribute("data-active-mobile-pane", targetPane);
 }
 
+/**
+ * Moves the miscellaneous panel between its desktop and mobile hosts.
+ *
+ * @returns {void}
+ * @see {@link isMobileViewport}
+ */
 export function syncMobileMiscPanel() {
   const panel = document.querySelector(".misc-panel");
   const schedulePane = document.querySelector('.schedule-pane[data-mobile-pane="schedule"]');
@@ -62,6 +115,13 @@ export function syncMobileMiscPanel() {
   }
 }
 
+/**
+ * Opens the mobile miscellaneous sheet, manages inert/ARIA state, and focuses its panel.
+ *
+ * @param {HTMLElement} [trigger] - Element that opened the sheet for focus restoration.
+ * @returns {void}
+ * @see {@link closeMobileMiscSheet}
+ */
 export function openMobileMiscSheet(trigger) {
   if (!isMobileViewport()) return;
 
@@ -80,6 +140,14 @@ export function openMobileMiscSheet(trigger) {
   if (panel) panel.focus({ preventScroll: true });
 }
 
+/**
+ * Closes the mobile miscellaneous sheet and optionally restores focus.
+ *
+ * @param {{restoreFocus?: boolean}} [options={}] - Close behavior options.
+ * @param {boolean} [options.restoreFocus=true] - Whether to focus the opening trigger.
+ * @returns {void}
+ * @see {@link openMobileMiscSheet}
+ */
 export function closeMobileMiscSheet({ restoreFocus = true } = {}) {
   const sheet = document.getElementById("mobileMiscSheet");
   const toggle = document.getElementById("mobileMiscToggle");
@@ -102,6 +170,14 @@ export function closeMobileMiscSheet({ restoreFocus = true } = {}) {
   activeMobileMiscTrigger = null;
 }
 
+/**
+ * Delays callback execution until calls stop arriving for the specified interval.
+ * The returned function also exposes `cancel()` to clear a pending invocation.
+ *
+ * @param {Function} callback - Function invoked after the delay.
+ * @param {number} delay - Delay in milliseconds.
+ * @returns {Function & {cancel: Function}} Debounced callback with a cancel method.
+ */
 export function debounce(callback, delay) {
   let timerId;
   const debounced = function (...args) {

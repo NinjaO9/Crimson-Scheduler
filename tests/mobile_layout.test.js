@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for the mobile layout. Ensures that the mobile layout behaves properly and no unexpected behavior happens.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   closeMobileCourseSheet,

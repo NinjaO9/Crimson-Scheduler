@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for interacting with the course API. Ensures the API behaves as expected.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 await import('../web/classes/static/js/course_api.js');

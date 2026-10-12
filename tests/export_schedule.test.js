@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for the schedule export functionality. Ensures that the schedule can be exported into a .ics file properly.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { describe, expect, it } from "vitest";
 import {
   generateCalendar,

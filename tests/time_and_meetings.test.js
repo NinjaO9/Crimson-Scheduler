@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Test cases for the parsing time and meetings from course data. Ensures that this behaves as expected.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 import { describe, expect, it } from "vitest";
 import {
   parseDaysToIndexes,

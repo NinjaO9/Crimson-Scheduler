@@ -1,6 +1,20 @@
+/**
+ * @fileoverview Initializes shared page theme state and responsive help content.
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 (function() {
     const MOBILE_BREAKPOINT = 760;
 
+    /**
+     * Modifies the site to reflect the active theme.
+     *
+     * @param {string} theme - Theme to be reflected by the site.
+     * @returns {void}
+     * @see {@link initializeTheme}
+     */
     function reflectTheme(theme) {
         const normalizedTheme = theme === 'dark' ? 'dark' : 'light';
         document.documentElement.dataset.theme = normalizedTheme;
@@ -12,6 +26,12 @@
         }
     }
 
+    /**
+     * Defaults the theme on application startup.
+     *
+     * @returns {void}
+     * @see {@link reflectTheme}
+     */
     function initializeTheme() {
         const themeController = window.CrimsonTheme;
         const theme = themeController ? themeController.get() : 'light';
@@ -28,6 +48,12 @@
         });
     }
 
+    /**
+     * Starts the help sheet, and determines what mode it should take based on the viewport.
+     *
+     * @returns {void}
+     * @see {@link initializeHelpMode}
+     */
     function setHelpMode() {
         const isMobile = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
         const activeMode = isMobile ? 'mobile' : 'desktop';
@@ -39,6 +65,12 @@
         });
     }
 
+    /**
+     * Initalizes the help trigger to supply the help sheet.
+     *
+     * @returns {void}
+     * @see {@link setHelpMode}
+     */
     function initializeHelpMode() {
         setHelpMode();
 
