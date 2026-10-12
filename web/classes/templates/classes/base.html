@@ -108,17 +108,17 @@
                         <div class="help-card-list">
                             <article class="help-card">
                                 <div class="help-image-slot">
-                                    <img src="{% static 'help/desktop-search.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <img src="{% static 'help/desktop-search.png' %}" alt="Image of desktop search action" loading="lazy" onerror="this.hidden = true">
                                     <span>Desktop search screenshot</span>
                                 </div>
                                 <div>
                                     <h3>Find a class</h3>
-                                    <p>Pick a campus and term, then search by subject + number or by course title.</p>
+                                    <p>Pick a campus and term, then use course details (subject, number, title) to search. Narrow your search using filters.</p>
                                 </div>
                             </article>
                             <article class="help-card">
                                 <div class="help-image-slot">
-                                    <img src="{% static 'help/desktop-add.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <img src="{% static 'help/desktop-add.png' %}" alt="Image of desktop add action" loading="lazy" onerror="this.hidden = true">
                                     <span>Desktop add screenshot</span>
                                 </div>
                                 <div>
@@ -128,7 +128,7 @@
                             </article>
                             <article class="help-card">
                                 <div class="help-image-slot">
-                                    <img src="{% static 'help/desktop-remove.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <img src="{% static 'help/desktop-remove.png' %}" alt="Image of desktop remove action" loading="lazy" onerror="this.hidden = true">
                                     <span>Desktop remove screenshot</span>
                                 </div>
                                 <div>
@@ -136,15 +136,17 @@
                                     <p>Click a class on the calendar to remove it. Use Remove in the misc list for arranged, online, or TBA classes.</p>
                                 </div>
                             </article>
+                             <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/desktop-misc.png' %}" alt="Image of desktop miscellanious actions" loading="lazy" onerror="this.hidden = true">
+                                    <span>Desktop miscellanious actions</span>
+                                </div>
+                                <div>
+                                    <h3>Additional actions</h3>
+                                    <p>Want to change something? Check out the options. Want to export your schedule? Export it as an image OR into your device's calendar! You can also share your calendar with others by sharing your Share Code!</p>
+                                </div>
+                            </article>
                         </div>
-                        <aside class="help-tips" aria-label="Desktop exclusive tips">
-                            <h3>Desktop-only tips</h3>
-                            <ul>
-                                <li>Hover over a section in search results to preview where it lands on your calendar.</li>
-                                <li>Hover over a class on your schedule to see details like instructor, location, and meeting time.</li>
-                                <li>Use Options to hide weekends when you want a cleaner Monday-Friday view.</li>
-                            </ul>
-                        </aside>
                     </section>
 
                     <section class="help-mode help-mode-mobile" data-help-mode="mobile" aria-label="Mobile help">
@@ -152,17 +154,17 @@
                         <div class="help-card-list">
                             <article class="help-card">
                                 <div class="help-image-slot">
-                                    <img src="{% static 'help/mobile-search.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <img src="{% static 'help/mobile-search.png' %}" alt="Image of mobile search action" loading="lazy" onerror="this.hidden = true">
                                     <span>Mobile search screenshot</span>
                                 </div>
                                 <div>
                                     <h3>Start in Search</h3>
-                                    <p>Use the Search tab to choose a campus and term, then search by course number or title.</p>
+                                    <p>Pick a campus and term, then use course details (subject, number, title) to search. Narrow your search using filters.</p>
                                 </div>
                             </article>
                             <article class="help-card">
                                 <div class="help-image-slot">
-                                    <img src="{% static 'help/mobile-add.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
+                                    <img src="{% static 'help/mobile-add.png' %}" alt="Image of mobile add action" loading="lazy" onerror="this.hidden = true">
                                     <span>Mobile add screenshot</span>
                                 </div>
                                 <div>
@@ -172,20 +174,36 @@
                             </article>
                             <article class="help-card">
                                 <div class="help-image-slot">
-                                    <img src="{% static 'help/mobile-remove.png' %}" alt="" loading="lazy" onerror="this.hidden = true">
-                                    <span>Mobile remove screenshot</span>
+                                    <img src="{% static 'help/mobile-remove.png' %}" alt="Image of mobile remove action" loading="lazy" onerror="this.hidden = true">
+                                    <span>Mobile resolve conflicts screenshot</span>
                                 </div>
                                 <div>
                                     <h3>Tap to remove</h3>
-                                    <p>Tap a calendar block to remove it, or use Remove for classes in the misc list.</p>
+                                    <p>Tap a calendar block conflict to investigate it, and choose which class to remove from the conflict.</p>
+                                </div>
+                            </article>
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/mobile-course-interactions.png' %}" alt="Image of mobile course interactions" loading="lazy" onerror="this.hidden = true">
+                                    <span>Mobile course interactions screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Investigate courses</h3>
+                                    <p>Tap a calendar block to investigate it. Here, you can see extra details about the course, or remove it. Non-scheduled courses are available at the bottom of the schedule.</p>
+                                </div>
+                            </article>
+                            <article class="help-card">
+                                <div class="help-image-slot">
+                                    <img src="{% static 'help/mobile-actions.png' %}" alt="Image of miscellanious mobile actions" loading="lazy" onerror="this.hidden = true">
+                                    <span>Mobile miscellanious actions screenshot</span>
+                                </div>
+                                <div>
+                                    <h3>Additional actions</h3>
+                                    <p>Want to change something? Check out the options. Want to export your schedule? Export it as an image OR into your device's calendar! You can also share your calendar with others by sharing your Share Code!</p>
                                 </div>
                             </article>
                         </div>
                     </section>
-
-                    <div class="help-note">
-                        Tip: use Actions to share a code, import a code, or export your schedule image.
-                    </div>
                 </div>
             </div>
         </div>
