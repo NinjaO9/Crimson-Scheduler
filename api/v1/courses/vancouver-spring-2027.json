@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T17:53:21.596631+00:00",
+  "generatedAt": "2026-10-13T00:39:24.707362+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -2657,7 +2657,7 @@
               ],
               "ucore": "BSCI",
               "coop": false,
-              "footnotes": "",
+              "footnotes": "C",
               "seats": {
                 "taken": 0,
                 "total": 40,
@@ -6246,7 +6246,7 @@
               ],
               "ucore": "",
               "coop": false,
-              "footnotes": "C",
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 1,
@@ -15222,6 +15222,52 @@
           ]
         },
         {
+          "course": "Graph Theory",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 453,
+          "courseCode": "MATH 453",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7879",
+              "sln": 7879,
+              "sectionNumber": 1,
+              "courseCode": "MATH 453",
+              "courseName": "Graph Theory",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Linear Optimization",
           "subject": "MATH",
           "subjectPrefix": "Math",
@@ -15487,9 +15533,9 @@
                 }
               ],
               "location": "GUC  VAN",
-              "instructor": "B KRISHNAMOORTHY",
+              "instructor": "N STRIGUL",
               "instructors": [
-                "B KRISHNAMOORTHY"
+                "N STRIGUL"
               ],
               "ucore": "",
               "coop": false,
@@ -23447,11 +23493,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W",
-              "time": "13:30 - 14:45",
+              "time": "14:55 - 16:10",
               "meetings": [
                 {
                   "days": "M,W",
-                  "time": "13:30 - 14:45"
+                  "time": "14:55 - 16:10"
                 }
               ],
               "location": "GUC  VAN",
@@ -23467,6 +23513,102 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research Methods in Social and Behavioral Sciences",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 202,
+          "courseCode": "PUBHLTH 202",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11972",
+              "sln": 11972,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 202",
+              "courseName": "Research Methods in Social and Behavioral Sciences",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "K WASHBURN",
+              "instructors": [
+                "K WASHBURN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Health Policy, Law, and Ethics",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 330,
+          "courseCode": "PUBHLTH 330",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11973",
+              "sln": 11973,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 330",
+              "courseName": "Health Policy, Law, and Ethics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C ALLICK",
+              "instructors": [
+                "C ALLICK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -24833,6 +24975,54 @@
               }
             }
           ]
+        },
+        {
+          "course": "Intermediate Grammar and Writing",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 308,
+          "courseCode": "SPANISH 308",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7757",
+              "sln": 7757,
+              "sectionNumber": 2,
+              "courseCode": "SPANISH 308",
+              "courseName": "Intermediate Grammar and Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "E AVALOS MOLINA",
+              "instructors": [
+                "E AVALOS MOLINA"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -26093,11 +26283,11 @@
               "isLab": false,
               "hasRequiredLab": true,
               "days": "W",
-              "time": "17:45 - 20:30",
+              "time": "14:10 - 17:00",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "17:45 - 20:30"
+                  "time": "14:10 - 17:00"
                 }
               ],
               "location": "GUC  VAN",
@@ -26177,11 +26367,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "W",
               "time": "17:45 - 20:30",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "W",
                   "time": "17:45 - 20:30"
                 }
               ],
@@ -26857,6 +27047,54 @@
               "ucore": "HUM",
               "coop": false,
               "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Feminist Theory",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 481,
+          "courseCode": "WGSS 481",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11974",
+              "sln": 11974,
+              "sectionNumber": 2,
+              "courseCode": "WGSS 481",
+              "courseName": "Feminist Theory",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "P THOMA",
+              "instructors": [
+                "P THOMA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 10,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T17:53:21.501744+00:00",
+  "generatedAt": "2026-10-13T00:39:24.622852+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -1834,6 +1834,91 @@
               ],
               "ucore": "",
               "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Integrated Civil Engineering Design II",
+          "subject": "CE",
+          "subjectPrefix": "C E",
+          "courseNumber": 465,
+          "courseCode": "CE 465",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2352",
+              "sln": 2352,
+              "sectionNumber": 1,
+              "courseCode": "CE 465",
+              "courseName": "Integrated Civil Engineering Design II",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "",
+              "instructor": "M HENDRICKSON",
+              "instructors": [
+                "M HENDRICKSON"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2353",
+              "sln": 2353,
+              "sectionNumber": 1,
+              "courseCode": "CE 465",
+              "courseName": "Integrated Civil Engineering Design II",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "12:30 - 16:30",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "12:30 - 16:30"
+                }
+              ],
+              "location": "",
+              "instructor": "M HENDRICKSON",
+              "instructors": [
+                "M HENDRICKSON"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
               "footnotes": "",
               "seats": {
                 "taken": 0,
@@ -8439,6 +8524,54 @@
               }
             }
           ]
+        },
+        {
+          "course": "Introduction to Event Planning",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 301,
+          "courseCode": "HBM 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11679",
+              "sln": 11679,
+              "sectionNumber": 1,
+              "courseCode": "HBM 301",
+              "courseName": "Introduction to Event Planning",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "",
+              "instructor": "J ANAYA",
+              "instructors": [
+                "J ANAYA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -10854,6 +10987,54 @@
           ]
         },
         {
+          "course": "Algebraic Thinking for the Middle School Teacher",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 351,
+          "courseCode": "MATH 351",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2604",
+              "sln": 2604,
+              "sectionNumber": 1,
+              "courseCode": "MATH 351",
+              "courseName": "Algebraic Thinking for the Middle School Teacher",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "16:20 - 19:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "16:20 - 19:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "D SLAVIT",
+              "instructors": [
+                "D SLAVIT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Numerical Analysis",
           "subject": "MATH",
           "subjectPrefix": "Math",
@@ -11865,9 +12046,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "total": 48,
+                "available": 48,
+                "label": "0/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12588,6 +12769,54 @@
       "subject": "MGMT",
       "courses": [
         {
+          "course": "Principles of Management and Organization",
+          "subject": "MGMT",
+          "subjectPrefix": "MGMT",
+          "courseNumber": 301,
+          "courseCode": "MGMT 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11680",
+              "sln": 11680,
+              "sectionNumber": 1,
+              "courseCode": "MGMT 301",
+              "courseName": "Principles of Management and Organization",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "",
+              "instructor": "J ANAYA",
+              "instructors": [
+                "J ANAYA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Leading People and Organizations",
           "subject": "MGMT",
           "subjectPrefix": "MGMT",
@@ -12723,54 +12952,6 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Evaluating and Rewarding Employees",
-          "subject": "MGMT",
-          "subjectPrefix": "MGMT",
-          "courseNumber": 456,
-          "courseCode": "MGMT 456",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11159",
-              "sln": 11159,
-              "sectionNumber": 1,
-              "courseCode": "MGMT 456",
-              "courseName": "Evaluating and Rewarding Employees",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "",
-              "instructor": "P CARLISLE",
-              "instructors": [
-                "P CARLISLE"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T17:53:20.993964+00:00",
+  "generatedAt": "2026-10-13T00:39:24.144940+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -10659,6 +10659,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "9826",
+              "sln": 9826,
+              "sectionNumber": 2,
+              "courseCode": "ENGLISH 302",
+              "courseName": "Introduction to English Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R WHITSON",
+              "instructors": [
+                "R WHITSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 17,
+                "available": 17,
+                "label": "0/17"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -11613,6 +11650,54 @@
                 "total": 3,
                 "available": 3,
                 "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Professional Writing and Editing",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 405,
+          "courseCode": "ENGLISH 405",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9428",
+              "sln": 9428,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 405",
+              "courseName": "Advanced Professional Writing and Editing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J STAGGERS",
+              "instructors": [
+                "J STAGGERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "CV",
+              "seats": {
+                "taken": 0,
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
               },
               "dates": {
                 "start": "Jan 11",
