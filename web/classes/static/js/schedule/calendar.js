@@ -28,6 +28,7 @@ import {
   formatMeetingListForDisplay,
   resolveScheduleGroups,
 } from "./time-and-meetings.js";
+import { rmpSearchUrl } from "./course-information.js"
 
 let renderedBlocksByDay = {};
 let activeMobileConflictTrigger = null;
@@ -369,12 +370,18 @@ export function buildCourseTooltip(courseData) {
     "",
     `${courseData.days} ${formatMeetingListForDisplay(courseData.time)}`,
   );
-  appendTextElement(
+  const instructorElement = appendTextElement(
     fragment,
-    "div",
+    "a",
     "",
     courseData.instructor || "Instructor: N/A",
   );
+  instructorElement.href = rmpSearchUrl(courseData.instructor);
+  instructorElement.target = "_blank";
+  instructorElement.rel = "noopener noreferrer";
+  instructorElement.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
   appendTextElement(
     fragment,
     "div",
@@ -521,12 +528,26 @@ export function openMobileCourseSheet(trigger, courseData) {
     "mobile-course-meta",
     `Location: ${courseData.location || "N/A"}`,
   );
-  appendTextElement(
+  // Making an instructor-specific container so that we can separate the instructor: text from the name
+  const instructorMeta = appendTextElement(
     details,
     "div",
     "mobile-course-meta",
-    `Instructor: ${courseData.instructor || "N/A"}`,
+    "Instructor: ",
   );
+  if (courseData.instructor) {
+    const instructorElement = appendTextElement(
+      instructorMeta,
+      "a",
+      "",
+      courseData.instructor,
+    );
+    instructorElement.href = rmpSearchUrl(courseData.instructor);
+    instructorElement.target = "_blank";
+    instructorElement.rel = "noopener noreferrer";
+  } else {
+    instructorMeta.appendChild(document.createTextNode("N/A"));
+  }
   appendTextElement(
     details,
     "div",
@@ -716,12 +737,22 @@ export function renderMiscList(items) {
       "",
       `Section ${item.section_num} (${item.is_lab ? "Lab" : "Lecture"})`,
     );
-    appendTextElement(
-      meta,
-      "span",
-      "",
-      `Instructor: ${item.instructor || "N/A"}`,
-    );
+    const instructorMeta = document.createElement("span");
+    instructorMeta.appendChild(document.createTextNode("Instructor: "));
+    if (item.instructor) {
+      const instructorElement = appendTextElement(
+        instructorMeta,
+        "a",
+        "",
+        item.instructor,
+      );
+      instructorElement.href = rmpSearchUrl(item.instructor);
+      instructorElement.target = "_blank";
+      instructorElement.rel = "noopener noreferrer";
+    } else {
+      instructorMeta.appendChild(document.createTextNode("N/A"));
+    }
+    meta.appendChild(instructorMeta);
     if (item.ucore != "")
     {
       appendTextElement(
