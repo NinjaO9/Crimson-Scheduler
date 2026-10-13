@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T07:49:46.048366+00:00",
+  "generatedAt": "2026-10-13T15:59:41.641184+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -2565,6 +2565,54 @@
     {
       "subject": "AGRI",
       "courses": [
+        {
+          "course": "Advanced Topics",
+          "subject": "AGRI",
+          "subjectPrefix": "Agri",
+          "courseNumber": 562,
+          "courseCode": "AGRI 562",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12763",
+              "sln": 12763,
+              "sectionNumber": 1,
+              "courseCode": "AGRI 562",
+              "courseName": "Advanced Topics",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N DERINGER",
+              "instructors": [
+                "N DERINGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
         {
           "course": "Research and Extension Communications in Agriculture",
           "subject": "AGRI",
@@ -26200,10 +26248,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 19,
+                "taken": 20,
                 "total": 30,
-                "available": 11,
-                "label": "19/30"
+                "available": 10,
+                "label": "20/30"
               },
               "dates": {
                 "start": "Aug 24",
@@ -64252,10 +64300,10 @@
               "coop": false,
               "footnotes": "XS",
               "seats": {
-                "taken": 39,
+                "taken": 40,
                 "total": 100,
-                "available": 61,
-                "label": "39/100"
+                "available": 60,
+                "label": "40/100"
               },
               "dates": {
                 "start": "Aug 24",
@@ -101302,10 +101350,10 @@
               "coop": false,
               "footnotes": "XS",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 30,
-                "available": 29,
-                "label": "1/30"
+                "available": 28,
+                "label": "2/30"
               },
               "dates": {
                 "start": "Aug 24",

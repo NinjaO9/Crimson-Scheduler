@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T07:49:46.145393+00:00",
+  "generatedAt": "2026-10-13T15:59:41.787735+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -13659,6 +13659,54 @@
               "sln": 11966,
               "sectionNumber": 1,
               "courseCode": "ART 541",
+              "courseName": "Graduate Ceramics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "I PALMER",
+              "instructors": [
+                "I PALMER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Graduate Ceramics",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 542,
+          "courseCode": "ART 542",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11967",
+              "sln": 11967,
+              "sectionNumber": 1,
+              "courseCode": "ART 542",
               "courseName": "Graduate Ceramics",
               "credits": "3",
               "component": "Lecture",
@@ -53099,6 +53147,107 @@
       ]
     },
     {
+      "subject": "ED_PSYCH",
+      "courses": [
+        {
+          "course": "Classroom Assessment, Secondary",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 468,
+          "courseCode": "ED_PSYCH 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6392",
+              "sln": 6392,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 468",
+              "courseName": "Classroom Assessment, Secondary",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "G SARTOR",
+              "instructors": [
+                "G SARTOR"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Qualitative Research",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 507,
+          "courseCode": "ED_PSYCH 507",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7262",
+              "sln": 7262,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 507",
+              "courseName": "Introduction to Qualitative Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "K HUGGINS",
+              "instructors": [
+                "K HUGGINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "ED_RES",
       "courses": [
         {
@@ -63591,6 +63740,52 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Topics in Financial Economics",
+          "subject": "FIN",
+          "subjectPrefix": "Fin",
+          "courseNumber": 596,
+          "courseCode": "FIN 596",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6679",
+              "sln": 6679,
+              "sectionNumber": 1,
+              "courseCode": "FIN 596",
+              "courseName": "Advanced Topics in Financial Economics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -75852,6 +76047,41 @@
           "hasRequiredLab": false,
           "sections": [
             {
+              "sectionId": "4918",
+              "sln": 4918,
+              "sectionNumber": 1,
+              "courseCode": "I_BUS 380",
+              "courseName": "International Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
               "sectionId": "4919",
               "sln": 4919,
               "sectionNumber": 2,
@@ -87996,8 +88226,10 @@
                 }
               ],
               "location": "CUE  418",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A PANCHENKO",
+              "instructors": [
+                "A PANCHENKO"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -98538,6 +98770,54 @@
       "subject": "MUS",
       "courses": [
         {
+          "course": "Class Guitar",
+          "subject": "MUS",
+          "subjectPrefix": "Mus",
+          "courseNumber": 120,
+          "courseCode": "MUS 120",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5765",
+              "sln": 5765,
+              "sectionNumber": 1,
+              "courseCode": "MUS 120",
+              "courseName": "Class Guitar",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "KIMB 115",
+              "instructor": "C HAAS",
+              "instructors": [
+                "C HAAS"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Music Fundamentals I",
           "subject": "MUS",
           "subjectPrefix": "Mus",
@@ -105420,6 +105700,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar in Major Performance Literature",
+          "subject": "MUS",
+          "subjectPrefix": "Mus",
+          "courseNumber": 465,
+          "courseCode": "MUS 465",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8004",
+              "sln": 8004,
+              "sectionNumber": 1,
+              "courseCode": "MUS 465",
+              "courseName": "Seminar in Major Performance Literature",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K MCCARTHY",
+              "instructors": [
+                "K MCCARTHY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
