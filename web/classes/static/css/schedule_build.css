@@ -964,6 +964,31 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     margin-top: 4px;
 }
 
+.schedule-app .course-block-tooltip a,
+.schedule-app .mobile-course-meta a,
+.schedule-app .misc-meta a,
+.schedule-app .course-info-rmp-link {
+    color: var(--color-link);
+}
+
+.schedule-app .course-block-tooltip a:visited,
+.schedule-app .mobile-course-meta a:visited,
+.schedule-app .misc-meta a:visited,
+.schedule-app .course-info-rmp-link:visited {
+    color: var(--color-link);
+}
+
+.schedule-app .course-block-tooltip a:hover,
+.schedule-app .course-block-tooltip a:focus-visible,
+.schedule-app .mobile-course-meta a:hover,
+.schedule-app .mobile-course-meta a:focus-visible,
+.schedule-app .misc-meta a:hover,
+.schedule-app .misc-meta a:focus-visible,
+.schedule-app .course-info-rmp-link:hover,
+.schedule-app .course-info-rmp-link:focus-visible {
+    color: var(--color-link-hover);
+}
+
 .manage-btn:focus-visible {
     box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
 }
