@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:59:41.601285+00:00",
+  "generatedAt": "2026-10-13T21:16:13.336470+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -1583,6 +1583,52 @@
                 "total": 70,
                 "available": 70,
                 "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Modern Art-20th Century",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 304,
+          "courseCode": "ART 304",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11971",
+              "sln": 11971,
+              "sectionNumber": 1,
+              "courseCode": "ART 304",
+              "courseName": "Modern Art-20th Century",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",

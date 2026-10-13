@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:59:41.995323+00:00",
+  "generatedAt": "2026-10-13T21:16:13.603096+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -7405,8 +7405,10 @@
                 }
               ],
               "location": "",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "E MOREL",
+              "instructors": [
+                "E MOREL"
+              ],
               "ucore": "WRTG",
               "coop": false,
               "footnotes": "",
@@ -7743,17 +7745,19 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
+              "days": "M,W",
               "time": "09:10 - 10:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,W",
                   "time": "09:10 - 10:00"
                 }
               ],
               "location": "",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R MAYS",
+              "instructors": [
+                "R MAYS"
+              ],
               "ucore": "WRTG",
               "coop": false,
               "footnotes": "",
@@ -7778,17 +7782,19 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
+              "days": "M,W",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,W",
                   "time": "11:10 - 12:00"
                 }
               ],
               "location": "",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R MAYS",
+              "instructors": [
+                "R MAYS"
+              ],
               "ucore": "WRTG",
               "coop": false,
               "footnotes": "",
@@ -7813,17 +7819,19 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "TU,TH",
               "time": "10:35 - 11:50",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "TU,TH",
                   "time": "10:35 - 11:50"
                 }
               ],
               "location": "",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "E MOREL",
+              "instructors": [
+                "E MOREL"
+              ],
               "ucore": "WRTG",
               "coop": false,
               "footnotes": "",
@@ -10255,11 +10263,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,TU,TH",
+              "days": "M,W,F,TU,TH",
               "time": "10:10 - 11:00;13:30 - 14:20",
               "meetings": [
                 {
-                  "days": "M,W",
+                  "days": "M,W,F",
                   "time": "10:10 - 11:00"
                 },
                 {
@@ -10344,11 +10352,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,TU,TH",
+              "days": "M,W,F,TU,TH",
               "time": "10:10 - 11:00;13:30 - 14:20",
               "meetings": [
                 {
-                  "days": "M,W",
+                  "days": "M,W,F",
                   "time": "10:10 - 11:00"
                 },
                 {

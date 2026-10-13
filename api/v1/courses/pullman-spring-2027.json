@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:59:41.787735+00:00",
+  "generatedAt": "2026-10-13T21:16:13.462264+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -1581,9 +1581,9 @@
               "footnotes": "VX",
               "seats": {
                 "taken": 0,
-                "total": 11,
-                "available": 11,
-                "label": "0/11"
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12462,8 +12462,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N THRUSH",
+              "instructors": [
+                "N THRUSH"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "",
@@ -14288,10 +14290,8 @@
                 }
               ],
               "location": "CUE  419",
-              "instructor": "K MEYER",
-              "instructors": [
-                "K MEYER"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -14360,8 +14360,10 @@
                 }
               ],
               "location": "TDAD 276",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K MEYER",
+              "instructors": [
+                "K MEYER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -62638,9 +62640,9 @@
                 }
               ],
               "location": "CUE  219",
-              "instructor": "K SMATHERS",
+              "instructor": "C WILLIAMSON",
               "instructors": [
-                "K SMATHERS"
+                "C WILLIAMSON"
               ],
               "ucore": "QUAN",
               "coop": false,
@@ -62712,9 +62714,9 @@
                 }
               ],
               "location": "CUE  119",
-              "instructor": "C WILLIAMSON",
+              "instructor": "M MCNAMARA",
               "instructors": [
-                "C WILLIAMSON"
+                "M MCNAMARA"
               ],
               "ucore": "QUAN",
               "coop": false,
@@ -62786,9 +62788,9 @@
                 }
               ],
               "location": "TODD 413",
-              "instructor": "M MCNAMARA",
+              "instructor": "K SMATHERS",
               "instructors": [
-                "M MCNAMARA"
+                "K SMATHERS"
               ],
               "ucore": "QUAN",
               "coop": false,
@@ -76064,7 +76066,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "TODD 133",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -117750,14 +117752,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "10:10 - 11:00",
+              "time": "12:10 - 13:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "10:10 - 11:00"
+                  "time": "12:10 - 13:00"
                 }
               ],
-              "location": "CUE  219",
+              "location": "COLL 125",
               "instructor": "H YOON",
               "instructors": [
                 "H YOON"
@@ -117767,9 +117769,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 76,
+                "available": 76,
+                "label": "0/76"
               },
               "dates": {
                 "start": "Jan 11",
@@ -117798,14 +117800,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "12:10 - 13:00",
+              "time": "10:10 - 11:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "12:10 - 13:00"
+                  "time": "10:10 - 11:00"
                 }
               ],
-              "location": "COLL 125",
+              "location": "CUE  219",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -117813,9 +117815,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -124251,52 +124253,6 @@
           ]
         },
         {
-          "course": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 385,
-          "courseCode": "SOC 385",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6517",
-              "sln": 6517,
-              "sectionNumber": 1,
-              "courseCode": "SOC 385",
-              "courseName": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "WLSH 4",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "EQJS",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 12,
-                "available": 12,
-                "label": "0/12"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Human Issues in International Development",
           "subject": "SOC",
           "subjectPrefix": "Soc",
@@ -127995,12 +127951,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
-              "time": "11:00 - 13:00",
+              "days": "W",
+              "time": "11:00 - 12:40",
               "meetings": [
                 {
-                  "days": "TU",
-                  "time": "11:00 - 13:00"
+                  "days": "W",
+                  "time": "11:00 - 12:40"
                 }
               ],
               "location": "WEBS 1234",
@@ -128352,9 +128308,9 @@
               "footnotes": "VX",
               "seats": {
                 "taken": 0,
-                "total": 18,
-                "available": 18,
-                "label": "0/18"
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -142656,52 +142612,6 @@
                 "total": 7,
                 "available": 7,
                 "label": "0/7"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
-          "subject": "WGSS",
-          "subjectPrefix": "WGSS",
-          "courseNumber": 385,
-          "courseCode": "WGSS 385",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6543",
-              "sln": 6543,
-              "sectionNumber": 1,
-              "courseCode": "WGSS 385",
-              "courseName": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "WLSH 4",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "EQJS",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",

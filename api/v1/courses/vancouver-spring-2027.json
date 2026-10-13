@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:59:42.064079+00:00",
+  "generatedAt": "2026-10-13T21:16:13.659250+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -1929,10 +1929,8 @@
                 }
               ],
               "location": "GUC  VAN",
-              "instructor": "B WARNICK",
-              "instructors": [
-                "B WARNICK"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -6055,6 +6053,91 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Topics in Computer Science",
+          "subject": "CS",
+          "subjectPrefix": "CS",
+          "courseNumber": 580,
+          "courseCode": "CS 580",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6483",
+              "sln": 6483,
+              "sectionNumber": 2,
+              "courseCode": "CS 580",
+              "courseName": "Advanced Topics in Computer Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "X LIN",
+              "instructors": [
+                "X LIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7223",
+              "sln": 7223,
+              "sectionNumber": 3,
+              "courseCode": "CS 580",
+              "courseName": "Advanced Topics in Computer Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "T GILRAY",
+              "instructors": [
+                "T GILRAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
