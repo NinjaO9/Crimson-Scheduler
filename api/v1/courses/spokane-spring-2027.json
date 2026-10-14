@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T18:36:13.355052+00:00",
+  "generatedAt": "2026-10-14T22:18:55.114794+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -8054,13 +8054,9 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,TU",
-              "time": "09:30 - 11:50;09:30 - 11:50",
+              "days": "TU",
+              "time": "09:30 - 11:50",
               "meetings": [
-                {
-                  "days": "TU",
-                  "time": "09:30 - 11:50"
-                },
                 {
                   "days": "TU",
                   "time": "09:30 - 11:50"
@@ -8095,13 +8091,9 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,TU",
-              "time": "13:10 - 15:30;13:10 - 15:30",
+              "days": "TU",
+              "time": "13:10 - 15:30",
               "meetings": [
-                {
-                  "days": "TU",
-                  "time": "13:10 - 15:30"
-                },
                 {
                   "days": "TU",
                   "time": "13:10 - 15:30"
@@ -8136,16 +8128,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,W",
-              "time": "15:40 - 18:00;14:40 - 15:10",
+              "days": "TU",
+              "time": "15:40 - 18:00",
               "meetings": [
                 {
                   "days": "TU",
                   "time": "15:40 - 18:00"
-                },
-                {
-                  "days": "W",
-                  "time": "14:40 - 15:10"
                 }
               ],
               "location": "GUC  SPK",
@@ -8259,214 +8247,6 @@
     {
       "subject": "PHARMACY",
       "courses": [
-        {
-          "course": "Applied Patient Care I: Patient Assessment",
-          "subject": "PHARMACY",
-          "subjectPrefix": "PharD",
-          "courseNumber": 501,
-          "courseCode": "PHARMACY 501",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11934",
-              "sln": 11934,
-              "sectionNumber": 1,
-              "courseCode": "PHARMACY 501",
-              "courseName": "Applied Patient Care I: Patient Assessment",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "T BERTSCH",
-              "instructors": [
-                "T BERTSCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3155",
-              "sln": 3155,
-              "sectionNumber": 2,
-              "courseCode": "PHARMACY 501",
-              "courseName": "Applied Patient Care I: Patient Assessment",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,TU",
-              "time": "08:10 - 10:00;10:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "08:10 - 10:00"
-                },
-                {
-                  "days": "TU",
-                  "time": "10:10 - 12:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "T BERTSCH",
-              "instructors": [
-                "T BERTSCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 28,
-                "available": 28,
-                "label": "0/28"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3156",
-              "sln": 3156,
-              "sectionNumber": 3,
-              "courseCode": "PHARMACY 501",
-              "courseName": "Applied Patient Care I: Patient Assessment",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TU",
-              "time": "10:10 - 12:00;13:10 - 15:00",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "10:10 - 12:00"
-                },
-                {
-                  "days": "TU",
-                  "time": "13:10 - 15:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "T BERTSCH",
-              "instructors": [
-                "T BERTSCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 27,
-                "available": 27,
-                "label": "0/27"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3157",
-              "sln": 3157,
-              "sectionNumber": 4,
-              "courseCode": "PHARMACY 501",
-              "courseName": "Applied Patient Care I: Patient Assessment",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TU",
-              "time": "13:10 - 15:00;15:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "13:10 - 15:00"
-                },
-                {
-                  "days": "TU",
-                  "time": "15:10 - 17:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "T BERTSCH",
-              "instructors": [
-                "T BERTSCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 27,
-                "available": 27,
-                "label": "0/27"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11933",
-              "sln": 11933,
-              "sectionNumber": 5,
-              "courseCode": "PHARMACY 501",
-              "courseName": "Applied Patient Care I: Patient Assessment",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "15:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "15:10 - 17:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "T BERTSCH",
-              "instructors": [
-                "T BERTSCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
         {
           "course": "Pharmacy Practice and Professional Development II",
           "subject": "PHARMACY",
@@ -8917,128 +8697,6 @@
                 "total": 60,
                 "available": 60,
                 "label": "0/60"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Applied Patient Care V: Integrated Patient Care",
-          "subject": "PHARMACY",
-          "subjectPrefix": "PharD",
-          "courseNumber": 561,
-          "courseCode": "PHARMACY 561",
-          "credits": "2",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "3183",
-              "sln": 3183,
-              "sectionNumber": 1,
-              "courseCode": "PHARMACY 561",
-              "courseName": "Applied Patient Care V: Integrated Patient Care",
-              "credits": "2",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M",
-              "time": "14:45 - 16:35",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "14:45 - 16:35"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "L POWELL",
-              "instructors": [
-                "L POWELL"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3174",
-              "sln": 3174,
-              "sectionNumber": 1,
-              "courseCode": "PHARMACY 561",
-              "courseName": "Applied Patient Care V: Integrated Patient Care",
-              "credits": "2",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TH",
-              "time": "08:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "08:10 - 10:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "L POWELL",
-              "instructors": [
-                "L POWELL"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 22,
-                "available": 22,
-                "label": "0/22"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3175",
-              "sln": 3175,
-              "sectionNumber": 2,
-              "courseCode": "PHARMACY 561",
-              "courseName": "Applied Patient Care V: Integrated Patient Care",
-              "credits": "2",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TH",
-              "time": "10:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "10:10 - 12:00"
-                }
-              ],
-              "location": "GUC  SPK",
-              "instructor": "L POWELL",
-              "instructors": [
-                "L POWELL"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",

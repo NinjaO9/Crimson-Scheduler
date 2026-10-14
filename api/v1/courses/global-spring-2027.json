@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T18:36:12.924097+00:00",
+  "generatedAt": "2026-10-14T22:18:54.776712+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -438,6 +438,102 @@
                 "total": 3,
                 "available": 3,
                 "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Field Analysis of Sustainable Food Systems",
+          "subject": "AFS",
+          "subjectPrefix": "AFS",
+          "courseNumber": 445,
+          "courseCode": "AFS 445",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8384",
+              "sln": 8384,
+              "sectionNumber": 1,
+              "courseCode": "AFS 445",
+              "courseName": "Field Analysis of Sustainable Food Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L CARPENTER-BOGGS",
+              "instructors": [
+                "L CARPENTER-BOGGS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Field Analysis of Sustainable Food Systems",
+          "subject": "AFS",
+          "subjectPrefix": "AFS",
+          "courseNumber": 545,
+          "courseCode": "AFS 545",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8385",
+              "sln": 8385,
+              "sectionNumber": 1,
+              "courseCode": "AFS 545",
+              "courseName": "Field Analysis of Sustainable Food Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L CARPENTER-BOGGS",
+              "instructors": [
+                "L CARPENTER-BOGGS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",
@@ -10339,6 +10435,59 @@
       ]
     },
     {
+      "subject": "ED_PSYCH",
+      "courses": [
+        {
+          "course": "Research Methods I",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 505,
+          "courseCode": "ED_PSYCH 505",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10506",
+              "sln": 10506,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 505",
+              "courseName": "Research Methods I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "ENGLISH",
       "courses": [
         {
@@ -19411,8 +19560,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C CLAYTON",
+              "instructors": [
+                "C CLAYTON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T18:36:13.153468+00:00",
+  "generatedAt": "2026-10-14T22:18:54.956044+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -46229,7 +46229,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "EME  B0046",
+              "location": "DAGG 232",
               "instructor": "M BLACK",
               "instructors": [
                 "M BLACK"
@@ -46239,9 +46239,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
               },
               "dates": {
                 "start": "Jan 11",
@@ -47754,9 +47754,9 @@
                 }
               ],
               "location": "SLOA 7",
-              "instructor": "S LOTFIFARD",
+              "instructor": "W DU",
               "instructors": [
-                "S LOTFIFARD"
+                "W DU"
               ],
               "ucore": "",
               "coop": false,
@@ -48538,54 +48538,6 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Power Quality",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 529,
-          "courseCode": "E_E 529",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11736",
-              "sln": 11736,
-              "sectionNumber": 1,
-              "courseCode": "E_E 529",
-              "courseName": "Power Quality",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "EME  B0046",
-              "instructor": "A DUBEY",
-              "instructors": [
-                "A DUBEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69909,9 +69861,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69957,9 +69909,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -70025,11 +69977,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "13:30 - 14:45",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "13:30 - 14:45"
+                  "time": "09:10 - 10:25"
                 }
               ],
               "location": "CUE  116",
@@ -70042,9 +69994,57 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 499,
+          "courseCode": "HBM 499",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5502",
+              "sln": 5502,
+              "sectionNumber": 1,
+              "courseCode": "HBM 499",
+              "courseName": "Special Problems",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J HARBOUR",
+              "instructors": [
+                "J HARBOUR"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 7,
+                "available": 7,
+                "label": "0/7"
               },
               "dates": {
                 "start": "Jan 11",
@@ -93874,7 +93874,7 @@
                   "time": "16:20 - 17:35"
                 }
               ],
-              "location": "EME  B0046",
+              "location": "SPRK 335",
               "instructor": "N CLARK",
               "instructors": [
                 "N CLARK"
@@ -98836,16 +98836,16 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,F,W",
-              "time": "15:10 - 16:00;15:10 - 18:00",
+              "days": "W,F,W",
+              "time": "15:10 - 16:00;18:10 - 21:00",
               "meetings": [
                 {
-                  "days": "M,F",
+                  "days": "W,F",
                   "time": "15:10 - 16:00"
                 },
                 {
                   "days": "W",
-                  "time": "15:10 - 18:00"
+                  "time": "18:10 - 21:00"
                 }
               ],
               "location": "SPRK G0010",
@@ -99125,7 +99125,7 @@
                   "time": "14:10 - 15:00"
                 }
               ],
-              "location": "EME  B0046",
+              "location": "CLAR 149",
               "instructor": "K ZHONG",
               "instructors": [
                 "K ZHONG"
@@ -118162,8 +118162,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C ELLENWOOD",
+              "instructors": [
+                "C ELLENWOOD"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -118754,10 +118756,8 @@
                 }
               ],
               "location": "SPRK 235",
-              "instructor": "S HOARD",
-              "instructors": [
-                "S HOARD"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -123990,9 +123990,9 @@
                 }
               ],
               "location": "TODD 133",
-              "instructor": "T ROTOLO",
+              "instructor": "C RUEDA",
               "instructors": [
-                "T ROTOLO"
+                "C RUEDA"
               ],
               "ucore": "",
               "coop": false,
@@ -124085,7 +124085,7 @@
                   "time": "14:10 - 15:00"
                 }
               ],
-              "location": "SPRK 323",
+              "location": "TODD 301",
               "instructor": "M SCIACHITANO",
               "instructors": [
                 "M SCIACHITANO"
@@ -132068,7 +132068,7 @@
                   "time": "11:10 - 12:00"
                 }
               ],
-              "location": "EME  B0046",
+              "location": "SLOA 161",
               "instructor": "J PEREZ GUERRERO",
               "instructors": [
                 "J PEREZ GUERRERO"
@@ -134876,10 +134876,8 @@
                 }
               ],
               "location": "CUE  318",
-              "instructor": "X CHEN",
-              "instructors": [
-                "X CHEN"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": true,
               "footnotes": "X",
@@ -143169,7 +143167,7 @@
                   "time": "14:10 - 15:00"
                 }
               ],
-              "location": "SPRK 323",
+              "location": "TODD 301",
               "instructor": "M SCIACHITANO",
               "instructors": [
                 "M SCIACHITANO"
@@ -143449,15 +143447,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
               "meetings": [
                 {
-                  "days": "ARR",
-                  "time": "ARRGT"
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
                 }
               ],
-              "location": "ARR  ARR",
+              "location": "CUE  319",
               "instructor": "L HEIDENREICH",
               "instructors": [
                 "L HEIDENREICH"

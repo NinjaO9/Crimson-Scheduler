@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T18:36:12.878730+00:00",
+  "generatedAt": "2026-10-14T22:18:54.740489+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -5177,6 +5177,52 @@
               "instructors": [
                 "X BI"
               ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Manufacturing Engineering",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 312,
+          "courseCode": "ME 312",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11995",
+              "sln": 11995,
+              "sectionNumber": 1,
+              "courseCode": "ME 312",
+              "courseName": "Manufacturing Engineering",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
