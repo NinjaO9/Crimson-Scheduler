@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T21:16:13.336470+00:00",
+  "generatedAt": "2026-10-14T01:14:52.329140+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -1619,8 +1619,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N THRUSH",
+              "instructors": [
+                "N THRUSH"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "V",
@@ -23160,102 +23162,6 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Global Leadership Integrative Capstone",
-          "subject": "UNIV",
-          "subjectPrefix": "Univs",
-          "courseNumber": 491,
-          "courseCode": "UNIV 491",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10817",
-              "sln": 10817,
-              "sectionNumber": 1,
-              "courseCode": "UNIV 491",
-              "courseName": "Global Leadership Integrative Capstone",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "K NEWLON",
-              "instructors": [
-                "K NEWLON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Leadership for the Global Context",
-          "subject": "UNIV",
-          "subjectPrefix": "Univs",
-          "courseNumber": 493,
-          "courseCode": "UNIV 493",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10822",
-              "sln": 10822,
-              "sectionNumber": 1,
-              "courseCode": "UNIV 493",
-              "courseName": "Leadership for the Global Context",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "K NEWLON",
-              "instructors": [
-                "K NEWLON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",

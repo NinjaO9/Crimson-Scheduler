@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T21:16:13.462264+00:00",
+  "generatedAt": "2026-10-14T01:14:52.443836+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -32435,10 +32435,8 @@
                 }
               ],
               "location": "GTZN 1",
-              "instructor": "B PERRY",
-              "instructors": [
-                "B PERRY"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "COMM",
               "coop": false,
               "footnotes": "",
@@ -39407,7 +39405,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "DAGG 226",
+              "location": "CARP 101",
               "instructor": "X LIN",
               "instructors": [
                 "X LIN"
@@ -39481,7 +39479,7 @@
                   "time": "11:10 - 12:00"
                 }
               ],
-              "location": "THOM 119",
+              "location": "CARP 101",
               "instructor": "T GILRAY",
               "instructors": [
                 "T GILRAY"
@@ -41283,87 +41281,6 @@
                 "total": 4,
                 "available": 4,
                 "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Forage Crops",
-          "subject": "CROP_SCI",
-          "subjectPrefix": "CropS",
-          "courseNumber": 302,
-          "courseCode": "CROP_SCI 302",
-          "credits": "3",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "3634",
-              "sln": 3634,
-              "sectionNumber": 1,
-              "courseCode": "CROP_SCI 302",
-              "courseName": "Forage Crops",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "TU,TH",
-              "time": "10:35 - 11:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:25"
-                }
-              ],
-              "location": "VPBS 43",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3635",
-              "sln": 3635,
-              "sectionNumber": 1,
-              "courseCode": "CROP_SCI 302",
-              "courseName": "Forage Crops",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TU",
-              "time": "14:55 - 17:35",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "14:55 - 17:35"
-                }
-              ],
-              "location": "VPBS 39",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -48849,8 +48766,10 @@
                 }
               ],
               "location": "TODD 130",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A CHOWDHURY",
+              "instructors": [
+                "A CHOWDHURY"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "",
@@ -58248,12 +58167,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
+              "days": "TH",
+              "time": "15:55 - 18:25",
               "meetings": [
                 {
-                  "days": "ARR",
-                  "time": "ARRGT"
+                  "days": "TH",
+                  "time": "15:55 - 18:25"
                 }
               ],
               "location": "AVER 111",
@@ -59831,117 +59750,6 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
-            },
-            {
-              "sectionId": "3751",
-              "sln": 3751,
-              "sectionNumber": 2,
-              "courseCode": "ENTOM 448",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 1,
-                "available": 1,
-                "label": "0/1"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3752",
-              "sln": 3752,
-              "sectionNumber": 3,
-              "courseCode": "ENTOM 448",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 1,
-                "available": 1,
-                "label": "0/1"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3753",
-              "sln": 3753,
-              "sectionNumber": 4,
-              "courseCode": "ENTOM 448",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 1,
-                "available": 1,
-                "label": "0/1"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
             }
           ]
         },
@@ -60796,154 +60604,6 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3750",
-              "sln": 3750,
-              "sectionNumber": 2,
-              "courseCode": "ENTOM 548",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3755",
-              "sln": 3755,
-              "sectionNumber": 3,
-              "courseCode": "ENTOM 548",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3756",
-              "sln": 3756,
-              "sectionNumber": 4,
-              "courseCode": "ENTOM 548",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3757",
-              "sln": 3757,
-              "sectionNumber": 5,
-              "courseCode": "ENTOM 548",
-              "courseName": "Medical and Veterinary Entomology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R ZACK",
-              "instructors": [
-                "R ZACK"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -62494,14 +62154,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "09:10 - 10:25",
+              "time": "10:35 - 11:50",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "09:10 - 10:25"
+                  "time": "10:35 - 11:50"
                 }
               ],
-              "location": "SPRK 223",
+              "location": "SPRK 327",
               "instructor": "C COONEY",
               "instructors": [
                 "C COONEY"
@@ -62787,7 +62447,7 @@
                   "time": "12:10 - 13:00"
                 }
               ],
-              "location": "TODD 413",
+              "location": "SPRK 327",
               "instructor": "K SMATHERS",
               "instructors": [
                 "K SMATHERS"
@@ -63778,8 +63438,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D FAIRHURST",
+              "instructors": [
+                "D FAIRHURST"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -67379,16 +67041,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,TH,M,W",
-              "time": "12:05 - 13:20;13:10 - 14:00",
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
               "meetings": [
                 {
                   "days": "TU,TH",
                   "time": "12:05 - 13:20"
-                },
-                {
-                  "days": "M,W",
-                  "time": "13:10 - 14:00"
                 }
               ],
               "location": "SLOA 169",
@@ -78858,9 +78516,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78895,9 +78553,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78930,9 +78588,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Mar 08",
@@ -78967,9 +78625,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79004,9 +78662,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79100,9 +78758,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79137,9 +78795,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79174,9 +78832,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79432,16 +79090,18 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "10:10 - 11:00",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "10:10 - 11:00"
+                  "time": "11:10 - 12:00"
                 }
               ],
               "location": "SGYM 115",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M TANGUILEG",
+              "instructors": [
+                "M TANGUILEG"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -79486,8 +79146,10 @@
                 }
               ],
               "location": "SGYM 115",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "E PRATT",
+              "instructors": [
+                "E PRATT"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -127597,7 +127259,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "WEBS 1234",
+              "location": "TROY 232",
               "instructor": "J MCINTYRE",
               "instructors": [
                 "J MCINTYRE"
@@ -127607,9 +127269,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
               },
               "dates": {
                 "start": "Jan 11",
@@ -135278,54 +134940,6 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Global Leadership Integrative Capstone",
-          "subject": "UNIV",
-          "subjectPrefix": "Univs",
-          "courseNumber": 491,
-          "courseCode": "UNIV 491",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10805",
-              "sln": 10805,
-              "sectionNumber": 1,
-              "courseCode": "UNIV 491",
-              "courseName": "Global Leadership Integrative Capstone",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "K NEWLON",
-              "instructors": [
-                "K NEWLON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
