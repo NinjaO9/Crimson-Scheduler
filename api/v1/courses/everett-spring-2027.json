@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T13:43:50.978448+00:00",
+  "generatedAt": "2026-10-14T18:36:12.878730+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -190,6 +190,54 @@
                 "total": 6,
                 "available": 6,
                 "label": "0/6"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Field Analysis of Sustainable Food Systems",
+          "subject": "AFS",
+          "subjectPrefix": "AFS",
+          "courseNumber": 445,
+          "courseCode": "AFS 445",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8414",
+              "sln": 8414,
+              "sectionNumber": 1,
+              "courseCode": "AFS 445",
+              "courseName": "Field Analysis of Sustainable Food Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L CARPENTER-BOGGS",
+              "instructors": [
+                "L CARPENTER-BOGGS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",

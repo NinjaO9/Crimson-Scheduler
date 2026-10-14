@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T13:43:51.027760+00:00",
+  "generatedAt": "2026-10-14T18:36:12.973389+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -53188,10 +53188,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 48,
+                "taken": 49,
                 "total": 201,
-                "available": 153,
-                "label": "48/201"
+                "available": 152,
+                "label": "49/201"
               },
               "dates": {
                 "start": "Oct 19",
@@ -95705,9 +95705,13 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
+              "days": "TU,TH,TU,TH",
+              "time": "10:35 - 11:50;10:35 - 11:50",
               "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                },
                 {
                   "days": "TU,TH",
                   "time": "10:35 - 11:50"

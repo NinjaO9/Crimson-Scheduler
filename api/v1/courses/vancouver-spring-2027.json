@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T13:43:51.298932+00:00",
+  "generatedAt": "2026-10-14T18:36:13.483553+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -15534,6 +15534,54 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Combinatorics",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 555,
+          "courseCode": "MATH 555",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11983",
+              "sln": 11983,
+              "sectionNumber": 1,
+              "courseCode": "MATH 555",
+              "courseName": "Topics in Combinatorics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "M HUDELSON",
+              "instructors": [
+                "M HUDELSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",

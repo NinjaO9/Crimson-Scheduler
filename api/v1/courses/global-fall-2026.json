@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T13:43:50.984290+00:00",
+  "generatedAt": "2026-10-14T18:36:12.890547+00:00",
   "campus": "Global",
   "term": "Fall 2026",
   "subjects": [
@@ -5051,10 +5051,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 18,
+                "taken": 20,
                 "total": 25,
-                "available": 7,
-                "label": "18/25"
+                "available": 5,
+                "label": "20/25"
               },
               "dates": {
                 "start": "Dec 19",
@@ -13944,6 +13944,43 @@
               }
             },
             {
+              "sectionId": "11097",
+              "sln": 11097,
+              "sectionNumber": 23,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R MAYS",
+              "instructors": [
+                "R MAYS"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Dec 19",
+                "end": "Jan 10"
+              }
+            },
+            {
               "sectionId": "11113",
               "sln": 11113,
               "sectionNumber": 24,
@@ -21610,10 +21647,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 30,
+                "taken": 31,
                 "total": 35,
-                "available": 5,
-                "label": "30/35"
+                "available": 4,
+                "label": "31/35"
               },
               "dates": {
                 "start": "Oct 19",

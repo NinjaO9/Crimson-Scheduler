@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T13:43:51.119660+00:00",
+  "generatedAt": "2026-10-14T18:36:13.153468+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -1693,6 +1693,54 @@
           ]
         },
         {
+          "course": "Field Analysis of Sustainable Food Systems",
+          "subject": "AFS",
+          "subjectPrefix": "AFS",
+          "courseNumber": 445,
+          "courseCode": "AFS 445",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8184",
+              "sln": 8184,
+              "sectionNumber": 1,
+              "courseCode": "AFS 445",
+              "courseName": "Field Analysis of Sustainable Food Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L CARPENTER-BOGGS",
+              "instructors": [
+                "L CARPENTER-BOGGS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Topics in Computational and Analytical Methods for Scientists",
           "subject": "AFS",
           "subjectPrefix": "AFS",
@@ -2631,6 +2679,54 @@
                 "total": 2,
                 "available": 2,
                 "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Field Analysis of Sustainable Food Systems",
+          "subject": "AFS",
+          "subjectPrefix": "AFS",
+          "courseNumber": 545,
+          "courseCode": "AFS 545",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8185",
+              "sln": 8185,
+              "sectionNumber": 1,
+              "courseCode": "AFS 545",
+              "courseName": "Field Analysis of Sustainable Food Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L CARPENTER-BOGGS",
+              "instructors": [
+                "L CARPENTER-BOGGS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14223,6 +14319,583 @@
       ]
     },
     {
+      "subject": "ATH_T",
+      "courses": [
+        {
+          "course": "Emergency Response",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 263,
+          "courseCode": "ATH_T 263",
+          "credits": "2",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5998",
+              "sln": 5998,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 263",
+              "courseName": "Emergency Response",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "08:10 - 09:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "08:10 - 09:00"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5999",
+              "sln": 5999,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 263",
+              "courseName": "Emergency Response",
+              "credits": "2",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pre-Clinical Education",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 290,
+          "courseCode": "ATH_T 290",
+          "credits": "2",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6108",
+              "sln": 6108,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 290",
+              "courseName": "Pre-Clinical Education",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "08:10 - 09:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "08:10 - 09:00"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "K PIETZ",
+              "instructors": [
+                "K PIETZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6152",
+              "sln": 6152,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 290",
+              "courseName": "Pre-Clinical Education",
+              "credits": "2",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K PIETZ",
+              "instructors": [
+                "K PIETZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Injury Pathologies of the Upper Extremity",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 371,
+          "courseCode": "ATH_T 371",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6180",
+              "sln": 6180,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 371",
+              "courseName": "Injury Pathologies of the Upper Extremity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "PEB  103",
+              "instructor": "K PIETZ",
+              "instructors": [
+                "K PIETZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Rehabilitation in Athletic Training",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 464,
+          "courseCode": "ATH_T 464",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6365",
+              "sln": 6365,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 464",
+              "courseName": "Rehabilitation in Athletic Training",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "S LANDIS",
+              "instructors": [
+                "S LANDIS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Athletic Training Instructional Practicum",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 490,
+          "courseCode": "ATH_T 490",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6367",
+              "sln": 6367,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 490",
+              "courseName": "Athletic Training Instructional Practicum",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K PIETZ",
+              "instructors": [
+                "K PIETZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6368",
+              "sln": 6368,
+              "sectionNumber": 2,
+              "courseCode": "ATH_T 490",
+              "courseName": "Athletic Training Instructional Practicum",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6369",
+              "sln": 6369,
+              "sectionNumber": 3,
+              "courseCode": "ATH_T 490",
+              "courseName": "Athletic Training Instructional Practicum",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LANDIS",
+              "instructors": [
+                "S LANDIS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Evaluation of Upper Extremity Injuries in Athletic Training",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 531,
+          "courseCode": "ATH_T 531",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6371",
+              "sln": 6371,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 531",
+              "courseName": "Evaluation of Upper Extremity Injuries in Athletic Training",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Psychosocial Issues in Athletic Training",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 560,
+          "courseCode": "ATH_T 560",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6366",
+              "sln": 6366,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 560",
+              "courseName": "Psychosocial Issues in Athletic Training",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Preparation in Athletic Training",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 598,
+          "courseCode": "ATH_T 598",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6373",
+              "sln": 6373,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 598",
+              "courseName": "Professional Preparation in Athletic Training",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Current Topics in Athletic Training",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 599,
+          "courseCode": "ATH_T 599",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6374",
+              "sln": 6374,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 599",
+              "courseName": "Current Topics in Athletic Training",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "SGYM 214A",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "B_A",
       "courses": [
         {
@@ -14290,8 +14963,10 @@
                 }
               ],
               "location": "CUE  419",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "W XU",
+              "instructors": [
+                "W XU"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -22151,9 +22826,9 @@
                 }
               ],
               "location": "PETB 107",
-              "instructor": "T GINN",
+              "instructor": "J MENG",
               "instructors": [
-                "T GINN"
+                "J MENG"
               ],
               "ucore": "",
               "coop": false,
@@ -22707,9 +23382,9 @@
                 }
               ],
               "location": "PETB 107",
-              "instructor": "J ADAM",
+              "instructor": "T GINN",
               "instructors": [
-                "J ADAM"
+                "T GINN"
               ],
               "ucore": "",
               "coop": true,
@@ -23327,11 +24002,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "12:10 - 13:00",
+              "time": "09:10 - 10:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "12:10 - 13:00"
+                  "time": "09:10 - 10:00"
                 }
               ],
               "location": "PETB 202",
@@ -23375,11 +24050,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "09:10 - 10:00",
+              "time": "12:10 - 13:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "09:10 - 10:00"
+                  "time": "12:10 - 13:00"
                 }
               ],
               "location": "PETB 202",
@@ -24263,11 +24938,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "09:10 - 10:00",
+              "time": "12:10 - 13:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "09:10 - 10:00"
+                  "time": "12:10 - 13:00"
                 }
               ],
               "location": "PETB 202",
@@ -24319,9 +24994,9 @@
                 }
               ],
               "location": "PETB 202",
-              "instructor": "I CHOWDHURY",
+              "instructor": "J ADAM",
               "instructors": [
-                "I CHOWDHURY"
+                "J ADAM"
               ],
               "ucore": "",
               "coop": false,
@@ -24367,9 +25042,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "I CHOWDHURY",
+              "instructor": "J ADAM",
               "instructors": [
-                "I CHOWDHURY"
+                "J ADAM"
               ],
               "ucore": "",
               "coop": false,
@@ -35508,6 +36183,43 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10188",
+              "sln": 10188,
+              "sectionNumber": 4,
+              "courseCode": "COMSTRAT 310",
+              "courseName": "Digital Content Promotion",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A THOMPSON",
+              "instructors": [
+                "A THOMPSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
               },
               "dates": {
                 "start": "Jan 11",
@@ -53119,6 +53831,54 @@
           ]
         },
         {
+          "course": "Research Methods I",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 505,
+          "courseCode": "ED_PSYCH 505",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10482",
+              "sln": 10482,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 505",
+              "courseName": "Research Methods I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Introduction to Qualitative Research",
           "subject": "ED_PSYCH",
           "subjectPrefix": "EdPsy",
@@ -53158,6 +53918,390 @@
                 "total": 12,
                 "available": 12,
                 "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Motivation Theories",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 573,
+          "courseCode": "ED_PSYCH 573",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11982",
+              "sln": 11982,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 573",
+              "courseName": "Motivation Theories",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "CLEV 311",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar in Educational Psychology",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 574,
+          "courseCode": "ED_PSYCH 574",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5069",
+              "sln": 5069,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 574",
+              "courseName": "Seminar in Educational Psychology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "10:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "10:10 - 12:00"
+                }
+              ],
+              "location": "CLEV 311",
+              "instructor": "S DAI",
+              "instructors": [
+                "S DAI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Multilevel Modeling",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 575,
+          "courseCode": "ED_PSYCH 575",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6921",
+              "sln": 6921,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 575",
+              "courseName": "Multilevel Modeling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "EDAD 216",
+              "instructor": "B FRENCH",
+              "instructors": [
+                "B FRENCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Psychology Internship",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 597,
+          "courseCode": "ED_PSYCH 597",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6187",
+              "sln": 6187,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 597",
+              "courseName": "Educational Psychology Internship",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 600,
+          "courseCode": "ED_PSYCH 600",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4895",
+              "sln": 4895,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O ADESOPE",
+              "instructors": [
+                "O ADESOPE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 700,
+          "courseCode": "ED_PSYCH 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4896",
+              "sln": 4896,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O ADESOPE",
+              "instructors": [
+                "O ADESOPE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 702,
+          "courseCode": "ED_PSYCH 702",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4897",
+              "sln": 4897,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O ADESOPE",
+              "instructors": [
+                "O ADESOPE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 800,
+          "courseCode": "ED_PSYCH 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4898",
+              "sln": 4898,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O ADESOPE",
+              "instructors": [
+                "O ADESOPE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -90907,9 +92051,9 @@
                 }
               ],
               "location": "SEH  210",
-              "instructor": "M HOSSAN",
+              "instructor": "M HOSSEINZADEH",
               "instructors": [
-                "M HOSSAN"
+                "M HOSSEINZADEH"
               ],
               "ucore": "",
               "coop": true,
@@ -91358,16 +92502,16 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,F,W",
-              "time": "15:10 - 16:00;15:10 - 18:00",
+              "days": "W,F,W",
+              "time": "15:10 - 16:00;18:10 - 21:00",
               "meetings": [
                 {
-                  "days": "M,F",
+                  "days": "W,F",
                   "time": "15:10 - 16:00"
                 },
                 {
                   "days": "W",
-                  "time": "15:10 - 18:00"
+                  "time": "18:10 - 21:00"
                 }
               ],
               "location": "SPRK G0010",
@@ -131787,16 +132931,18 @@
                 }
               ],
               "location": "SPRK 323",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "H VAN MULLEM",
+              "instructors": [
+                "H VAN MULLEM"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131822,8 +132968,10 @@
                 }
               ],
               "location": "SLOA 167",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A GANG",
+              "instructors": [
+                "A GANG"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -135322,6 +136470,54 @@
                 "total": 60,
                 "available": 60,
                 "label": "0/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 570,
+          "courseCode": "VET_CLIN 570",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11990",
+              "sln": 11990,
+              "sectionNumber": 16,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N VILLARINO",
+              "instructors": [
+                "N VILLARINO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -142226,6 +143422,54 @@
                 "total": 7,
                 "available": 7,
                 "label": "0/7"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "LGBTQ+ History: Culture, Politics, and Social Change in the U.S.",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 399,
+          "courseCode": "WGSS 399",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11977",
+              "sln": 11977,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 399",
+              "courseName": "LGBTQ+ History: Culture, Politics, and Social Change in the U.S.",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L HEIDENREICH",
+              "instructors": [
+                "L HEIDENREICH"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",

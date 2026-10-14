@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T13:43:51.226961+00:00",
+  "generatedAt": "2026-10-14T18:36:13.355052+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -622,6 +622,59 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ED_PSYCH",
+      "courses": [
+        {
+          "course": "Research Methods I",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 505,
+          "courseCode": "ED_PSYCH 505",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10496",
+              "sln": 10496,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 505",
+              "courseName": "Research Methods I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",
