@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T01:14:52.576316+00:00",
+  "generatedAt": "2026-10-14T07:40:01.510060+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -4282,6 +4282,54 @@
           ]
         },
         {
+          "course": "Neural Network Design and Application",
+          "subject": "CPT_S",
+          "subjectPrefix": "Cpt S",
+          "courseNumber": 434,
+          "courseCode": "CPT_S 434",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8016",
+              "sln": 8016,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 434",
+              "courseName": "Neural Network Design and Application",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "07:45 - 09:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "07:45 - 09:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "Y YAN",
+              "instructors": [
+                "Y YAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Cybersecurity of Critical Infrastructure Systems",
           "subject": "CPT_S",
           "subjectPrefix": "Cpt S",
@@ -4321,6 +4369,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Artificial Intelligence",
+          "subject": "CPT_S",
+          "subjectPrefix": "Cpt S",
+          "courseNumber": 440,
+          "courseCode": "CPT_S 440",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4203",
+              "sln": 4203,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 440",
+              "courseName": "Artificial Intelligence",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "H WEI",
+              "instructors": [
+                "H WEI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4657,6 +4753,102 @@
                 "total": 1,
                 "available": 1,
                 "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Neural Network Design and Application",
+          "subject": "CPT_S",
+          "subjectPrefix": "Cpt S",
+          "courseNumber": 534,
+          "courseCode": "CPT_S 534",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8017",
+              "sln": 8017,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 534",
+              "courseName": "Neural Network Design and Application",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "07:45 - 09:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "07:45 - 09:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "Y YAN",
+              "instructors": [
+                "Y YAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Artificial Intelligence",
+          "subject": "CPT_S",
+          "subjectPrefix": "Cpt S",
+          "courseNumber": 540,
+          "courseCode": "CPT_S 540",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4204",
+              "sln": 4204,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 540",
+              "courseName": "Artificial Intelligence",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "H WEI",
+              "instructors": [
+                "H WEI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",
