@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T18:19:07.721620+00:00",
+  "generatedAt": "2026-10-15T22:16:47.286792+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -10945,54 +10945,6 @@
           ]
         },
         {
-          "course": "Introduction to Screenwriting",
-          "subject": "ENGLISH",
-          "subjectPrefix": "Engl",
-          "courseNumber": 343,
-          "courseCode": "ENGLISH 343",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9454",
-              "sln": 9454,
-              "sectionNumber": 1,
-              "courseCode": "ENGLISH 343",
-              "courseName": "Introduction to Screenwriting",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "L LEVY",
-              "instructors": [
-                "L LEVY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Creative Writing: Creative Nonfiction",
           "subject": "ENGLISH",
           "subjectPrefix": "Engl",
@@ -13917,52 +13869,6 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Feb 28"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Senior Living Management Operations Analysis",
-          "subject": "HBM",
-          "subjectPrefix": "HBM",
-          "courseNumber": 470,
-          "courseCode": "HBM 470",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11412",
-              "sln": 11412,
-              "sectionNumber": 1,
-              "courseCode": "HBM 470",
-              "courseName": "Senior Living Management Operations Analysis",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22986,6 +22892,59 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SPMGT",
+      "courses": [
+        {
+          "course": "Sport in American Society",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 367,
+          "courseCode": "SPMGT 367",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12000",
+              "sln": 12000,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 367",
+              "courseName": "Sport in American Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H VAN MULLEM",
+              "instructors": [
+                "H VAN MULLEM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",

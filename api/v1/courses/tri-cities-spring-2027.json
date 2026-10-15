@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T18:19:07.998267+00:00",
+  "generatedAt": "2026-10-15T22:16:47.789937+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -245,6 +245,52 @@
           ]
         },
         {
+          "course": "Drawing",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 110,
+          "courseCode": "ART 110",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11174",
+              "sln": 11174,
+              "sectionNumber": 1,
+              "courseCode": "ART 110",
+              "courseName": "Drawing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "TCIC 102B",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Art, Science, and Technology",
           "subject": "ART",
           "subjectPrefix": "ART",
@@ -271,7 +317,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "",
+              "location": "TFLO 138",
               "instructor": "P CHRISTENSON",
               "instructors": [
                 "P CHRISTENSON"
@@ -598,7 +644,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 226",
               "instructor": "G YEAGER",
               "instructors": [
                 "G YEAGER"
@@ -635,7 +681,7 @@
                   "time": "17:10 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 226",
               "instructor": "J RODRIGUEZ LLAMAS",
               "instructors": [
                 "J RODRIGUEZ LLAMAS"
@@ -672,7 +718,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 226",
               "instructor": "J RODRIGUEZ LLAMAS",
               "instructors": [
                 "J RODRIGUEZ LLAMAS"
@@ -709,7 +755,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 226",
               "instructor": "J RODRIGUEZ LLAMAS",
               "instructors": [
                 "J RODRIGUEZ LLAMAS"
@@ -746,7 +792,7 @@
                   "time": "17:10 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 226",
               "instructor": "J RODRIGUEZ LLAMAS",
               "instructors": [
                 "J RODRIGUEZ LLAMAS"
@@ -831,7 +877,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 214",
               "instructor": "G YEAGER",
               "instructors": [
                 "G YEAGER"
@@ -868,7 +914,7 @@
                   "time": "15:10 - 18:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 214",
               "instructor": "G YEAGER",
               "instructors": [
                 "G YEAGER"
@@ -2893,7 +2939,7 @@
                   "time": "17:10 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 122",
               "instructor": "K NANDY",
               "instructors": [
                 "K NANDY"
@@ -2978,7 +3024,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TBSL 173",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -3013,7 +3059,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TBSL 173",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -3096,7 +3142,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 122",
               "instructor": "K NANDY",
               "instructors": [
                 "K NANDY"
@@ -3133,7 +3179,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 122",
               "instructor": "K NANDY",
               "instructors": [
                 "K NANDY"
@@ -3170,7 +3216,7 @@
                   "time": "17:10 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 122",
               "instructor": "K NANDY",
               "instructors": [
                 "K NANDY"
@@ -3255,7 +3301,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 122",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -3290,7 +3336,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 122",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -5182,7 +5228,7 @@
                   "time": "12:10 - 13:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 145",
               "instructor": "S PHILIPP",
               "instructors": [
                 "S PHILIPP"
@@ -5219,7 +5265,7 @@
                   "time": "12:10 - 14:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 145",
               "instructor": "S PHILIPP",
               "instructors": [
                 "S PHILIPP"
@@ -5900,7 +5946,7 @@
                   "time": "17:45 - 20:35"
                 }
               ],
-              "location": "",
+              "location": "TFLO 161",
               "instructor": "W JORGENSEN",
               "instructors": [
                 "W JORGENSEN"
@@ -5937,7 +5983,7 @@
                   "time": "17:45 - 20:35"
                 }
               ],
-              "location": "",
+              "location": "TFLO 161",
               "instructor": "W JORGENSEN",
               "instructors": [
                 "W JORGENSEN"
@@ -6033,7 +6079,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TFLO 164",
               "instructor": "Q YANG",
               "instructors": [
                 "Q YANG"
@@ -6070,7 +6116,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 164",
               "instructor": "Q YANG",
               "instructors": [
                 "Q YANG"
@@ -6107,7 +6153,7 @@
                   "time": "08:00 - 10:50"
                 }
               ],
-              "location": "",
+              "location": "TFLO 164",
               "instructor": "Q YANG",
               "instructors": [
                 "Q YANG"
@@ -6288,7 +6334,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TFLO 162",
               "instructor": "S HUDSON",
               "instructors": [
                 "S HUDSON"
@@ -6325,7 +6371,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TFLO 162",
               "instructor": "S HUDSON",
               "instructors": [
                 "S HUDSON"
@@ -6462,7 +6508,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "",
+              "location": "TFLO 151",
               "instructor": "A JODEIRI AKBARFAM",
               "instructors": [
                 "A JODEIRI AKBARFAM"
@@ -6472,9 +6518,9 @@
               "footnotes": "X",
               "seats": {
                 "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11721,7 +11767,7 @@
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 145",
               "instructor": "E LOEFFLER",
               "instructors": [
                 "E LOEFFLER"
@@ -11758,7 +11804,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 145",
               "instructor": "E LOEFFLER",
               "instructors": [
                 "E LOEFFLER"
@@ -11931,19 +11977,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "M,M",
-              "time": "10:10 - 13:00;10:10 - 13:00",
+              "days": "M",
+              "time": "10:10 - 13:00",
               "meetings": [
-                {
-                  "days": "M",
-                  "time": "10:10 - 13:00"
-                },
                 {
                   "days": "M",
                   "time": "10:10 - 13:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "Y ZHANG",
               "instructors": [
                 "Y ZHANG"
@@ -11980,7 +12022,7 @@
                   "time": "10:10 - 13:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "Y ZHANG",
               "instructors": [
                 "Y ZHANG"
@@ -12017,7 +12059,7 @@
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "Y ZHANG",
               "instructors": [
                 "Y ZHANG"
@@ -12094,19 +12136,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU,TU",
-              "time": "09:10 - 12:00;09:10 - 12:00",
+              "days": "TU",
+              "time": "09:10 - 12:00",
               "meetings": [
-                {
-                  "days": "TU",
-                  "time": "09:10 - 12:00"
-                },
                 {
                   "days": "TU",
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "C YANG",
               "instructors": [
                 "C YANG"
@@ -12135,19 +12173,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TH,TH",
-              "time": "13:30 - 16:20;13:30 - 16:20",
+              "days": "TH",
+              "time": "13:30 - 16:20",
               "meetings": [
-                {
-                  "days": "TH",
-                  "time": "13:30 - 16:20"
-                },
                 {
                   "days": "TH",
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "C YANG",
               "instructors": [
                 "C YANG"
@@ -12176,19 +12210,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "F,F",
-              "time": "09:10 - 12:00;09:10 - 12:00",
+              "days": "F",
+              "time": "09:10 - 12:00",
               "meetings": [
-                {
-                  "days": "F",
-                  "time": "09:10 - 12:00"
-                },
                 {
                   "days": "F",
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "C YANG",
               "instructors": [
                 "C YANG"
@@ -12313,19 +12343,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "M,W,M,W",
-              "time": "14:10 - 17:00;14:10 - 17:00",
+              "days": "M,W",
+              "time": "14:10 - 17:00",
               "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "14:10 - 17:00"
-                },
                 {
                   "days": "M,W",
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 165",
               "instructor": "C YANG",
               "instructors": [
                 "C YANG"
@@ -17131,7 +17157,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 108",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -17166,7 +17192,7 @@
                   "time": "17:10 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 108",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -17260,7 +17286,7 @@
                   "time": "09:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 108",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -17295,7 +17321,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 108",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -17330,7 +17356,7 @@
                   "time": "17:10 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 108",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -18193,7 +18219,7 @@
                   "time": "17:45 - 20:35"
                 }
               ],
-              "location": "",
+              "location": "TCOL 214",
               "instructor": "",
               "instructors": [],
               "ucore": "BSCI",
@@ -18228,7 +18254,7 @@
                   "time": "16:15 - 19:05"
                 }
               ],
-              "location": "",
+              "location": "TCOL 214",
               "instructor": "",
               "instructors": [],
               "ucore": "BSCI",
@@ -18555,7 +18581,7 @@
                   "time": "13:30 - 16:20"
                 }
               ],
-              "location": "",
+              "location": "TCOL 114",
               "instructor": "",
               "instructors": [],
               "ucore": "BSCI",
@@ -18590,7 +18616,7 @@
                   "time": "15:10 - 18:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 114",
               "instructor": "",
               "instructors": [],
               "ucore": "BSCI",
@@ -19419,7 +19445,7 @@
                   "time": "17:45 - 19:30"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "Y HSIAO",
               "instructors": [
                 "Y HSIAO"
@@ -19515,7 +19541,7 @@
                   "time": "17:45 - 19:30"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "Y HSIAO",
               "instructors": [
                 "Y HSIAO"
@@ -19701,7 +19727,7 @@
                   "time": "16:30 - 18:20"
                 }
               ],
-              "location": "",
+              "location": "TFLO 145",
               "instructor": "D HODGES",
               "instructors": [
                 "D HODGES"
@@ -19738,7 +19764,7 @@
                   "time": "15:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 145",
               "instructor": "D HODGES",
               "instructors": [
                 "D HODGES"
@@ -19924,7 +19950,7 @@
                   "time": "13:10 - 15:55"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "Y COOPER",
               "instructors": [
                 "Y COOPER"
@@ -19972,7 +19998,7 @@
                   "time": "13:10 - 15:55"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "Y COOPER",
               "instructors": [
                 "Y COOPER"
@@ -20020,7 +20046,7 @@
                   "time": "13:30 - 15:10"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "Y COOPER",
               "instructors": [
                 "Y COOPER"
@@ -20072,7 +20098,7 @@
                   "time": "17:45 - 20:30"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "S NEWCOMER",
               "instructors": [
                 "S NEWCOMER"
@@ -20253,7 +20279,7 @@
                   "time": "17:15 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TCOL 114",
               "instructor": "E SMITH",
               "instructors": [
                 "E SMITH"
@@ -20301,7 +20327,7 @@
                   "time": "09:10 - 11:55"
                 }
               ],
-              "location": "",
+              "location": "TCOL 114",
               "instructor": "L LIGHTNER",
               "instructors": [
                 "L LIGHTNER"
@@ -20397,7 +20423,7 @@
                   "time": "17:15 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "E JOHNSON",
               "instructors": [
                 "E JOHNSON"
@@ -20700,7 +20726,7 @@
                   "time": "13:30 - 16:15"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "R BEST",
               "instructors": [
                 "R BEST"
@@ -20844,7 +20870,7 @@
                   "time": "17:15 - 20:00"
                 }
               ],
-              "location": "",
+              "location": "TFLO 235",
               "instructor": "E JOHNSON",
               "instructors": [
                 "E JOHNSON"
@@ -21126,7 +21152,7 @@
                   "time": "15:10 - 16:00"
                 }
               ],
-              "location": "",
+              "location": "TCIC 201AG",
               "instructor": "J PETERS",
               "instructors": [
                 "J PETERS"
@@ -21419,7 +21445,7 @@
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TWSC 206",
               "instructor": "B BONDADA",
               "instructors": [
                 "B BONDADA"
@@ -21515,7 +21541,7 @@
                   "time": "12:05 - 14:50"
                 }
               ],
-              "location": "",
+              "location": "TWSC 206",
               "instructor": "J HARBERTSON",
               "instructors": [
                 "J HARBERTSON"
@@ -21611,7 +21637,7 @@
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TWSC 206",
               "instructor": "C CURTIN",
               "instructors": [
                 "C CURTIN"
@@ -21936,7 +21962,7 @@
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "TWSC 206",
               "instructor": "C CURTIN",
               "instructors": [
                 "C CURTIN"

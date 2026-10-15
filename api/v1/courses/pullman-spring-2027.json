@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T18:19:07.850900+00:00",
+  "generatedAt": "2026-10-15T22:16:47.525767+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -23186,9 +23186,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23223,9 +23223,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23260,9 +23260,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
               },
               "dates": {
                 "start": "Jan 11",
@@ -25122,52 +25122,6 @@
               "instructors": [
                 "P BAHMANI"
               ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 14,
-                "available": 14,
-                "label": "0/14"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Advanced Design of Timber Structures",
-          "subject": "CE",
-          "subjectPrefix": "C E",
-          "courseNumber": 539,
-          "courseCode": "CE 539",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "5153",
-              "sln": 5153,
-              "sectionNumber": 1,
-              "courseCode": "CE 539",
-              "courseName": "Advanced Design of Timber Structures",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "PETB 305",
-              "instructor": "",
-              "instructors": [],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -28169,19 +28123,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU,TU",
-              "time": "07:45 - 08:35;09:10 - 12:00",
+              "days": "TU",
+              "time": "09:10 - 11:00",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "07:45 - 08:35"
-                },
-                {
-                  "days": "TU",
-                  "time": "09:10 - 12:00"
+                  "time": "09:10 - 11:00"
                 }
               ],
-              "location": "CUE  316",
+              "location": "CUE  512",
               "instructor": "",
               "instructors": [],
               "ucore": "PSCI",
@@ -28949,16 +28899,12 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "W,W",
-              "time": "17:10 - 20:00;18:10 - 21:00",
+              "days": "W",
+              "time": "18:10 - 20:00",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "17:10 - 20:00"
-                },
-                {
-                  "days": "W",
-                  "time": "18:10 - 21:00"
+                  "time": "18:10 - 20:00"
                 }
               ],
               "location": "TROY G0005",
@@ -113451,8 +113397,10 @@
                 }
               ],
               "location": "CUE  202",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S CONKLIN",
+              "instructors": [
+                "S CONKLIN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
