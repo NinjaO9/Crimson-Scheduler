@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T13:30:23.880599+00:00",
+  "generatedAt": "2026-10-15T18:19:07.850900+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -14492,6 +14492,54 @@
           ]
         },
         {
+          "course": "Nutrition Related to Fitness and Sport",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 305,
+          "courseCode": "ATH_T 305",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6375",
+              "sln": 6375,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 305",
+              "courseName": "Nutrition Related to Fitness and Sport",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "SGYM 201",
+              "instructor": "D KUJALA",
+              "instructors": [
+                "D KUJALA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Injury Pathologies of the Upper Extremity",
           "subject": "ATH_T",
           "subjectPrefix": "Ath T",
@@ -14785,6 +14833,224 @@
               "location": "SGYM 214A",
               "instructor": "",
               "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Athletic Training Clinical Internship I",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 591,
+          "courseCode": "ATH_T 591",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6184",
+              "sln": 6184,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 591",
+              "courseName": "Athletic Training Clinical Internship I",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Athletic Training Clinical Internship II",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 592,
+          "courseCode": "ATH_T 592",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6370",
+              "sln": 6370,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 592",
+              "courseName": "Athletic Training Clinical Internship II",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6376",
+              "sln": 6376,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 592",
+              "courseName": "Athletic Training Clinical Internship II",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Athletic Training Clinical Internship III",
+          "subject": "ATH_T",
+          "subjectPrefix": "Ath T",
+          "courseNumber": 593,
+          "courseCode": "ATH_T 593",
+          "credits": "5",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6372",
+              "sln": 6372,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 593",
+              "courseName": "Athletic Training Clinical Internship III",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6377",
+              "sln": 6377,
+              "sectionNumber": 1,
+              "courseCode": "ATH_T 593",
+              "courseName": "Athletic Training Clinical Internship III",
+              "credits": "5",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CHOE",
+              "instructors": [
+                "S CHOE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -43695,6 +43961,103 @@
       ]
     },
     {
+      "subject": "CSSTE",
+      "courses": [
+        {
+          "course": "Youth Cultures in Education",
+          "subject": "CSSTE",
+          "subjectPrefix": "CSSTE",
+          "courseNumber": 538,
+          "courseCode": "CSSTE 538",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6920",
+              "sln": 6920,
+              "sectionNumber": 1,
+              "courseCode": "CSSTE 538",
+              "courseName": "Youth Cultures in Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "CSSTE",
+          "subjectPrefix": "CSSTE",
+          "courseNumber": 800,
+          "courseCode": "CSSTE 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5988",
+              "sln": 5988,
+              "sectionNumber": 1,
+              "courseCode": "CSSTE 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "CST_M",
       "courses": [
         {
@@ -48241,6 +48604,54 @@
               "instructor": "J GUERRERO SEDENO",
               "instructors": [
                 "J GUERRERO SEDENO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Electric Energy Distribution Systems",
+          "subject": "E_E",
+          "subjectPrefix": "E E",
+          "courseNumber": 485,
+          "courseCode": "E_E 485",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7090",
+              "sln": 7090,
+              "sectionNumber": 1,
+              "courseCode": "E_E 485",
+              "courseName": "Electric Energy Distribution Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "07:45 - 09:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "07:45 - 09:00"
+                }
+              ],
+              "location": "VC   PUL",
+              "instructor": "A DUBEY",
+              "instructors": [
+                "A DUBEY"
               ],
               "ucore": "",
               "coop": false,
@@ -53732,8 +54143,186 @@
       ]
     },
     {
+      "subject": "ED_MTHSC",
+      "courses": [
+        {
+          "course": "Research Seminar in Mathematics and Science Education",
+          "subject": "ED_MTHSC",
+          "subjectPrefix": "MTHSC",
+          "courseNumber": 598,
+          "courseCode": "ED_MTHSC 598",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5959",
+              "sln": 5959,
+              "sectionNumber": 1,
+              "courseCode": "ED_MTHSC 598",
+              "courseName": "Research Seminar in Mathematics and Science Education",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:30 - 17:30",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:30 - 17:30"
+                }
+              ],
+              "location": "EDAD 216",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "ED_MTHSC",
+          "subjectPrefix": "MTHSC",
+          "courseNumber": 800,
+          "courseCode": "ED_MTHSC 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5989",
+              "sln": 5989,
+              "sectionNumber": 1,
+              "courseCode": "ED_MTHSC 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "ED_PSYCH",
       "courses": [
+        {
+          "course": "Classroom Assessment, Elementary",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 401,
+          "courseCode": "ED_PSYCH 401",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5067",
+              "sln": 5067,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 401",
+              "courseName": "Classroom Assessment, Elementary",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:30 - 12:20",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:30 - 12:20"
+                }
+              ],
+              "location": "EDAD 110",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5068",
+              "sln": 5068,
+              "sectionNumber": 2,
+              "courseCode": "ED_PSYCH 401",
+              "courseName": "Classroom Assessment, Elementary",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:10 - 13:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:10 - 13:25"
+                }
+              ],
+              "location": "CLEV 311",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
         {
           "course": "Classroom Assessment, Secondary",
           "subject": "ED_PSYCH",
@@ -64538,6 +65127,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "11975",
+              "sln": 11975,
+              "sectionNumber": 2,
+              "courseCode": "FIN 596",
+              "courseName": "Advanced Topics in Financial Economics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D WHIDBEE",
+              "instructors": [
+                "D WHIDBEE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -69812,6 +70438,54 @@
           ]
         },
         {
+          "course": "Operational Analysis",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 491,
+          "courseCode": "HBM 491",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7313",
+              "sln": 7313,
+              "sectionNumber": 2,
+              "courseCode": "HBM 491",
+              "courseName": "Operational Analysis",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "16:20 - 19:10",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "16:20 - 19:10"
+                }
+              ],
+              "location": "",
+              "instructor": "C CHI",
+              "instructors": [
+                "C CHI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Mar 08",
+                "end": "May 02"
+              }
+            }
+          ]
+        },
+        {
           "course": "Food and Beverage Strategies",
           "subject": "HBM",
           "subjectPrefix": "HBM",
@@ -71700,6 +72374,54 @@
                 "total": 35,
                 "available": 35,
                 "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in History",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 395,
+          "courseCode": "HISTORY 395",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12001",
+              "sln": 12001,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 395",
+              "courseName": "Topics in History",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R BOOTH",
+              "instructors": [
+                "R BOOTH"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -83912,6 +84634,103 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LLT",
+      "courses": [
+        {
+          "course": "Seminar in Language, Literacy, and Technology",
+          "subject": "LLT",
+          "subjectPrefix": "LLT",
+          "courseNumber": 586,
+          "courseCode": "LLT 586",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5992",
+              "sln": 5992,
+              "sectionNumber": 1,
+              "courseCode": "LLT 586",
+              "courseName": "Seminar in Language, Literacy, and Technology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "LLT",
+          "subjectPrefix": "LLT",
+          "courseNumber": 800,
+          "courseCode": "LLT 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5990",
+              "sln": 5990,
+              "sectionNumber": 1,
+              "courseCode": "LLT 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -97451,6 +98270,184 @@
                 "total": 21,
                 "available": 21,
                 "label": "0/21"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MIT",
+      "courses": [
+        {
+          "course": "Elementary School Social Studies Methods",
+          "subject": "MIT",
+          "subjectPrefix": "MIT",
+          "courseNumber": 530,
+          "courseCode": "MIT 530",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7192",
+              "sln": 7192,
+              "sectionNumber": 1,
+              "courseCode": "MIT 530",
+              "courseName": "Elementary School Social Studies Methods",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar in Middle Level Education",
+          "subject": "MIT",
+          "subjectPrefix": "MIT",
+          "courseNumber": 550,
+          "courseCode": "MIT 550",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7173",
+              "sln": 7173,
+              "sectionNumber": 1,
+              "courseCode": "MIT 550",
+              "courseName": "Seminar in Middle Level Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:30 - 19:30",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:30 - 19:30"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship and Seminar",
+          "subject": "MIT",
+          "subjectPrefix": "MIT",
+          "courseNumber": 575,
+          "courseCode": "MIT 575",
+          "credits": "10",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6121",
+              "sln": 6121,
+              "sectionNumber": 1,
+              "courseCode": "MIT 575",
+              "courseName": "Internship and Seminar",
+              "credits": "10",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "17:10 - 18:30",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:10 - 18:30"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6147",
+              "sln": 6147,
+              "sectionNumber": 1,
+              "courseCode": "MIT 575",
+              "courseName": "Internship and Seminar",
+              "credits": "10",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -112418,6 +113415,52 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "",
+          "subject": "PHIL",
+          "subjectPrefix": "Phil",
+          "courseNumber": 240,
+          "courseCode": "PHIL 240",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11999",
+              "sln": 11999,
+              "sectionNumber": 1,
+              "courseCode": "PHIL 240",
+              "courseName": "",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "CUE  202",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 75,
+                "available": 75,
+                "label": "0/75"
               },
               "dates": {
                 "start": "Jan 11",
@@ -132928,6 +133971,224 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "5957",
+              "sln": 5957,
+              "sectionNumber": 3,
+              "courseCode": "SPMGT 101",
+              "courseName": "Sport and Popular Culture: Trends and Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "C LEBENS",
+              "instructors": [
+                "C LEBENS"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Sport Management",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 276,
+          "courseCode": "SPMGT 276",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5513",
+              "sln": 5513,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 276",
+              "courseName": "Introduction to Sport Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "P KIMBROUGH",
+              "instructors": [
+                "P KIMBROUGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sport Programs",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 290,
+          "courseCode": "SPMGT 290",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5514",
+              "sln": 5514,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 290",
+              "courseName": "Sport Programs",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "D MACKIE",
+              "instructors": [
+                "D MACKIE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5515",
+              "sln": 5515,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 290",
+              "courseName": "Sport Programs",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D MACKIE",
+              "instructors": [
+                "D MACKIE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ethics and Moral Reasoning in Sport",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 365,
+          "courseCode": "SPMGT 365",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5516",
+              "sln": 5516,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 365",
+              "courseName": "Ethics and Moral Reasoning in Sport",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "P VAN MULLEM",
+              "instructors": [
+                "P VAN MULLEM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -133043,6 +134304,713 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sport Finance",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 374,
+          "courseCode": "SPMGT 374",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5518",
+              "sln": 5518,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 374",
+              "courseName": "Sport Finance",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "T CRAWFORD",
+              "instructors": [
+                "T CRAWFORD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Legal Aspects of Sport",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 377,
+          "courseCode": "SPMGT 377",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5519",
+              "sln": 5519,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 377",
+              "courseName": "Legal Aspects of Sport",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "CLEV 311",
+              "instructor": "C LEBENS",
+              "instructors": [
+                "C LEBENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sport Communication",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 379,
+          "courseCode": "SPMGT 379",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6833",
+              "sln": 6833,
+              "sectionNumber": 2,
+              "courseCode": "SPMGT 379",
+              "courseName": "Sport Communication",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "P VAN MULLEM",
+              "instructors": [
+                "P VAN MULLEM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Practicum in Sport Management",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 394,
+          "courseCode": "SPMGT 394",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5521",
+              "sln": 5521,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 394",
+              "courseName": "Practicum in Sport Management",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C MCGRATH",
+              "instructors": [
+                "C MCGRATH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 125,
+                "available": 125,
+                "label": "0/125"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sport Marketing",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 464,
+          "courseCode": "SPMGT 464",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5522",
+              "sln": 5522,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 464",
+              "courseName": "Sport Marketing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "P VAN MULLEM",
+              "instructors": [
+                "P VAN MULLEM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Managing Sport Organizations",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 468,
+          "courseCode": "SPMGT 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5523",
+              "sln": 5523,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 468",
+              "courseName": "Managing Sport Organizations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "P KIMBROUGH",
+              "instructors": [
+                "P KIMBROUGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Theory and Application in Sports Event Management",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 489,
+          "courseCode": "SPMGT 489",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6694",
+              "sln": 6694,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 489",
+              "courseName": "Theory and Application in Sports Event Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "C LEBENS",
+              "instructors": [
+                "C LEBENS"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship Seminar",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 490,
+          "courseCode": "SPMGT 490",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6394",
+              "sln": 6394,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 490",
+              "courseName": "Internship Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "CLEV 255",
+              "instructor": "T CRAWFORD",
+              "instructors": [
+                "T CRAWFORD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Mar 05"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 491,
+          "courseCode": "SPMGT 491",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4899",
+              "sln": 4899,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 491",
+              "courseName": "Internship",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C LEBENS",
+              "instructors": [
+                "C LEBENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4900",
+              "sln": 4900,
+              "sectionNumber": 2,
+              "courseCode": "SPMGT 491",
+              "courseName": "Internship",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 497,
+          "courseCode": "SPMGT 497",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6647",
+              "sln": 6647,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 497",
+              "courseName": "Special Topics",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "EDAD 202",
+              "instructor": "H VAN MULLEM",
+              "instructors": [
+                "H VAN MULLEM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 8,
+                "available": 8,
+                "label": "0/8"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Mar 05"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 499,
+          "courseCode": "SPMGT 499",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5524",
+              "sln": 5524,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 499",
+              "courseName": "Special Problems",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A GANG",
+              "instructors": [
+                "A GANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 600,
+          "courseCode": "SPMGT 600",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4901",
+              "sln": 4901,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A GANG",
+              "instructors": [
+                "A GANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 700,
+          "courseCode": "SPMGT 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4902",
+              "sln": 4902,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A GANG",
+              "instructors": [
+                "A GANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 702,
+          "courseCode": "SPMGT 702",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4903",
+              "sln": 4903,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CRAWFORD",
+              "instructors": [
+                "T CRAWFORD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -135335,6 +137303,967 @@
       "subject": "TCH_LRN",
       "courses": [
         {
+          "course": "Learning and Development",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 301,
+          "courseCode": "TCH_LRN 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4937",
+              "sln": 4937,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 301",
+              "courseName": "Learning and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "CLEV 311",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4938",
+              "sln": 4938,
+              "sectionNumber": 3,
+              "courseCode": "TCH_LRN 301",
+              "courseName": "Learning and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4939",
+              "sln": 4939,
+              "sectionNumber": 4,
+              "courseCode": "TCH_LRN 301",
+              "courseName": "Learning and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "CLEV 311",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4940",
+              "sln": 4940,
+              "sectionNumber": 6,
+              "courseCode": "TCH_LRN 301",
+              "courseName": "Learning and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Survey of Children's Literature",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 307,
+          "courseCode": "TCH_LRN 307",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4941",
+              "sln": 4941,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 307",
+              "courseName": "Survey of Children's Literature",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "08:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "08:10 - 11:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7749",
+              "sln": 7749,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 307",
+              "courseName": "Survey of Children's Literature",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Classroom Management",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 310,
+          "courseCode": "TCH_LRN 310",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6410",
+              "sln": 6410,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 310",
+              "courseName": "Classroom Management",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "09:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 11:00"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12002",
+              "sln": 12002,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 310",
+              "courseName": "Classroom Management",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "09:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "09:10 - 11:00"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Early Literacy",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 321,
+          "courseCode": "TCH_LRN 321",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4942",
+              "sln": 4942,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 321",
+              "courseName": "Early Literacy",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4943",
+              "sln": 4943,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 321",
+              "courseName": "Early Literacy",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "11:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "11:10 - 14:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Reading and Writing in Grades 4 - 8",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 322,
+          "courseCode": "TCH_LRN 322",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4944",
+              "sln": 4944,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 322",
+              "courseName": "Reading and Writing in Grades 4 - 8",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "08:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "08:10 - 11:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4945",
+              "sln": 4945,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 322",
+              "courseName": "Reading and Writing in Grades 4 - 8",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "08:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "08:10 - 11:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Equity and Diversity within Schools and Communities",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 330,
+          "courseCode": "TCH_LRN 330",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4946",
+              "sln": 4946,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 330",
+              "courseName": "Equity and Diversity within Schools and Communities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "EDAD 308",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6396",
+              "sln": 6396,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 330",
+              "courseName": "Equity and Diversity within Schools and Communities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:30 - 12:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:30 - 12:20"
+                }
+              ],
+              "location": "EDAD 308",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Multilingual Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 333,
+          "courseCode": "TCH_LRN 333",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5770",
+              "sln": 5770,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 333",
+              "courseName": "Introduction to Multilingual Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12003",
+              "sln": 12003,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 333",
+              "courseName": "Introduction to Multilingual Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:30 - 15:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:30 - 15:45"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Teaching Elementary Mathematics",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 352,
+          "courseCode": "TCH_LRN 352",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4947",
+              "sln": 4947,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 352",
+              "courseName": "Teaching Elementary Mathematics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 212",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4948",
+              "sln": 4948,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 352",
+              "courseName": "Teaching Elementary Mathematics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "04:10 - 07:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "04:10 - 07:00"
+                }
+              ],
+              "location": "EDAD 212",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Teaching Elementary Science",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 371,
+          "courseCode": "TCH_LRN 371",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4949",
+              "sln": 4949,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 371",
+              "courseName": "Teaching Elementary Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 212",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4950",
+              "sln": 4950,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 371",
+              "courseName": "Teaching Elementary Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "EDAD 212",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Teaching Elementary Social Studies",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 385,
+          "courseCode": "TCH_LRN 385",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4951",
+              "sln": 4951,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 385",
+              "courseName": "Teaching Elementary Social Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:30 - 12:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:30 - 12:20"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4952",
+              "sln": 4952,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 385",
+              "courseName": "Teaching Elementary Social Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Integrating Fine Arts into K-8 Curriculum",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 390,
+          "courseCode": "TCH_LRN 390",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4953",
+              "sln": 4953,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 390",
+              "courseName": "Integrating Fine Arts into K-8 Curriculum",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 110",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12004",
+              "sln": 12004,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 390",
+              "courseName": "Integrating Fine Arts into K-8 Curriculum",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 110",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Instructional Practicum I",
           "subject": "TCH_LRN",
           "subjectPrefix": "T & L",
@@ -135421,6 +138350,654 @@
               },
               "dates": {
                 "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Student Teaching Internship",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 415,
+          "courseCode": "TCH_LRN 415",
+          "credits": "0",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "4960",
+              "sln": 4960,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 415",
+              "courseName": "Student Teaching Internship",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 75,
+                "available": 75,
+                "label": "0/75"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6001",
+              "sln": 6001,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 415",
+              "courseName": "Student Teaching Internship",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6850",
+              "sln": 6850,
+              "sectionNumber": 3,
+              "courseCode": "TCH_LRN 415",
+              "courseName": "Student Teaching Internship",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4961",
+              "sln": 4961,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 415",
+              "courseName": "Student Teaching Internship",
+              "credits": "0",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 75,
+                "available": 75,
+                "label": "0/75"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6002",
+              "sln": 6002,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 415",
+              "courseName": "Student Teaching Internship",
+              "credits": "0",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6851",
+              "sln": 6851,
+              "sectionNumber": 3,
+              "courseCode": "TCH_LRN 415",
+              "courseName": "Student Teaching Internship",
+              "credits": "0",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elementary Methods of Educational Technology",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 445,
+          "courseCode": "TCH_LRN 445",
+          "credits": "2",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "4963",
+              "sln": 4963,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 445",
+              "courseName": "Elementary Methods of Educational Technology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 216",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4964",
+              "sln": 4964,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 445",
+              "courseName": "Elementary Methods of Educational Technology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:10 - 14:00"
+                }
+              ],
+              "location": "EDAD 216",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4965",
+              "sln": 4965,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 445",
+              "courseName": "Elementary Methods of Educational Technology",
+              "credits": "2",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Curriculum, Instruction and Content Literacy Methods",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 464,
+          "courseCode": "TCH_LRN 464",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4966",
+              "sln": 4966,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 464",
+              "courseName": "Curriculum, Instruction and Content Literacy Methods",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "EDAD 308",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Multilingual Education in Secondary Settings",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 465,
+          "courseCode": "TCH_LRN 465",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4967",
+              "sln": 4967,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 465",
+              "courseName": "Introduction to Multilingual Education in Secondary Settings",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "EDAD 308",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Methods of Educational Technology",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 466,
+          "courseCode": "TCH_LRN 466",
+          "credits": "2",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "4968",
+              "sln": 4968,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 466",
+              "courseName": "Secondary Methods of Educational Technology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "EDAD 308",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4969",
+              "sln": 4969,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 466",
+              "courseName": "Secondary Methods of Educational Technology",
+              "credits": "2",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Adolescence, Community, and School",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 467,
+          "courseCode": "TCH_LRN 467",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4970",
+              "sln": 4970,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 467",
+              "courseName": "Adolescence, Community, and School",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 15:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 15:00"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pre-Internship for Secondary Teachers",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 469,
+          "courseCode": "TCH_LRN 469",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6120",
+              "sln": 6120,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 469",
+              "courseName": "Pre-Internship for Secondary Teachers",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Education, Transition, and Classroom Management for Secondary General Education Teachers",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 470,
+          "courseCode": "TCH_LRN 470",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4971",
+              "sln": 4971,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 470",
+              "courseName": "Special Education, Transition, and Classroom Management for Secondary General Education Teachers",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:10 - 12:00"
+                }
+              ],
+              "location": "EDAD 110",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Feb 15",
                 "end": "Apr 30"
               }
             }
