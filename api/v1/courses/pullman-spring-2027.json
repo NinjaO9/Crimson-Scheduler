@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T01:32:05.919997+00:00",
+  "generatedAt": "2026-10-15T07:26:02.034943+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -69078,11 +69078,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W",
+              "days": "M",
               "time": "14:10 - 15:00",
               "meetings": [
                 {
-                  "days": "M,W",
+                  "days": "M",
                   "time": "14:10 - 15:00"
                 }
               ],
@@ -72541,6 +72541,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "11896",
+              "sln": 11896,
+              "sectionNumber": 7,
+              "courseCode": "HONORS 280",
+              "courseName": "Contextual Understanding in the Arts and Humanities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A LAMPMAN",
+              "instructors": [
+                "A LAMPMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -72945,6 +72982,43 @@
               "ucore": "",
               "coop": false,
               "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11902",
+              "sln": 11902,
+              "sectionNumber": 7,
+              "courseCode": "HONORS 380",
+              "courseName": "Case Study: Global Issues in the Arts and Humanities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A LAMPMAN",
+              "instructors": [
+                "A LAMPMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
               "seats": {
                 "taken": 0,
                 "total": 25,
@@ -85422,10 +85496,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 44,
+                "label": "1/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -85608,10 +85682,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 44,
+                "label": "1/45"
               },
               "dates": {
                 "start": "Mar 22",
@@ -89212,7 +89286,7 @@
                   "time": "15:10 - 16:00"
                 }
               ],
-              "location": "TODD 404",
+              "location": "CUE  318",
               "instructor": "M HUDELSON",
               "instructors": [
                 "M HUDELSON"
@@ -89222,9 +89296,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -112621,43 +112695,6 @@
                 "total": 50,
                 "available": 50,
                 "label": "0/50"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11618",
-              "sln": 11618,
-              "sectionNumber": 2,
-              "courseCode": "PHIL 390",
-              "courseName": "Topics in Philosophy",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "CUE  202",
-              "instructor": "S CONKLIN",
-              "instructors": [
-                "S CONKLIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 75,
-                "available": 75,
-                "label": "0/75"
               },
               "dates": {
                 "start": "Jan 11",
