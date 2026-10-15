@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T22:18:54.956044+00:00",
+  "generatedAt": "2026-10-15T01:32:05.919997+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -14954,15 +14954,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "15:45 - 17:00",
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
-                  "days": "M,W",
-                  "time": "15:45 - 17:00"
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
                 }
               ],
-              "location": "CUE  419",
+              "location": "SPRK 327",
               "instructor": "W XU",
               "instructors": [
                 "W XU"
@@ -15966,7 +15966,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "SPRK 227",
+              "location": "TODD 130",
               "instructor": "A BOSKABADI",
               "instructors": [
                 "A BOSKABADI"
@@ -38762,7 +38762,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "EME  B0046",
+              "location": "CUE  418",
               "instructor": "X LIN",
               "instructors": [
                 "X LIN"
@@ -38772,9 +38772,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 42,
-                "available": 42,
-                "label": "0/42"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -38858,7 +38858,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "EME  B0046",
+              "location": "CLAR 149",
               "instructor": "I PRIYADARSHINI",
               "instructors": [
                 "I PRIYADARSHINI"
@@ -48295,9 +48295,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -56541,6 +56541,41 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "4816",
+              "sln": 4816,
+              "sectionNumber": 3,
+              "courseCode": "ENGLISH 301",
+              "courseName": "Writing and Rhetorical Conventions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "CUE  207",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -56715,7 +56750,7 @@
                   "time": "14:10 - 15:00"
                 }
               ],
-              "location": "SPRK 323",
+              "location": "TODD 301",
               "instructor": "M SCIACHITANO",
               "instructors": [
                 "M SCIACHITANO"
@@ -57088,54 +57123,6 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to Screenwriting",
-          "subject": "ENGLISH",
-          "subjectPrefix": "Engl",
-          "courseNumber": 343,
-          "courseCode": "ENGLISH 343",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "8880",
-              "sln": 8880,
-              "sectionNumber": 1,
-              "courseCode": "ENGLISH 343",
-              "courseName": "Introduction to Screenwriting",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "L LEVY",
-              "instructors": [
-                "L LEVY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -76475,7 +76462,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "CUE  207",
+              "location": "AVER 104",
               "instructor": "D DASGUPTA",
               "instructors": [
                 "D DASGUPTA"
@@ -76485,9 +76472,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -118068,8 +118055,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C CLAYTON",
+              "instructors": [
+                "C CLAYTON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -124944,8 +124933,10 @@
                 }
               ],
               "location": "TODD 211",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "P SMITH",
+              "instructors": [
+                "P SMITH"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -128588,11 +128579,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,F",
-              "time": "10:00 - 11:25",
+              "time": "10:10 - 11:25",
               "meetings": [
                 {
                   "days": "M,F",
-                  "time": "10:00 - 11:25"
+                  "time": "10:10 - 11:25"
                 }
               ],
               "location": "WEBS 1234",
@@ -128758,11 +128749,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "W",
-              "time": "11:00 - 12:40",
+              "time": "11:10 - 12:40",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "11:00 - 12:40"
+                  "time": "11:10 - 12:40"
                 }
               ],
               "location": "WEBS 1234",
@@ -134840,52 +134831,6 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Statistical Theory II",
-          "subject": "STAT",
-          "subjectPrefix": "Stat",
-          "courseNumber": 549,
-          "courseCode": "STAT 549",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7385",
-              "sln": 7385,
-              "sectionNumber": 1,
-              "courseCode": "STAT 549",
-              "courseName": "Statistical Theory II",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "CUE  318",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",

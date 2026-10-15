@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T22:18:54.740489+00:00",
+  "generatedAt": "2026-10-15T01:32:05.636347+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -5200,7 +5200,7 @@
           "courseNumber": 312,
           "courseCode": "ME 312",
           "credits": "3",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "11995",
@@ -5211,7 +5211,7 @@
               "credits": "3",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "M,W,F",
               "time": "13:10 - 14:00",
               "meetings": [
@@ -5221,8 +5221,47 @@
                 }
               ],
               "location": "GUC  EVE",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "X BI",
+              "instructors": [
+                "X BI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11996",
+              "sln": 11996,
+              "sectionNumber": 1,
+              "courseCode": "ME 312",
+              "courseName": "Manufacturing Engineering",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "X BI",
+              "instructors": [
+                "X BI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
