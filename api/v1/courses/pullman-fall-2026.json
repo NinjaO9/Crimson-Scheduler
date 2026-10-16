@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T17:26:02.061019+00:00",
+  "generatedAt": "2026-10-16T21:07:28.706684+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -2601,10 +2601,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 1,
-                "available": 1,
-                "label": "0/1"
+                "available": 0,
+                "label": "1/1"
               },
               "dates": {
                 "start": "Aug 24",
@@ -2697,10 +2697,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 2,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 8,
+                "label": "2/10"
               },
               "dates": {
                 "start": "Aug 24",
@@ -2745,10 +2745,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "available": 8,
+                "label": "2/10"
               },
               "dates": {
                 "start": "Aug 24",
@@ -26248,10 +26248,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 22,
                 "total": 30,
-                "available": 9,
-                "label": "21/30"
+                "available": 8,
+                "label": "22/30"
               },
               "dates": {
                 "start": "Aug 24",
@@ -34056,10 +34056,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 50,
-                "available": 34,
-                "label": "16/50"
+                "available": 33,
+                "label": "17/50"
               },
               "dates": {
                 "start": "Aug 24",
@@ -53188,10 +53188,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 52,
+                "taken": 51,
                 "total": 201,
-                "available": 149,
-                "label": "52/201"
+                "available": 150,
+                "label": "51/201"
               },
               "dates": {
                 "start": "Oct 19",
@@ -83059,10 +83059,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 20,
-                "available": 4,
-                "label": "16/20"
+                "available": 3,
+                "label": "17/20"
               },
               "dates": {
                 "start": "Aug 24",
@@ -159287,58 +159287,6 @@
           ]
         },
         {
-          "course": "Wine Chemistry",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 438,
-          "courseCode": "VIT_ENOL 438",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "8039",
-              "sln": 8039,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 438",
-              "courseName": "Wine Chemistry",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F,M,W,F",
-              "time": "09:10 - 10:00;12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                },
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "ADBF 1002",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Oct 19",
-                "end": "Dec 13"
-              }
-            }
-          ]
-        },
-        {
           "course": "Professional Work Experience/Internship",
           "subject": "VIT_ENOL",
           "subjectPrefix": "V E",
@@ -159382,58 +159330,6 @@
               "dates": {
                 "start": "Aug 24",
                 "end": "Dec 11"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Wine Chemistry",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 538,
-          "courseCode": "VIT_ENOL 538",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "8037",
-              "sln": 8037,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 538",
-              "courseName": "Wine Chemistry",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F,M,W,F",
-              "time": "09:10 - 10:00;12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                },
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "ADBF 1002",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Oct 19",
-                "end": "Dec 13"
               }
             }
           ]

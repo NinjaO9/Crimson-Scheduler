@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T17:26:02.011088+00:00",
+  "generatedAt": "2026-10-16T21:07:28.675814+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -8615,6 +8615,54 @@
       "subject": "DTC",
       "courses": [
         {
+          "course": "Internet Revolutions",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 202,
+          "courseCode": "DTC 202",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10061",
+              "sln": 10061,
+              "sectionNumber": 1,
+              "courseCode": "DTC 202",
+              "courseName": "Internet Revolutions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J RIDDLE",
+              "instructors": [
+                "J RIDDLE"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Digital Inclusion",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -8654,6 +8702,54 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Media Practices",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 331,
+          "courseCode": "DTC 331",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9842",
+              "sln": 9842,
+              "sectionNumber": 1,
+              "courseCode": "DTC 331",
+              "courseName": "Social Media Practices",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V VARAY",
+              "instructors": [
+                "V VARAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -10416,8 +10512,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "E JESSUP",
+              "instructors": [
+                "E JESSUP"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "VS",
@@ -10713,54 +10811,6 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Writing and Research Honors",
-          "subject": "ENGLISH",
-          "subjectPrefix": "Engl",
-          "courseNumber": 298,
-          "courseCode": "ENGLISH 298",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9755",
-              "sln": 9755,
-              "sectionNumber": 1,
-              "courseCode": "ENGLISH 298",
-              "courseName": "Writing and Research Honors",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "L HUNTER",
-              "instructors": [
-                "L HUNTER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 1,
-                "available": 1,
-                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16265,6 +16315,92 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MED_ETH",
+      "courses": [
+        {
+          "course": "The Practice of Clinical Ethics",
+          "subject": "MED_ETH",
+          "subjectPrefix": "MEDET",
+          "courseNumber": 530,
+          "courseCode": "MED_ETH 530",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1334",
+              "sln": 1334,
+              "sectionNumber": 1,
+              "courseCode": "MED_ETH 530",
+              "courseName": "The Practice of Clinical Ethics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "1335",
+              "sln": 1335,
+              "sectionNumber": 2,
+              "courseCode": "MED_ETH 530",
+              "courseName": "The Practice of Clinical Ethics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22846,6 +22982,343 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SPEC_ED",
+      "courses": [
+        {
+          "course": "Education of Exceptional Children",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 301,
+          "courseCode": "SPEC_ED 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10507",
+              "sln": 10507,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 301",
+              "courseName": "Education of Exceptional Children",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Assessment and Curriculum for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 402,
+          "courseCode": "SPEC_ED 402",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10508",
+              "sln": 10508,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 402",
+              "courseName": "Assessment and Curriculum for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HSIAO",
+              "instructors": [
+                "Y HSIAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Education for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 403,
+          "courseCode": "SPEC_ED 403",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10510",
+              "sln": 10510,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 403",
+              "courseName": "Secondary Education for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Effective Assessment and Instruction in Reading for Diverse Learners",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 471,
+          "courseCode": "SPEC_ED 471",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10512",
+              "sln": 10512,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 471",
+              "courseName": "Effective Assessment and Instruction in Reading for Diverse Learners",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Assessment and Curriculum for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 502,
+          "courseCode": "SPEC_ED 502",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10509",
+              "sln": 10509,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 502",
+              "courseName": "Assessment and Curriculum for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HSIAO",
+              "instructors": [
+                "Y HSIAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Education for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 503,
+          "courseCode": "SPEC_ED 503",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10511",
+              "sln": 10511,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 503",
+              "courseName": "Secondary Education for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Effective Assessment and Instruction in Reading for Diverse Learners",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 571,
+          "courseCode": "SPEC_ED 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10514",
+              "sln": 10514,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 571",
+              "courseName": "Effective Assessment and Instruction in Reading for Diverse Learners",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",

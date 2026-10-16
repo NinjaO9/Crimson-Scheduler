@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T17:26:02.243163+00:00",
+  "generatedAt": "2026-10-16T21:07:28.808051+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -3307,10 +3307,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "available": 14,
+                "label": "1/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3344,10 +3344,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "available": 14,
+                "label": "1/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -10370,8 +10370,10 @@
                 }
               ],
               "location": "TODD 411",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S RICHARDSON",
+              "instructors": [
+                "S RICHARDSON"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -10877,8 +10879,10 @@
                 }
               ],
               "location": "TODD 411",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S RICHARDSON",
+              "instructors": [
+                "S RICHARDSON"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -19603,10 +19607,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 150,
-                "available": 150,
-                "label": "0/150"
+                "available": 149,
+                "label": "1/150"
               },
               "dates": {
                 "start": "Jan 11",
@@ -20605,10 +20609,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 90,
-                "available": 90,
-                "label": "0/90"
+                "available": 89,
+                "label": "1/90"
               },
               "dates": {
                 "start": "Jan 11",
@@ -20640,10 +20644,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 18,
-                "available": 18,
-                "label": "0/18"
+                "available": 17,
+                "label": "1/18"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23171,10 +23175,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "available": 98,
+                "label": "2/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -40037,9 +40041,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -49863,10 +49867,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 241,
-                "available": 241,
-                "label": "0/241"
+                "available": 240,
+                "label": "1/241"
               },
               "dates": {
                 "start": "Jan 11",
@@ -49900,10 +49904,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 200,
-                "available": 200,
-                "label": "0/200"
+                "available": 199,
+                "label": "1/200"
               },
               "dates": {
                 "start": "Jan 11",
@@ -50086,10 +50090,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 125,
-                "available": 125,
-                "label": "0/125"
+                "available": 124,
+                "label": "1/125"
               },
               "dates": {
                 "start": "Jan 11",
@@ -50510,10 +50514,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 37,
-                "available": 37,
-                "label": "0/37"
+                "available": 36,
+                "label": "1/37"
               },
               "dates": {
                 "start": "Jan 11",
@@ -50825,10 +50829,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "available": 49,
+                "label": "1/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -51101,10 +51105,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "available": 39,
+                "label": "1/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -55053,6 +55057,102 @@
               }
             }
           ]
+        },
+        {
+          "course": "Qualitative Research",
+          "subject": "ED_RES",
+          "subjectPrefix": "EdRes",
+          "courseNumber": 564,
+          "courseCode": "ED_RES 564",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5849",
+              "sln": 5849,
+              "sectionNumber": 1,
+              "courseCode": "ED_RES 564",
+              "courseName": "Qualitative Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "EDAD 216",
+              "instructor": "S JOHNSON",
+              "instructors": [
+                "S JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Quantitative Research",
+          "subject": "ED_RES",
+          "subjectPrefix": "EdRes",
+          "courseNumber": 565,
+          "courseCode": "ED_RES 565",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6188",
+              "sln": 6188,
+              "sectionNumber": 1,
+              "courseCode": "ED_RES 565",
+              "courseName": "Quantitative Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "CLEV 221",
+              "instructor": "S DAI",
+              "instructors": [
+                "S DAI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -55243,10 +55343,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 22,
                 "total": 24,
-                "available": 3,
-                "label": "21/24"
+                "available": 2,
+                "label": "22/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -55576,10 +55676,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 20,
                 "total": 24,
-                "available": 3,
-                "label": "21/24"
+                "available": 4,
+                "label": "20/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -55983,10 +56083,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 22,
                 "total": 24,
-                "available": 3,
-                "label": "21/24"
+                "available": 2,
+                "label": "22/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -58649,10 +58749,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 19,
-                "available": 19,
-                "label": "0/19"
+                "available": 18,
+                "label": "1/19"
               },
               "dates": {
                 "start": "Jan 11",
@@ -58686,10 +58786,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 8,
-                "available": 8,
-                "label": "0/8"
+                "available": 7,
+                "label": "1/8"
               },
               "dates": {
                 "start": "Jan 11",
@@ -60765,10 +60865,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -61135,10 +61235,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -66916,54 +67016,6 @@
           ]
         },
         {
-          "course": "Advanced Food Safety and Quality",
-          "subject": "FS",
-          "subjectPrefix": "FS",
-          "courseNumber": 531,
-          "courseCode": "FS 531",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "8538",
-              "sln": 8538,
-              "sectionNumber": 2,
-              "courseCode": "FS 531",
-              "courseName": "Advanced Food Safety and Quality",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "T BERNHARD",
-              "instructors": [
-                "T BERNHARD"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Advanced Instrumental and Sensory Analysis of Food",
           "subject": "FS",
           "subjectPrefix": "FS",
@@ -67972,10 +68024,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 125,
-                "available": 125,
-                "label": "0/125"
+                "available": 124,
+                "label": "1/125"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69703,10 +69755,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 70,
-                "available": 70,
-                "label": "0/70"
+                "available": 69,
+                "label": "1/70"
               },
               "dates": {
                 "start": "Jan 11",
@@ -70165,10 +70217,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 66,
-                "available": 66,
-                "label": "0/66"
+                "available": 65,
+                "label": "1/66"
               },
               "dates": {
                 "start": "Jan 11",
@@ -70239,10 +70291,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "available": 39,
+                "label": "1/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -70627,10 +70679,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -74232,91 +74284,6 @@
           ]
         },
         {
-          "course": "Science and Art of Growing Plants",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 150,
-          "courseCode": "HORT 150",
-          "credits": "4",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "3811",
-              "sln": 3811,
-              "sectionNumber": 1,
-              "courseCode": "HORT 150",
-              "courseName": "Science and Art of Growing Plants",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W,F",
-              "time": "10:10 - 11:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "10:10 - 11:00"
-                }
-              ],
-              "location": "VPBS 43",
-              "instructor": "R LITTLE",
-              "instructors": [
-                "R LITTLE"
-              ],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3812",
-              "sln": 3812,
-              "sectionNumber": 1,
-              "courseCode": "HORT 150",
-              "courseName": "Science and Art of Growing Plants",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "M",
-              "time": "13:10 - 16:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "13:10 - 16:00"
-                }
-              ],
-              "location": "VPBS 43",
-              "instructor": "R LITTLE",
-              "instructors": [
-                "R LITTLE"
-              ],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Crop Growth and Development",
           "subject": "HORT",
           "subjectPrefix": "Hort",
@@ -74667,8 +74634,10 @@
                 }
               ],
               "location": "CUE  114",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R LITTLE",
+              "instructors": [
+                "R LITTLE"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -74713,8 +74682,10 @@
                 }
               ],
               "location": "VPBS 39",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R LITTLE",
+              "instructors": [
+                "R LITTLE"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -79326,7 +79297,7 @@
                   "time": "17:00 - 19:00"
                 }
               ],
-              "location": "LGTY 260",
+              "location": "LGTY 260W",
               "instructor": "M MOUA",
               "instructors": [
                 "M MOUA"
@@ -80744,10 +80715,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 26,
-                "available": 26,
-                "label": "0/26"
+                "available": 25,
+                "label": "1/26"
               },
               "dates": {
                 "start": "Jan 11",
@@ -81300,10 +81271,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "available": 34,
+                "label": "1/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91107,10 +91078,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 22,
+                "label": "2/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91436,10 +91407,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 72,
-                "available": 72,
-                "label": "0/72"
+                "available": 70,
+                "label": "2/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91506,10 +91477,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91541,10 +91512,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91589,10 +91560,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 120,
-                "available": 120,
-                "label": "0/120"
+                "available": 118,
+                "label": "2/120"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91770,10 +91741,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "available": 99,
+                "label": "1/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91818,10 +91789,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91866,10 +91837,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 44,
-                "available": 44,
-                "label": "0/44"
+                "available": 43,
+                "label": "1/44"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91914,10 +91885,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91951,10 +91922,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91999,10 +91970,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 3,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 27,
+                "label": "3/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92095,10 +92066,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92143,10 +92114,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "available": 24,
+                "label": "1/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92191,10 +92162,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92228,10 +92199,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92276,10 +92247,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92313,10 +92284,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92361,10 +92332,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 3,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 42,
+                "label": "3/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -95729,10 +95700,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 44,
+                "label": "1/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -97966,10 +97937,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 44,
+                "label": "1/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -98716,10 +98687,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "available": 59,
+                "label": "1/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99923,10 +99894,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 65,
-                "available": 65,
-                "label": "0/65"
+                "available": 64,
+                "label": "1/65"
               },
               "dates": {
                 "start": "Jan 11",
@@ -100204,10 +100175,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 43,
-                "available": 43,
-                "label": "0/43"
+                "available": 42,
+                "label": "1/43"
               },
               "dates": {
                 "start": "Jan 11",
@@ -100252,10 +100223,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 55,
-                "available": 55,
-                "label": "0/55"
+                "available": 54,
+                "label": "1/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -100300,10 +100271,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 48,
-                "available": 48,
-                "label": "0/48"
+                "available": 47,
+                "label": "1/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -101359,10 +101330,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "available": 9,
+                "label": "1/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -106310,10 +106281,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "available": 59,
+                "label": "1/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -107223,10 +107194,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 120,
-                "available": 120,
-                "label": "0/120"
+                "available": 119,
+                "label": "1/120"
               },
               "dates": {
                 "start": "Jan 11",
@@ -112355,10 +112326,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -112403,10 +112374,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "available": 48,
+                "label": "2/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -112584,10 +112555,10 @@
               "coop": false,
               "footnotes": "C",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "available": 38,
+                "label": "2/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -113711,10 +113682,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "available": 99,
+                "label": "1/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -113748,10 +113719,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "available": 99,
+                "label": "1/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -114135,10 +114106,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 160,
-                "available": 160,
-                "label": "0/160"
+                "available": 159,
+                "label": "1/160"
               },
               "dates": {
                 "start": "Jan 11",
@@ -114216,10 +114187,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 3,
                 "total": 180,
-                "available": 180,
-                "label": "0/180"
+                "available": 177,
+                "label": "3/180"
               },
               "dates": {
                 "start": "Jan 11",
@@ -114647,10 +114618,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -114798,10 +114769,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -114833,10 +114804,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -114903,10 +114874,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -115115,10 +115086,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 80,
-                "available": 80,
-                "label": "0/80"
+                "available": 79,
+                "label": "1/80"
               },
               "dates": {
                 "start": "Jan 11",
@@ -115603,10 +115574,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -120860,10 +120831,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 150,
-                "available": 150,
-                "label": "0/150"
+                "available": 149,
+                "label": "1/150"
               },
               "dates": {
                 "start": "Jan 11",
@@ -121002,10 +120973,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -121085,10 +121056,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 130,
-                "available": 130,
-                "label": "0/130"
+                "available": 129,
+                "label": "1/130"
               },
               "dates": {
                 "start": "Jan 11",
@@ -121133,10 +121104,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 180,
-                "available": 180,
-                "label": "0/180"
+                "available": 179,
+                "label": "1/180"
               },
               "dates": {
                 "start": "Jan 11",
@@ -121266,10 +121237,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 245,
-                "available": 245,
-                "label": "0/245"
+                "available": 244,
+                "label": "1/245"
               },
               "dates": {
                 "start": "Jan 11",
@@ -121410,10 +121381,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 191,
-                "available": 191,
-                "label": "0/191"
+                "available": 190,
+                "label": "1/191"
               },
               "dates": {
                 "start": "Jan 11",
@@ -121506,10 +121477,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 130,
-                "available": 130,
-                "label": "0/130"
+                "available": 129,
+                "label": "1/130"
               },
               "dates": {
                 "start": "Jan 11",
@@ -123576,9 +123547,9 @@
                 }
               ],
               "location": "WEGN G0001",
-              "instructor": "T SABATO",
+              "instructor": "S HERNANDEZ-BOJORGE",
               "instructors": [
-                "T SABATO"
+                "S HERNANDEZ-BOJORGE"
               ],
               "ucore": "HUM",
               "coop": false,
@@ -123911,7 +123882,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "CUE  409",
+              "location": "SPRK 208",
               "instructor": "K MCBRIDE",
               "instructors": [
                 "K MCBRIDE"
@@ -124742,10 +124713,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "available": 14,
+                "label": "1/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -124970,10 +124941,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -128103,10 +128074,10 @@
               "coop": false,
               "footnotes": "&",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 75,
-                "available": 75,
-                "label": "0/75"
+                "available": 73,
+                "label": "2/75"
               },
               "dates": {
                 "start": "Jan 11",
@@ -128138,10 +128109,10 @@
               "coop": false,
               "footnotes": "&",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "available": 23,
+                "label": "2/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -128349,10 +128320,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "available": 34,
+                "label": "1/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -128819,10 +128790,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 70,
-                "available": 70,
-                "label": "0/70"
+                "available": 69,
+                "label": "1/70"
               },
               "dates": {
                 "start": "Jan 11",
@@ -128867,10 +128838,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "available": 38,
+                "label": "2/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -128941,10 +128912,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 18,
+                "label": "2/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -129037,10 +129008,10 @@
               "coop": false,
               "footnotes": "&",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -129074,10 +129045,10 @@
               "coop": false,
               "footnotes": "&",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "available": 23,
+                "label": "1/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -129122,10 +129093,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "available": 48,
+                "label": "2/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -130499,10 +130470,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 47,
-                "available": 47,
-                "label": "0/47"
+                "available": 45,
+                "label": "2/47"
               },
               "dates": {
                 "start": "Jan 11",
@@ -130536,10 +130507,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 47,
-                "available": 47,
-                "label": "0/47"
+                "available": 45,
+                "label": "2/47"
               },
               "dates": {
                 "start": "Jan 11",
@@ -130999,10 +130970,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 22,
-                "available": 22,
-                "label": "0/22"
+                "available": 21,
+                "label": "1/22"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131036,10 +131007,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131073,10 +131044,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 22,
-                "available": 22,
-                "label": "0/22"
+                "available": 21,
+                "label": "1/22"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131110,10 +131081,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "available": 19,
+                "label": "1/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -133910,10 +133881,10 @@
               "coop": false,
               "footnotes": "P",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -133958,10 +133929,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 27,
-                "available": 27,
-                "label": "0/27"
+                "available": 25,
+                "label": "2/27"
               },
               "dates": {
                 "start": "Jan 11",
@@ -135091,7 +135062,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "CLEV 255",
+              "location": "CLEV 234",
               "instructor": "P VAN MULLEM",
               "instructors": [
                 "P VAN MULLEM"
@@ -135176,46 +135147,11 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "SLOA 167",
+              "location": "CLEV 255",
               "instructor": "A GANG",
               "instructors": [
                 "A GANG"
               ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11254",
-              "sln": 11254,
-              "sectionNumber": 3,
-              "courseCode": "SPMGT 367",
-              "courseName": "Sport in American Society",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "SLOA 161",
-              "instructor": "",
-              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -140057,6 +139993,87 @@
           ]
         },
         {
+          "course": "Integrating Health and Fitness into K-8 Curriculum",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 483,
+          "courseCode": "TCH_LRN 483",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4972",
+              "sln": 4972,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 483",
+              "courseName": "Integrating Health and Fitness into K-8 Curriculum",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "09:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "09:10 - 11:00"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4973",
+              "sln": 4973,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 483",
+              "courseName": "Integrating Health and Fitness into K-8 Curriculum",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "12:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "12:10 - 14:00"
+                }
+              ],
+              "location": "CLEV 63",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Pre-Internship for Elementary Teachers",
           "subject": "TCH_LRN",
           "subjectPrefix": "T & L",
@@ -140094,6 +140111,512 @@
                 "total": 75,
                 "available": 75,
                 "label": "0/75"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in In-Service Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 497,
+          "courseCode": "TCH_LRN 497",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12005",
+              "sln": 12005,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 497",
+              "courseName": "Topics in In-Service Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EDAD 116",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 499,
+          "courseCode": "TCH_LRN 499",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4974",
+              "sln": 4974,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 499",
+              "courseName": "Special Problems",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 521,
+          "courseCode": "TCH_LRN 521",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4975",
+              "sln": 4975,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 521",
+              "courseName": "Topics in Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 522,
+          "courseCode": "TCH_LRN 522",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6837",
+              "sln": 6837,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 522",
+              "courseName": "Topics in Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Second Language Learning and Literacy",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 550,
+          "courseCode": "TCH_LRN 550",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7260",
+              "sln": 7260,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 550",
+              "courseName": "Second Language Learning and Literacy",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "16:30 - 19:20",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "16:30 - 19:20"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Scholarly Writing",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 582,
+          "courseCode": "TCH_LRN 582",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2606",
+              "sln": 2606,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 582",
+              "courseName": "Scholarly Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:30 - 19:20",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:30 - 19:20"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 590,
+          "courseCode": "TCH_LRN 590",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4977",
+              "sln": 4977,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 590",
+              "courseName": "Internship",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research Internship in Math/Science Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 591,
+          "courseCode": "TCH_LRN 591",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7770",
+              "sln": 7770,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 591",
+              "courseName": "Research Internship in Math/Science Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 600,
+          "courseCode": "TCH_LRN 600",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4978",
+              "sln": 4978,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 700,
+          "courseCode": "TCH_LRN 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4979",
+              "sln": 4979,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 702,
+          "courseCode": "TCH_LRN 702",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4980",
+              "sln": 4980,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140912,10 +141435,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "available": 24,
+                "label": "1/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -146899,10 +147422,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "available": 39,
+                "label": "1/40"
               },
               "dates": {
                 "start": "Jan 11",
