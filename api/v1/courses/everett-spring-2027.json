@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T22:16:47.239142+00:00",
+  "generatedAt": "2026-10-16T01:22:50.253803+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -921,58 +921,6 @@
     {
       "subject": "COMSTRAT",
       "courses": [
-        {
-          "course": "Culture and Communication in the Workplace",
-          "subject": "COMSTRAT",
-          "subjectPrefix": "ComSr",
-          "courseNumber": 285,
-          "courseCode": "COMSTRAT 285",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2053",
-              "sln": 2053,
-              "sectionNumber": 3,
-              "courseCode": "COMSTRAT 285",
-              "courseName": "Culture and Communication in the Workplace",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH,M",
-              "time": "09:10 - 10:25;09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                },
-                {
-                  "days": "M",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "GUC  EVE",
-              "instructor": "C WU",
-              "instructors": [
-                "C WU"
-              ],
-              "ucore": "EQJS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
         {
           "course": "Foundations of Persuasion",
           "subject": "COMSTRAT",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T22:16:47.877919+00:00",
+  "generatedAt": "2026-10-16T01:22:50.740065+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -4956,6 +4956,54 @@
               "ucore": "",
               "coop": false,
               "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Public Relations Management and Campaigns",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 485,
+          "courseCode": "COMSTRAT 485",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2969",
+              "sln": 2969,
+              "sectionNumber": 1,
+              "courseCode": "COMSTRAT 485",
+              "courseName": "Public Relations Management and Campaigns",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "E CANDELLO",
+              "instructors": [
+                "E CANDELLO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
               "seats": {
                 "taken": 0,
                 "total": 18,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T22:16:47.525767+00:00",
+  "generatedAt": "2026-10-16T01:22:50.469504+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -11620,8 +11620,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "O AL-HASSAWI",
+              "instructors": [
+                "O AL-HASSAWI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -70338,52 +70340,6 @@
           ]
         },
         {
-          "course": "Senior Living Management Operations Analysis",
-          "subject": "HBM",
-          "subjectPrefix": "HBM",
-          "courseNumber": 470,
-          "courseCode": "HBM 470",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11420",
-              "sln": 11420,
-              "sectionNumber": 1,
-              "courseCode": "HBM 470",
-              "courseName": "Senior Living Management Operations Analysis",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Feb 28"
-              }
-            }
-          ]
-        },
-        {
           "course": "Operational Analysis",
           "subject": "HBM",
           "subjectPrefix": "HBM",
@@ -123759,9 +123715,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -125915,8 +125871,10 @@
                 }
               ],
               "location": "CARP 101",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C MAYNARD",
+              "instructors": [
+                "C MAYNARD"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "",
@@ -125961,9 +125919,9 @@
                 }
               ],
               "location": "TODD 211",
-              "instructor": "P SMITH",
+              "instructor": "S WOOD",
               "instructors": [
-                "P SMITH"
+                "S WOOD"
               ],
               "ucore": "",
               "coop": false,
