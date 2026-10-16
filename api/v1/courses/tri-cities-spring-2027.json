@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T01:22:50.672961+00:00",
+  "generatedAt": "2026-10-16T07:12:48.694735+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -7635,10 +7635,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "10:10 - 11:00",
+              "time": "10:10 - 11:00;10:10 - 11:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,W",
+                  "time": "10:10 - 11:00"
+                },
+                {
+                  "days": "F",
                   "time": "10:10 - 11:00"
                 }
               ],
@@ -7690,7 +7694,7 @@
                   "time": "11:10 - 12:00"
                 }
               ],
-              "location": "",
+              "location": "TCIC 101W",
               "instructor": "E MOREL",
               "instructors": [
                 "E MOREL"
@@ -7727,7 +7731,7 @@
                   "time": "12:05 - 12:55"
                 }
               ],
-              "location": "",
+              "location": "TCIC 101W",
               "instructor": "E MOREL",
               "instructors": [
                 "E MOREL"
