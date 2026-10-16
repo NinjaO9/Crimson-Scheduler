@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T12:26:38.717834+00:00",
+  "generatedAt": "2026-10-16T17:26:02.586641+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -4961,6 +4961,54 @@
                 "total": 18,
                 "available": 18,
                 "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Public Relations Management and Campaigns",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 485,
+          "courseCode": "COMSTRAT 485",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2969",
+              "sln": 2969,
+              "sectionNumber": 1,
+              "courseCode": "COMSTRAT 485",
+              "courseName": "Public Relations Management and Campaigns",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "E CANDELLO",
+              "instructors": [
+                "E CANDELLO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23742,6 +23790,54 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Public Health Capstone",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 490,
+          "courseCode": "PUBHLTH 490",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11525",
+              "sln": 11525,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 490",
+              "courseName": "Public Health Capstone",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "K MCBRIDE",
+              "instructors": [
+                "K MCBRIDE"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",

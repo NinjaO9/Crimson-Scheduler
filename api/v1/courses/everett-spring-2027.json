@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T12:26:38.112036+00:00",
+  "generatedAt": "2026-10-16T17:26:01.965374+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -916,11 +916,106 @@
     },
     {
       "subject": "COMJOUR",
-      "courses": []
+      "courses": [
+        {
+          "course": "Interviewing and Reporting for Modern Media",
+          "subject": "COMJOUR",
+          "subjectPrefix": "ComJo",
+          "courseNumber": 333,
+          "courseCode": "COMJOUR 333",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11969",
+              "sln": 11969,
+              "sectionNumber": 3,
+              "courseCode": "COMJOUR 333",
+              "courseName": "Interviewing and Reporting for Modern Media",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "COMSTRAT",
       "courses": [
+        {
+          "course": "Culture and Communication in the Workplace",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 285,
+          "courseCode": "COMSTRAT 285",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12026",
+              "sln": 12026,
+              "sectionNumber": 2,
+              "courseCode": "COMSTRAT 285",
+              "courseName": "Culture and Communication in the Workplace",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
         {
           "course": "Foundations of Persuasion",
           "subject": "COMSTRAT",

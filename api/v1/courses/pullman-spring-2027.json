@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T12:26:38.384543+00:00",
+  "generatedAt": "2026-10-16T17:26:02.243163+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -9307,10 +9307,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 44,
+                "label": "1/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9898,10 +9898,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "available": 59,
+                "label": "1/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -10090,10 +10090,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "available": 44,
+                "label": "1/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11147,8 +11147,10 @@
                 }
               ],
               "location": "CARP 401",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T MIYASAKA",
+              "instructors": [
+                "T MIYASAKA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11182,8 +11184,10 @@
                 }
               ],
               "location": "CARP 401",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "H BARAKAT",
+              "instructors": [
+                "H BARAKAT"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11228,8 +11232,10 @@
                 }
               ],
               "location": "SPRK 339",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A RAHMANI",
+              "instructors": [
+                "A RAHMANI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11274,8 +11280,10 @@
                 }
               ],
               "location": "SEH  210",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S SIKDER",
+              "instructors": [
+                "S SIKDER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11320,8 +11328,10 @@
                 }
               ],
               "location": "CARP 301",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M MANSOORI",
+              "instructors": [
+                "M MANSOORI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "&",
@@ -11355,8 +11365,10 @@
                 }
               ],
               "location": "CARP 420",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S SIKDER",
+              "instructors": [
+                "S SIKDER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "&",
@@ -11365,6 +11377,43 @@
                 "total": 18,
                 "available": 18,
                 "label": "0/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7765",
+              "sln": 7765,
+              "sectionNumber": 4,
+              "courseCode": "ARCH 303",
+              "courseName": "Architectural Design IV",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "13:30 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "13:30 - 17:00"
+                }
+              ],
+              "location": "CARP 301",
+              "instructor": "S SIKDER",
+              "instructors": [
+                "S SIKDER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11401,8 +11450,10 @@
                 }
               ],
               "location": "SEH  G0005",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T ABUIMARA",
+              "instructors": [
+                "T ABUIMARA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11447,8 +11498,10 @@
                 }
               ],
               "location": "CARP 201",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M COWAN",
+              "instructors": [
+                "M COWAN"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "&",
@@ -11482,8 +11535,10 @@
                 }
               ],
               "location": "CARP 201",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "O AL-HASSAWI",
+              "instructors": [
+                "O AL-HASSAWI"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "&",
@@ -11528,8 +11583,10 @@
                 }
               ],
               "location": "MURR 307",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "P GRUEN",
+              "instructors": [
+                "P GRUEN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11574,8 +11631,10 @@
                 }
               ],
               "location": "CARP 101",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M COWAN",
+              "instructors": [
+                "M COWAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11714,8 +11773,10 @@
                 }
               ],
               "location": "CARP 301",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M MANSOORI",
+              "instructors": [
+                "M MANSOORI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "&",
@@ -11760,8 +11821,10 @@
                 }
               ],
               "location": "CARP 301",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A RAHMANI",
+              "instructors": [
+                "A RAHMANI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "&",
@@ -11795,8 +11858,10 @@
                 }
               ],
               "location": "CARP 420",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J KO",
+              "instructors": [
+                "J KO"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "&",
@@ -11841,8 +11906,10 @@
                 }
               ],
               "location": "CARP 312",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J KO",
+              "instructors": [
+                "J KO"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -11887,8 +11954,10 @@
                 }
               ],
               "location": "CARP 312",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M CERRUTI",
+              "instructors": [
+                "M CERRUTI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -21821,6 +21890,54 @@
           ]
         },
         {
+          "course": "Quantitative Toolkit for Biologists",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 571,
+          "courseCode": "BIOLOGY 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7548",
+              "sln": 7548,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 571",
+              "courseName": "Quantitative Toolkit for Biologists",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VC   PUL",
+              "instructor": "S RUDMAN",
+              "instructors": [
+                "S RUDMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Professional Communication in Biology - Grant Writing",
           "subject": "BIOLOGY",
           "subjectPrefix": "Biol",
@@ -26309,54 +26426,6 @@
                 "total": 28,
                 "available": 28,
                 "label": "0/28"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Chemical Process Analysis and Design II",
-          "subject": "CHE",
-          "subjectPrefix": "Ch E",
-          "courseNumber": 451,
-          "courseCode": "CHE 451",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "4768",
-              "sln": 4768,
-              "sectionNumber": 1,
-              "courseCode": "CHE 451",
-              "courseName": "Chemical Process Analysis and Design II",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "SEH  205",
-              "instructor": "C LEHMAN-CHONG",
-              "instructors": [
-                "C LEHMAN-CHONG"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
               },
               "dates": {
                 "start": "Jan 11",
@@ -44036,8 +44105,10 @@
                 }
               ],
               "location": "SPRK G0010",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44082,8 +44153,10 @@
                 }
               ],
               "location": "SEH  105",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D LIU",
+              "instructors": [
+                "D LIU"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44128,8 +44201,10 @@
                 }
               ],
               "location": "SLOA 175",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D OLIVER",
+              "instructors": [
+                "D OLIVER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44163,8 +44238,10 @@
                 }
               ],
               "location": "CARP 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D OLIVER",
+              "instructors": [
+                "D OLIVER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44198,8 +44275,10 @@
                 }
               ],
               "location": "CARP 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D OLIVER",
+              "instructors": [
+                "D OLIVER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44244,8 +44323,10 @@
                 }
               ],
               "location": "SEH  G0005",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J DAY",
+              "instructors": [
+                "J DAY"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44290,8 +44371,10 @@
                 }
               ],
               "location": "CARP 102",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K SHRESTHA",
+              "instructors": [
+                "K SHRESTHA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44336,8 +44419,10 @@
                 }
               ],
               "location": "SEH  210",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J COHEE",
+              "instructors": [
+                "J COHEE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44382,8 +44467,10 @@
                 }
               ],
               "location": "CARP 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44417,8 +44504,10 @@
                 }
               ],
               "location": "CARP 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44452,8 +44541,10 @@
                 }
               ],
               "location": "CARP 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44487,8 +44578,10 @@
                 }
               ],
               "location": "CARP 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44533,8 +44626,10 @@
                 }
               ],
               "location": "SPRK 339",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S CALL",
+              "instructors": [
+                "S CALL"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -44579,8 +44674,10 @@
                 }
               ],
               "location": "SEH  G0005",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -44614,8 +44711,10 @@
                 }
               ],
               "location": "SEH  G0005",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D EDWARDS",
+              "instructors": [
+                "D EDWARDS"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -44660,8 +44759,10 @@
                 }
               ],
               "location": "SPRK 235",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "H DANG",
+              "instructors": [
+                "H DANG"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "C",
@@ -44706,8 +44807,10 @@
                 }
               ],
               "location": "CARP 212",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K SHRESTHA",
+              "instructors": [
+                "K SHRESTHA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -54080,6 +54183,107 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ED_AD",
+      "courses": [
+        {
+          "course": "Values and Ethics for Educational Leaders",
+          "subject": "ED_AD",
+          "subjectPrefix": "Ed Ad",
+          "courseNumber": 503,
+          "courseCode": "ED_AD 503",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3508",
+              "sln": 3508,
+              "sectionNumber": 1,
+              "courseCode": "ED_AD 503",
+              "courseName": "Values and Ethics for Educational Leaders",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "D VANDERHOLM",
+              "instructors": [
+                "D VANDERHOLM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Leadership Theory for Educational Organizations",
+          "subject": "ED_AD",
+          "subjectPrefix": "Ed Ad",
+          "courseNumber": 586,
+          "courseCode": "ED_AD 586",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12022",
+              "sln": 12022,
+              "sectionNumber": 1,
+              "courseCode": "ED_AD 586",
+              "courseName": "Leadership Theory for Educational Organizations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K HUGGINS",
+              "instructors": [
+                "K HUGGINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78932,8 +79136,10 @@
                 }
               ],
               "location": "CARP 312",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M CERRUTI",
+              "instructors": [
+                "M CERRUTI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -113409,10 +113615,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "available": 34,
+                "label": "1/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -123851,8 +124057,10 @@
                 }
               ],
               "location": "SEH  105",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "G KRASZEWSKI",
+              "instructors": [
+                "G KRASZEWSKI"
+              ],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "",
@@ -123897,8 +124105,10 @@
                 }
               ],
               "location": "SEH  105",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K BORRMAN",
+              "instructors": [
+                "K BORRMAN"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "",
@@ -123943,8 +124153,10 @@
                 }
               ],
               "location": "DAGG 1A",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M COWAN",
+              "instructors": [
+                "M COWAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -123978,8 +124190,10 @@
                 }
               ],
               "location": "DAGG 1A",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "H BARAKAT",
+              "instructors": [
+                "H BARAKAT"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124013,8 +124227,10 @@
                 }
               ],
               "location": "DAGG 1A",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M SANCHEZ",
+              "instructors": [
+                "M SANCHEZ"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124048,8 +124264,10 @@
                 }
               ],
               "location": "DAGG 1A",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S AUSTIN",
+              "instructors": [
+                "S AUSTIN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124094,8 +124312,10 @@
                 }
               ],
               "location": "DAGG 253",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T OLSON",
+              "instructors": [
+                "T OLSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124129,8 +124349,10 @@
                 }
               ],
               "location": "DAGG 253",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T OLSON",
+              "instructors": [
+                "T OLSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124164,8 +124386,10 @@
                 }
               ],
               "location": "DAGG 253",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T OLSON",
+              "instructors": [
+                "T OLSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124199,8 +124423,10 @@
                 }
               ],
               "location": "DAGG 253",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T OLSON",
+              "instructors": [
+                "T OLSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124245,8 +124471,10 @@
                 }
               ],
               "location": "SEH  210",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K BORRMAN",
+              "instructors": [
+                "K BORRMAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -125209,10 +125437,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "available": 34,
+                "label": "1/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -125257,10 +125485,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "available": 49,
+                "label": "1/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -125735,10 +125963,10 @@
               "coop": false,
               "footnotes": "VX",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 4,
-                "available": 4,
-                "label": "0/4"
+                "available": 3,
+                "label": "1/4"
               },
               "dates": {
                 "start": "Jan 11",
@@ -125783,10 +126011,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 85,
-                "available": 85,
-                "label": "0/85"
+                "available": 84,
+                "label": "1/85"
               },
               "dates": {
                 "start": "Jan 11",
@@ -126023,10 +126251,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "available": 99,
+                "label": "1/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -133793,6 +134021,792 @@
       ]
     },
     {
+      "subject": "SPEC_ED",
+      "courses": [
+        {
+          "course": "Education of Exceptional Children",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 301,
+          "courseCode": "SPEC_ED 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10476",
+              "sln": 10476,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 301",
+              "courseName": "Education of Exceptional Children",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 9,
+                "available": 9,
+                "label": "0/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Assessment and Curriculum for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 402,
+          "courseCode": "SPEC_ED 402",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10477",
+              "sln": 10477,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 402",
+              "courseName": "Assessment and Curriculum for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HSIAO",
+              "instructors": [
+                "Y HSIAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Education for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 403,
+          "courseCode": "SPEC_ED 403",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10479",
+              "sln": 10479,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 403",
+              "courseName": "Secondary Education for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Teaching in Inclusive Classrooms",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 420,
+          "courseCode": "SPEC_ED 420",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5576",
+              "sln": 5576,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 420",
+              "courseName": "Teaching in Inclusive Classrooms",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5577",
+              "sln": 5577,
+              "sectionNumber": 2,
+              "courseCode": "SPEC_ED 420",
+              "courseName": "Teaching in Inclusive Classrooms",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "EDAD 112",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Effective Assessment and Instruction in Reading for Diverse Learners",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 471,
+          "courseCode": "SPEC_ED 471",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10481",
+              "sln": 10481,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 471",
+              "courseName": "Effective Assessment and Instruction in Reading for Diverse Learners",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Practicum in Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 490,
+          "courseCode": "SPEC_ED 490",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5578",
+              "sln": 5578,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 490",
+              "courseName": "Practicum in Special Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 499,
+          "courseCode": "SPEC_ED 499",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5579",
+              "sln": 5579,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 499",
+              "courseName": "Special Problems",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Assessment and Curriculum for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 502,
+          "courseCode": "SPEC_ED 502",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10478",
+              "sln": 10478,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 502",
+              "courseName": "Assessment and Curriculum for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HSIAO",
+              "instructors": [
+                "Y HSIAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Education for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 503,
+          "courseCode": "SPEC_ED 503",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10480",
+              "sln": 10480,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 503",
+              "courseName": "Secondary Education for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 522,
+          "courseCode": "SPEC_ED 522",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5769",
+              "sln": 5769,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 522",
+              "courseName": "Topics in Special Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Effective Assessment and Instruction in Reading for Diverse Learners",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 571,
+          "courseCode": "SPEC_ED 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10483",
+              "sln": 10483,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 571",
+              "courseName": "Effective Assessment and Instruction in Reading for Diverse Learners",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Practicum in Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 590,
+          "courseCode": "SPEC_ED 590",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5580",
+              "sln": 5580,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 590",
+              "courseName": "Practicum in Special Education",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 600,
+          "courseCode": "SPEC_ED 600",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5581",
+              "sln": 5581,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 700,
+          "courseCode": "SPEC_ED 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6401",
+              "sln": 6401,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 702,
+          "courseCode": "SPEC_ED 702",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7962",
+              "sln": 7962,
+              "sectionNumber": 2,
+              "courseCode": "SPEC_ED 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 800,
+          "courseCode": "SPEC_ED 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5582",
+              "sln": 5582,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "SPMGT",
       "courses": [
         {
@@ -134215,6 +135229,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "12010",
+              "sln": 12010,
+              "sectionNumber": 4,
+              "courseCode": "SPMGT 367",
+              "courseName": "Sport in American Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H VAN MULLEM",
+              "instructors": [
+                "H VAN MULLEM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -134402,6 +135453,54 @@
                 "total": 125,
                 "available": 125,
                 "label": "0/125"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sport Data Analytics",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 410,
+          "courseCode": "SPMGT 410",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11991",
+              "sln": 11991,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 410",
+              "courseName": "Sport Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "CLEV 234",
+              "instructor": "P KIMBROUGH",
+              "instructors": [
+                "P KIMBROUGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -134773,6 +135872,54 @@
                 "total": 10,
                 "available": 10,
                 "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sports in Society",
+          "subject": "SPMGT",
+          "subjectPrefix": "SpMgt",
+          "courseNumber": 578,
+          "courseCode": "SPMGT 578",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11994",
+              "sln": 11994,
+              "sectionNumber": 1,
+              "courseCode": "SPMGT 578",
+              "courseName": "Sports in Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "EDAD 212",
+              "instructor": "A GANG",
+              "instructors": [
+                "A GANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
