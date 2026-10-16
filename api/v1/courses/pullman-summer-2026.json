@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T21:07:28.904993+00:00",
+  "generatedAt": "2026-10-16T23:37:51.100663+00:00",
   "campus": "Pullman",
   "term": "Summer 2026",
   "subjects": [
@@ -6905,6 +6905,102 @@
           "course": "Educ Abroad",
           "subject": "ED_ABRD",
           "subjectPrefix": "EAC",
+          "courseNumber": 901,
+          "courseCode": "ED_ABRD 901",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3765",
+              "sln": 3765,
+              "sectionNumber": 1,
+              "courseCode": "ED_ABRD 901",
+              "courseName": "Educ Abroad",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STYBORSKI",
+              "instructors": [
+                "M STYBORSKI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educ Abroad",
+          "subject": "ED_ABRD",
+          "subjectPrefix": "EAC",
+          "courseNumber": 902,
+          "courseCode": "ED_ABRD 902",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3766",
+              "sln": 3766,
+              "sectionNumber": 1,
+              "courseCode": "ED_ABRD 902",
+              "courseName": "Educ Abroad",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STYBORSKI",
+              "instructors": [
+                "M STYBORSKI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educ Abroad",
+          "subject": "ED_ABRD",
+          "subjectPrefix": "EAC",
           "courseNumber": 915,
           "courseCode": "ED_ABRD 915",
           "credits": "0",
@@ -7037,6 +7133,102 @@
                 "total": 30,
                 "available": 28,
                 "label": "2/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educ Abroad",
+          "subject": "ED_ABRD",
+          "subjectPrefix": "EAC",
+          "courseNumber": 969,
+          "courseCode": "ED_ABRD 969",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2066",
+              "sln": 2066,
+              "sectionNumber": 1,
+              "courseCode": "ED_ABRD 969",
+              "courseName": "Educ Abroad",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STYBORSKI",
+              "instructors": [
+                "M STYBORSKI"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 11",
+                "end": "Jul 31"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educ Abroad",
+          "subject": "ED_ABRD",
+          "subjectPrefix": "EAC",
+          "courseNumber": 972,
+          "courseCode": "ED_ABRD 972",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2067",
+              "sln": 2067,
+              "sectionNumber": 1,
+              "courseCode": "ED_ABRD 972",
+              "courseName": "Educ Abroad",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STYBORSKI",
+              "instructors": [
+                "M STYBORSKI"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "May 11",

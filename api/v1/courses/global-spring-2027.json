@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T21:07:28.675814+00:00",
+  "generatedAt": "2026-10-16T23:37:50.792213+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -8983,8 +8983,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J GUERRERO SEDENO",
+              "instructors": [
+                "J GUERRERO SEDENO"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -13585,8 +13587,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K FORSYTHE",
+              "instructors": [
+                "K FORSYTHE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -13631,8 +13635,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K FORSYTHE",
+              "instructors": [
+                "K FORSYTHE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -16356,8 +16362,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A BENNETT",
+              "instructors": [
+                "A BENNETT"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -16391,8 +16399,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A BENNETT",
+              "instructors": [
+                "A BENNETT"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -16405,6 +16415,96 @@
               "dates": {
                 "start": "Jan 11",
                 "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MED_HAL",
+      "courses": [
+        {
+          "course": "Healthcare Policy and Politics",
+          "subject": "MED_HAL",
+          "subjectPrefix": "MEDHL",
+          "courseNumber": 506,
+          "courseCode": "MED_HAL 506",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12008",
+              "sln": 12008,
+              "sectionNumber": 1,
+              "courseCode": "MED_HAL 506",
+              "courseName": "Healthcare Policy and Politics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E WOOD",
+              "instructors": [
+                "E WOOD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Feb 28"
+              }
+            },
+            {
+              "sectionId": "12009",
+              "sln": 12009,
+              "sectionNumber": 2,
+              "courseCode": "MED_HAL 506",
+              "courseName": "Healthcare Policy and Politics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E WOOD",
+              "instructors": [
+                "E WOOD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Feb 28"
               }
             }
           ]
