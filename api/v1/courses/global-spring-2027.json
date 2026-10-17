@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T23:37:50.792213+00:00",
+  "generatedAt": "2026-10-17T04:22:03.745808+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -22483,6 +22483,54 @@
                 "total": 38,
                 "available": 38,
                 "label": "0/38"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Environmental Data Analysis",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 409,
+          "courseCode": "SOE 409",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11675",
+              "sln": 11675,
+              "sectionNumber": 1,
+              "courseCode": "SOE 409",
+              "courseName": "Environmental Data Analysis",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A FREMIER",
+              "instructors": [
+                "A FREMIER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
