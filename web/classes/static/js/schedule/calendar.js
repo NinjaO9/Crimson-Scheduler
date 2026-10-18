@@ -128,6 +128,52 @@ export function applyCourseBlockStacking(block, timeRange) {
 }
 
 /**
+ * Positions a course tooltip on the side of its block where it will remain visible inside the schedule's scroll container.
+ *
+ * @param {HTMLElement} block - Course block that owns the tooltip.
+ * @param {HTMLElement} tooltip - Tooltip to position.
+ * @returns {"above"|"below"} The selected tooltip placement.
+ */
+export function positionCourseTooltip(block, tooltip) {
+  if (!block || !tooltip) return "below";
+
+  const wasHidden = getComputedStyle(tooltip).display === "none";
+  if (wasHidden) {
+    tooltip.style.display = "block";
+    tooltip.style.visibility = "hidden";
+  }
+
+  const blockRect = block.getBoundingClientRect();
+  const tooltipHeight = tooltip.getBoundingClientRect().height || tooltip.offsetHeight;
+  const gap = 7;
+  let clipTop = 0;
+  let clipBottom = window.innerHeight;
+  let ancestor = tooltip.parentElement;
+
+  while (ancestor && ancestor !== document.body) {
+    const styles = getComputedStyle(ancestor);
+    if (/(auto|scroll|hidden|clip)/.test(`${styles.overflow}${styles.overflowY}`)) {
+      const ancestorRect = ancestor.getBoundingClientRect();
+      clipTop = Math.max(clipTop, ancestorRect.top);
+      clipBottom = Math.min(clipBottom, ancestorRect.bottom);
+    }
+    ancestor = ancestor.parentElement;
+  }
+
+  const fitsBelow = blockRect.bottom + gap + tooltipHeight <= clipBottom;
+  const fitsAbove = blockRect.top - gap - tooltipHeight >= clipTop;
+  const placeAbove = !fitsBelow && (fitsAbove || blockRect.top - clipTop > clipBottom - blockRect.bottom);
+  tooltip.classList.toggle("tooltip-above", placeAbove);
+
+  if (wasHidden) {
+    tooltip.style.display = "";
+    tooltip.style.visibility = "";
+  }
+
+  return placeAbove ? "above" : "below";
+}
+
+/**
  * Renders a course block in the calendar grid for the specified day and time range,
  * displaying course details and configuring interactions for desktop and mobile viewports.
  * Tracks the rendered block for conflict detection and schedule layout management.
@@ -176,6 +222,10 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
   tooltip.className = "course-block-tooltip";
   tooltip.appendChild(buildCourseTooltip(courseData));
   block.appendChild(tooltip);
+  // Little listener for each block, cause if we scroll or something to mess with the calendar we have to recalculate where the tooltip should be.
+  block.addEventListener("mouseenter", () => {
+    window.requestAnimationFrame(() => positionCourseTooltip(block, tooltip));
+  });
   block.addEventListener("click", (event) => {
     event.stopPropagation();
     if (
