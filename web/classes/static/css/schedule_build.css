@@ -839,6 +839,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     z-index: 30;
 }
 
+.course-block-tooltip.tooltip-above {
+    bottom: calc(100% + 7px);
+    top: auto;
+}
+
 .course-block:hover .course-block-tooltip {
     display: block;
 }
@@ -850,6 +855,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     position: absolute;
     right: 0;
     top: -12px;
+}
+
+.course-block-tooltip.tooltip-above.conflict-tooltip::before {
+    bottom: -12px;
+    top: auto;
 }
 
 .conflict-remove-btn {
