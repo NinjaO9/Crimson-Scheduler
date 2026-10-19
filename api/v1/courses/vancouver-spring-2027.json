@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T13:14:30.911879+00:00",
+  "generatedAt": "2026-10-19T19:21:55.864652+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -8902,6 +8902,54 @@
           ]
         },
         {
+          "course": "Advanced Topics",
+          "subject": "ECE",
+          "subjectPrefix": "ECE",
+          "courseNumber": 582,
+          "courseCode": "ECE 582",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6502",
+              "sln": 6502,
+              "sectionNumber": 1,
+              "courseCode": "ECE 582",
+              "courseName": "Advanced Topics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "07:45 - 09:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "07:45 - 09:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "V VENKATASUBRAMANIAN",
+              "instructors": [
+                "V VENKATASUBRAMANIAN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Master's Research, Thesis, and/or Examination",
           "subject": "ECE",
           "subjectPrefix": "ECE",
@@ -12675,8 +12723,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A SALAZAR",
+              "instructors": [
+                "A SALAZAR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -22250,8 +22300,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A SALAZAR",
+              "instructors": [
+                "A SALAZAR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -22296,8 +22348,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A SALAZAR",
+              "instructors": [
+                "A SALAZAR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",

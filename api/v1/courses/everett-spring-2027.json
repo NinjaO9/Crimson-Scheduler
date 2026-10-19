@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T13:14:30.293883+00:00",
+  "generatedAt": "2026-10-19T19:21:55.258033+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -6175,6 +6175,59 @@
                 "total": 29,
                 "available": 29,
                 "label": "0/29"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MSE",
+      "courses": [
+        {
+          "course": "Engineering Composites",
+          "subject": "MSE",
+          "subjectPrefix": "MSE",
+          "courseNumber": 404,
+          "courseCode": "MSE 404",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6519",
+              "sln": 6519,
+              "sectionNumber": 1,
+              "courseCode": "MSE 404",
+              "courseName": "Engineering Composites",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   EVE",
+              "instructor": "K ZHONG",
+              "instructors": [
+                "K ZHONG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
