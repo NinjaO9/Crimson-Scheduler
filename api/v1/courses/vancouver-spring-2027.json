@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T19:21:55.864652+00:00",
+  "generatedAt": "2026-10-19T23:39:59.410145+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -8950,6 +8950,54 @@
           ]
         },
         {
+          "course": "Directed Study in Electrical Engineering",
+          "subject": "ECE",
+          "subjectPrefix": "ECE",
+          "courseNumber": 595,
+          "courseCode": "ECE 595",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12033",
+              "sln": 12033,
+              "sectionNumber": 1,
+              "courseCode": "ECE 595",
+              "courseName": "Directed Study in Electrical Engineering",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "P SEKHAR",
+              "instructors": [
+                "P SEKHAR"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Master's Research, Thesis, and/or Examination",
           "subject": "ECE",
           "subjectPrefix": "ECE",
@@ -11691,54 +11739,6 @@
                 "total": 40,
                 "available": 40,
                 "label": "0/40"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Problems",
-          "subject": "FIN",
-          "subjectPrefix": "Fin",
-          "courseNumber": 499,
-          "courseCode": "FIN 499",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11989",
-              "sln": 11989,
-              "sectionNumber": 1,
-              "courseCode": "FIN 499",
-              "courseName": "Special Problems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "Y HE",
-              "instructors": [
-                "Y HE"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15047,11 +15047,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "M",
               "time": "16:20 - 19:00",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "M",
                   "time": "16:20 - 19:00"
                 }
               ],
@@ -25017,6 +25017,54 @@
           ]
         },
         {
+          "course": "Advanced Topics in Environmental and Natural Resource Sciences",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 592,
+          "courseCode": "SOE 592",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6442",
+              "sln": 6442,
+              "sectionNumber": 1,
+              "courseCode": "SOE 592",
+              "courseName": "Advanced Topics in Environmental and Natural Resource Sciences",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J PADOWSKI",
+              "instructors": [
+                "J PADOWSKI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Seminar",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -25239,9 +25287,9 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "S LOPEZ-LOPEZ",
+              "instructor": "B DE QUINTANA LASA",
               "instructors": [
-                "S LOPEZ-LOPEZ"
+                "B DE QUINTANA LASA"
               ],
               "ucore": "",
               "coop": false,

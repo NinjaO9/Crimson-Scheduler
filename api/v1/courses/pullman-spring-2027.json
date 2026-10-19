@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T19:21:55.530264+00:00",
+  "generatedAt": "2026-10-19T23:39:59.044133+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -55333,7 +55333,7 @@
                   "time": "14:55 - 16:10"
                 }
               ],
-              "location": "AVER 8",
+              "location": "CUE  407",
               "instructor": "C FERNANDO",
               "instructors": [
                 "C FERNANDO"
@@ -78812,43 +78812,6 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
-            },
-            {
-              "sectionId": "7086",
-              "sln": 7086,
-              "sectionNumber": 2,
-              "courseCode": "I_D 460",
-              "courseName": "Portfolio and Representation",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "CARP 312",
-              "instructor": "M CERRUTI",
-              "instructors": [
-                "M CERRUTI"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
             }
           ]
         },
@@ -94327,11 +94290,11 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "F",
-              "time": "09:10 - 12:00",
+              "time": "10:10 - 13:00",
               "meetings": [
                 {
                   "days": "F",
-                  "time": "09:10 - 12:00"
+                  "time": "10:10 - 13:00"
                 }
               ],
               "location": "EME  152",
@@ -113591,7 +113554,7 @@
           ]
         },
         {
-          "course": "",
+          "course": "AI Ethics",
           "subject": "PHIL",
           "subjectPrefix": "Phil",
           "courseNumber": 240,
@@ -113604,7 +113567,7 @@
               "sln": 11999,
               "sectionNumber": 1,
               "courseCode": "PHIL 240",
-              "courseName": "",
+              "courseName": "AI Ethics",
               "credits": "3",
               "component": "Lecture",
               "isLab": false,
@@ -116375,52 +116338,6 @@
                 "total": 24,
                 "available": 24,
                 "label": "0/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Electronics",
-          "subject": "PHYSICS",
-          "subjectPrefix": "Phys",
-          "courseNumber": 410,
-          "courseCode": "PHYSICS 410",
-          "credits": "0",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "4462",
-              "sln": 4462,
-              "sectionNumber": 1,
-              "courseCode": "PHYSICS 410",
-              "courseName": "Electronics",
-              "credits": "0",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 12:00"
-                }
-              ],
-              "location": "WEBS 332",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 16,
-                "available": 16,
-                "label": "0/16"
               },
               "dates": {
                 "start": "Jan 11",

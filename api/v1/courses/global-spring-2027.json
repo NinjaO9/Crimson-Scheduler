@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T19:21:55.303226+00:00",
+  "generatedAt": "2026-10-19T23:39:58.790922+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -10877,41 +10877,6 @@
           "hasRequiredLab": false,
           "sections": [
             {
-              "sectionId": "9429",
-              "sln": 9429,
-              "sectionNumber": 1,
-              "courseCode": "ENGLISH 302",
-              "courseName": "Introduction to English Studies",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 9,
-                "available": 9,
-                "label": "0/9"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
               "sectionId": "9826",
               "sln": 9826,
               "sectionNumber": 2,
@@ -16332,6 +16297,373 @@
       ]
     },
     {
+      "subject": "ME",
+      "courses": [
+        {
+          "course": "Heat Transfer",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 304,
+          "courseCode": "ME 304",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10601",
+              "sln": 10601,
+              "sectionNumber": 1,
+              "courseCode": "ME 304",
+              "courseName": "Heat Transfer",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "08:15 - 09:45",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "08:15 - 09:45"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B ASGHARIAN",
+              "instructors": [
+                "B ASGHARIAN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Dynamics Systems",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 348,
+          "courseCode": "ME 348",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10624",
+              "sln": 10624,
+              "sectionNumber": 1,
+              "courseCode": "ME 348",
+              "courseName": "Dynamics Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:00 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:00 - 11:50"
+                }
+              ],
+              "location": "",
+              "instructor": "Y MEHTA",
+              "instructors": [
+                "Y MEHTA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Mechatronics",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 401,
+          "courseCode": "ME 401",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "10598",
+              "sln": 10598,
+              "sectionNumber": 1,
+              "courseCode": "ME 401",
+              "courseName": "Mechatronics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "09:00 - 09:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "09:00 - 09:50"
+                }
+              ],
+              "location": "",
+              "instructor": "A RATHNAYAKE",
+              "instructors": [
+                "A RATHNAYAKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10599",
+              "sln": 10599,
+              "sectionNumber": 1,
+              "courseCode": "ME 401",
+              "courseName": "Mechatronics",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:00 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:00 - 12:00"
+                }
+              ],
+              "location": "",
+              "instructor": "A RATHNAYAKE",
+              "instructors": [
+                "A RATHNAYAKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 19,
+                "available": 19,
+                "label": "0/19"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10600",
+              "sln": 10600,
+              "sectionNumber": 2,
+              "courseCode": "ME 401",
+              "courseName": "Mechatronics",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:00 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:00 - 12:00"
+                }
+              ],
+              "location": "",
+              "instructor": "A RATHNAYAKE",
+              "instructors": [
+                "A RATHNAYAKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 19,
+                "available": 19,
+                "label": "0/19"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Mechanical Systems Design",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 416,
+          "courseCode": "ME 416",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10604",
+              "sln": 10604,
+              "sectionNumber": 1,
+              "courseCode": "ME 416",
+              "courseName": "Mechanical Systems Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "10:00 - 10:50",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "10:00 - 10:50"
+                }
+              ],
+              "location": "",
+              "instructor": "A RATHNAYAKE",
+              "instructors": [
+                "A RATHNAYAKE"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Applied Aerodynamics",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 439,
+          "courseCode": "ME 439",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6587",
+              "sln": 6587,
+              "sectionNumber": 1,
+              "courseCode": "ME 439",
+              "courseName": "Applied Aerodynamics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "G TAUB",
+              "instructors": [
+                "G TAUB"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Nuclear Engineering II",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 462,
+          "courseCode": "ME 462",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2395",
+              "sln": 2395,
+              "sectionNumber": 1,
+              "courseCode": "ME 462",
+              "courseName": "Introduction to Nuclear Engineering II",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "",
+              "instructor": "N CLARK",
+              "instructors": [
+                "N CLARK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "MED_ETH",
       "courses": [
         {
@@ -16386,6 +16718,91 @@
               "sectionNumber": 2,
               "courseCode": "MED_ETH 530",
               "courseName": "The Practice of Clinical Ethics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A BENNETT",
+              "instructors": [
+                "A BENNETT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar in Clinical Ethics: Methods, Process, Skills, and Traits",
+          "subject": "MED_ETH",
+          "subjectPrefix": "MEDET",
+          "courseNumber": 540,
+          "courseCode": "MED_ETH 540",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1336",
+              "sln": 1336,
+              "sectionNumber": 1,
+              "courseCode": "MED_ETH 540",
+              "courseName": "Seminar in Clinical Ethics: Methods, Process, Skills, and Traits",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A BENNETT",
+              "instructors": [
+                "A BENNETT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "1337",
+              "sln": 1337,
+              "sectionNumber": 2,
+              "courseCode": "MED_ETH 540",
+              "courseName": "Seminar in Clinical Ethics: Methods, Process, Skills, and Traits",
               "credits": "3",
               "component": "Lecture",
               "isLab": false,
@@ -16505,6 +16922,91 @@
               "dates": {
                 "start": "Jan 11",
                 "end": "Feb 28"
+              }
+            }
+          ]
+        },
+        {
+          "course": "MHAL Capstone",
+          "subject": "MED_HAL",
+          "subjectPrefix": "MEDHL",
+          "courseNumber": 600,
+          "courseCode": "MED_HAL 600",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1338",
+              "sln": 1338,
+              "sectionNumber": 1,
+              "courseCode": "MED_HAL 600",
+              "courseName": "MHAL Capstone",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T AYENI",
+              "instructors": [
+                "T AYENI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "1339",
+              "sln": 1339,
+              "sectionNumber": 2,
+              "courseCode": "MED_HAL 600",
+              "courseName": "MHAL Capstone",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T AYENI",
+              "instructors": [
+                "T AYENI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
               }
             }
           ]
@@ -18377,6 +18879,59 @@
               "dates": {
                 "start": "Mar 08",
                 "end": "Apr 25"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MSE",
+      "courses": [
+        {
+          "course": "Engineering Composites",
+          "subject": "MSE",
+          "subjectPrefix": "MSE",
+          "courseNumber": 404,
+          "courseCode": "MSE 404",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6588",
+              "sln": 6588,
+              "sectionNumber": 1,
+              "courseCode": "MSE 404",
+              "courseName": "Engineering Composites",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K ZHONG",
+              "instructors": [
+                "K ZHONG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
               }
             }
           ]
@@ -21724,8 +22279,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A MYERS",
+              "instructors": [
+                "A MYERS"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "V",
