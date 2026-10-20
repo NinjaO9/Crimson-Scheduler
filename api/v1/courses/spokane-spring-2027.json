@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T10:04:33.034520+00:00",
+  "generatedAt": "2026-10-20T15:03:18.222652+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -675,6 +675,59 @@
                 "total": 2,
                 "available": 2,
                 "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "H_D",
+      "courses": [
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 600,
+          "courseCode": "H_D 600",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3221",
+              "sln": 3221,
+              "sectionNumber": 1,
+              "courseCode": "H_D 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O OLUWOYE",
+              "instructors": [
+                "O OLUWOYE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7922,6 +7975,239 @@
               }
             }
           ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "NURS_SCI",
+          "subjectPrefix": "NURSC",
+          "courseNumber": 800,
+          "courseCode": "NURS_SCI 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3408",
+              "sln": 3408,
+              "sectionNumber": 1,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3409",
+              "sln": 3409,
+              "sectionNumber": 2,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J POSTMA",
+              "instructors": [
+                "J POSTMA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3410",
+              "sln": 3410,
+              "sectionNumber": 3,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3411",
+              "sln": 3411,
+              "sectionNumber": 4,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T KLEIN",
+              "instructors": [
+                "T KLEIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3413",
+              "sln": 3413,
+              "sectionNumber": 6,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3414",
+              "sln": 3414,
+              "sectionNumber": 7,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -9512,6 +9798,347 @@
       ]
     },
     {
+      "subject": "PHARMEDS",
+      "courses": [
+        {
+          "course": "Pharmaceutics: Delivering the Treatment",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 320,
+          "courseCode": "PHARMEDS 320",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3462",
+              "sln": 3462,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 320",
+              "courseName": "Pharmaceutics: Delivering the Treatment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "J CLARKE",
+              "instructors": [
+                "J CLARKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Medicinal Chemistry: Developing New Drugs",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 322,
+          "courseCode": "PHARMEDS 322",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3461",
+              "sln": 3461,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 322",
+              "courseName": "Medicinal Chemistry: Developing New Drugs",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "T DENTON",
+              "instructors": [
+                "T DENTON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Molecular Methods: Biochemical Techniques",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 330,
+          "courseCode": "PHARMEDS 330",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3463",
+              "sln": 3463,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 330",
+              "courseName": "Molecular Methods: Biochemical Techniques",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "09:30 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:30 - 12:00"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "B FOSTER",
+              "instructors": [
+                "B FOSTER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Equity, Disparity, and Social Justice in Healthcare",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 375,
+          "courseCode": "PHARMEDS 375",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3465",
+              "sln": 3465,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 375",
+              "courseName": "Equity, Disparity, and Social Justice in Healthcare",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "09:30 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:30 - 12:00"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "A AHMED",
+              "instructors": [
+                "A AHMED"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Scientific Communication: Writing and Speaking",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 421,
+          "courseCode": "PHARMEDS 421",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3511",
+              "sln": 3511,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 421",
+              "courseName": "Scientific Communication: Writing and Speaking",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "09:30 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:30 - 12:00"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "S MARSH",
+              "instructors": [
+                "S MARSH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Medical Microbiology: Bugs and Drugs",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 425,
+          "courseCode": "PHARMEDS 425",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3509",
+              "sln": 3509,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 425",
+              "courseName": "Medical Microbiology: Bugs and Drugs",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,F",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,F",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "A AHMED",
+              "instructors": [
+                "A AHMED"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Senior Seminar: Capstone Experience",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 490,
+          "courseCode": "PHARMEDS 490",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3510",
+              "sln": 3510,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 490",
+              "courseName": "Senior Seminar: Capstone Experience",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "13:30 - 16:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "13:30 - 16:00"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "S DAOUD",
+              "instructors": [
+                "S DAOUD"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "PHARMSCI",
       "courses": [
         {
@@ -9648,6 +10275,107 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PREV_SCI",
+      "courses": [
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "PREV_SCI",
+          "subjectPrefix": "PrvSc",
+          "courseNumber": 700,
+          "courseCode": "PREV_SCI 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3225",
+              "sln": 3225,
+              "sectionNumber": 1,
+              "courseCode": "PREV_SCI 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L KRIEGEL",
+              "instructors": [
+                "L KRIEGEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "PREV_SCI",
+          "subjectPrefix": "PrvSc",
+          "courseNumber": 800,
+          "courseCode": "PREV_SCI 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3226",
+              "sln": 3226,
+              "sectionNumber": 1,
+              "courseCode": "PREV_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COLON",
+              "instructors": [
+                "L COLON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11307,6 +12035,59 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TMP",
+      "courses": [
+        {
+          "course": "Human Clinical Neuropathology",
+          "subject": "TMP",
+          "subjectPrefix": "TMP",
+          "courseNumber": 424,
+          "courseCode": "TMP 424",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1912",
+              "sln": 1912,
+              "sectionNumber": 1,
+              "courseCode": "TMP 424",
+              "courseName": "Human Clinical Neuropathology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "J GERSTNER",
+              "instructors": [
+                "J GERSTNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",

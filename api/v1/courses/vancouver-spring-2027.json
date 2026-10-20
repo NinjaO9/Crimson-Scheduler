@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T10:04:33.127665+00:00",
+  "generatedAt": "2026-10-20T15:03:18.352227+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -15638,6 +15638,54 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Dynamical Systems",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 512,
+          "courseCode": "MATH 512",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12040",
+              "sln": 12040,
+              "sectionNumber": 1,
+              "courseCode": "MATH 512",
+              "courseName": "Dynamical Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "A PANCHENKO",
+              "instructors": [
+                "A PANCHENKO"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
