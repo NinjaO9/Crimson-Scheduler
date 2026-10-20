@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T15:03:18.270929+00:00",
+  "generatedAt": "2026-10-20T19:16:10.254893+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -8981,6 +8981,43 @@
               "instructor": "K CANION BREWER",
               "instructors": [
                 "K CANION BREWER"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12042",
+              "sln": 12042,
+              "sectionNumber": 2,
+              "courseCode": "HISTORY 111",
+              "courseName": "American History Since 1877",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "",
+              "instructor": "R BAUMAN",
+              "instructors": [
+                "R BAUMAN"
               ],
               "ucore": "HUM",
               "coop": false,

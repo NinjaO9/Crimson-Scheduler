@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T15:03:18.011358+00:00",
+  "generatedAt": "2026-10-20T19:16:10.106279+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -655,10 +655,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 30,
-                "available": 29,
-                "label": "1/30"
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1057,9 +1057,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "B WONG-ON-WING",
+              "instructor": "J JAGGI",
               "instructors": [
-                "B WONG-ON-WING"
+                "J JAGGI"
               ],
               "ucore": "",
               "coop": false,
@@ -3317,10 +3317,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 15,
-                "available": 14,
-                "label": "1/15"
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3354,10 +3354,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 15,
-                "available": 14,
-                "label": "1/15"
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3535,10 +3535,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 26,
-                "available": 25,
-                "label": "1/26"
+                "available": 26,
+                "label": "0/26"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3572,10 +3572,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 26,
-                "available": 25,
-                "label": "1/26"
+                "available": 26,
+                "label": "0/26"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3620,10 +3620,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 24,
-                "available": 23,
-                "label": "1/24"
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11967,7 +11967,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "CARP 312",
+              "location": "",
               "instructor": "M CERRUTI",
               "instructors": [
                 "M CERRUTI"
@@ -12407,10 +12407,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 20,
-                "available": 19,
-                "label": "1/20"
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14204,6 +14204,59 @@
                 "total": 11,
                 "available": 11,
                 "label": "0/11"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ASIA",
+      "courses": [
+        {
+          "course": "Modern Japanese History",
+          "subject": "ASIA",
+          "subjectPrefix": "Asia",
+          "courseNumber": 377,
+          "courseCode": "ASIA 377",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12037",
+              "sln": 12037,
+              "sectionNumber": 1,
+              "courseCode": "ASIA 377",
+              "courseName": "Modern Japanese History",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "W BRECHER",
+              "instructors": [
+                "W BRECHER"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16696,12 +16749,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "W",
-              "time": "16:10 - 17:00",
+              "days": "F",
+              "time": "14:10 - 15:00",
               "meetings": [
                 {
-                  "days": "W",
-                  "time": "16:10 - 17:00"
+                  "days": "F",
+                  "time": "14:10 - 15:00"
                 }
               ],
               "location": "WEGN G070C",
@@ -16733,12 +16786,12 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TH",
-              "time": "14:55 - 17:45",
+              "days": "M",
+              "time": "14:10 - 17:00",
               "meetings": [
                 {
-                  "days": "TH",
-                  "time": "14:55 - 17:45"
+                  "days": "M",
+                  "time": "14:10 - 17:00"
                 }
               ],
               "location": "WEGN 205",
@@ -17095,15 +17148,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
                 }
               ],
-              "location": "WEGN G070C",
+              "location": "WEGN 205",
               "instructor": "A KOSTYUKOVA",
               "instructors": [
                 "A KOSTYUKOVA"
@@ -17191,15 +17244,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
                 }
               ],
-              "location": "WEGN G070C",
+              "location": "WEGN 205",
               "instructor": "A KOSTYUKOVA",
               "instructors": [
                 "A KOSTYUKOVA"
@@ -23185,10 +23238,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 0,
                 "total": 100,
-                "available": 98,
-                "label": "2/100"
+                "available": 100,
+                "label": "0/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -55004,8 +55057,10 @@
                 }
               ],
               "location": "SPRK 233",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -78984,7 +79039,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "CARP 312",
+              "location": "",
               "instructor": "M CERRUTI",
               "instructors": [
                 "M CERRUTI"
@@ -82837,10 +82892,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 50,
-                "available": 49,
-                "label": "1/50"
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -83565,10 +83620,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 50,
-                "available": 49,
-                "label": "1/50"
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91052,10 +91107,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 0,
                 "total": 24,
-                "available": 22,
-                "label": "2/24"
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91381,10 +91436,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 1,
                 "total": 72,
-                "available": 70,
-                "label": "2/72"
+                "available": 71,
+                "label": "1/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91451,10 +91506,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 24,
-                "available": 23,
-                "label": "1/24"
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91534,10 +91589,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 0,
                 "total": 120,
-                "available": 118,
-                "label": "2/120"
+                "available": 120,
+                "label": "0/120"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91715,10 +91770,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 100,
-                "available": 99,
-                "label": "1/100"
+                "available": 100,
+                "label": "0/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91763,10 +91818,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 30,
-                "available": 29,
-                "label": "1/30"
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91944,10 +91999,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 1,
                 "total": 30,
-                "available": 27,
-                "label": "3/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92136,10 +92191,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 20,
-                "available": 19,
-                "label": "1/20"
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92173,10 +92228,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 20,
-                "available": 19,
-                "label": "1/20"
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92221,10 +92276,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 30,
-                "available": 29,
-                "label": "1/30"
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92258,10 +92313,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 30,
-                "available": 29,
-                "label": "1/30"
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -92306,10 +92361,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 2,
                 "total": 45,
-                "available": 42,
-                "label": "3/45"
+                "available": 43,
+                "label": "2/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99997,10 +100052,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 65,
-                "available": 64,
-                "label": "1/65"
+                "available": 65,
+                "label": "0/65"
               },
               "dates": {
                 "start": "Jan 11",
@@ -113737,10 +113792,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 100,
-                "available": 99,
-                "label": "1/100"
+                "available": 100,
+                "label": "0/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -113774,10 +113829,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 100,
-                "available": 99,
-                "label": "1/100"
+                "available": 100,
+                "label": "0/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -120331,6 +120386,155 @@
       ]
     },
     {
+      "subject": "PREV_SCI",
+      "courses": [
+        {
+          "course": "Finite and Growth Mixture Modeling",
+          "subject": "PREV_SCI",
+          "subjectPrefix": "PrvSc",
+          "courseNumber": 512,
+          "courseCode": "PREV_SCI 512",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12038",
+              "sln": 12038,
+              "sectionNumber": 1,
+              "courseCode": "PREV_SCI 512",
+              "courseName": "Finite and Growth Mixture Modeling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:10 - 15:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:10 - 15:25"
+                }
+              ],
+              "location": "",
+              "instructor": "N SCALISE",
+              "instructors": [
+                "N SCALISE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "PREV_SCI",
+          "subjectPrefix": "PrvSc",
+          "courseNumber": 700,
+          "courseCode": "PREV_SCI 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5458",
+              "sln": 5458,
+              "sectionNumber": 1,
+              "courseCode": "PREV_SCI 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O ADESOPE",
+              "instructors": [
+                "O ADESOPE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "PREV_SCI",
+          "subjectPrefix": "PrvSc",
+          "courseNumber": 800,
+          "courseCode": "PREV_SCI 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5459",
+              "sln": 5459,
+              "sectionNumber": 1,
+              "courseCode": "PREV_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O ADESOPE",
+              "instructors": [
+                "O ADESOPE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "PSYCH",
       "courses": [
         {
@@ -124687,10 +124891,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 15,
-                "available": 14,
-                "label": "1/15"
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -130590,10 +130794,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 2,
+                "taken": 0,
                 "total": 47,
-                "available": 45,
-                "label": "2/47"
+                "available": 47,
+                "label": "0/47"
               },
               "dates": {
                 "start": "Jan 11",
@@ -130627,10 +130831,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 2,
+                "taken": 0,
                 "total": 47,
-                "available": 45,
-                "label": "2/47"
+                "available": 47,
+                "label": "0/47"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131090,10 +131294,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 22,
-                "available": 21,
-                "label": "1/22"
+                "available": 22,
+                "label": "0/22"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131127,10 +131331,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 20,
-                "available": 19,
-                "label": "1/20"
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131164,10 +131368,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 22,
-                "available": 21,
-                "label": "1/22"
+                "available": 22,
+                "label": "0/22"
               },
               "dates": {
                 "start": "Jan 11",
@@ -131201,10 +131405,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 20,
-                "available": 19,
-                "label": "1/20"
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -134001,10 +134205,10 @@
               "coop": false,
               "footnotes": "P",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 30,
-                "available": 29,
-                "label": "1/30"
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -134049,10 +134253,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 0,
                 "total": 27,
-                "available": 25,
-                "label": "2/27"
+                "available": 27,
+                "label": "0/27"
               },
               "dates": {
                 "start": "Jan 11",
@@ -139152,15 +139356,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
-              "time": "13:10 - 16:00",
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
               "meetings": [
                 {
-                  "days": "TU",
-                  "time": "13:10 - 16:00"
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
                 }
               ],
-              "location": "EDAD 212",
+              "location": "EDAD 308",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -139187,15 +139391,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TH",
-              "time": "16:10 - 19:00",
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
               "meetings": [
                 {
-                  "days": "TH",
-                  "time": "16:10 - 19:00"
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
                 }
               ],
-              "location": "EDAD 212",
+              "location": "EDAD 308",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -141559,10 +141763,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 25,
-                "available": 24,
-                "label": "1/25"
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -147546,10 +147750,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 0,
                 "total": 40,
-                "available": 39,
-                "label": "1/40"
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
