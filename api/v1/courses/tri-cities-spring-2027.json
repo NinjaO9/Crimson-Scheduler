@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T19:16:10.254893+00:00",
+  "generatedAt": "2026-10-20T23:12:23.851839+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -1769,12 +1769,16 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "17:10 - 18:00",
+              "days": "TU,TH,F",
+              "time": "16:30 - 17:20;10:10 - 11:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "17:10 - 18:00"
+                  "days": "TU,TH",
+                  "time": "16:30 - 17:20"
+                },
+                {
+                  "days": "F",
+                  "time": "10:10 - 11:00"
                 }
               ],
               "location": "",
@@ -2142,12 +2146,16 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "17:10 - 18:00",
+              "days": "TU,TH,F",
+              "time": "16:30 - 17:20;10:10 - 11:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "17:10 - 18:00"
+                  "days": "TU,TH",
+                  "time": "16:30 - 17:20"
+                },
+                {
+                  "days": "F",
+                  "time": "10:10 - 11:00"
                 }
               ],
               "location": "",
@@ -3797,10 +3805,8 @@
                 }
               ],
               "location": "TFLO 145",
-              "instructor": "S KHAN",
-              "instructors": [
-                "S KHAN"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -7578,6 +7584,59 @@
       ]
     },
     {
+      "subject": "ED_PSYCH",
+      "courses": [
+        {
+          "course": "Research Methods I",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 505,
+          "courseCode": "ED_PSYCH 505",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10471",
+              "sln": 10471,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 505",
+              "courseName": "Research Methods I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "ENGLISH",
       "courses": [
         {
@@ -11292,11 +11351,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "M",
               "time": "16:20 - 19:00",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "M",
                   "time": "16:20 - 19:00"
                 }
               ],
@@ -17613,50 +17672,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2585",
-              "sln": 2585,
-              "sectionNumber": 2,
-              "courseCode": "PSYCH 311",
-              "courseName": "Statistics in Psychology",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH,W",
-              "time": "10:35 - 11:50;13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                },
-                {
-                  "days": "W",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "",
-              "instructor": "J PETERS",
-              "instructors": [
-                "J PETERS"
-              ],
-              "ucore": "QUAN",
-              "coop": false,
-              "footnotes": "C",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18262,7 +18280,7 @@
                   "time": "17:45 - 20:35"
                 }
               ],
-              "location": "TCOL 214",
+              "location": "TCOL 222",
               "instructor": "",
               "instructors": [],
               "ucore": "BSCI",
@@ -18297,7 +18315,7 @@
                   "time": "16:15 - 19:05"
                 }
               ],
-              "location": "TCOL 214",
+              "location": "TCOL 222",
               "instructor": "",
               "instructors": [],
               "ucore": "BSCI",
@@ -18907,9 +18925,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19462,6 +19480,148 @@
       "subject": "SPEC_ED",
       "courses": [
         {
+          "course": "Education of Exceptional Children",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 301,
+          "courseCode": "SPEC_ED 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10466",
+              "sln": 10466,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 301",
+              "courseName": "Education of Exceptional Children",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Assessment and Curriculum for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 402,
+          "courseCode": "SPEC_ED 402",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10474",
+              "sln": 10474,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 402",
+              "courseName": "Assessment and Curriculum for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HSIAO",
+              "instructors": [
+                "Y HSIAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Education for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 403,
+          "courseCode": "SPEC_ED 403",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10467",
+              "sln": 10467,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 403",
+              "courseName": "Secondary Education for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Teaching in Inclusive Classrooms",
           "subject": "SPEC_ED",
           "subjectPrefix": "Sp Ed",
@@ -19501,6 +19661,54 @@
                 "total": 10,
                 "available": 10,
                 "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Effective Assessment and Instruction in Reading for Diverse Learners",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 471,
+          "courseCode": "SPEC_ED 471",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10469",
+              "sln": 10469,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 471",
+              "courseName": "Effective Assessment and Instruction in Reading for Diverse Learners",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19558,6 +19766,100 @@
           ]
         },
         {
+          "course": "Assessment and Curriculum for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 502,
+          "courseCode": "SPEC_ED 502",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10472",
+              "sln": 10472,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 502",
+              "courseName": "Assessment and Curriculum for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HSIAO",
+              "instructors": [
+                "Y HSIAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Secondary Education for Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 503,
+          "courseCode": "SPEC_ED 503",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10468",
+              "sln": 10468,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 503",
+              "courseName": "Secondary Education for Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Teaching in Inclusive Classrooms",
           "subject": "SPEC_ED",
           "subjectPrefix": "Sp Ed",
@@ -19597,6 +19899,54 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Effective Assessment and Instruction in Reading for Diverse Learners",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 571,
+          "courseCode": "SPEC_ED 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10470",
+              "sln": 10470,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 571",
+              "courseName": "Effective Assessment and Instruction in Reading for Diverse Learners",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
