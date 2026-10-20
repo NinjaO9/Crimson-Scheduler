@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T23:39:59.044133+00:00",
+  "generatedAt": "2026-10-20T04:47:09.621793+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -40677,8 +40677,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B AMMANAGHATTA SHIVA",
+              "instructors": [
+                "B AMMANAGHATTA SHIVA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -55740,7 +55742,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "AVER 102",
+              "location": "TODD 413",
               "instructor": "E TRUJILLO",
               "instructors": [
                 "E TRUJILLO"
@@ -56110,7 +56112,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "BRYN 404",
+              "location": "AVER 102",
               "instructor": "F WOODWARD",
               "instructors": [
                 "F WOODWARD"
@@ -57601,7 +57603,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "THOM 119",
+              "location": "BRYN 404",
               "instructor": "D SPARKS",
               "instructors": [
                 "D SPARKS"
@@ -57913,7 +57915,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "SLOA 167",
+              "location": "SPRK 333",
               "instructor": "D SPARKS",
               "instructors": [
                 "D SPARKS"
@@ -72397,9 +72399,9 @@
               "footnotes": "X",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -77214,7 +77216,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "TODD 413",
+              "location": "BRYN 404",
               "instructor": "D SPARKS",
               "instructors": [
                 "D SPARKS"
@@ -85637,7 +85639,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "WLSH 13",
+              "location": "CUE  316",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -85742,7 +85744,7 @@
                   "time": "12:10 - 13:00"
                 }
               ],
-              "location": "SPRK 223",
+              "location": "CUE  207",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -85777,7 +85779,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "WEBS B0012",
+              "location": "WLSH 13",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -85882,7 +85884,7 @@
                   "time": "12:10 - 13:00"
                 }
               ],
-              "location": "CUE  316",
+              "location": "CUE  416",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -85917,7 +85919,7 @@
                   "time": "12:10 - 13:00"
                 }
               ],
-              "location": "WLSH 5",
+              "location": "SPRK 323",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -85952,7 +85954,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "CLEV 130C",
+              "location": "SPRK 223",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -89672,15 +89674,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
-                  "days": "ARR",
-                  "time": "ARRGT"
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
                 }
               ],
-              "location": "ARR  ARR",
+              "location": "CUE  418",
               "instructor": "M LESPERANCE",
               "instructors": [
                 "M LESPERANCE"
@@ -92126,9 +92128,9 @@
                 }
               ],
               "location": "HULB 23",
-              "instructor": "H KOEHLER",
+              "instructor": "I DRISKELL",
               "instructors": [
-                "H KOEHLER"
+                "I DRISKELL"
               ],
               "ucore": "",
               "coop": false,
@@ -92163,9 +92165,9 @@
                 }
               ],
               "location": "MCOY 148",
-              "instructor": "H KOEHLER",
+              "instructor": "I DRISKELL",
               "instructors": [
-                "H KOEHLER"
+                "I DRISKELL"
               ],
               "ucore": "",
               "coop": false,
@@ -93396,16 +93398,16 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F,W",
-              "time": "11:10 - 12:00;16:10 - 18:00",
+              "days": "M,W,F,M",
+              "time": "11:10 - 12:00;17:10 - 19:00",
               "meetings": [
                 {
                   "days": "M,W,F",
                   "time": "11:10 - 12:00"
                 },
                 {
-                  "days": "W",
-                  "time": "16:10 - 18:00"
+                  "days": "M",
+                  "time": "17:10 - 19:00"
                 }
               ],
               "location": "SEH  G0005",
@@ -95002,19 +95004,19 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,TH",
+              "days": "M,F,W",
               "time": "09:10 - 10:00;08:10 - 11:00",
               "meetings": [
                 {
-                  "days": "M,W",
+                  "days": "M,F",
                   "time": "09:10 - 10:00"
                 },
                 {
-                  "days": "TH",
+                  "days": "W",
                   "time": "08:10 - 11:00"
                 }
               ],
-              "location": "SLOA 175",
+              "location": "SLOA 5",
               "instructor": "A GOZEN",
               "instructors": [
                 "A GOZEN"
@@ -95024,9 +95026,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 2,
-                "total": 65,
-                "available": 63,
-                "label": "2/65"
+                "total": 42,
+                "available": 40,
+                "label": "2/42"
               },
               "dates": {
                 "start": "Jan 11",
@@ -98535,8 +98537,10 @@
                 }
               ],
               "location": "CLEV 234",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T AKMAL",
+              "instructors": [
+                "T AKMAL"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -100072,16 +100076,16 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F,W",
-              "time": "11:10 - 12:00;16:10 - 18:00",
+              "days": "M,W,F,M",
+              "time": "11:10 - 12:00;17:10 - 19:00",
               "meetings": [
                 {
                   "days": "M,W,F",
                   "time": "11:10 - 12:00"
                 },
                 {
-                  "days": "W",
-                  "time": "16:10 - 18:00"
+                  "days": "M",
+                  "time": "17:10 - 19:00"
                 }
               ],
               "location": "SEH  G0005",
@@ -125153,6 +125157,54 @@
           ]
         },
         {
+          "course": "Perspectives on Disability",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 250,
+          "courseCode": "SOC 250",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12027",
+              "sln": 12027,
+              "sectionNumber": 1,
+              "courseCode": "SOC 250",
+              "courseName": "Perspectives on Disability",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A MYERS",
+              "instructors": [
+                "A MYERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "The Sociology of Sex, Relationships, and Marriage",
           "subject": "SOC",
           "subjectPrefix": "Soc",
@@ -125754,8 +125806,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A MYERS",
+              "instructors": [
+                "A MYERS"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "V",
@@ -125764,6 +125818,54 @@
                 "total": 3,
                 "available": 3,
                 "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sociology of Education",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 346,
+          "courseCode": "SOC 346",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10009",
+              "sln": 10009,
+              "sectionNumber": 1,
+              "courseCode": "SOC 346",
+              "courseName": "Sociology of Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S WHITLEY",
+              "instructors": [
+                "S WHITLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -136918,8 +137020,10 @@
                 }
               ],
               "location": "CUE  418",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M LESPERANCE",
+              "instructors": [
+                "M LESPERANCE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -137879,8 +137983,10 @@
                 }
               ],
               "location": "CUE  418",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M LESPERANCE",
+              "instructors": [
+                "M LESPERANCE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",

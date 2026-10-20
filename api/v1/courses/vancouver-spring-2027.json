@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T23:39:59.410145+00:00",
+  "generatedAt": "2026-10-20T04:47:09.960363+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -5254,6 +5254,54 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Addictive Behavior Among Diverse Populations",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 468,
+          "courseCode": "CRM_J 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12034",
+              "sln": 12034,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 468",
+              "courseName": "Addictive Behavior Among Diverse Populations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "H PATEL",
+              "instructors": [
+                "H PATEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11746,6 +11794,54 @@
               }
             }
           ]
+        },
+        {
+          "course": "Special Topics",
+          "subject": "FIN",
+          "subjectPrefix": "Fin",
+          "courseNumber": 496,
+          "courseCode": "FIN 496",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2918",
+              "sln": 2918,
+              "sectionNumber": 1,
+              "courseCode": "FIN 496",
+              "courseName": "Special Topics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y HE",
+              "instructors": [
+                "Y HE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -15198,8 +15294,10 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N VOULGARAKIS",
+              "instructors": [
+                "N VOULGARAKIS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -15290,8 +15388,10 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "O HAWRANICK",
+              "instructors": [
+                "O HAWRANICK"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -15478,8 +15578,10 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A PANCHENKO",
+              "instructors": [
+                "A PANCHENKO"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -23071,9 +23173,9 @@
               "footnotes": "X",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -24290,6 +24392,54 @@
           ]
         },
         {
+          "course": "Addictive Behavior Among Diverse Populations",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 468,
+          "courseCode": "SOC 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12035",
+              "sln": 12035,
+              "sectionNumber": 1,
+              "courseCode": "SOC 468",
+              "courseName": "Addictive Behavior Among Diverse Populations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "H PATEL",
+              "instructors": [
+                "H PATEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Capstone Research Practicum",
           "subject": "SOC",
           "subjectPrefix": "Soc",
@@ -25279,11 +25429,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "12:10 - 13:00",
+              "time": "13:10 - 14:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "12:10 - 13:00"
+                  "time": "13:10 - 14:00"
                 }
               ],
               "location": "VC   VAN",
@@ -26129,8 +26279,10 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M LESPERANCE",
+              "instructors": [
+                "M LESPERANCE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -26439,8 +26591,10 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M LESPERANCE",
+              "instructors": [
+                "M LESPERANCE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
