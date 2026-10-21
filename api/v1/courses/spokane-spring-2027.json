@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T18:40:11.062954+00:00",
+  "generatedAt": "2026-10-21T22:23:48.159112+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -670,6 +670,107 @@
               "ucore": "",
               "coop": false,
               "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Motivation Theories",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 573,
+          "courseCode": "ED_PSYCH 573",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12043",
+              "sln": 12043,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 573",
+              "courseName": "Motivation Theories",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ED_RES",
+      "courses": [
+        {
+          "course": "Principles of Research",
+          "subject": "ED_RES",
+          "subjectPrefix": "EdRes",
+          "courseNumber": 563,
+          "courseCode": "ED_RES 563",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3211",
+              "sln": 3211,
+              "sectionNumber": 1,
+              "courseCode": "ED_RES 563",
+              "courseName": "Principles of Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 2,
@@ -8582,9 +8683,9 @@
                 }
               ],
               "location": "GUC  SPK",
-              "instructor": "S DAOUD",
+              "instructor": "J CLARKE",
               "instructors": [
-                "S DAOUD"
+                "J CLARKE"
               ],
               "ucore": "",
               "coop": false,

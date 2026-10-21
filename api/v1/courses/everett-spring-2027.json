@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T18:40:10.653087+00:00",
+  "generatedAt": "2026-10-21T22:23:47.771468+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -765,6 +765,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "12047",
+              "sln": 12047,
+              "sectionNumber": 3,
+              "courseCode": "COM 300",
+              "courseName": "Writing in Communication",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "11:35 - 12:35",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "11:35 - 12:35"
+                }
+              ],
+              "location": "VC   EVE",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -1137,52 +1174,6 @@
                 {
                   "days": "TU,TH",
                   "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "GUC  EVE",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Public Relations Management and Campaigns",
-          "subject": "COMSTRAT",
-          "subjectPrefix": "ComSr",
-          "courseNumber": 485,
-          "courseCode": "COMSTRAT 485",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2002",
-              "sln": 2002,
-              "sectionNumber": 3,
-              "courseCode": "COMSTRAT 485",
-              "courseName": "Public Relations Management and Campaigns",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "12:05 - 13:20"
                 }
               ],
               "location": "GUC  EVE",

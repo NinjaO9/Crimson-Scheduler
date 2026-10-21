@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T18:40:11.176395+00:00",
+  "generatedAt": "2026-10-21T22:23:48.262607+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -4998,7 +4998,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "GUC  VAN",
+              "location": "VC   VAN",
               "instructor": "E CANDELLO",
               "instructors": [
                 "E CANDELLO"
@@ -5008,9 +5008,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9686,7 +9686,7 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,SA",
-              "time": "17:45 - 20:30;09:00 - 11:30",
+              "time": "17:45 - 20:30;09:00 - 11:00",
               "meetings": [
                 {
                   "days": "M",
@@ -9694,7 +9694,7 @@
                 },
                 {
                   "days": "SA",
-                  "time": "09:00 - 11:30"
+                  "time": "09:00 - 11:00"
                 }
               ],
               "location": "GUC  VAN",
@@ -10102,102 +10102,6 @@
           ]
         },
         {
-          "course": "Educational Measurements: Test Development and Assessment",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 509,
-          "courseCode": "ED_PSYCH 509",
-          "credits": "0",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7738",
-              "sln": 7738,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 509",
-              "courseName": "Educational Measurements: Test Development and Assessment",
-              "credits": "0",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "16:10 - 19:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "16:10 - 19:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "C GOTCH",
-              "instructors": [
-                "C GOTCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Seminar in Quantitative Techniques in Education",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 569,
-          "courseCode": "ED_PSYCH 569",
-          "credits": "0",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7731",
-              "sln": 7731,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 569",
-              "courseName": "Seminar in Quantitative Techniques in Education",
-              "credits": "0",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "16:10 - 19:00",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "16:10 - 19:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "S DAI",
-              "instructors": [
-                "S DAI"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Educational Psychology Internship",
           "subject": "ED_PSYCH",
           "subjectPrefix": "EdPsy",
@@ -10298,54 +10202,6 @@
     {
       "subject": "ED_RES",
       "courses": [
-        {
-          "course": "Epistemology, Inquiry, and Representation",
-          "subject": "ED_RES",
-          "subjectPrefix": "EdRes",
-          "courseNumber": 562,
-          "courseCode": "ED_RES 562",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6504",
-              "sln": 6504,
-              "sectionNumber": 1,
-              "courseCode": "ED_RES 562",
-              "courseName": "Epistemology, Inquiry, and Representation",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "M POPPEN",
-              "instructors": [
-                "M POPPEN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
         {
           "course": "Principles of Research",
           "subject": "ED_RES",
