@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:49:44.287976+00:00",
+  "generatedAt": "2026-10-21T18:40:10.887431+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -11341,7 +11341,7 @@
                   "time": "13:30 - 17:00"
                 }
               ],
-              "location": "CARP 301",
+              "location": "CARP 420",
               "instructor": "M MANSOORI",
               "instructors": [
                 "M MANSOORI"
@@ -11378,7 +11378,7 @@
                   "time": "13:30 - 17:00"
                 }
               ],
-              "location": "CARP 420",
+              "location": "CARP 301",
               "instructor": "S SIKDER",
               "instructors": [
                 "S SIKDER"
@@ -11980,6 +11980,54 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Issues in Architecture",
+          "subject": "ARCH",
+          "subjectPrefix": "Arch",
+          "courseNumber": 542,
+          "courseCode": "ARCH 542",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6633",
+              "sln": 6633,
+              "sectionNumber": 1,
+              "courseCode": "ARCH 542",
+              "courseName": "Issues in Architecture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "10:10 - 12:40",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "10:10 - 12:40"
+                }
+              ],
+              "location": "CARP 312",
+              "instructor": "P GRUEN",
+              "instructors": [
+                "P GRUEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 17,
+                "available": 17,
+                "label": "0/17"
               },
               "dates": {
                 "start": "Jan 11",
@@ -54651,6 +54699,54 @@
           ]
         },
         {
+          "course": "Educational Statistics",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 508,
+          "courseCode": "ED_PSYCH 508",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3141",
+              "sln": 3141,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 508",
+              "courseName": "Educational Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "EDAD 212",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Motivation Theories",
           "subject": "ED_PSYCH",
           "subjectPrefix": "EdPsy",
@@ -61464,6 +61560,54 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Engineering Leadership",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 390,
+          "courseCode": "ENGR 390",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7963",
+              "sln": 7963,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 390",
+              "courseName": "Engineering Leadership",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "",
+              "instructor": "K HUGHES",
+              "instructors": [
+                "K HUGHES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -85671,6 +85815,41 @@
                 "total": 19,
                 "available": 19,
                 "label": "0/19"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Feb 19"
+              }
+            },
+            {
+              "sectionId": "11756",
+              "sln": 11756,
+              "sectionNumber": 12,
+              "courseCode": "MATH 100",
+              "courseName": "Basic Mathematics",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "CLEV 130",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -115100,7 +115279,7 @@
                   "time": "09:10 - 11:50"
                 }
               ],
-              "location": "WEBS 441",
+              "location": "WEBS 449",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -115108,9 +115287,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -125087,6 +125266,43 @@
           "credits": "3",
           "hasRequiredLab": false,
           "sections": [
+            {
+              "sectionId": "5380",
+              "sln": 5380,
+              "sectionNumber": 1,
+              "courseCode": "SOC 101",
+              "courseName": "Introduction to Sociology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "",
+              "instructor": "K CUTLER",
+              "instructors": [
+                "K CUTLER"
+              ],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 200,
+                "available": 200,
+                "label": "0/200"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
             {
               "sectionId": "5381",
               "sln": 5381,
@@ -142064,6 +142280,54 @@
           ]
         },
         {
+          "course": "Oncology Journal Seminar",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 565,
+          "courseCode": "VET_CLIN 565",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3973",
+              "sln": 3973,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 565",
+              "courseName": "Oncology Journal Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "07:00 - 09:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "07:00 - 09:00"
+                }
+              ],
+              "location": "",
+              "instructor": "J FIDEL",
+              "instructors": [
+                "J FIDEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Special Topics",
           "subject": "VET_CLIN",
           "subjectPrefix": "V MS",
@@ -142072,6 +142336,450 @@
           "credits": "1",
           "hasRequiredLab": false,
           "sections": [
+            {
+              "sectionId": "3974",
+              "sln": 3974,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K FARNSWORTH",
+              "instructors": [
+                "K FARNSWORTH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3975",
+              "sln": 3975,
+              "sectionNumber": 2,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F GIMENEZ",
+              "instructors": [
+                "F GIMENEZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3976",
+              "sln": 3976,
+              "sectionNumber": 3,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K FARNSWORTH",
+              "instructors": [
+                "K FARNSWORTH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3977",
+              "sln": 3977,
+              "sectionNumber": 4,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J OLIVAREZ",
+              "instructors": [
+                "J OLIVAREZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3978",
+              "sln": 3978,
+              "sectionNumber": 5,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B FRANSSON",
+              "instructors": [
+                "B FRANSSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3979",
+              "sln": 3979,
+              "sectionNumber": 6,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y AMBROSINI",
+              "instructors": [
+                "Y AMBROSINI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3980",
+              "sln": 3980,
+              "sectionNumber": 8,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K KLINE",
+              "instructors": [
+                "K KLINE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3981",
+              "sln": 3981,
+              "sectionNumber": 9,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M CICCARELLI",
+              "instructors": [
+                "M CICCARELLI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3982",
+              "sln": 3982,
+              "sectionNumber": 11,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V KASTENHOLZ",
+              "instructors": [
+                "V KASTENHOLZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3983",
+              "sln": 3983,
+              "sectionNumber": 12,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T PEREZ JIMENEZ",
+              "instructors": [
+                "T PEREZ JIMENEZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4000",
+              "sln": 4000,
+              "sectionNumber": 13,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F ALONSO",
+              "instructors": [
+                "F ALONSO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4003",
+              "sln": 4003,
+              "sectionNumber": 14,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V KASTENHOLZ",
+              "instructors": [
+                "V KASTENHOLZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
             {
               "sectionId": "11990",
               "sln": 11990,
@@ -142103,6 +142811,287 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4006",
+              "sln": 4006,
+              "sectionNumber": 17,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C FIGUEIREDO",
+              "instructors": [
+                "C FIGUEIREDO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4007",
+              "sln": 4007,
+              "sectionNumber": 18,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C FIGUEIREDO",
+              "instructors": [
+                "C FIGUEIREDO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4008",
+              "sln": 4008,
+              "sectionNumber": 19,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B CAMPBELL",
+              "instructors": [
+                "B CAMPBELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4010",
+              "sln": 4010,
+              "sectionNumber": 21,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A REBELO",
+              "instructors": [
+                "A REBELO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4012",
+              "sln": 4012,
+              "sectionNumber": 22,
+              "courseCode": "VET_CLIN 570",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R BAUMWART",
+              "instructors": [
+                "R BAUMWART"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Cardiology Special Topics",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 574,
+          "courseCode": "VET_CLIN 574",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3984",
+              "sln": 3984,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 574",
+              "courseName": "Cardiology Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R BAUMWART",
+              "instructors": [
+                "R BAUMWART"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Clinical Pathology",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 580,
+          "courseCode": "VET_CLIN 580",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3985",
+              "sln": 3985,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 580",
+              "courseName": "Advanced Clinical Pathology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F ALONSO",
+              "instructors": [
+                "F ALONSO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -142151,6 +143140,719 @@
                 "total": 40,
                 "available": 40,
                 "label": "0/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Comparative Theriogenology",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 584,
+          "courseCode": "VET_CLIN 584",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3987",
+              "sln": 3987,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 584",
+              "courseName": "Comparative Theriogenology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M CICCARELLI",
+              "instructors": [
+                "M CICCARELLI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Selected Topics in Advanced Clinical Neurology",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 585,
+          "courseCode": "VET_CLIN 585",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3988",
+              "sln": 3988,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 585",
+              "courseName": "Selected Topics in Advanced Clinical Neurology",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K KLINE",
+              "instructors": [
+                "K KLINE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hospital Rotation",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 587,
+          "courseCode": "VET_CLIN 587",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3989",
+              "sln": 3989,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 587",
+              "courseName": "Hospital Rotation",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F ALONSO",
+              "instructors": [
+                "F ALONSO"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Clinical Veterinary Medicine",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 589,
+          "courseCode": "VET_CLIN 589",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3990",
+              "sln": 3990,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 589",
+              "courseName": "Advanced Clinical Veterinary Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M CICCARELLI",
+              "instructors": [
+                "M CICCARELLI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3991",
+              "sln": 3991,
+              "sectionNumber": 2,
+              "courseCode": "VET_CLIN 589",
+              "courseName": "Advanced Clinical Veterinary Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T PEREZ JIMENEZ",
+              "instructors": [
+                "T PEREZ JIMENEZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4001",
+              "sln": 4001,
+              "sectionNumber": 4,
+              "courseCode": "VET_CLIN 589",
+              "courseName": "Advanced Clinical Veterinary Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B DARVESHI",
+              "instructors": [
+                "B DARVESHI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4002",
+              "sln": 4002,
+              "sectionNumber": 5,
+              "courseCode": "VET_CLIN 589",
+              "courseName": "Advanced Clinical Veterinary Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B DARVESHI",
+              "instructors": [
+                "B DARVESHI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4005",
+              "sln": 4005,
+              "sectionNumber": 8,
+              "courseCode": "VET_CLIN 589",
+              "courseName": "Advanced Clinical Veterinary Medicine",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K FARNSWORTH",
+              "instructors": [
+                "K FARNSWORTH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics in Equine Medicine",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 590,
+          "courseCode": "VET_CLIN 590",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3992",
+              "sln": 3992,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 590",
+              "courseName": "Special Topics in Equine Medicine",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A BOTTING",
+              "instructors": [
+                "A BOTTING"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Clinical Diagnosis",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 591,
+          "courseCode": "VET_CLIN 591",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3993",
+              "sln": 3993,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 591",
+              "courseName": "Advanced Clinical Diagnosis",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B CAMPBELL",
+              "instructors": [
+                "B CAMPBELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3994",
+              "sln": 3994,
+              "sectionNumber": 3,
+              "courseCode": "VET_CLIN 591",
+              "courseName": "Advanced Clinical Diagnosis",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F ALONSO",
+              "instructors": [
+                "F ALONSO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Anesthesia Seminar",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 593,
+          "courseCode": "VET_CLIN 593",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3995",
+              "sln": 3995,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 593",
+              "courseName": "Anesthesia Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T PEREZ JIMENEZ",
+              "instructors": [
+                "T PEREZ JIMENEZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Diagnosis and Treatment of Surgically Correctable Soft Tissue Diseases in Small Animals",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 597,
+          "courseCode": "VET_CLIN 597",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3999",
+              "sln": 3999,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 597",
+              "courseName": "Diagnosis and Treatment of Surgically Correctable Soft Tissue Diseases in Small Animals",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B FRANSSON",
+              "instructors": [
+                "B FRANSSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Surgery Residents Seminar",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 598,
+          "courseCode": "VET_CLIN 598",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3996",
+              "sln": 3996,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 598",
+              "courseName": "Surgery Residents Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B CAMPBELL",
+              "instructors": [
+                "B CAMPBELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 700,
+          "courseCode": "VET_CLIN 700",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3997",
+              "sln": 3997,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F ALONSO",
+              "instructors": [
+                "F ALONSO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "VET_CLIN",
+          "subjectPrefix": "V MS",
+          "courseNumber": 800,
+          "courseCode": "VET_CLIN 800",
+          "credits": "0",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3998",
+              "sln": 3998,
+              "sectionNumber": 1,
+              "courseCode": "VET_CLIN 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "0",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C FIGUEIREDO",
+              "instructors": [
+                "C FIGUEIREDO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",

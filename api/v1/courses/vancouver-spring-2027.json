@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:49:44.482012+00:00",
+  "generatedAt": "2026-10-21T18:40:11.176395+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -4242,8 +4242,10 @@
                 }
               ],
               "location": "GUC  VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A OTOIKHIAN",
+              "instructors": [
+                "A OTOIKHIAN"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -9454,9 +9456,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "K COWIN",
+              "instructor": "D VANDERHOLM",
               "instructors": [
-                "K COWIN"
+                "D VANDERHOLM"
               ],
               "ucore": "",
               "coop": false,
@@ -9656,52 +9658,6 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Leadership Development Seminar",
-          "subject": "ED_AD",
-          "subjectPrefix": "Ed Ad",
-          "courseNumber": 589,
-          "courseCode": "ED_AD 589",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3028",
-              "sln": 3028,
-              "sectionNumber": 1,
-              "courseCode": "ED_AD 589",
-              "courseName": "Leadership Development Seminar",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "17:45 - 20:30",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "17:45 - 20:30"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",

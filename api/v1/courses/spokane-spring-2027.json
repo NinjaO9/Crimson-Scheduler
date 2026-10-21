@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:49:44.403480+00:00",
+  "generatedAt": "2026-10-21T18:40:11.062954+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -189,8 +189,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D VANDERHOLM",
+              "instructors": [
+                "D VANDERHOLM"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -8098,6 +8100,43 @@
               "sectionId": "3411",
               "sln": 3411,
               "sectionNumber": 4,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T KLEIN",
+              "instructors": [
+                "T KLEIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3412",
+              "sln": 3412,
+              "sectionNumber": 5,
               "courseCode": "NURS_SCI 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
               "credits": "1",
