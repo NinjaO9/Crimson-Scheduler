@@ -223,7 +223,7 @@ class DataHandler:
             subject=cls._to_str(course.get('subject') or course.get('prefix')),
             number=cls._to_int(course.get('courseNumber')),
             name=name,
-            credits=cls._to_int(course.get('credits')),
+            credits=cls._to_str(course.get('credits')),
             section=cls._to_int(course.get('sectionNumber')),
             time=cls._to_str(course.get('dayTime')),
             location=cls._to_str(course.get('location')),
