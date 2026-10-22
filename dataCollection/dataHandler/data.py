@@ -23,10 +23,10 @@ class DataHandler:
     @classmethod
     def getCollegeData(cls, url: str) -> list[Campus]:
         """
-            Gets the data for the college as a whole. Spreads work into helper functions that deal with more specific information.
+        Gets the data for the college as a whole. Spreads work into helper functions that deal with more specific information.
 
-            Args:
-                url: Original WSU url endpoint string that contains information about the campus.
+        Args:
+            url: Original WSU url endpoint string that contains information about the campus.
         """
 
         response = requests.get(url)
@@ -101,7 +101,9 @@ class DataHandler:
         return Semester(f'{semestermd["term"]} {str(semestermd["year"])}', semesterdata)
 
     @classmethod
-    def getSubjectData(cls, subject: str, prefix: str, campus: str, term: str, year: str) -> Subject:
+    def getSubjectData(
+        cls, subject: str, prefix: str, campus: str, term: str, year: str
+    ) -> Subject:
         """
         Takes in generic subject information (quiery) to call WSU endpoint for information to construct an instance of Subject.
 
@@ -140,7 +142,7 @@ class DataHandler:
     def _course_title_key(section: Section) -> str:
         """
         Normalizes the section course name.
-        
+
         Args:
             section: Section to normalize the name of.
         Returns:
