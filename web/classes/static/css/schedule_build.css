@@ -602,6 +602,12 @@
     flex: 0 0 auto;
     margin-bottom: 12px;
 }
+.pane-topbar-actions {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    flex: 0 0 auto;
+}
 
 .schedule-title {
     align-items: baseline;
@@ -1242,27 +1248,35 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .pane-topbar {
-        align-items: center;
+        align-items: stretch;
         display: flex;
+        flex-direction: column;
         gap: 10px;
-        justify-content: space-between;
         margin-bottom: 10px;
     }
 
+    .pane-topbar-actions {
+        justify-content: flex-end;
+    }
+
     .schedule-title {
-        flex: 1 1 auto;
+        align-self: center;
+        flex: 0 1 auto;
         gap: 8px;
+        justify-content: center;
+        max-width: 100%;
         min-width: 0;
     }
 
     .schedule-name-input {
-        flex: 1 1 0;
+        field-sizing: content;
+        flex: 0 1 auto;
         font-size: 16px;
         max-width: 100%;
         min-width: 11ch;
         padding-left: 2px;
         padding-right: 2px;
-        width: 0 !important;
+        width: auto !important;
     }
 
     .credits-label {
@@ -1273,7 +1287,8 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         display: flex;
         gap: 6px;
         flex: 0 0 auto;
-        justify-content: flex-end;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .danger-btn,

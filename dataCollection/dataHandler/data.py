@@ -22,6 +22,13 @@ class DataHandler:
 
     @classmethod
     def getCollegeData(cls, url: str) -> list[Campus]:
+        """
+        Gets the data for the college as a whole. Spreads work into helper functions that deal with more specific information.
+
+        Args:
+            url: Original WSU url endpoint string that contains information about the campus.
+        """
+
         response = requests.get(url)
         print(f'Status: {response.status_code}')
         collegeInfo = []
@@ -39,6 +46,15 @@ class DataHandler:
 
     @classmethod
     def getCampusData(cls, campusmd: dict) -> Campus:
+        """
+        Analyzes campus metadata to construct and route endpoints for semester information.
+
+        Args:
+            campusmd: Campus metadata, contains generic information about the campus, used to obtain the semesters on a given campus.
+        Returns:
+            Constructed campus object, see Campus for more information about what this class holds.
+        """
+
         name = campusmd['campus'] if campusmd['campus'] != 'DDP' else 'Global'
         terms = campusmd['terms']
         campusdata = []
@@ -52,6 +68,15 @@ class DataHandler:
 
     @classmethod
     def getSemesterData(cls, semestermd: dict) -> Semester:
+        """
+        Analyzes subject metadata to construct and route endpoints for information about what is being offered in the semester.
+
+        Args:
+            semestermd: Semester metadata, contains generic information about the semester, which is enough to get further information.
+        Returns:
+            Constructed Semester object, see Semester for more information about what this class holds.
+        """
+
         base = 'https://schedules.wsu.edu/api/Data/GetPrefixList/'
         response = requests.get(
             base + f'{semestermd["campus"]}/{semestermd["term"]}/{str(semestermd["year"])}'
@@ -79,6 +104,19 @@ class DataHandler:
     def getSubjectData(
         cls, subject: str, prefix: str, campus: str, term: str, year: str
     ) -> Subject:
+        """
+        Takes in generic subject information (quiery) to call WSU endpoint for information to construct an instance of Subject.
+
+        Args:
+            subject: Name of the subject that is being obtained.
+            prefix: Prefix for the subject (i.e. Computer Science -> CPT_S)
+            campus: Campus that we want the classes for (i.e. Pullman)
+            term: The term we want classes for (i.e. Fall)
+            year: The year we want classes for (i.e. 2026)
+        Returns:
+            Constructed subject object containing all information of a subject for a given campus/term/year.
+        """
+
         base = 'https://schedules.wsu.edu/api/Data/GetSectionListDTO/'
         url = f'{base}{campus}/{term}/{year}/{prefix}'
 
@@ -102,10 +140,27 @@ class DataHandler:
 
     @staticmethod
     def _course_title_key(section: Section) -> str:
+        """
+        Normalizes the section course name.
+
+        Args:
+            section: Section to normalize the name of.
+        Returns:
+            Normalized name of the section.
+        """
+
         return section.name.strip().lower()
 
     @classmethod
     def _mark_required_lab(cls, course_sections: list[Section]) -> None:
+        """
+        Takes a course's sections, and populates data to determine if a lab is required for the course.
+        Args:
+            course_sections: A list of sections offered by a course.
+        Returns:
+            Nothing; modifies data to update a flag.
+        """
+
         lecture_names = {
             cls._course_title_key(section) for section in course_sections if not section.is_lab
         }
@@ -119,6 +174,14 @@ class DataHandler:
 
     @staticmethod
     def _to_int(value, default: int = 0) -> int:
+        """
+        Private utility for parsing metadata into a number
+        Args:
+            value: Value to parse into an integer.
+        Returns:
+            The value converted to a integer number, or 0 by default.
+        """
+
         if value is None:
             return default
         try:
@@ -128,12 +191,30 @@ class DataHandler:
 
     @staticmethod
     def _to_str(value, default: str = '') -> str:
+        """
+        Private utility for parsing metadata to a 'safe' string (more like stripped string, thats probably better).
+
+        Args:
+            value: Value to parse into a string.
+        Returns:
+            The value converted to a string, and stripped.
+        """
+
         if value is None:
             return default
         return str(value).strip()
 
     @classmethod
     def getSectionData(cls, metadata: dict) -> Section:
+        """
+        Parses metadata for a section into a Section class
+
+        Args:
+            metadata: The metadata of a section to be parsed.
+        Returns:
+            The constructed section object.
+        """
+
         course = metadata or {}
 
         name = cls._to_str(course.get('title'))
@@ -144,7 +225,7 @@ class DataHandler:
             subject=cls._to_str(course.get('subject') or course.get('prefix')),
             number=cls._to_int(course.get('courseNumber')),
             name=name,
-            credits=cls._to_int(course.get('credits')),
+            credits=cls._to_str(course.get('credits')),
             section=cls._to_int(course.get('sectionNumber')),
             time=cls._to_str(course.get('dayTime')),
             location=cls._to_str(course.get('location')),
