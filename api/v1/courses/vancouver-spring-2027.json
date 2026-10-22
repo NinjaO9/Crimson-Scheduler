@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:23:48.262607+00:00",
+  "generatedAt": "2026-10-22T01:33:21.441296+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -5008,9 +5008,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "total": 8,
+                "available": 8,
+                "label": "0/8"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8991,6 +8991,43 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6667",
+              "sln": 6667,
+              "sectionNumber": 2,
+              "courseCode": "ECE 582",
+              "courseName": "Advanced Topics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "B AMMANAGHATTA SHIVA",
+              "instructors": [
+                "B AMMANAGHATTA SHIVA"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
               },
               "dates": {
                 "start": "Jan 11",
@@ -26731,10 +26768,8 @@
                 }
               ],
               "location": "GUC  VAN",
-              "instructor": "S FLYNN",
-              "instructors": [
-                "S FLYNN"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",

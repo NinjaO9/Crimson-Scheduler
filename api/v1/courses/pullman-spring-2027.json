@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:23:47.990847+00:00",
+  "generatedAt": "2026-10-22T01:33:21.165000+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -2344,9 +2344,9 @@
                 }
               ],
               "location": "SLOA 7",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2381,9 +2381,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2418,9 +2418,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2455,9 +2455,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2492,9 +2492,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2529,9 +2529,9 @@
                 }
               ],
               "location": "SLOA 7",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2566,9 +2566,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2603,9 +2603,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2640,9 +2640,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -2677,9 +2677,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -28327,12 +28327,16 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU",
-              "time": "09:10 - 11:00",
+              "days": "TU,TU",
+              "time": "09:10 - 10:00;10:30 - 11:50",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "09:10 - 11:00"
+                  "time": "09:10 - 10:00"
+                },
+                {
+                  "days": "TU",
+                  "time": "10:30 - 11:50"
                 }
               ],
               "location": "CUE  512",
@@ -54484,87 +54488,6 @@
       "subject": "ED_PSYCH",
       "courses": [
         {
-          "course": "Classroom Assessment, Elementary",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 401,
-          "courseCode": "ED_PSYCH 401",
-          "credits": "0",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "5067",
-              "sln": 5067,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 401",
-              "courseName": "Classroom Assessment, Elementary",
-              "credits": "0",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "10:30 - 12:20",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:30 - 12:20"
-                }
-              ],
-              "location": "EDAD 110",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
-              },
-              "dates": {
-                "start": "Feb 15",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "5068",
-              "sln": 5068,
-              "sectionNumber": 2,
-              "courseCode": "ED_PSYCH 401",
-              "courseName": "Classroom Assessment, Elementary",
-              "credits": "0",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "08:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "08:10 - 10:00"
-                }
-              ],
-              "location": "EDAD 110",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
-              },
-              "dates": {
-                "start": "Feb 15",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Classroom Assessment, Secondary",
           "subject": "ED_PSYCH",
           "subjectPrefix": "EdPsy",
@@ -55145,54 +55068,6 @@
     {
       "subject": "ED_RES",
       "courses": [
-        {
-          "course": "Principles of Research",
-          "subject": "ED_RES",
-          "subjectPrefix": "EdRes",
-          "courseNumber": 563,
-          "courseCode": "ED_RES 563",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3152",
-              "sln": 3152,
-              "sectionNumber": 1,
-              "courseCode": "ED_RES 563",
-              "courseName": "Principles of Research",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "SPRK 233",
-              "instructor": "R DANIELSON",
-              "instructors": [
-                "R DANIELSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
         {
           "course": "Qualitative Research",
           "subject": "ED_RES",
@@ -68321,8 +68196,10 @@
                 }
               ],
               "location": "TODD 133",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "O EGBON",
+              "instructors": [
+                "O EGBON"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "",
@@ -68561,8 +68438,10 @@
                 }
               ],
               "location": "SPRK 339",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A MURRAY",
+              "instructors": [
+                "A MURRAY"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -69144,9 +69023,9 @@
               "footnotes": "V",
               "seats": {
                 "taken": 0,
-                "total": 12,
-                "available": 12,
-                "label": "0/12"
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -91666,8 +91545,10 @@
                 }
               ],
               "location": "SPRK G0010",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J DOUGLAS",
+              "instructors": [
+                "J DOUGLAS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -91701,8 +91582,10 @@
                 }
               ],
               "location": "BUST 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J DOUGLAS",
+              "instructors": [
+                "J DOUGLAS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -91736,8 +91619,10 @@
                 }
               ],
               "location": "BUST 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J DOUGLAS",
+              "instructors": [
+                "J DOUGLAS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -91771,8 +91656,10 @@
                 }
               ],
               "location": "BUST 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J DOUGLAS",
+              "instructors": [
+                "J DOUGLAS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -124258,9 +124145,9 @@
           "hasRequiredLab": false,
           "sections": [
             {
-              "sectionId": "11275",
-              "sln": 11275,
-              "sectionNumber": 2,
+              "sectionId": "3471",
+              "sln": 3471,
+              "sectionNumber": 1,
               "courseCode": "PUBHLTH 330",
               "courseName": "Health Policy, Law, and Ethics",
               "credits": "3",
@@ -124276,9 +124163,9 @@
                 }
               ],
               "location": "CUE  114",
-              "instructor": "C ALLICK",
+              "instructor": "J ASTORINO NICOLA",
               "instructors": [
-                "C ALLICK"
+                "J ASTORINO NICOLA"
               ],
               "ucore": "",
               "coop": false,
@@ -126367,9 +126254,9 @@
               "footnotes": "V",
               "seats": {
                 "taken": 0,
-                "total": 70,
-                "available": 70,
-                "label": "0/70"
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -137668,18 +137555,18 @@
                 }
               ],
               "location": "SLOA 7",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": true,
               "footnotes": "X",
               "seats": {
                 "taken": 0,
-                "total": 23,
-                "available": 23,
-                "label": "0/23"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -137705,9 +137592,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -137742,9 +137629,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -137779,9 +137666,9 @@
                 }
               ],
               "location": "SLOA 7",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": true,
@@ -137816,9 +137703,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -137853,9 +137740,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T22:23:48.197300+00:00",
+  "generatedAt": "2026-10-22T01:33:21.369690+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -5925,9 +5925,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5962,9 +5962,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 12,
-                "available": 12,
-                "label": "0/12"
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5999,9 +5999,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 12,
-                "available": 12,
-                "label": "0/12"
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6217,9 +6217,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "total": 32,
+                "available": 32,
+                "label": "0/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6265,9 +6265,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "total": 32,
+                "available": 32,
+                "label": "0/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6313,9 +6313,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 18,
-                "available": 18,
-                "label": "0/18"
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6350,9 +6350,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 9,
-                "available": 9,
-                "label": "0/9"
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6387,9 +6387,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 9,
-                "available": 9,
-                "label": "0/9"
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7399,52 +7399,6 @@
           ]
         },
         {
-          "course": "Leadership Development Seminar",
-          "subject": "ED_AD",
-          "subjectPrefix": "Ed Ad",
-          "courseNumber": 589,
-          "courseCode": "ED_AD 589",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11739",
-              "sln": 11739,
-              "sectionNumber": 1,
-              "courseCode": "ED_AD 589",
-              "courseName": "Leadership Development Seminar",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "17:45 - 20:30",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "17:45 - 20:30"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Internship",
           "subject": "ED_AD",
           "subjectPrefix": "Ed Ad",
@@ -7475,47 +7429,6 @@
               "instructor": "K COWIN",
               "instructors": [
                 "K COWIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11740",
-              "sln": 11740,
-              "sectionNumber": 2,
-              "courseCode": "ED_AD 590",
-              "courseName": "Internship",
-              "credits": "0",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,SA",
-              "time": "17:45 - 20:30;09:00 - 11:30",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "17:45 - 20:30"
-                },
-                {
-                  "days": "SA",
-                  "time": "09:00 - 11:30"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "J LAPIDUS",
-              "instructors": [
-                "J LAPIDUS"
               ],
               "ucore": "",
               "coop": false,
@@ -17977,7 +17890,7 @@
           "subjectPrefix": "Psych",
           "courseNumber": 445,
           "courseCode": "PSYCH 445",
-          "credits": "1",
+          "credits": "0",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -17986,7 +17899,7 @@
               "sectionNumber": 1,
               "courseCode": "PSYCH 445",
               "courseName": "Undergraduate Practicum",
-              "credits": "1",
+              "credits": "0",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
