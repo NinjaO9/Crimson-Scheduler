@@ -734,15 +734,36 @@ export function applyOverlapHighlighting() {
  * @returns {void}
  */
 export function updateCreditCount(scheduleData) {
-  const total = scheduleData.reduce((sum, item) => {
-    const credits = parseFloat(
-      String(item.credits || "0").replace(/[^\d.]/g, ""),
-    );
+  // Some courses contain a "V" rather than an actual number. This means the credit varies.
+  // We can calculate the 'static' credit count (How much we are confident we can get)
+  // Then, we can calculate the varied amount (Basically, how many courses do we have that contain "V")
+  // We can append something that then shows ({static} + (1-4) credits
+  // The 1-4 can be multiplied by the varied count.
+  const minimumVariedCredit = 1;
+  const maximumVariedCredit = 4;
+
+  // Here, if the credit is a real number, then we add it to static
+  const totalStatic = scheduleData.reduce((sum, item) => {
+    const regulatedCredits = String(item.credits || "0").replace(/[^\dV]/g, "");
+    const credits = parseFloat(regulatedCredits);
     return sum + (Number.isFinite(credits) ? credits : 0);
   }, 0);
-  document.getElementById("creditCount").textContent = Number.isInteger(total)
-    ? total
-    : total.toFixed(1);
+
+  // Otherwise, it is V (I don't believe there is an alternative) and we add it to the varied.
+  const totalVaried = scheduleData.reduce((sum, item) => {
+    const regulatedCredits = String(item.credits || "0").replace(/[^\dV]/g, "");
+    const credits = parseFloat(regulatedCredits);
+    return sum + (Number.isNaN(credits) ? 1 : 0);
+  }, 0);
+
+  let creditText = Number.isInteger(totalStatic) ? String(totalStatic) : String(totalStatic.toFixed(1));
+
+  if (totalVaried > 0)
+  {
+    creditText = String(`${totalStatic + (minimumVariedCredit * totalVaried)} - ${totalStatic + (maximumVariedCredit * totalVaried)}`);
+  }
+
+  document.getElementById("creditCount").textContent = creditText;
 }
 
 /**
