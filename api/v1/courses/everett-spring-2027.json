@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T13:51:03.505556+00:00",
+  "generatedAt": "2026-10-22T16:47:32.544110+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -730,6 +730,43 @@
               }
             },
             {
+              "sectionId": "12046",
+              "sln": 12046,
+              "sectionNumber": 3,
+              "courseCode": "COM 300",
+              "courseName": "Writing in Communication",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "10:35 - 11:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:25"
+                }
+              ],
+              "location": "VC   EVE",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
               "sectionId": "10245",
               "sln": 10245,
               "sectionNumber": 1,
@@ -755,6 +792,43 @@
               "ucore": "",
               "coop": false,
               "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12047",
+              "sln": 12047,
+              "sectionNumber": 3,
+              "courseCode": "COM 300",
+              "courseName": "Writing in Communication",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "11:35 - 12:35",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "11:35 - 12:35"
+                }
+              ],
+              "location": "VC   EVE",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 5,
@@ -1159,12 +1233,60 @@
           ]
         },
         {
+          "course": "Public Relations Management and Campaigns",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 485,
+          "courseCode": "COMSTRAT 485",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12048",
+              "sln": 12048,
+              "sectionNumber": 2,
+              "courseCode": "COMSTRAT 485",
+              "courseName": "Public Relations Management and Campaigns",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VC   EVE",
+              "instructor": "E CANDELLO",
+              "instructors": [
+                "E CANDELLO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 9,
+                "available": 9,
+                "label": "0/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Strategic Communication Professional Internship",
           "subject": "COMSTRAT",
           "subjectPrefix": "ComSr",
           "courseNumber": 495,
           "courseCode": "COMSTRAT 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1173,7 +1295,7 @@
               "sectionNumber": 1,
               "courseCode": "COMSTRAT 495",
               "courseName": "Strategic Communication Professional Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2282,7 +2404,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 483,
           "courseCode": "CPT_S 483",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2291,7 +2413,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 483",
               "courseName": "Topics in Computer Science",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2426,7 +2548,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 499,
           "courseCode": "CPT_S 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2435,7 +2557,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -3320,7 +3442,7 @@
           "subjectPrefix": "DATA",
           "courseNumber": 498,
           "courseCode": "DATA 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -3329,7 +3451,7 @@
               "sectionNumber": 1,
               "courseCode": "DATA 498",
               "courseName": "Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -3824,7 +3946,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 483,
           "courseCode": "E_E 483",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -3833,7 +3955,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 483",
               "courseName": "Topics in Electrical and Computer Engineering",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -4761,7 +4883,7 @@
           "subjectPrefix": "HBM",
           "courseNumber": 497,
           "courseCode": "HBM 497",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -4770,7 +4892,7 @@
               "sectionNumber": 1,
               "courseCode": "HBM 497",
               "courseName": "Special Topics",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6587,7 +6709,7 @@
           "subjectPrefix": "SoilS",
           "courseNumber": 498,
           "courseCode": "SOIL_SCI 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6596,7 +6718,7 @@
               "sectionNumber": 1,
               "courseCode": "SOIL_SCI 498",
               "courseName": "Professional Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
