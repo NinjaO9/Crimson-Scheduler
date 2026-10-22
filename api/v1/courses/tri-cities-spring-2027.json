@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T18:35:38.347523+00:00",
+  "generatedAt": "2026-10-22T20:37:54.917776+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -127,18 +127,18 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
                 }
               ],
               "location": "VC   TRI",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -173,9 +173,9 @@
                 }
               ],
               "location": "VC   TRI",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -264,11 +264,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M",
-              "time": "15:10 - 18:00",
+              "time": "15:10 - 18:30",
               "meetings": [
                 {
                   "days": "M",
-                  "time": "15:10 - 18:00"
+                  "time": "15:10 - 18:30"
                 }
               ],
               "location": "TCIC 102B",
@@ -344,7 +344,7 @@
           "subjectPrefix": "ART",
           "courseNumber": 499,
           "courseCode": "ART 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -353,7 +353,7 @@
               "sectionNumber": 1,
               "courseCode": "ART 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -445,7 +445,7 @@
           "subjectPrefix": "B A",
           "courseNumber": 498,
           "courseCode": "B_A 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -454,7 +454,7 @@
               "sectionNumber": 1,
               "courseCode": "B_A 498",
               "courseName": "Business Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -984,30 +984,30 @@
           ]
         },
         {
-          "course": "Professional Communications in Biology",
+          "course": "Animal Behavior",
           "subject": "BIOLOGY",
           "subjectPrefix": "Biol",
-          "courseNumber": 393,
-          "courseCode": "BIOLOGY 393",
-          "credits": "2",
+          "courseNumber": 438,
+          "courseCode": "BIOLOGY 438",
+          "credits": "3",
           "hasRequiredLab": false,
           "sections": [
             {
-              "sectionId": "11184",
-              "sln": 11184,
+              "sectionId": "12049",
+              "sln": 12049,
               "sectionNumber": 1,
-              "courseCode": "BIOLOGY 393",
-              "courseName": "Professional Communications in Biology",
-              "credits": "2",
+              "courseCode": "BIOLOGY 438",
+              "courseName": "Animal Behavior",
+              "credits": "3",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "W",
-              "time": "10:10 - 12:00",
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
               "meetings": [
                 {
-                  "days": "W",
-                  "time": "10:10 - 12:00"
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
                 }
               ],
               "location": "",
@@ -1020,9 +1020,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1085,7 +1085,7 @@
           "subjectPrefix": "Biol",
           "courseNumber": 495,
           "courseCode": "BIOLOGY 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1094,7 +1094,7 @@
               "sectionNumber": 1,
               "courseCode": "BIOLOGY 495",
               "courseName": "Internship in Biology, Botany, and Zoology",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -1133,7 +1133,7 @@
           "subjectPrefix": "Biol",
           "courseNumber": 499,
           "courseCode": "BIOLOGY 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1142,7 +1142,7 @@
               "sectionNumber": 1,
               "courseCode": "BIOLOGY 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -1229,7 +1229,7 @@
           "subjectPrefix": "Biol",
           "courseNumber": 600,
           "courseCode": "BIOLOGY 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1238,7 +1238,7 @@
               "sectionNumber": 1,
               "courseCode": "BIOLOGY 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -1277,7 +1277,7 @@
           "subjectPrefix": "Biol",
           "courseNumber": 700,
           "courseCode": "BIOLOGY 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1286,7 +1286,7 @@
               "sectionNumber": 1,
               "courseCode": "BIOLOGY 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -1325,7 +1325,7 @@
           "subjectPrefix": "Biol",
           "courseNumber": 702,
           "courseCode": "BIOLOGY 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1334,7 +1334,7 @@
               "sectionNumber": 1,
               "courseCode": "BIOLOGY 702",
               "courseName": "Master's Special Problems, Directed Study and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -1373,7 +1373,7 @@
           "subjectPrefix": "Biol",
           "courseNumber": 800,
           "courseCode": "BIOLOGY 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1382,7 +1382,7 @@
               "sectionNumber": 1,
               "courseCode": "BIOLOGY 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -1989,7 +1989,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 488,
           "courseCode": "CE 488",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -1998,7 +1998,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 488",
               "courseName": "Professional Practice Coop/Internship I",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2037,7 +2037,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 495,
           "courseCode": "CE 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2046,7 +2046,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 495",
               "courseName": "Engineering Experience",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2085,7 +2085,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 499,
           "courseCode": "CE 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2094,7 +2094,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2281,7 +2281,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 600,
           "courseCode": "CE 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2290,7 +2290,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2329,7 +2329,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 700,
           "courseCode": "CE 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2338,7 +2338,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 700",
               "courseName": "Master's Research, Thesis and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2377,7 +2377,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 702,
           "courseCode": "CE 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2386,7 +2386,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 702",
               "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -2425,7 +2425,7 @@
           "subjectPrefix": "C E",
           "courseNumber": 800,
           "courseCode": "CE 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -2434,7 +2434,7 @@
               "sectionNumber": 1,
               "courseCode": "CE 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -3502,7 +3502,7 @@
           "subjectPrefix": "Chem",
           "courseNumber": 499,
           "courseCode": "CHEM 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -3511,7 +3511,7 @@
               "sectionNumber": 1,
               "courseCode": "CHEM 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -4627,7 +4627,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 488,
           "courseCode": "CPT_S 488",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -4636,7 +4636,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 488",
               "courseName": "Professional Practice Coop/Internship I",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -4723,7 +4723,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 490,
           "courseCode": "CPT_S 490",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -4732,7 +4732,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 490",
               "courseName": "Work Study Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -4915,7 +4915,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 595,
           "courseCode": "CPT_S 595",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -4924,7 +4924,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 595",
               "courseName": "Directed Study in Computer Science",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -4963,7 +4963,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 600,
           "courseCode": "CPT_S 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -4972,7 +4972,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5011,7 +5011,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 700,
           "courseCode": "CPT_S 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5020,7 +5020,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5059,7 +5059,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 702,
           "courseCode": "CPT_S 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5068,7 +5068,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 702",
               "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5107,7 +5107,7 @@
           "subjectPrefix": "Cpt S",
           "courseNumber": 800,
           "courseCode": "CPT_S 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5116,7 +5116,7 @@
               "sectionNumber": 1,
               "courseCode": "CPT_S 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5160,7 +5160,7 @@
           "subjectPrefix": "CropS",
           "courseNumber": 495,
           "courseCode": "CROP_SCI 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5169,7 +5169,7 @@
               "sectionNumber": 1,
               "courseCode": "CROP_SCI 495",
               "courseName": "Research Experience",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5740,7 +5740,7 @@
           "subjectPrefix": "DTC",
           "courseNumber": 498,
           "courseCode": "DTC 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5749,7 +5749,7 @@
               "sectionNumber": 1,
               "courseCode": "DTC 498",
               "courseName": "Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5788,7 +5788,7 @@
           "subjectPrefix": "DTC",
           "courseNumber": 499,
           "courseCode": "DTC 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5797,7 +5797,7 @@
               "sectionNumber": 1,
               "courseCode": "DTC 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -5841,7 +5841,7 @@
           "subjectPrefix": "E A",
           "courseNumber": 300,
           "courseCode": "E_A 300",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -5850,7 +5850,7 @@
               "sectionNumber": 1,
               "courseCode": "E_A 300",
               "courseName": "Educ Abroad",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6541,7 +6541,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 488,
           "courseCode": "E_E 488",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6550,7 +6550,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 488",
               "courseName": "Professional Practice Coop/Internship I",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6722,7 +6722,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 499,
           "courseCode": "E_E 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6731,7 +6731,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6770,7 +6770,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 595,
           "courseCode": "E_E 595",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6779,7 +6779,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 595",
               "courseName": "Directed Study in Electrical Engineering",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6818,7 +6818,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 600,
           "courseCode": "E_E 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6827,7 +6827,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6866,7 +6866,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 700,
           "courseCode": "E_E 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6875,7 +6875,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6914,7 +6914,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 702,
           "courseCode": "E_E 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6923,7 +6923,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 702",
               "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -6962,7 +6962,7 @@
           "subjectPrefix": "E E",
           "courseNumber": 800,
           "courseCode": "E_E 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -6971,7 +6971,7 @@
               "sectionNumber": 1,
               "courseCode": "E_E 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -7404,7 +7404,7 @@
           "subjectPrefix": "Ed Ad",
           "courseNumber": 590,
           "courseCode": "ED_AD 590",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -7413,7 +7413,7 @@
               "sectionNumber": 1,
               "courseCode": "ED_AD 590",
               "courseName": "Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -7452,7 +7452,7 @@
           "subjectPrefix": "Ed Ad",
           "courseNumber": 800,
           "courseCode": "ED_AD 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -7461,7 +7461,7 @@
               "sectionNumber": 1,
               "courseCode": "ED_AD 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -8116,7 +8116,7 @@
           "subjectPrefix": "Engl",
           "courseNumber": 498,
           "courseCode": "ENGLISH 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -8125,7 +8125,7 @@
               "sectionNumber": 1,
               "courseCode": "ENGLISH 498",
               "courseName": "Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -8164,7 +8164,7 @@
           "subjectPrefix": "Engl",
           "courseNumber": 499,
           "courseCode": "ENGLISH 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -8173,7 +8173,7 @@
               "sectionNumber": 1,
               "courseCode": "ENGLISH 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -8530,7 +8530,7 @@
           "subjectPrefix": "FS",
           "courseNumber": 700,
           "courseCode": "FS 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -8539,7 +8539,7 @@
               "sectionNumber": 1,
               "courseCode": "FS 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -8576,7 +8576,7 @@
               "sectionNumber": 2,
               "courseCode": "FS 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -8615,7 +8615,7 @@
           "subjectPrefix": "FS",
           "courseNumber": 800,
           "courseCode": "FS 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -8624,7 +8624,7 @@
               "sectionNumber": 1,
               "courseCode": "FS 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -8661,7 +8661,7 @@
               "sectionNumber": 2,
               "courseCode": "FS 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9345,7 +9345,7 @@
           "subjectPrefix": "Hist",
           "courseNumber": 498,
           "courseCode": "HISTORY 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -9354,7 +9354,7 @@
               "sectionNumber": 1,
               "courseCode": "HISTORY 498",
               "courseName": "History Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9393,7 +9393,7 @@
           "subjectPrefix": "Hist",
           "courseNumber": 499,
           "courseCode": "HISTORY 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -9402,7 +9402,7 @@
               "sectionNumber": 1,
               "courseCode": "HISTORY 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9441,7 +9441,7 @@
           "subjectPrefix": "Hist",
           "courseNumber": 598,
           "courseCode": "HISTORY 598",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -9450,7 +9450,7 @@
               "sectionNumber": 1,
               "courseCode": "HISTORY 598",
               "courseName": "History Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9542,7 +9542,7 @@
           "subjectPrefix": "Hort",
           "courseNumber": 495,
           "courseCode": "HORT 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -9551,7 +9551,7 @@
               "sectionNumber": 1,
               "courseCode": "HORT 495",
               "courseName": "Research Experience",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9782,7 +9782,7 @@
           "subjectPrefix": "Hort",
           "courseNumber": 700,
           "courseCode": "HORT 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -9791,7 +9791,7 @@
               "sectionNumber": 1,
               "courseCode": "HORT 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9828,7 +9828,7 @@
               "sectionNumber": 2,
               "courseCode": "HORT 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9865,7 +9865,7 @@
               "sectionNumber": 3,
               "courseCode": "HORT 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9902,7 +9902,7 @@
               "sectionNumber": 4,
               "courseCode": "HORT 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9941,7 +9941,7 @@
           "subjectPrefix": "Hort",
           "courseNumber": 800,
           "courseCode": "HORT 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -9950,7 +9950,7 @@
               "sectionNumber": 1,
               "courseCode": "HORT 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -9987,7 +9987,7 @@
               "sectionNumber": 2,
               "courseCode": "HORT 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -10024,7 +10024,7 @@
               "sectionNumber": 3,
               "courseCode": "HORT 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -11395,7 +11395,7 @@
           "subjectPrefix": "Math",
           "courseNumber": 499,
           "courseCode": "MATH 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -11404,7 +11404,7 @@
               "sectionNumber": 1,
               "courseCode": "MATH 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -12578,7 +12578,7 @@
           "subjectPrefix": "M E",
           "courseNumber": 488,
           "courseCode": "ME 488",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -12587,7 +12587,7 @@
               "sectionNumber": 1,
               "courseCode": "ME 488",
               "courseName": "Professional Practice Coop/Internship I",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -12626,7 +12626,7 @@
           "subjectPrefix": "M E",
           "courseNumber": 499,
           "courseCode": "ME 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -12635,7 +12635,7 @@
               "sectionNumber": 1,
               "courseCode": "ME 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -12818,7 +12818,7 @@
           "subjectPrefix": "M E",
           "courseNumber": 600,
           "courseCode": "ME 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -12827,7 +12827,7 @@
               "sectionNumber": 1,
               "courseCode": "ME 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -12866,7 +12866,7 @@
           "subjectPrefix": "M E",
           "courseNumber": 700,
           "courseCode": "ME 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -12875,7 +12875,7 @@
               "sectionNumber": 1,
               "courseCode": "ME 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -12914,7 +12914,7 @@
           "subjectPrefix": "M E",
           "courseNumber": 702,
           "courseCode": "ME 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -12923,7 +12923,7 @@
               "sectionNumber": 1,
               "courseCode": "ME 702",
               "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -12962,7 +12962,7 @@
           "subjectPrefix": "M E",
           "courseNumber": 800,
           "courseCode": "ME 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -12971,7 +12971,7 @@
               "sectionNumber": 1,
               "courseCode": "ME 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -17890,7 +17890,7 @@
           "subjectPrefix": "Psych",
           "courseNumber": 445,
           "courseCode": "PSYCH 445",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -17899,7 +17899,7 @@
               "sectionNumber": 1,
               "courseCode": "PSYCH 445",
               "courseName": "Undergraduate Practicum",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -17938,7 +17938,7 @@
           "subjectPrefix": "Psych",
           "courseNumber": 497,
           "courseCode": "PSYCH 497",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -17947,7 +17947,7 @@
               "sectionNumber": 1,
               "courseCode": "PSYCH 497",
               "courseName": "Instructional Practicum",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -17986,7 +17986,7 @@
           "subjectPrefix": "Psych",
           "courseNumber": 498,
           "courseCode": "PSYCH 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -17995,7 +17995,7 @@
               "sectionNumber": 1,
               "courseCode": "PSYCH 498",
               "courseName": "Research Participation",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -18034,7 +18034,7 @@
           "subjectPrefix": "Psych",
           "courseNumber": 499,
           "courseCode": "PSYCH 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -18043,7 +18043,7 @@
               "sectionNumber": 1,
               "courseCode": "PSYCH 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -18855,7 +18855,7 @@
           "subjectPrefix": "SOE",
           "courseNumber": 495,
           "courseCode": "SOE 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -18864,7 +18864,7 @@
               "sectionNumber": 1,
               "courseCode": "SOE 495",
               "courseName": "Undergraduate Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -18903,7 +18903,7 @@
           "subjectPrefix": "SOE",
           "courseNumber": 499,
           "courseCode": "SOE 499",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -18912,7 +18912,7 @@
               "sectionNumber": 1,
               "courseCode": "SOE 499",
               "courseName": "Special Problems",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19047,7 +19047,7 @@
           "subjectPrefix": "SOE",
           "courseNumber": 600,
           "courseCode": "SOE 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19056,7 +19056,7 @@
               "sectionNumber": 1,
               "courseCode": "SOE 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19095,7 +19095,7 @@
           "subjectPrefix": "SOE",
           "courseNumber": 700,
           "courseCode": "SOE 700",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19104,7 +19104,7 @@
               "sectionNumber": 1,
               "courseCode": "SOE 700",
               "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19143,7 +19143,7 @@
           "subjectPrefix": "SOE",
           "courseNumber": 702,
           "courseCode": "SOE 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19152,7 +19152,7 @@
               "sectionNumber": 1,
               "courseCode": "SOE 702",
               "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19191,7 +19191,7 @@
           "subjectPrefix": "SOE",
           "courseNumber": 800,
           "courseCode": "SOE 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19200,7 +19200,7 @@
               "sectionNumber": 1,
               "courseCode": "SOE 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19244,7 +19244,7 @@
           "subjectPrefix": "SoilS",
           "courseNumber": 495,
           "courseCode": "SOIL_SCI 495",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19253,7 +19253,7 @@
               "sectionNumber": 1,
               "courseCode": "SOIL_SCI 495",
               "courseName": "Research Experience",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19636,7 +19636,7 @@
           "subjectPrefix": "Sp Ed",
           "courseNumber": 490,
           "courseCode": "SPEC_ED 490",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19645,7 +19645,7 @@
               "sectionNumber": 1,
               "courseCode": "SPEC_ED 490",
               "courseName": "Practicum in Special Education",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19874,7 +19874,7 @@
           "subjectPrefix": "Sp Ed",
           "courseNumber": 590,
           "courseCode": "SPEC_ED 590",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19883,7 +19883,7 @@
               "sectionNumber": 1,
               "courseCode": "SPEC_ED 590",
               "courseName": "Practicum in Special Education",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -19917,12 +19917,58 @@
           ]
         },
         {
+          "course": "Seminar in Quality Indicators for Research in Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 596,
+          "courseCode": "SPEC_ED 596",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2590",
+              "sln": 2590,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 596",
+              "courseName": "Seminar in Quality Indicators for Research in Special Education",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Doctoral Research, Dissertation, and/or Examination",
           "subject": "SPEC_ED",
           "subjectPrefix": "Sp Ed",
           "courseNumber": 800,
           "courseCode": "SPEC_ED 800",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -19931,7 +19977,7 @@
               "sectionNumber": 1,
               "courseCode": "SPEC_ED 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -20841,7 +20887,7 @@
           "subjectPrefix": "T & L",
           "courseNumber": 415,
           "courseCode": "TCH_LRN 415",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": true,
           "sections": [
             {
@@ -20850,7 +20896,7 @@
               "sectionNumber": 1,
               "courseCode": "TCH_LRN 415",
               "courseName": "Student Teaching Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
@@ -20887,7 +20933,7 @@
               "sectionNumber": 1,
               "courseCode": "TCH_LRN 415",
               "courseName": "Student Teaching Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
@@ -21288,7 +21334,7 @@
           "subjectPrefix": "T & L",
           "courseNumber": 600,
           "courseCode": "TCH_LRN 600",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -21297,7 +21343,7 @@
               "sectionNumber": 1,
               "courseCode": "TCH_LRN 600",
               "courseName": "Special Projects or Independent Study",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -21336,7 +21382,7 @@
           "subjectPrefix": "T & L",
           "courseNumber": 702,
           "courseCode": "TCH_LRN 702",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -21345,7 +21391,7 @@
               "sectionNumber": 1,
               "courseCode": "TCH_LRN 702",
               "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -22066,7 +22112,7 @@
           "subjectPrefix": "V E",
           "courseNumber": 498,
           "courseCode": "VIT_ENOL 498",
-          "credits": "0",
+          "credits": "V",
           "hasRequiredLab": false,
           "sections": [
             {
@@ -22075,7 +22121,7 @@
               "sectionNumber": 1,
               "courseCode": "VIT_ENOL 498",
               "courseName": "Professional Work Experience/Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
@@ -22112,7 +22158,7 @@
               "sectionNumber": 2,
               "courseCode": "VIT_ENOL 498",
               "courseName": "Professional Work Experience/Internship",
-              "credits": "0",
+              "credits": "V",
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
