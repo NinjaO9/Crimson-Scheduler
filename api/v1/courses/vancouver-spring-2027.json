@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T20:37:55.004285+00:00",
+  "generatedAt": "2026-10-22T22:21:01.817470+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -4571,6 +4571,91 @@
                 "total": 36,
                 "available": 36,
                 "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Writing in Communication",
+          "subject": "COM",
+          "subjectPrefix": "Com",
+          "courseNumber": 300,
+          "courseCode": "COM 300",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "12024",
+              "sln": 12024,
+              "sectionNumber": 3,
+              "courseCode": "COM 300",
+              "courseName": "Writing in Communication",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "10:35 - 11:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:25"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12025",
+              "sln": 12025,
+              "sectionNumber": 3,
+              "courseCode": "COM 300",
+              "courseName": "Writing in Communication",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "11:35 - 12:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "11:35 - 12:25"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",

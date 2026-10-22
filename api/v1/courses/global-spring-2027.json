@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T20:37:54.418063+00:00",
+  "generatedAt": "2026-10-22T22:21:01.420020+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -14864,43 +14864,6 @@
           "hasRequiredLab": false,
           "sections": [
             {
-              "sectionId": "10767",
-              "sln": 10767,
-              "sectionNumber": 1,
-              "courseCode": "HONORS 398",
-              "courseName": "Honors Thesis Proposal Seminar",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J SCHULTZ",
-              "instructors": [
-                "J SCHULTZ"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VS",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
               "sectionId": "10775",
               "sln": 10775,
               "sectionNumber": 2,
@@ -21978,6 +21941,54 @@
           ]
         },
         {
+          "course": "Perspectives on Disability",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 250,
+          "courseCode": "SOC 250",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12052",
+              "sln": 12052,
+              "sectionNumber": 1,
+              "courseCode": "SOC 250",
+              "courseName": "Perspectives on Disability",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A MYERS",
+              "instructors": [
+                "A MYERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Preparing for Internships and Sociology Careers",
           "subject": "SOC",
           "subjectPrefix": "Soc",
@@ -22209,6 +22220,43 @@
                 "total": 60,
                 "available": 60,
                 "label": "0/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10050",
+              "sln": 10050,
+              "sectionNumber": 2,
+              "courseCode": "SOC 340",
+              "courseName": "Social Inequality",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M AMORIM",
+              "instructors": [
+                "M AMORIM"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23004,6 +23052,54 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Undergraduate Internship",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 495,
+          "courseCode": "SOE 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10049",
+              "sln": 10049,
+              "sectionNumber": 1,
+              "courseCode": "SOE 495",
+              "courseName": "Undergraduate Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A KING",
+              "instructors": [
+                "A KING"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
