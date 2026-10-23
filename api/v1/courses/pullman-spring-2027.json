@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T13:29:03.829430+00:00",
+  "generatedAt": "2026-10-23T18:24:22.796844+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -1584,8 +1584,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R MORGAN",
+              "instructors": [
+                "R MORGAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "VX",
@@ -17272,9 +17274,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 16,
-                "available": 16,
-                "label": "0/16"
+                "total": 8,
+                "available": 8,
+                "label": "0/8"
               },
               "dates": {
                 "start": "Jan 11",
@@ -93079,9 +93081,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -93116,9 +93118,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -100552,8 +100554,10 @@
                 }
               ],
               "location": "SEH  210",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J STEFFENS",
+              "instructors": [
+                "J STEFFENS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -130706,8 +130710,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R MORGAN",
+              "instructors": [
+                "R MORGAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "VX",
@@ -133952,14 +133958,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "12:10 - 13:00",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "12:10 - 13:00"
+                  "time": "11:10 - 12:00"
                 }
               ],
-              "location": "MURR 242",
+              "location": "CUE  209",
               "instructor": "S LOPEZ-LOPEZ",
               "instructors": [
                 "S LOPEZ-LOPEZ"
@@ -134055,7 +134061,7 @@
                   "time": "12:10 - 13:00"
                 }
               ],
-              "location": "MURR 242",
+              "location": "CUE  209",
               "instructor": "S LOPEZ-LOPEZ",
               "instructors": [
                 "S LOPEZ-LOPEZ"
@@ -134995,7 +135001,7 @@
                   "time": "17:45 - 20:30"
                 }
               ],
-              "location": "",
+              "location": "EDAD 216",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -141617,6 +141623,43 @@
               "dates": {
                 "start": "Jan 11",
                 "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12051",
+              "sln": 12051,
+              "sectionNumber": 2,
+              "courseCode": "UNIV 301",
+              "courseName": "Career Exploration and Professional Development",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "A BRETTHAUER",
+              "instructors": [
+                "A BRETTHAUER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Mar 05"
               }
             },
             {

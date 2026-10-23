@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T13:29:03.686655+00:00",
+  "generatedAt": "2026-10-23T18:24:22.612711+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -49937,6 +49937,54 @@
               "dates": {
                 "start": "Aug 24",
                 "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Diversity",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 475,
+          "courseCode": "DTC 475",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8793",
+              "sln": 8793,
+              "sectionNumber": 1,
+              "courseCode": "DTC 475",
+              "courseName": "Digital Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BUFFINGTON",
+              "instructors": [
+                "T BUFFINGTON"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Oct 19",
+                "end": "Dec 13"
               }
             }
           ]
@@ -145060,7 +145108,7 @@
                   "time": "11:10 - 12:00"
                 }
               ],
-              "location": "CUE  203",
+              "location": "SPRK 227",
               "instructor": "I CHOI",
               "instructors": [
                 "I CHOI"
