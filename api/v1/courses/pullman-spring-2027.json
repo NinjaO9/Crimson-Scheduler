@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T18:24:22.796844+00:00",
+  "generatedAt": "2026-10-23T22:13:53.422897+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -34,7 +34,7 @@
                   "time": "10:10 - 11:25"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "WEGN G0050",
               "instructor": "R BARNES",
               "instructors": [
                 "R BARNES"
@@ -14327,7 +14327,7 @@
           "courseNumber": 135,
           "courseCode": "ASTRONOM 135",
           "credits": "4",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "4221",
@@ -14338,7 +14338,7 @@
               "credits": "4",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "M,W,F",
               "time": "09:10 - 10:00",
               "meetings": [
@@ -14360,6 +14360,76 @@
                 "total": 59,
                 "available": 59,
                 "label": "0/59"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4222",
+              "sln": 4222,
+              "sectionNumber": 3,
+              "courseCode": "ASTRONOM 135",
+              "courseName": "Astronomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "WEBS 249",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4223",
+              "sln": 4223,
+              "sectionNumber": 5,
+              "courseCode": "ASTRONOM 135",
+              "courseName": "Astronomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "WEBS 249",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -47445,8 +47515,10 @@
                 }
               ],
               "location": "EME  56",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C COLE",
+              "instructors": [
+                "C COLE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -47480,8 +47552,10 @@
                 }
               ],
               "location": "EME  56",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C COLE",
+              "instructors": [
+                "C COLE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -47515,8 +47589,10 @@
                 }
               ],
               "location": "EME  56",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C COLE",
+              "instructors": [
+                "C COLE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",

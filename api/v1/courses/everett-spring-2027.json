@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T18:24:22.510088+00:00",
+  "generatedAt": "2026-10-23T22:13:53.136014+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -3551,6 +3551,54 @@
           ]
         },
         {
+          "course": "Distributed Parameter Systems",
+          "subject": "E_E",
+          "subjectPrefix": "E E",
+          "courseNumber": 351,
+          "courseCode": "E_E 351",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6658",
+              "sln": 6658,
+              "sectionNumber": 1,
+              "courseCode": "E_E 351",
+              "courseName": "Distributed Parameter Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "08:10 - 09:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "08:10 - 09:00"
+                }
+              ],
+              "location": "EVRT 358",
+              "instructor": "P PEDROW",
+              "instructors": [
+                "P PEDROW"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Electrical Power Systems",
           "subject": "E_E",
           "subjectPrefix": "E E",
@@ -3773,6 +3821,54 @@
           ]
         },
         {
+          "course": "ASIC and Digital Systems Design",
+          "subject": "E_E",
+          "subjectPrefix": "E E",
+          "courseNumber": 434,
+          "courseCode": "E_E 434",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6526",
+              "sln": 6526,
+              "sectionNumber": 1,
+              "courseCode": "E_E 434",
+              "courseName": "ASIC and Digital Systems Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "D KIM",
+              "instructors": [
+                "D KIM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Cybersecurity of Critical Infrastructure Systems",
           "subject": "E_E",
           "subjectPrefix": "E E",
@@ -3887,15 +3983,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
+              "days": "TU,TH",
+              "time": "07:45 - 09:00",
               "meetings": [
                 {
-                  "days": "ARR",
-                  "time": "ARRGT"
+                  "days": "TU,TH",
+                  "time": "07:45 - 09:00"
                 }
               ],
-              "location": "ARR  ARR",
+              "location": "VC   EVE",
               "instructor": "J GUERRERO SEDENO",
               "instructors": [
                 "J GUERRERO SEDENO"

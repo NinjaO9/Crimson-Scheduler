@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T18:24:22.557661+00:00",
+  "generatedAt": "2026-10-23T22:13:53.183927+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -16401,6 +16401,91 @@
           ]
         },
         {
+          "course": "Experimental Design",
+          "subject": "ME",
+          "subjectPrefix": "M E",
+          "courseNumber": 406,
+          "courseCode": "ME 406",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "10602",
+              "sln": 10602,
+              "sectionNumber": 1,
+              "courseCode": "ME 406",
+              "courseName": "Experimental Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "10:00 - 10:50",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "10:00 - 10:50"
+                }
+              ],
+              "location": "",
+              "instructor": "B ASGHARIAN",
+              "instructors": [
+                "B ASGHARIAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10603",
+              "sln": 10603,
+              "sectionNumber": 1,
+              "courseCode": "ME 406",
+              "courseName": "Experimental Design",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "11:00 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "11:00 - 14:00"
+                }
+              ],
+              "location": "",
+              "instructor": "B ASGHARIAN",
+              "instructors": [
+                "B ASGHARIAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 34,
+                "available": 34,
+                "label": "0/34"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Mechanical Systems Design",
           "subject": "ME",
           "subjectPrefix": "M E",
@@ -16724,6 +16809,91 @@
     {
       "subject": "MED_HAL",
       "courses": [
+        {
+          "course": "Value-Based Leadership: Incorporating the Triple Aim",
+          "subject": "MED_HAL",
+          "subjectPrefix": "MEDHL",
+          "courseNumber": 505,
+          "courseCode": "MED_HAL 505",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12020",
+              "sln": 12020,
+              "sectionNumber": 1,
+              "courseCode": "MED_HAL 505",
+              "courseName": "Value-Based Leadership: Incorporating the Triple Aim",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D AUFDENCAMP",
+              "instructors": [
+                "D AUFDENCAMP"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Mar 08",
+                "end": "May 02"
+              }
+            },
+            {
+              "sectionId": "12021",
+              "sln": 12021,
+              "sectionNumber": 2,
+              "courseCode": "MED_HAL 505",
+              "courseName": "Value-Based Leadership: Incorporating the Triple Aim",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D AUFDENCAMP",
+              "instructors": [
+                "D AUFDENCAMP"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 99,
+                "available": 99,
+                "label": "0/99"
+              },
+              "dates": {
+                "start": "Mar 08",
+                "end": "May 02"
+              }
+            }
+          ]
+        },
         {
           "course": "Healthcare Policy and Politics",
           "subject": "MED_HAL",
@@ -23143,8 +23313,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R MORGAN",
+              "instructors": [
+                "R MORGAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "VX",
