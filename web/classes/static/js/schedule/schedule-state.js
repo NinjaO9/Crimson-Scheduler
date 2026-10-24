@@ -30,14 +30,13 @@ function getSectionRecordKey(section) {
 }
 
 /**
- * Returns the persisted default schedule from the current workspace.
+ * Returns the persisted active schedule from the current workspace.
  *
- * @returns {Object|null} Default schedule metadata, or `null` before initialization.
+ * @returns {Object|null} Active schedule metadata, or `null` before initialization.
  */
-function getDefaultSchedule() {
-  return currentWorkspace && currentWorkspace.schedules
-    ? currentWorkspace.schedules.default
-    : null;
+function getActiveScheduleRecord() {
+  if (!currentWorkspace || !currentWorkspace.schedules) return null;
+  return currentWorkspace.schedules[currentWorkspace.active_schedule_id] || null;
 }
 
 /**
@@ -61,13 +60,7 @@ function getRuntimeSchedule() {
 function replaceRuntimeSchedule(scheduleData) {
   sectionRecordsByKey.clear();
   scheduleSectionOrder = [];
-  (Array.isArray(scheduleData) ? scheduleData : []).forEach((entry) => {
-    if (!isValidCourseEntry(entry)) return;
-    const key = getSectionRecordKey(entry);
-    if (!key || sectionRecordsByKey.has(key)) return;
-    sectionRecordsByKey.set(key, entry);
-    scheduleSectionOrder.push(key);
-  });
+  addRuntimeSections(scheduleData);
 }
 
 /**
@@ -84,23 +77,10 @@ function addRuntimeSections(sectionData) {
     const key = getSectionRecordKey(entry);
     if (!key || sectionRecordsByKey.has(key)) return;
     sectionRecordsByKey.set(key, entry);
-    scheduleSectionOrder.push(key);
-    additions.push(entry);
+    scheduleSectionOrder.push(entry);
+    additions.push(key)
   });
   return additions;
-}
-
-/**
- * Clears runtime records and installs a newly hydrated schedule.
- *
- * @param {Object[]} sectionData - Hydrated section records.
- * @returns {void}
- * @see {@link addRuntimeSections}
- */
-function replaceHydratedRuntimeSchedule(sectionData) {
-  sectionRecordsByKey.clear();
-  scheduleSectionOrder = [];
-  addRuntimeSections(sectionData);
 }
 
 /**
@@ -129,14 +109,12 @@ function toSectionReference(entry) {
 }
 
 /**
- * Creates a versioned workspace containing a deduplicated default schedule.
+ * Converts section records into deduplicated persisted references.
  *
- * @param {Object[]} scheduleData - Section entries to convert into references.
- * @param {string} [name=DEFAULT_SCHEDULE_NAME] - Schedule display name.
- * @returns {{workspace: Object, excludedCount: number}} Workspace and invalid-entry count.
- * @see {@link toSectionReference}
+ * @param {Object[]} scheduleData - Section entries to convert.
+ * @returns {{sectionRefs: Object[], excludedCount: number}} References and invalid-entry count.
  */
-export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
+function createSectionReferences(scheduleData) {
   const seen = new Set();
   const sectionRefs = [];
   let excludedCount = 0;
@@ -153,16 +131,53 @@ export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
     sectionRefs.push(reference);
   });
 
+  return { sectionRefs, excludedCount };
+}
+
+/**
+ * Creates a Schedule object
+ *
+ * @param {*} id - Unique identifier for this schedule.
+ * @param {string} name - name of the schedule to create.
+ * @param {string[]} sectionRefs - list of sections that are contained within this schedule.
+ */
+function createScheduleRecord(id = "default", name = DEFAULT_SCHEDULE_NAME, sectionRefs = []) {
+  return {
+    id: String(id),
+    name: String(name || DEFAULT_SCHEDULE_NAME),
+    section_refs: Array.isArray(sectionRefs) ? sectionRefs : [],
+  };
+}
+
+/**
+ * Creates a unique ID for a newly created schedule.
+ *
+ * @returns {string} Unique schedule ID.
+ */
+function createScheduleId() {
+  const schedules = currentWorkspace?.schedules || {};
+  let index = 1;
+  while (schedules[`schedule-${index}`]) index += 1;
+  return `schedule-${index}`;
+}
+
+/**
+ * Creates a versioned workspace containing a deduplicated default schedule.
+ *
+ * @param {Object[]} scheduleData - Section entries to convert into references.
+ * @param {string} [name=DEFAULT_SCHEDULE_NAME] - Schedule display name.
+ * @returns {{workspace: Object, excludedCount: number}} Workspace and invalid-entry count.
+ * @see {@link toSectionReference}
+ */
+export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
+  const { sectionRefs, excludedCount } = createSectionReferences(scheduleData);
+
   return {
     workspace: {
       version: SCHEDULE_WORKSPACE_VERSION,
       active_schedule_id: "default",
       schedules: {
-        default: {
-          id: "default",
-          name: String(name || DEFAULT_SCHEDULE_NAME),
-          section_refs: sectionRefs,
-        },
+        default: createScheduleRecord("default", name, sectionRefs),
       },
     },
     excludedCount,
@@ -179,25 +194,55 @@ export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
 export function parseStoredWorkspace(serialized) {
   try {
     const parsed = JSON.parse(serialized);
-    const schedule = parsed && parsed.schedules && parsed.schedules.default;
+
+    // Because adding multiple schedules is a change in how we parse a stored workspace,
+    // I want to make sure that people who already used the site don't lose anything.
+    // So... We are gonna have this little bit of code here to make sure V2 workspaces are handled fine.
+    // In the future, I will maybe retire this code (if I remember)
+    // But once the user visits the site and edits their schedule, then they should be converted to the new format.
+    const schedules =
+    parsed && parsed.version === 2
+        ? { default: parsed.schedules && parsed.schedules.default }
+        : parsed && parsed.schedules;
+
+    const activeScheduleId =
+      parsed && parsed.version === 2
+        ? "default"
+        : parsed && parsed.active_schedule_id;
     if (
-      !parsed ||
-      parsed.version !== SCHEDULE_WORKSPACE_VERSION ||
-      parsed.active_schedule_id !== "default" ||
-      !schedule ||
-      !Array.isArray(schedule.section_refs)
+      !parsed || // unsucesful parse
+      ![SCHEDULE_WORKSPACE_VERSION -1, SCHEDULE_WORKSPACE_VERSION].includes(parsed.version) || // Version is not supported
+      !schedules || // No available schedules
+      typeof schedules !== "object" || // Schedules is not an object
+      !activeScheduleId || // No active schedule
+      !schedules[activeScheduleId] // The id is invalid
     )
       return null;
 
-    const normalized = createWorkspace(
-      schedule.section_refs.map((reference) => ({
-        section_id: reference && reference.section_id,
-        term_slug: reference && reference.term_slug,
-        schedule_group_id: reference && reference.schedule_group_id,
-      })),
-      schedule.name,
-    );
-    return normalized.workspace;
+    // Constructing the schedules from the saved storage.
+    const normalizedSchedules = {};
+    for (const [scheduleId, schedule] of Object.entries(schedules)) {
+      if (!schedule || !Array.isArray(schedule.section_refs)) return null;
+      const { sectionRefs } = createSectionReferences(
+        schedule.section_refs.map((reference) => ({
+          section_id: reference && reference.section_id,
+          term_slug: reference && reference.term_slug,
+          schedule_group_id: reference && reference.schedule_group_id,
+        })),
+        schedule.name,
+      );
+      normalizedSchedules[String(scheduleId)] = createScheduleRecord(
+        scheduleId,
+        schedule.name,
+        sectionRefs,
+      );
+    }
+
+    return {
+      version: SCHEDULE_WORKSPACE_VERSION,
+      active_schedule_id: String(activeScheduleId),
+      schedules: normalizedSchedules,
+    };
   } catch (error) {
     return null;
   }
@@ -249,7 +294,7 @@ export function getScheduleWorkspace() {
  */
 export function updateScheduleWorkspaceName(name) {
   const workspace = currentWorkspace || loadScheduleWorkspace();
-  const schedule = workspace && workspace.schedules && workspace.schedules.default;
+  const schedule = getActiveScheduleRecord();
   if (!schedule) return false;
   schedule.name = String(name || DEFAULT_SCHEDULE_NAME);
   return persistWorkspace(workspace);
@@ -281,7 +326,7 @@ function persistWorkspace(workspace) {
  * @see {@link persistWorkspace}
  */
 function updateActiveScheduleReferences(sectionRefs) {
-  const schedule = getDefaultSchedule();
+  const schedule = getActiveScheduleRecord();
   if (!schedule) return false;
   schedule.section_refs = sectionRefs;
   return persistWorkspace(currentWorkspace);
@@ -337,10 +382,101 @@ export function getSectionRecord(sectionKey) {
  * Returns the persisted default schedule metadata and references.
  *
  * @returns {Object|null} Active schedule, or `null` before workspace loading.
- * @see {@link getDefaultSchedule}
+ * @see {@link getActiveScheduleRecord}
  */
 export function getActiveSchedule() {
-  return getDefaultSchedule();
+  return getActiveScheduleRecord();
+}
+
+/**
+ * Returns all stored schedules.
+ *
+ * @returns {Object[]} Schedule metadata records.
+ */
+export function getSchedules() {
+  return currentWorkspace && currentWorkspace.schedules
+    ? Object.values(currentWorkspace.schedules)
+    : [];
+}
+
+/**
+ * Returns a stored schedule by ID.
+ *
+ * @param {string} scheduleId - Schedule identifier.
+ * @returns {Object|null} Matching schedule, or `null` when not found.
+ */
+export function getScheduleById(scheduleId) {
+  if (!currentWorkspace || !scheduleId) return null;
+  return currentWorkspace.schedules?.[String(scheduleId)] || null;
+}
+
+/**
+ * Creates and persists a new empty schedule.
+ *
+ * @param {string} [name=DEFAULT_SCHEDULE_NAME] - Schedule display name.
+ * @returns {Object|null} New schedule, or `null` if persistence fails.
+ */
+export function createSchedule(name = DEFAULT_SCHEDULE_NAME) {
+  const workspace = currentWorkspace || loadScheduleWorkspace();
+  const id = createScheduleId();
+  const schedule = createScheduleRecord(id, name, []);
+  workspace.schedules[id] = schedule;
+  return persistWorkspace(workspace) ? schedule : null;
+}
+
+/**
+ * Renames a stored schedule.
+ *
+ * @param {string} scheduleId - Schedule identifier.
+ * @param {string} name - New schedule display name.
+ * @returns {boolean} Whether the schedule was found and persisted.
+ */
+export function renameSchedule(scheduleId, name) {
+  const schedule = getScheduleById(scheduleId);
+  if (!schedule) return false;
+  schedule.name = String(name || DEFAULT_SCHEDULE_NAME);
+  return persistWorkspace(currentWorkspace);
+}
+
+/**
+ * Switches the active schedule and clears the transient runtime records.
+ * Callers should invoke hydrateSchedule afterwards to load catalog records.
+ *
+ * @param {string} scheduleId - Schedule identifier to activate.
+ * @returns {Object|null} Newly active schedule, or `null` when not found.
+ */
+export function switchSchedule(scheduleId) {
+  const nextSchedule = getScheduleById(scheduleId);
+  if (!nextSchedule) return null;
+  if (currentWorkspace.active_schedule_id === nextSchedule.id)
+    return nextSchedule;
+
+  persistRuntimeSchedule();
+  currentWorkspace.active_schedule_id = nextSchedule.id;
+  replaceRuntimeSchedule([]);
+  persistWorkspace(currentWorkspace);
+  return nextSchedule;
+}
+
+/**
+ * Deletes a schedule. Not gonna let the user delete the only schedule, though....
+ *
+ * @param {string} scheduleId - Schedule identifier.
+ * @returns {boolean} Whether the schedule was deleted and persisted.
+ */
+export function deleteSchedule(scheduleId) {
+  const schedule = getScheduleById(scheduleId);
+  if (!schedule || getSchedules().length <= 1) return false;
+
+  const wasActive = currentWorkspace.active_schedule_id === schedule.id;
+  delete currentWorkspace.schedules[schedule.id];
+  if (wasActive) {
+    currentWorkspace.active_schedule_id = Object.keys(
+      currentWorkspace.schedules,
+    )[0];
+    replaceRuntimeSchedule([]);
+  }
+  return persistWorkspace(currentWorkspace);
 }
 
 /**
@@ -354,12 +490,12 @@ export function getActiveSchedule() {
  * @see {@link clearTermLoadFailure}
  */
 export async function hydrateSchedule(fetchDatasetByKey) {
-  const schedule = getDefaultSchedule();
+  const schedule = getActiveScheduleRecord();
   const references = schedule && Array.isArray(schedule.section_refs)
     ? schedule.section_refs
     : [];
   if (!references.length) {
-    replaceHydratedRuntimeSchedule([]);
+    replaceRuntimeSchedule([]);
     return {
       schedule: [],
       missingCount: 0,
@@ -368,7 +504,7 @@ export async function hydrateSchedule(fetchDatasetByKey) {
     };
   }
   if (typeof fetchDatasetByKey !== "function") {
-    replaceHydratedRuntimeSchedule([]);
+    replaceRuntimeSchedule([]);
     return {
       schedule: [],
       missingCount: 0,
@@ -441,7 +577,7 @@ export async function hydrateSchedule(fetchDatasetByKey) {
       (order.get(sectionReferenceKey(right)) ?? Number.MAX_SAFE_INTEGER),
   );
   failedTerms.sort();
-  replaceHydratedRuntimeSchedule(resolvedRecords);
+  replaceRuntimeSchedule(resolvedRecords);
   updateActiveScheduleReferences(retainedReferences);
 
   return {
@@ -527,10 +663,9 @@ export function appendScheduleEntries(entries) {
  * @see {@link persistWorkspace}
  */
 function persistRuntimeSchedule() {
-  const schedule = getDefaultSchedule();
-  const name = schedule ? schedule.name : DEFAULT_SCHEDULE_NAME;
-  const nextWorkspace = createWorkspace(getRuntimeSchedule(), name);
-  currentWorkspace = nextWorkspace.workspace;
+  const schedule = getActiveScheduleRecord();
+  if (!schedule) return false;
+  schedule.section_refs = createSectionReferences(getRuntimeSchedule()).sectionRefs;
   return persistWorkspace(currentWorkspace);
 }
 

@@ -10,8 +10,11 @@ import {
   appendScheduleEntries,
   addSectionSelection,
   clearSchedule,
+  createSchedule,
   getActiveSchedule,
   getFailedTermKeys,
+  getScheduleById,
+  getSchedules,
   getSectionRecord,
   getSchedule,
   hydrateSchedule,
@@ -23,8 +26,11 @@ import {
   loadScheduleWorkspace,
   parseStoredWorkspace,
   removeScheduleEntry,
+  deleteSchedule,
+  renameSchedule,
   retryFailedTerms,
   replaceSchedule,
+  switchSchedule,
   updateScheduleWorkspaceName,
 } from "../web/classes/static/js/schedule/schedule-state.js";
 
@@ -79,7 +85,7 @@ describe("schedule state", () => {
 
     expect(result.excludedCount).toBe(0);
     expect(result.workspace).toEqual({
-      version: 2,
+      version: 3,
       active_schedule_id: "default",
       schedules: {
         default: {
@@ -114,7 +120,7 @@ describe("schedule state", () => {
     localStorage.removeItem("crimson_scheduler_workspace");
     const workspace = loadScheduleWorkspace();
 
-    expect(workspace.version).toBe(2);
+    expect(workspace.version).toBe(3);
     expect(getScheduleWorkspace()).toEqual(workspace);
     expect(JSON.parse(localStorage.getItem("crimson_scheduler_workspace"))).toEqual(workspace);
     expect(workspace.schedules.default.section_refs).toEqual([]);
@@ -126,6 +132,65 @@ describe("schedule state", () => {
     expect(parseStoredWorkspace(JSON.stringify(valid))).toEqual(valid);
     expect(parseStoredWorkspace(JSON.stringify({ version: 1 }))).toBeNull();
     expect(parseStoredWorkspace("not json")).toBeNull();
+  });
+
+  it("migrates a version 2 workspace into the multi-schedule shape", () => {
+    const legacy = {
+      version: 2,
+      active_schedule_id: "default",
+      schedules: {
+        default: {
+          id: "default",
+          name: "Legacy Plan",
+          section_refs: [
+            { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+          ],
+        },
+      },
+    };
+
+    const parsed = parseStoredWorkspace(JSON.stringify(legacy));
+
+    expect(parsed.version).toBe(3);
+    expect(parsed.active_schedule_id).toBe("default");
+    expect(parsed.schedules.default.name).toBe("Legacy Plan");
+  });
+
+  it("creates, gets, renames, switches, and deletes schedules independently", () => {
+    const first = getActiveSchedule();
+    const second = createSchedule("Second Plan");
+
+    expect(second).toMatchObject({ name: "Second Plan", section_refs: [] });
+    expect(getSchedules()).toHaveLength(2);
+    expect(getScheduleById(second.id)).toEqual(second);
+    expect(renameSchedule(second.id, "Renamed Plan")).toBe(true);
+    expect(getScheduleById(second.id).name).toBe("Renamed Plan");
+
+    appendScheduleEntries([entry("1")]);
+    expect(getActiveSchedule().id).toBe(first.id);
+    expect(switchSchedule(second.id).id).toBe(second.id);
+    expect(getSchedule()).toEqual([]);
+    expect(getActiveSchedule().section_refs).toEqual([]);
+
+    appendScheduleEntries([entry("2")]);
+    expect(switchSchedule(first.id).id).toBe(first.id);
+    expect(getSchedule()).toEqual([]);
+    expect(getActiveSchedule().section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+    ]);
+    expect(deleteSchedule(second.id)).toBe(true);
+    expect(getSchedules()).toHaveLength(1);
+    expect(deleteSchedule(first.id)).toBe(false);
+  });
+
+  it("deleting the active schedule selects another schedule", () => {
+    const first = getActiveSchedule();
+    const second = createSchedule("Second Plan");
+    switchSchedule(second.id);
+
+    expect(deleteSchedule(second.id)).toBe(true);
+    expect(getActiveSchedule().id).toBe(first.id);
+    expect(getSchedule()).toEqual([]);
   });
 
   it("persists the workspace whenever the schedule changes", () => {
