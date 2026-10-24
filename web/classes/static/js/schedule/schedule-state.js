@@ -77,8 +77,8 @@ function addRuntimeSections(sectionData) {
     const key = getSectionRecordKey(entry);
     if (!key || sectionRecordsByKey.has(key)) return;
     sectionRecordsByKey.set(key, entry);
-    scheduleSectionOrder.push(entry);
-    additions.push(key)
+    scheduleSectionOrder.push(key);
+    additions.push(entry);
   });
   return additions;
 }
