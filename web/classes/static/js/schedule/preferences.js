@@ -69,9 +69,13 @@ export function initializeScheduleOptions() {
     timeToggle.checked =
       localStorage.getItem(TIME_FORMAT_STORAGE_KEY) === "true";
   const weekendToggle = document.getElementById("hideWeekendsToggle");
-  if (weekendToggle)
+  if (weekendToggle) {
+    const savedWeekendPreference = localStorage.getItem(
+      HIDE_WEEKENDS_STORAGE_KEY,
+    );
     weekendToggle.checked =
-      localStorage.getItem(HIDE_WEEKENDS_STORAGE_KEY) === "true";
+      savedWeekendPreference === null || savedWeekendPreference === "true";
+  }
   const instructorToggle = document.getElementById("showInstructorToggle");
   if (instructorToggle)
     instructorToggle.checked =
