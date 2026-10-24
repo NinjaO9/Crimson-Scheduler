@@ -24,10 +24,8 @@ import {
 } from "./notifications.js";
 import {
   getScheduleName,
-  initializeScheduleName,
   initializeScheduleOptions,
   normalizeScheduleNameInput,
-  saveScheduleName,
   saveScheduleOptions,
 } from "./preferences.js";
 import {
@@ -50,6 +48,11 @@ import {
   removeScheduleEntry,
   replaceSchedule,
 } from "./schedule-state.js";
+import {
+  initializeScheduleSelector,
+  refreshScheduleSelector,
+  setScheduleSelectorName,
+} from "./schedule-selector.js";
 import { initializeScheduleExport } from "./export-image.js";
 import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
@@ -67,9 +70,9 @@ import { initializeCatalogFreshness } from "./catalog-freshness.js";
 export function initializeScheduleApp() {
   initializeCatalogFreshness();
   initializeScheduleState();
-  initializeScheduleName();
   initializeScheduleOptions();
   initializeMobileLayout();
+
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {
       onRemove: (sectionKey) => {
@@ -78,9 +81,25 @@ export function initializeScheduleApp() {
     });
     updateSearchResultTimeDisplays();
   };
+
+  const hydrateActiveSchedule = async () => {
+    try {
+      const result = await hydrateSchedule((termSlug) => CourseApi.fetchDatasetByKey(termSlug),);
+      if (result.missingCount)
+        window.alert(`Removed ${result.missingCount} planned course(s) that were not found in the current catalog.`);
+      if (result.failedCount)
+        window.alert(`Failed to load ${result.failedCount} planned course(s).`);
+    } catch (error) {
+      console.error("Unable to hydrate saved schedule:", error);
+    }
+    refreshSchedule();
+  };
+
+  initializeScheduleSelector({ onScheduleChange: hydrateActiveSchedule });
   const showSchedulePane = () => {
     if (isMobileViewport()) setMobilePane("schedule");
   };
+
   initializeCourseSearch({
     onAddSections: (sections, scheduleGroupId) => {
       if (addSectionSelection(sections, scheduleGroupId).length) {
@@ -91,28 +110,31 @@ export function initializeScheduleApp() {
     onPreview: renderSectionGhost,
     onClearPreview: clearSectionGhosts,
   });
+
   const sharing = initializeScheduleSharing({
     getSchedule,
     replaceSchedule,
     getName: getScheduleName,
     setName: (name) => {
-      const input = document.getElementById("scheduleNameInput");
-      if (name !== undefined && input) input.value = name;
-      normalizeScheduleNameInput();
+      if (name !== undefined) setScheduleSelectorName(name);
+      else refreshScheduleSelector();
     },
     refreshSchedule,
     showSchedulePane,
   });
+
   const exportSchedule = initializeScheduleExport({
     getScheduleName,
     normalizeScheduleName: normalizeScheduleNameInput,
     clearSectionGhosts,
   });
+
   const exportCalendar = initializeCalendarExport({
     getScheduleName,
     normalizeScheduleName: normalizeScheduleNameInput,
     getSchedule,
   });
+
   document.addEventListener("click", (event) => {
     if (event.target.closest("#clearScheduleBtn")) {
       event.preventDefault();
@@ -122,6 +144,7 @@ export function initializeScheduleApp() {
       refreshSchedule();
       return;
     }
+
     const removeMiscButton = event.target.closest(".remove-misc-btn");
     if (removeMiscButton) {
       if (
@@ -133,12 +156,11 @@ export function initializeScheduleApp() {
         refreshSchedule();
       return;
     }
+
     if (event.target.closest("#exportScheduleBtn")) return exportSchedule();
     if (event.target.closest("#exportCalendarBtn")) return exportCalendar();
-    if (event.target.closest("#shareScheduleBtn"))
-      return sharing.shareScheduleCode();
-    if (event.target.closest("#importShareCodeBtn"))
-      return sharing.importScheduleFromShareCode();
+    if (event.target.closest("#shareScheduleBtn")) return sharing.shareScheduleCode();
+    if (event.target.closest("#importShareCodeBtn")) return sharing.importScheduleFromShareCode();
     if (event.target.closest("#mobileConflictBackdrop, #mobileConflictClose")) {
       closeMobileConflictSheet();
       return;
@@ -162,6 +184,7 @@ export function initializeScheduleApp() {
     const mobileNavButton = event.target.closest(".mobile-nav-btn");
     if (mobileNavButton) handleMobileNavigation(mobileNavButton);
   });
+
   document.addEventListener("change", (event) => {
     if (event.target.closest("#timeFormatToggle")) {
       saveScheduleOptions();
@@ -177,17 +200,7 @@ export function initializeScheduleApp() {
       refreshSchedule();
     }
   });
-  document.addEventListener("input", (event) => {
-    if (event.target.closest("#scheduleNameInput")) saveScheduleName();
-  });
-  document.addEventListener(
-    "blur",
-    (event) => {
-      if (event.target.closest("#scheduleNameInput"))
-        normalizeScheduleNameInput();
-    },
-    true,
-  );
+
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       closeCourseFilters();
@@ -196,11 +209,13 @@ export function initializeScheduleApp() {
       closeMobileCourseSheet();
     }
   });
+
   document.body.addEventListener("htmx:responseError", (event) => {
     const xhr = event.detail && event.detail.xhr;
     if (xhr && xhr.status === 429)
       showRateLimitToast(getRateLimitMessageFromResponse(xhr));
   });
+
   window.addEventListener(
     "resize",
     debounce(() => {
@@ -210,22 +225,6 @@ export function initializeScheduleApp() {
       refreshSchedule();
     }, 150),
   );
-  hydrateSchedule((termSlug) => CourseApi.fetchDatasetByKey(termSlug))
-    .then((result) => {
-      if (result.missingCount) {
-        window.alert(
-          `Removed ${result.missingCount} planned course(s) that were not found in the current catalog.`,
-        );
-      }
-      if (result.failedCount) {
-        window.alert(
-          `Failed to load ${result.failedCount} planned course(s).`,
-        );
-      }
-      refreshSchedule();
-    })
-    .catch((error) => {
-      console.error("Unable to hydrate saved schedule:", error);
-      refreshSchedule();
-    });
+
+  hydrateActiveSchedule();
 }
