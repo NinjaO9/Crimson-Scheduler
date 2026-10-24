@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T22:13:53.422897+00:00",
+  "generatedAt": "2026-10-24T00:40:39.022624+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -12209,8 +12209,10 @@
                 }
               ],
               "location": "FNA  5062",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K BAATZ",
+              "instructors": [
+                "K BAATZ"
+              ],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "",
@@ -12281,8 +12283,10 @@
                 }
               ],
               "location": "FNA  5062",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K BAATZ",
+              "instructors": [
+                "K BAATZ"
+              ],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "",
@@ -50788,6 +50792,54 @@
           ]
         },
         {
+          "course": "Public Economics",
+          "subject": "ECONS",
+          "subjectPrefix": "EconS",
+          "courseNumber": 322,
+          "courseCode": "ECONS 322",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11910",
+              "sln": 11910,
+              "sectionNumber": 1,
+              "courseCode": "ECONS 322",
+              "courseName": "Public Economics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "R YASAEIZAMIR",
+              "instructors": [
+                "R YASAEIZAMIR"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "The Economics of Health Care",
           "subject": "ECONS",
           "subjectPrefix": "EconS",
@@ -65818,7 +65870,7 @@
                   "time": "19:10 - 21:30"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "CUE  202",
               "instructor": "V NAVARRO-DANIELS",
               "instructors": [
                 "V NAVARRO-DANIELS"
@@ -84016,9 +84068,46 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6408",
+              "sln": 6408,
+              "sectionNumber": 2,
+              "courseCode": "KINES 496",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "08:10 - 09:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "08:10 - 09:00"
+                }
+              ],
+              "location": "BOAD 280",
+              "instructor": "M GARCIA",
+              "instructors": [
+                "M GARCIA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
