@@ -69,9 +69,13 @@ export function initializeScheduleOptions() {
     timeToggle.checked =
       localStorage.getItem(TIME_FORMAT_STORAGE_KEY) === "true";
   const weekendToggle = document.getElementById("hideWeekendsToggle");
-  if (weekendToggle)
+  if (weekendToggle) {
+    const savedWeekendPreference = localStorage.getItem(
+      HIDE_WEEKENDS_STORAGE_KEY,
+    );
     weekendToggle.checked =
-      localStorage.getItem(HIDE_WEEKENDS_STORAGE_KEY) === "true";
+      savedWeekendPreference === null || savedWeekendPreference === "true";
+  }
   const instructorToggle = document.getElementById("showInstructorToggle");
   if (instructorToggle)
     instructorToggle.checked =
@@ -95,26 +99,12 @@ export function saveScheduleOptions() {
 }
 
 /**
- * Grabs schedule name from local storage and sets the current schedule to such.
- *
- * @returns {void}
- */
-export function initializeScheduleName() {
-  const input = document.getElementById("scheduleNameInput");
-  if (!input) return;
-  input.value = getStoredScheduleName();
-  resizeScheduleNameInput();
-}
-
-/**
  * Grabs the currently active schedule name.
  *
  * @returns {string} Active schedule name.
  */
 export function getScheduleName() {
-  const input = document.getElementById("scheduleNameInput");
-  const name = input ? input.value.trim() : "";
-  return (name || DEFAULT_SCHEDULE_NAME).slice(0, SCHEDULE_NAME_MAX_LENGTH);
+  return getStoredScheduleName();
 }
 
 /**
@@ -137,9 +127,7 @@ export function getStoredScheduleName() {
  * @see {@link schedule-state.updateScheduleWorkspaceName}
  */
 export function saveScheduleName() {
-  const name = getScheduleName();
-  updateScheduleWorkspaceName(name);
-  resizeScheduleNameInput();
+  return updateScheduleWorkspaceName(getScheduleName());
 }
 
 /**
@@ -148,27 +136,7 @@ export function saveScheduleName() {
  * @returns {void}
  */
 export function normalizeScheduleNameInput() {
-  const input = document.getElementById("scheduleNameInput");
-  if (!input) return;
-  input.value = getScheduleName();
-  saveScheduleName();
-}
-
-/**
- * Resizes the schedule name input box based on size.
- *
- * @returns {void}
- */
-export function resizeScheduleNameInput() {
-  const input = document.getElementById("scheduleNameInput");
-  if (!input) return;
-  const styles = window.getComputedStyle(input);
-  const canvas =
-    resizeScheduleNameInput.canvas || document.createElement("canvas");
-  resizeScheduleNameInput.canvas = canvas;
-  const context = canvas.getContext("2d");
-  context.font = `${styles.fontStyle} ${styles.fontVariant} ${styles.fontWeight} ${styles.fontSize} ${styles.fontFamily}`;
-  input.style.width = `${Math.ceil(context.measureText(input.value || DEFAULT_SCHEDULE_NAME).width + 10)}px`;
+  return saveScheduleName();
 }
 
 /**
