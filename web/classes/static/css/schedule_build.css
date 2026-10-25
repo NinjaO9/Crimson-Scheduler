@@ -617,29 +617,179 @@
     min-width: 0;
 }
 
-.schedule-name-input {
+.schedule-selector-btn {
+    align-items: center;
     background: transparent;
     border: 1px solid transparent;
     border-radius: 6px;
     color: #111827;
+    display: inline-flex;
     font-size: 1.42rem;
     font-weight: 800;
+    gap: 10px;
     line-height: 1.25;
-    max-width: min(460px, 44vw);
-    min-width: 11ch;
-    padding: 3px 1px;
-    text-overflow: ellipsis;
-    width: auto;
+    max-width: min(320px, 30vw);
+    min-height: 44px;
+    min-width: 0;
+    padding: 3px 10px;
+    width: fit-content;
 }
 
-.schedule-name-input:hover {
+.schedule-selector {
+    min-width: 0;
+}
+
+.schedule-selector-btn:hover,
+.schedule-selector-btn:focus-visible,
+.schedule-selector-btn[aria-expanded="true"] {
+    background: var(--color-accent-subtle);
     border-color: var(--line-strong);
+    color: inherit;
+    outline: 0;
 }
 
-.schedule-name-input:focus {
+.schedule-selector-btn > span:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.schedule-selector-menu {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    min-width: min(360px, calc(100vw - 32px));
+    padding: 6px;
+}
+
+.schedule-selector-list {
+    max-height: 174px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.schedule-row {
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    min-height: 54px;
+    padding: 3px;
+}
+
+.schedule-row.is-active {
+    background: var(--color-accent-subtle);
+}
+
+.schedule-row-select,
+.schedule-new-btn {
+    align-items: center;
     background: transparent;
-    border-color: var(--crimson);
+    border: 0;
+    border-radius: 4px;
+    color: var(--color-text);
+    display: inline-flex;
+    font-weight: 700;
+    gap: 9px;
+    min-height: 44px;
+    min-width: 0;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.schedule-row-select {
+    flex: 1 1 auto;
+}
+
+.schedule-row-select:hover,
+.schedule-row-select:focus-visible,
+.schedule-new-btn:hover,
+.schedule-new-btn:focus-visible {
+    background: var(--color-accent-subtle);
+    color: var(--color-text);
     outline: 0;
+}
+
+.schedule-row-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.schedule-row-actions {
+    align-items: center;
+    display: inline-flex;
+    gap: 2px;
+}
+
+.schedule-row-action {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    border-radius: 4px;
+    color: var(--color-text-muted);
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    opacity: 0;
+    padding: 0;
+    width: 40px;
+}
+
+.schedule-row-action svg {
+    fill: none;
+    height: 20px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    width: 20px;
+}
+
+.schedule-row:hover .schedule-row-action,
+.schedule-row:focus-within .schedule-row-action,
+.schedule-row-action:focus-visible {
+    opacity: 1;
+}
+
+.schedule-row-action:hover,
+.schedule-row-action:focus-visible {
+    background: var(--color-accent-subtle);
+    color: var(--color-text);
+    outline: 0;
+}
+
+.schedule-row-delete:hover,
+.schedule-row-delete:focus-visible {
+    background: var(--color-danger-surface);
+    color: var(--color-danger-text);
+}
+
+.schedule-row-input {
+    background: var(--color-surface);
+    border: 1px solid var(--crimson);
+    border-radius: 4px;
+    color: var(--color-text);
+    flex: 1 1 auto;
+    font: inherit;
+    min-height: 40px;
+    min-width: 0;
+    padding: 6px 8px;
+}
+
+.schedule-selector-divider {
+    border-top: 1px solid var(--line);
+    margin: 6px 0;
+}
+
+.schedule-new-btn {
+    width: 100%;
+}
+
+.schedule-new-btn > span:first-child {
+    font-size: 1.55rem;
+    font-weight: 400;
+    line-height: 1;
 }
 
 .credits-label {
@@ -710,7 +860,7 @@
     display: none !important;
 }
 
-.schedule-pane.is-exporting .schedule-name-input {
+.schedule-pane.is-exporting .schedule-selector {
     border-color: transparent;
     box-shadow: none;
     pointer-events: none;
@@ -1268,15 +1418,23 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         min-width: 0;
     }
 
-    .schedule-name-input {
-        field-sizing: content;
-        flex: 0 1 auto;
-        font-size: 16px;
+    .schedule-selector {
         max-width: 100%;
-        min-width: 11ch;
-        padding-left: 2px;
-        padding-right: 2px;
-        width: auto !important;
+    }
+
+    .schedule-selector-btn {
+        font-size: 16px;
+        max-width: min(200px, 58vw);
+        min-height: 44px;
+        width: fit-content;
+    }
+
+    .schedule-selector-menu {
+        max-width: calc(100vw - 24px);
+    }
+
+    .schedule-row-action {
+        opacity: 1;
     }
 
     .credits-label {
@@ -1693,9 +1851,15 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     color: var(--color-text);
 }
 
-:root[data-theme="dark"] .schedule-name-input {
-    background-color: transparent;
+:root[data-theme="dark"] .schedule-selector-btn,
+:root[data-theme="dark"] .schedule-row-select,
+:root[data-theme="dark"] .schedule-new-btn,
+:root[data-theme="dark"] .schedule-row-action {
     color: var(--color-text);
+}
+
+:root[data-theme="dark"] .schedule-selector-menu {
+    background: var(--color-surface);
 }
 
 :root[data-theme="dark"] .field label,

@@ -140,13 +140,29 @@
                  aria-label="Your schedule">
             <div class="pane-topbar">
                 <div class="schedule-title">
-                    <label class="visually-hidden" for="scheduleNameInput">Schedule name</label>
-                    <input type="text"
-                           id="scheduleNameInput"
-                           class="schedule-name-input"
-                           maxlength="20"
-                           value="My Schedule"
-                           aria-label="Schedule name">
+                    <div class="dropdown schedule-selector">
+                        <button type="button"
+                                class="schedule-selector-btn dropdown-toggle"
+                                id="scheduleSelectorButton"
+                                data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside"
+                                aria-expanded="false"
+                                aria-haspopup="true">
+                            <span id="scheduleSelectorLabel">My Schedule</span>
+                        </button>
+                        <div class="dropdown-menu schedule-selector-menu"
+                             id="scheduleSelectorMenu"
+                             aria-labelledby="scheduleSelectorButton">
+                            <div class="schedule-selector-list" id="scheduleSelectorList"></div>
+                            <div class="schedule-selector-divider" role="separator"></div>
+                            <button type="button"
+                                    class="schedule-new-btn"
+                                    data-schedule-action="new">
+                                <span aria-hidden="true">+</span>
+                                <span>New Schedule</span>
+                            </button>
+                        </div>
+                    </div>
                     <span class="credits-label">(<span id="creditCount">0</span> Credits)</span>
                 </div>
                 <div class="pane-topbar-actions">
