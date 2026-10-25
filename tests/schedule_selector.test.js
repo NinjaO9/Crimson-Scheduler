@@ -53,11 +53,11 @@ describe("schedule selector", () => {
     );
   });
 
-  it("creates and activates an empty Untitled Schedule", async () => {
+  it("creates and activates an empty My Schedule", async () => {
     click(document.querySelector('[data-schedule-action="new"]'));
     await Promise.resolve();
 
-    expect(getActiveSchedule().name).toBe("Untitled Schedule");
+    expect(getActiveSchedule().name).toBe("My Schedule");
     expect(getActiveSchedule().section_refs).toEqual([]);
     expect(onScheduleChange).toHaveBeenCalled();
   });
