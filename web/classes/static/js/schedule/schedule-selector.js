@@ -18,8 +18,6 @@ import {
   switchSchedule,
 } from "./schedule-state.js";
 
-const NEW_SCHEDULE_NAME = "Untitled Schedule";
-
 let changeHandler = null;
 let selectorButton = null;
 
@@ -184,9 +182,10 @@ function renderScheduleSelector() {
 }
 
 /**
+ * Handles actions that can be preformed by the selector.
  * 
- * @param {*} event 
- * @returns 
+ * @param {Event} event - Click event from a user pressing a schedule selector action.
+ * @returns {void}
  */
 async function handleScheduleAction(event) {
   const target = event.target.closest("[data-schedule-action]");
@@ -223,7 +222,7 @@ async function handleScheduleAction(event) {
   }
 
   if (action === "new") {
-    const created = createSchedule(NEW_SCHEDULE_NAME);
+    const created = createSchedule(DEFAULT_SCHEDULE_NAME);
     if (!created) return;
     switchSchedule(created.id);
     renderScheduleSelector();
@@ -245,8 +244,8 @@ async function handleScheduleAction(event) {
 /**
  * Prepares the schedule selector for user interaction. Should only run once.
  * 
- * @param {*} param0 
- * @returns 
+ * @param {Function} [options.onScheduleChange] - Action to be preformed when the schedule is modified. 
+ * @returns {void}
  */
 export function initializeScheduleSelector({ onScheduleChange } = {}) {
   selectorButton = document.getElementById("scheduleSelectorButton");

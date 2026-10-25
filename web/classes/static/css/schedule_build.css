@@ -759,10 +759,12 @@
     outline: 0;
 }
 
+.schedule-row-edit:hover,
+.schedule-row-edit:focus-visible,
 .schedule-row-delete:hover,
 .schedule-row-delete:focus-visible {
-    background: var(--color-danger-surface);
-    color: var(--color-danger-text);
+    background: var(--crimson);
+    color: #fff;
 }
 
 .schedule-row-input {
