@@ -127,7 +127,6 @@ export function populateCourseFilterOptions() {
   // Populate delivery filter
   populateFilterCheckboxes("delivery", [
     { value: "in-person", label: "In person" },
-    { value: "online", label: "Online" },
     { value: "arranged", label: "Arranged" },
   ]);
 
