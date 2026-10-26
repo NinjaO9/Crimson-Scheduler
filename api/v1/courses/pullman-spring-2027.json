@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T19:19:05.593779+00:00",
+  "generatedAt": "2026-10-26T23:54:15.850536+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -26560,11 +26560,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "09:10 - 10:00",
+              "time": "14:10 - 15:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "09:10 - 10:00"
+                  "time": "14:10 - 15:00"
                 }
               ],
               "location": "WEGN G0001",
@@ -26608,11 +26608,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "14:10 - 15:00",
+              "time": "09:10 - 10:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "14:10 - 15:00"
+                  "time": "09:10 - 10:00"
                 }
               ],
               "location": "WEGN G0001",
@@ -26676,6 +26676,54 @@
                 "total": 28,
                 "available": 28,
                 "label": "0/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Chemical Process Analysis and Design II",
+          "subject": "CHE",
+          "subjectPrefix": "Ch E",
+          "courseNumber": 451,
+          "courseCode": "CHE 451",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12068",
+              "sln": 12068,
+              "sectionNumber": 1,
+              "courseCode": "CHE 451",
+              "courseName": "Chemical Process Analysis and Design II",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "SEH  205",
+              "instructor": "C LEHMAN-CHONG",
+              "instructors": [
+                "C LEHMAN-CHONG"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
               },
               "dates": {
                 "start": "Jan 11",
@@ -44408,7 +44456,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "COLL 220",
               "instructor": "D OLIVER",
               "instructors": [
                 "D OLIVER"
@@ -55996,7 +56044,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "CUE  216",
+              "location": "CUE  416",
               "instructor": "I GARNICA",
               "instructors": [
                 "I GARNICA"
@@ -135981,9 +136029,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -136563,15 +136611,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "12:10 - 13:00",
+              "days": "ARR",
+              "time": "ARRGT",
               "meetings": [
                 {
-                  "days": "M,W",
-                  "time": "12:10 - 13:00"
+                  "days": "ARR",
+                  "time": "ARRGT"
                 }
               ],
-              "location": "EDAD 202",
+              "location": "ARR  ARR",
               "instructor": "H VAN MULLEM",
               "instructors": [
                 "H VAN MULLEM"
@@ -141639,7 +141687,7 @@
                   "time": "14:55 - 16:45"
                 }
               ],
-              "location": "CUE  416",
+              "location": "CUE  405",
               "instructor": "C WOODS",
               "instructors": [
                 "C WOODS"
@@ -141676,7 +141724,7 @@
                   "time": "15:10 - 17:00"
                 }
               ],
-              "location": "CUE  416",
+              "location": "CUE  405",
               "instructor": "S SOLOMON",
               "instructors": [
                 "S SOLOMON"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T19:19:05.358307+00:00",
+  "generatedAt": "2026-10-26T23:54:15.672049+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -15000,6 +15000,52 @@
       "subject": "HUMANITY",
       "courses": [
         {
+          "course": "Humanities in the Ancient World",
+          "subject": "HUMANITY",
+          "subjectPrefix": "Hum",
+          "courseNumber": 101,
+          "courseCode": "HUMANITY 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12059",
+              "sln": 12059,
+              "sectionNumber": 1,
+              "courseCode": "HUMANITY 101",
+              "courseName": "Humanities in the Ancient World",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Mythology",
           "subject": "HUMANITY",
           "subjectPrefix": "Hum",
@@ -20080,8 +20126,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A KHAMATDINOVA",
+              "instructors": [
+                "A KHAMATDINOVA"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "V",
@@ -20126,8 +20174,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A KHAMATDINOVA",
+              "instructors": [
+                "A KHAMATDINOVA"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "V",
@@ -20172,8 +20222,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J AKOWUAH",
+              "instructors": [
+                "J AKOWUAH"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "V",
@@ -20218,8 +20270,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C GODKIN",
+              "instructors": [
+                "C GODKIN"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "V",
@@ -20360,8 +20414,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M NUR",
+              "instructors": [
+                "M NUR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -20502,8 +20558,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M RITTER",
+              "instructors": [
+                "M RITTER"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "V",
