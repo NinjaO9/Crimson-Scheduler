@@ -20,6 +20,7 @@ import {
 
 let changeHandler = null;
 let selectorButton = null;
+let isEditing = false;
 
 /**
  * Takes a name of a schedule, and normalizes it to ensure nothing unexprected happens later
@@ -109,8 +110,10 @@ function beginRename(row, schedule) {
   input.select();
 
   let finished = false;
+  isEditing = true;
   const finish = (save) => {
     if (finished) return;
+    isEditing = false;
     finished = true;
     if (save) renameSchedule(schedule.id, normalizeName(input.value));
     renderScheduleSelector();
@@ -132,6 +135,14 @@ function beginRename(row, schedule) {
       finish(false);
     }
   });
+  
+  const keepDropdownOpen = (event) => {
+    // Quick fix for preventing dropdown from disappearing when trying to edit names
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+  };
+  input.addEventListener("mousedown", keepDropdownOpen);
+  input.addEventListener("click", keepDropdownOpen);
 }
 
 /**
