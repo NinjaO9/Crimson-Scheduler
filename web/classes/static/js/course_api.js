@@ -190,7 +190,8 @@
      */
     function subjectMatchesShorthand(subject, shorthand) {
         const mappedSubject = SUBJECT_SHORTHANDS.get(shorthand);
-        return mappedSubject && normalizeSearchText(mappedSubject) === normalizeSearchText(subject);
+        return (mappedSubject && normalizeSearchText(mappedSubject) === normalizeSearchText(subject)) 
+        || normalizeSearchText(subject) === normalizeSearchText(shorthand); // Adding this just incase a shorthand is exactly a subject. Should fix the issue with Vancouver not showing CS courses when typing "CS"
     }
 
     /** Classifies a section as open, near-capacity, or full.
