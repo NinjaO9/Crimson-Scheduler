@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T12:56:03.938882+00:00",
+  "generatedAt": "2026-10-26T19:19:05.593779+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -5171,7 +5171,7 @@
           "courseNumber": 492,
           "courseCode": "AMDT 492",
           "credits": "3",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "6250",
@@ -5182,7 +5182,7 @@
               "credits": "3",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "W,F",
               "time": "13:10 - 15:40",
               "meetings": [
@@ -5192,6 +5192,43 @@
                 }
               ],
               "location": "CLAR 444",
+              "instructor": "Z ZHAO",
+              "instructors": [
+                "Z ZHAO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6251",
+              "sln": 6251,
+              "sectionNumber": 1,
+              "courseCode": "AMDT 492",
+              "courseName": "Computer Applications in Apparel, Textile, and Design",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
               "instructor": "Z ZHAO",
               "instructors": [
                 "Z ZHAO"
@@ -26732,9 +26769,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 8,
+                "available": 8,
+                "label": "0/8"
               },
               "dates": {
                 "start": "Jan 11",
@@ -44350,19 +44387,56 @@
           "subjectPrefix": "Cst M",
           "courseNumber": 252,
           "courseCode": "CST_M 252",
-          "credits": "0",
-          "hasRequiredLab": false,
+          "credits": "4",
+          "hasRequiredLab": true,
           "sections": [
+            {
+              "sectionId": "5703",
+              "sln": 5703,
+              "sectionNumber": 1,
+              "courseCode": "CST_M 252",
+              "courseName": "Construction Administration and Documentation",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "D OLIVER",
+              "instructors": [
+                "D OLIVER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 65,
+                "available": 65,
+                "label": "0/65"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
             {
               "sectionId": "5704",
               "sln": 5704,
               "sectionNumber": 1,
               "courseCode": "CST_M 252",
               "courseName": "Construction Administration and Documentation",
-              "credits": "0",
+              "credits": "4",
               "component": "LAB",
               "isLab": true,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "TU",
               "time": "09:10 - 11:00",
               "meetings": [
@@ -44396,10 +44470,10 @@
               "sectionNumber": 2,
               "courseCode": "CST_M 252",
               "courseName": "Construction Administration and Documentation",
-              "credits": "0",
+              "credits": "4",
               "component": "LAB",
               "isLab": true,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "TH",
               "time": "09:10 - 11:00",
               "meetings": [
@@ -90637,15 +90711,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "13:10 - 15:00",
+              "days": "W",
+              "time": "14:00 - 17:00",
               "meetings": [
                 {
-                  "days": "M,W",
-                  "time": "13:10 - 15:00"
+                  "days": "W",
+                  "time": "14:00 - 17:00"
                 }
               ],
-              "location": "SPRK 208",
+              "location": "WEBS 941",
               "instructor": "K VIXIE",
               "instructors": [
                 "K VIXIE"
@@ -119264,8 +119338,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A KHAMATDINOVA",
+              "instructors": [
+                "A KHAMATDINOVA"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "V",
@@ -119347,8 +119423,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A KHAMATDINOVA",
+              "instructors": [
+                "A KHAMATDINOVA"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "V",
@@ -119478,8 +119556,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J AKOWUAH",
+              "instructors": [
+                "J AKOWUAH"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "V",
@@ -119524,8 +119604,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C GODKIN",
+              "instructors": [
+                "C GODKIN"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "V",
@@ -119847,8 +119929,10 @@
                 }
               ],
               "location": "TODD 404",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R SWANK",
+              "instructors": [
+                "R SWANK"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -119930,8 +120014,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M NUR",
+              "instructors": [
+                "M NUR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -120168,8 +120254,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M RITTER",
+              "instructors": [
+                "M RITTER"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "V",
@@ -120262,8 +120350,10 @@
                 }
               ],
               "location": "SPRK 235",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S SMITH",
+              "instructors": [
+                "S SMITH"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -139223,9 +139313,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -139258,9 +139348,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -139547,9 +139637,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Feb 15",
@@ -139582,9 +139672,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Feb 15",
@@ -139906,9 +139996,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Feb 15",
@@ -139941,9 +140031,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Feb 15",
@@ -139987,9 +140077,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Feb 15",
@@ -140022,9 +140112,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Feb 15",
@@ -140068,9 +140158,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 75,
-                "available": 75,
-                "label": "0/75"
+                "total": 55,
+                "available": 55,
+                "label": "0/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140114,9 +140204,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 75,
-                "available": 75,
-                "label": "0/75"
+                "total": 55,
+                "available": 55,
+                "label": "0/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140497,9 +140587,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140543,9 +140633,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140670,9 +140760,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Feb 15",
@@ -140716,9 +140806,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140762,9 +140852,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 36,
-                "available": 36,
-                "label": "0/36"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Feb 15",
@@ -140808,9 +140898,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "total": 28,
+                "available": 28,
+                "label": "0/28"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140843,9 +140933,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "total": 28,
+                "available": 28,
+                "label": "0/28"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140889,9 +140979,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 75,
-                "available": 75,
-                "label": "0/75"
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
               },
               "dates": {
                 "start": "Jan 11",
