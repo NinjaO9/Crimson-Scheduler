@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T16:36:35.676766+00:00",
+  "generatedAt": "2026-10-27T21:19:58.929987+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -49812,11 +49812,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "W",
+              "days": "TU",
               "time": "17:15 - 19:45",
               "meetings": [
                 {
-                  "days": "W",
+                  "days": "TU",
                   "time": "17:15 - 19:45"
                 }
               ],
@@ -80328,6 +80328,41 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "7355",
+              "sln": 7355,
+              "sectionNumber": 2,
+              "courseCode": "KIN_ACTV 100",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "PEB  30",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -80495,6 +80530,43 @@
               "instructor": "M MALONE",
               "instructors": [
                 "M MALONE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6404",
+              "sln": 6404,
+              "sectionNumber": 3,
+              "courseCode": "KIN_ACTV 112",
+              "courseName": "Beginning Weight Training",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "PEB  30",
+              "instructor": "M MANN",
+              "instructors": [
+                "M MANN"
               ],
               "ucore": "",
               "coop": false,
@@ -93356,6 +93428,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "11713",
+              "sln": 11713,
+              "sectionNumber": 4,
+              "courseCode": "ME 116",
+              "courseName": "Engineering Computer-aided Design and Visualization",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "SLOA 249",
+              "instructor": "E LARSEN",
+              "instructors": [
+                "E LARSEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -93424,8 +93533,10 @@
                 }
               ],
               "location": "SEH  210",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N PEREZ ARANCIBIA",
+              "instructors": [
+                "N PEREZ ARANCIBIA"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -125745,6 +125856,54 @@
           ]
         },
         {
+          "course": "Artificial Intelligence, Technology & Society",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 230,
+          "courseCode": "SOC 230",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11625",
+              "sln": 11625,
+              "sectionNumber": 1,
+              "courseCode": "SOC 230",
+              "courseName": "Artificial Intelligence, Technology & Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "",
+              "instructor": "K LENDY",
+              "instructors": [
+                "K LENDY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Sociology of Sport",
           "subject": "SOC",
           "subjectPrefix": "Soc",
@@ -127174,6 +127333,54 @@
                 "total": 24,
                 "available": 24,
                 "label": "0/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Sociology Profession",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 591,
+          "courseCode": "SOC 591",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5387",
+              "sln": 5387,
+              "sectionNumber": 1,
+              "courseCode": "SOC 591",
+              "courseName": "The Sociology Profession",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "13:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "13:10 - 15:00"
+                }
+              ],
+              "location": "WLSH 201",
+              "instructor": "M AMORIM",
+              "instructors": [
+                "M AMORIM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
