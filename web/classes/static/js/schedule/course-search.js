@@ -635,6 +635,11 @@ export function createSectionGroupTitle(label, required, className) {
  */
 export function createSectionTable(course, sections, choiceType) {
   const table = createElementWithText("div", "section-table", "");
+  table.tabIndex = 0;
+  table.setAttribute(
+    "aria-label",
+    `${choiceType === "lab" ? "Lab" : "Lecture"} section results`,
+  );
   const header = createElementWithText("div", "section-table-head", "");
   ["Section", "O. Seats", "Time", "Days", "Location", "Instructor"].forEach(
     (label) => header.appendChild(createElementWithText("span", null, label)),
