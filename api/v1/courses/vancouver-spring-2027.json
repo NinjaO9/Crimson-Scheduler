@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T21:19:59.178986+00:00",
+  "generatedAt": "2026-10-28T01:20:16.213056+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -6266,6 +6266,43 @@
               "instructor": "T GILRAY",
               "instructors": [
                 "T GILRAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7896",
+              "sln": 7896,
+              "sectionNumber": 4,
+              "courseCode": "CS 580",
+              "courseName": "Advanced Topics in Computer Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "S WALLACE",
+              "instructors": [
+                "S WALLACE"
               ],
               "ucore": "",
               "coop": false,

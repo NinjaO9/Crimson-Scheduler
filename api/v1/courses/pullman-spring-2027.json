@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T21:19:58.929987+00:00",
+  "generatedAt": "2026-10-28T01:20:15.998728+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -45707,6 +45707,43 @@
               }
             },
             {
+              "sectionId": "7070",
+              "sln": 7070,
+              "sectionNumber": 2,
+              "courseCode": "DATA 360",
+              "courseName": "Probability and Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "FULM 125",
+              "instructor": "W XIE",
+              "instructors": [
+                "W XIE"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 8,
+                "available": 8,
+                "label": "0/8"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
               "sectionId": "11168",
               "sln": 11168,
               "sectionNumber": 3,
@@ -57415,8 +57452,10 @@
                 }
               ],
               "location": "BRYN 406",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J JONES",
+              "instructors": [
+                "J JONES"
+              ],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "",
@@ -79059,6 +79098,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "6135",
+              "sln": 6135,
+              "sectionNumber": 2,
+              "courseCode": "I_D 426",
+              "courseName": "Interior Design Studio VII",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 17:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 17:00"
+                }
+              ],
+              "location": "CARP 320",
+              "instructor": "M MELCHER",
+              "instructors": [
+                "M MELCHER"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 14,
+                "available": 14,
+                "label": "0/14"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -80348,8 +80424,10 @@
                 }
               ],
               "location": "PEB  30",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R KIDD",
+              "instructors": [
+                "R KIDD"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -87060,8 +87138,10 @@
                 }
               ],
               "location": "COLL 235",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B NELSON",
+              "instructors": [
+                "B NELSON"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "",
@@ -88229,8 +88309,10 @@
                 }
               ],
               "location": "WEGN G0001",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C KENYON",
+              "instructors": [
+                "C KENYON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -89191,8 +89273,10 @@
                 }
               ],
               "location": "TODD 230",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B NELSON",
+              "instructors": [
+                "B NELSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -105469,11 +105553,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "10:00 - 10:50",
+              "time": "08:00 - 08:50",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "10:00 - 10:50"
+                  "time": "08:00 - 08:50"
                 }
               ],
               "location": "KIMB 245",
@@ -115925,8 +116009,10 @@
                 }
               ],
               "location": "WEBS 16",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N CERRUTI",
+              "instructors": [
+                "N CERRUTI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -137504,6 +137590,43 @@
               }
             },
             {
+              "sectionId": "4624",
+              "sln": 4624,
+              "sectionNumber": 2,
+              "courseCode": "STAT 360",
+              "courseName": "Probability and Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "FULM 125",
+              "instructor": "W XIE",
+              "instructors": [
+                "W XIE"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
               "sectionId": "1944",
               "sln": 1944,
               "sectionNumber": 3,
@@ -138919,9 +139042,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "M LESPERANCE",
+              "instructor": "A KAUL",
               "instructors": [
-                "M LESPERANCE"
+                "A KAUL"
               ],
               "ucore": "",
               "coop": false,
