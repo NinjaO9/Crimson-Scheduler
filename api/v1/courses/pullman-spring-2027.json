@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T16:03:19.254655+00:00",
+  "generatedAt": "2026-10-28T21:06:03.376376+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -23197,12 +23197,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M",
-              "time": "15:10 - 16:00",
+              "days": "W",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M",
-                  "time": "15:10 - 16:00"
+                  "days": "W",
+                  "time": "11:10 - 12:00"
                 }
               ],
               "location": "SEH  G0005",
@@ -29234,11 +29234,11 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "TH,TH",
-              "time": "13:55 - 16:45;14:55 - 17:45",
+              "time": "14:55 - 17:35;14:55 - 17:45",
               "meetings": [
                 {
                   "days": "TH",
-                  "time": "13:55 - 16:45"
+                  "time": "14:55 - 17:35"
                 },
                 {
                   "days": "TH",
@@ -41013,8 +41013,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B AMMANAGHATTA SHIVA",
+              "instructors": [
+                "B AMMANAGHATTA SHIVA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -41059,8 +41061,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B AMMANAGHATTA SHIVA",
+              "instructors": [
+                "B AMMANAGHATTA SHIVA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -49523,8 +49527,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B BELZER",
+              "instructors": [
+                "B BELZER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -57443,15 +57449,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
               "meetings": [
                 {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
                 }
               ],
-              "location": "BRYN 406",
+              "location": "AVER 102",
               "instructor": "J JONES",
               "instructors": [
                 "J JONES"
@@ -57461,9 +57467,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -66050,6 +66056,54 @@
               "dates": {
                 "start": "Jan 11",
                 "end": "Mar 12"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Studies in Foreign Languages",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 300,
+          "courseCode": "FOR_LANG 300",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5922",
+              "sln": 5922,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 300",
+              "courseName": "Studies in Foreign Languages",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 18:00"
+                }
+              ],
+              "location": "THOM 24",
+              "instructor": "S LOPEZ-LOPEZ",
+              "instructors": [
+                "S LOPEZ-LOPEZ"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
               }
             }
           ]
@@ -84339,11 +84393,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "M",
               "time": "08:10 - 09:00",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "M",
                   "time": "08:10 - 09:00"
                 }
               ],
@@ -93994,15 +94048,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F,M",
-              "time": "11:10 - 12:00;17:10 - 19:00",
+              "days": "M,W,F,W",
+              "time": "15:10 - 16:00;17:10 - 19:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "11:10 - 12:00"
+                  "time": "15:10 - 16:00"
                 },
                 {
-                  "days": "M",
+                  "days": "W",
                   "time": "17:10 - 19:00"
                 }
               ],
@@ -100672,15 +100726,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F,M",
-              "time": "11:10 - 12:00;17:10 - 19:00",
+              "days": "M,W,F,W",
+              "time": "15:10 - 16:00;17:10 - 19:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "11:10 - 12:00"
+                  "time": "15:10 - 16:00"
                 },
                 {
-                  "days": "M",
+                  "days": "W",
                   "time": "17:10 - 19:00"
                 }
               ],
@@ -134465,7 +134519,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "BRYN 406",
+              "location": "CUE  209",
               "instructor": "S LOPEZ-LOPEZ",
               "instructors": [
                 "S LOPEZ-LOPEZ"

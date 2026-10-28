@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T16:03:19.474660+00:00",
+  "generatedAt": "2026-10-28T21:06:03.642510+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -18994,6 +18994,54 @@
           ]
         },
         {
+          "course": "Fundamentals of Environmental Toxicology",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 531,
+          "courseCode": "SOE 531",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11926",
+              "sln": 11926,
+              "sectionNumber": 1,
+              "courseCode": "SOE 531",
+              "courseName": "Fundamentals of Environmental Toxicology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "J MCINTYRE",
+              "instructors": [
+                "J MCINTYRE"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Environmental Assessment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -19078,9 +19126,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",

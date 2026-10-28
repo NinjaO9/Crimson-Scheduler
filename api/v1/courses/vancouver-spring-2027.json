@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T16:03:19.548367+00:00",
+  "generatedAt": "2026-10-28T21:06:03.728036+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -24943,6 +24943,54 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Watershed Management",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 461,
+          "courseCode": "SOE 461",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2389",
+              "sln": 2389,
+              "sectionNumber": 1,
+              "courseCode": "SOE 461",
+              "courseName": "Watershed Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
