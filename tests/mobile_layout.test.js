@@ -86,8 +86,7 @@ describe("mobile layout sheets", () => {
       course_code: "CPT_S 121",
       course_name: "Program Design",
       section_num: "01",
-      days: "MWF",
-      time: "9:00 AM - 9:50 AM",
+      meetings: [{ days: "MWF", time: "9:00 AM - 9:50 AM" }],
       location: "SLO 101",
       instructor: "Instructor",
       credits: "4",
@@ -97,6 +96,9 @@ describe("mobile layout sheets", () => {
     expect(sheet.getAttribute("aria-hidden")).toBe("false");
     expect(document.getElementById("mobileCourseDetails").textContent).toContain(
       "CPT_S 121",
+    );
+    expect(document.getElementById("mobileCourseDetails").textContent).toContain(
+      "MWF | 9:00 AM - 9:50 AM",
     );
     expect(document.activeElement).toBe(
       document.getElementById("mobileCourseRemove"),

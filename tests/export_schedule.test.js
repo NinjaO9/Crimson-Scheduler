@@ -20,8 +20,7 @@ const timedEntry = (overrides = {}) => ({
   course_code: "CPT_S 121",
   instructor: "A. Instructor",
   location: "Todd 101",
-  days: "MWF",
-  time: "9:00 AM - 9:50 AM",
+  meetings: [{ days: "MWF", time: "9:00 AM - 9:50 AM" }],
   dates: { start: "Aug 24", end: "Dec 11" },
   ...overrides,
 });
@@ -45,8 +44,10 @@ describe("calendar export", () => {
 
   it("creates one recurring event per meeting group", () => {
     const { calendar, eventCount } = generateCalendar("Fall Schedule", [timedEntry({
-      days: "MWF,T",
-      time: "9:00 AM - 9:50 AM;1:00 PM - 2:15 PM",
+      meetings: [
+        { days: "MWF", time: "9:00 AM - 9:50 AM" },
+        { days: "T", time: "1:00 PM - 2:15 PM" },
+      ],
     })]);
     const ics = calendar.toString();
     expect(eventCount).toBe(2);
@@ -62,7 +63,7 @@ describe("calendar export", () => {
 
   it("silently omits unscheduled sections", () => {
     const { calendar, eventCount } = generateCalendar("Fall Schedule", [
-      timedEntry({ days: "ARR", time: "ARR" }),
+      timedEntry({ meetings: [{ days: "ARR", time: "ARR" }] }),
       timedEntry({ section_id: "456", term_slug: "unknown-2026", dates: { start: "", end: "" } }),
     ]);
     expect(eventCount).toBe(0);

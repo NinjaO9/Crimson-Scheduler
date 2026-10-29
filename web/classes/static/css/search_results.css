@@ -154,6 +154,15 @@
 .section-table {
     display: grid;
     gap: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.section-table:focus-visible {
+    outline: 2px solid var(--crimson);
+    outline-offset: 2px;
 }
 
 .section-table-head,
@@ -162,11 +171,12 @@
     border-bottom: 1px solid #edf0f4;
     display: grid;
     gap: 12px;
-    grid-template-columns: 72px 60px minmax(132px, 1.2fr) 56px minmax(92px, 1fr) minmax(92px, 1fr);
+    grid-template-columns: 72px 60px 56px minmax(132px, 1.2fr) minmax(92px, 1fr) minmax(92px, 1fr);
     justify-items: center;
-    min-width: 0;
+    min-width: 100%;
     padding: 9px 0;
     text-align: center;
+    width: max-content;
 }
 
 .section-table-head {
@@ -203,9 +213,20 @@
     overflow-wrap: anywhere;
 }
 
-.section-table-head span:last-child,
-.section-choice-row > span:last-child {
+.time-display,
+.days-display {
+    line-height: 1.35;
+    white-space: pre-line;
+}
+
+.instructor-display {
+    line-height: 1.35;
+    white-space: pre-line;
+}
+
+.section-table-head span:last-child {
     overflow-wrap: normal;
+    white-space: nowrap;
     word-break: normal;
 }
 
@@ -234,14 +255,14 @@
 
 @media (max-width: 1450px) {
     .section-table {
-        overflow-x: visible;
+        overflow-x: auto;
     }
 
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 64px minmax(124px, 1.25fr) 56px minmax(82px, 0.9fr) minmax(112px, 1.2fr);
-        min-width: 0;
+        grid-template-columns: 64px 56px minmax(124px, 1.25fr) minmax(82px, 0.9fr) minmax(112px, 1.2fr);
+        min-width: 100%;
     }
 
     .section-table-head span:nth-child(2),
@@ -267,14 +288,13 @@
 
     .section-table {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
     }
 
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 48px 60px minmax(104px, 1fr) 36px 56px 70px;
-        min-width: 410px;
+        grid-template-columns: 48px 60px 52px minmax(128px, 1fr) 72px 96px;
+        min-width: 500px;
     }
 
     .section-table-head {

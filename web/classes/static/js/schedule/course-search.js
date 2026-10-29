@@ -7,7 +7,7 @@
 
 import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
-import { formatMeetingListForDisplay } from "./time-and-meetings.js";
+import { formatTimeRangeForDisplay } from "./time-and-meetings.js";
 import { uses24HourTime } from "./preferences.js";
 import {
   fetchCourseInformation,
@@ -340,21 +340,31 @@ export function renderSectionChoice(course, section, choiceType) {
   const openSeats = Number.isFinite(section.seats_available)
     ? String(section.seats_available)
     : "N/A";
+  const meetings = Array.isArray(section.meetings) ? section.meetings : [];
+  const daysText = meetings.map((meeting) => String(meeting?.days || "").trim() || "Days unavailable").join("\n") || "Days unavailable";
+  const timeText = meetings.map((meeting) => formatTimeRangeForDisplay(meeting?.time) || "Time unavailable").join("\n") || "Time unavailable";
   row.append(
     select,
     createElementWithText("span", null, openSeats),
-    createElementWithText("span", "time-display", section.time),
-    createElementWithText("span", null, section.days),
+    createElementWithText("span", "days-display", daysText),
+    createElementWithText("span", "time-display", timeText),
     createElementWithText("span", null, section.location),
-    createElementWithText("span", null, section.instructor),
+    createElementWithText("span", "instructor-display", formatInstructorForTable(section.instructor)),
   );
-  row.children[2].setAttribute(
-    "data-time",
-    String(
-      section.time === null || section.time === undefined ? "" : section.time,
-    ),
-  );
+  row.setAttribute("data-meetings", JSON.stringify(meetings));
   return row;
+}
+
+/**
+ * Formats an instructor name for a compact result-table cell.
+ *
+ * @param {string} instructor - Instructor name supplied by the catalog.
+ * @returns {string} Name with a deliberate line break when it has multiple tokens.
+ */
+export function formatInstructorForTable(instructor) {
+  const normalized = String(instructor || "").trim();
+  const match = normalized.match(/^(\S+)\s+(.+)$/);
+  return match ? `${match[1]}\n${match[2]}` : normalized;
 }
 
 /**
@@ -635,8 +645,13 @@ export function createSectionGroupTitle(label, required, className) {
  */
 export function createSectionTable(course, sections, choiceType) {
   const table = createElementWithText("div", "section-table", "");
+  table.tabIndex = 0;
+  table.setAttribute(
+    "aria-label",
+    `${choiceType === "lab" ? "Lab" : "Lecture"} section results`,
+  );
   const header = createElementWithText("div", "section-table-head", "");
-  ["Section", "O. Seats", "Time", "Days", "Location", "Instructor"].forEach(
+  ["Section", "O. Seats", "Days", "Time", "Location", "Instructor"].forEach(
     (label) => header.appendChild(createElementWithText("span", null, label)),
   );
   table.appendChild(header);
@@ -652,17 +667,22 @@ export function createSectionTable(course, sections, choiceType) {
 }
 
 /**
- * Re-formats rendered meeting times according to the active time preference.
- * Operates on the `data-time` values emitted by {@link renderSectionChoice}.
+ * Re-formats rendered meeting records according to the active time preference.
+ * Operates on the `data-meetings` values emitted by {@link renderSectionChoice}.
  *
  * @returns {void}
- * @see {@link formatMeetingListForDisplay}
  */
 export function updateSearchResultTimeDisplays() {
-  document.querySelectorAll(".time-display[data-time]").forEach((element) => {
-    element.textContent = formatMeetingListForDisplay(
-      element.getAttribute("data-time"),
-    );
+  document.querySelectorAll(".section-choice-row[data-meetings]").forEach((row) => {
+    const timeCell = row.querySelector(".time-display");
+    if (!timeCell) return;
+    let meetings = [];
+    try {
+      meetings = JSON.parse(row.getAttribute("data-meetings") || "[]");
+    } catch (error) {
+      meetings = [];
+    }
+    timeCell.textContent = meetings.map((meeting) => formatTimeRangeForDisplay(meeting?.time) || "Time unavailable").join("\n") || "Time unavailable";
   });
 }
 

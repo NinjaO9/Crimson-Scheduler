@@ -33,8 +33,7 @@ export const SHARE_CODE_PREFIX = "CS2.";
 export const REQUIRED_COURSE_FIELDS = [
   "section_id",
   "course_code",
-  "days",
-  "time",
+  "meetings",
 ];
 export const RATE_LIMIT_TOAST_ID = "rateLimitToast";
 export const DAY_TOKEN_MAP = [

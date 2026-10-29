@@ -39,8 +39,7 @@ const entry = (sectionId, groupId = null) => ({
   term_slug: "fall-2026",
   schedule_group_id: groupId,
   course_code: "CPT_S 121",
-  days: "MWF",
-  time: "9:00 AM - 9:50 AM",
+  meetings: [{ days: "MWF", time: "9:00 AM - 9:50 AM" }],
 });
 
 describe("schedule state", () => {

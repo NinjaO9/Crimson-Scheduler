@@ -997,6 +997,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     z-index: 30;
 }
 
+.course-block-tooltip,
+.mobile-course-meta {
+    white-space: pre-line;
+}
+
 .course-block-tooltip.tooltip-above {
     bottom: calc(100% + 7px);
     top: auto;
