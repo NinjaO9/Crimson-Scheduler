@@ -26,7 +26,6 @@ import { isMobileViewport } from "./responsive.js";
 import {
   formatHourLabel,
   formatTimeRangeForDisplay,
-  formatMeetingsForDisplay,
   resolveScheduleGroups,
 } from "./time-and-meetings.js";
 import { rmpSearchUrl } from "./course-information.js"
@@ -198,7 +197,7 @@ export function renderCourseBlock(dayIndex, timeRange, courseData, meeting) {
     block.type = "button";
     block.setAttribute(
       "aria-label",
-      `${courseData.course_code} ${formatMeetingsForDisplay([meeting])}. Tap for course actions.`,
+      `${courseData.course_code} ${meeting?.days || "Days unavailable"} | ${formatTimeRangeForDisplay(meeting?.time)}. Tap for course actions.`,
     );
   }
   block.style.height =
@@ -319,7 +318,11 @@ export function clearSectionGhosts() {
  * @returns {string} The formatted course label.
  */
 export function getCourseLabel(courseData) {
-  return `${courseData.course_code} (${formatMeetingsForDisplay(courseData.meetings)})`;
+  const meetings = Array.isArray(courseData.meetings) ? courseData.meetings : [];
+  const meetingLabel = meetings
+    .map((meeting) => `${meeting.days || "Days unavailable"} | ${formatTimeRangeForDisplay(meeting.time)}`)
+    .join("\n") || "Meetings unavailable";
+  return `${courseData.course_code} (${meetingLabel})`;
 }
 
 /**
@@ -330,20 +333,6 @@ export function getCourseLabel(courseData) {
  */
 export function getCourseRemovalLabel(courseData) {
   return `${courseData.course_code} - ${courseData.section_num}`;
-}
-
-/**
- * Formas the meeting times (time specifically) for a meeting.
- *
- * @param {{time: string}[]} meetings - Meeting records.
- * @returns {string} Meeting times, one per line.
- */
-function formatMeetingTimesForDisplay(meetings) {
-  if (!Array.isArray(meetings) || !meetings.length) return "Time unavailable";
-  return meetings
-    .map((meeting) => formatTimeRangeForDisplay(meeting && meeting.time))
-    .filter(Boolean)
-    .join("\n") || "Time unavailable";
 }
 
 /**
@@ -404,7 +393,10 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
     createElementWithText(
       "span",
       "conflict-remove-meta",
-      `${formatMeetingTimesForDisplay(courseData.meetings)} - ${courseData.location || "Location: N/A"}`,
+      `${(Array.isArray(courseData.meetings) ? courseData.meetings : [])
+        .map((meeting) => formatTimeRangeForDisplay(meeting?.time))
+        .filter(Boolean)
+        .join("\n") || "Time unavailable"} - ${courseData.location || "Location: N/A"}`,
     ),
   );
   button.addEventListener("click", (event) => {
@@ -435,7 +427,9 @@ export function buildCourseTooltip(courseData) {
     fragment,
     "div",
     "",
-    formatMeetingsForDisplay(courseData.meetings),
+    (Array.isArray(courseData.meetings) ? courseData.meetings : [])
+      .map((meeting) => `${meeting.days || "Days unavailable"} | ${formatTimeRangeForDisplay(meeting.time)}`)
+      .join("\n") || "Meetings unavailable",
   );
   const instructorElement = appendTextElement(
     fragment,
@@ -587,7 +581,9 @@ export function openMobileCourseSheet(trigger, courseData) {
     details,
     "div",
     "mobile-course-meta",
-    formatMeetingsForDisplay(courseData.meetings),
+    (Array.isArray(courseData.meetings) ? courseData.meetings : [])
+      .map((meeting) => `${meeting.days || "Days unavailable"} | ${formatTimeRangeForDisplay(meeting.time)}`)
+      .join("\n") || "Meetings unavailable",
   );
   appendTextElement(
     details,

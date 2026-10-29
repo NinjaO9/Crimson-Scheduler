@@ -7,7 +7,7 @@
 
 import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
-import { formatMeetingsForDisplay } from "./time-and-meetings.js";
+import { formatTimeRangeForDisplay } from "./time-and-meetings.js";
 import { uses24HourTime } from "./preferences.js";
 import {
   fetchCourseInformation,
@@ -340,15 +340,18 @@ export function renderSectionChoice(course, section, choiceType) {
   const openSeats = Number.isFinite(section.seats_available)
     ? String(section.seats_available)
     : "N/A";
+  const meetings = Array.isArray(section.meetings) ? section.meetings : [];
+  const daysText = meetings.map((meeting) => String(meeting?.days || "").trim() || "Days unavailable").join("\n") || "Days unavailable";
+  const timeText = meetings.map((meeting) => formatTimeRangeForDisplay(meeting?.time) || "Time unavailable").join("\n") || "Time unavailable";
   row.append(
     select,
     createElementWithText("span", null, openSeats),
-    createElementWithText("span", "meeting-display", formatMeetingsForDisplay(section.meetings)),
+    createElementWithText("span", "days-display", daysText),
+    createElementWithText("span", "time-display", timeText),
     createElementWithText("span", null, section.location),
     createElementWithText("span", "instructor-display", formatInstructorForTable(section.instructor)),
   );
-  row.children[2].setAttribute("data-meetings", JSON.stringify(Array.isArray(section.meetings) ? section.meetings : []),
-  );
+  row.setAttribute("data-meetings", JSON.stringify(meetings));
   return row;
 }
 
@@ -648,7 +651,7 @@ export function createSectionTable(course, sections, choiceType) {
     `${choiceType === "lab" ? "Lab" : "Lecture"} section results`,
   );
   const header = createElementWithText("div", "section-table-head", "");
-  ["Section", "O. Seats", "Meetings", "Location", "Instructor"].forEach(
+  ["Section", "O. Seats", "Days", "Time", "Location", "Instructor"].forEach(
     (label) => header.appendChild(createElementWithText("span", null, label)),
   );
   table.appendChild(header);
@@ -668,15 +671,18 @@ export function createSectionTable(course, sections, choiceType) {
  * Operates on the `data-meetings` values emitted by {@link renderSectionChoice}.
  *
  * @returns {void}
- * @see {@link formatMeetingsForDisplay}
  */
 export function updateSearchResultTimeDisplays() {
-  document.querySelectorAll(".meeting-display[data-meetings]").forEach((element) => {
+  document.querySelectorAll(".section-choice-row[data-meetings]").forEach((row) => {
+    const timeCell = row.querySelector(".time-display");
+    if (!timeCell) return;
+    let meetings = [];
     try {
-      element.textContent = formatMeetingsForDisplay(JSON.parse(element.getAttribute("data-meetings") || "[]"));
+      meetings = JSON.parse(row.getAttribute("data-meetings") || "[]");
     } catch (error) {
-      element.textContent = formatMeetingsForDisplay([]);
+      meetings = [];
     }
+    timeCell.textContent = meetings.map((meeting) => formatTimeRangeForDisplay(meeting?.time) || "Time unavailable").join("\n") || "Time unavailable";
   });
 }
 

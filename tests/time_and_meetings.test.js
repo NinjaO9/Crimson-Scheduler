@@ -9,7 +9,7 @@ import { describe, expect, it } from "vitest";
 import {
   parseDaysToIndexes,
   parseTimeRange,
-  formatMeetingsForDisplay,
+  formatTimeRangeForDisplay,
   resolveScheduleGroups,
   timeToMinutes,
 } from "../web/classes/static/js/schedule/time-and-meetings.js";
@@ -42,9 +42,6 @@ describe("schedule time and meeting parsing", () => {
       { dayIndexes: [0, 2, 4], timeRange: { start: 540, end: 590 } },
       { dayIndexes: [1], timeRange: { start: 780, end: 855 } },
     ]);
-    expect(formatMeetingsForDisplay(meetings)).toBe(
-      "MWF | 9:00 AM - 9:50 AM\nT | 1:00 PM - 2:15 PM",
-    );
   });
 
   it("omits arranged and malformed meeting records from the calendar", () => {
@@ -54,11 +51,10 @@ describe("schedule time and meeting parsing", () => {
     ])).toEqual([]);
   });
 
-  it("formats paired meetings in the selected clock format", () => {
+  it("formats individual meeting ranges in the selected clock format", () => {
     document.body.innerHTML = '<input id="timeFormatToggle" type="checkbox">';
-    const meetings = [{ days: "M,W,F", time: "14:10 - 15:00" }];
-    expect(formatMeetingsForDisplay(meetings)).toBe("M,W,F | 2:10 PM - 3:00 PM");
+    expect(formatTimeRangeForDisplay("14:10 - 15:00")).toBe("2:10 PM - 3:00 PM");
     document.getElementById("timeFormatToggle").checked = true;
-    expect(formatMeetingsForDisplay(meetings)).toBe("M,W,F | 14:10 - 15:00");
+    expect(formatTimeRangeForDisplay("14:10 - 15:00")).toBe("14:10 - 15:00");
   });
 });

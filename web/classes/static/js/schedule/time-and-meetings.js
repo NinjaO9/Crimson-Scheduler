@@ -55,25 +55,6 @@ export function formatTimeRangeForDisplay(timeRange) {
 }
 
 /**
- * Formats meeting records while retaining each days/time association.
- *
- * @param {{days: string, time: string}[]} meetings - Explicit meeting records.
- * @returns {string} Display-ready meeting list with one meeting per line.
- * @see {@link formatTimeRangeForDisplay}
- */
-export function formatMeetingsForDisplay(meetings) {
-  if (!Array.isArray(meetings) || !meetings.length) return "Meetings unavailable";
-  return meetings
-    .map((meeting) => {
-      const days = String(meeting && meeting.days || "").trim();
-      const time = formatTimeRangeForDisplay(String(meeting && meeting.time || "").trim());
-      return [days, time].filter(Boolean).join(" | ");
-    })
-    .filter(Boolean)
-    .join("\n") || "Meetings unavailable";
-}
-
-/**
  * Formats an integer hour for the schedule grid's axis label.
  *
  * @param {number} hour - Hour in 24-hour notation.
