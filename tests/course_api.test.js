@@ -32,15 +32,13 @@ describe('CourseApi', () => {
                             courseCode: 'CPT_S 121',
                             sectionNumber: 1,
                             isLab: false,
-                            days: 'MWF',
-                            time: '10:00 - 10:50',
+                            meetings: [{ days: 'MWF', time: '10:00 - 10:50' }],
                         },
                         {
                             sln: 1002,
                             sectionNumber: 2,
                             isLab: true,
-                            days: 'T',
-                            time: '11:00 - 11:50',
+                            meetings: [{ days: 'T', time: '11:00 - 11:50' }],
                         },
                     ],
                 }],
@@ -61,8 +59,6 @@ describe('CourseApi', () => {
             courseCode: 'CPT_S 121',
             isLab: false,
             ucore: 'QUAN',
-            days: 'MWF',
-            time: '10:00 - 10:50',
             meetings: [{ days: 'MWF', time: '10:00 - 10:50' }],
             instructors: [{ name: 'Ada Lovelace' }],
             coop: 'N',
@@ -90,6 +86,8 @@ describe('CourseApi', () => {
             coop: 'N',
             footnotes: section.footnotes,
         });
+        expect(courses[0].lecture_sections[0]).not.toHaveProperty('days');
+        expect(courses[0].lecture_sections[0]).not.toHaveProperty('time');
 
         expect(api.sectionKey('Pullman Fall 2026', '1001'))
             .toBe('pullman-fall-2026:1001');
@@ -151,8 +149,8 @@ describe('CourseApi', () => {
                 courses: [{
                     courseNumber: 100,
                     sections: [
-                        { sln: 1, seats: { available: 2, total: 90 }, days: 'M', time: '10:00 - 11:00' },
-                        { sln: 2, seats: { available: 0, total: 90 }, days: 'ARR', time: 'ARR' },
+                        { sln: 1, seats: { available: 2, total: 90 }, meetings: [{ days: 'M', time: '10:00 - 11:00' }] },
+                        { sln: 2, seats: { available: 0, total: 90 }, meetings: [{ days: 'ARR', time: 'ARR' }] },
                     ],
                 }],
             }],
@@ -181,8 +179,8 @@ describe('CourseApi', () => {
                         },
                         { sln: 2, meetings: [{ days: 'TU', time: '12:00 - 12:50' }] },
                         { sln: 3, meetings: [{ days: 'F', time: '21:00 - 21:50' }] },
-                        { sln: 4, days: 'ARR', time: 'ARR' },
-                        { sln: 5, isLab: true, days: 'M', time: '08:00 - 08:50' },
+                        { sln: 4, meetings: [{ days: 'ARR', time: 'ARR' }] },
+                        { sln: 5, isLab: true, meetings: [{ days: 'M', time: '08:00 - 08:50' }] },
                     ],
                 }],
             }],
@@ -219,7 +217,7 @@ describe('CourseApi', () => {
                             ],
                         },
                         { sln: 2, meetings: [{ days: 'M', time: '18:00 - 18:50' }] },
-                        { sln: 3, days: 'ARR', time: 'ARR' },
+                        { sln: 3, meetings: [{ days: 'ARR', time: 'ARR' }] },
                     ],
                 }],
             }],
