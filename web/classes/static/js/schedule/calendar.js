@@ -25,7 +25,8 @@ import {
 import { isMobileViewport } from "./responsive.js";
 import {
   formatHourLabel,
-  formatMeetingListForDisplay,
+  formatTimeRangeForDisplay,
+  formatMeetingsForDisplay,
   resolveScheduleGroups,
 } from "./time-and-meetings.js";
 import { rmpSearchUrl } from "./course-information.js"
@@ -181,9 +182,10 @@ export function positionCourseTooltip(block, tooltip) {
  * @param {number} dayIndex - Index of the day on which the course is scheduled.
  * @param {{start: number, end:number}} timeRange - The course time range in minutes from midnight.
  * @param {Object} courseData - Course information, supplied by courseAPI.
+ * @param {{days: string, time: string}} meeting - Meeting represented by this block.
  * @returns {boolean} True if the course block was rendered successfully. Otherwise, false.
  */
-export function renderCourseBlock(dayIndex, timeRange, courseData) {
+export function renderCourseBlock(dayIndex, timeRange, courseData, meeting) {
   const startHour = Math.floor(timeRange.start / 60);
   const startMinute = timeRange.start % 60;
   const cell = document.getElementById(`cell-${dayIndex}-${startHour}`);
@@ -196,7 +198,7 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
     block.type = "button";
     block.setAttribute(
       "aria-label",
-      `${courseData.course_code} ${formatMeetingListForDisplay(courseData.time)}. Tap for course actions.`,
+      `${courseData.course_code} ${formatMeetingsForDisplay([meeting])}. Tap for course actions.`,
     );
   }
   block.style.height =
@@ -210,7 +212,7 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
     ),
   );
   block.appendChild(
-    createCourseBlockLine(formatMeetingListForDisplay(courseData.time)),
+    createCourseBlockLine(formatTimeRangeForDisplay(meeting && meeting.time)),
   );
   block.appendChild(createCourseBlockLine(courseData.location));
   if (showInstruct)
@@ -261,9 +263,9 @@ export function renderCourseBlock(dayIndex, timeRange, courseData) {
  * @returns {void}
  */
 export function renderSectionGhost(courseData) {
-  resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) =>
+  resolveScheduleGroups(courseData.meetings).forEach(({ dayIndexes, timeRange, meeting }) =>
     dayIndexes.forEach((dayIndex) =>
-      renderGhostBlock(dayIndex, timeRange, courseData),
+      renderGhostBlock(dayIndex, timeRange, courseData, meeting),
     ),
   );
 }
@@ -275,9 +277,10 @@ export function renderSectionGhost(courseData) {
  * @param {number} dayIndex - Index of the day on which the course is scheduled.
  * @param {{start: number, end: number}} timeRange - The course time range in minutes from midnight.
  * @param {Object} courseData - Course information supplied by courseAPI.
+ * @param {{days: string, time: string}} meeting - Meeting represented by this block.
  * @returns {boolean} True if the ghost block was rendered successfully. Otherwise, false.
  */
-export function renderGhostBlock(dayIndex, timeRange, courseData) {
+export function renderGhostBlock(dayIndex, timeRange, courseData, meeting) {
   const cell = document.getElementById(
     `cell-${dayIndex}-${Math.floor(timeRange.start / 60)}`,
   );
@@ -290,7 +293,7 @@ export function renderGhostBlock(dayIndex, timeRange, courseData) {
   block.style.top = ((timeRange.start % 60) / 60) * 100 + "%";
   block.append(
     createCourseBlockLine(courseData.course_code),
-    createCourseBlockLine(formatMeetingListForDisplay(courseData.time)),
+    createCourseBlockLine(formatTimeRangeForDisplay(meeting && meeting.time)),
     createCourseBlockLine(courseData.location),
   );
   cell.appendChild(block);
@@ -316,7 +319,7 @@ export function clearSectionGhosts() {
  * @returns {string} The formatted course label.
  */
 export function getCourseLabel(courseData) {
-  return `${courseData.course_code} (${formatMeetingListForDisplay(courseData.time)})`;
+  return `${courseData.course_code} (${formatMeetingsForDisplay(courseData.meetings)})`;
 }
 
 /**
@@ -387,7 +390,7 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
     createElementWithText(
       "span",
       "conflict-remove-meta",
-      `${formatMeetingListForDisplay(courseData.time)} - ${courseData.location || "Location: N/A"}`,
+      `${formatMeetingsForDisplay(courseData.meetings)} - ${courseData.location || "Location: N/A"}`,
     ),
   );
   button.addEventListener("click", (event) => {
@@ -418,7 +421,7 @@ export function buildCourseTooltip(courseData) {
     fragment,
     "div",
     "",
-    `${courseData.days} ${formatMeetingListForDisplay(courseData.time)}`,
+    formatMeetingsForDisplay(courseData.meetings),
   );
   const instructorElement = appendTextElement(
     fragment,
@@ -570,7 +573,7 @@ export function openMobileCourseSheet(trigger, courseData) {
     details,
     "div",
     "mobile-course-meta",
-    `${courseData.days || "Days unavailable"} · ${formatMeetingListForDisplay(courseData.time)}`,
+    formatMeetingsForDisplay(courseData.meetings),
   );
   appendTextElement(
     details,
@@ -672,9 +675,9 @@ export function removeActiveMobileCourse() {
  */
 export function addCourseToCalendar(courseData) {
   let renderedCount = 0;
-  resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) =>
+  resolveScheduleGroups(courseData.meetings).forEach(({ dayIndexes, timeRange, meeting }) =>
     dayIndexes.forEach((dayIndex) => {
-      if (renderCourseBlock(dayIndex, timeRange, courseData))
+      if (renderCourseBlock(dayIndex, timeRange, courseData, meeting))
         renderedCount += 1;
     }),
   );

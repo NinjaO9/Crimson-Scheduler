@@ -171,7 +171,7 @@
     border-bottom: 1px solid #edf0f4;
     display: grid;
     gap: 12px;
-    grid-template-columns: 72px 60px minmax(132px, 1.2fr) 56px minmax(92px, 1fr) minmax(92px, 1fr);
+    grid-template-columns: 72px 60px minmax(188px, 1.6fr) minmax(92px, 1fr) minmax(92px, 1fr);
     justify-items: center;
     min-width: 100%;
     padding: 9px 0;
@@ -213,6 +213,11 @@
     overflow-wrap: anywhere;
 }
 
+.meeting-display {
+    line-height: 1.35;
+    white-space: pre-line;
+}
+
 .section-table-head span:last-child,
 .section-choice-row > span:last-child {
     overflow-wrap: normal;
@@ -251,7 +256,7 @@
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 64px minmax(124px, 1.25fr) 56px minmax(82px, 0.9fr) minmax(112px, 1.2fr);
+        grid-template-columns: 64px minmax(172px, 1.5fr) minmax(82px, 0.9fr) minmax(112px, 1.2fr);
         min-width: 100%;
     }
 
@@ -283,8 +288,8 @@
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 48px 60px minmax(104px, 1fr) 36px 56px 70px;
-        min-width: 410px;
+        grid-template-columns: 48px 60px minmax(156px, 1fr) 56px 70px;
+        min-width: 390px;
     }
 
     .section-table-head {

@@ -7,7 +7,7 @@
 
 import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
-import { formatMeetingListForDisplay } from "./time-and-meetings.js";
+import { formatMeetingsForDisplay } from "./time-and-meetings.js";
 import { uses24HourTime } from "./preferences.js";
 import {
   fetchCourseInformation,
@@ -343,16 +343,11 @@ export function renderSectionChoice(course, section, choiceType) {
   row.append(
     select,
     createElementWithText("span", null, openSeats),
-    createElementWithText("span", "time-display", section.time),
-    createElementWithText("span", null, section.days),
+    createElementWithText("span", "meeting-display", formatMeetingsForDisplay(section.meetings)),
     createElementWithText("span", null, section.location),
     createElementWithText("span", null, section.instructor),
   );
-  row.children[2].setAttribute(
-    "data-time",
-    String(
-      section.time === null || section.time === undefined ? "" : section.time,
-    ),
+  row.children[2].setAttribute("data-meetings", JSON.stringify(Array.isArray(section.meetings) ? section.meetings : []),
   );
   return row;
 }
@@ -641,7 +636,7 @@ export function createSectionTable(course, sections, choiceType) {
     `${choiceType === "lab" ? "Lab" : "Lecture"} section results`,
   );
   const header = createElementWithText("div", "section-table-head", "");
-  ["Section", "O. Seats", "Time", "Days", "Location", "Instructor"].forEach(
+  ["Section", "O. Seats", "Meetings", "Location", "Instructor"].forEach(
     (label) => header.appendChild(createElementWithText("span", null, label)),
   );
   table.appendChild(header);
@@ -657,17 +652,19 @@ export function createSectionTable(course, sections, choiceType) {
 }
 
 /**
- * Re-formats rendered meeting times according to the active time preference.
- * Operates on the `data-time` values emitted by {@link renderSectionChoice}.
+ * Re-formats rendered meeting records according to the active time preference.
+ * Operates on the `data-meetings` values emitted by {@link renderSectionChoice}.
  *
  * @returns {void}
- * @see {@link formatMeetingListForDisplay}
+ * @see {@link formatMeetingsForDisplay}
  */
 export function updateSearchResultTimeDisplays() {
-  document.querySelectorAll(".time-display[data-time]").forEach((element) => {
-    element.textContent = formatMeetingListForDisplay(
-      element.getAttribute("data-time"),
-    );
+  document.querySelectorAll(".meeting-display[data-meetings]").forEach((element) => {
+    try {
+      element.textContent = formatMeetingsForDisplay(JSON.parse(element.getAttribute("data-meetings") || "[]"));
+    } catch (error) {
+      element.textContent = formatMeetingsForDisplay([]);
+    }
   });
 }
 

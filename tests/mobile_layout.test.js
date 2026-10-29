@@ -98,7 +98,7 @@ describe("mobile layout sheets", () => {
       "CPT_S 121",
     );
     expect(document.getElementById("mobileCourseDetails").textContent).toContain(
-      "MWF: 9:00 AM - 9:50 AM",
+      "MWF | 9:00 AM - 9:50 AM",
     );
     expect(document.activeElement).toBe(
       document.getElementById("mobileCourseRemove"),

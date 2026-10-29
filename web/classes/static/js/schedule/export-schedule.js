@@ -76,7 +76,7 @@ function addCourseEvents(calendar, courseData) {
   const dates = getDateEnvelope(courseData);
   if (!dates) return 0;
   let count = 0;
-  resolveScheduleGroups(courseData).forEach(({ dayIndexes, timeRange }) => {
+  resolveScheduleGroups(courseData.meetings).forEach(({ dayIndexes, timeRange }) => {
     const firstDay = firstDateForWeekday(dates.start, dayIndexes[0]);
     calendar.createEvent({
       id: `${courseData.section_id}-${timeRange.start}-${dayIndexes.join("")}`,

@@ -55,14 +55,22 @@ export function formatTimeRangeForDisplay(timeRange) {
 }
 
 /**
- * Formats a semicolon-separated list of meeting ranges.
+ * Formats meeting records while retaining each days/time association.
  *
- * @param {string} timeValue - Meeting ranges separated by semicolons.
- * @returns {string} Formatted meeting list.
+ * @param {{days: string, time: string}[]} meetings - Explicit meeting records.
+ * @returns {string} Display-ready meeting list with one meeting per line.
  * @see {@link formatTimeRangeForDisplay}
  */
-export function formatMeetingListForDisplay(timeValue) {
-  return (timeValue || "").split(";").map(formatTimeRangeForDisplay).join(";");
+export function formatMeetingsForDisplay(meetings) {
+  if (!Array.isArray(meetings) || !meetings.length) return "Meetings unavailable";
+  return meetings
+    .map((meeting) => {
+      const days = String(meeting && meeting.days || "").trim();
+      const time = formatTimeRangeForDisplay(String(meeting && meeting.time || "").trim());
+      return [days, time].filter(Boolean).join(" | ");
+    })
+    .filter(Boolean)
+    .join("\n") || "Meetings unavailable";
 }
 
 /**
@@ -175,62 +183,20 @@ export function parseDaysToIndexes(daysStr) {
 }
 
 /**
- * Parses course data whose comma-separated days pair with semicolon-separated times.
+ * Resolves explicit meeting records into calendar-ready groups.
  *
- * @param {Object} courseData - Course section containing `days` and `time` strings.
- * @returns {{dayIndexes: number[], timeRange: {start: number, end: number}}[]|null}
- *   Paired meeting groups, or `null` when the lists are not aligned.
+ * @param {{days: string, time: string}[]} meetings - Explicit meeting records.
+ * @returns {{dayIndexes: number[], timeRange: {start: number, end: number}, meeting: Object}[]}
+ *   Resolved groups, or an empty array when the meeting cannot be parsed.
  * @see {@link parseDaysToIndexes}
  * @see {@link parseTimeRange}
  */
-export function tryParsePairedDayTimeLists(courseData) {
-  const rawDayTokens = (courseData.days || "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean);
-  const rawTimeTokens = (courseData.time || "")
-    .split(";")
-    .map((s) => s.trim())
-    .filter(Boolean);
-  if (
-    !(
-      rawDayTokens.length > 1 &&
-      rawTimeTokens.length > 1 &&
-      rawDayTokens.length === rawTimeTokens.length
-    )
-  )
-    return null;
-  const pairs = [];
-  for (let i = 0; i < rawDayTokens.length; i++) {
-    const dayIndexes = parseDaysToIndexes(rawDayTokens[i]);
-    const timeRange = parseTimeRange(rawTimeTokens[i]);
-    if (!dayIndexes.length || !timeRange) return null;
-    pairs.push({ dayIndexes, timeRange });
-  }
-  return pairs;
-}
-
-/**
- * Resolves all day/time meeting groups, including legacy swapped-field data.
- * Tries paired lists first, then falls back to one normal or swapped group.
- *
- * @param {Object} courseData - Course section containing day/time data.
- * @returns {{dayIndexes: number[], timeRange: {start: number, end: number}}[]}
- *   Resolved groups, or an empty array when the meeting cannot be parsed.
- * @see {@link tryParsePairedDayTimeLists}
- */
-export function resolveScheduleGroups(courseData) {
-  const pairedGroups = tryParsePairedDayTimeLists(courseData);
-  if (pairedGroups) return pairedGroups;
-  let dayIndexes = parseDaysToIndexes(courseData.days);
-  let timeRange = parseTimeRange(courseData.time);
-  if (!dayIndexes.length || !timeRange) {
-    const swappedDayIndexes = parseDaysToIndexes(courseData.time);
-    const swappedTimeRange = parseTimeRange(courseData.days);
-    if (swappedDayIndexes.length && swappedTimeRange) {
-      dayIndexes = swappedDayIndexes;
-      timeRange = swappedTimeRange;
-    }
-  }
-  return !dayIndexes.length || !timeRange ? [] : [{ dayIndexes, timeRange }];
+export function resolveScheduleGroups(meetings) {
+  if (!Array.isArray(meetings)) return [];
+  return meetings.reduce((groups, meeting) => {
+    const dayIndexes = parseDaysToIndexes(meeting && meeting.days);
+    const timeRange = parseTimeRange(meeting && meeting.time);
+    if (dayIndexes.length && timeRange) groups.push({ dayIndexes, timeRange, meeting });
+    return groups;
+  }, []);
 }

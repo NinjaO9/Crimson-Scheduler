@@ -85,6 +85,21 @@
         return value;
     }
 
+    /** Normalizes explicit meeting records from a raw catalog section.
+     * @param {unknown} meetings - Raw `meetings` payload value.
+     * @returns {{days: string, time: string}[]} Normalized meeting records.
+     */
+    function normalizeMeetings(meetings) {
+        if (!Array.isArray(meetings)) return [];
+        return meetings
+            .filter(meeting => meeting && typeof meeting === 'object')
+            .map(meeting => ({
+                days: text(meeting.days),
+                time: text(meeting.time),
+            }))
+            .filter(meeting => meeting.days || meeting.time);
+    }
+
     /** Normalizes one raw catalog section into the UI's section schema.
      * @param {Object} section - Raw section payload.
      * @param {Object} course - Parent raw course payload.
@@ -103,8 +118,6 @@
             section_num: section && section.sectionNumber,
             instructor: text(section && section.instructor),
             location: text(section && section.location),
-            days: text(section && section.days),
-            time: text(section && section.time),
             seats: text(seats.label, `${text(seats.taken, '')}/${text(seats.total, '')}`),
             seats_available: Number(seats.available),
             seats_total: Number(seats.total),
@@ -112,7 +125,7 @@
             is_lab: Boolean(section && section.isLab),
             ucore: text(section && section.ucore, ''),
             component: text(section && section.component, 'Lecture'),
-            meetings: copyValue(section && section.meetings, []),
+            meetings: normalizeMeetings(section && section.meetings),
             instructors: copyValue(section && section.instructors, []),
             coop: section && section.coop !== undefined ? section.coop : '',
             footnotes: copyValue(section && section.footnotes, ''),
@@ -205,12 +218,15 @@
         return 'open'; // Could expand later
     }
 
-    /** Infers delivery mode from meeting text and location.
-     * @param {Object} section - Section with days, time, and location.
+    /** Infers delivery mode from meeting records and location.
+     * @param {Object} section - Section with meetings and location.
      * @returns {string} `arranged`, `online`, or `in-person`.
      */
     function getSectionDelivery(section) {
-        const meeting = `${text(section && section.days)} ${text(section && section.time)}`.toLowerCase();
+        const meeting = sectionMeetings(section)
+            .map(({ days, time }) => `${text(days)} ${text(time)}`)
+            .join(' ')
+            .toLowerCase();
         const location = text(section && section.location).toLowerCase();
         if (/\b(arr|arranged|tba)\b/.test(meeting)) return 'arranged';
         if (/\b(online|web|virtual|zoom)\b/.test(`${meeting} ${location}`)) return 'online';
@@ -225,18 +241,12 @@
         return section.ucore;
     }
 
-    /** Returns explicit meetings or a fallback meeting from days/time fields.
+    /** Returns normalized explicit meetings.
      * @param {Object} section - Section record.
      * @returns {Object[]} Meeting records.
      */
     function sectionMeetings(section) {
-        if (Array.isArray(section && section.meetings) && section.meetings.length) {
-            return section.meetings;
-        }
-        return [{
-            days: text(section && section.days),
-            time: text(section && section.time)
-        }];
+        return Array.isArray(section && section.meetings) ? section.meetings : [];
     }
 
     /** Converts day abbreviations into normalized weekday letters.
