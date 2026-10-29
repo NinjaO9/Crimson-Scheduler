@@ -345,11 +345,23 @@ export function renderSectionChoice(course, section, choiceType) {
     createElementWithText("span", null, openSeats),
     createElementWithText("span", "meeting-display", formatMeetingsForDisplay(section.meetings)),
     createElementWithText("span", null, section.location),
-    createElementWithText("span", null, section.instructor),
+    createElementWithText("span", "instructor-display", formatInstructorForTable(section.instructor)),
   );
   row.children[2].setAttribute("data-meetings", JSON.stringify(Array.isArray(section.meetings) ? section.meetings : []),
   );
   return row;
+}
+
+/**
+ * Formats an instructor name for a compact result-table cell.
+ *
+ * @param {string} instructor - Instructor name supplied by the catalog.
+ * @returns {string} Name with a deliberate line break when it has multiple tokens.
+ */
+export function formatInstructorForTable(instructor) {
+  const normalized = String(instructor || "").trim();
+  const match = normalized.match(/^(\S+)\s+(.+)$/);
+  return match ? `${match[1]}\n${match[2]}` : normalized;
 }
 
 /**

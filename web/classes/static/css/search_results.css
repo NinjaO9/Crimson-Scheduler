@@ -218,8 +218,12 @@
     white-space: pre-line;
 }
 
-.section-table-head span:last-child,
-.section-choice-row > span:last-child {
+.instructor-display {
+    line-height: 1.35;
+    white-space: pre-line;
+}
+
+.section-table-head span:last-child {
     overflow-wrap: normal;
     white-space: nowrap;
     word-break: normal;
@@ -288,8 +292,8 @@
     .section-table-head,
     .section-choice-row {
         gap: 8px;
-        grid-template-columns: 48px 60px minmax(156px, 1fr) 56px 70px;
-        min-width: 390px;
+        grid-template-columns: 48px 60px minmax(156px, 1fr) 72px 96px;
+        min-width: 464px;
     }
 
     .section-table-head {
