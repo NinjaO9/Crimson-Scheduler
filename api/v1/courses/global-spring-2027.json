@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T21:06:03.134184+00:00",
+  "generatedAt": "2026-10-29T00:55:11.492235+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -8625,6 +8625,54 @@
       "subject": "DTC",
       "courses": [
         {
+          "course": "Tools and Methods for Digital Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 201,
+          "courseCode": "DTC 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12073",
+              "sln": 12073,
+              "sectionNumber": 1,
+              "courseCode": "DTC 201",
+              "courseName": "Tools and Methods for Digital Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Internet Revolutions",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -8757,9 +8805,9 @@
               "footnotes": "V",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -10296,52 +10344,6 @@
               "instructors": [],
               "ucore": "",
               "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Strategy and Game Theory",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 424,
-          "courseCode": "ECONS 424",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11293",
-              "sln": 11293,
-              "sectionNumber": 1,
-              "courseCode": "ECONS 424",
-              "courseName": "Strategy and Game Theory",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": true,
               "footnotes": "V",
               "seats": {
                 "taken": 0,

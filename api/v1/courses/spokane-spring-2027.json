@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T21:06:03.592821+00:00",
+  "generatedAt": "2026-10-29T00:55:11.736606+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -677,59 +677,6 @@
                 "total": 1,
                 "available": 1,
                 "label": "0/1"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subject": "ED_RES",
-      "courses": [
-        {
-          "course": "Principles of Research",
-          "subject": "ED_RES",
-          "subjectPrefix": "EdRes",
-          "courseNumber": 563,
-          "courseCode": "ED_RES 563",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3211",
-              "sln": 3211,
-              "sectionNumber": 1,
-              "courseCode": "ED_RES 563",
-              "courseName": "Principles of Research",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R DANIELSON",
-              "instructors": [
-                "R DANIELSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 2,
-                "available": 2,
-                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1418,13 +1365,9 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TH,TH",
-              "time": "13:10 - 16:00;13:10 - 16:00",
+              "days": "TH",
+              "time": "13:10 - 16:00",
               "meetings": [
-                {
-                  "days": "TH",
-                  "time": "13:10 - 16:00"
-                },
                 {
                   "days": "TH",
                   "time": "13:10 - 16:00"
@@ -8588,7 +8531,7 @@
                   "time": "15:10 - 17:30"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 201",
               "instructor": "A AHMED",
               "instructors": [
                 "A AHMED"
@@ -8636,7 +8579,7 @@
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 101",
               "instructor": "J CLARKE",
               "instructors": [
                 "J CLARKE"
@@ -8864,7 +8807,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 101",
               "instructor": "J MILLER",
               "instructors": [
                 "J MILLER"
@@ -8912,7 +8855,7 @@
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SNRS 5",
               "instructor": "J CLARK",
               "instructors": [
                 "J CLARK"
@@ -9082,7 +9025,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SNRS 5",
               "instructor": "J MILLER",
               "instructors": [
                 "J MILLER"
@@ -9130,7 +9073,7 @@
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SNRS 5",
               "instructor": "A STUMPHAUZER",
               "instructors": [
                 "A STUMPHAUZER"
@@ -9178,7 +9121,7 @@
                   "time": "08:40 - 10:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 101",
               "instructor": "N RODIN",
               "instructors": [
                 "N RODIN"
@@ -9226,7 +9169,7 @@
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 101",
               "instructor": "M UNDEBERG",
               "instructors": [
                 "M UNDEBERG"
@@ -9274,7 +9217,7 @@
                   "time": "13:10 - 15:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SNRS 5",
               "instructor": "D BOWERS",
               "instructors": [
                 "D BOWERS"
@@ -9504,7 +9447,7 @@
                   "time": "13:10 - 14:30"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SNRS 5",
               "instructor": "J BROUILLARD",
               "instructors": [
                 "J BROUILLARD"
@@ -9552,7 +9495,7 @@
                   "time": "08:40 - 10:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 101",
               "instructor": "B GATES",
               "instructors": [
                 "B GATES"
@@ -9696,7 +9639,7 @@
                   "time": "15:10 - 17:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 101",
               "instructor": "J AKERS",
               "instructors": [
                 "J AKERS"
@@ -10509,9 +10452,9 @@
                 }
               ],
               "location": "VC   SPK",
-              "instructor": "C ALLICK",
+              "instructor": "J ASTORINO NICOLA",
               "instructors": [
-                "C ALLICK"
+                "J ASTORINO NICOLA"
               ],
               "ucore": "",
               "coop": false,
