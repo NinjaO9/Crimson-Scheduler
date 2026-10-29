@@ -333,6 +333,20 @@ export function getCourseRemovalLabel(courseData) {
 }
 
 /**
+ * Formas the meeting times (time specifically) for a meeting.
+ *
+ * @param {{time: string}[]} meetings - Meeting records.
+ * @returns {string} Meeting times, one per line.
+ */
+function formatMeetingTimesForDisplay(meetings) {
+  if (!Array.isArray(meetings) || !meetings.length) return "Time unavailable";
+  return meetings
+    .map((meeting) => formatTimeRangeForDisplay(meeting && meeting.time))
+    .filter(Boolean)
+    .join("\n") || "Time unavailable";
+}
+
+/**
  * Filters a course list to retain only the first occurance of eaach unique
  * section, identifying duplicates via the section ID.
  *
@@ -390,7 +404,7 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
     createElementWithText(
       "span",
       "conflict-remove-meta",
-      `${formatMeetingsForDisplay(courseData.meetings)} - ${courseData.location || "Location: N/A"}`,
+      `${formatMeetingTimesForDisplay(courseData.meetings)} - ${courseData.location || "Location: N/A"}`,
     ),
   );
   button.addEventListener("click", (event) => {
