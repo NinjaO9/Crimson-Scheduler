@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T00:57:48.295973+00:00",
+  "generatedAt": "2026-10-30T07:09:33.197577+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -28464,9 +28464,9 @@
                 }
               ],
               "location": "FLMA 226",
-              "instructor": "A LI",
+              "instructor": "P BUCKLEY",
               "instructors": [
-                "A LI"
+                "P BUCKLEY"
               ],
               "ucore": "PSCI",
               "coop": false,
@@ -29234,15 +29234,15 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "TH,TH",
-              "time": "14:55 - 17:35;14:55 - 17:45",
+              "time": "14:55 - 15:45;15:55 - 17:35",
               "meetings": [
                 {
                   "days": "TH",
-                  "time": "14:55 - 17:35"
+                  "time": "14:55 - 15:45"
                 },
                 {
                   "days": "TH",
-                  "time": "14:55 - 17:45"
+                  "time": "15:55 - 17:35"
                 }
               ],
               "location": "TODD 202",
@@ -29272,12 +29272,16 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "W",
-              "time": "18:10 - 20:00",
+              "days": "W,W",
+              "time": "18:10 - 19:00;19:10 - 21:00",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "18:10 - 20:00"
+                  "time": "18:10 - 19:00"
+                },
+                {
+                  "days": "W",
+                  "time": "19:10 - 21:00"
                 }
               ],
               "location": "TROY G0005",
@@ -29339,80 +29343,6 @@
                 "total": 352,
                 "available": 352,
                 "label": "0/352"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "4268",
-              "sln": 4268,
-              "sectionNumber": 2,
-              "courseCode": "CHEM 106",
-              "courseName": "Principles of Chemistry II",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W,F",
-              "time": "15:10 - 16:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "15:10 - 16:00"
-                }
-              ],
-              "location": "FLMA 226",
-              "instructor": "A LI",
-              "instructors": [
-                "A LI"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 150,
-                "available": 150,
-                "label": "0/150"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11659",
-              "sln": 11659,
-              "sectionNumber": 3,
-              "courseCode": "CHEM 106",
-              "courseName": "Principles of Chemistry II",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W,F",
-              "time": "10:10 - 11:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "10:10 - 11:00"
-                }
-              ],
-              "location": "MURR 307",
-              "instructor": "P BUCKLEY",
-              "instructors": [
-                "P BUCKLEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 48,
-                "available": 48,
-                "label": "0/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -47392,11 +47322,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "TH",
               "time": "15:10 - 17:40",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "TH",
                   "time": "15:10 - 17:40"
                 }
               ],
@@ -55336,10 +55266,8 @@
                 }
               ],
               "location": "EDAD 216",
-              "instructor": "S JOHNSON",
-              "instructors": [
-                "S JOHNSON"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -73872,6 +73800,43 @@
               "instructor": "W KABASENCHE",
               "instructors": [
                 "W KABASENCHE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5929",
+              "sln": 5929,
+              "sectionNumber": 3,
+              "courseCode": "HONORS 290",
+              "courseName": "Science as a Way of Knowing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "M ALLEN",
+              "instructors": [
+                "M ALLEN"
               ],
               "ucore": "",
               "coop": false,
