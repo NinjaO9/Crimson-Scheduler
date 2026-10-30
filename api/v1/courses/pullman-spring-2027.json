@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T19:20:30.037431+00:00",
+  "generatedAt": "2026-10-30T23:45:41.756939+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -2337,11 +2337,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -2374,11 +2374,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -2411,11 +2411,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -2448,11 +2448,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -2485,11 +2485,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -2530,7 +2530,7 @@
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "SLOA 7",
+              "location": "SPRK 208",
               "instructor": "H JOHNSON",
               "instructors": [
                 "H JOHNSON"
@@ -37316,9 +37316,9 @@
               "footnotes": "V",
               "seats": {
                 "taken": 0,
-                "total": 22,
-                "available": 22,
-                "label": "0/22"
+                "total": 19,
+                "available": 19,
+                "label": "0/19"
               },
               "dates": {
                 "start": "Jan 11",
@@ -37401,9 +37401,9 @@
               "footnotes": "V",
               "seats": {
                 "taken": 0,
-                "total": 45,
-                "available": 45,
-                "label": "0/45"
+                "total": 42,
+                "available": 42,
+                "label": "0/42"
               },
               "dates": {
                 "start": "Jan 11",
@@ -65822,9 +65822,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 49,
+                "available": 49,
+                "label": "0/49"
               },
               "dates": {
                 "start": "Jan 11",
@@ -73881,7 +73881,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "TODD 211",
               "instructor": "M ALLEN",
               "instructors": [
                 "M ALLEN"
@@ -74240,6 +74240,43 @@
           "credits": "3",
           "hasRequiredLab": false,
           "sections": [
+            {
+              "sectionId": "12081",
+              "sln": 12081,
+              "sectionNumber": 1,
+              "courseCode": "HONORS 390",
+              "courseName": "Case Study: Global Issues in the Sciences",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "HNRS 142",
+              "instructor": "S NOLL",
+              "instructors": [
+                "S NOLL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
             {
               "sectionId": "5918",
               "sln": 5918,
@@ -108497,6 +108534,54 @@
           ]
         },
         {
+          "course": "Marching Band and Jazz Band Pedagogy",
+          "subject": "MUS",
+          "subjectPrefix": "Mus",
+          "courseNumber": 473,
+          "courseCode": "MUS 473",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11714",
+              "sln": 11714,
+              "sectionNumber": 1,
+              "courseCode": "MUS 473",
+              "courseName": "Marching Band and Jazz Band Pedagogy",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "08:10 - 09:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "08:10 - 09:00"
+                }
+              ],
+              "location": "KIMB B0048",
+              "instructor": "J SWEET",
+              "instructors": [
+                "J SWEET"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Choral Conducting",
           "subject": "MUS",
           "subjectPrefix": "Mus",
@@ -138221,11 +138306,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -138258,11 +138343,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -138295,11 +138380,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -138340,7 +138425,7 @@
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "SLOA 7",
+              "location": "SPRK 208",
               "instructor": "H JOHNSON",
               "instructors": [
                 "H JOHNSON"
@@ -139015,52 +139100,6 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Applied Stochastic Processes",
-          "subject": "STAT",
-          "subjectPrefix": "Stat",
-          "courseNumber": 544,
-          "courseCode": "STAT 544",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6761",
-              "sln": 6761,
-              "sectionNumber": 1,
-              "courseCode": "STAT 544",
-              "courseName": "Applied Stochastic Processes",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "WLSH 5",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",

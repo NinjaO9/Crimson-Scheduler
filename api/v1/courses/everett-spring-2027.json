@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T19:20:29.817613+00:00",
+  "generatedAt": "2026-10-30T23:45:41.471308+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -1090,11 +1090,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "09:10 - 10:25",
+              "time": "13:30 - 14:45",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "09:10 - 10:25"
+                  "time": "13:30 - 14:45"
                 }
               ],
               "location": "GUC  EVE",
@@ -1296,6 +1296,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Consumer Insights and Branding",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 476,
+          "courseCode": "COMSTRAT 476",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10247",
+              "sln": 10247,
+              "sectionNumber": 1,
+              "courseCode": "COMSTRAT 476",
+              "courseName": "Consumer Insights and Branding",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Y LEE",
+              "instructors": [
+                "Y LEE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",
