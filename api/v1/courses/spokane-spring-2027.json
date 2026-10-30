@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T20:19:33.999249+00:00",
+  "generatedAt": "2026-10-30T00:57:48.427960+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -1151,7 +1151,7 @@
                   "time": "14:35 - 15:50"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SHER 301",
               "instructor": "M PERRIGUE",
               "instructors": [
                 "M PERRIGUE"
@@ -1180,13 +1180,9 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU,TU",
-              "time": "13:10 - 16:00;13:10 - 16:00",
+              "days": "TU",
+              "time": "13:10 - 16:00",
               "meetings": [
-                {
-                  "days": "TU",
-                  "time": "13:10 - 16:00"
-                },
                 {
                   "days": "TU",
                   "time": "13:10 - 16:00"
@@ -1336,7 +1332,7 @@
                   "time": "09:10 - 10:50"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SHER 301",
               "instructor": "C JARRETT",
               "instructors": [
                 "C JARRETT"
@@ -1421,7 +1417,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SHER 301",
               "instructor": "J LARSEN",
               "instructors": [
                 "J LARSEN"
@@ -1554,7 +1550,7 @@
                   "time": "08:10 - 09:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SHER 301",
               "instructor": "J LARSEN",
               "instructors": [
                 "J LARSEN"
@@ -1583,13 +1579,9 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "M,W,M,W",
-              "time": "10:30 - 13:30;10:30 - 13:30",
+              "days": "M,W",
+              "time": "10:30 - 13:30",
               "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:30 - 13:30"
-                },
                 {
                   "days": "M,W",
                   "time": "10:30 - 13:30"
@@ -1624,13 +1616,9 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "M,W,M,W",
-              "time": "15:30 - 18:30;15:30 - 18:30",
+              "days": "M,W",
+              "time": "15:30 - 18:30",
               "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "15:30 - 18:30"
-                },
                 {
                   "days": "M,W",
                   "time": "15:30 - 18:30"
@@ -8494,7 +8482,7 @@
                   "time": "15:40 - 18:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 201",
               "instructor": "A AHMED",
               "instructors": [
                 "A AHMED"
@@ -9244,32 +9232,28 @@
           "subjectPrefix": "PharD",
           "courseNumber": 561,
           "courseCode": "PHARMACY 561",
-          "credits": "0",
-          "hasRequiredLab": false,
+          "credits": "2",
+          "hasRequiredLab": true,
           "sections": [
             {
-              "sectionId": "3174",
-              "sln": 3174,
+              "sectionId": "3183",
+              "sln": 3183,
               "sectionNumber": 1,
               "courseCode": "PHARMACY 561",
               "courseName": "Applied Patient Care V: Integrated Patient Care",
-              "credits": "0",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": false,
-              "days": "M,TH",
-              "time": "14:45 - 16:35;08:10 - 10:00",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "14:45 - 16:35",
               "meetings": [
                 {
                   "days": "M",
                   "time": "14:45 - 16:35"
-                },
-                {
-                  "days": "TH",
-                  "time": "08:10 - 10:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SAC  241",
               "instructor": "L POWELL",
               "instructors": [
                 "L POWELL"
@@ -9279,9 +9263,46 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 22,
-                "available": 22,
-                "label": "0/22"
+                "total": 62,
+                "available": 62,
+                "label": "0/62"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3174",
+              "sln": 3174,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 561",
+              "courseName": "Applied Patient Care V: Integrated Patient Care",
+              "credits": "2",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "SPBS 304",
+              "instructor": "L POWELL",
+              "instructors": [
+                "L POWELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 23,
+                "available": 23,
+                "label": "0/23"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9294,23 +9315,19 @@
               "sectionNumber": 2,
               "courseCode": "PHARMACY 561",
               "courseName": "Applied Patient Care V: Integrated Patient Care",
-              "credits": "0",
+              "credits": "2",
               "component": "LAB",
               "isLab": true,
-              "hasRequiredLab": false,
-              "days": "M,TH",
-              "time": "14:45 - 16:35;10:10 - 12:00",
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "10:10 - 12:00",
               "meetings": [
-                {
-                  "days": "M",
-                  "time": "14:45 - 16:35"
-                },
                 {
                   "days": "TH",
                   "time": "10:10 - 12:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 304",
               "instructor": "L POWELL",
               "instructors": [
                 "L POWELL"
@@ -9320,9 +9337,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 23,
+                "available": 23,
+                "label": "0/23"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9335,23 +9352,19 @@
               "sectionNumber": 3,
               "courseCode": "PHARMACY 561",
               "courseName": "Applied Patient Care V: Integrated Patient Care",
-              "credits": "0",
+              "credits": "2",
               "component": "LAB",
               "isLab": true,
-              "hasRequiredLab": false,
-              "days": "M,TH",
-              "time": "14:45 - 16:35;13:10 - 15:00",
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "13:10 - 15:00",
               "meetings": [
                 {
                   "days": "M",
-                  "time": "14:45 - 16:35"
-                },
-                {
-                  "days": "TH",
                   "time": "13:10 - 15:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 304",
               "instructor": "L POWELL",
               "instructors": [
                 "L POWELL"
@@ -9361,9 +9374,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9687,7 +9700,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 118",
               "instructor": "M UNDEBERG",
               "instructors": [
                 "M UNDEBERG"
@@ -9761,7 +9774,7 @@
                   "time": "13:10 - 15:00"
                 }
               ],
-              "location": "GUC  SPK",
+              "location": "SPBS 118",
               "instructor": "M UNDEBERG",
               "instructors": [
                 "M UNDEBERG"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T20:19:33.880346+00:00",
+  "generatedAt": "2026-10-30T00:57:48.295973+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -14914,11 +14914,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "11:10 - 12:00",
+              "time": "10:10 - 11:00",
               "meetings": [
                 {
                   "days": "M,W,F",
-                  "time": "11:10 - 12:00"
+                  "time": "10:10 - 11:00"
                 }
               ],
               "location": "SGYM 214A",
@@ -37426,6 +37426,54 @@
                 "total": 33,
                 "available": 33,
                 "label": "0/33"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Health Communication",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 478,
+          "courseCode": "COMSTRAT 478",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11984",
+              "sln": 11984,
+              "sectionNumber": 2,
+              "courseCode": "COMSTRAT 478",
+              "courseName": "Health Communication",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N O'DONNELL",
+              "instructors": [
+                "N O'DONNELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -60476,11 +60524,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU",
+              "days": "TH",
               "time": "15:10 - 17:40",
               "meetings": [
                 {
-                  "days": "TU",
+                  "days": "TH",
                   "time": "15:10 - 17:40"
                 }
               ],
@@ -68234,54 +68282,6 @@
               }
             }
           ]
-        },
-        {
-          "course": "German Film",
-          "subject": "GERMAN",
-          "subjectPrefix": "Ger",
-          "courseNumber": 310,
-          "courseCode": "GERMAN 310",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11249",
-              "sln": 11249,
-              "sectionNumber": 1,
-              "courseCode": "GERMAN 310",
-              "courseName": "German Film",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "THOM 201",
-              "instructor": "J BONZO",
-              "instructors": [
-                "J BONZO"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 28,
-                "available": 28,
-                "label": "0/28"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
         }
       ]
     },
@@ -70456,9 +70456,9 @@
                 }
               ],
               "location": "CUE  116",
-              "instructor": "N SWANGER",
+              "instructor": "D BAGOTT",
               "instructors": [
-                "N SWANGER"
+                "D BAGOTT"
               ],
               "ucore": "DIVR",
               "coop": false,
@@ -117345,8 +117345,10 @@
                 }
               ],
               "location": "WEBS 941",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B COLLINS",
+              "instructors": [
+                "B COLLINS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -134976,6 +134978,54 @@
           ]
         },
         {
+          "course": "Seminar in Spanish Studies - Themes",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 450,
+          "courseCode": "SPANISH 450",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12072",
+              "sln": 12072,
+              "sectionNumber": 1,
+              "courseCode": "SPANISH 450",
+              "courseName": "Seminar in Spanish Studies - Themes",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V NAVARRO-DANIELS",
+              "instructors": [
+                "V NAVARRO-DANIELS"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Seminar in Spanish Studies: Linguistics",
           "subject": "SPANISH",
           "subjectPrefix": "Span",
@@ -138988,10 +139038,8 @@
                 }
               ],
               "location": "WLSH 5",
-              "instructor": "S DAS",
-              "instructors": [
-                "S DAS"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -139169,8 +139217,10 @@
                 }
               ],
               "location": "TODD 211",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "Y WANG",
+              "instructors": [
+                "Y WANG"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",

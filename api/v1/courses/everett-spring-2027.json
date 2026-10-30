@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T20:19:33.725616+00:00",
+  "generatedAt": "2026-10-30T00:57:48.129494+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -1165,6 +1165,52 @@
           ]
         },
         {
+          "course": "Digital Content Promotion",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 310,
+          "courseCode": "COMSTRAT 310",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10461",
+              "sln": 10461,
+              "sectionNumber": 4,
+              "courseCode": "COMSTRAT 310",
+              "courseName": "Digital Content Promotion",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Advertising Principles and Practices",
           "subject": "COMSTRAT",
           "subjectPrefix": "ComSr",
@@ -1202,6 +1248,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Message Design for Communication Campaigns",
+          "subject": "COMSTRAT",
+          "subjectPrefix": "ComSr",
+          "courseNumber": 477,
+          "courseCode": "COMSTRAT 477",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10397",
+              "sln": 10397,
+              "sectionNumber": 1,
+              "courseCode": "COMSTRAT 477",
+              "courseName": "Message Design for Communication Campaigns",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J WILLOUGHBY",
+              "instructors": [
+                "J WILLOUGHBY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",
