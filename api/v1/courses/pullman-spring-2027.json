@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T14:08:57.848941+00:00",
+  "generatedAt": "2026-10-30T19:20:30.037431+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -68198,6 +68198,54 @@
               "ucore": "",
               "coop": false,
               "footnotes": "PS",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "GERMAN",
+          "subjectPrefix": "Ger",
+          "courseNumber": 499,
+          "courseCode": "GERMAN 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4651",
+              "sln": 4651,
+              "sectionNumber": 1,
+              "courseCode": "GERMAN 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BONZO",
+              "instructors": [
+                "J BONZO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
               "seats": {
                 "taken": 0,
                 "total": 10,

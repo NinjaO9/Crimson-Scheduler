@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T14:08:57.560221+00:00",
+  "generatedAt": "2026-10-30T19:20:29.817613+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -989,11 +989,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W",
-              "time": "10:35 - 11:50",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
                   "days": "M,W",
-                  "time": "10:35 - 11:50"
+                  "time": "09:10 - 10:25"
                 }
               ],
               "location": "GUC  EVE",
@@ -1009,6 +1009,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Media Entrepreneurship",
+          "subject": "COMJOUR",
+          "subjectPrefix": "ComJo",
+          "courseNumber": 481,
+          "courseCode": "COMJOUR 481",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10389",
+              "sln": 10389,
+              "sectionNumber": 1,
+              "courseCode": "COMJOUR 481",
+              "courseName": "Media Entrepreneurship",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C WU",
+              "instructors": [
+                "C WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
