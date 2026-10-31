@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T23:45:41.756939+00:00",
+  "generatedAt": "2026-10-31T05:32:47.599016+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -23234,12 +23234,12 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU",
-              "time": "09:10 - 11:40",
+              "days": "W",
+              "time": "15:10 - 17:40",
               "meetings": [
                 {
-                  "days": "TU",
-                  "time": "09:10 - 11:40"
+                  "days": "W",
+                  "time": "15:10 - 17:40"
                 }
               ],
               "location": "SLOA 235",
@@ -23271,12 +23271,12 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU",
-              "time": "12:05 - 14:35",
+              "days": "TH",
+              "time": "09:10 - 11:40",
               "meetings": [
                 {
-                  "days": "TU",
-                  "time": "12:05 - 14:35"
+                  "days": "TH",
+                  "time": "09:10 - 11:40"
                 }
               ],
               "location": "SLOA 235",
@@ -23308,12 +23308,12 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU",
-              "time": "14:55 - 17:25",
+              "days": "TH",
+              "time": "13:35 - 16:05",
               "meetings": [
                 {
-                  "days": "TU",
-                  "time": "14:55 - 17:25"
+                  "days": "TH",
+                  "time": "13:35 - 16:05"
                 }
               ],
               "location": "SLOA 235",
@@ -23452,15 +23452,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
                 }
               ],
-              "location": "PETB 107",
+              "location": "TODD 125",
               "instructor": "J MENG",
               "instructors": [
                 "J MENG"
@@ -24094,11 +24094,11 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "TU",
-              "time": "13:30 - 16:20",
+              "time": "12:05 - 14:55",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "13:30 - 16:20"
+                  "time": "12:05 - 14:55"
                 }
               ],
               "location": "SLOA 7",
@@ -24131,11 +24131,11 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "TH",
-              "time": "13:30 - 16:20",
+              "time": "12:05 - 14:55",
               "meetings": [
                 {
                   "days": "TH",
-                  "time": "13:30 - 16:20"
+                  "time": "12:05 - 14:55"
                 }
               ],
               "location": "SLOA 7",
@@ -24462,9 +24462,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -58586,9 +58586,9 @@
               "footnotes": "VX",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -139220,7 +139220,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "SLOA 161",
+              "location": "WEBS 17",
               "instructor": "Y WANG",
               "instructors": [
                 "Y WANG"
@@ -139268,7 +139268,7 @@
                   "time": "14:55 - 16:10"
                 }
               ],
-              "location": "TODD 211",
+              "location": "WEBS 17",
               "instructor": "Y WANG",
               "instructors": [
                 "Y WANG"
