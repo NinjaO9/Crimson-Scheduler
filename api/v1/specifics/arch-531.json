@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:13:02.794730+00:00",
+  "generatedAt": "2026-11-01T03:04:37.556731+00:00",
   "course": "arch-531",
   "subject": "ARCH",
   "courseNumber": 531,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>531 Advanced Tectonics</b>  Tectonic theory of concrete and metal construction with focus on skin design and technology as formative elements in architecture.  ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Jaechang",
+            "lastName": "Ko",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

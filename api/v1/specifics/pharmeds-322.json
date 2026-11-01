@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:46:53.472114+00:00",
+  "course": "pharmeds-322",
+  "subject": "PHARMEDS",
+  "courseNumber": 322,
+  "courseName": "Medicinal Chemistry: Developing New Drugs",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRMD/322/1/false/true",
+      "response": {
+        "courseDescription": "<b>322 Medicinal Chemistry: Developing New Drugs</b>  Introduction to drug disposition, drug metabolism, structure-activity relationships, functional groups, and drug development.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Travis",
+            "lastName": "Denton",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

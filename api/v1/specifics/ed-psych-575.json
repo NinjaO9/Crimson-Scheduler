@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:50:00.717813+00:00",
+  "course": "ed-psych-575",
+  "subject": "ED_PSYCH",
+  "courseNumber": 575,
+  "courseName": "Multilevel Modeling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EdPsy/575/1/false/true",
+      "response": {
+        "courseDescription": "<b>575 Multilevel Modeling</b>  Introduction to multilevel modeling techniques; examines the use of these techniques in the social sciences. Recommended preparation: ED PSYCH 569.  ",
+        "coursePrerequisites": " ED RES 565.",
+        "instructors": [
+          {
+            "firstName": "Brian",
+            "lastName": "French",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

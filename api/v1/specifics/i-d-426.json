@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:42.075498+00:00",
+  "generatedAt": "2026-11-01T04:24:40.641737+00:00",
   "course": "i-d-426",
   "subject": "I_D",
   "courseNumber": 426,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>426 Interior Design Studio VII</b>  Comprehensive studio project that integrates and extends interior design skills; entails research, interpretation, writing, graphic communication, design, and oral presentations.  ",
         "coursePrerequisites": " I D 425 or I D 490 with a C or better; junior standing.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Vahid",
+            "lastName": "Vahdat",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

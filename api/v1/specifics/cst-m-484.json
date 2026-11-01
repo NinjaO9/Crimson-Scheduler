@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:40:26.820996+00:00",
+  "generatedAt": "2026-11-01T03:33:36.323721+00:00",
   "course": "cst-m-484",
   "subject": "CST_M",
   "courseNumber": 484,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>484 Temporary Structures</b>  Temporary structures including formwork, falsework, soldier pile and lagging, sheet pile, cofferdam, scaffolding, underpinning, bracing and guying, air domes, and others.  ",
         "coursePrerequisites": " ARCH 352 with a C or better or CE 330 with a C or better; admitted to the major in Civil Engineering, Construction Management, or Architectural Studies.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Kishor",
+            "lastName": "Shrestha",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

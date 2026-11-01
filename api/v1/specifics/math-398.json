@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:32:13.332720+00:00",
+  "generatedAt": "2026-11-01T04:28:22.665931+00:00",
   "course": "math-398",
   "subject": "MATH",
   "courseNumber": 398,
@@ -21,7 +21,14 @@
       "response": {
         "courseDescription": "<b>398 Mathematical Snapshots</b>  Character, life work, and historical importance of mathematicians from various eras and branches of mathematics.  ",
         "coursePrerequisites": " MATH 172 or MATH 182.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "David",
+            "lastName": "Nichols",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

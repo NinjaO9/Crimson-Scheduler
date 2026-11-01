@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:50:00.343604+00:00",
+  "course": "ed-psych-573",
+  "subject": "ED_PSYCH",
+  "courseNumber": 573,
+  "courseName": "Motivation Theories",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EdPsy/573/1/false/true",
+      "response": {
+        "courseDescription": "<b>573 Motivation Theories</b>  Antecedents, consequences, and processes of motivated behavior examined from theoretical, empirical, and applied perspectives. (Crosslisted course offered as ED PSYCH 573, KINES 514.)  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Danielson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

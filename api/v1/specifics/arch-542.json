@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:04:38.146536+00:00",
+  "course": "arch-542",
+  "subject": "ARCH",
+  "courseNumber": 542,
+  "courseName": "Issues in Architecture",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Arch/542/1/false/true",
+      "response": {
+        "courseDescription": "<b>542 Issues in Architecture</b>  Examination of issues in architecture related to society, culture, environment, politics, and philosophy.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Phil",
+            "lastName": "Gruen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

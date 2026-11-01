@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:18.314330+00:00",
+  "generatedAt": "2026-11-01T04:48:53.787594+00:00",
   "course": "physics-533",
   "subject": "PHYSICS",
   "courseNumber": 533,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>533 Thermal and Statistical Physics I</b>  Thermodynamic laws and potentials, kinetic theory, hydrodynamics and transport coefficients; introduction to statistical mechanics, ensembles, partition functions. Cooperative: Open to UI degree-seeking students. ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Mark",
+            "lastName": "Kuzyk",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

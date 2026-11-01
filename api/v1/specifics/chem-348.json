@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:26:42.254557+00:00",
+  "generatedAt": "2026-11-01T03:19:14.973147+00:00",
   "course": "chem-348",
   "subject": "CHEM",
   "courseNumber": 348,
@@ -31,16 +31,10 @@
         "coursePrerequisites": " CHEM 345 with a C or better.",
         "instructors": [
           {
-            "firstName": "Greg",
-            "lastName": "Crouch",
-            "isPrimary": true,
-            "tchEffort": 50
-          },
-          {
             "firstName": "Ryan",
             "lastName": "Joseph",
             "isPrimary": true,
-            "tchEffort": 50
+            "tchEffort": 100
           }
         ]
       }

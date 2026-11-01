@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:30:40.402232+00:00",
+  "generatedAt": "2026-11-01T04:26:46.094537+00:00",
   "course": "lnd-arch-450",
   "subject": "LND_ARCH",
   "courseNumber": 450,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>450 [M] Principles and Practice of Planning</b>  History, theory, methods, and processes in regional planning; contemporary issues and professional practice.  ",
         "coursePrerequisites": " LND ARCH 363 with a C or better; junior standing.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Steve",
+            "lastName": "Austin",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

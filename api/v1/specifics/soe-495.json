@@ -1,11 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T23:18:55.200892+00:00",
+  "generatedAt": "2026-11-01T05:17:47.451761+00:00",
   "course": "soe-495",
   "subject": "SOE",
   "courseNumber": 495,
   "courseName": "Undergraduate Internship",
   "offerings": [
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
     {
       "campus": "Global",
       "term": "Summer 2026"
@@ -38,8 +42,8 @@
   "sources": [],
   "errors": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Summer/2026/SOE/495/1/false/true",
-      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Summer/2026/SOE/495/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/SOE/495/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/SOE/495/1/false/true (Caused by ResponseError('too many 500 error responses'))"
     }
   ],
   "available": false

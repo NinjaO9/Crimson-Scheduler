@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:40:24.384914+00:00",
+  "generatedAt": "2026-11-01T03:33:32.706211+00:00",
   "course": "cst-m-252",
   "subject": "CST_M",
   "courseNumber": 252,
@@ -21,7 +21,14 @@
       "response": {
         "courseDescription": "<b>252 Construction Administration and Documentation</b>  Study and understanding of administrative procedures found within construction projects and respective documentation.  ",
         "coursePrerequisites": " CST M 102 with a C or better; CST M 201 with a C or better; admitted to the major in Construction Management.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Derek",
+            "lastName": "Oliver",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

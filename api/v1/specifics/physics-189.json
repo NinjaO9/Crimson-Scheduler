@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:13.125204+00:00",
+  "generatedAt": "2026-11-01T04:48:47.998577+00:00",
   "course": "physics-189",
   "subject": "PHYSICS",
   "courseNumber": 189,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>189 First-Year Seminar II</b>  Continuation of PHYSICS 188; faculty will present current research interests and opportunities in physics; questions and discussions.  S, F grading. ",
         "coursePrerequisites": " PHYSICS 188.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Allen",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

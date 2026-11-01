@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T02:55:30.492511+00:00",
+  "course": "agri-562",
+  "subject": "AGRI",
+  "courseNumber": 562,
+  "courseName": "Advanced Topics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Fall 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Agri/562/1/false/true",
+      "response": {
+        "courseDescription": "<b>562 Advanced Topics</b> May be repeated for credit; cumulative maximum 4 hours. Directed group study of selected advanced topics in agriculture and related areas.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Anna",
+            "lastName": "Warner",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Nancy",
+            "lastName": "Deringer",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

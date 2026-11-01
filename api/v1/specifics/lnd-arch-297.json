@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:30:39.138504+00:00",
+  "generatedAt": "2026-11-01T04:26:44.337641+00:00",
   "course": "lnd-arch-297",
   "subject": "LND_ARCH",
   "courseNumber": 297,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>297 Digital Design Communication</b>  Digital design communication skills for 2D/3D design problem solving; integration of current technology and software applications.  ",
         "coursePrerequisites": " LND ARCH 262 with a C or better.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Dan",
+            "lastName": "Cronan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

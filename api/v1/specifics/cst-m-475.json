@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:40:26.498872+00:00",
+  "generatedAt": "2026-11-01T03:33:35.847336+00:00",
   "course": "cst-m-475",
   "subject": "CST_M",
   "courseNumber": 475,
@@ -17,7 +17,20 @@
       "response": {
         "courseDescription": "<b>475 [M] Senior Capstone</b>  Simulation of real world competition for Design-Build and/or CM at Risk (CM/GC) projects.  ",
         "coursePrerequisites": " CST M 451 with a C or better; CST M 462 with a C or better; admitted to the major in Construction Management; junior standing.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Darhl",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 50
+          },
+          {
+            "firstName": "Jason",
+            "lastName": "Peschel",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
       }
     }
   ],

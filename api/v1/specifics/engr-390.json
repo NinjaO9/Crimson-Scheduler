@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:56:49.851222+00:00",
+  "course": "engr-390",
+  "subject": "ENGR",
+  "courseNumber": 390,
+  "courseName": "Engineering Leadership",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engr/390/1/false/true",
+      "response": {
+        "courseDescription": "<b>390 Engineering Leadership</b>  Introduction to leadership; development of personal leadership skills and application of leadership strategies via experiential learning.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Kimberlee",
+            "lastName": "Hughes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

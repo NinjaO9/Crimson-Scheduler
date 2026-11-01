@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:11:45.600069+00:00",
+  "generatedAt": "2026-11-01T03:02:49.013011+00:00",
   "course": "arch-209",
   "subject": "ARCH",
   "courseNumber": 209,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>209 Design Theory I</b>  Design theory relating to building technology, systems and crafts which influence design decisions.  ",
         "coursePrerequisites": " Admitted to the major in Architectural Studies.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Ayad",
+            "lastName": "Rahmani",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:14.664999+00:00",
+  "generatedAt": "2026-11-01T04:48:50.019790+00:00",
   "course": "physics-304",
   "subject": "PHYSICS",
   "courseNumber": 304,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>304 Modern Physics II</b>  Continuation of PHYSICS 303.  ",
         "coursePrerequisites": " PHYSICS 303.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Qingze",
+            "lastName": "Guan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

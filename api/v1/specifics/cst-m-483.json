@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:40:26.661602+00:00",
+  "generatedAt": "2026-11-01T03:33:36.093211+00:00",
   "course": "cst-m-483",
   "subject": "CST_M",
   "courseNumber": 483,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>483 Building Information Modeling I</b>  Use of Building Information Modeling (BIM) for construction coordination via emerging technologies and/or BIM software to collaborate with multiple distributed stakeholders and students from other disciplines.  ",
         "coursePrerequisites": " Admitted to the major in Architectural Studies, Construction Management, Interior Design, or Landscape Architecture.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Hongtao",
+            "lastName": "Dang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

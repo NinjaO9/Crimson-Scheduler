@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:08:01.118548+00:00",
+  "course": "ath-t-290",
+  "subject": "ATH_T",
+  "courseNumber": 290,
+  "courseName": "Pre-Clinical Education",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ath%20T/290/1/false/true",
+      "response": {
+        "courseDescription": "<b>290 Pre-Clinical Education</b>  Experience with the profession of athletic training, and the WSU Athletic Training Program.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "Katy",
+            "lastName": "Pietz",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

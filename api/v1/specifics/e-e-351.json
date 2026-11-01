@@ -1,11 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:43:46.639458+00:00",
+  "generatedAt": "2026-11-01T03:37:04.569233+00:00",
   "course": "e-e-351",
   "subject": "E_E",
   "courseNumber": 351,
   "courseName": "Distributed Parameter Systems",
   "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
     {
       "campus": "Pullman",
       "term": "Spring 2027"
@@ -13,7 +17,7 @@
   ],
   "sources": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/351/1/false/true",
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/E%20E/351/1/false/true",
       "response": {
         "courseDescription": "<b>351 Distributed Parameter Systems</b>  Maxwell's equations, plane waves, waveguides, resonators, antennas, numerical methods.  ",
         "coursePrerequisites": " E E 331 with a C or better; admitted to a major or minor in EECS.",

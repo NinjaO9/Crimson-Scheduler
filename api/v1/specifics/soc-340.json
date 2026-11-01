@@ -1,11 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T23:11:38.970061+00:00",
+  "generatedAt": "2026-11-01T05:10:02.751393+00:00",
   "course": "soc-340",
   "subject": "SOC",
   "courseNumber": 340,
   "courseName": "Social Inequality",
   "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Fall 2026"
+    },
     {
       "campus": "Global",
       "term": "Spring 2027"
@@ -17,18 +25,25 @@
     {
       "campus": "Pullman",
       "term": "Fall 2026"
-    },
-    {
-      "campus": "Pullman",
-      "term": "Spring 2027"
     }
   ],
-  "sources": [],
-  "errors": [
+  "sources": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/Soc/340/1/false/true",
-      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/Soc/340/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/Soc/340/2/false/true",
+      "response": {
+        "courseDescription": "<b>340 Social Inequality</b>  Causes and consequences of social inequality in contemporary America. Recommended preparation: SOC 101.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Mariana",
+            "lastName": "Amorim",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
     }
   ],
-  "available": false
+  "errors": [],
+  "available": true
 }

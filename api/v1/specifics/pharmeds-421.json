@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:46:54.929275+00:00",
+  "course": "pharmeds-421",
+  "subject": "PHARMEDS",
+  "courseNumber": 421,
+  "courseName": "Scientific Communication: Writing and Speaking",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRMD/421/1/false/true",
+      "response": {
+        "courseDescription": "<b>421 [M] Scientific Communication: Writing and Speaking</b>  Introduction to scientific writing and oral communications in the biomedical sciences.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Sue",
+            "lastName": "Marsh",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

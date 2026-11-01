@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:55:26.793916+00:00",
+  "course": "english-405",
+  "subject": "ENGLISH",
+  "courseNumber": 405,
+  "courseName": "Advanced Professional Writing and Editing",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/Engl/405/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/Engl/405/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

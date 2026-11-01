@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:33:37.948247+00:00",
+  "course": "med-eth-530",
+  "subject": "MED_ETH",
+  "courseNumber": 530,
+  "courseName": "The Practice of Clinical Ethics",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/MEDET/530/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/MEDET/530/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

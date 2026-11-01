@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:39.959399+00:00",
+  "generatedAt": "2026-11-01T04:24:37.495207+00:00",
   "course": "i-d-215",
   "subject": "I_D",
   "courseNumber": 215,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>215 Materials and Components of Interior Design</b>  Characteristics and properties of structural and non-structural interior materials.  ",
         "coursePrerequisites": " Admitted to the major in Interior Design.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Carrie",
+            "lastName": "Vielle",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

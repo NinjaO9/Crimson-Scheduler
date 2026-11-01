@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:11:44.123039+00:00",
+  "generatedAt": "2026-11-01T03:02:26.223488+00:00",
   "course": "anth-550",
   "subject": "ANTH",
   "courseNumber": 550,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>550 Ethnolinguistics</b>  Anthropological theory and methods applied to the study of cognitive linguistics, or the interrelation of language, mind, and culture. Credit not granted for more than one of ANTH 450 and ANTH 550. Cooperative: Open to UI degree-seeking students. ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Sarah",
+            "lastName": "Richardson",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

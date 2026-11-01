@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:06:08.130153+00:00",
+  "generatedAt": "2026-11-01T03:59:48.754265+00:00",
   "course": "for-lang-300",
   "subject": "FOR_LANG",
   "courseNumber": 300,
@@ -8,27 +8,25 @@
   "offerings": [
     {
       "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
       "term": "Summer 2026"
     }
   ],
   "sources": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/For%20L/300/1/false/true",
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/For%20L/300/1/false/true",
       "response": {
         "courseDescription": "<b>300 Studies in Foreign Languages</b> May be repeated for credit. Languages not currently a part of the curriculum may be offered on demand. Not open to native speakers except with permission. Cooperative: Open to UI degree-seeking students. ",
         "coursePrerequisites": "",
         "instructors": [
           {
-            "firstName": "Joshua",
-            "lastName": "Bonzo",
+            "firstName": "Sonia",
+            "lastName": "Lopez-Lopez",
             "isPrimary": true,
-            "tchEffort": 50
-          },
-          {
-            "firstName": "Lisa",
-            "lastName": "Hoeller",
-            "isPrimary": true,
-            "tchEffort": 50
+            "tchEffort": 100
           }
         ]
       }

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:46:54.005447+00:00",
+  "course": "pharmeds-330",
+  "subject": "PHARMEDS",
+  "courseNumber": 330,
+  "courseName": "Molecular Methods: Biochemical Techniques",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRMD/330/1/false/true",
+      "response": {
+        "courseDescription": "<b>330 Molecular Methods: Biochemical Techniques</b>  Introduction to methodological approaches commonly used in pharmaceutical research and biotechnology.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Boyd",
+            "lastName": "Foster",
+            "isPrimary": true,
+            "tchEffort": 80
+          },
+          {
+            "firstName": "Gang",
+            "lastName": "Chen",
+            "isPrimary": false,
+            "tchEffort": 10
+          },
+          {
+            "firstName": "Salah",
+            "lastName": "Ahmed",
+            "isPrimary": false,
+            "tchEffort": 10
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

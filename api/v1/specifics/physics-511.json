@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:17.976162+00:00",
+  "generatedAt": "2026-11-01T04:48:53.263049+00:00",
   "course": "physics-511",
   "subject": "PHYSICS",
   "courseNumber": 511,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>511 Advanced X-ray Characterization</b>  Foundations in X-ray diffraction, scattering, and spectroscopy-based characterization methods as applied to a wide range of systems relevant to physics, chemistry, and engineering; hands-on experience with data collection and analysis. (Crosslisted course offered as PHYSICS 511, CHEM 511.)  ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "BRIAN",
+            "lastName": "COLLINS",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

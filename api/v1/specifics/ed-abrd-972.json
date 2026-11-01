@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:49:19.634938+00:00",
+  "course": "ed-abrd-972",
+  "subject": "ED_ABRD",
+  "courseNumber": 972,
+  "courseName": "Educ Abroad",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Summer 2026"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Summer/2026/EAC/972/1/false/true",
+      "response": {
+        "courseDescription": "<b>972 Educ Abroad</b>  [HUM] [I]  INVALID GRADING TYPE.",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Megan",
+            "lastName": "Styborski",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

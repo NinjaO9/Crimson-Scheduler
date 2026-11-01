@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:46:53.256761+00:00",
+  "course": "pharmeds-320",
+  "subject": "PHARMEDS",
+  "courseNumber": 320,
+  "courseName": "Pharmaceutics: Delivering the Treatment",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRMD/320/1/false/true",
+      "response": {
+        "courseDescription": "<b>320 Pharmaceutics: Delivering the Treatment</b>  Introduction to drug absorption, distribution, metabolism, and excretion; drug delivery; and vaccines.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "John",
+            "lastName": "Clarke",
+            "isPrimary": true,
+            "tchEffort": 70
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

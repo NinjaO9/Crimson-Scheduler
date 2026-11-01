@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:43:02.934454+00:00",
+  "course": "mus-473",
+  "subject": "MUS",
+  "courseNumber": 473,
+  "courseName": "Marching Band and Jazz Band Pedagogy",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Mus/473/1/false/true",
+      "response": {
+        "courseDescription": "<b>473 Marching Band and Jazz Band Pedagogy</b>  Twice-weekly sessions on the topics of jazz band pedagogy and marching band techniques.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Jon",
+            "lastName": "Sweet",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

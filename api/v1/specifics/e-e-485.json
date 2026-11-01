@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:37:08.192888+00:00",
+  "course": "e-e-485",
+  "subject": "E_E",
+  "courseNumber": 485,
+  "courseName": "Electric Energy Distribution Systems",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/E%20E/485/1/false/true",
+      "response": {
+        "courseDescription": "<b>485 Electric Energy Distribution Systems</b>  Fundamentals of distribution systems engineering, distribution system modeling and analysis, distribution load flow analysis, voltage regulation, recent advances in distribution automation.  ",
+        "coursePrerequisites": " E E 361 with a C or better; admitted to a major or minor in EECS.",
+        "instructors": [
+          {
+            "firstName": "Anamika",
+            "lastName": "Dubey",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

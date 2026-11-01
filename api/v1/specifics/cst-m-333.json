@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:40:24.858389+00:00",
+  "generatedAt": "2026-11-01T03:33:33.390837+00:00",
   "course": "cst-m-333",
   "subject": "CST_M",
   "courseNumber": 333,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>333 Building Science II</b>  Water supply, drainage, electrical and lighting systems for buildings.  ",
         "coursePrerequisites": " CST M 332 with a C or better; admitted to the major in Architectural Studies or Construction Management.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Julia",
+            "lastName": "Day",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T05:26:59.863209+00:00",
+  "course": "tmp-424",
+  "subject": "TMP",
+  "courseNumber": 424,
+  "courseName": "Human Clinical Neuropathology",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/TMP/424/1/false/true",
+      "response": {
+        "courseDescription": "<b>424 Human Clinical Neuropathology</b>  Functional anatomy of the human nervous system with an emphasis on disease and pathological states.  ",
+        "coursePrerequisites": " Admitted to the Pharmaceutical and Medical Sciences BS program.",
+        "instructors": [
+          {
+            "firstName": "Jason",
+            "lastName": "Gerstner",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

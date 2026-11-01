@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:41.446201+00:00",
+  "generatedAt": "2026-11-01T04:24:39.707610+00:00",
   "course": "i-d-350",
   "subject": "I_D",
   "courseNumber": 350,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>350 [M] History of Interiors II</b>  A survey of interior environments, spatial distributions, furnishings, and related design elements in the 19th and 20th centuries.  ",
         "coursePrerequisites": " Admitted to the major in Interior Design.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Carrie",
+            "lastName": "Vielle",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:08:00.656070+00:00",
+  "course": "ath-t-263",
+  "subject": "ATH_T",
+  "courseNumber": 263,
+  "courseName": "Emergency Response",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ath%20T/263/1/false/true",
+      "response": {
+        "courseDescription": "<b>263 Emergency Response</b>  First aid and safety procedures, including CPR for the Professional Rescuer, AED training and prevention training.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "SeokJae",
+            "lastName": "Choe",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

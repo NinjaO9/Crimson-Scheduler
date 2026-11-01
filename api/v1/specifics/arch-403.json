@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:11:47.124386+00:00",
+  "generatedAt": "2026-11-01T03:02:51.131015+00:00",
   "course": "arch-403",
   "subject": "ARCH",
   "courseNumber": 403,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>403 Comprehensive Design Studio I</b>  Integrated capstone studio focusing on design and construction documents, costs, and specifications.  Travel to site may be required.  ",
         "coursePrerequisites": " ARCH 401 with a C or better; admitted to the major in Architectural Studies; senior standing.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Marti",
+            "lastName": "Cowan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

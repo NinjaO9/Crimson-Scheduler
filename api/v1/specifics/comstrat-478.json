@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:25:35.821581+00:00",
+  "course": "comstrat-478",
+  "subject": "COMSTRAT",
+  "courseNumber": 478,
+  "courseName": "Health Communication",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/ComSr/478/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/ComSr/478/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}

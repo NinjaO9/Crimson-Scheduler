@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:30:39.925291+00:00",
+  "generatedAt": "2026-11-01T04:26:45.429222+00:00",
   "course": "lnd-arch-366",
   "subject": "LND_ARCH",
   "courseNumber": 366,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>366 Landscape Architectural Construction II</b>  Construction materials and methods, specifications, cost estimating, and construction document preparation.  ",
         "coursePrerequisites": " LND ARCH 365 with a C or better.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Sanchez",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

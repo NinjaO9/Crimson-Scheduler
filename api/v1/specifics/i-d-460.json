@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:42.232384+00:00",
+  "generatedAt": "2026-11-01T04:24:40.894596+00:00",
   "course": "i-d-460",
   "subject": "I_D",
   "courseNumber": 460,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>460 Portfolio and Representation</b>  Develop communication skills and produce documents necessary to professionally present oneself to prospective employers within the fields of design.  ",
         "coursePrerequisites": " Admitted to the major in Interior Design, Landscape Architecture, Architectural Studies, or Construction Management.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Apoorva",
+            "lastName": "Rane",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

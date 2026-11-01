@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:55:42.379838+00:00",
+  "course": "english-443",
+  "subject": "ENGLISH",
+  "courseNumber": 443,
+  "courseName": "Phonetics and Phonology",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Engl/443/1/false/true",
+      "response": {
+        "courseDescription": "<b>443 Phonetics and Phonology</b>  Technical introduction to the analysis of the speech patterns and sound systems across human languages. Recommended Preparation: ENGLISH 256.  Credit not granted for both ENGLISH 443 and 543. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Michael",
+            "lastName": "Thomas",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

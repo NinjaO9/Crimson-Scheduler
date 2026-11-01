@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:08:02.418831+00:00",
+  "course": "ath-t-464",
+  "subject": "ATH_T",
+  "courseNumber": 464,
+  "courseName": "Rehabilitation in Athletic Training",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Ath%20T/464/1/false/true",
+      "response": {
+        "courseDescription": "<b>464 Rehabilitation in Athletic Training</b>  Advanced injury rehabilitation theory and techniques in athletic training.  ",
+        "coursePrerequisites": " Admitted to the major in Sports Medicine or MAT program.",
+        "instructors": [
+          {
+            "firstName": "Scott",
+            "lastName": "Landis",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

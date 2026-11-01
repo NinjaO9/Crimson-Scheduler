@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:15:52.391345+00:00",
+  "generatedAt": "2026-11-01T03:07:59.577369+00:00",
   "course": "astronom-135",
   "subject": "ASTRONOM",
   "courseNumber": 135,
@@ -29,7 +29,14 @@
       "response": {
         "courseDescription": "<b>135 Astronomy</b>  Overview of the solar system, stars, galaxies, cosmology, and the history of astronomy. Includes a lab component with occasional evening meetings. Credit not granted for both ASTRONOM 135 and 150.  ",
         "coursePrerequisites": " ENGLISH 101 or HISTORY 105.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Vivienne",
+            "lastName": "Baldassare",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

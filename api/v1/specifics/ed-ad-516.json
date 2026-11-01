@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:56:07.211226+00:00",
+  "generatedAt": "2026-11-01T03:49:36.397668+00:00",
   "course": "ed-ad-516",
   "subject": "ED_AD",
   "courseNumber": 516,
@@ -25,7 +25,14 @@
       "response": {
         "courseDescription": "<b>516 Instructional and Curricular Leadership</b>  Theory, research, and practice of providing instructional and curricular leadership in schools and other educational settings.  ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Donald",
+            "lastName": "Vanderholm",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

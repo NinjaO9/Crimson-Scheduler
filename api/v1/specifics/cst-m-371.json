@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:40:25.669336+00:00",
+  "generatedAt": "2026-11-01T03:33:34.664502+00:00",
   "course": "cst-m-371",
   "subject": "CST_M",
   "courseNumber": 371,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>371 Estimating II</b>  Bidding application, advance concepts in the creation of unit cost and computer software applications.  ",
         "coursePrerequisites": " CST M 370 with a C or better; admitted to the major in Construction Management.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Darhl",
+            "lastName": "Edwards",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

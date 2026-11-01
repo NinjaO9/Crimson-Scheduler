@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:19.197448+00:00",
+  "generatedAt": "2026-11-01T04:48:54.981498+00:00",
   "course": "physics-551",
   "subject": "PHYSICS",
   "courseNumber": 551,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>551 Quantum Theory II</b>  Symmetry and invariance; angular momentum theory; approximation methods. Cooperative: Open to UI degree-seeking students. ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Steven",
+            "lastName": "Tomsovic",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

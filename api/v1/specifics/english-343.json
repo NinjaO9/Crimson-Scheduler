@@ -1,30 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:59:31.388426+00:00",
+  "generatedAt": "2026-11-01T03:53:08.040153+00:00",
   "course": "english-343",
   "subject": "ENGLISH",
   "courseNumber": 343,
   "courseName": "Introduction to Screenwriting",
   "offerings": [
     {
-      "campus": "Global",
-      "term": "Spring 2027"
-    },
-    {
       "campus": "Pullman",
       "term": "Fall 2026"
-    },
-    {
-      "campus": "Pullman",
-      "term": "Spring 2027"
     }
   ],
-  "sources": [],
-  "errors": [
+  "sources": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/Engl/343/1/false/true",
-      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/Engl/343/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Fall/2026/Engl/343/1/false/true",
+      "response": {
+        "courseDescription": "<b>343 Introduction to Screenwriting</b>  Workshop-based introduction to the art and craft of screenwriting; exploration of style and format, character development and story arcs.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Grant",
+            "lastName": "Maierhofer",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
     }
   ],
-  "available": false
+  "errors": [],
+  "available": true
 }

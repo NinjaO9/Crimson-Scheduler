@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:05:12.058510+00:00",
+  "generatedAt": "2026-11-01T02:54:55.863322+00:00",
   "course": "afs-302",
   "subject": "AFS",
   "courseNumber": 302,
@@ -25,7 +25,14 @@
       "response": {
         "courseDescription": "<b>302 [M] Introduction to Agroecology</b>  Agroecological crop production through case study analyses and applications of ecological principles in traditional and modern farming systems. Recommended preparation: SOIL SCI 201. (Crosslisted course offered as SOIL SCI 302, AFS 302.)  ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Robin",
+            "lastName": "Morgan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

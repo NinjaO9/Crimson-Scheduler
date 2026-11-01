@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:46:55.606330+00:00",
+  "course": "pharmeds-490",
+  "subject": "PHARMEDS",
+  "courseNumber": 490,
+  "courseName": "Senior Seminar: Capstone Experience",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRMD/490/1/false/true",
+      "response": {
+        "courseDescription": "<b>490 Senior Seminar: Capstone Experience</b>  Culminating and integrative experience with senior thesis; discussion of current topics in biomedicine and presentation of senior projects.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Sayed",
+            "lastName": "Daoud",
+            "isPrimary": true,
+            "tchEffort": 50
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

@@ -1,19 +1,31 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:42:33.240717+00:00",
+  "generatedAt": "2026-11-01T04:40:31.381071+00:00",
   "course": "mse-404",
   "subject": "MSE",
   "courseNumber": 404,
   "courseName": "Engineering Composites",
   "offerings": [
     {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
       "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
       "term": "Spring 2027"
     }
   ],
   "sources": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/MSE/404/1/false/true",
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/MSE/404/1/false/true",
       "response": {
         "courseDescription": "<b>404 Engineering Composites</b>  Basic concept in design and specifications of engineering composites.  ",
         "coursePrerequisites": " MSE 201 with a C or better.",

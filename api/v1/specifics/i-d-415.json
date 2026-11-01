@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:41.772740+00:00",
+  "generatedAt": "2026-11-01T04:24:40.216577+00:00",
   "course": "i-d-415",
   "subject": "I_D",
   "courseNumber": 415,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>415 Advanced Interior Construction and Detailing</b>  Analysis of building construction and detailing which impacts interior space design.  ",
         "coursePrerequisites": " Admitted to the major in Interior Design.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Krikac",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T05:20:33.155953+00:00",
+  "course": "spanish-450",
+  "subject": "SPANISH",
+  "courseNumber": 450,
+  "courseName": "Seminar in Spanish Studies - Themes",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Span/450/1/false/true",
+      "response": {
+        "courseDescription": "<b>450 [M] Seminar in Spanish Studies - Themes</b> May be repeated for credit; cumulative maximum 6 hours. Literature seminar on important themes in Spanish studies. Taught in Spanish.  ",
+        "coursePrerequisites": " One [HUM]; one [ARTS]; two SPANISH 300-level courses excluding\nSPANISH 305; junior standing.",
+        "instructors": [
+          {
+            "firstName": "Vilma",
+            "lastName": "Navarro-Daniels",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

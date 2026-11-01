@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T21:26:44.509920+00:00",
+  "generatedAt": "2026-11-01T03:19:17.958400+00:00",
   "course": "chem-499",
   "subject": "CHEM",
   "courseNumber": 499,
@@ -34,6 +34,12 @@
         "courseDescription": "<b>499 Special Problems</b> May be repeated for credit. Independent study conducted under the jurisdiction of an approving faculty member; may include independent research studies in technical or specialized problems; selection and analysis of specified readings; development of a creative project; or field experiences.  S, F grading. ",
         "coursePrerequisites": " By department permission.",
         "instructors": [
+          {
+            "firstName": "Krista",
+            "lastName": "Nishida",
+            "isPrimary": true,
+            "tchEffort": 0
+          },
           {
             "firstName": "Anjali",
             "lastName": "Sharma",
@@ -73,6 +79,12 @@
           {
             "firstName": "Jack",
             "lastName": "Zhang",
+            "isPrimary": true,
+            "tchEffort": 100
+          },
+          {
+            "firstName": "Jacob",
+            "lastName": "Leachman",
             "isPrimary": true,
             "tchEffort": 100
           },

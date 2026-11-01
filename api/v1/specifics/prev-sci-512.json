@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:53:51.301596+00:00",
+  "course": "prev-sci-512",
+  "subject": "PREV_SCI",
+  "courseNumber": 512,
+  "courseName": "Finite and Growth Mixture Modeling",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/PrvSc/512/1/false/true",
+      "response": {
+        "courseDescription": "<b>512 Finite and Growth Mixture Modeling</b>  Introduction to a specific type of latent variable statistical models, commonly referred to as finite mixture models, which include several distinct subtypes including latent class analysis, latent profile analysis, latent transition analysis, and latent class growth analysis; conceptual background for models and application of models in practice. Recommended preparation: ED PSYCH 514 and ED PSYCH 576, or knowledge of multivariate analysis and psychometrics.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Nicole",
+            "lastName": "Scalise",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

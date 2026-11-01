@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:30:40.703667+00:00",
+  "generatedAt": "2026-11-01T04:26:46.476768+00:00",
   "course": "lnd-arch-485",
   "subject": "LND_ARCH",
   "courseNumber": 485,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>485 [M] Senior Comprehensive Project</b>  Individually developed studio project that integrates and extends landscape architectural skills; entails research, interpretation, writing, graphic communication, design, oral presentations.  ",
         "coursePrerequisites": " LND ARCH 470 or 490, with a C or better; senior standing.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Jolie",
+            "lastName": "Kaytes",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

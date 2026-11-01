@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:43.444485+00:00",
+  "generatedAt": "2026-11-01T04:24:42.549277+00:00",
   "course": "i-d-540",
   "subject": "I_D",
   "courseNumber": 540,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>540 Research Methods</b>  Research methods, from quantitative to technical to philosophical, directed toward qualitative research. (Crosslisted course offered as ARCH 540, I D 540, LND ARCH 540.)  ",
         "coursePrerequisites": "",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Minyoung",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

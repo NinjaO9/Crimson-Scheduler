@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T23:22:32.021547+00:00",
+  "generatedAt": "2026-11-01T05:21:33.243576+00:00",
   "course": "spec-ed-403",
   "subject": "SPEC_ED",
   "courseNumber": 403,
@@ -8,7 +8,23 @@
   "offerings": [
     {
       "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
       "term": "Summer 2026"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Tri-Cities",
+      "term": "Spring 2027"
     },
     {
       "campus": "Vancouver",
@@ -18,8 +34,8 @@
   "sources": [],
   "errors": [
     {
-      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Summer/2026/Sp%20Ed/403/1/false/true",
-      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Summer/2026/Sp%20Ed/403/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/Sp%20Ed/403/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/Sp%20Ed/403/1/false/true (Caused by ResponseError('too many 500 error responses'))"
     }
   ],
   "available": false

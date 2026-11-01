@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:28:41.290947+00:00",
+  "generatedAt": "2026-11-01T04:24:39.476815+00:00",
   "course": "i-d-333",
   "subject": "I_D",
   "courseNumber": 333,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>333 Interior Design Studio V</b>  Interior design problem-solving grounded in organizational theories.  ",
         "coursePrerequisites": " I D 321 with a C or better; I D 397 with a C or better.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Robert",
+            "lastName": "Krikac",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

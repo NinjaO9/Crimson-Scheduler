@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:15.655850+00:00",
+  "generatedAt": "2026-11-01T04:48:51.134050+00:00",
   "course": "physics-342",
   "subject": "PHYSICS",
   "courseNumber": 342,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>342 Electricity and Magnetism II</b>  Continuation of PHYSICS 341. Maxwell's equations; electromagnetic waves, special relativity.  ",
         "coursePrerequisites": " PHYSICS 341.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Nicholas",
+            "lastName": "Cerruti",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T03:44:23.698570+00:00",
+  "course": "econs-322",
+  "subject": "ECONS",
+  "courseNumber": 322,
+  "courseName": "Public Economics",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/EconS/322/1/false/true",
+      "response": {
+        "courseDescription": "<b>322 Public Economics</b>  Impact of tax and spending policy on savings, labor, education, housing, and health; philosophies of government; individual versus group incentives; the prisoner's dilemma; calculating welfare effects of policy; designing better policy.  ",
+        "coursePrerequisites": " ECONS 101 or 198.",
+        "instructors": [
+          {
+            "firstName": "Rouzbeh",
+            "lastName": "Yasaeizamir",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

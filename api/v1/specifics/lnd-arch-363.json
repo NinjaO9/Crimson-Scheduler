@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:30:39.598512+00:00",
+  "generatedAt": "2026-11-01T04:26:45.019386+00:00",
   "course": "lnd-arch-363",
   "subject": "LND_ARCH",
   "courseNumber": 363,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>363 Landscape Architectural Design IV</b>  Professional site design processes; concentration on recreation facilities and site planning within residential, urban, institutional, and regional projects.  ",
         "coursePrerequisites": " LND ARCH 362 with a C or better.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Dan",
+            "lastName": "Cronan",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

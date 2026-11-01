@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T05:25:53.586006+00:00",
+  "course": "spmgt-578",
+  "subject": "SPMGT",
+  "courseNumber": 578,
+  "courseName": "Sport and Sustainability",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/SpMgt/578/1/false/true",
+      "response": {
+        "courseDescription": "<b>578 Sport and Sustainability</b>  Critical analysis of the role of sport as a driver of sustainability and its reciprocal  relationship with climate change, with particular attention to sport's potential for promoting sustainable development.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Alex",
+            "lastName": "Gang",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

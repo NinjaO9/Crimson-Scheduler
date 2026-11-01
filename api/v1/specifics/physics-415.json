@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:50:16.137966+00:00",
+  "generatedAt": "2026-11-01T04:48:51.388773+00:00",
   "course": "physics-415",
   "subject": "PHYSICS",
   "courseNumber": 415,
@@ -17,7 +17,14 @@
       "response": {
         "courseDescription": "<b>415 [M] Quantum Physics Laboratory</b> May be repeated for credit; cumulative maximum 6 hours. Experiments in modern and quantum physics, fundamental interactions of radiations with matter.  ",
         "coursePrerequisites": " PHYSICS 304.",
-        "instructors": []
+        "instructors": [
+          {
+            "firstName": "Peter",
+            "lastName": "Engels",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
       }
     }
   ],

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:46:54.242533+00:00",
+  "course": "pharmeds-375",
+  "subject": "PHARMEDS",
+  "courseNumber": 375,
+  "courseName": "Equity, Disparity, and Social Justice in Healthcare",
+  "offerings": [
+    {
+      "campus": "Spokane",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Spokane/Spring/2027/PHRMD/375/1/false/true",
+      "response": {
+        "courseDescription": "<b>375 Equity, Disparity, and Social Justice in Healthcare</b>  Fundamental concepts of social justice and equity in healthcare, with a solution-focused approach.  ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ayesha",
+            "lastName": "Ahmed",
+            "isPrimary": true,
+            "tchEffort": 80
+          },
+          {
+            "firstName": "Kathryn",
+            "lastName": "Meier",
+            "isPrimary": false,
+            "tchEffort": 20
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

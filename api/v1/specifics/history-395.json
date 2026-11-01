@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:18:35.058254+00:00",
+  "course": "history-395",
+  "subject": "HISTORY",
+  "courseNumber": 395,
+  "courseName": "Topics in History",
+  "offerings": [
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Pullman/Spring/2027/Hist/395/1/false/true",
+      "response": {
+        "courseDescription": "<b>395 Topics in History</b> May be repeated for credit; cumulative maximum 6 hours. Analytical study of selected historical movements and events. Cooperative: Open to UI degree-seeking students. ",
+        "coursePrerequisites": "",
+        "instructors": [
+          {
+            "firstName": "Ryan",
+            "lastName": "Booth",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

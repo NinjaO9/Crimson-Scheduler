@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T02:54:57.255684+00:00",
+  "course": "afs-445",
+  "subject": "AFS",
+  "courseNumber": 445,
+  "courseName": "Field Analysis of Sustainable Food Systems",
+  "offerings": [
+    {
+      "campus": "Everett",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    },
+    {
+      "campus": "Pullman",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Everett/Spring/2027/AFS/445/1/false/true",
+      "response": {
+        "courseDescription": "<b>445 Field Analysis of Sustainable Food Systems</b>  Experiential course visiting farms, food processing and marketing sites to develop understanding of issues in food systems sustainability. Field trip required. Credit not granted for both AFS 445 and 545.  ",
+        "coursePrerequisites": " By instructor permission.",
+        "instructors": [
+          {
+            "firstName": "Lynne",
+            "lastName": "Carpenter-Boggs",
+            "isPrimary": true,
+            "tchEffort": 100
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "available": true
+}

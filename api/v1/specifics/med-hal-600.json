@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-01T04:35:08.475447+00:00",
+  "course": "med-hal-600",
+  "subject": "MED_HAL",
+  "courseNumber": 600,
+  "courseName": "MHAL Capstone",
+  "offerings": [
+    {
+      "campus": "Global",
+      "term": "Spring 2027"
+    }
+  ],
+  "sources": [],
+  "errors": [
+    {
+      "url": "https://schedules.wsu.edu/api/Data/GetSectionInfo/Global/Spring/2027/MEDHL/600/1/false/true",
+      "error": "HTTPSConnectionPool(host='schedules.wsu.edu', port=443): Max retries exceeded with url: /api/Data/GetSectionInfo/Global/Spring/2027/MEDHL/600/1/false/true (Caused by ResponseError('too many 500 error responses'))"
+    }
+  ],
+  "available": false
+}
