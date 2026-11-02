@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-02T23:31:15.262892+00:00",
+  "campus": "Spokane",
+  "term": "Summer 2027",
+  "subjects": [
+    {
+      "subject": "KINES",
+      "courses": [
+        {
+          "course": "Methods of Health and Physical Education",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 536,
+          "courseCode": "KINES 536",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2915",
+              "sln": 2915,
+              "sectionNumber": 1,
+              "courseCode": "KINES 536",
+              "courseName": "Methods of Health and Physical Education",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,W,TH",
+              "time": "08:00 - 10:05",
+              "meetings": [
+                {
+                  "days": "TU,W,TH",
+                  "time": "08:00 - 10:05"
+                }
+              ],
+              "location": "SCRS 250",
+              "instructor": "P MORGAN",
+              "instructors": [
+                "P MORGAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 04"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SHS",
+      "courses": [
+        {
+          "course": "On-Campus Clinical Practicum",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 564,
+          "courseCode": "SHS 564",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1825",
+              "sln": 1825,
+              "sectionNumber": 2,
+              "courseCode": "SHS 564",
+              "courseName": "On-Campus Clinical Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "12:30 - 13:30",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "12:30 - 13:30"
+                }
+              ],
+              "location": "SHSB 123",
+              "instructor": "E SCHREINER",
+              "instructors": [
+                "E SCHREINER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "1871",
+              "sln": 1871,
+              "sectionNumber": 3,
+              "courseCode": "SHS 564",
+              "courseName": "On-Campus Clinical Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Off-Campus Practicum Public School Setting",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 566,
+          "courseCode": "SHS 566",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1824",
+              "sln": 1824,
+              "sectionNumber": 1,
+              "courseCode": "SHS 566",
+              "courseName": "Off-Campus Practicum Public School Setting",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "12:30 - 13:30",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "12:30 - 13:30"
+                }
+              ],
+              "location": "SHSB 125E",
+              "instructor": "D ALGEO",
+              "instructors": [
+                "D ALGEO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Mar 22",
+                "end": "Jun 04"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Off-campus Practicum Clinical Setting",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 568,
+          "courseCode": "SHS 568",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1808",
+              "sln": 1808,
+              "sectionNumber": 1,
+              "courseCode": "SHS 568",
+              "courseName": "Off-campus Practicum Clinical Setting",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "12:30 - 13:30",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "12:30 - 13:30"
+                }
+              ],
+              "location": "SHSB 125E",
+              "instructor": "D ALGEO",
+              "instructors": [
+                "D ALGEO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Mar 22",
+                "end": "Jun 04"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

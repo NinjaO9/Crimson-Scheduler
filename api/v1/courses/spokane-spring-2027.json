@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T15:43:38.331005+00:00",
+  "generatedAt": "2026-11-02T23:31:15.249195+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -7653,9 +7653,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "K SHISHANI",
+              "instructor": "K WEST",
               "instructors": [
-                "K SHISHANI"
+                "K WEST"
               ],
               "ucore": "",
               "coop": false,
@@ -7701,8 +7701,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K SHISHANI",
+              "instructors": [
+                "K SHISHANI"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -8580,6 +8582,54 @@
                 "total": 65,
                 "available": 65,
                 "label": "0/65"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Honors Research",
+          "subject": "PHARDSCI",
+          "subjectPrefix": "PHRSC",
+          "courseNumber": 598,
+          "courseCode": "PHARDSCI 598",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3237",
+              "sln": 3237,
+              "sectionNumber": 1,
+              "courseCode": "PHARDSCI 598",
+              "courseName": "Honors Research",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S AHMED",
+              "instructors": [
+                "S AHMED"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9674,6 +9724,856 @@
           ]
         },
         {
+          "course": "Acute Care Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 581,
+          "courseCode": "PHARMACY 581",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3176",
+              "sln": 3176,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 581",
+              "courseName": "Acute Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12082",
+              "sln": 12082,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 581",
+              "courseName": "Acute Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12083",
+              "sln": 12083,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 581",
+              "courseName": "Acute Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ambulatory Care Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 582,
+          "courseCode": "PHARMACY 582",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3177",
+              "sln": 3177,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 582",
+              "courseName": "Ambulatory Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12084",
+              "sln": 12084,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 582",
+              "courseName": "Ambulatory Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12085",
+              "sln": 12085,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 582",
+              "courseName": "Ambulatory Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Community Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 583,
+          "courseCode": "PHARMACY 583",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3171",
+              "sln": 3171,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 583",
+              "courseName": "Community Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12086",
+              "sln": 12086,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 583",
+              "courseName": "Community Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12087",
+              "sln": 12087,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 583",
+              "courseName": "Community Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Institutional Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 584,
+          "courseCode": "PHARMACY 584",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3168",
+              "sln": 3168,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 584",
+              "courseName": "Institutional Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12088",
+              "sln": 12088,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 584",
+              "courseName": "Institutional Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12089",
+              "sln": 12089,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 584",
+              "courseName": "Institutional Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elective I Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 585,
+          "courseCode": "PHARMACY 585",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3169",
+              "sln": 3169,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12090",
+              "sln": 12090,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12091",
+              "sln": 12091,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elective II Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 586,
+          "courseCode": "PHARMACY 586",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3167",
+              "sln": 3167,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 586",
+              "courseName": "Elective II Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12094",
+              "sln": 12094,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 586",
+              "courseName": "Elective II Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12095",
+              "sln": 12095,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 586",
+              "courseName": "Elective II Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elective III Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 587,
+          "courseCode": "PHARMACY 587",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3170",
+              "sln": 3170,
+              "sectionNumber": 6,
+              "courseCode": "PHARMACY 587",
+              "courseName": "Elective III Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12096",
+              "sln": 12096,
+              "sectionNumber": 7,
+              "courseCode": "PHARMACY 587",
+              "courseName": "Elective III Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12097",
+              "sln": 12097,
+              "sectionNumber": 8,
+              "courseCode": "PHARMACY 587",
+              "courseName": "Elective III Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Special Topics",
           "subject": "PHARMACY",
           "subjectPrefix": "PharD",
@@ -10477,6 +11377,54 @@
                 "total": 3,
                 "available": 3,
                 "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research Methods in Social and Behavioral Sciences",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 202,
+          "courseCode": "PUBHLTH 202",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3514",
+              "sln": 3514,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 202",
+              "courseName": "Research Methods in Social and Behavioral Sciences",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "VC   SPK",
+              "instructor": "T SABATO",
+              "instructors": [
+                "T SABATO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11505,6 +12453,54 @@
               "dates": {
                 "start": "Jan 04",
                 "end": "Mar 12"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Internship in Speech-Language Pathology",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 570,
+          "courseCode": "SHS 570",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "1817",
+              "sln": 1817,
+              "sectionNumber": 1,
+              "courseCode": "SHS 570",
+              "courseName": "Advanced Internship in Speech-Language Pathology",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D ALGEO",
+              "instructors": [
+                "D ALGEO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
               }
             }
           ]

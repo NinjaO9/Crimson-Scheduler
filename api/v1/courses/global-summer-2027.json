@@ -1,0 +1,5099 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-02T23:31:14.859529+00:00",
+  "campus": "Global",
+  "term": "Summer 2027",
+  "subjects": [
+    {
+      "subject": "AGRI",
+      "courses": [
+        {
+          "course": "Research and Extension Communications in Agriculture",
+          "subject": "AGRI",
+          "subjectPrefix": "Agri",
+          "courseNumber": 587,
+          "courseCode": "AGRI 587",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3040",
+              "sln": 3040,
+              "sectionNumber": 1,
+              "courseCode": "AGRI 587",
+              "courseName": "Research and Extension Communications in Agriculture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C PERILLO",
+              "instructors": [
+                "C PERILLO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "AGRI",
+          "subjectPrefix": "Agri",
+          "courseNumber": 700,
+          "courseCode": "AGRI 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2219",
+              "sln": 2219,
+              "sectionNumber": 1,
+              "courseCode": "AGRI 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERNHARD",
+              "instructors": [
+                "T BERNHARD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "AGRI",
+          "subjectPrefix": "Agri",
+          "courseNumber": 702,
+          "courseCode": "AGRI 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2180",
+              "sln": 2180,
+              "sectionNumber": 1,
+              "courseCode": "AGRI 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BIOLOGY",
+      "courses": [
+        {
+          "course": "Exploring Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 102,
+          "courseCode": "BIOLOGY 102",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2223",
+              "sln": 2223,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2340",
+              "sln": 2340,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hands-on Biology: A Laboratory Experience",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 105,
+          "courseCode": "BIOLOGY 105",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2224",
+              "sln": 2224,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 105",
+              "courseName": "Hands-on Biology: A Laboratory Experience",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Biology: Organismal Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 106,
+          "courseCode": "BIOLOGY 106",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2225",
+              "sln": 2225,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 90,
+                "available": 90,
+                "label": "0/90"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2341",
+              "sln": 2341,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 90,
+                "available": 90,
+                "label": "0/90"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Power of Food, The Science of Nutrition",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 140,
+          "courseCode": "BIOLOGY 140",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2226",
+              "sln": 2226,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 140",
+              "courseName": "The Power of Food, The Science of Nutrition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Human Nutrition and Health",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 333,
+          "courseCode": "BIOLOGY 333",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2227",
+              "sln": 2227,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 333",
+              "courseName": "Human Nutrition and Health",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "CV",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Cells",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 352,
+          "courseCode": "BIOLOGY 352",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2228",
+              "sln": 2228,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 352",
+              "courseName": "Cells",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 353,
+          "courseCode": "BIOLOGY 353",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3033",
+              "sln": 3033,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "3034",
+              "sln": 3034,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "General Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 372,
+          "courseCode": "BIOLOGY 372",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2229",
+              "sln": 2229,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 55,
+                "available": 55,
+                "label": "0/55"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2230",
+              "sln": 2230,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 55,
+                "available": 55,
+                "label": "0/55"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Principles of Organic Evolution",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 405,
+          "courseCode": "BIOLOGY 405",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2231",
+              "sln": 2231,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 405",
+              "courseName": "Principles of Organic Evolution",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 55,
+                "available": 55,
+                "label": "0/55"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2232",
+              "sln": 2232,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 405",
+              "courseName": "Principles of Organic Evolution",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 55,
+                "available": 55,
+                "label": "0/55"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CES",
+      "courses": [
+        {
+          "course": "Race and Racism in the United States",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 101,
+          "courseCode": "CES 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2436",
+              "sln": 2436,
+              "sectionNumber": 1,
+              "courseCode": "CES 101",
+              "courseName": "Race and Racism in the United States",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B DE QUINTANA LASA",
+              "instructors": [
+                "B DE QUINTANA LASA"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2233",
+              "sln": 2233,
+              "sectionNumber": 2,
+              "courseCode": "CES 101",
+              "courseName": "Race and Racism in the United States",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B DE QUINTANA LASA",
+              "instructors": [
+                "B DE QUINTANA LASA"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hip Hop Around the Globe",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 209,
+          "courseCode": "CES 209",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2234",
+              "sln": 2234,
+              "sectionNumber": 1,
+              "courseCode": "CES 209",
+              "courseName": "Hip Hop Around the Globe",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H RENDON",
+              "instructors": [
+                "H RENDON"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Traveling Cultures: Tourism in Global Perspective",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 325,
+          "courseCode": "CES 325",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3027",
+              "sln": 3027,
+              "sectionNumber": 2,
+              "courseCode": "CES 325",
+              "courseName": "Traveling Cultures: Tourism in Global Perspective",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J SHINOZUKA",
+              "instructors": [
+                "J SHINOZUKA"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CHEM",
+      "courses": [
+        {
+          "course": "Introduction to Chemistry",
+          "subject": "CHEM",
+          "subjectPrefix": "Chem",
+          "courseNumber": 101,
+          "courseCode": "CHEM 101",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3038",
+              "sln": 3038,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 101",
+              "courseName": "Introduction to Chemistry",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Principles of Chemistry I",
+          "subject": "CHEM",
+          "subjectPrefix": "Chem",
+          "courseNumber": 105,
+          "courseCode": "CHEM 105",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2454",
+              "sln": 2454,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 105",
+              "courseName": "Principles of Chemistry I",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M FENNIMORE",
+              "instructors": [
+                "M FENNIMORE"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 48,
+                "available": 48,
+                "label": "0/48"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 25"
+              }
+            },
+            {
+              "sectionId": "2455",
+              "sln": 2455,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 105",
+              "courseName": "Principles of Chemistry I",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "08:00 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "08:00 - 17:00"
+                }
+              ],
+              "location": "",
+              "instructor": "M FENNIMORE",
+              "instructors": [
+                "M FENNIMORE"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 48,
+                "available": 48,
+                "label": "0/48"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Jul 02"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CRM_J",
+      "courses": [
+        {
+          "course": "Introduction to the Administration of Criminal Justice",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 101,
+          "courseCode": "CRM_J 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2237",
+              "sln": 2237,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 101",
+              "courseName": "Introduction to the Administration of Criminal Justice",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "SSCI",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advancing Justice: Addressing Power and Inequity in the Justice System",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 205,
+          "courseCode": "CRM_J 205",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2238",
+              "sln": 2238,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 205",
+              "courseName": "Advancing Justice: Addressing Power and Inequity in the Justice System",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Criminal Law",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 320,
+          "courseCode": "CRM_J 320",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3035",
+              "sln": 3035,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 320",
+              "courseName": "Criminal Law",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Crime Control Policies",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 330,
+          "courseCode": "CRM_J 330",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2239",
+              "sln": 2239,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 330",
+              "courseName": "Crime Control Policies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Juvenile Justice and Corrections",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 365,
+          "courseCode": "CRM_J 365",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2240",
+              "sln": 2240,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 365",
+              "courseName": "Juvenile Justice and Corrections",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Criminal Courts in America",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 380,
+          "courseCode": "CRM_J 380",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2241",
+              "sln": 2241,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 380",
+              "courseName": "Criminal Courts in America",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Crime and Justice in the Movies",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 381,
+          "courseCode": "CRM_J 381",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2242",
+              "sln": 2242,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 381",
+              "courseName": "Crime and Justice in the Movies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 80,
+                "available": 80,
+                "label": "0/80"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Violence Toward Women",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 403,
+          "courseCode": "CRM_J 403",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2244",
+              "sln": 2244,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 403",
+              "courseName": "Violence Toward Women",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Comparative Criminal Justice Systems",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 405,
+          "courseCode": "CRM_J 405",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2245",
+              "sln": 2245,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 405",
+              "courseName": "Comparative Criminal Justice Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Senior Seminar: Ethical Issues in Criminal Justice",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 450,
+          "courseCode": "CRM_J 450",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2377",
+              "sln": 2377,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 450",
+              "courseName": "Senior Seminar: Ethical Issues in Criminal Justice",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Criminal Justice Internship",
+          "subject": "CRM_J",
+          "subjectPrefix": "Crm J",
+          "courseNumber": 490,
+          "courseCode": "CRM_J 490",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2437",
+              "sln": 2437,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 490",
+              "courseName": "Criminal Justice Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L RALSTIN",
+              "instructors": [
+                "L RALSTIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DATA",
+      "courses": [
+        {
+          "course": "Introduction to Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 115,
+          "courseCode": "DATA 115",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2246",
+              "sln": 2246,
+              "sectionNumber": 1,
+              "courseCode": "DATA 115",
+              "courseName": "Introduction to Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Python",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 302,
+          "courseCode": "DATA 302",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2247",
+              "sln": 2247,
+              "sectionNumber": 1,
+              "courseCode": "DATA 302",
+              "courseName": "Introduction to Python",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to SQL - The Structured Query Language",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 303,
+          "courseCode": "DATA 303",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2248",
+              "sln": 2248,
+              "sectionNumber": 1,
+              "courseCode": "DATA 303",
+              "courseName": "Introduction to SQL - The Structured Query Language",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Repository Systems for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 324,
+          "courseCode": "DATA 324",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2333",
+              "sln": 2333,
+              "sectionNumber": 1,
+              "courseCode": "DATA 324",
+              "courseName": "Data Repository Systems for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 498,
+          "courseCode": "DATA 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2249",
+              "sln": 2249,
+              "sectionNumber": 1,
+              "courseCode": "DATA 498",
+              "courseName": "Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DTC",
+      "courses": [
+        {
+          "course": "Introduction to Digital Technology and Culture",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 101,
+          "courseCode": "DTC 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2250",
+              "sln": 2250,
+              "sectionNumber": 1,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M BLACK",
+              "instructors": [
+                "M BLACK"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Tools and Methods for Digital Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 201,
+          "courseCode": "DTC 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2251",
+              "sln": 2251,
+              "sectionNumber": 1,
+              "courseCode": "DTC 201",
+              "courseName": "Tools and Methods for Digital Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Web Design and Development",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 355,
+          "courseCode": "DTC 355",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2429",
+              "sln": 2429,
+              "sectionNumber": 1,
+              "courseCode": "DTC 355",
+              "courseName": "Introduction to Web Design and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "P MUDD",
+              "instructors": [
+                "P MUDD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Diversity",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 475,
+          "courseCode": "DTC 475",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2460",
+              "sln": 2460,
+              "sectionNumber": 1,
+              "courseCode": "DTC 475",
+              "courseName": "Digital Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A CANALES",
+              "instructors": [
+                "A CANALES"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ENTOM",
+      "courses": [
+        {
+          "course": "Insects and People: A Perspective",
+          "subject": "ENTOM",
+          "subjectPrefix": "Entom",
+          "courseNumber": 101,
+          "courseCode": "ENTOM 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2181",
+              "sln": 2181,
+              "sectionNumber": 1,
+              "courseCode": "ENTOM 101",
+              "courseName": "Insects and People: A Perspective",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R OLSSON",
+              "instructors": [
+                "R OLSSON"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Discover Insects:  Laboratory for Non-Science Majors",
+          "subject": "ENTOM",
+          "subjectPrefix": "Entom",
+          "courseNumber": 103,
+          "courseCode": "ENTOM 103",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2182",
+              "sln": 2182,
+              "sectionNumber": 1,
+              "courseCode": "ENTOM 103",
+              "courseName": "Discover Insects:  Laboratory for Non-Science Majors",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R OLSSON",
+              "instructors": [
+                "R OLSSON"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Honey Bee Biology",
+          "subject": "ENTOM",
+          "subjectPrefix": "Entom",
+          "courseNumber": 361,
+          "courseCode": "ENTOM 361",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2183",
+              "sln": 2183,
+              "sectionNumber": 1,
+              "courseCode": "ENTOM 361",
+              "courseName": "Honey Bee Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R OLSSON",
+              "instructors": [
+                "R OLSSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Agricultural Chemical Technology for Crop Protection & Production",
+          "subject": "ENTOM",
+          "subjectPrefix": "Entom",
+          "courseNumber": 555,
+          "courseCode": "ENTOM 555",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2184",
+              "sln": 2184,
+              "sectionNumber": 1,
+              "courseCode": "ENTOM 555",
+              "courseName": "Agricultural Chemical Technology for Crop Protection & Production",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A FELSOT",
+              "instructors": [
+                "A FELSOT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "FOR_LANG",
+      "courses": [
+        {
+          "course": "Introduction to the World of Languages",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 101,
+          "courseCode": "FOR_LANG 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2273",
+              "sln": 2273,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 101",
+              "courseName": "Introduction to the World of Languages",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M BLACK",
+              "instructors": [
+                "M BLACK"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Understanding World Cinema",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 110,
+          "courseCode": "FOR_LANG 110",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2415",
+              "sln": 2415,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 110",
+              "courseName": "Understanding World Cinema",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "I WEBBER",
+              "instructors": [
+                "I WEBBER"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to World Cultures",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 120,
+          "courseCode": "FOR_LANG 120",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2274",
+              "sln": 2274,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 120",
+              "courseName": "Introduction to World Cultures",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BONZO",
+              "instructors": [
+                "J BONZO"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "H_D",
+      "courses": [
+        {
+          "course": "Human Development Across the Lifespan",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 101,
+          "courseCode": "H_D 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2185",
+              "sln": 2185,
+              "sectionNumber": 1,
+              "courseCode": "H_D 101",
+              "courseName": "Human Development Across the Lifespan",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S REISZ",
+              "instructors": [
+                "S REISZ"
+              ],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            },
+            {
+              "sectionId": "2186",
+              "sln": 2186,
+              "sectionNumber": 2,
+              "courseCode": "H_D 101",
+              "courseName": "Human Development Across the Lifespan",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R COOPER",
+              "instructors": [
+                "R COOPER"
+              ],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Family Interactions",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 204,
+          "courseCode": "H_D 204",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2187",
+              "sln": 2187,
+              "sectionNumber": 1,
+              "courseCode": "H_D 204",
+              "courseName": "Family Interactions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K FLOYD",
+              "instructors": [
+                "K FLOYD"
+              ],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Developing Effective Communication and Life Skills",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 205,
+          "courseCode": "H_D 205",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2188",
+              "sln": 2188,
+              "sectionNumber": 1,
+              "courseCode": "H_D 205",
+              "courseName": "Developing Effective Communication and Life Skills",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STREY",
+              "instructors": [
+                "M STREY"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2190",
+              "sln": 2190,
+              "sectionNumber": 2,
+              "courseCode": "H_D 205",
+              "courseName": "Developing Effective Communication and Life Skills",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STREY",
+              "instructors": [
+                "M STREY"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            },
+            {
+              "sectionId": "2189",
+              "sln": 2189,
+              "sectionNumber": 1,
+              "courseCode": "H_D 205",
+              "courseName": "Developing Effective Communication and Life Skills",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STREY",
+              "instructors": [
+                "M STREY"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2191",
+              "sln": 2191,
+              "sectionNumber": 2,
+              "courseCode": "H_D 205",
+              "courseName": "Developing Effective Communication and Life Skills",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M STREY",
+              "instructors": [
+                "M STREY"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Human Development Theories",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 220,
+          "courseCode": "H_D 220",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2192",
+              "sln": 2192,
+              "sectionNumber": 1,
+              "courseCode": "H_D 220",
+              "courseName": "Human Development Theories",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PERONE",
+              "instructors": [
+                "S PERONE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Child and Family Violence, Abuse, and Neglect",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 300,
+          "courseCode": "H_D 300",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2193",
+              "sln": 2193,
+              "sectionNumber": 1,
+              "courseCode": "H_D 300",
+              "courseName": "Child and Family Violence, Abuse, and Neglect",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COLON",
+              "instructors": [
+                "L COLON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Family Stress and Coping",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 301,
+          "courseCode": "H_D 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2194",
+              "sln": 2194,
+              "sectionNumber": 1,
+              "courseCode": "H_D 301",
+              "courseName": "Family Stress and Coping",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C SEELEY",
+              "instructors": [
+                "C SEELEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Parent-Child Relationships",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 302,
+          "courseCode": "H_D 302",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2195",
+              "sln": 2195,
+              "sectionNumber": 1,
+              "courseCode": "H_D 302",
+              "courseName": "Parent-Child Relationships",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L KRUPKE",
+              "instructors": [
+                "L KRUPKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Child Development",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 306,
+          "courseCode": "H_D 306",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2196",
+              "sln": 2196,
+              "sectionNumber": 1,
+              "courseCode": "H_D 306",
+              "courseName": "Child Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M CHENG",
+              "instructors": [
+                "M CHENG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Family Diversity",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 350,
+          "courseCode": "H_D 350",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2197",
+              "sln": 2197,
+              "sectionNumber": 1,
+              "courseCode": "H_D 350",
+              "courseName": "Family Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DIVERSI",
+              "instructors": [
+                "M DIVERSI"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 65,
+                "available": 65,
+                "label": "0/65"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Death and Dying",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 360,
+          "courseCode": "H_D 360",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2198",
+              "sln": 2198,
+              "sectionNumber": 1,
+              "courseCode": "H_D 360",
+              "courseName": "Death and Dying",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C BOLKAN",
+              "instructors": [
+                "C BOLKAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Perspectives in Human Services",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 385,
+          "courseCode": "H_D 385",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2199",
+              "sln": 2199,
+              "sectionNumber": 1,
+              "courseCode": "H_D 385",
+              "courseName": "Perspectives in Human Services",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C BLETSCHER",
+              "instructors": [
+                "C BLETSCHER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Families in Poverty",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 403,
+          "courseCode": "H_D 403",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2200",
+              "sln": 2200,
+              "sectionNumber": 1,
+              "courseCode": "H_D 403",
+              "courseName": "Families in Poverty",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J PUTNEY",
+              "instructors": [
+                "J PUTNEY"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "CV",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Public Policy Issues in Human Development",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 410,
+          "courseCode": "H_D 410",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2201",
+              "sln": 2201,
+              "sectionNumber": 1,
+              "courseCode": "H_D 410",
+              "courseName": "Public Policy Issues in Human Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M GARCIA",
+              "instructors": [
+                "M GARCIA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship in Human Development",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 498,
+          "courseCode": "H_D 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2202",
+              "sln": 2202,
+              "sectionNumber": 1,
+              "courseCode": "H_D 498",
+              "courseName": "Internship in Human Development",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K FORSYTHE",
+              "instructors": [
+                "K FORSYTHE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HISTORY",
+      "courses": [
+        {
+          "course": "Ancient, Medieval, and Early Modern Europe",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 101,
+          "courseCode": "HISTORY 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3057",
+              "sln": 3057,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 101",
+              "courseName": "Ancient, Medieval, and Early Modern Europe",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Roots of Contemporary Issues",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 105,
+          "courseCode": "HISTORY 105",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2275",
+              "sln": 2275,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2276",
+              "sln": 2276,
+              "sectionNumber": 2,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2277",
+              "sln": 2277,
+              "sectionNumber": 3,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2278",
+              "sln": 2278,
+              "sectionNumber": 4,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            },
+            {
+              "sectionId": "2279",
+              "sln": 2279,
+              "sectionNumber": 5,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            },
+            {
+              "sectionId": "2280",
+              "sln": 2280,
+              "sectionNumber": 6,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "American History to 1877",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 110,
+          "courseCode": "HISTORY 110",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2444",
+              "sln": 2444,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 110",
+              "courseName": "American History to 1877",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jul 31",
+                "end": "Aug 22"
+              }
+            }
+          ]
+        },
+        {
+          "course": "World History I",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 120,
+          "courseCode": "HISTORY 120",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2281",
+              "sln": 2281,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 120",
+              "courseName": "World History I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "Jul 31",
+                "end": "Aug 22"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Roots of Contemporary Issues For Transfer Students",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 305,
+          "courseCode": "HISTORY 305",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2282",
+              "sln": 2282,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 305",
+              "courseName": "Roots of Contemporary Issues For Transfer Students",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2283",
+              "sln": 2283,
+              "sectionNumber": 2,
+              "courseCode": "HISTORY 305",
+              "courseName": "Roots of Contemporary Issues For Transfer Students",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Native American History",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 308,
+          "courseCode": "HISTORY 308",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3058",
+              "sln": 3058,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 308",
+              "courseName": "Native American History",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Modern U.S. History Through Film",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 320,
+          "courseCode": "HISTORY 320",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2446",
+              "sln": 2446,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 320",
+              "courseName": "Modern U.S. History Through Film",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Women in Latin American History",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 335,
+          "courseCode": "HISTORY 335",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3059",
+              "sln": 3059,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 335",
+              "courseName": "Women in Latin American History",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Europe and Two World Wars, 1914-1945",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 349,
+          "courseCode": "HISTORY 349",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3060",
+              "sln": 3060,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 349",
+              "courseName": "Europe and Two World Wars, 1914-1945",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Europe Since 1945",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 356,
+          "courseCode": "HISTORY 356",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2448",
+              "sln": 2448,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 356",
+              "courseName": "Europe Since 1945",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hitler and Nazi Germany",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 368,
+          "courseCode": "HISTORY 368",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2449",
+              "sln": 2449,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 368",
+              "courseName": "Hitler and Nazi Germany",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Drugs in World History",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 383,
+          "courseCode": "HISTORY 383",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3061",
+              "sln": 3061,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 383",
+              "courseName": "Drugs in World History",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Women, Gender, and the History of the Un-West",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 398,
+          "courseCode": "HISTORY 398",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2451",
+              "sln": 2451,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 398",
+              "courseName": "Women, Gender, and the History of the Un-West",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "IPM",
+      "courses": [
+        {
+          "course": "Pesticides and the Environment",
+          "subject": "IPM",
+          "subjectPrefix": "IPM",
+          "courseNumber": 452,
+          "courseCode": "IPM 452",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2204",
+              "sln": 2204,
+              "sectionNumber": 1,
+              "courseCode": "IPM 452",
+              "courseName": "Pesticides and the Environment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A FELSOT",
+              "instructors": [
+                "A FELSOT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pesticides and the Environment",
+          "subject": "IPM",
+          "subjectPrefix": "IPM",
+          "courseNumber": 552,
+          "courseCode": "IPM 552",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2205",
+              "sln": 2205,
+              "sectionNumber": 1,
+              "courseCode": "IPM 552",
+              "courseName": "Pesticides and the Environment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A FELSOT",
+              "instructors": [
+                "A FELSOT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "KINES",
+      "courses": [
+        {
+          "course": "Foundations of Physics for Sport and Exercise",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 162,
+          "courseCode": "KINES 162",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2549",
+              "sln": 2549,
+              "sectionNumber": 1,
+              "courseCode": "KINES 162",
+              "courseName": "Foundations of Physics for Sport and Exercise",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L KRUMPL",
+              "instructors": [
+                "L KRUMPL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Exploring Meaning in Sport and Movement",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 201,
+          "courseCode": "KINES 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2529",
+              "sln": 2529,
+              "sectionNumber": 1,
+              "courseCode": "KINES 201",
+              "courseName": "Exploring Meaning in Sport and Movement",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A MCMAHON",
+              "instructors": [
+                "A MCMAHON"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Human Anatomy",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 262,
+          "courseCode": "KINES 262",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2533",
+              "sln": 2533,
+              "sectionNumber": 1,
+              "courseCode": "KINES 262",
+              "courseName": "Human Anatomy",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LANDIS",
+              "instructors": [
+                "S LANDIS"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 38,
+                "available": 38,
+                "label": "0/38"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research in Kinesiology",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 312,
+          "courseCode": "KINES 312",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3028",
+              "sln": 3028,
+              "sectionNumber": 1,
+              "courseCode": "KINES 312",
+              "courseName": "Research in Kinesiology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T LORIA",
+              "instructors": [
+                "T LORIA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Qualitative Biomechanics",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 362,
+          "courseCode": "KINES 362",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2534",
+              "sln": 2534,
+              "sectionNumber": 1,
+              "courseCode": "KINES 362",
+              "courseName": "Qualitative Biomechanics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Exercise Physiology",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 380,
+          "courseCode": "KINES 380",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2535",
+              "sln": 2535,
+              "sectionNumber": 1,
+              "courseCode": "KINES 380",
+              "courseName": "Introduction to Exercise Physiology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Motor Learning and Control",
+          "subject": "KINES",
+          "subjectPrefix": "Kines",
+          "courseNumber": 461,
+          "courseCode": "KINES 461",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2550",
+              "sln": 2550,
+              "sectionNumber": 1,
+              "courseCode": "KINES 461",
+              "courseName": "Motor Learning and Control",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "Z WANG",
+              "instructors": [
+                "Z WANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "POL_S",
+      "courses": [
+        {
+          "course": "Comparative Criminal Justice Systems",
+          "subject": "POL_S",
+          "subjectPrefix": "Pol S",
+          "courseNumber": 405,
+          "courseCode": "POL_S 405",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2299",
+              "sln": 2299,
+              "sectionNumber": 1,
+              "courseCode": "POL_S 405",
+              "courseName": "Comparative Criminal Justice Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PUBHLTH",
+      "courses": [
+        {
+          "course": "Introduction to Public Health",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 101,
+          "courseCode": "PUBHLTH 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3076",
+              "sln": 3076,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 101",
+              "courseName": "Introduction to Public Health",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C ALLICK",
+              "instructors": [
+                "C ALLICK"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 04"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SOC",
+      "courses": [
+        {
+          "course": "Juvenile Justice and Corrections",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 367,
+          "courseCode": "SOC 367",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2289",
+              "sln": 2289,
+              "sectionNumber": 1,
+              "courseCode": "SOC 367",
+              "courseName": "Juvenile Justice and Corrections",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SOE",
+      "courses": [
+        {
+          "course": "Welcome to the Earth: An Introduction to Geology",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 101,
+          "courseCode": "SOE 101",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2294",
+              "sln": 2294,
+              "sectionNumber": 1,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2295",
+              "sln": 2295,
+              "sectionNumber": 1,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Environment, Human Life, and Sustainability",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 110,
+          "courseCode": "SOE 110",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2296",
+              "sln": 2296,
+              "sectionNumber": 1,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M BILLINGS",
+              "instructors": [
+                "M BILLINGS"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2297",
+              "sln": 2297,
+              "sectionNumber": 1,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M BILLINGS",
+              "instructors": [
+                "M BILLINGS"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Environmental Assessment",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 444,
+          "courseCode": "SOE 444",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2298",
+              "sln": 2298,
+              "sectionNumber": 1,
+              "courseCode": "SOE 444",
+              "courseName": "Environmental Assessment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K WHITMAN",
+              "instructors": [
+                "K WHITMAN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 07",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Environmental Assessment",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 544,
+          "courseCode": "SOE 544",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2325",
+              "sln": 2325,
+              "sectionNumber": 1,
+              "courseCode": "SOE 544",
+              "courseName": "Environmental Assessment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K WHITMAN",
+              "instructors": [
+                "K WHITMAN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jun 07",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SOIL_SCI",
+      "courses": [
+        {
+          "course": "Professional Internship",
+          "subject": "SOIL_SCI",
+          "subjectPrefix": "SoilS",
+          "courseNumber": 498,
+          "courseCode": "SOIL_SCI 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2206",
+              "sln": 2206,
+              "sectionNumber": 1,
+              "courseCode": "SOIL_SCI 498",
+              "courseName": "Professional Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C PERILLO",
+              "instructors": [
+                "C PERILLO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SPANISH",
+      "courses": [
+        {
+          "course": "First Semester",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 101,
+          "courseCode": "SPANISH 101",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2221",
+              "sln": 2221,
+              "sectionNumber": 1,
+              "courseCode": "SPANISH 101",
+              "courseName": "First Semester",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LOPEZ-LOPEZ",
+              "instructors": [
+                "S LOPEZ-LOPEZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Second Semester",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 102,
+          "courseCode": "SPANISH 102",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2345",
+              "sln": 2345,
+              "sectionNumber": 1,
+              "courseCode": "SPANISH 102",
+              "courseName": "Second Semester",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C SHULL",
+              "instructors": [
+                "C SHULL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WGSS",
+      "courses": [
+        {
+          "course": "Violence Toward Women",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 403,
+          "courseCode": "WGSS 403",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2332",
+              "sln": 2332,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 403",
+              "courseName": "Violence Toward Women",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T15:43:38.120911+00:00",
+  "generatedAt": "2026-11-02T23:31:15.050473+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -12740,7 +12740,7 @@
               ],
               "ucore": "EQJS",
               "coop": false,
-              "footnotes": "",
+              "footnotes": "V",
               "seats": {
                 "taken": 0,
                 "total": 20,
@@ -23667,7 +23667,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "THOM 21",
+              "location": "TODD 301",
               "instructor": "J CHENG",
               "instructors": [
                 "J CHENG"
@@ -34839,6 +34839,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "10420",
+              "sln": 10420,
+              "sectionNumber": 2,
+              "courseCode": "COM 486",
+              "courseName": "Crisis Communication",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C THOMAS",
+              "instructors": [
+                "C THOMAS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -39388,7 +39425,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "CLAR 149",
+              "location": "SLOA 7",
               "instructor": "I PRIYADARSHINI",
               "instructors": [
                 "I PRIYADARSHINI"
@@ -39398,9 +39435,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
               },
               "dates": {
                 "start": "Jan 11",
@@ -61650,7 +61687,7 @@
                   "time": "16:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "SPRK 223",
               "instructor": "K HUGHES",
               "instructors": [
                 "K HUGHES"
@@ -65812,7 +65849,7 @@
                   "time": "14:55 - 16:10"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "THOM 201",
               "instructor": "X LIU",
               "instructors": [
                 "X LIU"
@@ -80854,41 +80891,6 @@
               }
             },
             {
-              "sectionId": "6421",
-              "sln": 6421,
-              "sectionNumber": 3,
-              "courseCode": "KIN_ACTV 118",
-              "courseName": "Yoga",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "09:10 - 11:00",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "09:10 - 11:00"
-                }
-              ],
-              "location": "SGYM 115",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Mar 08",
-                "end": "May 07"
-              }
-            },
-            {
               "sectionId": "7622",
               "sln": 7622,
               "sectionNumber": 5,
@@ -81171,9 +81173,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 28,
+                "available": 28,
+                "label": "0/28"
               },
               "dates": {
                 "start": "Mar 22",
@@ -81446,9 +81448,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -81483,9 +81485,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -81520,9 +81522,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -81557,9 +81559,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -81594,9 +81596,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -87417,10 +87419,8 @@
                 }
               ],
               "location": "NEIL 101W",
-              "instructor": "E REMALEY",
-              "instructors": [
-                "E REMALEY"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "",
@@ -88676,8 +88676,10 @@
                 }
               ],
               "location": "TODD 434",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "G PAN",
+              "instructors": [
+                "G PAN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -88711,8 +88713,10 @@
                 }
               ],
               "location": "TODD 307",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C PARKER",
+              "instructors": [
+                "C PARKER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -89276,10 +89280,8 @@
                 }
               ],
               "location": "TODD 230",
-              "instructor": "B NELSON",
-              "instructors": [
-                "B NELSON"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -89385,10 +89387,8 @@
                 }
               ],
               "location": "WLSH 4",
-              "instructor": "A PANCHENKO",
-              "instructors": [
-                "A PANCHENKO"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -90367,8 +90367,10 @@
                 }
               ],
               "location": "ADBF 1002",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B KRISHNAMOORTHY",
+              "instructors": [
+                "B KRISHNAMOORTHY"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -90862,54 +90864,6 @@
           ]
         },
         {
-          "course": "Integer and Combinatorial Optimization",
-          "subject": "MATH",
-          "subjectPrefix": "Math",
-          "courseNumber": 567,
-          "courseCode": "MATH 567",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11767",
-              "sln": 11767,
-              "sectionNumber": 1,
-              "courseCode": "MATH 567",
-              "courseName": "Integer and Combinatorial Optimization",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "CLEV 30",
-              "instructor": "B KRISHNAMOORTHY",
-              "instructors": [
-                "B KRISHNAMOORTHY"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Statistical Theory II",
           "subject": "MATH",
           "subjectPrefix": "Math",
@@ -91033,8 +90987,10 @@
                 }
               ],
               "location": "COLL 135",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S LIU",
+              "instructors": [
+                "S LIU"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -91079,9 +91035,9 @@
                 }
               ],
               "location": "EDAD 212",
-              "instructor": "A CORTEZ",
+              "instructor": "A WESTON",
               "instructors": [
-                "A CORTEZ"
+                "A WESTON"
               ],
               "ucore": "",
               "coop": false,
@@ -115756,41 +115712,6 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
-            },
-            {
-              "sectionId": "4493",
-              "sln": 4493,
-              "sectionNumber": 11,
-              "courseCode": "PHYSICS 112",
-              "courseName": "General Physics Lab II",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "09:10 - 11:50",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "09:10 - 11:50"
-                }
-              ],
-              "location": "WEBS 449",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 16,
-                "available": 16,
-                "label": "0/16"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
             }
           ]
         },
@@ -120102,9 +120023,9 @@
                 }
               ],
               "location": "COLL 220",
-              "instructor": "M RITTER",
+              "instructor": "R SWANK",
               "instructors": [
-                "M RITTER"
+                "R SWANK"
               ],
               "ucore": "",
               "coop": false,
@@ -120283,9 +120204,9 @@
                 }
               ],
               "location": "TODD 404",
-              "instructor": "R SWANK",
+              "instructor": "M RITTER",
               "instructors": [
-                "R SWANK"
+                "M RITTER"
               ],
               "ucore": "",
               "coop": false,
@@ -126202,7 +126123,7 @@
               ],
               "ucore": "",
               "coop": false,
-              "footnotes": "V",
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 15,
@@ -130733,6 +130654,54 @@
           ]
         },
         {
+          "course": "Climate Change Impacts on Physical, Natural, and Human Systems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 536,
+          "courseCode": "SOE 536",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12098",
+              "sln": 12098,
+              "sectionNumber": 1,
+              "courseCode": "SOE 536",
+              "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "WEBS B0008",
+              "instructor": "D SINGH",
+              "instructors": [
+                "D SINGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Environmental Assessment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -130868,6 +130837,54 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Watershed Biogeochemistry",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 562,
+          "courseCode": "SOE 562",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12099",
+              "sln": 12099,
+              "sectionNumber": 1,
+              "courseCode": "SOE 562",
+              "courseName": "Watershed Biogeochemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "WEBS B0008",
+              "instructor": "J HARRISON",
+              "instructors": [
+                "J HARRISON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -137957,8 +137974,10 @@
                 }
               ],
               "location": "SPRK 212",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "W XIE",
+              "instructors": [
+                "W XIE"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -151348,6 +151367,54 @@
                 "total": 7,
                 "available": 7,
                 "label": "0/7"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Empire, Gender, and Postcoloniality in Global Literature",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 373,
+          "courseCode": "WGSS 373",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11812",
+              "sln": 11812,
+              "sectionNumber": 2,
+              "courseCode": "WGSS 373",
+              "courseName": "Empire, Gender, and Postcoloniality in Global Literature",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J HEGGLUND",
+              "instructors": [
+                "J HEGGLUND"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
