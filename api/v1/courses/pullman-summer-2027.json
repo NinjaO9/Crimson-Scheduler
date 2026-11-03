@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T15:06:05.381130+00:00",
+  "generatedAt": "2026-11-03T21:01:39.233768+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -2101,6 +2101,57 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ENGR",
+      "courses": [
+        {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 488,
+          "courseCode": "ENGR 488",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2789",
+              "sln": 2789,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "XS",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "May 10",

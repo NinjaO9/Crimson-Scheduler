@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T15:06:05.404272+00:00",
+  "generatedAt": "2026-11-03T21:01:39.265111+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -638,6 +638,102 @@
           ]
         },
         {
+          "course": "Introduction to Qualitative Research",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 507,
+          "courseCode": "ED_PSYCH 507",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6541",
+              "sln": 6541,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 507",
+              "courseName": "Introduction to Qualitative Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K HUGGINS",
+              "instructors": [
+                "K HUGGINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Statistics",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 508,
+          "courseCode": "ED_PSYCH 508",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3143",
+              "sln": 3143,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 508",
+              "courseName": "Educational Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Motivation Theories",
           "subject": "ED_PSYCH",
           "subjectPrefix": "EdPsy",
@@ -677,6 +773,102 @@
                 "total": 1,
                 "available": 1,
                 "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Multilevel Modeling",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 575,
+          "courseCode": "ED_PSYCH 575",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6973",
+              "sln": 6973,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 575",
+              "courseName": "Multilevel Modeling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "B FRENCH",
+              "instructors": [
+                "B FRENCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Psychology Internship",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 597,
+          "courseCode": "ED_PSYCH 597",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7277",
+              "sln": 7277,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 597",
+              "courseName": "Educational Psychology Internship",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",

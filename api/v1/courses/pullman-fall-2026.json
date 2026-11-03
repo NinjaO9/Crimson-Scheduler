@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T15:06:05.099243+00:00",
+  "generatedAt": "2026-11-03T21:01:38.871877+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -23354,6 +23354,54 @@
                 "total": 50,
                 "available": 39,
                 "label": "11/50"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 702,
+          "courseCode": "BIOLOGY 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4129",
+              "sln": 4129,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 702",
+              "courseName": "Master's Special Problems, Directed Study and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A CAVAGNETTO",
+              "instructors": [
+                "A CAVAGNETTO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Aug 24",
@@ -113539,10 +113587,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 30,
-                "available": 26,
-                "label": "4/30"
+                "available": 25,
+                "label": "5/30"
               },
               "dates": {
                 "start": "Aug 24",

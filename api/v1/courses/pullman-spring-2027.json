@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T15:06:05.246994+00:00",
+  "generatedAt": "2026-11-03T21:01:39.060842+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -24084,6 +24084,43 @@
               }
             },
             {
+              "sectionId": "12092",
+              "sln": 12092,
+              "sectionNumber": 1,
+              "courseCode": "CE 400",
+              "courseName": "Highway Materials Engineering",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J CHENG",
+              "instructors": [
+                "J CHENG"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
               "sectionId": "7889",
               "sln": 7889,
               "sectionNumber": 2,
@@ -31808,6 +31845,54 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Solid State Chemistry",
+          "subject": "CHEM",
+          "subjectPrefix": "Chem",
+          "courseNumber": 480,
+          "courseCode": "CHEM 480",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6930",
+              "sln": 6930,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 480",
+              "courseName": "Solid State Chemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "FLMA 225",
+              "instructor": "C YOO",
+              "instructors": [
+                "C YOO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -50113,8 +50198,10 @@
                 }
               ],
               "location": "CUE  203",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "H LOVE",
+              "instructors": [
+                "H LOVE"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "",
@@ -50255,16 +50342,18 @@
                 }
               ],
               "location": "JANX C0105",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J HYINK",
+              "instructors": [
+                "J HYINK"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -50336,8 +50425,10 @@
                 }
               ],
               "location": "CUE  203",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C CLARKE",
+              "instructors": [
+                "C CLARKE"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "",
@@ -50371,8 +50462,10 @@
                 }
               ],
               "location": "FLMA 226",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C CLARKE",
+              "instructors": [
+                "C CLARKE"
+              ],
               "ucore": "SSCI",
               "coop": false,
               "footnotes": "",
@@ -50487,8 +50580,10 @@
                 }
               ],
               "location": "TODD 307",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C CLARKE",
+              "instructors": [
+                "C CLARKE"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "",
@@ -50533,8 +50628,10 @@
                 }
               ],
               "location": "CUE  114",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J COOK",
+              "instructors": [
+                "J COOK"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -50583,58 +50680,10 @@
                 }
               ],
               "location": "HULB 5",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 26,
-                "available": 26,
-                "label": "0/26"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Intermediate Microeconomic Theory with Calculus",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 301,
-          "courseCode": "ECONS 301",
-          "credits": "4",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "4672",
-              "sln": 4672,
-              "sectionNumber": 1,
-              "courseCode": "ECONS 301",
-              "courseName": "Intermediate Microeconomic Theory with Calculus",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH,F",
-              "time": "10:35 - 11:50;11:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                },
-                {
-                  "days": "F",
-                  "time": "11:10 - 12:00"
-                }
+              "instructor": "E JESSUP",
+              "instructors": [
+                "E JESSUP"
               ],
-              "location": "TODD 301",
-              "instructor": "",
-              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -50679,8 +50728,10 @@
                 }
               ],
               "location": "HULB 23",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J OPPONG-ARTHUR",
+              "instructors": [
+                "J OPPONG-ARTHUR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -50845,8 +50896,10 @@
                 }
               ],
               "location": "HULB 27",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "W BLUNDELL",
+              "instructors": [
+                "W BLUNDELL"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -50891,8 +50944,10 @@
                 }
               ],
               "location": "HULB 27",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N KYEI-BOADU",
+              "instructors": [
+                "N KYEI-BOADU"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -50985,8 +51040,10 @@
                 }
               ],
               "location": "SLOA 38",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "P CARLIN",
+              "instructors": [
+                "P CARLIN"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -51031,8 +51088,10 @@
                 }
               ],
               "location": "TODD 334",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T SHUBHANGI",
+              "instructors": [
+                "T SHUBHANGI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -51169,8 +51228,10 @@
                 }
               ],
               "location": "HULB 27",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "E JESSUP",
+              "instructors": [
+                "E JESSUP"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -51215,8 +51276,10 @@
                 }
               ],
               "location": "HULB 27",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M GIBSON",
+              "instructors": [
+                "M GIBSON"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -51261,8 +51324,10 @@
                 }
               ],
               "location": "HULB 23",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "F MUNOZ-GARCIA",
+              "instructors": [
+                "F MUNOZ-GARCIA"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "",
@@ -75507,192 +75572,6 @@
           ]
         },
         {
-          "course": "Advanced Topics in Horticulture",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 503,
-          "courseCode": "HORT 503",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3828",
-              "sln": 3828,
-              "sectionNumber": 1,
-              "courseCode": "HORT 503",
-              "courseName": "Advanced Topics in Horticulture",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "CLAR 151",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3829",
-              "sln": 3829,
-              "sectionNumber": 2,
-              "courseCode": "HORT 503",
-              "courseName": "Advanced Topics in Horticulture",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 3,
-                "available": 3,
-                "label": "0/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3830",
-              "sln": 3830,
-              "sectionNumber": 3,
-              "courseCode": "HORT 503",
-              "courseName": "Advanced Topics in Horticulture",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 3,
-                "available": 3,
-                "label": "0/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3838",
-              "sln": 3838,
-              "sectionNumber": 4,
-              "courseCode": "HORT 503",
-              "courseName": "Advanced Topics in Horticulture",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 3,
-                "available": 3,
-                "label": "0/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3831",
-              "sln": 3831,
-              "sectionNumber": 5,
-              "courseCode": "HORT 503",
-              "courseName": "Advanced Topics in Horticulture",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 3,
-                "available": 3,
-                "label": "0/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Research Orientation and Presentation",
           "subject": "HORT",
           "subjectPrefix": "Hort",
@@ -75916,8 +75795,10 @@
                 }
               ],
               "location": "CLAR 151",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -75951,8 +75832,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -75986,8 +75869,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -76021,8 +75906,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -76056,8 +75943,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -76102,8 +75991,10 @@
                 }
               ],
               "location": "CLAR 151",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -76137,8 +76028,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -76172,8 +76065,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -76207,8 +76102,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -76242,8 +76139,10 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "C TORRES",
+              "instructors": [
+                "C TORRES"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -78315,8 +78214,10 @@
                 }
               ],
               "location": "TODD 334",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T SHUBHANGI",
+              "instructors": [
+                "T SHUBHANGI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -119710,9 +119611,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "A KHAMATDINOVA",
+              "instructor": "C GODKIN",
               "instructors": [
-                "A KHAMATDINOVA"
+                "C GODKIN"
               ],
               "ucore": "SSCI",
               "coop": false,
@@ -119891,9 +119792,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "C GODKIN",
+              "instructor": "A KHAMATDINOVA",
               "instructors": [
-                "C GODKIN"
+                "A KHAMATDINOVA"
               ],
               "ucore": "SSCI",
               "coop": false,
