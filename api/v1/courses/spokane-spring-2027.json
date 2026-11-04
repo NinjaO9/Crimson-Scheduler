@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T17:16:14.073595+00:00",
+  "generatedAt": "2026-11-04T22:41:53.656025+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -9772,6 +9772,54 @@
           ]
         },
         {
+          "course": "Physical Activity Prescription in the Pharmacy",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 572,
+          "courseCode": "PHARMACY 572",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3240",
+              "sln": 3240,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 572",
+              "courseName": "Physical Activity Prescription in the Pharmacy",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S MARSH",
+              "instructors": [
+                "S MARSH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Substance Use Disorders",
           "subject": "PHARMACY",
           "subjectPrefix": "PharD",
@@ -10884,6 +10932,43 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "3250",
+              "sln": 3250,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 589",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "15:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "15:10 - 17:00"
+                }
+              ],
+              "location": "SPBS 101",
+              "instructor": "D BOWERS",
+              "instructors": [
+                "D BOWERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 90,
+                "available": 90,
+                "label": "0/90"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -10927,6 +11012,54 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 599,
+          "courseCode": "PHARMACY 599",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3165",
+              "sln": 3165,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 599",
+              "courseName": "Special Projects",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D JACKSON",
+              "instructors": [
+                "D JACKSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",

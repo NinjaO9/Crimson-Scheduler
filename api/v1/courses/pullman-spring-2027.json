@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T17:16:13.911256+00:00",
+  "generatedAt": "2026-11-04T22:41:53.456277+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -5838,6 +5838,54 @@
           ]
         },
         {
+          "course": "Special Problems",
+          "subject": "AMDT",
+          "subjectPrefix": "AMT",
+          "courseNumber": 499,
+          "courseCode": "AMDT 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12104",
+              "sln": 12104,
+              "sectionNumber": 1,
+              "courseCode": "AMDT 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H YOO",
+              "instructors": [
+                "H YOO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Apparel Merchandising Analysis",
           "subject": "AMDT",
           "subjectPrefix": "AMT",
@@ -7140,7 +7188,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "CUE  416",
+              "location": "CLAR 147",
               "instructor": "E ECKHARDT",
               "instructors": [
                 "E ECKHARDT"
@@ -24063,9 +24111,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 12,
+                "available": 12,
+                "label": "0/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -61819,6 +61867,52 @@
               }
             }
           ]
+        },
+        {
+          "course": "Interdisciplinary Research and Design I",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 530,
+          "courseCode": "ENGR 530",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7762",
+              "sln": 7762,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 530",
+              "courseName": "Interdisciplinary Research and Design I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "CARP 312",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -71199,6 +71293,54 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 496,
+          "courseCode": "HBM 496",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7938",
+              "sln": 7938,
+              "sectionNumber": 1,
+              "courseCode": "HBM 496",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D JHA",
+              "instructors": [
+                "D JHA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -81459,6 +81601,43 @@
               "instructor": "H ANDERSON",
               "instructors": [
                 "H ANDERSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12107",
+              "sln": 12107,
+              "sectionNumber": 7,
+              "courseCode": "KIN_ACTV 174",
+              "courseName": "Pilates",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "SGYM 115",
+              "instructor": "J SIPILA",
+              "instructors": [
+                "J SIPILA"
               ],
               "ucore": "",
               "coop": false,
@@ -93227,7 +93406,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "CLAR 147",
+              "location": "CUE  416",
               "instructor": "R DRISKELL",
               "instructors": [
                 "R DRISKELL"
@@ -101179,6 +101358,54 @@
           ]
         },
         {
+          "course": "Polymer Materials and Engineering",
+          "subject": "MSE",
+          "subjectPrefix": "MSE",
+          "courseNumber": 543,
+          "courseCode": "MSE 543",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6823",
+              "sln": 6823,
+              "sectionNumber": 1,
+              "courseCode": "MSE 543",
+              "courseName": "Polymer Materials and Engineering",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "SLOA 7",
+              "instructor": "J ZHANG",
+              "instructors": [
+                "J ZHANG"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 36,
+                "available": 36,
+                "label": "0/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Microscopic Analysis of Solid Surfaces",
           "subject": "MSE",
           "subjectPrefix": "MSE",
@@ -108293,6 +108520,43 @@
               "instructor": "K MCCARTHY",
               "instructors": [
                 "K MCCARTHY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12114",
+              "sln": 12114,
+              "sectionNumber": 2,
+              "courseCode": "MUS 465",
+              "courseName": "Seminar in Major Performance Literature",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R BODEN",
+              "instructors": [
+                "R BODEN"
               ],
               "ucore": "",
               "coop": false,
