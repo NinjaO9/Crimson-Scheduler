@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T01:22:17.043507+00:00",
+  "generatedAt": "2026-11-04T09:08:03.615858+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -11628,11 +11628,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "W",
-              "time": "14:10 - 17:00",
+              "time": "14:10 - 16:40",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "14:10 - 17:00"
+                  "time": "14:10 - 16:40"
                 }
               ],
               "location": "MURR 307",
@@ -11648,54 +11648,6 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Seminar in Architectural Communications",
-          "subject": "ARCH",
-          "subjectPrefix": "Arch",
-          "courseNumber": 491,
-          "courseCode": "ARCH 491",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11722",
-              "sln": 11722,
-              "sectionNumber": 1,
-              "courseCode": "ARCH 491",
-              "courseName": "Seminar in Architectural Communications",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "CARP 101",
-              "instructor": "M COWAN",
-              "instructors": [
-                "M COWAN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12006,7 +11958,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "",
+              "location": "CARP 312",
               "instructor": "M CERRUTI",
               "instructors": [
                 "M CERRUTI"
@@ -23197,15 +23149,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "W",
-              "time": "11:10 - 12:00",
+              "days": "TU",
+              "time": "09:10 - 10:00",
               "meetings": [
                 {
-                  "days": "W",
-                  "time": "11:10 - 12:00"
+                  "days": "TU",
+                  "time": "09:10 - 10:00"
                 }
               ],
-              "location": "SEH  G0005",
+              "location": "GTZN 21",
               "instructor": "K OLSEN",
               "instructors": [
                 "K OLSEN"
@@ -24093,15 +24045,15 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "ARR",
-              "time": "ARRGT",
+              "days": "F",
+              "time": "15:10 - 18:00",
               "meetings": [
                 {
-                  "days": "ARR",
-                  "time": "ARRGT"
+                  "days": "F",
+                  "time": "15:10 - 18:00"
                 }
               ],
-              "location": "ARR  ARR",
+              "location": "SLOA 163",
               "instructor": "J CHENG",
               "instructors": [
                 "J CHENG"
@@ -57173,8 +57125,10 @@
                 }
               ],
               "location": "CUE  303",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J BENNETT",
+              "instructors": [
+                "J BENNETT"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -58289,7 +58243,7 @@
                   "time": "14:55 - 16:10"
                 }
               ],
-              "location": "CUE  216",
+              "location": "SLOA 7",
               "instructor": "G MAIERHOFER",
               "instructors": [
                 "G MAIERHOFER"
@@ -58299,9 +58253,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -127385,9 +127339,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -130160,9 +130114,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -137842,7 +137796,7 @@
                   "time": "09:10 - 10:00"
                 }
               ],
-              "location": "WEBS 17",
+              "location": "TODD 133",
               "instructor": "X WEN",
               "instructors": [
                 "X WEN"
@@ -140852,9 +140806,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 21,
+                "available": 21,
+                "label": "0/21"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140887,9 +140841,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 21,
+                "available": 21,
+                "label": "0/21"
               },
               "dates": {
                 "start": "Jan 11",
@@ -140922,9 +140876,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 50,
-                "available": 50,
-                "label": "0/50"
+                "total": 42,
+                "available": 42,
+                "label": "0/42"
               },
               "dates": {
                 "start": "Jan 11",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T01:22:17.357244+00:00",
+  "generatedAt": "2026-11-04T09:08:03.927285+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -11232,6 +11232,102 @@
                 "total": 20,
                 "available": 20,
                 "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Creative Writing: Creative Nonfiction",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 353,
+          "courseCode": "ENGLISH 353",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12112",
+              "sln": 12112,
+              "sectionNumber": 2,
+              "courseCode": "ENGLISH 353",
+              "courseName": "Creative Writing: Creative Nonfiction",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "G MAIERHOFER",
+              "instructors": [
+                "G MAIERHOFER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Editing and Publishing",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 357,
+          "courseCode": "ENGLISH 357",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9659",
+              "sln": 9659,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 357",
+              "courseName": "Editing and Publishing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L WESTERFIELD",
+              "instructors": [
+                "L WESTERFIELD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -27976,6 +28072,54 @@
                 "total": 25,
                 "available": 25,
                 "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Feminist and Queer Approaches to Research",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 541,
+          "courseCode": "WGSS 541",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12111",
+              "sln": 12111,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 541",
+              "courseName": "Feminist and Queer Approaches to Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "15:10 - 17:40",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "15:10 - 17:40"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "M NICOLAS",
+              "instructors": [
+                "M NICOLAS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
