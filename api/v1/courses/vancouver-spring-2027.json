@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T21:01:39.373543+00:00",
+  "generatedAt": "2026-11-04T01:22:17.357244+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -1120,6 +1120,54 @@
               "ucore": "",
               "coop": true,
               "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Evolution and Society",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 473,
+          "courseCode": "ANTH 473",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11529",
+              "sln": 11529,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 473",
+              "courseName": "Evolution and Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "GUC  VAN",
+              "instructor": "E HAGEN",
+              "instructors": [
+                "E HAGEN"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "X",
               "seats": {
                 "taken": 0,
                 "total": 20,
@@ -6318,6 +6366,43 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7894",
+              "sln": 7894,
+              "sectionNumber": 2,
+              "courseCode": "CS 483",
+              "courseName": "Topics in Computer Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "I PRIYADARSHINI",
+              "instructors": [
+                "I PRIYADARSHINI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14761,8 +14846,10 @@
                 }
               ],
               "location": "GUC  VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "O RUMYANTSEVA",
+              "instructors": [
+                "O RUMYANTSEVA"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "",
@@ -14800,8 +14887,10 @@
                 }
               ],
               "location": "GUC  VAN",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "O RUMYANTSEVA",
+              "instructors": [
+                "O RUMYANTSEVA"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "",
@@ -15816,18 +15905,18 @@
                 }
               ],
               "location": "VC   VAN",
-              "instructor": "A PANCHENKO",
+              "instructor": "B KRISHNAMOORTHY",
               "instructors": [
-                "A PANCHENKO"
+                "B KRISHNAMOORTHY"
               ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16068,54 +16157,6 @@
                 "total": 2,
                 "available": 2,
                 "label": "0/2"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Integer and Combinatorial Optimization",
-          "subject": "MATH",
-          "subjectPrefix": "Math",
-          "courseNumber": 567,
-          "courseCode": "MATH 567",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11602",
-              "sln": 11602,
-              "sectionNumber": 1,
-              "courseCode": "MATH 567",
-              "courseName": "Integer and Combinatorial Optimization",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "B KRISHNAMOORTHY",
-              "instructors": [
-                "B KRISHNAMOORTHY"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",

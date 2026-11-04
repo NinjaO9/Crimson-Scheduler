@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T21:01:38.865145+00:00",
+  "generatedAt": "2026-11-04T01:22:16.848613+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -965,24 +965,24 @@
       "subject": "CHEM",
       "courses": [
         {
-          "course": "Introduction to Chemistry",
+          "course": "Chemistry Related to Life Sciences",
           "subject": "CHEM",
           "subjectPrefix": "Chem",
-          "courseNumber": 101,
-          "courseCode": "CHEM 101",
+          "courseNumber": 102,
+          "courseCode": "CHEM 102",
           "credits": "4",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
-              "sectionId": "3038",
-              "sln": 3038,
+              "sectionId": "3081",
+              "sln": 3081,
               "sectionNumber": 1,
-              "courseCode": "CHEM 101",
-              "courseName": "Introduction to Chemistry",
+              "courseCode": "CHEM 102",
+              "courseName": "Chemistry Related to Life Sciences",
               "credits": "4",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "ARR",
               "time": "ARRGT",
               "meetings": [
@@ -992,11 +992,13 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "PSCI",
+              "instructor": "R KITTILSTVED",
+              "instructors": [
+                "R KITTILSTVED"
+              ],
+              "ucore": "",
               "coop": false,
-              "footnotes": "V",
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 30,
@@ -1005,7 +1007,44 @@
               },
               "dates": {
                 "start": "May 10",
-                "end": "Jul 30"
+                "end": "Jun 25"
+              }
+            },
+            {
+              "sectionId": "3082",
+              "sln": 3082,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 102",
+              "courseName": "Chemistry Related to Life Sciences",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "08:00 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "08:00 - 17:00"
+                }
+              ],
+              "location": "FULM 426",
+              "instructor": "R KITTILSTVED",
+              "instructors": [
+                "R KITTILSTVED"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Jul 02"
               }
             }
           ]
@@ -1074,7 +1113,7 @@
                   "time": "08:00 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "FULM 307",
               "instructor": "M FENNIMORE",
               "instructors": [
                 "M FENNIMORE"
@@ -2032,6 +2071,780 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ENGLISH",
+      "courses": [
+        {
+          "course": "College Composition",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 101,
+          "courseCode": "ENGLISH 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2256",
+              "sln": 2256,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 101",
+              "courseName": "College Composition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G TESTA",
+              "instructors": [
+                "G TESTA"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2258",
+              "sln": 2258,
+              "sectionNumber": 2,
+              "courseCode": "ENGLISH 101",
+              "courseName": "College Composition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "I GARNICA",
+              "instructors": [
+                "I GARNICA"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2259",
+              "sln": 2259,
+              "sectionNumber": 3,
+              "courseCode": "ENGLISH 101",
+              "courseName": "College Composition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "P PAUDEL",
+              "instructors": [
+                "P PAUDEL"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2257",
+              "sln": 2257,
+              "sectionNumber": 4,
+              "courseCode": "ENGLISH 101",
+              "courseName": "College Composition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S BROCK",
+              "instructors": [
+                "S BROCK"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Writing and Research",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 201,
+          "courseCode": "ENGLISH 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2260",
+              "sln": 2260,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 201",
+              "courseName": "Writing and Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MCCARTHY",
+              "instructors": [
+                "J MCCARTHY"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Creative Writing: Exploring the Genres",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 251,
+          "courseCode": "ENGLISH 251",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2261",
+              "sln": 2261,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 251",
+              "courseName": "Introduction to Creative Writing: Exploring the Genres",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J FLATHERS",
+              "instructors": [
+                "J FLATHERS"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Writing and Rhetorical Conventions",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 301,
+          "courseCode": "ENGLISH 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2262",
+              "sln": 2262,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 301",
+              "courseName": "Writing and Rhetorical Conventions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R SANCHEZ",
+              "instructors": [
+                "R SANCHEZ"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 310,
+          "courseCode": "ENGLISH 310",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2263",
+              "sln": 2263,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 310",
+              "courseName": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L GUTIERREZ",
+              "instructors": [
+                "L GUTIERREZ"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Technical and Professional Writing",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 402,
+          "courseCode": "ENGLISH 402",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2264",
+              "sln": 2264,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "W MERCK",
+              "instructors": [
+                "W MERCK"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2265",
+              "sln": 2265,
+              "sectionNumber": 2,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R MAYS",
+              "instructors": [
+                "R MAYS"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2266",
+              "sln": 2266,
+              "sectionNumber": 3,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J HUGHES",
+              "instructors": [
+                "J HUGHES"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2267",
+              "sln": 2267,
+              "sectionNumber": 4,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D MARTIN",
+              "instructors": [
+                "D MARTIN"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2268",
+              "sln": 2268,
+              "sectionNumber": 5,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T GOWDY-BURKE",
+              "instructors": [
+                "T GOWDY-BURKE"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2269",
+              "sln": 2269,
+              "sectionNumber": 6,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G CLEGG",
+              "instructors": [
+                "G CLEGG"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2270",
+              "sln": 2270,
+              "sectionNumber": 7,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B FRY",
+              "instructors": [
+                "B FRY"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2271",
+              "sln": 2271,
+              "sectionNumber": 8,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C HALL",
+              "instructors": [
+                "C HALL"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2272",
+              "sln": 2272,
+              "sectionNumber": 9,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E COLEMAN",
+              "instructors": [
+                "E COLEMAN"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2456",
+              "sln": 2456,
+              "sectionNumber": 10,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C FERNANDO",
+              "instructors": [
+                "C FERNANDO"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2457",
+              "sln": 2457,
+              "sectionNumber": 11,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A GARCIA",
+              "instructors": [
+                "A GARCIA"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
               },
               "dates": {
                 "start": "May 10",
@@ -4027,6 +4840,96 @@
       ]
     },
     {
+      "subject": "HUMANITY",
+      "courses": [
+        {
+          "course": "Mythology",
+          "subject": "HUMANITY",
+          "subjectPrefix": "Hum",
+          "courseNumber": 103,
+          "courseCode": "HUMANITY 103",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2284",
+              "sln": 2284,
+              "sectionNumber": 1,
+              "courseCode": "HUMANITY 103",
+              "courseName": "Mythology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T GREENWOOD",
+              "instructors": [
+                "T GREENWOOD"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2285",
+              "sln": 2285,
+              "sectionNumber": 2,
+              "courseCode": "HUMANITY 103",
+              "courseName": "Mythology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N IDRIS",
+              "instructors": [
+                "N IDRIS"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "IPM",
       "courses": [
         {
@@ -4572,6 +5475,54 @@
       "subject": "SOC",
       "courses": [
         {
+          "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 300,
+          "courseCode": "SOC 300",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2286",
+              "sln": 2286,
+              "sectionNumber": 1,
+              "courseCode": "SOC 300",
+              "courseName": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L GUTIERREZ",
+              "instructors": [
+                "L GUTIERREZ"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
           "course": "Juvenile Justice and Corrections",
           "subject": "SOC",
           "subjectPrefix": "Soc",
@@ -4613,6 +5564,54 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 385,
+          "courseCode": "SOC 385",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2290",
+              "sln": 2290,
+              "sectionNumber": 1,
+              "courseCode": "SOC 385",
+              "courseName": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N SHAHANI",
+              "instructors": [
+                "N SHAHANI"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jul 31",
+                "end": "Aug 22"
               }
             }
           ]
@@ -4788,6 +5787,91 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Earth's History",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 210,
+          "courseCode": "SOE 210",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3092",
+              "sln": 3092,
+              "sectionNumber": 1,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3093",
+              "sln": 3093,
+              "sectionNumber": 1,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 60,
+                "available": 60,
+                "label": "0/60"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
               }
             }
           ]
@@ -5047,6 +6131,187 @@
     {
       "subject": "WGSS",
       "courses": [
+        {
+          "course": "Introduction to Women's, Gender, and Sexuality Studies",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 101,
+          "courseCode": "WGSS 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2326",
+              "sln": 2326,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 101",
+              "courseName": "Introduction to Women's, Gender, and Sexuality Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M NICOLAS",
+              "instructors": [
+                "M NICOLAS"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2327",
+              "sln": 2327,
+              "sectionNumber": 2,
+              "courseCode": "WGSS 101",
+              "courseName": "Introduction to Women's, Gender, and Sexuality Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M MILLER",
+              "instructors": [
+                "M MILLER"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 300,
+          "courseCode": "WGSS 300",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2329",
+              "sln": 2329,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 300",
+              "courseName": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L GUTIERREZ",
+              "instructors": [
+                "L GUTIERREZ"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 385,
+          "courseCode": "WGSS 385",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2331",
+              "sln": 2331,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 385",
+              "courseName": "Lesbian, Gay, Bisexual, Transgender, and Queer Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N SHAHANI",
+              "instructors": [
+                "N SHAHANI"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jul 31",
+                "end": "Aug 22"
+              }
+            }
+          ]
+        },
         {
           "course": "Violence Toward Women",
           "subject": "WGSS",

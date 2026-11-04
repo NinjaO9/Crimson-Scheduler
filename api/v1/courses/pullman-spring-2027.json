@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T21:01:39.060842+00:00",
+  "generatedAt": "2026-11-04T01:22:17.043507+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -8075,9 +8075,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 65,
-                "available": 65,
-                "label": "0/65"
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
@@ -40047,6 +40047,54 @@
           ]
         },
         {
+          "course": "Python Software Construction",
+          "subject": "CPT_S",
+          "subjectPrefix": "Cpt S",
+          "courseNumber": 480,
+          "courseCode": "CPT_S 480",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12101",
+              "sln": 12101,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 480",
+              "courseName": "Python Software Construction",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "SPRK 333",
+              "instructor": "J IANNELLI",
+              "instructors": [
+                "J IANNELLI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Topics in Computer Science",
           "subject": "CPT_S",
           "subjectPrefix": "Cpt S",
@@ -40315,52 +40363,6 @@
                 "total": 30,
                 "available": 30,
                 "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Computational Topology",
-          "subject": "CPT_S",
-          "subjectPrefix": "Cpt S",
-          "courseNumber": 519,
-          "courseCode": "CPT_S 519",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7569",
-              "sln": 7569,
-              "sectionNumber": 1,
-              "courseCode": "CPT_S 519",
-              "courseName": "Computational Topology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "WLSH 13",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -50810,7 +50812,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "SLOA 38",
+              "location": "GUC  PUL",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -51039,7 +51041,7 @@
                   "time": "12:05 - 13:20"
                 }
               ],
-              "location": "SLOA 38",
+              "location": "COLL 135",
               "instructor": "P CARLIN",
               "instructors": [
                 "P CARLIN"
@@ -51049,9 +51051,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 37,
-                "available": 37,
-                "label": "0/37"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -74784,9 +74786,9 @@
               "footnotes": "X",
               "seats": {
                 "taken": 0,
-                "total": 20,
-                "available": 20,
-                "label": "0/20"
+                "total": 18,
+                "available": 18,
+                "label": "0/18"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79337,7 +79339,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "",
+              "location": "CARP 312",
               "instructor": "M CERRUTI",
               "instructors": [
                 "M CERRUTI"
@@ -89185,14 +89187,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "08:10 - 09:00",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "08:10 - 09:00"
+                  "time": "09:10 - 10:25"
                 }
               ],
-              "location": "TODD 230",
+              "location": "FULM 201",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -89257,14 +89259,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "12:05 - 12:55",
+              "time": "13:25 - 14:40",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "12:05 - 12:55"
+                  "time": "13:25 - 14:40"
                 }
               ],
-              "location": "TODD 120",
+              "location": "SPRK 227",
               "instructor": "",
               "instructors": [],
               "ucore": "",
@@ -95551,7 +95553,7 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,F,W",
-              "time": "09:10 - 10:00;08:10 - 11:00",
+              "time": "09:10 - 10:00;08:00 - 10:00",
               "meetings": [
                 {
                   "days": "M,F",
@@ -95559,7 +95561,7 @@
                 },
                 {
                   "days": "W",
-                  "time": "08:10 - 11:00"
+                  "time": "08:00 - 10:00"
                 }
               ],
               "location": "SLOA 5",
@@ -119927,15 +119929,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
                 }
               ],
-              "location": "COLL 220",
+              "location": "TODD 404",
               "instructor": "R SWANK",
               "instructors": [
                 "R SWANK"
@@ -120108,15 +120110,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
                 }
               ],
-              "location": "TODD 404",
+              "location": "COLL 220",
               "instructor": "M RITTER",
               "instructors": [
                 "M RITTER"
@@ -120489,7 +120491,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "TODD 413",
               "instructor": "M RITTER",
               "instructors": [
                 "M RITTER"
@@ -120586,8 +120588,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R ELGAR",
+              "instructors": [
+                "R ELGAR"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -120727,7 +120731,7 @@
                   "time": "14:10 - 17:00"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "CUE  412",
               "instructor": "M SALAMONE",
               "instructors": [
                 "M SALAMONE"
@@ -120823,7 +120827,7 @@
                   "time": "14:55 - 17:45"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "TODD 211",
               "instructor": "J LEWIS",
               "instructors": [
                 "J LEWIS"
@@ -151555,6 +151559,54 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Theoretical Issues in Queer Studies",
+          "subject": "WGSS",
+          "subjectPrefix": "WGSS",
+          "courseNumber": 485,
+          "courseCode": "WGSS 485",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11970",
+              "sln": 11970,
+              "sectionNumber": 1,
+              "courseCode": "WGSS 485",
+              "courseName": "Theoretical Issues in Queer Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "AVER 111",
+              "instructor": "N SHAHANI",
+              "instructors": [
+                "N SHAHANI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",
