@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T12:19:28.386121+00:00",
+  "generatedAt": "2026-11-05T20:41:12.117595+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -22484,43 +22484,6 @@
           "hasRequiredLab": false,
           "sections": [
             {
-              "sectionId": "6597",
-              "sln": 6597,
-              "sectionNumber": 1,
-              "courseCode": "BIOMDSCI 564",
-              "courseName": "Topics in Biomedical Experimentation",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "GAHB 301",
-              "instructor": "W KABASENCHE",
-              "instructors": [
-                "W KABASENCHE"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 16,
-                "available": 16,
-                "label": "0/16"
-              },
-              "dates": {
-                "start": "Feb 15",
-                "end": "Mar 26"
-              }
-            },
-            {
               "sectionId": "6599",
               "sln": 6599,
               "sectionNumber": 3,
@@ -36323,9 +36286,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "C WU",
+              "instructor": "V CHONG WU",
               "instructors": [
-                "C WU"
+                "V CHONG WU"
               ],
               "ucore": "",
               "coop": false,
@@ -50913,6 +50876,52 @@
           ]
         },
         {
+          "course": "Statistics for Economists",
+          "subject": "ECONS",
+          "subjectPrefix": "EconS",
+          "courseNumber": 310,
+          "courseCode": "ECONS 310",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12105",
+              "sln": 12105,
+              "sectionNumber": 2,
+              "courseCode": "ECONS 310",
+              "courseName": "Statistics for Economists",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Introductory Econometrics",
           "subject": "ECONS",
           "subjectPrefix": "EconS",
@@ -51183,6 +51192,52 @@
                 "total": 75,
                 "available": 75,
                 "label": "0/75"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Economics of Gaming",
+          "subject": "ECONS",
+          "subjectPrefix": "EconS",
+          "courseNumber": 329,
+          "courseCode": "ECONS 329",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12108",
+              "sln": 12108,
+              "sectionNumber": 1,
+              "courseCode": "ECONS 329",
+              "courseName": "The Economics of Gaming",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -115018,6 +115073,91 @@
               },
               "dates": {
                 "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Biomedical Experimentation",
+          "subject": "PHIL",
+          "subjectPrefix": "Phil",
+          "courseNumber": 564,
+          "courseCode": "PHIL 564",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4438",
+              "sln": 4438,
+              "sectionNumber": 1,
+              "courseCode": "PHIL 564",
+              "courseName": "Topics in Biomedical Experimentation",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "",
+              "instructor": "W KABASENCHE",
+              "instructors": [
+                "W KABASENCHE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Feb 15",
+                "end": "Mar 26"
+              }
+            },
+            {
+              "sectionId": "4439",
+              "sln": 4439,
+              "sectionNumber": 2,
+              "courseCode": "PHIL 564",
+              "courseName": "Topics in Biomedical Experimentation",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "",
+              "instructor": "W KABASENCHE",
+              "instructors": [
+                "W KABASENCHE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 16,
+                "available": 16,
+                "label": "0/16"
+              },
+              "dates": {
+                "start": "Mar 29",
                 "end": "Apr 30"
               }
             }

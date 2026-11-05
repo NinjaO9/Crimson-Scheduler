@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T12:19:28.591222+00:00",
+  "generatedAt": "2026-11-05T20:41:12.316720+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -13452,6 +13452,52 @@
                 "total": 15,
                 "available": 15,
                 "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 702,
+          "courseCode": "TCH_LRN 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12122",
+              "sln": 12122,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Jan 11",

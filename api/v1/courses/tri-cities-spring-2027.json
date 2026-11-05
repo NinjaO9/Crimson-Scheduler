@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T12:19:28.635595+00:00",
+  "generatedAt": "2026-11-05T20:41:12.360422+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -127,11 +127,11 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
+              "days": "M,F",
               "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,F",
                   "time": "11:10 - 12:00"
                 }
               ],
@@ -7550,6 +7550,246 @@
               }
             }
           ]
+        },
+        {
+          "course": "Introduction to Qualitative Research",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 507,
+          "courseCode": "ED_PSYCH 507",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7261",
+              "sln": 7261,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 507",
+              "courseName": "Introduction to Qualitative Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K HUGGINS",
+              "instructors": [
+                "K HUGGINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Statistics",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 508,
+          "courseCode": "ED_PSYCH 508",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3144",
+              "sln": 3144,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 508",
+              "courseName": "Educational Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Motivation Theories",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 573,
+          "courseCode": "ED_PSYCH 573",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12127",
+              "sln": 12127,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 573",
+              "courseName": "Motivation Theories",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Multilevel Modeling",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 575,
+          "courseCode": "ED_PSYCH 575",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7108",
+              "sln": 7108,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 575",
+              "courseName": "Multilevel Modeling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "B FRENCH",
+              "instructors": [
+                "B FRENCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Psychology Internship",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 597,
+          "courseCode": "ED_PSYCH 597",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7936",
+              "sln": 7936,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 597",
+              "courseName": "Educational Psychology Internship",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -10308,6 +10548,57 @@
                 "total": 4,
                 "available": 4,
                 "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "KIN_ACTV",
+      "courses": [
+        {
+          "course": "Beginning Weight Training",
+          "subject": "KIN_ACTV",
+          "subjectPrefix": "KNACT",
+          "courseNumber": 112,
+          "courseCode": "KIN_ACTV 112",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12118",
+              "sln": 12118,
+              "sectionNumber": 1,
+              "courseCode": "KIN_ACTV 112",
+              "courseName": "Beginning Weight Training",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 12:55",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 12:55"
+                }
+              ],
+              "location": "TFLO 136",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -20234,18 +20525,18 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
+              "days": "M,F",
+              "time": "11:10 - 12:00",
               "meetings": [
                 {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
+                  "days": "M,F",
+                  "time": "11:10 - 12:00"
                 }
               ],
               "location": "VC   TRI",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,
@@ -20280,9 +20571,9 @@
                 }
               ],
               "location": "VC   TRI",
-              "instructor": "T DEJONG",
+              "instructor": "H JOHNSON",
               "instructors": [
-                "T DEJONG"
+                "H JOHNSON"
               ],
               "ucore": "",
               "coop": false,

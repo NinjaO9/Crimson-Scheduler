@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T12:19:28.189473+00:00",
+  "generatedAt": "2026-11-05T20:41:11.925025+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -147,6 +147,96 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "AMDT",
+      "courses": [
+        {
+          "course": "Textiles",
+          "subject": "AMDT",
+          "subjectPrefix": "AMT",
+          "courseNumber": 210,
+          "courseCode": "AMDT 210",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2215",
+              "sln": 2215,
+              "sectionNumber": 1,
+              "courseCode": "AMDT 210",
+              "courseName": "Textiles",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H LIU",
+              "instructors": [
+                "H LIU"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2216",
+              "sln": 2216,
+              "sectionNumber": 1,
+              "courseCode": "AMDT 210",
+              "courseName": "Textiles",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H LIU",
+              "instructors": [
+                "H LIU"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
               }
             }
           ]
@@ -1113,12 +1203,97 @@
                   "time": "08:00 - 17:00"
                 }
               ],
-              "location": "FULM 307",
+              "location": "FULM 321",
               "instructor": "M FENNIMORE",
               "instructors": [
                 "M FENNIMORE"
               ],
               "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 48,
+                "available": 48,
+                "label": "0/48"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Jul 02"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Organic Chemistry I",
+          "subject": "CHEM",
+          "subjectPrefix": "Chem",
+          "courseNumber": 345,
+          "courseCode": "CHEM 345",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2364",
+              "sln": 2364,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 345",
+              "courseName": "Organic Chemistry I",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R JOSEPH",
+              "instructors": [
+                "R JOSEPH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 48,
+                "available": 48,
+                "label": "0/48"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 25"
+              }
+            },
+            {
+              "sectionId": "2365",
+              "sln": 2365,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 345",
+              "courseName": "Organic Chemistry I",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "08:00 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "08:00 - 17:00"
+                }
+              ],
+              "location": "FULM 445",
+              "instructor": "R JOSEPH",
+              "instructors": [
+                "R JOSEPH"
+              ],
+              "ucore": "",
               "coop": false,
               "footnotes": "",
               "seats": {
@@ -1422,7 +1597,7 @@
           "courseNumber": 381,
           "courseCode": "CRM_J 381",
           "credits": "3",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "2242",
@@ -1433,7 +1608,7 @@
               "credits": "3",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "ARR",
               "time": "ARRGT",
               "meetings": [
@@ -1445,6 +1620,43 @@
               "location": "ARR  ARR",
               "instructor": "",
               "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 80,
+                "available": 80,
+                "label": "0/80"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2243",
+              "sln": 2243,
+              "sectionNumber": 1,
+              "courseCode": "CRM_J 381",
+              "courseName": "Crime and Justice in the Movies",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D BRODY",
+              "instructors": [
+                "D BRODY"
+              ],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "V",
@@ -2292,6 +2504,54 @@
           ]
         },
         {
+          "course": "Introduction to Comics and Graphic Novels",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 212,
+          "courseCode": "ENGLISH 212",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3095",
+              "sln": 3095,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 212",
+              "courseName": "Introduction to Comics and Graphic Novels",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R WHITSON",
+              "instructors": [
+                "R WHITSON"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Introduction to Creative Writing: Exploring the Genres",
           "subject": "ENGLISH",
           "subjectPrefix": "Engl",
@@ -2388,6 +2648,52 @@
           ]
         },
         {
+          "course": "Women Writers",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 309,
+          "courseCode": "ENGLISH 309",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3096",
+              "sln": 3096,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 309",
+              "courseName": "Women Writers",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
           "subject": "ENGLISH",
           "subjectPrefix": "Engl",
@@ -2431,6 +2737,54 @@
               "dates": {
                 "start": "Jun 21",
                 "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Editing and Publishing",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 357,
+          "courseCode": "ENGLISH 357",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3097",
+              "sln": 3097,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 357",
+              "courseName": "Editing and Publishing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G MAIERHOFER",
+              "instructors": [
+                "G MAIERHOFER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
               }
             }
           ]
@@ -2836,6 +3190,43 @@
               "instructor": "A GARCIA",
               "instructors": [
                 "A GARCIA"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "3086",
+              "sln": 3086,
+              "sectionNumber": 12,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V VILLA",
+              "instructors": [
+                "V VILLA"
               ],
               "ucore": "WRTG",
               "coop": false,
