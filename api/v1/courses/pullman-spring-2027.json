@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T22:41:53.456277+00:00",
+  "generatedAt": "2026-11-05T03:31:53.595542+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -40372,6 +40372,52 @@
           ]
         },
         {
+          "course": "Computational Topology",
+          "subject": "CPT_S",
+          "subjectPrefix": "Cpt S",
+          "courseNumber": 519,
+          "courseCode": "CPT_S 519",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7569",
+              "sln": 7569,
+              "sectionNumber": 1,
+              "courseCode": "CPT_S 519",
+              "courseName": "Computational Topology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Neural Network Design and Application",
           "subject": "CPT_S",
           "subjectPrefix": "Cpt S",
@@ -50963,6 +51009,41 @@
                 "start": "Jan 11",
                 "end": "Apr 30"
               }
+            },
+            {
+              "sectionId": "8458",
+              "sln": 8458,
+              "sectionNumber": 2,
+              "courseCode": "ECONS 320",
+              "courseName": "Money and Banking",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
             }
           ]
         },
@@ -51102,52 +51183,6 @@
                 "total": 75,
                 "available": 75,
                 "label": "0/75"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "The Economics of Gaming",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 329,
-          "courseCode": "ECONS 329",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7868",
-              "sln": 7868,
-              "sectionNumber": 2,
-              "courseCode": "ECONS 329",
-              "courseName": "The Economics of Gaming",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
-                }
-              ],
-              "location": "HULB 27",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
