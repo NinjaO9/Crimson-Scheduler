@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T20:41:12.117595+00:00",
+  "generatedAt": "2026-11-06T01:35:51.830943+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -1030,6 +1030,52 @@
           ]
         },
         {
+          "course": "Accounting Internship",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 498,
+          "courseCode": "ACCTG 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5539",
+              "sln": 5539,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 498",
+              "courseName": "Accounting Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Behavioral Research in Accounting",
           "subject": "ACCTG",
           "subjectPrefix": "Acctg",
@@ -1069,6 +1115,98 @@
                 "total": 8,
                 "available": 8,
                 "label": "0/8"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 600,
+          "courseCode": "ACCTG 600",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5540",
+              "sln": 5540,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 800,
+          "courseCode": "ACCTG 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5541",
+              "sln": 5541,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -10143,54 +10281,6 @@
                 "total": 60,
                 "available": 60,
                 "label": "0/60"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Indigenous Women: Activism and Agency",
-          "subject": "ANTH",
-          "subjectPrefix": "Anth",
-          "courseNumber": 323,
-          "courseCode": "ANTH 323",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7531",
-              "sln": 7531,
-              "sectionNumber": 1,
-              "courseCode": "ANTH 323",
-              "courseName": "Indigenous Women: Activism and Agency",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "TODD 404",
-              "instructor": "E VAN ALST",
-              "instructors": [
-                "E VAN ALST"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 45,
-                "available": 45,
-                "label": "0/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -20519,10 +20609,8 @@
                 }
               ],
               "location": "CUE  412",
-              "instructor": "E SCHWARTZ",
-              "instructors": [
-                "E SCHWARTZ"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -23886,8 +23974,10 @@
                 }
               ],
               "location": "WEBS 11",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K OLSEN",
+              "instructors": [
+                "K OLSEN"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -26759,7 +26849,7 @@
                   "time": "11:10 - 12:00"
                 }
               ],
-              "location": "VC   PUL",
+              "location": "SLOA 7",
               "instructor": "X ZHANG",
               "instructors": [
                 "X ZHANG"
@@ -36424,9 +36514,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "N O'DONNELL",
+              "instructor": "C HAWKINS-JEDLICKA",
               "instructors": [
-                "N O'DONNELL"
+                "C HAWKINS-JEDLICKA"
               ],
               "ucore": "",
               "coop": false,
@@ -36993,10 +37083,8 @@
                 }
               ],
               "location": "GTZN 1",
-              "instructor": "C THOMAS",
-              "instructors": [
-                "C THOMAS"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -37163,9 +37251,9 @@
                 }
               ],
               "location": "SPRK 223",
-              "instructor": "C HAWKINS-JEDLICKA",
+              "instructor": "R COONEY",
               "instructors": [
-                "C HAWKINS-JEDLICKA"
+                "R COONEY"
               ],
               "ucore": "",
               "coop": false,
@@ -37477,9 +37565,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "N O'DONNELL",
+              "instructor": "C THOMAS",
               "instructors": [
-                "N O'DONNELL"
+                "C THOMAS"
               ],
               "ucore": "",
               "coop": false,
@@ -37695,9 +37783,9 @@
                 }
               ],
               "location": "TODD 303",
-              "instructor": "T GILLIG",
+              "instructor": "N O'DONNELL",
               "instructors": [
-                "T GILLIG"
+                "N O'DONNELL"
               ],
               "ucore": "",
               "coop": false,
@@ -43630,9 +43718,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "M NEFF",
+              "instructor": "D INCI",
               "instructors": [
-                "M NEFF"
+                "D INCI"
               ],
               "ucore": "",
               "coop": false,
@@ -50876,52 +50964,6 @@
           ]
         },
         {
-          "course": "Statistics for Economists",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 310,
-          "courseCode": "ECONS 310",
-          "credits": "4",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12105",
-              "sln": 12105,
-              "sectionNumber": 2,
-              "courseCode": "ECONS 310",
-              "courseName": "Statistics for Economists",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "QUAN",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Introductory Econometrics",
           "subject": "ECONS",
           "subjectPrefix": "EconS",
@@ -51192,52 +51234,6 @@
                 "total": 75,
                 "available": 75,
                 "label": "0/75"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "The Economics of Gaming",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 329,
-          "courseCode": "ECONS 329",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12108",
-              "sln": 12108,
-              "sectionNumber": 1,
-              "courseCode": "ECONS 329",
-              "courseName": "The Economics of Gaming",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -62169,7 +62165,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "SPRK 233",
+              "location": "SPRK 227",
               "instructor": "R ZACK",
               "instructors": [
                 "R ZACK"
@@ -62179,9 +62175,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 13,
-                "available": 13,
-                "label": "0/13"
+                "total": 75,
+                "available": 75,
+                "label": "0/75"
               },
               "dates": {
                 "start": "Jan 11",
@@ -63028,7 +63024,7 @@
                   "time": "10:35 - 11:50"
                 }
               ],
-              "location": "SPRK 233",
+              "location": "SPRK 227",
               "instructor": "R ZACK",
               "instructors": [
                 "R ZACK"
@@ -63038,9 +63034,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "total": 26,
+                "available": 26,
+                "label": "0/26"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69480,18 +69476,16 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "N KAIVAN",
-              "instructors": [
-                "N KAIVAN"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69537,9 +69531,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 55,
-                "available": 55,
-                "label": "0/55"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -70812,7 +70806,7 @@
                   "time": "11:10 - 12:00"
                 }
               ],
-              "location": "SEH  105",
+              "location": "SPRK G0010",
               "instructor": "M MILLER",
               "instructors": [
                 "M MILLER"
@@ -72251,80 +72245,6 @@
               }
             },
             {
-              "sectionId": "5996",
-              "sln": 5996,
-              "sectionNumber": 37,
-              "courseCode": "HISTORY 105",
-              "courseName": "The Roots of Contemporary Issues",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "TODD 434",
-              "instructor": "R BOOTH",
-              "instructors": [
-                "R BOOTH"
-              ],
-              "ucore": "ROOT",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 75,
-                "available": 75,
-                "label": "0/75"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "7352",
-              "sln": 7352,
-              "sectionNumber": 39,
-              "courseCode": "HISTORY 105",
-              "courseName": "The Roots of Contemporary Issues",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "SPRK 339",
-              "instructor": "Y WU",
-              "instructors": [
-                "Y WU"
-              ],
-              "ucore": "ROOT",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 75,
-                "available": 75,
-                "label": "0/75"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
               "sectionId": "7968",
               "sln": 7968,
               "sectionNumber": 45,
@@ -72851,43 +72771,6 @@
           "hasRequiredLab": false,
           "sections": [
             {
-              "sectionId": "6778",
-              "sln": 6778,
-              "sectionNumber": 1,
-              "courseCode": "HISTORY 305",
-              "courseName": "Roots of Contemporary Issues For Transfer Students",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "CUE  207",
-              "instructor": "A COMPTON",
-              "instructors": [
-                "A COMPTON"
-              ],
-              "ucore": "ROOT",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 28,
-                "total": 35,
-                "available": 7,
-                "label": "28/35"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
               "sectionId": "4983",
               "sln": 4983,
               "sectionNumber": 2,
@@ -72906,10 +72789,8 @@
                 }
               ],
               "location": "CUE  316",
-              "instructor": "A COMPTON",
-              "instructors": [
-                "A COMPTON"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "ROOT",
               "coop": false,
               "footnotes": "",
@@ -72955,6 +72836,80 @@
                 "total": 35,
                 "available": 12,
                 "label": "23/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11440",
+              "sln": 11440,
+              "sectionNumber": 4,
+              "courseCode": "HISTORY 305",
+              "courseName": "Roots of Contemporary Issues For Transfer Students",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "THOM 201",
+              "instructor": "R BOOTH",
+              "instructors": [
+                "R BOOTH"
+              ],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12123",
+              "sln": 12123,
+              "sectionNumber": 5,
+              "courseCode": "HISTORY 305",
+              "courseName": "Roots of Contemporary Issues For Transfer Students",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "SPRK 223",
+              "instructor": "Y WU",
+              "instructors": [
+                "Y WU"
+              ],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78156,9 +78111,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78193,9 +78148,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78230,9 +78185,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78267,9 +78222,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 100,
-                "available": 100,
-                "label": "0/100"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78402,9 +78357,9 @@
                 }
               ],
               "location": "TODD 334",
-              "instructor": "T SHUBHANGI",
+              "instructor": "G MONTEIRO MENDES",
               "instructors": [
-                "T SHUBHANGI"
+                "G MONTEIRO MENDES"
               ],
               "ucore": "",
               "coop": false,
@@ -81305,16 +81260,18 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "12:10 - 13:00",
+              "time": "14:10 - 15:00",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "12:10 - 13:00"
+                  "time": "14:10 - 15:00"
                 }
               ],
               "location": "PEB  144",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "D TAKAKI",
+              "instructors": [
+                "D TAKAKI"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -89896,10 +89853,8 @@
                 }
               ],
               "location": "CUE  412",
-              "instructor": "E SCHWARTZ",
-              "instructors": [
-                "E SCHWARTZ"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -119798,8 +119753,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "V GARNICA",
+              "instructors": [
+                "V GARNICA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -125753,7 +125710,7 @@
                   "time": "11:00 - 11:50"
                 }
               ],
-              "location": "TERR 106",
+              "location": "SPRK 233",
               "instructor": "M RATSCH",
               "instructors": [
                 "M RATSCH"
@@ -131392,12 +131349,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "W",
-              "time": "11:10 - 12:40",
+              "days": "TU",
+              "time": "11:50 - 13:30",
               "meetings": [
                 {
-                  "days": "W",
-                  "time": "11:10 - 12:40"
+                  "days": "TU",
+                  "time": "11:50 - 13:30"
                 }
               ],
               "location": "WEBS 1234",
@@ -138003,9 +137960,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 26,
-                "available": 26,
-                "label": "0/26"
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jan 11",

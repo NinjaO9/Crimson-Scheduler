@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T20:41:12.419320+00:00",
+  "generatedAt": "2026-11-06T01:35:51.989159+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -1936,9 +1936,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2523,7 +2523,7 @@
               ],
               "ucore": "BSCI",
               "coop": false,
-              "footnotes": "C",
+              "footnotes": "",
               "seats": {
                 "taken": 0,
                 "total": 24,
@@ -5262,9 +5262,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "N O'DONNELL",
+              "instructor": "C THOMAS",
               "instructors": [
-                "N O'DONNELL"
+                "C THOMAS"
               ],
               "ucore": "",
               "coop": false,
@@ -10050,6 +10050,54 @@
           "course": "Topics in Education",
           "subject": "ED_AD",
           "subjectPrefix": "Ed Ad",
+          "courseNumber": 521,
+          "courseCode": "ED_AD 521",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3525",
+              "sln": 3525,
+              "sectionNumber": 1,
+              "courseCode": "ED_AD 521",
+              "courseName": "Topics in Education",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J KOWALKOWSKI",
+              "instructors": [
+                "J KOWALKOWSKI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Education",
+          "subject": "ED_AD",
+          "subjectPrefix": "Ed Ad",
           "courseNumber": 522,
           "courseCode": "ED_AD 522",
           "credits": "V",
@@ -10976,41 +11024,6 @@
           "credits": "3",
           "hasRequiredLab": false,
           "sections": [
-            {
-              "sectionId": "2663",
-              "sln": 2663,
-              "sectionNumber": 1,
-              "courseCode": "ENGLISH 101",
-              "courseName": "College Composition",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "GUC  VAN",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "WRTG",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
             {
               "sectionId": "2664",
               "sln": 2664,
@@ -13205,8 +13218,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S REISZ",
+              "instructors": [
+                "S REISZ"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "S",
@@ -16373,6 +16388,54 @@
           ]
         },
         {
+          "course": "Topics in Applied Mathematics",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 583,
+          "courseCode": "MATH 583",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7995",
+              "sln": 7995,
+              "sectionNumber": 1,
+              "courseCode": "MATH 583",
+              "courseName": "Topics in Applied Mathematics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "14:00 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "14:00 - 17:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K VIXIE",
+              "instructors": [
+                "K VIXIE"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Seminar in Analysis",
           "subject": "MATH",
           "subjectPrefix": "Math",
@@ -18812,9 +18875,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
               },
               "dates": {
                 "start": "Jan 11",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T20:41:12.360422+00:00",
+  "generatedAt": "2026-11-06T01:35:51.959266+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -18494,11 +18494,11 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "F",
-              "time": "16:15 - 19:05",
+              "time": "14:10 - 17:00",
               "meetings": [
                 {
                   "days": "F",
-                  "time": "16:15 - 19:05"
+                  "time": "14:10 - 17:00"
                 }
               ],
               "location": "TCOL 222",
@@ -19267,6 +19267,54 @@
           ]
         },
         {
+          "course": "Climate Change Impacts on Physical, Natural, and Human Systems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 536,
+          "courseCode": "SOE 536",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12119",
+              "sln": 12119,
+              "sectionNumber": 1,
+              "courseCode": "SOE 536",
+              "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "D SINGH",
+              "instructors": [
+                "D SINGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Environmental Assessment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -19300,6 +19348,54 @@
               ],
               "ucore": "",
               "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Watershed Biogeochemistry",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 562,
+          "courseCode": "SOE 562",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12120",
+              "sln": 12120,
+              "sectionNumber": 1,
+              "courseCode": "SOE 562",
+              "courseName": "Watershed Biogeochemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "J HARRISON",
+              "instructors": [
+                "J HARRISON"
+              ],
+              "ucore": "",
+              "coop": false,
               "footnotes": "",
               "seats": {
                 "taken": 0,

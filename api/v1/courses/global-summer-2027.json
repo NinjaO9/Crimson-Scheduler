@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T20:41:11.925025+00:00",
+  "generatedAt": "2026-11-06T01:35:51.731175+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -1342,8 +1342,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M UHRIK",
+              "instructors": [
+                "M UHRIK"
+              ],
               "ucore": "SSCI",
               "coop": true,
               "footnotes": "V",
@@ -1388,8 +1390,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M HIGGINS",
+              "instructors": [
+                "M HIGGINS"
+              ],
               "ucore": "EQJS",
               "coop": false,
               "footnotes": "V",
@@ -1434,8 +1438,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A MEYER",
+              "instructors": [
+                "A MEYER"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "V",
@@ -1480,8 +1486,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "N KO",
+              "instructors": [
+                "N KO"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "V",
@@ -1526,8 +1534,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M RUFFIN",
+              "instructors": [
+                "M RUFFIN"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "VX",
@@ -1572,8 +1582,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R WILLIAMS",
+              "instructors": [
+                "R WILLIAMS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -1618,8 +1630,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M DHONDT",
+              "instructors": [
+                "M DHONDT"
+              ],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "V",
@@ -1653,10 +1667,8 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "D BRODY",
-              "instructors": [
-                "D BRODY"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "ARTS",
               "coop": false,
               "footnotes": "V",
@@ -1701,8 +1713,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S RADCLIFFE",
+              "instructors": [
+                "S RADCLIFFE"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "VX",
@@ -1747,8 +1761,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K CHEN",
+              "instructors": [
+                "K CHEN"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "VX",
@@ -1793,8 +1809,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "A GOODREAU",
+              "instructors": [
+                "A GOODREAU"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -2196,6 +2214,100 @@
           ]
         },
         {
+          "course": "Social Media Practices",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 331,
+          "courseCode": "DTC 331",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2254",
+              "sln": 2254,
+              "sectionNumber": 1,
+              "courseCode": "DTC 331",
+              "courseName": "Social Media Practices",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V VARAY",
+              "instructors": [
+                "V VARAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Storytelling",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 354,
+          "courseCode": "DTC 354",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2255",
+              "sln": 2255,
+              "sectionNumber": 1,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
           "course": "Introduction to Web Design and Development",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -2285,8 +2397,8 @@
                 "label": "0/30"
               },
               "dates": {
-                "start": "May 10",
-                "end": "Jul 30"
+                "start": "Jun 21",
+                "end": "Aug 01"
               }
             }
           ]
@@ -5789,8 +5901,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "K CHEN",
+              "instructors": [
+                "K CHEN"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "VX",
@@ -5941,8 +6055,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M RUFFIN",
+              "instructors": [
+                "M RUFFIN"
+              ],
               "ucore": "",
               "coop": true,
               "footnotes": "VX",
@@ -6731,8 +6847,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S RADCLIFFE",
+              "instructors": [
+                "S RADCLIFFE"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "VX",
