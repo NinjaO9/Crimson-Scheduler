@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T17:31:30.339917+00:00",
+  "generatedAt": "2026-11-06T23:07:33.897224+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -882,6 +882,102 @@
     {
       "subject": "H_D",
       "courses": [
+        {
+          "course": "Adolescence",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 520,
+          "courseCode": "H_D 520",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12124",
+              "sln": 12124,
+              "sectionNumber": 1,
+              "courseCode": "H_D 520",
+              "courseName": "Adolescence",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "14:10 - 16:40",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "14:10 - 16:40"
+                }
+              ],
+              "location": "",
+              "instructor": "E WEYBRIGHT",
+              "instructors": [
+                "E WEYBRIGHT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar on Family Relationships",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 550,
+          "courseCode": "H_D 550",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12125",
+              "sln": 12125,
+              "sectionNumber": 1,
+              "courseCode": "H_D 550",
+              "courseName": "Seminar on Family Relationships",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "14:10 - 16:40",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "14:10 - 16:40"
+                }
+              ],
+              "location": "",
+              "instructor": "M CLEVELAND",
+              "instructors": [
+                "M CLEVELAND"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
         {
           "course": "Special Projects or Independent Study",
           "subject": "H_D",
