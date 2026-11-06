@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T01:35:51.830943+00:00",
+  "generatedAt": "2026-11-06T09:22:11.254925+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -34960,9 +34960,9 @@
                 }
               ],
               "location": "CUE  418",
-              "instructor": "C THOMAS",
+              "instructor": "N O'DONNELL",
               "instructors": [
-                "C THOMAS"
+                "N O'DONNELL"
               ],
               "ucore": "",
               "coop": false,
@@ -35045,10 +35045,8 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "R COONEY",
-              "instructors": [
-                "R COONEY"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "CV",
@@ -35288,7 +35286,7 @@
                   "time": "10:10 - 11:00"
                 }
               ],
-              "location": "JKSN 55",
+              "location": "MURR 242",
               "instructor": "C HAWKINS-JEDLICKA",
               "instructors": [
                 "C HAWKINS-JEDLICKA"
@@ -51222,9 +51220,9 @@
                 }
               ],
               "location": "TODD 334",
-              "instructor": "T SHUBHANGI",
+              "instructor": "G MONTEIRO MENDES",
               "instructors": [
-                "T SHUBHANGI"
+                "G MONTEIRO MENDES"
               ],
               "ucore": "",
               "coop": false,
@@ -51234,6 +51232,52 @@
                 "total": 75,
                 "available": 75,
                 "label": "0/75"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Economics of Gaming",
+          "subject": "ECONS",
+          "subjectPrefix": "EconS",
+          "courseNumber": 329,
+          "courseCode": "ECONS 329",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12108",
+              "sln": 12108,
+              "sectionNumber": 1,
+              "courseCode": "ECONS 329",
+              "courseName": "The Economics of Gaming",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -51506,8 +51550,10 @@
                 }
               ],
               "location": "HULB 27",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J YODER",
+              "instructors": [
+                "J YODER"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -51552,8 +51598,10 @@
                 }
               ],
               "location": "HULB 23",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J GIFFORD",
+              "instructors": [
+                "J GIFFORD"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -51562,52 +51610,6 @@
                 "total": 40,
                 "available": 40,
                 "label": "0/40"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Advanced Business Management Economics",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 452,
-          "courseCode": "ECONS 452",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "8229",
-              "sln": 8229,
-              "sectionNumber": 1,
-              "courseCode": "ECONS 452",
-              "courseName": "Advanced Business Management Economics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 45,
-                "available": 45,
-                "label": "0/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -51644,8 +51646,10 @@
                 }
               ],
               "location": "WEGN G0001",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J COOK",
+              "instructors": [
+                "J COOK"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -51690,8 +51694,10 @@
                 }
               ],
               "location": "TODD 220",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "X LIU",
+              "instructors": [
+                "X LIU"
+              ],
               "ucore": "CAPS",
               "coop": false,
               "footnotes": "",
@@ -52109,9 +52115,9 @@
                 }
               ],
               "location": "CLAR 147",
-              "instructor": "G GALINATO",
+              "instructor": "S PARK",
               "instructors": [
-                "G GALINATO"
+                "S PARK"
               ],
               "ucore": "",
               "coop": false,
@@ -52121,54 +52127,6 @@
                 "total": 28,
                 "available": 28,
                 "label": "0/28"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Natural Resource Economics",
-          "subject": "ECONS",
-          "subjectPrefix": "EconS",
-          "courseNumber": 581,
-          "courseCode": "ECONS 581",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "5805",
-              "sln": 5805,
-              "sectionNumber": 1,
-              "courseCode": "ECONS 581",
-              "courseName": "Natural Resource Economics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "TODD 220",
-              "instructor": "J YODER",
-              "instructors": [
-                "J YODER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -55746,9 +55704,9 @@
                 }
               ],
               "location": "CUE  407",
-              "instructor": "C FERNANDO",
+              "instructor": "C MCGILL",
               "instructors": [
-                "C FERNANDO"
+                "C MCGILL"
               ],
               "ucore": "WRTG",
               "coop": false,
@@ -56357,6 +56315,43 @@
               }
             },
             {
+              "sectionId": "4860",
+              "sln": 4860,
+              "sectionNumber": 38,
+              "courseCode": "ENGLISH 101",
+              "courseName": "College Composition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "CUE  207",
+              "instructor": "P PAUDEL",
+              "instructors": [
+                "P PAUDEL"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 24,
+                "available": 24,
+                "label": "0/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
               "sectionId": "6772",
               "sln": 6772,
               "sectionNumber": 39,
@@ -56572,43 +56567,6 @@
                 "total": 24,
                 "available": 22,
                 "label": "2/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "6202",
-              "sln": 6202,
-              "sectionNumber": 57,
-              "courseCode": "ENGLISH 101",
-              "courseName": "College Composition",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "AVER 102",
-              "instructor": "C FERNANDO",
-              "instructors": [
-                "C FERNANDO"
-              ],
-              "ucore": "WRTG",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -58860,9 +58818,9 @@
                 }
               ],
               "location": "CUE  412",
-              "instructor": "L LEVY",
+              "instructor": "C FERNANDO",
               "instructors": [
-                "L LEVY"
+                "C FERNANDO"
               ],
               "ucore": "WRTG",
               "coop": false,
@@ -58897,9 +58855,9 @@
                 }
               ],
               "location": "BRYN 324",
-              "instructor": "C MCGILL",
+              "instructor": "C FERNANDO",
               "instructors": [
-                "C MCGILL"
+                "C FERNANDO"
               ],
               "ucore": "WRTG",
               "coop": false,
@@ -62821,11 +62779,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU",
-              "time": "10:35 - 12:00",
+              "time": "10:35 - 12:25",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "10:35 - 12:00"
+                  "time": "10:35 - 12:25"
                 }
               ],
               "location": "TERR 24",
@@ -62858,11 +62816,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU",
-              "time": "10:35 - 12:00",
+              "time": "10:35 - 12:25",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "10:35 - 12:00"
+                  "time": "10:35 - 12:25"
                 }
               ],
               "location": "VC   ARR",
@@ -62895,11 +62853,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU",
-              "time": "10:35 - 12:00",
+              "time": "10:35 - 12:25",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "10:35 - 12:00"
+                  "time": "10:35 - 12:25"
                 }
               ],
               "location": "VC   ARR",
@@ -62932,11 +62890,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU",
-              "time": "10:35 - 12:00",
+              "time": "10:35 - 12:25",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "10:35 - 12:00"
+                  "time": "10:35 - 12:25"
                 }
               ],
               "location": "VC   ARR",
@@ -62969,11 +62927,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU",
-              "time": "10:35 - 12:00",
+              "time": "10:35 - 12:25",
               "meetings": [
                 {
                   "days": "TU",
-                  "time": "10:35 - 12:00"
+                  "time": "10:35 - 12:25"
                 }
               ],
               "location": "VC   ARR",
@@ -63034,9 +62992,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 26,
-                "available": 26,
-                "label": "0/26"
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
               },
               "dates": {
                 "start": "Jan 11",
@@ -72770,41 +72728,6 @@
           "credits": "3",
           "hasRequiredLab": false,
           "sections": [
-            {
-              "sectionId": "4983",
-              "sln": 4983,
-              "sectionNumber": 2,
-              "courseCode": "HISTORY 305",
-              "courseName": "Roots of Contemporary Issues For Transfer Students",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
-                }
-              ],
-              "location": "CUE  316",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "ROOT",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 28,
-                "total": 35,
-                "available": 7,
-                "label": "28/35"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
             {
               "sectionId": "7509",
               "sln": 7509,
@@ -99406,9 +99329,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99443,9 +99366,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99480,9 +99403,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99517,9 +99440,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99554,9 +99477,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -99591,9 +99514,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 60,
-                "available": 60,
-                "label": "0/60"
+                "total": 40,
+                "available": 40,
+                "label": "0/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -118147,7 +118070,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "SPRK 210",
+              "location": "SPRK 208",
               "instructor": "S HARPER",
               "instructors": [
                 "S HARPER"
