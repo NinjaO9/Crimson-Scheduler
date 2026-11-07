@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T23:07:33.786236+00:00",
+  "generatedAt": "2026-11-07T02:50:45.043093+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -11255,7 +11255,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "",
+              "location": "CARP 312",
               "instructor": "M COWAN",
               "instructors": [
                 "M COWAN"
@@ -19226,9 +19226,9 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "G COX",
+              "instructor": "K TURNER",
               "instructors": [
-                "G COX"
+                "K TURNER"
               ],
               "ucore": "",
               "coop": false,
@@ -20055,52 +20055,6 @@
                 "total": 100,
                 "available": 100,
                 "label": "0/100"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to Mathematical Biology",
-          "subject": "BIOLOGY",
-          "subjectPrefix": "Biol",
-          "courseNumber": 340,
-          "courseCode": "BIOLOGY 340",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3089",
-              "sln": 3089,
-              "sectionNumber": 1,
-              "courseCode": "BIOLOGY 340",
-              "courseName": "Introduction to Mathematical Biology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "CUE  412",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 6,
-                "available": 6,
-                "label": "0/6"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23447,15 +23401,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
                 }
               ],
-              "location": "WEBS 11",
+              "location": "TODD 434",
               "instructor": "C MOTTER",
               "instructors": [
                 "C MOTTER"
@@ -49994,7 +49948,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "FLMA 226",
+              "location": "CLEV 30",
               "instructor": "C CLARKE",
               "instructors": [
                 "C CLARKE"
@@ -50655,7 +50609,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "TODD 334",
+              "location": "SPRK 339",
               "instructor": "G MONTEIRO MENDES",
               "instructors": [
                 "G MONTEIRO MENDES"
@@ -59375,6 +59329,43 @@
                 "total": 21,
                 "available": 21,
                 "label": "0/21"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10018",
+              "sln": 10018,
+              "sectionNumber": 37,
+              "courseCode": "ENGLISH 402",
+              "courseName": "Technical and Professional Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L LEVY",
+              "instructors": [
+                "L LEVY"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -68431,7 +68422,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "TODD 230",
+              "location": "SEH  G0005",
               "instructor": "M PATTON",
               "instructors": [
                 "M PATTON"
@@ -68441,9 +68432,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 112,
-                "available": 112,
-                "label": "0/112"
+                "total": 150,
+                "available": 150,
+                "label": "0/150"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69203,14 +69194,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "12:05 - 13:20",
+              "time": "10:35 - 11:50",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "12:05 - 13:20"
+                  "time": "10:35 - 11:50"
                 }
               ],
-              "location": "SLOA 169",
+              "location": "WLSH 13",
               "instructor": "R WEAVER",
               "instructors": [
                 "R WEAVER"
@@ -69220,9 +69211,9 @@
               "footnotes": "C",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69760,6 +69751,54 @@
           ]
         },
         {
+          "course": "Special Problems",
+          "subject": "H_D",
+          "subjectPrefix": "H D",
+          "courseNumber": 499,
+          "courseCode": "H_D 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6835",
+              "sln": 6835,
+              "sectionNumber": 1,
+              "courseCode": "H_D 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A WHITEHALL",
+              "instructors": [
+                "A WHITEHALL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Adolescence",
           "subject": "H_D",
           "subjectPrefix": "H D",
@@ -69835,8 +69874,10 @@
                 }
               ],
               "location": "TERR 24",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "M CLEVELAND",
+              "instructors": [
+                "M CLEVELAND"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -75592,9 +75633,9 @@
                 }
               ],
               "location": "CLAR 151",
-              "instructor": "C TORRES",
+              "instructor": "R MOGOLLON",
               "instructors": [
-                "C TORRES"
+                "R MOGOLLON"
               ],
               "ucore": "",
               "coop": false,
@@ -75629,9 +75670,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "C TORRES",
+              "instructor": "R MOGOLLON",
               "instructors": [
-                "C TORRES"
+                "R MOGOLLON"
               ],
               "ucore": "",
               "coop": false,
@@ -75666,9 +75707,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "C TORRES",
+              "instructor": "R MOGOLLON",
               "instructors": [
-                "C TORRES"
+                "R MOGOLLON"
               ],
               "ucore": "",
               "coop": false,
@@ -75703,9 +75744,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "C TORRES",
+              "instructor": "R MOGOLLON",
               "instructors": [
-                "C TORRES"
+                "R MOGOLLON"
               ],
               "ucore": "",
               "coop": false,
@@ -75740,9 +75781,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "C TORRES",
+              "instructor": "R MOGOLLON",
               "instructors": [
-                "C TORRES"
+                "R MOGOLLON"
               ],
               "ucore": "",
               "coop": false,
@@ -75788,9 +75829,9 @@
                 }
               ],
               "location": "CLAR 151",
-              "instructor": "C TORRES",
+              "instructor": "R MOGOLLON",
               "instructors": [
-                "C TORRES"
+                "R MOGOLLON"
               ],
               "ucore": "",
               "coop": false,
@@ -75825,9 +75866,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "C TORRES",
+              "instructor": "P MCCORD",
               "instructors": [
-                "C TORRES"
+                "P MCCORD"
               ],
               "ucore": "",
               "coop": false,
@@ -75862,9 +75903,9 @@
                 }
               ],
               "location": "VC   ARR",
-              "instructor": "C TORRES",
+              "instructor": "P MCCORD",
               "instructors": [
-                "C TORRES"
+                "P MCCORD"
               ],
               "ucore": "",
               "coop": false,
@@ -98687,8 +98728,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "J GINGRAS",
+              "instructors": [
+                "J GINGRAS"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",

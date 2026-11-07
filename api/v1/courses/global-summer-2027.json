@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T23:07:33.681267+00:00",
+  "generatedAt": "2026-11-07T02:50:44.888766+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -1054,6 +1054,91 @@
     {
       "subject": "CHEM",
       "courses": [
+        {
+          "course": "Introduction to Chemistry",
+          "subject": "CHEM",
+          "subjectPrefix": "Chem",
+          "courseNumber": 101,
+          "courseCode": "CHEM 101",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3038",
+              "sln": 3038,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 101",
+              "courseName": "Introduction to Chemistry",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K NISHIDA",
+              "instructors": [
+                "K NISHIDA"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3080",
+              "sln": 3080,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 101",
+              "courseName": "Introduction to Chemistry",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K NISHIDA",
+              "instructors": [
+                "K NISHIDA"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 100,
+                "available": 100,
+                "label": "0/100"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
         {
           "course": "Chemistry Related to Life Sciences",
           "subject": "CHEM",

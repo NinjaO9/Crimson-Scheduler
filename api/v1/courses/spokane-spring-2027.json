@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T23:07:33.897224+00:00",
+  "generatedAt": "2026-11-07T02:50:45.207043+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -902,14 +902,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M",
-              "time": "14:10 - 16:40",
+              "time": "14:10 - 17:00",
               "meetings": [
                 {
                   "days": "M",
-                  "time": "14:10 - 16:40"
+                  "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "SAC  343",
               "instructor": "E WEYBRIGHT",
               "instructors": [
                 "E WEYBRIGHT"
@@ -919,9 +919,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -950,14 +950,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "W",
-              "time": "14:10 - 16:40",
+              "time": "14:10 - 17:00",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "14:10 - 16:40"
+                  "time": "14:10 - 17:00"
                 }
               ],
-              "location": "",
+              "location": "SAC  343",
               "instructor": "M CLEVELAND",
               "instructors": [
                 "M CLEVELAND"
@@ -7740,15 +7740,15 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
+              "days": "TU",
+              "time": "10:00 - 12:00",
               "meetings": [
                 {
-                  "days": "ARR",
-                  "time": "ARRGT"
+                  "days": "TU",
+                  "time": "10:00 - 12:00"
                 }
               ],
-              "location": "ARR  ARR",
+              "location": "",
               "instructor": "L BERRY",
               "instructors": [
                 "L BERRY"
@@ -9694,11 +9694,11 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "W",
+              "days": "TH",
               "time": "13:10 - 15:00",
               "meetings": [
                 {
-                  "days": "W",
+                  "days": "TH",
                   "time": "13:10 - 15:00"
                 }
               ],
@@ -9743,14 +9743,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "W",
-              "time": "14:45 - 16:35",
+              "time": "10:10 - 12:00",
               "meetings": [
                 {
                   "days": "W",
-                  "time": "14:45 - 16:35"
+                  "time": "10:10 - 12:00"
                 }
               ],
-              "location": "SNRS 5",
+              "location": "GUC  SPK",
               "instructor": "J MILLER",
               "instructors": [
                 "J MILLER"
@@ -10209,8 +10209,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -10244,8 +10246,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -10983,9 +10987,9 @@
               "footnotes": "S",
               "seats": {
                 "taken": 0,
-                "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11047,7 +11051,7 @@
                   "time": "15:10 - 17:00"
                 }
               ],
-              "location": "SPBS 101",
+              "location": "SPBS 114",
               "instructor": "D BOWERS",
               "instructors": [
                 "D BOWERS"
@@ -11169,6 +11173,54 @@
     {
       "subject": "PHARMEDS",
       "courses": [
+        {
+          "course": "Biomedical Literature: Communicating Science",
+          "subject": "PHARMEDS",
+          "subjectPrefix": "PHRMD",
+          "courseNumber": 315,
+          "courseCode": "PHARMEDS 315",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12036",
+              "sln": 12036,
+              "sectionNumber": 1,
+              "courseCode": "PHARMEDS 315",
+              "courseName": "Biomedical Literature: Communicating Science",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:30 - 16:30",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:30 - 16:30"
+                }
+              ],
+              "location": "GUC  SPK",
+              "instructor": "K GRIGSBY",
+              "instructors": [
+                "K GRIGSBY"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
         {
           "course": "Pharmaceutics: Delivering the Treatment",
           "subject": "PHARMEDS",
