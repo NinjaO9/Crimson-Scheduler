@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T02:50:45.043093+00:00",
+  "generatedAt": "2026-11-07T10:05:19.258185+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -25752,7 +25752,7 @@
                   "time": "12:05 - 13:20"
                 }
               ],
-              "location": "GUC  PUL",
+              "location": "SLOA 9",
               "instructor": "S GINSBURG",
               "instructors": [
                 "S GINSBURG"
@@ -78051,7 +78051,7 @@
                   "time": "13:10 - 14:00"
                 }
               ],
-              "location": "TODD 334",
+              "location": "SPRK 339",
               "instructor": "G MONTEIRO MENDES",
               "instructors": [
                 "G MONTEIRO MENDES"
@@ -89070,8 +89070,10 @@
                 }
               ],
               "location": "FULM 201",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "E REMALEY",
+              "instructors": [
+                "E REMALEY"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -89343,10 +89345,8 @@
                 }
               ],
               "location": "CUE  202",
-              "instructor": "E REMALEY",
-              "instructors": [
-                "E REMALEY"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -89512,52 +89512,6 @@
                 "total": 31,
                 "available": 31,
                 "label": "0/31"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to Mathematical Biology",
-          "subject": "MATH",
-          "subjectPrefix": "Math",
-          "courseNumber": 340,
-          "courseCode": "MATH 340",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2587",
-              "sln": 2587,
-              "sectionNumber": 1,
-              "courseCode": "MATH 340",
-              "courseName": "Introduction to Mathematical Biology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "CUE  412",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -90107,9 +90061,9 @@
                 }
               ],
               "location": "CUE  418",
-              "instructor": "M LESPERANCE",
+              "instructor": "A KAUL",
               "instructors": [
-                "M LESPERANCE"
+                "A KAUL"
               ],
               "ucore": "",
               "coop": false,
@@ -90630,7 +90584,7 @@
                   "time": "09:10 - 10:25"
                 }
               ],
-              "location": "TODD 220",
+              "location": "CARP 101",
               "instructor": "H YIN",
               "instructors": [
                 "H YIN"
