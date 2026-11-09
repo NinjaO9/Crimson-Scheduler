@@ -4,11 +4,11 @@ import {
   getActiveSchedule,
   getSchedules,
   initializeScheduleState,
-} from "../web/classes/static/js/schedule/schedule-state.js";
+} from "../web/classes/static/src/schedule/schedule-state.js";
 import {
   initializeScheduleSelector,
   refreshScheduleSelector,
-} from "../web/classes/static/js/schedule/schedule-selector.js";
+} from "../web/classes/static/src/schedule/schedule-selector.js";
 
 const click = (element) =>
   element.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));

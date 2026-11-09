@@ -12,8 +12,8 @@ import {
   formatTimeRangeForDisplay,
   resolveScheduleGroups,
   timeToMinutes,
-} from "../web/classes/static/js/schedule/time-and-meetings.js";
-import type { Meeting } from "../web/classes/static/js/types.js";
+} from "../web/classes/static/src/schedule/time-and-meetings.js";
+import type { Meeting } from "../web/classes/static/src/types.js";
 
 describe("schedule time and meeting parsing", () => {
   it("parses 12-hour, 24-hour, and compact time values", () => {

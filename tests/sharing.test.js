@@ -9,7 +9,7 @@ import {
   buildShareCode,
   fetchScheduleForTerms,
   parseShareCode,
-} from "../web/classes/static/js/schedule/sharing.js";
+} from "../web/classes/static/src/schedule/sharing.js";
 
 const section = (sectionId, overrides = {}) => ({
   section_id: sectionId,

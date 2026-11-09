@@ -7,7 +7,7 @@
 
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-import { CourseApi as api } from '../web/classes/static/js/course_api.js';
+import { CourseApi as api } from '../web/classes/static/src/course_api.js';
 
 describe('CourseApi', () => {
     beforeEach(() => {

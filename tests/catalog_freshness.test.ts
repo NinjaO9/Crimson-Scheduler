@@ -6,7 +6,7 @@
  */
 
 import { describe, expect, it } from "vitest";
-import { formatCatalogFreshness } from "../web/classes/static/js/schedule/catalog-freshness.js";
+import { formatCatalogFreshness } from "../web/classes/static/src/schedule/catalog-freshness.js";
 
 describe("catalog freshness", () => {
   it("describes a recent catalog timestamp in relative time", () => {

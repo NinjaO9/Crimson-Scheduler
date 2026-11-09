@@ -12,7 +12,7 @@ import {
   getTermYear,
   parseMonthDay,
   safeFilename,
-} from "../web/classes/static/js/schedule/export-schedule.js";
+} from "../web/classes/static/src/schedule/export-schedule.js";
 
 const timedEntry = (overrides = {}) => ({
   section_id: "123",

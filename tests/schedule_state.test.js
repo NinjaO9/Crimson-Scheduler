@@ -32,7 +32,7 @@ import {
   replaceSchedule,
   switchSchedule,
   updateScheduleWorkspaceName,
-} from "../web/classes/static/js/schedule/schedule-state.js";
+} from "../web/classes/static/src/schedule/schedule-state.js";
 
 const entry = (sectionId, groupId = null) => ({
   section_id: sectionId,
