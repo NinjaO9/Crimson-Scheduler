@@ -523,6 +523,19 @@ function sectionMatches(section: Section, options: { availability: string[]; del
         return dataset.courses;
     }
 
+    /**
+     * Given a section, find the course it belongs to.
+     * 
+     * @param termslug - term that the section belongs to
+     * @param sectionId - self explanitory
+     * @returns Course associated with the section
+     */
+    async function findCourseFromSection(termslug: string, sectionId : string): Promise<CatalogCourse | null>
+    {
+        const dataset = await fetchDatasetByKey(termslug);
+        return dataset.sectionsBySln.get(String(sectionId))?.course ?? null;
+    }
+
     export const CourseApi: CourseApiContract = {
         campusTermUrl,
         datasetKey,
@@ -530,6 +543,7 @@ function sectionMatches(section: Section, options: { availability: string[]; del
         fetchDatasetByKey,
         fetchCourses,
         filterCourses,
+        findCourseFromSection,
         getSectionAvailability,
         getSectionDelivery,
         getSectionUcore,

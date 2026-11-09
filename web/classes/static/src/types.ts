@@ -198,6 +198,7 @@ export interface CourseApi {
   fetchDatasetByKey(key: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CourseDataset>;
   fetchCourses(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CatalogCourse[]>;
   filterCourses(courses: CatalogCourse[], filters?: CourseFilters): CatalogCourse[];
+  findCourseFromSection(termslug: string, sectionId : string): Promise<CatalogCourse | null>;
   getSectionAvailability(section: Section): string;
   getSectionDelivery(section: Section): string;
   getSectionUcore(section: Section): string;
