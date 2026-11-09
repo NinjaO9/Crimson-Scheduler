@@ -123,19 +123,19 @@ export function getStoredScheduleName(): string {
 /**
  * Saves the current schedule name into the active workspace.
  *
- * @returns {*} Result produced by saveScheduleName.
+ * @returns {boolean} Result produced by saveScheduleName.
  * @see {@link schedule-state.updateScheduleWorkspaceName}
  */
-export function saveScheduleName(): any {
+export function saveScheduleName(): boolean {
   return updateScheduleWorkspaceName(getScheduleName());
 }
 
 /**
  * .Updates the input value of the schedule name.
  *
- * @returns {void}
+ * @returns {boolean}
  */
-export function normalizeScheduleNameInput(): void {
+export function normalizeScheduleNameInput(): boolean {
   return saveScheduleName();
 }
 

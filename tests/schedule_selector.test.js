@@ -78,6 +78,18 @@ describe("schedule selector", () => {
     expect(getSchedules()[0].name).toBe("Renamed");
   });
 
+  it("discards the edited name when the cancel button is clicked", () => {
+    const edit = document.querySelector('[data-schedule-action="edit"]');
+    click(edit);
+    const input = document.querySelector(".schedule-row-input");
+    input.value = "Discarded";
+    const cancel = document.querySelector('[data-schedule-action="cancel"]');
+    click(cancel);
+    input.dispatchEvent(new FocusEvent("blur"));
+
+    expect(getSchedules()[0].name).toBe("My Schedule");
+  });
+
   it("confirms deletion and keeps the final schedule protected", () => {
     const second = createSchedule("Second");
     refreshScheduleSelector();

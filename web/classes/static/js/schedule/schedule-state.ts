@@ -138,11 +138,11 @@ function createSectionReferences(scheduleData: Array<Partial<HydratedSection> & 
 /**
  * Creates a Schedule object
  *
- * @param {*} id - Unique identifier for this schedule.
+ * @param {string} id - Unique identifier for this schedule.
  * @param {string} name - name of the schedule to create.
  * @param {string[]} sectionRefs - list of sections that are contained within this schedule.
  */
-function createScheduleRecord(id: any = "default", name: string = DEFAULT_SCHEDULE_NAME, sectionRefs: SectionReference[] = []): ScheduleRecord {
+function createScheduleRecord(id: string = "default", name: string = DEFAULT_SCHEDULE_NAME, sectionRefs: SectionReference[] = []): ScheduleRecord {
   return {
     id: String(id),
     name: String(name || DEFAULT_SCHEDULE_NAME),
