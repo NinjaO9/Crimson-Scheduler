@@ -13,7 +13,7 @@ type RateLimitToast = HTMLDivElement & { hideTimer?: number };
 /**
  * Finds or creates the live region used for rate-limit notifications.
  *
- * @returns {HTMLDivElement} The rate-limit toast element.
+ * @returns The rate-limit toast element.
  */
 export function ensureRateLimitToast(): RateLimitToast {
   const existing = document.getElementById(RATE_LIMIT_TOAST_ID);
@@ -28,11 +28,10 @@ export function ensureRateLimitToast(): RateLimitToast {
 /**
  * Displays a temporary rate-limit message, replacing any prior dismissal timer.
  *
- * @param {string} message - Message supplied by the rate-limit response.
- * @returns {void}
+ * @param [message] - Message supplied by the rate-limit response.
  * @see {@link ensureRateLimitToast}
  */
-export function showRateLimitToast(message: string): void {
+export function showRateLimitToast(message?: string): void {
   const toast = ensureRateLimitToast();
   toast.textContent =
     message || "You are sending requests too quickly. Please wait a moment.";
@@ -48,11 +47,14 @@ export function showRateLimitToast(message: string): void {
 /**
  * Extracts a human-readable rate-limit message from an HTMX/XHR response.
  *
- * @param {XMLHttpRequest|null|undefined} xhr - Response to inspect.
- * @param {string} fallbackMessage - Message returned when no response message is available.
- * @returns {string} The extracted or fallback message.
+ * @param xhr - Response to inspect.
+ * @param [fallbackMessage] - Message returned when no response message is available.
+ * @returns The extracted or fallback message.
  */
-export function getRateLimitMessageFromResponse(xhr: XMLHttpRequest | null | undefined, fallbackMessage: string): string {
+export function getRateLimitMessageFromResponse(
+  xhr: XMLHttpRequest | null | undefined,
+  fallbackMessage?: string,
+): string | undefined {
   if (!xhr) return fallbackMessage;
   const headerMessage =
     xhr.getResponseHeader && xhr.getResponseHeader("X-Rate-Limit-Message");

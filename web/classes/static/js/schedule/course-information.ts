@@ -17,8 +17,8 @@ const specificsCache = new Map<string, Promise<CourseInformation>>();
 /**
  * Slugifies the input value.
  *
- * @param {string} value - Value to be slugified.
- * @returns {string} slug (https://wildaboutnature.uk/wp-content/uploads/2024/02/IMG_6426-scaled.jpg).
+ * @param value - Value to be slugified.
+ * @returns slug (https://wildaboutnature.uk/wp-content/uploads/2024/02/IMG_6426-scaled.jpg).
  */
 export function slugify(value: string | number | null | undefined): string {
   return String(value || "")
@@ -31,8 +31,8 @@ export function slugify(value: string | number | null | undefined): string {
 /**
  * Grabs the course-specific key, used for acessing cached course information or for finding url patterns.
  *
- * @param {Object} course - Course to generate the key from.
- * @returns {string} Course key.
+ * @param course - Course to generate the key from.
+ * @returns Course key.
  */
 export function courseSpecificsKey(course: CourseInformationCourse): string {
   return `${slugify(course && course.subject)}-${slugify(course && course.course_number)}`;
@@ -41,9 +41,9 @@ export function courseSpecificsKey(course: CourseInformationCourse): string {
 /**
  * Generates the course-specific url to find course-specific data.
  *
- * @param {Object} course - Course to find course-specific data from.
- * @param {string} baseUrl - Base url to derive endpoint.
- * @returns {string} Final constructed url.
+ * @param course - Course to find course-specific data from.
+ * @param baseUrl - Base url to derive endpoint.
+ * @returns Final constructed url.
  */
 export function courseSpecificsUrl(course: CourseInformationCourse, baseUrl: string = DEFAULT_SPECIFICS_BASE_URL): string {
   const base = String(baseUrl || DEFAULT_SPECIFICS_BASE_URL).replace(/\/+$/, "");
@@ -53,8 +53,8 @@ export function courseSpecificsUrl(course: CourseInformationCourse, baseUrl: str
 /**
  * Converts a value to a string with protection.
  *
- * @param {*} value - Value to be converted to text.
- * @returns {string} Resulting string from attempted value conversion.
+ * @param value - Value to be converted to text.
+ * @returns Resulting string from attempted value conversion.
  */
 function text(value: unknown): string {
   return value === null || value === undefined ? "" : String(value).trim();
@@ -63,8 +63,8 @@ function text(value: unknown): string {
 /**
  * Removes <b> </b> tags and everything between in the given text. Used to polish course descriptions.
  *
- * @param {string} value - string to format.
- * @returns {string} formatted string.
+ * @param value - string to format.
+ * @returns formatted string.
  */
 function removeBoldTags(value: unknown): string {
   return text(value)
@@ -75,8 +75,8 @@ function removeBoldTags(value: unknown): string {
 /**
  * Finds the first valid source in a payload that contains a response.
  *
- * @param {Object} payload - Payload containing sources.
- * @returns {Object|null} The first source with a truthy response, or null if no matching source exists.
+ * @param payload - Payload containing sources.
+ * @returns The first source with a truthy response, or null if no matching source exists.
  */
 function asRecord(value: unknown): DataRecord | null {
   return value !== null && typeof value === "object" ? value as DataRecord : null;
@@ -91,8 +91,8 @@ function firstSource(payload: unknown): DataRecord | null {
 /**
  * Normalizes specific data from courses to be used later in propgram.
  *
- * @param {Object} payload - Value used by normalizeSpecifics.
- * @returns {{desctiption: string, prerequisites: string}} Result produced by normalizeSpecifics.
+ * @param payload - Value used by normalizeSpecifics.
+ * @returns Result produced by normalizeSpecifics.
  */
 export function normalizeSpecifics(payload: unknown): Pick<CourseInformation, "description" | "prerequisites"> {
   const source = firstSource(payload);
@@ -106,8 +106,8 @@ export function normalizeSpecifics(payload: unknown): Pick<CourseInformation, "d
 /**
  * Extracts unique instructor names from a course's lecture and lab sections. Excludes missing (TBA).
  *
- * @param {Object} course - Course object containing optional lecture and lab section arrays.
- * @returns {string[]} A list of unique instructor names.
+ * @param course - Course object containing optional lecture and lab section arrays.
+ * @returns A list of unique instructor names.
  */
 export function instructorNames(course: CourseInformationCourse): string[] {
   const sections = [
@@ -126,8 +126,8 @@ export function instructorNames(course: CourseInformationCourse): string[] {
 /**
  * Generates a RMP search URL for a given instructor.
  *
- * @param {string} name - Professor to generate a search URL for.
- * @returns {string} Formatted URL to search for professor on RMP.
+ * @param name - Professor to generate a search URL for.
+ * @returns Formatted URL to search for professor on RMP.
  */
 export function rmpSearchUrl(name: string): string {
   return `https://www.ratemyprofessors.com/search/professors/1143?q=${encodeURIComponent(name)}`;
@@ -136,8 +136,8 @@ export function rmpSearchUrl(name: string): string {
 /**
  * Creates preview course information with sample features (Used for demoing if actual data is unavailable).
  *
- * @param {Object} course - Course object used to identify course and retrieve names.
- * @returns {{status: string, prerequisites: string, instructors: string[]}} Preview course information.
+ * @param course - Course object used to identify course and retrieve names.
+ * @returns Preview course information.
  */
 function demoInformation(course: CourseInformationCourse): CourseInformation {
   const code = text(course && course.course_code) || "this course";
@@ -152,9 +152,9 @@ function demoInformation(course: CourseInformationCourse): CourseInformation {
 /**
  * Normalizes course information payload into a consistent structure.
  *
- * @param {Object} payload - Raw course information payload.
- * @param {Object} course - Course Object used to retrieve instructor names.
- * @returns {{status: string, description: string, prerequisites: string, instructors: string[]}} Normalized course information.
+ * @param payload - Raw course information payload.
+ * @param course - Course Object used to retrieve instructor names.
+ * @returns Normalized course information.
  */
 export function normalizeCourseInformation(payload: unknown, course: CourseInformationCourse): CourseInformation {
   const specifics = normalizeSpecifics(payload);
@@ -170,12 +170,12 @@ export function normalizeCourseInformation(payload: unknown, course: CourseInfor
  * Fetches course-specific information, using the cache when available.
  *
  * @async
- * @param {Object} course - Course object used to identify course and construct request.
- * @param {Object} [options={}] -Options controlling the request.
- * @param {boolean} [options.reload = false] - Whether to bypass an existing cached result.
- * @param {AbortSignal} [options.signal] - Signal used to abort request.
- * @param {string} [options.baseUrl] - Optional base URL for the course specifics endpoint.
- * @returns {Promise<Object>} A promise resolving to normalized course information or preview information.
+ * @param course - Course object used to identify course and construct request.
+ * @param [options={}] -Options controlling the request.
+ * @param [options.reload = false] - Whether to bypass an existing cached result.
+ * @param [options.signal] - Signal used to abort request.
+ * @param [options.baseUrl] - Optional base URL for the course specifics endpoint.
+ * @returns A promise resolving to normalized course information or preview information.
  */
 export async function fetchCourseInformation(course: CourseInformationCourse, options: { reload?: boolean; signal?: AbortSignal; baseUrl?: string } = {}): Promise<CourseInformation> {
   const key = courseSpecificsKey(course);
@@ -197,7 +197,6 @@ export async function fetchCourseInformation(course: CourseInformationCourse, op
 /**
  * Clears the cache of previouslt fetched course-specific information.
  *
- * @returns {void}
  */
 export function clearCourseInformationCache(): void {
   specificsCache.clear();
@@ -206,8 +205,8 @@ export function clearCourseInformationCache(): void {
 /**
  * Renders course descriptions, prerequisites, and instructor names into doc fragment.
  *
- * @param {Object} info - Normalized course information.
- * @returns {DocumentFragment} A document fragment containing the rendered course information.
+ * @param info - Normalized course information.
+ * @returns A document fragment containing the rendered course information.
  */
 export function renderCourseInformation(info: CourseInformation): DocumentFragment {
   const fragment = document.createDocumentFragment();

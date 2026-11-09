@@ -8,10 +8,10 @@
 /**
  * Creates an element and assigns an optional class name and text content.
  *
- * @param {string} tagName - HTML tag to create.
- * @param {string|null} className - CSS class name to apply.
- * @param {*} text - Value converted to the element's text content.
- * @returns {HTMLElement} The newly created element.
+ * @param tagName - HTML tag to create.
+ * @param className - CSS class name to apply.
+ * @param text - Value converted to the element's text content.
+ * @returns The newly created element.
  */
 export function createElementWithText<K extends keyof HTMLElementTagNameMap>(
   tagName: K,
@@ -27,11 +27,11 @@ export function createElementWithText<K extends keyof HTMLElementTagNameMap>(
 /**
  * Creates a text element with {@link createElementWithText} and appends it to a parent.
  *
- * @param {HTMLElement} parent - Element that receives the new child.
- * @param {string} tagName - HTML tag to create.
- * @param {string|null} className - CSS class name to apply.
- * @param {*} text - Value converted to the child's text content.
- * @returns {HTMLElement} The appended element.
+ * @param parent - Element that receives the new child.
+ * @param tagName - HTML tag to create.
+ * @param className - CSS class name to apply.
+ * @param text - Value converted to the child's text content.
+ * @returns The appended element.
  */
 export function appendTextElement<K extends keyof HTMLElementTagNameMap>(
   parent: HTMLElement | DocumentFragment,
@@ -47,8 +47,8 @@ export function appendTextElement<K extends keyof HTMLElementTagNameMap>(
 /**
  * Creates a consistently styled line for a calendar course block.
  *
- * @param {*} text - Content displayed in the line.
- * @returns {HTMLSpanElement} The course-block line element.
+ * @param text - Content displayed in the line.
+ * @returns The course-block line element.
  */
 export function createCourseBlockLine(text: unknown): HTMLSpanElement {
   return createElementWithText("span", "course-block-line", text);

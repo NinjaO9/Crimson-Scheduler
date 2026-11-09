@@ -22,8 +22,8 @@ import type {
 
     /**
      * Converts arbitrary text into a lowercase URL slug.
-     * @param {string} value - Text to normalize.
-     * @returns {string} Hyphen-separated slug.
+     * @param value - Text to normalize.
+     * @returns Hyphen-separated slug.
      */
     function slugify(value: string): string {
         return String(value || '')
@@ -34,9 +34,9 @@ import type {
     }
 
     /** Builds the published JSON URL for a campus/term dataset.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @returns {string} Dataset URL.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @returns Dataset URL.
      * @see {@link slugify}
      */
     function campusTermUrl(campus: string, term: string): string {
@@ -44,18 +44,18 @@ import type {
     }
 
     /** Creates the cache key shared by dataset fetches.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @returns {string} Normalized dataset key.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @returns Normalized dataset key.
      */
     function datasetKey(campus: string, term: string): string {
         return `${slugify(campus)}-${slugify(term)}`;
     }
 
     /** Converts nullable values to trimmed text with a fallback.
-     * @param {unknown} value - Value to convert.
-     * @param {string} [fallback=''] - Text used for nullish input.
-     * @returns {string} Trimmed text.
+     * @param value - Value to convert.
+     * @param [fallback=''] - Text used for nullish input.
+     * @returns Trimmed text.
      */
     function text(value: unknown, fallback = ''): string {
         if (value === null || value === undefined) return fallback || '';
@@ -63,18 +63,18 @@ import type {
     }
 
     /** Creates a stable term/section lookup key.
-     * @param {string} termSlug - Term slug.
-     * @param {string|number} sectionId - Section identifier.
-     * @returns {string} Composite section key.
+     * @param termSlug - Term slug.
+     * @param sectionId - Section identifier.
+     * @returns Composite section key.
      */
     function sectionKey(termSlug: string, sectionId: string | number): string {
         return `${slugify(termSlug)}:${text(sectionId)}`;
     }
 
     /** Shallow-copies arrays and objects so normalized data is detached from the payload.
-     * @param {unknown} value - Value to copy.
-     * @param {unknown} fallback - Value used for nullish input.
-     * @returns {*} Copied value or fallback.
+     * @param value - Value to copy.
+     * @param fallback - Value used for nullish input.
+     * @returns Copied value or fallback.
      */
     function copyValue(value: unknown, fallback: unknown): unknown {
         if (value === null || value === undefined) return fallback;
@@ -89,8 +89,8 @@ import type {
     }
 
     /** Normalizes explicit meeting records from a raw catalog section.
-     * @param {unknown} meetings - Raw `meetings` payload value.
-     * @returns {{days: string, time: string}[]} Normalized meeting records.
+     * @param meetings - Raw `meetings` payload value.
+     * @returns Normalized meeting records.
      */
     function normalizeMeetings(meetings: unknown): Meeting[] {
         if (!Array.isArray(meetings)) return [];
@@ -104,10 +104,10 @@ import type {
     }
 
     /** Normalizes one raw catalog section into the UI's section schema.
-     * @param {Object} section - Raw section payload.
-     * @param {Object} course - Parent raw course payload.
-     * @param {number} index - Section index used for fallback IDs.
-     * @returns {Object} Normalized section record.
+     * @param section - Raw section payload.
+     * @param course - Parent raw course payload.
+     * @param index - Section index used for fallback IDs.
+     * @returns Normalized section record.
      * @see {@link copyValue}
      */
     function normalizeSection(section: RawSection, course: RawCourse, index: number): Section {
@@ -140,10 +140,10 @@ import type {
     }
 
     /** Normalizes a raw course and separates lecture and lab sections.
-     * @param {Object} course - Raw course payload.
-     * @param {string} subjectName - Subject inherited from the payload group.
-     * @param {string|number} index - Stable index used in the course ID.
-     * @returns {Object} Normalized course record.
+     * @param course - Raw course payload.
+     * @param subjectName - Subject inherited from the payload group.
+     * @param index - Stable index used in the course ID.
+     * @returns Normalized course record.
      * @see {@link normalizeSection}
      */
     function normalizeCourse(course: RawCourse, subjectName: string, index: string | number): Course {
@@ -169,8 +169,8 @@ import type {
     }
 
     /** Flattens and normalizes all subjects and courses in an API payload.
-     * @param {Object} payload - Raw catalog payload.
-     * @returns {Object[]} Normalized courses, or an empty array for invalid payloads.
+     * @param payload - Raw catalog payload.
+     * @returns Normalized courses, or an empty array for invalid payloads.
      * @see {@link normalizeCourse}
      */
     function normalizePayload(payload: unknown): Course[] {
@@ -187,8 +187,8 @@ import type {
     }
 
     /** Produces canonical searchable text for query matching.
-     * @param {unknown} value - Value to normalize.
-     * @returns {string} Lowercase alphanumeric search text.
+     * @param value - Value to normalize.
+     * @returns Lowercase alphanumeric search text.
      */
     function normalizeSearchText(value: unknown): string {
         return text(value)
@@ -199,9 +199,9 @@ import type {
     }
 
     /** Checks whether a subject matches a configured shorthand.
-     * @param {string} subject - Full subject name/code.
-     * @param {string} shorthand - User-entered shorthand.
-     * @returns {boolean} Whether the shorthand maps to the subject.
+     * @param subject - Full subject name/code.
+     * @param shorthand - User-entered shorthand.
+     * @returns Whether the shorthand maps to the subject.
      * @see {@link normalizeSearchText}
      */
     function subjectMatchesShorthand(subject: string, shorthand: string): boolean {
@@ -211,8 +211,8 @@ import type {
     }
 
     /** Classifies a section as open, near-capacity, or full.
-     * @param {Object} section - Section with available and total seats.
-     * @returns {string} Availability category.
+     * @param section - Section with available and total seats.
+     * @returns Availability category.
      */
     function getSectionAvailability(section: Section): string {
         const fillFactor = 1 - Number(section.seats_available)/Number(section.seats_total); // Dont ask me why
@@ -222,8 +222,8 @@ import type {
     }
 
     /** Infers delivery mode from meeting records and location.
-     * @param {Object} section - Section with meetings and location.
-     * @returns {string} `arranged`, `online`, or `in-person`.
+     * @param section - Section with meetings and location.
+     * @returns `arranged`, `online`, or `in-person`.
      */
     function getSectionDelivery(section: Section): string {
         const meeting = sectionMeetings(section)
@@ -237,24 +237,24 @@ import type {
     }
 
     /** Reads the UCORE designation used by filtering.
-     * @param {Object} section - Normalized section.
-     * @returns {string} UCORE code or an empty string.
+     * @param section - Normalized section.
+     * @returns UCORE code or an empty string.
      */
     function getSectionUcore(section: Section): string {
         return section.ucore;
     }
 
     /** Returns normalized explicit meetings.
-     * @param {Object} section - Section record.
-     * @returns {Object[]} Meeting records.
+     * @param section - Section record.
+     * @returns Meeting records.
      */
     function sectionMeetings(section: Section): Meeting[] {
         return Array.isArray(section && section.meetings) ? section.meetings : [];
     }
 
     /** Converts day abbreviations into normalized weekday letters.
-     * @param {string} days - Day text.
-     * @returns {string[]} Day letters.
+     * @param days - Day text.
+     * @returns Day letters.
      */
     function meetingDays(days: string): string[] {
         return text(days)
@@ -268,8 +268,8 @@ import type {
     }
 
     /** Extracts a decimal start hour from a time string.
-     * @param {string} time - Meeting time text.
-     * @returns {number|null} Decimal hour or `null` when invalid.
+     * @param time - Meeting time text.
+     * @returns Decimal hour or `null` when invalid.
      */
     function meetingStartHour(time: string): number | null {
         const match = text(time).match(/\b(\d{1,2}):(\d{2})\b/);
@@ -281,8 +281,8 @@ import type {
     }
 
     /** Maps a meeting start time to a filter time band.
-     * @param {string} time - Meeting time text.
-     * @returns {string} `morning`, `afternoon`, `evening`, `night`, or empty.
+     * @param time - Meeting time text.
+     * @returns `morning`, `afternoon`, `evening`, `night`, or empty.
      * @see {@link meetingStartHour}
      */
     function startTimeBand(time: string): string {
@@ -295,9 +295,9 @@ import type {
     }
 
     /** Tests lecture meetings against selected day and time-band filters.
-     * @param {Object} section - Lecture section to test.
-     * @param {{days: string[], startTimeBands: string[]}} options - Meeting filters.
-     * @returns {boolean} Whether at least one meeting matches.
+     * @param section - Lecture section to test.
+     * @param options - Meeting filters.
+     * @returns Whether at least one meeting matches.
      */
     function lectureMeetingMatches(section: Section, options: { days: string[]; startTimeBands: string[] }): boolean {
         const selectedDays = options.days;
@@ -314,9 +314,9 @@ import type {
     }
 
     /** Scores a course against a normalized text query.
-     * @param {Object} course - Normalized course record.
-     * @param {string} query - User search query.
-     * @returns {{matches: boolean, score: number}} Match result and sort score.
+     * @param course - Normalized course record.
+     * @param query - User search query.
+     * @returns Match result and sort score.
      * @see {@link subjectMatchesShorthand}
      */
     function matchesQuery(course: CatalogCourse, query: string): { matches: boolean; score: number } {
@@ -354,9 +354,9 @@ import type {
     }
 
 /** Tests section-level availability, delivery, and UCORE filters.
- * @param {Object} section - Section to test.
- * @param {{availability: string[], delivery: string[], ucore: string[]}} options - Filter options.
- * @returns {boolean} Whether the section satisfies all selected filters.
+ * @param section - Section to test.
+ * @param options - Filter options.
+ * @returns Whether the section satisfies all selected filters.
  * @see {@link getSectionAvailability}
  * @see {@link getSectionDelivery}
  */
@@ -389,9 +389,9 @@ function sectionMatches(section: Section, options: { availability: string[]; del
 }
 
     /** Filters, scores, sorts, and limits normalized course results.
-     * @param {Object[]} courses - Courses to search.
-     * @param {Object} [filters={}] - Query and section filter arrays.
-     * @returns {Object[]} Matching courses with only matching sections retained.
+     * @param courses - Courses to search.
+     * @param [filters={}] - Query and section filter arrays.
+     * @returns Matching courses with only matching sections retained.
      * @see {@link matchesQuery}
      * @see {@link sectionMatches}
      * @see {@link lectureMeetingMatches}
@@ -442,8 +442,8 @@ function sectionMatches(section: Section, options: { availability: string[]; del
     }
 
     /** Indexes lecture and lab sections by section ID for schedule hydration.
-     * @param {Object[]} courses - Normalized courses.
-     * @returns {Map<string, {course: Object, section: Object}>} Section lookup map.
+     * @param courses - Normalized courses.
+     * @returns Section lookup map.
      */
     function indexSections(courses: CatalogCourse[]): Map<string, SectionIndexEntry> {
         const sectionsBySln = new Map<string, SectionIndexEntry>();
@@ -456,9 +456,9 @@ function sectionMatches(section: Section, options: { availability: string[]; del
     }
 
     /** Fetches, normalizes, indexes, and caches one term dataset.
-     * @param {string} key - Dataset term key.
-     * @param {{reload?: boolean, signal?: AbortSignal}} [options={}] - Cache and fetch options.
-     * @returns {Promise<{key: string, courses: Object[], sectionsBySln: Map}>} Normalized dataset.
+     * @param key - Dataset term key.
+     * @param [options={}] - Cache and fetch options.
+     * @returns Normalized dataset.
      * @see {@link normalizePayload}
      * @see {@link indexSections}
      */
@@ -501,10 +501,10 @@ function sectionMatches(section: Section, options: { availability: string[]; del
     }
 
     /** Fetches a dataset using normalized campus and term identifiers.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @param {Object} [options] - Options forwarded to {@link fetchDatasetByKey}.
-     * @returns {Promise<Object>} Normalized dataset.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @param [options] - Options forwarded to {@link fetchDatasetByKey}.
+     * @returns Normalized dataset.
      * @see {@link datasetKey}
      */
     async function fetchDataset(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CourseDataset> {
@@ -512,10 +512,10 @@ function sectionMatches(section: Section, options: { availability: string[]; del
     }
 
     /** Fetches a campus/term dataset and returns its course list.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @param {Object} [options] - Fetch/cache options.
-     * @returns {Promise<Object[]>} Normalized courses.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @param [options] - Fetch/cache options.
+     * @returns Normalized courses.
      * @see {@link fetchDataset}
      */
     async function fetchCourses(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CatalogCourse[]> {

@@ -21,7 +21,7 @@ import {
 /**
  * Alerts if user is using 24 hour timing or not.
  *
- * @returns {boolean} `true` if the user is using 24-hour time, `false` otherwise.
+ * @returns `true` if the user is using 24-hour time, `false` otherwise.
  */
 export function uses24HourTime(): boolean {
   const toggle = document.querySelector<HTMLInputElement>("#timeFormatToggle");
@@ -31,7 +31,7 @@ export function uses24HourTime(): boolean {
 /**
  * Alerts if user is hiding weekends.
  *
- * @returns {boolean} `true` if the user is hiding weekends, `false` otherwise.
+ * @returns `true` if the user is hiding weekends, `false` otherwise.
  */
 export function hidesWeekends(): boolean {
   const toggle = document.querySelector<HTMLInputElement>("#hideWeekendsToggle");
@@ -41,7 +41,7 @@ export function hidesWeekends(): boolean {
 /**
  * Alerts if the user is showing instructors or not.
  *
- * @returns {boolean} `true` if the user is showing instructors, `false` otherwise.
+ * @returns `true` if the user is showing instructors, `false` otherwise.
  */
 export function showInstructors(): boolean {
   const toggle = document.querySelector<HTMLInputElement>("#showInstructorToggle");
@@ -51,7 +51,7 @@ export function showInstructors(): boolean {
 /**
  * Alerts if the user is showing section numbers.
  *
- * @returns {boolean} `true` if the user has the option toggled, `false` otherwise.
+ * @returns `true` if the user has the option toggled, `false` otherwise.
  */
 export function showSections(): boolean {
   const toggle = document.querySelector<HTMLInputElement>("#showSectionToggle");
@@ -61,7 +61,6 @@ export function showSections(): boolean {
 /**
  * Initializes the options based on saved preferences in local storage.
  *
- * @returns {void}
  */
 export function initializeScheduleOptions(): void {
   const timeToggle = document.querySelector<HTMLInputElement>("#timeFormatToggle");
@@ -89,7 +88,6 @@ export function initializeScheduleOptions(): void {
 /**
  * Saves current schedule options in local storage for persistence.
  *
- * @returns {void}
  */
 export function saveScheduleOptions(): void {
   localStorage.setItem(TIME_FORMAT_STORAGE_KEY, String(uses24HourTime()));
@@ -101,7 +99,7 @@ export function saveScheduleOptions(): void {
 /**
  * Grabs the currently active schedule name.
  *
- * @returns {string} Active schedule name.
+ * @returns Active schedule name.
  */
 export function getScheduleName(): string {
   return getStoredScheduleName();
@@ -110,7 +108,7 @@ export function getScheduleName(): string {
 /**
  * Grabs the saveed schedule name from local storage, if it exists. Default name otherwise.
  *
- * @returns {string} Saved schedule name.
+ * @returns Saved schedule name.
  */
 export function getStoredScheduleName(): string {
   const schedule = getActiveSchedule();
@@ -123,7 +121,7 @@ export function getStoredScheduleName(): string {
 /**
  * Saves the current schedule name into the active workspace.
  *
- * @returns {boolean} Result produced by saveScheduleName.
+ * @returns Result produced by saveScheduleName.
  * @see {@link schedule-state.updateScheduleWorkspaceName}
  */
 export function saveScheduleName(): boolean {
@@ -133,7 +131,6 @@ export function saveScheduleName(): boolean {
 /**
  * .Updates the input value of the schedule name.
  *
- * @returns {boolean}
  */
 export function normalizeScheduleNameInput(): boolean {
   return saveScheduleName();
@@ -142,8 +139,8 @@ export function normalizeScheduleNameInput(): boolean {
 /**
  * Slugifies the schedule name.
  *
- * @param {string} name - Name to slugify.
- * @returns {string} Slugified name.
+ * @param name - Name to slugify.
+ * @returns Slugified name.
  */
 export function slugifyScheduleName(name: string): string {
   const slug = (name || DEFAULT_SCHEDULE_NAME)

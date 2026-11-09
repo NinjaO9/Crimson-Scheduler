@@ -30,8 +30,8 @@ interface ShareOptions {
 /**
  * Encodes UTF-8 text as URL-safe base64 without padding.
  *
- * @param {string} value - Text to encode.
- * @returns {string} URL-safe base64 representation.
+ * @param value - Text to encode.
+ * @returns URL-safe base64 representation.
  * @see {@link decodeBase64Url}
  */
 export function encodeBase64Url(value: string): string {
@@ -48,8 +48,8 @@ export function encodeBase64Url(value: string): string {
 /**
  * Decodes URL-safe, optionally unpadded base64 into UTF-8 text.
  *
- * @param {string} value - Encoded value to decode.
- * @returns {string} Decoded UTF-8 text.
+ * @param value - Encoded value to decode.
+ * @returns Decoded UTF-8 text.
  * @see {@link encodeBase64Url}
  */
 export function decodeBase64Url(value: string): string {
@@ -63,8 +63,8 @@ export function decodeBase64Url(value: string): string {
 /**
  * Groups schedule sections by term and limits the share payload size.
  *
- * @param {Object[]} schedule - Current schedule section records.
- * @returns {{slug: string, slns: string[]}[]} Unique section IDs grouped by term.
+ * @param schedule - Current schedule section records.
+ * @returns Unique section IDs grouped by term.
  */
 export function getCurrentScheduleTerms(schedule: HydratedSection[]): ShareTerm[] {
   const terms = new Map<string, Set<string>>();
@@ -89,9 +89,9 @@ export function getCurrentScheduleTerms(schedule: HydratedSection[]): ShareTerm[
 /**
  * Serializes a schedule name and term/section references into a share code.
  *
- * @param {Object[]} schedule - Schedule section records to reference.
- * @param {string} name - Schedule name stored in the payload.
- * @returns {string} Prefixed share code suitable for copying or URLs.
+ * @param schedule - Schedule section records to reference.
+ * @param name - Schedule name stored in the payload.
+ * @returns Prefixed share code suitable for copying or URLs.
  * @see {@link getCurrentScheduleTerms}
  * @see {@link encodeBase64Url}
  */
@@ -101,8 +101,8 @@ export function buildShareCode(schedule: HydratedSection[], name: string): strin
 /**
  * Validates and decodes a share code into a bounded import payload.
  *
- * @param {string} code - Share code to parse.
- * @returns {{name: string, terms: {slug: string, slns: string[]}[]}} Parsed import data.
+ * @param code - Share code to parse.
+ * @returns Parsed import data.
  * @throws {Error} If the prefix, payload, or section list is invalid.
  * @see {@link decodeBase64Url}
  */
@@ -157,8 +157,8 @@ export function parseShareCode(code: string): ParsedShareCode {
 /**
  * Copies text when the browser exposes a secure clipboard API.
  *
- * @param {string} text - Text to copy.
- * @returns {Promise<boolean>} `true` when copied, otherwise `false`.
+ * @param text - Text to copy.
+ * @returns `true` when copied, otherwise `false`.
  */
 export async function copyTextToClipboard(text: string): Promise<boolean> {
   if (navigator.clipboard && window.isSecureContext) {
@@ -171,8 +171,8 @@ export async function copyTextToClipboard(text: string): Promise<boolean> {
  * Fetches referenced term datasets and reconstructs schedule section records.
  * Missing section IDs are reported separately so the import flow can notify the user.
  *
- * @param {{slug: string, slns: string[]}[]} terms - Term/section references from a share code.
- * @returns {Promise<{schedule: Object[], missing_section_ids: string[]}>} Resolved schedule and missing IDs.
+ * @param terms - Term/section references from a share code.
+ * @returns Resolved schedule and missing IDs.
  * @see {@link parseShareCode}
  */
 export async function fetchScheduleForTerms(terms: ShareTerm[]): Promise<{ schedule: HydratedSection[]; missing_section_ids: string[] }> {
@@ -223,8 +223,7 @@ export function initializeScheduleSharing({
    * Creates share/import actions wired to the schedule state and UI callbacks.
    * The returned methods are consumed by the page's sharing controls.
    *
-   * @returns {{shareScheduleCode: Function, importScheduleFromShareCode: Function}}
-   *   Sharing actions for creating and importing schedule codes.
+   * @returns Sharing actions for creating and importing schedule codes.
    * @see {@link buildShareCode}
    * @see {@link fetchScheduleForTerms}
    */

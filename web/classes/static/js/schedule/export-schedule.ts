@@ -26,7 +26,6 @@ export function initializeCalendarExport({
   /**
    * Normalizes the schedule name and downloads the generated calendar when events exist.
    *
-   * @returns {void}
    * @see {@link generateCalendar}
    */
   return function exportCalendar(): void {
@@ -40,8 +39,8 @@ export function initializeCalendarExport({
 /**
  * Creates a publishing iCalendar document configured for the schedule timezone.
  *
- * @param {string} name - Calendar display name.
- * @returns {Object} iCalendar generator instance.
+ * @param name - Calendar display name.
+ * @returns iCalendar generator instance.
  */
 export function createCalendar(name: string): Calendar {
   const calendar = ical({
@@ -57,9 +56,9 @@ export function createCalendar(name: string): Calendar {
  * Converts schedule entries into recurring calendar events.
  * Delegates each course entry to {@link addCourseEvents}.
  *
- * @param {string} name - Calendar display name.
- * @param {Object[]} schedule - Schedule section records to export.
- * @returns {{calendar: Object, eventCount: number}} Calendar and created-event count.
+ * @param name - Calendar display name.
+ * @param schedule - Schedule section records to export.
+ * @returns Calendar and created-event count.
  */
 export function generateCalendar(name: string, schedule: HydratedSection[]): { calendar: Calendar; eventCount: number } {
   const calendar = createCalendar(name);
@@ -75,9 +74,9 @@ export function generateCalendar(name: string, schedule: HydratedSection[]): { c
  * Uses {@link getDateEnvelope}, {@link firstDateForWeekday}, and {@link withMinutes}
  * to translate term and meeting data into calendar dates.
  *
- * @param {Object} calendar - iCalendar generator receiving the events.
- * @param {Object} courseData - Course/section record with dates and meetings.
- * @returns {number} Number of events added.
+ * @param calendar - iCalendar generator receiving the events.
+ * @param courseData - Course/section record with dates and meetings.
+ * @returns Number of events added.
  */
 function addCourseEvents(calendar: Calendar, courseData: HydratedSection): number {
   const dates = getDateEnvelope(courseData);
@@ -107,8 +106,8 @@ function addCourseEvents(calendar: Calendar, courseData: HydratedSection): numbe
 /**
  * Extracts a four-digit year from a term slug.
  *
- * @param {string} termSlug - Term identifier containing a year.
- * @returns {number|null} Parsed year, or `null` when absent.
+ * @param termSlug - Term identifier containing a year.
+ * @returns Parsed year, or `null` when absent.
  */
 export function getTermYear(termSlug: string | undefined): number | null {
   const match = String(termSlug || "").match(/(?:^|-)((?:19|20)\d{2})(?:-|$)/);
@@ -118,9 +117,9 @@ export function getTermYear(termSlug: string | undefined): number | null {
 /**
  * Parses a month-name/day value and validates it against a year.
  *
- * @param {string} value - Date text such as `Aug 24`.
- * @param {number} year - Year used to construct the date.
- * @returns {Date|null} Valid date, or `null` for malformed/impossible input.
+ * @param value - Date text such as `Aug 24`.
+ * @param year - Year used to construct the date.
+ * @returns Valid date, or `null` for malformed/impossible input.
  */
 export function parseMonthDay(value: string | undefined, year: number): Date | null {
   const match = String(value || "").trim().match(/^([A-Za-z]{3,9})\s+(\d{1,2})$/);
@@ -136,8 +135,8 @@ export function parseMonthDay(value: string | undefined, year: number): Date | n
  * Determines the start and end dates used for recurring course events.
  * Prefers explicit course dates and falls back to a season-based range.
  *
- * @param {Object} courseData - Course record containing `term_slug` and optional dates.
- * @returns {{start: Date, end: Date}|null} Export range, or `null` when unknown.
+ * @param courseData - Course record containing `term_slug` and optional dates.
+ * @returns Export range, or `null` when unknown.
  * @see {@link getTermYear}
  * @see {@link parseMonthDay}
  */
@@ -157,9 +156,9 @@ export function getDateEnvelope(courseData: HydratedSection): { start: Date; end
 /**
  * Finds the first occurrence of a Monday-based weekday on or after a start date.
  *
- * @param {Date} start - Date at which the search begins.
- * @param {number} dayIndex - Monday-based weekday index from 0 through 6.
- * @returns {Date} First matching date.
+ * @param start - Date at which the search begins.
+ * @param dayIndex - Monday-based weekday index from 0 through 6.
+ * @returns First matching date.
  */
 function firstDateForWeekday(start: Date, dayIndex: number): Date {
   const date = new Date(start);
@@ -171,9 +170,9 @@ function firstDateForWeekday(start: Date, dayIndex: number): Date {
 /**
  * Copies a date and sets its local clock time from minutes after midnight.
  *
- * @param {Date} date - Date whose calendar day is retained.
- * @param {number} minutes - Minutes after midnight.
- * @returns {Date} New date with the requested time.
+ * @param date - Date whose calendar day is retained.
+ * @param minutes - Minutes after midnight.
+ * @returns New date with the requested time.
  */
 function withMinutes(date: Date, minutes: number): Date {
   const result = new Date(date);
@@ -184,8 +183,8 @@ function withMinutes(date: Date, minutes: number): Date {
 /**
  * Copies a date and sets its time to 23:59:59.
  *
- * @param {Date} date - Date whose calendar day is retained.
- * @returns {Date} End-of-day copy.
+ * @param date - Date whose calendar day is retained.
+ * @returns End-of-day copy.
  */
 function endOfDay(date: Date): Date {
   const result = new Date(date);
@@ -196,9 +195,8 @@ function endOfDay(date: Date): Date {
 /**
  * Creates a temporary calendar blob and starts a browser download.
  *
- * @param {string} contents - Serialized iCalendar contents.
- * @param {string} scheduleName - Name used to build the download filename.
- * @returns {void}
+ * @param contents - Serialized iCalendar contents.
+ * @param scheduleName - Name used to build the download filename.
  * @see {@link safeFilename}
  */
 function downloadCalendar(contents: string, scheduleName: string): void {
@@ -214,8 +212,8 @@ function downloadCalendar(contents: string, scheduleName: string): void {
 /**
  * Converts a schedule name into a filesystem-safe `.ics` basename.
  *
- * @param {string} value - Candidate schedule name.
- * @returns {string} Sanitized filename stem, defaulting to `schedule`.
+ * @param value - Candidate schedule name.
+ * @returns Sanitized filename stem, defaulting to `schedule`.
  */
 export function safeFilename(value: string): string {
   return String(value || "schedule")

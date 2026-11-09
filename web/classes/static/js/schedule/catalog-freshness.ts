@@ -12,8 +12,8 @@ const DAY_MS = 24 * HOUR_MS;
 /**
  * Converts elapsed milliseconds to the most useful relative-time unit.
  *
- * @param {number} elapsedMs - Non-negative time elapsed since catalog generation.
- * @returns {{value: number, unit: Intl.RelativeTimeFormatUnit}} Relative-time value and unit.
+ * @param elapsedMs - Non-negative time elapsed since catalog generation.
+ * @returns Relative-time value and unit.
  */
 function relativeUnit(elapsedMs: number): { value: number; unit: Intl.RelativeTimeFormatUnit } {
   if (elapsedMs < MINUTE_MS) return { value: 0, unit: "minute" };
@@ -27,9 +27,9 @@ function relativeUnit(elapsedMs: number): { value: number; unit: Intl.RelativeTi
 /**
  * Formats a catalog generation timestamp for visible and accessible display.
  *
- * @param {string} timestamp - ISO-8601 catalog generation timestamp.
- * @param {number} [now=Date.now()] - Current epoch time, injectable for tests.
- * @returns {{exact: string, text: string}|null} Formatted freshness details, or null for invalid input.
+ * @param timestamp - ISO-8601 catalog generation timestamp.
+ * @param [now=Date.now()] - Current epoch time, injectable for tests.
+ * @returns Formatted freshness details, or null for invalid input.
  */
 export function formatCatalogFreshness(timestamp: string, now = Date.now()): { exact: string; text: string } | null {
   const updatedAt = new Date(timestamp);
@@ -54,14 +54,13 @@ export function formatCatalogFreshness(timestamp: string, now = Date.now()): { e
 /**
  * Updates the catalog-freshness element immediately and once per minute.
  *
- * @returns {void}
  */
 export function initializeCatalogFreshness() {
   const container = document.getElementById("catalogFreshness");
   const time = document.querySelector<HTMLTimeElement>("#catalogGeneratedAt");
   if (!container || !time || !time.dateTime) return;
 
-  /** Renders the latest relative timestamp into the existing freshness controls. @returns {void} */
+  /** Renders the latest relative timestamp into the existing freshness controls. */
   const render = () => {
     const freshness = formatCatalogFreshness(time.dateTime);
     if (!freshness) return;
