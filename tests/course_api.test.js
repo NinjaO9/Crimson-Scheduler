@@ -7,9 +7,7 @@
 
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-await import('../web/classes/static/js/course_api.js');
-
-const api = window.CourseApi;
+import { CourseApi as api } from '../web/classes/static/js/course_api.js';
 
 describe('CourseApi', () => {
     beforeEach(() => {
@@ -61,8 +59,8 @@ describe('CourseApi', () => {
             ucore: 'QUAN',
             meetings: [{ days: 'MWF', time: '10:00 - 10:50' }],
             instructors: [{ name: 'Ada Lovelace' }],
-            coop: 'N',
-            footnotes: ['Requires permission'],
+            coop: false,
+            footnotes: "X",
             dates: { start: '08/17', end: '12/12' },
             seats: { available: 10, total: 30, taken: 20, label: '20/30' },
         };
@@ -83,7 +81,7 @@ describe('CourseApi', () => {
             ucore: 'QUAN',
             meetings: section.meetings,
             instructors: section.instructors,
-            coop: 'N',
+            coop: false,
             footnotes: section.footnotes,
         });
         expect(courses[0].lecture_sections[0]).not.toHaveProperty('days');
