@@ -1,3 +1,10 @@
+/**
+ * @fileoverview Collection of custom types used within Crimson Scheduler
+ * @version      1.0.0
+ * @package      CrimsonScheduler
+ * @author       NinjaO9
+ */
+
 export interface Meeting {
   days: string;
   time: string;
@@ -157,4 +164,40 @@ export interface RawSubject {
 
 export interface RawCatalogPayload {
   subjects?: RawSubject[];
+}
+
+export interface CourseFilters {
+  q?: string;
+  availability?: string[];
+  delivery?: string[];
+  ucore?: string[];
+  days?: string[];
+  startTimeBands?: string[];
+  limit?: number;
+}
+
+export interface CourseApi {
+  campusTermUrl(campus: string, term: string): string;
+  datasetKey(campus: string, term: string): string;
+  fetchDataset(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CourseDataset>;
+  fetchDatasetByKey(key: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CourseDataset>;
+  fetchCourses(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CatalogCourse[]>;
+  filterCourses(courses: CatalogCourse[], filters?: CourseFilters): CatalogCourse[];
+  getSectionAvailability(section: Section): string;
+  getSectionDelivery(section: Section): string;
+  getSectionUcore(section: Section): string;
+  lectureMeetingMatches(section: Section, options: { days: string[]; startTimeBands: string[] }): boolean;
+  meetingDays(days: string): string[];
+  startTimeBand(time: string): string;
+  sectionKey(termSlug: string, sectionId: string | number): string;
+  normalizePayload(payload: unknown): Course[];
+  normalizeCourse(course: RawCourse, subjectName: string, index: string | number): Course;
+  normalizeSection(section: RawSection, course: RawCourse, index: number): Section;
+  subjectShorthands: Map<string, string>;
+}
+
+declare global {
+  interface Window {
+    CourseApi: CourseApi;
+  }
 }

@@ -6,6 +6,9 @@
  */
 
 import { initializeScheduleApp } from "./schedule/app.js";
+import { CourseApi } from "./course_api.js";
+
+window.CourseApi = CourseApi;
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initializeScheduleApp);
