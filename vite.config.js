@@ -8,7 +8,7 @@ export default defineConfig({
       name: "CrimsonScheduler",
       fileName: () => "schedule_build.bundle.js",
     },
-    outDir: "web/classes/static/js",
+    outDir: "web/classes/static/src",
     emptyOutDir: false,
     minify: false,
   },
