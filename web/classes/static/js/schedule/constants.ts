@@ -34,9 +34,9 @@ export const REQUIRED_COURSE_FIELDS = [
   "section_id",
   "course_code",
   "meetings",
-];
+] as const;
 export const RATE_LIMIT_TOAST_ID = "rateLimitToast";
-export const DAY_TOKEN_MAP = [
+export const DAY_TOKEN_MAP: [RegExp, string][] = [
   [/MONDAY|MON|MO/g, "M"],
   [/TUESDAY|TUES|TUE|TU/g, "T"],
   [/WEDNESDAY|WED|WE/g, "W"],
