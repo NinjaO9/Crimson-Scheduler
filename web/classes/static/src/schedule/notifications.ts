@@ -8,15 +8,17 @@
 import { RATE_LIMIT_TOAST_ID } from "./constants.js";
 import { createElementWithText } from "./dom.js";
 
+type RateLimitToast = HTMLDivElement & { hideTimer?: number };
+
 /**
  * Finds or creates the live region used for rate-limit notifications.
  *
- * @returns {HTMLDivElement} The rate-limit toast element.
+ * @returns The rate-limit toast element.
  */
-export function ensureRateLimitToast() {
-  let toast = document.getElementById(RATE_LIMIT_TOAST_ID);
-  if (toast) return toast;
-  toast = createElementWithText("div", "rate-limit-toast", "");
+export function ensureRateLimitToast(): RateLimitToast {
+  const existing = document.getElementById(RATE_LIMIT_TOAST_ID);
+  if (existing) return existing as RateLimitToast;
+  const toast = createElementWithText("div", "rate-limit-toast", "") as RateLimitToast;
   toast.id = RATE_LIMIT_TOAST_ID;
   toast.setAttribute("role", "status");
   toast.setAttribute("aria-live", "polite");
@@ -26,11 +28,10 @@ export function ensureRateLimitToast() {
 /**
  * Displays a temporary rate-limit message, replacing any prior dismissal timer.
  *
- * @param {string} message - Message supplied by the rate-limit response.
- * @returns {void}
+ * @param [message] - Message supplied by the rate-limit response.
  * @see {@link ensureRateLimitToast}
  */
-export function showRateLimitToast(message) {
+export function showRateLimitToast(message?: string): void {
   const toast = ensureRateLimitToast();
   toast.textContent =
     message || "You are sending requests too quickly. Please wait a moment.";
@@ -46,11 +47,14 @@ export function showRateLimitToast(message) {
 /**
  * Extracts a human-readable rate-limit message from an HTMX/XHR response.
  *
- * @param {XMLHttpRequest|null|undefined} xhr - Response to inspect.
- * @param {string} fallbackMessage - Message returned when no response message is available.
- * @returns {string} The extracted or fallback message.
+ * @param xhr - Response to inspect.
+ * @param [fallbackMessage] - Message returned when no response message is available.
+ * @returns The extracted or fallback message.
  */
-export function getRateLimitMessageFromResponse(xhr, fallbackMessage) {
+export function getRateLimitMessageFromResponse(
+  xhr: XMLHttpRequest | null | undefined,
+  fallbackMessage?: string,
+): string | undefined {
   if (!xhr) return fallbackMessage;
   const headerMessage =
     xhr.getResponseHeader && xhr.getResponseHeader("X-Rate-Limit-Message");
@@ -59,7 +63,7 @@ export function getRateLimitMessageFromResponse(xhr, fallbackMessage) {
     try {
       const parsed = JSON.parse(xhr.responseText);
       if (parsed && parsed.message) return parsed.message;
-    } catch (error) {
+    } catch {
       // Some error responses are HTML rather than JSON, so extract their visible text as a fallback.
       const parsedHtml = new DOMParser().parseFromString(
         xhr.responseText,

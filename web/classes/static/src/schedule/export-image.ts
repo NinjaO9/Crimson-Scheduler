@@ -12,21 +12,21 @@ import { isGoogleOrChromeMobileApp } from "./responsive.js";
 /**
  * Waits for the next paint before capturing layout with html2canvas.
  *
- * @returns {Promise<void>} Promise resolved on the next animation frame.
+ * @returns Promise resolved on the next animation frame.
  */
-export function nextAnimationFrame() {
-  return new Promise((resolve) =>
+export function nextAnimationFrame(): Promise<void> {
+  return new Promise<void>((resolve) =>
     window.requestAnimationFrame(() => resolve()),
   );
 }
 /**
  * Builds a date-stamped PNG filename for a schedule export.
  *
- * @param {string} name - User-visible schedule name.
- * @returns {string} Safe PNG filename.
+ * @param name - User-visible schedule name.
+ * @returns Safe PNG filename.
  * @see {@link slugifyScheduleName}
  */
-export function buildScheduleExportFilename(name) {
+export function buildScheduleExportFilename(name: string): string {
   const today = new Date();
   const dateToken = [
     today.getFullYear(),
@@ -39,21 +39,21 @@ export function buildScheduleExportFilename(name) {
 /**
  * Reads the rendered schedule surface color for use in image export.
  *
- * @param {HTMLElement} schedulePane - Schedule element being captured.
- * @returns {string} Computed CSS background color.
+ * @param schedulePane - Schedule element being captured.
+ * @returns Computed CSS background color.
  */
-export function getScheduleExportBackgroundColor(schedulePane) {
+export function getScheduleExportBackgroundColor(schedulePane: HTMLElement): string {
   return window.getComputedStyle(schedulePane).backgroundColor;
 }
 
 /**
  * Converts a canvas to a PNG blob and triggers a browser download.
  *
- * @param {HTMLCanvasElement} canvas - Rendered canvas to export.
- * @param {string} filename - Download filename.
- * @returns {Promise<boolean>} Whether a PNG blob was created and downloaded.
+ * @param canvas - Rendered canvas to export.
+ * @param filename - Download filename.
+ * @returns Whether a PNG blob was created and downloaded.
  */
-export function downloadCanvasImage(canvas, filename) {
+export function downloadCanvasImage(canvas: HTMLCanvasElement, filename: string): Promise<boolean> {
   return new Promise((resolve) =>
     canvas.toBlob((blob) => {
       if (!blob) {
@@ -77,19 +77,23 @@ export function downloadCanvasImage(canvas, filename) {
 /**
  * Creates the image-export handler used by the schedule actions menu.
  *
- * @param {{getScheduleName: function(): string, normalizeScheduleName: function(): void, clearSectionGhosts: function(): void}} dependencies - Schedule UI callbacks.
- * @returns {function(): Promise<void>} Async handler that captures and downloads the schedule.
+ * @param dependencies - Schedule UI callbacks.
+ * @returns Async handler that captures and downloads the schedule.
  * @see {@link downloadCanvasImage}
  */
 export function initializeScheduleExport({
   getScheduleName,
   normalizeScheduleName,
   clearSectionGhosts,
-}) {
+}: {
+  getScheduleName: () => string;
+  normalizeScheduleName: () => void;
+  clearSectionGhosts: () => void;
+}): () => Promise<void> {
   return async function exportSchedule() {
     if (isGoogleOrChromeMobileApp()) return;
-    const schedulePane = document.querySelector(".schedule-pane");
-    const exportButton = document.getElementById("exportScheduleBtn");
+    const schedulePane = document.querySelector<HTMLElement>(".schedule-pane");
+    const exportButton = document.getElementById("exportScheduleBtn") as HTMLButtonElement | null;
     if (!schedulePane || !exportButton) return;
     normalizeScheduleName();
     if (
@@ -127,7 +131,7 @@ export function initializeScheduleExport({
         canvas,
         buildScheduleExportFilename(getScheduleName()),
       );
-    } catch (error) {
+    } catch {
       window.alert("Sorry, the schedule image could not be created.");
     } finally {
       schedulePane.classList.remove("is-exporting");

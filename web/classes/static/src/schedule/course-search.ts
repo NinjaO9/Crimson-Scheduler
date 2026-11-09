@@ -13,22 +13,52 @@ import {
   fetchCourseInformation,
   renderCourseInformation,
 } from "./course-information.js";
+import type {
+  CatalogCourse,
+  CourseInformation,
+  HydratedSection,
+  Meeting,
+  SchedulableSection,
+} from "../types.js";
+
+type CourseFilterName = "availability" | "delivery" | "ucore" | "days" | "startTimeBands";
+type CourseFilterState = Record<CourseFilterName, string[]>;
+type ChoiceType = "lecture" | "lab";
+type FilterOption = { value: string; label: string; description?: string };
+type DebouncedSearch = (() => void) & { cancel: () => void };
+type CourseSearchForm = HTMLFormElement & { autoSearch?: DebouncedSearch };
+type CourseInfoTrigger = HTMLButtonElement & {
+  courseData: CatalogCourse;
+  courseInfoLoading?: boolean;
+};
+type CourseSearchCallbacks = {
+  onClearPreview: () => void;
+  onPreview: (section: HydratedSection) => void;
+  onAddSections: (sections: HydratedSection[], scheduleGroupId: string) => void;
+};
+
+function getEventElement(event: Event): Element | null {
+  return event.target instanceof Element ? event.target : null;
+}
+
+function isRelatedTargetInside(element: Element, relatedTarget: EventTarget | null): boolean {
+  return relatedTarget instanceof Node && element.contains(relatedTarget);
+}
 
 let courseSearchRequestId = 0;
-let courseFilters = createEmptyCourseFilters();
-let mobileFilterCloseTimer = null;
-let callbacks = {};
-let searchableSectionsByKey = new Map();
-let activeCourseInfoTrigger = null;
+let courseFilters: CourseFilterState = createEmptyCourseFilters();
+let mobileFilterCloseTimer: number | null = null;
+let callbacks!: CourseSearchCallbacks;
+let searchableSectionsByKey = new Map<string, SchedulableSection>();
+let activeCourseInfoTrigger: CourseInfoTrigger | null = null;
 const AUTO_SEARCH_DELAY_MS = 250;
 
 /**
  * Creates the empty filter state used by the course-search UI.
  *
- * @returns {{availability: string[], delivery: string[], ucore: string[], days: string[], startTimeBands: string[]}}
  *   A filter object with one array for each supported filter group.
  */
-export function createEmptyCourseFilters() {
+export function createEmptyCourseFilters(): CourseFilterState {
   return {
     availability: [],
     delivery: [],
@@ -41,11 +71,11 @@ export function createEmptyCourseFilters() {
 /**
  * Counts filter groups that currently contain at least one selected value.
  *
- * @returns {number} The number of non-empty groups in the module filter state.
+ * @returns The number of non-empty groups in the module filter state.
  * @see {@link resetCourseFilters}
  * @see {@link syncCourseFilterControls}
  */
-export function getActiveFilterGroupCount() {
+export function getActiveFilterGroupCount(): number {
   return Object.values(courseFilters)
   .filter((values) => values.length > 0)
   .length;
@@ -56,33 +86,36 @@ export function getActiveFilterGroupCount() {
  * Cancels the debounced search installed by {@link initializeCourseSearch},
  * then synchronizes the rendered checkbox controls with the new state.
  *
- * @param {boolean} [clearQuery=false] - Whether to empty the course search input.
- * @returns {void}
+ * @param [clearQuery=false] - Whether to empty the course search input.
  * @see {@link createEmptyCourseFilters}
  * @see {@link syncCourseFilterControls}
  */
-export function resetCourseFilters(clearQuery) {
-  const form = document.getElementById("courseSearchForm");
+export function resetCourseFilters(clearQuery = false): void {
+  const form = document.getElementById("courseSearchForm") as CourseSearchForm | null;
   if (form && form.autoSearch && form.autoSearch.cancel)
     form.autoSearch.cancel();
   courseFilters = createEmptyCourseFilters();
-  if (clearQuery && form) form.querySelector("#searchInput").value = "";
+  if (clearQuery && form) form.querySelector<HTMLInputElement>("#searchInput")!.value = "";
   syncCourseFilterControls();
 }
 
 /**
  * Applies one checkbox change to the corresponding filter array.
  *
- * @param {HTMLInputElement} control A checked or unchecked filter checkbox carrying a `data-filter-name` attribute.
- * @returns {void}
+ * @param control A checked or unchecked filter checkbox carrying a `data-filter-name` attribute.
  * @see {@link syncCourseFilterControls}
  */
-export function updateCourseFiltersFromControl(control) {
+export function updateCourseFiltersFromControl(control: HTMLInputElement): void {
   const filterName = control.getAttribute("data-filter-name");
+  if (!isCourseFilterName(filterName)) return;
   const values = new Set(courseFilters[filterName]);
   if (control.checked) values.add(control.value);
   else values.delete(control.value);
   courseFilters[filterName] = [...values];
+}
+
+function isCourseFilterName(value: string | null): value is CourseFilterName {
+  return value === "availability" || value === "delivery" || value === "ucore" || value === "days" || value === "startTimeBands";
 }
 
 /**
@@ -90,14 +123,14 @@ export function updateCourseFiltersFromControl(control) {
  * Reads the module-level filter state after {@link updateCourseFiltersFromControl}
  * or {@link resetCourseFilters} changes it.
  *
- * @returns {void}
  * @see {@link getActiveFilterGroupCount}
  */
-export function syncCourseFilterControls() {
+export function syncCourseFilterControls(): void {
   document
-    .querySelectorAll('.course-filter-control[data-filter-name]')
+    .querySelectorAll<HTMLInputElement>('.course-filter-control[data-filter-name]')
     .forEach((input) => {
       const filterName = input.getAttribute("data-filter-name");
+      if (!isCourseFilterName(filterName)) return;
       input.checked = courseFilters[filterName].includes(input.value);
     });
 
@@ -115,9 +148,8 @@ export function syncCourseFilterControls() {
  * Delegates checkbox creation to {@link populateFilterCheckboxes} and uses
  * the current preference from {@link uses24HourTime} for time descriptions.
  *
- * @returns {void}
  */
-export function populateCourseFilterOptions() {
+export function populateCourseFilterOptions(): void {
   
   // Populate availability filter
   populateFilterCheckboxes("availability", [
@@ -171,13 +203,12 @@ export function populateCourseFilterOptions() {
 /**
  * Replaces every container for a filter group with generated checkbox labels.
  *
- * @param {string} filterName - The `data-filter-options`/`data-filter-name` value shared by the checkbox group.
- * @param {{value: string, label: string, description?: string}[]} options - Checkbox values and display text for the group.
- * @returns {void}
+ * @param filterName - The `data-filter-options`/`data-filter-name` value shared by the checkbox group.
+ * @param options - Checkbox values and display text for the group.
  * @see {@link createElementWithText}
  * @see {@link populateCourseFilterOptions}
  */
-export function populateFilterCheckboxes(filterName, options) {
+export function populateFilterCheckboxes(filterName: CourseFilterName, options: FilterOption[]): void {
   document
     .querySelectorAll(`[data-filter-options="${filterName}"]`)
     .forEach((container) =>
@@ -206,15 +237,14 @@ export function populateFilterCheckboxes(filterName, options) {
  * Mobile uses an inert, aria-managed bottom sheet; desktop uses the filter
  * popover. The paired {@link closeCourseFilters} function restores state.
  *
- * @returns {void}
  * @see {@link isMobileViewport}
  * @see {@link closeCourseFilters}
  */
-export function openCourseFilters() {
+export function openCourseFilters(): void {
   const toggle = document.getElementById("filterToggle");
-  if (!toggle || toggle.disabled) return;
+  if (!toggle || (toggle as HTMLButtonElement).disabled) return;
   if (isMobileViewport()) {
-    const sheet = document.getElementById("mobileFilterSheet");
+    const sheet = document.getElementById("mobileFilterSheet")!;
     if (mobileFilterCloseTimer) {
       window.clearTimeout(mobileFilterCloseTimer);
       mobileFilterCloseTimer = null;
@@ -224,13 +254,13 @@ export function openCourseFilters() {
     sheet.setAttribute("aria-hidden", "false");
     document.body.classList.add("mobile-filter-sheet-open");
     window.requestAnimationFrame(() => sheet.classList.add("is-open"));
-    const doneButton = sheet.querySelector("[data-close-filters]");
+    const doneButton = sheet.querySelector<HTMLElement>("[data-close-filters]");
     if (doneButton) doneButton.focus({ preventScroll: true });
   } else {
-    const popover = document.getElementById("desktopFilterPopover");
+    const popover = document.getElementById("desktopFilterPopover")!;
     popover.hidden = false;
     popover
-      .querySelector("[data-close-filters]")
+      .querySelector<HTMLElement>("[data-close-filters]")!
       .focus({ preventScroll: true });
   }
   toggle.setAttribute("aria-expanded", "true");
@@ -240,11 +270,10 @@ export function openCourseFilters() {
  * Closes both filter presentations and restores focus when appropriate.
  * Mobile sheet hiding is delayed briefly so its closing transition can finish.
  *
- * @returns {void}
  * @see {@link openCourseFilters}
  * @see {@link areCourseFiltersOpen}
  */
-export function closeCourseFilters() {
+export function closeCourseFilters(): void {
   const popover = document.getElementById("desktopFilterPopover");
   const sheet = document.getElementById("mobileFilterSheet");
   const activeElement = document.activeElement;
@@ -273,9 +302,9 @@ export function closeCourseFilters() {
 /**
  * Reports whether the desktop filter popover is currently visible.
  *
- * @returns {boolean} `true` when the desktop popover exists and is not hidden.
+ * @returns `true` when the desktop popover exists and is not hidden.
  */
-export function isDesktopFilterOpen() {
+export function isDesktopFilterOpen(): boolean {
   const popover = document.getElementById("desktopFilterPopover");
   return !!popover && !popover.hidden;
 }
@@ -283,10 +312,10 @@ export function isDesktopFilterOpen() {
 /**
  * Reports whether either the desktop popover or mobile filter sheet is open.
  *
- * @returns {boolean} `true` when a filter surface is visibly open.
+ * @returns `true` when a filter surface is visibly open.
  * @see {@link isDesktopFilterOpen}
  */
-export function areCourseFiltersOpen() {
+export function areCourseFiltersOpen(): boolean {
   const sheet = document.getElementById("mobileFilterSheet");
   return (
     isDesktopFilterOpen() || !!(sheet && sheet.classList.contains("is-open"))
@@ -297,14 +326,14 @@ export function areCourseFiltersOpen() {
  * Renders one selectable lecture or lab section row.
  * Stores course/section metadata on the radio input so delegated handlers can preview a section and build a schedule selection later.
  *
- * @param {Object} course - Course record containing at least `id` and `term_slug`.
- * @param {Object} section - Section record containing section, meeting, and seat data.
- * @param {string} choiceType - Radio-group type, normally `lecture` or `lab`.
- * @returns {HTMLLabelElement} The labeled radio row appended by the caller.
+ * @param course - Course record containing at least `id` and `term_slug`.
+ * @param section - Section record containing section, meeting, and seat data.
+ * @param choiceType - Radio-group type, normally `lecture` or `lab`.
+ * @returns The labeled radio row appended by the caller.
  * @see {@link createSectionTable}
  * @see {@link getSectionFromChoice}
  */
-export function renderSectionChoice(course, section, choiceType) {
+export function renderSectionChoice(course: CatalogCourse, section: SchedulableSection, choiceType: ChoiceType): HTMLLabelElement {
   const sectionId = String(
     section.section_id === null || section.section_id === undefined
       ? ""
@@ -322,12 +351,12 @@ export function renderSectionChoice(course, section, choiceType) {
   input.type = "radio";
   input.value = sectionId;
   input.name = `${choiceType}-${courseId}`;
-  [
+  ([
     ["data-choice-type", choiceType],
     ["data-course-id", courseId],
     ["data-section-id", sectionId],
     ["data-section-key", section.section_key || `${course.term_slug}:${sectionId}`],
-  ].forEach(([name, value]) =>
+  ] as const).forEach(([name, value]) =>
     input.setAttribute(
       name,
       String(value === null || value === undefined ? "" : value),
@@ -358,10 +387,10 @@ export function renderSectionChoice(course, section, choiceType) {
 /**
  * Formats an instructor name for a compact result-table cell.
  *
- * @param {string} instructor - Instructor name supplied by the catalog.
- * @returns {string} Name with a deliberate line break when it has multiple tokens.
+ * @param instructor - Instructor name supplied by the catalog.
+ * @returns Name with a deliberate line break when it has multiple tokens.
  */
-export function formatInstructorForTable(instructor) {
+export function formatInstructorForTable(instructor: string): string {
   const normalized = String(instructor || "").trim();
   const match = normalized.match(/^(\S+)\s+(.+)$/);
   return match ? `${match[1]}\n${match[2]}` : normalized;
@@ -371,10 +400,10 @@ export function formatInstructorForTable(instructor) {
  * Builds an accordion card for one course and all of its section choices.
  * It composes {@link createSectionGroupTitle}, {@link createSectionTable}, and the course-info trigger consumed by the delegated listeners in {@link initializeCourseSearch}.
  *
- * @param {Object} course - Course record with lecture/lab sections and course metadata.
- * @returns {HTMLElement} The complete course result article.
+ * @param course - Course record with lecture/lab sections and course metadata.
+ * @returns The complete course result article.
  */
-export function renderCourseResult(course) {
+export function renderCourseResult(course: CatalogCourse): HTMLElement {
   const hasLab = course.lab_sections.length > 0;
   const article = document.createElement("article");
   article.className = "result-card";
@@ -417,7 +446,7 @@ export function renderCourseResult(course) {
   /*
     Additional Information items
   */
-  const infoButton = document.createElement("button");
+  const infoButton = document.createElement("button") as CourseInfoTrigger;
   infoButton.type = "button";
   infoButton.className = "course-info-trigger";
   infoButton.setAttribute("aria-label", `Additional information about ${course.course_code}`);
@@ -473,9 +502,9 @@ const INFO_ICON_PATH = "M8,0a8,8 0 1 0 0 16A8,8 0 0 0 8,0Zm0 14.25A6.25 6.25 0 1
 /**
  * Creates the decorative SVG information icon used by course-info buttons.
  *
- * @returns {SVGElement} An accessible-hidden SVG icon.
+ * @returns An accessible-hidden SVG icon.
  */
-function createInfoIcon() {
+function createInfoIcon(): SVGElement {
   const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   icon.setAttribute("viewBox", "0 0 16 16");
   icon.setAttribute("aria-hidden", "true");
@@ -489,12 +518,11 @@ function createInfoIcon() {
 /**
  * Inserts fetched course information into the desktop popover and, when the same trigger is active, the mobile information sheet.
  *
- * @param {HTMLElement} trigger - Course-info button whose request produced `info`.
- * @param {Object} info - Course-information payload accepted by {@link renderCourseInformation}.
- * @returns {void}
+ * @param trigger - Course-info button whose request produced `info`.
+ * @param info - Course-information payload accepted by {@link renderCourseInformation}.
  * @see {@link loadCourseInfo}
  */
-function setCourseInfoContent(trigger, info) {
+function setCourseInfoContent(trigger: CourseInfoTrigger, info: CourseInformation): void {
   const popover = trigger.closest(".course-info-control")?.querySelector(".course-info-popover");
   if (popover) {
     popover.replaceChildren(renderCourseInformation(info));
@@ -508,12 +536,12 @@ function setCourseInfoContent(trigger, info) {
  * Guards against duplicate requests and ignores results for a trigger removed
  * from the document while {@link fetchCourseInformation} was pending.
  *
- * @param {HTMLElement} trigger - Course-info button with a `courseData` property.
- * @returns {Promise<void>} Resolves after the response has been rendered.
+ * @param trigger - Course-info button with a `courseData` property.
+ * @returns Resolves after the response has been rendered.
  * @see {@link openMobileCourseInfoSheet}
  * @see {@link showDesktopCourseInfo}
  */
-async function loadCourseInfo(trigger) {
+async function loadCourseInfo(trigger: CourseInfoTrigger): Promise<void> {
   if (!trigger || trigger.courseInfoLoading) return;
   trigger.courseInfoLoading = true;
   const info = await fetchCourseInformation(trigger.courseData);
@@ -526,13 +554,12 @@ async function loadCourseInfo(trigger) {
  * Displays a loading state, manages inert/ARIA state and focus, then delegates
  * the request to {@link loadCourseInfo}.
  *
- * @param {HTMLElement} trigger - Course-info button whose `courseData` is loaded.
- * @returns {void}
+ * @param trigger - Course-info button whose `courseData` is loaded.
  * @see {@link closeMobileCourseInfoSheet}
  */
-function openMobileCourseInfoSheet(trigger) {
+function openMobileCourseInfoSheet(trigger: CourseInfoTrigger): void {
   const sheet = document.getElementById("mobileCourseInfoSheet");
-  const details = sheet && sheet.querySelector(".mobile-course-info-details");
+  const details = sheet?.querySelector<HTMLElement>(".mobile-course-info-details");
   if (!sheet || !details) return;
   activeCourseInfoTrigger = trigger;
   details.replaceChildren(createElementWithText("p", "course-info-loading", "Loading additional information…"));
@@ -541,7 +568,7 @@ function openMobileCourseInfoSheet(trigger) {
   sheet.setAttribute("aria-hidden", "false");
   document.body.classList.add("mobile-course-info-sheet-open");
   window.requestAnimationFrame(() => sheet.classList.add("is-open"));
-  const closeButton = sheet.querySelector("[data-close-course-info]");
+  const closeButton = sheet.querySelector<HTMLElement>("[data-close-course-info]");
   if (closeButton) closeButton.focus({ preventScroll: true });
   loadCourseInfo(trigger);
 }
@@ -549,12 +576,11 @@ function openMobileCourseInfoSheet(trigger) {
 /**
  * Closes the mobile course-information sheet and optionally returns focus to the trigger that opened it.
  *
- * @param {{restoreFocus?: boolean}} [options={}] - Close behavior options.
- * @param {boolean} [options.restoreFocus=true] - Whether to focus the originating trigger.
- * @returns {void}
+ * @param [options={}] - Close behavior options.
+ * @param [options.restoreFocus=true] - Whether to focus the originating trigger.
  * @see {@link openMobileCourseInfoSheet}
  */
-export function closeMobileCourseInfoSheet({ restoreFocus = true } = {}) {
+export function closeMobileCourseInfoSheet({ restoreFocus = true }: { restoreFocus?: boolean } = {}): void {
   const sheet = document.getElementById("mobileCourseInfoSheet");
   if (!sheet || !sheet.classList.contains("is-open")) return;
   sheet.classList.remove("is-open");
@@ -570,13 +596,12 @@ export function closeMobileCourseInfoSheet({ restoreFocus = true } = {}) {
  * Reveals a desktop course-info popover and starts its data request.
  * Mobile callers use {@link openMobileCourseInfoSheet} instead.
  *
- * @param {HTMLElement} trigger - Course-info button associated with the popover.
- * @returns {void}
+ * @param trigger - Course-info button associated with the popover.
  * @see {@link hideDesktopCourseInfo}
  * @see {@link loadCourseInfo}
  */
-function showDesktopCourseInfo(trigger) {
-  const popover = trigger.closest(".course-info-control")?.querySelector(".course-info-popover");
+function showDesktopCourseInfo(trigger: CourseInfoTrigger): void {
+  const popover = trigger.closest(".course-info-control")?.querySelector<HTMLElement>(".course-info-popover");
   if (!popover || isMobileViewport()) return;
   popover.hidden = false;
   trigger.setAttribute("aria-expanded", "true");
@@ -587,28 +612,13 @@ function showDesktopCourseInfo(trigger) {
  * Hides a desktop info popover when neither it nor its control retains focus.
  * This hover/focus guard prevents the delegated mouse and focus listeners from closing the popover while the user is interacting with it.
  *
- * @param {HTMLElement} trigger - Course-info button associated with the popover.
- * @returns {void}
+ * @param trigger - Course-info button associated with the popover.
  * @see {@link showDesktopCourseInfo}
  */
-function hideDesktopCourseInfo(trigger) {
-  const control = trigger && trigger.closest(".course-info-control");
-  const popover = control && control.querySelector(".course-info-popover");
-  if (!popover || control.matches(":focus-within") || popover.matches(":hover")) return;
-  popover.hidden = true;
-  trigger.setAttribute("aria-expanded", "false");
-}
-
-/**
- * Immediately closes the desktop info popover for a trigger.
- *
- * @param {HTMLElement} trigger - Course-info button associated with the popover.
- * @returns {void}
- * @see {@link showDesktopCourseInfo}
- */
-function closeDesktopCourseInfo(trigger) {
-  const popover = trigger && trigger.closest(".course-info-control")?.querySelector(".course-info-popover");
-  if (!popover) return;
+function hideDesktopCourseInfo(trigger: CourseInfoTrigger): void {
+  const control = trigger.closest<HTMLElement>(".course-info-control");
+  const popover = control?.querySelector<HTMLElement>(".course-info-popover");
+  if (!control || !popover || control.matches(":focus-within") || popover.matches(":hover")) return;
   popover.hidden = true;
   trigger.setAttribute("aria-expanded", "false");
 }
@@ -616,13 +626,13 @@ function closeDesktopCourseInfo(trigger) {
 /**
  * Creates a heading for a lecture or lab section group.
  *
- * @param {string} label - Heading text shown to the user.
- * @param {boolean} required - Whether to append the `(required)` indicator.
- * @param {string} [className] - Optional additional CSS class.
- * @returns {HTMLDivElement} The section-group heading element.
+ * @param label - Heading text shown to the user.
+ * @param required - Whether to append the `(required)` indicator.
+ * @param [className] - Optional additional CSS class.
+ * @returns The section-group heading element.
  * @see {@link createSectionTable}
  */
-export function createSectionGroupTitle(label, required, className) {
+export function createSectionGroupTitle(label: string, required: boolean, className = ""): HTMLDivElement {
   const title = createElementWithText(
     "div",
     `section-group-title${className ? ` ${className}` : ""}`,
@@ -638,12 +648,12 @@ export function createSectionGroupTitle(label, required, className) {
  * Delegates row construction to {@link renderSectionChoice}; an empty list
  * produces a localized empty-state message instead.
  *
- * @param {Object} course - Course record owning the sections.
- * @param {Object[]} sections - Lecture or lab section records.
- * @param {string} choiceType - Radio-group type passed to each row.
- * @returns {HTMLDivElement} The section table container.
+ * @param course - Course record owning the sections.
+ * @param sections - Lecture or lab section records.
+ * @param choiceType - Radio-group type passed to each row.
+ * @returns The section table container.
  */
-export function createSectionTable(course, sections, choiceType) {
+export function createSectionTable(course: CatalogCourse, sections: SchedulableSection[], choiceType: ChoiceType): HTMLDivElement {
   const table = createElementWithText("div", "section-table", "");
   table.tabIndex = 0;
   table.setAttribute(
@@ -670,16 +680,15 @@ export function createSectionTable(course, sections, choiceType) {
  * Re-formats rendered meeting records according to the active time preference.
  * Operates on the `data-meetings` values emitted by {@link renderSectionChoice}.
  *
- * @returns {void}
  */
-export function updateSearchResultTimeDisplays() {
+export function updateSearchResultTimeDisplays(): void {
   document.querySelectorAll(".section-choice-row[data-meetings]").forEach((row) => {
     const timeCell = row.querySelector(".time-display");
     if (!timeCell) return;
-    let meetings = [];
+    let meetings: Meeting[] = [];
     try {
-      meetings = JSON.parse(row.getAttribute("data-meetings") || "[]");
-    } catch (error) {
+      meetings = JSON.parse(row.getAttribute("data-meetings") || "[]") as Meeting[];
+    } catch {
       meetings = [];
     }
     timeCell.textContent = meetings.map((meeting) => formatTimeRangeForDisplay(meeting?.time) || "Time unavailable").join("\n") || "Time unavailable";
@@ -691,12 +700,11 @@ export function updateSearchResultTimeDisplays() {
  * Indexes sections by key before rendering so {@link getSectionFromChoice}
  * can recover the original section object when a user previews or adds it.
  *
- * @param {Object[]} courses - Course records returned by the search API.
- * @returns {void}
+ * @param courses - Course records returned by the search API.
  * @see {@link renderCourseResult}
  * @see {@link updateSearchResultTimeDisplays}
  */
-export function renderCourseResults(courses) {
+export function renderCourseResults(courses: CatalogCourse[]): void {
   const results = document.getElementById("searchResults");
   if (!results) return;
   searchableSectionsByKey = new Map();
@@ -731,11 +739,11 @@ export function renderCourseResults(courses) {
  * Determines whether a search should be filtered and rendered.
  * A non-blank query or at least one selected filter group is sufficient.
  *
- * @param {FormData} formData - Search form data containing the `q` field.
- * @returns {boolean|string} The trimmed query string when present; otherwise a boolean indicating whether any filter group is active.
+ * @param formData - Search form data containing the `q` field.
+ * @returns The trimmed query string when present; otherwise a boolean indicating whether any filter group is active.
  * @see {@link getActiveFilterGroupCount}
  */
-export function searchHasCriteria(formData) {
+export function searchHasCriteria(formData: FormData): string | boolean {
   return (
     String(formData.get("q") || "").trim() || getActiveFilterGroupCount() > 0
   );
@@ -745,17 +753,17 @@ export function searchHasCriteria(formData) {
  * Fetches, filters, and renders courses for the current search form.
  * Uses {@link CourseApi.fetchCourses} and {@link CourseApi.filterCourses}
  *
- * @param {HTMLFormElement} form - Course-search form containing campus, semester, query, and filter controls.
- * @returns {Promise<void>} Resolves after the result state has been updated.
+ * @param form - Course-search form containing campus, semester, query, and filter controls.
+ * @returns Resolves after the result state has been updated.
  * @see {@link handleCourseSearchSubmit}
  * @see {@link renderCourseResults}
  */
-export async function handleCourseSearch(form) {
+export async function handleCourseSearch(form: HTMLFormElement): Promise<void> {
   const results = document.getElementById("searchResults");
   const requestId = ++courseSearchRequestId;
   const formData = new FormData(form);
-  const campus = formData.get("campus");
-  const term = formData.get("semester");
+  const campus = String(formData.get("campus") || "");
+  const term = String(formData.get("semester") || "");
   if (!campus || !term) {
     if (results)
       results.replaceChildren(
@@ -772,11 +780,11 @@ export async function handleCourseSearch(form) {
       createElementWithText("div", "empty-search", "Loading courses..."),
     );
   try {
-    const courses = await CourseApi.fetchCourses(campus, term);
+    const courses = await window.CourseApi.fetchCourses(campus, term);
     // A newer campus/term/query change wins over this response.
     if (requestId !== courseSearchRequestId) return;
     populateCourseFilterOptions();
-    const filterToggle = document.getElementById("filterToggle");
+    const filterToggle = document.getElementById("filterToggle") as HTMLButtonElement | null;
     if (filterToggle) filterToggle.disabled = false;
     if (!searchHasCriteria(formData)) {
       if (results)
@@ -790,8 +798,8 @@ export async function handleCourseSearch(form) {
       return;
     }
     renderCourseResults(
-      CourseApi.filterCourses(courses, {
-        q: formData.get("q"),
+      window.CourseApi.filterCourses(courses, {
+        q: String(formData.get("q") || ""),
         ...courseFilters,
       }),
     );
@@ -812,24 +820,25 @@ export async function handleCourseSearch(form) {
 /**
  * Prevents native form navigation and delegates the submit to {@link handleCourseSearch}.
  *
- * @param {SubmitEvent} event - Course-search form submit event.
- * @returns {Promise<void>} The delegated search promise.
+ * @param event - Course-search form submit event.
+ * @returns The delegated search promise.
  */
-export async function handleCourseSearchSubmit(event) {
+export async function handleCourseSearchSubmit(event: SubmitEvent): Promise<void> {
   event.preventDefault();
-  return handleCourseSearch(event.currentTarget);
+  if (event.currentTarget instanceof HTMLFormElement)
+    return handleCourseSearch(event.currentTarget);
 }
 
 /**
  * Finds the checked lecture or lab radio for a rendered course card.
  *
- * @param {string|number} courseId - Course identifier stored on the radio.
- * @param {string} choiceType - Choice group, such as `lecture` or `lab`.
- * @returns {HTMLInputElement|null} The checked choice, or `null` if none exists.
+ * @param courseId - Course identifier stored on the radio.
+ * @param choiceType - Choice group, such as `lecture` or `lab`.
+ * @returns The checked choice, or `null` if none exists.
  * @see {@link updateCourseAddButton}
  */
-export function findSelectedCourseChoice(courseId, choiceType) {
-  return document.querySelector(
+export function findSelectedCourseChoice(courseId: string | number, choiceType: ChoiceType): HTMLInputElement | null {
+  return document.querySelector<HTMLInputElement>(
     `.section-choice[data-course-id="${courseId}"][data-choice-type="${choiceType}"]:checked`,
   );
 }
@@ -838,12 +847,11 @@ export function findSelectedCourseChoice(courseId, choiceType) {
  * Enables a course card's add button only when required section choices exist.
  * Uses {@link findSelectedCourseChoice} for the lecture and optional lab.
  *
- * @param {string|number} courseId - Course identifier on the result card.
- * @returns {void}
+ * @param courseId - Course identifier on the result card.
  * @see {@link handleAddCourseSelection}
  */
-export function updateCourseAddButton(courseId) {
-  const addButton = document.querySelector(
+export function updateCourseAddButton(courseId: string | number): void {
+  const addButton = document.querySelector<HTMLButtonElement>(
     `.add-course-selection-btn[data-course-id="${courseId}"]`,
   );
   if (!addButton) return;
@@ -858,14 +866,15 @@ export function updateCourseAddButton(courseId) {
  * Resolves a radio choice to its indexed section and assigns a schedule group.
  * The returned copy is safe for preview/add callbacks to augment independently.
  *
- * @param {HTMLInputElement} choice - Section radio carrying `data-section-key`.
- * @param {string} [scheduleGroupId] - Group identifier shared by linked choices.
- * @returns {Object|null} Section data with `schedule_group_id`, or `null` when the key is no longer indexed.
+ * @param choice - Section radio carrying `data-section-key`.
+ * @param [scheduleGroupId] - Group identifier shared by linked choices.
+ * @returns Section data with `schedule_group_id`, or `null` when the key is no longer indexed.
  * @see {@link renderCourseResults}
  * @see {@link handleAddCourseSelection}
  */
-export function getSectionFromChoice(choice, scheduleGroupId) {
+export function getSectionFromChoice(choice: HTMLInputElement, scheduleGroupId?: string): HydratedSection | null {
   const sectionKey = choice.getAttribute("data-section-key");
+  if (!sectionKey) return null;
   const section = searchableSectionsByKey.get(sectionKey);
   if (!section) return null;
   return { ...section, schedule_group_id: scheduleGroupId || null };
@@ -875,12 +884,11 @@ export function getSectionFromChoice(choice, scheduleGroupId) {
  * Clears the existing preview and asks the host to preview a hovered/focused row.
  * Uses the module callbacks installed by {@link initializeCourseSearch}.
  *
- * @param {HTMLElement} row - Section-choice row containing a radio input.
- * @returns {void}
+ * @param row - Section-choice row containing a radio input.
  * @see {@link getSectionFromChoice}
  */
-export function showSectionGhost(row) {
-  const choice = row.querySelector(".section-choice");
+export function showSectionGhost(row: HTMLElement): void {
+  const choice = row.querySelector<HTMLInputElement>(".section-choice");
   if (!choice) return;
   callbacks.onClearPreview();
   const section = getSectionFromChoice(choice, "preview");
@@ -891,26 +899,27 @@ export function showSectionGhost(row) {
  * Collects selected lecture/lab choices and sends them to the schedule host.
  * The callback receives section copies sharing a generated schedule-group ID.
  *
- * @param {HTMLButtonElement} button - Add button carrying course/lab metadata.
- * @param {MouseEvent|KeyboardEvent} event - Activating event whose default is canceled.
- * @returns {void}
+ * @param button - Add button carrying course/lab metadata.
+ * @param event - Activating event whose default is canceled.
  * @see {@link findSelectedCourseChoice}
  * @see {@link getSectionFromChoice}
  */
-export function handleAddCourseSelection(button, event) {
+export function handleAddCourseSelection(button: HTMLButtonElement, event: MouseEvent | KeyboardEvent): void {
   event.preventDefault();
-  const courseId = button.getAttribute("data-course-id");
+  const courseId = button.getAttribute("data-course-id") || "";
   const requiresLab = button.getAttribute("data-requires-lab") === "true";
   const lectureChoice = findSelectedCourseChoice(courseId, "lecture");
   const labChoice = findSelectedCourseChoice(courseId, "lab");
   if (!lectureChoice || (requiresLab && !labChoice)) return;
-  const choices = [lectureChoice, labChoice].filter(Boolean);
+  const choices = [lectureChoice, labChoice].filter(
+    (choice): choice is HTMLInputElement => choice !== null,
+  );
   const scheduleGroupId = choices
     .map((choice) => choice.getAttribute("data-section-id"))
     .join("-");
   const sections = choices
     .map((choice) => getSectionFromChoice(choice, scheduleGroupId))
-    .filter(Boolean);
+    .filter((section): section is HydratedSection => section !== null);
   if (sections.length) callbacks.onAddSections(sections, scheduleGroupId);
 }
 
@@ -919,33 +928,34 @@ export function handleAddCourseSelection(button, event) {
  * Registers debounced searching, responsive filter/info controls, section previews, and HTMX result-refresh handling.
  * Callback functions supplied here connect this module to the schedule preview/add workflow.
  *
- * @param {{onClearPreview: Function, onPreview: Function, onAddSections: Function}} options - Host callbacks used by {@link showSectionGhost} and {@link handleAddCourseSelection}.
- * @returns {void}
+ * @param options - Host callbacks used by {@link showSectionGhost} and {@link handleAddCourseSelection}.
  * @see {@link debounce}
  * @see {@link handleCourseSearchSubmit}
  */
-export function initializeCourseSearch(options) {
+export function initializeCourseSearch(options: CourseSearchCallbacks): void {
   callbacks = options;
-  const form = document.getElementById("courseSearchForm");
+  const form = document.getElementById("courseSearchForm") as CourseSearchForm | null;
   if (form) {
     form.addEventListener("submit", handleCourseSearchSubmit);
     const autoSearch = debounce(
       () => handleCourseSearch(form),
       AUTO_SEARCH_DELAY_MS,
     );
-    form.querySelector("#searchInput").addEventListener("input", autoSearch);
-    form.querySelectorAll("#campusFilter, #semesterFilter").forEach((select) =>
+    form.querySelector<HTMLInputElement>("#searchInput")!.addEventListener("input", autoSearch);
+    form.querySelectorAll<HTMLSelectElement>("#campusFilter, #semesterFilter").forEach((select) =>
       select.addEventListener("change", () => {
         resetCourseFilters(true);
         closeCourseFilters();
-        document.getElementById("filterToggle").disabled = true;
+        (document.getElementById("filterToggle") as HTMLButtonElement).disabled = true;
         autoSearch();
       }),
     );
     form.autoSearch = autoSearch;
   }
   document.addEventListener("click", (event) => {
-    const infoTrigger = event.target.closest(".course-info-trigger");
+    const target = getEventElement(event);
+    if (!target) return;
+    const infoTrigger = target.closest<HTMLElement>(".course-info-trigger") as CourseInfoTrigger | null;
     if (infoTrigger) {
       event.preventDefault();
       event.stopPropagation();
@@ -957,81 +967,91 @@ export function initializeCourseSearch(options) {
       }
       return;
     }
-    if (event.target.closest("[data-close-course-info]")) {
+    if (target.closest("[data-close-course-info]")) {
       closeMobileCourseInfoSheet();
       return;
     }
-    if (event.target.closest("#filterToggle")) {
+    if (target.closest("#filterToggle")) {
       if (areCourseFiltersOpen()) closeCourseFilters();
       else openCourseFilters();
       return;
     }
-    if (event.target.closest("[data-close-filters]")) {
+    if (target.closest("[data-close-filters]")) {
       closeCourseFilters();
       return;
     }
-    if (event.target.closest("[data-clear-filters]")) {
+    if (target.closest("[data-clear-filters]")) {
       resetCourseFilters(true);
-      handleCourseSearch(document.getElementById("courseSearchForm"));
+      if (form) handleCourseSearch(form);
       return;
     }
     if (
       isDesktopFilterOpen() &&
-      !event.target.closest("#desktopFilterPopover, #filterToggle")
+      !target.closest("#desktopFilterPopover, #filterToggle")
     )
       closeCourseFilters();
-    const addButton = event.target.closest(".add-course-selection-btn");
+    const addButton = target.closest<HTMLButtonElement>(".add-course-selection-btn");
     if (addButton) handleAddCourseSelection(addButton, event);
   });
   document.addEventListener("change", (event) => {
-    if (event.target.closest("#timeFormatToggle")) {
+    const target = getEventElement(event);
+    if (!target) return;
+    if (target.closest("#timeFormatToggle")) {
       populateCourseFilterOptions();
       return;
     }
-    const filterControl = event.target.closest(".course-filter-control");
+    const filterControl = target.closest<HTMLInputElement>(".course-filter-control");
     if (filterControl) {
       updateCourseFiltersFromControl(filterControl);
       syncCourseFilterControls();
       if (form && form.autoSearch) form.autoSearch();
       return;
     }
-    const sectionChoice = event.target.closest(".section-choice");
+    const sectionChoice = target.closest<HTMLInputElement>(".section-choice");
     if (sectionChoice)
-      updateCourseAddButton(sectionChoice.getAttribute("data-course-id"));
+      updateCourseAddButton(sectionChoice.getAttribute("data-course-id") || "");
   });
   document.addEventListener("mouseover", (event) => {
-    const row = event.target.closest(".section-choice-row");
-    if (row && !row.contains(event.relatedTarget)) showSectionGhost(row);
-    const infoControl = event.target.closest(".course-info-control");
-    const infoTrigger = infoControl && infoControl.querySelector(".course-info-trigger");
-    if (infoTrigger && !isMobileViewport() && !infoControl.contains(event.relatedTarget)) {
+    const target = getEventElement(event);
+    if (!target) return;
+    const row = target.closest<HTMLElement>(".section-choice-row");
+    if (row && !isRelatedTargetInside(row, event.relatedTarget)) showSectionGhost(row);
+    const infoControl = target.closest<HTMLElement>(".course-info-control");
+    const infoTrigger = infoControl?.querySelector<CourseInfoTrigger>(".course-info-trigger");
+    if (infoControl && infoTrigger && !isMobileViewport() && !isRelatedTargetInside(infoControl, event.relatedTarget)) {
       showDesktopCourseInfo(infoTrigger);
     }
   });
   document.addEventListener("mouseout", (event) => {
-    const row = event.target.closest(".section-choice-row");
-    if (row && !row.contains(event.relatedTarget)) callbacks.onClearPreview();
-    const infoControl = event.target.closest(".course-info-control");
-    const infoTrigger = infoControl && infoControl.querySelector(".course-info-trigger");
-    if (infoTrigger && !infoControl.contains(event.relatedTarget)) {
+    const target = getEventElement(event);
+    if (!target) return;
+    const row = target.closest<HTMLElement>(".section-choice-row");
+    if (row && !isRelatedTargetInside(row, event.relatedTarget)) callbacks.onClearPreview();
+    const infoControl = target.closest<HTMLElement>(".course-info-control");
+    const infoTrigger = infoControl?.querySelector<CourseInfoTrigger>(".course-info-trigger");
+    if (infoControl && infoTrigger && !isRelatedTargetInside(infoControl, event.relatedTarget)) {
       window.setTimeout(() => hideDesktopCourseInfo(infoTrigger), 0);
     }
   });
   document.addEventListener("focusin", (event) => {
-    const row = event.target.closest(".section-choice-row");
+    const target = getEventElement(event);
+    if (!target) return;
+    const row = target.closest<HTMLElement>(".section-choice-row");
     if (row) showSectionGhost(row);
-    const infoTrigger = event.target.closest(".course-info-trigger");
+    const infoTrigger = target.closest<HTMLElement>(".course-info-trigger") as CourseInfoTrigger | null;
     if (infoTrigger && !isMobileViewport()) showDesktopCourseInfo(infoTrigger);
   });
   document.addEventListener("focusout", (event) => {
-    const row = event.target.closest(".section-choice-row");
-    if (row && !row.contains(event.relatedTarget)) callbacks.onClearPreview();
-    const infoControl = event.target.closest(".course-info-control");
-    const infoTrigger = infoControl && infoControl.querySelector(".course-info-trigger");
+    const target = getEventElement(event);
+    if (!target) return;
+    const row = target.closest<HTMLElement>(".section-choice-row");
+    if (row && !isRelatedTargetInside(row, event.relatedTarget)) callbacks.onClearPreview();
+    const infoControl = target.closest<HTMLElement>(".course-info-control");
+    const infoTrigger = infoControl?.querySelector<CourseInfoTrigger>(".course-info-trigger");
     if (infoTrigger) window.setTimeout(() => hideDesktopCourseInfo(infoTrigger), 0);
   });
   document.body.addEventListener("htmx:afterSwap", (event) => {
-    if (event.target && event.target.id === "searchResults") {
+    if (event.target instanceof Element && event.target.id === "searchResults") {
       callbacks.onClearPreview();
       updateSearchResultTimeDisplays();
     }

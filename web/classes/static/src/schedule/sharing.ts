@@ -11,15 +11,30 @@ import {
   SHARE_CODE_PREFIX,
   SCHEDULE_NAME_MAX_LENGTH,
 } from "./constants.js";
+import type { CatalogCourse, HydratedSection, ParsedShareCode, ShareTerm, SectionIndexEntry } from "../types.js";
+
+interface ShareActions {
+  shareScheduleCode(): Promise<void>;
+  importScheduleFromShareCode(): Promise<void>;
+}
+
+interface ShareOptions {
+  getSchedule(): HydratedSection[];
+  replaceSchedule(schedule: HydratedSection[]): HydratedSection[];
+  getName(): string;
+  setName(name?: string): void;
+  refreshSchedule(): void;
+  showSchedulePane(): void;
+}
 
 /**
  * Encodes UTF-8 text as URL-safe base64 without padding.
  *
- * @param {string} value - Text to encode.
- * @returns {string} URL-safe base64 representation.
+ * @param value - Text to encode.
+ * @returns URL-safe base64 representation.
  * @see {@link decodeBase64Url}
  */
-export function encodeBase64Url(value) {
+export function encodeBase64Url(value: string): string {
   const bytes = new TextEncoder().encode(value);
   let binary = "";
   bytes.forEach((byte) => {
@@ -33,11 +48,11 @@ export function encodeBase64Url(value) {
 /**
  * Decodes URL-safe, optionally unpadded base64 into UTF-8 text.
  *
- * @param {string} value - Encoded value to decode.
- * @returns {string} Decoded UTF-8 text.
+ * @param value - Encoded value to decode.
+ * @returns Decoded UTF-8 text.
  * @see {@link encodeBase64Url}
  */
-export function decodeBase64Url(value) {
+export function decodeBase64Url(value: string): string {
   const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
   const padded = normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "=");
   const binary = atob(padded);
@@ -48,19 +63,19 @@ export function decodeBase64Url(value) {
 /**
  * Groups schedule sections by term and limits the share payload size.
  *
- * @param {Object[]} schedule - Current schedule section records.
- * @returns {{slug: string, slns: string[]}[]} Unique section IDs grouped by term.
+ * @param schedule - Current schedule section records.
+ * @returns Unique section IDs grouped by term.
  */
-export function getCurrentScheduleTerms(schedule) {
-  const terms = new Map();
+export function getCurrentScheduleTerms(schedule: HydratedSection[]): ShareTerm[] {
+  const terms = new Map<string, Set<string>>();
   let totalSections = 0;
   schedule.forEach((item) => {
     if (totalSections >= MAX_SCHEDULE_SECTIONS) return;
     const slug = String(item.term_slug || "");
     const sln = String(item.section_id || "");
     if (!slug || !sln) return;
-    if (!terms.has(slug)) terms.set(slug, new Set());
-    const slns = terms.get(slug);
+    const slns = terms.get(slug) ?? new Set<string>();
+    terms.set(slug, slns);
     if (!slns.has(sln)) {
       slns.add(sln);
       totalSections += 1;
@@ -74,49 +89,53 @@ export function getCurrentScheduleTerms(schedule) {
 /**
  * Serializes a schedule name and term/section references into a share code.
  *
- * @param {Object[]} schedule - Schedule section records to reference.
- * @param {string} name - Schedule name stored in the payload.
- * @returns {string} Prefixed share code suitable for copying or URLs.
+ * @param schedule - Schedule section records to reference.
+ * @param name - Schedule name stored in the payload.
+ * @returns Prefixed share code suitable for copying or URLs.
  * @see {@link getCurrentScheduleTerms}
  * @see {@link encodeBase64Url}
  */
-export function buildShareCode(schedule, name) {
+export function buildShareCode(schedule: HydratedSection[], name: string): string {
   return `${SHARE_CODE_PREFIX}${encodeBase64Url(JSON.stringify({ n: name, terms: getCurrentScheduleTerms(schedule) }))}`;
 }
 /**
  * Validates and decodes a share code into a bounded import payload.
  *
- * @param {string} code - Share code to parse.
- * @returns {{name: string, terms: {slug: string, slns: string[]}[]}} Parsed import data.
+ * @param code - Share code to parse.
+ * @returns Parsed import data.
  * @throws {Error} If the prefix, payload, or section list is invalid.
  * @see {@link decodeBase64Url}
  */
-export function parseShareCode(code) {
+export function parseShareCode(code: string): ParsedShareCode {
   const normalizedCode = (code || "").trim();
   if (!normalizedCode.startsWith(SHARE_CODE_PREFIX))
     throw new Error("That does not look like a Crimson Scheduler share code.");
-  const payload = JSON.parse(
+  const payload: unknown = JSON.parse(
     decodeBase64Url(normalizedCode.slice(SHARE_CODE_PREFIX.length)),
   );
+  if (!payload || typeof payload !== "object") throw new Error("Invalid share code payload.");
+  const sharePayload = payload as { n?: unknown; terms?: unknown };
   const name =
-    String(payload.n || DEFAULT_SCHEDULE_NAME)
+    String(sharePayload.n || DEFAULT_SCHEDULE_NAME)
       .trim()
       .slice(0, SCHEDULE_NAME_MAX_LENGTH) || DEFAULT_SCHEDULE_NAME;
-  const terms = [];
-  const seen = new Set();
+  const terms: ShareTerm[] = [];
+  const seen = new Set<string>();
   let totalSections = 0;
-  if (Array.isArray(payload.terms))
-    payload.terms.forEach((term) => {
+  if (Array.isArray(sharePayload.terms))
+    sharePayload.terms.forEach((term: unknown) => {
+      if (!term || typeof term !== "object") return;
+      const record = term as { slug?: unknown; slns?: unknown };
       if (
         totalSections >= MAX_SCHEDULE_SECTIONS ||
         !term ||
-        !term.slug ||
-        !Array.isArray(term.slns)
+        !record.slug ||
+        !Array.isArray(record.slns)
       )
         return;
-      const slug = String(term.slug);
-      const slns = [];
-      term.slns.forEach((sln) => {
+      const slug = String(record.slug);
+      const slns: string[] = [];
+      (record.slns as unknown[]).forEach((sln) => {
         const normalizedSln = String(sln || "");
         const key = `${slug}:${normalizedSln}`;
         if (
@@ -138,10 +157,10 @@ export function parseShareCode(code) {
 /**
  * Copies text when the browser exposes a secure clipboard API.
  *
- * @param {string} text - Text to copy.
- * @returns {Promise<boolean>} `true` when copied, otherwise `false`.
+ * @param text - Text to copy.
+ * @returns `true` when copied, otherwise `false`.
  */
-export async function copyTextToClipboard(text) {
+export async function copyTextToClipboard(text: string): Promise<boolean> {
   if (navigator.clipboard && window.isSecureContext) {
     await navigator.clipboard.writeText(text);
     return true;
@@ -152,34 +171,35 @@ export async function copyTextToClipboard(text) {
  * Fetches referenced term datasets and reconstructs schedule section records.
  * Missing section IDs are reported separately so the import flow can notify the user.
  *
- * @param {{slug: string, slns: string[]}[]} terms - Term/section references from a share code.
- * @returns {Promise<{schedule: Object[], missing_section_ids: string[]}>} Resolved schedule and missing IDs.
+ * @param terms - Term/section references from a share code.
+ * @returns Resolved schedule and missing IDs.
  * @see {@link parseShareCode}
  */
-export async function fetchScheduleForTerms(terms) {
-  const datasets = new Map();
+export async function fetchScheduleForTerms(terms: ShareTerm[]): Promise<{ schedule: HydratedSection[]; missing_section_ids: string[] }> {
+  const datasets = new Map<string, Awaited<ReturnType<typeof window.CourseApi.fetchDatasetByKey>>>();
   for (const term of terms)
     if (!datasets.has(term.slug))
-      datasets.set(term.slug, await CourseApi.fetchDatasetByKey(term.slug));
-  const matches = [];
-  const missingSectionIds = [];
+      datasets.set(term.slug, await window.CourseApi.fetchDatasetByKey(term.slug));
+  const matches: Array<{ dataset: Awaited<ReturnType<typeof window.CourseApi.fetchDatasetByKey>>; course: CatalogCourse; section: SectionIndexEntry["section"] }> = [];
+  const missingSectionIds: string[] = [];
   terms.forEach((term) => {
-    const dataset = datasets.get(term.slug);
+    const dataset = datasets.get(term.slug)!;
     term.slns.forEach((sln) => {
       const match = dataset.sectionsBySln.get(String(sln));
       if (match) matches.push({ dataset, ...match });
       else missingSectionIds.push(String(sln));
     });
   });
-  const groupedIds = new Map();
+  const groupedIds = new Map<string, string[]>();
   matches.forEach((match) => {
     const key = `${match.dataset.key}:${match.course.id}`;
-    if (!groupedIds.has(key)) groupedIds.set(key, []);
-    groupedIds.get(key).push(String(match.section.section_id));
+    const sectionIds = groupedIds.get(key) ?? [];
+    sectionIds.push(String(match.section.section_id));
+    groupedIds.set(key, sectionIds);
   });
   const schedule = matches.map((match) => {
     const key = `${match.dataset.key}:${match.course.id}`;
-    const ids = groupedIds.get(key);
+    const ids = groupedIds.get(key) ?? [];
     return {
       ...match.section,
       term_slug: match.dataset.key,
@@ -198,13 +218,12 @@ export function initializeScheduleSharing({
   setName,
   refreshSchedule,
   showSchedulePane,
-}) {
+}: ShareOptions): ShareActions {
   /**
    * Creates share/import actions wired to the schedule state and UI callbacks.
    * The returned methods are consumed by the page's sharing controls.
    *
-   * @returns {{shareScheduleCode: Function, importScheduleFromShareCode: Function}}
-   *   Sharing actions for creating and importing schedule codes.
+   * @returns Sharing actions for creating and importing schedule codes.
    * @see {@link buildShareCode}
    * @see {@link fetchScheduleForTerms}
    */
@@ -221,7 +240,7 @@ export function initializeScheduleSharing({
           window.alert("Share code copied to your clipboard.");
           return;
         }
-      } catch (error) {
+      } catch {
         /* Prompt fallback below. */
       }
       window.prompt("Copy this share code:", shareCode);
@@ -251,8 +270,9 @@ export function initializeScheduleSharing({
             `Imported ${data.schedule.length} section(s). ${data.missing_section_ids.length} section(s) could not be found.`,
           );
       } catch (error) {
-        if (error && error.rateLimited) return;
-        window.alert(error.message || "That share code could not be imported.");
+        if (error && typeof error === "object" && "rateLimited" in error && error.rateLimited) return;
+        const message = error instanceof Error ? error.message : "That share code could not be imported.";
+        window.alert(message);
       }
     },
   };

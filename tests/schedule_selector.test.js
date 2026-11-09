@@ -4,11 +4,11 @@ import {
   getActiveSchedule,
   getSchedules,
   initializeScheduleState,
-} from "../web/classes/static/js/schedule/schedule-state.js";
+} from "../web/classes/static/src/schedule/schedule-state.js";
 import {
   initializeScheduleSelector,
   refreshScheduleSelector,
-} from "../web/classes/static/js/schedule/schedule-selector.js";
+} from "../web/classes/static/src/schedule/schedule-selector.js";
 
 const click = (element) =>
   element.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
@@ -76,6 +76,18 @@ describe("schedule selector", () => {
     secondInput.value = "Discarded";
     secondInput.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
     expect(getSchedules()[0].name).toBe("Renamed");
+  });
+
+  it("discards the edited name when the cancel button is clicked", () => {
+    const edit = document.querySelector('[data-schedule-action="edit"]');
+    click(edit);
+    const input = document.querySelector(".schedule-row-input");
+    input.value = "Discarded";
+    const cancel = document.querySelector('[data-schedule-action="cancel"]');
+    click(cancel);
+    input.dispatchEvent(new FocusEvent("blur"));
+
+    expect(getSchedules()[0].name).toBe("My Schedule");
   });
 
   it("confirms deletion and keeps the final schedule protected", () => {

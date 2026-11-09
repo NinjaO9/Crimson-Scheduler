@@ -15,7 +15,7 @@ import {
   normalizeSpecifics,
   renderCourseInformation,
   rmpSearchUrl,
-} from "../web/classes/static/js/schedule/course-information.js";
+} from "../web/classes/static/src/schedule/course-information.js";
 
 const course = {
   subject: "CPT_S",

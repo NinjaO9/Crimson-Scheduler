@@ -6,7 +6,7 @@
  */
 
 import { describe, expect, it } from "vitest";
-import { getScheduleExportBackgroundColor } from "../web/classes/static/js/schedule/export-image.js";
+import { getScheduleExportBackgroundColor } from "../web/classes/static/src/schedule/export-image.js";
 
 describe("schedule image export", () => {
   it("uses the schedule pane's active theme background", () => {

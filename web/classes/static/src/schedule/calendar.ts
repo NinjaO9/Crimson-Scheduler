@@ -28,20 +28,33 @@ import {
   formatTimeRangeForDisplay,
   resolveScheduleGroups,
 } from "./time-and-meetings.js";
-import { rmpSearchUrl } from "./course-information.js"
+import { rmpSearchUrl } from "./course-information.js";
+import type { HydratedSection, Meeting } from "../types.js";
 
-let renderedBlocksByDay = {};
-let activeMobileConflictTrigger = null;
-let activeMobileCourseTrigger = null;
-let activeMobileCourse = null;
-let removeCourse = () => {};
+type TimeRange = { start: number; end: number };
+type CourseBlockElement = HTMLElement & {
+  conflictingCourses?: HydratedSection[];
+};
+type RenderedCourseBlock = {
+  element: CourseBlockElement;
+  start: number;
+  end: number;
+  course: HydratedSection;
+};
+type RemoveCourseHandler = (sectionKey: string) => void;
+
+let renderedBlocksByDay: Record<number, RenderedCourseBlock[]> = {};
+let activeMobileConflictTrigger: HTMLElement | null = null;
+let activeMobileCourseTrigger: HTMLElement | null = null;
+let activeMobileCourse: HydratedSection | null = null;
+let removeCourse: RemoveCourseHandler = () => {};
 
 /**
  * Retrieves the visible days available to the user based on the viewport and preferences.
  *
- * @returns {Array<{key: string, label: string}>} Visible days of the week that the user can see.
+ * @returns Visible days of the week that the user can see.
  */
-export function getVisibleDays() {
+export function getVisibleDays(): typeof DAYS_OF_WEEK {
   return isMobileViewport() || hidesWeekends()
     ? DAYS_OF_WEEK.filter((day) => day.key !== "S" && day.key !== "U")
     : DAYS_OF_WEEK;
@@ -50,9 +63,9 @@ export function getVisibleDays() {
 /**
  * Generates CSS grid column template for the calendar based on the current viewport size and the number of visible days.
  *
- * @returns {string} The CSS grid column template.
+ * @returns The CSS grid column template.
  */
-export function getCalendarColumnTemplate() {
+export function getCalendarColumnTemplate(): string {
   return `${isMobileViewport() ? "56px" : "82px"} repeat(${getVisibleDays().length}, ${isMobileViewport() ? "minmax(64px, 1fr)" : "minmax(96px, 1fr)"})`;
 }
 
@@ -60,10 +73,9 @@ export function getCalendarColumnTemplate() {
  * Builds the calendar header by adding the time label and visible day labels
  * to the header element, adjusting day labels for mobile viewports.
  *
- * @returns {void}
  */
-export function buildCalendarHeader() {
-  const header = document.getElementById("calendarHeader");
+export function buildCalendarHeader(): void {
+  const header = document.getElementById("calendarHeader")!;
   header.style.gridTemplateColumns = getCalendarColumnTemplate();
   header.replaceChildren(
     createElementWithText("div", "calendar-header-time", "Time"),
@@ -82,10 +94,9 @@ export function buildCalendarHeader() {
  * Initializes the calendar grid by creating hourly 
  * time slots and day cells for each visible day.
  *
- * @returns {void}
  */
-export function initializeCalendar() {
-  const calendarGrid = document.getElementById("calendarGrid");
+export function initializeCalendar(): void {
+  const calendarGrid = document.getElementById("calendarGrid")!;
   calendarGrid.replaceChildren();
   calendarGrid.style.gridTemplateColumns = getCalendarColumnTemplate();
   calendarGrid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, ${HOUR_ROW_HEIGHT}px)`;
@@ -111,13 +122,13 @@ export function initializeCalendar() {
 }
 
 /**
- * Executes the applyCourseBlockStacking operation.
+ * Determines the z-index of a given course. We want to prioritize shorter classes on top to prevent a course from being totally hidden.
  *
- * @param {*} block - Value used by applyCourseBlockStacking.
- * @param {*} timeRange - Value used by applyCourseBlockStacking.
- * @returns {*} Result produced by applyCourseBlockStacking.
+ * @param block - Value used by applyCourseBlockStacking.
+ * @param timeRange - Value used by applyCourseBlockStacking.
+ * @returns Result produced by applyCourseBlockStacking.
  */
-export function applyCourseBlockStacking(block, timeRange) {
+export function applyCourseBlockStacking(block: HTMLElement, timeRange: TimeRange): void {
   const durationMinutes = Math.max(timeRange.end - timeRange.start, 0);
   const baseZIndex = Math.max(24 * 60 - durationMinutes, 1);
   block.style.setProperty("--course-block-z-index", String(baseZIndex));
@@ -130,11 +141,11 @@ export function applyCourseBlockStacking(block, timeRange) {
 /**
  * Positions a course tooltip on the side of its block where it will remain visible inside the schedule's scroll container.
  *
- * @param {HTMLElement} block - Course block that owns the tooltip.
- * @param {HTMLElement} tooltip - Tooltip to position.
- * @returns {"above"|"below"} The selected tooltip placement.
+ * @param block - Course block that owns the tooltip.
+ * @param tooltip - Tooltip to position.
+ * @returns The selected tooltip placement.
  */
-export function positionCourseTooltip(block, tooltip) {
+export function positionCourseTooltip(block: HTMLElement, tooltip: HTMLElement): "above" | "below" {
   if (!block || !tooltip) return "below";
 
   const wasHidden = getComputedStyle(tooltip).display === "none";
@@ -178,23 +189,23 @@ export function positionCourseTooltip(block, tooltip) {
  * displaying course details and configuring interactions for desktop and mobile viewports.
  * Tracks the rendered block for conflict detection and schedule layout management.
  *
- * @param {number} dayIndex - Index of the day on which the course is scheduled.
- * @param {{start: number, end:number}} timeRange - The course time range in minutes from midnight.
- * @param {Object} courseData - Course information, supplied by courseAPI.
- * @param {{days: string, time: string}} meeting - Meeting represented by this block.
- * @returns {boolean} True if the course block was rendered successfully. Otherwise, false.
+ * @param dayIndex - Index of the day on which the course is scheduled.
+ * @param timeRange - The course time range in minutes from midnight.
+ * @param courseData - Course information, supplied by courseAPI.
+ * @param meeting - Meeting represented by this block.
+ * @returns True if the course block was rendered successfully. Otherwise, false.
  */
-export function renderCourseBlock(dayIndex, timeRange, courseData, meeting) {
+export function renderCourseBlock(dayIndex: number, timeRange: TimeRange, courseData: HydratedSection, meeting: Meeting): boolean {
   const startHour = Math.floor(timeRange.start / 60);
   const startMinute = timeRange.start % 60;
   const cell = document.getElementById(`cell-${dayIndex}-${startHour}`);
   const showInstruct = showInstructors();
   const showSection = showSections();
   if (!cell) return false;
-  const block = document.createElement(isMobileViewport() ? "button" : "div");
+  const block = document.createElement(isMobileViewport() ? "button" : "div") as CourseBlockElement;
   block.className = `course-block no-conflict${showInstruct ? " with-instructor" : ""}`;
   if (isMobileViewport()) {
-    block.type = "button";
+    if (block instanceof HTMLButtonElement) block.type = "button";
     block.setAttribute(
       "aria-label",
       `${courseData.course_code} ${meeting?.days || "Days unavailable"} | ${formatTimeRangeForDisplay(meeting?.time)}. Tap for course actions.`,
@@ -258,10 +269,9 @@ export function renderCourseBlock(dayIndex, timeRange, courseData, meeting) {
  * Renders ghost blocks to preview a course's scheduled meeting times
  * across all days and time ranges without actually adding it to the schedule.
  *
- * @param {Object} courseData - Course information supplied by courseAPI.
- * @returns {void}
+ * @param courseData - Course information supplied by courseAPI.
  */
-export function renderSectionGhost(courseData) {
+export function renderSectionGhost(courseData: HydratedSection): void {
   resolveScheduleGroups(courseData.meetings).forEach(({ dayIndexes, timeRange, meeting }) =>
     dayIndexes.forEach((dayIndex) =>
       renderGhostBlock(dayIndex, timeRange, courseData, meeting),
@@ -273,13 +283,13 @@ export function renderSectionGhost(courseData) {
  * Renders a specific ghost block in the schedule grid to preview a course's
  * scheduled time and meeting details without adding it as an active course block.
  *
- * @param {number} dayIndex - Index of the day on which the course is scheduled.
- * @param {{start: number, end: number}} timeRange - The course time range in minutes from midnight.
- * @param {Object} courseData - Course information supplied by courseAPI.
- * @param {{days: string, time: string}} meeting - Meeting represented by this block.
- * @returns {boolean} True if the ghost block was rendered successfully. Otherwise, false.
+ * @param dayIndex - Index of the day on which the course is scheduled.
+ * @param timeRange - The course time range in minutes from midnight.
+ * @param courseData - Course information supplied by courseAPI.
+ * @param meeting - Meeting represented by this block.
+ * @returns True if the ghost block was rendered successfully. Otherwise, false.
  */
-export function renderGhostBlock(dayIndex, timeRange, courseData, meeting) {
+export function renderGhostBlock(dayIndex: number, timeRange: TimeRange, courseData: HydratedSection, meeting: Meeting): boolean {
   const cell = document.getElementById(
     `cell-${dayIndex}-${Math.floor(timeRange.start / 60)}`,
   );
@@ -302,9 +312,8 @@ export function renderGhostBlock(dayIndex, timeRange, courseData, meeting) {
 /**
  * Removes all ghost course blocks from the calendar to clear previews.
  *
- * @returns {void}
  */
-export function clearSectionGhosts() {
+export function clearSectionGhosts(): void {
   document
     .querySelectorAll(".course-block.ghost")
     .forEach((block) => block.remove());
@@ -314,10 +323,10 @@ export function clearSectionGhosts() {
  * Generates a display label for a course using its course code
  * and formatted meeting times.
  *
- * @param {Object} courseData - Course information supplied by courseAPI.
- * @returns {string} The formatted course label.
+ * @param courseData - Course information supplied by courseAPI.
+ * @returns The formatted course label.
  */
-export function getCourseLabel(courseData) {
+export function getCourseLabel(courseData: HydratedSection): string {
   const meetings = Array.isArray(courseData.meetings) ? courseData.meetings : [];
   const meetingLabel = meetings
     .map((meeting) => `${meeting.days || "Days unavailable"} | ${formatTimeRangeForDisplay(meeting.time)}`)
@@ -328,10 +337,10 @@ export function getCourseLabel(courseData) {
 /**
  * Generates a label identifying a course section for removal actions.
  *
- * @param {Object} courseData - Course information supplied by courseAPI.
- * @returns {string} The course code and section number, supplied as a removal label.
+ * @param courseData - Course information supplied by courseAPI.
+ * @returns The course code and section number, supplied as a removal label.
  */
-export function getCourseRemovalLabel(courseData) {
+export function getCourseRemovalLabel(courseData: HydratedSection): string {
   return `${courseData.course_code} - ${courseData.section_num}`;
 }
 
@@ -339,10 +348,10 @@ export function getCourseRemovalLabel(courseData) {
  * Filters a course list to retain only the first occurance of eaach unique
  * section, identifying duplicates via the section ID.
  *
- * @param {Object[]} courses - The list of course objects to deduplicate.
- * @returns {Object[]} List of deduplicated courses.
+ * @param courses - The list of course objects to deduplicate.
+ * @returns List of deduplicated courses.
  */
-export function getUniqueCourses(courses) {
+export function getUniqueCourses(courses: HydratedSection[]): HydratedSection[] {
   return courses.filter(
     (course, index) =>
       courses.findIndex(
@@ -357,23 +366,23 @@ export function getUniqueCourses(courses) {
  * 
  * @see {@link getUniqueCourses}
  *
- * @param {Object} courseData - Course information supplied by courseAPI.
- * @param {Object[]} conflicts - A list of conflicts, which conflict with courseData.
- * @returns {*} A list of unique courses, all of which are conflicting.
+ * @param courseData - Course information supplied by courseAPI.
+ * @param conflicts - A list of conflicts, which conflict with courseData.
+ * @returns A list of unique courses, all of which are conflicting.
  */
-export function getConflictRemovalOptions(courseData, conflicts) {
+export function getConflictRemovalOptions(courseData: HydratedSection, conflicts: HydratedSection[]): HydratedSection[] {
   return getUniqueCourses([courseData, ...conflicts]);
 }
 
 /**
  * Creates a button for removing a course from a schedule.
  *
- * @param {Object} courseData - Course information supplied by courseAPI.
- * @param {string} className - CSS class name to apply to the button.
- * @param {(sectionId: string|number) => void} onRemove - Callback invoked with the course's section key or sectionID when the button is clicked.
- * @returns {HTMLButtonElement} The configured course removal button.
+ * @param courseData - Course information supplied by courseAPI.
+ * @param className - CSS class name to apply to the button.
+ * @param onRemove - Callback invoked with the course's section key or sectionID when the button is clicked.
+ * @returns The configured course removal button.
  */
-export function createConflictRemovalButton(courseData, className, onRemove) {
+export function createConflictRemovalButton(courseData: HydratedSection, className: string, onRemove: RemoveCourseHandler): HTMLButtonElement {
   const button = createElementWithText(
     "button",
     className,
@@ -411,10 +420,10 @@ export function createConflictRemovalButton(courseData, className, onRemove) {
  * Building a tooltip containing a course's identifying information, meeting, 
  * schedule, instructor, location, UCore, and interaction instructions.
  *
- * @param {Object} courseData - Course inforamtion supplied by courseAPI.
- * @returns {DocumentFragment} A document fragment containing the course tooltip content.
+ * @param courseData - Course inforamtion supplied by courseAPI.
+ * @returns A document fragment containing the course tooltip content.
  */
-export function buildCourseTooltip(courseData) {
+export function buildCourseTooltip(courseData: HydratedSection): DocumentFragment {
   const fragment = document.createDocumentFragment();
   appendTextElement(
     fragment,
@@ -473,11 +482,11 @@ export function buildCourseTooltip(courseData) {
  * Builds a tooltip describing a time conflict and providing removal buttons
  * for the conflicting course sections.
  *
- * @param {Object} courseData - Course associated with the conflict.
- * @param {Object[]} conflicts - Courses whose meeting times overlap with the specified course.
- * @returns {DocumentFragment} A document fragment containing the conflict message and removal options..
+ * @param courseData - Course associated with the conflict.
+ * @param conflicts - Courses whose meeting times overlap with the specified course.
+ * @returns A document fragment containing the conflict message and removal options..
  */
-export function buildConflictTooltip(courseData, conflicts) {
+export function buildConflictTooltip(courseData: HydratedSection, conflicts: HydratedSection[]): DocumentFragment {
   const fragment = document.createDocumentFragment();
   appendTextElement(fragment, "strong", "", "Time Conflict");
   appendTextElement(fragment, "div", "", "Remove a class from this conflict:");
@@ -492,12 +501,11 @@ export function buildConflictTooltip(courseData, conflicts) {
 /**
  * Opens the moble conflict sheet and displays options for removing a course.
  *
- * @param {HTMLElement} triggerBlock - Course block that triggered the conflict sheet.
- * @param {Object} courseData - Course associated with the conflict.
- * @param {Object[]} conflicts - Courses whose meeting times overlap with the specified course.
- * @returns {void}
+ * @param triggerBlock - Course block that triggered the conflict sheet.
+ * @param courseData - Course associated with the conflict.
+ * @param conflicts - Courses whose meeting times overlap with the specified course.
  */
-export function openMobileConflictSheet(triggerBlock, courseData, conflicts) {
+export function openMobileConflictSheet(triggerBlock: HTMLElement, courseData: HydratedSection, conflicts: HydratedSection[]): void {
   const sheet = document.getElementById("mobileConflictSheet");
   const subtitle = document.getElementById("mobileConflictSubtitle");
   const optionsContainer = document.getElementById("mobileConflictOptions");
@@ -530,9 +538,8 @@ export function openMobileConflictSheet(triggerBlock, courseData, conflicts) {
 /**
  * Closes the mobile conflict sheet.
  *
- * @returns {void}
  */
-export function closeMobileConflictSheet() {
+export function closeMobileConflictSheet(): void {
   const sheet = document.getElementById("mobileConflictSheet");
   if (!sheet || !sheet.classList.contains("is-open")) return;
   sheet.classList.remove("is-open");
@@ -553,11 +560,10 @@ export function closeMobileConflictSheet() {
 /**
  * Opens the mobile course details sheet, displaying information about the selected course.
  *
- * @param {HTMLElement} trigger - Element that triggered the course sheet.
- * @param {Object} courseData - Course information to display.
- * @returns {void}
+ * @param trigger - Element that triggered the course sheet.
+ * @param courseData - Course information to display.
  */
-export function openMobileCourseSheet(trigger, courseData) {
+export function openMobileCourseSheet(trigger: HTMLElement, courseData: HydratedSection): void {
   const sheet = document.getElementById("mobileCourseSheet");
   const details = document.getElementById("mobileCourseDetails");
   const removeButton = document.getElementById("mobileCourseRemove");
@@ -637,11 +643,10 @@ export function openMobileCourseSheet(trigger, courseData) {
 /**
  * Closes the mobile course details sheet.
  *
- * @param {Object} [options={}] - Options controlling the sheet's closing behavior.
- * @param {boolean} [options.restoreFocus=true] - Whether to restore focus to the triggering element.
- * @returns {void}
+ * @param [options={}] - Options controlling the sheet's closing behavior.
+ * @param [options.restoreFocus=true] - Whether to restore focus to the triggering element.
  */
-export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
+export function closeMobileCourseSheet({ restoreFocus = true }: { restoreFocus?: boolean } = {}): void {
   const sheet = document.getElementById("mobileCourseSheet");
 
   if (!sheet || !sheet.classList.contains("is-open")) return;
@@ -668,9 +673,8 @@ export function closeMobileCourseSheet({ restoreFocus = true } = {}) {
  * Removes the currently selected course from the schedule
  * and closes the mobile course details sheet without restoring focus.
  *
- * @returns {void}
  */
-export function removeActiveMobileCourse() {
+export function removeActiveMobileCourse(): void {
   if (!activeMobileCourse) return;
   const sectionId = activeMobileCourse.section_key || activeMobileCourse.section_id;
   closeMobileCourseSheet({ restoreFocus: false });
@@ -680,10 +684,10 @@ export function removeActiveMobileCourse() {
 /**
  * Adds course's scheduled meeting blocks to the schedule.
  *
- * @param {Object} courseData - Course information used to determine the scheduled meeting groups and block locations.
- * @returns {number} The number of calendar blocks succesfully rendered.
+ * @param courseData - Course information used to determine the scheduled meeting groups and block locations.
+ * @returns The number of calendar blocks succesfully rendered.
  */
-export function addCourseToCalendar(courseData) {
+export function addCourseToCalendar(courseData: HydratedSection): number {
   let renderedCount = 0;
   resolveScheduleGroups(courseData.meetings).forEach(({ dayIndexes, timeRange, meeting }) =>
     dayIndexes.forEach((dayIndex) => {
@@ -698,11 +702,10 @@ export function addCourseToCalendar(courseData) {
  * Detects overlapping course time ranged within each calendar day, highlighting conflicting blocks,
  * and updates their tooltips with course removal options.
  *
- * @returns {void}
  */
-export function applyOverlapHighlighting() {
+export function applyOverlapHighlighting(): void {
   Object.keys(renderedBlocksByDay).forEach((dayKey) => { // for every day, check for a conflict
-    const dayBlocks = renderedBlocksByDay[dayKey];
+    const dayBlocks = renderedBlocksByDay[Number(dayKey)];
     if (!dayBlocks || dayBlocks.length < 2) return;
     const conflictsByElement = new Map();
     for (let i = 0; i < dayBlocks.length; i++)
@@ -743,10 +746,9 @@ export function applyOverlapHighlighting() {
 /**
  * Calculates the total credis for the supplied schedule and updates the credit count.
  *
- * @param {Object[]} scheduleData - List of the scheduled courses.
- * @returns {void}
+ * @param scheduleData - List of the scheduled courses.
  */
-export function updateCreditCount(scheduleData) {
+export function updateCreditCount(scheduleData: HydratedSection[]): void {
   // Some courses contain a "V" rather than an actual number. This means the credit varies.
   // We can calculate the 'static' credit count (How much we are confident we can get)
   // Then, we can calculate the varied amount (Basically, how many courses do we have that contain "V")
@@ -776,19 +778,18 @@ export function updateCreditCount(scheduleData) {
     creditText = String(`${totalStatic + (minimumVariedCredit * totalVaried)} - ${totalStatic + (maximumVariedCredit * totalVaried)}`);
   }
 
-  document.getElementById("creditCount").textContent = creditText;
+  document.getElementById("creditCount")!.textContent = creditText;
 }
 
 /**
  * Render the list of unscheduled courses.
  *
- * @param {Object[]} items - List of unscheduled course objects to display.
- * @returns {void}
+ * @param items - List of unscheduled course objects to display.
  */
-export function renderMiscList(items) {
-  const miscList = document.getElementById("miscList");
+export function renderMiscList(items: HydratedSection[]): void {
+  const miscList = document.getElementById("miscList")!;
   const countLabel = `(${items.length})`;
-  document.getElementById("miscCount").textContent = countLabel;
+  document.getElementById("miscCount")!.textContent = countLabel;
   const mobileCount = document.getElementById("mobileMiscCount");
   if (mobileCount) mobileCount.textContent = countLabel;
   if (!items.length) { // Default text if there are no items
@@ -868,18 +869,17 @@ export function renderMiscList(items) {
  * Renders the complete schedule by rebuilding the schedule, placing scheduled courses,
  * finding overlaps, updating the credit count, and displaying misc. courses.
  *
- * @param {Object[]} scheduleData - List of course objects in the schedule.
- * @param {Object} options - Configuration options for rendering the schedule.
- * @param {(sectionId: string|number) => void)} { options.onRemove } - Configuration options for rendering the schedule.
- * @returns {void}
+ * @param scheduleData - List of course objects in the schedule.
+ * @param options - Configuration options for rendering the schedule.
+ * @param options.onRemove - Callback used to remove a section from the schedule.
  */
-export function renderSchedule(scheduleData, { onRemove }) {
+export function renderSchedule(scheduleData: HydratedSection[], { onRemove }: { onRemove: RemoveCourseHandler }): void {
   removeCourse = onRemove;
   clearSectionGhosts();
   renderedBlocksByDay = {};
   buildCalendarHeader();
   initializeCalendar();
-  const miscItems = [];
+  const miscItems: HydratedSection[] = [];
   scheduleData.forEach((course) => {
     if (addCourseToCalendar(course) === 0) miscItems.push(course);
   });

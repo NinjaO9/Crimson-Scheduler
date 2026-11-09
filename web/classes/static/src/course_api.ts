@@ -1,12 +1,15 @@
+import type {
+    CatalogCourse, Course, CourseApi as CourseApiContract, CourseDataset,
+    CourseFilters, Meeting, RawCatalogPayload, RawCourse, RawSection,
+    Section, SectionIndexEntry,
+} from "./types.js";
+
 /**
  * @fileoverview Loads, normalizes, caches, and filters published course catalog data.
  * @version      1.0.0
  * @package      CrimsonScheduler
  * @author       NinjaO9
  */
-
-(function(window) {
-    'use strict';
 
     const API_BASE_URL = 'https://ninjao9.github.io/Crimson-Scheduler/api/v1/';
     const courseCache = new Map();
@@ -19,10 +22,10 @@
 
     /**
      * Converts arbitrary text into a lowercase URL slug.
-     * @param {string} value - Text to normalize.
-     * @returns {string} Hyphen-separated slug.
+     * @param value - Text to normalize.
+     * @returns Hyphen-separated slug.
      */
-    function slugify(value) {
+    function slugify(value: string): string {
         return String(value || '')
             .trim()
             .toLowerCase()
@@ -31,49 +34,49 @@
     }
 
     /** Builds the published JSON URL for a campus/term dataset.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @returns {string} Dataset URL.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @returns Dataset URL.
      * @see {@link slugify}
      */
-    function campusTermUrl(campus, term) {
+    function campusTermUrl(campus: string, term: string): string {
         return `${API_BASE_URL}courses/${slugify(campus)}-${slugify(term)}.json`;
     }
 
     /** Creates the cache key shared by dataset fetches.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @returns {string} Normalized dataset key.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @returns Normalized dataset key.
      */
-    function datasetKey(campus, term) {
+    function datasetKey(campus: string, term: string): string {
         return `${slugify(campus)}-${slugify(term)}`;
     }
 
     /** Converts nullable values to trimmed text with a fallback.
-     * @param {unknown} value - Value to convert.
-     * @param {string} [fallback=''] - Text used for nullish input.
-     * @returns {string} Trimmed text.
+     * @param value - Value to convert.
+     * @param [fallback=''] - Text used for nullish input.
+     * @returns Trimmed text.
      */
-    function text(value, fallback) {
+    function text(value: unknown, fallback = ''): string {
         if (value === null || value === undefined) return fallback || '';
         return String(value).trim();
     }
 
     /** Creates a stable term/section lookup key.
-     * @param {string} termSlug - Term slug.
-     * @param {string|number} sectionId - Section identifier.
-     * @returns {string} Composite section key.
+     * @param termSlug - Term slug.
+     * @param sectionId - Section identifier.
+     * @returns Composite section key.
      */
-    function sectionKey(termSlug, sectionId) {
+    function sectionKey(termSlug: string, sectionId: string | number): string {
         return `${slugify(termSlug)}:${text(sectionId)}`;
     }
 
     /** Shallow-copies arrays and objects so normalized data is detached from the payload.
-     * @param {unknown} value - Value to copy.
-     * @param {unknown} fallback - Value used for nullish input.
-     * @returns {*} Copied value or fallback.
+     * @param value - Value to copy.
+     * @param fallback - Value used for nullish input.
+     * @returns Copied value or fallback.
      */
-    function copyValue(value, fallback) {
+    function copyValue(value: unknown, fallback: unknown): unknown {
         if (value === null || value === undefined) return fallback;
         if (Array.isArray(value)) {
             return value.map(item => {
@@ -86,10 +89,10 @@
     }
 
     /** Normalizes explicit meeting records from a raw catalog section.
-     * @param {unknown} meetings - Raw `meetings` payload value.
-     * @returns {{days: string, time: string}[]} Normalized meeting records.
+     * @param meetings - Raw `meetings` payload value.
+     * @returns Normalized meeting records.
      */
-    function normalizeMeetings(meetings) {
+    function normalizeMeetings(meetings: unknown): Meeting[] {
         if (!Array.isArray(meetings)) return [];
         return meetings
             .filter(meeting => meeting && typeof meeting === 'object')
@@ -101,13 +104,13 @@
     }
 
     /** Normalizes one raw catalog section into the UI's section schema.
-     * @param {Object} section - Raw section payload.
-     * @param {Object} course - Parent raw course payload.
-     * @param {number} index - Section index used for fallback IDs.
-     * @returns {Object} Normalized section record.
+     * @param section - Raw section payload.
+     * @param course - Parent raw course payload.
+     * @param index - Section index used for fallback IDs.
+     * @returns Normalized section record.
      * @see {@link copyValue}
      */
-    function normalizeSection(section, course, index) {
+    function normalizeSection(section: RawSection, course: RawCourse, index: number): Section {
         const seats = section && section.seats ? section.seats : {};
         const sectionId = text(section && (section.sectionId || section.sln), `section-${index}`);
 
@@ -126,9 +129,9 @@
             ucore: text(section && section.ucore, ''),
             component: text(section && section.component, 'Lecture'),
             meetings: normalizeMeetings(section && section.meetings),
-            instructors: copyValue(section && section.instructors, []),
-            coop: section && section.coop !== undefined ? section.coop : '',
-            footnotes: copyValue(section && section.footnotes, ''),
+            instructors: Array.isArray(section?.instructors) ? section.instructors : [],
+            coop: Boolean(section && section.coop !== undefined ? section.coop : false),
+            footnotes: text(copyValue(section && section.footnotes, ""), ""),
             dates: {
                 start: text(section && section.dates && section.dates.start),
                 end: text(section && section.dates && section.dates.end)
@@ -137,14 +140,14 @@
     }
 
     /** Normalizes a raw course and separates lecture and lab sections.
-     * @param {Object} course - Raw course payload.
-     * @param {string} subjectName - Subject inherited from the payload group.
-     * @param {string|number} index - Stable index used in the course ID.
-     * @returns {Object} Normalized course record.
+     * @param course - Raw course payload.
+     * @param subjectName - Subject inherited from the payload group.
+     * @param index - Stable index used in the course ID.
+     * @returns Normalized course record.
      * @see {@link normalizeSection}
      */
-    function normalizeCourse(course, subjectName, index) {
-        const sections = Array.isArray(course && course.sections) ? course.sections : [];
+    function normalizeCourse(course: RawCourse, subjectName: string, index: string | number): Course {
+        const sections: RawSection[] = Array.isArray(course?.sections) ? course.sections : [];
         const courseCode = text(course && course.courseCode, `${text(course && (course.subject || subjectName))} ${text(course && course.courseNumber)}`.trim());
         const id = `course-${slugify(courseCode)}-${index}`;
         const normalizedSections = sections.map((section, sectionIndex) => (
@@ -166,16 +169,16 @@
     }
 
     /** Flattens and normalizes all subjects and courses in an API payload.
-     * @param {Object} payload - Raw catalog payload.
-     * @returns {Object[]} Normalized courses, or an empty array for invalid payloads.
+     * @param payload - Raw catalog payload.
+     * @returns Normalized courses, or an empty array for invalid payloads.
      * @see {@link normalizeCourse}
      */
-    function normalizePayload(payload) {
-        if (!payload || !Array.isArray(payload.subjects)) return [];
+    function normalizePayload(payload: unknown): Course[] {
+        if (!payload || typeof payload !== 'object' || !('subjects' in payload) || !Array.isArray(payload.subjects)) return [];
 
-        return payload.subjects.reduce((courses, subject) => {
+        return (payload as RawCatalogPayload).subjects!.reduce<Course[]>((courses, subject) => {
             const subjectName = text(subject && subject.subject);
-            const subjectCourses = Array.isArray(subject && subject.courses) ? subject.courses : [];
+            const subjectCourses: RawCourse[] = Array.isArray(subject?.courses) ? subject.courses : [];
             subjectCourses.forEach((course, index) => {
                 courses.push(normalizeCourse(course, subjectName, `${courses.length}-${index}`));
             });
@@ -184,10 +187,10 @@
     }
 
     /** Produces canonical searchable text for query matching.
-     * @param {unknown} value - Value to normalize.
-     * @returns {string} Lowercase alphanumeric search text.
+     * @param value - Value to normalize.
+     * @returns Lowercase alphanumeric search text.
      */
-    function normalizeSearchText(value) {
+    function normalizeSearchText(value: unknown): string {
         return text(value)
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, ' ')
@@ -196,22 +199,22 @@
     }
 
     /** Checks whether a subject matches a configured shorthand.
-     * @param {string} subject - Full subject name/code.
-     * @param {string} shorthand - User-entered shorthand.
-     * @returns {boolean} Whether the shorthand maps to the subject.
+     * @param subject - Full subject name/code.
+     * @param shorthand - User-entered shorthand.
+     * @returns Whether the shorthand maps to the subject.
      * @see {@link normalizeSearchText}
      */
-    function subjectMatchesShorthand(subject, shorthand) {
+    function subjectMatchesShorthand(subject: string, shorthand: string): boolean {
         const mappedSubject = SUBJECT_SHORTHANDS.get(shorthand);
         return (mappedSubject && normalizeSearchText(mappedSubject) === normalizeSearchText(subject)) 
         || normalizeSearchText(subject) === normalizeSearchText(shorthand); // Adding this just incase a shorthand is exactly a subject. Should fix the issue with Vancouver not showing CS courses when typing "CS"
     }
 
     /** Classifies a section as open, near-capacity, or full.
-     * @param {Object} section - Section with available and total seats.
-     * @returns {string} Availability category.
+     * @param section - Section with available and total seats.
+     * @returns Availability category.
      */
-    function getSectionAvailability(section) {
+    function getSectionAvailability(section: Section): string {
         const fillFactor = 1 - Number(section.seats_available)/Number(section.seats_total); // Dont ask me why
         if (fillFactor >= 1) return 'full';
         if (fillFactor < 1 && fillFactor >= 0.75) return 'near-capacity'; // 75% =< x < 100%
@@ -219,10 +222,10 @@
     }
 
     /** Infers delivery mode from meeting records and location.
-     * @param {Object} section - Section with meetings and location.
-     * @returns {string} `arranged`, `online`, or `in-person`.
+     * @param section - Section with meetings and location.
+     * @returns `arranged`, `online`, or `in-person`.
      */
-    function getSectionDelivery(section) {
+    function getSectionDelivery(section: Section): string {
         const meeting = sectionMeetings(section)
             .map(({ days, time }) => `${text(days)} ${text(time)}`)
             .join(' ')
@@ -234,26 +237,26 @@
     }
 
     /** Reads the UCORE designation used by filtering.
-     * @param {Object} section - Normalized section.
-     * @returns {string} UCORE code or an empty string.
+     * @param section - Normalized section.
+     * @returns UCORE code or an empty string.
      */
-    function getSectionUcore(section) {
+    function getSectionUcore(section: Section): string {
         return section.ucore;
     }
 
     /** Returns normalized explicit meetings.
-     * @param {Object} section - Section record.
-     * @returns {Object[]} Meeting records.
+     * @param section - Section record.
+     * @returns Meeting records.
      */
-    function sectionMeetings(section) {
+    function sectionMeetings(section: Section): Meeting[] {
         return Array.isArray(section && section.meetings) ? section.meetings : [];
     }
 
     /** Converts day abbreviations into normalized weekday letters.
-     * @param {string} days - Day text.
-     * @returns {string[]} Day letters.
+     * @param days - Day text.
+     * @returns Day letters.
      */
-    function meetingDays(days) {
+    function meetingDays(days: string): string[] {
         return text(days)
             .toUpperCase()
             .replace(/TH/g, 'R')
@@ -265,10 +268,10 @@
     }
 
     /** Extracts a decimal start hour from a time string.
-     * @param {string} time - Meeting time text.
-     * @returns {number|null} Decimal hour or `null` when invalid.
+     * @param time - Meeting time text.
+     * @returns Decimal hour or `null` when invalid.
      */
-    function meetingStartHour(time) {
+    function meetingStartHour(time: string): number | null {
         const match = text(time).match(/\b(\d{1,2}):(\d{2})\b/);
         if (!match) return null;
         const hours = Number(match[1]);
@@ -278,11 +281,11 @@
     }
 
     /** Maps a meeting start time to a filter time band.
-     * @param {string} time - Meeting time text.
-     * @returns {string} `morning`, `afternoon`, `evening`, `night`, or empty.
+     * @param time - Meeting time text.
+     * @returns `morning`, `afternoon`, `evening`, `night`, or empty.
      * @see {@link meetingStartHour}
      */
-    function startTimeBand(time) {
+    function startTimeBand(time: string): string {
         const hour = meetingStartHour(time);
         if (hour === null) return '';
         if (hour < 12) return 'morning';
@@ -292,11 +295,11 @@
     }
 
     /** Tests lecture meetings against selected day and time-band filters.
-     * @param {Object} section - Lecture section to test.
-     * @param {{days: string[], startTimeBands: string[]}} options - Meeting filters.
-     * @returns {boolean} Whether at least one meeting matches.
+     * @param section - Lecture section to test.
+     * @param options - Meeting filters.
+     * @returns Whether at least one meeting matches.
      */
-    function lectureMeetingMatches(section, options) {
+    function lectureMeetingMatches(section: Section, options: { days: string[]; startTimeBands: string[] }): boolean {
         const selectedDays = options.days;
         const selectedStartTimeBands = options.startTimeBands;
         if (!selectedDays.length && !selectedStartTimeBands.length) return true;
@@ -311,12 +314,12 @@
     }
 
     /** Scores a course against a normalized text query.
-     * @param {Object} course - Normalized course record.
-     * @param {string} query - User search query.
-     * @returns {{matches: boolean, score: number}} Match result and sort score.
+     * @param course - Normalized course record.
+     * @param query - User search query.
+     * @returns Match result and sort score.
      * @see {@link subjectMatchesShorthand}
      */
-    function matchesQuery(course, query) {
+    function matchesQuery(course: CatalogCourse, query: string): { matches: boolean; score: number } {
         if (!query) return { matches: true, score: 5 };
         const queryText = normalizeSearchText(query);
         const queryCompact = queryText.replace(/\s/g, '');
@@ -351,13 +354,13 @@
     }
 
 /** Tests section-level availability, delivery, and UCORE filters.
- * @param {Object} section - Section to test.
- * @param {{availability: string[], delivery: string[], ucore: string[]}} options - Filter options.
- * @returns {boolean} Whether the section satisfies all selected filters.
+ * @param section - Section to test.
+ * @param options - Filter options.
+ * @returns Whether the section satisfies all selected filters.
  * @see {@link getSectionAvailability}
  * @see {@link getSectionDelivery}
  */
-function sectionMatches(section, options) {
+function sectionMatches(section: Section, options: { availability: string[]; delivery: string[]; ucore: string[] }): boolean {
     const availability = getSectionAvailability(section);
     const delivery = getSectionDelivery(section);
     const ucore = getSectionUcore(section);
@@ -386,14 +389,14 @@ function sectionMatches(section, options) {
 }
 
     /** Filters, scores, sorts, and limits normalized course results.
-     * @param {Object[]} courses - Courses to search.
-     * @param {Object} [filters={}] - Query and section filter arrays.
-     * @returns {Object[]} Matching courses with only matching sections retained.
+     * @param courses - Courses to search.
+     * @param [filters={}] - Query and section filter arrays.
+     * @returns Matching courses with only matching sections retained.
      * @see {@link matchesQuery}
      * @see {@link sectionMatches}
      * @see {@link lectureMeetingMatches}
      */
-    function filterCourses(courses, filters) {
+    function filterCourses(courses: CatalogCourse[], filters: CourseFilters = {}): CatalogCourse[] {
         const options = filters || {};
         const query = text(options.q).toLowerCase();
         const sectionOptions = {
@@ -425,21 +428,25 @@ function sectionMatches(section, options) {
                     _searchScore: queryMatch.score
                 };
             })
-            .filter(Boolean)
+            .filter((course): course is NonNullable<typeof course> => Boolean(course))
             .sort((left, right) => (
                 left._searchScore - right._searchScore
                 || text(left.course_code).localeCompare(text(right.course_code))
             ))
-            .map(({ _searchScore, ...course }) => course)
+            .map((course) => {
+                const result = { ...course };
+                Reflect.deleteProperty(result, "_searchScore");
+                return result;
+            })
             .slice(0, options.limit || RESULT_LIMIT);
     }
 
     /** Indexes lecture and lab sections by section ID for schedule hydration.
-     * @param {Object[]} courses - Normalized courses.
-     * @returns {Map<string, {course: Object, section: Object}>} Section lookup map.
+     * @param courses - Normalized courses.
+     * @returns Section lookup map.
      */
-    function indexSections(courses) {
-        const sectionsBySln = new Map();
+    function indexSections(courses: CatalogCourse[]): Map<string, SectionIndexEntry> {
+        const sectionsBySln = new Map<string, SectionIndexEntry>();
         courses.forEach(course => {
             [...course.lecture_sections, ...course.lab_sections].forEach(section => {
                 sectionsBySln.set(String(section.section_id), { course, section });
@@ -449,13 +456,13 @@ function sectionMatches(section, options) {
     }
 
     /** Fetches, normalizes, indexes, and caches one term dataset.
-     * @param {string} key - Dataset term key.
-     * @param {{reload?: boolean, signal?: AbortSignal}} [options={}] - Cache and fetch options.
-     * @returns {Promise<{key: string, courses: Object[], sectionsBySln: Map}>} Normalized dataset.
+     * @param key - Dataset term key.
+     * @param [options={}] - Cache and fetch options.
+     * @returns Normalized dataset.
      * @see {@link normalizePayload}
      * @see {@link indexSections}
      */
-    async function fetchDatasetByKey(key, options) {
+    async function fetchDatasetByKey(key: string, options: { reload?: boolean; signal?: AbortSignal } = {}): Promise<CourseDataset> {
         const requestOptions = options || {};
         if (!requestOptions.reload && courseCache.has(key)) return courseCache.get(key);
 
@@ -467,50 +474,56 @@ function sectionMatches(section, options) {
             throw new Error(`Course data request failed with status ${response.status}.`);
         }
 
-        let payload;
+        let payload: unknown;
         try {
             payload = await response.json();
-        } catch (error) {
+        } catch {
             throw new Error('Course data response was not valid JSON.');
         }
 
-        const courses = normalizePayload(payload);
-        courses.forEach(course => {
-            course.term_slug = key;
-            [...course.lecture_sections, ...course.lab_sections].forEach(section => {
-                section.term_slug = key;
-                section.section_key = sectionKey(key, section.section_id);
-            });
-        });
+        const courses: CatalogCourse[] = normalizePayload(payload).map((course) => ({
+            ...course,
+            term_slug: key,
+            lecture_sections: course.lecture_sections.map((section) => ({
+                ...section,
+                term_slug: key,
+                section_key: sectionKey(key, section.section_id),
+            })),
+            lab_sections: course.lab_sections.map((section) => ({
+                ...section,
+                term_slug: key,
+                section_key: sectionKey(key, section.section_id),
+            })),
+        }));
         const dataset = { key, courses, sectionsBySln: indexSections(courses) };
         courseCache.set(key, dataset);
         return dataset;
     }
 
     /** Fetches a dataset using normalized campus and term identifiers.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @param {Object} [options] - Options forwarded to {@link fetchDatasetByKey}.
-     * @returns {Promise<Object>} Normalized dataset.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @param [options] - Options forwarded to {@link fetchDatasetByKey}.
+     * @returns Normalized dataset.
      * @see {@link datasetKey}
      */
-    async function fetchDataset(campus, term, options) {
+    async function fetchDataset(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CourseDataset> {
         return fetchDatasetByKey(datasetKey(campus, term), options);
     }
 
     /** Fetches a campus/term dataset and returns its course list.
-     * @param {string} campus - Campus identifier.
-     * @param {string} term - Term identifier.
-     * @param {Object} [options] - Fetch/cache options.
-     * @returns {Promise<Object[]>} Normalized courses.
+     * @param campus - Campus identifier.
+     * @param term - Term identifier.
+     * @param [options] - Fetch/cache options.
+     * @returns Normalized courses.
      * @see {@link fetchDataset}
      */
-    async function fetchCourses(campus, term, options) {
+    async function fetchCourses(campus: string, term: string, options?: { reload?: boolean; signal?: AbortSignal }): Promise<CatalogCourse[]> {
         const dataset = await fetchDataset(campus, term, options);
         return dataset.courses;
     }
 
-    window.CourseApi = {
+    export const CourseApi: CourseApiContract = {
         campusTermUrl,
         datasetKey,
         fetchDataset,
@@ -529,4 +542,3 @@ function sectionMatches(section, options) {
         normalizeSection,
         subjectShorthands: SUBJECT_SHORTHANDS
     };
-})(window);

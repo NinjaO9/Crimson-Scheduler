@@ -17,18 +17,19 @@ import {
   renameSchedule,
   switchSchedule,
 } from "./schedule-state.js";
+import type { ScheduleRecord } from "../types.js";
 
-let changeHandler = null;
-let selectorButton = null;
-let isEditing = false;
+type ScheduleChangeHandler = () => void | Promise<void>;
+type IconAction = "edit" | "delete" | "save" | "cancel";
+
+let changeHandler: ScheduleChangeHandler | null = null;
+let selectorButton: HTMLButtonElement | null = null;
 
 /**
  * Takes a name of a schedule, and normalizes it to ensure nothing unexprected happens later
  * 
- * @param {*} value - value to be normalized into a string.
- * @returns {string} - Normalized string of the input value.
  */
-function normalizeName(value) {
+function normalizeName(value: unknown): string {
   return String(value || DEFAULT_SCHEDULE_NAME)
     .trim()
     .slice(0, SCHEDULE_NAME_MAX_LENGTH) || DEFAULT_SCHEDULE_NAME;
@@ -37,9 +38,8 @@ function normalizeName(value) {
 /**
  * Closes the schedule selector
  * 
- * @returns {void}
  */
-function closeSelector() {
+function closeSelector(): void {
   if (!selectorButton) return;
   selectorButton.setAttribute("aria-expanded", "false");
   const menu = document.getElementById("scheduleSelectorMenu");
@@ -49,9 +49,8 @@ function closeSelector() {
 /**
  * Updates the button on the site to reflect the active schedule name.
  * 
- * @returns {void}
  */
-function updateButtonLabel() {
+function updateButtonLabel(): void {
   const active = getActiveSchedule();
   const label = document.getElementById("scheduleSelectorLabel");
   if (!label || !active) return;
@@ -63,13 +62,8 @@ function updateButtonLabel() {
 /**
  * Brief utility (may need to move later) to create a button that is expected to have an icon.
  * 
- * @param {string} action - Key for getting svg. 
- * @param {Object} schedule - Schedule... button that this icon button will be added to .
- * @param {string} label - Aria label for button.
- * @param {string} icon - Fallback icon incase the action does not map to an svg.
- * @returns {HTMLButtonElement} - The button that was created.
  */
-function makeIconButton(action, schedule, label, icon) {
+function makeIconButton(action: IconAction, schedule: ScheduleRecord, label: string, icon: string): HTMLButtonElement {
   const button = document.createElement("button");
   button.type = "button";
   button.className = `schedule-row-action schedule-row-${action}`;
@@ -77,7 +71,7 @@ function makeIconButton(action, schedule, label, icon) {
   button.dataset.scheduleId = schedule.id;
   button.setAttribute("aria-label", `${label} ${schedule.name}`);
   button.title = label;
-  const iconSvg = {
+  const iconSvg: Record<IconAction, string> = {
     edit: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 16.5-.8 3.3 3.3-.8L18.8 6.7a2.2 2.2 0 0 0-3.1-3.1L4 16.5Z"/><path d="m14.5 5.5 4 4"/></svg>',
     delete: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M7 7l1 13h8l1-13M10 11v5M14 11v5"/></svg>',
     save: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>',
@@ -87,7 +81,7 @@ function makeIconButton(action, schedule, label, icon) {
   return button;
 }
 
-function beginRename(row, schedule) {
+function beginRename(row: HTMLElement, schedule: ScheduleRecord): void {
   if (row.classList.contains("is-editing")) return;
   row.classList.add("is-editing");
   const name = row.querySelector(".schedule-row-name");
@@ -110,14 +104,22 @@ function beginRename(row, schedule) {
   input.select();
 
   let finished = false;
-  isEditing = true;
-  const finish = (save) => {
+  const finish = (save: boolean): void => {
     if (finished) return;
-    isEditing = false;
     finished = true;
     if (save) renameSchedule(schedule.id, normalizeName(input.value));
     renderScheduleSelector();
   };
+  saveButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    finish(true);
+  });
+  cancelButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    finish(false);
+  });
   input.addEventListener("blur", () => finish(true));
   input.addEventListener("keydown", (event) => {
     // So Bootstrap dropdowns close out by default when pressing space.
@@ -136,7 +138,7 @@ function beginRename(row, schedule) {
     }
   });
   
-  const keepDropdownOpen = (event) => {
+  const keepDropdownOpen = (event: MouseEvent): void => {
     // Quick fix for preventing dropdown from disappearing when trying to edit names
     event.stopPropagation();
     event.stopImmediatePropagation();
@@ -148,9 +150,8 @@ function beginRename(row, schedule) {
 /**
  * Renders the schedule selector, using the user's current schedules.
  * 
- * @returns {void}
  */
-function renderScheduleSelector() {
+function renderScheduleSelector(): void {
   const list = document.getElementById("scheduleSelectorList");
   if (!list) return;
 
@@ -195,11 +196,10 @@ function renderScheduleSelector() {
 /**
  * Handles actions that can be preformed by the selector.
  * 
- * @param {Event} event - Click event from a user pressing a schedule selector action.
- * @returns {void}
  */
-async function handleScheduleAction(event) {
-  const target = event.target.closest("[data-schedule-action]");
+async function handleScheduleAction(event: MouseEvent): Promise<void> {
+  if (!(event.target instanceof Element)) return;
+  const target = event.target.closest<HTMLElement>("[data-schedule-action]");
   if (!target) return;
   event.preventDefault();
   event.stopPropagation();
@@ -208,17 +208,8 @@ async function handleScheduleAction(event) {
   const schedule = getSchedules().find((item) => item.id === scheduleId);
 
   if (action === "edit" && schedule) {
-    beginRename(target.closest(".schedule-row"), schedule);
-    return;
-  }
-
-  if (action === "save" || action === "cancel") {
-    const row = target.closest(".schedule-row");
-    const input = row && row.querySelector(".schedule-row-input");
-    if (input) {
-      if (action === "save") renameSchedule(scheduleId, normalizeName(input.value));
-      renderScheduleSelector();
-    }
+    const row = target.closest<HTMLElement>(".schedule-row");
+    if (row) beginRename(row, schedule);
     return;
   }
 
@@ -255,41 +246,38 @@ async function handleScheduleAction(event) {
 /**
  * Prepares the schedule selector for user interaction. Should only run once.
  * 
- * @param {Function} [options.onScheduleChange] - Action to be preformed when the schedule is modified. 
- * @returns {void}
  */
-export function initializeScheduleSelector({ onScheduleChange } = {}) {
-  selectorButton = document.getElementById("scheduleSelectorButton");
+export function initializeScheduleSelector(
+  { onScheduleChange }: { onScheduleChange?: ScheduleChangeHandler } = {},
+): void {
+  const button = document.querySelector<HTMLButtonElement>("#scheduleSelectorButton");
   const menu = document.getElementById("scheduleSelectorMenu");
-  if (!selectorButton || !menu) return;
+  if (!button || !menu) return;
 
-  changeHandler = onScheduleChange;
+  selectorButton = button;
+  changeHandler = onScheduleChange ?? null;
   renderScheduleSelector();
   document.addEventListener("click", handleScheduleAction);
 
   selectorButton.addEventListener("click", () => {
-    const expanded = selectorButton.getAttribute("aria-expanded") === "true";
-    selectorButton.setAttribute("aria-expanded", String(!expanded));
+    const expanded = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!expanded));
   });
 }
 
 /**
  * Wrapper of refreshScheduleSelector to make more syntactic (?) sense when updating the selector.
  * 
- * @returns {void}
  */
-export function refreshScheduleSelector() {
+export function refreshScheduleSelector(): void {
   renderScheduleSelector();
 }
 
 /**
  * Sets the name of the active schedule.
  * 
- * @param {string} name - Name to change the active schedule to. 
- * 
- * @returns {void}
  */
-export function setScheduleSelectorName(name) {
+export function setScheduleSelectorName(name: string): void {
   const active = getActiveSchedule();
   if (active) renameSchedule(active.id, normalizeName(name));
   renderScheduleSelector();

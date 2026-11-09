@@ -9,13 +9,13 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   closeMobileCourseSheet,
   openMobileCourseSheet,
-} from "../web/classes/static/js/schedule/calendar.js";
+} from "../web/classes/static/src/schedule/calendar.js";
 import {
   closeMobileMiscSheet,
   isGoogleOrChromeMobileApp,
   openMobileMiscSheet,
   syncMobileMiscPanel,
-} from "../web/classes/static/js/schedule/responsive.js";
+} from "../web/classes/static/src/schedule/responsive.js";
 
 const setMobileViewport = (matches) => {
   window.matchMedia = vi.fn(() => ({ matches }));
