@@ -11,11 +11,12 @@ import {
   SCHEDULE_WORKSPACE_STORAGE_KEY,
   SCHEDULE_WORKSPACE_VERSION,
 } from "./constants.js";
+import type { CourseDataset, HydratedSection, HydrationResult, ScheduleRecord, ScheduleWorkspace, SectionReference } from "../types.js";
 
-let currentWorkspace = null;
-const sectionRecordsByKey = new Map();
-let scheduleSectionOrder = [];
-const failedTermKeys = new Set();
+let currentWorkspace: ScheduleWorkspace | null = null;
+const sectionRecordsByKey = new Map<string, HydratedSection>();
+let scheduleSectionOrder: string[] = [];
+const failedTermKeys = new Set<string>();
 
 /**
  * Returns the stable term/section key used by the runtime indexes.
@@ -23,7 +24,7 @@ const failedTermKeys = new Set();
  * @param {Object} section - Section record containing `term_slug` and `section_id`.
  * @returns {string|null} Existing section key, derived key, or `null` for invalid data.
  */
-function getSectionRecordKey(section) {
+function getSectionRecordKey(section: Partial<HydratedSection> | null | undefined): string | null {
   if (!section || !section.section_id || !section.term_slug) return null;
   if (section.section_key) return String(section.section_key);
   return `${String(section.term_slug)}:${String(section.section_id)}`;
@@ -34,7 +35,7 @@ function getSectionRecordKey(section) {
  *
  * @returns {Object|null} Active schedule metadata, or `null` before initialization.
  */
-function getActiveScheduleRecord() {
+function getActiveScheduleRecord(): ScheduleRecord | null {
   if (!currentWorkspace || !currentWorkspace.schedules) return null;
   return currentWorkspace.schedules[currentWorkspace.active_schedule_id] || null;
 }
@@ -44,10 +45,10 @@ function getActiveScheduleRecord() {
  *
  * @returns {Object[]} Hydrated schedule sections currently in memory.
  */
-function getRuntimeSchedule() {
+function getRuntimeSchedule(): HydratedSection[] {
   return scheduleSectionOrder
     .map((key) => sectionRecordsByKey.get(key))
-    .filter(Boolean);
+    .filter((section): section is HydratedSection => Boolean(section));
 }
 
 /**
@@ -57,7 +58,7 @@ function getRuntimeSchedule() {
  * @returns {void}
  * @see {@link isValidCourseEntry}
  */
-function replaceRuntimeSchedule(scheduleData) {
+function replaceRuntimeSchedule(scheduleData: HydratedSection[]): void {
   sectionRecordsByKey.clear();
   scheduleSectionOrder = [];
   addRuntimeSections(scheduleData);
@@ -70,8 +71,8 @@ function replaceRuntimeSchedule(scheduleData) {
  * @returns {Object[]} Records actually added.
  * @see {@link isValidCourseEntry}
  */
-function addRuntimeSections(sectionData) {
-  const additions = [];
+function addRuntimeSections(sectionData: HydratedSection[]): HydratedSection[] {
+  const additions: HydratedSection[] = [];
   (Array.isArray(sectionData) ? sectionData : []).forEach((entry) => {
     if (!isValidCourseEntry(entry)) return;
     const key = getSectionRecordKey(entry);
@@ -89,7 +90,7 @@ function addRuntimeSections(sectionData) {
  * @param {Object} reference - Reference containing term and section IDs.
  * @returns {string} Composite reference key.
  */
-function sectionReferenceKey(reference) {
+function sectionReferenceKey(reference: SectionReference): string {
   return `${String(reference.term_slug)}:${String(reference.section_id)}`;
 }
 
@@ -99,7 +100,7 @@ function sectionReferenceKey(reference) {
  * @param {Object} entry - Section entry to reduce.
  * @returns {Object|null} Persistable reference, or `null` for invalid input.
  */
-function toSectionReference(entry) {
+function toSectionReference(entry: Partial<HydratedSection> | null | undefined): SectionReference | null {
   if (!entry || !entry.section_id || !entry.term_slug) return null;
   return {
     term_slug: String(entry.term_slug),
@@ -114,9 +115,9 @@ function toSectionReference(entry) {
  * @param {Object[]} scheduleData - Section entries to convert.
  * @returns {{sectionRefs: Object[], excludedCount: number}} References and invalid-entry count.
  */
-function createSectionReferences(scheduleData) {
-  const seen = new Set();
-  const sectionRefs = [];
+function createSectionReferences(scheduleData: Array<Partial<HydratedSection> & Partial<SectionReference>>): { sectionRefs: SectionReference[]; excludedCount: number } {
+  const seen = new Set<string>();
+  const sectionRefs: SectionReference[] = [];
   let excludedCount = 0;
 
   (Array.isArray(scheduleData) ? scheduleData : []).forEach((entry) => {
@@ -141,7 +142,7 @@ function createSectionReferences(scheduleData) {
  * @param {string} name - name of the schedule to create.
  * @param {string[]} sectionRefs - list of sections that are contained within this schedule.
  */
-function createScheduleRecord(id = "default", name = DEFAULT_SCHEDULE_NAME, sectionRefs = []) {
+function createScheduleRecord(id = "default", name = DEFAULT_SCHEDULE_NAME, sectionRefs: SectionReference[] = []): ScheduleRecord {
   return {
     id: String(id),
     name: String(name || DEFAULT_SCHEDULE_NAME),
@@ -169,7 +170,7 @@ function createScheduleId() {
  * @returns {{workspace: Object, excludedCount: number}} Workspace and invalid-entry count.
  * @see {@link toSectionReference}
  */
-export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
+export function createWorkspace(scheduleData: HydratedSection[], name = DEFAULT_SCHEDULE_NAME): { workspace: ScheduleWorkspace; excludedCount: number } {
   const { sectionRefs, excludedCount } = createSectionReferences(scheduleData);
 
   return {
@@ -191,27 +192,28 @@ export function createWorkspace(scheduleData, name = DEFAULT_SCHEDULE_NAME) {
  * @returns {Object|null} Normalized workspace, or `null` when invalid.
  * @see {@link createWorkspace}
  */
-export function parseStoredWorkspace(serialized) {
+export function parseStoredWorkspace(serialized: string): ScheduleWorkspace | null {
   try {
-    const parsed = JSON.parse(serialized);
+    const parsed: unknown = JSON.parse(serialized);
+    if (!parsed || typeof parsed !== "object") return null;
+    const stored = parsed as Partial<ScheduleWorkspace> & { version?: number };
 
     // Because adding multiple schedules is a change in how we parse a stored workspace,
     // I want to make sure that people who already used the site don't lose anything.
     // So... We are gonna have this little bit of code here to make sure V2 workspaces are handled fine.
     // In the future, I will maybe retire this code (if I remember)
     // But once the user visits the site and edits their schedule, then they should be converted to the new format.
-    const schedules =
-    parsed && parsed.version === 2
-        ? { default: parsed.schedules && parsed.schedules.default }
-        : parsed && parsed.schedules;
+    const schedules: Record<string, unknown> | null | undefined =
+    stored.version === 2
+        ? { default: stored.schedules && stored.schedules.default }
+        : stored.schedules;
 
     const activeScheduleId =
-      parsed && parsed.version === 2
+      stored.version === 2
         ? "default"
-        : parsed && parsed.active_schedule_id;
+        : stored.active_schedule_id;
     if (
-      !parsed || // unsucesful parse
-      ![SCHEDULE_WORKSPACE_VERSION -1, SCHEDULE_WORKSPACE_VERSION].includes(parsed.version) || // Version is not supported
+      ![SCHEDULE_WORKSPACE_VERSION -1, SCHEDULE_WORKSPACE_VERSION].includes(stored.version ?? -1) || // Version is not supported
       !schedules || // No available schedules
       typeof schedules !== "object" || // Schedules is not an object
       !activeScheduleId || // No active schedule
@@ -220,22 +222,19 @@ export function parseStoredWorkspace(serialized) {
       return null;
 
     // Constructing the schedules from the saved storage.
-    const normalizedSchedules = {};
+    const normalizedSchedules: Record<string, ScheduleRecord> = {};
     for (const [scheduleId, schedule] of Object.entries(schedules)) {
-      if (!schedule || !Array.isArray(schedule.section_refs)) return null;
-      const { sectionRefs } = createSectionReferences(
-        schedule.section_refs.map((reference) => ({
-          section_id: reference && reference.section_id,
-          term_slug: reference && reference.term_slug,
-          schedule_group_id: reference && reference.schedule_group_id,
-        })),
-        schedule.name,
+      if (!schedule || typeof schedule !== "object" || !("section_refs" in schedule) || !Array.isArray(schedule.section_refs)) return null;
+      const savedSchedule = schedule as { name?: string; section_refs: Array<Partial<SectionReference>> };
+      const refs = savedSchedule.section_refs.map((reference) => ({
+        section_id: reference?.section_id,
+        term_slug: reference?.term_slug,
+        schedule_group_id: reference?.schedule_group_id,
+      }));
+      const sectionRefs = refs.map((reference) => toSectionReference(reference)).filter(
+        (reference): reference is SectionReference => reference !== null,
       );
-      normalizedSchedules[String(scheduleId)] = createScheduleRecord(
-        scheduleId,
-        schedule.name,
-        sectionRefs,
-      );
+      normalizedSchedules[String(scheduleId)] = createScheduleRecord(scheduleId, savedSchedule.name, sectionRefs);
     }
 
     return {
@@ -243,7 +242,7 @@ export function parseStoredWorkspace(serialized) {
       active_schedule_id: String(activeScheduleId),
       schedules: normalizedSchedules,
     };
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -255,7 +254,7 @@ export function parseStoredWorkspace(serialized) {
  * @see {@link parseStoredWorkspace}
  * @see {@link persistWorkspace}
  */
-export function loadScheduleWorkspace() {
+export function loadScheduleWorkspace(): ScheduleWorkspace {
   try {
     const storedWorkspace = localStorage.getItem(
       SCHEDULE_WORKSPACE_STORAGE_KEY,
@@ -281,7 +280,7 @@ export function loadScheduleWorkspace() {
  *
  * @returns {Object|null} Current workspace, or `null` before loading.
  */
-export function getScheduleWorkspace() {
+export function getScheduleWorkspace(): ScheduleWorkspace | null {
   return currentWorkspace;
 }
 
@@ -292,7 +291,7 @@ export function getScheduleWorkspace() {
  * @returns {boolean} Whether persistence succeeded; `false` if no schedule exists.
  * @see {@link persistWorkspace}
  */
-export function updateScheduleWorkspaceName(name) {
+export function updateScheduleWorkspaceName(name: string): boolean {
   const workspace = currentWorkspace || loadScheduleWorkspace();
   const schedule = getActiveScheduleRecord();
   if (!schedule) return false;
@@ -306,14 +305,14 @@ export function updateScheduleWorkspaceName(name) {
  * @param {Object} workspace - Workspace to persist.
  * @returns {boolean} Whether local-storage persistence succeeded.
  */
-function persistWorkspace(workspace) {
+function persistWorkspace(workspace: ScheduleWorkspace | null): boolean {
   try {
     localStorage.setItem(
       SCHEDULE_WORKSPACE_STORAGE_KEY,
       JSON.stringify(workspace),
     );
     return true;
-  } catch (error) {
+  } catch {
     return false;
   }
 }
@@ -325,7 +324,7 @@ function persistWorkspace(workspace) {
  * @returns {boolean} Whether persistence succeeded.
  * @see {@link persistWorkspace}
  */
-function updateActiveScheduleReferences(sectionRefs) {
+function updateActiveScheduleReferences(sectionRefs: SectionReference[]): boolean {
   const schedule = getActiveScheduleRecord();
   if (!schedule) return false;
   schedule.section_refs = sectionRefs;
@@ -338,11 +337,12 @@ function updateActiveScheduleReferences(sectionRefs) {
  * @param {Object} item - Candidate section entry.
  * @returns {boolean} `true` when required course fields and term are present.
  */
-export function isValidCourseEntry(item) {
+export function isValidCourseEntry(item: unknown): item is HydratedSection {
+  if (!item || typeof item !== "object") return false;
+  const candidate = item as Partial<HydratedSection>;
   return (
-    !!item &&
-    !!item.term_slug &&
-    REQUIRED_COURSE_FIELDS.every((field) => item[field])
+    !!candidate.term_slug &&
+    REQUIRED_COURSE_FIELDS.every((field) => candidate[field as keyof HydratedSection])
   );
 }
 /**
@@ -352,7 +352,7 @@ export function isValidCourseEntry(item) {
  * @see {@link loadScheduleWorkspace}
  * @see {@link replaceRuntimeSchedule}
  */
-export function initializeScheduleState() {
+export function initializeScheduleState(): HydratedSection[] {
   currentWorkspace = loadScheduleWorkspace();
   replaceRuntimeSchedule([]);
   return getRuntimeSchedule();
@@ -364,7 +364,7 @@ export function initializeScheduleState() {
  * @returns {Object[]} Runtime section records.
  * @see {@link getRuntimeSchedule}
  */
-export function getSchedule() {
+export function getSchedule(): HydratedSection[] {
   return getRuntimeSchedule();
 }
 
@@ -374,7 +374,7 @@ export function getSchedule() {
  * @param {string} sectionKey - Term/section key to find.
  * @returns {Object|null} Matching section or `null`.
  */
-export function getSectionRecord(sectionKey) {
+export function getSectionRecord(sectionKey: string): HydratedSection | null {
   return sectionRecordsByKey.get(String(sectionKey)) || null;
 }
 
@@ -384,7 +384,7 @@ export function getSectionRecord(sectionKey) {
  * @returns {Object|null} Active schedule, or `null` before workspace loading.
  * @see {@link getActiveScheduleRecord}
  */
-export function getActiveSchedule() {
+export function getActiveSchedule(): ScheduleRecord | null {
   return getActiveScheduleRecord();
 }
 
@@ -393,7 +393,7 @@ export function getActiveSchedule() {
  *
  * @returns {Object[]} Schedule metadata records.
  */
-export function getSchedules() {
+export function getSchedules(): ScheduleRecord[] {
   return currentWorkspace && currentWorkspace.schedules
     ? Object.values(currentWorkspace.schedules)
     : [];
@@ -405,7 +405,7 @@ export function getSchedules() {
  * @param {string} scheduleId - Schedule identifier.
  * @returns {Object|null} Matching schedule, or `null` when not found.
  */
-export function getScheduleById(scheduleId) {
+export function getScheduleById(scheduleId: string): ScheduleRecord | null {
   if (!currentWorkspace || !scheduleId) return null;
   return currentWorkspace.schedules?.[String(scheduleId)] || null;
 }
@@ -416,7 +416,7 @@ export function getScheduleById(scheduleId) {
  * @param {string} [name=DEFAULT_SCHEDULE_NAME] - Schedule display name.
  * @returns {Object|null} New schedule, or `null` if persistence fails.
  */
-export function createSchedule(name = DEFAULT_SCHEDULE_NAME) {
+export function createSchedule(name = DEFAULT_SCHEDULE_NAME): ScheduleRecord | null {
   const workspace = currentWorkspace || loadScheduleWorkspace();
   const id = createScheduleId();
   const schedule = createScheduleRecord(id, name, []);
@@ -431,7 +431,7 @@ export function createSchedule(name = DEFAULT_SCHEDULE_NAME) {
  * @param {string} name - New schedule display name.
  * @returns {boolean} Whether the schedule was found and persisted.
  */
-export function renameSchedule(scheduleId, name) {
+export function renameSchedule(scheduleId: string, name: string): boolean {
   const schedule = getScheduleById(scheduleId);
   if (!schedule) return false;
   schedule.name = String(name || DEFAULT_SCHEDULE_NAME);
@@ -445,7 +445,8 @@ export function renameSchedule(scheduleId, name) {
  * @param {string} scheduleId - Schedule identifier to activate.
  * @returns {Object|null} Newly active schedule, or `null` when not found.
  */
-export function switchSchedule(scheduleId) {
+export function switchSchedule(scheduleId: string): ScheduleRecord | null {
+  if (!currentWorkspace) return null;
   const nextSchedule = getScheduleById(scheduleId);
   if (!nextSchedule) return null;
   if (currentWorkspace.active_schedule_id === nextSchedule.id)
@@ -464,16 +465,15 @@ export function switchSchedule(scheduleId) {
  * @param {string} scheduleId - Schedule identifier.
  * @returns {boolean} Whether the schedule was deleted and persisted.
  */
-export function deleteSchedule(scheduleId) {
+export function deleteSchedule(scheduleId: string): boolean {
+  if (!currentWorkspace) return false;
   const schedule = getScheduleById(scheduleId);
   if (!schedule || getSchedules().length <= 1) return false;
 
   const wasActive = currentWorkspace.active_schedule_id === schedule.id;
   delete currentWorkspace.schedules[schedule.id];
   if (wasActive) {
-    currentWorkspace.active_schedule_id = Object.keys(
-      currentWorkspace.schedules,
-    )[0];
+    currentWorkspace.active_schedule_id = Object.keys(currentWorkspace.schedules)[0] ?? currentWorkspace.active_schedule_id;
     replaceRuntimeSchedule([]);
   }
   return persistWorkspace(currentWorkspace);
@@ -489,7 +489,7 @@ export function deleteSchedule(scheduleId) {
  * @see {@link markTermLoadFailed}
  * @see {@link clearTermLoadFailure}
  */
-export async function hydrateSchedule(fetchDatasetByKey) {
+export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promise<CourseDataset>): Promise<HydrationResult> {
   const schedule = getActiveScheduleRecord();
   const references = schedule && Array.isArray(schedule.section_refs)
     ? schedule.section_refs
@@ -513,18 +513,18 @@ export async function hydrateSchedule(fetchDatasetByKey) {
     };
   }
 
-  const referencesByTerm = new Map();
+  const referencesByTerm = new Map<string, SectionReference[]>();
   references.forEach((reference) => {
-    if (!referencesByTerm.has(reference.term_slug))
-      referencesByTerm.set(reference.term_slug, []);
-    referencesByTerm.get(reference.term_slug).push(reference);
+    const termReferences = referencesByTerm.get(reference.term_slug) ?? [];
+    termReferences.push(reference);
+    referencesByTerm.set(reference.term_slug, termReferences);
   });
 
-  const resolvedRecords = [];
-  const retainedReferences = [];
+  const resolvedRecords: HydratedSection[] = [];
+  const retainedReferences: SectionReference[] = [];
   let missingCount = 0;
   let failedCount = 0;
-  const failedTerms = [];
+  const failedTerms: string[] = [];
 
   await Promise.all(
     Array.from(referencesByTerm, async ([termSlug, termReferences]) => {
@@ -532,7 +532,7 @@ export async function hydrateSchedule(fetchDatasetByKey) {
       try {
         dataset = await fetchDatasetByKey(termSlug);
         clearTermLoadFailure(termSlug);
-      } catch (error) {
+      } catch {
         markTermLoadFailed(termSlug);
         failedTerms.push(termSlug);
         failedCount += termReferences.length;
@@ -568,8 +568,8 @@ export async function hydrateSchedule(fetchDatasetByKey) {
   );
   resolvedRecords.sort(
     (left, right) =>
-      (order.get(getSectionRecordKey(left)) ?? Number.MAX_SAFE_INTEGER) -
-      (order.get(getSectionRecordKey(right)) ?? Number.MAX_SAFE_INTEGER),
+      (order.get(getSectionRecordKey(left) ?? "") ?? Number.MAX_SAFE_INTEGER) -
+      (order.get(getSectionRecordKey(right) ?? "") ?? Number.MAX_SAFE_INTEGER),
   );
   retainedReferences.sort(
     (left, right) =>
@@ -595,7 +595,7 @@ export async function hydrateSchedule(fetchDatasetByKey) {
  * @returns {void}
  * @see {@link getFailedTermKeys}
  */
-export function markTermLoadFailed(termSlug) {
+export function markTermLoadFailed(termSlug: string): void {
   if (termSlug) failedTermKeys.add(String(termSlug));
 }
 
@@ -606,7 +606,7 @@ export function markTermLoadFailed(termSlug) {
  * @returns {void}
  * @see {@link markTermLoadFailed}
  */
-export function clearTermLoadFailure(termSlug) {
+export function clearTermLoadFailure(termSlug: string): void {
   failedTermKeys.delete(String(termSlug));
 }
 
@@ -615,7 +615,7 @@ export function clearTermLoadFailure(termSlug) {
  *
  * @returns {string[]} Failed term keys.
  */
-export function getFailedTermKeys() {
+export function getFailedTermKeys(): string[] {
   return Array.from(failedTermKeys);
 }
 
@@ -625,7 +625,7 @@ export function getFailedTermKeys() {
  * @returns {string[]} Terms eligible for retry.
  * @see {@link getFailedTermKeys}
  */
-export function retryFailedTerms() {
+export function retryFailedTerms(): string[] {
   return getFailedTermKeys();
 }
 
@@ -637,7 +637,7 @@ export function retryFailedTerms() {
  * @see {@link replaceRuntimeSchedule}
  * @see {@link persistRuntimeSchedule}
  */
-export function replaceSchedule(scheduleData) {
+export function replaceSchedule(scheduleData: HydratedSection[]): HydratedSection[] {
   replaceRuntimeSchedule(scheduleData);
   persistRuntimeSchedule();
   return getRuntimeSchedule();
@@ -649,7 +649,7 @@ export function replaceSchedule(scheduleData) {
  * @returns {Object[]} Records actually added.
  * @see {@link addRuntimeSections}
  */
-export function appendScheduleEntries(entries) {
+export function appendScheduleEntries(entries: HydratedSection[]): HydratedSection[] {
   const additions = addRuntimeSections(entries);
   if (additions.length) persistRuntimeSchedule();
   return additions;
@@ -662,7 +662,7 @@ export function appendScheduleEntries(entries) {
  * @see {@link createWorkspace}
  * @see {@link persistWorkspace}
  */
-function persistRuntimeSchedule() {
+function persistRuntimeSchedule(): boolean {
   const schedule = getActiveScheduleRecord();
   if (!schedule) return false;
   schedule.section_refs = createSectionReferences(getRuntimeSchedule()).sectionRefs;
@@ -677,7 +677,7 @@ function persistRuntimeSchedule() {
  * @returns {Object[]} Records accepted by the runtime schedule.
  * @see {@link appendScheduleEntries}
  */
-export function addSectionSelection(sectionRecords, scheduleGroupId = null) {
+export function addSectionSelection(sectionRecords: HydratedSection[], scheduleGroupId: string | null = null): HydratedSection[] {
   const entries = (Array.isArray(sectionRecords) ? sectionRecords : []).map(
     (section) => ({
       ...section,
@@ -694,18 +694,19 @@ export function addSectionSelection(sectionRecords, scheduleGroupId = null) {
  * @returns {boolean} `true` when a matching entry was removed.
  * @see {@link persistRuntimeSchedule}
  */
-export function removeScheduleEntry(sectionId) {
+export function removeScheduleEntry(sectionId: string | number): boolean {
   const normalizedId = String(sectionId);
   const matchedKey = scheduleSectionOrder.find((key) =>
     normalizedId.includes(":")
       ? key === normalizedId
-      : String(sectionRecordsByKey.get(key).section_id) === normalizedId,
+      : String(sectionRecordsByKey.get(key)?.section_id) === normalizedId,
   );
   const matchedEntry = matchedKey ? sectionRecordsByKey.get(matchedKey) : null;
   if (!matchedEntry) return false;
   const scheduleGroupId = matchedEntry.schedule_group_id;
   const keysToRemove = scheduleSectionOrder.filter((key) => {
     const entry = sectionRecordsByKey.get(key);
+    if (!entry) return false;
     if (scheduleGroupId) return entry.schedule_group_id === scheduleGroupId;
     if (normalizedId.includes(":"))
       return key === matchedKey;
@@ -724,6 +725,6 @@ export function removeScheduleEntry(sectionId) {
  * @returns {Object[]} Empty runtime schedule.
  * @see {@link replaceSchedule}
  */
-export function clearSchedule() {
+export function clearSchedule(): HydratedSection[] {
   return replaceSchedule([]);
 }
