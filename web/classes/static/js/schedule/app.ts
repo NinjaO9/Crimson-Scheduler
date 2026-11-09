@@ -58,6 +58,10 @@ import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
 import { initializeCatalogFreshness } from "./catalog-freshness.js";
 
+function getEventElement(event: Event): Element | null {
+  return event.target instanceof Element ? event.target : null;
+}
+
 /**
  * Initializes the schedule application, including its state, catalog freshness,
  * course search, schedule sharing, and export functionality. Registers event
@@ -65,9 +69,8 @@ import { initializeCatalogFreshness } from "./catalog-freshness.js";
  * keyboard interactions, then hydrates the saved schedule from the course
  * catalog and refreshes the rendered schedule.
  *
- * @returns {void}
  */
-export function initializeScheduleApp() {
+export function initializeScheduleApp(): void {
   initializeCatalogFreshness();
   initializeScheduleState();
   initializeScheduleOptions();
@@ -84,7 +87,7 @@ export function initializeScheduleApp() {
 
   const hydrateActiveSchedule = async () => {
     try {
-      const result = await hydrateSchedule((termSlug) => CourseApi.fetchDatasetByKey(termSlug),);
+      const result = await hydrateSchedule((termSlug) => window.CourseApi.fetchDatasetByKey(termSlug));
       if (result.missingCount)
         window.alert(`Removed ${result.missingCount} planned course(s) that were not found in the current catalog.`);
       if (result.failedCount)
@@ -136,7 +139,9 @@ export function initializeScheduleApp() {
   });
 
   document.addEventListener("click", (event) => {
-    if (event.target.closest("#clearScheduleBtn")) {
+    const target = getEventElement(event);
+    if (!target) return;
+    if (target.closest("#clearScheduleBtn")) {
       event.preventDefault();
       if (!window.confirm("Clear your entire schedule? This cannot be undone."))
         return;
@@ -145,54 +150,54 @@ export function initializeScheduleApp() {
       return;
     }
 
-    const removeMiscButton = event.target.closest(".remove-misc-btn");
+    const removeMiscButton = target.closest<HTMLElement>(".remove-misc-btn");
     if (removeMiscButton) {
-      if (
-        removeScheduleEntry(
-          removeMiscButton.getAttribute("data-section-key") ||
-            removeMiscButton.getAttribute("data-section-id"),
-        )
-      )
+      const sectionKey = removeMiscButton.getAttribute("data-section-key") ||
+        removeMiscButton.getAttribute("data-section-id");
+      if (sectionKey && removeScheduleEntry(sectionKey))
         refreshSchedule();
       return;
     }
 
-    if (event.target.closest("#exportScheduleBtn")) return exportSchedule();
-    if (event.target.closest("#exportCalendarBtn")) return exportCalendar();
-    if (event.target.closest("#shareScheduleBtn")) return sharing.shareScheduleCode();
-    if (event.target.closest("#importShareCodeBtn")) return sharing.importScheduleFromShareCode();
-    if (event.target.closest("#mobileConflictBackdrop, #mobileConflictClose")) {
+    if (target.closest("#exportScheduleBtn")) return exportSchedule();
+    if (target.closest("#exportCalendarBtn")) return exportCalendar();
+    if (target.closest("#shareScheduleBtn")) return sharing.shareScheduleCode();
+    if (target.closest("#importShareCodeBtn")) return sharing.importScheduleFromShareCode();
+    if (target.closest("#mobileConflictBackdrop, #mobileConflictClose")) {
       closeMobileConflictSheet();
       return;
     }
-    if (event.target.closest("[data-close-misc]")) {
+    if (target.closest("[data-close-misc]")) {
       closeMobileMiscSheet();
       return;
     }
-    if (event.target.closest("#mobileMiscToggle")) {
-      openMobileMiscSheet(event.target.closest("#mobileMiscToggle"));
+    const miscToggle = target.closest<HTMLElement>("#mobileMiscToggle");
+    if (miscToggle) {
+      openMobileMiscSheet(miscToggle);
       return;
     }
-    if (event.target.closest("[data-close-course]")) {
+    if (target.closest("[data-close-course]")) {
       closeMobileCourseSheet();
       return;
     }
-    if (event.target.closest("#mobileCourseRemove")) {
+    if (target.closest("#mobileCourseRemove")) {
       removeActiveMobileCourse();
       return;
     }
-    const mobileNavButton = event.target.closest(".mobile-nav-btn");
+    const mobileNavButton = target.closest<HTMLElement>(".mobile-nav-btn");
     if (mobileNavButton) handleMobileNavigation(mobileNavButton);
   });
 
   document.addEventListener("change", (event) => {
-    if (event.target.closest("#timeFormatToggle")) {
+    const target = getEventElement(event);
+    if (!target) return;
+    if (target.closest("#timeFormatToggle")) {
       saveScheduleOptions();
       refreshSchedule();
       return;
     }
     if (
-      event.target.closest(
+      target.closest(
         "#hideWeekendsToggle, #showInstructorToggle, #showSectionToggle",
       )
     ) {
@@ -211,7 +216,8 @@ export function initializeScheduleApp() {
   });
 
   document.body.addEventListener("htmx:responseError", (event) => {
-    const xhr = event.detail && event.detail.xhr;
+    const detail = (event as CustomEvent<{ xhr?: XMLHttpRequest }>).detail;
+    const xhr = detail && detail.xhr;
     if (xhr && xhr.status === 429)
       showRateLimitToast(getRateLimitMessageFromResponse(xhr));
   });

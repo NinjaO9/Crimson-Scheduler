@@ -8,6 +8,9 @@
     "checkJs": false,
     "noEmit": true,
     "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "types": ["vite/client"],
     "erasableSyntaxOnly": true

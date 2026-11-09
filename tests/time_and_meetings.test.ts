@@ -13,6 +13,7 @@ import {
   resolveScheduleGroups,
   timeToMinutes,
 } from "../web/classes/static/js/schedule/time-and-meetings.js";
+import type { Meeting } from "../web/classes/static/js/types.js";
 
 describe("schedule time and meeting parsing", () => {
   it("parses 12-hour, 24-hour, and compact time values", () => {
@@ -34,7 +35,7 @@ describe("schedule time and meeting parsing", () => {
   });
 
   it("keeps explicit meeting records separate", () => {
-    const meetings = [
+    const meetings: Meeting[] = [
       { days: "MWF", time: "9:00 AM - 9:50 AM" },
       { days: "T", time: "1:00 PM - 2:15 PM" },
     ];
@@ -54,7 +55,7 @@ describe("schedule time and meeting parsing", () => {
   it("formats individual meeting ranges in the selected clock format", () => {
     document.body.innerHTML = '<input id="timeFormatToggle" type="checkbox">';
     expect(formatTimeRangeForDisplay("14:10 - 15:00")).toBe("2:10 PM - 3:00 PM");
-    document.getElementById("timeFormatToggle").checked = true;
+    document.querySelector<HTMLInputElement>("#timeFormatToggle")!.checked = true;
     expect(formatTimeRangeForDisplay("14:10 - 15:00")).toBe("14:10 - 15:00");
   });
 });
