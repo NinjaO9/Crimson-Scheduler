@@ -6,10 +6,13 @@
  */
 
 import { createElementWithText } from "./dom.js";
+import type { CourseInformation, CourseInformationCourse } from "../types.js";
+
+type DataRecord = Record<string, unknown>;
 
 const DEFAULT_SPECIFICS_BASE_URL =
   "https://ninjao9.github.io/Crimson-Scheduler/api/v1/specifics/";
-const specificsCache = new Map();
+const specificsCache = new Map<string, Promise<CourseInformation>>();
 
 /**
  * Slugifies the input value.
@@ -17,7 +20,7 @@ const specificsCache = new Map();
  * @param {string} value - Value to be slugified.
  * @returns {string} slug (https://wildaboutnature.uk/wp-content/uploads/2024/02/IMG_6426-scaled.jpg).
  */
-export function slugify(value) {
+export function slugify(value: string | number | null | undefined): string {
   return String(value || "")
     .trim()
     .toLowerCase()
@@ -31,7 +34,7 @@ export function slugify(value) {
  * @param {Object} course - Course to generate the key from.
  * @returns {string} Course key.
  */
-export function courseSpecificsKey(course) {
+export function courseSpecificsKey(course: CourseInformationCourse): string {
   return `${slugify(course && course.subject)}-${slugify(course && course.course_number)}`;
 }
 
@@ -42,7 +45,7 @@ export function courseSpecificsKey(course) {
  * @param {string} baseUrl - Base url to derive endpoint.
  * @returns {string} Final constructed url.
  */
-export function courseSpecificsUrl(course, baseUrl = DEFAULT_SPECIFICS_BASE_URL) {
+export function courseSpecificsUrl(course: CourseInformationCourse, baseUrl: string = DEFAULT_SPECIFICS_BASE_URL): string {
   const base = String(baseUrl || DEFAULT_SPECIFICS_BASE_URL).replace(/\/+$/, "");
   return `${base}/${courseSpecificsKey(course)}.json`;
 }
@@ -53,7 +56,7 @@ export function courseSpecificsUrl(course, baseUrl = DEFAULT_SPECIFICS_BASE_URL)
  * @param {*} value - Value to be converted to text.
  * @returns {string} Resulting string from attempted value conversion.
  */
-function text(value) {
+function text(value: unknown): string {
   return value === null || value === undefined ? "" : String(value).trim();
 }
 
@@ -63,7 +66,7 @@ function text(value) {
  * @param {string} value - string to format.
  * @returns {string} formatted string.
  */
-function removeBoldTags(value) {
+function removeBoldTags(value: unknown): string {
   return text(value)
     .replace(/<(?:b|strong)\b[^>]*>[\s\S]*?<\/(?:b|strong)>/gi, "")
     .trim();
@@ -75,8 +78,14 @@ function removeBoldTags(value) {
  * @param {Object} payload - Payload containing sources.
  * @returns {Object|null} The first source with a truthy response, or null if no matching source exists.
  */
-function firstSource(payload) {
-  return Array.isArray(payload && payload.sources) ? payload.sources.find((source) => source && source.response) : null;
+function asRecord(value: unknown): DataRecord | null {
+  return value !== null && typeof value === "object" ? value as DataRecord : null;
+}
+
+function firstSource(payload: unknown): DataRecord | null {
+  const sources = asRecord(payload)?.sources;
+  if (!Array.isArray(sources)) return null;
+  return sources.map(asRecord).find((source) => source?.response) ?? null;
 }
 
 /**
@@ -85,12 +94,12 @@ function firstSource(payload) {
  * @param {Object} payload - Value used by normalizeSpecifics.
  * @returns {{desctiption: string, prerequisites: string}} Result produced by normalizeSpecifics.
  */
-export function normalizeSpecifics(payload) {
+export function normalizeSpecifics(payload: unknown): Pick<CourseInformation, "description" | "prerequisites"> {
   const source = firstSource(payload);
-  const response = source && source.response ? source.response : payload;
+  const response = asRecord(source?.response) ?? asRecord(payload);
   return {
-    description: removeBoldTags(response && (response.courseDescription || response.description)),
-    prerequisites: text(response && (response.coursePrerequisites || response.prerequisites)),
+    description: removeBoldTags(response?.courseDescription || response?.description),
+    prerequisites: text(response?.coursePrerequisites || response?.prerequisites),
   };
 }
 
@@ -100,12 +109,12 @@ export function normalizeSpecifics(payload) {
  * @param {Object} course - Course object containing optional lecture and lab section arrays.
  * @returns {string[]} A list of unique instructor names.
  */
-export function instructorNames(course) {
+export function instructorNames(course: CourseInformationCourse): string[] {
   const sections = [
     ...((course && course.lecture_sections) || []),
     ...((course && course.lab_sections) || []),
   ];
-  const names = [];
+  const names: string[] = [];
   sections.forEach((section) => {
     const name = text(section.instructor);
     if (!name || /^(tba|staff|unknown|n\/a)$/i.test(name)) return;
@@ -120,7 +129,7 @@ export function instructorNames(course) {
  * @param {string} name - Professor to generate a search URL for.
  * @returns {string} Formatted URL to search for professor on RMP.
  */
-export function rmpSearchUrl(name) {
+export function rmpSearchUrl(name: string): string {
   return `https://www.ratemyprofessors.com/search/professors/1143?q=${encodeURIComponent(name)}`;
 }
 
@@ -130,7 +139,7 @@ export function rmpSearchUrl(name) {
  * @param {Object} course - Course object used to identify course and retrieve names.
  * @returns {{status: string, prerequisites: string, instructors: string[]}} Preview course information.
  */
-function demoInformation(course) {
+function demoInformation(course: CourseInformationCourse): CourseInformation {
   const code = text(course && course.course_code) || "this course";
   return {
     status: "preview",
@@ -147,7 +156,7 @@ function demoInformation(course) {
  * @param {Object} course - Course Object used to retrieve instructor names.
  * @returns {{status: string, description: string, prerequisites: string, instructors: string[]}} Normalized course information.
  */
-export function normalizeCourseInformation(payload, course) {
+export function normalizeCourseInformation(payload: unknown, course: CourseInformationCourse): CourseInformation {
   const specifics = normalizeSpecifics(payload);
   return {
     status: "loaded",
@@ -168,14 +177,16 @@ export function normalizeCourseInformation(payload, course) {
  * @param {string} [options.baseUrl] - Optional base URL for the course specifics endpoint.
  * @returns {Promise<Object>} A promise resolving to normalized course information or preview information.
  */
-export async function fetchCourseInformation(course, options = {}) {
+export async function fetchCourseInformation(course: CourseInformationCourse, options: { reload?: boolean; signal?: AbortSignal; baseUrl?: string } = {}): Promise<CourseInformation> {
   const key = courseSpecificsKey(course);
-  if (!options.reload && specificsCache.has(key)) return specificsCache.get(key);
+  const cached = specificsCache.get(key);
+  if (!options.reload && cached) return cached;
   const request = fetch(courseSpecificsUrl(course, options.baseUrl), { signal: options.signal })
     .then(async (response) => {
       if (!response.ok) throw new Error(`Course specifics request failed with status ${response.status}.`);
-      const payload = await response.json();
-      if (payload && payload.available === false) throw new Error("Course specifics are not available.");
+      const payload: unknown = await response.json();
+      const payloadRecord = asRecord(payload);
+      if (payloadRecord?.available === false) throw new Error("Course specifics are not available.");
       return normalizeCourseInformation(payload, course);
     })
     .catch((error) => ({ ...demoInformation(course), error }));
@@ -188,7 +199,7 @@ export async function fetchCourseInformation(course, options = {}) {
  *
  * @returns {void}
  */
-export function clearCourseInformationCache() {
+export function clearCourseInformationCache(): void {
   specificsCache.clear();
 }
 
@@ -198,15 +209,15 @@ export function clearCourseInformationCache() {
  * @param {Object} info - Normalized course information.
  * @returns {DocumentFragment} A document fragment containing the rendered course information.
  */
-export function renderCourseInformation(info) {
+export function renderCourseInformation(info: CourseInformation): DocumentFragment {
   const fragment = document.createDocumentFragment();
   if (info.status === "preview") {
     fragment.appendChild(createElementWithText("p", "course-info-preview-note", "Preview information"));
   }
-  [
+  ([
     ["Course description", info.description],
     ["Prerequisites", info.prerequisites],
-  ].forEach(([label, value]) => {
+  ] as const).forEach(([label, value]) => {
     const section = document.createElement("section");
     section.className = "course-info-section";
     section.append(

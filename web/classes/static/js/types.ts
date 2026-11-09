@@ -78,6 +78,21 @@ export interface CourseDataset {
   sectionsBySln: Map<string, SectionIndexEntry>;
 }
 
+export interface CourseInformation {
+  status: "loaded" | "preview";
+  description: string;
+  prerequisites: string;
+  instructors: string[];
+  error?: unknown;
+}
+
+export interface CalendarDateRange {
+  start: Date;
+  end: Date;
+}
+
+export type CourseInformationCourse = Partial<Course>;
+
 export interface SectionReference {
   term_slug: string;
   section_id: string;

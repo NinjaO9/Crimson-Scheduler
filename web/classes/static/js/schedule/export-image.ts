@@ -14,8 +14,8 @@ import { isGoogleOrChromeMobileApp } from "./responsive.js";
  *
  * @returns {Promise<void>} Promise resolved on the next animation frame.
  */
-export function nextAnimationFrame() {
-  return new Promise((resolve) =>
+export function nextAnimationFrame(): Promise<void> {
+  return new Promise<void>((resolve) =>
     window.requestAnimationFrame(() => resolve()),
   );
 }
@@ -26,7 +26,7 @@ export function nextAnimationFrame() {
  * @returns {string} Safe PNG filename.
  * @see {@link slugifyScheduleName}
  */
-export function buildScheduleExportFilename(name) {
+export function buildScheduleExportFilename(name: string): string {
   const today = new Date();
   const dateToken = [
     today.getFullYear(),
@@ -42,7 +42,7 @@ export function buildScheduleExportFilename(name) {
  * @param {HTMLElement} schedulePane - Schedule element being captured.
  * @returns {string} Computed CSS background color.
  */
-export function getScheduleExportBackgroundColor(schedulePane) {
+export function getScheduleExportBackgroundColor(schedulePane: HTMLElement): string {
   return window.getComputedStyle(schedulePane).backgroundColor;
 }
 
@@ -53,7 +53,7 @@ export function getScheduleExportBackgroundColor(schedulePane) {
  * @param {string} filename - Download filename.
  * @returns {Promise<boolean>} Whether a PNG blob was created and downloaded.
  */
-export function downloadCanvasImage(canvas, filename) {
+export function downloadCanvasImage(canvas: HTMLCanvasElement, filename: string): Promise<boolean> {
   return new Promise((resolve) =>
     canvas.toBlob((blob) => {
       if (!blob) {
@@ -85,11 +85,15 @@ export function initializeScheduleExport({
   getScheduleName,
   normalizeScheduleName,
   clearSectionGhosts,
-}) {
+}: {
+  getScheduleName: () => string;
+  normalizeScheduleName: () => void;
+  clearSectionGhosts: () => void;
+}): () => Promise<void> {
   return async function exportSchedule() {
     if (isGoogleOrChromeMobileApp()) return;
-    const schedulePane = document.querySelector(".schedule-pane");
-    const exportButton = document.getElementById("exportScheduleBtn");
+    const schedulePane = document.querySelector<HTMLElement>(".schedule-pane");
+    const exportButton = document.getElementById("exportScheduleBtn") as HTMLButtonElement | null;
     if (!schedulePane || !exportButton) return;
     normalizeScheduleName();
     if (
@@ -127,7 +131,7 @@ export function initializeScheduleExport({
         canvas,
         buildScheduleExportFilename(getScheduleName()),
       );
-    } catch (error) {
+    } catch {
       window.alert("Sorry, the schedule image could not be created.");
     } finally {
       schedulePane.classList.remove("is-exporting");

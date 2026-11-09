@@ -142,7 +142,7 @@ function createSectionReferences(scheduleData: Array<Partial<HydratedSection> & 
  * @param {string} name - name of the schedule to create.
  * @param {string[]} sectionRefs - list of sections that are contained within this schedule.
  */
-function createScheduleRecord(id = "default", name = DEFAULT_SCHEDULE_NAME, sectionRefs: SectionReference[] = []): ScheduleRecord {
+function createScheduleRecord(id: any = "default", name: string = DEFAULT_SCHEDULE_NAME, sectionRefs: SectionReference[] = []): ScheduleRecord {
   return {
     id: String(id),
     name: String(name || DEFAULT_SCHEDULE_NAME),
@@ -155,7 +155,7 @@ function createScheduleRecord(id = "default", name = DEFAULT_SCHEDULE_NAME, sect
  *
  * @returns {string} Unique schedule ID.
  */
-function createScheduleId() {
+function createScheduleId(): string {
   const schedules = currentWorkspace?.schedules || {};
   let index = 1;
   while (schedules[`schedule-${index}`]) index += 1;
@@ -170,7 +170,7 @@ function createScheduleId() {
  * @returns {{workspace: Object, excludedCount: number}} Workspace and invalid-entry count.
  * @see {@link toSectionReference}
  */
-export function createWorkspace(scheduleData: HydratedSection[], name = DEFAULT_SCHEDULE_NAME): { workspace: ScheduleWorkspace; excludedCount: number } {
+export function createWorkspace(scheduleData: HydratedSection[], name: string = DEFAULT_SCHEDULE_NAME): { workspace: ScheduleWorkspace; excludedCount: number } {
   const { sectionRefs, excludedCount } = createSectionReferences(scheduleData);
 
   return {
@@ -416,7 +416,7 @@ export function getScheduleById(scheduleId: string): ScheduleRecord | null {
  * @param {string} [name=DEFAULT_SCHEDULE_NAME] - Schedule display name.
  * @returns {Object|null} New schedule, or `null` if persistence fails.
  */
-export function createSchedule(name = DEFAULT_SCHEDULE_NAME): ScheduleRecord | null {
+export function createSchedule(name: string = DEFAULT_SCHEDULE_NAME): ScheduleRecord | null {
   const workspace = currentWorkspace || loadScheduleWorkspace();
   const id = createScheduleId();
   const schedule = createScheduleRecord(id, name, []);

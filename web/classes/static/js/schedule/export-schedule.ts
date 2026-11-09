@@ -5,24 +5,31 @@
  * @author       NinjaO9
  */
 
-import ical, { ICalCalendarMethod } from "ical-generator";
+import ical, { ICalCalendarMethod, ICalEventRepeatingFreq, ICalWeekday } from "ical-generator";
 import { resolveScheduleGroups } from "./time-and-meetings.js";
+import type { HydratedSection } from "../types.js";
 
-const ICAL_DAYS = ["MO", "TU", "WE", "TH", "FR", "SA", "SU"];
+type Calendar = ReturnType<typeof ical>;
+
+const ICAL_DAYS = [ICalWeekday.MO, ICalWeekday.TU, ICalWeekday.WE, ICalWeekday.TH, ICalWeekday.FR, ICalWeekday.SA, ICalWeekday.SU];
 const TIMEZONE = "America/Los_Angeles";
 
 export function initializeCalendarExport({
   getScheduleName,
   normalizeScheduleName,
   getSchedule,
-}) {
+}: {
+  getScheduleName: () => string;
+  normalizeScheduleName: () => void;
+  getSchedule: () => HydratedSection[];
+}): () => void {
   /**
    * Normalizes the schedule name and downloads the generated calendar when events exist.
    *
    * @returns {void}
    * @see {@link generateCalendar}
    */
-  return function exportCalendar() {
+  return function exportCalendar(): void {
     normalizeScheduleName();
     const name = getScheduleName();
     const result = generateCalendar(name, getSchedule());
@@ -36,7 +43,7 @@ export function initializeCalendarExport({
  * @param {string} name - Calendar display name.
  * @returns {Object} iCalendar generator instance.
  */
-export function createCalendar(name) {
+export function createCalendar(name: string): Calendar {
   const calendar = ical({
     name: name || "Crimson Scheduler",
     prodId: "//Crimson Scheduler//Schedule Export//EN",
@@ -54,7 +61,7 @@ export function createCalendar(name) {
  * @param {Object[]} schedule - Schedule section records to export.
  * @returns {{calendar: Object, eventCount: number}} Calendar and created-event count.
  */
-export function generateCalendar(name, schedule) {
+export function generateCalendar(name: string, schedule: HydratedSection[]): { calendar: Calendar; eventCount: number } {
   const calendar = createCalendar(name);
   const eventCount = (schedule || []).reduce(
     (count, courseData) => count + addCourseEvents(calendar, courseData),
@@ -72,7 +79,7 @@ export function generateCalendar(name, schedule) {
  * @param {Object} courseData - Course/section record with dates and meetings.
  * @returns {number} Number of events added.
  */
-function addCourseEvents(calendar, courseData) {
+function addCourseEvents(calendar: Calendar, courseData: HydratedSection): number {
   const dates = getDateEnvelope(courseData);
   if (!dates) return 0;
   let count = 0;
@@ -87,7 +94,7 @@ function addCourseEvents(calendar, courseData) {
       location: courseData.location || "",
       timezone: TIMEZONE,
       repeating: {
-        freq: "WEEKLY",
+        freq: ICalEventRepeatingFreq.WEEKLY,
         byDay: dayIndexes.map((index) => ICAL_DAYS[index]),
         until: dates.end,
       },
@@ -103,7 +110,7 @@ function addCourseEvents(calendar, courseData) {
  * @param {string} termSlug - Term identifier containing a year.
  * @returns {number|null} Parsed year, or `null` when absent.
  */
-export function getTermYear(termSlug) {
+export function getTermYear(termSlug: string | undefined): number | null {
   const match = String(termSlug || "").match(/(?:^|-)((?:19|20)\d{2})(?:-|$)/);
   return match ? Number(match[1]) : null;
 }
@@ -115,7 +122,7 @@ export function getTermYear(termSlug) {
  * @param {number} year - Year used to construct the date.
  * @returns {Date|null} Valid date, or `null` for malformed/impossible input.
  */
-export function parseMonthDay(value, year) {
+export function parseMonthDay(value: string | undefined, year: number): Date | null {
   const match = String(value || "").trim().match(/^([A-Za-z]{3,9})\s+(\d{1,2})$/);
   if (!match) return null;
   const month = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
@@ -134,7 +141,7 @@ export function parseMonthDay(value, year) {
  * @see {@link getTermYear}
  * @see {@link parseMonthDay}
  */
-export function getDateEnvelope(courseData) {
+export function getDateEnvelope(courseData: HydratedSection): { start: Date; end: Date } | null {
   const year = getTermYear(courseData.term_slug);
   if (!year) return null;
   const start = parseMonthDay(courseData.dates && courseData.dates.start, year);
@@ -154,7 +161,7 @@ export function getDateEnvelope(courseData) {
  * @param {number} dayIndex - Monday-based weekday index from 0 through 6.
  * @returns {Date} First matching date.
  */
-function firstDateForWeekday(start, dayIndex) {
+function firstDateForWeekday(start: Date, dayIndex: number): Date {
   const date = new Date(start);
   const mondayIndex = (date.getDay() + 6) % 7;
   date.setDate(date.getDate() + (dayIndex - mondayIndex + 7) % 7);
@@ -168,7 +175,7 @@ function firstDateForWeekday(start, dayIndex) {
  * @param {number} minutes - Minutes after midnight.
  * @returns {Date} New date with the requested time.
  */
-function withMinutes(date, minutes) {
+function withMinutes(date: Date, minutes: number): Date {
   const result = new Date(date);
   result.setHours(Math.floor(minutes / 60), minutes % 60, 0, 0);
   return result;
@@ -180,7 +187,7 @@ function withMinutes(date, minutes) {
  * @param {Date} date - Date whose calendar day is retained.
  * @returns {Date} End-of-day copy.
  */
-function endOfDay(date) {
+function endOfDay(date: Date): Date {
   const result = new Date(date);
   result.setHours(23, 59, 59, 0);
   return result;
@@ -194,7 +201,7 @@ function endOfDay(date) {
  * @returns {void}
  * @see {@link safeFilename}
  */
-function downloadCalendar(contents, scheduleName) {
+function downloadCalendar(contents: string, scheduleName: string): void {
   const blob = new Blob([contents], { type: "text/calendar;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
@@ -210,7 +217,7 @@ function downloadCalendar(contents, scheduleName) {
  * @param {string} value - Candidate schedule name.
  * @returns {string} Sanitized filename stem, defaulting to `schedule`.
  */
-export function safeFilename(value) {
+export function safeFilename(value: string): string {
   return String(value || "schedule")
     .trim()
     .replace(/[^a-z0-9-_]+/gi, "-")

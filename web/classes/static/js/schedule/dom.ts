@@ -13,7 +13,11 @@
  * @param {*} text - Value converted to the element's text content.
  * @returns {HTMLElement} The newly created element.
  */
-export function createElementWithText(tagName, className, text) {
+export function createElementWithText<K extends keyof HTMLElementTagNameMap>(
+  tagName: K,
+  className: string | null,
+  text: unknown,
+): HTMLElementTagNameMap[K] {
   const element = document.createElement(tagName);
   if (className) element.className = className;
   element.textContent = text === null || text === undefined ? "" : String(text);
@@ -29,7 +33,12 @@ export function createElementWithText(tagName, className, text) {
  * @param {*} text - Value converted to the child's text content.
  * @returns {HTMLElement} The appended element.
  */
-export function appendTextElement(parent, tagName, className, text) {
+export function appendTextElement<K extends keyof HTMLElementTagNameMap>(
+  parent: HTMLElement | DocumentFragment,
+  tagName: K,
+  className: string | null,
+  text: unknown,
+): HTMLElementTagNameMap[K] {
   const element = createElementWithText(tagName, className, text);
   parent.appendChild(element);
   return element;
@@ -41,6 +50,6 @@ export function appendTextElement(parent, tagName, className, text) {
  * @param {*} text - Content displayed in the line.
  * @returns {HTMLSpanElement} The course-block line element.
  */
-export function createCourseBlockLine(text) {
+export function createCourseBlockLine(text: unknown): HTMLSpanElement {
   return createElementWithText("span", "course-block-line", text);
 }

@@ -15,7 +15,7 @@ const DAY_MS = 24 * HOUR_MS;
  * @param {number} elapsedMs - Non-negative time elapsed since catalog generation.
  * @returns {{value: number, unit: Intl.RelativeTimeFormatUnit}} Relative-time value and unit.
  */
-function relativeUnit(elapsedMs) {
+function relativeUnit(elapsedMs: number): { value: number; unit: Intl.RelativeTimeFormatUnit } {
   if (elapsedMs < MINUTE_MS) return { value: 0, unit: "minute" };
   if (elapsedMs < HOUR_MS)
     return { value: -Math.floor(elapsedMs / MINUTE_MS), unit: "minute" };
@@ -31,7 +31,7 @@ function relativeUnit(elapsedMs) {
  * @param {number} [now=Date.now()] - Current epoch time, injectable for tests.
  * @returns {{exact: string, text: string}|null} Formatted freshness details, or null for invalid input.
  */
-export function formatCatalogFreshness(timestamp, now = Date.now()) {
+export function formatCatalogFreshness(timestamp: string, now = Date.now()): { exact: string; text: string } | null {
   const updatedAt = new Date(timestamp);
   if (Number.isNaN(updatedAt.getTime())) return null;
 
@@ -58,7 +58,7 @@ export function formatCatalogFreshness(timestamp, now = Date.now()) {
  */
 export function initializeCatalogFreshness() {
   const container = document.getElementById("catalogFreshness");
-  const time = document.getElementById("catalogGeneratedAt");
+  const time = document.querySelector<HTMLTimeElement>("#catalogGeneratedAt");
   if (!container || !time || !time.dateTime) return;
 
   /** Renders the latest relative timestamp into the existing freshness controls. @returns {void} */

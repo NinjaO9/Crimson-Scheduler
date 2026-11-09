@@ -7,14 +7,14 @@
 
 import { MOBILE_BREAKPOINT } from "./constants.js";
 
-let activeMobileMiscTrigger = null;
+let activeMobileMiscTrigger: HTMLElement | null = null;
 
 /**
  * Checks whether the current viewport is at or below the mobile breakpoint.
  *
  * @returns {boolean} `true` when the mobile layout should be active.
  */
-export function isMobileViewport() {
+export function isMobileViewport(): boolean {
   return window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches;
 }
 
@@ -26,7 +26,7 @@ export function isMobileViewport() {
  * @returns {boolean} `true` when the page is running in a matching mobile app.
  * @see {@link isMobileViewport}
  */
-export function isGoogleOrChromeMobileApp(userAgent = navigator.userAgent) {
+export function isGoogleOrChromeMobileApp(userAgent: string = navigator.userAgent): boolean {
   if (!isMobileViewport()) return false;
   const ua = String(userAgent || "");
   if (/\bGSA\//i.test(ua)) return true;
@@ -40,7 +40,7 @@ export function isGoogleOrChromeMobileApp(userAgent = navigator.userAgent) {
  * @returns {void}
  * @see {@link isGoogleOrChromeMobileApp}
  */
-export function updateMobileImageExportVisibility() {
+export function updateMobileImageExportVisibility(): void {
   const exportButton = document.getElementById("exportScheduleBtn");
   if (!exportButton) return;
   const hidden = isGoogleOrChromeMobileApp();
@@ -56,7 +56,7 @@ export function updateMobileImageExportVisibility() {
  * @see {@link syncMobileMiscPanel}
  * @see {@link updateMobileImageExportVisibility}
  */
-export function initializeMobileLayout() {
+export function initializeMobileLayout(): void {
   setMobilePane("search");
   syncMobileMiscPanel();
   updateMobileImageExportVisibility();
@@ -69,8 +69,9 @@ export function initializeMobileLayout() {
  * @returns {void}
  * @see {@link setMobilePane}
  */
-export function handleMobileNavigation(button) {
-  setMobilePane(button.getAttribute("data-mobile-nav"));
+export function handleMobileNavigation(button: HTMLElement): void {
+  const targetPane = button.getAttribute("data-mobile-nav");
+  if (targetPane) setMobilePane(targetPane);
 }
 
 /**
@@ -79,7 +80,7 @@ export function handleMobileNavigation(button) {
  * @param {string} targetPane - Pane identifier to activate.
  * @returns {void}
  */
-export function setMobilePane(targetPane) {
+export function setMobilePane(targetPane: string): void {
   document.querySelectorAll("[data-mobile-pane]").forEach((pane) => {
     pane.classList.toggle(
       "is-active",
@@ -102,7 +103,7 @@ export function setMobilePane(targetPane) {
  * @returns {void}
  * @see {@link isMobileViewport}
  */
-export function syncMobileMiscPanel() {
+export function syncMobileMiscPanel(): void {
   const panel = document.querySelector(".misc-panel");
   const schedulePane = document.querySelector('.schedule-pane[data-mobile-pane="schedule"]');
   const host = document.getElementById("mobileMiscPanelHost");
@@ -122,7 +123,7 @@ export function syncMobileMiscPanel() {
  * @returns {void}
  * @see {@link closeMobileMiscSheet}
  */
-export function openMobileMiscSheet(trigger) {
+export function openMobileMiscSheet(trigger?: HTMLElement): void {
   if (!isMobileViewport()) return;
 
   const sheet = document.getElementById("mobileMiscSheet");
@@ -136,7 +137,7 @@ export function openMobileMiscSheet(trigger) {
   toggle.setAttribute("aria-expanded", "true");
   document.body.classList.add("mobile-misc-sheet-open");
   window.requestAnimationFrame(() => sheet.classList.add("is-open"));
-  const panel = sheet.querySelector(".mobile-misc-panel");
+  const panel = sheet.querySelector<HTMLElement>(".mobile-misc-panel");
   if (panel) panel.focus({ preventScroll: true });
 }
 
@@ -148,7 +149,7 @@ export function openMobileMiscSheet(trigger) {
  * @returns {void}
  * @see {@link openMobileMiscSheet}
  */
-export function closeMobileMiscSheet({ restoreFocus = true } = {}) {
+export function closeMobileMiscSheet({ restoreFocus = true }: { restoreFocus?: boolean } = {}): void {
   const sheet = document.getElementById("mobileMiscSheet");
   const toggle = document.getElementById("mobileMiscToggle");
 
@@ -178,12 +179,12 @@ export function closeMobileMiscSheet({ restoreFocus = true } = {}) {
  * @param {number} delay - Delay in milliseconds.
  * @returns {Function & {cancel: Function}} Debounced callback with a cancel method.
  */
-export function debounce(callback, delay) {
-  let timerId;
-  const debounced = function (...args) {
+export function debounce(callback: () => void, delay: number): (() => void) & { cancel: () => void } {
+  let timerId: number | undefined;
+  const debounced = (() => {
     window.clearTimeout(timerId);
-    timerId = window.setTimeout(() => callback.apply(this, args), delay);
-  };
+    timerId = window.setTimeout(callback, delay);
+  }) as (() => void) & { cancel: () => void };
   debounced.cancel = function () {
     window.clearTimeout(timerId);
   };
