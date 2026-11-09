@@ -1,6 +1,11 @@
 import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
 export default [
+    ...tseslint.configs.recommended.map((config) => ({
+        ...config,
+        files: ['**/*.ts'],
+    })),
     {
         ignores: [
             'venv/**',
@@ -9,6 +14,17 @@ export default [
             'node_modules/**',
             'web/classes/static/js/schedule_build.bundle.js',
         ],
+    },
+    {
+        files: ['web/classes/static/js/**/*.ts', 'tests/**/*.ts'],
+        languageOptions: {
+            globals: {
+                ...globals.browser,
+                ...globals.node,
+                CourseApi: 'readonly',
+                html2canvas: 'readonly',
+            },
+        },
     },
     {
         files: ['web/classes/static/js/*.js'],
