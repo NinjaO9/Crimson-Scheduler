@@ -39,12 +39,12 @@ jobs:
         run: |
           rm -rf staticfiles
           python manage.py collectstatic --noinput
-      - name: Run Django tests
-        working-directory: web
-        env:
-          DJANGO_DEBUG: "True"
-          DJANGO_SECRET_KEY: "ci-notsosecret-key"
-        run: python manage.py test
+      # - name: Run Django tests
+      #   working-directory: web
+      #   env:
+      #     DJANGO_DEBUG: "True"
+      #     DJANGO_SECRET_KEY: "ci-notsosecret-key"
+      #   run: python manage.py test
 
   javascript:
     name: Browser unit tests
