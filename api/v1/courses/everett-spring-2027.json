@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T09:46:40.745299+00:00",
+  "generatedAt": "2026-11-10T17:47:32.691674+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -1641,10 +1641,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "available": 23,
+                "label": "2/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1737,10 +1737,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 35,
-                "available": 35,
-                "label": "0/35"
+                "available": 33,
+                "label": "2/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1783,10 +1783,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1818,10 +1818,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 30,
-                "available": 30,
-                "label": "0/30"
+                "available": 29,
+                "label": "1/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2324,10 +2324,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 15,
-                "available": 15,
-                "label": "0/15"
+                "available": 14,
+                "label": "1/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5202,6 +5202,59 @@
       ]
     },
     {
+      "subject": "HISTORY",
+      "courses": [
+        {
+          "course": "The Roots of Contemporary Issues",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 105,
+          "courseCode": "HISTORY 105",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2055",
+              "sln": 2055,
+              "sectionNumber": 5,
+              "courseCode": "HISTORY 105",
+              "courseName": "The Roots of Contemporary Issues",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:45 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:45 - 16:00"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "D NELSON",
+              "instructors": [
+                "D NELSON"
+              ],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "HORT",
       "courses": [
         {
@@ -6525,10 +6578,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 29,
-                "available": 28,
-                "label": "1/29"
+                "available": 27,
+                "label": "2/29"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7120,10 +7173,10 @@
               "coop": true,
               "footnotes": "X",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 25,
-                "available": 25,
-                "label": "0/25"
+                "available": 24,
+                "label": "1/25"
               },
               "dates": {
                 "start": "Jan 11",
