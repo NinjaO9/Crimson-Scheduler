@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T22:37:26.100100+00:00",
+  "generatedAt": "2026-11-10T01:32:40.616286+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -237,6 +237,541 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ANTH",
+      "courses": [
+        {
+          "course": "Global Cultural Diversity",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 203,
+          "courseCode": "ANTH 203",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2348",
+              "sln": 2348,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 203",
+              "courseName": "Global Cultural Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Perspectives on Race and Human Variation",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 220,
+          "courseCode": "ANTH 220",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2349",
+              "sln": 2349,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 220",
+              "courseName": "Perspectives on Race and Human Variation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Biological Anthropology",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 260,
+          "courseCode": "ANTH 260",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2350",
+              "sln": 2350,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 260",
+              "courseName": "Introduction to Biological Anthropology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2351",
+              "sln": 2351,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 260",
+              "courseName": "Introduction to Biological Anthropology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sex, Evolution, and Human Nature",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 268,
+          "courseCode": "ANTH 268",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2352",
+              "sln": 2352,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 268",
+              "courseName": "Sex, Evolution, and Human Nature",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2353",
+              "sln": 2353,
+              "sectionNumber": 2,
+              "courseCode": "ANTH 268",
+              "courseName": "Sex, Evolution, and Human Nature",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Childhood and Culture",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 302,
+          "courseCode": "ANTH 302",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2355",
+              "sln": 2355,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 302",
+              "courseName": "Childhood and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Gender in Cross Cultural Perspective",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 316,
+          "courseCode": "ANTH 316",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2356",
+              "sln": 2356,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 316",
+              "courseName": "Gender in Cross Cultural Perspective",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Native Peoples of North America",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 320,
+          "courseCode": "ANTH 320",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2357",
+              "sln": 2357,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 320",
+              "courseName": "Native Peoples of North America",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Speech, Thought, and Culture",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 350,
+          "courseCode": "ANTH 350",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2358",
+              "sln": 2358,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 350",
+              "courseName": "Speech, Thought, and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Primate Behavioral Ecology",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 381,
+          "courseCode": "ANTH 381",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2359",
+              "sln": 2359,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 381",
+              "courseName": "Primate Behavioral Ecology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 22,
+                "available": 22,
+                "label": "0/22"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Human Issues in International Development",
+          "subject": "ANTH",
+          "subjectPrefix": "Anth",
+          "courseNumber": 418,
+          "courseCode": "ANTH 418",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2360",
+              "sln": 2360,
+              "sectionNumber": 1,
+              "courseCode": "ANTH 418",
+              "courseName": "Human Issues in International Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
               }
             }
           ]
@@ -2845,6 +3380,54 @@
           ]
         },
         {
+          "course": "Introduction to English Studies",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 302,
+          "courseCode": "ENGLISH 302",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2458",
+              "sln": 2458,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 302",
+              "courseName": "Introduction to English Studies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J HUGHES",
+              "instructors": [
+                "J HUGHES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
           "subject": "ENGLISH",
           "subjectPrefix": "Engl",
@@ -2923,6 +3506,54 @@
               "instructor": "G MAIERHOFER",
               "instructors": [
                 "G MAIERHOFER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Public Writing",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 361,
+          "courseCode": "ENGLISH 361",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3104",
+              "sln": 3104,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 361",
+              "courseName": "Public Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S BROCK",
+              "instructors": [
+                "S BROCK"
               ],
               "ucore": "",
               "coop": false,

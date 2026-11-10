@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-10T01:32:40.566383+00:00",
+  "campus": "Everett",
+  "term": "Summer 2027",
+  "subjects": [
+    {
+      "subject": "MGMT",
+      "courses": [
+        {
+          "course": "Managerial Effectiveness Through Diversity",
+          "subject": "MGMT",
+          "subjectPrefix": "MGMT",
+          "courseNumber": 415,
+          "courseCode": "MGMT 415",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3107",
+              "sln": 3107,
+              "sectionNumber": 1,
+              "courseCode": "MGMT 415",
+              "courseName": "Managerial Effectiveness Through Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH",
+              "time": "10:30 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "10:30 - 12:00"
+                }
+              ],
+              "location": "GUC  EVE",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
