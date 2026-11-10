@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T17:47:32.730829+00:00",
+  "generatedAt": "2026-11-10T23:15:07.702306+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -6590,6 +6590,52 @@
               }
             }
           ]
+        },
+        {
+          "course": "Human Issues in International Development",
+          "subject": "POL_S",
+          "subjectPrefix": "Pol S",
+          "courseNumber": 418,
+          "courseCode": "POL_S 418",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2361",
+              "sln": 2361,
+              "sectionNumber": 1,
+              "courseCode": "POL_S 418",
+              "courseName": "Human Issues in International Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -6789,6 +6835,52 @@
               "dates": {
                 "start": "Jul 31",
                 "end": "Aug 22"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Human Issues in International Development",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 418,
+          "courseCode": "SOC 418",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2362",
+              "sln": 2362,
+              "sectionNumber": 1,
+              "courseCode": "SOC 418",
+              "courseName": "Human Issues in International Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
               }
             }
           ]
