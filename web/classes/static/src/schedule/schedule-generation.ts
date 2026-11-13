@@ -6,15 +6,18 @@
  */
 
 import { CourseApi } from "../course_api";
-import { CatalogCourse, SchedulableSection, ScheduleRecord, SectionReference } from "../types";
+import { CatalogCourse, SchedulableSection, SectionReference } from "../types";
 import { addSchedule, getActiveSchedule, getScheduleById } from "./schedule-state";
 import { parseDaysToIndexes, parseTimeRange } from "./time-and-meetings";
 import { refreshScheduleSelector } from "./schedule-selector";
+import { Heap } from "../heap";
 const DAY_START = 0;
 const DAY_END = 1439; // 1440 min in day (-1 for array indexing)
 const WORD_COUNT = 45; // 32 * 45 = 1440 (minutes in day)
 const DAYS_COUNT = 7;
 const SCHEDULE_AVAILABILITY_MAP = Array.from({ length: DAYS_COUNT }, () => new Uint32Array(WORD_COUNT));
+const K = 3;
+const TOP_K_SCHEDULES = new Heap<ScheduleContender>((a, b) => a.score - b.score, K); // Max heap to store best K schedules
 
 type Tuple<T, U, V> = [T,U,V];
 
@@ -26,6 +29,11 @@ interface SectionCombination {
 
 interface EnrichedCatalogCourse extends CatalogCourse {
     sectionCombinations : SectionCombination[];
+}
+
+interface ScheduleContender {
+    sectionrefs: SectionReference[];
+    score : number;
 }
 
 /**
@@ -338,6 +346,9 @@ function findTightestCombination(courseA : EnrichedCatalogCourse, courseB : Enri
     return bestFit;
 }
 
+/**
+ * Resets SCHEDULE_AVAILABILITY_MAP back to an empty slate.
+ */
 function resetScheduleMap()
 {
     for (let day = 0; day < DAYS_COUNT; day++)
@@ -349,7 +360,11 @@ function resetScheduleMap()
     }
 }
 
-function removeCombinationFromSchedule(combination : SectionCombination) : void
+/**
+ * Removes a combination from the availability bitset.
+ * @param combination - combination to remove.
+ */
+function removeCombinationFromAvailability(combination : SectionCombination) : void
 {
     for (let day = 0; day < DAYS_COUNT; day++)
     {
@@ -360,7 +375,11 @@ function removeCombinationFromSchedule(combination : SectionCombination) : void
     }
 }
 
-function addCombinationToSchedule(combination : SectionCombination) : void
+/**
+ * Adds a combination from the availability bitset.
+ * @param combination - combination to add.
+ */
+function addCombinationToAvailability(combination : SectionCombination) : void
 {
     for (let day = 0; day < DAYS_COUNT; day++)
     {
@@ -371,56 +390,135 @@ function addCombinationToSchedule(combination : SectionCombination) : void
     }
 }
 
-function findBestSchedules(courses : EnrichedCatalogCourse[], index : number = 0) : SectionReference[] | null
+/**
+ * Computes the downtime map of the active availability map.
+ * @returns - A downtime map (array of downtime numbers)
+ */
+function getScheduleDowntime()
+{
+    const downtimeMap : number[] = [0, 0, 0, 0, 0, 0, 0];
+    
+    for (let day = 0; day < DAYS_COUNT; day++)
+    {
+
+        let first = -1;
+        let last = -1;
+        let occupiedMinutes = 0;
+        
+        for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
+        {
+            if (SCHEDULE_AVAILABILITY_MAP[day][wordIndex] === 0) continue;
+            occupiedMinutes += popcount32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]);
+
+            if (first === -1)
+            {
+                first = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex] & -SCHEDULE_AVAILABILITY_MAP[day][wordIndex]));
+            }
+
+            last = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]));
+        }
+
+        if (first === -1)
+        {
+            downtimeMap[day] = 0;
+        }
+        else
+        {
+            downtimeMap[day] = (last - first + 1) - occupiedMinutes;
+        }
+
+    }
+
+    return downtimeMap;
+}
+
+/**
+ * Converts a collection of SectionCombinations into a single Schedule Contender.
+ * @param schedule - Section combinations that will be used to create a schedule.
+ * @returns 
+ */
+function convertCombinationsToScheduleContenders(schedule : SectionCombination[]) : ScheduleContender
+{
+    const sectionrefs : SectionReference[] = [];
+
+    schedule.forEach((combination) => {
+        if (!combination.lecture)
+        {
+            sectionrefs.push({term_slug: combination.lab!.term_slug, section_id: combination.lab!.section_id, schedule_group_id: combination.lab!.section_id} as SectionReference)
+        }
+        else if (!combination.lab)
+        {
+            sectionrefs.push({term_slug: combination.lecture!.term_slug, section_id: combination.lecture!.section_id, schedule_group_id: combination.lecture!.section_id} as SectionReference)
+        }
+        else
+        {
+            sectionrefs.push({term_slug: combination.lecture!.term_slug, section_id: combination.lecture!.section_id, schedule_group_id: `${combination.lecture!.section_id}-${combination.lab!.section_id}`} as SectionReference)
+            sectionrefs.push({term_slug: combination.lab!.term_slug, section_id: combination.lab!.section_id, schedule_group_id: `${combination.lecture!.section_id}-${combination.lab!.section_id}`} as SectionReference)
+        }
+    });
+
+    const score : number = getScheduleDowntime().reduce((acc, cur) => acc + cur, 0);
+
+    return {sectionrefs: sectionrefs, score: score} as ScheduleContender;
+}
+
+
+/**
+ * Attempts to add the contending schedule to the heap.
+ * @param builtSchedule - collection of section combinations to be used for the schedule.
+ */
+function attemptToAddToHeap(builtSchedule : SectionCombination[])
+{
+
+    if (TOP_K_SCHEDULES.isFull())
+    {
+        const maxScore = TOP_K_SCHEDULES.peek()!.score;
+        if (maxScore > getScheduleDowntime().reduce((acc, cur) => acc + cur, 0))
+        {
+            TOP_K_SCHEDULES.pop();
+            TOP_K_SCHEDULES.insert(convertCombinationsToScheduleContenders(builtSchedule));
+        }
+    }
+    else
+    {
+        TOP_K_SCHEDULES.insert(convertCombinationsToScheduleContenders(builtSchedule));
+    }
+}
+
+/**
+ * Finds the best K schedules for given courses. (Best is defined as minimum downtime for now)
+ * @param courses - Courses that must be included in the schedule.
+ * @param index - Index of course list being investigated (DO NOT GIVE ARGUMENT)
+ * @param builtSchedule - Constructed schedule so far (DO NOT GIVE ARGUMENT)
+ * @returns 
+ */
+function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 0, builtSchedule : SectionCombination[] = []) : boolean
 {
     console.log(`Index check: ${index} / ${courses.length}`);
     if (index >= courses.length)
     {
-        return [] as SectionReference[];
+        attemptToAddToHeap(builtSchedule);
+        return true; // Exhausted all courses without a conflict.
     }
     console.log(`Checking course: ${courses[index].course_name}`);
+    const prevLength = builtSchedule.length;
     for (const combination of courses[index].sectionCombinations)
     {
         if (hasConflictInSchedule(combination)) continue;
-        addCombinationToSchedule(combination);
-        const result = findBestSchedules(courses, index + 1)
-        if (result !== null)
-        {
-            if (!combination.lecture)
-            {
-                result.push({term_slug: courses[index].term_slug, section_id: combination.lab!.section_id, schedule_group_id: combination.lab!.section_id} as SectionReference)
-            }
-            else if (!combination.lab)
-            {
-                result.push({term_slug: courses[index].term_slug, section_id: combination.lecture!.section_id, schedule_group_id: combination.lecture!.section_id} as SectionReference)
-            }
-            else
-            {
-                result.push({term_slug: courses[index].term_slug, section_id: combination.lecture!.section_id, schedule_group_id: `${combination.lecture!.section_id}-${combination.lab!.section_id}`} as SectionReference)
-                result.push({term_slug: courses[index].term_slug, section_id: combination.lab!.section_id, schedule_group_id: `${combination.lecture!.section_id}-${combination.lab!.section_id}`} as SectionReference)
-            }
-            return result;
-        }
-        removeCombinationFromSchedule(combination);
+        addCombinationToAvailability(combination);
+        builtSchedule.push(combination); // add combination to the schedule we are building
+        findBestKSchedules(courses, index + 1, builtSchedule)
+        builtSchedule.length = prevLength; // remove combination from built schedule
+        removeCombinationFromAvailability(combination);
     }
-    return null;
+    return !TOP_K_SCHEDULES.isEmpty();
 }
-
-/**
- * Soon
- * @param courses 
- * @returns 
- */
-function findBestKSchedules(courses : Set<EnrichedCatalogCourse>) : ScheduleRecord[]
-{
-    return {} as ScheduleRecord[];
-}
-
 
 export async function testthisshit()
 {
     const active_schedule = getActiveSchedule();
     if (active_schedule === null) return;
+    resetScheduleMap();
     const result = await getCoursesFromSchedule(active_schedule.id)
     // Sort the output to allow for MRV navigation.
     const eResult = [...new Set<EnrichedCatalogCourse>([
@@ -432,25 +530,16 @@ export async function testthisshit()
         console.log(eCourse.sectionCombinations);
     })
 
-    // console.log(`Best fit for: ${eResult[eResult.length - 1].course_name} and ${eResult[eResult.length - 2].course_name}`);
-    // const bResult = findTightestCombination(eResult[eResult.length - 1], eResult[eResult.length - 2]);
-    // if (bResult === null)
-    // {
-    //     console.log("ISSUE");
-    // }
-    // else
-    // {
-    // bResult.forEach((item) => {
-    //         console.log(item);
-    // });
-    // }
-
     console.log("Testing schedule generation");
-    const sResult = findBestSchedules(eResult);
-    if (sResult !== null)
+    const sResult = findBestKSchedules(eResult);
+    console.log("Am I albert einstien");
+    let index : number = 3;
+    while(!TOP_K_SCHEDULES.isEmpty())
     {
-        addSchedule(sResult);
-        refreshScheduleSelector();
+        const newSchedule = TOP_K_SCHEDULES.pop();
+        addSchedule(newSchedule!.sectionrefs, `SCHEDULE #${index--}`);
     }
+    refreshScheduleSelector();
+    resetScheduleMap();
     console.log(sResult);
 }

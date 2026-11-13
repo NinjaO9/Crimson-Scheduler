@@ -24,6 +24,10 @@ export class Heap<T> {
         return this.count === 0;
     }
 
+    public isFull(): boolean {
+        return this.count >= this.capacity;
+    }
+
     public peek(): T | undefined {
         return this.count === 0 ? undefined : this.heap[0];
     }
