@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T18:26:55.949330+00:00",
+  "generatedAt": "2026-11-13T22:35:29.693467+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -679,6 +679,10 @@
       ]
     },
     {
+      "subject": "ANTH",
+      "courses": []
+    },
+    {
       "subject": "BIO_ENG",
       "courses": [
         {
@@ -723,6 +727,142 @@
               "dates": {
                 "start": "Jun 28",
                 "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "BIO_ENG",
+          "subjectPrefix": "B E",
+          "courseNumber": 488,
+          "courseCode": "BIO_ENG 488",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2785",
+              "sln": 2785,
+              "sectionNumber": 1,
+              "courseCode": "BIO_ENG 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "XS",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BIOLOGY",
+      "courses": [
+        {
+          "course": "Introductory Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 251,
+          "courseCode": "BIOLOGY 251",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2884",
+              "sln": 2884,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "09:00 - 09:50",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "09:00 - 09:50"
+                }
+              ],
+              "location": "SLOA 169",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jul 23"
+              }
+            },
+            {
+              "sectionId": "2885",
+              "sln": 2885,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "10:40 - 13:30",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:40 - 13:30"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jul 23"
               }
             }
           ]
@@ -928,6 +1068,52 @@
           ]
         },
         {
+          "course": "Professional Practice Coop/Internship I",
+          "subject": "CHE",
+          "subjectPrefix": "Ch E",
+          "courseNumber": 488,
+          "courseCode": "CHE 488",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2786",
+              "sln": 2786,
+              "sectionNumber": 1,
+              "courseCode": "CHE 488",
+              "courseName": "Professional Practice Coop/Internship I",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "XS",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Special Problems",
           "subject": "CHE",
           "subjectPrefix": "Ch E",
@@ -1107,6 +1293,98 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CHEM",
+      "courses": [
+        {
+          "course": "Principles of Chemistry II",
+          "subject": "CHEM",
+          "subjectPrefix": "Chem",
+          "courseNumber": 106,
+          "courseCode": "CHEM 106",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3078",
+              "sln": 3078,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 106",
+              "courseName": "Principles of Chemistry II",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "10:30 - 11:35",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "10:30 - 11:35"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "P BUCKLEY",
+              "instructors": [
+                "P BUCKLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3079",
+              "sln": 3079,
+              "sectionNumber": 1,
+              "courseCode": "CHEM 106",
+              "courseName": "Principles of Chemistry II",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH,TU,TH",
+              "time": "12:00 - 12:50;13:00 - 15:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:00 - 12:50"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "13:00 - 15:00"
+                }
+              ],
+              "location": "TROY G0005",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
               }
             }
           ]
