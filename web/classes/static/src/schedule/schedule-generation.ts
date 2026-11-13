@@ -19,8 +19,6 @@ const SCHEDULE_AVAILABILITY_MAP = Array.from({ length: DAYS_COUNT }, () => new U
 const K = 3;
 const TOP_K_SCHEDULES = new Heap<ScheduleContender>((a, b) => a.score - b.score, K); // Max heap to store best K schedules
 
-type Tuple<T, U, V> = [T,U,V];
-
 interface SectionCombination {
     lecture? : SchedulableSection;
     lab? : SchedulableSection;
@@ -218,25 +216,11 @@ function enrichCatalogCourses(courses : Set<CatalogCourse>) : Set<EnrichedCatalo
 }
 
 /**
- * Finds if there is a conflict between two section combinations.
- * 
- * @param combinationA
- * @param combinationB 
- * @returns true if conflict found, false otherwise.
+ * Determines if a given combination will cause a conflict in the schedule.
+ * @param combination - combination to check.
+ * @returns 
  */
-function hasConflictInCombinations(combinationA : SectionCombination, combinationB : SectionCombination) : boolean
-{
-    for (let dayIndex = 0; dayIndex < DAYS_COUNT; dayIndex++)
-    {
-        for (let word = 0; word < WORD_COUNT; word++)
-        {
-            if ((combinationA.occupancy[dayIndex][word] & combinationB.occupancy[dayIndex][word]) !== 0) return true;
-        }
-    }
-    return false;
-}
-
-function hasConflictInSchedule(combination : SectionCombination) : boolean
+function checkConflictsWithSchedule(combination : SectionCombination) : boolean
 {
     for (let day = 0; day < DAYS_COUNT; day++)
     {
@@ -267,83 +251,6 @@ function popcount32(word : number) : number
     
     // 4. Sum all four 8-bit byte totals into the top byte via multiplication
     return ((word * 0x01010101) >>> 0) >>> 24;
-}
-
-/**
- * Generates a downtimeMap for two combinations, a list of numbers that shows how much downtime is had between courses on each day of the week.
- * @param combinationA 
- * @param combinationB 
- * @returns A downtimeMap that showcases the idle time between courses on any given day.
- */
-function getSectionDowntime(combinationA : SectionCombination, combinationB : SectionCombination) : number[]
-{
-    const downtimeMap : number[] = [0, 0, 0, 0, 0, 0, 0];
-    
-    for (let day = 0; day < DAYS_COUNT; day++)
-    {
-
-        let first = -1;
-        let last = -1;
-        let occupiedMinutes = 0;
-        
-        for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
-        {
-            SCHEDULE_AVAILABILITY_MAP[day][wordIndex] |= combinationA.occupancy[day][wordIndex] | combinationB.occupancy[day][wordIndex];
-            if (SCHEDULE_AVAILABILITY_MAP[day][wordIndex] === 0) continue;
-            occupiedMinutes += popcount32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]);
-
-            if (first === -1)
-            {
-                first = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex] & -SCHEDULE_AVAILABILITY_MAP[day][wordIndex]));
-            }
-
-            last = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]));
-        }
-
-        if (first === -1)
-        {
-            downtimeMap[day] = 0;
-        }
-        else
-        {
-            downtimeMap[day] = (last - first + 1) - occupiedMinutes;
-        }
-
-    }
-
-    return downtimeMap;
-}
-
-
-/**
- * Given two courses, finds the combination to take them that has the tightest schedule (with no conflicts)
- * @param courseA 
- * @param courseB 
- * @returns A tuple that contains the sections chosen and the downtime map
- */
-function findTightestCombination(courseA : EnrichedCatalogCourse, courseB : EnrichedCatalogCourse) : Tuple<SectionCombination, SectionCombination, number[]> | null
-{
-    let bestFit : Tuple<SectionCombination, SectionCombination, number[]> = {} as Tuple<SectionCombination, SectionCombination, number[]>;
-    for (const sectionCombinationA of courseA.sectionCombinations)
-    {
-        for (const sectionCombinationB of courseB.sectionCombinations)
-        {
-            if(hasConflictInCombinations(sectionCombinationA, sectionCombinationB)) continue;
-            const newDownTimeMap = getSectionDowntime(sectionCombinationA, sectionCombinationB);
-            const newScore = newDownTimeMap.reduce((acc, cur) => acc + cur, 0);
-            let curScore = Number.MAX_SAFE_INTEGER;
-            if (bestFit[2] !== undefined)
-            {
-                curScore = bestFit[2].reduce((acc, cur) => acc + cur, 0);
-            }
-            if (newScore < curScore)
-            {
-                bestFit = [sectionCombinationA, sectionCombinationB, newDownTimeMap];
-            }
-
-        }
-    }
-    return bestFit;
 }
 
 /**
@@ -396,6 +303,12 @@ function addCombinationToAvailability(combination : SectionCombination) : void
  */
 function getScheduleDowntime()
 {
+    /*
+    Note for other people who may look at this code (extra comments cause I am presenting this)
+    - Idea here is that if we can get when classes start and end for the day, along with how much time in the day is allocated to classes
+        we can find the downtime. We don't necissarily need to know the details of when downtime is, we just need to know it exists, and how much.
+    */
+
     const downtimeMap : number[] = [0, 0, 0, 0, 0, 0, 0];
     
     for (let day = 0; day < DAYS_COUNT; day++)
@@ -408,14 +321,14 @@ function getScheduleDowntime()
         for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
         {
             if (SCHEDULE_AVAILABILITY_MAP[day][wordIndex] === 0) continue;
-            occupiedMinutes += popcount32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]);
+            occupiedMinutes += popcount32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]); // "How much time is allocated to classes?"
 
             if (first === -1)
             {
-                first = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex] & -SCHEDULE_AVAILABILITY_MAP[day][wordIndex]));
+                first = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex] & -SCHEDULE_AVAILABILITY_MAP[day][wordIndex])); // "When do classes first start?"
             }
 
-            last = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex]));
+            last = wordIndex * 32 + (31 - Math.clz32(SCHEDULE_AVAILABILITY_MAP[day][wordIndex])); // "When does our last class end?"
         }
 
         if (first === -1)
@@ -424,7 +337,7 @@ function getScheduleDowntime()
         }
         else
         {
-            downtimeMap[day] = (last - first + 1) - occupiedMinutes;
+            downtimeMap[day] = (last - first + 1) - occupiedMinutes; // "Given the range between our first and last class, how much of that time is idle?"
         }
 
     }
@@ -504,7 +417,7 @@ function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 
     const prevLength = builtSchedule.length;
     for (const combination of courses[index].sectionCombinations)
     {
-        if (hasConflictInSchedule(combination)) continue;
+        if (checkConflictsWithSchedule(combination)) continue;
         addCombinationToAvailability(combination);
         builtSchedule.push(combination); // add combination to the schedule we are building
         findBestKSchedules(courses, index + 1, builtSchedule)
