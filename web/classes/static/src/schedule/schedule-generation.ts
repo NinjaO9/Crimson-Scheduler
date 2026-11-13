@@ -6,9 +6,10 @@
  */
 
 import { CourseApi } from "../course_api";
-import { CatalogCourse, Meeting, SchedulableSection, ScheduleRecord, Section } from "../types";
-import { getActiveSchedule, getScheduleById } from "./schedule-state";
-import { parseDaysToIndexes, parseTimeRange, timeToMinutes } from "./time-and-meetings";
+import { CatalogCourse, SchedulableSection, ScheduleRecord, SectionReference } from "../types";
+import { addSchedule, getActiveSchedule, getScheduleById } from "./schedule-state";
+import { parseDaysToIndexes, parseTimeRange } from "./time-and-meetings";
+import { refreshScheduleSelector } from "./schedule-selector";
 const DAY_START = 0;
 const DAY_END = 1439; // 1440 min in day (-1 for array indexing)
 const WORD_COUNT = 45; // 32 * 45 = 1440 (minutes in day)
@@ -145,7 +146,7 @@ function getSectionBitset(section : SchedulableSection) : Uint32Array[]
  */
 function findSectionCombinations(course : CatalogCourse) : SectionCombination[]
 {
-    let combinations : SectionCombination[] = [];
+    const combinations : SectionCombination[] = [];
 
     if (!course.lecture_sections.length)
     {
@@ -197,7 +198,7 @@ function findSectionCombinations(course : CatalogCourse) : SectionCombination[]
  */
 function enrichCatalogCourses(courses : Set<CatalogCourse>) : Set<EnrichedCatalogCourse>
 {
-    let eCourses : Set<EnrichedCatalogCourse> = new Set<EnrichedCatalogCourse>;
+    const eCourses : Set<EnrichedCatalogCourse> = new Set<EnrichedCatalogCourse>;
 
     courses.forEach((course) => {
         eCourses.add({
@@ -222,6 +223,18 @@ function hasConflictInCombinations(combinationA : SectionCombination, combinatio
         for (let word = 0; word < WORD_COUNT; word++)
         {
             if ((combinationA.occupancy[dayIndex][word] & combinationB.occupancy[dayIndex][word]) !== 0) return true;
+        }
+    }
+    return false;
+}
+
+function hasConflictInSchedule(combination : SectionCombination) : boolean
+{
+    for (let day = 0; day < DAYS_COUNT; day++)
+    {
+        for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
+        {
+            if ((SCHEDULE_AVAILABILITY_MAP[day][wordIndex] & combination.occupancy[day][wordIndex]) !== 0) return true;
         }
     }
     return false;
@@ -325,6 +338,74 @@ function findTightestCombination(courseA : EnrichedCatalogCourse, courseB : Enri
     return bestFit;
 }
 
+function resetScheduleMap()
+{
+    for (let day = 0; day < DAYS_COUNT; day++)
+    {
+        for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
+        {
+            SCHEDULE_AVAILABILITY_MAP[day][wordIndex] &= 0;
+        }
+    }
+}
+
+function removeCombinationFromSchedule(combination : SectionCombination) : void
+{
+    for (let day = 0; day < DAYS_COUNT; day++)
+    {
+        for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
+        {
+            SCHEDULE_AVAILABILITY_MAP[day][wordIndex] ^= combination.occupancy[day][wordIndex];
+        }
+    }
+}
+
+function addCombinationToSchedule(combination : SectionCombination) : void
+{
+    for (let day = 0; day < DAYS_COUNT; day++)
+    {
+        for (let wordIndex = 0; wordIndex < WORD_COUNT; wordIndex++)
+        {
+            SCHEDULE_AVAILABILITY_MAP[day][wordIndex] |= combination.occupancy[day][wordIndex];
+        }
+    }
+}
+
+function findBestSchedules(courses : EnrichedCatalogCourse[], index : number = 0) : SectionReference[] | null
+{
+    console.log(`Index check: ${index} / ${courses.length}`);
+    if (index >= courses.length)
+    {
+        return [] as SectionReference[];
+    }
+    console.log(`Checking course: ${courses[index].course_name}`);
+    for (const combination of courses[index].sectionCombinations)
+    {
+        if (hasConflictInSchedule(combination)) continue;
+        addCombinationToSchedule(combination);
+        const result = findBestSchedules(courses, index + 1)
+        if (result !== null)
+        {
+            if (!combination.lecture)
+            {
+                result.push({term_slug: courses[index].term_slug, section_id: combination.lab!.section_id, schedule_group_id: combination.lab!.section_id} as SectionReference)
+            }
+            else if (!combination.lab)
+            {
+                result.push({term_slug: courses[index].term_slug, section_id: combination.lecture!.section_id, schedule_group_id: combination.lecture!.section_id} as SectionReference)
+            }
+            else
+            {
+                result.push({term_slug: courses[index].term_slug, section_id: combination.lecture!.section_id, schedule_group_id: `${combination.lecture!.section_id}-${combination.lab!.section_id}`} as SectionReference)
+                result.push({term_slug: courses[index].term_slug, section_id: combination.lab!.section_id, schedule_group_id: `${combination.lecture!.section_id}-${combination.lab!.section_id}`} as SectionReference)
+            }
+            return result;
+        }
+        removeCombinationFromSchedule(combination);
+    }
+    return null;
+}
+
 /**
  * Soon
  * @param courses 
@@ -351,17 +432,25 @@ export async function testthisshit()
         console.log(eCourse.sectionCombinations);
     })
 
-    console.log(`Best fit for: ${eResult[eResult.length - 1].course_name} and ${eResult[eResult.length - 2].course_name}`);
-    const bResult = findTightestCombination(eResult[eResult.length - 1], eResult[eResult.length - 2]);
-    if (bResult === null)
+    // console.log(`Best fit for: ${eResult[eResult.length - 1].course_name} and ${eResult[eResult.length - 2].course_name}`);
+    // const bResult = findTightestCombination(eResult[eResult.length - 1], eResult[eResult.length - 2]);
+    // if (bResult === null)
+    // {
+    //     console.log("ISSUE");
+    // }
+    // else
+    // {
+    // bResult.forEach((item) => {
+    //         console.log(item);
+    // });
+    // }
+
+    console.log("Testing schedule generation");
+    const sResult = findBestSchedules(eResult);
+    if (sResult !== null)
     {
-        console.log("ISSUE");
+        addSchedule(sResult);
+        refreshScheduleSelector();
     }
-    else
-    {
-    bResult.forEach((item) => {
-            console.log(item);
-    });
-    }
-    
+    console.log(sResult);
 }

@@ -423,6 +423,15 @@ export function createSchedule(name: string = DEFAULT_SCHEDULE_NAME): ScheduleRe
   return persistWorkspace(workspace) ? schedule : null;
 }
 
+export function addSchedule(sections : SectionReference[], name: string = DEFAULT_SCHEDULE_NAME) : void
+{
+  const workspace = currentWorkspace || loadScheduleWorkspace();
+  const id = createScheduleId();
+  const schedule = createScheduleRecord(id, name, sections);
+  workspace.schedules[id] = schedule;
+  persistWorkspace(workspace);
+}
+
 /**
  * Renames a stored schedule.
  *
