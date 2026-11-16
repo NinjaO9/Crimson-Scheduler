@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T09:34:52.314631+00:00",
+  "generatedAt": "2026-11-16T16:38:13.068965+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -364,10 +364,8 @@
                 }
               ],
               "location": "GUC  PUL",
-              "instructor": "J BASER",
-              "instructors": [
-                "J BASER"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -378,8 +376,8 @@
                 "label": "0/7"
               },
               "dates": {
-                "start": "May 10",
-                "end": "Jun 20"
+                "start": "May 17",
+                "end": "Jun 27"
               }
             },
             {
@@ -401,10 +399,8 @@
                 }
               ],
               "location": "GUC  PUL",
-              "instructor": "J BASER",
-              "instructors": [
-                "J BASER"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "X",
@@ -415,8 +411,93 @@
                 "label": "0/7"
               },
               "dates": {
-                "start": "May 10",
-                "end": "Jun 20"
+                "start": "May 17",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Welding",
+          "subject": "AGTM",
+          "subjectPrefix": "AgTM",
+          "courseNumber": 202,
+          "courseCode": "AGTM 202",
+          "credits": "1",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3043",
+              "sln": 3043,
+              "sectionNumber": 1,
+              "courseCode": "AGTM 202",
+              "courseName": "Welding",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "May 17",
+                "end": "May 30"
+              }
+            },
+            {
+              "sectionId": "3044",
+              "sln": 3044,
+              "sectionNumber": 1,
+              "courseCode": "AGTM 202",
+              "courseName": "Welding",
+              "credits": "1",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "May 17",
+                "end": "May 30"
               }
             }
           ]
@@ -3074,6 +3155,172 @@
     {
       "subject": "ENGR",
       "courses": [
+        {
+          "course": "Metal Fabrication",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 201,
+          "courseCode": "ENGR 201",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3088",
+              "sln": 3088,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 201",
+              "courseName": "Metal Fabrication",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 17",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3089",
+              "sln": 3089,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 201",
+              "courseName": "Metal Fabrication",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 17",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Welding",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 202,
+          "courseCode": "ENGR 202",
+          "credits": "1",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3090",
+              "sln": 3090,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 202",
+              "courseName": "Welding",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 17",
+                "end": "May 30"
+              }
+            },
+            {
+              "sectionId": "3091",
+              "sln": 3091,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 202",
+              "courseName": "Welding",
+              "credits": "1",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 17",
+                "end": "May 30"
+              }
+            }
+          ]
+        },
         {
           "course": "Professional Practice Coop/Internship I",
           "subject": "ENGR",

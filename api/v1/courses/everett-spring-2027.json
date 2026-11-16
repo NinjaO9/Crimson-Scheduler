@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T09:34:51.930826+00:00",
+  "generatedAt": "2026-11-16T16:38:12.681334+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -387,10 +387,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 12,
-                "available": 9,
-                "label": "3/12"
+                "available": 8,
+                "label": "4/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3386,10 +3386,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 5,
-                "available": 1,
-                "label": "4/5"
+                "available": 0,
+                "label": "5/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3469,10 +3469,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 12,
-                "available": 8,
-                "label": "4/12"
+                "available": 7,
+                "label": "5/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3506,10 +3506,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 12,
-                "available": 8,
-                "label": "4/12"
+                "available": 7,
+                "label": "5/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4309,6 +4309,91 @@
               }
             }
           ]
+        },
+        {
+          "course": "Renewable Energy Sources",
+          "subject": "E_E",
+          "subjectPrefix": "E E",
+          "courseNumber": 492,
+          "courseCode": "E_E 492",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "12142",
+              "sln": 12142,
+              "sectionNumber": 1,
+              "courseCode": "E_E 492",
+              "courseName": "Renewable Energy Sources",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "",
+              "instructor": "W DU",
+              "instructors": [
+                "W DU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12149",
+              "sln": 12149,
+              "sectionNumber": 1,
+              "courseCode": "E_E 492",
+              "courseName": "Renewable Energy Sources",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "W DU",
+              "instructors": [
+                "W DU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
         }
       ]
     },
@@ -4889,10 +4974,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 7,
+                "taken": 8,
                 "total": 30,
-                "available": 23,
-                "label": "7/30"
+                "available": 22,
+                "label": "8/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6573,10 +6658,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 7,
+                "label": "3/10"
               },
               "dates": {
                 "start": "Mar 08",
@@ -7221,10 +7306,10 @@
               "coop": true,
               "footnotes": "X",
               "seats": {
-                "taken": 4,
+                "taken": 6,
                 "total": 25,
-                "available": 21,
-                "label": "4/25"
+                "available": 19,
+                "label": "6/25"
               },
               "dates": {
                 "start": "Jan 11",
