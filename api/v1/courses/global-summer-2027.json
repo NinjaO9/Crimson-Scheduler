@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T20:23:29.745941+00:00",
+  "generatedAt": "2026-11-17T03:45:47.169655+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -4916,6 +4916,52 @@
       "subject": "FIN",
       "courses": [
         {
+          "course": "Personal Finance",
+          "subject": "FIN",
+          "subjectPrefix": "Fin",
+          "courseNumber": 223,
+          "courseCode": "FIN 223",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2594",
+              "sln": 2594,
+              "sectionNumber": 1,
+              "courseCode": "FIN 223",
+              "courseName": "Personal Finance",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Financial Management",
           "subject": "FIN",
           "subjectPrefix": "Fin",
@@ -6047,6 +6093,57 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HBM",
+      "courses": [
+        {
+          "course": "Case Studies and Research",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 495,
+          "courseCode": "HBM 495",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3189",
+              "sln": 3189,
+              "sectionNumber": 1,
+              "courseCode": "HBM 495",
+              "courseName": "Case Studies and Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
               }
             }
           ]
@@ -8716,6 +8813,54 @@
               "dates": {
                 "start": "Jun 21",
                 "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Understanding Peninsular Spanish Film",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 110,
+          "courseCode": "SPANISH 110",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3205",
+              "sln": 3205,
+              "sectionNumber": 1,
+              "courseCode": "SPANISH 110",
+              "courseName": "Understanding Peninsular Spanish Film",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E AVALOS MOLINA",
+              "instructors": [
+                "E AVALOS MOLINA"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
               }
             }
           ]
