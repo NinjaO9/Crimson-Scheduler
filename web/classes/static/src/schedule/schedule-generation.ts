@@ -6,7 +6,7 @@
  */
 
 import { CourseApi } from "../course_api";
-import { CatalogCourse, SchedulableSection, SectionReference } from "../types";
+import { CatalogCourse, SchedulableSection, Section, SectionReference } from "../types";
 import { addSchedule, getActiveSchedule, getScheduleById } from "./schedule-state";
 import { parseDaysToIndexes, parseTimeRange } from "./time-and-meetings";
 import { refreshScheduleSelector } from "./schedule-selector";
@@ -23,10 +23,12 @@ interface SectionCombination {
     lecture? : SchedulableSection;
     lab? : SchedulableSection;
     occupancy : Uint32Array[];
+    timeTaken : number;
 }
 
 interface EnrichedCatalogCourse extends CatalogCourse {
     sectionCombinations : SectionCombination[];
+    maxTimeTaken : number;
 }
 
 interface ScheduleContender {
@@ -147,29 +149,50 @@ function getSectionBitset(section : SchedulableSection) : Uint32Array[]
 }
 
 /**
+ * Finds the max amount of time that a section can take up, across all days.
+ * @param section - Section to test.
+ * @returns Max time taken up.
+ */
+function findMaxTimeTakenBySection(section : SchedulableSection) : number
+{
+    let maxTime = 0;
+    section.meetings.forEach(meeting => {
+        const times = parseTimeRange(meeting.time);
+        const daysCount = parseDaysToIndexes(meeting.days).length;
+        if (times === null) return;
+        Math.max(maxTime, (times!.end - times!.start) * daysCount);
+    });
+    return maxTime;
+}
+
+/**
  * Finds all valid lecture-lab combinations that a course has.
  * @param course - course to be investigated.
  */
-function findSectionCombinations(course : CatalogCourse) : SectionCombination[]
+function findSectionCombinations(course : CatalogCourse) : { combos : SectionCombination[], maxTime : number }
 {
     const combinations : SectionCombination[] = [];
+    let maxTime = 0;
 
     if (!course.lecture_sections.length)
     {
         course.lab_sections.forEach((labSection) => {
             const sectionBitset = getSectionBitset(labSection);
-            combinations.push({lab: labSection, occupancy: sectionBitset} as SectionCombination)
+            combinations.push({lab: labSection, occupancy: sectionBitset, timeTaken: findMaxTimeTakenBySection(labSection)} as SectionCombination)
+            maxTime = Math.max(combinations[combinations.length - 1].timeTaken, maxTime);
         })
-        return combinations;
+        return {combos: combinations, maxTime: maxTime};
     }
 
     if (!course.lab_sections.length)
     {
         course.lecture_sections.forEach((lectureSection) => {
             const sectionBitset = getSectionBitset(lectureSection);
-            combinations.push({lecture: lectureSection, occupancy: sectionBitset} as SectionCombination)
+            combinations.push({lecture: lectureSection, occupancy: sectionBitset, timeTaken: findMaxTimeTakenBySection(lectureSection)} as SectionCombination)
+            maxTime = Math.max(combinations[combinations.length - 1].timeTaken, maxTime);
         })
-        return combinations;
+        return {combos: combinations, maxTime: maxTime};
+
     }
 
     course.lecture_sections.forEach((lectureSection) =>{
@@ -189,12 +212,15 @@ function findSectionCombinations(course : CatalogCourse) : SectionCombination[]
                     combinationBitset[dayIndex][wordIndex] |= lecBitset[dayIndex][wordIndex] | labBitset[dayIndex][wordIndex];
                 }
             }
-            combinations.push({lecture: lectureSection, lab: labSection, occupancy: combinationBitset} as SectionCombination);
+            combinations.push({lecture: lectureSection, lab: labSection, occupancy: combinationBitset, timeTaken: (findMaxTimeTakenBySection(lectureSection) + findMaxTimeTakenBySection(labSection))} as SectionCombination);
+            maxTime = Math.max(combinations[combinations.length - 1].timeTaken, maxTime);
         }
         })
     });
 
-    return combinations;
+    return {combos: combinations, maxTime: maxTime};
+
+
 }
 
 /**
@@ -207,9 +233,12 @@ function enrichCatalogCourses(courses : Set<CatalogCourse>) : Set<EnrichedCatalo
     const eCourses : Set<EnrichedCatalogCourse> = new Set<EnrichedCatalogCourse>;
 
     courses.forEach((course) => {
+        const resultPair = findSectionCombinations(course);
+
         eCourses.add({
             ...course,
-            sectionCombinations : findSectionCombinations(course)
+            sectionCombinations : resultPair.combos,
+            maxTimeTaken: resultPair.maxTime,
         } as EnrichedCatalogCourse);
     })
     return eCourses;
@@ -398,6 +427,19 @@ function attemptToAddToHeap(builtSchedule : SectionCombination[])
     }
 }
 
+function pathWorthPursuing(remainingCourses : EnrichedCatalogCourse[], index : number = 0, builtSchedule : SectionCombination[]) : boolean
+{
+    let maxScore = TOP_K_SCHEDULES.peek()!.score; // Safe, we this method shiould only call if TOP_K_SCHED is full.
+    let currentDowntime = getScheduleDowntime().reduce((acc, cur) => acc + cur, 0);
+    let maxRemainingCourseTime = 0;
+    while (index < remainingCourses.length)
+    {
+        maxRemainingCourseTime += remainingCourses[index].maxTimeTaken;
+        index++;
+    }
+    return Math.max(0, currentDowntime - maxRemainingCourseTime) < maxScore; // If the best possible outcome. Times should already be based on how many days they take
+}
+
 /**
  * Finds the best K schedules for given courses. (Best is defined as minimum downtime for now)
  * @param courses - Courses that must be included in the schedule.
@@ -412,13 +454,14 @@ function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 
         attemptToAddToHeap(builtSchedule);
         return true; // Exhausted all courses without a conflict.
     }
+    if (TOP_K_SCHEDULES.isFull() && !pathWorthPursuing(courses, index, builtSchedule)) return false; // Pruning branches for the sake of optimization.   
     const prevLength = builtSchedule.length;
     for (const combination of courses[index].sectionCombinations)
     {
         if (checkConflictsWithSchedule(combination)) continue;
         addCombinationToAvailability(combination);
         builtSchedule.push(combination); // add combination to the schedule we are building
-        findBestKSchedules(courses, index + 1, builtSchedule)
+        findBestKSchedules(courses, index + 1, builtSchedule);
         builtSchedule.length = prevLength; // remove combination from built schedule
         removeCombinationFromAvailability(combination);
     }
@@ -438,6 +481,8 @@ export async function testthisshit()
 
     console.time("ScheduleGeneration");
     const sResult = findBestKSchedules(eResult);
+    console.timeEnd("ScheduleGeneration");
+
     let index : number = 3;
     while(!TOP_K_SCHEDULES.isEmpty())
     {
@@ -446,6 +491,5 @@ export async function testthisshit()
     }
     refreshScheduleSelector();
     resetScheduleMap();
-    console.timeEnd("ScheduleGeneration");
     console.log(sResult);
 }
