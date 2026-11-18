@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T13:54:58.774972+00:00",
+  "generatedAt": "2026-11-18T21:54:27.968901+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -91,10 +91,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 24,
                 "total": 40,
-                "available": 19,
-                "label": "21/40"
+                "available": 16,
+                "label": "24/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -398,104 +398,7 @@
     },
     {
       "subject": "B_A",
-      "courses": [
-        {
-          "course": "Spreadsheets, Data Visualization, and Decision Analysis",
-          "subject": "B_A",
-          "subjectPrefix": "B A",
-          "courseNumber": 212,
-          "courseCode": "B_A 212",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2348",
-              "sln": 2348,
-              "sectionNumber": 1,
-              "courseCode": "B_A 212",
-              "courseName": "Spreadsheets, Data Visualization, and Decision Analysis",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "16:15 - 17:30",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "16:15 - 17:30"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "K JONES",
-              "instructors": [
-                "K JONES"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 8,
-                "total": 30,
-                "available": 22,
-                "label": "8/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Business Internship",
-          "subject": "B_A",
-          "subjectPrefix": "B A",
-          "courseNumber": 498,
-          "courseCode": "B_A 498",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2460",
-              "sln": 2460,
-              "sectionNumber": 1,
-              "courseCode": "B_A 498",
-              "courseName": "Business Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "T BAKER",
-              "instructors": [
-                "T BAKER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "B_LAW",
@@ -534,10 +437,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 55,
-                "available": 39,
-                "label": "16/55"
+                "available": 38,
+                "label": "17/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -587,10 +490,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 26,
+                "taken": 27,
                 "total": 48,
-                "available": 22,
-                "label": "26/48"
+                "available": 21,
+                "label": "27/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -624,10 +527,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 48,
+                "taken": 50,
                 "total": 72,
-                "available": 24,
-                "label": "48/72"
+                "available": 22,
+                "label": "50/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -698,10 +601,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 12,
                 "total": 24,
-                "available": 14,
-                "label": "10/24"
+                "available": 12,
+                "label": "12/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -772,10 +675,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 13,
                 "total": 24,
-                "available": 12,
-                "label": "12/24"
+                "available": 11,
+                "label": "13/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1267,10 +1170,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 2,
-                "available": 1,
-                "label": "1/2"
+                "available": 0,
+                "label": "2/2"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1459,10 +1362,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 5,
-                "available": 4,
-                "label": "1/5"
+                "available": 3,
+                "label": "2/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1613,10 +1516,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 44,
+                "taken": 46,
                 "total": 60,
-                "available": 16,
-                "label": "44/60"
+                "available": 14,
+                "label": "46/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3108,10 +3011,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 43,
+                "taken": 44,
                 "total": 48,
-                "available": 5,
-                "label": "43/48"
+                "available": 4,
+                "label": "44/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3178,10 +3081,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 19,
+                "taken": 20,
                 "total": 24,
-                "available": 5,
-                "label": "19/24"
+                "available": 4,
+                "label": "20/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3385,10 +3288,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 35,
+                "taken": 37,
                 "total": 48,
-                "available": 13,
-                "label": "35/48"
+                "available": 11,
+                "label": "37/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3420,10 +3323,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 15,
+                "taken": 17,
                 "total": 24,
-                "available": 9,
-                "label": "15/24"
+                "available": 7,
+                "label": "17/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3551,10 +3454,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 12,
-                "available": 1,
-                "label": "11/12"
+                "available": 0,
+                "label": "12/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3588,10 +3491,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 12,
-                "available": 1,
-                "label": "11/12"
+                "available": 0,
+                "label": "12/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3689,10 +3592,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 40,
-                "available": 23,
-                "label": "17/40"
+                "available": 22,
+                "label": "18/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3705,56 +3608,7 @@
     },
     {
       "subject": "COMSTRAT",
-      "courses": [
-        {
-          "course": "Culture and Communication in the Workplace",
-          "subject": "COMSTRAT",
-          "subjectPrefix": "ComSr",
-          "courseNumber": 285,
-          "courseCode": "COMSTRAT 285",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2552",
-              "sln": 2552,
-              "sectionNumber": 1,
-              "courseCode": "COMSTRAT 285",
-              "courseName": "Culture and Communication in the Workplace",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "",
-              "instructor": "S BISCH",
-              "instructors": [
-                "S BISCH"
-              ],
-              "ucore": "EQJS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 31,
-                "total": 40,
-                "available": 9,
-                "label": "31/40"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "CPT_S",
@@ -3880,10 +3734,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 30,
-                "available": 19,
-                "label": "11/30"
+                "available": 18,
+                "label": "12/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3915,10 +3769,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 30,
-                "available": 19,
-                "label": "11/30"
+                "available": 18,
+                "label": "12/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3963,10 +3817,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 13,
                 "total": 30,
-                "available": 18,
-                "label": "12/30"
+                "available": 17,
+                "label": "13/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4011,10 +3865,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 40,
-                "available": 30,
-                "label": "10/40"
+                "available": 29,
+                "label": "11/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4059,10 +3913,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 30,
-                "available": 20,
-                "label": "10/30"
+                "available": 19,
+                "label": "11/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4155,10 +4009,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 14,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 16,
+                "label": "14/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4192,10 +4046,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 14,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 16,
+                "label": "14/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5257,247 +5111,15 @@
     },
     {
       "subject": "CROP_SCI",
-      "courses": [
-        {
-          "course": "Research Experience",
-          "subject": "CROP_SCI",
-          "subjectPrefix": "CropS",
-          "courseNumber": 495,
-          "courseCode": "CROP_SCI 495",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2157",
-              "sln": 2157,
-              "sectionNumber": 1,
-              "courseCode": "CROP_SCI 495",
-              "courseName": "Research Experience",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J BLAUER",
-              "instructors": [
-                "J BLAUER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "CST_M",
-      "courses": [
-        {
-          "course": "Construction Graphics",
-          "subject": "CST_M",
-          "subjectPrefix": "Cst M",
-          "courseNumber": 254,
-          "courseCode": "CST_M 254",
-          "credits": "2",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2475",
-              "sln": 2475,
-              "sectionNumber": 1,
-              "courseCode": "CST_M 254",
-              "courseName": "Construction Graphics",
-              "credits": "2",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "TFLO 145",
-              "instructor": "S PHILIPP",
-              "instructors": [
-                "S PHILIPP"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 4,
-                "total": 20,
-                "available": 16,
-                "label": "4/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2476",
-              "sln": 2476,
-              "sectionNumber": 1,
-              "courseCode": "CST_M 254",
-              "courseName": "Construction Graphics",
-              "credits": "2",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "W",
-              "time": "12:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "12:10 - 14:00"
-                }
-              ],
-              "location": "TFLO 145",
-              "instructor": "S PHILIPP",
-              "instructors": [
-                "S PHILIPP"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 4,
-                "total": 20,
-                "available": 16,
-                "label": "4/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "DATA",
-      "courses": [
-        {
-          "course": "Introduction to Data Analytics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 115,
-          "courseCode": "DATA 115",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2976",
-              "sln": 2976,
-              "sectionNumber": 1,
-              "courseCode": "DATA 115",
-              "courseName": "Introduction to Data Analytics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "C PARKER",
-              "instructors": [
-                "C PARKER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 5,
-                "available": 3,
-                "label": "2/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Probability and Statistics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 360,
-          "courseCode": "DATA 360",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2468",
-              "sln": 2468,
-              "sectionNumber": 1,
-              "courseCode": "DATA 360",
-              "courseName": "Probability and Statistics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "",
-              "instructor": "R LEARN",
-              "instructors": [
-                "R LEARN"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "DTC",
@@ -5938,1230 +5560,15 @@
     },
     {
       "subject": "E_A",
-      "courses": [
-        {
-          "course": "Educ Abroad",
-          "subject": "E_A",
-          "subjectPrefix": "E A",
-          "courseNumber": 300,
-          "courseCode": "E_A 300",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2238",
-              "sln": 2238,
-              "sectionNumber": 1,
-              "courseCode": "E_A 300",
-              "courseName": "Educ Abroad",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "M STYBORSKI",
-              "instructors": [
-                "M STYBORSKI"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 100,
-                "available": 100,
-                "label": "0/100"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "E_E",
-      "courses": [
-        {
-          "course": "Microprocessor Systems",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 234,
-          "courseCode": "E_E 234",
-          "credits": "4",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2212",
-              "sln": 2212,
-              "sectionNumber": 1,
-              "courseCode": "E_E 234",
-              "courseName": "Microprocessor Systems",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W",
-              "time": "16:15 - 17:30",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "16:15 - 17:30"
-                }
-              ],
-              "location": "",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 31,
-                "total": 36,
-                "available": 5,
-                "label": "31/36"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2213",
-              "sln": 2213,
-              "sectionNumber": 1,
-              "courseCode": "E_E 234",
-              "courseName": "Microprocessor Systems",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "M",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "TFLO 161",
-              "instructor": "W JORGENSEN",
-              "instructors": [
-                "W JORGENSEN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 13,
-                "total": 18,
-                "available": 5,
-                "label": "13/18"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2404",
-              "sln": 2404,
-              "sectionNumber": 2,
-              "courseCode": "E_E 234",
-              "courseName": "Microprocessor Systems",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "W",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "TFLO 161",
-              "instructor": "W JORGENSEN",
-              "instructors": [
-                "W JORGENSEN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 18,
-                "total": 18,
-                "available": 0,
-                "label": "18/18"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Electrical Circuits I",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 261,
-          "courseCode": "E_E 261",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2214",
-              "sln": 2214,
-              "sectionNumber": 1,
-              "courseCode": "E_E 261",
-              "courseName": "Electrical Circuits I",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "",
-              "instructor": "Q YANG",
-              "instructors": [
-                "Q YANG"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 52,
-                "total": 72,
-                "available": 20,
-                "label": "52/72"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Electrical Circuits Laboratory I",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 262,
-          "courseCode": "E_E 262",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2215",
-              "sln": 2215,
-              "sectionNumber": 1,
-              "courseCode": "E_E 262",
-              "courseName": "Electrical Circuits Laboratory I",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "13:30 - 16:20",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "13:30 - 16:20"
-                }
-              ],
-              "location": "TFLO 164",
-              "instructor": "Q YANG",
-              "instructors": [
-                "Q YANG"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 16,
-                "total": 24,
-                "available": 8,
-                "label": "16/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2335",
-              "sln": 2335,
-              "sectionNumber": 2,
-              "courseCode": "E_E 262",
-              "courseName": "Electrical Circuits Laboratory I",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "09:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "09:10 - 12:00"
-                }
-              ],
-              "location": "TFLO 164",
-              "instructor": "Q YANG",
-              "instructors": [
-                "Q YANG"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 20,
-                "total": 24,
-                "available": 4,
-                "label": "20/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2576",
-              "sln": 2576,
-              "sectionNumber": 3,
-              "courseCode": "E_E 262",
-              "courseName": "Electrical Circuits Laboratory I",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "F",
-              "time": "08:00 - 10:50",
-              "meetings": [
-                {
-                  "days": "F",
-                  "time": "08:00 - 10:50"
-                }
-              ],
-              "location": "TFLO 164",
-              "instructor": "Q YANG",
-              "instructors": [
-                "Q YANG"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 15,
-                "total": 24,
-                "available": 9,
-                "label": "15/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Signals and Systems",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 341,
-          "courseCode": "E_E 341",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2216",
-              "sln": 2216,
-              "sectionNumber": 1,
-              "courseCode": "E_E 341",
-              "courseName": "Signals and Systems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "",
-              "instructor": "Q YANG",
-              "instructors": [
-                "Q YANG"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 23,
-                "total": 32,
-                "available": 9,
-                "label": "23/32"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Electrical Power Systems",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 361,
-          "courseCode": "E_E 361",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2217",
-              "sln": 2217,
-              "sectionNumber": 1,
-              "courseCode": "E_E 361",
-              "courseName": "Electrical Power Systems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 23,
-                "total": 32,
-                "available": 9,
-                "label": "23/32"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Power System Laboratory I",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 362,
-          "courseCode": "E_E 362",
-          "credits": "3",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2243",
-              "sln": 2243,
-              "sectionNumber": 1,
-              "courseCode": "E_E 362",
-              "courseName": "Power System Laboratory I",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "TU",
-              "time": "11:00 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "11:00 - 11:50"
-                }
-              ],
-              "location": "",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 20,
-                "total": 24,
-                "available": 4,
-                "label": "20/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2244",
-              "sln": 2244,
-              "sectionNumber": 1,
-              "courseCode": "E_E 362",
-              "courseName": "Power System Laboratory I",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TU",
-              "time": "13:30 - 16:20",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "13:30 - 16:20"
-                }
-              ],
-              "location": "TFLO 162",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 12,
-                "total": 12,
-                "available": 0,
-                "label": "12/12"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2405",
-              "sln": 2405,
-              "sectionNumber": 2,
-              "courseCode": "E_E 362",
-              "courseName": "Power System Laboratory I",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TH",
-              "time": "13:30 - 16:20",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "13:30 - 16:20"
-                }
-              ],
-              "location": "TFLO 162",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 8,
-                "total": 12,
-                "available": 4,
-                "label": "8/12"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Electrical Engineering Design",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 416,
-          "courseCode": "E_E 416",
-          "credits": "3",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2267",
-              "sln": 2267,
-              "sectionNumber": 1,
-              "courseCode": "E_E 416",
-              "courseName": "Electrical Engineering Design",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "F",
-              "time": "16:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "F",
-                  "time": "16:10 - 17:00"
-                }
-              ],
-              "location": "",
-              "instructor": "B PHILIPP",
-              "instructors": [
-                "B PHILIPP"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 13,
-                "total": 24,
-                "available": 11,
-                "label": "13/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2268",
-              "sln": 2268,
-              "sectionNumber": 1,
-              "courseCode": "E_E 416",
-              "courseName": "Electrical Engineering Design",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "F,F",
-              "time": "13:10 - 16:00;17:10 - 20:00",
-              "meetings": [
-                {
-                  "days": "F",
-                  "time": "13:10 - 16:00"
-                },
-                {
-                  "days": "F",
-                  "time": "17:10 - 20:00"
-                }
-              ],
-              "location": "",
-              "instructor": "B PHILIPP",
-              "instructors": [
-                "B PHILIPP"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 13,
-                "total": 24,
-                "available": 11,
-                "label": "13/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Cybersecurity of Critical Infrastructure Systems",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 439,
-          "courseCode": "E_E 439",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2503",
-              "sln": 2503,
-              "sectionNumber": 1,
-              "courseCode": "E_E 439",
-              "courseName": "Cybersecurity of Critical Infrastructure Systems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "TFLO 151",
-              "instructor": "A JODEIRI AKBARFAM",
-              "instructors": [
-                "A JODEIRI AKBARFAM"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 2,
-                "total": 3,
-                "available": 1,
-                "label": "2/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Professional Practice Coop/Internship I",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 488,
-          "courseCode": "E_E 488",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2409",
-              "sln": 2409,
-              "sectionNumber": 1,
-              "courseCode": "E_E 488",
-              "courseName": "Professional Practice Coop/Internship I",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "L HATHAWAY",
-              "instructors": [
-                "L HATHAWAY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "XS",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Renewable Energy Sources",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 492,
-          "courseCode": "E_E 492",
-          "credits": "3",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2281",
-              "sln": 2281,
-              "sectionNumber": 1,
-              "courseCode": "E_E 492",
-              "courseName": "Renewable Energy Sources",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W",
-              "time": "14:10 - 15:00",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "14:10 - 15:00"
-                }
-              ],
-              "location": "",
-              "instructor": "B LIU",
-              "instructors": [
-                "B LIU"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 14,
-                "total": 24,
-                "available": 10,
-                "label": "14/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2282",
-              "sln": 2282,
-              "sectionNumber": 1,
-              "courseCode": "E_E 492",
-              "courseName": "Renewable Energy Sources",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B LIU",
-              "instructors": [
-                "B LIU"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 14,
-                "total": 24,
-                "available": 10,
-                "label": "14/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Protection of Power Systems I",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 493,
-          "courseCode": "E_E 493",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2218",
-              "sln": 2218,
-              "sectionNumber": 1,
-              "courseCode": "E_E 493",
-              "courseName": "Protection of Power Systems I",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "16:20 - 17:35",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "16:20 - 17:35"
-                }
-              ],
-              "location": "",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 12,
-                "total": 24,
-                "available": 12,
-                "label": "12/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Problems",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 499,
-          "courseCode": "E_E 499",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2219",
-              "sln": 2219,
-              "sectionNumber": 1,
-              "courseCode": "E_E 499",
-              "courseName": "Special Problems",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Directed Study in Electrical Engineering",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 595,
-          "courseCode": "E_E 595",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2280",
-              "sln": 2280,
-              "sectionNumber": 1,
-              "courseCode": "E_E 595",
-              "courseName": "Directed Study in Electrical Engineering",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B LIU",
-              "instructors": [
-                "B LIU"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Projects or Independent Study",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 600,
-          "courseCode": "E_E 600",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2220",
-              "sln": 2220,
-              "sectionNumber": 1,
-              "courseCode": "E_E 600",
-              "courseName": "Special Projects or Independent Study",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Master's Research, Thesis, and/or Examination",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 700,
-          "courseCode": "E_E 700",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2221",
-              "sln": 2221,
-              "sectionNumber": 1,
-              "courseCode": "E_E 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Master's Special Problems, Directed Study, and/or Examination",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 702,
-          "courseCode": "E_E 702",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2222",
-              "sln": 2222,
-              "sectionNumber": 1,
-              "courseCode": "E_E 702",
-              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S HUDSON",
-              "instructors": [
-                "S HUDSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Doctoral Research, Dissertation, and/or Examination",
-          "subject": "E_E",
-          "subjectPrefix": "E E",
-          "courseNumber": 800,
-          "courseCode": "E_E 800",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2223",
-              "sln": 2223,
-              "sectionNumber": 1,
-              "courseCode": "E_E 800",
-              "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B LIU",
-              "instructors": [
-                "B LIU"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "E_M",
-      "courses": [
-        {
-          "course": "Project Management Foundations",
-          "subject": "E_M",
-          "subjectPrefix": "E M",
-          "courseNumber": 464,
-          "courseCode": "E_M 464",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10536",
-              "sln": 10536,
-              "sectionNumber": 1,
-              "courseCode": "E_M 464",
-              "courseName": "Project Management Foundations",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "16:15 - 18:45",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "16:15 - 18:45"
-                }
-              ],
-              "location": "",
-              "instructor": "C GILL",
-              "instructors": [
-                "C GILL"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 1,
-                "available": 1,
-                "label": "0/1"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "ECONS",
@@ -7202,10 +5609,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 9,
+                "taken": 10,
                 "total": 72,
-                "available": 63,
-                "label": "9/72"
+                "available": 62,
+                "label": "10/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7655,296 +6062,7 @@
     },
     {
       "subject": "ED_PSYCH",
-      "courses": [
-        {
-          "course": "Research Methods I",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 505,
-          "courseCode": "ED_PSYCH 505",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10471",
-              "sln": 10471,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 505",
-              "courseName": "Research Methods I",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "O SUNDAY",
-              "instructors": [
-                "O SUNDAY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 2,
-                "available": 2,
-                "label": "0/2"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to Qualitative Research",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 507,
-          "courseCode": "ED_PSYCH 507",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7261",
-              "sln": 7261,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 507",
-              "courseName": "Introduction to Qualitative Research",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "K HUGGINS",
-              "instructors": [
-                "K HUGGINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Educational Statistics",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 508,
-          "courseCode": "ED_PSYCH 508",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3144",
-              "sln": 3144,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 508",
-              "courseName": "Educational Statistics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R DANIELSON",
-              "instructors": [
-                "R DANIELSON"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Motivation Theories",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 573,
-          "courseCode": "ED_PSYCH 573",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12127",
-              "sln": 12127,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 573",
-              "courseName": "Motivation Theories",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "R DANIELSON",
-              "instructors": [
-                "R DANIELSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Multilevel Modeling",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 575,
-          "courseCode": "ED_PSYCH 575",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7108",
-              "sln": 7108,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 575",
-              "courseName": "Multilevel Modeling",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M",
-              "time": "16:10 - 19:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "16:10 - 19:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "B FRENCH",
-              "instructors": [
-                "B FRENCH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Educational Psychology Internship",
-          "subject": "ED_PSYCH",
-          "subjectPrefix": "EdPsy",
-          "courseNumber": 597,
-          "courseCode": "ED_PSYCH 597",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "7936",
-              "sln": 7936,
-              "sectionNumber": 1,
-              "courseCode": "ED_PSYCH 597",
-              "courseName": "Educational Psychology Internship",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "09:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "09:10 - 12:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "O SUNDAY",
-              "instructors": [
-                "O SUNDAY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 4,
-                "available": 4,
-                "label": "0/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "ENGLISH",
@@ -8406,10 +6524,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 15,
+                "taken": 16,
                 "total": 24,
-                "available": 9,
-                "label": "15/24"
+                "available": 8,
+                "label": "16/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8831,10 +6949,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 30,
-                "available": 28,
-                "label": "2/30"
+                "available": 27,
+                "label": "3/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8847,104 +6965,7 @@
     },
     {
       "subject": "FIN",
-      "courses": [
-        {
-          "course": "Personal Finance",
-          "subject": "FIN",
-          "subjectPrefix": "Fin",
-          "courseNumber": 223,
-          "courseCode": "FIN 223",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2354",
-              "sln": 2354,
-              "sectionNumber": 1,
-              "courseCode": "FIN 223",
-              "courseName": "Personal Finance",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "",
-              "instructor": "K JONES",
-              "instructors": [
-                "K JONES"
-              ],
-              "ucore": "QUAN",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 9,
-                "total": 30,
-                "available": 21,
-                "label": "9/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Intermediate Financial Management",
-          "subject": "FIN",
-          "subjectPrefix": "Fin",
-          "courseNumber": 425,
-          "courseCode": "FIN 425",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2133",
-              "sln": 2133,
-              "sectionNumber": 1,
-              "courseCode": "FIN 425",
-              "courseName": "Intermediate Financial Management",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W,F",
-              "time": "08:45 - 10:00",
-              "meetings": [
-                {
-                  "days": "W,F",
-                  "time": "08:45 - 10:00"
-                }
-              ],
-              "location": "",
-              "instructor": "T BAKER",
-              "instructors": [
-                "T BAKER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 16,
-                "total": 30,
-                "available": 14,
-                "label": "16/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "FOR_LANG",
@@ -9213,10 +7234,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 23,
                 "total": 30,
-                "available": 9,
-                "label": "21/30"
+                "available": 7,
+                "label": "23/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9351,10 +7372,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 19,
                 "total": 50,
-                "available": 33,
-                "label": "17/50"
+                "available": 31,
+                "label": "19/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9436,10 +7457,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 6,
+                "taken": 7,
                 "total": 35,
-                "available": 29,
-                "label": "6/35"
+                "available": 28,
+                "label": "7/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9567,10 +7588,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 28,
+                "taken": 29,
                 "total": 50,
-                "available": 22,
-                "label": "28/50"
+                "available": 21,
+                "label": "29/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9965,577 +7986,7 @@
     },
     {
       "subject": "HORT",
-      "courses": [
-        {
-          "course": "Advanced Horticultural Crop Physiology",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 416,
-          "courseCode": "HORT 416",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3767",
-              "sln": 3767,
-              "sectionNumber": 1,
-              "courseCode": "HORT 416",
-              "courseName": "Advanced Horticultural Crop Physiology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "R SHARPE",
-              "instructors": [
-                "R SHARPE"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 8,
-                "total": 11,
-                "available": 3,
-                "label": "8/11"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Research Experience",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 495,
-          "courseCode": "HORT 495",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2158",
-              "sln": 2158,
-              "sectionNumber": 1,
-              "courseCode": "HORT 495",
-              "courseName": "Research Experience",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J BLAUER",
-              "instructors": [
-                "J BLAUER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Research Orientation and Presentation",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 508,
-          "courseCode": "HORT 508",
-          "credits": "2",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3823",
-              "sln": 3823,
-              "sectionNumber": 1,
-              "courseCode": "HORT 508",
-              "courseName": "Research Orientation and Presentation",
-              "credits": "2",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "14:10 - 16:00",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "14:10 - 16:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "K EVANS",
-              "instructors": [
-                "K EVANS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 5,
-                "available": 3,
-                "label": "2/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Seminar",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 509,
-          "courseCode": "HORT 509",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3824",
-              "sln": 3824,
-              "sectionNumber": 1,
-              "courseCode": "HORT 509",
-              "courseName": "Seminar",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "14:55 - 15:45",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "14:55 - 15:45"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "C PEACE",
-              "instructors": [
-                "C PEACE"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 2,
-                "total": 5,
-                "available": 3,
-                "label": "2/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Graduate Seminar",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 510,
-          "courseCode": "HORT 510",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3833",
-              "sln": 3833,
-              "sectionNumber": 1,
-              "courseCode": "HORT 510",
-              "courseName": "Graduate Seminar",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "14:55 - 15:45",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "14:55 - 15:45"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "C TORRES",
-              "instructors": [
-                "C TORRES"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Advanced Horticultural Crop Physiology",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 516,
-          "courseCode": "HORT 516",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3768",
-              "sln": 3768,
-              "sectionNumber": 1,
-              "courseCode": "HORT 516",
-              "courseName": "Advanced Horticultural Crop Physiology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "R SHARPE",
-              "instructors": [
-                "R SHARPE"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 1,
-                "available": 1,
-                "label": "0/1"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Master's Research, Thesis, and/or Examination",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 700,
-          "courseCode": "HORT 700",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2368",
-              "sln": 2368,
-              "sectionNumber": 1,
-              "courseCode": "HORT 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B BONDADA",
-              "instructors": [
-                "B BONDADA"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2520",
-              "sln": 2520,
-              "sectionNumber": 2,
-              "courseCode": "HORT 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2521",
-              "sln": 2521,
-              "sectionNumber": 3,
-              "courseCode": "HORT 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "M KELLER",
-              "instructors": [
-                "M KELLER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2522",
-              "sln": 2522,
-              "sectionNumber": 4,
-              "courseCode": "HORT 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "M MOYER",
-              "instructors": [
-                "M MOYER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Doctoral Research, Dissertation, and/or Examination",
-          "subject": "HORT",
-          "subjectPrefix": "Hort",
-          "courseNumber": 800,
-          "courseCode": "HORT 800",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2346",
-              "sln": 2346,
-              "sectionNumber": 1,
-              "courseCode": "HORT 800",
-              "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2523",
-              "sln": 2523,
-              "sectionNumber": 2,
-              "courseCode": "HORT 800",
-              "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "M KELLER",
-              "instructors": [
-                "M KELLER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2524",
-              "sln": 2524,
-              "sectionNumber": 3,
-              "courseCode": "HORT 800",
-              "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "M MOYER",
-              "instructors": [
-                "M MOYER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "HUMANITY",
@@ -10640,56 +8091,7 @@
     },
     {
       "subject": "I_BUS",
-      "courses": [
-        {
-          "course": "International Business",
-          "subject": "I_BUS",
-          "subjectPrefix": "I Bus",
-          "courseNumber": 380,
-          "courseCode": "I_BUS 380",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2338",
-              "sln": 2338,
-              "sectionNumber": 1,
-              "courseCode": "I_BUS 380",
-              "courseName": "International Business",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "",
-              "instructor": "J BRAVO",
-              "instructors": [
-                "J BRAVO"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 17,
-                "total": 35,
-                "available": 18,
-                "label": "17/35"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "IPM",
@@ -11112,10 +8514,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 8,
+                "taken": 9,
                 "total": 30,
-                "available": 22,
-                "label": "8/30"
+                "available": 21,
+                "label": "9/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11184,12 +8586,12 @@
               "component": "Lecture",
               "isLab": false,
               "hasRequiredLab": true,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
               "meetings": [
                 {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
                 }
               ],
               "location": "",
@@ -11221,12 +8623,12 @@
               "component": "LAB",
               "isLab": true,
               "hasRequiredLab": true,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
               "meetings": [
                 {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
                 }
               ],
               "location": "",
@@ -11371,10 +8773,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 18,
+                "taken": 19,
                 "total": 40,
-                "available": 22,
-                "label": "18/40"
+                "available": 21,
+                "label": "19/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11550,10 +8952,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 48,
-                "available": 31,
-                "label": "17/48"
+                "available": 30,
+                "label": "18/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11585,10 +8987,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 48,
-                "available": 31,
-                "label": "17/48"
+                "available": 30,
+                "label": "18/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11633,10 +9035,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 24,
+                "taken": 25,
                 "total": 48,
-                "available": 24,
-                "label": "24/48"
+                "available": 23,
+                "label": "25/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11727,10 +9129,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 47,
+                "taken": 48,
                 "total": 70,
-                "available": 23,
-                "label": "47/70"
+                "available": 22,
+                "label": "48/70"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12020,10 +9422,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 27,
+                "taken": 29,
                 "total": 48,
-                "available": 21,
-                "label": "27/48"
+                "available": 19,
+                "label": "29/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12090,10 +9492,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 20,
+                "taken": 22,
                 "total": 24,
-                "available": 4,
-                "label": "20/24"
+                "available": 2,
+                "label": "22/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12237,10 +9639,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 46,
+                "taken": 48,
                 "total": 60,
-                "available": 14,
-                "label": "46/60"
+                "available": 12,
+                "label": "48/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12285,10 +9687,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 14,
+                "taken": 16,
                 "total": 20,
-                "available": 6,
-                "label": "14/20"
+                "available": 4,
+                "label": "16/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13731,10 +11133,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 14,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 16,
+                "label": "14/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13792,6 +11194,41 @@
               "dates": {
                 "start": "Jan 11",
                 "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "10948",
+              "sln": 10948,
+              "sectionNumber": 2,
+              "courseCode": "MGTOP 340",
+              "courseName": "Operations Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Mar 08",
+                "end": "May 02"
               }
             }
           ]
@@ -13943,104 +11380,7 @@
     },
     {
       "subject": "MKTG",
-      "courses": [
-        {
-          "course": "Marketing",
-          "subject": "MKTG",
-          "subjectPrefix": "Mktg",
-          "courseNumber": 360,
-          "courseCode": "MKTG 360",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2139",
-              "sln": 2139,
-              "sectionNumber": 1,
-              "courseCode": "MKTG 360",
-              "courseName": "Marketing",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "15:10 - 16:25",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "15:10 - 16:25"
-                }
-              ],
-              "location": "",
-              "instructor": "R HAMMOND",
-              "instructors": [
-                "R HAMMOND"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 10,
-                "total": 30,
-                "available": 20,
-                "label": "10/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Business to Business Marketing",
-          "subject": "MKTG",
-          "subjectPrefix": "Mktg",
-          "courseNumber": 480,
-          "courseCode": "MKTG 480",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11164",
-              "sln": 11164,
-              "sectionNumber": 1,
-              "courseCode": "MKTG 480",
-              "courseName": "Business to Business Marketing",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "",
-              "instructor": "R HAMMOND",
-              "instructors": [
-                "R HAMMOND"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "MSE",
@@ -14286,10 +11626,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 15,
-                "available": 12,
-                "label": "3/15"
+                "available": 11,
+                "label": "4/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14973,10 +12313,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 11,
-                "available": 8,
-                "label": "3/11"
+                "available": 7,
+                "label": "4/11"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15218,10 +12558,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15255,10 +12595,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15359,10 +12699,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 12,
-                "available": 7,
-                "label": "5/12"
+                "available": 6,
+                "label": "6/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15460,10 +12800,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 13,
                 "total": 30,
-                "available": 20,
-                "label": "10/30"
+                "available": 17,
+                "label": "13/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15957,10 +13297,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 13,
                 "total": 30,
-                "available": 20,
-                "label": "10/30"
+                "available": 17,
+                "label": "13/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16009,10 +13349,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 10,
                 "total": 30,
-                "available": 25,
-                "label": "5/30"
+                "available": 20,
+                "label": "10/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16094,10 +13434,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 3,
                 "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "available": 7,
+                "label": "3/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16168,10 +13508,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 2,
+                "taken": 4,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16360,10 +13700,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 8,
+                "taken": 10,
                 "total": 30,
-                "available": 22,
-                "label": "8/30"
+                "available": 20,
+                "label": "10/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16460,10 +13800,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 8,
+                "taken": 10,
                 "total": 28,
-                "available": 20,
-                "label": "8/28"
+                "available": 18,
+                "label": "10/28"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16556,10 +13896,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 8,
+                "taken": 10,
                 "total": 30,
-                "available": 22,
-                "label": "8/30"
+                "available": 20,
+                "label": "10/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16641,10 +13981,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "available": 8,
+                "label": "2/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16678,10 +14018,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 1,
+                "taken": 4,
                 "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16763,10 +14103,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 9,
                 "total": 30,
-                "available": 25,
-                "label": "5/30"
+                "available": 21,
+                "label": "9/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16848,10 +14188,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "available": 8,
+                "label": "2/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16885,10 +14225,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 1,
+                "taken": 4,
                 "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -17806,10 +15146,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 55,
+                "taken": 57,
                 "total": 72,
-                "available": 17,
-                "label": "55/72"
+                "available": 15,
+                "label": "57/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -17922,10 +15262,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 7,
+                "taken": 9,
                 "total": 24,
-                "available": 17,
-                "label": "7/24"
+                "available": 15,
+                "label": "9/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -17975,10 +15315,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 9,
+                "taken": 10,
                 "total": 50,
-                "available": 41,
-                "label": "9/50"
+                "available": 40,
+                "label": "10/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18176,10 +15516,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 31,
+                "taken": 32,
                 "total": 46,
-                "available": 15,
-                "label": "31/46"
+                "available": 14,
+                "label": "32/46"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18224,10 +15564,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 30,
+                "taken": 31,
                 "total": 44,
-                "available": 14,
-                "label": "30/44"
+                "available": 13,
+                "label": "31/44"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18272,10 +15612,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 46,
+                "taken": 47,
                 "total": 50,
-                "available": 4,
-                "label": "46/50"
+                "available": 3,
+                "label": "47/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18672,179 +16012,11 @@
     },
     {
       "subject": "SCIENCE",
-      "courses": [
-        {
-          "course": "Integrated Science: Dynamic Systems in the Natural World",
-          "subject": "SCIENCE",
-          "subjectPrefix": "Sci",
-          "courseNumber": 102,
-          "courseCode": "SCIENCE 102",
-          "credits": "4",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2273",
-              "sln": 2273,
-              "sectionNumber": 1,
-              "courseCode": "SCIENCE 102",
-              "courseName": "Integrated Science: Dynamic Systems in the Natural World",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "",
-              "instructor": "T HANSEN",
-              "instructors": [
-                "T HANSEN"
-              ],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 27,
-                "total": 48,
-                "available": 21,
-                "label": "27/48"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2274",
-              "sln": 2274,
-              "sectionNumber": 1,
-              "courseCode": "SCIENCE 102",
-              "courseName": "Integrated Science: Dynamic Systems in the Natural World",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "W",
-              "time": "17:45 - 20:35",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "17:45 - 20:35"
-                }
-              ],
-              "location": "TCOL 222",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 10,
-                "total": 24,
-                "available": 14,
-                "label": "10/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2363",
-              "sln": 2363,
-              "sectionNumber": 2,
-              "courseCode": "SCIENCE 102",
-              "courseName": "Integrated Science: Dynamic Systems in the Natural World",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "F",
-              "time": "14:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "F",
-                  "time": "14:10 - 17:00"
-                }
-              ],
-              "location": "TCOL 222",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 17,
-                "total": 24,
-                "available": 7,
-                "label": "17/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "SOC",
-      "courses": [
-        {
-          "course": "Social Problems",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 102,
-          "courseCode": "SOC 102",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2239",
-              "sln": 2239,
-              "sectionNumber": 1,
-              "courseCode": "SOC 102",
-              "courseName": "Social Problems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "",
-              "instructor": "N WINGES-YANEZ",
-              "instructors": [
-                "N WINGES-YANEZ"
-              ],
-              "ucore": "SSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 27,
-                "total": 48,
-                "available": 21,
-                "label": "27/48"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "SOCL_WRK",
@@ -19034,894 +16206,7 @@
     },
     {
       "subject": "SOE",
-      "courses": [
-        {
-          "course": "The Environment, Human Life, and Sustainability",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 110,
-          "courseCode": "SOE 110",
-          "credits": "4",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2330",
-              "sln": 2330,
-              "sectionNumber": 1,
-              "courseCode": "SOE 110",
-              "courseName": "The Environment, Human Life, and Sustainability",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "",
-              "instructor": "J ROSSO",
-              "instructors": [
-                "J ROSSO"
-              ],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 13,
-                "total": 48,
-                "available": 35,
-                "label": "13/48"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2331",
-              "sln": 2331,
-              "sectionNumber": 1,
-              "courseCode": "SOE 110",
-              "courseName": "The Environment, Human Life, and Sustainability",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TU",
-              "time": "13:30 - 16:20",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "13:30 - 16:20"
-                }
-              ],
-              "location": "TCOL 114",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 5,
-                "total": 24,
-                "available": 19,
-                "label": "5/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2401",
-              "sln": 2401,
-              "sectionNumber": 2,
-              "courseCode": "SOE 110",
-              "courseName": "The Environment, Human Life, and Sustainability",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "W",
-              "time": "15:10 - 18:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "15:10 - 18:00"
-                }
-              ],
-              "location": "TCOL 114",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "BSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 8,
-                "total": 24,
-                "available": 16,
-                "label": "8/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introductory Oceanography",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 230,
-          "courseCode": "SOE 230",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2467",
-              "sln": 2467,
-              "sectionNumber": 1,
-              "courseCode": "SOE 230",
-              "courseName": "Introductory Oceanography",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "14:10 - 15:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "14:10 - 15:00"
-                }
-              ],
-              "location": "",
-              "instructor": "J ROSSO",
-              "instructors": [
-                "J ROSSO"
-              ],
-              "ucore": "PSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 14,
-                "total": 42,
-                "available": 28,
-                "label": "14/42"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Living on the Edge: Global Climate Change and Earth History",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 390,
-          "courseCode": "SOE 390",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11187",
-              "sln": 11187,
-              "sectionNumber": 1,
-              "courseCode": "SOE 390",
-              "courseName": "Living on the Edge: Global Climate Change and Earth History",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "",
-              "instructor": "J ROSSO",
-              "instructors": [
-                "J ROSSO"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 17,
-                "total": 30,
-                "available": 13,
-                "label": "17/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Environmental Assessment",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 444,
-          "courseCode": "SOE 444",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11677",
-              "sln": 11677,
-              "sectionNumber": 1,
-              "courseCode": "SOE 444",
-              "courseName": "Environmental Assessment",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "K WHITMAN",
-              "instructors": [
-                "K WHITMAN"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 9,
-                "total": 10,
-                "available": 1,
-                "label": "9/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Urban Ecology",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 455,
-          "courseCode": "SOE 455",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2582",
-              "sln": 2582,
-              "sectionNumber": 1,
-              "courseCode": "SOE 455",
-              "courseName": "Urban Ecology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "",
-              "instructor": "L NELSON",
-              "instructors": [
-                "L NELSON"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 11,
-                "total": 12,
-                "available": 1,
-                "label": "11/12"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Watershed Management",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 461,
-          "courseCode": "SOE 461",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2326",
-              "sln": 2326,
-              "sectionNumber": 1,
-              "courseCode": "SOE 461",
-              "courseName": "Watershed Management",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "S ROLEY",
-              "instructors": [
-                "S ROLEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 4,
-                "total": 24,
-                "available": 20,
-                "label": "4/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Undergraduate Internship",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 495,
-          "courseCode": "SOE 495",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2276",
-              "sln": 2276,
-              "sectionNumber": 1,
-              "courseCode": "SOE 495",
-              "courseName": "Undergraduate Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "L NELSON",
-              "instructors": [
-                "L NELSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 1,
-                "total": 10,
-                "available": 9,
-                "label": "1/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Problems",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 499,
-          "courseCode": "SOE 499",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2329",
-              "sln": 2329,
-              "sectionNumber": 1,
-              "courseCode": "SOE 499",
-              "courseName": "Special Problems",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "L NELSON",
-              "instructors": [
-                "L NELSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Fundamentals of Environmental Toxicology",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 531,
-          "courseCode": "SOE 531",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11926",
-              "sln": 11926,
-              "sectionNumber": 1,
-              "courseCode": "SOE 531",
-              "courseName": "Fundamentals of Environmental Toxicology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "09:10 - 10:25",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "09:10 - 10:25"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "J MCINTYRE",
-              "instructors": [
-                "J MCINTYRE"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Climate Change Impacts on Physical, Natural, and Human Systems",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 536,
-          "courseCode": "SOE 536",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12119",
-              "sln": 12119,
-              "sectionNumber": 1,
-              "courseCode": "SOE 536",
-              "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "D SINGH",
-              "instructors": [
-                "D SINGH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Environmental Assessment",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 544,
-          "courseCode": "SOE 544",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11678",
-              "sln": 11678,
-              "sectionNumber": 1,
-              "courseCode": "SOE 544",
-              "courseName": "Environmental Assessment",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "K WHITMAN",
-              "instructors": [
-                "K WHITMAN"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Watershed Biogeochemistry",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 562,
-          "courseCode": "SOE 562",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12120",
-              "sln": 12120,
-              "sectionNumber": 1,
-              "courseCode": "SOE 562",
-              "courseName": "Watershed Biogeochemistry",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "J HARRISON",
-              "instructors": [
-                "J HARRISON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Graduate Seminar in Earth and Environmental Sciences",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 593,
-          "courseCode": "SOE 593",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11673",
-              "sln": 11673,
-              "sectionNumber": 1,
-              "courseCode": "SOE 593",
-              "courseName": "Graduate Seminar in Earth and Environmental Sciences",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "F",
-              "time": "15:10 - 16:00",
-              "meetings": [
-                {
-                  "days": "F",
-                  "time": "15:10 - 16:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "D THORNTON",
-              "instructors": [
-                "D THORNTON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Projects or Independent Study",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 600,
-          "courseCode": "SOE 600",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2160",
-              "sln": 2160,
-              "sectionNumber": 1,
-              "courseCode": "SOE 600",
-              "courseName": "Special Projects or Independent Study",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S ROLEY",
-              "instructors": [
-                "S ROLEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Master's Research, Thesis, and/or Examination",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 700,
-          "courseCode": "SOE 700",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2161",
-              "sln": 2161,
-              "sectionNumber": 1,
-              "courseCode": "SOE 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S ROLEY",
-              "instructors": [
-                "S ROLEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Master's Special Problems, Directed Study, and/or Examination",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 702,
-          "courseCode": "SOE 702",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2162",
-              "sln": 2162,
-              "sectionNumber": 1,
-              "courseCode": "SOE 702",
-              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S ROLEY",
-              "instructors": [
-                "S ROLEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Doctoral Research, Dissertation, and/or Examination",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 800,
-          "courseCode": "SOE 800",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2163",
-              "sln": 2163,
-              "sectionNumber": 1,
-              "courseCode": "SOE 800",
-              "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S ROLEY",
-              "instructors": [
-                "S ROLEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "SOIL_SCI",
@@ -20739,10 +17024,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 32,
+                "taken": 34,
                 "total": 60,
-                "available": 28,
-                "label": "32/60"
+                "available": 26,
+                "label": "34/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -20813,10 +17098,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 23,
                 "total": 30,
-                "available": 9,
-                "label": "21/30"
+                "available": 7,
+                "label": "23/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21152,9 +17437,48 @@
               "footnotes": "",
               "seats": {
                 "taken": 30,
-                "total": 30,
+                "total": 20,
                 "available": 0,
-                "label": "30/30"
+                "label": "30/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2584",
+              "sln": 2584,
+              "sectionNumber": 2,
+              "courseCode": "TCH_LRN 322",
+              "courseName": "Reading and Writing in Grades 4 - 8",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W,W",
+              "time": "17:45 - 20:30;17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "17:45 - 20:30"
+                },
+                {
+                  "days": "W",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21199,10 +17523,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 30,
-                "available": 13,
-                "label": "17/30"
+                "available": 12,
+                "label": "18/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21609,10 +17933,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 23,
+                "taken": 24,
                 "total": 60,
-                "available": 37,
-                "label": "23/60"
+                "available": 36,
+                "label": "24/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21646,10 +17970,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 23,
+                "taken": 24,
                 "total": 60,
-                "available": 37,
-                "label": "23/60"
+                "available": 36,
+                "label": "24/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22221,962 +18545,11 @@
     },
     {
       "subject": "VIT_ENOL",
-      "courses": [
-        {
-          "course": "Grapevine Physiology",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 280,
-          "courseCode": "VIT_ENOL 280",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2427",
-              "sln": 2427,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 280",
-              "courseName": "Grapevine Physiology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "07:45 - 09:00",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "07:45 - 09:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "B BONDADA",
-              "instructors": [
-                "B BONDADA"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 24,
-                "available": 22,
-                "label": "2/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Winery Operations and Equipment",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 340,
-          "courseCode": "VIT_ENOL 340",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2426",
-              "sln": 2426,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 340",
-              "courseName": "Winery Operations and Equipment",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "10:10 - 11:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "10:10 - 11:00"
-                }
-              ],
-              "location": "",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 24,
-                "available": 22,
-                "label": "2/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Winery Operations and Equipment Laboratory Field Trip",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 341,
-          "courseCode": "VIT_ENOL 341",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2425",
-              "sln": 2425,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 341",
-              "courseName": "Winery Operations and Equipment Laboratory Field Trip",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "&",
-              "seats": {
-                "taken": 0,
-                "total": 24,
-                "available": 24,
-                "label": "0/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Topics in Viticulture and Enology",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 401,
-          "courseCode": "VIT_ENOL 401",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11666",
-              "sln": 11666,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 401",
-              "courseName": "Special Topics in Viticulture and Enology",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "",
-              "instructor": "J DODSON PETERSON",
-              "instructors": [
-                "J DODSON PETERSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 6,
-                "available": 4,
-                "label": "2/6"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Viticulture II",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 414,
-          "courseCode": "VIT_ENOL 414",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2428",
-              "sln": 2428,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 414",
-              "courseName": "Viticulture II",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "B BONDADA",
-              "instructors": [
-                "B BONDADA"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 3,
-                "total": 24,
-                "available": 21,
-                "label": "3/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Viticulture II Laboratory",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 415,
-          "courseCode": "VIT_ENOL 415",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2429",
-              "sln": 2429,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 415",
-              "courseName": "Viticulture II Laboratory",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "14:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "14:10 - 17:00"
-                }
-              ],
-              "location": "TWSC 206",
-              "instructor": "B BONDADA",
-              "instructors": [
-                "B BONDADA"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 3,
-                "total": 24,
-                "available": 21,
-                "label": "3/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Wine Sensory",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 422,
-          "courseCode": "VIT_ENOL 422",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2224",
-              "sln": 2224,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 422",
-              "courseName": "Wine Sensory",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "J HARBERTSON",
-              "instructors": [
-                "J HARBERTSON"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 24,
-                "available": 23,
-                "label": "1/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Wine Sensory Laboratory",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 423,
-          "courseCode": "VIT_ENOL 423",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2369",
-              "sln": 2369,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 423",
-              "courseName": "Wine Sensory Laboratory",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "12:05 - 14:50",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "12:05 - 14:50"
-                }
-              ],
-              "location": "TWSC 206",
-              "instructor": "J HARBERTSON",
-              "instructors": [
-                "J HARBERTSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 24,
-                "available": 23,
-                "label": "1/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Micro and Molecular Biology of Wine",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 482,
-          "courseCode": "VIT_ENOL 482",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2525",
-              "sln": 2525,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 482",
-              "courseName": "Micro and Molecular Biology of Wine",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "08:10 - 09:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "08:10 - 09:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "C CURTIN",
-              "instructors": [
-                "C CURTIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 20,
-                "available": 19,
-                "label": "1/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Micro and Molecular Biology of Wine Laboratory",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 483,
-          "courseCode": "VIT_ENOL 483",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2526",
-              "sln": 2526,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 483",
-              "courseName": "Micro and Molecular Biology of Wine Laboratory",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M",
-              "time": "14:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "14:10 - 17:00"
-                }
-              ],
-              "location": "TWSC 206",
-              "instructor": "C CURTIN",
-              "instructors": [
-                "C CURTIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 20,
-                "available": 19,
-                "label": "1/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Seminar in Viticulture and Enology",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 490,
-          "courseCode": "VIT_ENOL 490",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2530",
-              "sln": 2530,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 490",
-              "courseName": "Seminar in Viticulture and Enology",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "",
-              "instructor": "R COLEMAN",
-              "instructors": [
-                "R COLEMAN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 5,
-                "total": 20,
-                "available": 15,
-                "label": "5/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Critical Thinking in Vineyard and Winery Management",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 494,
-          "courseCode": "VIT_ENOL 494",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2310",
-              "sln": 2310,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 494",
-              "courseName": "Critical Thinking in Vineyard and Winery Management",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "T COLLINS",
-              "instructors": [
-                "T COLLINS"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 12,
-                "available": 11,
-                "label": "1/12"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Professional Work Experience/Internship",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 498,
-          "courseCode": "VIT_ENOL 498",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2430",
-              "sln": 2430,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 498",
-              "courseName": "Professional Work Experience/Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J DODSON PETERSON",
-              "instructors": [
-                "J DODSON PETERSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3139",
-              "sln": 3139,
-              "sectionNumber": 2,
-              "courseCode": "VIT_ENOL 498",
-              "courseName": "Professional Work Experience/Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J DODSON PETERSON",
-              "instructors": [
-                "J DODSON PETERSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Topics in Viticulture and Enology",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 501,
-          "courseCode": "VIT_ENOL 501",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11665",
-              "sln": 11665,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 501",
-              "courseName": "Special Topics in Viticulture and Enology",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TH",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "",
-              "instructor": "J DODSON PETERSON",
-              "instructors": [
-                "J DODSON PETERSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 6,
-                "available": 4,
-                "label": "2/6"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Micro and Molecular Biology of Wine",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 582,
-          "courseCode": "VIT_ENOL 582",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2527",
-              "sln": 2527,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 582",
-              "courseName": "Micro and Molecular Biology of Wine",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "08:10 - 09:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "08:10 - 09:00"
-                }
-              ],
-              "location": "VC   TRI",
-              "instructor": "C CURTIN",
-              "instructors": [
-                "C CURTIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 4,
-                "available": 2,
-                "label": "2/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Micro and Molecular Biology of Wine Laboratory",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 583,
-          "courseCode": "VIT_ENOL 583",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2528",
-              "sln": 2528,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 583",
-              "courseName": "Micro and Molecular Biology of Wine Laboratory",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M",
-              "time": "14:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "14:10 - 17:00"
-                }
-              ],
-              "location": "TWSC 206",
-              "instructor": "C CURTIN",
-              "instructors": [
-                "C CURTIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 4,
-                "available": 3,
-                "label": "1/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Seminar in Viticulture and Enology",
-          "subject": "VIT_ENOL",
-          "subjectPrefix": "V E",
-          "courseNumber": 590,
-          "courseCode": "VIT_ENOL 590",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2529",
-              "sln": 2529,
-              "sectionNumber": 1,
-              "courseCode": "VIT_ENOL 590",
-              "courseName": "Seminar in Viticulture and Enology",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "",
-              "instructor": "R COLEMAN",
-              "instructors": [
-                "R COLEMAN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 1,
-                "total": 4,
-                "available": 3,
-                "label": "1/4"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "WGSS",
-      "courses": [
-        {
-          "course": "Psychology of Gender",
-          "subject": "WGSS",
-          "subjectPrefix": "WGSS",
-          "courseNumber": 324,
-          "courseCode": "WGSS 324",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2466",
-              "sln": 2466,
-              "sectionNumber": 1,
-              "courseCode": "WGSS 324",
-              "courseName": "Psychology of Gender",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "10:10 - 11:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "10:10 - 11:00"
-                }
-              ],
-              "location": "",
-              "instructor": "S BAUMAN",
-              "instructors": [
-                "S BAUMAN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 0,
-                "total": 2,
-                "available": 2,
-                "label": "0/2"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Women in Latin American History",
-          "subject": "WGSS",
-          "subjectPrefix": "WGSS",
-          "courseNumber": 335,
-          "courseCode": "WGSS 335",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2537",
-              "sln": 2537,
-              "sectionNumber": 1,
-              "courseCode": "WGSS 335",
-              "courseName": "Women in Latin American History",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "",
-              "instructor": "S GONZALEZ",
-              "instructors": [
-                "S GONZALEZ"
-              ],
-              "ucore": "DIVR",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 2,
-                "total": 6,
-                "available": 4,
-                "label": "2/6"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "WRITE",
