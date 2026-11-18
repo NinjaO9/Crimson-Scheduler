@@ -407,13 +407,11 @@ function attemptToAddToHeap(builtSchedule : SectionCombination[])
  */
 function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 0, builtSchedule : SectionCombination[] = []) : boolean
 {
-    console.log(`Index check: ${index} / ${courses.length}`);
     if (index >= courses.length)
     {
         attemptToAddToHeap(builtSchedule);
         return true; // Exhausted all courses without a conflict.
     }
-    console.log(`Checking course: ${courses[index].course_name}`);
     const prevLength = builtSchedule.length;
     for (const combination of courses[index].sectionCombinations)
     {
@@ -438,14 +436,8 @@ export async function testthisshit()
         ...enrichCatalogCourses(result)
     ].sort((courseA, courseB) => courseA.sectionCombinations.length - courseB.sectionCombinations.length))];
 
-    eResult.forEach((eCourse) => {
-        console.log(`${eCourse.course_name}`);
-        console.log(eCourse.sectionCombinations);
-    })
-
-    console.log("Testing schedule generation");
+    console.time("ScheduleGeneration");
     const sResult = findBestKSchedules(eResult);
-    console.log("Am I albert einstien");
     let index : number = 3;
     while(!TOP_K_SCHEDULES.isEmpty())
     {
@@ -454,5 +446,6 @@ export async function testthisshit()
     }
     refreshScheduleSelector();
     resetScheduleMap();
+    console.timeEnd("ScheduleGeneration");
     console.log(sResult);
 }
