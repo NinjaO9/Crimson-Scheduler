@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T22:16:32.022577+00:00",
+  "generatedAt": "2026-11-18T04:14:42.961590+00:00",
   "campus": "Everett",
   "term": "Spring 2027",
   "subjects": [
@@ -4925,6 +4925,155 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ED_PSYCH",
+      "courses": [
+        {
+          "course": "Introduction to Qualitative Research",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 507,
+          "courseCode": "ED_PSYCH 507",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7272",
+              "sln": 7272,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 507",
+              "courseName": "Introduction to Qualitative Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K HUGGINS",
+              "instructors": [
+                "K HUGGINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Statistics",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 508,
+          "courseCode": "ED_PSYCH 508",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3522",
+              "sln": 3522,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 508",
+              "courseName": "Educational Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Educational Psychology Internship",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 597,
+          "courseCode": "ED_PSYCH 597",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7974",
+              "sln": 7974,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 597",
+              "courseName": "Educational Psychology Internship",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "O SUNDAY",
+              "instructors": [
+                "O SUNDAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
               },
               "dates": {
                 "start": "Jan 11",

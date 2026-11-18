@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T22:16:32.413372+00:00",
+  "generatedAt": "2026-11-18T04:14:43.315502+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -3041,6 +3041,57 @@
                 "total": 10,
                 "available": 10,
                 "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CSSTE",
+      "courses": [
+        {
+          "course": "Gender, Power, and Education",
+          "subject": "CSSTE",
+          "subjectPrefix": "CSSTE",
+          "courseNumber": 532,
+          "courseCode": "CSSTE 532",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3207",
+              "sln": 3207,
+              "sectionNumber": 1,
+              "courseCode": "CSSTE 532",
+              "courseName": "Gender, Power, and Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "May 10",

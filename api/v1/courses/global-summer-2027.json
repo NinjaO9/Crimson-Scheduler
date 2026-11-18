@@ -1,12 +1,417 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T22:16:32.087462+00:00",
+  "generatedAt": "2026-11-18T04:14:43.020121+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
     {
       "subject": "ACCTG",
       "courses": [
+        {
+          "course": "Introduction to Financial Accounting",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 230,
+          "courseCode": "ACCTG 230",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3179",
+              "sln": 3179,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 230",
+              "courseName": "Introduction to Financial Accounting",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3180",
+              "sln": 3180,
+              "sectionNumber": 2,
+              "courseCode": "ACCTG 230",
+              "courseName": "Introduction to Financial Accounting",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3181",
+              "sln": 3181,
+              "sectionNumber": 3,
+              "courseCode": "ACCTG 230",
+              "courseName": "Introduction to Financial Accounting",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Managerial Accounting",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 231,
+          "courseCode": "ACCTG 231",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3154",
+              "sln": 3154,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 231",
+              "courseName": "Introduction to Managerial Accounting",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3155",
+              "sln": 3155,
+              "sectionNumber": 2,
+              "courseCode": "ACCTG 231",
+              "courseName": "Introduction to Managerial Accounting",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Intermediate Accounting I",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 330,
+          "courseCode": "ACCTG 330",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3182",
+              "sln": 3182,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 330",
+              "courseName": "Intermediate Accounting I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3183",
+              "sln": 3183,
+              "sectionNumber": 2,
+              "courseCode": "ACCTG 330",
+              "courseName": "Intermediate Accounting I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Taxation of Business Entities and Individuals",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 335,
+          "courseCode": "ACCTG 335",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3156",
+              "sln": 3156,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 335",
+              "courseName": "Taxation of Business Entities and Individuals",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3157",
+              "sln": 3157,
+              "sectionNumber": 2,
+              "courseCode": "ACCTG 335",
+              "courseName": "Taxation of Business Entities and Individuals",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Cost Accounting and Management",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 438,
+          "courseCode": "ACCTG 438",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3184",
+              "sln": 3184,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 438",
+              "courseName": "Advanced Cost Accounting and Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
         {
           "course": "Introduction to Financial and Managerial Accounting",
           "subject": "ACCTG",
@@ -833,6 +1238,249 @@
       "subject": "B_A",
       "courses": [
         {
+          "course": "Introduction to Business",
+          "subject": "B_A",
+          "subjectPrefix": "B A",
+          "courseNumber": 100,
+          "courseCode": "B_A 100",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3158",
+              "sln": 3158,
+              "sectionNumber": 1,
+              "courseCode": "B_A 100",
+              "courseName": "Introduction to Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3159",
+              "sln": 3159,
+              "sectionNumber": 2,
+              "courseCode": "B_A 100",
+              "courseName": "Introduction to Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ethics, Teams, and Innovation",
+          "subject": "B_A",
+          "subjectPrefix": "B A",
+          "courseNumber": 211,
+          "courseCode": "B_A 211",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3185",
+              "sln": 3185,
+              "sectionNumber": 1,
+              "courseCode": "B_A 211",
+              "courseName": "Ethics, Teams, and Innovation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3186",
+              "sln": 3186,
+              "sectionNumber": 2,
+              "courseCode": "B_A 211",
+              "courseName": "Ethics, Teams, and Innovation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Spreadsheets, Data Visualization, and Decision Analysis",
+          "subject": "B_A",
+          "subjectPrefix": "B A",
+          "courseNumber": 212,
+          "courseCode": "B_A 212",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3160",
+              "sln": 3160,
+              "sectionNumber": 1,
+              "courseCode": "B_A 212",
+              "courseName": "Spreadsheets, Data Visualization, and Decision Analysis",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3161",
+              "sln": 3161,
+              "sectionNumber": 2,
+              "courseCode": "B_A 212",
+              "courseName": "Spreadsheets, Data Visualization, and Decision Analysis",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
           "course": "Data Analysis for Managers",
           "subject": "B_A",
           "subjectPrefix": "B A",
@@ -1360,6 +2008,92 @@
               "dates": {
                 "start": "Jun 28",
                 "end": "Aug 15"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "B_LAW",
+      "courses": [
+        {
+          "course": "Law and the Legal Environment of Business",
+          "subject": "B_LAW",
+          "subjectPrefix": "B Law",
+          "courseNumber": 210,
+          "courseCode": "B_LAW 210",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3162",
+              "sln": 3162,
+              "sectionNumber": 1,
+              "courseCode": "B_LAW 210",
+              "courseName": "Law and the Legal Environment of Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3163",
+              "sln": 3163,
+              "sectionNumber": 2,
+              "courseCode": "B_LAW 210",
+              "courseName": "Law and the Legal Environment of Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
               }
             }
           ]
@@ -3560,6 +4294,43 @@
                 "start": "Jun 21",
                 "end": "Aug 01"
               }
+            },
+            {
+              "sectionId": "3206",
+              "sln": 3206,
+              "sectionNumber": 2,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J SANDERS",
+              "instructors": [
+                "J SANDERS"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
             }
           ]
         },
@@ -4962,6 +5733,168 @@
           ]
         },
         {
+          "course": "Introduction to Financial Management",
+          "subject": "FIN",
+          "subjectPrefix": "Fin",
+          "courseNumber": 325,
+          "courseCode": "FIN 325",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3164",
+              "sln": 3164,
+              "sectionNumber": 1,
+              "courseCode": "FIN 325",
+              "courseName": "Introduction to Financial Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3165",
+              "sln": 3165,
+              "sectionNumber": 2,
+              "courseCode": "FIN 325",
+              "courseName": "Introduction to Financial Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3166",
+              "sln": 3166,
+              "sectionNumber": 3,
+              "courseCode": "FIN 325",
+              "courseName": "Introduction to Financial Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Real Estate",
+          "subject": "FIN",
+          "subjectPrefix": "Fin",
+          "courseNumber": 345,
+          "courseCode": "FIN 345",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3167",
+              "sln": 3167,
+              "sectionNumber": 1,
+              "courseCode": "FIN 345",
+              "courseName": "Real Estate",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
           "course": "Financial Management",
           "subject": "FIN",
           "subjectPrefix": "Fin",
@@ -6103,6 +7036,133 @@
       "subject": "HBM",
       "courses": [
         {
+          "course": "Navigating Business Careers",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 105,
+          "courseCode": "HBM 105",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3187",
+              "sln": 3187,
+              "sectionNumber": 1,
+              "courseCode": "HBM 105",
+              "courseName": "Navigating Business Careers",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3188",
+              "sln": 3188,
+              "sectionNumber": 2,
+              "courseCode": "HBM 105",
+              "courseName": "Navigating Business Careers",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Operational Analysis",
+          "subject": "HBM",
+          "subjectPrefix": "HBM",
+          "courseNumber": 491,
+          "courseCode": "HBM 491",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3168",
+              "sln": 3168,
+              "sectionNumber": 1,
+              "courseCode": "HBM 491",
+              "courseName": "Operational Analysis",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
           "course": "Case Studies and Research",
           "subject": "HBM",
           "subjectPrefix": "HBM",
@@ -7057,6 +8117,122 @@
       "subject": "I_BUS",
       "courses": [
         {
+          "course": "International Business",
+          "subject": "I_BUS",
+          "subjectPrefix": "I Bus",
+          "courseNumber": 380,
+          "courseCode": "I_BUS 380",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3190",
+              "sln": 3190,
+              "sectionNumber": 1,
+              "courseCode": "I_BUS 380",
+              "courseName": "International Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3191",
+              "sln": 3191,
+              "sectionNumber": 2,
+              "courseCode": "I_BUS 380",
+              "courseName": "International Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3192",
+              "sln": 3192,
+              "sectionNumber": 3,
+              "courseCode": "I_BUS 380",
+              "courseName": "International Business",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
           "course": "Special Projects or Independent Study",
           "subject": "I_BUS",
           "subjectPrefix": "I Bus",
@@ -7581,6 +8757,133 @@
       "subject": "MGMT",
       "courses": [
         {
+          "course": "Managerial Effectiveness Through Diversity",
+          "subject": "MGMT",
+          "subjectPrefix": "MGMT",
+          "courseNumber": 415,
+          "courseCode": "MGMT 415",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3169",
+              "sln": 3169,
+              "sectionNumber": 1,
+              "courseCode": "MGMT 415",
+              "courseName": "Managerial Effectiveness Through Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3170",
+              "sln": 3170,
+              "sectionNumber": 2,
+              "courseCode": "MGMT 415",
+              "courseName": "Managerial Effectiveness Through Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Personnel and Human Resources Management",
+          "subject": "MGMT",
+          "subjectPrefix": "MGMT",
+          "courseNumber": 450,
+          "courseCode": "MGMT 450",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3193",
+              "sln": 3193,
+              "sectionNumber": 1,
+              "courseCode": "MGMT 450",
+              "courseName": "Personnel and Human Resources Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
           "course": "Professional Ethics and Practice in Business",
           "subject": "MGMT",
           "subjectPrefix": "MGMT",
@@ -7748,6 +9051,273 @@
       "subject": "MGTOP",
       "courses": [
         {
+          "course": "Business Statistics",
+          "subject": "MGTOP",
+          "subjectPrefix": "MgtOp",
+          "courseNumber": 215,
+          "courseCode": "MGTOP 215",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3201",
+              "sln": 3201,
+              "sectionNumber": 1,
+              "courseCode": "MGTOP 215",
+              "courseName": "Business Statistics",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3203",
+              "sln": 3203,
+              "sectionNumber": 3,
+              "courseCode": "MGTOP 215",
+              "courseName": "Business Statistics",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3202",
+              "sln": 3202,
+              "sectionNumber": 2,
+              "courseCode": "MGTOP 215",
+              "courseName": "Business Statistics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3204",
+              "sln": 3204,
+              "sectionNumber": 4,
+              "courseCode": "MGTOP 215",
+              "courseName": "Business Statistics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Operations Management",
+          "subject": "MGTOP",
+          "subjectPrefix": "MgtOp",
+          "courseNumber": 340,
+          "courseCode": "MGTOP 340",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3194",
+              "sln": 3194,
+              "sectionNumber": 1,
+              "courseCode": "MGTOP 340",
+              "courseName": "Operations Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3195",
+              "sln": 3195,
+              "sectionNumber": 2,
+              "courseCode": "MGTOP 340",
+              "courseName": "Operations Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3196",
+              "sln": 3196,
+              "sectionNumber": 3,
+              "courseCode": "MGTOP 340",
+              "courseName": "Operations Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
           "course": "Operations and Supply Chain Management",
           "subject": "MGTOP",
           "subjectPrefix": "MgtOp",
@@ -7831,8 +9401,418 @@
       ]
     },
     {
+      "subject": "MIS",
+      "courses": [
+        {
+          "course": "Managing Information Technology",
+          "subject": "MIS",
+          "subjectPrefix": "MIS",
+          "courseNumber": 250,
+          "courseCode": "MIS 250",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3197",
+              "sln": 3197,
+              "sectionNumber": 1,
+              "courseCode": "MIS 250",
+              "courseName": "Managing Information Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3198",
+              "sln": 3198,
+              "sectionNumber": 2,
+              "courseCode": "MIS 250",
+              "courseName": "Managing Information Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Global Strategic Information Systems Leadership",
+          "subject": "MIS",
+          "subjectPrefix": "MIS",
+          "courseNumber": 400,
+          "courseCode": "MIS 400",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3173",
+              "sln": 3173,
+              "sectionNumber": 1,
+              "courseCode": "MIS 400",
+              "courseName": "Global Strategic Information Systems Leadership",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3174",
+              "sln": 3174,
+              "sectionNumber": 2,
+              "courseCode": "MIS 400",
+              "courseName": "Global Strategic Information Systems Leadership",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "MKTG",
       "courses": [
+        {
+          "course": "Marketing",
+          "subject": "MKTG",
+          "subjectPrefix": "Mktg",
+          "courseNumber": 360,
+          "courseCode": "MKTG 360",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3175",
+              "sln": 3175,
+              "sectionNumber": 1,
+              "courseCode": "MKTG 360",
+              "courseName": "Marketing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3176",
+              "sln": 3176,
+              "sectionNumber": 2,
+              "courseCode": "MKTG 360",
+              "courseName": "Marketing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Consumer Behavior",
+          "subject": "MKTG",
+          "subjectPrefix": "Mktg",
+          "courseNumber": 407,
+          "courseCode": "MKTG 407",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3177",
+              "sln": 3177,
+              "sectionNumber": 1,
+              "courseCode": "MKTG 407",
+              "courseName": "Consumer Behavior",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3178",
+              "sln": 3178,
+              "sectionNumber": 2,
+              "courseCode": "MKTG 407",
+              "courseName": "Consumer Behavior",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 45,
+                "available": 45,
+                "label": "0/45"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Marketing Management",
+          "subject": "MKTG",
+          "subjectPrefix": "Mktg",
+          "courseNumber": 495,
+          "courseCode": "MKTG 495",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3199",
+              "sln": 3199,
+              "sectionNumber": 1,
+              "courseCode": "MKTG 495",
+              "courseName": "Marketing Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            },
+            {
+              "sectionId": "3200",
+              "sln": 3200,
+              "sectionNumber": 2,
+              "courseCode": "MKTG 495",
+              "courseName": "Marketing Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
+              }
+            }
+          ]
+        },
         {
           "course": "Marketing Strategy",
           "subject": "MKTG",
