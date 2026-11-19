@@ -1,4 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
+import { readFileSync } from "node:fs";
 import { renderCourseResult } from "../web/classes/static/src/schedule/course-search.js";
 import { initializeScheduleViewTabs } from "../web/classes/static/src/schedule/schedule-views.js";
 import { setMobilePane } from "../web/classes/static/src/schedule/responsive.js";
@@ -100,5 +101,28 @@ describe("schedule view tabs", () => {
 
     document.getElementById("scheduleCreatorTab").click();
     expect(summary.disabled).toBe(false);
+  });
+
+  it("defines the empty Generator workspace in the intended section order", () => {
+    const template = readFileSync(
+      "web/classes/templates/classes/schedule_build.html",
+      "utf8",
+    );
+    const actions = template.indexOf("generator-actions");
+    const schedule = template.indexOf("generator-schedule-section");
+    const possibilities = template.indexOf("generator-possibilities");
+    const selection = template.indexOf("generator-selection");
+
+    expect(template).toContain("Generate Schedules");
+    expect(template).toContain("Schedule Options");
+    expect(template).toContain('id="generatorCalendarHeader"');
+    expect(template).toContain('id="generatorCalendarGrid"');
+    expect(template).toContain("Generated schedule alternatives will appear here.");
+    expect(template).toContain("Selected Courses");
+    expect(template).toMatch(/class="primary-btn generator-action-btn" disabled/);
+    expect(template).toMatch(/class="manage-btn generator-options-btn" disabled/);
+    expect(actions).toBeLessThan(schedule);
+    expect(schedule).toBeLessThan(possibilities);
+    expect(possibilities).toBeLessThan(selection);
   });
 });

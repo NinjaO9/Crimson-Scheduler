@@ -37,8 +37,10 @@ describe("mobile layout sheets", () => {
           <section class="misc-panel" id="miscPanel"></section>
         </div>
         <div id="scheduleGeneratorPanel">
-          <button id="mobileGeneratorToggle" aria-expanded="false"></button>
-          <section class="generator-selection" id="generatorSelection"></section>
+          <div class="generator-workspace">
+            <button id="mobileGeneratorToggle" aria-expanded="false"></button>
+            <section class="generator-selection" id="generatorSelection"></section>
+          </div>
         </div>
       </main>
       <div id="mobileMiscSheet" aria-hidden="true" hidden>
@@ -118,6 +120,7 @@ describe("mobile layout sheets", () => {
     expect(
       document
         .getElementById("scheduleGeneratorPanel")
+        .querySelector(".generator-workspace")
         .contains(document.getElementById("generatorSelection")),
     ).toBe(true);
   });
