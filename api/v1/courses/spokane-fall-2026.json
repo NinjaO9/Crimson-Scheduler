@@ -1,12 +1,416 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T12:55:11.612862+00:00",
+  "generatedAt": "2026-11-19T21:27:25.258820+00:00",
   "campus": "Spokane",
   "term": "Fall 2026",
   "subjects": [
     {
+      "subject": "COM",
+      "courses": [
+        {
+          "course": "Public Speaking in the Digital Age",
+          "subject": "COM",
+          "subjectPrefix": "Com",
+          "courseNumber": 102,
+          "courseCode": "COM 102",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10186",
+              "sln": 10186,
+              "sectionNumber": 1,
+              "courseCode": "COM 102",
+              "courseName": "Public Speaking in the Digital Age",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L PINTAK",
+              "instructors": [
+                "L PINTAK"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ethics for Professionals",
+          "subject": "COM",
+          "subjectPrefix": "Com",
+          "courseNumber": 563,
+          "courseCode": "COM 563",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10199",
+              "sln": 10199,
+              "sectionNumber": 1,
+              "courseCode": "COM 563",
+              "courseName": "Ethics for Professionals",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J FOLEY",
+              "instructors": [
+                "J FOLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research Methods for Professionals",
+          "subject": "COM",
+          "subjectPrefix": "Com",
+          "courseNumber": 564,
+          "courseCode": "COM 564",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10200",
+              "sln": 10200,
+              "sectionNumber": 1,
+              "courseCode": "COM 564",
+              "courseName": "Research Methods for Professionals",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "W PENG",
+              "instructors": [
+                "W PENG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "COMHLTH",
+      "courses": [
+        {
+          "course": "Communicating Health in Practice",
+          "subject": "COMHLTH",
+          "subjectPrefix": "COMHL",
+          "courseNumber": 571,
+          "courseCode": "COMHLTH 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10214",
+              "sln": 10214,
+              "sectionNumber": 1,
+              "courseCode": "COMHLTH 571",
+              "courseName": "Communicating Health in Practice",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J WILLOUGHBY",
+              "instructors": [
+                "J WILLOUGHBY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Communicating Health to Specialized Populations",
+          "subject": "COMHLTH",
+          "subjectPrefix": "COMHL",
+          "courseNumber": 572,
+          "courseCode": "COMHLTH 572",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10215",
+              "sln": 10215,
+              "sectionNumber": 1,
+              "courseCode": "COMHLTH 572",
+              "courseName": "Communicating Health to Specialized Populations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C THOMAS",
+              "instructors": [
+                "C THOMAS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "CV",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CSSTE",
+      "courses": [
+        {
+          "course": "Race, Identity, and Representation in Education",
+          "subject": "CSSTE",
+          "subjectPrefix": "CSSTE",
+          "courseNumber": 533,
+          "courseCode": "CSSTE 533",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12318",
+              "sln": 12318,
+              "sectionNumber": 1,
+              "courseCode": "CSSTE 533",
+              "courseName": "Race, Identity, and Representation in Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "16:30 - 19:20",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "16:30 - 19:20"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "A GILMORE",
+              "instructors": [
+                "A GILMORE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "E_M",
+      "courses": [
+        {
+          "course": "Leading People and Organizations",
+          "subject": "E_M",
+          "subjectPrefix": "E M",
+          "courseNumber": 522,
+          "courseCode": "E_M 522",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10503",
+              "sln": 10503,
+              "sectionNumber": 1,
+              "courseCode": "E_M 522",
+              "courseName": "Leading People and Organizations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "17:15 - 19:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "17:15 - 19:45"
+                }
+              ],
+              "location": "",
+              "instructor": "J JONES",
+              "instructors": [
+                "J JONES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "ED_AD",
       "courses": [
+        {
+          "course": "Social Foundations of Education",
+          "subject": "ED_AD",
+          "subjectPrefix": "Ed Ad",
+          "courseNumber": 507,
+          "courseCode": "ED_AD 507",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10431",
+              "sln": 10431,
+              "sectionNumber": 3,
+              "courseCode": "ED_AD 507",
+              "courseName": "Social Foundations of Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K HUGGINS",
+              "instructors": [
+                "K HUGGINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 7,
+                "available": 6,
+                "label": "1/7"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
         {
           "course": "Leading School Improvement",
           "subject": "ED_AD",
@@ -381,6 +785,54 @@
           ]
         },
         {
+          "course": "Action Research",
+          "subject": "ED_AD",
+          "subjectPrefix": "Ed Ad",
+          "courseNumber": 591,
+          "courseCode": "ED_AD 591",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11150",
+              "sln": 11150,
+              "sectionNumber": 1,
+              "courseCode": "ED_AD 591",
+              "courseName": "Action Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "D VANDERHOLM",
+              "instructors": [
+                "D VANDERHOLM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Special Projects or Independent Study",
           "subject": "ED_AD",
           "subjectPrefix": "Ed Ad",
@@ -631,6 +1083,54 @@
       "subject": "ED_PSYCH",
       "courses": [
         {
+          "course": "Advanced Educational Psychology",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 503,
+          "courseCode": "ED_PSYCH 503",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12166",
+              "sln": 12166,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 503",
+              "courseName": "Advanced Educational Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Research Methods I",
           "subject": "ED_PSYCH",
           "subjectPrefix": "EdPsy",
@@ -670,6 +1170,54 @@
                 "total": 1,
                 "available": 0,
                 "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "User Experience Research",
+          "subject": "ED_PSYCH",
+          "subjectPrefix": "EdPsy",
+          "courseNumber": 525,
+          "courseCode": "ED_PSYCH 525",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12167",
+              "sln": 12167,
+              "sectionNumber": 1,
+              "courseCode": "ED_PSYCH 525",
+              "courseName": "User Experience Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "R DANIELSON",
+              "instructors": [
+                "R DANIELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
               },
               "dates": {
                 "start": "Aug 24",
@@ -721,6 +1269,54 @@
                 "total": 1,
                 "available": 0,
                 "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Principles of Research",
+          "subject": "ED_RES",
+          "subjectPrefix": "EdRes",
+          "courseNumber": 563,
+          "courseCode": "ED_RES 563",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11148",
+              "sln": 11148,
+              "sectionNumber": 1,
+              "courseCode": "ED_RES 563",
+              "courseName": "Principles of Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "S CALDERONE",
+              "instructors": [
+                "S CALDERONE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 2,
+                "available": 1,
+                "label": "1/2"
               },
               "dates": {
                 "start": "Aug 24",
@@ -822,6 +1418,59 @@
                 "total": 1,
                 "available": 0,
                 "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HISTORY",
+      "courses": [
+        {
+          "course": "Roots of Contemporary Issues For Transfer Students",
+          "subject": "HISTORY",
+          "subjectPrefix": "Hist",
+          "courseNumber": 305,
+          "courseCode": "HISTORY 305",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9395",
+              "sln": 9395,
+              "sectionNumber": 1,
+              "courseCode": "HISTORY 305",
+              "courseName": "Roots of Contemporary Issues For Transfer Students",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D KOTIN",
+              "instructors": [
+                "D KOTIN"
+              ],
+              "ucore": "ROOT",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Aug 24",
@@ -1304,10 +1953,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 6,
+                "taken": 7,
                 "total": 15,
-                "available": 9,
-                "label": "6/15"
+                "available": 8,
+                "label": "7/15"
               },
               "dates": {
                 "start": "Aug 24",
@@ -2599,6 +3248,54 @@
           ]
         },
         {
+          "course": "Virtual - Public Health",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 587,
+          "courseCode": "MED_CLIN 587",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12471",
+              "sln": 12471,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 587",
+              "courseName": "Virtual - Public Health",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MARCIN",
+              "instructors": [
+                "J MARCIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
           "course": "Science - Medical Education",
           "subject": "MED_CLIN",
           "subjectPrefix": "MEDCL",
@@ -3166,6 +3863,342 @@
                 "total": 15,
                 "available": 14,
                 "label": "1/15"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Urgent and Walk-In Medicine",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 639,
+          "courseCode": "MED_CLIN 639",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12436",
+              "sln": 12436,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 639",
+              "courseName": "Clinical Rotation - Urgent and Walk-In Medicine",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MARCIN",
+              "instructors": [
+                "J MARCIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Dermatology",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 640,
+          "courseCode": "MED_CLIN 640",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12439",
+              "sln": 12439,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 640",
+              "courseName": "Virtual - Clinical Cases: Dermatology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D SMITH",
+              "instructors": [
+                "D SMITH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: EKG",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 641,
+          "courseCode": "MED_CLIN 641",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12443",
+              "sln": 12443,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 641",
+              "courseName": "Virtual - Clinical Cases: EKG",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C ANDERSON",
+              "instructors": [
+                "C ANDERSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 8,
+                "total": 30,
+                "available": 22,
+                "label": "8/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Reproductive Health",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 642,
+          "courseCode": "MED_CLIN 642",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12447",
+              "sln": 12447,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 642",
+              "courseName": "Virtual - Clinical Cases: Reproductive Health",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D KOPP",
+              "instructors": [
+                "D KOPP"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Neurology",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 643,
+          "courseCode": "MED_CLIN 643",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12451",
+              "sln": 12451,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 643",
+              "courseName": "Virtual - Clinical Cases: Neurology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D DEWITT",
+              "instructors": [
+                "D DEWITT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 4,
+                "total": 30,
+                "available": 26,
+                "label": "4/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Virtual - Clinical Cases: Surgery",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 644,
+          "courseCode": "MED_CLIN 644",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12455",
+              "sln": 12455,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 644",
+              "courseName": "Virtual - Clinical Cases: Surgery",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J DROSDECK",
+              "instructors": [
+                "J DROSDECK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Nov 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Rotation - Advanced Anesthesiology",
+          "subject": "MED_CLIN",
+          "subjectPrefix": "MEDCL",
+          "courseNumber": 673,
+          "courseCode": "MED_CLIN 673",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12472",
+              "sln": 12472,
+              "sectionNumber": 1,
+              "courseCode": "MED_CLIN 673",
+              "courseName": "Clinical Rotation - Advanced Anesthesiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SIDDIQUI",
+              "instructors": [
+                "S SIDDIQUI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
               },
               "dates": {
                 "start": "Aug 24",
@@ -3770,7 +4803,7 @@
           "courseNumber": 401,
           "courseCode": "MIL_SCI 401",
           "credits": "4",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "6991",
@@ -3781,7 +4814,7 @@
               "credits": "4",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "ARR",
               "time": "ARRGT",
               "meetings": [
@@ -3794,6 +4827,43 @@
               "instructor": "C NEWBILL",
               "instructors": [
                 "C NEWBILL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12172",
+              "sln": 12172,
+              "sectionNumber": 1,
+              "courseCode": "MIL_SCI 401",
+              "courseName": "Advanced Military Leadership",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K TWILLIGEAR",
+              "instructors": [
+                "K TWILLIGEAR"
               ],
               "ucore": "",
               "coop": false,
@@ -4240,8 +5310,107 @@
       ]
     },
     {
+      "subject": "MUS",
+      "courses": [
+        {
+          "course": "History of Jazz",
+          "subject": "MUS",
+          "subjectPrefix": "Mus",
+          "courseNumber": 362,
+          "courseCode": "MUS 362",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9358",
+              "sln": 9358,
+              "sectionNumber": 1,
+              "courseCode": "MUS 362",
+              "courseName": "History of Jazz",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M VILAPLANA STARK",
+              "instructors": [
+                "M VILAPLANA STARK"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "NEP",
       "courses": [
+        {
+          "course": "Modern Concepts in Human Health: Food, Fitness, and You",
+          "subject": "NEP",
+          "subjectPrefix": "NEP",
+          "courseNumber": 101,
+          "courseCode": "NEP 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11413",
+              "sln": 11413,
+              "sectionNumber": 1,
+              "courseCode": "NEP 101",
+              "courseName": "Modern Concepts in Human Health: Food, Fitness, and You",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
         {
           "course": "Strength Training and Conditioning; Theory and Application",
           "subject": "NEP",
@@ -4338,7 +5507,7 @@
           "courseNumber": 340,
           "courseCode": "NEP 340",
           "credits": "3",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "6593",
@@ -4349,7 +5518,7 @@
               "credits": "3",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "M,W",
               "time": "11:10 - 12:00",
               "meetings": [
@@ -4371,6 +5540,43 @@
                 "total": 24,
                 "available": 14,
                 "label": "10/24"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "11870",
+              "sln": 11870,
+              "sectionNumber": 2,
+              "courseCode": "NEP 340",
+              "courseName": "Essentials of Food Preparation for Health Sciences",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "SHSB 338",
+              "instructor": "K FREDERICK",
+              "instructors": [
+                "K FREDERICK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 10,
+                "available": 0,
+                "label": "10/10"
               },
               "dates": {
                 "start": "Aug 24",
@@ -4530,7 +5736,7 @@
           "courseNumber": 463,
           "courseCode": "NEP 463",
           "credits": "4",
-          "hasRequiredLab": false,
+          "hasRequiredLab": true,
           "sections": [
             {
               "sectionId": "6597",
@@ -4541,7 +5747,7 @@
               "credits": "4",
               "component": "Lecture",
               "isLab": false,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "M,W",
               "time": "12:10 - 13:25",
               "meetings": [
@@ -4563,6 +5769,47 @@
                 "total": 24,
                 "available": 18,
                 "label": "6/24"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "11871",
+              "sln": 11871,
+              "sectionNumber": 1,
+              "courseCode": "NEP 463",
+              "courseName": "Exercise Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH,TH",
+              "time": "09:10 - 12:00;09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                },
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "SHER 301",
+              "instructor": "C JARRETT",
+              "instructors": [
+                "C JARRETT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 6,
+                "total": 12,
+                "available": 6,
+                "label": "6/12"
               },
               "dates": {
                 "start": "Aug 24",
@@ -4976,6 +6223,54 @@
           ]
         },
         {
+          "course": "Graduate Seminar",
+          "subject": "NEP",
+          "subjectPrefix": "NEP",
+          "courseNumber": 505,
+          "courseCode": "NEP 505",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11892",
+              "sln": 11892,
+              "sectionNumber": 1,
+              "courseCode": "NEP 505",
+              "courseName": "Graduate Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "SHER 310",
+              "instructor": "M PERRIGUE",
+              "instructors": [
+                "M PERRIGUE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Research Methods in Nutrition and Exercise Physiology",
           "subject": "NEP",
           "subjectPrefix": "NEP",
@@ -5100,6 +6395,91 @@
                 "total": 12,
                 "available": 2,
                 "label": "10/12"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Nutrition Supervised Practice",
+          "subject": "NEP",
+          "subjectPrefix": "NEP",
+          "courseNumber": 540,
+          "courseCode": "NEP 540",
+          "credits": "9",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "11891",
+              "sln": 11891,
+              "sectionNumber": 1,
+              "courseCode": "NEP 540",
+              "courseName": "Clinical Nutrition Supervised Practice",
+              "credits": "9",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,TU,W",
+              "time": "09:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W",
+                  "time": "09:10 - 14:00"
+                }
+              ],
+              "location": "SAC  341",
+              "instructor": "L HENEGHEN",
+              "instructors": [
+                "L HENEGHEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "11897",
+              "sln": 11897,
+              "sectionNumber": 1,
+              "courseCode": "NEP 540",
+              "courseName": "Clinical Nutrition Supervised Practice",
+              "credits": "9",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L HENEGHEN",
+              "instructors": [
+                "L HENEGHEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 30,
+                "available": 27,
+                "label": "3/30"
               },
               "dates": {
                 "start": "Aug 24",
@@ -5285,6 +6665,54 @@
                 "total": 30,
                 "available": 18,
                 "label": "12/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Topics in Exercise Physiology and Nutrition",
+          "subject": "NEP",
+          "subjectPrefix": "NEP",
+          "courseNumber": 580,
+          "courseCode": "NEP 580",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12427",
+              "sln": 12427,
+              "sectionNumber": 1,
+              "courseCode": "NEP 580",
+              "courseName": "Advanced Topics in Exercise Physiology and Nutrition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "SPBS 116",
+              "instructor": "L HEBERT",
+              "instructors": [
+                "L HEBERT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 25,
+                "available": 21,
+                "label": "4/25"
               },
               "dates": {
                 "start": "Aug 24",
@@ -5514,6 +6942,80 @@
               }
             },
             {
+              "sectionId": "11916",
+              "sln": 11916,
+              "sectionNumber": 2,
+              "courseCode": "NEP 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "P MONSIVAIS",
+              "instructors": [
+                "P MONSIVAIS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 15,
+                "available": 12,
+                "label": "3/15"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "11917",
+              "sln": 11917,
+              "sectionNumber": 3,
+              "courseCode": "NEP 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H HAVERKAMP",
+              "instructors": [
+                "H HAVERKAMP"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 15,
+                "available": 14,
+                "label": "1/15"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
               "sectionId": "6625",
               "sln": 6625,
               "sectionNumber": 4,
@@ -5557,6 +7059,58 @@
     {
       "subject": "NEUROSCI",
       "courses": [
+        {
+          "course": "Special Topics in Cellular and Molecular Neuroscience",
+          "subject": "NEUROSCI",
+          "subjectPrefix": "Neuro",
+          "courseNumber": 541,
+          "courseCode": "NEUROSCI 541",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12301",
+              "sln": 12301,
+              "sectionNumber": 3,
+              "courseCode": "NEUROSCI 541",
+              "courseName": "Special Topics in Cellular and Molecular Neuroscience",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,F,W",
+              "time": "09:10 - 10:00;08:30 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,F",
+                  "time": "09:10 - 10:00"
+                },
+                {
+                  "days": "W",
+                  "time": "08:30 - 10:00"
+                }
+              ],
+              "location": "SAC  345",
+              "instructor": "S HIDALGO SOTELO",
+              "instructors": [
+                "S HIDALGO SOTELO"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Nov 02",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
         {
           "course": "Special Topics in Interdisciplinary Neuroscience",
           "subject": "NEUROSCI",
@@ -6790,6 +8344,91 @@
               }
             }
           ]
+        },
+        {
+          "course": "Independent Study",
+          "subject": "NURS_ADV",
+          "subjectPrefix": "NURAD",
+          "courseNumber": 599,
+          "courseCode": "NURS_ADV 599",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12415",
+              "sln": 12415,
+              "sectionNumber": 1,
+              "courseCode": "NURS_ADV 599",
+              "courseName": "Independent Study",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "F BROWN",
+              "instructors": [
+                "F BROWN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12506",
+              "sln": 12506,
+              "sectionNumber": 2,
+              "courseCode": "NURS_ADV 599",
+              "courseName": "Independent Study",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R HUNT",
+              "instructors": [
+                "R HUNT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
         }
       ]
     },
@@ -7244,6 +8883,80 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "12547",
+              "sln": 12547,
+              "sectionNumber": 9,
+              "courseCode": "NURS_FPC 315",
+              "courseName": "Nursing Practice: Health and Illness",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M WHITING",
+              "instructors": [
+                "M WHITING"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12548",
+              "sln": 12548,
+              "sectionNumber": 10,
+              "courseCode": "NURS_FPC 315",
+              "courseName": "Nursing Practice: Health and Illness",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E LEWIS",
+              "instructors": [
+                "E LEWIS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -7631,6 +9344,43 @@
                 "total": 10,
                 "available": 2,
                 "label": "8/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12350",
+              "sln": 12350,
+              "sectionNumber": 9,
+              "courseCode": "NURS_FPC 317",
+              "courseName": "Health Assessment",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S CLARK",
+              "instructors": [
+                "S CLARK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 10,
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Aug 24",
@@ -8038,6 +9788,43 @@
                 "total": 10,
                 "available": 2,
                 "label": "8/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "11630",
+              "sln": 11630,
+              "sectionNumber": 9,
+              "courseCode": "NURS_FPC 325",
+              "courseName": "Nursing Practice in Acute and Chronic Illness in Adults",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L WANG",
+              "instructors": [
+                "L WANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
               },
               "dates": {
                 "start": "Aug 24",
@@ -9374,6 +11161,43 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "12241",
+              "sln": 12241,
+              "sectionNumber": 8,
+              "courseCode": "NURS_FPC 425",
+              "courseName": "Nursing Practice: Psychiatric/Mental Health",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J OSWALD",
+              "instructors": [
+                "J OSWALD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 9,
+                "total": 10,
+                "available": 1,
+                "label": "9/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -9655,6 +11479,43 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "12242",
+              "sln": 12242,
+              "sectionNumber": 8,
+              "courseCode": "NURS_FPC 427",
+              "courseName": "Community Health Nursing Practice",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G KLIM",
+              "instructors": [
+                "G KLIM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 9,
+                "total": 10,
+                "available": 1,
+                "label": "9/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -9706,6 +11567,54 @@
               "dates": {
                 "start": "Aug 24",
                 "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Population Health Theory",
+          "subject": "NURS_FPC",
+          "subjectPrefix": "NURFP",
+          "courseNumber": 440,
+          "courseCode": "NURS_FPC 440",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11755",
+              "sln": 11755,
+              "sectionNumber": 1,
+              "courseCode": "NURS_FPC 440",
+              "courseName": "Population Health Theory",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S EDWARDS",
+              "instructors": [
+                "S EDWARDS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 81,
+                "available": 79,
+                "label": "2/81"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Oct 16"
               }
             }
           ]
@@ -9938,6 +11847,54 @@
               }
             }
           ]
+        },
+        {
+          "course": "Special Topics in Nursing",
+          "subject": "NURS_FPC",
+          "subjectPrefix": "NURFP",
+          "courseNumber": 498,
+          "courseCode": "NURS_FPC 498",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11414",
+              "sln": 11414,
+              "sectionNumber": 1,
+              "courseCode": "NURS_FPC 498",
+              "courseName": "Special Topics in Nursing",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "SNRS 203",
+              "instructor": "B MAYFIELD",
+              "instructors": [
+                "B MAYFIELD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 7,
+                "total": 20,
+                "available": 13,
+                "label": "7/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
         }
       ]
     },
@@ -10135,6 +12092,154 @@
               "sectionId": "6979",
               "sln": 6979,
               "sectionNumber": 3,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12686",
+              "sln": 12686,
+              "sectionNumber": 4,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12687",
+              "sln": 12687,
+              "sectionNumber": 5,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12688",
+              "sln": 12688,
+              "sectionNumber": 6,
+              "courseCode": "NURS_SCI 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L JAMES",
+              "instructors": [
+                "L JAMES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12766",
+              "sln": 12766,
+              "sectionNumber": 7,
               "courseCode": "NURS_SCI 800",
               "courseName": "Doctoral Research, Dissertation, and/or Examination",
               "credits": "3",
@@ -10416,6 +12521,54 @@
           ]
         },
         {
+          "course": "Drug Development",
+          "subject": "PHARDSCI",
+          "subjectPrefix": "PHRSC",
+          "courseNumber": 547,
+          "courseCode": "PHARDSCI 547",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11923",
+              "sln": 11923,
+              "sectionNumber": 1,
+              "courseCode": "PHARDSCI 547",
+              "courseName": "Drug Development",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "10:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "10:10 - 12:00"
+                }
+              ],
+              "location": "SNRS 5",
+              "instructor": "T DENTON",
+              "instructors": [
+                "T DENTON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 63,
+                "total": 70,
+                "available": 7,
+                "label": "63/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Honors Research",
           "subject": "PHARDSCI",
           "subjectPrefix": "PHRSC",
@@ -10516,6 +12669,54 @@
     {
       "subject": "PHARMACY",
       "courses": [
+        {
+          "course": "Pharmacy Practice and Professional Development I",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 506,
+          "courseCode": "PHARMACY 506",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6741",
+              "sln": 6741,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 506",
+              "courseName": "Pharmacy Practice and Professional Development I",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "SNRS 5",
+              "instructor": "J MILLER",
+              "instructors": [
+                "J MILLER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 96,
+                "total": 100,
+                "available": 4,
+                "label": "96/100"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
         {
           "course": "Introduction to Therapeutic Agents: Top 200 Drugs",
           "subject": "PHARMACY",
@@ -10695,6 +12896,47 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "12298",
+              "sln": 12298,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 509",
+              "courseName": "Professional Communications Lab",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "11:10 - 12:00;08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "11:10 - 12:00"
+                },
+                {
+                  "days": "W",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "SNRS 5",
+              "instructor": "M WILLSON",
+              "instructors": [
+                "M WILLSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 25,
+                "available": 0,
+                "label": "25/25"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -10738,6 +12980,58 @@
                 "total": 100,
                 "available": 4,
                 "label": "96/100"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Point of Care and Clinical Services",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 530,
+          "courseCode": "PHARMACY 530",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6721",
+              "sln": 6721,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 530",
+              "courseName": "Point of Care and Clinical Services",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU",
+              "time": "09:00 - 17:00;09:00 - 17:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "09:00 - 17:00"
+                },
+                {
+                  "days": "TU",
+                  "time": "09:00 - 17:00"
+                }
+              ],
+              "location": "SHSB 110Z",
+              "instructor": "J ROBINSON",
+              "instructors": [
+                "J ROBINSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 79,
+                "total": 85,
+                "available": 6,
+                "label": "79/85"
               },
               "dates": {
                 "start": "Aug 24",
@@ -10828,6 +13122,43 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "11889",
+              "sln": 11889,
+              "sectionNumber": 3,
+              "courseCode": "PHARMACY 531",
+              "courseName": "Applied Patient Care II: Clinical Assessment and Documentation",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "SPBS 304",
+              "instructor": "K MCKEIRNAN",
+              "instructors": [
+                "K MCKEIRNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 28,
+                "available": 6,
+                "label": "22/28"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -10862,6 +13193,54 @@
               "instructor": "C FRAZIER",
               "instructors": [
                 "C FRAZIER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 79,
+                "total": 85,
+                "available": 6,
+                "label": "79/85"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pharmacy Practice and Professional Development III",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 536,
+          "courseCode": "PHARMACY 536",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6762",
+              "sln": 6762,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 536",
+              "courseName": "Pharmacy Practice and Professional Development III",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "SNRS 5",
+              "instructor": "J MILLER",
+              "instructors": [
+                "J MILLER"
               ],
               "ucore": "",
               "coop": false,
@@ -11183,6 +13562,283 @@
           ]
         },
         {
+          "course": "Pharmacy Practice and Professional Development V",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 556,
+          "courseCode": "PHARMACY 556",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6764",
+              "sln": 6764,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 556",
+              "courseName": "Pharmacy Practice and Professional Development V",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "SNRS 5",
+              "instructor": "J MILLER",
+              "instructors": [
+                "J MILLER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 64,
+                "total": 70,
+                "available": 6,
+                "label": "64/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Quality Assurance and Patient Safety",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 559,
+          "courseCode": "PHARMACY 559",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11922",
+              "sln": 11922,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 559",
+              "courseName": "Quality Assurance and Patient Safety",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "08:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "08:10 - 10:00"
+                }
+              ],
+              "location": "SAC  241",
+              "instructor": "J ROBINSON",
+              "instructors": [
+                "J ROBINSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 63,
+                "total": 70,
+                "available": 7,
+                "label": "63/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Applied Patient Care V: Integrated Patient Care",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 561,
+          "courseCode": "PHARMACY 561",
+          "credits": "2",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "12713",
+              "sln": 12713,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 561",
+              "courseName": "Applied Patient Care V: Integrated Patient Care",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L POWELL",
+              "instructors": [
+                "L POWELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12715",
+              "sln": 12715,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 561",
+              "courseName": "Applied Patient Care V: Integrated Patient Care",
+              "credits": "2",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L POWELL",
+              "instructors": [
+                "L POWELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Pain: Processes and Treatment",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 570,
+          "courseCode": "PHARMACY 570",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6740",
+              "sln": 6740,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 570",
+              "courseName": "Pain: Processes and Treatment",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "SPBS 114",
+              "instructor": "J CLARK",
+              "instructors": [
+                "J CLARK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 17,
+                "total": 60,
+                "available": 43,
+                "label": "17/60"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Physical Activity Prescription in the Pharmacy",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 572,
+          "courseCode": "PHARMACY 572",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6889",
+              "sln": 6889,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 572",
+              "courseName": "Physical Activity Prescription in the Pharmacy",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S MARSH",
+              "instructors": [
+                "S MARSH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 45,
+                "total": 45,
+                "available": 0,
+                "label": "45/45"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Acute Care Advanced Practice Experience",
           "subject": "PHARMACY",
           "subjectPrefix": "PharD",
@@ -11264,6 +13920,43 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "12314",
+              "sln": 12314,
+              "sectionNumber": 5,
+              "courseCode": "PHARMACY 581",
+              "courseName": "Acute Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 7,
+                "total": 70,
+                "available": 63,
+                "label": "7/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -11307,6 +14000,860 @@
                 "total": 70,
                 "available": 60,
                 "label": "10/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6734",
+              "sln": 6734,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 582",
+              "courseName": "Ambulatory Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 12,
+                "total": 70,
+                "available": 58,
+                "label": "12/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12315",
+              "sln": 12315,
+              "sectionNumber": 5,
+              "courseCode": "PHARMACY 582",
+              "courseName": "Ambulatory Care Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 70,
+                "available": 67,
+                "label": "3/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Community Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 583,
+          "courseCode": "PHARMACY 583",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6714",
+              "sln": 6714,
+              "sectionNumber": 3,
+              "courseCode": "PHARMACY 583",
+              "courseName": "Community Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 70,
+                "available": 61,
+                "label": "9/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6735",
+              "sln": 6735,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 583",
+              "courseName": "Community Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 70,
+                "available": 61,
+                "label": "9/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12316",
+              "sln": 12316,
+              "sectionNumber": 5,
+              "courseCode": "PHARMACY 583",
+              "courseName": "Community Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 70,
+                "available": 62,
+                "label": "8/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Institutional Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 584,
+          "courseCode": "PHARMACY 584",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6715",
+              "sln": 6715,
+              "sectionNumber": 3,
+              "courseCode": "PHARMACY 584",
+              "courseName": "Institutional Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 70,
+                "available": 59,
+                "label": "11/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6736",
+              "sln": 6736,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 584",
+              "courseName": "Institutional Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 70,
+                "available": 62,
+                "label": "8/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12319",
+              "sln": 12319,
+              "sectionNumber": 5,
+              "courseCode": "PHARMACY 584",
+              "courseName": "Institutional Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 70,
+                "available": 59,
+                "label": "11/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elective I Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 585,
+          "courseCode": "PHARMACY 585",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6716",
+              "sln": 6716,
+              "sectionNumber": 3,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 70,
+                "available": 59,
+                "label": "11/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6981",
+              "sln": 6981,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 70,
+                "available": 62,
+                "label": "8/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12321",
+              "sln": 12321,
+              "sectionNumber": 5,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 12,
+                "total": 70,
+                "available": 58,
+                "label": "12/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6927",
+              "sln": 6927,
+              "sectionNumber": 55,
+              "courseCode": "PHARMACY 585",
+              "courseName": "Elective I Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elective II Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 586,
+          "courseCode": "PHARMACY 586",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6717",
+              "sln": 6717,
+              "sectionNumber": 3,
+              "courseCode": "PHARMACY 586",
+              "courseName": "Elective II Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 70,
+                "available": 67,
+                "label": "3/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6737",
+              "sln": 6737,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 586",
+              "courseName": "Elective II Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 6,
+                "total": 70,
+                "available": 64,
+                "label": "6/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12320",
+              "sln": 12320,
+              "sectionNumber": 5,
+              "courseCode": "PHARMACY 586",
+              "courseName": "Elective II Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 70,
+                "available": 59,
+                "label": "11/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Elective III Advanced Practice Experience",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 587,
+          "courseCode": "PHARMACY 587",
+          "credits": "5",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6718",
+              "sln": 6718,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 587",
+              "courseName": "Elective III Advanced Practice Experience",
+              "credits": "5",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BERTSCH",
+              "instructors": [
+                "T BERTSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 70,
+                "available": 70,
+                "label": "0/70"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 589,
+          "courseCode": "PHARMACY 589",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6903",
+              "sln": 6903,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 589",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "15:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "15:10 - 17:00"
+                }
+              ],
+              "location": "SPBS 116",
+              "instructor": "M UNDEBERG",
+              "instructors": [
+                "M UNDEBERG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 24,
+                "total": 25,
+                "available": 1,
+                "label": "24/25"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "6917",
+              "sln": 6917,
+              "sectionNumber": 3,
+              "courseCode": "PHARMACY 589",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "SPBS 116",
+              "instructor": "M UNDEBERG",
+              "instructors": [
+                "M UNDEBERG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 5,
+                "total": 10,
+                "available": 5,
+                "label": "5/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12631",
+              "sln": 12631,
+              "sectionNumber": 4,
+              "courseCode": "PHARMACY 589",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 17:00"
+                }
+              ],
+              "location": "SPBS 112",
+              "instructor": "K KELLEY",
+              "instructors": [
+                "K KELLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 22,
+                "total": 30,
+                "available": 8,
+                "label": "22/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects",
+          "subject": "PHARMACY",
+          "subjectPrefix": "PharD",
+          "courseNumber": 599,
+          "courseCode": "PHARMACY 599",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6719",
+              "sln": 6719,
+              "sectionNumber": 1,
+              "courseCode": "PHARMACY 599",
+              "courseName": "Special Projects",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D JACKSON",
+              "instructors": [
+                "D JACKSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 5,
+                "total": 7,
+                "available": 2,
+                "label": "5/7"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12750",
+              "sln": 12750,
+              "sectionNumber": 2,
+              "courseCode": "PHARMACY 599",
+              "courseName": "Special Projects",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B GATES",
+              "instructors": [
+                "B GATES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
               },
               "dates": {
                 "start": "Aug 24",
@@ -11854,6 +15401,52 @@
           ]
         },
         {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "PHARMSCI",
+          "subjectPrefix": "PHRDS",
+          "courseNumber": 700,
+          "courseCode": "PHARMSCI 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12188",
+              "sln": 12188,
+              "sectionNumber": 1,
+              "courseCode": "PHARMSCI 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Doctoral Research, Dissertation, and/or Examination",
           "subject": "PHARMSCI",
           "subjectPrefix": "PHRDS",
@@ -11937,6 +15530,54 @@
               "instructor": "M CLEVELAND",
               "instructors": [
                 "M CLEVELAND"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Program Development in Prevention Science",
+          "subject": "PREV_SCI",
+          "subjectPrefix": "PrvSc",
+          "courseNumber": 535,
+          "courseCode": "PREV_SCI 535",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12244",
+              "sln": 12244,
+              "sectionNumber": 1,
+              "courseCode": "PREV_SCI 535",
+              "courseName": "Program Development in Prevention Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "E WEYBRIGHT",
+              "instructors": [
+                "E WEYBRIGHT"
               ],
               "ucore": "",
               "coop": false,
@@ -12053,6 +15694,107 @@
       ]
     },
     {
+      "subject": "PSYCH",
+      "courses": [
+        {
+          "course": "Current Research in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 506,
+          "courseCode": "PSYCH 506",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2048",
+              "sln": 2048,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 506",
+              "courseName": "Current Research in Psychology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "C CUTTLER",
+              "instructors": [
+                "C CUTTLER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 2,
+                "available": 1,
+                "label": "1/2"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 800,
+          "courseCode": "PSYCH 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6870",
+              "sln": 6870,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B SATTERFIELD",
+              "instructors": [
+                "B SATTERFIELD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "PUBHLTH",
       "courses": [
         {
@@ -12090,6 +15832,244 @@
               "ucore": "",
               "coop": false,
               "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Principles of Epidemiology",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 230,
+          "courseCode": "PUBHLTH 230",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12150",
+              "sln": 12150,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 230",
+              "courseName": "Principles of Epidemiology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "SAC  249",
+              "instructor": "K WASHBURN",
+              "instructors": [
+                "K WASHBURN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Environmental Health",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 240,
+          "courseCode": "PUBHLTH 240",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12151",
+              "sln": 12151,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 240",
+              "courseName": "Introduction to Environmental Health",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "SAC  347",
+              "instructor": "K WASHBURN",
+              "instructors": [
+                "K WASHBURN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Community Health",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 301,
+          "courseCode": "PUBHLTH 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12152",
+              "sln": 12152,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 301",
+              "courseName": "Community Health",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "SAC  347",
+              "instructor": "T SABATO",
+              "instructors": [
+                "T SABATO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Foundations of Maternal and Infant Health in The Context of Substance Use",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 472,
+          "courseCode": "PUBHLTH 472",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12156",
+              "sln": 12156,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 472",
+              "courseName": "Foundations of Maternal and Infant Health in The Context of Substance Use",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "SPBS 118",
+              "instructor": "E BURDULI",
+              "instructors": [
+                "E BURDULI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 1,
+                "total": 10,
+                "available": 9,
+                "label": "1/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Public Health Internship",
+          "subject": "PUBHLTH",
+          "subjectPrefix": "PUBHL",
+          "courseNumber": 495,
+          "courseCode": "PUBHLTH 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12621",
+              "sln": 12621,
+              "sectionNumber": 1,
+              "courseCode": "PUBHLTH 495",
+              "courseName": "Public Health Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
               "seats": {
                 "taken": 0,
                 "total": 5,
@@ -12188,6 +16168,91 @@
                 "start": "Aug 24",
                 "end": "Dec 11"
               }
+            },
+            {
+              "sectionId": "10650",
+              "sln": 10650,
+              "sectionNumber": 3,
+              "courseCode": "SHS 201",
+              "courseName": "American Sign Language I",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M RATSCH",
+              "instructors": [
+                "M RATSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 4,
+                "total": 5,
+                "available": 1,
+                "label": "4/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Speech-Language Pathology and Audiology",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 205,
+          "courseCode": "SHS 205",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10654",
+              "sln": 10654,
+              "sectionNumber": 2,
+              "courseCode": "SHS 205",
+              "courseName": "Introduction to Speech-Language Pathology and Audiology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E SCHREINER",
+              "instructors": [
+                "E SCHREINER"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
             }
           ]
         },
@@ -12231,6 +16296,54 @@
                 "total": 25,
                 "available": 12,
                 "label": "13/25"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hearing, Hearing Disorders, and Audiometry",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 372,
+          "courseCode": "SHS 372",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10644",
+              "sln": 10644,
+              "sectionNumber": 1,
+              "courseCode": "SHS 372",
+              "courseName": "Hearing, Hearing Disorders, and Audiometry",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C COPUS",
+              "instructors": [
+                "C COPUS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 13,
+                "total": 29,
+                "available": 16,
+                "label": "13/29"
               },
               "dates": {
                 "start": "Aug 24",
@@ -12379,6 +16492,43 @@
               "dates": {
                 "start": "Aug 24",
                 "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "10673",
+              "sln": 10673,
+              "sectionNumber": 2,
+              "courseCode": "SHS 450",
+              "courseName": "Special Topics in Speech and Hearing Sciences",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M RATSCH",
+              "instructors": [
+                "M RATSCH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Oct 11"
               }
             }
           ]
@@ -12604,6 +16754,54 @@
                 "total": 28,
                 "available": 8,
                 "label": "20/28"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics in Speech and Hearing Sciences",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 540,
+          "courseCode": "SHS 540",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11626",
+              "sln": 11626,
+              "sectionNumber": 1,
+              "courseCode": "SHS 540",
+              "courseName": "Special Topics in Speech and Hearing Sciences",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "SAC  249",
+              "instructor": "A MEREDITH",
+              "instructors": [
+                "A MEREDITH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 30,
+                "available": 8,
+                "label": "22/30"
               },
               "dates": {
                 "start": "Aug 24",
@@ -12997,6 +17195,54 @@
           ]
         },
         {
+          "course": "Advanced Internship in Speech-Language Pathology",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 570,
+          "courseCode": "SHS 570",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11627",
+              "sln": 11627,
+              "sectionNumber": 1,
+              "courseCode": "SHS 570",
+              "courseName": "Advanced Internship in Speech-Language Pathology",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D ALGEO",
+              "instructors": [
+                "D ALGEO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 30,
+                "available": 29,
+                "label": "1/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Neuropathologies of Language and Cognition I",
           "subject": "SHS",
           "subjectPrefix": "SHS",
@@ -13040,6 +17286,54 @@
                 "total": 28,
                 "available": 8,
                 "label": "20/28"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Speech-Language Pathology in the Medical Setting",
+          "subject": "SHS",
+          "subjectPrefix": "SHS",
+          "courseNumber": 587,
+          "courseCode": "SHS 587",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11628",
+              "sln": 11628,
+              "sectionNumber": 1,
+              "courseCode": "SHS 587",
+              "courseName": "Speech-Language Pathology in the Medical Setting",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "10:10 - 11:50",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "10:10 - 11:50"
+                }
+              ],
+              "location": "SAC  249",
+              "instructor": "J KURTULUS",
+              "instructors": [
+                "J KURTULUS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 30,
+                "available": 17,
+                "label": "13/30"
               },
               "dates": {
                 "start": "Aug 24",
@@ -13235,6 +17529,390 @@
       "subject": "SPEC_ED",
       "courses": [
         {
+          "course": "Education of Exceptional Children",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 301,
+          "courseCode": "SPEC_ED 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10410",
+              "sln": 10410,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 301",
+              "courseName": "Education of Exceptional Children",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A RUIZ",
+              "instructors": [
+                "A RUIZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Teaching Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 401,
+          "courseCode": "SPEC_ED 401",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10406",
+              "sln": 10406,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 401",
+              "courseName": "Teaching Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S VAN HORN",
+              "instructors": [
+                "S VAN HORN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Skills in Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 404,
+          "courseCode": "SPEC_ED 404",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10407",
+              "sln": 10407,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 404",
+              "courseName": "Professional Skills in Special Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A SHEFTEL",
+              "instructors": [
+                "A SHEFTEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Early Childhood Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 409,
+          "courseCode": "SPEC_ED 409",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10408",
+              "sln": 10408,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 409",
+              "courseName": "Early Childhood Special Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M O'NEILL",
+              "instructors": [
+                "M O'NEILL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Inclusion Strategies for Special Education Teachers",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 421,
+          "courseCode": "SPEC_ED 421",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10409",
+              "sln": 10409,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 421",
+              "courseName": "Inclusion Strategies for Special Education Teachers",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Teaching Students with Disabilities",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 501,
+          "courseCode": "SPEC_ED 501",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10411",
+              "sln": 10411,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 501",
+              "courseName": "Teaching Students with Disabilities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S VAN HORN",
+              "instructors": [
+                "S VAN HORN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Skills in Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 504,
+          "courseCode": "SPEC_ED 504",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10414",
+              "sln": 10414,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 504",
+              "courseName": "Professional Skills in Special Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A SHEFTEL",
+              "instructors": [
+                "A SHEFTEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Early Childhood Special Education",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 509,
+          "courseCode": "SPEC_ED 509",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10412",
+              "sln": 10412,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 509",
+              "courseName": "Early Childhood Special Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M O'NEILL",
+              "instructors": [
+                "M O'NEILL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Teaching in Inclusive Classrooms",
           "subject": "SPEC_ED",
           "subjectPrefix": "Sp Ed",
@@ -13274,6 +17952,54 @@
                 "total": 20,
                 "available": 6,
                 "label": "14/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Inclusion Strategies for Special Education Teachers",
+          "subject": "SPEC_ED",
+          "subjectPrefix": "Sp Ed",
+          "courseNumber": 521,
+          "courseCode": "SPEC_ED 521",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10413",
+              "sln": 10413,
+              "sectionNumber": 1,
+              "courseCode": "SPEC_ED 521",
+              "courseName": "Inclusion Strategies for Special Education Teachers",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M DUNN",
+              "instructors": [
+                "M DUNN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Aug 24",
@@ -13364,6 +18090,102 @@
                 "total": 15,
                 "available": 13,
                 "label": "2/15"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research in Curriculum and Assessment for Multilingual Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 509,
+          "courseCode": "TCH_LRN 509",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12531",
+              "sln": 12531,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 509",
+              "courseName": "Research in Curriculum and Assessment for Multilingual Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "16:10 - 19:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "16:10 - 19:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "O AKASHA",
+              "instructors": [
+                "O AKASHA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Foundations of Multilingual Education",
+          "subject": "TCH_LRN",
+          "subjectPrefix": "T & L",
+          "courseNumber": 510,
+          "courseCode": "TCH_LRN 510",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12532",
+              "sln": 12532,
+              "sectionNumber": 1,
+              "courseCode": "TCH_LRN 510",
+              "courseName": "Foundations of Multilingual Education",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:35",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:35"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
               },
               "dates": {
                 "start": "Aug 24",
@@ -13561,6 +18383,59 @@
                 "total": 30,
                 "available": 12,
                 "label": "18/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "UNIV",
+      "courses": [
+        {
+          "course": "Global Leadership Experience",
+          "subject": "UNIV",
+          "subjectPrefix": "Univs",
+          "courseNumber": 490,
+          "courseCode": "UNIV 490",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10730",
+              "sln": 10730,
+              "sectionNumber": 1,
+              "courseCode": "UNIV 490",
+              "courseName": "Global Leadership Experience",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K HELLMANN",
+              "instructors": [
+                "K HELLMANN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Aug 24",
