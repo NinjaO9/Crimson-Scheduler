@@ -122,13 +122,14 @@ export function syncMobileMiscPanel(): void {
 export function syncMobileGeneratorSelection(): void {
   const selection = document.querySelector(".generator-selection");
   const generatorPanel = document.getElementById("scheduleGeneratorPanel");
+  const workarea = generatorPanel?.querySelector(".generator-workarea");
   const host = document.getElementById("mobileGeneratorPanelHost");
   if (!selection || !generatorPanel || !host) return;
 
   if (isMobileViewport()) {
     if (!host.contains(selection)) host.appendChild(selection);
-  } else if (!generatorPanel.contains(selection)) {
-    generatorPanel.appendChild(selection);
+  } else if (!(workarea || generatorPanel).contains(selection)) {
+    (workarea || generatorPanel).appendChild(selection);
   }
 }
 

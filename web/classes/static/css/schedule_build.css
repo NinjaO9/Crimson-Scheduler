@@ -121,14 +121,148 @@
 .schedule-generator-panel {
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.generator-workarea {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 0;
+    padding: 2px 2px 8px 0;
+}
+
+.generator-actions {
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.generator-action-btn,
+.generator-options-btn {
+    min-height: 44px;
+    padding: 0 16px;
+}
+
+.generator-action-btn:disabled,
+.generator-options-btn:disabled {
+    background: var(--color-surface-raised);
+    border: 1px solid var(--line-strong);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.generator-schedule-section,
+.generator-possibilities {
+    flex: 0 0 auto;
+}
+
+.generator-section-title {
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0 0 8px;
+}
+
+.generator-calendar-wrap {
+    height: 380px;
+    flex: 0 0 auto;
+}
+
+.generator-result-block {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    min-height: 24px;
+}
+
+.generator-result-time {
+    display: block;
+}
+
+.generator-preview-list {
+    display: grid;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.generator-preview {
+    align-items: stretch;
+    background: var(--color-surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    color: var(--color-text);
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    min-height: 88px;
     overflow: hidden;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.generator-preview:hover,
+.generator-preview:focus-visible {
+    border-color: var(--crimson);
+    outline: 2px solid var(--crimson);
+    outline-offset: 1px;
+}
+
+.generator-preview-number {
+    align-items: center;
+    background: var(--color-surface-raised);
+    display: flex;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.generator-preview-days {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-height: 88px;
+    position: relative;
+}
+
+.generator-preview-day {
+    border-right: 1px solid var(--line);
+    position: relative;
+}
+
+.generator-preview-block {
+    background: var(--color-success-surface);
+    border: 1px solid var(--color-success-border);
+    border-radius: 2px;
+    left: 2px;
+    min-height: 3px;
+    position: absolute;
+    right: 2px;
+}
+
+.generator-possibilities {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    padding: 10px 14px;
+}
+
+.generator-possibilities .generator-section-title {
+    margin-bottom: 4px;
+}
+
+.generator-empty-state {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0;
 }
 
 .generator-selection {
     flex: 0 0 auto;
     border: 1px solid var(--line-strong);
     border-radius: 6px;
-    margin-top: auto;
+    margin-top: 0;
     padding: 10px 14px 8px;
 }
 
@@ -1318,6 +1452,25 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .schedule-generator-panel {
         padding-top: 2px;
+    }
+
+    .generator-workarea {
+        gap: 14px;
+        padding-bottom: 12px;
+    }
+
+    .generator-actions {
+        flex-direction: column;
+    }
+
+    .generator-action-btn,
+    .generator-options-btn {
+        min-height: 44px;
+        width: 100%;
+    }
+
+    .generator-calendar-wrap {
+        height: 320px;
     }
 
     .field-grid {

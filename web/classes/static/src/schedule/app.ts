@@ -63,6 +63,7 @@ import { initializeCalendarExport } from "./export-schedule.js";
 import { initializeCatalogFreshness } from "./catalog-freshness.js";
 import { initializeScheduleViewTabs } from "./schedule-views.js";
 import { initializeGeneratorSelection } from "./generator-selection.js";
+import { initializeScheduleGeneratorController } from "./generator-results.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
@@ -82,6 +83,7 @@ export function initializeScheduleApp(): void {
   initializeScheduleOptions();
   initializeMobileLayout();
   initializeScheduleViewTabs();
+  const generatorResults = initializeScheduleGeneratorController();
   const generatorSelection = initializeGeneratorSelection({
     getActiveSchedule,
     resolveCourse: (termSlug, sectionId) =>
@@ -95,6 +97,7 @@ export function initializeScheduleApp(): void {
       },
     });
     updateSearchResultTimeDisplays();
+    generatorResults.refresh();
   };
 
   const hydrateActiveSchedule = async () => {

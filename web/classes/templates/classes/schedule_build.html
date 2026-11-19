@@ -224,16 +224,45 @@
             </div>
             <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel"
                  role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden>
+                <div class="generator-workarea">
+                    <div class="generator-actions" aria-label="Schedule generation tools">
+                        <button type="button" class="primary-btn generator-action-btn" disabled>
+                            Generate Schedules
+                        </button>
+                        <button type="button" class="manage-btn generator-options-btn" disabled>
+                            Schedule Options
+                        </button>
+                    </div>
+
+                    <section class="generator-schedule-section" aria-labelledby="generatorScheduleTitle">
+                        <h2 class="generator-section-title" id="generatorScheduleTitle">Schedule</h2>
+                        <div class="calendar-wrap generator-calendar-wrap" role="group" tabindex="-1"
+                             aria-label="Generated schedule calendar">
+                            <div class="calendar-header" id="generatorCalendarHeader"></div>
+                            <div class="calendar-grid" id="generatorCalendarGrid"></div>
+                        </div>
+                    </section>
+
+                    <section class="generator-possibilities" aria-labelledby="generatorPossibilitiesTitle">
+                        <h2 class="generator-section-title" id="generatorPossibilitiesTitle">
+                            Other Schedule Possibilities
+                        </h2>
+                        <p class="generator-empty-state" id="generatorResultsEmpty">
+                            Generated schedule alternatives will appear here.
+                        </p>
+                        <div class="generator-preview-list" id="generatorPreviewList"></div>
+                    </section>
+
                 <button type="button" class="mobile-generator-trigger" id="mobileGeneratorToggle"
                         aria-expanded="false" aria-controls="mobileGeneratorSheet">
-                    <span>Current selected courses</span>
+                    <span>Selected courses</span>
                     <span id="mobileGeneratorCourseCount">(0)</span>
                 </button>
                 <section class="generator-selection" aria-labelledby="generatorSelectionTitle">
                     <div class="misc-header">
                         <div>
                             <div class="misc-title" id="generatorSelectionTitle">
-                                Current Selected Courses <span id="generatorCourseCount">(0)</span>
+                                Selected Courses <span id="generatorCourseCount">(0)</span>
                             </div>
                             <div class="misc-subtitle">Courses that will be used to generate schedule options.</div>
                         </div>
@@ -241,6 +270,7 @@
                     <div class="misc-list generator-course-list" id="generatorCourseList"></div>
                     <p class="visually-hidden" id="generatorSelectionStatus" aria-live="polite"></p>
                 </section>
+                </div>
             </div>
         </section>
     </div>
@@ -280,9 +310,9 @@
 
     <div class="mobile-generator-sheet" id="mobileGeneratorSheet" aria-hidden="true" hidden inert>
         <button type="button" class="mobile-generator-backdrop" data-close-generator-selection
-                aria-label="Close current selected courses"></button>
+                aria-label="Close selected courses"></button>
         <section class="mobile-generator-panel" role="dialog" aria-modal="true"
-                 aria-label="Current selected courses" tabindex="-1">
+                 aria-label="Selected courses" tabindex="-1">
             <div class="mobile-generator-grabber" aria-hidden="true"></div>
             <div id="mobileGeneratorPanelHost"></div>
         </section>

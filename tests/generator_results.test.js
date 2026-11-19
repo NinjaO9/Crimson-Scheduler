@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { renderCalendarScaffold } from "../web/classes/static/src/schedule/calendar-scaffold.js";
-import { initializeGeneratorResults } from "../web/classes/static/src/schedule/generator-results.js";
+import { initializeScheduleGeneratorController } from "../web/classes/static/src/schedule/generator-results.js";
 
 const section = (code, days, time) => ({
   course_code: code,
@@ -42,7 +42,7 @@ describe("generator results", () => {
   });
 
   it("renders supplied candidates, selects a preview, and clears results", () => {
-    const controller = initializeGeneratorResults();
+    const controller = initializeScheduleGeneratorController();
     const grid = document.getElementById("generatorCalendarGrid");
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(0);
     controller.setResults([

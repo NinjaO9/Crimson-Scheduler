@@ -7,9 +7,6 @@
 
 import {
   DAYS_OF_WEEK,
-  END_HOUR,
-  HOUR_ROW_HEIGHT,
-  START_HOUR,
 } from "./constants.js";
 import {
   appendTextElement,
@@ -20,15 +17,14 @@ import {
   hidesWeekends,
   showInstructors,
   showSections,
-  uses24HourTime,
 } from "./preferences.js";
 import { isMobileViewport } from "./responsive.js";
 import {
-  formatHourLabel,
   formatTimeRangeForDisplay,
   resolveScheduleGroups,
 } from "./time-and-meetings.js";
 import { rmpSearchUrl } from "./course-information.js";
+import { renderCalendarScaffold } from "./calendar-scaffold.js";
 import type { HydratedSection, Meeting } from "../types.js";
 
 type TimeRange = { start: number; end: number };
@@ -70,55 +66,10 @@ export function getCalendarColumnTemplate(): string {
 }
 
 /**
- * Builds the calendar header by adding the time label and visible day labels
- * to the header element, adjusting day labels for mobile viewports.
- *
- */
-export function buildCalendarHeader(): void {
-  const header = document.getElementById("calendarHeader")!;
-  header.style.gridTemplateColumns = getCalendarColumnTemplate();
-  header.replaceChildren(
-    createElementWithText("div", "calendar-header-time", "Time"),
-  );
-  getVisibleDays().forEach((day) => {
-    const dayEl = createElementWithText(
-      "div",
-      "calendar-header-day",
-      isMobileViewport() ? day.label.slice(0, 3) : day.label,
-    );
-    header.appendChild(dayEl);
-  });
-}
-
-/**
- * Initializes the calendar grid by creating hourly 
- * time slots and day cells for each visible day.
- *
+ * Initializes the calendar header and hourly grid for the current display settings.
  */
 export function initializeCalendar(): void {
-  const calendarGrid = document.getElementById("calendarGrid")!;
-  calendarGrid.replaceChildren();
-  calendarGrid.style.gridTemplateColumns = getCalendarColumnTemplate();
-  calendarGrid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, ${HOUR_ROW_HEIGHT}px)`;
-  for (let hour = START_HOUR; hour < END_HOUR; hour++) {
-    const timeSlot = createElementWithText(
-      "div",
-      "calendar-time-slot",
-      uses24HourTime()
-        ? `${String(hour).padStart(2, "0")}:00`
-        : formatHourLabel(hour),
-    );
-    calendarGrid.appendChild(timeSlot);
-    getVisibleDays().forEach((day) => {
-      const dayIndex = DAYS_OF_WEEK.findIndex(
-        (dayOfWeek) => dayOfWeek.key === day.key,
-      );
-      const cell = document.createElement("div");
-      cell.className = "calendar-cell";
-      cell.id = `cell-${dayIndex}-${hour}`;
-      calendarGrid.appendChild(cell);
-    });
-  }
+  renderCalendarScaffold(document.getElementById("calendarHeader")!, document.getElementById("calendarGrid")!, (dayIndex, hour) => `cell-${dayIndex}-${hour}`);
 }
 
 /**
@@ -877,7 +828,6 @@ export function renderSchedule(scheduleData: HydratedSection[], { onRemove }: { 
   removeCourse = onRemove;
   clearSectionGhosts();
   renderedBlocksByDay = {};
-  buildCalendarHeader();
   initializeCalendar();
   const miscItems: HydratedSection[] = [];
   scheduleData.forEach((course) => {
