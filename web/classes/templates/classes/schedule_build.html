@@ -225,17 +225,18 @@
             <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel"
                  role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden>
                 <div class="generator-workarea">
-                    <div class="generator-actions" aria-label="Schedule generation tools">
-                        <button type="button" class="primary-btn generator-action-btn" disabled>
-                            Generate Schedules
-                        </button>
-                        <button type="button" class="manage-btn generator-options-btn" disabled>
-                            Schedule Options
-                        </button>
-                    </div>
-
                     <section class="generator-schedule-section" aria-labelledby="generatorScheduleTitle">
-                        <h2 class="generator-section-title" id="generatorScheduleTitle">Schedule</h2>
+                        <div class="generator-actions">
+                            <h2 class="generator-section-title" id="generatorScheduleTitle">Schedule</h2>
+                            <div class="generator-action-buttons" aria-label="Schedule generation tools">
+                                <button type="button" class="primary-btn generator-action-btn" disabled>
+                                    Generate Schedules
+                                </button>
+                                <button type="button" class="manage-btn generator-options-btn" disabled>
+                                    Schedule Options
+                                </button>
+                            </div>
+                        </div>
                         <div class="calendar-wrap generator-calendar-wrap" role="group" tabindex="-1"
                              aria-label="Generated schedule calendar">
                             <div class="calendar-header" id="generatorCalendarHeader"></div>

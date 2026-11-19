@@ -126,16 +126,34 @@
 }
 
 .generator-workarea {
+    box-sizing: border-box;
     display: flex;
+    flex: 1 1 0;
     flex-direction: column;
     gap: 16px;
     min-height: 0;
+    min-width: 0;
     padding: 2px 2px 8px 0;
 }
 
 .generator-actions {
+    align-items: center;
     display: flex;
     flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.generator-actions .generator-section-title {
+    font-size: 1.42rem;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+
+.generator-action-buttons {
+    display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
@@ -155,7 +173,13 @@
     opacity: 0.7;
 }
 
-.generator-schedule-section,
+.generator-schedule-section {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    min-height: 250px;
+}
+
 .generator-possibilities {
     flex: 0 0 auto;
 }
@@ -169,8 +193,8 @@
 }
 
 .generator-calendar-wrap {
-    height: 380px;
-    flex: 0 0 auto;
+    flex: 1 1 auto;
+    min-height: 220px;
 }
 
 .generator-result-block {
@@ -1455,11 +1479,26 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .generator-workarea {
+        flex: 0 0 auto;
         gap: 14px;
         padding-bottom: 12px;
     }
 
+    .generator-schedule-section {
+        flex: 0 0 auto;
+        min-height: 0;
+    }
+
     .generator-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .generator-actions .generator-section-title {
+        font-size: 16px;
+    }
+
+    .generator-action-buttons {
         flex-direction: column;
     }
 
@@ -1470,7 +1509,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .generator-calendar-wrap {
+        flex: 0 0 auto;
         height: 320px;
+        min-height: 0;
     }
 
     .field-grid {
