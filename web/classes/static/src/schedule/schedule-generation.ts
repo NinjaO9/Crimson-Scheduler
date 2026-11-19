@@ -153,16 +153,16 @@ function getSectionBitset(section : SchedulableSection) : Uint32Array[]
  * @param section - Section to test.
  * @returns Max time taken up.
  */
-function findMaxTimeTakenBySection(section : SchedulableSection) : number
+function findTimeTakenBySection(section : SchedulableSection) : number
 {
-    let maxTime = 0;
+    let time = 0;
     section.meetings.forEach(meeting => {
         const times = parseTimeRange(meeting.time);
         const daysCount = parseDaysToIndexes(meeting.days).length;
         if (times === null) return;
-        Math.max(maxTime, (times!.end - times!.start) * daysCount);
+        time += (times!.end - times!.start) * daysCount;
     });
-    return maxTime;
+    return time;
 }
 
 /**
@@ -178,7 +178,7 @@ function findSectionCombinations(course : CatalogCourse) : { combos : SectionCom
     {
         course.lab_sections.forEach((labSection) => {
             const sectionBitset = getSectionBitset(labSection);
-            combinations.push({lab: labSection, occupancy: sectionBitset, timeTaken: findMaxTimeTakenBySection(labSection)} as SectionCombination)
+            combinations.push({lab: labSection, occupancy: sectionBitset, timeTaken: findTimeTakenBySection(labSection)} as SectionCombination)
             maxTime = Math.max(combinations[combinations.length - 1].timeTaken, maxTime);
         })
         return {combos: combinations, maxTime: maxTime};
@@ -188,7 +188,7 @@ function findSectionCombinations(course : CatalogCourse) : { combos : SectionCom
     {
         course.lecture_sections.forEach((lectureSection) => {
             const sectionBitset = getSectionBitset(lectureSection);
-            combinations.push({lecture: lectureSection, occupancy: sectionBitset, timeTaken: findMaxTimeTakenBySection(lectureSection)} as SectionCombination)
+            combinations.push({lecture: lectureSection, occupancy: sectionBitset, timeTaken: findTimeTakenBySection(lectureSection)} as SectionCombination)
             maxTime = Math.max(combinations[combinations.length - 1].timeTaken, maxTime);
         })
         return {combos: combinations, maxTime: maxTime};
@@ -212,7 +212,7 @@ function findSectionCombinations(course : CatalogCourse) : { combos : SectionCom
                     combinationBitset[dayIndex][wordIndex] |= lecBitset[dayIndex][wordIndex] | labBitset[dayIndex][wordIndex];
                 }
             }
-            combinations.push({lecture: lectureSection, lab: labSection, occupancy: combinationBitset, timeTaken: (findMaxTimeTakenBySection(lectureSection) + findMaxTimeTakenBySection(labSection))} as SectionCombination);
+            combinations.push({lecture: lectureSection, lab: labSection, occupancy: combinationBitset, timeTaken: (findTimeTakenBySection(lectureSection) + findTimeTakenBySection(labSection))} as SectionCombination);
             maxTime = Math.max(combinations[combinations.length - 1].timeTaken, maxTime);
         }
         })
@@ -427,10 +427,10 @@ function attemptToAddToHeap(builtSchedule : SectionCombination[])
     }
 }
 
-function pathWorthPursuing(remainingCourses : EnrichedCatalogCourse[], index : number = 0, builtSchedule : SectionCombination[]) : boolean
+function pathWorthPursuing(remainingCourses : EnrichedCatalogCourse[], index : number = 0) : boolean
 {
-    let maxScore = TOP_K_SCHEDULES.peek()!.score; // Safe, we this method shiould only call if TOP_K_SCHED is full.
-    let currentDowntime = getScheduleDowntime().reduce((acc, cur) => acc + cur, 0);
+    const maxScore = TOP_K_SCHEDULES.peek()!.score; // Safe, we this method shiould only call if TOP_K_SCHED is full.
+    const currentDowntime = getScheduleDowntime().reduce((acc, cur) => acc + cur, 0);
     let maxRemainingCourseTime = 0;
     while (index < remainingCourses.length)
     {
@@ -454,7 +454,7 @@ function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 
         attemptToAddToHeap(builtSchedule);
         return true; // Exhausted all courses without a conflict.
     }
-    if (TOP_K_SCHEDULES.isFull() && !pathWorthPursuing(courses, index, builtSchedule)) return false; // Pruning branches for the sake of optimization.   
+    if (TOP_K_SCHEDULES.isFull() && !pathWorthPursuing(courses, index)) return false; // Pruning branches for the sake of optimization.   
     const prevLength = builtSchedule.length;
     for (const combination of courses[index].sectionCombinations)
     {
