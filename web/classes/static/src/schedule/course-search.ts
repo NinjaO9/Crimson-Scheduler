@@ -405,6 +405,7 @@ export function formatInstructorForTable(instructor: string): string {
  */
 export function renderCourseResult(course: CatalogCourse): HTMLElement {
   const hasLab = course.lab_sections.length > 0;
+  const isGeneratorView = document.querySelector<HTMLElement>(".schedule-shell")?.dataset.activeScheduleView === "generator";
   const article = document.createElement("article");
   article.className = "result-card";
   const header = document.createElement("div");
@@ -419,6 +420,7 @@ export function renderCourseResult(course: CatalogCourse): HTMLElement {
   summary.setAttribute("data-bs-target", `#sections${course.id}`);
   summary.setAttribute("data-bs-parent", "#courseResultsAccordion");
   summary.setAttribute("aria-expanded", "false");
+  summary.disabled = isGeneratorView;
   const summaryText = document.createElement("span");
   const title = createElementWithText(
     "span",
@@ -462,7 +464,18 @@ export function renderCourseResult(course: CatalogCourse): HTMLElement {
   tooltip.hidden = true;
   tooltip.appendChild(createElementWithText("p", "course-info-loading", "Loading additional information…"));
   infoControl.append(infoButton, tooltip);
-  header.append(summary, infoControl);
+  const generatorAddButton = createElementWithText(
+    "button",
+    "generator-course-add",
+    "+",
+  );
+  generatorAddButton.type = "button";
+  generatorAddButton.setAttribute(
+    "aria-label",
+    `Add ${course.course_code} to schedule generator`,
+  );
+  generatorAddButton.setAttribute("data-course-id", course.id);
+  header.append(summary, generatorAddButton, infoControl);
   /*
     Lecture/Lab section accordian
   */

@@ -1,4 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
+import { renderCourseResult } from "../web/classes/static/src/schedule/course-search.js";
 import { initializeScheduleViewTabs } from "../web/classes/static/src/schedule/schedule-views.js";
 import { setMobilePane } from "../web/classes/static/src/schedule/responsive.js";
 
@@ -62,5 +63,42 @@ describe("schedule view tabs", () => {
     expect(generatorTab.getAttribute("aria-selected")).toBe("true");
     expect(document.getElementById("scheduleGeneratorPanel").hidden).toBe(false);
     expect(document.querySelector(".schedule-pane").classList.contains("is-active")).toBe(true);
+  });
+
+  it("replaces section disclosure with a placeholder add control in Generator", () => {
+    const result = renderCourseResult({
+      id: "cpt-s-580",
+      subject: "CPT_S",
+      course_number: 580,
+      course_code: "CPT_S 580",
+      course_name: "Advanced Topics in Computer Science",
+      credits: "3",
+      has_required_lab: false,
+      lecture_sections: [],
+      lab_sections: [],
+      ucore: "",
+      term_slug: "fall-2026",
+    });
+    document.querySelector(".search-pane").appendChild(result);
+    initializeScheduleViewTabs();
+
+    const summary = result.querySelector(".result-summary-toggle");
+    const addButton = result.querySelector(".generator-course-add");
+    const sections = result.querySelector(".collapse");
+    sections.classList.add("show");
+
+    document.getElementById("scheduleGeneratorTab").click();
+    expect(document.querySelector(".schedule-shell").dataset.activeScheduleView).toBe("generator");
+    expect(summary.disabled).toBe(true);
+    expect(summary.getAttribute("aria-expanded")).toBe("false");
+    expect(sections.classList.contains("show")).toBe(false);
+    expect(addButton.textContent).toBe("+");
+    expect(addButton.getAttribute("aria-label")).toContain("CPT_S 580");
+
+    addButton.click();
+    expect(sections.classList.contains("show")).toBe(false);
+
+    document.getElementById("scheduleCreatorTab").click();
+    expect(summary.disabled).toBe(false);
   });
 });

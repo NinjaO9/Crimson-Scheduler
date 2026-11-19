@@ -45,9 +45,47 @@
 }
 
 .result-summary-toggle:focus-visible,
+.generator-course-add:focus-visible,
 .course-info-trigger:focus-visible {
     outline: 2px solid var(--crimson);
     outline-offset: 2px;
+}
+
+.result-summary-toggle:disabled {
+    color: inherit;
+    cursor: default;
+    opacity: 1;
+}
+
+.generator-course-add {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    border-radius: 6px;
+    color: var(--crimson);
+    display: none;
+    flex: 0 0 44px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    height: 44px;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
+    width: 44px;
+}
+
+.generator-course-add:hover,
+.generator-course-add:active {
+    background: var(--color-accent-subtle);
+}
+
+.schedule-shell[data-active-schedule-view="generator"] .generator-course-add {
+    display: inline-flex;
+}
+
+.schedule-shell[data-active-schedule-view="generator"] .result-chevron,
+.schedule-shell[data-active-schedule-view="generator"] .result-card > .collapse {
+    display: none !important;
 }
 
 .result-summary-actions { display: flex; align-items: center; gap: 8px; }
