@@ -57,6 +57,7 @@ import { initializeScheduleExport } from "./export-image.js";
 import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
 import { initializeCatalogFreshness } from "./catalog-freshness.js";
+import { initializeScheduleViewTabs } from "./schedule-views.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
@@ -75,6 +76,7 @@ export function initializeScheduleApp(): void {
   initializeScheduleState();
   initializeScheduleOptions();
   initializeMobileLayout();
+  initializeScheduleViewTabs();
 
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {

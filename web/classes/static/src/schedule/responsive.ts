@@ -101,13 +101,14 @@ export function setMobilePane(targetPane: string): void {
 export function syncMobileMiscPanel(): void {
   const panel = document.querySelector(".misc-panel");
   const schedulePane = document.querySelector('.schedule-pane[data-mobile-pane="schedule"]');
+  const creatorPanel = document.getElementById("scheduleCreatorPanel");
   const host = document.getElementById("mobileMiscPanelHost");
 
   if (!panel || !schedulePane || !host) return;
   if (isMobileViewport()) {
     if (!host.contains(panel)) host.appendChild(panel);
-  } else if (!schedulePane.contains(panel)) {
-    schedulePane.appendChild(panel);
+  } else if (!(creatorPanel || schedulePane).contains(panel)) {
+    (creatorPanel || schedulePane).appendChild(panel);
   }
 }
 

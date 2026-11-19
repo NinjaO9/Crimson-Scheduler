@@ -6,7 +6,7 @@
  */
 
 import { CourseApi } from "../course_api";
-import { CatalogCourse, SchedulableSection, Section, SectionReference } from "../types";
+import { CatalogCourse, SchedulableSection, SectionReference } from "../types";
 import { addSchedule, getActiveSchedule, getScheduleById } from "./schedule-state";
 import { parseDaysToIndexes, parseTimeRange } from "./time-and-meetings";
 import { refreshScheduleSelector } from "./schedule-selector";

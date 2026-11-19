@@ -30,7 +30,9 @@ describe("mobile layout sheets", () => {
     document.body.innerHTML = `
       <main class="schedule-pane" data-mobile-pane="schedule">
         <button id="mobileMiscToggle" aria-expanded="false"></button>
-        <section class="misc-panel" id="miscPanel"></section>
+        <div id="scheduleCreatorPanel">
+          <section class="misc-panel" id="miscPanel"></section>
+        </div>
       </main>
       <div id="mobileMiscSheet" aria-hidden="true" hidden>
         <section class="mobile-misc-panel" tabindex="-1">
@@ -57,7 +59,7 @@ describe("mobile layout sheets", () => {
     syncMobileMiscPanel();
     expect(
       document
-        .querySelector(".schedule-pane")
+        .getElementById("scheduleCreatorPanel")
         .contains(document.getElementById("miscPanel")),
     ).toBe(true);
   });

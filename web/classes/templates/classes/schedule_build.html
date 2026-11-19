@@ -138,6 +138,18 @@
         <section class="schedule-pane mobile-pane"
                  data-mobile-pane="schedule"
                  aria-label="Your schedule">
+            <div class="schedule-view-tabs" role="tablist" aria-label="Schedule views">
+                <button type="button" class="schedule-view-tab is-active" id="scheduleCreatorTab"
+                        role="tab" aria-selected="true" aria-controls="scheduleCreatorPanel" tabindex="0">
+                    Schedule Creator
+                </button>
+                <button type="button" class="schedule-view-tab" id="scheduleGeneratorTab"
+                        role="tab" aria-selected="false" aria-controls="scheduleGeneratorPanel" tabindex="-1">
+                    Schedule Generator
+                </button>
+            </div>
+            <div class="schedule-view-panel schedule-creator-panel" id="scheduleCreatorPanel"
+                 role="tabpanel" aria-labelledby="scheduleCreatorTab" tabindex="0">
             <div class="pane-topbar">
                 <div class="schedule-title">
                     <div class="dropdown schedule-selector">
@@ -209,6 +221,8 @@
                 </div>
                 <div class="misc-list" id="miscList"></div>
             </section>
+            </div>
+            <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel" role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden></div>
         </section>
     </div>
 

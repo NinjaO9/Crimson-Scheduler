@@ -67,6 +67,57 @@
     padding: 14px 28px;
 }
 
+.schedule-view-tabs {
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex: 0 0 auto;
+    gap: 6px;
+    margin: -14px -28px 14px;
+    padding: 12px 28px 0;
+}
+
+.schedule-view-tab {
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px 6px 0 0;
+    color: var(--color-text-secondary);
+    font-weight: 800;
+    min-height: 44px;
+    padding: 8px 18px;
+}
+
+.schedule-view-tab:hover {
+    background: var(--color-surface-raised);
+    color: var(--color-text);
+}
+
+.schedule-view-tab.is-active {
+    background: var(--color-accent-subtle);
+    border-bottom-color: var(--crimson);
+    color: var(--color-text);
+}
+
+.schedule-view-tab:focus-visible {
+    outline: 3px solid var(--color-link);
+    outline-offset: -3px;
+}
+
+.schedule-view-panel {
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+}
+
+.schedule-view-panel[hidden] {
+    display: none;
+}
+
+.schedule-creator-panel {
+    display: flex;
+    flex-direction: column;
+}
+
 .field-grid {
     display: grid;
     gap: 16px;
@@ -858,6 +909,7 @@
 
 .schedule-pane.is-exporting .toolbar,
 .schedule-pane.is-exporting .manage-btn,
+.schedule-pane.is-exporting .schedule-view-tabs,
 .schedule-export-active .course-block-tooltip {
     display: none !important;
 }
@@ -1222,6 +1274,19 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .schedule-pane {
         min-height: 0;
+    }
+
+    .schedule-view-tabs {
+        margin: -14px -18px 12px;
+        overflow-x: auto;
+        padding: 6px 18px 0;
+    }
+
+    .schedule-view-tab {
+        flex: 1 0 auto;
+        font-size: 0.82rem;
+        padding: 8px 10px;
+        white-space: nowrap;
     }
 
     .field-grid {
