@@ -8,6 +8,7 @@
 import { MOBILE_BREAKPOINT } from "./constants.js";
 
 let activeMobileMiscTrigger: HTMLElement | null = null;
+let activeMobileGeneratorTrigger: HTMLElement | null = null;
 
 /**
  * Checks whether the current viewport is at or below the mobile breakpoint.
@@ -57,6 +58,7 @@ export function updateMobileImageExportVisibility(): void {
 export function initializeMobileLayout(): void {
   setMobilePane("search");
   syncMobileMiscPanel();
+  syncMobileGeneratorSelection();
   updateMobileImageExportVisibility();
 }
 
@@ -110,6 +112,79 @@ export function syncMobileMiscPanel(): void {
   } else if (!(creatorPanel || schedulePane).contains(panel)) {
     (creatorPanel || schedulePane).appendChild(panel);
   }
+}
+
+/**
+ * Moves the generator course selection between its desktop panel and mobile sheet.
+ *
+ * @see {@link isMobileViewport}
+ */
+export function syncMobileGeneratorSelection(): void {
+  const selection = document.querySelector(".generator-selection");
+  const generatorPanel = document.getElementById("scheduleGeneratorPanel");
+  const host = document.getElementById("mobileGeneratorPanelHost");
+  if (!selection || !generatorPanel || !host) return;
+
+  if (isMobileViewport()) {
+    if (!host.contains(selection)) host.appendChild(selection);
+  } else if (!generatorPanel.contains(selection)) {
+    generatorPanel.appendChild(selection);
+  }
+}
+
+/**
+ * Opens the selected-courses sheet on mobile and moves focus into it.
+ *
+ * @param [trigger] - Element that opened the sheet for focus restoration.
+ * @see {@link closeMobileGeneratorSelection}
+ */
+export function openMobileGeneratorSelection(trigger?: HTMLElement): void {
+  if (!isMobileViewport()) return;
+  const sheet = document.getElementById("mobileGeneratorSheet");
+  const toggle = document.getElementById("mobileGeneratorToggle");
+  if (!sheet || !toggle) return;
+
+  activeMobileGeneratorTrigger = trigger || toggle;
+  sheet.hidden = false;
+  sheet.inert = false;
+  sheet.setAttribute("aria-hidden", "false");
+  toggle.setAttribute("aria-expanded", "true");
+  document.body.classList.add("mobile-generator-sheet-open");
+  window.requestAnimationFrame(() => sheet.classList.add("is-open"));
+  sheet.querySelector<HTMLElement>(".mobile-generator-panel")?.focus({
+    preventScroll: true,
+  });
+}
+
+/**
+ * Closes the selected-courses sheet and optionally restores trigger focus.
+ *
+ * @param [options={}] - Close behavior options.
+ * @param [options.restoreFocus=true] - Whether to focus the opening trigger.
+ * @see {@link openMobileGeneratorSelection}
+ */
+export function closeMobileGeneratorSelection(
+  { restoreFocus = true }: { restoreFocus?: boolean } = {},
+): void {
+  const sheet = document.getElementById("mobileGeneratorSheet");
+  const toggle = document.getElementById("mobileGeneratorToggle");
+  if (!sheet || !sheet.classList.contains("is-open")) return;
+
+  sheet.classList.remove("is-open");
+  sheet.inert = true;
+  sheet.setAttribute("aria-hidden", "true");
+  if (toggle) toggle.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("mobile-generator-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
+  if (
+    restoreFocus &&
+    activeMobileGeneratorTrigger &&
+    document.contains(activeMobileGeneratorTrigger)
+  )
+    activeMobileGeneratorTrigger.focus({ preventScroll: true });
+  activeMobileGeneratorTrigger = null;
 }
 
 /**

@@ -30,18 +30,22 @@ import {
 } from "./preferences.js";
 import {
   debounce,
+  closeMobileGeneratorSelection,
   closeMobileMiscSheet,
   handleMobileNavigation,
   initializeMobileLayout,
   isMobileViewport,
+  openMobileGeneratorSelection,
   openMobileMiscSheet,
   setMobilePane,
+  syncMobileGeneratorSelection,
   syncMobileMiscPanel,
   updateMobileImageExportVisibility,
 } from "./responsive.js";
 import {
   addSectionSelection,
   clearSchedule,
+  getActiveSchedule,
   getSchedule,
   hydrateSchedule,
   initializeScheduleState,
@@ -58,6 +62,7 @@ import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
 import { initializeCatalogFreshness } from "./catalog-freshness.js";
 import { initializeScheduleViewTabs } from "./schedule-views.js";
+import { initializeGeneratorSelection } from "./generator-selection.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
@@ -77,6 +82,11 @@ export function initializeScheduleApp(): void {
   initializeScheduleOptions();
   initializeMobileLayout();
   initializeScheduleViewTabs();
+  const generatorSelection = initializeGeneratorSelection({
+    getActiveSchedule,
+    resolveCourse: (termSlug, sectionId) =>
+      window.CourseApi.findCourseFromSection(termSlug, sectionId),
+  });
 
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {
@@ -98,6 +108,7 @@ export function initializeScheduleApp(): void {
       console.error("Unable to hydrate saved schedule:", error);
     }
     refreshSchedule();
+    await generatorSelection.loadFromActiveSchedule();
   };
 
   initializeScheduleSelector({ onScheduleChange: hydrateActiveSchedule });
@@ -114,6 +125,8 @@ export function initializeScheduleApp(): void {
     },
     onPreview: renderSectionGhost,
     onClearPreview: clearSectionGhosts,
+    onAddGeneratorCourse: generatorSelection.addCourse,
+    isGeneratorCourseSelected: generatorSelection.hasCourse,
   });
 
   const sharing = initializeScheduleSharing({
@@ -124,7 +137,10 @@ export function initializeScheduleApp(): void {
       if (name !== undefined) setScheduleSelectorName(name);
       else refreshScheduleSelector();
     },
-    refreshSchedule,
+    refreshSchedule: () => {
+      refreshSchedule();
+      void generatorSelection.loadFromActiveSchedule();
+    },
     showSchedulePane,
   });
 
@@ -152,6 +168,15 @@ export function initializeScheduleApp(): void {
       return;
     }
 
+    const removeGeneratorCourseButton = target.closest<HTMLElement>(
+      ".remove-generator-course-btn",
+    );
+    if (removeGeneratorCourseButton) {
+      const courseKey = removeGeneratorCourseButton.dataset.courseKey;
+      if (courseKey) generatorSelection.removeCourse(courseKey);
+      return;
+    }
+
     const removeMiscButton = target.closest<HTMLElement>(".remove-misc-btn");
     if (removeMiscButton) {
       const sectionKey = removeMiscButton.getAttribute("data-section-key") ||
@@ -173,9 +198,18 @@ export function initializeScheduleApp(): void {
       closeMobileMiscSheet();
       return;
     }
+    if (target.closest("[data-close-generator-selection]")) {
+      closeMobileGeneratorSelection();
+      return;
+    }
     const miscToggle = target.closest<HTMLElement>("#mobileMiscToggle");
     if (miscToggle) {
       openMobileMiscSheet(miscToggle);
+      return;
+    }
+    const generatorToggle = target.closest<HTMLElement>("#mobileGeneratorToggle");
+    if (generatorToggle) {
+      openMobileGeneratorSelection(generatorToggle);
       return;
     }
     if (target.closest("[data-close-course]")) {
@@ -213,6 +247,7 @@ export function initializeScheduleApp(): void {
       closeCourseFilters();
       closeMobileConflictSheet();
       closeMobileMiscSheet();
+      closeMobileGeneratorSelection();
       closeMobileCourseSheet();
     }
   });
@@ -228,6 +263,7 @@ export function initializeScheduleApp(): void {
     "resize",
     debounce(() => {
       syncMobileMiscPanel();
+      syncMobileGeneratorSelection();
       updateMobileImageExportVisibility();
       if (!isMobileViewport()) closeCourseFilters();
       refreshSchedule();

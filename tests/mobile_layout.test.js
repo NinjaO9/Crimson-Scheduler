@@ -11,9 +11,12 @@ import {
   openMobileCourseSheet,
 } from "../web/classes/static/src/schedule/calendar.js";
 import {
+  closeMobileGeneratorSelection,
   closeMobileMiscSheet,
   isGoogleOrChromeMobileApp,
+  openMobileGeneratorSelection,
   openMobileMiscSheet,
+  syncMobileGeneratorSelection,
   syncMobileMiscPanel,
 } from "../web/classes/static/src/schedule/responsive.js";
 
@@ -33,10 +36,19 @@ describe("mobile layout sheets", () => {
         <div id="scheduleCreatorPanel">
           <section class="misc-panel" id="miscPanel"></section>
         </div>
+        <div id="scheduleGeneratorPanel">
+          <button id="mobileGeneratorToggle" aria-expanded="false"></button>
+          <section class="generator-selection" id="generatorSelection"></section>
+        </div>
       </main>
       <div id="mobileMiscSheet" aria-hidden="true" hidden>
         <section class="mobile-misc-panel" tabindex="-1">
           <div id="mobileMiscPanelHost"></div>
+        </section>
+      </div>
+      <div id="mobileGeneratorSheet" aria-hidden="true" hidden>
+        <section class="mobile-generator-panel" tabindex="-1">
+          <div id="mobileGeneratorPanelHost"></div>
         </section>
       </div>
       <div id="mobileCourseSheet" aria-hidden="true" hidden>
@@ -79,6 +91,35 @@ describe("mobile layout sheets", () => {
     expect(sheet.getAttribute("aria-hidden")).toBe("true");
     expect(trigger.getAttribute("aria-expanded")).toBe("false");
     expect(document.activeElement).toBe(trigger);
+  });
+
+  it("moves, opens, and closes the generator selection sheet", () => {
+    const trigger = document.getElementById("mobileGeneratorToggle");
+    syncMobileGeneratorSelection();
+    expect(
+      document
+        .getElementById("mobileGeneratorPanelHost")
+        .contains(document.getElementById("generatorSelection")),
+    ).toBe(true);
+
+    openMobileGeneratorSelection(trigger);
+    const sheet = document.getElementById("mobileGeneratorSheet");
+    expect(sheet.getAttribute("aria-hidden")).toBe("false");
+    expect(document.body.classList.contains("mobile-generator-sheet-open")).toBe(true);
+    expect(document.activeElement).toBe(sheet.querySelector(".mobile-generator-panel"));
+
+    closeMobileGeneratorSelection();
+    expect(sheet.getAttribute("aria-hidden")).toBe("true");
+    expect(trigger.getAttribute("aria-expanded")).toBe("false");
+    expect(document.activeElement).toBe(trigger);
+
+    setMobileViewport(false);
+    syncMobileGeneratorSelection();
+    expect(
+      document
+        .getElementById("scheduleGeneratorPanel")
+        .contains(document.getElementById("generatorSelection")),
+    ).toBe(true);
   });
 
   it("opens course details and restores focus on close", () => {

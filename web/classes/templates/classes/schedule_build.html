@@ -222,7 +222,26 @@
                 <div class="misc-list" id="miscList"></div>
             </section>
             </div>
-            <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel" role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden></div>
+            <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel"
+                 role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden>
+                <button type="button" class="mobile-generator-trigger" id="mobileGeneratorToggle"
+                        aria-expanded="false" aria-controls="mobileGeneratorSheet">
+                    <span>Current selected courses</span>
+                    <span id="mobileGeneratorCourseCount">(0)</span>
+                </button>
+                <section class="generator-selection" aria-labelledby="generatorSelectionTitle">
+                    <div class="misc-header">
+                        <div>
+                            <div class="misc-title" id="generatorSelectionTitle">
+                                Current Selected Courses <span id="generatorCourseCount">(0)</span>
+                            </div>
+                            <div class="misc-subtitle">Courses that will be used to generate schedule options.</div>
+                        </div>
+                    </div>
+                    <div class="misc-list generator-course-list" id="generatorCourseList"></div>
+                    <p class="visually-hidden" id="generatorSelectionStatus" aria-live="polite"></p>
+                </section>
+            </div>
         </section>
     </div>
 
@@ -256,6 +275,16 @@
         <section class="mobile-misc-panel" role="dialog" aria-modal="true" aria-label="Non-scheduled classes" tabindex="-1">
             <div class="mobile-misc-grabber" aria-hidden="true"></div>
             <div id="mobileMiscPanelHost"></div>
+        </section>
+    </div>
+
+    <div class="mobile-generator-sheet" id="mobileGeneratorSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="mobile-generator-backdrop" data-close-generator-selection
+                aria-label="Close current selected courses"></button>
+        <section class="mobile-generator-panel" role="dialog" aria-modal="true"
+                 aria-label="Current selected courses" tabindex="-1">
+            <div class="mobile-generator-grabber" aria-hidden="true"></div>
+            <div id="mobileGeneratorPanelHost"></div>
         </section>
     </div>
 
