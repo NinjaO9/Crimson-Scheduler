@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T21:54:27.986302+00:00",
+  "generatedAt": "2026-11-19T12:55:11.634704+00:00",
   "campus": "Vancouver",
   "term": "Fall 2026",
   "subjects": [
@@ -2419,54 +2419,6 @@
           ]
         },
         {
-          "course": "Information Retrieval",
-          "subject": "CS",
-          "subjectPrefix": "CS",
-          "courseNumber": 454,
-          "courseCode": "CS 454",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11734",
-              "sln": 11734,
-              "sectionNumber": 1,
-              "courseCode": "CS 454",
-              "courseName": "Information Retrieval",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "VECS 105",
-              "instructor": "B MCCAMISH",
-              "instructors": [
-                "B MCCAMISH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 32,
-                "total": 40,
-                "available": 8,
-                "label": "32/40"
-              },
-              "dates": {
-                "start": "Aug 24",
-                "end": "Dec 11"
-              }
-            }
-          ]
-        },
-        {
           "course": "Advanced Algorithms",
           "subject": "CS",
           "subjectPrefix": "CS",
@@ -2698,43 +2650,6 @@
                 "total": 5,
                 "available": 3,
                 "label": "2/5"
-              },
-              "dates": {
-                "start": "Aug 24",
-                "end": "Dec 11"
-              }
-            },
-            {
-              "sectionId": "12332",
-              "sln": 12332,
-              "sectionNumber": 3,
-              "courseCode": "CS 580",
-              "courseName": "Advanced Topics in Computer Science",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VECS 309",
-              "instructor": "I PRIYADARSHINI",
-              "instructors": [
-                "I PRIYADARSHINI"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
               },
               "dates": {
                 "start": "Aug 24",
