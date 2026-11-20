@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T11:26:01.735146+00:00",
+  "generatedAt": "2026-11-20T19:14:10.292210+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -362,6 +362,52 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jun 27"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Cost Accounting and Management",
+          "subject": "ACCTG",
+          "subjectPrefix": "Acctg",
+          "courseNumber": 438,
+          "courseCode": "ACCTG 438",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3184",
+              "sln": 3184,
+              "sectionNumber": 1,
+              "courseCode": "ACCTG 438",
+              "courseName": "Advanced Cost Accounting and Management",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 28",
+                "end": "Aug 15"
               }
             }
           ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T11:26:01.743570+00:00",
+  "generatedAt": "2026-11-20T19:14:10.302067+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -52232,8 +52232,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "B AMMANAGHATTA SHIVA",
+              "instructors": [
+                "B AMMANAGHATTA SHIVA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -57801,10 +57803,8 @@
                 }
               ],
               "location": "TODD 211",
-              "instructor": "B LOVE",
-              "instructors": [
-                "B LOVE"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "WRTG",
               "coop": false,
               "footnotes": "",
@@ -57986,10 +57986,8 @@
                 }
               ],
               "location": "BRYN 406",
-              "instructor": "B LOVE",
-              "instructors": [
-                "B LOVE"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "WRTG",
               "coop": false,
               "footnotes": "",
@@ -104039,10 +104037,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 11,
-                "available": 9,
-                "label": "2/11"
+                "available": 8,
+                "label": "3/11"
               },
               "dates": {
                 "start": "Aug 24",
@@ -118255,6 +118253,43 @@
                 "total": 10,
                 "available": 9,
                 "label": "1/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "5541",
+              "sln": 5541,
+              "sectionNumber": 2,
+              "courseCode": "MUS 575",
+              "courseName": "Advanced Conducting",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D PHAM",
+              "instructors": [
+                "D PHAM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Aug 24",
@@ -140710,10 +140745,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "available": 9,
+                "label": "1/10"
               },
               "dates": {
                 "start": "Aug 24",
@@ -158114,6 +158149,41 @@
                 "total": 30,
                 "available": 0,
                 "label": "30/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12775",
+              "sln": 12775,
+              "sectionNumber": 22,
+              "courseCode": "VET_MED 698",
+              "courseName": "Special Topics",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "@",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
               },
               "dates": {
                 "start": "Aug 24",
