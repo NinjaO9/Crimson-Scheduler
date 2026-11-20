@@ -48,14 +48,21 @@ describe("generator results", () => {
     controller.setResults([
       { id: "first", sections: [section("CPT_S 121", "MWF", "9:00 AM - 9:50 AM")] },
       { id: "second", sections: [section("MATH 171", "TR", "10:00 AM - 10:50 AM")] },
+      { id: "third", sections: [section("CHEM 105", "MWF", "1:00 PM - 1:50 PM")] },
     ]);
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(3);
-    expect(document.querySelectorAll(".generator-preview")).toHaveLength(1);
+    expect(document.querySelectorAll(".generator-preview")).toHaveLength(3);
+    expect(document.querySelector(".generator-preview").getAttribute("aria-pressed")).toBe("true");
     expect(document.getElementById("generatorResultsEmpty").hidden).toBe(true);
-    document.querySelector(".generator-preview").click();
+    document.getElementById("generatorPreviewList").scrollLeft = 42;
+    document.getElementById("generatorPreviewList").scrollTop = 64;
+    document.querySelectorAll(".generator-preview")[1].click();
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(2);
     expect(grid.textContent).toContain("MATH 171");
-    expect(document.activeElement).toBe(document.querySelector(".generator-calendar-wrap"));
+    expect(document.activeElement).toBe(document.querySelectorAll(".generator-preview")[1]);
+    expect(document.querySelectorAll(".generator-preview")[1].getAttribute("aria-pressed")).toBe("true");
+    expect(document.getElementById("generatorPreviewList").scrollLeft).toBe(42);
+    expect(document.getElementById("generatorPreviewList").scrollTop).toBe(64);
     expect(controller.selectResult("missing")).toBe(false);
     controller.setResults([]);
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(0);

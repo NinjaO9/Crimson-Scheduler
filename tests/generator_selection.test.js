@@ -65,6 +65,7 @@ describe("generator course selection", () => {
 
   it("adds each searched course once and synchronizes its add button", () => {
     const selectedCourse = course("cpt-s-580", "CPT_S 580");
+    const onSelectionChange = vi.fn();
     const button = document.createElement("button");
     button.className = "generator-course-add";
     button.dataset.courseKey = generatorCourseKey(selectedCourse);
@@ -73,11 +74,13 @@ describe("generator course selection", () => {
     const controller = initializeGeneratorSelection({
       getActiveSchedule: () => null,
       resolveCourse: vi.fn(),
+      onSelectionChange,
     });
 
     expect(controller.addCourse(selectedCourse)).toBe(true);
     expect(controller.addCourse(selectedCourse)).toBe(false);
     expect(controller.getCourses()).toHaveLength(1);
+    expect(onSelectionChange).toHaveBeenCalledTimes(1);
     expect(button.disabled).toBe(true);
     expect(button.textContent).toBe("+");
     expect(document.getElementById("generatorSelectionStatus").textContent).toContain(
@@ -87,6 +90,7 @@ describe("generator course selection", () => {
     expect(controller.removeCourse(generatorCourseKey(selectedCourse))).toBe(true);
     expect(controller.removeCourse(generatorCourseKey(selectedCourse))).toBe(false);
     expect(controller.getCourses()).toHaveLength(0);
+    expect(onSelectionChange).toHaveBeenCalledTimes(2);
     expect(button.disabled).toBe(false);
     expect(button.textContent).toBe("+");
     expect(document.getElementById("generatorSelectionStatus").textContent).toContain(
