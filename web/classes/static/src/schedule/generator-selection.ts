@@ -11,6 +11,7 @@ import type { CatalogCourse, ScheduleRecord } from "../types.js";
 type GeneratorSelectionOptions = {
   getActiveSchedule: () => ScheduleRecord | null;
   resolveCourse: (termSlug: string, sectionId: string) => Promise<CatalogCourse | null>;
+  onSelectionChange?: () => void;
 };
 
 export type GeneratorSelectionController = {
@@ -137,6 +138,7 @@ export function initializeGeneratorSelection(
     }
     selectedCourses.set(key, course);
     render();
+    options.onSelectionChange?.();
     announce(`${course.course_code} added to current selected courses.`);
     return true;
   };
@@ -147,6 +149,7 @@ export function initializeGeneratorSelection(
 
     selectedCourses.delete(courseKey);
     render();
+    options.onSelectionChange?.();
     announce(`${course.course_code} removed from current selected courses.`);
     return true;
   };
@@ -154,6 +157,7 @@ export function initializeGeneratorSelection(
   const loadFromActiveSchedule = async (): Promise<void> => {
     const requestId = ++loadRequestId;
     selectedCourses.clear();
+    options.onSelectionChange?.();
     const schedule = options.getActiveSchedule();
     const references = schedule?.section_refs || [];
     render(references.length > 0);
@@ -173,6 +177,7 @@ export function initializeGeneratorSelection(
       else if (result.status === "rejected") failedCount += 1;
     });
     render();
+    options.onSelectionChange?.();
     if (failedCount)
       announce(`${failedCount} active schedule ${failedCount === 1 ? "course" : "courses"} could not be loaded.`);
   };

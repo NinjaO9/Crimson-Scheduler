@@ -225,34 +225,36 @@
             <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel"
                  role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden>
                 <div class="generator-workarea">
-                    <section class="generator-schedule-section" aria-labelledby="generatorScheduleTitle">
-                        <div class="generator-actions">
-                            <h2 class="generator-section-title" id="generatorScheduleTitle">Schedule</h2>
-                            <div class="generator-action-buttons" aria-label="Schedule generation tools">
-                                <button type="button" class="primary-btn generator-action-btn" disabled>
-                                    Generate Schedules
-                                </button>
-                                <button type="button" class="manage-btn generator-options-btn" disabled>
-                                    Schedule Options
-                                </button>
+                    <div class="generator-actions">
+                        <h2 class="generator-section-title" id="generatorScheduleTitle">Schedule</h2>
+                        <div class="generator-action-buttons" aria-label="Schedule generation tools">
+                            <button type="button" class="primary-btn generator-action-btn" id="generateSchedulesBtn" disabled>
+                                Generate Schedules
+                            </button>
+                            <button type="button" class="manage-btn generator-options-btn" disabled>
+                                Schedule Options
+                            </button>
+                        </div>
+                    </div>
+                    <div class="generator-display">
+                        <section class="generator-schedule-section" aria-labelledby="generatorScheduleTitle">
+                            <div class="calendar-wrap generator-calendar-wrap" role="group" tabindex="-1"
+                                 aria-label="Generated schedule calendar">
+                                <div class="calendar-header" id="generatorCalendarHeader"></div>
+                                <div class="calendar-grid" id="generatorCalendarGrid"></div>
                             </div>
-                        </div>
-                        <div class="calendar-wrap generator-calendar-wrap" role="group" tabindex="-1"
-                             aria-label="Generated schedule calendar">
-                            <div class="calendar-header" id="generatorCalendarHeader"></div>
-                            <div class="calendar-grid" id="generatorCalendarGrid"></div>
-                        </div>
-                    </section>
+                        </section>
 
-                    <section class="generator-possibilities" aria-labelledby="generatorPossibilitiesTitle">
-                        <h2 class="generator-section-title" id="generatorPossibilitiesTitle">
-                            Other Schedule Possibilities
-                        </h2>
-                        <p class="generator-empty-state" id="generatorResultsEmpty">
-                            Generated schedule alternatives will appear here.
-                        </p>
-                        <div class="generator-preview-list" id="generatorPreviewList"></div>
-                    </section>
+                        <section class="generator-possibilities" aria-labelledby="generatorPossibilitiesTitle">
+                            <h2 class="generator-section-title" id="generatorPossibilitiesTitle">
+                                Other Schedule Possibilities
+                            </h2>
+                            <p class="generator-empty-state" id="generatorResultsEmpty">
+                                Generated schedule alternatives will appear here.
+                            </p>
+                            <div class="generator-preview-list" id="generatorPreviewList"></div>
+                        </section>
+                    </div>
 
                 <button type="button" class="mobile-generator-trigger" id="mobileGeneratorToggle"
                         aria-expanded="false" aria-controls="mobileGeneratorSheet">

@@ -64,6 +64,7 @@ import { initializeCatalogFreshness } from "./catalog-freshness.js";
 import { initializeScheduleViewTabs } from "./schedule-views.js";
 import { initializeGeneratorSelection } from "./generator-selection.js";
 import { initializeScheduleGeneratorController } from "./generator-results.js";
+import { initializeGeneratorWorkflow } from "./generator-workflow.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
@@ -84,11 +85,15 @@ export function initializeScheduleApp(): void {
   initializeMobileLayout();
   initializeScheduleViewTabs();
   const generatorResults = initializeScheduleGeneratorController();
+  let generatorWorkflow: ReturnType<typeof initializeGeneratorWorkflow> | null = null;
   const generatorSelection = initializeGeneratorSelection({
     getActiveSchedule,
     resolveCourse: (termSlug, sectionId) =>
       window.CourseApi.findCourseFromSection(termSlug, sectionId),
+    onSelectionChange: () => generatorWorkflow?.selectionChanged(),
   });
+  
+  generatorWorkflow = initializeGeneratorWorkflow(generatorSelection.getCourses, generatorResults);
 
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {
@@ -101,6 +106,7 @@ export function initializeScheduleApp(): void {
   };
 
   const hydrateActiveSchedule = async () => {
+    generatorWorkflow?.selectionChanged();
     try {
       const result = await hydrateSchedule((termSlug) => window.CourseApi.fetchDatasetByKey(termSlug));
       if (result.missingCount)

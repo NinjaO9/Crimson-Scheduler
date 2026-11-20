@@ -47,19 +47,24 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
     }
   };
 
-  /** Renders the non-active candidates as selectable compact schedule previews. */
+  /** 
+   * Renders candidates as selectable compact schedule previews
+   */
   const renderSchedulePreviews = (): void => {
     if (!previews || !empty) return;
-    previews.replaceChildren();
-    const alternatives = results.filter((result) => result.id !== activeId);
-    empty.hidden = alternatives.length > 0;
-    for (const result of alternatives) {
+    const scrollLeft = previews.scrollLeft;
+    const scrollTop = previews.scrollTop;
+    const cards = document.createDocumentFragment();
+    empty.hidden = results.length > 0;
+    for (const result of results) {
       const number = results.indexOf(result) + 1;
       const button = document.createElement("button");
       button.type = "button";
       button.className = "generator-preview";
+      button.classList.toggle("is-selected", result.id === activeId);
+      button.dataset.resultId = result.id;
       button.setAttribute("aria-label", `Show schedule possibility ${number}`);
-      button.setAttribute("aria-pressed", "false");
+      button.setAttribute("aria-pressed", String(result.id === activeId));
       button.appendChild(createElementWithText("span", "generator-preview-number", String(number)));
       const days = document.createElement("span");
       days.className = "generator-preview-days";
@@ -84,10 +89,15 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
       }
       button.appendChild(days);
       button.addEventListener("click", () => {
-        if (selectResult(result.id)) calendar?.focus({ preventScroll: true });
+        if (selectResult(result.id)) {
+          Array.from(previews.querySelectorAll<HTMLButtonElement>(".generator-preview")).find((preview) => preview.dataset.resultId === result.id)?.focus({ preventScroll: true });
+        }
       });
-      previews.appendChild(button);
+      cards.appendChild(button);
     }
+    previews.replaceChildren(cards);
+    previews.scrollLeft = scrollLeft;
+    previews.scrollTop = scrollTop;
   };
 
   const render = (): void => {
@@ -103,7 +113,7 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
   };
   const setResults = (next: GeneratedSchedule[]): void => {
     results = next.slice();
-    activeId = results.some((result) => result.id === activeId) ? activeId : results[0]?.id || null;
+    activeId = results[0]?.id || null;
     render();
   };
   render();
