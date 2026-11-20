@@ -112,6 +112,8 @@ describe("schedule view tabs", () => {
     const display = template.indexOf("generator-display");
     const schedule = template.indexOf("generator-schedule-section");
     const possibilities = template.indexOf("generator-possibilities");
+    const combinationsTrigger = template.indexOf('id="mobileCombinationsToggle"');
+    const selectedCoursesTrigger = template.indexOf('id="mobileGeneratorToggle"');
     const selection = template.indexOf("generator-selection");
 
     expect(template).toContain("Generate Schedules");
@@ -126,5 +128,9 @@ describe("schedule view tabs", () => {
     expect(display).toBeLessThan(schedule);
     expect(schedule).toBeLessThan(possibilities);
     expect(possibilities).toBeLessThan(selection);
+    expect(possibilities).toBeLessThan(combinationsTrigger);
+    expect(combinationsTrigger).toBeLessThan(selectedCoursesTrigger);
+    expect(template).toContain('id="mobileCombinationsSheet" aria-hidden="true" hidden inert');
+    expect(template).toContain('id="mobileCombinationsPanelHost"');
   });
 });
