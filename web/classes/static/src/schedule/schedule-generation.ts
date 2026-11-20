@@ -5,11 +5,8 @@
  * @author       NinjaO9
  */
 
-import { CourseApi } from "../course_api";
 import { CatalogCourse, SchedulableSection, SectionReference } from "../types";
-import { addSchedule, getActiveSchedule, getScheduleById } from "./schedule-state";
 import { parseDaysToIndexes, parseTimeRange } from "./time-and-meetings";
-import { refreshScheduleSelector } from "./schedule-selector";
 import { Heap } from "../heap";
 const DAY_START = 0;
 const DAY_END = 1439; // 1440 min in day (-1 for array indexing)
@@ -31,7 +28,7 @@ interface EnrichedCatalogCourse extends CatalogCourse {
     maxTimeTaken : number;
 }
 
-interface ScheduleContender {
+export interface ScheduleContender {
     sectionrefs: SectionReference[];
     score : number;
 }
@@ -48,24 +45,6 @@ function clamp(val : number, min : number, max : number) : number
     val = Math.max(val, min);
     val = Math.min(val, max);
     return val;
-}
-
-/**
- * Finds all courses in a given schedule.
- * @param schedule_id - Schedule to derive courses from.
- * @returns Set of courses discovered in a schedule.
- */
-async function getCoursesFromSchedule(schedule_id: string): Promise<Set<CatalogCourse>>
-{
-    const schedule = getScheduleById(schedule_id);
-    if (schedule === null) return new Set<CatalogCourse>;
-    const coursePromises = schedule.section_refs.map(
-        (section_ref) => CourseApi.findCourseFromSection(section_ref.term_slug, section_ref.section_id)
-    );
-
-    const courses = new Set((await Promise.all(coursePromises)).filter((course) => course !== null));
-
-    return courses ?? [];
 }
 
 /**
@@ -468,28 +447,27 @@ function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 
     return !TOP_K_SCHEDULES.isEmpty();
 }
 
-export async function testthisshit()
+/** 
+ * Function for external modules to interact with schedule generation logic. Nothing much to see here.
+ * 
+ */
+export function generateSchedules(courses: CatalogCourse[]): ScheduleContender[]
 {
-    const active_schedule = getActiveSchedule();
-    if (active_schedule === null) return;
     resetScheduleMap();
-    const result = await getCoursesFromSchedule(active_schedule.id)
-    // Sort the output to allow for MRV navigation.
-    const eResult = [...new Set<EnrichedCatalogCourse>([
-        ...enrichCatalogCourses(result)
-    ].sort((courseA, courseB) => courseA.sectionCombinations.length - courseB.sectionCombinations.length))];
-
-    console.time("ScheduleGeneration");
-    const sResult = findBestKSchedules(eResult);
-    console.timeEnd("ScheduleGeneration");
-
-    let index : number = 3;
-    while(!TOP_K_SCHEDULES.isEmpty())
+    while (!TOP_K_SCHEDULES.isEmpty()) TOP_K_SCHEDULES.pop();
+    if (!courses.length) return [];
+    try
     {
-        const newSchedule = TOP_K_SCHEDULES.pop();
-        addSchedule(newSchedule!.sectionrefs, `SCHEDULE #${index--}`);
+        // Sort by fewest combinations first for the existing MRV search.
+        const enriched = [...enrichCatalogCourses(new Set(courses))].sort((a, b) => a.sectionCombinations.length - b.sectionCombinations.length);
+        findBestKSchedules(enriched);
+        const ranked: ScheduleContender[] = [];
+        while (!TOP_K_SCHEDULES.isEmpty()) ranked.push(TOP_K_SCHEDULES.pop()!);
+        return ranked.reverse();
     }
-    refreshScheduleSelector();
-    resetScheduleMap();
-    console.log(sResult);
+    finally
+    {
+        while (!TOP_K_SCHEDULES.isEmpty()) TOP_K_SCHEDULES.pop();
+        resetScheduleMap();
+    }
 }

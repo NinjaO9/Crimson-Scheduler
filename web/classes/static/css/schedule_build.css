@@ -130,7 +130,7 @@
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
     min-height: 0;
     min-width: 0;
     padding: 2px 2px 8px 0;
@@ -143,7 +143,16 @@
     flex-wrap: wrap;
     gap: 8px;
     justify-content: space-between;
-    margin-bottom: 8px;
+    margin-bottom: 0;
+}
+
+.generator-display {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 0;
+    min-width: 0;
 }
 
 .generator-actions .generator-section-title {
@@ -177,11 +186,7 @@
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
-    min-height: 250px;
-}
-
-.generator-possibilities {
-    flex: 0 0 auto;
+    min-height: 220px;
 }
 
 .generator-section-title {
@@ -209,9 +214,16 @@
 }
 
 .generator-preview-list {
-    display: grid;
+    box-sizing: border-box;
+    display: flex;
     gap: 8px;
     margin-top: 8px;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    padding: 3px 2px 5px;
 }
 
 .generator-preview {
@@ -219,14 +231,16 @@
     background: var(--color-surface);
     border: 1px solid var(--line-strong);
     border-radius: 6px;
+    box-sizing: border-box;
     color: var(--color-text);
     display: grid;
-    grid-template-columns: 40px minmax(0, 1fr);
-    min-height: 88px;
+    flex: 0 0 150px;
+    grid-template-columns: 30px minmax(0, 1fr);
+    height: 150px;
     overflow: hidden;
     padding: 0;
     text-align: left;
-    width: 100%;
+    width: 150px;
 }
 
 .generator-preview:hover,
@@ -234,6 +248,11 @@
     border-color: var(--crimson);
     outline: 2px solid var(--crimson);
     outline-offset: 1px;
+}
+
+.generator-preview.is-selected {
+    border-color: var(--crimson);
+    border-width: 2px;
 }
 
 .generator-preview-number {
@@ -247,7 +266,7 @@
 .generator-preview-days {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    min-height: 88px;
+    min-height: 0;
     position: relative;
 }
 
@@ -269,7 +288,39 @@
 .generator-possibilities {
     border: 1px solid var(--line-strong);
     border-radius: 6px;
+    flex: 0 0 auto;
+    min-width: 0;
     padding: 10px 14px;
+}
+
+@media (min-width: 1400px) {
+    .generator-display {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: minmax(0, 1fr) clamp(200px, 22%, 240px);
+    }
+
+    .generator-possibilities {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    .generator-preview-list {
+        flex: 1 1 auto;
+        flex-direction: column;
+        max-height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+    }
+
+    .generator-preview {
+        flex: 0 0 110px;
+        height: 110px;
+        width: 100%;
+    }
 }
 
 .generator-possibilities .generator-section-title {
@@ -1482,6 +1533,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         flex: 0 0 auto;
         gap: 14px;
         padding-bottom: 12px;
+    }
+
+    .generator-display {
+        flex: 0 0 auto;
     }
 
     .generator-schedule-section {
