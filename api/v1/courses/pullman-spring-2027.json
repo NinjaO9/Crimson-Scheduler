@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T21:27:25.144171+00:00",
+  "generatedAt": "2026-11-20T03:07:39.671269+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -17121,7 +17121,5128 @@
     },
     {
       "subject": "BIOLOGY",
-      "courses": []
+      "courses": [
+        {
+          "course": "Human Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 101,
+          "courseCode": "BIOLOGY 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4989",
+              "sln": 4989,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 101",
+              "courseName": "Human Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "FULM 201",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 17,
+                "total": 65,
+                "available": 48,
+                "label": "17/65"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Exploring Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 102,
+          "courseCode": "BIOLOGY 102",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "4990",
+              "sln": 4990,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "TODD 116",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 152,
+                "total": 400,
+                "available": 248,
+                "label": "152/400"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4991",
+              "sln": 4991,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 15,
+                "total": 36,
+                "available": 21,
+                "label": "15/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4992",
+              "sln": 4992,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 36,
+                "total": 36,
+                "available": 0,
+                "label": "36/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4993",
+              "sln": 4993,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST 192",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 36,
+                "available": 32,
+                "label": "4/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4994",
+              "sln": 4994,
+              "sectionNumber": 5,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 31,
+                "total": 36,
+                "available": 5,
+                "label": "31/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4995",
+              "sln": 4995,
+              "sectionNumber": 6,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST 192",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 36,
+                "available": 28,
+                "label": "8/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4996",
+              "sln": 4996,
+              "sectionNumber": 8,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 36,
+                "available": 27,
+                "label": "9/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4997",
+              "sln": 4997,
+              "sectionNumber": 10,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 36,
+                "available": 17,
+                "label": "19/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11603",
+              "sln": 11603,
+              "sectionNumber": 13,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 36,
+                "available": 28,
+                "label": "8/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4998",
+              "sln": 4998,
+              "sectionNumber": 14,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 36,
+                "available": 25,
+                "label": "11/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4999",
+              "sln": 4999,
+              "sectionNumber": 15,
+              "courseCode": "BIOLOGY 102",
+              "courseName": "Exploring Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 36,
+                "available": 25,
+                "label": "11/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hands-on Biology: A Laboratory Experience",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 105,
+          "courseCode": "BIOLOGY 105",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5000",
+              "sln": 5000,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 105",
+              "courseName": "Hands-on Biology: A Laboratory Experience",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "EAST 166",
+              "instructor": "L CARLOYE",
+              "instructors": [
+                "L CARLOYE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 36,
+                "available": 28,
+                "label": "8/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Biology: Organismal Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 106,
+          "courseCode": "BIOLOGY 106",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5001",
+              "sln": 5001,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "TODD 116",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 238,
+                "total": 532,
+                "available": 294,
+                "label": "238/532"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5002",
+              "sln": 5002,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 23,
+                "total": 28,
+                "available": 5,
+                "label": "23/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5003",
+              "sln": 5003,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 28,
+                "available": 23,
+                "label": "5/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5004",
+              "sln": 5004,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 28,
+                "total": 28,
+                "available": 0,
+                "label": "28/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5005",
+              "sln": 5005,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 21,
+                "total": 28,
+                "available": 7,
+                "label": "21/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5006",
+              "sln": 5006,
+              "sectionNumber": 5,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 28,
+                "total": 28,
+                "available": 0,
+                "label": "28/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5007",
+              "sln": 5007,
+              "sectionNumber": 6,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 28,
+                "available": 18,
+                "label": "10/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5008",
+              "sln": 5008,
+              "sectionNumber": 7,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 28,
+                "available": 24,
+                "label": "4/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7403",
+              "sln": 7403,
+              "sectionNumber": 8,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 28,
+                "available": 27,
+                "label": "1/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7404",
+              "sln": 7404,
+              "sectionNumber": 9,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 28,
+                "available": 25,
+                "label": "3/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5009",
+              "sln": 5009,
+              "sectionNumber": 10,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 28,
+                "available": 3,
+                "label": "25/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5010",
+              "sln": 5010,
+              "sectionNumber": 11,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 28,
+                "available": 19,
+                "label": "9/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5011",
+              "sln": 5011,
+              "sectionNumber": 12,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 28,
+                "available": 19,
+                "label": "9/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5012",
+              "sln": 5012,
+              "sectionNumber": 13,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 28,
+                "available": 18,
+                "label": "10/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7405",
+              "sln": 7405,
+              "sectionNumber": 14,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 28,
+                "available": 9,
+                "label": "19/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7406",
+              "sln": 7406,
+              "sectionNumber": 15,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 28,
+                "available": 15,
+                "label": "13/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5013",
+              "sln": 5013,
+              "sectionNumber": 16,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 15,
+                "total": 28,
+                "available": 13,
+                "label": "15/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5014",
+              "sln": 5014,
+              "sectionNumber": 17,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 7,
+                "total": 28,
+                "available": 21,
+                "label": "7/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5015",
+              "sln": 5015,
+              "sectionNumber": 18,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "EAST G0088",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 28,
+                "available": 25,
+                "label": "3/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5016",
+              "sln": 5016,
+              "sectionNumber": 19,
+              "courseCode": "BIOLOGY 106",
+              "courseName": "Introductory Biology: Organismal Biology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "EAST G0082",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 28,
+                "available": 23,
+                "label": "5/28"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Biology: Cell Biology and Genetics",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 107,
+          "courseCode": "BIOLOGY 107",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5017",
+              "sln": 5017,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "TODD 116",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 354,
+                "total": 532,
+                "available": 178,
+                "label": "354/532"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5018",
+              "sln": 5018,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 26,
+                "available": 7,
+                "label": "19/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5019",
+              "sln": 5019,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 22,
+                "available": 13,
+                "label": "9/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5020",
+              "sln": 5020,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 26,
+                "available": 0,
+                "label": "26/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5021",
+              "sln": 5021,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 22,
+                "available": 0,
+                "label": "22/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5022",
+              "sln": 5022,
+              "sectionNumber": 5,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 26,
+                "available": 0,
+                "label": "26/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5023",
+              "sln": 5023,
+              "sectionNumber": 6,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 22,
+                "available": 0,
+                "label": "22/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5024",
+              "sln": 5024,
+              "sectionNumber": 7,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 26,
+                "available": 13,
+                "label": "13/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5025",
+              "sln": 5025,
+              "sectionNumber": 8,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 7,
+                "total": 22,
+                "available": 15,
+                "label": "7/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5026",
+              "sln": 5026,
+              "sectionNumber": 9,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 26,
+                "available": 4,
+                "label": "22/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5027",
+              "sln": 5027,
+              "sectionNumber": 10,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 22,
+                "available": 4,
+                "label": "18/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5028",
+              "sln": 5028,
+              "sectionNumber": 11,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 26,
+                "available": 0,
+                "label": "26/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5029",
+              "sln": 5029,
+              "sectionNumber": 12,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 14,
+                "total": 22,
+                "available": 8,
+                "label": "14/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5030",
+              "sln": 5030,
+              "sectionNumber": 13,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 6,
+                "total": 26,
+                "available": 20,
+                "label": "6/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5031",
+              "sln": 5031,
+              "sectionNumber": 14,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 22,
+                "available": 20,
+                "label": "2/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5032",
+              "sln": 5032,
+              "sectionNumber": 15,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 21,
+                "total": 26,
+                "available": 5,
+                "label": "21/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5033",
+              "sln": 5033,
+              "sectionNumber": 16,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 22,
+                "available": 4,
+                "label": "18/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5034",
+              "sln": 5034,
+              "sectionNumber": 17,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 26,
+                "available": 0,
+                "label": "26/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5035",
+              "sln": 5035,
+              "sectionNumber": 18,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 22,
+                "available": 4,
+                "label": "18/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5036",
+              "sln": 5036,
+              "sectionNumber": 19,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 20,
+                "total": 26,
+                "available": 6,
+                "label": "20/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5037",
+              "sln": 5037,
+              "sectionNumber": 20,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "MCOY 153",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 22,
+                "available": 14,
+                "label": "8/22"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6007",
+              "sln": 6007,
+              "sectionNumber": 21,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "19:10 - 22:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "19:10 - 22:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 26,
+                "available": 21,
+                "label": "5/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7331",
+              "sln": 7331,
+              "sectionNumber": 23,
+              "courseCode": "BIOLOGY 107",
+              "courseName": "Introductory Biology: Cell Biology and Genetics",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "MCOY 152",
+              "instructor": "J HINZ",
+              "instructors": [
+                "J HINZ"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 6,
+                "total": 26,
+                "available": 20,
+                "label": "6/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Power of Food, The Science of Nutrition",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 140,
+          "courseCode": "BIOLOGY 140",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5038",
+              "sln": 5038,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 140",
+              "courseName": "The Power of Food, The Science of Nutrition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "TODD 116",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 138,
+                "total": 275,
+                "available": 137,
+                "label": "138/275"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Medical Terminology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 220,
+          "courseCode": "BIOLOGY 220",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8820",
+              "sln": 8820,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 220",
+              "courseName": "Medical Terminology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K TURNER",
+              "instructors": [
+                "K TURNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 51,
+                "total": 50,
+                "available": 0,
+                "label": "51/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 251,
+          "courseCode": "BIOLOGY 251",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "8838",
+              "sln": 8838,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "8839",
+              "sln": 8839,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N ANKRAH",
+              "instructors": [
+                "N ANKRAH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "General Genetics",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 301,
+          "courseCode": "BIOLOGY 301",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5167",
+              "sln": 5167,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 301",
+              "courseName": "General Genetics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "SPRK G0045",
+              "instructor": "S THOMAS",
+              "instructors": [
+                "S THOMAS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 105,
+                "total": 125,
+                "available": 20,
+                "label": "105/125"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Evolutionary Biology and Diversity",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 305,
+          "courseCode": "BIOLOGY 305",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7068",
+              "sln": 7068,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 305",
+              "courseName": "Evolutionary Biology and Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "TODD 216",
+              "instructor": "K CORN",
+              "instructors": [
+                "K CORN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 148,
+                "total": 150,
+                "available": 2,
+                "label": "148/150"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Gross and Microanatomy",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 315,
+          "courseCode": "BIOLOGY 315",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5039",
+              "sln": 5039,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "CLEV 30",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 224,
+                "total": 225,
+                "available": 1,
+                "label": "224/225"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5040",
+              "sln": 5040,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5041",
+              "sln": 5041,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5042",
+              "sln": 5042,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5043",
+              "sln": 5043,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "14:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "14:10 - 17:00"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5044",
+              "sln": 5044,
+              "sectionNumber": 5,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5045",
+              "sln": 5045,
+              "sectionNumber": 6,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5046",
+              "sln": 5046,
+              "sectionNumber": 7,
+              "courseCode": "BIOLOGY 315",
+              "courseName": "Gross and Microanatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "MORL 8",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 32,
+                "available": 0,
+                "label": "32/32"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Principles of Animal Development",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 321,
+          "courseCode": "BIOLOGY 321",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6165",
+              "sln": 6165,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 321",
+              "courseName": "Principles of Animal Development",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "SPRK 235",
+              "instructor": "E CRESPI",
+              "instructors": [
+                "E CRESPI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 48,
+                "total": 60,
+                "available": 12,
+                "label": "48/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6166",
+              "sln": 6166,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 321",
+              "courseName": "Principles of Animal Development",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "EAST G0096",
+              "instructor": "E CRESPI",
+              "instructors": [
+                "E CRESPI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 20,
+                "total": 20,
+                "available": 0,
+                "label": "20/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6167",
+              "sln": 6167,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 321",
+              "courseName": "Principles of Animal Development",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EAST G0096",
+              "instructor": "E CRESPI",
+              "instructors": [
+                "E CRESPI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 12,
+                "total": 20,
+                "available": 8,
+                "label": "12/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6168",
+              "sln": 6168,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 321",
+              "courseName": "Principles of Animal Development",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "EAST G0096",
+              "instructor": "E CRESPI",
+              "instructors": [
+                "E CRESPI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 16,
+                "total": 20,
+                "available": 4,
+                "label": "16/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Comparative Vertebrate Anatomy",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 324,
+          "courseCode": "BIOLOGY 324",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5047",
+              "sln": 5047,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 324",
+              "courseName": "Comparative Vertebrate Anatomy",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "BRYN 305",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 84,
+                "total": 84,
+                "available": 0,
+                "label": "84/84"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5048",
+              "sln": 5048,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 324",
+              "courseName": "Comparative Vertebrate Anatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST 170",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 42,
+                "total": 42,
+                "available": 0,
+                "label": "42/42"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5049",
+              "sln": 5049,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 324",
+              "courseName": "Comparative Vertebrate Anatomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "14:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:10 - 17:00"
+                }
+              ],
+              "location": "EAST 170",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 42,
+                "total": 42,
+                "available": 0,
+                "label": "42/42"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Principles of Conservation",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 330,
+          "courseCode": "BIOLOGY 330",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8926",
+              "sln": 8926,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 330",
+              "courseName": "Principles of Conservation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L COOK",
+              "instructors": [
+                "L COOK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Human Nutrition and Health",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 333,
+          "courseCode": "BIOLOGY 333",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5050",
+              "sln": 5050,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 333",
+              "courseName": "Human Nutrition and Health",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "CUE  202",
+              "instructor": "K BEERMAN",
+              "instructors": [
+                "K BEERMAN"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 100,
+                "total": 100,
+                "available": 0,
+                "label": "100/100"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Mathematical Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 340,
+          "courseCode": "BIOLOGY 340",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3089",
+              "sln": 3089,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 340",
+              "courseName": "Introduction to Mathematical Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "CUE  412",
+              "instructor": "Y LIU",
+              "instructors": [
+                "Y LIU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 353,
+          "courseCode": "BIOLOGY 353",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5051",
+              "sln": 5051,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "TDAD 276",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 109,
+                "total": 156,
+                "available": 47,
+                "label": "109/156"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5052",
+              "sln": 5052,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 26,
+                "available": 0,
+                "label": "26/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5053",
+              "sln": 5053,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 26,
+                "available": 0,
+                "label": "26/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5054",
+              "sln": 5054,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "17:10 - 20:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "17:10 - 20:00"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 26,
+                "available": 4,
+                "label": "22/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5055",
+              "sln": 5055,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "07:45 - 10:35",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "07:45 - 10:35"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 26,
+                "available": 21,
+                "label": "5/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6149",
+              "sln": 6149,
+              "sectionNumber": 5,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 16,
+                "total": 26,
+                "available": 10,
+                "label": "16/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6454",
+              "sln": 6454,
+              "sectionNumber": 6,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "18:10 - 21:00",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "18:10 - 21:00"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "R SHARTAU",
+              "instructors": [
+                "R SHARTAU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 14,
+                "total": 26,
+                "available": 12,
+                "label": "14/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "General Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 372,
+          "courseCode": "BIOLOGY 372",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5056",
+              "sln": 5056,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "TODD 133",
+              "instructor": "K BARTOWITZ",
+              "instructors": [
+                "K BARTOWITZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 66,
+                "total": 90,
+                "available": 24,
+                "label": "66/90"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5057",
+              "sln": 5057,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "12:05 - 14:55",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "12:05 - 14:55"
+                }
+              ],
+              "location": "EAST G0094",
+              "instructor": "K BARTOWITZ",
+              "instructors": [
+                "K BARTOWITZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 18,
+                "available": 0,
+                "label": "18/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5058",
+              "sln": 5058,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0094",
+              "instructor": "K BARTOWITZ",
+              "instructors": [
+                "K BARTOWITZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 18,
+                "available": 0,
+                "label": "18/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5059",
+              "sln": 5059,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "EAST G0094",
+              "instructor": "K BARTOWITZ",
+              "instructors": [
+                "K BARTOWITZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 18,
+                "available": 13,
+                "label": "5/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5060",
+              "sln": 5060,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "EAST G0094",
+              "instructor": "K BARTOWITZ",
+              "instructors": [
+                "K BARTOWITZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 18,
+                "available": 7,
+                "label": "11/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5941",
+              "sln": 5941,
+              "sectionNumber": 5,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0094",
+              "instructor": "K BARTOWITZ",
+              "instructors": [
+                "K BARTOWITZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 14,
+                "total": 18,
+                "available": 4,
+                "label": "14/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Plants and People",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 401,
+          "courseCode": "BIOLOGY 401",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5061",
+              "sln": 5061,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 401",
+              "courseName": "Plants and People",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "THOM 209",
+              "instructor": "S RITCHIE",
+              "instructors": [
+                "S RITCHIE"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 25,
+                "available": 0,
+                "label": "25/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6456",
+              "sln": 6456,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 401",
+              "courseName": "Plants and People",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "COLL 135",
+              "instructor": "E ROALSON",
+              "instructors": [
+                "E ROALSON"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 30,
+                "total": 30,
+                "available": 0,
+                "label": "30/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Contemporary Genetics",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 408,
+          "courseCode": "BIOLOGY 408",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8927",
+              "sln": 8927,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 408",
+              "courseName": "Contemporary Genetics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A STORFER",
+              "instructors": [
+                "A STORFER"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 12,
+                "total": 13,
+                "available": 1,
+                "label": "12/13"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Biology of Fishes",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 412,
+          "courseCode": "BIOLOGY 412",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6861",
+              "sln": 6861,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 412",
+              "courseName": "Biology of Fishes",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "TODD 413",
+              "instructor": "W DOWD",
+              "instructors": [
+                "W DOWD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 17,
+                "total": 40,
+                "available": 23,
+                "label": "17/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6862",
+              "sln": 6862,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 412",
+              "courseName": "Biology of Fishes",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0080",
+              "instructor": "W DOWD",
+              "instructors": [
+                "W DOWD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 12,
+                "total": 20,
+                "available": 8,
+                "label": "12/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6863",
+              "sln": 6863,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 412",
+              "courseName": "Biology of Fishes",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:45"
+                }
+              ],
+              "location": "EAST G0080",
+              "instructor": "W DOWD",
+              "instructors": [
+                "W DOWD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 20,
+                "available": 15,
+                "label": "5/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ornithology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 423,
+          "courseCode": "BIOLOGY 423",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "5801",
+              "sln": 5801,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 423",
+              "courseName": "Ornithology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "FULM 125",
+              "instructor": "D MONK",
+              "instructors": [
+                "D MONK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 48,
+                "available": 23,
+                "label": "25/48"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5803",
+              "sln": 5803,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 423",
+              "courseName": "Ornithology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "EAST 196",
+              "instructor": "D MONK",
+              "instructors": [
+                "D MONK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 15,
+                "total": 24,
+                "available": 9,
+                "label": "15/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "5802",
+              "sln": 5802,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 423",
+              "courseName": "Ornithology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "EAST 196",
+              "instructor": "D MONK",
+              "instructors": [
+                "D MONK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 24,
+                "available": 14,
+                "label": "10/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Animal Behavior",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 438,
+          "courseCode": "BIOLOGY 438",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7135",
+              "sln": 7135,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 438",
+              "courseName": "Animal Behavior",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "COLL 220",
+              "instructor": "H WATTS",
+              "instructors": [
+                "H WATTS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 27,
+                "total": 60,
+                "available": 33,
+                "label": "27/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Community Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 462,
+          "courseCode": "BIOLOGY 462",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11210",
+              "sln": 11210,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 462",
+              "courseName": "Community Ecology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "SPRK 233",
+              "instructor": "J ZAMBRANO",
+              "instructors": [
+                "J ZAMBRANO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 20,
+                "available": 16,
+                "label": "4/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Organisms and Global Change",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 483,
+          "courseCode": "BIOLOGY 483",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11651",
+              "sln": 11651,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 483",
+              "courseName": "Organisms and Global Change",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K MITTELSTADT",
+              "instructors": [
+                "K MITTELSTADT"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Synthesis and Communication of Independent Research",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 489,
+          "courseCode": "BIOLOGY 489",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12145",
+              "sln": 12145,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 489",
+              "courseName": "Synthesis and Communication of Independent Research",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R EVANS",
+              "instructors": [
+                "R EVANS"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Topics in Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 492,
+          "courseCode": "BIOLOGY 492",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5767",
+              "sln": 5767,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 492",
+              "courseName": "Topics in Biology",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 18:00"
+                }
+              ],
+              "location": "THOM 21",
+              "instructor": "S LOPEZ-LOPEZ",
+              "instructors": [
+                "S LOPEZ-LOPEZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship in Biology, Botany, and Zoology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 495,
+          "courseCode": "BIOLOGY 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5062",
+              "sln": 5062,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 495",
+              "courseName": "Internship in Biology, Botany, and Zoology",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems and Reports",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 496,
+          "courseCode": "BIOLOGY 496",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5063",
+              "sln": 5063,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 496",
+              "courseName": "Special Problems and Reports",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Instructional Practicum",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 497,
+          "courseCode": "BIOLOGY 497",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5064",
+              "sln": 5064,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 497",
+              "courseName": "Instructional Practicum",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 34,
+                "total": 40,
+                "available": 6,
+                "label": "34/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 499,
+          "courseCode": "BIOLOGY 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5065",
+              "sln": 5065,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "W DOWD",
+              "instructors": [
+                "W DOWD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 25,
+                "available": 24,
+                "label": "1/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 500,
+          "courseCode": "BIOLOGY 500",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3571",
+              "sln": 3571,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 500",
+              "courseName": "Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "TODD 334",
+              "instructor": "K BEERMAN",
+              "instructors": [
+                "K BEERMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3572",
+              "sln": 3572,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 500",
+              "courseName": "Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "15:10 - 16:25",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "15:10 - 16:25"
+                }
+              ],
+              "location": "TODD 334",
+              "instructor": "K BEERMAN",
+              "instructors": [
+                "K BEERMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 13,
+                "total": 40,
+                "available": 27,
+                "label": "13/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Proposal Defense Seminar",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 501,
+          "courseCode": "BIOLOGY 501",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3573",
+              "sln": 3573,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 501",
+              "courseName": "Proposal Defense Seminar",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K BEERMAN",
+              "instructors": [
+                "K BEERMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3574",
+              "sln": 3574,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 501",
+              "courseName": "Proposal Defense Seminar",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K BEERMAN",
+              "instructors": [
+                "K BEERMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Experimental Methods in Molecular Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 504,
+          "courseCode": "BIOLOGY 504",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6640",
+              "sln": 6640,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 504",
+              "courseName": "Experimental Methods in Molecular Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "SPRK 333",
+              "instructor": "C RODRIGUEZ FURLAN",
+              "instructors": [
+                "C RODRIGUEZ FURLAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 15,
+                "available": 12,
+                "label": "3/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Plant Cell Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 537,
+          "courseCode": "BIOLOGY 537",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6868",
+              "sln": 6868,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 537",
+              "courseName": "Plant Cell Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "COLL 235",
+              "instructor": "H HELLMANN",
+              "instructors": [
+                "H HELLMANN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 20,
+                "available": 19,
+                "label": "1/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Statistical Genomics",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 545,
+          "courseCode": "BIOLOGY 545",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3643",
+              "sln": 3643,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 545",
+              "courseName": "Statistical Genomics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "TDAD 276",
+              "instructor": "Z ZHANG",
+              "instructors": [
+                "Z ZHANG"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3659",
+              "sln": 3659,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 545",
+              "courseName": "Statistical Genomics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "Z ZHANG",
+              "instructors": [
+                "Z ZHANG"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3663",
+              "sln": 3663,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 545",
+              "courseName": "Statistical Genomics",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 17:40",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 17:40"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "Z ZHANG",
+              "instructors": [
+                "Z ZHANG"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Community Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 562,
+          "courseCode": "BIOLOGY 562",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11211",
+              "sln": 11211,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 562",
+              "courseName": "Community Ecology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "SPRK 233",
+              "instructor": "J ZAMBRANO",
+              "instructors": [
+                "J ZAMBRANO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 10,
+                "available": 9,
+                "label": "1/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Quantitative Toolkit for Biologists",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 571,
+          "courseCode": "BIOLOGY 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7548",
+              "sln": 7548,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 571",
+              "courseName": "Quantitative Toolkit for Biologists",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VC   PUL",
+              "instructor": "S RUDMAN",
+              "instructors": [
+                "S RUDMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 2,
+                "available": 0,
+                "label": "4/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Communication in Biology - Grant Writing",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 582,
+          "courseCode": "BIOLOGY 582",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5869",
+              "sln": 5869,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 582",
+              "courseName": "Professional Communication in Biology - Grant Writing",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "10:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "10:10 - 12:00"
+                }
+              ],
+              "location": "WLSH 5",
+              "instructor": "E SCHWARTZ",
+              "instructors": [
+                "E SCHWARTZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 18,
+                "available": 10,
+                "label": "8/18"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 700,
+          "courseCode": "BIOLOGY 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3576",
+              "sln": 3576,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BRUNNER",
+              "instructors": [
+                "J BRUNNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 50,
+                "available": 48,
+                "label": "2/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 702,
+          "courseCode": "BIOLOGY 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5842",
+              "sln": 5842,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 702",
+              "courseName": "Master's Special Problems, Directed Study and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A CAVAGNETTO",
+              "instructors": [
+                "A CAVAGNETTO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 800,
+          "courseCode": "BIOLOGY 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3577",
+              "sln": 3577,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K BEERMAN",
+              "instructors": [
+                "K BEERMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 50,
+                "available": 42,
+                "label": "8/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "BIOMDSCI",
@@ -46002,8 +51123,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S WANG",
+              "instructors": [
+                "S WANG"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "V",
@@ -46037,8 +51160,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S WANG",
+              "instructors": [
+                "S WANG"
+              ],
               "ucore": "QUAN",
               "coop": false,
               "footnotes": "V",
@@ -46172,8 +51297,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "R ACHARYA",
+              "instructors": [
+                "R ACHARYA"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
@@ -46410,10 +51537,8 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "V ARIF",
-              "instructors": [
-                "V ARIF"
-              ],
+              "instructor": "",
+              "instructors": [],
               "ucore": "",
               "coop": false,
               "footnotes": "",
@@ -46794,8 +51919,10 @@
                 }
               ],
               "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
+              "instructor": "S HAQUE",
+              "instructors": [
+                "S HAQUE"
+              ],
               "ucore": "",
               "coop": false,
               "footnotes": "V",
