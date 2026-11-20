@@ -247,7 +247,7 @@
 
                         <section class="generator-possibilities" aria-labelledby="generatorPossibilitiesTitle">
                             <h2 class="generator-section-title" id="generatorPossibilitiesTitle">
-                                Other Schedule Possibilities
+                                Combinations:
                             </h2>
                             <p class="generator-empty-state" id="generatorResultsEmpty">
                                 Generated schedule alternatives will appear here.
@@ -256,6 +256,11 @@
                         </section>
                     </div>
 
+                <button type="button" class="mobile-combinations-trigger" id="mobileCombinationsToggle"
+                        aria-expanded="false" aria-controls="mobileCombinationsSheet">
+                    <span>Combinations</span>
+                    <span id="mobileCombinationsCount">(0)</span>
+                </button>
                 <button type="button" class="mobile-generator-trigger" id="mobileGeneratorToggle"
                         aria-expanded="false" aria-controls="mobileGeneratorSheet">
                     <span>Selected courses</span>
@@ -318,6 +323,16 @@
                  aria-label="Selected courses" tabindex="-1">
             <div class="mobile-generator-grabber" aria-hidden="true"></div>
             <div id="mobileGeneratorPanelHost"></div>
+        </section>
+    </div>
+
+    <div class="mobile-combinations-sheet" id="mobileCombinationsSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="mobile-combinations-backdrop" data-close-combinations
+                aria-label="Close combinations"></button>
+        <section class="mobile-combinations-panel" role="dialog" aria-modal="true"
+                 aria-label="Combinations" tabindex="-1">
+            <div class="mobile-combinations-grabber" aria-hidden="true"></div>
+            <div id="mobileCombinationsPanelHost"></div>
         </section>
     </div>
 

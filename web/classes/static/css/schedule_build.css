@@ -818,8 +818,13 @@
     display: none;
 }
 
+.mobile-combinations-trigger {
+    display: none;
+}
+
 .mobile-conflict-sheet,
-.mobile-generator-sheet {
+.mobile-generator-sheet,
+.mobile-combinations-sheet {
     display: none;
 }
 
@@ -1464,6 +1469,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     body.mobile-misc-sheet-open,
     body.mobile-generator-sheet-open,
+    body.mobile-combinations-sheet-open,
     body.mobile-course-sheet-open {
         overflow: hidden;
     }
@@ -1477,13 +1483,16 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-shell {
+        box-sizing: border-box;
         display: block;
         flex: 1 1 auto;
         height: 100%;
+        margin: 0;
         max-width: none;
         min-height: 0;
         order: 2;
         overflow: hidden;
+        width: 100%;
     }
 
     .mobile-pane {
@@ -1509,7 +1518,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-pane {
+        box-sizing: border-box;
         min-height: 0;
+        min-width: 0;
+        width: 100%;
     }
 
     .schedule-view-tabs {
@@ -1523,6 +1535,13 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         font-size: 0.82rem;
         padding: 8px 10px;
         white-space: nowrap;
+    }
+
+    .schedule-view-panel,
+    .schedule-view-panel .calendar-wrap {
+        box-sizing: border-box;
+        min-width: 0;
+        width: 100%;
     }
 
     .schedule-generator-panel {
@@ -1542,11 +1561,13 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .generator-schedule-section {
         flex: 0 0 auto;
         min-height: 0;
+        min-width: 0;
     }
 
     .generator-actions {
         align-items: stretch;
         flex-direction: column;
+        min-width: 0;
     }
 
     .generator-actions .generator-section-title {
@@ -1554,19 +1575,58 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .generator-action-buttons {
+        align-items: stretch;
         flex-direction: column;
+        min-width: 0;
+        width: 100%;
     }
 
     .generator-action-btn,
     .generator-options-btn {
+        box-sizing: border-box;
+        max-width: 100%;
         min-height: 44px;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        white-space: normal;
         width: 100%;
     }
 
-    .generator-calendar-wrap {
+    .schedule-generator-panel .generator-calendar-wrap {
         flex: 0 0 auto;
-        height: 320px;
+        height: clamp(240px, 40dvh, 320px);
         min-height: 0;
+        overflow-anchor: none;
+        overflow-x: hidden;
+    }
+
+    .generator-calendar-wrap .calendar-header,
+    .generator-calendar-wrap .calendar-grid {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .generator-calendar-wrap .calendar-header-time,
+    .generator-calendar-wrap .calendar-header-day {
+        font-size: 0.7rem;
+        min-height: 40px;
+    }
+
+    .generator-calendar-wrap .calendar-time-slot {
+        font-size: 0.68rem;
+        padding-right: 2px;
+        white-space: nowrap;
+    }
+
+    .generator-possibilities {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .generator-preview {
+        flex-basis: 96px;
+        height: 96px;
+        width: 128px;
     }
 
     .field-grid {
@@ -2030,7 +2090,8 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .mobile-misc-trigger,
-    .mobile-generator-trigger {
+    .mobile-generator-trigger,
+    .mobile-combinations-trigger {
         align-items: center;
         background: var(--color-surface);
         border: 1px solid var(--line-strong);
@@ -2063,7 +2124,10 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     .schedule-generator-panel .mobile-generator-trigger {
         display: inline-flex;
-        margin-top: auto;
+    }
+
+    .schedule-generator-panel .mobile-combinations-trigger {
+        display: inline-flex;
     }
 
     .mobile-misc-panel .misc-panel {
@@ -2082,7 +2146,8 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         overscroll-behavior: contain;
     }
 
-    .mobile-generator-sheet {
+    .mobile-generator-sheet,
+    .mobile-combinations-sheet {
         bottom: 0;
         display: block;
         left: 0;
@@ -2095,19 +2160,22 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         z-index: 3000;
     }
 
-    .mobile-generator-sheet.is-open {
+    .mobile-generator-sheet.is-open,
+    .mobile-combinations-sheet.is-open {
         opacity: 1;
         pointer-events: auto;
     }
 
-    .mobile-generator-backdrop {
+    .mobile-generator-backdrop,
+    .mobile-combinations-backdrop {
         background: var(--color-overlay);
         border: 0;
         inset: 0;
         position: absolute;
     }
 
-    .mobile-generator-panel {
+    .mobile-generator-panel,
+    .mobile-combinations-panel {
         background: var(--color-surface);
         border-radius: 16px 16px 0 0;
         bottom: 0;
@@ -2122,11 +2190,13 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         transition: transform 180ms ease;
     }
 
-    .mobile-generator-sheet.is-open .mobile-generator-panel {
+    .mobile-generator-sheet.is-open .mobile-generator-panel,
+    .mobile-combinations-sheet.is-open .mobile-combinations-panel {
         transform: translateY(0);
     }
 
-    .mobile-generator-grabber {
+    .mobile-generator-grabber,
+    .mobile-combinations-grabber {
         background: #d1d5db;
         border-radius: 999px;
         height: 4px;
@@ -2147,6 +2217,24 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior: contain;
+    }
+
+    .mobile-combinations-panel .generator-possibilities {
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .mobile-combinations-panel .generator-preview-list {
+        flex-direction: column;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .mobile-combinations-panel .generator-preview {
+        flex: 0 0 110px;
+        height: 110px;
+        width: 100%;
     }
 
     .mobile-conflict-remove-btn {
@@ -2264,6 +2352,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 :root[data-theme="dark"] .mobile-conflict-panel,
 :root[data-theme="dark"] .mobile-misc-panel,
 :root[data-theme="dark"] .mobile-generator-panel,
+:root[data-theme="dark"] .mobile-combinations-panel,
 :root[data-theme="dark"] .mobile-course-panel,
 :root[data-theme="dark"] .mobile-nav {
     background: var(--color-surface);
@@ -2367,6 +2456,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 .mobile-conflict-panel,
 .mobile-misc-panel,
 .mobile-generator-panel,
+.mobile-combinations-panel,
 .mobile-course-panel {
     transition: transform 180ms ease,
                 background-color 160ms ease,
@@ -2379,6 +2469,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 .mobile-conflict-backdrop,
 .mobile-misc-backdrop,
 .mobile-generator-backdrop,
+.mobile-combinations-backdrop,
 .mobile-course-backdrop {
     transition: opacity 160ms ease, background-color 160ms ease;
 }
@@ -2388,11 +2479,13 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .mobile-conflict-panel,
     .mobile-misc-panel,
     .mobile-generator-panel,
+    .mobile-combinations-panel,
     .mobile-course-panel,
     .mobile-filter-backdrop,
     .mobile-conflict-backdrop,
     .mobile-misc-backdrop,
     .mobile-generator-backdrop,
+    .mobile-combinations-backdrop,
     .mobile-course-backdrop {
         transition-duration: 0ms !important;
     }

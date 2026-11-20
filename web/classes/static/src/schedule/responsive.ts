@@ -9,6 +9,7 @@ import { MOBILE_BREAKPOINT } from "./constants.js";
 
 let activeMobileMiscTrigger: HTMLElement | null = null;
 let activeMobileGeneratorTrigger: HTMLElement | null = null;
+let activeMobileCombinationsTrigger: HTMLElement | null = null;
 
 /**
  * Checks whether the current viewport is at or below the mobile breakpoint.
@@ -59,6 +60,7 @@ export function initializeMobileLayout(): void {
   setMobilePane("search");
   syncMobileMiscPanel();
   syncMobileGeneratorSelection();
+  syncMobileCombinations();
   updateMobileImageExportVisibility();
 }
 
@@ -131,6 +133,71 @@ export function syncMobileGeneratorSelection(): void {
   } else if (!(workarea || generatorPanel).contains(selection)) {
     (workarea || generatorPanel).appendChild(selection);
   }
+}
+
+/** 
+ * Moves the live combinations section between the Generator rail and mobile sheet. 
+ */
+export function syncMobileCombinations(): void {
+  const combinations = document.querySelector(".generator-possibilities");
+  const display = document.querySelector(".generator-display");
+  const host = document.getElementById("mobileCombinationsPanelHost");
+  const sheet = document.getElementById("mobileCombinationsSheet");
+  if (!combinations || !display || !host) return;
+
+  if (isMobileViewport()) {
+    if (!host.contains(combinations)) host.appendChild(combinations);
+  } else {
+    const focusWasInSheet = !!sheet?.contains(document.activeElement);
+    closeMobileCombinationsSheet({ restoreFocus: false });
+    if (!display.contains(combinations)) display.appendChild(combinations);
+    if (focusWasInSheet)
+      document.getElementById("scheduleGeneratorPanel")?.focus({ preventScroll: true });
+  }
+}
+
+/** 
+ * Opens the combinations sheet and moves focus to its dialog.
+ */
+export function openMobileCombinationsSheet(trigger?: HTMLElement): void {
+  if (!isMobileViewport()) return;
+  const sheet = document.getElementById("mobileCombinationsSheet");
+  const toggle = document.getElementById("mobileCombinationsToggle");
+  if (!sheet || !toggle) return;
+
+  activeMobileCombinationsTrigger = trigger || toggle;
+  sheet.hidden = false;
+  sheet.inert = false;
+  sheet.setAttribute("aria-hidden", "false");
+  toggle.setAttribute("aria-expanded", "true");
+  document.body.classList.add("mobile-combinations-sheet-open");
+  window.requestAnimationFrame(() => {
+    if (!sheet.inert) sheet.classList.add("is-open");
+  });
+  sheet.querySelector<HTMLElement>(".mobile-combinations-panel")?.focus({ preventScroll: true });
+}
+
+/** 
+ * Closes the combinations sheet and normally restores focus to its trigger.
+ */
+export function closeMobileCombinationsSheet(
+  { restoreFocus = true }: { restoreFocus?: boolean } = {},
+): void {
+  const sheet = document.getElementById("mobileCombinationsSheet");
+  const toggle = document.getElementById("mobileCombinationsToggle");
+  if (!sheet || sheet.hidden) return;
+
+  sheet.classList.remove("is-open");
+  sheet.inert = true;
+  sheet.setAttribute("aria-hidden", "true");
+  if (toggle) toggle.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("mobile-combinations-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
+  if (restoreFocus && activeMobileCombinationsTrigger && document.contains(activeMobileCombinationsTrigger))
+    activeMobileCombinationsTrigger.focus({ preventScroll: true });
+  activeMobileCombinationsTrigger = null;
 }
 
 /**

@@ -7,12 +7,13 @@ import { formatHourLabel } from "./time-and-meetings.js";
 /** 
  * Builds a calendar's axis and cells in the supplied targets. 
  */
-export function renderCalendarScaffold(header: HTMLElement, grid: HTMLElement, cellId: (dayIndex: number, hour: number) => string): void {
+export function renderCalendarScaffold(header: HTMLElement, grid: HTMLElement, cellId: (dayIndex: number, hour: number) => string, options: { fitMobileWeek?: boolean } = {}): void {
   const mobile = isMobileViewport();
+  const fitMobileWeek = mobile && options.fitMobileWeek;
   const days = mobile || hidesWeekends()
     ? DAYS_OF_WEEK.filter((day) => day.key !== "S" && day.key !== "U")
     : DAYS_OF_WEEK;
-  const columns = `${mobile ? "56px" : "82px"} repeat(${days.length}, ${mobile ? "minmax(64px, 1fr)" : "minmax(96px, 1fr)"})`;
+  const columns = fitMobileWeek ? `52px repeat(${days.length}, minmax(0, 1fr))` : `${mobile ? "56px" : "82px"} repeat(${days.length}, ${mobile ? "minmax(64px, 1fr)" : "minmax(96px, 1fr)"})`;
   header.style.gridTemplateColumns = columns;
   grid.style.gridTemplateColumns = columns;
   grid.style.gridTemplateRows = `repeat(${END_HOUR - START_HOUR}, ${HOUR_ROW_HEIGHT}px)`;

@@ -1,6 +1,7 @@
 import { END_HOUR, START_HOUR } from "./constants.js";
 import { renderCalendarScaffold } from "./calendar-scaffold.js";
 import { createElementWithText } from "./dom.js";
+import { isMobileViewport } from "./responsive.js";
 import { formatTimeRangeForDisplay, resolveScheduleGroups } from "./time-and-meetings.js";
 import type { HydratedSection } from "../types.js";
 
@@ -12,7 +13,7 @@ export type GeneratorResultsController = {
 };
 
 /** Prepares the Generator schedule results and returns their update and selection API. */
-export function initializeScheduleGeneratorController(): GeneratorResultsController {
+export function initializeScheduleGeneratorController({ onResultSelected }: { onResultSelected?: () => void } = {}): GeneratorResultsController {
   const header = document.getElementById("generatorCalendarHeader");
   const grid = document.getElementById("generatorCalendarGrid");
   const previews = document.getElementById("generatorPreviewList");
@@ -24,7 +25,9 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
   /** Renders the active candidate into the Generator's main calendar grid. */
   const renderFocusedSchedule = (): void => {
     if (!header || !grid) return;
-    renderCalendarScaffold(header, grid, (day, hour) => `generator-cell-${day}-${hour}`);
+    const scrollTop = calendar?.scrollTop ?? 0;
+    renderCalendarScaffold(header, grid, (day, hour) => `generator-cell-${day}-${hour}`, { fitMobileWeek: true });
+    if (isMobileViewport() && calendar) calendar.scrollLeft = 0;
     const active = results.find((result) => result.id === activeId);
     calendar?.setAttribute("aria-label", active
       ? `Generated schedule possibility ${results.indexOf(active) + 1}`
@@ -45,6 +48,7 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
         }
       }
     }
+    if (calendar) calendar.scrollTop = scrollTop;
   };
 
   /** 
@@ -91,6 +95,7 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
       button.addEventListener("click", () => {
         if (selectResult(result.id)) {
           Array.from(previews.querySelectorAll<HTMLButtonElement>(".generator-preview")).find((preview) => preview.dataset.resultId === result.id)?.focus({ preventScroll: true });
+          onResultSelected?.();
         }
       });
       cards.appendChild(button);
@@ -98,6 +103,8 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
     previews.replaceChildren(cards);
     previews.scrollLeft = scrollLeft;
     previews.scrollTop = scrollTop;
+    const count = document.getElementById("mobileCombinationsCount");
+    if (count) count.textContent = `(${results.length})`;
   };
 
   const render = (): void => {
@@ -115,6 +122,7 @@ export function initializeScheduleGeneratorController(): GeneratorResultsControl
     results = next.slice();
     activeId = results[0]?.id || null;
     render();
+    if (calendar) calendar.scrollTop = 0;
   };
   render();
   

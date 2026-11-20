@@ -31,14 +31,17 @@ import {
 import {
   debounce,
   closeMobileGeneratorSelection,
+  closeMobileCombinationsSheet,
   closeMobileMiscSheet,
   handleMobileNavigation,
   initializeMobileLayout,
   isMobileViewport,
   openMobileGeneratorSelection,
+  openMobileCombinationsSheet,
   openMobileMiscSheet,
   setMobilePane,
   syncMobileGeneratorSelection,
+  syncMobileCombinations,
   syncMobileMiscPanel,
   updateMobileImageExportVisibility,
 } from "./responsive.js";
@@ -84,7 +87,9 @@ export function initializeScheduleApp(): void {
   initializeScheduleOptions();
   initializeMobileLayout();
   initializeScheduleViewTabs();
-  const generatorResults = initializeScheduleGeneratorController();
+  const generatorResults = initializeScheduleGeneratorController({
+    onResultSelected: () => closeMobileCombinationsSheet(),
+  });
   let generatorWorkflow: ReturnType<typeof initializeGeneratorWorkflow> | null = null;
   const generatorSelection = initializeGeneratorSelection({
     getActiveSchedule,
@@ -211,6 +216,10 @@ export function initializeScheduleApp(): void {
       closeMobileGeneratorSelection();
       return;
     }
+    if (target.closest("[data-close-combinations]")) {
+      closeMobileCombinationsSheet();
+      return;
+    }
     const miscToggle = target.closest<HTMLElement>("#mobileMiscToggle");
     if (miscToggle) {
       openMobileMiscSheet(miscToggle);
@@ -219,6 +228,11 @@ export function initializeScheduleApp(): void {
     const generatorToggle = target.closest<HTMLElement>("#mobileGeneratorToggle");
     if (generatorToggle) {
       openMobileGeneratorSelection(generatorToggle);
+      return;
+    }
+    const combinationsToggle = target.closest<HTMLElement>("#mobileCombinationsToggle");
+    if (combinationsToggle) {
+      openMobileCombinationsSheet(combinationsToggle);
       return;
     }
     if (target.closest("[data-close-course]")) {
@@ -257,6 +271,7 @@ export function initializeScheduleApp(): void {
       closeMobileConflictSheet();
       closeMobileMiscSheet();
       closeMobileGeneratorSelection();
+      closeMobileCombinationsSheet();
       closeMobileCourseSheet();
     }
   });
@@ -273,6 +288,7 @@ export function initializeScheduleApp(): void {
     debounce(() => {
       syncMobileMiscPanel();
       syncMobileGeneratorSelection();
+      syncMobileCombinations();
       updateMobileImageExportVisibility();
       if (!isMobileViewport()) closeCourseFilters();
       refreshSchedule();
