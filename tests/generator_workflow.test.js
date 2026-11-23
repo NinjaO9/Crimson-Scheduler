@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { generateSchedules } from "../web/classes/static/src/schedule/schedule-generation.js";
+import { generateSchedules, normalizeGeneratorCount } from "../web/classes/static/src/schedule/schedule-generation.js";
 import {
   hydrateGeneratedResults,
   initializeGeneratorWorkflow,
@@ -49,6 +49,19 @@ describe("schedule generation integration", () => {
       fixed,
       course("conflict", [section("conflict", "9:30 AM - 10:30 AM")]),
     ])).toEqual([]);
+  });
+
+  it("respects a requested result count from 1 through 10", () => {
+    const alternatives = course("flex", Array.from({ length: 12 }, (_, index) =>
+      section(`section-${index}`, "9:00 AM - 10:00 AM"),
+    ));
+
+    expect(generateSchedules([alternatives], 1)).toHaveLength(1);
+    expect(generateSchedules([alternatives], 10)).toHaveLength(10);
+    expect(generateSchedules([alternatives], 20)).toHaveLength(10);
+    expect(generateSchedules([alternatives], 0)).toHaveLength(1);
+    expect(generateSchedules([alternatives])).toHaveLength(3);
+    expect(normalizeGeneratorCount(Number.NaN)).toBe(3);
   });
 
   it("hydrates paired lecture and lab references without touching Creator data", () => {

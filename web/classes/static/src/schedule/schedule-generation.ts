@@ -8,13 +8,19 @@
 import { CatalogCourse, SchedulableSection, SectionReference } from "../types";
 import { parseDaysToIndexes, parseTimeRange } from "./time-and-meetings";
 import { Heap } from "../heap";
+import { GENERATOR_DEFAULT_SCHEDULES, GENERATOR_MAX_SCHEDULES, GENERATOR_MIN_SCHEDULES } from "./constants";
 const DAY_START = 0;
 const DAY_END = 1439; // 1440 min in day (-1 for array indexing)
 const WORD_COUNT = 45; // 32 * 45 = 1440 (minutes in day)
 const DAYS_COUNT = 7;
 const SCHEDULE_AVAILABILITY_MAP = Array.from({ length: DAYS_COUNT }, () => new Uint32Array(WORD_COUNT));
-const K = 3;
-const TOP_K_SCHEDULES = new Heap<ScheduleContender>((a, b) => a.score - b.score, K); // Max heap to store best K schedules
+let TOP_K_SCHEDULES = new Heap<ScheduleContender>((a, b) => a.score - b.score, GENERATOR_DEFAULT_SCHEDULES); // Max heap to store best K schedules
+
+export function normalizeGeneratorCount(count: number): number {
+    return Number.isFinite(count)
+        ? Math.min(GENERATOR_MAX_SCHEDULES, Math.max(GENERATOR_MIN_SCHEDULES, Math.trunc(count)))
+        : GENERATOR_DEFAULT_SCHEDULES;
+}
 
 interface SectionCombination {
     lecture? : SchedulableSection;
@@ -449,12 +455,12 @@ function findBestKSchedules(courses : EnrichedCatalogCourse[], index : number = 
 
 /** 
  * Function for external modules to interact with schedule generation logic. Nothing much to see here.
- * 
+ * @param count - Requested result limit, clamped to 1–10.
  */
-export function generateSchedules(courses: CatalogCourse[]): ScheduleContender[]
+export function generateSchedules(courses: CatalogCourse[], count: number = GENERATOR_DEFAULT_SCHEDULES): ScheduleContender[]
 {
     resetScheduleMap();
-    while (!TOP_K_SCHEDULES.isEmpty()) TOP_K_SCHEDULES.pop();
+    TOP_K_SCHEDULES = new Heap<ScheduleContender>((a, b) => a.score - b.score, normalizeGeneratorCount(count));
     if (!courses.length) return [];
     try
     {

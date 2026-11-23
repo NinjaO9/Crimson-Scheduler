@@ -70,6 +70,8 @@ import { initializeScheduleViewTabs } from "./schedule-views.js";
 import { initializeGeneratorSelection } from "./generator-selection.js";
 import { initializeScheduleGeneratorController } from "./generator-results.js";
 import { initializeGeneratorWorkflow } from "./generator-workflow.js";
+import { initializeGeneratorOptions } from "./generator-options.js";
+import { generateSchedules } from "./schedule-generation.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
@@ -92,6 +94,7 @@ export function initializeScheduleApp(): void {
   const generatorResults = initializeScheduleGeneratorController({
     onResultSelected: () => closeMobileCombinationsSheet(),
   });
+  const generatorOptions = initializeGeneratorOptions();
   let generatorWorkflow: ReturnType<typeof initializeGeneratorWorkflow> | null = null;
   const generatorSelection = initializeGeneratorSelection({
     getActiveSchedule,
@@ -100,7 +103,11 @@ export function initializeScheduleApp(): void {
     onSelectionChange: () => generatorWorkflow?.selectionChanged(),
   });
   
-  generatorWorkflow = initializeGeneratorWorkflow(generatorSelection.getCourses, generatorResults);
+  generatorWorkflow = initializeGeneratorWorkflow(
+    generatorSelection.getCourses,
+    generatorResults,
+    (courses) => generateSchedules(courses, generatorOptions.getCount()),
+  );
 
   const addGeneratedButton = document.getElementById("addGeneratedScheduleBtn");
   addGeneratedButton?.addEventListener("click", () => {

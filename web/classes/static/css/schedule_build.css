@@ -1465,6 +1465,7 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
     body.mobile-misc-sheet-open,
     body.mobile-generator-sheet-open,
+    body.mobile-generator-options-sheet-open,
     body.mobile-combinations-sheet-open,
     body.mobile-course-sheet-open {
         overflow: hidden;
@@ -2218,6 +2219,96 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior: contain;
+    }
+
+    .mobile-generator-options-panel {
+        max-height: min(70dvh, 360px);
+    }
+
+    .generator-options-header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+
+    .generator-options-header h2 {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    .generator-options-header .filter-done-btn {
+        min-height: 44px;
+    }
+
+    .generator-options-label {
+        color: var(--color-text);
+        font-weight: 800;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .generator-count-stepper {
+        align-items: center;
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .generator-count-button,
+    .generator-count-stepper output {
+        align-items: center;
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        display: inline-flex;
+        justify-content: center;
+        min-height: 44px;
+    }
+
+    .generator-count-button {
+        background: var(--color-surface);
+        color: var(--crimson);
+        min-width: 44px;
+    }
+
+    .generator-count-button svg {
+        fill: none;
+        height: 20px;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.5;
+        width: 20px;
+    }
+
+    .generator-count-button:not(:disabled):is(:hover, :focus-visible) {
+        background: var(--color-accent-subtle);
+        border-color: var(--crimson);
+        outline: 2px solid var(--crimson);
+        outline-offset: 2px;
+    }
+
+    .generator-count-button:disabled {
+        color: var(--text-muted);
+        cursor: not-allowed;
+        opacity: 0.55;
+    }
+
+    .generator-count-stepper output {
+        background: var(--color-surface-raised);
+        color: var(--color-text);
+        font-size: 1.25rem;
+        font-weight: 800;
+        min-width: 64px;
+    }
+
+    .generator-options-field p {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        margin: 8px 0 0;
+        text-align: center;
     }
 
     .mobile-combinations-panel .generator-possibilities {
