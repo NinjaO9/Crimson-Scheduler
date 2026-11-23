@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T09:01:20.320040+00:00",
+  "generatedAt": "2026-11-23T20:35:14.290562+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -1228,6 +1228,395 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ART",
+      "courses": [
+        {
+          "course": "Introduction to Art",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 101,
+          "courseCode": "ART 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2334",
+              "sln": 2334,
+              "sectionNumber": 1,
+              "courseCode": "ART 101",
+              "courseName": "Introduction to Art",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H MEREDITH",
+              "instructors": [
+                "H MEREDITH"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 06"
+              }
+            }
+          ]
+        },
+        {
+          "course": "2D Art and Design",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 102,
+          "courseCode": "ART 102",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2335",
+              "sln": 2335,
+              "sectionNumber": 1,
+              "courseCode": "ART 102",
+              "courseName": "2D Art and Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D JANSSEN",
+              "instructors": [
+                "D JANSSEN"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "World Art History I",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 201,
+          "courseCode": "ART 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2336",
+              "sln": 2336,
+              "sectionNumber": 1,
+              "courseCode": "ART 201",
+              "courseName": "World Art History I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H MEREDITH",
+              "instructors": [
+                "H MEREDITH"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 06"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Modern Art-19th Century",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 303,
+          "courseCode": "ART 303",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2222",
+              "sln": 2222,
+              "sectionNumber": 1,
+              "courseCode": "ART 303",
+              "courseName": "Modern Art-19th Century",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N THRUSH",
+              "instructors": [
+                "N THRUSH"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Modern Art-20th Century",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 304,
+          "courseCode": "ART 304",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2337",
+              "sln": 2337,
+              "sectionNumber": 1,
+              "courseCode": "ART 304",
+              "courseName": "Modern Art-20th Century",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "N THRUSH",
+              "instructors": [
+                "N THRUSH"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Drawing",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 312,
+          "courseCode": "ART 312",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2342",
+              "sln": 2342,
+              "sectionNumber": 1,
+              "courseCode": "ART 312",
+              "courseName": "Advanced Drawing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D JANSSEN",
+              "instructors": [
+                "D JANSSEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics - Digital Media",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 363,
+          "courseCode": "ART 363",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2338",
+              "sln": 2338,
+              "sectionNumber": 1,
+              "courseCode": "ART 363",
+              "courseName": "Special Topics - Digital Media",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D JANSSEN",
+              "instructors": [
+                "D JANSSEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sketchbook, Creative Ideation",
+          "subject": "ART",
+          "subjectPrefix": "ART",
+          "courseNumber": 398,
+          "courseCode": "ART 398",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2339",
+              "sln": 2339,
+              "sectionNumber": 1,
+              "courseCode": "ART 398",
+              "courseName": "Sketchbook, Creative Ideation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S MEISEL",
+              "instructors": [
+                "S MEISEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "CV",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
               }
             }
           ]
@@ -4982,6 +5371,52 @@
           ]
         },
         {
+          "course": "Digital Storytelling",
+          "subject": "ENGLISH",
+          "subjectPrefix": "Engl",
+          "courseNumber": 354,
+          "courseCode": "ENGLISH 354",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2428",
+              "sln": 2428,
+              "sectionNumber": 1,
+              "courseCode": "ENGLISH 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 11,
+                "available": 11,
+                "label": "0/11"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
           "course": "Editing and Publishing",
           "subject": "ENGLISH",
           "subjectPrefix": "Engl",
@@ -8099,6 +8534,201 @@
                 "total": 35,
                 "available": 35,
                 "label": "0/35"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HONORS",
+      "courses": [
+        {
+          "course": "Principles and Research Methods in Social Science",
+          "subject": "HONORS",
+          "subjectPrefix": "U H",
+          "courseNumber": 270,
+          "courseCode": "HONORS 270",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2573",
+              "sln": 2573,
+              "sectionNumber": 1,
+              "courseCode": "HONORS 270",
+              "courseName": "Principles and Research Methods in Social Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C CRISS",
+              "instructors": [
+                "C CRISS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Contextual Understanding in the Arts and Humanities",
+          "subject": "HONORS",
+          "subjectPrefix": "U H",
+          "courseNumber": 280,
+          "courseCode": "HONORS 280",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2574",
+              "sln": 2574,
+              "sectionNumber": 1,
+              "courseCode": "HONORS 280",
+              "courseName": "Contextual Understanding in the Arts and Humanities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Case Study: Global Issues in Social Sciences",
+          "subject": "HONORS",
+          "subjectPrefix": "U H",
+          "courseNumber": 370,
+          "courseCode": "HONORS 370",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2576",
+              "sln": 2576,
+              "sectionNumber": 1,
+              "courseCode": "HONORS 370",
+              "courseName": "Case Study: Global Issues in Social Sciences",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T SCHMAUS",
+              "instructors": [
+                "T SCHMAUS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Case Study: Global Issues in the Sciences",
+          "subject": "HONORS",
+          "subjectPrefix": "U H",
+          "courseNumber": 390,
+          "courseCode": "HONORS 390",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2578",
+              "sln": 2578,
+              "sectionNumber": 1,
+              "courseCode": "HONORS 390",
+              "courseName": "Case Study: Global Issues in the Sciences",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
               },
               "dates": {
                 "start": "Jun 21",
