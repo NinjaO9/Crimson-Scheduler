@@ -248,6 +248,75 @@ describe('CourseApi', () => {
         expect(api.normalizePayload({ subjects: 'invalid' })).toEqual([]);
     });
 
+    it('finds the course that owns a section in a term dataset', async () => {
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+            ok: true,
+            json: async () => ({
+                subjects: [{
+                    subject: 'TEST',
+                    courses: [
+                        {
+                            courseNumber: 100,
+                            courseName: 'First Course',
+                            sections: [{ sln: 1001 }],
+                        },
+                        {
+                            courseNumber: 200,
+                            courseName: 'Target Course',
+                            sections: [{ sln: 2001 }, { sln: 2002 }],
+                        },
+                    ],
+                }],
+            }),
+        }));
+
+        const course = await api.findCourseFromSection('test-term-course-lookup', '2002');
+
+        expect(course).toMatchObject({
+            course_code: 'TEST 200',
+            course_name: 'Target Course',
+        });
+        expect(course.lecture_sections.map(section => section.section_id))
+            .toEqual(['2001', '2002']);
+    });
+
+    it('returns null when a section is not present in the term dataset', async () => {
+        vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+            ok: true,
+            json: async () => ({
+                subjects: [{
+                    subject: 'TEST',
+                    courses: [{ courseNumber: 100, sections: [{ sln: 1001 }] }],
+                }],
+            }),
+        }));
+
+        await expect(api.findCourseFromSection('test-term-missing-section', '9999'))
+            .resolves.toBeNull();
+    });
+
+    it('reuses the cached term dataset for repeated section-to-course lookups', async () => {
+        const fetchMock = vi.fn().mockResolvedValue({
+            ok: true,
+            json: async () => ({
+                subjects: [{
+                    subject: 'TEST',
+                    courses: [{
+                        courseNumber: 300,
+                        sections: [{ sln: 3001 }, { sln: 3002 }],
+                    }],
+                }],
+            }),
+        });
+        vi.stubGlobal('fetch', fetchMock);
+
+        const firstCourse = await api.findCourseFromSection('test-term-course-cache', '3001');
+        const secondCourse = await api.findCourseFromSection('test-term-course-cache', '3002');
+
+        expect(firstCourse).toBe(secondCourse);
+        expect(fetchMock).toHaveBeenCalledTimes(1);
+    });
+
     it('caches successful fetches and surfaces failed responses', async () => {
         const fetchMock = vi.fn().mockResolvedValue({
             ok: true,

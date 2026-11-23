@@ -30,19 +30,28 @@ import {
 } from "./preferences.js";
 import {
   debounce,
+  closeMobileGeneratorSelection,
+  closeMobileCombinationsSheet,
   closeMobileMiscSheet,
   handleMobileNavigation,
   initializeMobileLayout,
   isMobileViewport,
+  openMobileGeneratorSelection,
+  openMobileCombinationsSheet,
   openMobileMiscSheet,
   setMobilePane,
+  syncMobileGeneratorSelection,
+  syncMobileCombinations,
   syncMobileMiscPanel,
   updateMobileImageExportVisibility,
 } from "./responsive.js";
 import {
+  addSchedule,
   addSectionSelection,
   clearSchedule,
+  getActiveSchedule,
   getSchedule,
+  getSchedules,
   hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
@@ -57,6 +66,12 @@ import { initializeScheduleExport } from "./export-image.js";
 import { initializeScheduleSharing } from "./sharing.js";
 import { initializeCalendarExport } from "./export-schedule.js";
 import { initializeCatalogFreshness } from "./catalog-freshness.js";
+import { initializeScheduleViewTabs } from "./schedule-views.js";
+import { initializeGeneratorSelection } from "./generator-selection.js";
+import { initializeScheduleGeneratorController } from "./generator-results.js";
+import { initializeGeneratorWorkflow } from "./generator-workflow.js";
+import { initializeGeneratorOptions } from "./generator-options.js";
+import { generateSchedules } from "./schedule-generation.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
@@ -75,6 +90,46 @@ export function initializeScheduleApp(): void {
   initializeScheduleState();
   initializeScheduleOptions();
   initializeMobileLayout();
+  initializeScheduleViewTabs();
+  const generatorResults = initializeScheduleGeneratorController({
+    onResultSelected: () => closeMobileCombinationsSheet(),
+  });
+  const generatorOptions = initializeGeneratorOptions();
+  let generatorWorkflow: ReturnType<typeof initializeGeneratorWorkflow> | null = null;
+  const generatorSelection = initializeGeneratorSelection({
+    getActiveSchedule,
+    resolveCourse: (termSlug, sectionId) =>
+      window.CourseApi.findCourseFromSection(termSlug, sectionId),
+    onSelectionChange: () => generatorWorkflow?.selectionChanged(),
+  });
+  
+  generatorWorkflow = initializeGeneratorWorkflow(
+    generatorSelection.getCourses,
+    generatorResults,
+    (courses) => generateSchedules(courses, generatorOptions.getCount()),
+  );
+
+  const addGeneratedButton = document.getElementById("addGeneratedScheduleBtn");
+  addGeneratedButton?.addEventListener("click", () => {
+    const result = generatorResults.getActiveResult();
+    if (!result) return;
+    const existingNames = new Set(getSchedules().map((schedule) => schedule.name));
+    let number = 1;
+    while (existingNames.has(`Generated ${number}`)) number += 1;
+    const name = `Generated ${number}`;
+    const saved = addSchedule(result.sections.map(({ term_slug, section_id, schedule_group_id }) => ({
+      term_slug,
+      section_id: String(section_id),
+      schedule_group_id: schedule_group_id ?? null,
+    })), name);
+    const status = document.getElementById("addGeneratedScheduleStatus");
+    if (saved) refreshScheduleSelector();
+    addGeneratedButton.textContent = saved ? "Added to list" : "Could not add";
+    window.setTimeout(() => { addGeneratedButton.textContent = "Add Schedule"; }, 2000);
+    if (status) status.textContent = saved
+      ? `${saved.name} added to your schedule list.`
+      : "Unable to add schedule. Please try again.";
+  });
 
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {
@@ -83,9 +138,11 @@ export function initializeScheduleApp(): void {
       },
     });
     updateSearchResultTimeDisplays();
+    generatorResults.refresh();
   };
 
   const hydrateActiveSchedule = async () => {
+    generatorWorkflow?.selectionChanged();
     try {
       const result = await hydrateSchedule((termSlug) => window.CourseApi.fetchDatasetByKey(termSlug));
       if (result.missingCount)
@@ -96,6 +153,7 @@ export function initializeScheduleApp(): void {
       console.error("Unable to hydrate saved schedule:", error);
     }
     refreshSchedule();
+    await generatorSelection.loadFromActiveSchedule();
   };
 
   initializeScheduleSelector({ onScheduleChange: hydrateActiveSchedule });
@@ -112,6 +170,8 @@ export function initializeScheduleApp(): void {
     },
     onPreview: renderSectionGhost,
     onClearPreview: clearSectionGhosts,
+    onAddGeneratorCourse: generatorSelection.addCourse,
+    isGeneratorCourseSelected: generatorSelection.hasCourse,
   });
 
   const sharing = initializeScheduleSharing({
@@ -122,7 +182,10 @@ export function initializeScheduleApp(): void {
       if (name !== undefined) setScheduleSelectorName(name);
       else refreshScheduleSelector();
     },
-    refreshSchedule,
+    refreshSchedule: () => {
+      refreshSchedule();
+      void generatorSelection.loadFromActiveSchedule();
+    },
     showSchedulePane,
   });
 
@@ -150,6 +213,15 @@ export function initializeScheduleApp(): void {
       return;
     }
 
+    const removeGeneratorCourseButton = target.closest<HTMLElement>(
+      ".remove-generator-course-btn",
+    );
+    if (removeGeneratorCourseButton) {
+      const courseKey = removeGeneratorCourseButton.dataset.courseKey;
+      if (courseKey) generatorSelection.removeCourse(courseKey);
+      return;
+    }
+
     const removeMiscButton = target.closest<HTMLElement>(".remove-misc-btn");
     if (removeMiscButton) {
       const sectionKey = removeMiscButton.getAttribute("data-section-key") ||
@@ -171,9 +243,27 @@ export function initializeScheduleApp(): void {
       closeMobileMiscSheet();
       return;
     }
+    if (target.closest("[data-close-generator-selection]")) {
+      closeMobileGeneratorSelection();
+      return;
+    }
+    if (target.closest("[data-close-combinations]")) {
+      closeMobileCombinationsSheet();
+      return;
+    }
     const miscToggle = target.closest<HTMLElement>("#mobileMiscToggle");
     if (miscToggle) {
       openMobileMiscSheet(miscToggle);
+      return;
+    }
+    const generatorToggle = target.closest<HTMLElement>("#mobileGeneratorToggle");
+    if (generatorToggle) {
+      openMobileGeneratorSelection(generatorToggle);
+      return;
+    }
+    const combinationsToggle = target.closest<HTMLElement>("#mobileCombinationsToggle");
+    if (combinationsToggle) {
+      openMobileCombinationsSheet(combinationsToggle);
       return;
     }
     if (target.closest("[data-close-course]")) {
@@ -211,6 +301,8 @@ export function initializeScheduleApp(): void {
       closeCourseFilters();
       closeMobileConflictSheet();
       closeMobileMiscSheet();
+      closeMobileGeneratorSelection();
+      closeMobileCombinationsSheet();
       closeMobileCourseSheet();
     }
   });
@@ -226,6 +318,8 @@ export function initializeScheduleApp(): void {
     "resize",
     debounce(() => {
       syncMobileMiscPanel();
+      syncMobileGeneratorSelection();
+      syncMobileCombinations();
       updateMobileImageExportVisibility();
       if (!isMobileViewport()) closeCourseFilters();
       refreshSchedule();

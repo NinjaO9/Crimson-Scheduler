@@ -29,6 +29,10 @@ export const SHOW_COURSE_SECTION_STORAGE_KEY =
 export const DEFAULT_SCHEDULE_NAME = "My Schedule";
 export const SCHEDULE_NAME_MAX_LENGTH = 20;
 export const MAX_SCHEDULE_SECTIONS = 15;
+export const GENERATOR_MIN_SCHEDULES = 1;
+export const GENERATOR_MAX_SCHEDULES = 10;
+export const GENERATOR_DEFAULT_SCHEDULES = 3;
+export const GENERATOR_COUNT_STORAGE_KEY = "crimson_scheduler_generator_count";
 export const SHARE_CODE_PREFIX = "CS2.";
 export const REQUIRED_COURSE_FIELDS = [
   "section_id",

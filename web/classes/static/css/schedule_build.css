@@ -67,6 +67,365 @@
     padding: 14px 28px;
 }
 
+.schedule-view-tabs {
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex: 0 0 auto;
+    gap: 6px;
+    margin: -14px -28px 14px;
+    padding: 12px 28px 0;
+}
+
+.schedule-view-tab {
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 6px 6px 0 0;
+    color: var(--color-text-secondary);
+    font-weight: 800;
+    min-height: 44px;
+    padding: 8px 18px;
+}
+
+.schedule-view-tab:hover {
+    background: var(--color-surface-raised);
+    color: var(--color-text);
+}
+
+.schedule-view-tab.is-active {
+    background: var(--color-accent-subtle);
+    border-bottom-color: var(--crimson);
+    color: var(--color-text);
+}
+
+.schedule-view-tab:focus-visible {
+    outline: 3px solid var(--color-link);
+    outline-offset: -3px;
+}
+
+.schedule-view-panel {
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+}
+
+.schedule-view-panel[hidden] {
+    display: none;
+}
+
+.schedule-creator-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-generator-panel {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.generator-workarea {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 0;
+    min-width: 0;
+    padding: 2px 2px 8px 0;
+}
+
+.generator-actions {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.generator-display {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.generator-action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.generator-options-popover {
+    background: var(--color-surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+    max-height: calc(100dvh - 32px);
+    overflow-y: auto;
+    padding: 18px;
+    position: fixed;
+    width: min(280px, calc(100vw - 32px));
+    z-index: 3000;
+}
+
+.generator-options-popover[hidden] {
+    display: none;
+}
+
+.generator-options-label {
+    color: var(--color-text);
+    font-weight: 800;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.generator-count-stepper {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.generator-count-button,
+.generator-count-stepper output {
+    align-items: center;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 44px;
+}
+
+.generator-count-button {
+    background: var(--color-surface);
+    color: var(--crimson);
+    min-width: 44px;
+}
+
+.generator-count-button svg {
+    fill: none;
+    height: 20px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.5;
+    width: 20px;
+}
+
+.generator-count-button:not(:disabled):is(:hover, :focus-visible) {
+    background: var(--color-accent-subtle);
+    border-color: var(--crimson);
+    outline: 2px solid var(--crimson);
+    outline-offset: 2px;
+}
+
+.generator-count-button:disabled {
+    color: var(--text-muted);
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.generator-count-stepper output {
+    background: var(--color-surface-raised);
+    color: var(--color-text);
+    font-size: 1.25rem;
+    font-weight: 800;
+    min-width: 64px;
+}
+
+.generator-action-btn,
+.generator-options-btn,
+.generator-add-btn {
+    min-height: 44px;
+    padding: 0 16px;
+}
+
+.generator-action-btn:disabled,
+.generator-options-btn:disabled,
+.generator-add-btn:disabled {
+    background: var(--color-surface-raised);
+    border: 1px solid var(--line-strong);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.generator-schedule-section {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    min-height: 220px;
+}
+
+.generator-section-title {
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0 0 8px;
+}
+
+.generator-calendar-wrap {
+    flex: 1 1 auto;
+    min-height: 220px;
+}
+
+.generator-result-block {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    min-height: 24px;
+}
+
+.generator-result-time {
+    display: block;
+}
+
+.generator-preview-list {
+    box-sizing: border-box;
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    padding: 3px 2px 5px;
+}
+
+.generator-preview {
+    align-items: stretch;
+    background: var(--color-surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: var(--color-text);
+    display: grid;
+    flex: 0 0 150px;
+    grid-template-columns: 30px minmax(0, 1fr);
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    width: 150px;
+}
+
+.generator-preview:hover,
+.generator-preview:focus-visible {
+    border-color: var(--crimson);
+    outline: 2px solid var(--crimson);
+    outline-offset: 1px;
+}
+
+.generator-preview.is-selected {
+    border-color: var(--crimson);
+    border-width: 2px;
+}
+
+.generator-preview-number {
+    align-items: center;
+    background: var(--color-surface-raised);
+    display: flex;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.generator-preview-days {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-height: 0;
+    position: relative;
+}
+
+.generator-preview-day {
+    border-right: 1px solid var(--line);
+    position: relative;
+}
+
+.generator-preview-block {
+    background: var(--color-success-surface);
+    border: 1px solid var(--color-success-border);
+    border-radius: 2px;
+    left: 2px;
+    min-height: 3px;
+    position: absolute;
+    right: 2px;
+}
+
+.generator-possibilities {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 10px 14px;
+}
+
+@media (min-width: 1400px) {
+    .generator-display {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: minmax(0, 1fr) clamp(200px, 22%, 240px);
+    }
+
+    .generator-possibilities {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    .generator-preview-list {
+        flex: 1 1 auto;
+        flex-direction: column;
+        max-height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+    }
+
+    .generator-preview {
+        flex: 0 0 110px;
+        height: 110px;
+        width: 100%;
+    }
+}
+
+.generator-possibilities .generator-section-title {
+    margin-bottom: 4px;
+}
+
+.generator-empty-state {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.generator-selection {
+    flex: 0 0 auto;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    margin-top: 0;
+    padding: 10px 14px 8px;
+}
+
+.generator-course-list {
+    max-height: 128px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.generator-course-item {
+    grid-template-columns: minmax(0, 1fr) auto;
+}
+
 .field-grid {
     display: grid;
     gap: 16px;
@@ -529,11 +888,18 @@
 
 .mobile-action-label,
 .mobile-bottom-nav,
-.mobile-misc-trigger {
+.mobile-misc-trigger,
+.mobile-generator-trigger {
     display: none;
 }
 
-.mobile-conflict-sheet {
+.mobile-combinations-trigger {
+    display: none;
+}
+
+.mobile-conflict-sheet,
+.mobile-generator-sheet,
+.mobile-combinations-sheet {
     display: none;
 }
 
@@ -858,6 +1224,7 @@
 
 .schedule-pane.is-exporting .toolbar,
 .schedule-pane.is-exporting .manage-btn,
+.schedule-pane.is-exporting .schedule-view-tabs,
 .schedule-export-active .course-block-tooltip {
     display: none !important;
 }
@@ -1176,6 +1543,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     body.mobile-misc-sheet-open,
+    body.mobile-generator-sheet-open,
+    body.mobile-generator-options-sheet-open,
+    body.mobile-combinations-sheet-open,
     body.mobile-course-sheet-open {
         overflow: hidden;
     }
@@ -1189,13 +1559,16 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-shell {
+        box-sizing: border-box;
         display: block;
         flex: 1 1 auto;
         height: 100%;
+        margin: 0;
         max-width: none;
         min-height: 0;
         order: 2;
         overflow: hidden;
+        width: 100%;
     }
 
     .mobile-pane {
@@ -1221,7 +1594,120 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-pane {
+        box-sizing: border-box;
         min-height: 0;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .schedule-view-tabs {
+        margin: -14px -18px 12px;
+        overflow-x: auto;
+        padding: 6px 18px 0;
+    }
+
+    .schedule-view-tab {
+        flex: 1 0 auto;
+        font-size: 0.82rem;
+        padding: 8px 10px;
+        white-space: nowrap;
+    }
+
+    .schedule-view-panel,
+    .schedule-view-panel .calendar-wrap {
+        box-sizing: border-box;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .schedule-generator-panel {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-top: 2px;
+    }
+
+    .generator-workarea {
+        flex: 1 1 auto;
+        gap: 8px;
+        min-height: 0;
+        padding-bottom: 2px;
+    }
+
+    .generator-display {
+        flex: 1 1 auto;
+        min-height: 0;
+    }
+
+    .generator-schedule-section {
+        flex: 1 1 auto;
+        min-height: 0;
+        min-width: 0;
+    }
+
+    .generator-actions {
+        display: block;
+        min-width: 0;
+    }
+
+    .generator-action-buttons {
+        display: grid;
+        gap: 6px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        min-width: 0;
+        width: 100%;
+    }
+
+    .schedule-generator-panel .generator-action-btn,
+    .schedule-generator-panel .generator-options-btn,
+    .schedule-generator-panel .generator-add-btn {
+        box-sizing: border-box;
+        font-size: 0.82rem;
+        line-height: 1.15;
+        max-width: 100%;
+        min-height: 44px;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        padding: 4px;
+        white-space: normal;
+        width: 100%;
+    }
+
+    .schedule-generator-panel .generator-calendar-wrap {
+        flex: 1 1 auto;
+        height: auto;
+        min-height: 0;
+        overflow-anchor: none;
+        overflow-x: hidden;
+    }
+
+    .generator-calendar-wrap .calendar-header,
+    .generator-calendar-wrap .calendar-grid {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .generator-calendar-wrap .calendar-header-time,
+    .generator-calendar-wrap .calendar-header-day {
+        font-size: 0.7rem;
+        min-height: 40px;
+    }
+
+    .generator-calendar-wrap .calendar-time-slot {
+        font-size: 0.68rem;
+        padding-right: 2px;
+        white-space: nowrap;
+    }
+
+    .generator-possibilities {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .generator-preview {
+        flex-basis: 96px;
+        height: 96px;
+        width: 128px;
     }
 
     .field-grid {
@@ -1684,7 +2170,9 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         width: 100%;
     }
 
-    .mobile-misc-trigger {
+    .mobile-misc-trigger,
+    .mobile-generator-trigger,
+    .mobile-combinations-trigger {
         align-items: center;
         background: var(--color-surface);
         border: 1px solid var(--line-strong);
@@ -1711,6 +2199,18 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         display: inline-flex;
     }
 
+    .schedule-generator-panel .generator-selection {
+        display: none;
+    }
+
+    .schedule-generator-panel .mobile-generator-trigger {
+        display: inline-flex;
+    }
+
+    .schedule-generator-panel .mobile-combinations-trigger {
+        display: inline-flex;
+    }
+
     .mobile-misc-panel .misc-panel {
         background: transparent;
         border: 0;
@@ -1725,6 +2225,126 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior: contain;
+    }
+
+    .mobile-generator-sheet,
+    .mobile-combinations-sheet {
+        bottom: 0;
+        display: block;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: opacity 160ms ease;
+        z-index: 3000;
+    }
+
+    .mobile-generator-sheet.is-open,
+    .mobile-combinations-sheet.is-open {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .mobile-generator-backdrop,
+    .mobile-combinations-backdrop {
+        background: var(--color-overlay);
+        border: 0;
+        inset: 0;
+        position: absolute;
+    }
+
+    .mobile-generator-panel,
+    .mobile-combinations-panel {
+        background: var(--color-surface);
+        border-radius: 16px 16px 0 0;
+        bottom: 0;
+        box-shadow: 0 -18px 40px rgba(15, 23, 42, 0.18);
+        left: 0;
+        max-height: min(78dvh, 560px);
+        overflow-y: auto;
+        padding: 0 18px calc(22px + env(safe-area-inset-bottom));
+        position: absolute;
+        right: 0;
+        transform: translateY(100%);
+        transition: transform 180ms ease;
+    }
+
+    .mobile-generator-sheet.is-open .mobile-generator-panel,
+    .mobile-combinations-sheet.is-open .mobile-combinations-panel {
+        transform: translateY(0);
+    }
+
+    .mobile-generator-grabber,
+    .mobile-combinations-grabber {
+        background: #d1d5db;
+        border-radius: 999px;
+        height: 4px;
+        margin: 12px auto 14px;
+        width: 42px;
+    }
+
+    .mobile-generator-panel .generator-selection {
+        border: 0;
+        border-radius: 0;
+        display: block;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .mobile-generator-panel .generator-course-list {
+        max-height: min(34dvh, 240px);
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+    }
+
+    .mobile-generator-options-panel {
+        max-height: min(70dvh, 360px);
+    }
+
+    .generator-options-header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+
+    .generator-options-header h2 {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    .generator-options-header .filter-done-btn {
+        min-height: 44px;
+    }
+
+    .generator-options-field p {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        margin: 8px 0 0;
+        text-align: center;
+    }
+
+    .mobile-combinations-panel .generator-possibilities {
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .mobile-combinations-panel .generator-preview-list {
+        flex-direction: column;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .mobile-combinations-panel .generator-preview {
+        flex: 0 0 110px;
+        height: 110px;
+        width: 100%;
     }
 
     .mobile-conflict-remove-btn {
@@ -1836,11 +2456,14 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 
 :root[data-theme="dark"] .schedule-app,
 :root[data-theme="dark"] .filter-popover,
+:root[data-theme="dark"] .generator-options-popover,
 :root[data-theme="dark"] .calendar-header,
 :root[data-theme="dark"] .course-block-tooltip,
 :root[data-theme="dark"] .mobile-filter-panel,
 :root[data-theme="dark"] .mobile-conflict-panel,
 :root[data-theme="dark"] .mobile-misc-panel,
+:root[data-theme="dark"] .mobile-generator-panel,
+:root[data-theme="dark"] .mobile-combinations-panel,
 :root[data-theme="dark"] .mobile-course-panel,
 :root[data-theme="dark"] .mobile-nav {
     background: var(--color-surface);
@@ -1943,6 +2566,8 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 .mobile-filter-panel,
 .mobile-conflict-panel,
 .mobile-misc-panel,
+.mobile-generator-panel,
+.mobile-combinations-panel,
 .mobile-course-panel {
     transition: transform 180ms ease,
                 background-color 160ms ease,
@@ -1954,6 +2579,8 @@ body:has(#showInstructorToggle:checked) .course-block-line {
 .mobile-filter-backdrop,
 .mobile-conflict-backdrop,
 .mobile-misc-backdrop,
+.mobile-generator-backdrop,
+.mobile-combinations-backdrop,
 .mobile-course-backdrop {
     transition: opacity 160ms ease, background-color 160ms ease;
 }
@@ -1962,10 +2589,14 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     .mobile-filter-panel,
     .mobile-conflict-panel,
     .mobile-misc-panel,
+    .mobile-generator-panel,
+    .mobile-combinations-panel,
     .mobile-course-panel,
     .mobile-filter-backdrop,
     .mobile-conflict-backdrop,
     .mobile-misc-backdrop,
+    .mobile-generator-backdrop,
+    .mobile-combinations-backdrop,
     .mobile-course-backdrop {
         transition-duration: 0ms !important;
     }

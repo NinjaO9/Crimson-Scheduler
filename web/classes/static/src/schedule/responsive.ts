@@ -8,6 +8,8 @@
 import { MOBILE_BREAKPOINT } from "./constants.js";
 
 let activeMobileMiscTrigger: HTMLElement | null = null;
+let activeMobileGeneratorTrigger: HTMLElement | null = null;
+let activeMobileCombinationsTrigger: HTMLElement | null = null;
 
 /**
  * Checks whether the current viewport is at or below the mobile breakpoint.
@@ -57,6 +59,8 @@ export function updateMobileImageExportVisibility(): void {
 export function initializeMobileLayout(): void {
   setMobilePane("search");
   syncMobileMiscPanel();
+  syncMobileGeneratorSelection();
+  syncMobileCombinations();
   updateMobileImageExportVisibility();
 }
 
@@ -101,14 +105,154 @@ export function setMobilePane(targetPane: string): void {
 export function syncMobileMiscPanel(): void {
   const panel = document.querySelector(".misc-panel");
   const schedulePane = document.querySelector('.schedule-pane[data-mobile-pane="schedule"]');
+  const creatorPanel = document.getElementById("scheduleCreatorPanel");
   const host = document.getElementById("mobileMiscPanelHost");
 
   if (!panel || !schedulePane || !host) return;
   if (isMobileViewport()) {
     if (!host.contains(panel)) host.appendChild(panel);
-  } else if (!schedulePane.contains(panel)) {
-    schedulePane.appendChild(panel);
+  } else if (!(creatorPanel || schedulePane).contains(panel)) {
+    (creatorPanel || schedulePane).appendChild(panel);
   }
+}
+
+/**
+ * Moves the generator course selection between its desktop panel and mobile sheet.
+ *
+ * @see {@link isMobileViewport}
+ */
+export function syncMobileGeneratorSelection(): void {
+  const selection = document.querySelector(".generator-selection");
+  const generatorPanel = document.getElementById("scheduleGeneratorPanel");
+  const workarea = generatorPanel?.querySelector(".generator-workarea");
+  const host = document.getElementById("mobileGeneratorPanelHost");
+  if (!selection || !generatorPanel || !host) return;
+
+  if (isMobileViewport()) {
+    if (!host.contains(selection)) host.appendChild(selection);
+  } else if (!(workarea || generatorPanel).contains(selection)) {
+    (workarea || generatorPanel).appendChild(selection);
+  }
+}
+
+/** 
+ * Moves the live combinations section between the Generator rail and mobile sheet. 
+ */
+export function syncMobileCombinations(): void {
+  const combinations = document.querySelector(".generator-possibilities");
+  const display = document.querySelector(".generator-display");
+  const host = document.getElementById("mobileCombinationsPanelHost");
+  const sheet = document.getElementById("mobileCombinationsSheet");
+  if (!combinations || !display || !host) return;
+
+  if (isMobileViewport()) {
+    if (!host.contains(combinations)) host.appendChild(combinations);
+  } else {
+    const focusWasInSheet = !!sheet?.contains(document.activeElement);
+    closeMobileCombinationsSheet({ restoreFocus: false });
+    if (!display.contains(combinations)) display.appendChild(combinations);
+    if (focusWasInSheet)
+      document.getElementById("scheduleGeneratorPanel")?.focus({ preventScroll: true });
+  }
+}
+
+/** 
+ * Opens the combinations sheet and moves focus to its dialog.
+ */
+export function openMobileCombinationsSheet(trigger?: HTMLElement): void {
+  if (!isMobileViewport()) return;
+  const sheet = document.getElementById("mobileCombinationsSheet");
+  const toggle = document.getElementById("mobileCombinationsToggle");
+  if (!sheet || !toggle) return;
+
+  activeMobileCombinationsTrigger = trigger || toggle;
+  sheet.hidden = false;
+  sheet.inert = false;
+  sheet.setAttribute("aria-hidden", "false");
+  toggle.setAttribute("aria-expanded", "true");
+  document.body.classList.add("mobile-combinations-sheet-open");
+  window.requestAnimationFrame(() => {
+    if (!sheet.inert) sheet.classList.add("is-open");
+  });
+  sheet.querySelector<HTMLElement>(".mobile-combinations-panel")?.focus({ preventScroll: true });
+}
+
+/** 
+ * Closes the combinations sheet and normally restores focus to its trigger.
+ */
+export function closeMobileCombinationsSheet(
+  { restoreFocus = true }: { restoreFocus?: boolean } = {},
+): void {
+  const sheet = document.getElementById("mobileCombinationsSheet");
+  const toggle = document.getElementById("mobileCombinationsToggle");
+  if (!sheet || sheet.hidden) return;
+
+  sheet.classList.remove("is-open");
+  sheet.inert = true;
+  sheet.setAttribute("aria-hidden", "true");
+  if (toggle) toggle.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("mobile-combinations-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
+  if (restoreFocus && activeMobileCombinationsTrigger && document.contains(activeMobileCombinationsTrigger))
+    activeMobileCombinationsTrigger.focus({ preventScroll: true });
+  activeMobileCombinationsTrigger = null;
+}
+
+/**
+ * Opens the selected-courses sheet on mobile and moves focus into it.
+ *
+ * @param [trigger] - Element that opened the sheet for focus restoration.
+ * @see {@link closeMobileGeneratorSelection}
+ */
+export function openMobileGeneratorSelection(trigger?: HTMLElement): void {
+  if (!isMobileViewport()) return;
+  const sheet = document.getElementById("mobileGeneratorSheet");
+  const toggle = document.getElementById("mobileGeneratorToggle");
+  if (!sheet || !toggle) return;
+
+  activeMobileGeneratorTrigger = trigger || toggle;
+  sheet.hidden = false;
+  sheet.inert = false;
+  sheet.setAttribute("aria-hidden", "false");
+  toggle.setAttribute("aria-expanded", "true");
+  document.body.classList.add("mobile-generator-sheet-open");
+  window.requestAnimationFrame(() => sheet.classList.add("is-open"));
+  sheet.querySelector<HTMLElement>(".mobile-generator-panel")?.focus({
+    preventScroll: true,
+  });
+}
+
+/**
+ * Closes the selected-courses sheet and optionally restores trigger focus.
+ *
+ * @param [options={}] - Close behavior options.
+ * @param [options.restoreFocus=true] - Whether to focus the opening trigger.
+ * @see {@link openMobileGeneratorSelection}
+ */
+export function closeMobileGeneratorSelection(
+  { restoreFocus = true }: { restoreFocus?: boolean } = {},
+): void {
+  const sheet = document.getElementById("mobileGeneratorSheet");
+  const toggle = document.getElementById("mobileGeneratorToggle");
+  if (!sheet || !sheet.classList.contains("is-open")) return;
+
+  sheet.classList.remove("is-open");
+  sheet.inert = true;
+  sheet.setAttribute("aria-hidden", "true");
+  if (toggle) toggle.setAttribute("aria-expanded", "false");
+  document.body.classList.remove("mobile-generator-sheet-open");
+  window.setTimeout(() => {
+    if (!sheet.classList.contains("is-open")) sheet.hidden = true;
+  }, 180);
+  if (
+    restoreFocus &&
+    activeMobileGeneratorTrigger &&
+    document.contains(activeMobileGeneratorTrigger)
+  )
+    activeMobileGeneratorTrigger.focus({ preventScroll: true });
+  activeMobileGeneratorTrigger = null;
 }
 
 /**

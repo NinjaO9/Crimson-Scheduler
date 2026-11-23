@@ -138,6 +138,18 @@
         <section class="schedule-pane mobile-pane"
                  data-mobile-pane="schedule"
                  aria-label="Your schedule">
+            <div class="schedule-view-tabs" role="tablist" aria-label="Schedule views">
+                <button type="button" class="schedule-view-tab is-active" id="scheduleCreatorTab"
+                        role="tab" aria-selected="true" aria-controls="scheduleCreatorPanel" tabindex="0">
+                    Schedule Creator
+                </button>
+                <button type="button" class="schedule-view-tab" id="scheduleGeneratorTab"
+                        role="tab" aria-selected="false" aria-controls="scheduleGeneratorPanel" tabindex="-1">
+                    Schedule Generator
+                </button>
+            </div>
+            <div class="schedule-view-panel schedule-creator-panel" id="scheduleCreatorPanel"
+                 role="tabpanel" aria-labelledby="scheduleCreatorTab" tabindex="0">
             <div class="pane-topbar">
                 <div class="schedule-title">
                     <div class="dropdown schedule-selector">
@@ -209,6 +221,69 @@
                 </div>
                 <div class="misc-list" id="miscList"></div>
             </section>
+            </div>
+            <div class="schedule-view-panel schedule-generator-panel" id="scheduleGeneratorPanel"
+                 role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden>
+                <div class="generator-workarea">
+                    <div class="generator-actions">
+                        <div class="generator-action-buttons" aria-label="Schedule generation tools">
+                            <button type="button" class="primary-btn generator-action-btn" id="generateSchedulesBtn" disabled>
+                                Generate Schedules
+                            </button>
+                            <button type="button" class="manage-btn generator-options-btn" id="generatorOptionsBtn"
+                                    aria-haspopup="dialog" aria-expanded="false" aria-controls="mobileGeneratorOptionsSheet" disabled>
+                                Generator Options
+                            </button>
+                            <button type="button" class="manage-btn generator-add-btn" id="addGeneratedScheduleBtn" disabled>
+                                Add Schedule
+                            </button>
+                        </div>
+                    </div>
+                    <p class="visually-hidden" id="addGeneratedScheduleStatus" role="status"></p>
+                    <div class="generator-display">
+                        <section class="generator-schedule-section" aria-label="Generated schedule">
+                            <div class="calendar-wrap generator-calendar-wrap" role="group" tabindex="-1"
+                                 aria-label="Generated schedule calendar">
+                                <div class="calendar-header" id="generatorCalendarHeader"></div>
+                                <div class="calendar-grid" id="generatorCalendarGrid"></div>
+                            </div>
+                        </section>
+
+                        <section class="generator-possibilities" aria-labelledby="generatorPossibilitiesTitle">
+                            <h2 class="generator-section-title" id="generatorPossibilitiesTitle">
+                                Combinations:
+                            </h2>
+                            <p class="generator-empty-state" id="generatorResultsEmpty">
+                                Generated schedule alternatives will appear here.
+                            </p>
+                            <div class="generator-preview-list" id="generatorPreviewList"></div>
+                        </section>
+                    </div>
+
+                <button type="button" class="mobile-combinations-trigger" id="mobileCombinationsToggle"
+                        aria-expanded="false" aria-controls="mobileCombinationsSheet">
+                    <span>Combinations</span>
+                    <span id="mobileCombinationsCount">(0)</span>
+                </button>
+                <button type="button" class="mobile-generator-trigger" id="mobileGeneratorToggle"
+                        aria-expanded="false" aria-controls="mobileGeneratorSheet">
+                    <span>Selected courses</span>
+                    <span id="mobileGeneratorCourseCount">(0)</span>
+                </button>
+                <section class="generator-selection" aria-labelledby="generatorSelectionTitle">
+                    <div class="misc-header">
+                        <div>
+                            <div class="misc-title" id="generatorSelectionTitle">
+                                Selected Courses <span id="generatorCourseCount">(0)</span>
+                            </div>
+                            <div class="misc-subtitle">Courses that will be used to generate schedule options.</div>
+                        </div>
+                    </div>
+                    <div class="misc-list generator-course-list" id="generatorCourseList"></div>
+                    <p class="visually-hidden" id="generatorSelectionStatus" aria-live="polite"></p>
+                </section>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -242,6 +317,56 @@
         <section class="mobile-misc-panel" role="dialog" aria-modal="true" aria-label="Non-scheduled classes" tabindex="-1">
             <div class="mobile-misc-grabber" aria-hidden="true"></div>
             <div id="mobileMiscPanelHost"></div>
+        </section>
+    </div>
+
+    <div class="mobile-generator-sheet" id="mobileGeneratorSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="mobile-generator-backdrop" data-close-generator-selection
+                aria-label="Close selected courses"></button>
+        <section class="mobile-generator-panel" role="dialog" aria-modal="true"
+                 aria-label="Selected courses" tabindex="-1">
+            <div class="mobile-generator-grabber" aria-hidden="true"></div>
+            <div id="mobileGeneratorPanelHost"></div>
+        </section>
+    </div>
+
+    <div class="mobile-generator-sheet mobile-generator-options-sheet" id="mobileGeneratorOptionsSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="mobile-generator-backdrop" data-close-generator-options aria-label="Close generator options"></button>
+        <section class="mobile-generator-panel mobile-generator-options-panel" role="dialog" aria-modal="true" aria-labelledby="generatorOptionsTitle" tabindex="-1">
+            <div class="mobile-generator-grabber" aria-hidden="true"></div>
+            <div class="generator-options-header">
+                <h2 id="generatorOptionsTitle">Generator Options</h2>
+                <button type="button" class="filter-done-btn" data-close-generator-options>Done</button>
+            </div>
+            <div id="mobileGeneratorOptionsHost">
+                <div class="generator-options-field">
+                    <div class="generator-options-label" id="generatorScheduleCountLabel">Number of schedules</div>
+                    <div class="generator-count-stepper" role="group" aria-labelledby="generatorScheduleCountLabel">
+                        <button type="button" class="generator-count-button" data-generator-count-step="-1" aria-label="Generate fewer schedules">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+                        </button>
+                        <output id="generatorScheduleCount" aria-live="polite" aria-atomic="true">3</output>
+                        <button type="button" class="generator-count-button" data-generator-count-step="1" aria-label="Generate more schedules">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="generator-options-popover" id="desktopGeneratorOptionsPopover" role="dialog"
+         aria-label="Generator options" aria-hidden="true" tabindex="-1" hidden inert>
+        <div id="desktopGeneratorOptionsHost"></div>
+    </div>
+
+    <div class="mobile-combinations-sheet" id="mobileCombinationsSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="mobile-combinations-backdrop" data-close-combinations
+                aria-label="Close combinations"></button>
+        <section class="mobile-combinations-panel" role="dialog" aria-modal="true"
+                 aria-label="Combinations" tabindex="-1">
+            <div class="mobile-combinations-grabber" aria-hidden="true"></div>
+            <div id="mobileCombinationsPanelHost"></div>
         </section>
     </div>
 

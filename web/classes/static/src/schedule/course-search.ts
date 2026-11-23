@@ -9,6 +9,7 @@ import { createElementWithText } from "./dom.js";
 import { debounce, isMobileViewport } from "./responsive.js";
 import { formatTimeRangeForDisplay } from "./time-and-meetings.js";
 import { uses24HourTime } from "./preferences.js";
+import { generatorCourseKey } from "./generator-selection.js";
 import {
   fetchCourseInformation,
   renderCourseInformation,
@@ -31,10 +32,15 @@ type CourseInfoTrigger = HTMLButtonElement & {
   courseData: CatalogCourse;
   courseInfoLoading?: boolean;
 };
+type GeneratorCourseTrigger = HTMLButtonElement & {
+  courseData: CatalogCourse;
+};
 type CourseSearchCallbacks = {
   onClearPreview: () => void;
   onPreview: (section: HydratedSection) => void;
   onAddSections: (sections: HydratedSection[], scheduleGroupId: string) => void;
+  onAddGeneratorCourse: (course: CatalogCourse) => void;
+  isGeneratorCourseSelected: (course: CatalogCourse) => boolean;
 };
 
 function getEventElement(event: Event): Element | null {
@@ -405,6 +411,7 @@ export function formatInstructorForTable(instructor: string): string {
  */
 export function renderCourseResult(course: CatalogCourse): HTMLElement {
   const hasLab = course.lab_sections.length > 0;
+  const isGeneratorView = document.querySelector<HTMLElement>(".schedule-shell")?.dataset.activeScheduleView === "generator";
   const article = document.createElement("article");
   article.className = "result-card";
   const header = document.createElement("div");
@@ -419,6 +426,7 @@ export function renderCourseResult(course: CatalogCourse): HTMLElement {
   summary.setAttribute("data-bs-target", `#sections${course.id}`);
   summary.setAttribute("data-bs-parent", "#courseResultsAccordion");
   summary.setAttribute("aria-expanded", "false");
+  summary.disabled = isGeneratorView;
   const summaryText = document.createElement("span");
   const title = createElementWithText(
     "span",
@@ -462,7 +470,27 @@ export function renderCourseResult(course: CatalogCourse): HTMLElement {
   tooltip.hidden = true;
   tooltip.appendChild(createElementWithText("p", "course-info-loading", "Loading additional information…"));
   infoControl.append(infoButton, tooltip);
-  header.append(summary, infoControl);
+  const generatorAddButton = createElementWithText(
+    "button",
+    "generator-course-add",
+    "+",
+  ) as GeneratorCourseTrigger;
+  const generatorCourseSelected = callbacks?.isGeneratorCourseSelected?.(course) || false;
+  generatorAddButton.type = "button";
+  generatorAddButton.disabled = generatorCourseSelected;
+  generatorAddButton.classList.toggle("is-selected", generatorCourseSelected);
+  generatorAddButton.textContent = "+";
+  generatorAddButton.setAttribute(
+    "aria-label",
+    generatorCourseSelected
+      ? `${course.course_code} is already selected`
+      : `Add ${course.course_code}`,
+  );
+  generatorAddButton.setAttribute("data-course-id", course.id);
+  generatorAddButton.dataset.courseCode = course.course_code;
+  generatorAddButton.dataset.courseKey = generatorCourseKey(course);
+  generatorAddButton.courseData = course;
+  header.append(summary, generatorAddButton, infoControl);
   /*
     Lecture/Lab section accordian
   */
@@ -955,6 +983,15 @@ export function initializeCourseSearch(options: CourseSearchCallbacks): void {
   document.addEventListener("click", (event) => {
     const target = getEventElement(event);
     if (!target) return;
+    const generatorAddButton = target.closest<HTMLElement>(
+      ".generator-course-add",
+    ) as GeneratorCourseTrigger | null;
+    if (generatorAddButton) {
+      event.preventDefault();
+      if (!generatorAddButton.disabled)
+        callbacks.onAddGeneratorCourse(generatorAddButton.courseData);
+      return;
+    }
     const infoTrigger = target.closest<HTMLElement>(".course-info-trigger") as CourseInfoTrigger | null;
     if (infoTrigger) {
       event.preventDefault();
