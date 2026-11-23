@@ -6,6 +6,7 @@
  */
 
 import { beforeEach, describe, expect, it, vi } from "vitest";
+import { shouldRemoveUnavailableCourses } from "../web/classes/static/src/schedule/app.js";
 import {
   addSchedule,
   appendScheduleEntries,
@@ -27,6 +28,7 @@ import {
   loadScheduleWorkspace,
   parseStoredWorkspace,
   removeScheduleEntry,
+  removeScheduleReferences,
   deleteSchedule,
   renameSchedule,
   retryFailedTerms,
@@ -306,9 +308,11 @@ describe("schedule state", () => {
     expect(result.missingCount).toBe(1);
     expect(result.failedCount).toBe(1);
     expect(result.failedTerms).toEqual(["spring-2027"]);
+    expect(result.unavailableRefs.map((reference) => reference.section_id)).toEqual(["2", "3"]);
     expect(getSchedule().map((item) => item.section_id)).toEqual(["1"]);
     expect(getActiveSchedule().section_refs).toEqual([
       { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
+      { term_slug: "fall-2026", section_id: "2", schedule_group_id: null },
       { term_slug: "spring-2027", section_id: "3", schedule_group_id: null },
     ]);
   });
@@ -331,5 +335,44 @@ describe("schedule state", () => {
       { term_slug: "fall-2026", section_id: "1", schedule_group_id: null },
     ]);
     expect(getSchedule()).toEqual([]);
+  });
+
+  it("lets the prompt keep or remove only affected references", async () => {
+    replaceSchedule([entry("1"), entry("2"), entry("3")]);
+    const result = await hydrateSchedule(async () => ({
+      sectionsBySln: new Map([["1", { section: entry("1") }]]),
+    }));
+    const confirm = vi.spyOn(window, "confirm").mockReturnValueOnce(false).mockReturnValueOnce(true);
+    expect(shouldRemoveUnavailableCourses(result.unavailableRefs.length)).toBe(false);
+    expect(getActiveSchedule().section_refs).toHaveLength(3);
+    expect(shouldRemoveUnavailableCourses(result.unavailableRefs.length)).toBe(true);
+    expect(confirm.mock.calls[0][0]).toContain("Cancel to keep them");
+    removeScheduleReferences(result.unavailableRefs.map((reference) => `${reference.term_slug}:${reference.section_id}`));
+    expect(getActiveSchedule().section_refs.map((reference) => reference.section_id)).toEqual(["1"]);
+    expect(getSchedule().map((section) => section.section_id)).toEqual(["1"]);
+    confirm.mockRestore();
+  });
+
+  it("keeps unresolved references through edits and schedule switches", async () => {
+    replaceSchedule([entry("1"), entry("2")]);
+    await hydrateSchedule(async () => ({ sectionsBySln: new Map() }));
+    appendScheduleEntries([entry("3")]);
+    expect(getActiveSchedule().section_refs.map((reference) => reference.section_id)).toEqual(["1", "2", "3"]);
+    const second = createSchedule("Other");
+    switchSchedule(second.id);
+    switchSchedule("default");
+    expect(getActiveSchedule().section_refs.map((reference) => reference.section_id)).toEqual(["1", "2", "3"]);
+    clearSchedule();
+    expect(getActiveSchedule().section_refs).toEqual([]);
+  });
+
+  it("removing a visible grouped section also removes its unresolved partner", async () => {
+    replaceSchedule([entry("1", "pair"), entry("2", "pair")]);
+    await hydrateSchedule(async () => ({
+      sectionsBySln: new Map([["1", { section: entry("1", "pair") }]]),
+    }));
+    expect(getSchedule().map((section) => section.section_id)).toEqual(["1"]);
+    expect(removeScheduleEntry("1")).toBe(true);
+    expect(getActiveSchedule().section_refs).toEqual([]);
   });
 });

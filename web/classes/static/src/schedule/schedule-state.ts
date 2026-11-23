@@ -490,7 +490,7 @@ export function deleteSchedule(scheduleId: string): boolean {
 
 /**
  * Resolves persisted references against term datasets and rebuilds runtime records.
- * Failed terms remain retained for retry; missing sections are omitted and counted.
+ * Failed terms and missing sections remain saved for the user's decision.
  *
  * @param fetchDatasetByKey - Async loader returning a dataset with `sectionsBySln`.
  *   Hydrated schedule and resolution diagnostics.
@@ -509,6 +509,7 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
       missingCount: 0,
       failedCount: 0,
       failedTerms: [],
+      unavailableRefs: [],
     };
   }
   if (typeof fetchDatasetByKey !== "function") {
@@ -518,6 +519,7 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
       missingCount: 0,
       failedCount: references.length,
       failedTerms: Array.from(new Set(references.map((reference) => reference.term_slug))),
+      unavailableRefs: [...references],
     };
   }
 
@@ -530,6 +532,7 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
 
   const resolvedRecords: HydratedSection[] = [];
   const retainedReferences: SectionReference[] = [];
+  const unavailableRefs: SectionReference[] = [];
   let missingCount = 0;
   let failedCount = 0;
   const failedTerms: string[] = [];
@@ -545,6 +548,7 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
         failedTerms.push(termSlug);
         failedCount += termReferences.length;
         retainedReferences.push(...termReferences);
+        unavailableRefs.push(...termReferences);
         return;
       }
 
@@ -554,6 +558,8 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
           : null;
         if (!match || !match.section) {
           missingCount += 1;
+          retainedReferences.push(reference);
+          unavailableRefs.push(reference);
           return;
         }
         resolvedRecords.push({
@@ -585,6 +591,11 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
       (order.get(sectionReferenceKey(right)) ?? Number.MAX_SAFE_INTEGER),
   );
   failedTerms.sort();
+  unavailableRefs.sort((left, right) =>
+    (order.get(sectionReferenceKey(left)) ?? Number.MAX_SAFE_INTEGER) -
+    (order.get(sectionReferenceKey(right)) ?? Number.MAX_SAFE_INTEGER));
+  if (!schedule || getActiveScheduleRecord() !== schedule || schedule.section_refs !== references)
+    return { schedule: getRuntimeSchedule(), missingCount: 0, failedCount: 0, failedTerms: [], unavailableRefs: [] };
   replaceRuntimeSchedule(resolvedRecords);
   updateActiveScheduleReferences(retainedReferences);
 
@@ -593,6 +604,7 @@ export async function hydrateSchedule(fetchDatasetByKey: (key: string) => Promis
     missingCount,
     failedCount,
     failedTerms,
+    unavailableRefs,
   };
 }
 
@@ -645,7 +657,7 @@ export function retryFailedTerms(): string[] {
  */
 export function replaceSchedule(scheduleData: HydratedSection[]): HydratedSection[] {
   replaceRuntimeSchedule(scheduleData);
-  persistRuntimeSchedule();
+  updateActiveScheduleReferences(createSectionReferences(getRuntimeSchedule()).sectionRefs);
   return getRuntimeSchedule();
 }
 /**
@@ -671,8 +683,26 @@ export function appendScheduleEntries(entries: HydratedSection[]): HydratedSecti
 function persistRuntimeSchedule(): boolean {
   const schedule = getActiveScheduleRecord();
   if (!schedule) return false;
-  schedule.section_refs = createSectionReferences(getRuntimeSchedule()).sectionRefs;
+  const references = new Map(schedule.section_refs.map((reference) => [sectionReferenceKey(reference), reference]));
+  createSectionReferences(getRuntimeSchedule()).sectionRefs.forEach((reference) =>
+    references.set(sectionReferenceKey(reference), reference));
+  schedule.section_refs = Array.from(references.values());
   return persistWorkspace(currentWorkspace);
+}
+
+/** 
+ * Removes specific saved references, including ones without loaded calendar records.
+ */
+export function removeScheduleReferences(keys: string[]): number {
+  const schedule = getActiveScheduleRecord();
+  if (!schedule) return 0;
+  const toRemove = new Set(keys);
+  const before = schedule.section_refs.length;
+  schedule.section_refs = schedule.section_refs.filter((reference) => !toRemove.has(sectionReferenceKey(reference)));
+  toRemove.forEach((key) => sectionRecordsByKey.delete(key));
+  scheduleSectionOrder = scheduleSectionOrder.filter((key) => !toRemove.has(key));
+  if (before !== schedule.section_refs.length) persistWorkspace(currentWorkspace);
+  return before - schedule.section_refs.length;
 }
 
 /**
@@ -718,11 +748,10 @@ export function removeScheduleEntry(sectionId: string | number): boolean {
       return key === matchedKey;
     return String(entry.section_id) === String(sectionId);
   });
-  keysToRemove.forEach((key) => sectionRecordsByKey.delete(key));
-  scheduleSectionOrder = scheduleSectionOrder.filter(
-    (key) => !keysToRemove.includes(key),
-  );
-  persistRuntimeSchedule();
+  if (scheduleGroupId) getActiveScheduleRecord()?.section_refs.forEach((reference) => {
+    if (reference.schedule_group_id === scheduleGroupId) keysToRemove.push(sectionReferenceKey(reference));
+  });
+  removeScheduleReferences(keysToRemove);
   return true;
 }
 /**

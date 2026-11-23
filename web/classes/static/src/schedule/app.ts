@@ -55,6 +55,7 @@ import {
   hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
+  removeScheduleReferences,
   replaceSchedule,
 } from "./schedule-state.js";
 import {
@@ -75,6 +76,16 @@ import { generateSchedules } from "./schedule-generation.js";
 
 function getEventElement(event: Event): Element | null {
   return event.target instanceof Element ? event.target : null;
+}
+
+export function shouldRemoveUnavailableCourses(count: number): boolean {
+  if (!count) return false;
+  return window.confirm(
+    `${count} planned course(s) had issues loading. ` +
+    "You can keep them in this schedule and try again later, or remove them now. " +
+    "Courses that could not load will not appear on the calendar until they load successfully.\n\n" +
+    "Choose OK to remove the affected courses, or Cancel to keep them.",
+  );
 }
 
 /**
@@ -143,15 +154,18 @@ export function initializeScheduleApp(): void {
 
   const hydrateActiveSchedule = async () => {
     generatorWorkflow?.selectionChanged();
+    const scheduleId = getActiveSchedule()?.id;
     try {
       const result = await hydrateSchedule((termSlug) => window.CourseApi.fetchDatasetByKey(termSlug));
-      if (result.missingCount)
-        window.alert(`Removed ${result.missingCount} planned course(s) that were not found in the current catalog.`);
-      if (result.failedCount)
-        window.alert(`Failed to load ${result.failedCount} planned course(s).`);
+      if (getActiveSchedule()?.id !== scheduleId) return;
+      if (shouldRemoveUnavailableCourses(result.unavailableRefs.length)) {
+        removeScheduleReferences(result.unavailableRefs.map((reference) =>
+          `${reference.term_slug}:${reference.section_id}`));
+      }
     } catch (error) {
       console.error("Unable to hydrate saved schedule:", error);
     }
+    if (getActiveSchedule()?.id !== scheduleId) return;
     refreshSchedule();
     await generatorSelection.loadFromActiveSchedule();
   };

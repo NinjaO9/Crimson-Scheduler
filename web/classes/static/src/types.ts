@@ -116,6 +116,7 @@ export interface HydrationResult {
   missingCount: number;
   failedCount: number;
   failedTerms: string[];
+  unavailableRefs: SectionReference[];
 }
 
 export interface ShareTerm {
