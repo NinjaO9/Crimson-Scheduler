@@ -226,12 +226,6 @@
     outline-offset: 2px;
 }
 
-.generator-count-button:disabled {
-    color: var(--text-muted);
-    cursor: not-allowed;
-    opacity: 0.55;
-}
-
 .generator-count-stepper output {
     background: var(--color-surface-raised);
     color: var(--color-text);
@@ -245,16 +239,6 @@
 .generator-add-btn {
     min-height: 44px;
     padding: 0 16px;
-}
-
-.generator-action-btn:disabled,
-.generator-options-btn:disabled,
-.generator-add-btn:disabled {
-    background: var(--color-surface-raised);
-    border: 1px solid var(--line-strong);
-    color: var(--text-muted);
-    cursor: not-allowed;
-    opacity: 0.7;
 }
 
 .generator-schedule-section {
@@ -528,8 +512,13 @@
     padding: 0 14px;
 }
 
-.filter-toggle:disabled {
+.filter-toggle:disabled,
+.generator-action-btn:disabled,
+.generator-options-btn:disabled,
+.generator-add-btn:disabled,
+.generator-count-button:disabled {
     background: #e5e7eb;
+    border: 0;
     color: var(--text-muted);
     cursor: not-allowed;
 }
@@ -540,8 +529,8 @@
 .filter-done-btn:focus-visible,
 .clear-filters-btn:hover,
 .clear-filters-btn:focus-visible,
-.manage-btn:hover,
-.manage-btn:focus-visible {
+.manage-btn:not(:disabled):hover,
+.manage-btn:not(:disabled):focus-visible {
     background: #a9152c;
     outline: 0;
 }
@@ -2522,7 +2511,11 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     opacity: 1;
 }
 
-:root[data-theme="dark"] .filter-toggle:disabled {
+:root[data-theme="dark"] .filter-toggle:disabled,
+:root[data-theme="dark"] .generator-action-btn:disabled,
+:root[data-theme="dark"] .generator-options-btn:disabled,
+:root[data-theme="dark"] .generator-add-btn:disabled,
+:root[data-theme="dark"] .generator-count-button:disabled {
     background: var(--color-control-disabled);
     color: #c2cad4;
 }
