@@ -168,13 +168,15 @@
 }
 
 .generator-action-btn,
-.generator-options-btn {
+.generator-options-btn,
+.generator-add-btn {
     min-height: 44px;
     padding: 0 16px;
 }
 
 .generator-action-btn:disabled,
-.generator-options-btn:disabled {
+.generator-options-btn:disabled,
+.generator-add-btn:disabled {
     background: var(--color-surface-raised);
     border: 1px solid var(--line-strong);
     color: var(--text-muted);
@@ -1545,28 +1547,33 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .schedule-generator-panel {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
         padding-top: 2px;
     }
 
     .generator-workarea {
-        flex: 0 0 auto;
-        gap: 14px;
-        padding-bottom: 12px;
+        flex: 1 1 auto;
+        gap: 8px;
+        min-height: 0;
+        padding-bottom: 2px;
     }
 
     .generator-display {
-        flex: 0 0 auto;
+        flex: 1 1 auto;
+        min-height: 0;
     }
 
     .generator-schedule-section {
-        flex: 0 0 auto;
+        flex: 1 1 auto;
         min-height: 0;
         min-width: 0;
     }
 
     .generator-actions {
-        align-items: stretch;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
         min-width: 0;
     }
 
@@ -1575,14 +1582,17 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .generator-action-buttons {
-        align-items: stretch;
-        flex-direction: column;
+        display: grid;
+        grid-column: 1 / -1;
+        grid-row: 2;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         min-width: 0;
         width: 100%;
     }
 
     .generator-action-btn,
-    .generator-options-btn {
+    .generator-options-btn,
+    .generator-add-btn {
         box-sizing: border-box;
         max-width: 100%;
         min-height: 44px;
@@ -1592,9 +1602,14 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         width: 100%;
     }
 
+    .generator-add-btn {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
     .schedule-generator-panel .generator-calendar-wrap {
-        flex: 0 0 auto;
-        height: clamp(240px, 40dvh, 320px);
+        flex: 1 1 auto;
+        height: auto;
         min-height: 0;
         overflow-anchor: none;
         overflow-x: hidden;
@@ -1627,6 +1642,30 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         flex-basis: 96px;
         height: 96px;
         width: 128px;
+    }
+
+    @media (max-height: 650px) {
+        .generator-actions .generator-section-title,
+        .generator-options-btn:disabled {
+            display: none;
+        }
+
+        .generator-actions {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .generator-action-buttons {
+            display: flex;
+            flex: 1 1 0;
+            width: auto;
+        }
+
+        .generator-action-btn,
+        .generator-add-btn {
+            flex: 1 1 0;
+            width: auto;
+        }
     }
 
     .field-grid {

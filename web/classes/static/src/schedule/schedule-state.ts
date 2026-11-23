@@ -423,13 +423,14 @@ export function createSchedule(name: string = DEFAULT_SCHEDULE_NAME): ScheduleRe
   return persistWorkspace(workspace) ? schedule : null;
 }
 
-export function addSchedule(sections : SectionReference[], name: string = DEFAULT_SCHEDULE_NAME) : void
-{
+export function addSchedule(sections: SectionReference[], name: string = DEFAULT_SCHEDULE_NAME): ScheduleRecord | null {
   const workspace = currentWorkspace || loadScheduleWorkspace();
   const id = createScheduleId();
-  const schedule = createScheduleRecord(id, name, sections);
+  const schedule = createScheduleRecord(id, name, createSectionReferences(sections).sectionRefs);
   workspace.schedules[id] = schedule;
-  persistWorkspace(workspace);
+  if (persistWorkspace(workspace)) return schedule;
+  delete workspace.schedules[id];
+  return null;
 }
 
 /**

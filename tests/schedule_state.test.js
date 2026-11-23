@@ -7,6 +7,7 @@
 
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
+  addSchedule,
   appendScheduleEntries,
   addSectionSelection,
   clearSchedule,
@@ -180,6 +181,24 @@ describe("schedule state", () => {
     expect(deleteSchedule(second.id)).toBe(true);
     expect(getSchedules()).toHaveLength(1);
     expect(deleteSchedule(first.id)).toBe(false);
+  });
+
+  it("adds a generated schedule without replacing the active schedule", () => {
+    appendScheduleEntries([entry("existing")]);
+    const active = getActiveSchedule();
+    const generated = addSchedule([
+      { term_slug: "fall-2026", section_id: "lecture", schedule_group_id: "pair" },
+      { term_slug: "fall-2026", section_id: "lab", schedule_group_id: "pair" },
+    ], "Generated Schedule 1");
+
+    expect(generated.section_refs).toEqual([
+      { term_slug: "fall-2026", section_id: "lecture", schedule_group_id: "pair" },
+      { term_slug: "fall-2026", section_id: "lab", schedule_group_id: "pair" },
+    ]);
+    expect(getSchedules()).toHaveLength(2);
+    expect(getActiveSchedule()).toEqual(active);
+    expect(getSchedule().map((section) => section.section_id)).toEqual(["existing"]);
+    expect(JSON.parse(localStorage.getItem("crimson_scheduler_workspace")).schedules[generated.id]).toEqual(generated);
   });
 
   it("deleting the active schedule selects another schedule", () => {

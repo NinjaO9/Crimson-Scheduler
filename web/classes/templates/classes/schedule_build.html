@@ -226,7 +226,6 @@
                  role="tabpanel" aria-labelledby="scheduleGeneratorTab" tabindex="0" hidden>
                 <div class="generator-workarea">
                     <div class="generator-actions">
-                        <h2 class="generator-section-title" id="generatorScheduleTitle">Schedule</h2>
                         <div class="generator-action-buttons" aria-label="Schedule generation tools">
                             <button type="button" class="primary-btn generator-action-btn" id="generateSchedulesBtn" disabled>
                                 Generate Schedules
@@ -235,7 +234,11 @@
                                 Schedule Options
                             </button>
                         </div>
+                        <button type="button" class="manage-btn generator-add-btn" id="addGeneratedScheduleBtn" disabled>
+                            Add Schedule
+                        </button>
                     </div>
+                    <p class="visually-hidden" id="addGeneratedScheduleStatus" role="status"></p>
                     <div class="generator-display">
                         <section class="generator-schedule-section" aria-labelledby="generatorScheduleTitle">
                             <div class="calendar-wrap generator-calendar-wrap" role="group" tabindex="-1"

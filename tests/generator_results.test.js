@@ -19,6 +19,7 @@ describe("generator results", () => {
         <div id="generatorCalendarHeader"></div><div id="generatorCalendarGrid"></div>
       </div>
       <p id="generatorResultsEmpty"></p><div id="generatorPreviewList"></div>
+      <button id="addGeneratedScheduleBtn" disabled>Add Schedule</button>
       <span id="mobileCombinationsCount">(0)</span>
     `;
   });
@@ -66,9 +67,12 @@ describe("generator results", () => {
   it("renders supplied candidates, selects a preview, and clears results", () => {
     const onResultSelected = vi.fn();
     const controller = initializeScheduleGeneratorController({ onResultSelected });
+    const addButton = document.getElementById("addGeneratedScheduleBtn");
     const grid = document.getElementById("generatorCalendarGrid");
     const calendar = document.querySelector(".generator-calendar-wrap");
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(0);
+    expect(controller.getActiveResult()).toBeNull();
+    expect(addButton.disabled).toBe(true);
     calendar.scrollTop = 348;
     controller.setResults([
       { id: "first", sections: [section("CPT_S 121", "MWF", "9:00 AM - 9:50 AM")] },
@@ -76,6 +80,8 @@ describe("generator results", () => {
       { id: "third", sections: [section("CHEM 105", "MWF", "1:00 PM - 1:50 PM")] },
     ]);
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(3);
+    expect(controller.getActiveResult().id).toBe("first");
+    expect(addButton.disabled).toBe(false);
     expect(calendar.scrollTop).toBe(0);
     expect(document.querySelectorAll(".generator-preview")).toHaveLength(3);
     expect(document.getElementById("mobileCombinationsCount").textContent).toBe("(3)");
@@ -86,6 +92,7 @@ describe("generator results", () => {
     calendar.scrollTop = 116;
     document.querySelectorAll(".generator-preview")[1].click();
     expect(onResultSelected).toHaveBeenCalledOnce();
+    expect(controller.getActiveResult().id).toBe("second");
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(2);
     expect(grid.textContent).toContain("MATH 171");
     expect(document.activeElement).toBe(document.querySelectorAll(".generator-preview")[1]);
@@ -95,6 +102,8 @@ describe("generator results", () => {
     expect(calendar.scrollTop).toBe(116);
     expect(controller.selectResult("missing")).toBe(false);
     controller.setResults([]);
+    expect(controller.getActiveResult()).toBeNull();
+    expect(addButton.disabled).toBe(true);
     expect(grid.querySelectorAll(".generator-result-block")).toHaveLength(0);
     expect(document.querySelectorAll(".generator-preview")).toHaveLength(0);
     expect(document.getElementById("generatorResultsEmpty").hidden).toBe(false);

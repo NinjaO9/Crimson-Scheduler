@@ -46,10 +46,12 @@ import {
   updateMobileImageExportVisibility,
 } from "./responsive.js";
 import {
+  addSchedule,
   addSectionSelection,
   clearSchedule,
   getActiveSchedule,
   getSchedule,
+  getSchedules,
   hydrateSchedule,
   initializeScheduleState,
   removeScheduleEntry,
@@ -99,6 +101,28 @@ export function initializeScheduleApp(): void {
   });
   
   generatorWorkflow = initializeGeneratorWorkflow(generatorSelection.getCourses, generatorResults);
+
+  const addGeneratedButton = document.getElementById("addGeneratedScheduleBtn");
+  addGeneratedButton?.addEventListener("click", () => {
+    const result = generatorResults.getActiveResult();
+    if (!result) return;
+    const existingNames = new Set(getSchedules().map((schedule) => schedule.name));
+    let number = 1;
+    while (existingNames.has(`Generated ${number}`)) number += 1;
+    const name = `Generated ${number}`;
+    const saved = addSchedule(result.sections.map(({ term_slug, section_id, schedule_group_id }) => ({
+      term_slug,
+      section_id: String(section_id),
+      schedule_group_id: schedule_group_id ?? null,
+    })), name);
+    const status = document.getElementById("addGeneratedScheduleStatus");
+    if (saved) refreshScheduleSelector();
+    addGeneratedButton.textContent = saved ? "Added to list" : "Could not add";
+    window.setTimeout(() => { addGeneratedButton.textContent = "Add Schedule"; }, 2000);
+    if (status) status.textContent = saved
+      ? `${saved.name} added to your schedule list.`
+      : "Unable to add schedule. Please try again.";
+  });
 
   const refreshSchedule = () => {
     renderSchedule(getSchedule(), {

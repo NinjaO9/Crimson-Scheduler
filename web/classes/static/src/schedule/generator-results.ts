@@ -9,6 +9,7 @@ export type GeneratedSchedule = { id: string; sections: HydratedSection[] };
 export type GeneratorResultsController = {
   setResults: (results: GeneratedSchedule[]) => void;
   selectResult: (id: string) => boolean;
+  getActiveResult: () => GeneratedSchedule | null;
   refresh: () => void;
 };
 
@@ -19,6 +20,7 @@ export function initializeScheduleGeneratorController({ onResultSelected }: { on
   const previews = document.getElementById("generatorPreviewList");
   const empty = document.getElementById("generatorResultsEmpty");
   const calendar = document.querySelector<HTMLElement>(".generator-calendar-wrap");
+  const addButton = document.querySelector<HTMLButtonElement>("#addGeneratedScheduleBtn");
   let results: GeneratedSchedule[] = [];
   let activeId: string | null = null;
 
@@ -110,6 +112,7 @@ export function initializeScheduleGeneratorController({ onResultSelected }: { on
   const render = (): void => {
     renderFocusedSchedule();
     renderSchedulePreviews();
+    if (addButton) addButton.disabled = !results.some((result) => result.id === activeId);
   };
 
   const selectResult = (id: string): boolean => {
@@ -126,5 +129,5 @@ export function initializeScheduleGeneratorController({ onResultSelected }: { on
   };
   render();
   
-  return { setResults, selectResult, refresh: render };
+  return { setResults, selectResult, getActiveResult: () => results.find((result) => result.id === activeId) ?? null, refresh: render };
 }
