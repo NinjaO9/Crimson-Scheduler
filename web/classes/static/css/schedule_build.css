@@ -155,12 +155,6 @@
     min-width: 0;
 }
 
-.generator-actions .generator-section-title {
-    font-size: 1.42rem;
-    line-height: 1.25;
-    margin-bottom: 0;
-}
-
 .generator-action-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -1572,39 +1566,31 @@ body:has(#showInstructorToggle:checked) .course-block-line {
     }
 
     .generator-actions {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
+        display: block;
         min-width: 0;
-    }
-
-    .generator-actions .generator-section-title {
-        font-size: 16px;
     }
 
     .generator-action-buttons {
         display: grid;
-        grid-column: 1 / -1;
-        grid-row: 2;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 6px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         min-width: 0;
         width: 100%;
     }
 
-    .generator-action-btn,
-    .generator-options-btn,
-    .generator-add-btn {
+    .schedule-generator-panel .generator-action-btn,
+    .schedule-generator-panel .generator-options-btn,
+    .schedule-generator-panel .generator-add-btn {
         box-sizing: border-box;
+        font-size: 0.82rem;
+        line-height: 1.15;
         max-width: 100%;
         min-height: 44px;
         min-width: 0;
         overflow-wrap: anywhere;
+        padding: 4px;
         white-space: normal;
         width: 100%;
-    }
-
-    .generator-add-btn {
-        grid-column: 2;
-        grid-row: 1;
     }
 
     .schedule-generator-panel .generator-calendar-wrap {
@@ -1642,30 +1628,6 @@ body:has(#showInstructorToggle:checked) .course-block-line {
         flex-basis: 96px;
         height: 96px;
         width: 128px;
-    }
-
-    @media (max-height: 650px) {
-        .generator-actions .generator-section-title,
-        .generator-options-btn:disabled {
-            display: none;
-        }
-
-        .generator-actions {
-            display: flex;
-            flex-wrap: nowrap;
-        }
-
-        .generator-action-buttons {
-            display: flex;
-            flex: 1 1 0;
-            width: auto;
-        }
-
-        .generator-action-btn,
-        .generator-add-btn {
-            flex: 1 1 0;
-            width: auto;
-        }
     }
 
     .field-grid {
