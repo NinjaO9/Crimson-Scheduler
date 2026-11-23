@@ -338,19 +338,26 @@
                 <h2 id="generatorOptionsTitle">Generator Options</h2>
                 <button type="button" class="filter-done-btn" data-close-generator-options>Done</button>
             </div>
-            <div class="generator-options-field">
-                <div class="generator-options-label" id="generatorScheduleCountLabel">Number of schedules</div>
-                <div class="generator-count-stepper" role="group" aria-labelledby="generatorScheduleCountLabel">
-                    <button type="button" class="generator-count-button" data-generator-count-step="-1" aria-label="Generate fewer schedules">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
-                    </button>
-                    <output id="generatorScheduleCount" aria-live="polite" aria-atomic="true">3</output>
-                    <button type="button" class="generator-count-button" data-generator-count-step="1" aria-label="Generate more schedules">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-                    </button>
+            <div id="mobileGeneratorOptionsHost">
+                <div class="generator-options-field">
+                    <div class="generator-options-label" id="generatorScheduleCountLabel">Number of schedules</div>
+                    <div class="generator-count-stepper" role="group" aria-labelledby="generatorScheduleCountLabel">
+                        <button type="button" class="generator-count-button" data-generator-count-step="-1" aria-label="Generate fewer schedules">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+                        </button>
+                        <output id="generatorScheduleCount" aria-live="polite" aria-atomic="true">3</output>
+                        <button type="button" class="generator-count-button" data-generator-count-step="1" aria-label="Generate more schedules">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
+    </div>
+
+    <div class="generator-options-popover" id="desktopGeneratorOptionsPopover" role="dialog"
+         aria-label="Generator options" aria-hidden="true" tabindex="-1" hidden inert>
+        <div id="desktopGeneratorOptionsHost"></div>
     </div>
 
     <div class="mobile-combinations-sheet" id="mobileCombinationsSheet" aria-hidden="true" hidden inert>

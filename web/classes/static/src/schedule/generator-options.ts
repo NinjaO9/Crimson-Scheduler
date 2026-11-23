@@ -7,15 +7,22 @@ import {
 import { normalizeGeneratorCount } from "./schedule-generation.js";
 import { isMobileViewport } from "./responsive.js";
 
-/** Connects the mobile generator options sheet and returns its schedule count. */
+/** 
+ * Prepares Generator options for both mobile and desktop views. 
+ */
 export function initializeGeneratorOptions(): { getCount: () => number } {
   const button = document.querySelector<HTMLButtonElement>("#generatorOptionsBtn");
   const sheet = document.querySelector<HTMLElement>("#mobileGeneratorOptionsSheet");
   const panel = sheet?.querySelector<HTMLElement>(".mobile-generator-options-panel");
-  const output = document.querySelector<HTMLOutputElement>("#generatorScheduleCount");
-  const decrease = sheet?.querySelector<HTMLButtonElement>('[data-generator-count-step="-1"]');
-  const increase = sheet?.querySelector<HTMLButtonElement>('[data-generator-count-step="1"]');
+  const popover = document.querySelector<HTMLElement>("#desktopGeneratorOptionsPopover");
+  const mobileHost = document.querySelector<HTMLElement>("#mobileGeneratorOptionsHost");
+  const desktopHost = document.querySelector<HTMLElement>("#desktopGeneratorOptionsHost");
+  const field = document.querySelector<HTMLElement>(".generator-options-field");
+  const output = field?.querySelector<HTMLOutputElement>("#generatorScheduleCount");
+  const decrease = field?.querySelector<HTMLButtonElement>('[data-generator-count-step="-1"]');
+  const increase = field?.querySelector<HTMLButtonElement>('[data-generator-count-step="1"]');
   let count = GENERATOR_DEFAULT_SCHEDULES;
+  let currentMobile: boolean | null = null;
 
   try {
     const stored = localStorage.getItem(GENERATOR_COUNT_STORAGE_KEY);
@@ -23,6 +30,7 @@ export function initializeGeneratorOptions(): { getCount: () => number } {
   } catch {
     // The current selection still works when storage is unavailable.
   }
+
   const syncCount = (): void => {
     if (output) output.textContent = String(count);
     if (decrease) decrease.disabled = count <= GENERATOR_MIN_SCHEDULES;
@@ -30,7 +38,7 @@ export function initializeGeneratorOptions(): { getCount: () => number } {
   };
   syncCount();
 
-  const close = (restoreFocus = true): void => {
+  const closeMobile = (restoreFocus = true): void => {
     if (!sheet || sheet.hidden) return;
     sheet.classList.remove("is-open");
     sheet.inert = true;
@@ -43,17 +51,18 @@ export function initializeGeneratorOptions(): { getCount: () => number } {
     if (restoreFocus) button?.focus({ preventScroll: true });
   };
 
-  const syncViewport = (): void => {
-    const mobile = isMobileViewport();
-    if (button) button.disabled = !mobile;
-    if (!mobile && sheet && !sheet.hidden) {
-      close(false);
-      document.getElementById("scheduleGeneratorPanel")?.focus({ preventScroll: true });
-    }
+  const closeDesktop = (restoreFocus = true): void => {
+    if (!popover || popover.hidden) return;
+    const focusWasInside = popover.contains(document.activeElement);
+    popover.hidden = true;
+    popover.inert = true;
+    popover.setAttribute("aria-hidden", "true");
+    button?.setAttribute("aria-expanded", "false");
+    if (restoreFocus || focusWasInside) button?.focus({ preventScroll: true });
   };
 
-  button?.addEventListener("click", () => {
-    if (!sheet || !panel || !isMobileViewport()) return;
+  const openMobile = (): void => {
+    if (!button || !sheet || !panel) return;
     sheet.hidden = false;
     sheet.inert = false;
     sheet.setAttribute("aria-hidden", "false");
@@ -63,11 +72,54 @@ export function initializeGeneratorOptions(): { getCount: () => number } {
       if (!sheet.inert) sheet.classList.add("is-open");
     });
     panel.focus({ preventScroll: true });
+  };
+
+  const openDesktop = (): void => {
+    if (!button || !popover) return;
+    popover.hidden = false;
+    popover.inert = false;
+    popover.setAttribute("aria-hidden", "false");
+    button.setAttribute("aria-expanded", "true");
+    const trigger = button.getBoundingClientRect();
+    const surface = popover.getBoundingClientRect();
+    const left = Math.max(16, Math.min(trigger.right - surface.width, window.innerWidth - surface.width - 16));
+    const below = trigger.bottom + 8;
+    const top = below + surface.height <= window.innerHeight - 16
+      ? below
+      : Math.max(16, trigger.top - surface.height - 8);
+    popover.style.left = `${left}px`;
+    popover.style.top = `${top}px`;
+    (decrease?.disabled ? increase : decrease)?.focus({ preventScroll: true });
+  };
+
+  const syncViewport = (): void => {
+    const mobile = isMobileViewport();
+    if (button) button.disabled = !sheet || !popover || !panel || !field || !mobileHost || !desktopHost;
+    if (currentMobile !== mobile) {
+      const mobileWasOpen = !!sheet && !sheet.hidden;
+      closeMobile(false);
+      closeDesktop(false);
+      if (field) (mobile ? mobileHost : desktopHost)?.appendChild(field);
+      button?.setAttribute("aria-controls", mobile ? "mobileGeneratorOptionsSheet" : "desktopGeneratorOptionsPopover");
+      currentMobile = mobile;
+      if (mobileWasOpen) button?.focus({ preventScroll: true });
+    } else if (!mobile) {
+      closeDesktop();
+    }
+  };
+
+  button?.addEventListener("click", () => {
+    if (button.disabled) return;
+    if (isMobileViewport()) {
+      if (sheet?.hidden) openMobile();
+      else closeMobile();
+    } else if (popover?.hidden) openDesktop();
+    else closeDesktop();
+  });
+  sheet?.querySelectorAll<HTMLElement>("[data-close-generator-options]").forEach((control) => {
+    control.addEventListener("click", () => closeMobile());
   });
 
-  sheet?.querySelectorAll<HTMLElement>("[data-close-generator-options]").forEach((control) => {
-    control.addEventListener("click", () => close());
-  });
   const step = (delta: number): void => {
     const next = normalizeGeneratorCount(count + delta);
     if (next === count) return;
@@ -81,9 +133,20 @@ export function initializeGeneratorOptions(): { getCount: () => number } {
   };
   decrease?.addEventListener("click", () => step(-1));
   increase?.addEventListener("click", () => step(1));
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && sheet && !sheet.hidden) close();
+
+  document.addEventListener("click", (event) => {
+    if (popover?.hidden || !(event.target instanceof Node)) return;
+    if (!popover?.contains(event.target) && !button?.contains(event.target)) closeDesktop(false);
   });
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    if (sheet && !sheet.hidden) closeMobile();
+    else if (popover && !popover.hidden) closeDesktop();
+  });
+  window.addEventListener("scroll", (event) => {
+    if (popover?.hidden || event.target instanceof Node && popover?.contains(event.target)) return;
+    closeDesktop();
+  }, true);
   window.addEventListener("resize", syncViewport);
   syncViewport();
   return { getCount: () => count };
