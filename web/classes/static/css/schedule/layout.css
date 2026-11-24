@@ -496,10 +496,6 @@ body:has(.schedule-app) .site-footer {
     color: var(--color-link-hover);
 }
 
-.manage-btn:focus-visible {
-    box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
-}
-
 @media (max-width: 760px) {
     body:has(.schedule-app) {
         padding-bottom: 0;

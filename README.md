@@ -249,9 +249,9 @@ The deployed site uses Vercel Web Analytics for aggregate traffic information. S
 
 Crimson Scheduler is a planning aid. It cannot guarantee seat availability, eligibility, prerequisites, instructor assignments, meeting locations, or that a section will remain unchanged. Verify every selection in WSU's official registration tools before enrolling.
 
-## Roadmap ideas
+## Roadmap
 
-- [ ] Create schedule generation to help users optimize their schedules.
+- [x] Create schedule generation to help users optimize their schedules.
 - [ ] Introduce pagination to the course results.
 - [ ] Allow users to compare their schedules with friends within the application.
 - [ ] Add degree-planning relationships for exploring prerequisites and future semesters.

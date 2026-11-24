@@ -38,22 +38,14 @@
     cursor: not-allowed;
 }
 
-.filter-toggle:not(:disabled):hover,
-.filter-toggle:not(:disabled):focus-visible,
-.filter-done-btn:hover,
-.filter-done-btn:focus-visible,
-.generator-count-button:not(:disabled):hover,
-.generator-count-button:not(:disabled):focus-visible,
-.manage-btn:not(:disabled):hover,
-.manage-btn:not(:disabled):focus-visible {
-    background: #a9152c;
-    outline: 0;
+.app-button:not(:disabled):hover,
+.app-button:not(:disabled):focus-visible {
+    background: var(--color-accent-hover);
 }
 
-.filter-toggle:not(:disabled):focus-visible,
-.filter-done-btn:focus-visible,
-.generator-count-button:not(:disabled):focus-visible {
-    box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
+.app-button:not(:disabled):focus-visible {
+    box-shadow: var(--focus-ring);
+    outline: 0;
 }
 
 .app-button--toolbar {
