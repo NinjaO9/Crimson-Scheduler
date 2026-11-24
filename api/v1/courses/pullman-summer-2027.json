@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T22:17:35.031221+00:00",
+  "generatedAt": "2026-11-24T22:34:23.455103+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -1536,6 +1536,96 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BIOLOGY",
+      "courses": [
+        {
+          "course": "Introductory Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 251,
+          "courseCode": "BIOLOGY 251",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2884",
+              "sln": 2884,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "09:00 - 09:50",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "09:00 - 09:50"
+                }
+              ],
+              "location": "SLOA 169",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jul 23"
+              }
+            },
+            {
+              "sectionId": "2885",
+              "sln": 2885,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "10:40 - 13:30",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:40 - 13:30"
+                }
+              ],
+              "location": "EAST G0095",
+              "instructor": "E JOHNSON",
+              "instructors": [
+                "E JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 35,
+                "available": 35,
+                "label": "0/35"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jul 23"
               }
             }
           ]
@@ -5653,6 +5743,59 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SOE",
+      "courses": [
+        {
+          "course": "Advanced Earth Science Field Methods",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 408,
+          "courseCode": "SOE 408",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2878",
+              "sln": 2878,
+              "sectionNumber": 1,
+              "courseCode": "SOE 408",
+              "courseName": "Advanced Earth Science Field Methods",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M PELCH",
+              "instructors": [
+                "M PELCH"
+              ],
+              "ucore": "CAPS",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 9,
+                "available": 9,
+                "label": "0/9"
+              },
+              "dates": {
+                "start": "May 21",
+                "end": "Jun 11"
               }
             }
           ]

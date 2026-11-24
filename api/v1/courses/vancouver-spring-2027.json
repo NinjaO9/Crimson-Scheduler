@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T22:17:35.146065+00:00",
+  "generatedAt": "2026-11-24T22:34:23.544335+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -3132,10 +3132,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 20,
+                "taken": 19,
                 "total": 32,
-                "available": 12,
-                "label": "20/32"
+                "available": 13,
+                "label": "19/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3254,10 +3254,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 16,
                 "total": 32,
-                "available": 15,
-                "label": "17/32"
+                "available": 16,
+                "label": "16/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4461,10 +4461,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 14,
+                "taken": 15,
                 "total": 30,
-                "available": 16,
-                "label": "14/30"
+                "available": 15,
+                "label": "15/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4498,10 +4498,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 6,
+                "taken": 7,
                 "total": 15,
-                "available": 9,
-                "label": "6/15"
+                "available": 8,
+                "label": "7/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5244,10 +5244,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 15,
-                "available": 11,
-                "label": "4/15"
+                "available": 10,
+                "label": "5/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5403,10 +5403,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 2,
                 "total": 5,
-                "available": 5,
-                "label": "0/5"
+                "available": 3,
+                "label": "2/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5451,10 +5451,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "available": 8,
+                "label": "2/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5547,10 +5547,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 6,
-                "available": 5,
-                "label": "1/6"
+                "available": 4,
+                "label": "2/6"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5563,7 +5563,752 @@
     },
     {
       "subject": "DATA",
-      "courses": []
+      "courses": [
+        {
+          "course": "Introduction to Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 115,
+          "courseCode": "DATA 115",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2974",
+              "sln": 2974,
+              "sectionNumber": 1,
+              "courseCode": "DATA 115",
+              "courseName": "Introduction to Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C PARKER",
+              "instructors": [
+                "C PARKER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 7,
+                "available": 2,
+                "label": "5/7"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Computational Calculus I",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 121,
+          "courseCode": "DATA 121",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2070",
+              "sln": 2070,
+              "sectionNumber": 1,
+              "courseCode": "DATA 121",
+              "courseName": "Computational Calculus I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "Y ZHANG",
+              "instructors": [
+                "Y ZHANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Computational Calculus II",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 122,
+          "courseCode": "DATA 122",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2073",
+              "sln": 2073,
+              "sectionNumber": 1,
+              "courseCode": "DATA 122",
+              "courseName": "Computational Calculus II",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "15:10 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "15:10 - 16:10"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C PARKER",
+              "instructors": [
+                "C PARKER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 5,
+                "available": 1,
+                "label": "4/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Structures for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 219,
+          "courseCode": "DATA 219",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7006",
+              "sln": 7006,
+              "sectionNumber": 1,
+              "courseCode": "DATA 219",
+              "courseName": "Data Structures for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "Y ZHANG",
+              "instructors": [
+                "Y ZHANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 5,
+                "available": 0,
+                "label": "5/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Linear Algebra with Modern Applications",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 225,
+          "courseCode": "DATA 225",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2022",
+              "sln": 2022,
+              "sectionNumber": 1,
+              "courseCode": "DATA 225",
+              "courseName": "Linear Algebra with Modern Applications",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "S LAPIN",
+              "instructors": [
+                "S LAPIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to R",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 301,
+          "courseCode": "DATA 301",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8979",
+              "sln": 8979,
+              "sectionNumber": 1,
+              "courseCode": "DATA 301",
+              "courseName": "Introduction to R",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 9,
+                "total": 10,
+                "available": 1,
+                "label": "9/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Python",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 302,
+          "courseCode": "DATA 302",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8980",
+              "sln": 8980,
+              "sectionNumber": 1,
+              "courseCode": "DATA 302",
+              "courseName": "Introduction to Python",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 9,
+                "total": 9,
+                "available": 0,
+                "label": "9/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to SQL - The Structured Query Language",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 303,
+          "courseCode": "DATA 303",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8981",
+              "sln": 8981,
+              "sectionNumber": 1,
+              "courseCode": "DATA 303",
+              "courseName": "Introduction to SQL - The Structured Query Language",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 5,
+                "total": 5,
+                "available": 0,
+                "label": "5/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Model-based and Data-based Methods for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 319,
+          "courseCode": "DATA 319",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9699",
+              "sln": 9699,
+              "sectionNumber": 2,
+              "courseCode": "DATA 319",
+              "courseName": "Model-based and Data-based Methods for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Repository Systems for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 324,
+          "courseCode": "DATA 324",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2027",
+              "sln": 2027,
+              "sectionNumber": 1,
+              "courseCode": "DATA 324",
+              "courseName": "Data Repository Systems for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 8,
+                "available": 3,
+                "label": "5/8"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Probability and Statistics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 360,
+          "courseCode": "DATA 360",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2998",
+              "sln": 2998,
+              "sectionNumber": 1,
+              "courseCode": "DATA 360",
+              "courseName": "Probability and Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 219",
+              "instructor": "L SOTOMAYOR",
+              "instructors": [
+                "L SOTOMAYOR"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Analytics Capstone",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 424,
+          "courseCode": "DATA 424",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8975",
+              "sln": 8975,
+              "sectionNumber": 2,
+              "courseCode": "DATA 424",
+              "courseName": "Data Analytics Capstone",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LAPIN",
+              "instructors": [
+                "S LAPIN"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 4,
+                "total": 4,
+                "available": 0,
+                "label": "4/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "9875",
+              "sln": 9875,
+              "sectionNumber": 3,
+              "courseCode": "DATA 424",
+              "courseName": "Data Analytics Capstone",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 4,
+                "available": 3,
+                "label": "1/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "High Dimensional Data Learning and Visualization",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 437,
+          "courseCode": "DATA 437",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6660",
+              "sln": 6660,
+              "sectionNumber": 1,
+              "courseCode": "DATA 437",
+              "courseName": "High Dimensional Data Learning and Visualization",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "X CHEN",
+              "instructors": [
+                "X CHEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11745",
+              "sln": 11745,
+              "sectionNumber": 1,
+              "courseCode": "DATA 437",
+              "courseName": "High Dimensional Data Learning and Visualization",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "X CHEN",
+              "instructors": [
+                "X CHEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 498,
+          "courseCode": "DATA 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8976",
+              "sln": 8976,
+              "sectionNumber": 1,
+              "courseCode": "DATA 498",
+              "courseName": "Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LAPIN",
+              "instructors": [
+                "S LAPIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "DTC",
@@ -21503,261 +22248,6 @@
       "subject": "SOE",
       "courses": [
         {
-          "course": "Welcome to the Earth: An Introduction to Geology",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 101,
-          "courseCode": "SOE 101",
-          "credits": "4",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "2638",
-              "sln": 2638,
-              "sectionNumber": 1,
-              "courseCode": "SOE 101",
-              "courseName": "Welcome to the Earth: An Introduction to Geology",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "VUB  1",
-              "instructor": "B WALKER",
-              "instructors": [
-                "B WALKER"
-              ],
-              "ucore": "PSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 72,
-                "total": 72,
-                "available": 0,
-                "label": "72/72"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2639",
-              "sln": 2639,
-              "sectionNumber": 1,
-              "courseCode": "SOE 101",
-              "courseName": "Welcome to the Earth: An Introduction to Geology",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "M",
-              "time": "13:30 - 16:10",
-              "meetings": [
-                {
-                  "days": "M",
-                  "time": "13:30 - 16:10"
-                }
-              ],
-              "location": "VSCI 101",
-              "instructor": "B WALKER",
-              "instructors": [
-                "B WALKER"
-              ],
-              "ucore": "PSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 24,
-                "total": 24,
-                "available": 0,
-                "label": "24/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2640",
-              "sln": 2640,
-              "sectionNumber": 2,
-              "courseCode": "SOE 101",
-              "courseName": "Welcome to the Earth: An Introduction to Geology",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TU",
-              "time": "09:10 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "09:10 - 11:50"
-                }
-              ],
-              "location": "VSCI 101",
-              "instructor": "B WALKER",
-              "instructors": [
-                "B WALKER"
-              ],
-              "ucore": "PSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 24,
-                "total": 24,
-                "available": 0,
-                "label": "24/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "2641",
-              "sln": 2641,
-              "sectionNumber": 3,
-              "courseCode": "SOE 101",
-              "courseName": "Welcome to the Earth: An Introduction to Geology",
-              "credits": "4",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "W",
-              "time": "13:30 - 16:10",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "13:30 - 16:10"
-                }
-              ],
-              "location": "VSCI 101",
-              "instructor": "B WALKER",
-              "instructors": [
-                "B WALKER"
-              ],
-              "ucore": "PSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 24,
-                "total": 24,
-                "available": 0,
-                "label": "24/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Making the Most of Your EES Major",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 200,
-          "courseCode": "SOE 200",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11494",
-              "sln": 11494,
-              "sectionNumber": 1,
-              "courseCode": "SOE 200",
-              "courseName": "Making the Most of Your EES Major",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "14:10 - 15:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "14:10 - 15:00"
-                }
-              ],
-              "location": "VUB  122",
-              "instructor": "G ROLLWAGEN-BOLLENS",
-              "instructors": [
-                "G ROLLWAGEN-BOLLENS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 14,
-                "total": 20,
-                "available": 6,
-                "label": "14/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to Earth System Science",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 250,
-          "courseCode": "SOE 250",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2755",
-              "sln": 2755,
-              "sectionNumber": 1,
-              "courseCode": "SOE 250",
-              "courseName": "Introduction to Earth System Science",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "VLIB 260",
-              "instructor": "J HARRISON",
-              "instructors": [
-                "J HARRISON"
-              ],
-              "ucore": "PSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 21,
-                "total": 30,
-                "available": 9,
-                "label": "21/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Natural Resources, Society, and the Environment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -21806,139 +22296,6 @@
           ]
         },
         {
-          "course": "Water and the Earth",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 315,
-          "courseCode": "SOE 315",
-          "credits": "3",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "3071",
-              "sln": 3071,
-              "sectionNumber": 1,
-              "courseCode": "SOE 315",
-              "courseName": "Water and the Earth",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "M,W",
-              "time": "10:35 - 11:25",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:35 - 11:25"
-                }
-              ],
-              "location": "VSCI 101",
-              "instructor": "K MOFFETT",
-              "instructors": [
-                "K MOFFETT"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 17,
-                "total": 20,
-                "available": 3,
-                "label": "17/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "3072",
-              "sln": 3072,
-              "sectionNumber": 1,
-              "courseCode": "SOE 315",
-              "courseName": "Water and the Earth",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "TH",
-              "time": "09:10 - 11:50",
-              "meetings": [
-                {
-                  "days": "TH",
-                  "time": "09:10 - 11:50"
-                }
-              ],
-              "location": "VSCI 101",
-              "instructor": "K MOFFETT",
-              "instructors": [
-                "K MOFFETT"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 17,
-                "total": 20,
-                "available": 3,
-                "label": "17/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "The Ecosystem",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 404,
-          "courseCode": "SOE 404",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2761",
-              "sln": 2761,
-              "sectionNumber": 1,
-              "courseCode": "SOE 404",
-              "courseName": "The Ecosystem",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VMMC 1",
-              "instructor": "M KRAMER",
-              "instructors": [
-                "M KRAMER"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 20,
-                "total": 30,
-                "available": 10,
-                "label": "20/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Watershed Management",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -21978,530 +22335,6 @@
                 "total": 3,
                 "available": 1,
                 "label": "2/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Applied Remote Sensing: From Drones to Satellites",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 486,
-          "courseCode": "SOE 486",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6552",
-              "sln": 6552,
-              "sectionNumber": 1,
-              "courseCode": "SOE 486",
-              "courseName": "Applied Remote Sensing: From Drones to Satellites",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "A MEDDENS",
-              "instructors": [
-                "A MEDDENS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 1,
-                "total": 3,
-                "available": 2,
-                "label": "1/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Senior Seminar",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 491,
-          "courseCode": "SOE 491",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2643",
-              "sln": 2643,
-              "sectionNumber": 1,
-              "courseCode": "SOE 491",
-              "courseName": "Senior Seminar",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "15:10 - 17:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "15:10 - 17:00"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "G ROLLWAGEN-BOLLENS",
-              "instructors": [
-                "G ROLLWAGEN-BOLLENS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 20,
-                "available": 18,
-                "label": "2/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Topics",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 492,
-          "courseCode": "SOE 492",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6989",
-              "sln": 6989,
-              "sectionNumber": 1,
-              "courseCode": "SOE 492",
-              "courseName": "Special Topics",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU",
-              "time": "15:10 - 16:10",
-              "meetings": [
-                {
-                  "days": "TU",
-                  "time": "15:10 - 16:10"
-                }
-              ],
-              "location": "VMMC 23",
-              "instructor": "G ROLLWAGEN-BOLLENS",
-              "instructors": [
-                "G ROLLWAGEN-BOLLENS"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "",
-              "seats": {
-                "taken": 11,
-                "total": 20,
-                "available": 9,
-                "label": "11/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Problems",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 499,
-          "courseCode": "SOE 499",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2642",
-              "sln": 2642,
-              "sectionNumber": 1,
-              "courseCode": "SOE 499",
-              "courseName": "Special Problems",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Climate Change Impacts on Physical, Natural, and Human Systems",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 536,
-          "courseCode": "SOE 536",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11435",
-              "sln": 11435,
-              "sectionNumber": 1,
-              "courseCode": "SOE 536",
-              "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "D SINGH",
-              "instructors": [
-                "D SINGH"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Watershed Biogeochemistry",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 562,
-          "courseCode": "SOE 562",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11436",
-              "sln": 11436,
-              "sectionNumber": 1,
-              "courseCode": "SOE 562",
-              "courseName": "Watershed Biogeochemistry",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "J HARRISON",
-              "instructors": [
-                "J HARRISON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Applied Remote Sensing: From Drones to Satellites",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 586,
-          "courseCode": "SOE 586",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6553",
-              "sln": 6553,
-              "sectionNumber": 1,
-              "courseCode": "SOE 586",
-              "courseName": "Applied Remote Sensing: From Drones to Satellites",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "A MEDDENS",
-              "instructors": [
-                "A MEDDENS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 3,
-                "available": 3,
-                "label": "0/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Advanced Topics in Environmental and Natural Resource Sciences",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 592,
-          "courseCode": "SOE 592",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "6442",
-              "sln": 6442,
-              "sectionNumber": 1,
-              "courseCode": "SOE 592",
-              "courseName": "Advanced Topics in Environmental and Natural Resource Sciences",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J PADOWSKI",
-              "instructors": [
-                "J PADOWSKI"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 2,
-                "available": 0,
-                "label": "2/2"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Seminar",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 598,
-          "courseCode": "SOE 598",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2907",
-              "sln": 2907,
-              "sectionNumber": 1,
-              "courseCode": "SOE 598",
-              "courseName": "Seminar",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "W",
-              "time": "15:10 - 16:00",
-              "meetings": [
-                {
-                  "days": "W",
-                  "time": "15:10 - 16:00"
-                }
-              ],
-              "location": "VC   VAN",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 0,
-                "total": 6,
-                "available": 6,
-                "label": "0/6"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Master's Research, Thesis, and/or Examination",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 700,
-          "courseCode": "SOE 700",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2644",
-              "sln": 2644,
-              "sectionNumber": 1,
-              "courseCode": "SOE 700",
-              "courseName": "Master's Research, Thesis, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S BOLLENS",
-              "instructors": [
-                "S BOLLENS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 5,
-                "total": 10,
-                "available": 5,
-                "label": "5/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Doctoral Research, Dissertation, and/or Examination",
-          "subject": "SOE",
-          "subjectPrefix": "SOE",
-          "courseNumber": 800,
-          "courseCode": "SOE 800",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2645",
-              "sln": 2645,
-              "sectionNumber": 1,
-              "courseCode": "SOE 800",
-              "courseName": "Doctoral Research, Dissertation, and/or Examination",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S BOLLENS",
-              "instructors": [
-                "S BOLLENS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
               },
               "dates": {
                 "start": "Jan 11",

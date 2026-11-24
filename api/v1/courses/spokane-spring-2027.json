@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T22:17:35.059012+00:00",
+  "generatedAt": "2026-11-24T22:34:23.475899+00:00",
   "campus": "Spokane",
   "term": "Spring 2027",
   "subjects": [
@@ -47,6 +47,59 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BIOLOGY",
+      "courses": [
+        {
+          "course": "Biology of Sex and Gender",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 307,
+          "courseCode": "BIOLOGY 307",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "10034",
+              "sln": 10034,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 307",
+              "courseName": "Biology of Sex and Gender",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K MITTELSTADT",
+              "instructors": [
+                "K MITTELSTADT"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 1,
+                "available": 1,
+                "label": "0/1"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6118,10 +6171,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 49,
+                "taken": 50,
                 "total": 71,
-                "available": 22,
-                "label": "49/71"
+                "available": 21,
+                "label": "50/71"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6170,10 +6223,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 50,
+                "taken": 51,
                 "total": 78,
-                "available": 28,
-                "label": "50/78"
+                "available": 27,
+                "label": "51/78"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6218,10 +6271,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 49,
+                "taken": 50,
                 "total": 70,
-                "available": 21,
-                "label": "49/70"
+                "available": 20,
+                "label": "50/70"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6314,10 +6367,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 49,
+                "taken": 50,
                 "total": 71,
-                "available": 22,
-                "label": "49/71"
+                "available": 21,
+                "label": "50/71"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6621,10 +6674,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 7,
+                "label": "3/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6706,10 +6759,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 47,
+                "taken": 48,
                 "total": 71,
-                "available": 24,
-                "label": "47/71"
+                "available": 23,
+                "label": "48/71"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7013,10 +7066,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 7,
+                "label": "3/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7098,10 +7151,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 49,
+                "taken": 50,
                 "total": 80,
-                "available": 31,
-                "label": "49/80"
+                "available": 30,
+                "label": "50/80"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7220,10 +7273,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7455,10 +7508,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 49,
+                "taken": 50,
                 "total": 81,
-                "available": 32,
-                "label": "49/81"
+                "available": 31,
+                "label": "50/81"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7577,10 +7630,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7810,10 +7863,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 47,
+                "taken": 48,
                 "total": 81,
-                "available": 34,
-                "label": "47/81"
+                "available": 33,
+                "label": "48/81"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12005,6 +12058,59 @@
       ]
     },
     {
+      "subject": "PSYCH",
+      "courses": [
+        {
+          "course": "Addictive Behavior Among Diverse Populations",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 468,
+          "courseCode": "PSYCH 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12158",
+              "sln": 12158,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 468",
+              "courseName": "Addictive Behavior Among Diverse Populations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VC   SPK",
+              "instructor": "H PATEL",
+              "instructors": [
+                "H PATEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "PUBHLTH",
       "courses": [
         {
@@ -13407,6 +13513,59 @@
                 "total": 54,
                 "available": 49,
                 "label": "5/54"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SOC",
+      "courses": [
+        {
+          "course": "Social Autopsies: How Society Kills Us",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 570,
+          "courseCode": "SOC 570",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12135",
+              "sln": 12135,
+              "sectionNumber": 1,
+              "courseCode": "SOC 570",
+              "courseName": "Social Autopsies: How Society Kills Us",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "J DENNEY",
+              "instructors": [
+                "J DENNEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
               },
               "dates": {
                 "start": "Jan 11",
