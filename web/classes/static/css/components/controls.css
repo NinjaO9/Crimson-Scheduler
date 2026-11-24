@@ -31,8 +31,7 @@
     padding: 0 14px;
 }
 
-.app-button:disabled,
-.generator-count-button:disabled {
+.app-button:disabled {
     background: #e5e7eb;
     border: 0;
     color: var(--text-muted);
@@ -43,6 +42,8 @@
 .filter-toggle:not(:disabled):focus-visible,
 .filter-done-btn:hover,
 .filter-done-btn:focus-visible,
+.generator-count-button:not(:disabled):hover,
+.generator-count-button:not(:disabled):focus-visible,
 .manage-btn:not(:disabled):hover,
 .manage-btn:not(:disabled):focus-visible {
     background: #a9152c;
@@ -50,7 +51,8 @@
 }
 
 .filter-toggle:not(:disabled):focus-visible,
-.filter-done-btn:focus-visible {
+.filter-done-btn:focus-visible,
+.generator-count-button:not(:disabled):focus-visible {
     box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
 }
 

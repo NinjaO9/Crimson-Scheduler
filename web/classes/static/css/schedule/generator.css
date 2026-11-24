@@ -64,20 +64,24 @@
     justify-content: center;
 }
 
-.generator-count-button,
 .generator-count-stepper output {
     align-items: center;
+    background: var(--color-surface-raised);
     border: 1px solid var(--line-strong);
     border-radius: 6px;
+    color: var(--color-text);
     display: inline-flex;
+    font-size: 1.25rem;
+    font-weight: 800;
     justify-content: center;
     min-height: 44px;
+    min-width: 64px;
 }
 
 .generator-count-button {
-    background: var(--color-surface);
-    color: var(--crimson);
+    min-height: 44px;
     min-width: 44px;
+    padding: 0;
 }
 
 .generator-count-button svg {
@@ -88,21 +92,6 @@
     stroke-linejoin: round;
     stroke-width: 2.5;
     width: 20px;
-}
-
-.generator-count-button:not(:disabled):is(:hover, :focus-visible) {
-    background: var(--color-accent-subtle);
-    border-color: var(--crimson);
-    outline: 2px solid var(--crimson);
-    outline-offset: 2px;
-}
-
-.generator-count-stepper output {
-    background: var(--color-surface-raised);
-    color: var(--color-text);
-    font-size: 1.25rem;
-    font-weight: 800;
-    min-width: 64px;
 }
 
 .generator-action-btn,
@@ -474,9 +463,4 @@
         height: 110px;
         width: 100%;
     }
-}
-
-:root[data-theme="dark"] .generator-count-button:disabled {
-    background: var(--color-control-disabled);
-    color: #c2cad4;
 }
