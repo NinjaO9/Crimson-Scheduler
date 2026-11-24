@@ -1,0 +1,466 @@
+.generator-workarea {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 0;
+    min-width: 0;
+    padding: 2px 2px 8px 0;
+}
+
+.generator-actions {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.generator-display {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.generator-action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.generator-options-popover {
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+    max-height: calc(100dvh - 32px);
+    overflow-y: auto;
+    padding: 18px;
+    position: fixed;
+    width: min(280px, calc(100vw - 32px));
+    z-index: 3000;
+}
+
+.generator-options-popover[hidden] {
+    display: none;
+}
+
+.generator-options-label {
+    color: var(--color-text);
+    font-weight: 800;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.generator-count-stepper {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.generator-count-stepper output {
+    align-items: center;
+    background: var(--color-surface-raised);
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    color: var(--color-text);
+    display: inline-flex;
+    font-size: 1.25rem;
+    font-weight: 800;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 64px;
+}
+
+.generator-count-button {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0;
+}
+
+.generator-count-button svg {
+    fill: none;
+    height: 20px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.5;
+    width: 20px;
+}
+
+.generator-action-btn,
+.generator-options-btn,
+.generator-add-btn {
+    min-height: 44px;
+    padding: 0 16px;
+}
+
+.generator-schedule-section {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    min-height: 220px;
+}
+
+.generator-section-title {
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0 0 8px;
+}
+
+.generator-calendar-wrap {
+    flex: 1 1 auto;
+    min-height: 220px;
+}
+
+.generator-result-block {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    min-height: 24px;
+}
+
+.generator-result-time {
+    display: block;
+}
+
+.generator-preview-list {
+    box-sizing: border-box;
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    padding: 3px 2px 5px;
+}
+
+.generator-preview {
+    align-items: stretch;
+    background: var(--color-surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: var(--color-text);
+    display: grid;
+    flex: 0 0 150px;
+    grid-template-columns: 30px minmax(0, 1fr);
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    width: 150px;
+}
+
+.generator-preview:hover,
+.generator-preview:focus-visible {
+    border-color: var(--crimson);
+    outline: 2px solid var(--crimson);
+    outline-offset: 1px;
+}
+
+.generator-preview.is-selected {
+    border-color: var(--crimson);
+    border-width: 2px;
+}
+
+.generator-preview-number {
+    align-items: center;
+    background: var(--color-surface-raised);
+    display: flex;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.generator-preview-days {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-height: 0;
+    position: relative;
+}
+
+.generator-preview-day {
+    border-right: 1px solid var(--line);
+    position: relative;
+}
+
+.generator-preview-block {
+    background: var(--color-success-surface);
+    border: 1px solid var(--color-success-border);
+    border-radius: 2px;
+    left: 2px;
+    min-height: 3px;
+    position: absolute;
+    right: 2px;
+}
+
+.generator-possibilities {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 10px 14px;
+}
+
+@media (min-width: 1400px) {
+    .generator-display {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: minmax(0, 1fr) clamp(200px, 22%, 240px);
+    }
+
+    .generator-possibilities {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    .generator-preview-list {
+        flex: 1 1 auto;
+        flex-direction: column;
+        max-height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+    }
+
+    .generator-preview {
+        flex: 0 0 110px;
+        height: 110px;
+        width: 100%;
+    }
+}
+
+.generator-possibilities .generator-section-title {
+    margin-bottom: 4px;
+}
+
+.generator-empty-state {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.generator-selection {
+    flex: 0 0 auto;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    margin-top: 0;
+    padding: 10px 14px 8px;
+}
+
+.generator-course-list {
+    max-height: 128px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.generator-course-item {
+    grid-template-columns: minmax(0, 1fr) auto;
+}
+
+@media (max-width: 760px) {
+    body.mobile-generator-sheet-open,
+    body.mobile-generator-options-sheet-open,
+    body.mobile-combinations-sheet-open {
+        overflow: hidden;
+    }
+
+    .schedule-generator-panel {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding-top: 2px;
+    }
+
+    .generator-workarea {
+        flex: 1 1 auto;
+        gap: 8px;
+        min-height: 0;
+        padding-bottom: 2px;
+    }
+
+    .generator-display {
+        flex: 1 1 auto;
+        min-height: 0;
+    }
+
+    .generator-schedule-section {
+        flex: 1 1 auto;
+        min-height: 0;
+        min-width: 0;
+    }
+
+    .generator-actions {
+        display: block;
+        min-width: 0;
+    }
+
+    .generator-action-buttons {
+        display: grid;
+        gap: 6px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        min-width: 0;
+        width: 100%;
+    }
+
+    .schedule-generator-panel .generator-action-btn,
+    .schedule-generator-panel .generator-options-btn,
+    .schedule-generator-panel .generator-add-btn {
+        box-sizing: border-box;
+        font-size: 0.82rem;
+        line-height: 1.15;
+        max-width: 100%;
+        min-height: 44px;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        padding: 4px;
+        white-space: normal;
+        width: 100%;
+    }
+
+    .schedule-generator-panel .generator-calendar-wrap {
+        flex: 1 1 auto;
+        height: auto;
+        min-height: 0;
+        overflow-anchor: none;
+        overflow-x: hidden;
+    }
+
+    .generator-calendar-wrap .calendar-header,
+    .generator-calendar-wrap .calendar-grid {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .generator-calendar-wrap .calendar-header-time,
+    .generator-calendar-wrap .calendar-header-day {
+        font-size: 0.7rem;
+        min-height: 40px;
+    }
+
+    .generator-calendar-wrap .calendar-time-slot {
+        font-size: 0.68rem;
+        padding-right: 2px;
+        white-space: nowrap;
+    }
+
+    .generator-possibilities {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .generator-preview {
+        flex-basis: 96px;
+        height: 96px;
+        width: 128px;
+    }
+
+    .mobile-generator-trigger,
+    .mobile-combinations-trigger {
+        align-items: center;
+        background: var(--color-surface);
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        color: var(--color-text);
+        display: none;
+        font: inherit;
+        font-weight: 800;
+        justify-content: space-between;
+        min-height: 44px;
+        padding: 8px 12px;
+        text-align: left;
+    }
+
+    .schedule-generator-panel .generator-selection {
+        display: none;
+    }
+
+    .schedule-generator-panel .mobile-generator-trigger {
+        display: inline-flex;
+    }
+
+    .schedule-generator-panel .mobile-combinations-trigger {
+        display: inline-flex;
+    }
+
+    .mobile-generator-sheet,
+    .mobile-combinations-sheet {
+        display: block;
+    }
+
+    .mobile-generator-panel,
+    .mobile-combinations-panel {
+        max-height: min(78dvh, 560px);
+        padding: 0 18px calc(22px + env(safe-area-inset-bottom));
+    }
+
+    .mobile-generator-panel .generator-selection {
+        border: 0;
+        border-radius: 0;
+        display: block;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .mobile-generator-panel .generator-course-list {
+        max-height: min(34dvh, 240px);
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+    }
+
+    .mobile-generator-options-panel {
+        max-height: min(70dvh, 360px);
+    }
+
+    .generator-options-header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+
+    .generator-options-header h2 {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    .generator-options-field p {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        margin: 8px 0 0;
+        text-align: center;
+    }
+
+    .mobile-combinations-panel .generator-possibilities {
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .mobile-combinations-panel .generator-preview-list {
+        flex-direction: column;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .mobile-combinations-panel .generator-preview {
+        flex: 0 0 110px;
+        height: 110px;
+        width: 100%;
+    }
+}

@@ -249,9 +249,9 @@ The deployed site uses Vercel Web Analytics for aggregate traffic information. S
 
 Crimson Scheduler is a planning aid. It cannot guarantee seat availability, eligibility, prerequisites, instructor assignments, meeting locations, or that a section will remain unchanged. Verify every selection in WSU's official registration tools before enrolling.
 
-## Roadmap ideas
+## Roadmap
 
-- [ ] Create schedule generation to help users optimize their schedules.
+- [x] Create schedule generation to help users optimize their schedules.
 - [ ] Introduce pagination to the course results.
 - [ ] Allow users to compare their schedules with friends within the application.
 - [ ] Add degree-planning relationships for exploring prerequisites and future semesters.
@@ -266,3 +266,21 @@ When reporting a bug, include reproduction steps, the selected campus and term w
 ## License
 
 Crimson Scheduler is available under the [MIT License](LICENSE.md).
+
+## Q&A
+
+### How often is course information updated?
+
+Information is updated every hour on the fifteenth minute (x:15).
+
+[WSU updates their own course information](https://schedules.wsu.edu) every hour between (x:00 - x:40) it seems, so at most, Crimson Scheduler will be delayed by an hour.
+
+You can see the active course information in the [Crimson Data](https://github.com/NinjaO9/Crimson-Scheduler/tree/crimson-data) branch.
+
+### I noticed that some information is missing on Crimson Scheduler. What should I do?
+
+Crmison Scheduler can be delayed upto an hour.
+
+If you notice that inforamtion is missing, I recommend coming back later, or [contacting me](https://www.crimsonscheduler.com/contact/) if it is really important.
+
+I can manually update the course information if I am available.

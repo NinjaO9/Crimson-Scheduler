@@ -106,7 +106,7 @@ export function initializeGeneratorSelection(
         details.append(title, meta);
         const removeButton = createElementWithText(
           "button",
-          "manage-btn remove-generator-course-btn",
+          "app-button manage-btn remove-generator-course-btn",
           "Remove",
         );
         removeButton.type = "button";
