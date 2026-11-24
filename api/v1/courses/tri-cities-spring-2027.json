@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T21:18:54.521037+00:00",
+  "generatedAt": "2026-11-24T22:17:35.094428+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -813,6 +813,656 @@
                 "total": 24,
                 "available": 19,
                 "label": "5/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 251,
+          "courseCode": "BIOLOGY 251",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2240",
+              "sln": 2240,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "",
+              "instructor": "G YEAGER",
+              "instructors": [
+                "G YEAGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 43,
+                "total": 48,
+                "available": 5,
+                "label": "43/48"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2241",
+              "sln": 2241,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "TCOL 214",
+              "instructor": "G YEAGER",
+              "instructors": [
+                "G YEAGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2242",
+              "sln": 2242,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 251",
+              "courseName": "Introductory Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "TCOL 214",
+              "instructor": "G YEAGER",
+              "instructors": [
+                "G YEAGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 24,
+                "available": 5,
+                "label": "19/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Evolutionary Biology and Diversity",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 305,
+          "courseCode": "BIOLOGY 305",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2469",
+              "sln": 2469,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 305",
+              "courseName": "Evolutionary Biology and Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 27,
+                "total": 40,
+                "available": 13,
+                "label": "27/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Animal Behavior",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 438,
+          "courseCode": "BIOLOGY 438",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12049",
+              "sln": 12049,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 438",
+              "courseName": "Animal Behavior",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 20,
+                "total": 35,
+                "available": 15,
+                "label": "20/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Urban Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 455,
+          "courseCode": "BIOLOGY 455",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2583",
+              "sln": 2583,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 455",
+              "courseName": "Urban Ecology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 6,
+                "total": 12,
+                "available": 6,
+                "label": "6/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship in Biology, Botany, and Zoology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 495,
+          "courseCode": "BIOLOGY 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2339",
+              "sln": 2339,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 495",
+              "courseName": "Internship in Biology, Botany, and Zoology",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 499,
+          "courseCode": "BIOLOGY 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2153",
+              "sln": 2153,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 10,
+                "available": 9,
+                "label": "1/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 500,
+          "courseCode": "BIOLOGY 500",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3575",
+              "sln": 3575,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 500",
+              "courseName": "Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "15:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "15:10 - 17:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "E SWEET",
+              "instructors": [
+                "E SWEET"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Proposal Defense Seminar",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 501,
+          "courseCode": "BIOLOGY 501",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12159",
+              "sln": 12159,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 501",
+              "courseName": "Proposal Defense Seminar",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 600,
+          "courseCode": "BIOLOGY 600",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2320",
+              "sln": 2320,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 700,
+          "courseCode": "BIOLOGY 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2154",
+              "sln": 2154,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 702,
+          "courseCode": "BIOLOGY 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2314",
+              "sln": 2314,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 702",
+              "courseName": "Master's Special Problems, Directed Study and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 800,
+          "courseCode": "BIOLOGY 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2119",
+              "sln": 2119,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T CHEEKE",
+              "instructors": [
+                "T CHEEKE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5091,10 +5741,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 54,
+                "taken": 55,
                 "total": 72,
-                "available": 18,
-                "label": "54/72"
+                "available": 17,
+                "label": "55/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5139,10 +5789,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 24,
-                "available": 8,
-                "label": "16/24"
+                "available": 7,
+                "label": "17/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15397,10 +16047,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 22,
+                "taken": 21,
                 "total": 30,
-                "available": 8,
-                "label": "22/30"
+                "available": 9,
+                "label": "21/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15497,10 +16147,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 22,
+                "taken": 21,
                 "total": 28,
-                "available": 6,
-                "label": "22/28"
+                "available": 7,
+                "label": "21/28"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15593,10 +16243,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 22,
+                "taken": 21,
                 "total": 30,
-                "available": 8,
-                "label": "22/30"
+                "available": 9,
+                "label": "21/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15715,10 +16365,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 6,
+                "taken": 5,
                 "total": 10,
-                "available": 4,
-                "label": "6/10"
+                "available": 5,
+                "label": "5/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15800,10 +16450,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 19,
+                "taken": 18,
                 "total": 30,
-                "available": 11,
-                "label": "19/30"
+                "available": 12,
+                "label": "18/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15922,10 +16572,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 6,
+                "taken": 5,
                 "total": 10,
-                "available": 4,
-                "label": "6/10"
+                "available": 5,
+                "label": "5/10"
               },
               "dates": {
                 "start": "Jan 11",

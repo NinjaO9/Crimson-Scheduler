@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T21:18:54.125638+00:00",
+  "generatedAt": "2026-11-24T22:17:34.689080+00:00",
   "campus": "Global",
   "term": "Fall 2026",
   "subjects": [
@@ -22182,6 +22182,176 @@
       "subject": "SOE",
       "courses": [
         {
+          "course": "The Environment, Human Life, and Sustainability",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 110,
+          "courseCode": "SOE 110",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "9189",
+              "sln": 9189,
+              "sectionNumber": 1,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 53,
+                "total": 58,
+                "available": 5,
+                "label": "53/58"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "9190",
+              "sln": 9190,
+              "sectionNumber": 1,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 53,
+                "total": 58,
+                "available": 5,
+                "label": "53/58"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Earth's History",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 210,
+          "courseCode": "SOE 210",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "9241",
+              "sln": 9241,
+              "sectionNumber": 1,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "&V",
+              "seats": {
+                "taken": 65,
+                "total": 68,
+                "available": 3,
+                "label": "65/68"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "9242",
+              "sln": 9242,
+              "sectionNumber": 1,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "&V",
+              "seats": {
+                "taken": 65,
+                "total": 68,
+                "available": 3,
+                "label": "65/68"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Natural Resources, Society, and the Environment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -22221,6 +22391,139 @@
                 "total": 20,
                 "available": 0,
                 "label": "22/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Water and the Earth",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 315,
+          "courseCode": "SOE 315",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "9327",
+              "sln": 9327,
+              "sectionNumber": 1,
+              "courseCode": "SOE 315",
+              "courseName": "Water and the Earth",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S HENDERSON",
+              "instructors": [
+                "S HENDERSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 9,
+                "total": 20,
+                "available": 11,
+                "label": "9/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "9335",
+              "sln": 9335,
+              "sectionNumber": 1,
+              "courseCode": "SOE 315",
+              "courseName": "Water and the Earth",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S HENDERSON",
+              "instructors": [
+                "S HENDERSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 9,
+                "total": 20,
+                "available": 11,
+                "label": "9/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "It's About Time: Understanding Timescales of Change in Geology and Environmental Science",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 410,
+          "courseCode": "SOE 410",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9772",
+              "sln": 9772,
+              "sectionNumber": 1,
+              "courseCode": "SOE 410",
+              "courseName": "It's About Time: Understanding Timescales of Change in Geology and Environmental Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 6,
+                "total": 15,
+                "available": 9,
+                "label": "6/15"
               },
               "dates": {
                 "start": "Aug 24",

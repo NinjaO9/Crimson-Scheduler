@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T21:18:54.468078+00:00",
+  "generatedAt": "2026-11-24T22:17:35.041537+00:00",
   "campus": "Spokane",
   "term": "Fall 2026",
   "subjects": [
@@ -5299,6 +5299,59 @@
                 "total": 20,
                 "available": 6,
                 "label": "14/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "MUS",
+      "courses": [
+        {
+          "course": "History of Jazz",
+          "subject": "MUS",
+          "subjectPrefix": "Mus",
+          "courseNumber": 362,
+          "courseCode": "MUS 362",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9358",
+              "sln": 9358,
+              "sectionNumber": 1,
+              "courseCode": "MUS 362",
+              "courseName": "History of Jazz",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M VILAPLANA STARK",
+              "instructors": [
+                "M VILAPLANA STARK"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
               },
               "dates": {
                 "start": "Aug 24",
@@ -15630,6 +15683,107 @@
                 "total": 15,
                 "available": 11,
                 "label": "4/15"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PSYCH",
+      "courses": [
+        {
+          "course": "Current Research in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 506,
+          "courseCode": "PSYCH 506",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2048",
+              "sln": 2048,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 506",
+              "courseName": "Current Research in Psychology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "C CUTTLER",
+              "instructors": [
+                "C CUTTLER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 2,
+                "available": 1,
+                "label": "1/2"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 800,
+          "courseCode": "PSYCH 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6870",
+              "sln": 6870,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B SATTERFIELD",
+              "instructors": [
+                "B SATTERFIELD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
               },
               "dates": {
                 "start": "Aug 24",
