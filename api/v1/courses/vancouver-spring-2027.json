@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T22:34:23.544335+00:00",
+  "generatedAt": "2026-11-24T23:18:50.005761+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -2088,6 +2088,54 @@
       "subject": "BIOLOGY",
       "courses": [
         {
+          "course": "Human Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 101,
+          "courseCode": "BIOLOGY 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9969",
+              "sln": 9969,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 101",
+              "courseName": "Human Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C COOPER",
+              "instructors": [
+                "C COOPER"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 28,
+                "total": 30,
+                "available": 2,
+                "label": "28/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Introductory Biology: Cell Biology and Genetics",
           "subject": "BIOLOGY",
           "subjectPrefix": "Biol",
@@ -2349,6 +2397,1175 @@
                 "total": 24,
                 "available": 14,
                 "label": "10/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Laboratory Experiments in Biology and Genetics",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 111,
+          "courseCode": "BIOLOGY 111",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2716",
+              "sln": 2716,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 111",
+              "courseName": "Laboratory Experiments in Biology and Genetics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "09:10 - 11:50",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "09:10 - 11:50"
+                }
+              ],
+              "location": "VLSB 211",
+              "instructor": "G GAKHAR",
+              "instructors": [
+                "G GAKHAR"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Power of Food, The Science of Nutrition",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 140,
+          "courseCode": "BIOLOGY 140",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2713",
+              "sln": 2713,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 140",
+              "courseName": "The Power of Food, The Science of Nutrition",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VSCI 12",
+              "instructor": "D WILMINGTON",
+              "instructors": [
+                "D WILMINGTON"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 55,
+                "available": 23,
+                "label": "32/55"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Medical Terminology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 220,
+          "courseCode": "BIOLOGY 220",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8915",
+              "sln": 8915,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 220",
+              "courseName": "Medical Terminology",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K TURNER",
+              "instructors": [
+                "K TURNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 30,
+                "total": 40,
+                "available": 10,
+                "label": "30/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Evolutionary Biology and Diversity",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 305,
+          "courseCode": "BIOLOGY 305",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2996",
+              "sln": 2996,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 305",
+              "courseName": "Evolutionary Biology and Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VMMC 6",
+              "instructor": "S PORTER",
+              "instructors": [
+                "S PORTER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 52,
+                "total": 72,
+                "available": 20,
+                "label": "52/72"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Marine Biology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 308,
+          "courseCode": "BIOLOGY 308",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11495",
+              "sln": 11495,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 308",
+              "courseName": "Marine Biology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W,F",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "W,F",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VUB  226",
+              "instructor": "M BERGER",
+              "instructors": [
+                "M BERGER"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 26,
+                "total": 40,
+                "available": 14,
+                "label": "26/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Human Physiology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 353,
+          "courseCode": "BIOLOGY 353",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2717",
+              "sln": 2717,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "W,F",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "W,F",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VUB  121",
+              "instructor": "D WILMINGTON",
+              "instructors": [
+                "D WILMINGTON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 41,
+                "total": 48,
+                "available": 7,
+                "label": "41/48"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2718",
+              "sln": 2718,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "13:30 - 16:10",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "13:30 - 16:10"
+                }
+              ],
+              "location": "VLSB 221",
+              "instructor": "G COX",
+              "instructors": [
+                "G COX"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2719",
+              "sln": 2719,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 353",
+              "courseName": "Advanced Human Physiology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "16:20 - 19:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "16:20 - 19:00"
+                }
+              ],
+              "location": "VLSB 221",
+              "instructor": "R MATHEWS",
+              "instructors": [
+                "R MATHEWS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 17,
+                "total": 24,
+                "available": 7,
+                "label": "17/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "General Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 372,
+          "courseCode": "BIOLOGY 372",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2730",
+              "sln": 2730,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VUB  1",
+              "instructor": "K TURNER",
+              "instructors": [
+                "K TURNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 70,
+                "total": 96,
+                "available": 26,
+                "label": "70/96"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2731",
+              "sln": 2731,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "07:45 - 10:25",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "07:45 - 10:25"
+                }
+              ],
+              "location": "VSCI 109",
+              "instructor": "C WALSH",
+              "instructors": [
+                "C WALSH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 24,
+                "available": 5,
+                "label": "19/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2732",
+              "sln": 2732,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "12:05 - 14:45",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "12:05 - 14:45"
+                }
+              ],
+              "location": "VSCI 109",
+              "instructor": "C WALSH",
+              "instructors": [
+                "C WALSH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2749",
+              "sln": 2749,
+              "sectionNumber": 3,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "14:55 - 17:35",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "14:55 - 17:35"
+                }
+              ],
+              "location": "VSCI 109",
+              "instructor": "R WAGNER",
+              "instructors": [
+                "R WAGNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 24,
+                "available": 5,
+                "label": "19/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2897",
+              "sln": 2897,
+              "sectionNumber": 4,
+              "courseCode": "BIOLOGY 372",
+              "courseName": "General Ecology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "13:30 - 16:10",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "13:30 - 16:10"
+                }
+              ],
+              "location": "VSCI 109",
+              "instructor": "R WAGNER",
+              "instructors": [
+                "R WAGNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 24,
+                "available": 16,
+                "label": "8/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Beneficial Microbes in Nature and Society",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 402,
+          "courseCode": "BIOLOGY 402",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11497",
+              "sln": 11497,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 402",
+              "courseName": "Beneficial Microbes in Nature and Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VLIB 265",
+              "instructor": "S PORTER",
+              "instructors": [
+                "S PORTER"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 30,
+                "available": 22,
+                "label": "8/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Animal Behavior",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 438,
+          "courseCode": "BIOLOGY 438",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11498",
+              "sln": 11498,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 438",
+              "courseName": "Animal Behavior",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VSCI 12",
+              "instructor": "K TURNER",
+              "instructors": [
+                "K TURNER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 30,
+                "total": 30,
+                "available": 0,
+                "label": "30/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical Experience",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 491,
+          "courseCode": "BIOLOGY 491",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3002",
+              "sln": 3002,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 491",
+              "courseName": "Clinical Experience",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D WILMINGTON",
+              "instructors": [
+                "D WILMINGTON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "CS",
+              "seats": {
+                "taken": 13,
+                "total": 25,
+                "available": 12,
+                "label": "13/25"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Instructional Practicum",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 497,
+          "courseCode": "BIOLOGY 497",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2726",
+              "sln": 2726,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 497",
+              "courseName": "Instructional Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D WILMINGTON",
+              "instructors": [
+                "D WILMINGTON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 15,
+                "available": 12,
+                "label": "3/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 499,
+          "courseCode": "BIOLOGY 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2709",
+              "sln": 2709,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 500,
+          "courseCode": "BIOLOGY 500",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2893",
+              "sln": 2893,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 500",
+              "courseName": "Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "J PIOVIA-SCOTT",
+              "instructors": [
+                "J PIOVIA-SCOTT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 5,
+                "total": 15,
+                "available": 10,
+                "label": "5/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2894",
+              "sln": 2894,
+              "sectionNumber": 2,
+              "courseCode": "BIOLOGY 500",
+              "courseName": "Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J PIOVIA-SCOTT",
+              "instructors": [
+                "J PIOVIA-SCOTT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Proposal Defense Seminar",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 501,
+          "courseCode": "BIOLOGY 501",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2895",
+              "sln": 2895,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 501",
+              "courseName": "Proposal Defense Seminar",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C SCHULTZ",
+              "instructors": [
+                "C SCHULTZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 6,
+                "available": 5,
+                "label": "1/6"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Community Ecology",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 562,
+          "courseCode": "BIOLOGY 562",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12130",
+              "sln": 12130,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 562",
+              "courseName": "Community Ecology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "J ZAMBRANO",
+              "instructors": [
+                "J ZAMBRANO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 3,
+                "available": 2,
+                "label": "1/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Quantitative Toolkit for Biologists",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 571,
+          "courseCode": "BIOLOGY 571",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11499",
+              "sln": 11499,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 571",
+              "courseName": "Quantitative Toolkit for Biologists",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "S RUDMAN",
+              "instructors": [
+                "S RUDMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 6,
+                "total": 15,
+                "available": 9,
+                "label": "6/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Professional Communication in Biology - Grant Writing",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 582,
+          "courseCode": "BIOLOGY 582",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6443",
+              "sln": 6443,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 582",
+              "courseName": "Professional Communication in Biology - Grant Writing",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "10:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "10:10 - 12:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "E SCHWARTZ",
+              "instructors": [
+                "E SCHWARTZ"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 700,
+          "courseCode": "BIOLOGY 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2707",
+              "sln": 2707,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J PIOVIA-SCOTT",
+              "instructors": [
+                "J PIOVIA-SCOTT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 8,
+                "available": 5,
+                "label": "3/8"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "BIOLOGY",
+          "subjectPrefix": "Biol",
+          "courseNumber": 800,
+          "courseCode": "BIOLOGY 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2708",
+              "sln": 2708,
+              "sectionNumber": 1,
+              "courseCode": "BIOLOGY 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J PIOVIA-SCOTT",
+              "instructors": [
+                "J PIOVIA-SCOTT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 12,
+                "available": 9,
+                "label": "3/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13596,10 +14813,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 29,
+                "taken": 30,
                 "total": 30,
-                "available": 1,
-                "label": "29/30"
+                "available": 0,
+                "label": "30/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15387,6 +16604,54 @@
                 "total": 5,
                 "available": 3,
                 "label": "2/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar in Analysis",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 592,
+          "courseCode": "MATH 592",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2746",
+              "sln": 2746,
+              "sectionNumber": 1,
+              "courseCode": "MATH 592",
+              "courseName": "Seminar in Analysis",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VUB  126",
+              "instructor": "N STRIGUL",
+              "instructors": [
+                "N STRIGUL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22041,7 +23306,1386 @@
     },
     {
       "subject": "PSYCH",
-      "courses": []
+      "courses": [
+        {
+          "course": "Introductory Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 105,
+          "courseCode": "PSYCH 105",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2758",
+              "sln": 2758,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 105",
+              "courseName": "Introductory Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VUB  121",
+              "instructor": "M JENKINS",
+              "instructors": [
+                "M JENKINS"
+              ],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 27,
+                "total": 60,
+                "available": 33,
+                "label": "27/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Degrees and Careers in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 201,
+          "courseCode": "PSYCH 201",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9265",
+              "sln": 9265,
+              "sectionNumber": 2,
+              "courseCode": "PSYCH 201",
+              "courseName": "Degrees and Careers in Psychology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R SWENSSON",
+              "instructors": [
+                "R SWENSSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Psychology as a Science",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 210,
+          "courseCode": "PSYCH 210",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2744",
+              "sln": 2744,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 210",
+              "courseName": "Psychology as a Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "A SPRADLIN",
+              "instructors": [
+                "A SPRADLIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 32,
+                "total": 60,
+                "available": 28,
+                "label": "32/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Organizational Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 308,
+          "courseCode": "PSYCH 308",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2935",
+              "sln": 2935,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 308",
+              "courseName": "Organizational Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VUB  121",
+              "instructor": "M JENKINS",
+              "instructors": [
+                "M JENKINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 28,
+                "total": 50,
+                "available": 22,
+                "label": "28/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Work, Stress, and Health",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 310,
+          "courseCode": "PSYCH 310",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11428",
+              "sln": 11428,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 310",
+              "courseName": "Work, Stress, and Health",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "VUB  225",
+              "instructor": "M JENKINS",
+              "instructors": [
+                "M JENKINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 29,
+                "total": 50,
+                "available": 21,
+                "label": "29/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Statistics in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 311,
+          "courseCode": "PSYCH 311",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2723",
+              "sln": 2723,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 311",
+              "courseName": "Statistics in Psychology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "09:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "09:10 - 11:00"
+                }
+              ],
+              "location": "VUB  100",
+              "instructor": "T PROBST",
+              "instructors": [
+                "T PROBST"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 31,
+                "total": 50,
+                "available": 19,
+                "label": "31/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research Methods in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 312,
+          "courseCode": "PSYCH 312",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2724",
+              "sln": 2724,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 312",
+              "courseName": "Research Methods in Psychology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "09:10 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 11:50"
+                }
+              ],
+              "location": "VUB  100",
+              "instructor": "R MAGNAN",
+              "instructors": [
+                "R MAGNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 30,
+                "available": 5,
+                "label": "25/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2725",
+              "sln": 2725,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 312",
+              "courseName": "Research Methods in Psychology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R MAGNAN",
+              "instructors": [
+                "R MAGNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 30,
+                "available": 5,
+                "label": "25/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Personality",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 321,
+          "courseCode": "PSYCH 321",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2936",
+              "sln": 2936,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 321",
+              "courseName": "Personality",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "A SPRADLIN",
+              "instructors": [
+                "A SPRADLIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 60,
+                "total": 60,
+                "available": 0,
+                "label": "60/60"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 350,
+          "courseCode": "PSYCH 350",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3033",
+              "sln": 3033,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 350",
+              "courseName": "Social Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "R MAGNAN",
+              "instructors": [
+                "R MAGNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 55,
+                "total": 65,
+                "available": 10,
+                "label": "55/65"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Biological Basis of Behavior",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 372,
+          "courseCode": "PSYCH 372",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2934",
+              "sln": 2934,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 372",
+              "courseName": "Biological Basis of Behavior",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VUB  125",
+              "instructor": "D FORTIN",
+              "instructors": [
+                "D FORTIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 44,
+                "total": 70,
+                "available": 26,
+                "label": "44/70"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Sensation and Perception",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 384,
+          "courseCode": "PSYCH 384",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11918",
+              "sln": 11918,
+              "sectionNumber": 2,
+              "courseCode": "PSYCH 384",
+              "courseName": "Sensation and Perception",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VMMC 16",
+              "instructor": "D FORTIN",
+              "instructors": [
+                "D FORTIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 27,
+                "total": 50,
+                "available": 23,
+                "label": "27/50"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Historical Development of Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 401,
+          "courseCode": "PSYCH 401",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2696",
+              "sln": 2696,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 401",
+              "courseName": "Historical Development of Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "VLIB 264",
+              "instructor": "A SPRADLIN",
+              "instructors": [
+                "A SPRADLIN"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 30,
+                "available": 12,
+                "label": "18/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Clinical/Community Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 440,
+          "courseCode": "PSYCH 440",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2697",
+              "sln": 2697,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 440",
+              "courseName": "Clinical/Community Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VLIB 260",
+              "instructor": "J FALES",
+              "instructors": [
+                "J FALES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 16,
+                "total": 30,
+                "available": 14,
+                "label": "16/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Addiction Treatment Techniques",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 442,
+          "courseCode": "PSYCH 442",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11430",
+              "sln": 11430,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 442",
+              "courseName": "Advanced Addiction Treatment Techniques",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VLIB 265",
+              "instructor": "B LADD",
+              "instructors": [
+                "B LADD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 30,
+                "available": 20,
+                "label": "10/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Addictive Behavior Among Diverse Populations",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 468,
+          "courseCode": "PSYCH 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11431",
+              "sln": 11431,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 468",
+              "courseName": "Addictive Behavior Among Diverse Populations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VECS 105",
+              "instructor": "H PATEL",
+              "instructors": [
+                "H PATEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 25,
+                "total": 40,
+                "available": 15,
+                "label": "25/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Instructional Practicum",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 497,
+          "courseCode": "PSYCH 497",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2698",
+              "sln": 2698,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 497",
+              "courseName": "Instructional Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M JENKINS",
+              "instructors": [
+                "M JENKINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11516",
+              "sln": 11516,
+              "sectionNumber": 3,
+              "courseCode": "PSYCH 497",
+              "courseName": "Instructional Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A SPRADLIN",
+              "instructors": [
+                "A SPRADLIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11517",
+              "sln": 11517,
+              "sectionNumber": 4,
+              "courseCode": "PSYCH 497",
+              "courseName": "Instructional Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T PROBST",
+              "instructors": [
+                "T PROBST"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11518",
+              "sln": 11518,
+              "sectionNumber": 5,
+              "courseCode": "PSYCH 497",
+              "courseName": "Instructional Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R MAGNAN",
+              "instructors": [
+                "R MAGNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11519",
+              "sln": 11519,
+              "sectionNumber": 6,
+              "courseCode": "PSYCH 497",
+              "courseName": "Instructional Practicum",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B LADD",
+              "instructors": [
+                "B LADD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Research Participation",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 498,
+          "courseCode": "PSYCH 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2699",
+              "sln": 2699,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 498",
+              "courseName": "Research Participation",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M JENKINS",
+              "instructors": [
+                "M JENKINS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11520",
+              "sln": 11520,
+              "sectionNumber": 3,
+              "courseCode": "PSYCH 498",
+              "courseName": "Research Participation",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A SPRADLIN",
+              "instructors": [
+                "A SPRADLIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11521",
+              "sln": 11521,
+              "sectionNumber": 4,
+              "courseCode": "PSYCH 498",
+              "courseName": "Research Participation",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J FALES",
+              "instructors": [
+                "J FALES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11522",
+              "sln": 11522,
+              "sectionNumber": 5,
+              "courseCode": "PSYCH 498",
+              "courseName": "Research Participation",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "R MAGNAN",
+              "instructors": [
+                "R MAGNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11523",
+              "sln": 11523,
+              "sectionNumber": 6,
+              "courseCode": "PSYCH 498",
+              "courseName": "Research Participation",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B LADD",
+              "instructors": [
+                "B LADD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11917",
+              "sln": 11917,
+              "sectionNumber": 7,
+              "courseCode": "PSYCH 498",
+              "courseName": "Research Participation",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H PATEL",
+              "instructors": [
+                "H PATEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Current Research in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 506,
+          "courseCode": "PSYCH 506",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7105",
+              "sln": 7105,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 506",
+              "courseName": "Current Research in Psychology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 17:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "C CUTTLER",
+              "instructors": [
+                "C CUTTLER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics in Psychology",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 508,
+          "courseCode": "PSYCH 508",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11432",
+              "sln": 11432,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 508",
+              "courseName": "Special Topics in Psychology",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "T PROBST",
+              "instructors": [
+                "T PROBST"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 700,
+          "courseCode": "PSYCH 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2695",
+              "sln": 2695,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J FALES",
+              "instructors": [
+                "J FALES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "PSYCH",
+          "subjectPrefix": "Psych",
+          "courseNumber": 800,
+          "courseCode": "PSYCH 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2684",
+              "sln": 2684,
+              "sectionNumber": 1,
+              "courseCode": "PSYCH 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J FALES",
+              "instructors": [
+                "J FALES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 6,
+                "available": 3,
+                "label": "3/6"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "PUBHLTH",
@@ -22242,7 +24886,536 @@
     },
     {
       "subject": "SOC",
-      "courses": []
+      "courses": [
+        {
+          "course": "Social Problems",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 102,
+          "courseCode": "SOC 102",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2692",
+              "sln": 2692,
+              "sectionNumber": 1,
+              "courseCode": "SOC 102",
+              "courseName": "Social Problems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VUB  222",
+              "instructor": "A JOHNSON",
+              "instructors": [
+                "A JOHNSON"
+              ],
+              "ucore": "SSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 16,
+                "total": 30,
+                "available": 14,
+                "label": "16/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 300,
+          "courseCode": "SOC 300",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11511",
+              "sln": 11511,
+              "sectionNumber": 1,
+              "courseCode": "SOC 300",
+              "courseName": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VUB  226",
+              "instructor": "T LEWIS",
+              "instructors": [
+                "T LEWIS"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 5,
+                "total": 10,
+                "available": 5,
+                "label": "5/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Understanding the Social World with Data",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 321,
+          "courseCode": "SOC 321",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9278",
+              "sln": 9278,
+              "sectionNumber": 1,
+              "courseCode": "SOC 321",
+              "courseName": "Understanding the Social World with Data",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M AMORIM",
+              "instructors": [
+                "M AMORIM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Medical Sociology",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 334,
+          "courseCode": "SOC 334",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9277",
+              "sln": 9277,
+              "sectionNumber": 1,
+              "courseCode": "SOC 334",
+              "courseName": "Medical Sociology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "K CUTLER",
+              "instructors": [
+                "K CUTLER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Psychology",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 350,
+          "courseCode": "SOC 350",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3034",
+              "sln": 3034,
+              "sectionNumber": 1,
+              "courseCode": "SOC 350",
+              "courseName": "Social Psychology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "R MAGNAN",
+              "instructors": [
+                "R MAGNAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 5,
+                "total": 5,
+                "available": 0,
+                "label": "5/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Deviance",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 360,
+          "courseCode": "SOC 360",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9274",
+              "sln": 9274,
+              "sectionNumber": 1,
+              "courseCode": "SOC 360",
+              "courseName": "Social Deviance",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J KREMER",
+              "instructors": [
+                "J KREMER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 2,
+                "total": 10,
+                "available": 8,
+                "label": "2/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Juvenile Justice and Corrections",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 367,
+          "courseCode": "SOC 367",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11533",
+              "sln": 11533,
+              "sectionNumber": 1,
+              "courseCode": "SOC 367",
+              "courseName": "Juvenile Justice and Corrections",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 1",
+              "instructor": "L DRAPELA",
+              "instructors": [
+                "L DRAPELA"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Drugs and Society",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 368,
+          "courseCode": "SOC 368",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11433",
+              "sln": 11433,
+              "sectionNumber": 1,
+              "courseCode": "SOC 368",
+              "courseName": "Drugs and Society",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 23",
+              "instructor": "A JOHNSON",
+              "instructors": [
+                "A JOHNSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 27,
+                "total": 30,
+                "available": 3,
+                "label": "27/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Addictive Behavior Among Diverse Populations",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 468,
+          "courseCode": "SOC 468",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12035",
+              "sln": 12035,
+              "sectionNumber": 1,
+              "courseCode": "SOC 468",
+              "courseName": "Addictive Behavior Among Diverse Populations",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VECS 105",
+              "instructor": "H PATEL",
+              "instructors": [
+                "H PATEL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Capstone Research Practicum",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 497,
+          "courseCode": "SOC 497",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9867",
+              "sln": 9867,
+              "sectionNumber": 1,
+              "courseCode": "SOC 497",
+              "courseName": "Capstone Research Practicum",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T ROTOLO",
+              "instructors": [
+                "T ROTOLO"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Autopsies: How Society Kills Us",
+          "subject": "SOC",
+          "subjectPrefix": "Soc",
+          "courseNumber": 570,
+          "courseCode": "SOC 570",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12147",
+              "sln": 12147,
+              "sectionNumber": 1,
+              "courseCode": "SOC 570",
+              "courseName": "Social Autopsies: How Society Kills Us",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "09:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "09:10 - 12:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "J DENNEY",
+              "instructors": [
+                "J DENNEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "SOE",
