@@ -801,7 +801,7 @@ export function renderMiscList(items: HydratedSection[]): void {
     details.appendChild(meta);
     const removeButton = createElementWithText(
       "button",
-      "manage-btn remove-misc-btn",
+      "app-button manage-btn remove-misc-btn",
       "Remove",
     );
     removeButton.type = "button";

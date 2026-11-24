@@ -122,8 +122,8 @@ describe("schedule view tabs", () => {
     expect(template).toContain('id="generatorCalendarGrid"');
     expect(template).toContain("Generated schedule alternatives will appear here.");
     expect(template).toContain("Selected Courses");
-    expect(template).toMatch(/class="primary-btn generator-action-btn" id="generateSchedulesBtn" disabled/);
-    expect(template).toMatch(/class="manage-btn generator-options-btn" id="generatorOptionsBtn"\s+aria-haspopup="dialog" aria-expanded="false" aria-controls="mobileGeneratorOptionsSheet" disabled/);
+    expect(template).toMatch(/class="app-button app-button--toolbar primary-btn generator-action-btn" id="generateSchedulesBtn" disabled/);
+    expect(template).toMatch(/class="app-button manage-btn generator-options-btn" id="generatorOptionsBtn"\s+aria-haspopup="dialog" aria-expanded="false" aria-controls="mobileGeneratorOptionsSheet" disabled/);
     expect(actions).toBeLessThan(display);
     expect(display).toBeLessThan(schedule);
     expect(schedule).toBeLessThan(possibilities);

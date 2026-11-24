@@ -4,8 +4,14 @@
 {% block title %}Crimson Scheduler{% endblock %}
 
 {% block style %}
-<link rel="stylesheet" href="{% static 'css/schedule_build.css' %}">
-<link rel="stylesheet" href="{% static 'css/search_results.css' %}">
+{# Order preserves the app cascade after Bootstrap: shared foundations, then feature rules. #}
+<link rel="stylesheet" href="{% static 'css/components/controls.css' %}">
+<link rel="stylesheet" href="{% static 'css/components/overlays.css' %}">
+<link rel="stylesheet" href="{% static 'css/schedule/layout.css' %}">
+<link rel="stylesheet" href="{% static 'css/schedule/search.css' %}">
+<link rel="stylesheet" href="{% static 'css/schedule/calendar.css' %}">
+<link rel="stylesheet" href="{% static 'css/schedule/generator.css' %}">
+<link rel="stylesheet" href="{% static 'css/schedule/results.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -18,7 +24,7 @@
                 <div class="field-grid">
                     <div class="field">
                         <label for="campusFilter">Campus</label>
-                        <select name="campus" id="campusFilter" class="form-select">
+                        <select name="campus" id="campusFilter" class="form-select app-control">
                             <option value="" selected disabled>-- Select Campus --</option>
                             {% for campus in campuses %}
                                 <option value="{{ campus }}">{{ campus }}</option>
@@ -29,7 +35,7 @@
                     </div>
                     <div class="field">
                         <label for="semesterFilter">Term</label>
-                        <select name="semester" id="semesterFilter" class="form-select">
+                        <select name="semester" id="semesterFilter" class="form-select app-control">
                             <option value="" selected disabled>-- Select Semester --</option>
                             {% for semester in semesters %}
                                 <option value="{{ semester }}">{{ semester }}</option>
@@ -43,9 +49,9 @@
                 <div class="course-search-controls">
                     <div class="field course-query-field">
                         <label for="searchInput">Search courses</label>
-                        <input type="search" name="q" id="searchInput" class="form-control" placeholder="e.g. CPT_S 121 or Data Structures" autocomplete="off">
+                        <input type="search" name="q" id="searchInput" class="form-control app-control" placeholder="e.g. CPT_S 121 or Data Structures" autocomplete="off">
                     </div>
-                    <button type="button" class="filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="desktopFilterPopover" disabled>
+                    <button type="button" class="app-button filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="desktopFilterPopover" disabled>
                         Filters <span id="filterCount" hidden>· 0</span>
                     </button>
                 </div>
@@ -54,12 +60,12 @@
                     <time id="catalogGeneratedAt" datetime="{{ catalog_generated_at }}"></time>
                 </p>
 
-                <section class="filter-popover" id="desktopFilterPopover" aria-label="Course filters" hidden>
+                <section class="app-popover filter-popover" id="desktopFilterPopover" aria-label="Course filters" hidden>
                     <div class="filter-surface-header">
                         <div class="filter-heading">
                             <h2>Filters</h2>
                         </div>
-                        <button type="button" class="filter-done-btn" data-close-filters>Done</button>
+                        <button type="button" class="app-button app-button--compact filter-done-btn" data-close-filters>Done</button>
                     </div>
                     <div class="filter-groups" data-filter-panel="desktop">
                         <fieldset class="filter-group filter-group-availability">
@@ -98,16 +104,16 @@
             </div>
         </section>
 
-        <div class="mobile-filter-sheet" id="mobileFilterSheet" aria-hidden="true" hidden inert>
-            <button type="button" class="mobile-filter-backdrop" data-close-filters aria-label="Close filters"></button>
-            <section class="mobile-filter-panel" role="dialog" aria-modal="true" aria-labelledby="mobileFilterTitle">
-                <div class="mobile-filter-grabber" aria-hidden="true"></div>
+        <div class="app-sheet mobile-filter-sheet" id="mobileFilterSheet" aria-hidden="true" hidden inert>
+            <button type="button" class="app-sheet__backdrop mobile-filter-backdrop" data-close-filters aria-label="Close filters"></button>
+            <section class="app-sheet__panel mobile-filter-panel" role="dialog" aria-modal="true" aria-labelledby="mobileFilterTitle">
+                <div class="app-sheet__grabber mobile-filter-grabber" aria-hidden="true"></div>
                 <div class="filter-surface-header">
                     <div class="filter-heading">
                         <svg class="filter-heading-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="11" cy="18" r="2"/></svg>
                         <h2 id="mobileFilterTitle">Filters</h2>
                     </div>
-                    <button type="button" class="filter-done-btn" data-close-filters>Done</button>
+                    <button type="button" class="app-button app-button--compact filter-done-btn" data-close-filters>Done</button>
                 </div>
                 <div class="filter-groups" data-filter-panel="mobile">
                     <fieldset class="filter-group filter-group-availability">
@@ -179,13 +185,13 @@
                 </div>
                 <div class="pane-topbar-actions">
                     <div class="toolbar">
-                        <button type="button" class="danger-btn" id="clearScheduleBtn">
+                        <button type="button" class="app-button app-button--toolbar danger-btn" id="clearScheduleBtn">
                             <span class="desktop-action-label">Clear Schedule</span>
                             <span class="mobile-action-label">Clear</span>
                         </button>
                         <div class="dropdown actions-dropdown">
                             <button type="button"
-                                    class="actions-btn dropdown-toggle"
+                                    class="app-button app-button--toolbar actions-btn dropdown-toggle"
                                     id="scheduleActionsMenuButton"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false">
@@ -227,14 +233,14 @@
                 <div class="generator-workarea">
                     <div class="generator-actions">
                         <div class="generator-action-buttons" aria-label="Schedule generation tools">
-                            <button type="button" class="primary-btn generator-action-btn" id="generateSchedulesBtn" disabled>
+                            <button type="button" class="app-button app-button--toolbar primary-btn generator-action-btn" id="generateSchedulesBtn" disabled>
                                 Generate Schedules
                             </button>
-                            <button type="button" class="manage-btn generator-options-btn" id="generatorOptionsBtn"
+                            <button type="button" class="app-button manage-btn generator-options-btn" id="generatorOptionsBtn"
                                     aria-haspopup="dialog" aria-expanded="false" aria-controls="mobileGeneratorOptionsSheet" disabled>
                                 Generator Options
                             </button>
-                            <button type="button" class="manage-btn generator-add-btn" id="addGeneratedScheduleBtn" disabled>
+                            <button type="button" class="app-button manage-btn generator-add-btn" id="addGeneratedScheduleBtn" disabled>
                                 Add Schedule
                             </button>
                         </div>
@@ -298,10 +304,10 @@
         </button>
     </nav>
 
-    <div class="mobile-conflict-sheet" id="mobileConflictSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-conflict-backdrop" id="mobileConflictBackdrop" aria-label="Close conflict options"></button>
-        <section class="mobile-conflict-panel" role="dialog" aria-modal="true" aria-labelledby="mobileConflictTitle">
-            <div class="mobile-conflict-grabber" aria-hidden="true"></div>
+    <div class="app-sheet mobile-conflict-sheet" id="mobileConflictSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-conflict-backdrop" id="mobileConflictBackdrop" aria-label="Close conflict options"></button>
+        <section class="app-sheet__panel mobile-conflict-panel" role="dialog" aria-modal="true" aria-labelledby="mobileConflictTitle">
+            <div class="app-sheet__grabber mobile-conflict-grabber" aria-hidden="true"></div>
             <div class="mobile-conflict-header">
                 <div>
                     <h2 id="mobileConflictTitle" class="mobile-conflict-title">Time Conflict</h2>
@@ -312,31 +318,31 @@
         </section>
     </div>
 
-    <div class="mobile-misc-sheet" id="mobileMiscSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-misc-backdrop" data-close-misc aria-label="Close non-scheduled classes"></button>
-        <section class="mobile-misc-panel" role="dialog" aria-modal="true" aria-label="Non-scheduled classes" tabindex="-1">
-            <div class="mobile-misc-grabber" aria-hidden="true"></div>
+    <div class="app-sheet mobile-misc-sheet" id="mobileMiscSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-misc-backdrop" data-close-misc aria-label="Close non-scheduled classes"></button>
+        <section class="app-sheet__panel mobile-misc-panel" role="dialog" aria-modal="true" aria-label="Non-scheduled classes" tabindex="-1">
+            <div class="app-sheet__grabber mobile-misc-grabber" aria-hidden="true"></div>
             <div id="mobileMiscPanelHost"></div>
         </section>
     </div>
 
-    <div class="mobile-generator-sheet" id="mobileGeneratorSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-generator-backdrop" data-close-generator-selection
+    <div class="app-sheet mobile-generator-sheet" id="mobileGeneratorSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-generator-backdrop" data-close-generator-selection
                 aria-label="Close selected courses"></button>
-        <section class="mobile-generator-panel" role="dialog" aria-modal="true"
+        <section class="app-sheet__panel mobile-generator-panel" role="dialog" aria-modal="true"
                  aria-label="Selected courses" tabindex="-1">
-            <div class="mobile-generator-grabber" aria-hidden="true"></div>
+            <div class="app-sheet__grabber mobile-generator-grabber" aria-hidden="true"></div>
             <div id="mobileGeneratorPanelHost"></div>
         </section>
     </div>
 
-    <div class="mobile-generator-sheet mobile-generator-options-sheet" id="mobileGeneratorOptionsSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-generator-backdrop" data-close-generator-options aria-label="Close generator options"></button>
-        <section class="mobile-generator-panel mobile-generator-options-panel" role="dialog" aria-modal="true" aria-labelledby="generatorOptionsTitle" tabindex="-1">
-            <div class="mobile-generator-grabber" aria-hidden="true"></div>
+    <div class="app-sheet mobile-generator-sheet mobile-generator-options-sheet" id="mobileGeneratorOptionsSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-generator-backdrop" data-close-generator-options aria-label="Close generator options"></button>
+        <section class="app-sheet__panel mobile-generator-panel mobile-generator-options-panel" role="dialog" aria-modal="true" aria-labelledby="generatorOptionsTitle" tabindex="-1">
+            <div class="app-sheet__grabber mobile-generator-grabber" aria-hidden="true"></div>
             <div class="generator-options-header">
                 <h2 id="generatorOptionsTitle">Generator Options</h2>
-                <button type="button" class="filter-done-btn" data-close-generator-options>Done</button>
+                <button type="button" class="app-button app-button--compact filter-done-btn" data-close-generator-options>Done</button>
             </div>
             <div id="mobileGeneratorOptionsHost">
                 <div class="generator-options-field">
@@ -355,25 +361,25 @@
         </section>
     </div>
 
-    <div class="generator-options-popover" id="desktopGeneratorOptionsPopover" role="dialog"
+    <div class="app-popover generator-options-popover" id="desktopGeneratorOptionsPopover" role="dialog"
          aria-label="Generator options" aria-hidden="true" tabindex="-1" hidden inert>
         <div id="desktopGeneratorOptionsHost"></div>
     </div>
 
-    <div class="mobile-combinations-sheet" id="mobileCombinationsSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-combinations-backdrop" data-close-combinations
+    <div class="app-sheet mobile-combinations-sheet" id="mobileCombinationsSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-combinations-backdrop" data-close-combinations
                 aria-label="Close combinations"></button>
-        <section class="mobile-combinations-panel" role="dialog" aria-modal="true"
+        <section class="app-sheet__panel mobile-combinations-panel" role="dialog" aria-modal="true"
                  aria-label="Combinations" tabindex="-1">
-            <div class="mobile-combinations-grabber" aria-hidden="true"></div>
+            <div class="app-sheet__grabber mobile-combinations-grabber" aria-hidden="true"></div>
             <div id="mobileCombinationsPanelHost"></div>
         </section>
     </div>
 
-    <div class="mobile-course-sheet" id="mobileCourseSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-course-backdrop" data-close-course aria-label="Close course details"></button>
-        <section class="mobile-course-panel" role="dialog" aria-modal="true" aria-labelledby="mobileCourseTitle">
-            <div class="mobile-course-grabber" aria-hidden="true"></div>
+    <div class="app-sheet mobile-course-sheet" id="mobileCourseSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-course-backdrop" data-close-course aria-label="Close course details"></button>
+        <section class="app-sheet__panel mobile-course-panel" role="dialog" aria-modal="true" aria-labelledby="mobileCourseTitle">
+            <div class="app-sheet__grabber mobile-course-grabber" aria-hidden="true"></div>
             <div class="mobile-course-header">
                 <h2 id="mobileCourseTitle">Course details</h2>
             </div>
@@ -382,10 +388,10 @@
         </section>
     </div>
 
-    <div class="mobile-course-info-sheet" id="mobileCourseInfoSheet" aria-hidden="true" hidden inert>
-        <button type="button" class="mobile-course-info-backdrop" data-close-course-info aria-label="Close additional information"></button>
-        <section class="mobile-course-info-panel" role="dialog" aria-modal="true" aria-labelledby="mobileCourseInfoTitle">
-            <div class="mobile-course-info-grabber" aria-hidden="true"></div>
+    <div class="app-sheet mobile-course-info-sheet" id="mobileCourseInfoSheet" aria-hidden="true" hidden inert>
+        <button type="button" class="app-sheet__backdrop mobile-course-info-backdrop" data-close-course-info aria-label="Close additional information"></button>
+        <section class="app-sheet__panel mobile-course-info-panel" role="dialog" aria-modal="true" aria-labelledby="mobileCourseInfoTitle">
+            <div class="app-sheet__grabber mobile-course-info-grabber" aria-hidden="true"></div>
             <div class="mobile-course-info-header">
                 <h2 id="mobileCourseInfoTitle">Additional information</h2>
             </div>

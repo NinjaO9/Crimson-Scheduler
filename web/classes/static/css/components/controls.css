@@ -1,0 +1,88 @@
+.app-control {
+    border-color: #d7dce3;
+    border-radius: 6px;
+    color: #111827;
+    min-height: 43px;
+}
+
+.app-button {
+    align-items: center;
+    background: var(--crimson);
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    display: inline-flex;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.filter-toggle {
+    min-height: 43px;
+    padding: 0 14px;
+}
+
+.app-button--compact {
+    min-height: 36px;
+    padding: 0 14px;
+}
+
+.manage-btn {
+    min-height: 34px;
+    padding: 0 14px;
+}
+
+.app-button:disabled,
+.generator-count-button:disabled {
+    background: #e5e7eb;
+    border: 0;
+    color: var(--text-muted);
+    cursor: not-allowed;
+}
+
+.filter-toggle:not(:disabled):hover,
+.filter-toggle:not(:disabled):focus-visible,
+.filter-done-btn:hover,
+.filter-done-btn:focus-visible,
+.manage-btn:not(:disabled):hover,
+.manage-btn:not(:disabled):focus-visible {
+    background: #a9152c;
+    outline: 0;
+}
+
+.filter-toggle:not(:disabled):focus-visible,
+.filter-done-btn:focus-visible {
+    box-shadow: 0 0 0 3px rgba(169, 21, 44, 0.22);
+}
+
+.app-button--toolbar {
+    gap: 10px;
+    min-height: 36px;
+    padding: 0 18px;
+    text-decoration: none;
+}
+
+@media (max-width: 760px) {
+    .app-control {
+        font-size: 16px;
+        min-height: 46px;
+    }
+}
+
+:root[data-theme="dark"] .app-control {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .form-check-label {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .app-control::placeholder {
+    color: var(--color-text-muted);
+    opacity: 1;
+}
+
+:root[data-theme="dark"] .app-button:disabled {
+    background: var(--color-control-disabled);
+    color: #c2cad4;
+}

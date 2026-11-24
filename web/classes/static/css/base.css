@@ -1,58 +1,3 @@
-:root {
-    --wsu-crimson: #A60F2D;
-    --wsu-crimson-dark: #860d25;
-    --color-page: #f2f3f5;
-    --color-surface: #fafbfc;
-    --color-surface-raised: #fff;
-    --color-text: #1f2937;
-    --color-text-secondary: #374151;
-    --color-text-subtle: #566273;
-    --color-text-muted: #667386;
-    --color-border: #e1e5eb;
-    --color-border-strong: #cbd2dc;
-    --color-accent-hover: #860d25;
-    --color-accent-subtle: #fff1f3;
-    --color-link: #860d25;
-    --color-link-hover: #5f091b;
-    --shadow-surface: 0 10px 30px rgba(15, 23, 42, 0.08);
-    --focus-ring: 0 0 0 3px rgba(169, 21, 44, 0.22);
-    --color-success-surface: #d9efdf;
-    --color-success-border: #9ac8a7;
-    --color-success-text: #1f5131;
-    --color-danger-surface: #f5d9dc;
-    --color-danger-border: #d88590;
-    --color-danger-text: #681f2b;
-    --color-overlay: rgba(17, 24, 39, 0.42);
-    --color-control-disabled: #e1e5eb;
-    --bs-body-font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-:root[data-theme="dark"] {
-    --color-page: #181a1f;
-    --color-surface: #22262c;
-    --color-surface-raised: #2a2f37;
-    --color-text: #f3f4f6;
-    --color-text-secondary: #cbd5e1;
-    --color-text-subtle: #aab4c0;
-    --color-text-muted: #96a2b1;
-    --color-border: #303840;
-    --color-border-strong: #46505c;
-    --color-accent-hover: #c34a61;
-    --color-accent-subtle: #351d24;
-    --color-link: #f18a9a;
-    --color-link-hover: #ffb7c2;
-    --shadow-surface: 0 10px 30px rgba(0, 0, 0, 0.32);
-    --focus-ring: 0 0 0 3px rgba(222, 87, 109, 0.42);
-    --color-success-surface: #285d43;
-    --color-success-border: #4f9f73;
-    --color-success-text: #e5f5eb;
-    --color-danger-surface: #a83243;
-    --color-danger-border: #e46d7d;
-    --color-danger-text: #ffe7eb;
-    --color-overlay: rgba(0, 0, 0, 0.62);
-    --color-control-disabled: #454d57;
-}
-
 html {
     background: var(--wsu-crimson);
     color-scheme: light;
@@ -61,6 +6,7 @@ html {
 html[data-theme="dark"] {
     color-scheme: dark;
 }
+
 body {
     margin: 0;
     font-family: "Montserrat", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -72,30 +18,20 @@ body:has(.legal-page) {
     background: var(--color-page);
 }
 
-body:has(.schedule-app) {
-    background: var(--color-page);
-    height: 100vh;
-    height: 100dvh;
-    overflow: hidden;
-}
-
 #content {
     padding-bottom: 28px;
-}
-
-#content:has(.schedule-app) {
-    overflow: hidden;
-    padding-bottom: 0;
 }
 
 #content:has(.legal-page) {
     padding-bottom: 0;
 }
+
 .app-navbar {
     background: linear-gradient(180deg, var(--wsu-crimson) 0%, var(--wsu-crimson-dark) 100%);
     min-height: 74px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.18) inset;
 }
+
 .app-brand-title {
     color: #fff;
     font-size: 1.72rem;
@@ -103,16 +39,19 @@ body:has(.schedule-app) {
     letter-spacing: 0;
     text-transform: uppercase;
 }
+
 .app-brand-icon {
     border-radius: 8px;
     height: 46px;
     width: 46px;
 }
+
 .app-nav-actions {
     align-items: center;
     display: flex;
     gap: 18px;
 }
+
 .nav-action {
     align-items: center;
     background: transparent;
@@ -123,9 +62,11 @@ body:has(.schedule-app) {
     gap: 8px;
     padding: 8px 0;
 }
+
 .nav-action.dropdown-toggle::after {
     display: none;
 }
+
 .options-menu {
     --bs-dropdown-bg: var(--color-surface);
     --bs-dropdown-color: var(--color-text);
@@ -138,14 +79,17 @@ body:has(.schedule-app) {
     min-width: 190px;
     padding: 10px 12px;
 }
+
 .options-menu .form-check-input {
     background-color: var(--color-surface);
     border-color: #6b7280;
 }
+
 .options-menu .form-check-input:checked {
     background-color: var(--wsu-crimson);
     border-color: var(--wsu-crimson);
 }
+
 .options-menu .form-check-label {
     color: var(--color-text);
     font-weight: 700;
@@ -300,9 +244,11 @@ body:has(.schedule-app) {
     display: none;
     margin: 10px 0;
 }
+
 .htmx-request .htmx-indicator {
     display: block;
 }
+
 .htmx-request.htmx-indicator {
     display: block;
 }
@@ -310,11 +256,6 @@ body:has(.schedule-app) {
 .site-footer {
     background: var(--color-page);
     backdrop-filter: blur(12px);
-}
-
-body:has(.schedule-app) .site-footer {
-    height: 56px;
-    overflow: hidden;
 }
 
 .site-footer-inner {
@@ -433,23 +374,9 @@ body:has(.schedule-app) .site-footer {
 }
 
 @media (max-width: 760px) {
-    body:has(.schedule-app) {
-        --mobile-topbar-height: 84px;
-        --mobile-footer-height: 56px;
-        --mobile-app-chrome-height: calc(var(--mobile-topbar-height) + var(--mobile-footer-height));
-    }
-
     body {
         background: var(--wsu-crimson);
         padding-bottom: calc(92px + env(safe-area-inset-bottom));
-    }
-
-    body:has(.schedule-app) {
-        padding-bottom: 0;
-    }
-
-    body:has(.schedule-app) .site-footer {
-        height: var(--mobile-footer-height, 56px);
     }
 
     body:has(.legal-page) {
@@ -569,7 +496,6 @@ body:has(.schedule-app) .site-footer {
     .legal-shell h1 {
         font-size: 1.8rem;
     }
-
 }
 
 :root[data-theme="dark"] .help-image-slot {
@@ -584,7 +510,6 @@ body:has(.schedule-app) .site-footer {
     color: var(--color-text-secondary);
 }
 
-/* Keep theme changes gentle without overriding component motion transforms. */
 :where(body, body *) {
     transition: background-color 160ms ease,
                 color 160ms ease,

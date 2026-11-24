@@ -1,0 +1,463 @@
+.calendar-wrap {
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.schedule-pane.is-exporting {
+    background: var(--color-surface);
+    height: auto;
+    overflow: visible;
+}
+
+.schedule-pane.is-exporting .toolbar,
+.schedule-pane.is-exporting .manage-btn,
+.schedule-pane.is-exporting .schedule-view-tabs,
+.schedule-export-active .course-block-tooltip {
+    display: none !important;
+}
+
+.schedule-pane.is-exporting .schedule-selector {
+    border-color: transparent;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+.schedule-pane.is-exporting .calendar-wrap {
+    flex: 0 0 auto;
+    overflow: visible;
+}
+
+.schedule-pane.is-exporting .calendar-header {
+    position: static;
+}
+
+.calendar-header {
+    background: var(--color-surface);
+    display: grid;
+    grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.calendar-header-time,
+.calendar-header-day {
+    align-items: center;
+    border-bottom: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+    display: flex;
+    justify-content: center;
+    min-height: 42px;
+}
+
+.calendar-header-day {
+    flex-direction: column;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: 82px repeat(7, minmax(96px, 1fr));
+    flex: 0 0 auto;
+    min-height: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.calendar-time-slot {
+    border-bottom: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+    color: #111827;
+    font-size: 0.84rem;
+    min-height: 58px;
+    padding: 7px 9px 0 0;
+    text-align: right;
+}
+
+.calendar-cell {
+    border-bottom: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+    min-height: 58px;
+    overflow: visible;
+    position: relative;
+}
+
+.course-block {
+    background: var(--color-success-surface);
+    border: 1px solid var(--color-success-border);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: var(--color-success-text);
+    cursor: pointer;
+    font-size: 0.62rem;
+    font-weight: 700;
+    left: 0px;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 4px 5px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    z-index: var(--course-block-z-index, 10);
+}
+
+.course-block.conflict {
+    background: var(--color-danger-surface);
+    border-color: var(--color-danger-border);
+    color: var(--color-danger-text);
+    z-index: var(--course-block-conflict-z-index, 35);
+}
+
+.course-block.ghost {
+    background: rgba(152, 30, 50, 0.16);
+    border: 1px dashed var(--crimson);
+    color: var(--color-text);
+    pointer-events: none;
+    z-index: var(--course-block-ghost-z-index, 2500);
+}
+
+.course-block:hover {
+    overflow: visible;
+    z-index: 2000;
+}
+
+.course-block-line {
+    display: block;
+}
+
+.course-block.with-instructor .course-block-line,
+body:has(#showInstructorToggle:checked) .course-block-line {
+    font-size: 0.6rem;
+    line-height: 1.05;
+}
+
+.course-block-tooltip {
+    background: var(--color-surface);
+    border: 1px solid #cfd5df;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    color: #111827;
+    display: none;
+    font-size: 0.8rem;
+    left: 50%;
+    line-height: 1.45;
+    min-width: 245px;
+    padding: 10px 12px;
+    position: absolute;
+    text-align: left;
+    top: calc(100% + 7px);
+    transform: translateX(-50%);
+    z-index: 30;
+}
+
+.course-block-tooltip,
+.mobile-course-meta {
+    white-space: pre-line;
+}
+
+.course-block-tooltip.tooltip-above {
+    bottom: calc(100% + 7px);
+    top: auto;
+}
+
+.course-block:hover .course-block-tooltip {
+    display: block;
+}
+
+.course-block-tooltip.conflict-tooltip::before {
+    content: "";
+    height: 12px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -12px;
+}
+
+.course-block-tooltip.tooltip-above.conflict-tooltip::before {
+    bottom: -12px;
+    top: auto;
+}
+
+.conflict-remove-btn {
+    background: var(--color-surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 5px;
+    color: #111827;
+    cursor: pointer;
+    display: block;
+    font: inherit;
+    font-weight: 800;
+    margin-top: 7px;
+    padding: 7px 9px;
+    text-align: left;
+    width: 100%;
+}
+
+.conflict-remove-btn:hover,
+.conflict-remove-btn:focus-visible {
+    background: #fff5f6;
+    border-color: var(--crimson);
+    outline: none;
+}
+
+.conflict-remove-meta {
+    color: var(--text-muted);
+    display: block;
+    font-size: 0.74rem;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.overlap-segment {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    body.mobile-conflict-sheet-open {
+        overflow: hidden;
+    }
+
+    body.mobile-course-sheet-open {
+        overflow: hidden;
+    }
+
+    .schedule-view-panel .calendar-wrap {
+        box-sizing: border-box;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .mobile-conflict-grabber {
+        margin: 0 auto 14px;
+    }
+
+    .calendar-wrap {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow-x: auto;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .calendar-header,
+    .calendar-grid {
+        min-width: 376px;
+    }
+
+    .calendar-header-time,
+    .calendar-header-day {
+        font-size: 0.84rem;
+        min-height: 48px;
+    }
+
+    .calendar-time-slot {
+        font-size: 0.78rem;
+        min-height: 58px;
+        padding: 10px 6px 0 0;
+    }
+
+    .calendar-cell {
+        min-height: 58px;
+    }
+
+    .course-block {
+        appearance: none;
+        border-color: #98df91;
+        border-radius: 6px;
+        font-size: 0.47rem;
+        font-family: inherit;
+        line-height: 1.12;
+        padding: 4px 3px;
+    }
+
+    .course-block:focus-visible {
+        outline: 2px solid var(--crimson);
+        outline-offset: 2px;
+    }
+
+    .course-block.with-instructor .course-block-line,
+    body:has(#showInstructorToggle:checked) .course-block-line {
+        font-size: 0.47rem;
+        line-height: 1.08;
+    }
+
+    .course-block-tooltip {
+        display: none !important;
+    }
+
+    .mobile-conflict-sheet,
+    .mobile-course-sheet {
+        display: block;
+    }
+
+    .mobile-conflict-panel,
+    .mobile-course-panel {
+        max-height: min(78dvh, 520px);
+    }
+
+    .mobile-conflict-header {
+        align-items: flex-start;
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .mobile-conflict-title {
+        font-size: 1.1rem;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .mobile-conflict-subtitle {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        font-weight: 650;
+        margin: 3px 0 0;
+    }
+
+    .mobile-conflict-close {
+        background: var(--color-surface);
+        border: 1px solid var(--line-strong);
+        border-radius: 6px;
+        color: #111827;
+        flex: 0 0 auto;
+        font-size: 0.84rem;
+        font-weight: 800;
+        min-height: 38px;
+        padding: 0 12px;
+    }
+
+    .mobile-conflict-options {
+        display: grid;
+        gap: 10px;
+    }
+
+    .mobile-course-panel {
+        max-height: min(78dvh, 560px);
+    }
+
+    .mobile-course-grabber {
+        margin: 0 auto 14px;
+    }
+
+    .mobile-course-header {
+        align-items: center;
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+
+    .mobile-course-header h2 {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .mobile-course-close,
+    .mobile-course-remove {
+        border-radius: 6px;
+        font-weight: 800;
+        min-height: 42px;
+        padding: 0 12px;
+    }
+
+    .mobile-course-close {
+        background: var(--color-surface);
+        border: 1px solid var(--line-strong);
+        color: var(--color-text);
+    }
+
+    .mobile-course-details {
+        color: var(--color-text-secondary);
+        display: grid;
+        gap: 7px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+    .mobile-course-name {
+        color: var(--color-text);
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+
+    .mobile-course-code {
+        color: var(--crimson);
+        font-weight: 800;
+    }
+
+    .mobile-course-remove {
+        background: var(--crimson);
+        border: 0;
+        color: #fff;
+        width: 100%;
+    }
+
+    .mobile-conflict-remove-btn {
+        background: var(--color-surface);
+        border: 1px solid var(--line-strong);
+        border-radius: 7px;
+        color: #111827;
+        cursor: pointer;
+        display: block;
+        font: inherit;
+        font-size: 0.96rem;
+        font-weight: 850;
+        min-height: 58px;
+        padding: 11px 12px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .mobile-conflict-remove-btn:active,
+    .mobile-conflict-remove-btn:focus-visible {
+        background: #fff5f6;
+        border-color: var(--crimson);
+        outline: none;
+    }
+}
+
+:root[data-theme="dark"] .calendar-header,
+:root[data-theme="dark"] .course-block-tooltip {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .mobile-conflict-close,
+:root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .mobile-course-close,
+:root[data-theme="dark"] .conflict-remove-btn {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .calendar-time-slot,
+:root[data-theme="dark"] .mobile-conflict-title,
+:root[data-theme="dark"] .mobile-conflict-close,
+:root[data-theme="dark"] .mobile-conflict-remove-btn,
+:root[data-theme="dark"] .conflict-remove-btn {
+    color: var(--color-text);
+}
+
+:root[data-theme="dark"] .course-block:not(.conflict):not(.ghost) {
+    border-color: var(--color-success-border);
+}
+
+:root[data-theme="dark"] .course-block.ghost {
+    background: rgba(166, 15, 45, 0.34);
+    border-color: #e06a7d;
+    color: #ffe7eb;
+}
+

@@ -464,7 +464,7 @@ export function renderCourseResult(course: CatalogCourse): HTMLElement {
   const infoControl = document.createElement("span");
   infoControl.className = "course-info-control";
   const tooltip = document.createElement("div");
-  tooltip.className = "course-info-popover";
+  tooltip.className = "app-popover course-info-popover";
   tooltip.setAttribute("role", "dialog");
   tooltip.setAttribute("aria-label", `Additional information about ${course.course_code}`);
   tooltip.hidden = true;
