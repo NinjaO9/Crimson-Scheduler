@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T15:17:13.655009+00:00",
+  "generatedAt": "2026-11-24T16:19:33.056725+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -50669,7 +50669,7 @@
                   "time": "13:30 - 14:45"
                 }
               ],
-              "location": "SEH  G0005",
+              "location": "",
               "instructor": "D BERCO",
               "instructors": [
                 "D BERCO"
@@ -67677,6 +67677,54 @@
                 "total": 8,
                 "available": 3,
                 "label": "5/8"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "FIN",
+          "subjectPrefix": "Fin",
+          "courseNumber": 499,
+          "courseCode": "FIN 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3340",
+              "sln": 3340,
+              "sectionNumber": 1,
+              "courseCode": "FIN 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M REYES",
+              "instructors": [
+                "M REYES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
               },
               "dates": {
                 "start": "Aug 24",
@@ -132555,7 +132603,7 @@
                   "time": "12:05 - 13:20"
                 }
               ],
-              "location": "SEH  G0005",
+              "location": "SPRK G0045",
               "instructor": "D CRONAN",
               "instructors": [
                 "D CRONAN"

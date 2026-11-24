@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T15:17:13.940406+00:00",
+  "generatedAt": "2026-11-24T16:19:33.459949+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -236,10 +236,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 20,
                 "total": 60,
-                "available": 43,
-                "label": "17/60"
+                "available": 40,
+                "label": "20/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -534,10 +534,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 24,
                 "total": 55,
-                "available": 34,
-                "label": "21/55"
+                "available": 31,
+                "label": "24/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1477,6 +1477,91 @@
       "subject": "BSYSE",
       "courses": [
         {
+          "course": "Research and Teaching Methods",
+          "subject": "BSYSE",
+          "subjectPrefix": "BSysE",
+          "courseNumber": 512,
+          "courseCode": "BSYSE 512",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "4196",
+              "sln": 4196,
+              "sectionNumber": 1,
+              "courseCode": "BSYSE 512",
+              "courseName": "Research and Teaching Methods",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 15:10",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 15:10"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "J WU",
+              "instructors": [
+                "J WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "4197",
+              "sln": 4197,
+              "sectionNumber": 1,
+              "courseCode": "BSYSE 512",
+              "courseName": "Research and Teaching Methods",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "J WU",
+              "instructors": [
+                "J WU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Biomass Thermo-Chemical Conversion",
           "subject": "BSYSE",
           "subjectPrefix": "BSysE",
@@ -1661,10 +1746,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 50,
+                "taken": 51,
                 "total": 60,
-                "available": 10,
-                "label": "50/60"
+                "available": 9,
+                "label": "51/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3737,10 +3822,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 25,
+                "taken": 28,
                 "total": 40,
-                "available": 15,
-                "label": "25/40"
+                "available": 12,
+                "label": "28/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3843,10 +3928,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 18,
+                "taken": 19,
                 "total": 30,
-                "available": 12,
-                "label": "18/30"
+                "available": 11,
+                "label": "19/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3880,10 +3965,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 18,
+                "taken": 19,
                 "total": 30,
-                "available": 12,
-                "label": "18/30"
+                "available": 11,
+                "label": "19/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4059,10 +4144,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 13,
                 "total": 40,
-                "available": 28,
-                "label": "12/40"
+                "available": 27,
+                "label": "13/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4309,14 +4394,10 @@
               "isLab": true,
               "hasRequiredLab": true,
               "days": "W,F",
-              "time": "09:10 - 12:00;09:10 - 12:00",
+              "time": "09:10 - 12:00",
               "meetings": [
                 {
-                  "days": "W",
-                  "time": "09:10 - 12:00"
-                },
-                {
-                  "days": "F",
+                  "days": "W,F",
                   "time": "09:10 - 12:00"
                 }
               ],
@@ -7298,10 +7379,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 14,
                 "total": 72,
-                "available": 60,
-                "label": "12/72"
+                "available": 58,
+                "label": "14/72"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7346,10 +7427,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 33,
+                "taken": 34,
                 "total": 96,
-                "available": 63,
-                "label": "33/96"
+                "available": 62,
+                "label": "34/96"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7394,10 +7475,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 17,
                 "total": 48,
-                "available": 36,
-                "label": "12/48"
+                "available": 31,
+                "label": "17/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8927,10 +9008,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 30,
-                "available": 27,
-                "label": "3/30"
+                "available": 26,
+                "label": "4/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8980,10 +9061,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 16,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 14,
+                "label": "16/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9028,10 +9109,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 30,
-                "available": 13,
-                "label": "17/30"
+                "available": 12,
+                "label": "18/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9410,10 +9491,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 29,
+                "taken": 30,
                 "total": 50,
-                "available": 21,
-                "label": "29/50"
+                "available": 20,
+                "label": "30/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9447,10 +9528,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 24,
+                "taken": 26,
                 "total": 50,
-                "available": 26,
-                "label": "24/50"
+                "available": 24,
+                "label": "26/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9532,10 +9613,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 18,
                 "total": 35,
-                "available": 22,
-                "label": "13/35"
+                "available": 17,
+                "label": "18/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9569,10 +9650,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 16,
                 "total": 35,
-                "available": 25,
-                "label": "10/35"
+                "available": 19,
+                "label": "16/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9663,10 +9744,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 30,
+                "taken": 33,
                 "total": 50,
-                "available": 20,
-                "label": "30/50"
+                "available": 17,
+                "label": "33/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9853,10 +9934,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 18,
+                "taken": 20,
                 "total": 24,
-                "available": 6,
-                "label": "18/24"
+                "available": 4,
+                "label": "20/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9901,10 +9982,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 24,
-                "available": 13,
-                "label": "11/24"
+                "available": 12,
+                "label": "12/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9949,10 +10030,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "available": 9,
+                "label": "1/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11165,10 +11246,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 19,
+                "taken": 21,
                 "total": 30,
-                "available": 11,
-                "label": "19/30"
+                "available": 9,
+                "label": "21/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11428,10 +11509,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 37,
+                "taken": 39,
                 "total": 60,
-                "available": 23,
-                "label": "37/60"
+                "available": 21,
+                "label": "39/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11465,10 +11546,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 37,
+                "taken": 39,
                 "total": 60,
-                "available": 23,
-                "label": "37/60"
+                "available": 21,
+                "label": "39/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11609,10 +11690,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 33,
+                "taken": 34,
                 "total": 35,
-                "available": 2,
-                "label": "33/35"
+                "available": 1,
+                "label": "34/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11775,10 +11856,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 27,
+                "taken": 29,
                 "total": 48,
-                "available": 21,
-                "label": "27/48"
+                "available": 19,
+                "label": "29/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11821,10 +11902,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 2,
                 "total": 5,
-                "available": 4,
-                "label": "1/5"
+                "available": 3,
+                "label": "2/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12597,10 +12678,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 42,
+                "taken": 43,
                 "total": 48,
-                "available": 6,
-                "label": "42/48"
+                "available": 5,
+                "label": "43/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12804,10 +12885,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 26,
+                "taken": 27,
                 "total": 45,
-                "available": 19,
-                "label": "26/45"
+                "available": 18,
+                "label": "27/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12915,10 +12996,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 15,
-                "available": 11,
-                "label": "4/15"
+                "available": 10,
+                "label": "5/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12963,10 +13044,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 37,
+                "taken": 38,
                 "total": 48,
-                "available": 11,
-                "label": "37/48"
+                "available": 10,
+                "label": "38/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13185,10 +13266,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 14,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 16,
+                "label": "14/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13377,10 +13458,10 @@
               "coop": true,
               "footnotes": "X",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13569,10 +13650,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 7,
+                "label": "3/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15720,10 +15801,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 15,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 15,
+                "label": "15/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16217,10 +16298,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 13,
+                "taken": 15,
                 "total": 30,
-                "available": 17,
-                "label": "13/30"
+                "available": 15,
+                "label": "15/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16269,10 +16350,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 12,
                 "total": 30,
-                "available": 20,
-                "label": "10/30"
+                "available": 18,
+                "label": "12/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16317,10 +16398,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 10,
-                "available": 10,
-                "label": "0/10"
+                "available": 9,
+                "label": "1/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16354,10 +16435,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16620,10 +16701,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 20,
+                "taken": 21,
                 "total": 30,
-                "available": 10,
-                "label": "20/30"
+                "available": 9,
+                "label": "21/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16720,10 +16801,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 20,
+                "taken": 21,
                 "total": 28,
-                "available": 8,
-                "label": "20/28"
+                "available": 7,
+                "label": "21/28"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16816,10 +16897,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 20,
+                "taken": 21,
                 "total": 30,
-                "available": 10,
-                "label": "20/30"
+                "available": 9,
+                "label": "21/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16975,10 +17056,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 7,
+                "label": "3/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18288,10 +18369,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 17,
                 "total": 50,
-                "available": 38,
-                "label": "12/50"
+                "available": 33,
+                "label": "17/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19230,10 +19311,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 30,
+                "taken": 31,
                 "total": 48,
-                "available": 18,
-                "label": "30/48"
+                "available": 17,
+                "label": "31/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19469,10 +19550,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 16,
+                "taken": 18,
                 "total": 48,
-                "available": 32,
-                "label": "16/48"
+                "available": 30,
+                "label": "18/48"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19504,10 +19585,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 24,
-                "available": 19,
-                "label": "5/24"
+                "available": 18,
+                "label": "6/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19539,10 +19620,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 24,
-                "available": 13,
-                "label": "11/24"
+                "available": 12,
+                "label": "12/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -19635,10 +19716,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 18,
+                "taken": 19,
                 "total": 30,
-                "available": 12,
-                "label": "18/30"
+                "available": 11,
+                "label": "19/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -20656,10 +20737,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 3,
+                "taken": 4,
                 "total": 10,
-                "available": 7,
-                "label": "3/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21137,10 +21218,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 36,
+                "taken": 37,
                 "total": 60,
-                "available": 24,
-                "label": "36/60"
+                "available": 23,
+                "label": "37/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21211,10 +21292,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 25,
+                "taken": 26,
                 "total": 30,
-                "available": 5,
-                "label": "25/30"
+                "available": 4,
+                "label": "26/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21447,10 +21528,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 28,
-                "available": 18,
-                "label": "10/28"
+                "available": 17,
+                "label": "11/28"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21855,10 +21936,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 13,
                 "total": 24,
-                "available": 12,
-                "label": "12/24"
+                "available": 11,
+                "label": "13/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22084,10 +22165,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 25,
+                "taken": 28,
                 "total": 60,
-                "available": 35,
-                "label": "25/60"
+                "available": 32,
+                "label": "28/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22121,10 +22202,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 25,
+                "taken": 28,
                 "total": 60,
-                "available": 35,
-                "label": "25/60"
+                "available": 32,
+                "label": "28/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22302,10 +22383,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 7,
+                "taken": 8,
                 "total": 30,
-                "available": 23,
-                "label": "7/30"
+                "available": 22,
+                "label": "8/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22350,10 +22431,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 0,
+                "taken": 1,
                 "total": 40,
-                "available": 40,
-                "label": "0/40"
+                "available": 39,
+                "label": "1/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23692,10 +23773,10 @@
               "coop": false,
               "footnotes": "S",
               "seats": {
-                "taken": 7,
+                "taken": 8,
                 "total": 15,
-                "available": 8,
-                "label": "7/15"
+                "available": 7,
+                "label": "8/15"
               },
               "dates": {
                 "start": "Jan 11",
