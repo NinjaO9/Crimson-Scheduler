@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T01:17:05.115212+00:00",
+  "generatedAt": "2026-11-25T02:17:21.788989+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -19552,6 +19552,316 @@
       "subject": "SOE",
       "courses": [
         {
+          "course": "The Environment, Human Life, and Sustainability",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 110,
+          "courseCode": "SOE 110",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2330",
+              "sln": 2330,
+              "sectionNumber": 1,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 48,
+                "available": 30,
+                "label": "18/48"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2331",
+              "sln": 2331,
+              "sectionNumber": 1,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "TCOL 114",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 6,
+                "total": 24,
+                "available": 18,
+                "label": "6/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2401",
+              "sln": 2401,
+              "sectionNumber": 2,
+              "courseCode": "SOE 110",
+              "courseName": "The Environment, Human Life, and Sustainability",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "TCOL 114",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "BSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 12,
+                "total": 24,
+                "available": 12,
+                "label": "12/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Oceanography",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 230,
+          "courseCode": "SOE 230",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2467",
+              "sln": 2467,
+              "sectionNumber": 1,
+              "courseCode": "SOE 230",
+              "courseName": "Introductory Oceanography",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 14,
+                "total": 42,
+                "available": 28,
+                "label": "14/42"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Living on the Edge: Global Climate Change and Earth History",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 390,
+          "courseCode": "SOE 390",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11187",
+              "sln": 11187,
+              "sectionNumber": 1,
+              "courseCode": "SOE 390",
+              "courseName": "Living on the Edge: Global Climate Change and Earth History",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 30,
+                "available": 11,
+                "label": "19/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Environmental Assessment",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 444,
+          "courseCode": "SOE 444",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11677",
+              "sln": 11677,
+              "sectionNumber": 1,
+              "courseCode": "SOE 444",
+              "courseName": "Environmental Assessment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "K WHITMAN",
+              "instructors": [
+                "K WHITMAN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 10,
+                "available": 0,
+                "label": "10/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Urban Ecology",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 455,
+          "courseCode": "SOE 455",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2582",
+              "sln": 2582,
+              "sectionNumber": 1,
+              "courseCode": "SOE 455",
+              "courseName": "Urban Ecology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 12,
+                "total": 12,
+                "available": 0,
+                "label": "12/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Watershed Management",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -19591,6 +19901,534 @@
                 "total": 24,
                 "available": 19,
                 "label": "5/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Undergraduate Internship",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 495,
+          "courseCode": "SOE 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2276",
+              "sln": 2276,
+              "sectionNumber": 1,
+              "courseCode": "SOE 495",
+              "courseName": "Undergraduate Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 10,
+                "available": 9,
+                "label": "1/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 499,
+          "courseCode": "SOE 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2329",
+              "sln": 2329,
+              "sectionNumber": 1,
+              "courseCode": "SOE 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Fundamentals of Environmental Toxicology",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 531,
+          "courseCode": "SOE 531",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11926",
+              "sln": 11926,
+              "sectionNumber": 1,
+              "courseCode": "SOE 531",
+              "courseName": "Fundamentals of Environmental Toxicology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "J MCINTYRE",
+              "instructors": [
+                "J MCINTYRE"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Climate Change Impacts on Physical, Natural, and Human Systems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 536,
+          "courseCode": "SOE 536",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12119",
+              "sln": 12119,
+              "sectionNumber": 1,
+              "courseCode": "SOE 536",
+              "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "D SINGH",
+              "instructors": [
+                "D SINGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Environmental Assessment",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 544,
+          "courseCode": "SOE 544",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11678",
+              "sln": 11678,
+              "sectionNumber": 1,
+              "courseCode": "SOE 544",
+              "courseName": "Environmental Assessment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "K WHITMAN",
+              "instructors": [
+                "K WHITMAN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Watershed Biogeochemistry",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 562,
+          "courseCode": "SOE 562",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12120",
+              "sln": 12120,
+              "sectionNumber": 1,
+              "courseCode": "SOE 562",
+              "courseName": "Watershed Biogeochemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "J HARRISON",
+              "instructors": [
+                "J HARRISON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Graduate Seminar in Earth and Environmental Sciences",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 593,
+          "courseCode": "SOE 593",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11673",
+              "sln": 11673,
+              "sectionNumber": 1,
+              "courseCode": "SOE 593",
+              "courseName": "Graduate Seminar in Earth and Environmental Sciences",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   TRI",
+              "instructor": "D THORNTON",
+              "instructors": [
+                "D THORNTON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 600,
+          "courseCode": "SOE 600",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2160",
+              "sln": 2160,
+              "sectionNumber": 1,
+              "courseCode": "SOE 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 700,
+          "courseCode": "SOE 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2161",
+              "sln": 2161,
+              "sectionNumber": 1,
+              "courseCode": "SOE 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 702,
+          "courseCode": "SOE 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2162",
+              "sln": 2162,
+              "sectionNumber": 1,
+              "courseCode": "SOE 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 800,
+          "courseCode": "SOE 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2163",
+              "sln": 2163,
+              "sectionNumber": 1,
+              "courseCode": "SOE 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
               },
               "dates": {
                 "start": "Jan 11",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T01:17:05.167858+00:00",
+  "generatedAt": "2026-11-25T02:17:21.847211+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -1762,7 +1762,93 @@
     },
     {
       "subject": "ASTRONOM",
-      "courses": []
+      "courses": [
+        {
+          "course": "Astronomy",
+          "subject": "ASTRONOM",
+          "subjectPrefix": "Astr",
+          "courseNumber": 135,
+          "courseCode": "ASTRONOM 135",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2656",
+              "sln": 2656,
+              "sectionNumber": 1,
+              "courseCode": "ASTRONOM 135",
+              "courseName": "Astronomy",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "17:45 - 19:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "17:45 - 19:00"
+                }
+              ],
+              "location": "VSCI 12",
+              "instructor": "J VAZQUEZ-BELLO",
+              "instructors": [
+                "J VAZQUEZ-BELLO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2657",
+              "sln": 2657,
+              "sectionNumber": 1,
+              "courseCode": "ASTRONOM 135",
+              "courseName": "Astronomy",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "19:15 - 20:55",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "19:15 - 20:55"
+                }
+              ],
+              "location": "VSCI 101",
+              "instructor": "J VAZQUEZ-BELLO",
+              "instructors": [
+                "J VAZQUEZ-BELLO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "B_A",
@@ -5481,10 +5567,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 22,
+                "taken": 24,
                 "total": 46,
-                "available": 24,
-                "label": "22/46"
+                "available": 22,
+                "label": "24/46"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6136,10 +6222,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 34,
+                "taken": 35,
                 "total": 50,
-                "available": 16,
-                "label": "34/50"
+                "available": 15,
+                "label": "35/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6461,10 +6547,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 7,
                 "total": 15,
-                "available": 10,
-                "label": "5/15"
+                "available": 8,
+                "label": "7/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6546,10 +6632,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 1,
+                "taken": 3,
                 "total": 5,
-                "available": 4,
-                "label": "1/5"
+                "available": 2,
+                "label": "3/5"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6668,10 +6754,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 4,
                 "total": 10,
-                "available": 8,
-                "label": "2/10"
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -13976,10 +14062,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 23,
+                "taken": 24,
                 "total": 35,
-                "available": 12,
-                "label": "23/35"
+                "available": 11,
+                "label": "24/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14327,10 +14413,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 30,
-                "available": 20,
-                "label": "10/30"
+                "available": 19,
+                "label": "11/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14375,10 +14461,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 20,
-                "available": 4,
-                "label": "16/20"
+                "available": 3,
+                "label": "17/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14471,10 +14557,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 15,
-                "available": 5,
-                "label": "10/15"
+                "available": 4,
+                "label": "11/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14519,10 +14605,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 11,
+                "taken": 12,
                 "total": 30,
-                "available": 19,
-                "label": "11/30"
+                "available": 18,
+                "label": "12/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15835,9 +15921,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 1,
-                "total": 15,
-                "available": 14,
-                "label": "1/15"
+                "total": 9,
+                "available": 8,
+                "label": "1/9"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15931,9 +16017,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 4,
-                "total": 10,
-                "available": 6,
-                "label": "4/10"
+                "total": 9,
+                "available": 5,
+                "label": "4/9"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15979,9 +16065,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 1,
-                "total": 10,
-                "available": 9,
-                "label": "1/10"
+                "total": 9,
+                "available": 8,
+                "label": "1/9"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23513,6 +23599,261 @@
       "subject": "SOE",
       "courses": [
         {
+          "course": "Welcome to the Earth: An Introduction to Geology",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 101,
+          "courseCode": "SOE 101",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "2638",
+              "sln": 2638,
+              "sectionNumber": 1,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VUB  1",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 72,
+                "total": 72,
+                "available": 0,
+                "label": "72/72"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2639",
+              "sln": 2639,
+              "sectionNumber": 1,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M",
+              "time": "13:30 - 16:10",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "13:30 - 16:10"
+                }
+              ],
+              "location": "VSCI 101",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2640",
+              "sln": 2640,
+              "sectionNumber": 2,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "09:10 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "09:10 - 11:50"
+                }
+              ],
+              "location": "VSCI 101",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2641",
+              "sln": 2641,
+              "sectionNumber": 3,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "13:30 - 16:10",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:30 - 16:10"
+                }
+              ],
+              "location": "VSCI 101",
+              "instructor": "B WALKER",
+              "instructors": [
+                "B WALKER"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Making the Most of Your EES Major",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 200,
+          "courseCode": "SOE 200",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11494",
+              "sln": 11494,
+              "sectionNumber": 1,
+              "courseCode": "SOE 200",
+              "courseName": "Making the Most of Your EES Major",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VUB  122",
+              "instructor": "G ROLLWAGEN-BOLLENS",
+              "instructors": [
+                "G ROLLWAGEN-BOLLENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 14,
+                "total": 20,
+                "available": 6,
+                "label": "14/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Earth System Science",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 250,
+          "courseCode": "SOE 250",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2755",
+              "sln": 2755,
+              "sectionNumber": 1,
+              "courseCode": "SOE 250",
+              "courseName": "Introduction to Earth System Science",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VLIB 260",
+              "instructor": "J HARRISON",
+              "instructors": [
+                "J HARRISON"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 21,
+                "total": 30,
+                "available": 9,
+                "label": "21/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Natural Resources, Society, and the Environment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -23561,6 +23902,139 @@
           ]
         },
         {
+          "course": "Water and the Earth",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 315,
+          "courseCode": "SOE 315",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3071",
+              "sln": 3071,
+              "sectionNumber": 1,
+              "courseCode": "SOE 315",
+              "courseName": "Water and the Earth",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "10:35 - 11:25",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:25"
+                }
+              ],
+              "location": "VSCI 101",
+              "instructor": "K MOFFETT",
+              "instructors": [
+                "K MOFFETT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 17,
+                "total": 20,
+                "available": 3,
+                "label": "17/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "3072",
+              "sln": 3072,
+              "sectionNumber": 1,
+              "courseCode": "SOE 315",
+              "courseName": "Water and the Earth",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TH",
+              "time": "09:10 - 11:50",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "09:10 - 11:50"
+                }
+              ],
+              "location": "VSCI 101",
+              "instructor": "K MOFFETT",
+              "instructors": [
+                "K MOFFETT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 17,
+                "total": 20,
+                "available": 3,
+                "label": "17/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "The Ecosystem",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 404,
+          "courseCode": "SOE 404",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2761",
+              "sln": 2761,
+              "sectionNumber": 1,
+              "courseCode": "SOE 404",
+              "courseName": "The Ecosystem",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VMMC 1",
+              "instructor": "M KRAMER",
+              "instructors": [
+                "M KRAMER"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 20,
+                "total": 30,
+                "available": 10,
+                "label": "20/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Watershed Management",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -23600,6 +24074,530 @@
                 "total": 3,
                 "available": 1,
                 "label": "2/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Applied Remote Sensing: From Drones to Satellites",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 486,
+          "courseCode": "SOE 486",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6552",
+              "sln": 6552,
+              "sectionNumber": 1,
+              "courseCode": "SOE 486",
+              "courseName": "Applied Remote Sensing: From Drones to Satellites",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "A MEDDENS",
+              "instructors": [
+                "A MEDDENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 3,
+                "available": 2,
+                "label": "1/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Senior Seminar",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 491,
+          "courseCode": "SOE 491",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2643",
+              "sln": 2643,
+              "sectionNumber": 1,
+              "courseCode": "SOE 491",
+              "courseName": "Senior Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 17:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "G ROLLWAGEN-BOLLENS",
+              "instructors": [
+                "G ROLLWAGEN-BOLLENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 20,
+                "available": 18,
+                "label": "2/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 492,
+          "courseCode": "SOE 492",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6989",
+              "sln": 6989,
+              "sectionNumber": 1,
+              "courseCode": "SOE 492",
+              "courseName": "Special Topics",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "15:10 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "15:10 - 16:10"
+                }
+              ],
+              "location": "VMMC 23",
+              "instructor": "G ROLLWAGEN-BOLLENS",
+              "instructors": [
+                "G ROLLWAGEN-BOLLENS"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 20,
+                "available": 9,
+                "label": "11/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 499,
+          "courseCode": "SOE 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2642",
+              "sln": 2642,
+              "sectionNumber": 1,
+              "courseCode": "SOE 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Climate Change Impacts on Physical, Natural, and Human Systems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 536,
+          "courseCode": "SOE 536",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11435",
+              "sln": 11435,
+              "sectionNumber": 1,
+              "courseCode": "SOE 536",
+              "courseName": "Climate Change Impacts on Physical, Natural, and Human Systems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "D SINGH",
+              "instructors": [
+                "D SINGH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 9,
+                "available": 7,
+                "label": "2/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Watershed Biogeochemistry",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 562,
+          "courseCode": "SOE 562",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11436",
+              "sln": 11436,
+              "sectionNumber": 1,
+              "courseCode": "SOE 562",
+              "courseName": "Watershed Biogeochemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "J HARRISON",
+              "instructors": [
+                "J HARRISON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 9,
+                "available": 7,
+                "label": "2/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Applied Remote Sensing: From Drones to Satellites",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 586,
+          "courseCode": "SOE 586",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6553",
+              "sln": 6553,
+              "sectionNumber": 1,
+              "courseCode": "SOE 586",
+              "courseName": "Applied Remote Sensing: From Drones to Satellites",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "A MEDDENS",
+              "instructors": [
+                "A MEDDENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 3,
+                "available": 3,
+                "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Topics in Environmental and Natural Resource Sciences",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 592,
+          "courseCode": "SOE 592",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6442",
+              "sln": 6442,
+              "sectionNumber": 1,
+              "courseCode": "SOE 592",
+              "courseName": "Advanced Topics in Environmental and Natural Resource Sciences",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J PADOWSKI",
+              "instructors": [
+                "J PADOWSKI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Seminar",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 598,
+          "courseCode": "SOE 598",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2907",
+              "sln": 2907,
+              "sectionNumber": 1,
+              "courseCode": "SOE 598",
+              "courseName": "Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 700,
+          "courseCode": "SOE 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2644",
+              "sln": 2644,
+              "sectionNumber": 1,
+              "courseCode": "SOE 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S BOLLENS",
+              "instructors": [
+                "S BOLLENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 10,
+                "available": 5,
+                "label": "5/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 800,
+          "courseCode": "SOE 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2645",
+              "sln": 2645,
+              "sectionNumber": 1,
+              "courseCode": "SOE 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S BOLLENS",
+              "instructors": [
+                "S BOLLENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 10,
+                "available": 8,
+                "label": "2/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -25653,10 +26651,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 9,
+                "taken": 10,
                 "total": 36,
-                "available": 27,
-                "label": "9/36"
+                "available": 26,
+                "label": "10/36"
               },
               "dates": {
                 "start": "Jan 11",
