@@ -10,6 +10,9 @@ const LOCAL_CONFIG_URL = "/static/notifications/global-announcement.local.json";
 const REQUEST_TIMEOUT_MS = 2000;
 const STORAGE_KEY_PREFIX = "crimson-announcement-dismissed:";
 const ALLOWED_TYPES = new Set(["information", "warning"]);
+const MIN_TEXT_SIZE_PX = 12;
+const TEXT_SIZE_STEP_PX = 0.25;
+const MAX_TEXT_LINES = 3;
 
 /** 
  * @typedef {{
@@ -159,6 +162,100 @@ function persistDismissal(id) {
 }
 
 /**
+ * Returns the largest readable font size that fits the supplied predicate.
+ * @param {number} maximumSize - Font size supplied by CSS.
+ * @param {(size: number) => boolean} fits - Determines whether the size fits.
+ * @returns {number} The selected font size.
+ */
+export function fittedFontSize(maximumSize, fits) {
+  let size = maximumSize;
+  while (size > MIN_TEXT_SIZE_PX && !fits(size)) {
+    size = Math.max(MIN_TEXT_SIZE_PX, size - TEXT_SIZE_STEP_PX);
+  }
+  return size;
+}
+
+/**
+ * Determines whether text fits within the maximum visible line count.
+ * @param {HTMLElement} text - Announcement text element.
+ * @param {number} fontSize - Candidate font size in pixels.
+ * @returns {boolean} Whether the complete text fits.
+ */
+function fitsAnnouncementLines(text, fontSize) {
+  if (text.clientWidth === 0) return true;
+  const probe = text.cloneNode(true);
+  probe.removeAttribute("id");
+  probe.style.display = "block";
+  probe.style.fontSize = `${fontSize}px`;
+  probe.style.height = "auto";
+  probe.style.maxHeight = "none";
+  probe.style.overflow = "visible";
+  probe.style.position = "fixed";
+  probe.style.visibility = "hidden";
+  probe.style.webkitLineClamp = "unset";
+  probe.style.lineClamp = "unset";
+  probe.style.width = `${text.clientWidth}px`;
+  document.body.append(probe);
+  const lineHeight = Number.parseFloat(window.getComputedStyle(probe).lineHeight) || fontSize * 1.45;
+  const fits = probe.scrollHeight <= lineHeight * MAX_TEXT_LINES + 0.5;
+  probe.remove();
+  return fits;
+}
+
+/**
+ * Shrinks announcement text only when it exceeds three visible lines.
+ * CSS truncates remaining overflow after the readable minimum is reached.
+ *
+ * @param {HTMLElement} text - Announcement text element.
+ */
+export function fitAnnouncementText(text) {
+  text.style.removeProperty("font-size");
+  const maximumSize = Number.parseFloat(window.getComputedStyle(text).fontSize);
+  if (!Number.isFinite(maximumSize)) return;
+  const size = fittedFontSize(maximumSize, (candidate) => fitsAnnouncementLines(text, candidate));
+  if (size < maximumSize) text.style.fontSize = `${size}px`;
+}
+
+/**
+ * Updates the scheduler's reserved height to the banner's rendered height.
+ * @param {HTMLElement} banner - Active announcement banner.
+ */
+export function updateAnnouncementHeight(banner) {
+  document.documentElement.style.setProperty("--global-announcement-height", `${banner.offsetHeight}px`);
+}
+
+/** 
+ * Clears the dynamic banner-height reservation after dismissal.
+ */
+function clearAnnouncementHeight() {
+  document.documentElement.style.removeProperty("--global-announcement-height");
+}
+
+/**
+ * Refits the text and updates scheduler space when banner dimensions change.
+ *
+ * @param {HTMLElement} banner - Active announcement banner.
+ * @param {HTMLElement} text - Announcement text element.
+ * @returns {() => void} Stops observing the text element.
+ */
+function observeAnnouncementLayout(banner, text) {
+  const updateLayout = () => {
+    fitAnnouncementText(text);
+    updateAnnouncementHeight(banner);
+  };
+  if ("ResizeObserver" in window) {
+    const observer = new window.ResizeObserver(updateLayout);
+    observer.observe(banner);
+    observer.observe(text);
+    return () => observer.disconnect();
+  }
+
+  const onResize = updateLayout;
+  window.addEventListener("resize", onResize);
+  return () => window.removeEventListener("resize", onResize);
+}
+
+/**
  * Renders the announcement banner for the site.
  * @param {Announcement} announcement - announcement metadata that will be parsed.
  * @param {Document} root - root document to pin the announcement to.
@@ -175,6 +272,7 @@ function renderAnnouncement(announcement, root = document) {
   banner.dataset.type = announcement.type;
   banner.setAttribute("aria-live", announcement.type === "critical" ? "assertive" : "polite");
   text.textContent = announcement.text;
+  text.title = announcement.text;
   if (announcement.link) {
     link.textContent = announcement.link.label;
     link.href = announcement.link.url;
@@ -184,14 +282,20 @@ function renderAnnouncement(announcement, root = document) {
       link.rel = "noopener noreferrer";
     }
   }
+  banner.hidden = false;
+  fitAnnouncementText(text);
+  updateAnnouncementHeight(banner);
+  const stopObserving = observeAnnouncementLayout(banner, text);
+
   if (announcement.dismissible) {
     dismiss.hidden = false;
     dismiss.addEventListener("click", () => {
       persistDismissal(announcement.id);
+      stopObserving();
       banner.hidden = true;
+      clearAnnouncementHeight();
     }, { once: true });
   }
-  banner.hidden = false;
 }
 
 /** 

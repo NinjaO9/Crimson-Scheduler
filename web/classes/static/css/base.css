@@ -1,4 +1,5 @@
 html {
+    --global-announcement-height: 0px;
     background: var(--wsu-crimson);
     color-scheme: light;
 }
@@ -34,7 +35,9 @@ body:has(.legal-page) {
     background: var(--announcement-bg);
     border-bottom: 1px solid var(--announcement-border);
     border-top: 3px solid var(--announcement-accent);
+    box-sizing: border-box;
     color: var(--announcement-text);
+    overflow: hidden;
 }
 
 .global-announcement[hidden] { display: none; }
@@ -55,9 +58,9 @@ body:has(.legal-page) {
 
 .global-announcement__inner {
     align-items: center;
+    box-sizing: border-box;
     display: flex;
-    min-height: 52px;
-    padding: 9px 24px;
+    padding: 7px 24px;
     position: relative;
 }
 
@@ -66,8 +69,9 @@ body:has(.legal-page) {
     column-gap: 12px;
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
     justify-content: center;
+    min-width: 0;
+    overflow: hidden;
     padding: 0 44px;
     row-gap: 2px;
     text-align: center;
@@ -77,6 +81,7 @@ body:has(.legal-page) {
     align-items: center;
     display: flex;
     gap: 16px;
+    flex: 0 1 auto;
     min-width: 0;
 }
 
@@ -100,9 +105,15 @@ body:has(.legal-page) {
 .global-announcement__text {
     flex: 0 1 auto;
     font-size: 0.93rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.45;
     margin: 0;
+    min-width: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
 }
 
 .global-announcement__link {
@@ -110,6 +121,7 @@ body:has(.legal-page) {
     font-weight: 800;
     text-decoration: underline;
     text-underline-offset: 2px;
+    white-space: nowrap;
 }
 
 .global-announcement__dismiss {
@@ -140,7 +152,7 @@ body:has(.legal-page) {
 }
 
 @media (max-width: 600px) {
-    .global-announcement__inner { padding: 10px 14px; }
+    .global-announcement__inner { padding: 8px 14px; }
     .global-announcement__content {
         flex-direction: column;
         padding: 0 34px;

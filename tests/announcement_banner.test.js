@@ -3,9 +3,11 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   announcementConfigUrl,
   fetchAnnouncement,
+  fittedFontSize,
   initializeAnnouncementBanner,
   isAnnouncementActive,
   parseAnnouncement,
+  updateAnnouncementHeight,
 } from "../web/classes/static/src/announcement-banner.js";
 
 const validAnnouncement = {
@@ -33,6 +35,7 @@ function mountBanner() {
 describe("announcement banner", () => {
   beforeEach(() => {
     localStorage.clear();
+    document.documentElement.style.removeProperty("--global-announcement-height");
     mountBanner();
     vi.restoreAllMocks();
   });
@@ -72,6 +75,7 @@ describe("announcement banner", () => {
 
     expect(document.getElementById("globalAnnouncement").hidden).toBe(false);
     expect(document.getElementById("globalAnnouncementText").textContent).toBe("Registration opens soon.");
+    expect(document.getElementById("globalAnnouncementText").title).toBe("Registration opens soon.");
     expect(document.getElementById("globalAnnouncementLink").href).toBe("https://example.com/dates");
     expect(fetchMock).toHaveBeenCalledWith("/static/notifications/global-announcement.local.json", expect.objectContaining({ cache: "no-cache" }));
 
@@ -87,6 +91,20 @@ describe("announcement banner", () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ ok: true, json: async () => ({ ...validAnnouncement, id: "new-id" }) }));
     await initializeAnnouncementBanner();
     expect(document.getElementById("globalAnnouncement").hidden).toBe(false);
+  });
+
+  it("shrinks text to the readable minimum before three-line truncation", () => {
+    expect(fittedFontSize(16, (size) => size <= 12)).toBe(12);
+    expect(fittedFontSize(16, () => true)).toBe(16);
+  });
+
+  it("reserves the banner's rendered height for the scheduler", () => {
+    const banner = document.getElementById("globalAnnouncement");
+    Object.defineProperty(banner, "offsetHeight", { configurable: true, get: () => 92 });
+
+    updateAnnouncementHeight(banner);
+
+    expect(document.documentElement.style.getPropertyValue("--global-announcement-height")).toBe("92px");
   });
 
   it("keeps the banner hidden for disabled, malformed, unavailable, or expired data", async () => {
