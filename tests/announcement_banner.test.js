@@ -23,7 +23,7 @@ const validAnnouncement = {
 function mountBanner() {
   document.body.innerHTML = `
     <aside id="globalAnnouncement" hidden>
-      <span id="globalAnnouncementIcon"></span>
+      <span class="global-announcement__icon" aria-hidden="true"></span>
       <p id="globalAnnouncementText"></p>
       <a id="globalAnnouncementLink" hidden></a>
       <button id="globalAnnouncementDismiss" type="button" hidden>Dismiss</button>

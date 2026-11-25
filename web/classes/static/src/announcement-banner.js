@@ -10,10 +10,6 @@ const LOCAL_CONFIG_URL = "/static/notifications/global-announcement.local.json";
 const REQUEST_TIMEOUT_MS = 2000;
 const STORAGE_KEY_PREFIX = "crimson-announcement-dismissed:";
 const ALLOWED_TYPES = new Set(["information", "warning"]);
-const TYPE_ICONS = {
-  information: "i",
-  warning: "!",
-};
 
 /** 
  * @typedef {{
@@ -171,16 +167,14 @@ function persistDismissal(id) {
 function renderAnnouncement(announcement, root = document) {
   const banner = root.getElementById("globalAnnouncement");
   const text = root.getElementById("globalAnnouncementText");
-  const icon = root.getElementById("globalAnnouncementIcon");
   const link = root.getElementById("globalAnnouncementLink");
   const dismiss = root.getElementById("globalAnnouncementDismiss");
-  if (!banner || !text || !icon || !link || !dismiss) return;
+  if (!banner || !text || !link || !dismiss) return;
   if (!isAnnouncementActive(announcement) || wasDismissed(announcement.id)) return;
 
   banner.dataset.type = announcement.type;
   banner.setAttribute("aria-live", announcement.type === "critical" ? "assertive" : "polite");
   text.textContent = announcement.text;
-  icon.textContent = TYPE_ICONS[announcement.type];
   if (announcement.link) {
     link.textContent = announcement.link.label;
     link.href = announcement.link.url;

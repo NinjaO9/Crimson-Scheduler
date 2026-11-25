@@ -65,17 +65,19 @@ body:has(.legal-page) {
 
 .global-announcement__icon {
     align-items: center;
-    border: 2px solid currentColor;
-    border-radius: 50%;
     color: var(--announcement-accent);
     display: inline-flex;
-    flex: 0 0 23px;
-    font-size: 0.85rem;
-    font-weight: 800;
-    height: 23px;
+    flex: 0 0 24px;
+    height: 24px;
     justify-content: center;
-    line-height: 1;
-    width: 23px;
+    width: 24px;
+}
+
+.global-announcement__icon svg {
+    display: block;
+    fill: currentColor;
+    height: 100%;
+    width: 100%;
 }
 
 .global-announcement__text {

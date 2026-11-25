@@ -1,8 +1,17 @@
 {
+
   "schemaVersion": 1,
   "enabled": true,
-  "id": "local-announcement-preview",
+  "id": "registration-reminder",
   "type": "information",
-  "text": "This is the local announcement preview. Edit this file to test banner content without publishing it.",
-  "dismissible": true
+  "text": "Complete the General Scholarship Application!",
+  "link": 
+  { 
+    "label": "Apply here",
+    "url": "https://futurecoug.wsu.edu/portal/scholarships"
+  },
+  "dismissible": true,
+  "startsAt": "2020-01-01T00:00:00Z",
+  "expiresAt": "2030-01-01T00:00:00Z"
 }
+
