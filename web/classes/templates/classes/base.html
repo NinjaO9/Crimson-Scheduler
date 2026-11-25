@@ -94,6 +94,16 @@
             </div>
         </div>
     </nav>
+    <aside class="global-announcement" id="globalAnnouncement" aria-label="Announcement" hidden>
+        <div class="global-announcement__inner">
+            <span class="global-announcement__icon" id="globalAnnouncementIcon" aria-hidden="true"></span>
+            <p class="global-announcement__text" id="globalAnnouncementText"></p>
+            <a class="global-announcement__link" id="globalAnnouncementLink" hidden></a>
+            <button class="global-announcement__dismiss" id="globalAnnouncementDismiss" type="button" aria-label="Dismiss announcement" hidden>
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </aside>
     <div class="modal fade help-modal" id="helpModal" tabindex="-1" aria-labelledby="helpModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
@@ -225,6 +235,7 @@
         </div>
     </footer>
     <script src="{% static 'src/base.js' %}"></script>
+    <script type="module" src="{% static 'src/announcement-banner.js' %}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>
