@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T23:18:49.938667+00:00",
+  "generatedAt": "2026-11-25T00:19:22.028416+00:00",
   "campus": "Tri-Cities",
   "term": "Fall 2026",
   "subjects": [
@@ -12045,24 +12045,720 @@
       "subject": "MATH",
       "courses": [
         {
+          "course": "Basic Mathematics",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 100,
+          "courseCode": "MATH 100",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8082",
+              "sln": 8082,
+              "sectionNumber": 1,
+              "courseCode": "MATH 100",
+              "courseName": "Basic Mathematics",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F,TU,TH",
+              "time": "13:10 - 14:00;12:05 - 12:55",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 12:55"
+                }
+              ],
+              "location": "TFLO 244",
+              "instructor": "D HODGES",
+              "instructors": [
+                "D HODGES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 30,
+                "total": 30,
+                "available": 0,
+                "label": "30/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Oct 02"
+              }
+            },
+            {
+              "sectionId": "12632",
+              "sln": 12632,
+              "sectionNumber": 2,
+              "courseCode": "MATH 100",
+              "courseName": "Basic Mathematics",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F,TU,TH",
+              "time": "13:10 - 14:00;12:05 - 12:55",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 12:55"
+                }
+              ],
+              "location": "TFLO 230",
+              "instructor": "S THOMPSON",
+              "instructors": [
+                "S THOMPSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 25,
+                "total": 30,
+                "available": 5,
+                "label": "25/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Oct 02"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Algebra Methods and Introduction to Functions",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 103,
+          "courseCode": "MATH 103",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8091",
+              "sln": 8091,
+              "sectionNumber": 1,
+              "courseCode": "MATH 103",
+              "courseName": "Algebra Methods and Introduction to Functions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "TFLO 244",
+              "instructor": "D HODGES",
+              "instructors": [
+                "D HODGES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 32,
+                "total": 30,
+                "available": 0,
+                "label": "32/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "8088",
+              "sln": 8088,
+              "sectionNumber": 2,
+              "courseCode": "MATH 103",
+              "courseName": "Algebra Methods and Introduction to Functions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F,TU,TH",
+              "time": "13:10 - 14:00;12:05 - 12:55",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 12:55"
+                }
+              ],
+              "location": "TFLO 244",
+              "instructor": "D HODGES",
+              "instructors": [
+                "D HODGES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 30,
+                "total": 30,
+                "available": 0,
+                "label": "30/30"
+              },
+              "dates": {
+                "start": "Oct 05",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12633",
+              "sln": 12633,
+              "sectionNumber": 3,
+              "courseCode": "MATH 103",
+              "courseName": "Algebra Methods and Introduction to Functions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F,TU,TH",
+              "time": "13:10 - 14:00;12:05 - 12:55",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 12:55"
+                }
+              ],
+              "location": "TFLO 230",
+              "instructor": "S THOMPSON",
+              "instructors": [
+                "S THOMPSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 23,
+                "total": 30,
+                "available": 7,
+                "label": "23/30"
+              },
+              "dates": {
+                "start": "Oct 05",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "College Algebra",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 106,
+          "courseCode": "MATH 106",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7796",
+              "sln": 7796,
+              "sectionNumber": 1,
+              "courseCode": "MATH 106",
+              "courseName": "College Algebra",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "TFLO 252",
+              "instructor": "D HODGES",
+              "instructors": [
+                "D HODGES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 26,
+                "total": 48,
+                "available": 22,
+                "label": "26/48"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Trigonometry",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 108,
+          "courseCode": "MATH 108",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7797",
+              "sln": 7797,
+              "sectionNumber": 1,
+              "courseCode": "MATH 108",
+              "courseName": "Trigonometry",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "TFLO 244",
+              "instructor": "S SELMI",
+              "instructors": [
+                "S SELMI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 35,
+                "total": 44,
+                "available": 9,
+                "label": "35/44"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Calculus I",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 171,
+          "courseCode": "MATH 171",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "7747",
+              "sln": 7747,
+              "sectionNumber": 1,
+              "courseCode": "MATH 171",
+              "courseName": "Calculus I",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "TCIC 210",
+              "instructor": "S SELMI",
+              "instructors": [
+                "S SELMI"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 78,
+                "total": 80,
+                "available": 2,
+                "label": "78/80"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "8619",
+              "sln": 8619,
+              "sectionNumber": 2,
+              "courseCode": "MATH 171",
+              "courseName": "Calculus I",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "7748",
+              "sln": 7748,
+              "sectionNumber": 1,
+              "courseCode": "MATH 171",
+              "courseName": "Calculus I",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "TCIC 210",
+              "instructor": "S SELMI",
+              "instructors": [
+                "S SELMI"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 78,
+                "total": 80,
+                "available": 2,
+                "label": "78/80"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "8620",
+              "sln": 8620,
+              "sectionNumber": 2,
+              "courseCode": "MATH 171",
+              "courseName": "Calculus I",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Calculus II",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 172,
+          "courseCode": "MATH 172",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "7757",
+              "sln": 7757,
+              "sectionNumber": 1,
+              "courseCode": "MATH 172",
+              "courseName": "Calculus II",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "TCIC 210",
+              "instructor": "S THOMPSON",
+              "instructors": [
+                "S THOMPSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 33,
+                "total": 48,
+                "available": 15,
+                "label": "33/48"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "7758",
+              "sln": 7758,
+              "sectionNumber": 1,
+              "courseCode": "MATH 172",
+              "courseName": "Calculus II",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "TCIC 210",
+              "instructor": "S THOMPSON",
+              "instructors": [
+                "S THOMPSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 33,
+                "total": 48,
+                "available": 15,
+                "label": "33/48"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Calculus for Business and Economics",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 202,
+          "courseCode": "MATH 202",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8536",
+              "sln": 8536,
+              "sectionNumber": 1,
+              "courseCode": "MATH 202",
+              "courseName": "Calculus for Business and Economics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introductory Linear Algebra",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 220,
+          "courseCode": "MATH 220",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7749",
+              "sln": 7749,
+              "sectionNumber": 1,
+              "courseCode": "MATH 220",
+              "courseName": "Introductory Linear Algebra",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "TCIC 210",
+              "instructor": "S SELMI",
+              "instructors": [
+                "S SELMI"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 55,
+                "total": 55,
+                "available": 0,
+                "label": "55/55"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Fundamentals of Elementary Mathematics I",
           "subject": "MATH",
           "subjectPrefix": "Math",
           "courseNumber": 251,
           "courseCode": "MATH 251",
-          "credits": "0",
-          "hasRequiredLab": false,
+          "credits": "3",
+          "hasRequiredLab": true,
           "sections": [
+            {
+              "sectionId": "7832",
+              "sln": 7832,
+              "sectionNumber": 1,
+              "courseCode": "MATH 251",
+              "courseName": "Fundamentals of Elementary Mathematics I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "17:45 - 19:25",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 19:25"
+                }
+              ],
+              "location": "TFLO 210",
+              "instructor": "K DEBOWER",
+              "instructors": [
+                "K DEBOWER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 25,
+                "total": 30,
+                "available": 5,
+                "label": "25/30"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
             {
               "sectionId": "7833",
               "sln": 7833,
               "sectionNumber": 1,
               "courseCode": "MATH 251",
               "courseName": "Fundamentals of Elementary Mathematics I",
-              "credits": "0",
+              "credits": "3",
               "component": "LAB",
               "isLab": true,
-              "hasRequiredLab": false,
+              "hasRequiredLab": true,
               "days": "TH",
               "time": "17:45 - 19:25",
               "meetings": [
@@ -22640,6 +23336,287 @@
       "subject": "SOE",
       "courses": [
         {
+          "course": "Welcome to the Earth: An Introduction to Geology",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 101,
+          "courseCode": "SOE 101",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "7807",
+              "sln": 7807,
+              "sectionNumber": 1,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "TCOL 102",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 48,
+                "total": 48,
+                "available": 0,
+                "label": "48/48"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "7808",
+              "sln": 7808,
+              "sectionNumber": 1,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "TU",
+              "time": "13:30 - 16:20",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "13:30 - 16:20"
+                }
+              ],
+              "location": "TCOL 114",
+              "instructor": "S EGBERT",
+              "instructors": [
+                "S EGBERT"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "7809",
+              "sln": 7809,
+              "sectionNumber": 2,
+              "courseCode": "SOE 101",
+              "courseName": "Welcome to the Earth: An Introduction to Geology",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "15:10 - 18:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "15:10 - 18:00"
+                }
+              ],
+              "location": "TCOL 114",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Earth's History",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 210,
+          "courseCode": "SOE 210",
+          "credits": "4",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "7937",
+              "sln": 7937,
+              "sectionNumber": 1,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "TCOL 126",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 24,
+                "available": 11,
+                "label": "13/24"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "8605",
+              "sln": 8605,
+              "sectionNumber": 2,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "&V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "7938",
+              "sln": 7938,
+              "sectionNumber": 1,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "12:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "12:10 - 15:00"
+                }
+              ],
+              "location": "TCOL 114",
+              "instructor": "J ROSSO",
+              "instructors": [
+                "J ROSSO"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 24,
+                "available": 11,
+                "label": "13/24"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "8606",
+              "sln": 8606,
+              "sectionNumber": 2,
+              "courseCode": "SOE 210",
+              "courseName": "Earth's History",
+              "credits": "4",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J MENARD",
+              "instructors": [
+                "J MENARD"
+              ],
+              "ucore": "PSCI",
+              "coop": false,
+              "footnotes": "&V",
+              "seats": {
+                "taken": 1,
+                "total": 1,
+                "available": 0,
+                "label": "1/1"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
           "course": "Natural Resources, Society, and the Environment",
           "subject": "SOE",
           "subjectPrefix": "SOE",
@@ -22679,6 +23656,715 @@
                 "total": 36,
                 "available": 2,
                 "label": "34/36"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Global Biogeochemistry",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 412,
+          "courseCode": "SOE 412",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7983",
+              "sln": 7983,
+              "sectionNumber": 1,
+              "courseCode": "SOE 412",
+              "courseName": "Global Biogeochemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "TFLO 224",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 14,
+                "total": 20,
+                "available": 6,
+                "label": "14/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ecology of the Columbia River",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 426,
+          "courseCode": "SOE 426",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12006",
+              "sln": 12006,
+              "sectionNumber": 1,
+              "courseCode": "SOE 426",
+              "courseName": "Ecology of the Columbia River",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "12:05 - 14:45",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:05 - 14:45"
+                }
+              ],
+              "location": "TFLO 210",
+              "instructor": "S BOLLENS",
+              "instructors": [
+                "S BOLLENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 3,
+                "available": 1,
+                "label": "2/3"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Biotechnology and the Environment",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 460,
+          "courseCode": "SOE 460",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7978",
+              "sln": 7978,
+              "sectionNumber": 1,
+              "courseCode": "SOE 460",
+              "courseName": "Biotechnology and the Environment",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "16:15 - 17:30",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "16:15 - 17:30"
+                }
+              ],
+              "location": "TFLO 256",
+              "instructor": "A FELSOT",
+              "instructors": [
+                "A FELSOT"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 7,
+                "total": 20,
+                "available": 13,
+                "label": "7/20"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Groundwater",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 475,
+          "courseCode": "SOE 475",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "12711",
+              "sln": 12711,
+              "sectionNumber": 1,
+              "courseCode": "SOE 475",
+              "courseName": "Groundwater",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "TFLO 243",
+              "instructor": "M HOSSAIN",
+              "instructors": [
+                "M HOSSAIN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "&X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "12712",
+              "sln": 12712,
+              "sectionNumber": 1,
+              "courseCode": "SOE 475",
+              "courseName": "Groundwater",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "W",
+              "time": "08:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "08:10 - 11:00"
+                }
+              ],
+              "location": "TFLO 243",
+              "instructor": "M HOSSAIN",
+              "instructors": [
+                "M HOSSAIN"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "&X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Undergraduate Internship",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 495,
+          "courseCode": "SOE 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7787",
+              "sln": 7787,
+              "sectionNumber": 1,
+              "courseCode": "SOE 495",
+              "courseName": "Undergraduate Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 5,
+                "total": 10,
+                "available": 5,
+                "label": "5/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 499,
+          "courseCode": "SOE 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7788",
+              "sln": 7788,
+              "sectionNumber": 1,
+              "courseCode": "SOE 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L NELSON",
+              "instructors": [
+                "L NELSON"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 4,
+                "total": 10,
+                "available": 6,
+                "label": "4/10"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Graduate Skills Seminar",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 501,
+          "courseCode": "SOE 501",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7497",
+              "sln": 7497,
+              "sectionNumber": 1,
+              "courseCode": "SOE 501",
+              "courseName": "Graduate Skills Seminar",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "K WHITMAN",
+              "instructors": [
+                "K WHITMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Global Biogeochemistry",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 512,
+          "courseCode": "SOE 512",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7984",
+              "sln": 7984,
+              "sectionNumber": 1,
+              "courseCode": "SOE 512",
+              "courseName": "Global Biogeochemistry",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "TFLO 224",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "&",
+              "seats": {
+                "taken": 3,
+                "total": 4,
+                "available": 1,
+                "label": "3/4"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Ecology of the Columbia River",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 526,
+          "courseCode": "SOE 526",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "12007",
+              "sln": 12007,
+              "sectionNumber": 1,
+              "courseCode": "SOE 526",
+              "courseName": "Ecology of the Columbia River",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "12:05 - 14:45",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "12:05 - 14:45"
+                }
+              ],
+              "location": "TFLO 210",
+              "instructor": "S BOLLENS",
+              "instructors": [
+                "S BOLLENS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 2,
+                "available": 2,
+                "label": "0/2"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Native Science, Tribal Environmental Policy, and Collaboration",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 539,
+          "courseCode": "SOE 539",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6296",
+              "sln": 6296,
+              "sectionNumber": 1,
+              "courseCode": "SOE 539",
+              "courseName": "Native Science, Tribal Environmental Policy, and Collaboration",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "VC   ARR",
+              "instructor": "L CHARLO",
+              "instructors": [
+                "L CHARLO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 3,
+                "available": 0,
+                "label": "3/3"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Projects or Independent Study",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 600,
+          "courseCode": "SOE 600",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7841",
+              "sln": 7841,
+              "sectionNumber": 1,
+              "courseCode": "SOE 600",
+              "courseName": "Special Projects or Independent Study",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 700,
+          "courseCode": "SOE 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7739",
+              "sln": 7739,
+              "sectionNumber": 1,
+              "courseCode": "SOE 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Special Problems, Directed Study, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 702,
+          "courseCode": "SOE 702",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7740",
+              "sln": 7740,
+              "sectionNumber": 1,
+              "courseCode": "SOE 702",
+              "courseName": "Master's Special Problems, Directed Study, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "SOE",
+          "subjectPrefix": "SOE",
+          "courseNumber": 800,
+          "courseCode": "SOE 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7741",
+              "sln": 7741,
+              "sectionNumber": 1,
+              "courseCode": "SOE 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S ROLEY",
+              "instructors": [
+                "S ROLEY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
               },
               "dates": {
                 "start": "Aug 24",

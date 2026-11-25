@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T23:18:49.959860+00:00",
+  "generatedAt": "2026-11-25T00:19:22.054308+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -9061,10 +9061,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 30,
-                "available": 14,
-                "label": "16/30"
+                "available": 13,
+                "label": "17/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -11107,6 +11107,58 @@
       "subject": "MATH",
       "courses": [
         {
+          "course": "Basic Mathematics",
+          "subject": "MATH",
+          "subjectPrefix": "Math",
+          "courseNumber": 100,
+          "courseCode": "MATH 100",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11891",
+              "sln": 11891,
+              "sectionNumber": 1,
+              "courseCode": "MATH 100",
+              "courseName": "Basic Mathematics",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F,TU,TH",
+              "time": "11:10 - 12:00;12:05 - 12:55",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 12:55"
+                }
+              ],
+              "location": "",
+              "instructor": "D HODGES",
+              "instructors": [
+                "D HODGES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 6,
+                "total": 30,
+                "available": 24,
+                "label": "6/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Feb 19"
+              }
+            }
+          ]
+        },
+        {
           "course": "Algebra Methods and Introduction to Functions",
           "subject": "MATH",
           "subjectPrefix": "Math",
@@ -11563,11 +11615,11 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "TU,TH",
-              "time": "09:10 - 10:25",
+              "time": "14:55 - 16:10",
               "meetings": [
                 {
                   "days": "TU,TH",
-                  "time": "09:10 - 10:25"
+                  "time": "14:55 - 16:10"
                 }
               ],
               "location": "",
