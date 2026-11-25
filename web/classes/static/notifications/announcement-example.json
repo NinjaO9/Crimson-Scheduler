@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "id": "example-announcement",
+  "type": "warning",
+  "text": "This is an example announcement with all fields!",
+  "link": 
+  { 
+    "label": "Example link",
+    "url": "https://example.com"
+  },
+  "dismissible": true,
+  "startsAt": "2020-01-01T00:00:00Z",
+  "expiresAt": "2030-01-01T00:00:00Z"
+}

@@ -19,7 +19,7 @@ body:has(.schedule-app) .site-footer {
     body:has(.schedule-app) {
         --mobile-topbar-height: 84px;
         --mobile-footer-height: 56px;
-        --mobile-app-chrome-height: calc(var(--mobile-topbar-height) + var(--mobile-footer-height));
+        --mobile-app-chrome-height: calc(var(--mobile-topbar-height) + var(--mobile-footer-height) + var(--global-announcement-height, 0px));
     }
 
     body:has(.schedule-app) {
@@ -33,7 +33,7 @@ body:has(.schedule-app) .site-footer {
 
 .schedule-app {
     background: var(--color-surface);
-    height: calc(100dvh - 130px);
+    height: calc(100dvh - 130px - var(--global-announcement-height, 0px));
     overflow: hidden;
     padding: 0 20px;
 }

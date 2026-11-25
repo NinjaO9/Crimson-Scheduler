@@ -61,7 +61,9 @@ The Python collectors under `dataCollection/` request WSU's publicly accessible 
 
 The main catalog workflow is scheduled hourly. Course-specific metadata changes less often and is refreshed separately on the first day of each month. Both workflows publish to the `crimson-data` branch, which is served through GitHub Pages.
 
-Data stored inside of `crimson-data` is simply a cache to store course information. It is not a live feed of the information actively present. WSU updates their course information roughly every hour, and so Crimson Scheduler tries to match that to maintain up-to-date information. There should be NO manual modifications to this branch.
+Data stored inside of `crimson-data` is generated and published by the data workflows. It is not a live feed of the information actively present. WSU updates their course information roughly every hour, and so Crimson Scheduler tries to match that to maintain up-to-date information. Do not manually edit the generated course data or course specifics on this branch. Announcements and other notifications are maintained directly at `api/v1/announcements/global.json`.
+
+For local banner testing, edit `web/classes/static/notifications/global-announcement.local.json` and run Django on `localhost` or `127.0.0.1`. Local development reads that static file; deployed sites continue to read `crimson-data`.
 
 ### Persistence and legacy server code
 

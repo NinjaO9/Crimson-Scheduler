@@ -49,9 +49,10 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           branch: crimson-data
           folder: _generated_site
-          # Keep the independently managed course-specific metadata folder.
+          # Keep independently maintained content on crimson-data
           clean-exclude: |
             api/v1/specifics/**
+            api/v1/announcements/**
           clean: true
           # Multiple workflows publish to this branch; preserve existing
           # history so the action can rebase instead of replacing the branch.
