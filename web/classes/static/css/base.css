@@ -56,20 +56,37 @@ body:has(.legal-page) {
 .global-announcement__inner {
     align-items: center;
     display: flex;
-    gap: 12px;
-    margin: 0 auto;
-    max-width: 1440px;
     min-height: 52px;
     padding: 9px 24px;
+    position: relative;
+}
+
+.global-announcement__content {
+    align-items: center;
+    column-gap: 12px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 44px;
+    row-gap: 2px;
+    text-align: center;
+}
+
+.global-announcement__message {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    min-width: 0;
 }
 
 .global-announcement__icon {
     align-items: center;
     color: var(--announcement-accent);
     display: inline-flex;
-    flex: 0 0 24px;
     height: 24px;
     justify-content: center;
+    flex: 0 0 24px;
     width: 24px;
 }
 
@@ -81,7 +98,7 @@ body:has(.legal-page) {
 }
 
 .global-announcement__text {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     font-size: 0.93rem;
     font-weight: 600;
     line-height: 1.45;
@@ -102,13 +119,15 @@ body:has(.legal-page) {
     border-radius: 6px;
     color: var(--announcement-text);
     display: inline-flex;
-    flex: 0 0 36px;
     font-size: 1.6rem;
     height: 36px;
     justify-content: center;
-    line-height: 1;
-    margin-left: 2px;
     padding: 0;
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
 }
 
 .global-announcement__dismiss[hidden] { display: none; }
@@ -121,11 +140,23 @@ body:has(.legal-page) {
 }
 
 @media (max-width: 600px) {
-    .global-announcement__inner { gap: 9px; padding: 10px 14px; }
-    .global-announcement__icon { margin-top: 1px; }
-    .global-announcement__text { font-size: 0.88rem; }
+    .global-announcement__inner { padding: 10px 14px; }
+    .global-announcement__content {
+        flex-direction: column;
+        padding: 0 34px;
+        row-gap: 2px;
+    }
+    .global-announcement__message { display: block; max-width: 100%; width: 100%; }
+    .global-announcement__icon {
+        left: 18px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .global-announcement__text { font-size: 0.88rem; text-align: center; }
     .global-announcement__link { flex: 0 0 auto; font-size: 0.85rem; }
-    .global-announcement__dismiss { flex-basis: 30px; height: 30px; margin-left: -5px; }
+    .global-announcement__dismiss { height: 30px; right: 12px; width: 30px; }
 }
 
 .app-navbar {
