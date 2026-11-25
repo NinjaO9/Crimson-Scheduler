@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T00:19:22.110441+00:00",
+  "generatedAt": "2026-11-25T01:17:05.167858+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -1698,10 +1698,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 13,
                 "total": 18,
-                "available": 6,
-                "label": "12/18"
+                "available": 5,
+                "label": "13/18"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2803,10 +2803,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 70,
+                "taken": 71,
                 "total": 96,
-                "available": 26,
-                "label": "70/96"
+                "available": 25,
+                "label": "71/96"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2914,10 +2914,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 19,
+                "taken": 20,
                 "total": 24,
-                "available": 5,
-                "label": "19/24"
+                "available": 4,
+                "label": "20/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3228,7 +3228,7 @@
                   "time": "15:10 - 16:00"
                 }
               ],
-              "location": "VC   VAN",
+              "location": "VC   ARR",
               "instructor": "J PIOVIA-SCOTT",
               "instructors": [
                 "J PIOVIA-SCOTT"
@@ -4349,10 +4349,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 19,
+                "taken": 20,
                 "total": 32,
-                "available": 13,
-                "label": "19/32"
+                "available": 12,
+                "label": "20/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4471,10 +4471,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 16,
+                "taken": 17,
                 "total": 32,
-                "available": 16,
-                "label": "16/32"
+                "available": 15,
+                "label": "17/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23507,536 +23507,7 @@
     },
     {
       "subject": "SOC",
-      "courses": [
-        {
-          "course": "Social Problems",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 102,
-          "courseCode": "SOC 102",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2692",
-              "sln": 2692,
-              "sectionNumber": 1,
-              "courseCode": "SOC 102",
-              "courseName": "Social Problems",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "VUB  222",
-              "instructor": "A JOHNSON",
-              "instructors": [
-                "A JOHNSON"
-              ],
-              "ucore": "SSCI",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 16,
-                "total": 30,
-                "available": 14,
-                "label": "16/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 300,
-          "courseCode": "SOC 300",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11511",
-              "sln": 11511,
-              "sectionNumber": 1,
-              "courseCode": "SOC 300",
-              "courseName": "Intersections of Race, Class, Gender, Sexuality, and Dis/ability",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "13:30 - 14:45",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "13:30 - 14:45"
-                }
-              ],
-              "location": "VUB  226",
-              "instructor": "T LEWIS",
-              "instructors": [
-                "T LEWIS"
-              ],
-              "ucore": "EQJS",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 5,
-                "total": 10,
-                "available": 5,
-                "label": "5/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Understanding the Social World with Data",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 321,
-          "courseCode": "SOC 321",
-          "credits": "4",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9278",
-              "sln": 9278,
-              "sectionNumber": 1,
-              "courseCode": "SOC 321",
-              "courseName": "Understanding the Social World with Data",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "M AMORIM",
-              "instructors": [
-                "M AMORIM"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 3,
-                "total": 5,
-                "available": 2,
-                "label": "3/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Medical Sociology",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 334,
-          "courseCode": "SOC 334",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9277",
-              "sln": 9277,
-              "sectionNumber": 1,
-              "courseCode": "SOC 334",
-              "courseName": "Medical Sociology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "K CUTLER",
-              "instructors": [
-                "K CUTLER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Social Psychology",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 350,
-          "courseCode": "SOC 350",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3034",
-              "sln": 3034,
-              "sectionNumber": 1,
-              "courseCode": "SOC 350",
-              "courseName": "Social Psychology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "12:05 - 13:20",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "12:05 - 13:20"
-                }
-              ],
-              "location": "VMMC 22",
-              "instructor": "R MAGNAN",
-              "instructors": [
-                "R MAGNAN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 5,
-                "total": 5,
-                "available": 0,
-                "label": "5/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Social Deviance",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 360,
-          "courseCode": "SOC 360",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9274",
-              "sln": 9274,
-              "sectionNumber": 1,
-              "courseCode": "SOC 360",
-              "courseName": "Social Deviance",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J KREMER",
-              "instructors": [
-                "J KREMER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Juvenile Justice and Corrections",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 367,
-          "courseCode": "SOC 367",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11533",
-              "sln": 11533,
-              "sectionNumber": 1,
-              "courseCode": "SOC 367",
-              "courseName": "Juvenile Justice and Corrections",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VMMC 1",
-              "instructor": "L DRAPELA",
-              "instructors": [
-                "L DRAPELA"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "X",
-              "seats": {
-                "taken": 3,
-                "total": 5,
-                "available": 2,
-                "label": "3/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Drugs and Society",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 368,
-          "courseCode": "SOC 368",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11433",
-              "sln": 11433,
-              "sectionNumber": 1,
-              "courseCode": "SOC 368",
-              "courseName": "Drugs and Society",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "VMMC 23",
-              "instructor": "A JOHNSON",
-              "instructors": [
-                "A JOHNSON"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 27,
-                "total": 30,
-                "available": 3,
-                "label": "27/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Addictive Behavior Among Diverse Populations",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 468,
-          "courseCode": "SOC 468",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12035",
-              "sln": 12035,
-              "sectionNumber": 1,
-              "courseCode": "SOC 468",
-              "courseName": "Addictive Behavior Among Diverse Populations",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W",
-              "time": "14:55 - 16:10",
-              "meetings": [
-                {
-                  "days": "M,W",
-                  "time": "14:55 - 16:10"
-                }
-              ],
-              "location": "VECS 105",
-              "instructor": "H PATEL",
-              "instructors": [
-                "H PATEL"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "X",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Capstone Research Practicum",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 497,
-          "courseCode": "SOC 497",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9867",
-              "sln": 9867,
-              "sectionNumber": 1,
-              "courseCode": "SOC 497",
-              "courseName": "Capstone Research Practicum",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "T ROTOLO",
-              "instructors": [
-                "T ROTOLO"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 1,
-                "total": 5,
-                "available": 4,
-                "label": "1/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Social Autopsies: How Society Kills Us",
-          "subject": "SOC",
-          "subjectPrefix": "Soc",
-          "courseNumber": 570,
-          "courseCode": "SOC 570",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12147",
-              "sln": 12147,
-              "sectionNumber": 1,
-              "courseCode": "SOC 570",
-              "courseName": "Social Autopsies: How Society Kills Us",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "F",
-              "time": "09:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "F",
-                  "time": "09:10 - 12:00"
-                }
-              ],
-              "location": "VC   ARR",
-              "instructor": "J DENNEY",
-              "instructors": [
-                "J DENNEY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 3,
-                "available": 3,
-                "label": "0/3"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
+      "courses": []
     },
     {
       "subject": "SOE",
@@ -24317,9 +23788,9 @@
               "footnotes": "",
               "seats": {
                 "taken": 3,
-                "total": 20,
-                "available": 17,
-                "label": "3/20"
+                "total": 9,
+                "available": 6,
+                "label": "3/9"
               },
               "dates": {
                 "start": "Jan 11",
@@ -25521,9 +24992,9 @@
               "footnotes": "X",
               "seats": {
                 "taken": 0,
-                "total": 5,
-                "available": 5,
-                "label": "0/5"
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
               },
               "dates": {
                 "start": "Jan 11",
