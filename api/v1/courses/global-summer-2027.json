@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T16:19:09.571954+00:00",
+  "generatedAt": "2026-11-26T17:17:59.870282+00:00",
   "campus": "Global",
   "term": "Summer 2027",
   "subjects": [
@@ -3112,6 +3112,192 @@
       ]
     },
     {
+      "subject": "CES",
+      "courses": [
+        {
+          "course": "Race and Racism in the United States",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 101,
+          "courseCode": "CES 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2436",
+              "sln": 2436,
+              "sectionNumber": 1,
+              "courseCode": "CES 101",
+              "courseName": "Race and Racism in the United States",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B DE QUINTANA LASA",
+              "instructors": [
+                "B DE QUINTANA LASA"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            },
+            {
+              "sectionId": "2233",
+              "sln": 2233,
+              "sectionNumber": 2,
+              "courseCode": "CES 101",
+              "courseName": "Race and Racism in the United States",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "B DE QUINTANA LASA",
+              "instructors": [
+                "B DE QUINTANA LASA"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Hip Hop Around the Globe",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 209,
+          "courseCode": "CES 209",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2234",
+              "sln": 2234,
+              "sectionNumber": 1,
+              "courseCode": "CES 209",
+              "courseName": "Hip Hop Around the Globe",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "H RENDON",
+              "instructors": [
+                "H RENDON"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Traveling Cultures: Tourism in Global Perspective",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 325,
+          "courseCode": "CES 325",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3027",
+              "sln": 3027,
+              "sectionNumber": 2,
+              "courseCode": "CES 325",
+              "courseName": "Traveling Cultures: Tourism in Global Perspective",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J SHINOZUKA",
+              "instructors": [
+                "J SHINOZUKA"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "CHEM",
       "courses": [
         {
@@ -4018,6 +4204,617 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DATA",
+      "courses": [
+        {
+          "course": "Introduction to Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 115,
+          "courseCode": "DATA 115",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2246",
+              "sln": 2246,
+              "sectionNumber": 1,
+              "courseCode": "DATA 115",
+              "courseName": "Introduction to Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Python",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 302,
+          "courseCode": "DATA 302",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2247",
+              "sln": 2247,
+              "sectionNumber": 1,
+              "courseCode": "DATA 302",
+              "courseName": "Introduction to Python",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to SQL - The Structured Query Language",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 303,
+          "courseCode": "DATA 303",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2248",
+              "sln": 2248,
+              "sectionNumber": 1,
+              "courseCode": "DATA 303",
+              "courseName": "Introduction to SQL - The Structured Query Language",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Repository Systems for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 324,
+          "courseCode": "DATA 324",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2333",
+              "sln": 2333,
+              "sectionNumber": 1,
+              "courseCode": "DATA 324",
+              "courseName": "Data Repository Systems for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 50,
+                "available": 50,
+                "label": "0/50"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 498,
+          "courseCode": "DATA 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2249",
+              "sln": 2249,
+              "sectionNumber": 1,
+              "courseCode": "DATA 498",
+              "courseName": "Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DTC",
+      "courses": [
+        {
+          "course": "Introduction to Digital Technology and Culture",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 101,
+          "courseCode": "DTC 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2250",
+              "sln": 2250,
+              "sectionNumber": 1,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M BLACK",
+              "instructors": [
+                "M BLACK"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Tools and Methods for Digital Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 201,
+          "courseCode": "DTC 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2251",
+              "sln": 2251,
+              "sectionNumber": 1,
+              "courseCode": "DTC 201",
+              "courseName": "Tools and Methods for Digital Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Inclusion",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 206,
+          "courseCode": "DTC 206",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2253",
+              "sln": 2253,
+              "sectionNumber": 1,
+              "courseCode": "DTC 206",
+              "courseName": "Digital Inclusion",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "T BUFFINGTON",
+              "instructors": [
+                "T BUFFINGTON"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Media Practices",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 331,
+          "courseCode": "DTC 331",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2254",
+              "sln": 2254,
+              "sectionNumber": 1,
+              "courseCode": "DTC 331",
+              "courseName": "Social Media Practices",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "V VARAY",
+              "instructors": [
+                "V VARAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Storytelling",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 354,
+          "courseCode": "DTC 354",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2255",
+              "sln": 2255,
+              "sectionNumber": 1,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 20,
+                "available": 20,
+                "label": "0/20"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
+              }
+            },
+            {
+              "sectionId": "3206",
+              "sln": 3206,
+              "sectionNumber": 2,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J SANDERS",
+              "instructors": [
+                "J SANDERS"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Web Design and Development",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 355,
+          "courseCode": "DTC 355",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2429",
+              "sln": 2429,
+              "sectionNumber": 1,
+              "courseCode": "DTC 355",
+              "courseName": "Introduction to Web Design and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "P MUDD",
+              "instructors": [
+                "P MUDD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Diversity",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 475,
+          "courseCode": "DTC 475",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2460",
+              "sln": 2460,
+              "sectionNumber": 1,
+              "courseCode": "DTC 475",
+              "courseName": "Digital Diversity",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A CANALES",
+              "instructors": [
+                "A CANALES"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
               }
             }
           ]
@@ -5738,6 +6535,155 @@
               "dates": {
                 "start": "Jun 28",
                 "end": "Aug 15"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "FOR_LANG",
+      "courses": [
+        {
+          "course": "Introduction to the World of Languages",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 101,
+          "courseCode": "FOR_LANG 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2273",
+              "sln": 2273,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 101",
+              "courseName": "Introduction to the World of Languages",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M BLACK",
+              "instructors": [
+                "M BLACK"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Understanding World Cinema",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 110,
+          "courseCode": "FOR_LANG 110",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2415",
+              "sln": 2415,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 110",
+              "courseName": "Understanding World Cinema",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "I WEBBER",
+              "instructors": [
+                "I WEBBER"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to World Cultures",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 120,
+          "courseCode": "FOR_LANG 120",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2274",
+              "sln": 2274,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 120",
+              "courseName": "Introduction to World Cultures",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BONZO",
+              "instructors": [
+                "J BONZO"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 0,
+                "total": 25,
+                "available": 25,
+                "label": "0/25"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jun 20"
               }
             }
           ]

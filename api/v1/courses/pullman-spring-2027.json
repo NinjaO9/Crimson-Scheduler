@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T16:19:09.746532+00:00",
+  "generatedAt": "2026-11-26T17:18:00.052781+00:00",
   "campus": "Pullman",
   "term": "Spring 2027",
   "subjects": [
@@ -15247,10 +15247,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 29,
+                "taken": 30,
                 "total": 55,
-                "available": 26,
-                "label": "29/55"
+                "available": 25,
+                "label": "30/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16114,10 +16114,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 46,
+                "taken": 47,
                 "total": 65,
-                "available": 19,
-                "label": "46/65"
+                "available": 18,
+                "label": "47/65"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16474,10 +16474,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 34,
+                "taken": 35,
                 "total": 60,
-                "available": 26,
-                "label": "34/60"
+                "available": 25,
+                "label": "35/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -26041,6 +26041,54 @@
                 "total": 15,
                 "available": 2,
                 "label": "13/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Antisemitism and Jewishness",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 291,
+          "courseCode": "CES 291",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11834",
+              "sln": 11834,
+              "sectionNumber": 1,
+              "courseCode": "CES 291",
+              "courseName": "Antisemitism and Jewishness",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "THOM 201",
+              "instructor": "R WYSE",
+              "instructors": [
+                "R WYSE"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 30,
+                "available": 22,
+                "label": "8/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -46368,6 +46416,128 @@
       "subject": "DTC",
       "courses": [
         {
+          "course": "Introduction to Digital Technology and Culture",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 101,
+          "courseCode": "DTC 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6463",
+              "sln": 6463,
+              "sectionNumber": 1,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "DAGG 226",
+              "instructor": "M BLACK",
+              "instructors": [
+                "M BLACK"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 16,
+                "total": 30,
+                "available": 14,
+                "label": "16/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6621",
+              "sln": 6621,
+              "sectionNumber": 3,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "TODD 220",
+              "instructor": "J CLAPPER",
+              "instructors": [
+                "J CLAPPER"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 18,
+                "total": 30,
+                "available": 12,
+                "label": "18/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "8001",
+              "sln": 8001,
+              "sectionNumber": 5,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "SPRK 223",
+              "instructor": "N IDRIS",
+              "instructors": [
+                "N IDRIS"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 30,
+                "available": 17,
+                "label": "13/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Tools and Methods for Digital Technology",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -46723,6 +46893,317 @@
           ]
         },
         {
+          "course": "3D Digital Animation",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 335,
+          "courseCode": "DTC 335",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4865",
+              "sln": 4865,
+              "sectionNumber": 1,
+              "courseCode": "DTC 335",
+              "courseName": "3D Digital Animation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "THOM 1",
+              "instructor": "V VARAY",
+              "instructors": [
+                "V VARAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 20,
+                "total": 26,
+                "available": 6,
+                "label": "20/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "6465",
+              "sln": 6465,
+              "sectionNumber": 2,
+              "courseCode": "DTC 335",
+              "courseName": "3D Digital Animation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "THOM 1",
+              "instructor": "V VARAY",
+              "instructors": [
+                "V VARAY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 26,
+                "available": 13,
+                "label": "13/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Multimedia Design",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 336,
+          "courseCode": "DTC 336",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4871",
+              "sln": 4871,
+              "sectionNumber": 1,
+              "courseCode": "DTC 336",
+              "courseName": "Multimedia Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH,TU,TH",
+              "time": "14:55 - 16:10;14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "SPRK 210",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 24,
+                "available": 21,
+                "label": "3/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7704",
+              "sln": 7704,
+              "sectionNumber": 2,
+              "courseCode": "DTC 336",
+              "courseName": "Multimedia Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH,TU,TH",
+              "time": "13:30 - 14:45;13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                },
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "SPRK 210",
+              "instructor": "S PARK",
+              "instructors": [
+                "S PARK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 26,
+                "available": 18,
+                "label": "8/26"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Storytelling",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 354,
+          "courseCode": "DTC 354",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4866",
+              "sln": 4866,
+              "sectionNumber": 1,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "MORL 140",
+              "instructor": "T BUFFINGTON",
+              "instructors": [
+                "T BUFFINGTON"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "CX",
+              "seats": {
+                "taken": 12,
+                "total": 30,
+                "available": 18,
+                "label": "12/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "7154",
+              "sln": 7154,
+              "sectionNumber": 4,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "BRYN 404",
+              "instructor": "D BEVERLY-PORTER",
+              "instructors": [
+                "D BEVERLY-PORTER"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 27,
+                "total": 30,
+                "available": 3,
+                "label": "27/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Language, Texts and Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 375,
+          "courseCode": "DTC 375",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7922",
+              "sln": 7922,
+              "sectionNumber": 2,
+              "courseCode": "DTC 375",
+              "courseName": "Language, Texts and Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "DAGG 232",
+              "instructor": "M BLACK",
+              "instructors": [
+                "M BLACK"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 36,
+                "available": 32,
+                "label": "4/36"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Video Games Theories and Histories",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -46871,6 +47352,102 @@
           ]
         },
         {
+          "course": "Digital Strategies",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 476,
+          "courseCode": "DTC 476",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6636",
+              "sln": 6636,
+              "sectionNumber": 1,
+              "courseCode": "DTC 476",
+              "courseName": "Digital Strategies",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "MORL 140",
+              "instructor": "J CLAPPER",
+              "instructors": [
+                "J CLAPPER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 35,
+                "available": 27,
+                "label": "8/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Usability and Interface Design",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 478,
+          "courseCode": "DTC 478",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6677",
+              "sln": 6677,
+              "sectionNumber": 1,
+              "courseCode": "DTC 478",
+              "courseName": "Usability and Interface Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "THOM 1",
+              "instructor": "G TURNER-RAHMAN",
+              "instructors": [
+                "G TURNER-RAHMAN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 30,
+                "total": 35,
+                "available": 5,
+                "label": "30/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Advanced Digital Cinema",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -46910,6 +47487,196 @@
                 "total": 20,
                 "available": 8,
                 "label": "12/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Senior Seminar",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 497,
+          "courseCode": "DTC 497",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6650",
+              "sln": 6650,
+              "sectionNumber": 2,
+              "courseCode": "DTC 497",
+              "courseName": "Senior Seminar",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "16:10 - 18:40",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "16:10 - 18:40"
+                }
+              ],
+              "location": "MORL 140",
+              "instructor": "J RIDDLE",
+              "instructors": [
+                "J RIDDLE"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 35,
+                "available": 22,
+                "label": "13/35"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 498,
+          "courseCode": "DTC 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "5784",
+              "sln": 5784,
+              "sectionNumber": 1,
+              "courseCode": "DTC 498",
+              "courseName": "Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A ROCHA",
+              "instructors": [
+                "A ROCHA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 30,
+                "available": 28,
+                "label": "2/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Critical Theories, Methods, and Practice in Digital Humanities",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 560,
+          "courseCode": "DTC 560",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7865",
+              "sln": 7865,
+              "sectionNumber": 1,
+              "courseCode": "DTC 560",
+              "courseName": "Critical Theories, Methods, and Practice in Digital Humanities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "AVER 111",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 10,
+                "available": 10,
+                "label": "0/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Studies in Technology and Culture",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 561,
+          "courseCode": "DTC 561",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "6932",
+              "sln": 6932,
+              "sectionNumber": 1,
+              "courseCode": "DTC 561",
+              "courseName": "Studies in Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TH",
+              "time": "15:10 - 17:40",
+              "meetings": [
+                {
+                  "days": "TH",
+                  "time": "15:10 - 17:40"
+                }
+              ],
+              "location": "AVER 111",
+              "instructor": "B POUDYAL",
+              "instructors": [
+                "B POUDYAL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 13,
+                "available": 13,
+                "label": "0/13"
               },
               "dates": {
                 "start": "Jan 11",
@@ -47012,10 +47779,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 24,
+                "taken": 26,
                 "total": 70,
-                "available": 46,
-                "label": "24/70"
+                "available": 44,
+                "label": "26/70"
               },
               "dates": {
                 "start": "Jan 11",
@@ -47047,10 +47814,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 12,
+                "taken": 14,
                 "total": 30,
-                "available": 18,
-                "label": "12/30"
+                "available": 16,
+                "label": "14/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -64960,10 +65727,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 30,
+                "taken": 31,
                 "total": 50,
-                "available": 20,
-                "label": "30/50"
+                "available": 19,
+                "label": "31/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -65252,10 +66019,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 34,
+                "taken": 35,
                 "total": 45,
-                "available": 11,
-                "label": "34/45"
+                "available": 10,
+                "label": "35/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -68957,10 +69724,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 47,
+                "taken": 48,
                 "total": 150,
-                "available": 103,
-                "label": "47/150"
+                "available": 102,
+                "label": "48/150"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69029,10 +69796,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 123,
+                "taken": 124,
                 "total": 700,
-                "available": 577,
-                "label": "123/700"
+                "available": 576,
+                "label": "124/700"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69114,10 +69881,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 67,
+                "taken": 68,
                 "total": 75,
-                "available": 8,
-                "label": "67/75"
+                "available": 7,
+                "label": "68/75"
               },
               "dates": {
                 "start": "Jan 11",
@@ -69210,10 +69977,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 57,
+                "taken": 58,
                 "total": 100,
-                "available": 43,
-                "label": "57/100"
+                "available": 42,
+                "label": "58/100"
               },
               "dates": {
                 "start": "Jan 11",
@@ -70399,10 +71166,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 14,
-                "available": 12,
-                "label": "2/14"
+                "available": 11,
+                "label": "3/14"
               },
               "dates": {
                 "start": "Jan 11",
@@ -75435,10 +76202,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 9,
                 "total": 36,
-                "available": 26,
-                "label": "10/36"
+                "available": 27,
+                "label": "9/36"
               },
               "dates": {
                 "start": "Jan 11",
@@ -75509,10 +76276,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 8,
+                "taken": 7,
                 "total": 18,
-                "available": 10,
-                "label": "8/18"
+                "available": 11,
+                "label": "7/18"
               },
               "dates": {
                 "start": "Jan 11",
@@ -78922,10 +79689,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 37,
+                "taken": 38,
                 "total": 40,
-                "available": 3,
-                "label": "37/40"
+                "available": 2,
+                "label": "38/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79496,10 +80263,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 22,
                 "total": 24,
-                "available": 3,
-                "label": "21/24"
+                "available": 2,
+                "label": "22/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79533,10 +80300,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 22,
                 "total": 24,
-                "available": 3,
-                "label": "21/24"
+                "available": 2,
+                "label": "22/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -79629,10 +80396,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 21,
+                "taken": 22,
                 "total": 25,
-                "available": 4,
-                "label": "21/25"
+                "available": 3,
+                "label": "22/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -85885,10 +86652,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 4,
                 "total": 16,
-                "available": 11,
-                "label": "5/16"
+                "available": 12,
+                "label": "4/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -85922,10 +86689,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 4,
                 "total": 16,
-                "available": 11,
-                "label": "5/16"
+                "available": 12,
+                "label": "4/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -86055,10 +86822,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 4,
                 "total": 16,
-                "available": 11,
-                "label": "5/16"
+                "available": 12,
+                "label": "4/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -86092,10 +86859,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 4,
                 "total": 16,
-                "available": 11,
-                "label": "5/16"
+                "available": 12,
+                "label": "4/16"
               },
               "dates": {
                 "start": "Jan 11",
@@ -86140,10 +86907,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 6,
+                "taken": 5,
                 "total": 20,
-                "available": 14,
-                "label": "6/20"
+                "available": 15,
+                "label": "5/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -86177,10 +86944,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 6,
+                "taken": 5,
                 "total": 20,
-                "available": 14,
-                "label": "6/20"
+                "available": 15,
+                "label": "5/20"
               },
               "dates": {
                 "start": "Jan 11",

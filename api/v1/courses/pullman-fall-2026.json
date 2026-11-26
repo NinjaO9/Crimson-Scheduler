@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T16:19:09.582621+00:00",
+  "generatedAt": "2026-11-26T17:17:59.881922+00:00",
   "campus": "Pullman",
   "term": "Fall 2026",
   "subjects": [
@@ -27420,6 +27420,54 @@
                 "total": 40,
                 "available": 13,
                 "label": "27/40"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Native Music of North America",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 271,
+          "courseCode": "CES 271",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8747",
+              "sln": 8747,
+              "sectionNumber": 2,
+              "courseCode": "CES 271",
+              "courseName": "Native Music of North America",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M PARKHURST",
+              "instructors": [
+                "M PARKHURST"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "VX",
+              "seats": {
+                "taken": 16,
+                "total": 16,
+                "available": 0,
+                "label": "16/16"
               },
               "dates": {
                 "start": "Aug 24",
@@ -68114,6 +68162,139 @@
                 "total": 50,
                 "available": 13,
                 "label": "37/50"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            },
+            {
+              "sectionId": "5915",
+              "sln": 5915,
+              "sectionNumber": 2,
+              "courseCode": "FOR_LANG 110",
+              "courseName": "Understanding World Cinema",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "SLOA 9",
+              "instructor": "C SHULL",
+              "instructors": [
+                "C SHULL"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 47,
+                "total": 50,
+                "available": 3,
+                "label": "47/50"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to World Cultures",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 120,
+          "courseCode": "FOR_LANG 120",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4777",
+              "sln": 4777,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 120",
+              "courseName": "Introduction to World Cultures",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "SLOA 169",
+              "instructor": "X LIU",
+              "instructors": [
+                "X LIU"
+              ],
+              "ucore": "DIVR",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 29,
+                "total": 40,
+                "available": 11,
+                "label": "29/40"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Cooperative Education Internship",
+          "subject": "FOR_LANG",
+          "subjectPrefix": "For L",
+          "courseNumber": 495,
+          "courseCode": "FOR_LANG 495",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "4403",
+              "sln": 4403,
+              "sectionNumber": 1,
+              "courseCode": "FOR_LANG 495",
+              "courseName": "Cooperative Education Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "L HEUSTIS",
+              "instructors": [
+                "L HEUSTIS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 16,
+                "total": 50,
+                "available": 34,
+                "label": "16/50"
               },
               "dates": {
                 "start": "Aug 24",
