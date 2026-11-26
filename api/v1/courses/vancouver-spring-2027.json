@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T17:18:00.337404+00:00",
+  "generatedAt": "2026-11-26T18:18:23.037067+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -6866,7 +6866,752 @@
     },
     {
       "subject": "DATA",
-      "courses": []
+      "courses": [
+        {
+          "course": "Introduction to Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 115,
+          "courseCode": "DATA 115",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2974",
+              "sln": 2974,
+              "sectionNumber": 1,
+              "courseCode": "DATA 115",
+              "courseName": "Introduction to Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C PARKER",
+              "instructors": [
+                "C PARKER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 7,
+                "available": 2,
+                "label": "5/7"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Computational Calculus I",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 121,
+          "courseCode": "DATA 121",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2070",
+              "sln": 2070,
+              "sectionNumber": 1,
+              "courseCode": "DATA 121",
+              "courseName": "Computational Calculus I",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "11:10 - 12:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "11:10 - 12:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "Y ZHANG",
+              "instructors": [
+                "Y ZHANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 2,
+                "total": 5,
+                "available": 3,
+                "label": "2/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Computational Calculus II",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 122,
+          "courseCode": "DATA 122",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2073",
+              "sln": 2073,
+              "sectionNumber": 1,
+              "courseCode": "DATA 122",
+              "courseName": "Computational Calculus II",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "15:10 - 16:10",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "15:10 - 16:10"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "C PARKER",
+              "instructors": [
+                "C PARKER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 5,
+                "available": 1,
+                "label": "4/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Structures for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 219,
+          "courseCode": "DATA 219",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7006",
+              "sln": 7006,
+              "sectionNumber": 1,
+              "courseCode": "DATA 219",
+              "courseName": "Data Structures for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "Y ZHANG",
+              "instructors": [
+                "Y ZHANG"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 5,
+                "available": 0,
+                "label": "5/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Linear Algebra with Modern Applications",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 225,
+          "courseCode": "DATA 225",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2022",
+              "sln": 2022,
+              "sectionNumber": 1,
+              "courseCode": "DATA 225",
+              "courseName": "Linear Algebra with Modern Applications",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "S LAPIN",
+              "instructors": [
+                "S LAPIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to R",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 301,
+          "courseCode": "DATA 301",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8979",
+              "sln": 8979,
+              "sectionNumber": 1,
+              "courseCode": "DATA 301",
+              "courseName": "Introduction to R",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 9,
+                "total": 10,
+                "available": 1,
+                "label": "9/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Python",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 302,
+          "courseCode": "DATA 302",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8980",
+              "sln": 8980,
+              "sectionNumber": 1,
+              "courseCode": "DATA 302",
+              "courseName": "Introduction to Python",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 9,
+                "total": 9,
+                "available": 0,
+                "label": "9/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to SQL - The Structured Query Language",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 303,
+          "courseCode": "DATA 303",
+          "credits": "1",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8981",
+              "sln": 8981,
+              "sectionNumber": 1,
+              "courseCode": "DATA 303",
+              "courseName": "Introduction to SQL - The Structured Query Language",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 5,
+                "total": 5,
+                "available": 0,
+                "label": "5/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Model-based and Data-based Methods for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 319,
+          "courseCode": "DATA 319",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "9699",
+              "sln": 9699,
+              "sectionNumber": 2,
+              "courseCode": "DATA 319",
+              "courseName": "Model-based and Data-based Methods for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 3,
+                "total": 5,
+                "available": 2,
+                "label": "3/5"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Repository Systems for Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 324,
+          "courseCode": "DATA 324",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2027",
+              "sln": 2027,
+              "sectionNumber": 1,
+              "courseCode": "DATA 324",
+              "courseName": "Data Repository Systems for Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "A AVERY",
+              "instructors": [
+                "A AVERY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 5,
+                "total": 8,
+                "available": 3,
+                "label": "5/8"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Probability and Statistics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 360,
+          "courseCode": "DATA 360",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2998",
+              "sln": 2998,
+              "sectionNumber": 1,
+              "courseCode": "DATA 360",
+              "courseName": "Probability and Statistics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 219",
+              "instructor": "L SOTOMAYOR",
+              "instructors": [
+                "L SOTOMAYOR"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "X",
+              "seats": {
+                "taken": 2,
+                "total": 2,
+                "available": 0,
+                "label": "2/2"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Data Analytics Capstone",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 424,
+          "courseCode": "DATA 424",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8975",
+              "sln": 8975,
+              "sectionNumber": 2,
+              "courseCode": "DATA 424",
+              "courseName": "Data Analytics Capstone",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LAPIN",
+              "instructors": [
+                "S LAPIN"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 4,
+                "total": 4,
+                "available": 0,
+                "label": "4/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "9875",
+              "sln": 9875,
+              "sectionNumber": 3,
+              "courseCode": "DATA 424",
+              "courseName": "Data Analytics Capstone",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "V",
+              "seats": {
+                "taken": 1,
+                "total": 4,
+                "available": 3,
+                "label": "1/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "High Dimensional Data Learning and Visualization",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 437,
+          "courseCode": "DATA 437",
+          "credits": "3",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "6660",
+              "sln": 6660,
+              "sectionNumber": 1,
+              "courseCode": "DATA 437",
+              "courseName": "High Dimensional Data Learning and Visualization",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "14:10 - 15:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "14:10 - 15:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "X CHEN",
+              "instructors": [
+                "X CHEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "11745",
+              "sln": 11745,
+              "sectionNumber": 1,
+              "courseCode": "DATA 437",
+              "courseName": "High Dimensional Data Learning and Visualization",
+              "credits": "3",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "F",
+              "time": "15:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "15:10 - 16:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "X CHEN",
+              "instructors": [
+                "X CHEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 2,
+                "total": 15,
+                "available": 13,
+                "label": "2/15"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 498,
+          "courseCode": "DATA 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "8976",
+              "sln": 8976,
+              "sectionNumber": 1,
+              "courseCode": "DATA 498",
+              "courseName": "Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LAPIN",
+              "instructors": [
+                "S LAPIN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "VS",
+              "seats": {
+                "taken": 0,
+                "total": 4,
+                "available": 4,
+                "label": "0/4"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "subject": "DTC",
@@ -9135,10 +9880,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 30,
+                "taken": 31,
                 "total": 60,
-                "available": 30,
-                "label": "30/60"
+                "available": 29,
+                "label": "31/60"
               },
               "dates": {
                 "start": "Jan 11",
@@ -21850,10 +22595,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 29,
+                "taken": 30,
                 "total": 40,
-                "available": 11,
-                "label": "29/40"
+                "available": 10,
+                "label": "30/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22795,10 +23540,10 @@
               "coop": false,
               "footnotes": "C",
               "seats": {
-                "taken": 28,
+                "taken": 29,
                 "total": 50,
-                "available": 22,
-                "label": "28/50"
+                "available": 21,
+                "label": "29/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23072,10 +23817,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 58,
+                "taken": 59,
                 "total": 65,
-                "available": 7,
-                "label": "58/65"
+                "available": 6,
+                "label": "59/65"
               },
               "dates": {
                 "start": "Jan 11",

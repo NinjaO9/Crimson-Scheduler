@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T17:18:00.282809+00:00",
+  "generatedAt": "2026-11-26T18:18:22.995553+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -5680,6 +5680,102 @@
           ]
         },
         {
+          "course": "Tools and Methods for Digital Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 201,
+          "courseCode": "DTC 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2286",
+              "sln": 2286,
+              "sectionNumber": 1,
+              "courseCode": "DTC 201",
+              "courseName": "Tools and Methods for Digital Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "09:10 - 10:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "09:10 - 10:00"
+                }
+              ],
+              "location": "TFLO 138",
+              "instructor": "P MUDD",
+              "instructors": [
+                "P MUDD"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 24,
+                "available": 16,
+                "label": "8/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internet Revolutions",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 202,
+          "courseCode": "DTC 202",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11889",
+              "sln": 11889,
+              "sectionNumber": 1,
+              "courseCode": "DTC 202",
+              "courseName": "Internet Revolutions",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "",
+              "instructor": "A CANALES",
+              "instructors": [
+                "A CANALES"
+              ],
+              "ucore": "COMM",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 24,
+                "available": 11,
+                "label": "13/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Special Topics in Digital Technology and Culture",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -5824,6 +5920,54 @@
           ]
         },
         {
+          "course": "Advanced Multimedia Design",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 436,
+          "courseCode": "DTC 436",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2362",
+              "sln": 2362,
+              "sectionNumber": 1,
+              "courseCode": "DTC 436",
+              "courseName": "Advanced Multimedia Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "TFLO 138",
+              "instructor": "P MUDD",
+              "instructors": [
+                "P MUDD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 24,
+                "available": 21,
+                "label": "3/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
           "course": "Digital Diversity",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -5863,6 +6007,102 @@
                 "total": 24,
                 "available": 9,
                 "label": "15/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Internship",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 498,
+          "courseCode": "DTC 498",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2143",
+              "sln": 2143,
+              "sectionNumber": 1,
+              "courseCode": "DTC 498",
+              "courseName": "Internship",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "A CANALES",
+              "instructors": [
+                "A CANALES"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 2,
+                "total": 10,
+                "available": 8,
+                "label": "2/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 499,
+          "courseCode": "DTC 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2144",
+              "sln": 2144,
+              "sectionNumber": 1,
+              "courseCode": "DTC 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "P MUDD",
+              "instructors": [
+                "P MUDD"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 1,
+                "total": 10,
+                "available": 9,
+                "label": "1/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15115,10 +15355,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 11,
-                "available": 6,
-                "label": "5/11"
+                "available": 5,
+                "label": "6/11"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15360,10 +15600,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 10,
-                "available": 5,
-                "label": "5/10"
+                "available": 4,
+                "label": "6/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15397,10 +15637,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 10,
-                "available": 5,
-                "label": "5/10"
+                "available": 4,
+                "label": "6/10"
               },
               "dates": {
                 "start": "Jan 11",
