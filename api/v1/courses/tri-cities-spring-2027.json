@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T01:16:49.097715+00:00",
+  "generatedAt": "2026-11-26T02:17:11.489537+00:00",
   "campus": "Tri-Cities",
   "term": "Spring 2027",
   "subjects": [
@@ -3822,10 +3822,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 29,
+                "taken": 30,
                 "total": 40,
-                "available": 11,
-                "label": "29/40"
+                "available": 10,
+                "label": "30/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5528,10 +5528,6 @@
       ]
     },
     {
-      "subject": "DATA",
-      "courses": []
-    },
-    {
       "subject": "DTC",
       "courses": [
         {
@@ -5574,102 +5570,6 @@
                 "total": 24,
                 "available": 14,
                 "label": "10/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Tools and Methods for Digital Technology",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 201,
-          "courseCode": "DTC 201",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2286",
-              "sln": 2286,
-              "sectionNumber": 1,
-              "courseCode": "DTC 201",
-              "courseName": "Tools and Methods for Digital Technology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "09:10 - 10:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "09:10 - 10:00"
-                }
-              ],
-              "location": "TFLO 138",
-              "instructor": "P MUDD",
-              "instructors": [
-                "P MUDD"
-              ],
-              "ucore": "ARTS",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 8,
-                "total": 24,
-                "available": 16,
-                "label": "8/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Internet Revolutions",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 202,
-          "courseCode": "DTC 202",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11889",
-              "sln": 11889,
-              "sectionNumber": 1,
-              "courseCode": "DTC 202",
-              "courseName": "Internet Revolutions",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "TU,TH",
-              "time": "10:35 - 11:50",
-              "meetings": [
-                {
-                  "days": "TU,TH",
-                  "time": "10:35 - 11:50"
-                }
-              ],
-              "location": "",
-              "instructor": "A CANALES",
-              "instructors": [
-                "A CANALES"
-              ],
-              "ucore": "COMM",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 13,
-                "total": 24,
-                "available": 11,
-                "label": "13/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -5823,54 +5723,6 @@
           ]
         },
         {
-          "course": "Advanced Multimedia Design",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 436,
-          "courseCode": "DTC 436",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2362",
-              "sln": 2362,
-              "sectionNumber": 1,
-              "courseCode": "DTC 436",
-              "courseName": "Advanced Multimedia Design",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "13:10 - 14:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "13:10 - 14:00"
-                }
-              ],
-              "location": "TFLO 138",
-              "instructor": "P MUDD",
-              "instructors": [
-                "P MUDD"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 3,
-                "total": 24,
-                "available": 21,
-                "label": "3/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
           "course": "Digital Diversity",
           "subject": "DTC",
           "subjectPrefix": "DTC",
@@ -5910,102 +5762,6 @@
                 "total": 24,
                 "available": 9,
                 "label": "15/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Internship",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 498,
-          "courseCode": "DTC 498",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2143",
-              "sln": 2143,
-              "sectionNumber": 1,
-              "courseCode": "DTC 498",
-              "courseName": "Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A CANALES",
-              "instructors": [
-                "A CANALES"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Special Problems",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 499,
-          "courseCode": "DTC 499",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2144",
-              "sln": 2144,
-              "sectionNumber": 1,
-              "courseCode": "DTC 499",
-              "courseName": "Special Problems",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "P MUDD",
-              "instructors": [
-                "P MUDD"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "S",
-              "seats": {
-                "taken": 1,
-                "total": 10,
-                "available": 9,
-                "label": "1/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8084,10 +7840,14 @@
               "isLab": false,
               "hasRequiredLab": false,
               "days": "M,W,F",
-              "time": "10:10 - 11:00",
+              "time": "10:10 - 11:00;10:10 - 11:00",
               "meetings": [
                 {
-                  "days": "M,W,F",
+                  "days": "M,W",
+                  "time": "10:10 - 11:00"
+                },
+                {
+                  "days": "F",
                   "time": "10:10 - 11:00"
                 }
               ],
@@ -8355,10 +8115,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 4,
+                "taken": 5,
                 "total": 10,
-                "available": 6,
-                "label": "4/10"
+                "available": 5,
+                "label": "5/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8401,10 +8161,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 24,
-                "available": 14,
-                "label": "10/24"
+                "available": 13,
+                "label": "11/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -8571,10 +8331,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 7,
+                "taken": 8,
                 "total": 20,
-                "available": 13,
-                "label": "7/20"
+                "available": 12,
+                "label": "8/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -9016,59 +8776,6 @@
                 "total": 30,
                 "available": 10,
                 "label": "20/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subject": "FOR_LANG",
-      "courses": [
-        {
-          "course": "Understanding World Cinema",
-          "subject": "FOR_LANG",
-          "subjectPrefix": "For L",
-          "courseNumber": 110,
-          "courseCode": "FOR_LANG 110",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11890",
-              "sln": 11890,
-              "sectionNumber": 1,
-              "courseCode": "FOR_LANG 110",
-              "courseName": "Understanding World Cinema",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "14:10 - 15:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "14:10 - 15:00"
-                }
-              ],
-              "location": "",
-              "instructor": "F ARELLANO SERRATOS",
-              "instructors": [
-                "F ARELLANO SERRATOS"
-              ],
-              "ucore": "DIVR",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 12,
-                "total": 40,
-                "available": 28,
-                "label": "12/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -17920,10 +17627,6 @@
       ]
     },
     {
-      "subject": "PHIL",
-      "courses": []
-    },
-    {
       "subject": "PHYSICS",
       "courses": [
         {
@@ -18220,10 +17923,6 @@
           ]
         }
       ]
-    },
-    {
-      "subject": "POL_S",
-      "courses": []
     },
     {
       "subject": "PSYCH",
@@ -20287,107 +19986,6 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subject": "SPANISH",
-      "courses": [
-        {
-          "course": "Second Semester",
-          "subject": "SPANISH",
-          "subjectPrefix": "Span",
-          "courseNumber": 102,
-          "courseCode": "SPANISH 102",
-          "credits": "4",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2166",
-              "sln": 2166,
-              "sectionNumber": 1,
-              "courseCode": "SPANISH 102",
-              "courseName": "Second Semester",
-              "credits": "4",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "12:10 - 13:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "12:10 - 13:00"
-                }
-              ],
-              "location": "",
-              "instructor": "F ARELLANO SERRATOS",
-              "instructors": [
-                "F ARELLANO SERRATOS"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 8,
-                "total": 24,
-                "available": 16,
-                "label": "8/24"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Latin American Culture",
-          "subject": "SPANISH",
-          "subjectPrefix": "Span",
-          "courseNumber": 121,
-          "courseCode": "SPANISH 121",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "2337",
-              "sln": 2337,
-              "sectionNumber": 1,
-              "courseCode": "SPANISH 121",
-              "courseName": "Latin American Culture",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "M,W,F",
-              "time": "11:10 - 12:00",
-              "meetings": [
-                {
-                  "days": "M,W,F",
-                  "time": "11:10 - 12:00"
-                }
-              ],
-              "location": "",
-              "instructor": "F ARELLANO SERRATOS",
-              "instructors": [
-                "F ARELLANO SERRATOS"
-              ],
-              "ucore": "HUM",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 16,
-                "total": 35,
-                "available": 19,
-                "label": "16/35"
               },
               "dates": {
                 "start": "Jan 11",

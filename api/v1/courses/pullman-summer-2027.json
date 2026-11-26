@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T01:16:49.049140+00:00",
+  "generatedAt": "2026-11-26T02:17:11.437900+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -3222,57 +3222,6 @@
       ]
     },
     {
-      "subject": "CSSTE",
-      "courses": [
-        {
-          "course": "Gender, Power, and Education",
-          "subject": "CSSTE",
-          "subjectPrefix": "CSSTE",
-          "courseNumber": 532,
-          "courseCode": "CSSTE 532",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "3207",
-              "sln": 3207,
-              "sectionNumber": 1,
-              "courseCode": "CSSTE 532",
-              "courseName": "Gender, Power, and Education",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
-              },
-              "dates": {
-                "start": "May 10",
-                "end": "Jul 30"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "subject": "ENGLISH",
       "courses": [
         {
@@ -3538,6 +3487,176 @@
               "dates": {
                 "start": "May 17",
                 "end": "May 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Machining",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 203,
+          "courseCode": "ENGR 203",
+          "credits": "1",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3213",
+              "sln": 3213,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 203",
+              "courseName": "Machining",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jun 13"
+              }
+            },
+            {
+              "sectionId": "3214",
+              "sln": 3214,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 203",
+              "courseName": "Machining",
+              "credits": "1",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jun 13"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Metal Fabrication",
+          "subject": "ENGR",
+          "subjectPrefix": "Engr",
+          "courseNumber": 204,
+          "courseCode": "ENGR 204",
+          "credits": "1",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3215",
+              "sln": 3215,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 204",
+              "courseName": "Metal Fabrication",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jun 14",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3216",
+              "sln": 3216,
+              "sectionNumber": 1,
+              "courseCode": "ENGR 204",
+              "courseName": "Metal Fabrication",
+              "credits": "1",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "Jun 14",
+                "end": "Jun 27"
               }
             }
           ]
@@ -4092,6 +4211,620 @@
               "dates": {
                 "start": "May 10",
                 "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "FS",
+      "courses": [
+        {
+          "course": "Internship in Food Science",
+          "subject": "FS",
+          "subjectPrefix": "FS",
+          "courseNumber": 495,
+          "courseCode": "FS 495",
+          "credits": "2",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2645",
+              "sln": 2645,
+              "sectionNumber": 1,
+              "courseCode": "FS 495",
+              "courseName": "Internship in Food Science",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S LEE",
+              "instructors": [
+                "S LEE"
+              ],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2784",
+              "sln": 2784,
+              "sectionNumber": 2,
+              "courseCode": "FS 495",
+              "courseName": "Internship in Food Science",
+              "credits": "2",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "FS",
+          "subjectPrefix": "FS",
+          "courseNumber": 499,
+          "courseCode": "FS 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2646",
+              "sln": 2646,
+              "sectionNumber": 1,
+              "courseCode": "FS 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": true,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Master's Research, Thesis, and/or Examination",
+          "subject": "FS",
+          "subjectPrefix": "FS",
+          "courseNumber": 700,
+          "courseCode": "FS 700",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2647",
+              "sln": 2647,
+              "sectionNumber": 1,
+              "courseCode": "FS 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G GANJYAL",
+              "instructors": [
+                "G GANJYAL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2698",
+              "sln": 2698,
+              "sectionNumber": 2,
+              "courseCode": "FS 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C MURPHY",
+              "instructors": [
+                "C MURPHY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2699",
+              "sln": 2699,
+              "sectionNumber": 3,
+              "courseCode": "FS 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C ROSS",
+              "instructors": [
+                "C ROSS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2700",
+              "sln": 2700,
+              "sectionNumber": 4,
+              "courseCode": "FS 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SMITH",
+              "instructors": [
+                "S SMITH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2701",
+              "sln": 2701,
+              "sectionNumber": 5,
+              "courseCode": "FS 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M ZHU",
+              "instructors": [
+                "M ZHU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2859",
+              "sln": 2859,
+              "sectionNumber": 6,
+              "courseCode": "FS 700",
+              "courseName": "Master's Research, Thesis, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G UNLU",
+              "instructors": [
+                "G UNLU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Doctoral Research, Dissertation, and/or Examination",
+          "subject": "FS",
+          "subjectPrefix": "FS",
+          "courseNumber": 800,
+          "courseCode": "FS 800",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2648",
+              "sln": 2648,
+              "sectionNumber": 1,
+              "courseCode": "FS 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "G GANJYAL",
+              "instructors": [
+                "G GANJYAL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2697",
+              "sln": 2697,
+              "sectionNumber": 2,
+              "courseCode": "FS 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C MURPHY",
+              "instructors": [
+                "C MURPHY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2799",
+              "sln": 2799,
+              "sectionNumber": 3,
+              "courseCode": "FS 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C ROSS",
+              "instructors": [
+                "C ROSS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2860",
+              "sln": 2860,
+              "sectionNumber": 4,
+              "courseCode": "FS 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "S SMITH",
+              "instructors": [
+                "S SMITH"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            },
+            {
+              "sectionId": "2861",
+              "sln": 2861,
+              "sectionNumber": 5,
+              "courseCode": "FS 800",
+              "courseName": "Doctoral Research, Dissertation, and/or Examination",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M ZHU",
+              "instructors": [
+                "M ZHU"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 5,
+                "available": 5,
+                "label": "0/5"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HONORS",
+      "courses": [
+        {
+          "course": "Case Study: Global Issues in the Arts and Humanities",
+          "subject": "HONORS",
+          "subjectPrefix": "U H",
+          "courseNumber": 380,
+          "courseCode": "HONORS 380",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2961",
+              "sln": 2961,
+              "sectionNumber": 1,
+              "courseCode": "HONORS 380",
+              "courseName": "Case Study: Global Issues in the Arts and Humanities",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "",
+              "instructors": [],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 0,
+                "total": 30,
+                "available": 30,
+                "label": "0/30"
+              },
+              "dates": {
+                "start": "Jun 21",
+                "end": "Aug 01"
               }
             }
           ]
@@ -5303,6 +6036,54 @@
     {
       "subject": "PL_P",
       "courses": [
+        {
+          "course": "Special Problems",
+          "subject": "PL_P",
+          "subjectPrefix": "Pl P",
+          "courseNumber": 499,
+          "courseCode": "PL_P 499",
+          "credits": "V",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2858",
+              "sln": 2858,
+              "sectionNumber": 1,
+              "courseCode": "PL_P 499",
+              "courseName": "Special Problems",
+              "credits": "V",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "M LANGE",
+              "instructors": [
+                "M LANGE"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 0,
+                "total": 15,
+                "available": 15,
+                "label": "0/15"
+              },
+              "dates": {
+                "start": "May 10",
+                "end": "Jul 30"
+              }
+            }
+          ]
+        },
         {
           "course": "Master's Research, Thesis, and/or Examination",
           "subject": "PL_P",
