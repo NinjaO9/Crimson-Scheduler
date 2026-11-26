@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T15:19:44.143862+00:00",
+  "generatedAt": "2026-11-26T16:19:09.962931+00:00",
   "campus": "Tri-Cities",
   "term": "Fall 2026",
   "subjects": [
@@ -6380,6 +6380,59 @@
                 "total": 5,
                 "available": 5,
                 "label": "0/5"
+              },
+              "dates": {
+                "start": "Aug 24",
+                "end": "Dec 11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DATA",
+      "courses": [
+        {
+          "course": "Introduction to Data Analytics",
+          "subject": "DATA",
+          "subjectPrefix": "DATA",
+          "courseNumber": 115,
+          "courseCode": "DATA 115",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11208",
+              "sln": 11208,
+              "sectionNumber": 1,
+              "courseCode": "DATA 115",
+              "courseName": "Introduction to Data Analytics",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "TFLO 260",
+              "instructor": "F MCGRADE",
+              "instructors": [
+                "F MCGRADE"
+              ],
+              "ucore": "QUAN",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 10,
+                "available": 6,
+                "label": "4/10"
               },
               "dates": {
                 "start": "Aug 24",

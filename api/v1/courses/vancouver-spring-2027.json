@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T15:19:44.206445+00:00",
+  "generatedAt": "2026-11-26T16:19:10.042139+00:00",
   "campus": "Vancouver",
   "term": "Spring 2027",
   "subjects": [
@@ -1121,10 +1121,10 @@
               "coop": true,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 20,
-                "available": 18,
-                "label": "2/20"
+                "available": 17,
+                "label": "3/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -1169,10 +1169,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 20,
-                "available": 15,
-                "label": "5/20"
+                "available": 14,
+                "label": "6/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3663,6 +3663,155 @@
       ]
     },
     {
+      "subject": "CES",
+      "courses": [
+        {
+          "course": "Race and Racism in the United States",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 101,
+          "courseCode": "CES 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11426",
+              "sln": 11426,
+              "sectionNumber": 1,
+              "courseCode": "CES 101",
+              "courseName": "Race and Racism in the United States",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VMMC 16",
+              "instructor": "M BLOODSWORTH-LUGO",
+              "instructors": [
+                "M BLOODSWORTH-LUGO"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 40,
+                "total": 40,
+                "available": 0,
+                "label": "40/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Race and Racism in U.S. Popular Culture",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 260,
+          "courseCode": "CES 260",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2600",
+              "sln": 2600,
+              "sectionNumber": 1,
+              "courseCode": "CES 260",
+              "courseName": "Race and Racism in U.S. Popular Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VMMC 16",
+              "instructor": "M BLOODSWORTH-LUGO",
+              "instructors": [
+                "M BLOODSWORTH-LUGO"
+              ],
+              "ucore": "HUM",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 30,
+                "total": 40,
+                "available": 10,
+                "label": "30/40"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Workers Across North America",
+          "subject": "CES",
+          "subjectPrefix": "CES",
+          "courseNumber": 426,
+          "courseCode": "CES 426",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11920",
+              "sln": 11920,
+              "sectionNumber": 1,
+              "courseCode": "CES 426",
+              "courseName": "Workers Across North America",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "I GONZALEZ-SOTO",
+              "instructors": [
+                "I GONZALEZ-SOTO"
+              ],
+              "ucore": "EQJS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 5,
+                "total": 10,
+                "available": 5,
+                "label": "5/10"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "subject": "CHEM",
       "courses": [
         {
@@ -4935,10 +5084,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 29,
+                "taken": 30,
                 "total": 32,
-                "available": 3,
-                "label": "29/32"
+                "available": 2,
+                "label": "30/32"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6025,10 +6174,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 30,
+                "taken": 31,
                 "total": 55,
-                "available": 25,
-                "label": "30/55"
+                "available": 24,
+                "label": "31/55"
               },
               "dates": {
                 "start": "Jan 11",
@@ -6705,6 +6854,942 @@
                 "total": 6,
                 "available": 4,
                 "label": "2/6"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DATA",
+      "courses": []
+    },
+    {
+      "subject": "DTC",
+      "courses": [
+        {
+          "course": "Introduction to Digital Technology and Culture",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 101,
+          "courseCode": "DTC 101",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2720",
+              "sln": 2720,
+              "sectionNumber": 1,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "M RABBY",
+              "instructors": [
+                "M RABBY"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 30,
+                "total": 45,
+                "available": 15,
+                "label": "30/45"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2721",
+              "sln": 2721,
+              "sectionNumber": 2,
+              "courseCode": "DTC 101",
+              "courseName": "Introduction to Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "VMMC 22",
+              "instructor": "M RABBY",
+              "instructors": [
+                "M RABBY"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 10,
+                "total": 45,
+                "available": 35,
+                "label": "10/45"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Tools and Methods for Digital Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 201,
+          "courseCode": "DTC 201",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2727",
+              "sln": 2727,
+              "sectionNumber": 1,
+              "courseCode": "DTC 201",
+              "courseName": "Tools and Methods for Digital Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "09:10 - 10:25",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "09:10 - 10:25"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "B GRELL",
+              "instructors": [
+                "B GRELL"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 7,
+                "total": 24,
+                "available": 17,
+                "label": "7/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "2734",
+              "sln": 2734,
+              "sectionNumber": 2,
+              "courseCode": "DTC 201",
+              "courseName": "Tools and Methods for Digital Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "B GRELL",
+              "instructors": [
+                "B GRELL"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 16,
+                "total": 24,
+                "available": 8,
+                "label": "16/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Social Media Practices",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 331,
+          "courseCode": "DTC 331",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2911",
+              "sln": 2911,
+              "sectionNumber": 1,
+              "courseCode": "DTC 331",
+              "courseName": "Social Media Practices",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VLIB 260",
+              "instructor": "M RABBY",
+              "instructors": [
+                "M RABBY"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 30,
+                "available": 17,
+                "label": "13/30"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Multimedia Design",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 336,
+          "courseCode": "DTC 336",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2689",
+              "sln": 2689,
+              "sectionNumber": 1,
+              "courseCode": "DTC 336",
+              "courseName": "Multimedia Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "14:10 - 17:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "14:10 - 17:00"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "C DREGER",
+              "instructors": [
+                "C DREGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 15,
+                "total": 24,
+                "available": 9,
+                "label": "15/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Topics in Digital Technology and Culture",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 338,
+          "courseCode": "DTC 338",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "11840",
+              "sln": 11840,
+              "sectionNumber": 1,
+              "courseCode": "DTC 338",
+              "courseName": "Special Topics in Digital Technology and Culture",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "D GRIGAR",
+              "instructors": [
+                "D GRIGAR"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Digital Storytelling",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 354,
+          "courseCode": "DTC 354",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2722",
+              "sln": 2722,
+              "sectionNumber": 1,
+              "courseCode": "DTC 354",
+              "courseName": "Digital Storytelling",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "13:30 - 16:10",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "13:30 - 16:10"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "W LUERS",
+              "instructors": [
+                "W LUERS"
+              ],
+              "ucore": "ARTS",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 17,
+                "total": 24,
+                "available": 7,
+                "label": "17/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Web Design and Development",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 355,
+          "courseCode": "DTC 355",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2693",
+              "sln": 2693,
+              "sectionNumber": 1,
+              "courseCode": "DTC 355",
+              "courseName": "Introduction to Web Design and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "H SLOCUM",
+              "instructors": [
+                "H SLOCUM"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 13,
+                "total": 24,
+                "available": 11,
+                "label": "13/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Information Structures",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 356,
+          "courseCode": "DTC 356",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2690",
+              "sln": 2690,
+              "sectionNumber": 1,
+              "courseCode": "DTC 356",
+              "courseName": "Information Structures",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "12:05 - 13:20",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "12:05 - 13:20"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "J BARBER",
+              "instructors": [
+                "J BARBER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 24,
+                "available": 5,
+                "label": "19/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Language, Texts and Technology",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 375,
+          "courseCode": "DTC 375",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2714",
+              "sln": 2714,
+              "sectionNumber": 1,
+              "courseCode": "DTC 375",
+              "courseName": "Language, Texts and Technology",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W",
+              "time": "10:35 - 11:50",
+              "meetings": [
+                {
+                  "days": "M,W",
+                  "time": "10:35 - 11:50"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "J BARBER",
+              "instructors": [
+                "J BARBER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 19,
+                "total": 24,
+                "available": 5,
+                "label": "19/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Animation",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 435,
+          "courseCode": "DTC 435",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2735",
+              "sln": 2735,
+              "sectionNumber": 1,
+              "courseCode": "DTC 435",
+              "courseName": "Advanced Animation",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "F",
+              "time": "11:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "F",
+                  "time": "11:10 - 14:00"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "B GRELL",
+              "instructors": [
+                "B GRELL"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 8,
+                "total": 24,
+                "available": 16,
+                "label": "8/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Multimedia Design",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 436,
+          "courseCode": "DTC 436",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2910",
+              "sln": 2910,
+              "sectionNumber": 1,
+              "courseCode": "DTC 436",
+              "courseName": "Advanced Multimedia Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "13:30 - 14:45",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "13:30 - 14:45"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "C DREGER",
+              "instructors": [
+                "C DREGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "C",
+              "seats": {
+                "taken": 15,
+                "total": 24,
+                "available": 9,
+                "label": "15/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Web Design and Development",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 477,
+          "courseCode": "DTC 477",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2691",
+              "sln": 2691,
+              "sectionNumber": 1,
+              "courseCode": "DTC 477",
+              "courseName": "Advanced Web Design and Development",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "16:20 - 17:35",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "16:20 - 17:35"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "W LUERS",
+              "instructors": [
+                "W LUERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 11,
+                "total": 24,
+                "available": 13,
+                "label": "11/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Usability and Interface Design",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 478,
+          "courseCode": "DTC 478",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2970",
+              "sln": 2970,
+              "sectionNumber": 1,
+              "courseCode": "DTC 478",
+              "courseName": "Usability and Interface Design",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU,TH",
+              "time": "14:55 - 16:10",
+              "meetings": [
+                {
+                  "days": "TU,TH",
+                  "time": "14:55 - 16:10"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "C DREGER",
+              "instructors": [
+                "C DREGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 9,
+                "total": 24,
+                "available": 15,
+                "label": "9/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Advanced Digital Cinema",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 491,
+          "courseCode": "DTC 491",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2909",
+              "sln": 2909,
+              "sectionNumber": 1,
+              "courseCode": "DTC 491",
+              "courseName": "Advanced Digital Cinema",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "TU",
+              "time": "17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "TU",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "W LUERS",
+              "instructors": [
+                "W LUERS"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 4,
+                "total": 24,
+                "available": 20,
+                "label": "4/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Engines and Platforms",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 492,
+          "courseCode": "DTC 492",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2748",
+              "sln": 2748,
+              "sectionNumber": 1,
+              "courseCode": "DTC 492",
+              "courseName": "Engines and Platforms",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "17:45 - 20:30",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "17:45 - 20:30"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "C PIEN",
+              "instructors": [
+                "C PIEN"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 24,
+                "total": 24,
+                "available": 0,
+                "label": "24/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Senior Seminar",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 497,
+          "courseCode": "DTC 497",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2715",
+              "sln": 2715,
+              "sectionNumber": 1,
+              "courseCode": "DTC 497",
+              "courseName": "Senior Seminar",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "W",
+              "time": "13:30 - 16:10",
+              "meetings": [
+                {
+                  "days": "W",
+                  "time": "13:30 - 16:10"
+                }
+              ],
+              "location": "VMMC 111",
+              "instructor": "D GRIGAR",
+              "instructors": [
+                "D GRIGAR"
+              ],
+              "ucore": "CAPS",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 22,
+                "total": 24,
+                "available": 2,
+                "label": "22/24"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Special Problems",
+          "subject": "DTC",
+          "subjectPrefix": "DTC",
+          "courseNumber": 499,
+          "courseCode": "DTC 499",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "3114",
+              "sln": 3114,
+              "sectionNumber": 1,
+              "courseCode": "DTC 499",
+              "courseName": "Special Problems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "C DREGER",
+              "instructors": [
+                "C DREGER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 7,
+                "total": 12,
+                "available": 5,
+                "label": "7/12"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            },
+            {
+              "sectionId": "12102",
+              "sln": 12102,
+              "sectionNumber": 2,
+              "courseCode": "DTC 499",
+              "courseName": "Special Problems",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M",
+              "time": "14:55 - 15:45",
+              "meetings": [
+                {
+                  "days": "M",
+                  "time": "14:55 - 15:45"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "D GRIGAR",
+              "instructors": [
+                "D GRIGAR"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "S",
+              "seats": {
+                "taken": 6,
+                "total": 12,
+                "available": 6,
+                "label": "6/12"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12310,10 +13395,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 32,
+                "taken": 33,
                 "total": 35,
-                "available": 3,
-                "label": "32/35"
+                "available": 2,
+                "label": "33/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12598,10 +13683,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 20,
-                "available": 3,
-                "label": "17/20"
+                "available": 2,
+                "label": "18/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -12742,10 +13827,10 @@
               "coop": false,
               "footnotes": "X",
               "seats": {
-                "taken": 12,
+                "taken": 13,
                 "total": 30,
-                "available": 18,
-                "label": "12/30"
+                "available": 17,
+                "label": "13/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18617,10 +19702,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 22,
-                "available": 12,
-                "label": "10/22"
+                "available": 11,
+                "label": "11/22"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18669,10 +19754,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 22,
-                "available": 12,
-                "label": "10/22"
+                "available": 11,
+                "label": "11/22"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18721,10 +19806,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 14,
+                "taken": 15,
                 "total": 31,
-                "available": 17,
-                "label": "14/31"
+                "available": 16,
+                "label": "15/31"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18758,10 +19843,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 14,
+                "taken": 15,
                 "total": 31,
-                "available": 17,
-                "label": "14/31"
+                "available": 16,
+                "label": "15/31"
               },
               "dates": {
                 "start": "Jan 11",
@@ -22949,10 +24034,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 30,
-                "available": 28,
-                "label": "2/30"
+                "available": 27,
+                "label": "3/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23045,10 +24130,10 @@
               "coop": false,
               "footnotes": "",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 15,
-                "available": 10,
-                "label": "5/15"
+                "available": 9,
+                "label": "6/15"
               },
               "dates": {
                 "start": "Jan 11",
@@ -24733,6 +25818,155 @@
                 "total": 3,
                 "available": 3,
                 "label": "0/3"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SPANISH",
+      "courses": [
+        {
+          "course": "Second Semester",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 102,
+          "courseCode": "SPANISH 102",
+          "credits": "4",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2598",
+              "sln": 2598,
+              "sectionNumber": 1,
+              "courseCode": "SPANISH 102",
+              "courseName": "Second Semester",
+              "credits": "4",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,TU,W,TH",
+              "time": "13:30 - 14:20",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH",
+                  "time": "13:30 - 14:20"
+                }
+              ],
+              "location": "VUB  222",
+              "instructor": "A MATSUMOTO",
+              "instructors": [
+                "A MATSUMOTO"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 12,
+                "total": 20,
+                "available": 8,
+                "label": "12/20"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Fourth Semester",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 204,
+          "courseCode": "SPANISH 204",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "2992",
+              "sln": 2992,
+              "sectionNumber": 1,
+              "courseCode": "SPANISH 204",
+              "courseName": "Fourth Semester",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "13:10 - 14:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "13:10 - 14:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "B DE QUINTANA LASA",
+              "instructors": [
+                "B DE QUINTANA LASA"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 3,
+                "total": 9,
+                "available": 6,
+                "label": "3/9"
+              },
+              "dates": {
+                "start": "Jan 11",
+                "end": "Apr 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Intermediate Grammar and Writing",
+          "subject": "SPANISH",
+          "subjectPrefix": "Span",
+          "courseNumber": 308,
+          "courseCode": "SPANISH 308",
+          "credits": "3",
+          "hasRequiredLab": false,
+          "sections": [
+            {
+              "sectionId": "7757",
+              "sln": 7757,
+              "sectionNumber": 2,
+              "courseCode": "SPANISH 308",
+              "courseName": "Intermediate Grammar and Writing",
+              "credits": "3",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": false,
+              "days": "M,W,F",
+              "time": "10:10 - 11:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "10:10 - 11:00"
+                }
+              ],
+              "location": "VC   VAN",
+              "instructor": "E AVALOS MOLINA",
+              "instructors": [
+                "E AVALOS MOLINA"
+              ],
+              "ucore": "WRTG",
+              "coop": false,
+              "footnotes": "",
+              "seats": {
+                "taken": 1,
+                "total": 5,
+                "available": 4,
+                "label": "1/5"
               },
               "dates": {
                 "start": "Jan 11",
