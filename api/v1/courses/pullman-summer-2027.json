@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T00:16:54.925180+00:00",
+  "generatedAt": "2026-11-26T01:16:49.049140+00:00",
   "campus": "Pullman",
   "term": "Summer 2027",
   "subjects": [
@@ -498,6 +498,176 @@
               "dates": {
                 "start": "May 17",
                 "end": "May 30"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Machining",
+          "subject": "AGTM",
+          "subjectPrefix": "AgTM",
+          "courseNumber": 203,
+          "courseCode": "AGTM 203",
+          "credits": "1",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3045",
+              "sln": 3045,
+              "sectionNumber": 1,
+              "courseCode": "AGTM 203",
+              "courseName": "Machining",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "ARR",
+              "time": "ARRGT",
+              "meetings": [
+                {
+                  "days": "ARR",
+                  "time": "ARRGT"
+                }
+              ],
+              "location": "ARR  ARR",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jun 13"
+              }
+            },
+            {
+              "sectionId": "3046",
+              "sln": 3046,
+              "sectionNumber": 1,
+              "courseCode": "AGTM 203",
+              "courseName": "Machining",
+              "credits": "1",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "May 31",
+                "end": "Jun 13"
+              }
+            }
+          ]
+        },
+        {
+          "course": "Metal Fabrication",
+          "subject": "AGTM",
+          "subjectPrefix": "AgTM",
+          "courseNumber": 204,
+          "courseCode": "AGTM 204",
+          "credits": "1",
+          "hasRequiredLab": true,
+          "sections": [
+            {
+              "sectionId": "3047",
+              "sln": 3047,
+              "sectionNumber": 1,
+              "courseCode": "AGTM 204",
+              "courseName": "Metal Fabrication",
+              "credits": "1",
+              "component": "Lecture",
+              "isLab": false,
+              "hasRequiredLab": true,
+              "days": "M,W,F",
+              "time": "12:10 - 13:00",
+              "meetings": [
+                {
+                  "days": "M,W,F",
+                  "time": "12:10 - 13:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Jun 14",
+                "end": "Jun 27"
+              }
+            },
+            {
+              "sectionId": "3048",
+              "sln": 3048,
+              "sectionNumber": 1,
+              "courseCode": "AGTM 204",
+              "courseName": "Metal Fabrication",
+              "credits": "1",
+              "component": "LAB",
+              "isLab": true,
+              "hasRequiredLab": true,
+              "days": "M,TU,W,TH,F",
+              "time": "13:10 - 16:00",
+              "meetings": [
+                {
+                  "days": "M,TU,W,TH,F",
+                  "time": "13:10 - 16:00"
+                }
+              ],
+              "location": "GUC  PUL",
+              "instructor": "J BASER",
+              "instructors": [
+                "J BASER"
+              ],
+              "ucore": "",
+              "coop": false,
+              "footnotes": "X",
+              "seats": {
+                "taken": 0,
+                "total": 6,
+                "available": 6,
+                "label": "0/6"
+              },
+              "dates": {
+                "start": "Jun 14",
+                "end": "Jun 27"
               }
             }
           ]

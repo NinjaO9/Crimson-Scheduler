@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T00:16:54.658269+00:00",
+  "generatedAt": "2026-11-26T01:16:48.792462+00:00",
   "campus": "Global",
   "term": "Spring 2027",
   "subjects": [
@@ -43,10 +43,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 17,
+                "taken": 19,
                 "total": 30,
-                "available": 13,
-                "label": "17/30"
+                "available": 11,
+                "label": "19/30"
               },
               "dates": {
                 "start": "Mar 08",
@@ -1679,10 +1679,10 @@
               "coop": false,
               "footnotes": "CV",
               "seats": {
-                "taken": 31,
+                "taken": 32,
                 "total": 70,
-                "available": 39,
-                "label": "31/70"
+                "available": 38,
+                "label": "32/70"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2125,10 +2125,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 19,
+                "taken": 20,
                 "total": 45,
-                "available": 26,
-                "label": "19/45"
+                "available": 25,
+                "label": "20/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2162,10 +2162,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 5,
+                "taken": 6,
                 "total": 45,
-                "available": 40,
-                "label": "5/45"
+                "available": 39,
+                "label": "6/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2258,10 +2258,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 13,
+                "taken": 14,
                 "total": 35,
-                "available": 22,
-                "label": "13/35"
+                "available": 21,
+                "label": "14/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2587,10 +2587,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 22,
+                "taken": 24,
                 "total": 35,
-                "available": 13,
-                "label": "22/35"
+                "available": 11,
+                "label": "24/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -2857,10 +2857,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 32,
+                "taken": 33,
                 "total": 35,
-                "available": 3,
-                "label": "32/35"
+                "available": 2,
+                "label": "33/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -3064,10 +3064,10 @@
               "coop": false,
               "footnotes": "VS",
               "seats": {
-                "taken": 14,
+                "taken": 15,
                 "total": 35,
-                "available": 21,
-                "label": "14/35"
+                "available": 20,
+                "label": "15/35"
               },
               "dates": {
                 "start": "Jan 11",
@@ -4196,10 +4196,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 19,
+                "taken": 21,
                 "total": 25,
-                "available": 6,
-                "label": "19/25"
+                "available": 4,
+                "label": "21/25"
               },
               "dates": {
                 "start": "Jan 11",
@@ -7781,1186 +7781,6 @@
                 "total": 9,
                 "available": 9,
                 "label": "0/9"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subject": "DATA",
-      "courses": [
-        {
-          "course": "Introduction to Data Analytics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 115,
-          "courseCode": "DATA 115",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9444",
-              "sln": 9444,
-              "sectionNumber": 1,
-              "courseCode": "DATA 115",
-              "courseName": "Introduction to Data Analytics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A AVERY",
-              "instructors": [
-                "A AVERY"
-              ],
-              "ucore": "QUAN",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 9,
-                "total": 35,
-                "available": 26,
-                "label": "9/35"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Computational Calculus I",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 121,
-          "courseCode": "DATA 121",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9878",
-              "sln": 9878,
-              "sectionNumber": 1,
-              "courseCode": "DATA 121",
-              "courseName": "Computational Calculus I",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "Y ZHANG",
-              "instructors": [
-                "Y ZHANG"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 2,
-                "total": 15,
-                "available": 13,
-                "label": "2/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Computational Calculus II",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 122,
-          "courseCode": "DATA 122",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11282",
-              "sln": 11282,
-              "sectionNumber": 1,
-              "courseCode": "DATA 122",
-              "courseName": "Computational Calculus II",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "C PARKER",
-              "instructors": [
-                "C PARKER"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 9,
-                "total": 10,
-                "available": 1,
-                "label": "9/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Data Structures for Data Analytics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 219,
-          "courseCode": "DATA 219",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9463",
-              "sln": 9463,
-              "sectionNumber": 1,
-              "courseCode": "DATA 219",
-              "courseName": "Data Structures for Data Analytics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B CHOUDHURY",
-              "instructors": [
-                "B CHOUDHURY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 12,
-                "total": 30,
-                "available": 18,
-                "label": "12/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Linear Algebra with Modern Applications",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 225,
-          "courseCode": "DATA 225",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9455",
-              "sln": 9455,
-              "sectionNumber": 1,
-              "courseCode": "DATA 225",
-              "courseName": "Linear Algebra with Modern Applications",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J MCDONALD",
-              "instructors": [
-                "J MCDONALD"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VX",
-              "seats": {
-                "taken": 5,
-                "total": 25,
-                "available": 20,
-                "label": "5/25"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to R",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 301,
-          "courseCode": "DATA 301",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9464",
-              "sln": 9464,
-              "sectionNumber": 1,
-              "courseCode": "DATA 301",
-              "courseName": "Introduction to R",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A AVERY",
-              "instructors": [
-                "A AVERY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VS",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to Python",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 302,
-          "courseCode": "DATA 302",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9465",
-              "sln": 9465,
-              "sectionNumber": 1,
-              "courseCode": "DATA 302",
-              "courseName": "Introduction to Python",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A AVERY",
-              "instructors": [
-                "A AVERY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VS",
-              "seats": {
-                "taken": 2,
-                "total": 10,
-                "available": 8,
-                "label": "2/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Introduction to SQL - The Structured Query Language",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 303,
-          "courseCode": "DATA 303",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9466",
-              "sln": 9466,
-              "sectionNumber": 1,
-              "courseCode": "DATA 303",
-              "courseName": "Introduction to SQL - The Structured Query Language",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A AVERY",
-              "instructors": [
-                "A AVERY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VS",
-              "seats": {
-                "taken": 11,
-                "total": 30,
-                "available": 19,
-                "label": "11/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Professional Development for Data Analytics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 310,
-          "courseCode": "DATA 310",
-          "credits": "1",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11656",
-              "sln": 11656,
-              "sectionNumber": 1,
-              "courseCode": "DATA 310",
-              "courseName": "Professional Development for Data Analytics",
-              "credits": "1",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VS",
-              "seats": {
-                "taken": 1,
-                "total": 10,
-                "available": 9,
-                "label": "1/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Model-based and Data-based Methods for Data Analytics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 319,
-          "courseCode": "DATA 319",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9680",
-              "sln": 9680,
-              "sectionNumber": 1,
-              "courseCode": "DATA 319",
-              "courseName": "Model-based and Data-based Methods for Data Analytics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A AVERY",
-              "instructors": [
-                "A AVERY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Probability and Statistics",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 360,
-          "courseCode": "DATA 360",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9778",
-              "sln": 9778,
-              "sectionNumber": 1,
-              "courseCode": "DATA 360",
-              "courseName": "Probability and Statistics",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "W XIE",
-              "instructors": [
-                "W XIE"
-              ],
-              "ucore": "",
-              "coop": true,
-              "footnotes": "VX",
-              "seats": {
-                "taken": 3,
-                "total": 50,
-                "available": 47,
-                "label": "3/50"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Data Analytics Capstone",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 424,
-          "courseCode": "DATA 424",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9409",
-              "sln": 9409,
-              "sectionNumber": 1,
-              "courseCode": "DATA 424",
-              "courseName": "Data Analytics Capstone",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S LAPIN",
-              "instructors": [
-                "S LAPIN"
-              ],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 8,
-                "total": 9,
-                "available": 1,
-                "label": "8/9"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "9876",
-              "sln": 9876,
-              "sectionNumber": 2,
-              "courseCode": "DATA 424",
-              "courseName": "Data Analytics Capstone",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "CAPS",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 9,
-                "available": 9,
-                "label": "0/9"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "High Dimensional Data Learning and Visualization",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 437,
-          "courseCode": "DATA 437",
-          "credits": "3",
-          "hasRequiredLab": true,
-          "sections": [
-            {
-              "sectionId": "9637",
-              "sln": 9637,
-              "sectionNumber": 1,
-              "courseCode": "DATA 437",
-              "courseName": "High Dimensional Data Learning and Visualization",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": true,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VX",
-              "seats": {
-                "taken": 5,
-                "total": 19,
-                "available": 14,
-                "label": "5/19"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            },
-            {
-              "sectionId": "11579",
-              "sln": 11579,
-              "sectionNumber": 1,
-              "courseCode": "DATA 437",
-              "courseName": "High Dimensional Data Learning and Visualization",
-              "credits": "3",
-              "component": "LAB",
-              "isLab": true,
-              "hasRequiredLab": true,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "",
-              "instructors": [],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VX",
-              "seats": {
-                "taken": 5,
-                "total": 20,
-                "available": 15,
-                "label": "5/20"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Statistical Foundations in Artificial Intelligence",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 460,
-          "courseCode": "DATA 460",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11913",
-              "sln": 11913,
-              "sectionNumber": 1,
-              "courseCode": "DATA 460",
-              "courseName": "Statistical Foundations in Artificial Intelligence",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B CHOUDHURY",
-              "instructors": [
-                "B CHOUDHURY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VX",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Mathematical Foundations of AI",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 461,
-          "courseCode": "DATA 461",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11914",
-              "sln": 11914,
-              "sectionNumber": 1,
-              "courseCode": "DATA 461",
-              "courseName": "Mathematical Foundations of AI",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B CHOUDHURY",
-              "instructors": [
-                "B CHOUDHURY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Internship",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 498,
-          "courseCode": "DATA 498",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9446",
-              "sln": 9446,
-              "sectionNumber": 1,
-              "courseCode": "DATA 498",
-              "courseName": "Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S LAPIN",
-              "instructors": [
-                "S LAPIN"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "CVS",
-              "seats": {
-                "taken": 0,
-                "total": 15,
-                "available": 15,
-                "label": "0/15"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Data Science Primer",
-          "subject": "DATA",
-          "subjectPrefix": "DATA",
-          "courseNumber": 501,
-          "courseCode": "DATA 501",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11741",
-              "sln": 11741,
-              "sectionNumber": 1,
-              "courseCode": "DATA 501",
-              "courseName": "Data Science Primer",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "B CHOUDHURY",
-              "instructors": [
-                "B CHOUDHURY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 0,
-                "total": 10,
-                "available": 10,
-                "label": "0/10"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "subject": "DTC",
-      "courses": [
-        {
-          "course": "Tools and Methods for Digital Technology",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 201,
-          "courseCode": "DTC 201",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "12073",
-              "sln": 12073,
-              "sectionNumber": 1,
-              "courseCode": "DTC 201",
-              "courseName": "Tools and Methods for Digital Technology",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "S PARK",
-              "instructors": [
-                "S PARK"
-              ],
-              "ucore": "ARTS",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 10,
-                "total": 30,
-                "available": 20,
-                "label": "10/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Internet Revolutions",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 202,
-          "courseCode": "DTC 202",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10061",
-              "sln": 10061,
-              "sectionNumber": 1,
-              "courseCode": "DTC 202",
-              "courseName": "Internet Revolutions",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "J RIDDLE",
-              "instructors": [
-                "J RIDDLE"
-              ],
-              "ucore": "COMM",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 8,
-                "total": 30,
-                "available": 22,
-                "label": "8/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Digital Inclusion",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 206,
-          "courseCode": "DTC 206",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "10062",
-              "sln": 10062,
-              "sectionNumber": 1,
-              "courseCode": "DTC 206",
-              "courseName": "Digital Inclusion",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A CANALES",
-              "instructors": [
-                "A CANALES"
-              ],
-              "ucore": "DIVR",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 8,
-                "total": 30,
-                "available": 22,
-                "label": "8/30"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Social Media Practices",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 331,
-          "courseCode": "DTC 331",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9842",
-              "sln": 9842,
-              "sectionNumber": 1,
-              "courseCode": "DTC 331",
-              "courseName": "Social Media Practices",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "V VARAY",
-              "instructors": [
-                "V VARAY"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "V",
-              "seats": {
-                "taken": 13,
-                "total": 16,
-                "available": 3,
-                "label": "13/16"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Digital Storytelling",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 354,
-          "courseCode": "DTC 354",
-          "credits": "3",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "11766",
-              "sln": 11766,
-              "sectionNumber": 1,
-              "courseCode": "DTC 354",
-              "courseName": "Digital Storytelling",
-              "credits": "3",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A CANALES",
-              "instructors": [
-                "A CANALES"
-              ],
-              "ucore": "ARTS",
-              "coop": false,
-              "footnotes": "VX",
-              "seats": {
-                "taken": 18,
-                "total": 29,
-                "available": 11,
-                "label": "18/29"
-              },
-              "dates": {
-                "start": "Jan 11",
-                "end": "Apr 30"
-              }
-            }
-          ]
-        },
-        {
-          "course": "Internship",
-          "subject": "DTC",
-          "subjectPrefix": "DTC",
-          "courseNumber": 498,
-          "courseCode": "DTC 498",
-          "credits": "V",
-          "hasRequiredLab": false,
-          "sections": [
-            {
-              "sectionId": "9825",
-              "sln": 9825,
-              "sectionNumber": 1,
-              "courseCode": "DTC 498",
-              "courseName": "Internship",
-              "credits": "V",
-              "component": "Lecture",
-              "isLab": false,
-              "hasRequiredLab": false,
-              "days": "ARR",
-              "time": "ARRGT",
-              "meetings": [
-                {
-                  "days": "ARR",
-                  "time": "ARRGT"
-                }
-              ],
-              "location": "ARR  ARR",
-              "instructor": "A ROCHA",
-              "instructors": [
-                "A ROCHA"
-              ],
-              "ucore": "",
-              "coop": false,
-              "footnotes": "VS",
-              "seats": {
-                "taken": 0,
-                "total": 30,
-                "available": 30,
-                "label": "0/30"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14648,10 +13468,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 8,
+                "taken": 9,
                 "total": 45,
-                "available": 37,
-                "label": "8/45"
+                "available": 36,
+                "label": "9/45"
               },
               "dates": {
                 "start": "Mar 08",
@@ -14893,10 +13713,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 10,
+                "taken": 11,
                 "total": 45,
-                "available": 35,
-                "label": "10/45"
+                "available": 34,
+                "label": "11/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -14941,10 +13761,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 24,
+                "taken": 25,
                 "total": 50,
-                "available": 26,
-                "label": "24/50"
+                "available": 25,
+                "label": "25/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -15979,10 +14799,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 6,
+                "taken": 7,
                 "total": 20,
-                "available": 14,
-                "label": "6/20"
+                "available": 13,
+                "label": "7/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16101,10 +14921,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 8,
+                "taken": 9,
                 "total": 10,
-                "available": 2,
-                "label": "8/10"
+                "available": 1,
+                "label": "9/10"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16149,10 +14969,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 17,
+                "taken": 18,
                 "total": 20,
-                "available": 3,
-                "label": "17/20"
+                "available": 2,
+                "label": "18/20"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16685,10 +15505,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 19,
+                "taken": 20,
                 "total": 50,
-                "available": 31,
-                "label": "19/50"
+                "available": 30,
+                "label": "20/50"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16733,10 +15553,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 26,
+                "taken": 28,
                 "total": 45,
-                "available": 19,
-                "label": "26/45"
+                "available": 17,
+                "label": "28/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -16781,10 +15601,10 @@
               "coop": false,
               "footnotes": "VX",
               "seats": {
-                "taken": 2,
+                "taken": 3,
                 "total": 24,
-                "available": 22,
-                "label": "2/24"
+                "available": 21,
+                "label": "3/24"
               },
               "dates": {
                 "start": "Jan 11",
@@ -18136,10 +16956,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 25,
+                "taken": 26,
                 "total": 35,
-                "available": 10,
-                "label": "25/35"
+                "available": 9,
+                "label": "26/35"
               },
               "dates": {
                 "start": "Mar 08",
@@ -20157,10 +18977,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 23,
+                "taken": 24,
                 "total": 45,
-                "available": 22,
-                "label": "23/45"
+                "available": 21,
+                "label": "24/45"
               },
               "dates": {
                 "start": "Jan 11",
@@ -23758,10 +22578,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 34,
+                "taken": 35,
                 "total": 99,
-                "available": 65,
-                "label": "34/99"
+                "available": 64,
+                "label": "35/99"
               },
               "dates": {
                 "start": "Jan 11",
@@ -24051,10 +22871,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 38,
+                "taken": 39,
                 "total": 40,
-                "available": 2,
-                "label": "38/40"
+                "available": 1,
+                "label": "39/40"
               },
               "dates": {
                 "start": "Jan 11",
@@ -24088,10 +22908,10 @@
               "coop": false,
               "footnotes": "V",
               "seats": {
-                "taken": 38,
+                "taken": 39,
                 "total": 40,
-                "available": 2,
-                "label": "38/40"
+                "available": 1,
+                "label": "39/40"
               },
               "dates": {
                 "start": "Jan 11",
